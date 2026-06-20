@@ -328,7 +328,7 @@ function renderTabs(){
     b.setAttribute("role","tab");
     b.setAttribute("aria-selected",String(m.key===active));
     b.innerHTML=`${m.label}<span class="count">${items.length||""}</span>`;
-    b.onclick=()=>{active=m.key;region="__all__";render();};
+    b.onclick=()=>{active=m.key;region="__all__";try{history.replaceState(null,"","#"+m.key);}catch(e){}render();};
     box.appendChild(b);
   });
 }
@@ -481,6 +481,9 @@ $("#sizeBtn").onclick=()=>{
 
 /* ===================== 启动 ===================== */
 loadPrefs();
+// 深链:#模块 选中标签; ?theme= 覆盖主题(便于测试/分享)
+{const h=location.hash.replace("#","");if(MODULES.some(m=>m.key===h))active=h;
+ const qt=new URLSearchParams(location.search).get("theme");if(["auto","light","dark"].includes(qt))document.documentElement.dataset.theme=qt;}
 {const t=document.documentElement.dataset.theme||"auto";$("#themeBtn").textContent=t==="dark"?"●":t==="light"?"○":"◐";}
 load();
 

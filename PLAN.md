@@ -64,14 +64,14 @@ daily-intel/
 ## 五、进度
 
 - [x] 项目骨架 + git init
-- [x] PWA 主体 `index.html`（设计系统、四模块、地区筛选、深浅色/字号、骨架/空/错误态、离线兜底）
-- [x] `manifest.json` / `sw.js` / `icon.svg`
-- [ ] PNG 图标（192/512/maskable/180）
-- [ ] 当日真实 `latest.json`（联网搜集 AI/图书馆 + iTunes 播客）
-- [ ] `pipeline/generate.py`（每日自动生成）
-- [ ] `scripts/run_daily.sh` + launchd 定时
-- [ ] 本地预览自检（无 console 报错、移动端布局、交互态）
-- [ ] 部署 GitHub Pages
+- [x] PWA 主体 `index.html`（设计系统、四模块、地区筛选、深浅色/字号、骨架/空/错误态、离线兜底、深链）
+- [x] `manifest.json` / `sw.js` / 图标（svg + 192/512/180/maskable）
+- [x] 当日真实 `latest.json`（AI 7 / 播客 21 / 图书馆 9 / 关键声音 7，全真实链接）
+- [x] `pipeline/generate.py`（每日联网生成 + iTunes 播客）
+- [x] `scripts/run_daily.sh` + launchd 定时配置
+- [x] 本地预览自检（四模块 + 深浅色，Chrome 截图核对通过）
+- [ ] 部署 GitHub Pages（待 `gh auth login`）
+- [ ] 接通每日自动刷新（待填 `ANTHROPIC_API_KEY`）
 
 ## 六、两个一次性手动步骤（需要用户）
 
