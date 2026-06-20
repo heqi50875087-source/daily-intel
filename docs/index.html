@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="auto">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>情报 · 每日情报简报</title>
+<meta name="description" content="每日汇集全球 AI、播客与图书馆领域的热点与趋势。">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#FAF7F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140F" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="情报">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ============ 设计令牌 ============ */
+:root{
+  --paper:#FAF7F0; --paper-2:#F2EDE1; --paper-3:#ECE5D6;
+  --ink:#211C15; --ink-2:#5C5346; --ink-3:#8A8170;
+  --rule:#E4DCCB; --rule-2:#D8CFBA;
+  --accent:#C0452F; --accent-soft:#F0DBCF;
+  --ai:#2E5A8C; --podcast:#A8722A; --library:#3C6E54; --voice:#7A4A86;
+  --ai-bg:#E5EAF1; --podcast-bg:#F1E6D2; --library-bg:#E1ECE4; --voice-bg:#ECE2F0;
+  --shadow:0 1px 2px rgba(33,28,21,.05), 0 8px 24px -16px rgba(33,28,21,.18);
+  --font-serif:"Noto Serif SC", Georgia, "Songti SC", serif;
+  --font-sans:"Noto Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --font-mono:ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --maxw:720px; --gap:20px;
+  --r-card:10px; --r-chip:6px;
+}
+:root[data-theme="dark"]{
+  --paper:#16140F; --paper-2:#201D16; --paper-3:#2A261C;
+  --ink:#EDE6D6; --ink-2:#B8AE9B; --ink-3:#847B68;
+  --rule:#2E2A20; --rule-2:#3A352A;
+  --accent:#E2694F; --accent-soft:#3A241D;
+  --ai:#7FA8D8; --podcast:#D6A85C; --library:#7FBE9C; --voice:#C29BD0;
+  --ai-bg:#1E2A38; --podcast-bg:#332918; --library-bg:#19281F; --voice-bg:#281E2D;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.6);
+}
+@media (prefers-color-scheme: dark){
+  :root[data-theme="auto"]{
+    --paper:#16140F; --paper-2:#201D16; --paper-3:#2A261C;
+    --ink:#EDE6D6; --ink-2:#B8AE9B; --ink-3:#847B68;
+    --rule:#2E2A20; --rule-2:#3A352A;
+    --accent:#E2694F; --accent-soft:#3A241D;
+    --ai:#7FA8D8; --podcast:#D6A85C; --library:#7FBE9C; --voice:#C29BD0;
+    --ai-bg:#1E2A38; --podcast-bg:#332918; --library-bg:#19281F; --voice-bg:#281E2D;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.6);
+  }
+}
+:root[data-size="large"]{ --scale:1.12; }
+:root[data-size="xlarge"]{ --scale:1.24; }
+:root{ --scale:1; }
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--font-sans); line-height:1.6;
+  font-size:calc(16px * var(--scale));
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  padding-bottom:calc(40px + env(safe-area-inset-bottom));
+  transition:background .4s ease, color .4s ease;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gap)}
+a{color:inherit;text-decoration:none}
+
+/* ============ 报头 ============ */
+.masthead{
+  padding:calc(22px + env(safe-area-inset-top)) 0 16px;
+  border-bottom:1px solid var(--rule);
+  background:var(--paper);
+}
+.masthead-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.brand{display:flex;flex-direction:column;gap:2px}
+.brand h1{
+  font-family:var(--font-serif);font-weight:700;
+  font-size:clamp(30px,8vw,42px);line-height:1;letter-spacing:.04em;
+}
+.brand .sub{
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--ink-3);margin-top:6px;
+}
+.tools{display:flex;gap:8px;flex-shrink:0}
+.icon-btn{
+  width:38px;height:38px;border:1px solid var(--rule-2);border-radius:9px;
+  background:transparent;color:var(--ink-2);cursor:pointer;
+  display:grid;place-items:center;font-size:15px;
+  transition:all .2s ease;font-family:var(--font-mono);
+}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent)}
+.icon-btn:active{transform:scale(.94)}
+.masthead-meta{
+  display:flex;align-items:baseline;gap:10px;margin-top:14px;
+  font-family:var(--font-mono);font-size:12px;color:var(--ink-3);
+  flex-wrap:wrap;
+}
+.masthead-meta .date{color:var(--ink-2);font-weight:500}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;
+  box-shadow:0 0 0 0 var(--accent);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(192,69,47,.4)}70%{box-shadow:0 0 0 6px rgba(192,69,47,0)}100%{box-shadow:0 0 0 0 rgba(192,69,47,0)}}
+
+/* ============ 标签导航 ============ */
+.tabs{
+  position:sticky;top:0;z-index:20;background:var(--paper);
+  border-bottom:1px solid var(--rule);
+  -webkit-backdrop-filter:saturate(1.4) blur(8px);backdrop-filter:saturate(1.4) blur(8px);
+}
+.tabs-inner{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.tabs-inner::-webkit-scrollbar{display:none}
+.tab{
+  flex:0 0 auto;padding:14px 6px;margin-right:18px;background:none;border:none;cursor:pointer;
+  font-family:var(--font-serif);font-size:calc(16px * var(--scale));font-weight:600;
+  color:var(--ink-3);position:relative;white-space:nowrap;transition:color .2s ease;
+}
+.tab:last-child{margin-right:0}
+.tab[aria-selected="true"]{color:var(--ink)}
+.tab[aria-selected="true"]::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;
+  background:var(--accent);border-radius:2px 2px 0 0;
+}
+.tab .count{font-family:var(--font-mono);font-size:10px;color:var(--ink-3);
+  margin-left:5px;font-weight:400;vertical-align:super}
+
+/* ============ 工具条:地区筛选 ============ */
+.toolbar{padding:14px 0 2px;display:none}
+.toolbar.show{display:block}
+.chips{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:0 0 auto;padding:6px 13px;border:1px solid var(--rule-2);border-radius:20px;
+  background:transparent;color:var(--ink-2);cursor:pointer;font-size:13px;
+  font-family:var(--font-sans);transition:all .18s ease;white-space:nowrap;
+}
+.chip:hover{border-color:var(--ink-3)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* ============ 内容 ============ */
+main{padding-top:8px;min-height:50vh}
+.banner{
+  margin:14px 0 4px;padding:10px 14px;border:1px dashed var(--accent);
+  border-radius:8px;background:var(--accent-soft);color:var(--ink-2);
+  font-size:13px;display:flex;align-items:center;gap:10px;justify-content:space-between;
+}
+.banner button{border:1px solid var(--accent);background:transparent;color:var(--accent);
+  padding:4px 12px;border-radius:6px;cursor:pointer;font-size:12px;font-family:var(--font-sans)}
+
+.feed{padding:4px 0 32px}
+.card{
+  padding:20px 0;border-bottom:1px solid var(--rule);
+  animation:rise .5s ease backwards;
+}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.card{animation:none}.dot{animation:none}}
+.card-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.tag{
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;
+  padding:2px 8px;border-radius:var(--r-chip);font-weight:500;white-space:nowrap;
+}
+.tag.region{background:var(--paper-2);color:var(--ink-2);border:1px solid var(--rule-2)}
+.tag.cat-ai{background:var(--ai-bg);color:var(--ai)}
+.tag.cat-podcast{background:var(--podcast-bg);color:var(--podcast)}
+.tag.cat-library{background:var(--library-bg);color:var(--library)}
+.tag.cat-voice{background:var(--voice-bg);color:var(--voice)}
+.card-meta .src{font-family:var(--font-mono);font-size:11.5px;color:var(--ink-3)}
+.card-meta .date{font-family:var(--font-mono);font-size:11.5px;color:var(--ink-3);margin-left:auto}
+.card h3{
+  font-family:var(--font-serif);font-weight:600;line-height:1.4;
+  font-size:calc(19px * var(--scale));margin-bottom:7px;
+  text-wrap:pretty;transition:color .2s ease;
+}
+.card h3 .eng{display:block;font-size:.8em;color:var(--ink-3);font-weight:500;margin-top:2px}
+a.card-link:hover h3{color:var(--accent)}
+.card p{color:var(--ink-2);font-size:calc(15px * var(--scale));line-height:1.72;text-wrap:pretty}
+.card-foot{margin-top:11px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.topics{display:flex;gap:6px;flex-wrap:wrap}
+.topic{font-size:12px;color:var(--ink-3);font-family:var(--font-mono)}
+.topic::before{content:"#";opacity:.5}
+.go{
+  font-size:13px;color:var(--accent);font-family:var(--font-mono);
+  display:inline-flex;align-items:center;gap:4px;margin-left:auto;
+}
+.go .arr{transition:transform .2s ease}
+a.card-link:hover .go .arr{transform:translateX(3px)}
+
+/* 播客特化 */
+.card .pod-name{font-family:var(--font-sans);font-weight:700;font-size:calc(15px*var(--scale));
+  color:var(--ink);display:flex;align-items:center;gap:7px;margin-bottom:4px}
+.card .pod-name .badge{width:7px;height:7px;border-radius:2px;background:var(--podcast)}
+
+/* 关键声音特化 */
+.voice-card{display:flex;gap:14px;align-items:flex-start}
+.avatar{
+  width:46px;height:46px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;
+  font-family:var(--font-serif);font-weight:700;font-size:20px;color:#fff;
+}
+.voice-body{flex:1;min-width:0}
+.voice-body .who{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.voice-body .name{font-family:var(--font-serif);font-weight:600;font-size:calc(18px*var(--scale))}
+.voice-body .role{font-size:12.5px;color:var(--ink-3)}
+
+/* ============ 骨架 / 空 / 错误 ============ */
+.skeleton .sk{height:13px;background:linear-gradient(90deg,var(--paper-2),var(--paper-3),var(--paper-2));
+  background-size:200% 100%;animation:sh 1.3s infinite;border-radius:4px;margin:9px 0}
+@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.sk.w40{width:40%}.sk.w70{width:70%}.sk.w90{width:90%}.sk.t{height:22px;width:60%}
+.empty{text-align:center;padding:64px 20px;color:var(--ink-3)}
+.empty .big{font-family:var(--font-serif);font-size:22px;color:var(--ink-2);margin-bottom:8px}
+.empty button{margin-top:18px;border:1px solid var(--accent);background:transparent;color:var(--accent);
+  padding:9px 22px;border-radius:8px;cursor:pointer;font-family:var(--font-sans);font-size:14px}
+
+/* ============ 页脚 ============ */
+footer{border-top:1px solid var(--rule);margin-top:20px;padding:22px 0 10px;
+  font-family:var(--font-mono);font-size:11px;color:var(--ink-3);line-height:1.8}
+footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead-top">
+      <div class="brand">
+        <h1>情报</h1>
+        <span class="sub">Daily Intelligence Brief</span>
+      </div>
+      <div class="tools">
+        <button class="icon-btn" id="sizeBtn" title="字号" aria-label="切换字号">A</button>
+        <button class="icon-btn" id="themeBtn" title="深浅色" aria-label="切换深浅色">◐</button>
+      </div>
+    </div>
+    <div class="masthead-meta">
+      <span class="date" id="today">—</span>
+      <span class="dot" aria-hidden="true"></span>
+      <span id="updated">加载中…</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="模块">
+  <div class="wrap tabs-inner" id="tabs" role="tablist"></div>
+</nav>
+
+<div class="wrap">
+  <div class="toolbar" id="toolbar"><div class="chips" id="regionChips"></div></div>
+  <div id="bannerSlot"></div>
+</div>
+
+<main class="wrap">
+  <div id="content" role="tabpanel"></div>
+</main>
+
+<footer class="wrap">
+  <div class="row">
+    <span>情报 · 每日情报简报</span>
+    <span id="genInfo"></span>
+  </div>
+  <div class="row" style="margin-top:6px">
+    <span>AI · 播客 · 图书馆 · 关键声音</span>
+    <span>只读聚合 · 链接归原作者</span>
+  </div>
+</footer>
+
+<script>
+/* ===================== 配置 ===================== */
+const MODULES = [
+  {key:"ai",        label:"AI 进展",  cat:"ai",      hasRegion:false},
+  {key:"podcasts",  label:"全球播客", cat:"podcast",  hasRegion:true},
+  {key:"libraries", label:"图书馆",   cat:"library",  hasRegion:true},
+  {key:"voices",    label:"关键声音", cat:"voice",    hasRegion:true},
+];
+const CAT_COLOR = {ai:"--ai",podcast:"--podcast",library:"--library",voice:"--voice"};
+
+/* 离线/未生成时的示例数据(顶部会标注「示例」) */
+const SAMPLE = {
+  generated_at:null, date:null, sample:true,
+  modules:{
+    ai:{items:[
+      {title_zh:"（示例）大模型厂商发布新一代推理模型",eng:"Sample headline",summary:"这是示例占位内容。今日真实摘要由每日生成脚本联网汇总后填入 data/latest.json。",source:"示例来源",region:"美国",published:"2026-06-20",tags:["大模型","推理"],url:"#"},
+    ]},
+    podcasts:{regions:["美国"],items:[
+      {podcast:"（示例）某科技播客",title:"本周话题：示例",summary:"示例占位：真实数据会显示该地区热门播客最近在讨论什么，并附 Apple Podcasts 收听链接。",region:"美国",host:"示例主播",topics:["AI"],url:"#"},
+    ]},
+    libraries:{regions:["中国"],items:[
+      {title_zh:"（示例）公共图书馆服务创新案例",summary:"示例占位：真实数据会汇总全球及中国本土图书馆领域的热点事件与趋势。",source:"示例来源",region:"中国",scope:"public",published:"2026-06-20",url:"#"},
+    ]},
+    voices:{items:[
+      {name:"示例人物",role:"示例身份",region:"美国",domain:"ai",recent:"示例占位：真实数据会列出各地区代表人物近期在讨论的话题。",url:"#"},
+    ]},
+  }
+};
+
+/* ===================== 状态 ===================== */
+let DATA=null, active="ai", region="__all__", usingSample=false;
+
+/* ===================== 工具 ===================== */
+const $=(s,r=document)=>r.querySelector(s);
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+function fmtDate(d){
+  const dt=d?new Date(d):new Date();
+  const w="日一二三四五六"[dt.getDay()];
+  return `${dt.getFullYear()}年${dt.getMonth()+1}月${dt.getDate()}日 周${w}`;
+}
+function ago(iso){
+  if(!iso)return"";
+  const s=(Date.now()-new Date(iso).getTime())/1000;
+  if(s<90)return"刚刚更新";
+  if(s<3600)return`${Math.round(s/60)} 分钟前更新`;
+  if(s<86400)return`${Math.round(s/3600)} 小时前更新`;
+  return`${Math.round(s/86400)} 天前更新`;
+}
+function avatarColor(name){
+  const colors=["#2E5A8C","#A8722A","#3C6E54","#7A4A86","#C0452F","#3E7B8C"];
+  let h=0;for(const c of (name||"?"))h=(h*31+c.charCodeAt(0))>>>0;
+  return colors[h%colors.length];
+}
+
+/* ===================== 渲染 ===================== */
+function renderTabs(){
+  const box=$("#tabs");box.innerHTML="";
+  MODULES.forEach(m=>{
+    const items=(DATA?.modules?.[m.key]?.items)||[];
+    const b=el("button","tab");
+    b.setAttribute("role","tab");
+    b.setAttribute("aria-selected",String(m.key===active));
+    b.innerHTML=`${m.label}<span class="count">${items.length||""}</span>`;
+    b.onclick=()=>{active=m.key;region="__all__";render();};
+    box.appendChild(b);
+  });
+}
+function renderRegions(){
+  const m=MODULES.find(x=>x.key===active);
+  const tb=$("#toolbar"),box=$("#regionChips");
+  const mod=DATA?.modules?.[active];
+  if(!m.hasRegion||!mod){tb.classList.remove("show");return;}
+  let regions=mod.regions;
+  if(!regions||!regions.length){
+    regions=[...new Set((mod.items||[]).map(i=>i.region).filter(Boolean))];
+  }
+  if(regions.length<2){tb.classList.remove("show");return;}
+  tb.classList.add("show");box.innerHTML="";
+  [["__all__","全部"],...regions.map(r=>[r,r])].forEach(([val,lab])=>{
+    const c=el("button","chip",esc(lab));
+    c.setAttribute("aria-pressed",String(val===region));
+    c.onclick=()=>{region=val;render();};
+    box.appendChild(c);
+  });
+}
+function cardArt(inner,i){
+  const a=el("article","card");a.style.animationDelay=(i*0.04)+"s";
+  a.innerHTML=inner;return a;
+}
+function regionTag(r){return r?`<span class="tag region">${esc(r)}</span>`:"";}
+function catTag(label,cat){return `<span class="tag cat-${cat}">${esc(label)}</span>`;}
+
+function renderFeed(){
+  const c=$("#content");c.innerHTML="";
+  const mod=DATA?.modules?.[active];
+  let items=(mod?.items)||[];
+  if(region!=="__all__")items=items.filter(i=>i.region===region);
+  if(!items.length){c.appendChild(emptyState());return;}
+  const feed=el("div","feed");
+  const m=MODULES.find(x=>x.key===active);
+
+  items.forEach((it,i)=>{
+    let html="";
+    if(active==="ai"){
+      html=`<div class="card-meta">${catTag("AI","ai")}${regionTag(it.region)}
+        <span class="src">${esc(it.source||"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||it.title||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
+        <p>${esc(it.summary||"")}</p>
+        <div class="card-foot"><div class="topics">${(it.tags||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div>
+        <span class="go">阅读原文 <span class="arr">→</span></span></div>`;
+    }else if(active==="podcasts"){
+      html=`<div class="card-meta">${catTag("播客","podcast")}${regionTag(it.region)}
+        <span class="date">${esc(it.host||"")}</span></div>
+        <div class="pod-name"><span class="badge"></span>${esc(it.podcast||"")}</div>
+        <h3>${esc(it.title||"")}</h3>
+        <p>${esc(it.summary||"")}</p>
+        <div class="card-foot"><div class="topics">${(it.topics||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div>
+        <span class="go">去收听 <span class="arr">→</span></span></div>`;
+    }else if(active==="libraries"){
+      const scope=it.scope==="academic"?"高校":it.scope==="public"?"公共":"";
+      html=`<div class="card-meta">${catTag("图书馆"+(scope?" · "+scope:""),"library")}${regionTag(it.region)}
+        <span class="src">${esc(it.source||"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||it.title||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
+        <p>${esc(it.summary||"")}</p>
+        <div class="card-foot"><span class="go">阅读原文 <span class="arr">→</span></span></div>`;
+    }else if(active==="voices"){
+      const ini=(it.name||"?").trim()[0]||"?";
+      const dlabel={ai:"AI",podcast:"播客",library:"图书馆"}[it.domain]||"";
+      html=`<div class="voice-card">
+        <div class="avatar" style="background:${avatarColor(it.name)}">${esc(ini)}</div>
+        <div class="voice-body">
+          <div class="who"><span class="name">${esc(it.name||"")}</span><span class="role">${esc(it.role||"")}</span></div>
+          <div class="card-meta" style="margin:6px 0 8px">${dlabel?catTag(dlabel,it.domain==="podcast"?"podcast":it.domain==="library"?"library":"ai"):""}${regionTag(it.region)}</div>
+          <p>${esc(it.recent||"")}</p>
+          <div class="card-foot"><span class="go">了解更多 <span class="arr">→</span></span></div>
+        </div></div>`;
+    }
+    const art=cardArt(html,i);
+    const link=it.url&&it.url!=="#";
+    if(link){
+      const a=el("a","card-link");a.href=it.url;a.target="_blank";a.rel="noopener noreferrer";
+      a.appendChild(art);feed.appendChild(a);
+    }else feed.appendChild(art);
+  });
+  c.appendChild(feed);
+}
+function emptyState(){
+  const e=el("div","empty");
+  e.innerHTML=`<div class="big">今日内容尚未生成</div>
+    <div>该模块的当日情报还没生成，或此地区暂无条目。</div>
+    <button id="retry">重新加载</button>`;
+  setTimeout(()=>{const r=$("#retry");if(r)r.onclick=load;},0);
+  return e;
+}
+function renderBanner(){
+  const slot=$("#bannerSlot");slot.innerHTML="";
+  if(usingSample){
+    const b=el("div","banner");
+    b.innerHTML=`<span>示例数据 · 今日真实内容尚未生成（已就绪等待每日脚本灌入）</span><button id="bretry">重试</button>`;
+    slot.appendChild(b);
+    $("#bretry").onclick=load;
+  }
+}
+function renderMeta(){
+  $("#today").textContent=fmtDate(DATA?.date);
+  $("#updated").textContent=usingSample?"等待首次生成":ago(DATA?.generated_at);
+  $("#genInfo").textContent=DATA?.generated_at&&!usingSample?("生成于 "+new Date(DATA.generated_at).toLocaleString("zh-CN")):"";
+}
+function render(){renderTabs();renderRegions();renderBanner();renderFeed();renderMeta();}
+
+function showSkeleton(){
+  $("#content").innerHTML=`<div class="feed skeleton">`+
+    Array.from({length:5}).map(()=>`<div class="card"><div class="sk t"></div><div class="sk w90"></div><div class="sk w70"></div></div>`).join("")+`</div>`;
+}
+
+/* ===================== 数据加载 ===================== */
+async function load(){
+  showSkeleton();
+  try{
+    const res=await fetch("data/latest.json",{cache:"no-store"});
+    if(!res.ok)throw new Error("no data");
+    DATA=await res.json();usingSample=false;
+  }catch(e){
+    DATA=SAMPLE;usingSample=true;
+  }
+  render();
+}
+
+/* ===================== 偏好:深浅色/字号 ===================== */
+function loadPrefs(){
+  try{
+    const t=localStorage.getItem("intel-theme");if(t)document.documentElement.dataset.theme=t;
+    const s=localStorage.getItem("intel-size");if(s)document.documentElement.dataset.size=s;
+  }catch(e){}
+}
+$("#themeBtn").onclick=()=>{
+  const order=["auto","light","dark"];
+  const cur=document.documentElement.dataset.theme||"auto";
+  const next=order[(order.indexOf(cur)+1)%order.length];
+  document.documentElement.dataset.theme=next;
+  $("#themeBtn").textContent=next==="dark"?"●":next==="light"?"○":"◐";
+  try{localStorage.setItem("intel-theme",next);}catch(e){}
+};
+$("#sizeBtn").onclick=()=>{
+  const order=["","large","xlarge"];
+  const cur=document.documentElement.dataset.size||"";
+  const next=order[(order.indexOf(cur)+1)%order.length];
+  if(next)document.documentElement.dataset.size=next;else document.documentElement.removeAttribute("data-size");
+  $("#sizeBtn").style.fontSize=next==="xlarge"?"18px":next==="large"?"16px":"15px";
+  try{localStorage.setItem("intel-size",next);}catch(e){}
+};
+
+/* ===================== 启动 ===================== */
+loadPrefs();
+{const t=document.documentElement.dataset.theme||"auto";$("#themeBtn").textContent=t==="dark"?"●":t==="light"?"○":"◐";}
+load();
+
+/* Service Worker */
+if("serviceWorker"in navigator){
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+}
+</script>
+</body>
+</html>
