@@ -237,6 +237,13 @@ function renderEpisode(key){
     <div class="ep-meta"><span>${esc(e.author||"")}</span><span>${esc(e.published||"")}</span></div>`;
   head.appendChild(hb);d.appendChild(head);
   // 播放器
+  if(e.voice){
+    const vp=el("div","player");vp.style.borderColor="var(--podcast)";
+    vp.innerHTML=`<div style="font-size:13px;color:var(--podcast);font-weight:700;margin-bottom:8px">🎧 中文导读 · AI 配音</div>
+      <audio controls preload="none" src="${esc(e.voice)}"></audio>
+      <div class="hint">1-2 分钟听完这集中文精华,通勤友好</div>`;
+    d.appendChild(vp);
+  }
   if(e.audio){
     const p=el("div","player");
     p.innerHTML=`<audio controls preload="none" src="${esc(e.audio)}"></audio>
