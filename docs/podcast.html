@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="auto">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>远音 · 国外播客中文版</title>
+<meta name="description" content="把国外优质播客翻成中文:每集中文要点 + 完整中文稿 + 原声收听。">
+<link rel="manifest" href="podcast.webmanifest">
+<meta name="theme-color" content="#FAF7F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140F" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="远音">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAF7F0; --paper-2:#F2EDE1; --paper-3:#ECE5D6;
+  --ink:#211C15; --ink-2:#5C5346; --ink-3:#8A8170;
+  --rule:#E4DCCB; --rule-2:#D8CFBA;
+  --accent:#C0452F; --accent-soft:#F0DBCF;
+  --ai:#2E5A8C; --podcast:#A8722A; --library:#3C6E54; --voice:#7A4A86;
+  --ai-bg:#E5EAF1; --podcast-bg:#F1E6D2; --library-bg:#E1ECE4; --voice-bg:#ECE2F0;
+  --shadow:0 1px 2px rgba(33,28,21,.05), 0 8px 24px -16px rgba(33,28,21,.18);
+  --shadow-lg:0 4px 12px -4px rgba(33,28,21,.12), 0 16px 40px -20px rgba(33,28,21,.3);
+  --font-serif:"Noto Serif SC", Georgia, "Songti SC", serif;
+  --font-sans:"Noto Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --font-mono:ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --maxw:760px; --gap:20px; --r-card:14px; --r-chip:6px; --scale:1;
+}
+:root[data-theme="dark"]{
+  --paper:#16140F; --paper-2:#201D16; --paper-3:#2A261C;
+  --ink:#EDE6D6; --ink-2:#B8AE9B; --ink-3:#847B68;
+  --rule:#2E2A20; --rule-2:#3A352A;
+  --accent:#E2694F; --accent-soft:#3A241D;
+  --ai-bg:#1E2A38; --podcast-bg:#332918; --library-bg:#19281F; --voice-bg:#281E2D;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.6);
+  --shadow-lg:0 6px 18px -6px rgba(0,0,0,.5), 0 20px 50px -24px rgba(0,0,0,.8);
+}
+@media (prefers-color-scheme: dark){:root[data-theme="auto"]{
+  --paper:#16140F; --paper-2:#201D16; --paper-3:#2A261C;
+  --ink:#EDE6D6; --ink-2:#B8AE9B; --ink-3:#847B68;
+  --rule:#2E2A20; --rule-2:#3A352A; --accent:#E2694F; --accent-soft:#3A241D;
+  --ai-bg:#1E2A38; --podcast-bg:#332918; --library-bg:#19281F; --voice-bg:#281E2D;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.6);
+  --shadow-lg:0 6px 18px -6px rgba(0,0,0,.5), 0 20px 50px -24px rgba(0,0,0,.8);
+}}
+:root[data-size="large"]{--scale:1.12}:root[data-size="xlarge"]{--scale:1.24}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-sans);line-height:1.6;
+  font-size:calc(16px*var(--scale));-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  padding-bottom:calc(40px + env(safe-area-inset-bottom));transition:background .4s,color .4s}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gap)}
+a{color:inherit;text-decoration:none}
+/* 报头 */
+.masthead{padding:calc(22px + env(safe-area-inset-top)) 0 16px;border-bottom:1px solid var(--rule);background:var(--paper)}
+.mast-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.brand h1{font-family:var(--font-serif);font-weight:700;font-size:clamp(30px,8vw,40px);line-height:1;letter-spacing:.06em}
+.brand .sub{font-family:var(--font-mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-top:7px}
+.tools{display:flex;gap:8px;flex-shrink:0}
+.icon-btn{width:38px;height:38px;border:1px solid var(--rule-2);border-radius:9px;background:transparent;
+  color:var(--ink-2);cursor:pointer;display:grid;place-items:center;font-size:15px;font-family:var(--font-mono);transition:all .2s}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent)}
+.icon-btn:active{transform:scale(.94)}
+.mast-meta{display:flex;align-items:baseline;gap:10px;margin-top:13px;font-family:var(--font-mono);font-size:12px;color:var(--ink-3);flex-wrap:wrap}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(192,69,47,.4)}70%{box-shadow:0 0 0 6px rgba(192,69,47,0)}100%{box-shadow:0 0 0 0 rgba(192,69,47,0)}}
+/* tabs */
+.tabs{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);
+  -webkit-backdrop-filter:saturate(1.4) blur(8px);backdrop-filter:saturate(1.4) blur(8px)}
+.tabs-inner{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tabs-inner::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;padding:14px 6px;margin-right:20px;background:none;border:none;cursor:pointer;
+  font-family:var(--font-serif);font-size:calc(16px*var(--scale));font-weight:600;color:var(--ink-3);position:relative;white-space:nowrap}
+.tab:last-child{margin-right:0}
+.tab[aria-selected="true"]{color:var(--ink)}
+.tab[aria-selected="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--accent);border-radius:2px 2px 0 0}
+.tab .count{font-family:var(--font-mono);font-size:10px;color:var(--ink-3);margin-left:5px;font-weight:400;vertical-align:super}
+main{padding-top:10px;min-height:60vh}
+/* 节目卡 */
+.shows{padding:14px 0 32px;display:flex;flex-direction:column;gap:14px}
+.show-card{display:flex;gap:14px;padding:14px;border:1px solid var(--rule);border-radius:var(--r-card);
+  background:var(--paper-2);cursor:pointer;transition:all .2s;animation:rise .5s backwards;align-items:center}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.show-card:hover{border-color:var(--accent);box-shadow:var(--shadow);transform:translateY(-1px)}
+.cover{width:72px;height:72px;border-radius:10px;flex-shrink:0;object-fit:cover;background:var(--paper-3);box-shadow:var(--shadow)}
+.cover.ph{display:grid;place-items:center;font-family:var(--font-serif);font-weight:700;font-size:24px;color:#fff}
+.show-body{flex:1;min-width:0}
+.show-name{font-family:var(--font-serif);font-weight:600;font-size:calc(17px*var(--scale));line-height:1.35;margin-bottom:3px;text-wrap:pretty}
+.show-author{font-size:12.5px;color:var(--ink-3);font-family:var(--font-mono);margin-bottom:6px}
+.show-latest{font-size:13.5px;color:var(--ink-2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.show-pending{font-size:12.5px;color:var(--ink-3);font-style:italic}
+.chev{align-self:center;color:var(--ink-3);font-family:var(--font-mono);flex-shrink:0}
+/* 详情视图 */
+.detail{padding:18px 0 40px;animation:fade .4s}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.back{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:13px;color:var(--ink-2);
+  cursor:pointer;padding:8px 0;margin-bottom:6px;background:none;border:none}
+.back:hover{color:var(--accent)}
+.ep-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:18px}
+.ep-head .cover{width:96px;height:96px}
+.ep-head-body{flex:1;min-width:0}
+.ep-show{font-size:12.5px;color:var(--podcast);font-weight:700;font-family:var(--font-sans);margin-bottom:5px}
+.ep-title{font-family:var(--font-serif);font-weight:700;font-size:calc(22px*var(--scale));line-height:1.35;text-wrap:pretty;margin-bottom:6px}
+.ep-orig{font-size:12px;color:var(--ink-3);line-height:1.45}
+.ep-meta{display:flex;gap:10px;flex-wrap:wrap;font-family:var(--font-mono);font-size:11.5px;color:var(--ink-3);margin-top:8px}
+.tag{font-family:var(--font-mono);font-size:11px;padding:2px 8px;border-radius:var(--r-chip);background:var(--podcast-bg);color:var(--podcast)}
+/* 播放器 */
+.player{margin:6px 0 22px;padding:14px;border:1px solid var(--rule);border-radius:12px;background:var(--paper-2)}
+.player audio{width:100%;height:38px}
+.player .hint{font-size:11.5px;color:var(--ink-3);margin-top:8px;font-family:var(--font-mono)}
+/* 要点卡 */
+.section-h{font-family:var(--font-serif);font-weight:600;font-size:calc(17px*var(--scale));margin:24px 0 12px;
+  display:flex;align-items:center;gap:8px}
+.section-h::before{content:"";width:3px;height:16px;background:var(--accent);border-radius:2px}
+.intro{font-size:calc(15px*var(--scale));line-height:1.75;color:var(--ink-2);padding:14px 16px;background:var(--accent-soft);
+  border-radius:10px;margin-bottom:16px;text-wrap:pretty}
+.points{list-style:none;display:flex;flex-direction:column;gap:11px}
+.points li{display:flex;gap:11px;font-size:calc(15px*var(--scale));line-height:1.65;color:var(--ink);text-wrap:pretty}
+.points li::before{content:counter(i);counter-increment:i;flex-shrink:0;width:22px;height:22px;border-radius:50%;
+  background:var(--podcast);color:#fff;font-family:var(--font-mono);font-size:12px;display:grid;place-items:center;margin-top:2px}
+.points{counter-reset:i}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}
+/* 全文 */
+.full-toggle{margin-top:8px;width:100%;padding:13px;border:1px solid var(--rule-2);border-radius:10px;background:transparent;
+  color:var(--ink);font-family:var(--font-serif);font-size:calc(15px*var(--scale));font-weight:600;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:8px;transition:all .2s}
+.full-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.full-body{display:none;margin-top:14px;font-size:calc(15px*var(--scale));line-height:1.9;color:var(--ink);white-space:pre-wrap;text-wrap:pretty}
+.full-body.show{display:block;animation:fade .4s}
+.full-body p{margin-bottom:14px}
+.trunc{font-size:12px;color:var(--ink-3);font-style:italic;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule-2)}
+.voice-cta{margin-top:18px;padding:14px 16px;border:1px dashed var(--podcast);border-radius:10px;background:var(--podcast-bg);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.voice-cta .t{font-size:13.5px;color:var(--ink-2)}
+.voice-cta button{border:1px solid var(--podcast);background:transparent;color:var(--podcast);padding:7px 16px;
+  border-radius:8px;cursor:pointer;font-family:var(--font-sans);font-size:13px;white-space:nowrap}
+/* 状态 */
+.skeleton .sk{height:14px;background:linear-gradient(90deg,var(--paper-2),var(--paper-3),var(--paper-2));
+  background-size:200% 100%;animation:sh 1.3s infinite;border-radius:4px;margin:10px 0}
+@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.empty{text-align:center;padding:56px 20px;color:var(--ink-3)}
+.empty .big{font-family:var(--font-serif);font-size:20px;color:var(--ink-2);margin-bottom:8px}
+footer{border-top:1px solid var(--rule);margin-top:20px;padding:22px 0 10px;font-family:var(--font-mono);font-size:11px;color:var(--ink-3);line-height:1.8}
+footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+  <div class="mast-top">
+    <div class="brand"><h1>远音</h1><span class="sub">World Podcasts · 中文版</span></div>
+    <div class="tools">
+      <button class="icon-btn" id="sizeBtn" title="字号">A</button>
+      <button class="icon-btn" id="themeBtn" title="深浅色">◐</button>
+    </div>
+  </div>
+  <div class="mast-meta"><span class="dot"></span><span id="status">加载中…</span></div>
+</div></header>
+
+<nav class="tabs" id="tabsNav" aria-label="分类"><div class="wrap tabs-inner" id="tabs" role="tablist"></div></nav>
+
+<main class="wrap"><div id="content"></div></main>
+
+<footer class="wrap">
+  <div class="row"><span>远音 · 国外播客中文版</span><span id="genInfo"></span></div>
+  <div class="row" style="margin-top:6px"><span>中文要点 · 完整译文 · 原声收听</span><span>内容版权归原播客</span></div>
+</footer>
+
+<script>
+const CATS = ["AI / 前沿科技","图书馆 / 教育 / 阅读","文化 / 历史 / 故事","商业 / 创业 / 人物访谈"];
+let SHOWS=[], EPS={}, active=CATS[0], view={name:"home"};
+
+const $=(s,r=document)=>r.querySelector(s);
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const colorOf=n=>{const c=["#2E5A8C","#A8722A","#3C6E54","#7A4A86","#C0452F","#3E7B8C"];let h=0;for(const x of(n||"?"))h=(h*31+x.charCodeAt(0))>>>0;return c[h%c.length]};
+const epsOfShow=name=>Object.values(EPS).filter(e=>e.show===name);
+
+function coverEl(s){
+  if(s.artwork) {const i=el("img","cover");i.src=s.artwork;i.loading="lazy";i.alt="";i.onerror=()=>{i.replaceWith(phCover(s.name))};return i;}
+  return phCover(s.name);
+}
+function phCover(name){const d=el("div","cover ph",esc((name||"?").trim()[0]));d.style.background=colorOf(name);return d;}
+
+function renderTabs(){
+  const box=$("#tabs");box.innerHTML="";
+  CATS.forEach(c=>{
+    const n=SHOWS.filter(s=>s.category===c).length;
+    const b=el("button","tab");b.setAttribute("role","tab");b.setAttribute("aria-selected",String(c===active&&view.name==="home"));
+    b.innerHTML=`${c.split(" / ")[0]}<span class="count">${n||""}</span>`;
+    b.onclick=()=>{active=c;view={name:"home"};render()};
+    box.appendChild(b);
+  });
+}
+
+function renderHome(){
+  const c=$("#content");c.innerHTML="";
+  const list=SHOWS.filter(s=>s.category===active);
+  if(!list.length){c.appendChild(skeleton());return;}
+  const box=el("div","shows");
+  list.forEach((s,i)=>{
+    const eps=epsOfShow(s.name);
+    const latest=eps[0];
+    const card=el("div","show-card");card.style.animationDelay=(i*.04)+"s";
+    card.appendChild(coverEl(s));
+    const body=el("div","show-body");
+    body.innerHTML=`<div class="show-name">${esc(s.name)}</div>
+      <div class="show-author">${esc(s.author||"")}</div>`+
+      (latest?`<div class="show-latest">📍 ${esc(latest.title_zh||latest.title)}</div>`
+             :`<div class="show-pending">中文版整理中…</div>`);
+    card.appendChild(body);
+    card.appendChild(el("div","chev","›"));
+    if(latest) card.onclick=()=>{view={name:"ep",key:latest.key};render()};
+    else card.style.cursor="default";
+    box.appendChild(card);
+  });
+  c.appendChild(box);
+}
+
+function renderEpisode(key){
+  const e=EPS[key]; const c=$("#content");c.innerHTML="";
+  if(!e){view={name:"home"};return render();}
+  const d=el("div","detail");
+  const back=el("button","back","‹ 返回");back.onclick=()=>{view={name:"home"};render()};
+  d.appendChild(back);
+  // 头部
+  const head=el("div","ep-head");
+  head.appendChild(coverEl({artwork:e.artwork,name:e.show}));
+  const hb=el("div","ep-head-body");
+  hb.innerHTML=`<div class="ep-show">${esc(e.show)}</div>
+    <div class="ep-title">${esc(e.title_zh||e.title)}</div>
+    <div class="ep-orig">原标题:${esc(e.title)}</div>
+    <div class="ep-meta"><span>${esc(e.author||"")}</span><span>${esc(e.published||"")}</span></div>`;
+  head.appendChild(hb);d.appendChild(head);
+  // 播放器
+  if(e.audio){
+    const p=el("div","player");
+    p.innerHTML=`<audio controls preload="none" src="${esc(e.audio)}"></audio>
+      <div class="hint">▶ 原声收听(英文)· 若加载慢可能需要网络代理</div>`;
+    d.appendChild(p);
+  }
+  // 要点卡
+  if(e.intro){d.appendChild(el("div","section-h","这集讲了什么"));
+    d.appendChild(el("div","intro",esc(e.intro)));}
+  if(e.points&&e.points.length){
+    const ul=el("ul","points");
+    e.points.forEach(p=>{const li=el("li");li.innerHTML=esc(p);ul.appendChild(li)});
+    d.appendChild(ul);
+  }
+  if(e.tags&&e.tags.length){
+    const tg=el("div","tags");
+    e.tags.forEach(t=>tg.appendChild(el("span","tag","#"+esc(t))));
+    d.appendChild(tg);
+  }
+  // 全文
+  if(e.zh_full){
+    d.appendChild(el("div","section-h","完整中文稿"));
+    const btn=el("button","full-toggle",`📖 展开完整译文 <span style="font-family:var(--font-mono);font-size:12px;color:var(--ink-3)">${e.zh_full.length}字</span>`);
+    const body=el("div","full-body");
+    body.innerHTML=e.zh_full.split(/\n\n+/).map(p=>`<p>${esc(p)}</p>`).join("")+
+      (e.truncated?`<div class="trunc">⚠ 本集较长,当前为开头节选的译文;完整版可后续生成。</div>`:"");
+    btn.onclick=()=>{body.classList.toggle("show");btn.style.display=body.classList.contains("show")?"none":"flex"};
+    d.appendChild(btn);d.appendChild(body);
+  }
+  // 配音 CTA(第三波)
+  const cta=el("div","voice-cta");
+  cta.innerHTML=`<span class="t">想边走边听?可以把这集生成<b>中文配音</b>。</span><button id="voiceBtn">生成中文配音</button>`;
+  d.appendChild(cta);
+  c.appendChild(d);
+  $("#voiceBtn").onclick=()=>{$("#voiceBtn").textContent="已记下,稍后生成 ✓";$("#voiceBtn").disabled=true;};
+  window.scrollTo(0,0);
+}
+
+function skeleton(){const w=el("div","shows skeleton");for(let i=0;i<5;i++){const k=el("div","show-card");
+  k.innerHTML=`<div class="cover ph" style="background:var(--paper-3)"></div><div class="show-body"><div class="sk" style="width:55%"></div><div class="sk" style="width:35%"></div><div class="sk" style="width:80%"></div></div>`;w.appendChild(k)}return w}
+
+function render(){
+  renderTabs();
+  $("#tabsNav").style.display = view.name==="home" ? "" : "none";
+  if(view.name==="ep") renderEpisode(view.key);
+  else renderHome();
+  const done=Object.keys(EPS).length;
+  $("#status").textContent = SHOWS.length? `${SHOWS.length} 档节目 · ${done} 集已中文化` : "加载中…";
+}
+
+async function load(){
+  try{const r=await fetch("data/shows.json",{cache:"no-store"});SHOWS=await r.json();}catch(e){SHOWS=[];}
+  try{const r=await fetch("data/podcast_app.json",{cache:"no-store"});const d=await r.json();
+    EPS=d.episodes||{};Object.keys(EPS).forEach(k=>EPS[k].key=k);
+    if(d.generated)$("#genInfo").textContent="更新于 "+d.generated;
+  }catch(e){EPS={};}
+  render();
+  // 内容在后台持续生成,轻量轮询刷新
+  if(Object.keys(EPS).length < SHOWS.length){
+    setTimeout(load, 20000);
+  }
+}
+
+// 偏好
+try{const t=localStorage.getItem("yy-theme");if(t)document.documentElement.dataset.theme=t;
+  const s=localStorage.getItem("yy-size");if(s)document.documentElement.dataset.size=s;}catch(e){}
+$("#themeBtn").onclick=()=>{const o=["auto","light","dark"],cur=document.documentElement.dataset.theme||"auto",
+  n=o[(o.indexOf(cur)+1)%3];document.documentElement.dataset.theme=n;$("#themeBtn").textContent=n==="dark"?"●":n==="light"?"○":"◐";
+  try{localStorage.setItem("yy-theme",n)}catch(e){}};
+$("#sizeBtn").onclick=()=>{const o=["","large","xlarge"],cur=document.documentElement.dataset.size||"",n=o[(o.indexOf(cur)+1)%3];
+  if(n)document.documentElement.dataset.size=n;else document.documentElement.removeAttribute("data-size");try{localStorage.setItem("yy-size",n)}catch(e){}};
+{const t=document.documentElement.dataset.theme||"auto";$("#themeBtn").textContent=t==="dark"?"●":t==="light"?"○":"◐";}
+load();
+if("serviceWorker"in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))}
+</script>
+</body>
+</html>
