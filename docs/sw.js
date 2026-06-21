@@ -1,5 +1,5 @@
 /* 情报 PWA Service Worker */
-const CACHE = "intel-v1";
+const CACHE = "intel-v2";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon.svg"];
 
 self.addEventListener("install", (e) => {
@@ -19,12 +19,14 @@ self.addEventListener("fetch", (e) => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
 
-  // 当日数据:网络优先,回落缓存(保证离线也有上次内容)
-  if (url.pathname.endsWith("data/latest.json")) {
+  // 数据(.json)与页面(.html / 根):网络优先,回落缓存(离线也有上次内容)
+  if (url.pathname.endsWith(".json") || url.pathname.endsWith(".html") || url.pathname.endsWith("/")) {
     e.respondWith(
       fetch(request).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(request, copy));
+        if (res.ok && url.origin === location.origin) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(request, copy));
+        }
         return res;
       }).catch(() => caches.match(request))
     );
