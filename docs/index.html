@@ -260,7 +260,7 @@ footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
   </div>
   <div class="row" style="margin-top:6px">
     <span>AI · 播客 · 图书馆 · 关键声音</span>
-    <span>只读聚合 · 链接归原作者</span>
+    <span>只读聚合 · 来源归原作者</span>
   </div>
 </footer>
 
@@ -370,28 +370,25 @@ function renderFeed(){
     let html="";
     if(active==="ai"){
       html=`<div class="card-meta">${catTag("AI","ai")}${regionTag(it.region)}
-        <span class="src">${esc(it.source||"")}</span>
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
         <span class="date">${esc(it.published||"")}</span></div>
-        <h3>${esc(it.title_zh||it.title||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
+        <h3>${esc(it.title_zh||it.title||"")}</h3>
         <p>${esc(it.summary||"")}</p>
-        <div class="card-foot"><div class="topics">${(it.tags||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div>
-        <span class="go">阅读原文 <span class="arr">→</span></span></div>`;
+        <div class="card-foot"><div class="topics">${(it.tags||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div></div>`;
     }else if(active==="podcasts"){
       html=`<div class="card-meta">${catTag("播客","podcast")}${regionTag(it.region)}
-        <span class="date">${esc(it.host||"")}</span></div>
+        <span class="date">${esc(it.host?"主播 · "+it.host:"")}</span></div>
         <div class="pod-name"><span class="badge"></span>${esc(it.podcast||"")}</div>
         <h3>${esc(it.title||"")}</h3>
         <p>${esc(it.summary||"")}</p>
-        <div class="card-foot"><div class="topics">${(it.topics||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div>
-        <span class="go">去收听 <span class="arr">→</span></span></div>`;
+        <div class="card-foot"><div class="topics">${(it.topics||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div></div>`;
     }else if(active==="libraries"){
       const scope=it.scope==="academic"?"高校":it.scope==="public"?"公共":"";
       html=`<div class="card-meta">${catTag("图书馆"+(scope?" · "+scope:""),"library")}${regionTag(it.region)}
-        <span class="src">${esc(it.source||"")}</span>
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
         <span class="date">${esc(it.published||"")}</span></div>
-        <h3>${esc(it.title_zh||it.title||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
-        <p>${esc(it.summary||"")}</p>
-        <div class="card-foot"><span class="go">阅读原文 <span class="arr">→</span></span></div>`;
+        <h3>${esc(it.title_zh||it.title||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
     }else if(active==="voices"){
       const ini=(it.name||"?").trim()[0]||"?";
       const dlabel={ai:"AI",podcast:"播客",library:"图书馆"}[it.domain]||"";
@@ -401,15 +398,9 @@ function renderFeed(){
           <div class="who"><span class="name">${esc(it.name||"")}</span><span class="role">${esc(it.role||"")}</span></div>
           <div class="card-meta" style="margin:6px 0 8px">${dlabel?catTag(dlabel,it.domain==="podcast"?"podcast":it.domain==="library"?"library":"ai"):""}${regionTag(it.region)}</div>
           <p>${esc(it.recent||"")}</p>
-          <div class="card-foot"><span class="go">了解更多 <span class="arr">→</span></span></div>
         </div></div>`;
     }
-    const art=cardArt(html,i);
-    const link=it.url&&it.url!=="#";
-    if(link){
-      const a=el("a","card-link");a.href=it.url;a.target="_blank";a.rel="noopener noreferrer";
-      a.appendChild(art);feed.appendChild(a);
-    }else feed.appendChild(art);
+    feed.appendChild(cardArt(html,i));
   });
   c.appendChild(feed);
 }
