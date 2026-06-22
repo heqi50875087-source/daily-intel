@@ -1,5 +1,5 @@
 /* 情报 PWA Service Worker */
-const CACHE = "intel-v2";
+const CACHE = "intel-v3";  // 升级版本→activate时清掉旧缓存,确保更新刷得出来
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon.svg"];
 
 self.addEventListener("install", (e) => {

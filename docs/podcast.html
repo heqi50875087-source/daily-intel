@@ -348,8 +348,8 @@ function render(){
 async function load(manual){
   $("#status").textContent = manual ? "刷新中…" : "加载中…";
   // 不再每20秒自动刷新(会打断播放、听不完)。仅首次加载 + 手动刷新按钮。
-  try{const r=await fetch("data/shows.json",{cache:manual?"reload":"default"});const j=await r.json();if(Array.isArray(j)&&j.length)SHOWS=j;}catch(e){}
-  try{const r=await fetch("data/podcast_app.json",{cache:manual?"reload":"default"});const d=await r.json();
+  try{const r=await fetch("data/shows.json",{cache:manual?"reload":"no-cache"});const j=await r.json();if(Array.isArray(j)&&j.length)SHOWS=j;}catch(e){}
+  try{const r=await fetch("data/podcast_app.json",{cache:manual?"reload":"no-cache"});const d=await r.json();
     if(d&&d.episodes){EPS=d.episodes;Object.keys(EPS).forEach(k=>EPS[k].key=k);}
     if(d&&d.generated)$("#genInfo").textContent="更新于 "+d.generated;
   }catch(e){}
