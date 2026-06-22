@@ -54,6 +54,13 @@ SHOW_VOICE = {
 }
 DEFAULT = ("solo", [F1])   # 未知 / 中性 → 女声(用户指定)
 
+# 覆盖:从 build_lineup.py 生成的 voice_map.json 读取(35档完整性别映射)
+try:
+    for _k, _v in json.load(open("docs/data/voice_map.json")).items():
+        SHOW_VOICE[_k] = (_v[0], list(_v[1]))
+except Exception:
+    pass
+
 def paras_of(ep):
     txt = (ep.get("zh_full") or "").strip()
     ps = [p.strip() for p in txt.split("\n\n") if p.strip()]

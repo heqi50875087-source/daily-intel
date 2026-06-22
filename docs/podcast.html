@@ -180,7 +180,7 @@ footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 </footer>
 
 <script>
-const CATS = ["AI / 前沿科技","名流 / 思想对话","图书馆 / 教育 / 阅读","文化 / 历史 / 故事","商业 / 创业 / 人物访谈"];
+const CATS = ["思想 · 名人对话","科技 · AI","商业 · 创业 · 投资","科学 · 健康 · 心理","文化 · 故事 · 新闻"];
 let SHOWS=[], EPS={}, active=CATS[0], view={name:"home"};
 
 const $=(s,r=document)=>r.querySelector(s);
@@ -248,9 +248,9 @@ function phCover(name){const d=el("div","cover ph",esc((name||"?").trim()[0]));d
 function renderTabs(){
   const box=$("#tabs");box.innerHTML="";
   CATS.forEach(c=>{
-    const n=SHOWS.filter(s=>s.category===c).length;
+    const n=SHOWS.filter(s=>s.category===c&&epsOfShow(s.name).length>0).length;
     const b=el("button","tab");b.setAttribute("role","tab");b.setAttribute("aria-selected",String(c===active&&view.name==="home"));
-    b.innerHTML=`${c.split(" / ")[0]}<span class="count">${n||""}</span>`;
+    b.innerHTML=`${c.split(" · ")[0]}<span class="count">${n||""}</span>`;
     b.onclick=()=>{active=c;view={name:"home"};render()};
     box.appendChild(b);
   });
@@ -258,23 +258,21 @@ function renderTabs(){
 
 function renderHome(){
   const c=$("#content");c.innerHTML="";
-  const list=SHOWS.filter(s=>s.category===active);
+  // 只显示已有完整中文版的节目(下不到完整音频的不展示,不再有"整理中"占位)
+  const list=SHOWS.filter(s=>s.category===active&&epsOfShow(s.name).length>0);
   if(!list.length){c.appendChild(skeleton());return;}
   const box=el("div","shows");
   list.forEach((s,i)=>{
-    const eps=epsOfShow(s.name);
-    const latest=eps[0];
+    const latest=epsOfShow(s.name)[0];
     const card=el("div","show-card");card.style.animationDelay=(i*.04)+"s";
     card.appendChild(coverEl(s));
     const body=el("div","show-body");
     body.innerHTML=`<div class="show-name">${esc(s.name)}</div>
-      <div class="show-author">${esc(s.author||"")}</div>`+
-      (latest?`<div class="show-latest">📍 ${esc(latest.title_zh||latest.title)}</div>`
-             :`<div class="show-pending">中文版整理中…</div>`);
+      <div class="show-author">${esc(s.author||"")}</div>
+      <div class="show-latest">📍 ${esc(latest.title_zh||latest.title)}</div>`;
     card.appendChild(body);
     card.appendChild(el("div","chev","›"));
-    if(latest) card.onclick=()=>{view={name:"ep",key:latest.key};render()};
-    else card.style.cursor="default";
+    card.onclick=()=>{view={name:"ep",key:latest.key};render()};
     box.appendChild(card);
   });
   c.appendChild(box);
