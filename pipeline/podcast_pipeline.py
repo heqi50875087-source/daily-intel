@@ -6,7 +6,7 @@ import feedparser
 import podcast_zh, podcast_fulltext
 ctx=ssl._create_unverified_context()
 UA={'User-Agent':'Mozilla/5.0 (Macintosh)'}
-WORK="podcast_work"; OUT=f"{WORK}/podcast_app.json"; MAXB=15*1048576
+WORK="podcast_work"; OUT=f"{WORK}/podcast_app.json"; MAXB=30*1048576  # 下载上限放宽:覆盖更长音频
 PROXY={'http':'http://127.0.0.1:18080','https':'http://127.0.0.1:18080'}  # GreenHub HTTP桥:音频/RSS走代理,DeepSeek保持直连
 _proxy_opener=urllib.request.build_opener(urllib.request.ProxyHandler(PROXY), urllib.request.HTTPSHandler(context=ctx))
 def latest(feed):
@@ -66,13 +66,14 @@ def main():
             en=" ".join(x.text for x in segs).strip()
             if len(en)<50: print(f"  转写短 {s['name'][:24]}",file=sys.stderr); continue
             zh=podcast_zh.to_zh_brief(ep['title'],en)
-            src=en if len(en)<=6500 else en[:6500]
+            CAP=16000  # 翻译覆盖上限放宽,中文稿更完整
+            src=en if len(en)<=CAP else en[:CAP]
             zhfull="\n\n".join(podcast_fulltext.translate(c) for c in podcast_fulltext.split_text(src))
             for k in [k for k,v in out['episodes'].items() if v['show']==s['name']]: del out['episodes'][k]
             out['episodes'][f"{s['name']}|{ep['guid']}"]={"show":s['name'],"category":s['category'],"author":s.get('author',''),
                 "artwork":s.get('artwork',''),"title":ep['title'],"published":ep['published'],"audio":ep['audio'],
                 "title_zh":zh.get('title_zh',''),"intro":zh.get('intro',''),"points":zh.get('points',[]),
-                "tags":zh.get('tags',[]),"zh_full":zhfull,"truncated":bool(ep.get('truncated') or len(en)>6500)}
+                "tags":zh.get('tags',[]),"zh_full":zhfull,"truncated":bool(ep.get('truncated') or len(en)>CAP)}
             out['generated']=time.strftime("%Y-%m-%d %H:%M")
             json.dump(out,open(OUT,'w'),ensure_ascii=False,indent=2)
             try: os.remove(ep['mp3'])

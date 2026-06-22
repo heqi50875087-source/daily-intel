@@ -108,10 +108,23 @@ main{padding-top:10px;min-height:60vh}
 .ep-orig{font-size:12px;color:var(--ink-3);line-height:1.45}
 .ep-meta{display:flex;gap:10px;flex-wrap:wrap;font-family:var(--font-mono);font-size:11.5px;color:var(--ink-3);margin-top:8px}
 .tag{font-family:var(--font-mono);font-size:11px;padding:2px 8px;border-radius:var(--r-chip);background:var(--podcast-bg);color:var(--podcast)}
-/* 播放器 */
-.player{margin:6px 0 22px;padding:14px;border:1px solid var(--rule);border-radius:12px;background:var(--paper-2)}
-.player audio{width:100%;height:38px}
-.player .hint{font-size:11.5px;color:var(--ink-3);margin-top:8px;font-family:var(--font-mono)}
+/* 播放器(自建:倍速+进度+断点续听) */
+.yplayer{margin:6px 0 14px;padding:14px 15px;border:1px solid var(--rule);border-radius:12px;background:var(--paper-2)}
+.yp-label{font-size:13px;font-weight:700;margin-bottom:11px;color:var(--pc);display:flex;align-items:center;gap:7px}
+.yp-row{display:flex;align-items:center;gap:9px}
+.yp-btn,.yp-skip,.yp-rate{border:1px solid var(--rule-2);background:transparent;color:var(--ink);cursor:pointer;font-family:var(--font-mono);border-radius:8px;transition:all .15s;-webkit-tap-highlight-color:transparent}
+.yp-play{width:46px;height:46px;font-size:15px;display:grid;place-items:center;border-color:var(--pc);color:var(--pc);flex-shrink:0}
+.yp-play:active{transform:scale(.92)}
+.yp-skip{height:36px;padding:0 10px;font-size:11px;color:var(--ink-2);flex-shrink:0;letter-spacing:.02em}
+.yp-skip:active{transform:scale(.94)}
+.yp-skip:hover,.yp-rate:hover{border-color:var(--pc);color:var(--pc)}
+.yp-time{font-family:var(--font-mono);font-size:12px;color:var(--ink-3);margin-left:auto;white-space:nowrap;font-variant-numeric:tabular-nums}
+.yp-rate{height:36px;padding:0 13px;font-size:13px;font-weight:700;color:var(--pc);border-color:var(--pc);flex-shrink:0}
+.yp-rate:active{transform:scale(.94)}
+.yp-seek{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:3px;margin-top:13px;background:var(--rule-2);cursor:pointer}
+.yp-seek::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:var(--pc);cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.yp-seek::-moz-range-thumb{width:16px;height:16px;border:none;border-radius:50%;background:var(--pc);cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.yp-hint{font-size:11.5px;color:var(--ink-3);margin-top:10px;font-family:var(--font-mono);line-height:1.5}
 /* 要点卡 */
 .section-h{font-family:var(--font-serif);font-weight:600;font-size:calc(17px*var(--scale));margin:24px 0 12px;
   display:flex;align-items:center;gap:8px}
@@ -133,11 +146,6 @@ main{padding-top:10px;min-height:60vh}
 .full-body.show{display:block;animation:fade .4s}
 .full-body p{margin-bottom:14px}
 .trunc{font-size:12px;color:var(--ink-3);font-style:italic;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule-2)}
-.voice-cta{margin-top:18px;padding:14px 16px;border:1px dashed var(--podcast);border-radius:10px;background:var(--podcast-bg);
-  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.voice-cta .t{font-size:13.5px;color:var(--ink-2)}
-.voice-cta button{border:1px solid var(--podcast);background:transparent;color:var(--podcast);padding:7px 16px;
-  border-radius:8px;cursor:pointer;font-family:var(--font-sans);font-size:13px;white-space:nowrap}
 /* 状态 */
 .skeleton .sk{height:14px;background:linear-gradient(90deg,var(--paper-2),var(--paper-3),var(--paper-2));
   background-size:200% 100%;animation:sh 1.3s infinite;border-radius:4px;margin:10px 0}
@@ -154,6 +162,7 @@ footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
     <div class="brand"><h1>远音</h1><span class="sub">World Podcasts · 中文版</span></div>
     <div class="tools">
       <a class="icon-btn" href="index.html" title="情报 · 每日资讯" style="text-decoration:none">📰</a>
+      <button class="icon-btn" id="refreshBtn" title="刷新内容">↻</button>
       <button class="icon-btn" id="sizeBtn" title="字号">A</button>
       <button class="icon-btn" id="themeBtn" title="深浅色">◐</button>
     </div>
@@ -179,6 +188,56 @@ const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=nu
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const colorOf=n=>{const c=["#2E5A8C","#A8722A","#3C6E54","#7A4A86","#C0452F","#3E7B8C"];let h=0;for(const x of(n||"?"))h=(h*31+x.charCodeAt(0))>>>0;return c[h%c.length]};
 const epsOfShow=name=>Object.values(EPS).filter(e=>e.show===name);
+
+// ── 播放器:倍速 / 进度拖动 / 跳转 / 断点续听 ──
+const SPEEDS=[1,1.1,1.2,1.3,1.5];
+const getRate=()=>{try{const r=parseFloat(localStorage.getItem("yy-rate"));return SPEEDS.includes(r)?r:1}catch(e){return 1}};
+const setRate=r=>{try{localStorage.setItem("yy-rate",r)}catch(e){}};
+const fmtT=s=>{if(!isFinite(s)||s<0)s=0;const m=Math.floor(s/60),x=Math.floor(s%60);return m+":"+(x<10?"0":"")+x;};
+let PLAYERS=[];
+function stopAllAudio(){PLAYERS.forEach(a=>{try{a.pause()}catch(e){}});PLAYERS=[];}
+function syncRate(r){PLAYERS.forEach(a=>{try{a.playbackRate=r}catch(e){}});}
+
+function buildPlayer(src,{key,kind,accent,label,hint}){
+  const rate=getRate();
+  const wrap=el("div","yplayer");wrap.style.setProperty("--pc",accent||"var(--podcast)");
+  const a=new Audio();a.preload="metadata";a.src=src;a.playbackRate=rate;
+  const posKey="yy-pos-"+kind+"-"+key;
+  let restored=0;try{restored=parseFloat(localStorage.getItem(posKey))||0}catch(e){}
+  wrap.innerHTML=`<div class="yp-label">${label||""}</div>
+    <div class="yp-row">
+      <button class="yp-btn yp-play" aria-label="播放">▶</button>
+      <button class="yp-skip" data-d="-15" aria-label="后退15秒">↺15</button>
+      <button class="yp-skip" data-d="30" aria-label="前进30秒">30↻</button>
+      <span class="yp-time"><span class="yp-cur">0:00</span> / <span class="yp-dur">--:--</span></span>
+      <button class="yp-rate" aria-label="倍速">${rate}×</button>
+    </div>
+    <input class="yp-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="进度条">
+    ${hint?`<div class="yp-hint">${hint}</div>`:""}`;
+  const play=wrap.querySelector(".yp-play"),seek=wrap.querySelector(".yp-seek"),
+    cur=wrap.querySelector(".yp-cur"),dur=wrap.querySelector(".yp-dur"),rateBtn=wrap.querySelector(".yp-rate");
+  let seeking=false;
+  const paint=()=>{const p=seek.value/10;seek.style.background=`linear-gradient(90deg,var(--pc) ${p}%,var(--rule-2) ${p}%)`;};
+  paint();
+  a.addEventListener("loadedmetadata",()=>{dur.textContent=fmtT(a.duration);
+    if(restored>2&&restored<a.duration-3){a.currentTime=restored;cur.textContent=fmtT(restored);
+      seek.value=Math.round(restored/a.duration*1000);paint();}});
+  a.addEventListener("timeupdate",()=>{
+    if(!seeking&&a.duration){seek.value=Math.round(a.currentTime/a.duration*1000);cur.textContent=fmtT(a.currentTime);paint();}
+    const now=Date.now();if(!a._ls||now-a._ls>3000){a._ls=now;try{localStorage.setItem(posKey,a.currentTime)}catch(e){}}});
+  a.addEventListener("play",()=>play.textContent="❚❚");
+  a.addEventListener("pause",()=>play.textContent="▶");
+  a.addEventListener("ended",()=>{play.textContent="▶";try{localStorage.removeItem(posKey)}catch(e){}});
+  a.addEventListener("error",()=>{dur.textContent="加载失败";});
+  play.onclick=()=>{if(a.paused){PLAYERS.forEach(o=>{if(o!==a)o.pause()});a.play().catch(()=>{});}else a.pause();};
+  wrap.querySelectorAll(".yp-skip").forEach(b=>b.onclick=()=>{a.currentTime=Math.max(0,Math.min(a.duration||1e9,a.currentTime+(+b.dataset.d)));});
+  seek.addEventListener("input",()=>{seeking=true;if(a.duration)cur.textContent=fmtT(seek.value/1000*a.duration);paint();});
+  seek.addEventListener("change",()=>{if(a.duration)a.currentTime=seek.value/1000*a.duration;seeking=false;});
+  rateBtn.onclick=()=>{let i=(SPEEDS.indexOf(getRate())+1)%SPEEDS.length;const r=SPEEDS[i];setRate(r);syncRate(r);
+    document.querySelectorAll(".yp-rate").forEach(b=>b.textContent=r+"×");};
+  PLAYERS.push(a);
+  return wrap;
+}
 
 function coverEl(s){
   if(s.artwork) {const i=el("img","cover");i.src=s.artwork;i.loading="lazy";i.alt="";i.onerror=()=>{i.replaceWith(phCover(s.name))};return i;}
@@ -236,19 +295,17 @@ function renderEpisode(key){
     <div class="ep-orig">原标题:${esc(e.title)}</div>
     <div class="ep-meta"><span>${esc(e.author||"")}</span><span>${esc(e.published||"")}</span></div>`;
   head.appendChild(hb);d.appendChild(head);
-  // 播放器
-  if(e.voice){
-    const vp=el("div","player");vp.style.borderColor="var(--podcast)";
-    vp.innerHTML=`<div style="font-size:13px;color:var(--podcast);font-weight:700;margin-bottom:8px">🎧 中文导读 · AI 配音</div>
-      <audio controls preload="none" src="${esc(e.voice)}"></audio>
-      <div class="hint">1-2 分钟听完这集中文精华,通勤友好</div>`;
-    d.appendChild(vp);
+  // 播放器 — 完整中文版优先,回退旧摘要导读
+  const zhSrc=e.voice_full||e.voice;
+  if(zhSrc){
+    const full=!!e.voice_full;
+    d.appendChild(buildPlayer(esc(zhSrc),{key:e.key,kind:"zh",accent:"var(--podcast)",
+      label:full?"🎧 完整中文版 · AI 配音":"🎧 中文导读 · AI 配音",
+      hint:full?"完整朗读全集中文稿 · 可调倍速 · 自动记住进度,听到哪续到哪":"中文精华导读"}));
   }
   if(e.audio){
-    const p=el("div","player");
-    p.innerHTML=`<audio controls preload="none" src="${esc(e.audio)}"></audio>
-      <div class="hint">▶ 原声收听(英文)· 若加载慢可能需要网络代理</div>`;
-    d.appendChild(p);
+    d.appendChild(buildPlayer(esc(e.audio),{key:e.key,kind:"orig",accent:"var(--ink-3)",
+      label:"▶ 原声收听(英文)",hint:"英文原声 · 加载慢可能需要网络代理"}));
   }
   // 要点卡
   if(e.intro){d.appendChild(el("div","section-h","这集讲了什么"));
@@ -273,12 +330,7 @@ function renderEpisode(key){
     btn.onclick=()=>{body.classList.toggle("show");btn.style.display=body.classList.contains("show")?"none":"flex"};
     d.appendChild(btn);d.appendChild(body);
   }
-  // 配音 CTA(第三波)
-  const cta=el("div","voice-cta");
-  cta.innerHTML=`<span class="t">想边走边听?可以把这集生成<b>中文配音</b>。</span><button id="voiceBtn">生成中文配音</button>`;
-  d.appendChild(cta);
   c.appendChild(d);
-  $("#voiceBtn").onclick=()=>{$("#voiceBtn").textContent="已记下,稍后生成 ✓";$("#voiceBtn").disabled=true;};
   window.scrollTo(0,0);
 }
 
@@ -286,6 +338,7 @@ function skeleton(){const w=el("div","shows skeleton");for(let i=0;i<5;i++){cons
   k.innerHTML=`<div class="cover ph" style="background:var(--paper-3)"></div><div class="show-body"><div class="sk" style="width:55%"></div><div class="sk" style="width:35%"></div><div class="sk" style="width:80%"></div></div>`;w.appendChild(k)}return w}
 
 function render(){
+  stopAllAudio();
   renderTabs();
   $("#tabsNav").style.display = view.name==="home" ? "" : "none";
   if(view.name==="ep") renderEpisode(view.key);
@@ -294,17 +347,15 @@ function render(){
   $("#status").textContent = SHOWS.length? `${SHOWS.length} 档节目 · ${done} 集已中文化` : "加载中…";
 }
 
-async function load(){
-  try{const r=await fetch("data/shows.json",{cache:"no-store"});SHOWS=await r.json();}catch(e){SHOWS=[];}
-  try{const r=await fetch("data/podcast_app.json",{cache:"no-store"});const d=await r.json();
-    EPS=d.episodes||{};Object.keys(EPS).forEach(k=>EPS[k].key=k);
-    if(d.generated)$("#genInfo").textContent="更新于 "+d.generated;
-  }catch(e){EPS={};}
+async function load(manual){
+  $("#status").textContent = manual ? "刷新中…" : "加载中…";
+  // 不再每20秒自动刷新(会打断播放、听不完)。仅首次加载 + 手动刷新按钮。
+  try{const r=await fetch("data/shows.json",{cache:manual?"reload":"default"});const j=await r.json();if(Array.isArray(j)&&j.length)SHOWS=j;}catch(e){}
+  try{const r=await fetch("data/podcast_app.json",{cache:manual?"reload":"default"});const d=await r.json();
+    if(d&&d.episodes){EPS=d.episodes;Object.keys(EPS).forEach(k=>EPS[k].key=k);}
+    if(d&&d.generated)$("#genInfo").textContent="更新于 "+d.generated;
+  }catch(e){}
   render();
-  // 内容在后台持续生成,轻量轮询刷新
-  if(Object.keys(EPS).length < SHOWS.length){
-    setTimeout(load, 20000);
-  }
 }
 
 // 偏好
@@ -316,6 +367,7 @@ $("#themeBtn").onclick=()=>{const o=["auto","light","dark"],cur=document.documen
 $("#sizeBtn").onclick=()=>{const o=["","large","xlarge"],cur=document.documentElement.dataset.size||"",n=o[(o.indexOf(cur)+1)%3];
   if(n)document.documentElement.dataset.size=n;else document.documentElement.removeAttribute("data-size");try{localStorage.setItem("yy-size",n)}catch(e){}};
 {const t=document.documentElement.dataset.theme||"auto";$("#themeBtn").textContent=t==="dark"?"●":t==="light"?"○":"◐";}
+$("#refreshBtn").onclick=()=>load(true);
 load();
 if("serviceWorker"in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))}
 </script>
