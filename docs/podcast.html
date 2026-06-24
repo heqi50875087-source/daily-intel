@@ -97,9 +97,13 @@ main{padding-top:10px;min-height:60vh}
 /* 详情视图 */
 .detail{padding:18px 0 40px;animation:fade .4s}
 @keyframes fade{from{opacity:0}to{opacity:1}}
-.back{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:13px;color:var(--ink-2);
-  cursor:pointer;padding:8px 0;margin-bottom:6px;background:none;border:none}
-.back:hover{color:var(--accent)}
+.back{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:14.5px;font-weight:700;color:var(--ink);
+  cursor:pointer;padding:10px 16px 10px 12px;margin-bottom:16px;background:var(--paper-2);border:1px solid var(--rule-2);
+  border-radius:11px;box-shadow:var(--shadow);transition:all .15s;-webkit-tap-highlight-color:transparent;
+  position:sticky;top:10px;z-index:15}
+.back:hover{border-color:var(--accent);color:var(--accent)}
+.back:active{transform:scale(.96)}
+.back .bk-ico{font-size:18px;line-height:1;font-weight:400}
 .ep-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:18px}
 .ep-head .cover{width:96px;height:96px}
 .ep-head-body{flex:1;min-width:0}
@@ -272,7 +276,7 @@ function renderHome(){
       <div class="show-latest">📍 ${esc(latest.title_zh||latest.title)}</div>`;
     card.appendChild(body);
     card.appendChild(el("div","chev","›"));
-    card.onclick=()=>{view={name:"ep",key:latest.key};render()};
+    card.onclick=()=>openEp(latest.key);
     box.appendChild(card);
   });
   c.appendChild(box);
@@ -282,7 +286,7 @@ function renderEpisode(key){
   const e=EPS[key]; const c=$("#content");c.innerHTML="";
   if(!e){view={name:"home"};return render();}
   const d=el("div","detail");
-  const back=el("button","back","‹ 返回");back.onclick=()=>{view={name:"home"};render()};
+  const back=el("button","back");back.innerHTML='<span class="bk-ico">‹</span> 返回列表';back.onclick=()=>history.back();
   d.appendChild(back);
   // 头部
   const head=el("div","ep-head");
@@ -293,17 +297,18 @@ function renderEpisode(key){
     <div class="ep-orig">原标题:${esc(e.title)}</div>
     <div class="ep-meta"><span>${esc(e.author||"")}</span><span>${esc(e.published||"")}</span></div>`;
   head.appendChild(hb);d.appendChild(head);
-  // 播放器 — 完整中文版优先,回退旧摘要导读
+  // 播放器 — 原版完整音频优先(听完整原声),中文版次之
+  if(e.audio){
+    d.appendChild(buildPlayer(esc(e.audio),{key:e.key,kind:"orig",accent:"var(--podcast)",
+      label:"🎧 原版完整音频 · 英文原声",
+      hint:"完整收听原节目全集 · 可调倍速 · 自动记住进度。海外源加载稍慢,可稍候或挂代理"}));
+  }
   const zhSrc=e.voice_full||e.voice;
   if(zhSrc){
     const full=!!e.voice_full;
-    d.appendChild(buildPlayer(esc(zhSrc),{key:e.key,kind:"zh",accent:"var(--podcast)",
-      label:full?"🎧 完整中文版 · AI 配音":"🎧 中文导读 · AI 配音",
-      hint:full?"完整朗读全集中文稿 · 可调倍速 · 自动记住进度,听到哪续到哪":"中文精华导读"}));
-  }
-  if(e.audio){
-    d.appendChild(buildPlayer(esc(e.audio),{key:e.key,kind:"orig",accent:"var(--ink-3)",
-      label:"▶ 原声收听(英文)",hint:"英文原声 · 加载慢可能需要网络代理"}));
+    d.appendChild(buildPlayer(esc(zhSrc),{key:e.key,kind:"zh",accent:"var(--ink-3)",
+      label:full?"🔊 完整中文版 · AI 配音":"🔊 中文导读 · AI 配音(节选)",
+      hint:full?"完整朗读全集中文稿 · 断点续听":"仅中文精华导读(非全集);想听完整请用上方原版音频"}));
   }
   // 要点卡
   if(e.intro){d.appendChild(el("div","section-h","这集讲了什么"));
@@ -335,6 +340,17 @@ function renderEpisode(key){
 function skeleton(){const w=el("div","shows skeleton");for(let i=0;i<5;i++){const k=el("div","show-card");
   k.innerHTML=`<div class="cover ph" style="background:var(--paper-3)"></div><div class="show-body"><div class="sk" style="width:55%"></div><div class="sk" style="width:35%"></div><div class="sk" style="width:80%"></div></div>`;w.appendChild(k)}return w}
 
+function openEp(key){
+  view={name:"ep",key};
+  try{history.pushState({v:"ep",key},"","#ep/"+encodeURIComponent(key));}catch(e){}
+  render();window.scrollTo(0,0);
+}
+window.addEventListener("popstate",(e)=>{
+  const st=e.state;
+  if(st&&st.v==="ep"&&EPS[st.key])view={name:"ep",key:st.key};
+  else view={name:"home"};
+  render();
+});
 function render(){
   stopAllAudio();
   renderTabs();
@@ -353,6 +369,14 @@ async function load(manual){
     if(d&&d.episodes){EPS=d.episodes;Object.keys(EPS).forEach(k=>EPS[k].key=k);}
     if(d&&d.generated)$("#genInfo").textContent="更新于 "+d.generated;
   }catch(e){}
+  // 历史基线 + 深链(#ep/key)支持: 保证手机后退能从详情回到列表
+  const m=location.hash.match(/^#ep\/(.+)$/);
+  if(m&&EPS[decodeURIComponent(m[1])]){
+    try{history.replaceState({v:"home"},"","#");history.pushState({v:"ep",key:decodeURIComponent(m[1])},"",location.hash);}catch(e){}
+    view={name:"ep",key:decodeURIComponent(m[1])};
+  }else{
+    try{history.replaceState({v:"home"},"","");}catch(e){}
+  }
   render();
 }
 
