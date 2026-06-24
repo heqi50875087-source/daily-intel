@@ -24,7 +24,7 @@ def latest(feed):
         if not au:
             for l in e.get('links',[]):
                 if 'audio' in (l.get('type') or ''): au=l['href']
-        return {"title":e.get('title',''),"audio":au,"published":e.get('published','')[:16],"guid":e.get('id',e.get('title',''))}
+        return {"title":e.get('title',''),"audio":au,"published":e.get('published','')[:16],"guid":e.get('id',e.get('title','')),"link":e.get('link','')}
     except Exception: return None
 def dl_one(ep,path):
     try:
@@ -71,7 +71,7 @@ def main():
             zhfull="\n\n".join(podcast_fulltext.translate(c) for c in podcast_fulltext.split_text(src))
             for k in [k for k,v in out['episodes'].items() if v['show']==s['name']]: del out['episodes'][k]
             out['episodes'][f"{s['name']}|{ep['guid']}"]={"show":s['name'],"category":s['category'],"author":s.get('author',''),
-                "artwork":s.get('artwork',''),"title":ep['title'],"published":ep['published'],"audio":ep['audio'],
+                "artwork":s.get('artwork',''),"title":ep['title'],"published":ep['published'],"audio":ep['audio'],"link":ep.get('link',''),
                 "title_zh":zh.get('title_zh',''),"intro":zh.get('intro',''),"points":zh.get('points',[]),
                 "tags":zh.get('tags',[]),"zh_full":zhfull,"truncated":bool(ep.get('truncated') or len(en)>CAP)}
             out['generated']=time.strftime("%Y-%m-%d %H:%M")

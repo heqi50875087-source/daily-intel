@@ -135,6 +135,9 @@ async def main():
     items = list(d["episodes"].items())
     for key, ep in items:
         if only and only.lower() not in ep.get("show","").lower(): continue
+        # 完整官网文字稿(动辄数万字)不配3小时AI音,留作阅读+原版音频收听
+        if ep.get("transcript_source") or len(ep.get("zh_full","")) > 15000:
+            sk += 1; continue
         try:
             r = await gen(key, ep, force)
             if r is True:
