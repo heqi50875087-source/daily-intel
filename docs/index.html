@@ -307,7 +307,12 @@ footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 const MODULES = [
   {key:"ai",        label:"AI 进展",  cat:"ai",      hasRegion:false},
   {key:"github",    label:"GitHub工具",cat:"ai",     hasRegion:false},
+  {key:"research",  label:"学术前沿", cat:"ai",       hasRegion:false},
   {key:"hot",       label:"实时热点", cat:"voice",    hasRegion:true},
+  {key:"sports",    label:"体育运动", cat:"ai",       hasRegion:true},
+  {key:"games",     label:"游戏",     cat:"voice",    hasRegion:true},
+  {key:"creative",  label:"创意·影像",cat:"voice",    hasRegion:false},
+  {key:"kidlit",    label:"童书·阅读",cat:"library",  hasRegion:true},
   {key:"libraries", label:"图书馆",   cat:"library",  hasRegion:true},
   {key:"voices",    label:"关键声音", cat:"voice",    hasRegion:true},
 ];
@@ -401,6 +406,8 @@ function renderFeed(){
   const mod=DATA?.modules?.[active];
   let items=(mod?.items)||[];
   if(region!=="__all__")items=items.filter(i=>i.region===region);
+  // 全部按日期倒序(新→旧),各板块都有规律。排序副本,详情索引仍用 mod.items.indexOf 正确定位
+  if(active!=="voices")items=items.slice().sort((a,b)=>String(b.published||"").localeCompare(String(a.published||"")));
   if(!items.length){c.appendChild(emptyState());return;}
   const feed=el("div","feed");
   const m=MODULES.find(x=>x.key===active);
@@ -439,6 +446,37 @@ function renderFeed(){
         <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
         <span class="date">${esc(it.published||"")}</span></div>
         <h3>${esc(it.title_zh||it.title||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="research"){
+      html=`<div class="card-meta">${catTag("学术","ai")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="creative"){
+      html=`<div class="card-meta">${catTag("创意","voice")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="kidlit"){
+      const scope={award:"奖项",picturebook:"绘本",reading:"阅读推广",author:"作家",publish:"出版"}[it.scope]||"";
+      html=`<div class="card-meta">${catTag("童书"+(scope?" · "+scope:""),"library")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="sports"){
+      html=`<div class="card-meta">${catTag("体育","ai")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="games"){
+      html=`<div class="card-meta">${catTag("游戏","voice")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}</h3>
         <p>${esc(it.summary||"")}</p>`;
     }else if(active==="voices"){
       const ini=(it.name||"?").trim()[0]||"?";
@@ -494,7 +532,7 @@ function render(){
 }
 
 /* ============ 详情页 ============ */
-const CLICKABLE=new Set(["ai","libraries","github","hot"]);
+const CLICKABLE=new Set(["ai","libraries","github","hot","research","creative","kidlit","sports","games"]);
 function openDetail(mod,idx){
   view={name:"detail",mod,idx};
   try{history.pushState({v:"detail",mod,idx},"","#"+mod+"/"+idx);}catch(e){}
