@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T22:29:22+08:00",
+  "generated_at": "2026-06-24T22:48:45+08:00",
   "date": "2026-06-24",
   "engine": "deepseek:deepseek-chat",
   "modules": {
@@ -419,6 +419,354 @@
             {
               "who": "读者",
               "text": "'披露而非禁止'比一刀切禁用务实得多——孩子迟早会用 AI,教会他们正确使用才是负责任的做法。"
+            }
+          ]
+        },
+        {
+          "title_zh": "智谱 GLM-5.2 开源发布:MIT 许可、百万上下文,以约六分之一成本逼平 GPT-5.5",
+          "summary": "智谱(Z.ai)于 6 月 13 日发布并以 MIT 许可证开源旗舰大模型 GLM-5.2,7440 亿总参数/400 亿激活,上下文窗口扩到 100 万 token,在多项独立评测中位列当前最强开源模型之一。",
+          "source": "Pandaily / The Decoder / Trending Topics",
+          "region": "中国(北京)",
+          "published": "2026-06-13",
+          "overview": "6 月 13 日,智谱(前身 Zhipu AI、现称 Z.ai)发布新旗舰 GLM-5.2,先向付费编程客户推送,随后以 MIT 许可证开源权重,无使用限制、无地域锁。模型为 MoE 架构,7440 亿总参数、约 400 亿激活,上下文窗口由上一代翻四倍至 100 万 token。在 Intelligence Index v4.1 上得 51 分,领先 MiniMax-M3、DeepSeek 与 Kimi K2.6;在 SWE-bench Pro 编程评测约 62 分,超过 GPT-5.5。通过 OpenRouter 等渠道,价格约为每百万输入 1.4 美元、输出 4.4 美元,仅为 GPT-5.5 的约六分之一。Hugging Face 还配套提供数小时免费全球算力以鼓励试用。",
+          "analysis": "开源旗舰用 MIT 许可叠加百万上下文,把'可自托管+长文档处理'的门槛一次性拉低,对图书馆、研究机构这类既要数据不出域、又要处理超长文献的场景极其友好。成本只有闭源旗舰的零头,意味着馆藏问答、长篇报告生成、整本电子书检索这类知识工作可以本地化部署而非依赖外部 API。它也再次印证'长上下文已成旗舰标配',检索增强(RAG)的工程重心会从'塞不下'转向'选得准'。",
+          "url": "https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "MIT 许可 + 100 万上下文,直接拿来自托管,比之前还要看脸色申请商用授权省心太多。"
+            },
+            {
+              "who": "研究者",
+              "text": "Intelligence Index 51 分压过几家闭源,开源旗舰这次是真追上来了,不是benchmark刷分。"
+            },
+            {
+              "who": "馆员",
+              "text": "数据不出本地又能读整本书做问答,这种开源长上下文模型才是机构最想要的。"
+            },
+            {
+              "who": "创业者",
+              "text": "输出价是 GPT-5.5 的六分之一,小团队终于敢把长文档类产品的毛利算正了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "MiniMax M3 开源:首个集前沿编程、百万上下文与原生多模态于一身的开放权重模型",
+          "summary": "MiniMax 于 6 月 1 日发布开放权重模型 M3,SWE-Bench Pro 得 59% 与 GPT-5.5 持平,凭 MiniMax 稀疏注意力(MSA)支持 100 万 token 上下文,且原生多模态,推理成本仅为前代二十分之一。",
+          "source": "VentureBeat / MiniMax 官方博客 / The Decoder",
+          "region": "中国(上海)",
+          "published": "2026-06-01",
+          "overview": "6 月 1 日,MiniMax 发布开放权重旗舰 M3,主打'前沿编程 + 百万上下文 + 原生多模态'三合一。M3 在 SWE-Bench Pro 上得 59.0%,与 GPT-5.5(58.6%)持平、超过 Gemini 3.1 Pro(54.2%),但仍低于 Claude Opus 4.8 的 69.2%。其核心创新 MiniMax 稀疏注意力(MSA)用轻量索引分支扫描 token、只对相关块做注意力计算,在百万级上下文下把单 token 计算压到上一代的二十分之一,预填充快 9 倍、解码快 15 倍。OpenRouter 首发促销价约每百万输入 0.3 美元、输出 1.2 美元,官方随后开源权重并发布技术报告。",
+          "analysis": "MSA 这种稀疏注意力把超长上下文的算力账单真正打下来,是长文档场景从'能跑'到'划算'的关键拐点——这对动辄要喂整套档案、整批期刊的知识检索意义最大。原生多模态意味着扫描件、图表、PDF 混排都能一锅端,正契合图书馆数字化馆藏的异构资料。再加上编程能力对标 GPT-5.5,它是少数能同时承担'读资料'和'写脚本自动化'的开放模型。",
+          "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "MSA 把百万上下文的算力砍到二十分之一,这才是长文本能落地的工程突破,不只是把窗口写大。"
+            },
+            {
+              "who": "开发者",
+              "text": "59% SWE-Bench Pro 还开源,本地跑代码 agent 又多一个不烧钱的选项。"
+            },
+            {
+              "who": "技术圈",
+              "text": "原生多模态 + 百万上下文,扫描件和混排 PDF 终于不用先切碎再喂了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英伟达发布 Cosmos 3:首个全开放'全模态世界模型',让机器人先思考再行动",
+          "summary": "英伟达 6 月 1 日推出开放前沿基础模型 Cosmos 3,用 mixture-of-transformers 统一视觉推理、世界生成与动作预测,在 20 万亿 token 多模态数据上训练,把物理 AI 的训练与评估周期从数月压到数天。",
+          "source": "NVIDIA Newsroom / Axios / HPCwire",
+          "region": "美国",
+          "published": "2026-06-01",
+          "overview": "6 月 1 日,英伟达发布 Cosmos 3,面向物理 AI 的开放世界基础模型,采用突破性的 mixture-of-transformers 架构,把视觉推理、世界生成与动作预测整合进单一系统。它被称为全球首个能原生理解并生成文本、图像、视频、环境声与动作的全开放全模态模型,物理精度领先。训练数据达 20 万亿 token,含近 10 亿张图像、4 亿条真实与合成视频、环境音频、文本以及来自人类与机器人的动作数据。开发者可用它在物理环境中模拟动作、生成机器人关节角与轨迹等动作数据,作为'世界-动作模型(WAM)'骨干加速机器人策略学习。配套成立 Cosmos 联盟,联合 Runway、LTX、Black Forest Labs、Skild AI 等。6 月 22 日其技术报告进一步公开。",
+          "analysis": "世界模型把'生成'从二维像素推进到'可预测物理后果的三维动作空间',这是从内容生成迈向具身智能的关键一步。对非机器人领域同样有启示:它示范了如何用统一架构吃下文本+图像+视频+音频+动作的异构数据,这种'全模态对齐'思路迟早会回流到知识管理与数字资产组织中。全开放权重也降低了机构做仿真、合成数据的门槛。",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "把世界生成和动作预测放进同一个 transformer,这比单纯文生视频更接近真正的具身智能。"
+            },
+            {
+              "who": "开发者",
+              "text": "20 万亿 token、含真实机器人动作数据,合成数据这条路终于有了开放的好底座。"
+            },
+            {
+              "who": "技术圈",
+              "text": "全模态+物理精度领先,机器人'先想后动'不再是 PPT,周期从数月压到数天是真省钱。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英伟达杀入 PC:Computex 发布 Arm 架构 AI 笔电芯片,微软戴尔惠普等首发",
+          "summary": "6 月 1 日 Computex 上,黄仁勋发布与联发科合作、面向 Windows on Arm 的消费级 AI 笔电芯片,将首发于微软、戴尔、惠普、华硕、联想、微星机型;同时其数据中心 Vera CPU 已满产。",
+          "source": "CNBC / Bloomberg / Al Jazeera",
+          "region": "美国 / 中国台湾",
+          "published": "2026-06-01",
+          "overview": "6 月 1 日,英伟达 CEO 黄仁勋在台北 Computex 2026 主题演讲中发布面向 Windows PC 的高性能笔电芯片,正式进军下一代消费 PC 市场。该产品是 CPU 与 GPU 的结合体,在台湾联发科协助下打造,运行微软的 Windows on Arm 操作系统,将率先搭载于微软、戴尔、惠普、华硕、联想与微星的笔记本。黄仁勋同时表示,面向数据中心的 Vera CPU 已进入满产,称其为'新的主要增长引擎',早期客户包括 Anthropic、OpenAI 与 SpaceXAI。消息一出,AMD 与英特尔股价下挫;据报道 AMD 也在研发 Arm 架构 PC 芯片。",
+          "analysis": "英伟达从数据中心一路打到个人笔电,意味着'端侧 AI'的算力底座要重排座次——本地跑大模型、做离线推理会更顺,这正好呼应机构对'数据不出本机'的诉求。Arm + Windows 的组合若站稳,本地化部署开源模型(如 GLM、MiniMax)的体验会进一步改善。对采购方而言,端侧算力变强会让'轻量本地模型替代部分云 API'的账算得更划算。",
+          "url": "https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "黄仁勋要通吃从数据中心到笔电的每一层,Intel 和 AMD 这次是真被架在火上。"
+            },
+            {
+              "who": "开发者",
+              "text": "端侧算力上来,本地跑开源大模型做离线推理终于不那么憋屈了。"
+            },
+            {
+              "who": "创业者",
+              "text": "Anthropic、OpenAI 都用 Vera 当增长引擎,算力卡位战已经卷到 CPU 了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "谷歌发布 Gemini 2.5 Pro(Deep Think):200 万上下文,称当前最强可用模型",
+          "summary": "6 月 22 日,谷歌推出带 Deep Think 推理模式的 Gemini 2.5 Pro,主打科学、数学与通用推理领先,配 200 万 token 上下文窗口,被部分评测称为当前公众可用的最强模型。",
+          "source": "buildfastwithai / llm-stats",
+          "region": "美国",
+          "published": "2026-06-22",
+          "overview": "6 月 22 日,谷歌发布带 Deep Think 推理模式的 Gemini 2.5 Pro,被描述为谷歌迄今最强、也可能是当前各实验室中公众可用的最强模型。它在科学、数学与通用推理上领先,并配备 200 万 token 的上下文窗口——是当前业界其他厂商的两倍。同日 AI 圈其他动态密集:OpenAI 首席科学家预告 GPT-5.6 是对 5.5 的'有意义提升'、定于 6 月底发布;谷歌随 Android 17 把 Gemini Omni 下沉到操作系统层,并开放 Lyria 3 音乐生成与 AudioLM 翻译 API;市场数据显示 ChatGPT 份额首次跌破 50%(46.4%),Gemini 升至 27.7%。",
+          "analysis": "200 万上下文把'整套文献综述/整批馆藏目录一次喂入'变成现实,Deep Think 这类显式推理模式则更适合需要多步论证的研究型问答,而非简单检索。份额此消彼长说明前沿能力的护城河正在被快速填平,机构选型不必再死磕单一供应商,多模型路由会成为常态。Lyria 3 下沉到 Android 系统层,也预示生成式音频会像输入法一样无处不在。",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "200 万上下文 + Deep Think,整篇综述一次性喂进去做多步推理,这正是做学术问答想要的。"
+            },
+            {
+              "who": "技术圈",
+              "text": "ChatGPT 份额跌破 50%,前沿模型的护城河比想象中浅,谁领先都只是几周的事。"
+            },
+            {
+              "who": "馆员",
+              "text": "上下文翻倍到 200 万,整批目录和长报告终于不用切块,检索问答能更连贯。"
+            },
+            {
+              "who": "开发者",
+              "text": "Gemini 下沉到 Android 系统层还开放音乐和翻译 API,端侧生成式能力要普及了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DeepSeek 首轮外部融资超 74 亿美元,投后估值逾 500 亿美元",
+          "summary": "6 月 16 日,DeepSeek 完成首次外部融资,金额超 500 亿元人民币(约 74 亿美元),投后估值逾 500 亿美元;创始人梁文锋个人出资约 30 亿美元为最大单一投资人,腾讯、宁德时代及国家 AI 产业基金等参投。",
+          "source": "FinSMEs / TechFundingNews / 36Kr",
+          "region": "中国(杭州)",
+          "published": "2026-06-16",
+          "overview": "6 月 16 日,DeepSeek 确认完成首次外部融资,总额超过 74 亿美元(约 500 亿元人民币),投后估值在 520 亿至 590 亿美元之间,创下国内大模型公司单轮融资纪录。创始人兼 CEO 梁文锋个人出资 30 亿美元(约 200 亿元),为最大单一投资人;腾讯出资约 15 亿美元、电池厂商宁德时代约 7.4 亿美元,国家人工智能产业投资基金以及网易、京东、IDG 资本等跟投。交易结构特殊:外部投资人无投票权并有五年锁定期,仅国家背景 AI 基金获得直接股权与投票权。资金将用于算力集群、下一代开放权重模型预训练及垂直软件应用全球落地。",
+          "analysis": "创始人自己当最大出资方、外部资本无投票权,这种'反资本'结构罕见,实质是用资金换算力、又把控制权牢牢攥在技术团队手里——这对坚持开源路线是一种保障。500 亿美元估值也把'开放权重模型'正式抬进顶级资产序列。对下游使用者是好消息:充足算力意味着 DeepSeek 后续开源旗舰更新会更快、更稳,机构本地化部署的选择面继续扩大。",
+          "url": "https://www.finsmes.com/2026/06/deepseek-raises-over-7-4-billion-in-maiden-funding-at-a-post-money-valuation-exceeding-50-billion.html",
+          "social": [
+            {
+              "who": "创业者",
+              "text": "外部投资人零投票权、五年锁定,梁文锋这是用钱换算力、不交出方向盘,够硬气。"
+            },
+            {
+              "who": "技术圈",
+              "text": "500 亿美元估值砸进一家坚持开源的公司,开放权重这条路被资本正式认可了。"
+            },
+            {
+              "who": "研究者",
+              "text": "钱主要砸算力和下一代开放权重预训练,意味着后面开源旗舰的迭代会更快。"
+            }
+          ]
+        },
+        {
+          "title_zh": "微软 Build 2026 推出 Scout:基于 OpenClaw 的常驻自治办公 agent",
+          "summary": "6 月 2 日 Build 大会上,微软发布首款 'Autopilot' 智能体 Scout——基于开源 OpenClaw 框架的常驻自治助理,深度接入 Teams、Outlook、OneDrive、SharePoint,并为每个实例分配受治理的 Entra 独立身份。",
+          "source": "TechCrunch / Microsoft 365 Blog / InfoQ",
+          "region": "美国",
+          "published": "2026-06-02",
+          "overview": "6 月 2 日 Build 2026 上,微软发布全新类别智能体 'Autopilot' 的首款旗舰 Scout——一款基于开源 OpenClaw 框架、跨云端/桌面/网页运行的常驻('always-on')自治助理,深度集成于 Microsoft 365 日常应用,可访问聊天、邮件、日历与联系人。它无需等待用户指令即可主动工作:跨时区协调会议、标记重要会议并生成准备材料、识别即将到来的交付物并自动在日历上预留时间、发现停滞决策等风险。安全方面,微软为每个 Scout 实例分配受治理的 Entra 独立身份(而非通用共享服务账号),使其成为企业目录中可追责的实体。值得注意的是,微软 CEO 纳德拉三个月前还称 OpenClaw 是'病毒',如今却在其上构建 Scout。",
+          "analysis": "把 agent 接入身份目录、赋予可追责身份,是企业级自治智能体从'玩具'走向'可信生产工具'的关键一步——这正是机构最担心的治理与审计问题。基于开源 OpenClaw 又自建商业层,微软的姿态说明'开源 agent 运行时 + 闭源治理与集成'会是主流商业模式。对图书馆/研究机构,这类常驻 agent 能把会议协调、资料准备、截止跟踪等行政性知识工作自动化,但前提是身份与权限边界要先理清。",
+          "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "纳德拉三个月前还骂 OpenClaw 是病毒,转头就拿它造 Scout,真香现场。"
+            },
+            {
+              "who": "开发者",
+              "text": "给 agent 一个受治理的 Entra 身份,可追责这点才是企业敢用自治智能体的前提。"
+            },
+            {
+              "who": "馆员",
+              "text": "会议协调、材料准备、截止跟踪这些杂活能自动化,但权限边界得先划清楚才敢放进来。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Anthropic 发布 Claude Fable 5,十天后遭美政府出口管制指令下线",
+          "summary": "6 月 9 日 Anthropic 发布迄今最强广泛可用模型 Claude Fable 5(常驻自适应思考、100 万上下文、12.8 万输出 token);6 月 12 日即收到美政府出口管制指令,被要求暂停 Fable 5 与 Mythos 5 的访问。",
+          "source": "Anthropic Newsroom / Releasebot / Enterprise DNA",
+          "region": "美国",
+          "published": "2026-06-09",
+          "overview": "6 月 9 日,Anthropic 发布 Claude Fable 5,称其为最强的广泛可用模型,在几乎所有测试基准上取得 SOTA;运行时常驻自适应思考,配 100 万 token 上下文与 12.8 万 token 输出,并内置安全分类器,对网络安全、生物等敏感领域的可疑请求自动回退到 Claude Opus 4.8。然而仅过不到一周,6 月 12 日 Anthropic 宣布收到美国政府出口管制指令,被要求暂停对 Fable 5 与 Claude Mythos 5 的访问;免费试用窗口 6 月 22 日关闭、按量计费 6 月 23 日启动。期间 Anthropic 还在 6 月 17 日开设首尔办公室、推进韩国 AI 生态合作,并启动面向职业早期人群的 Claude Corps 公益项目。",
+          "analysis": "前沿模型刚发布就被出口管制下线,标志着大模型正式进入'技术能力受地缘政治直接调度'的时代——这对依赖单一海外前沿模型的机构是明确风险提示。内置'敏感请求自动回退到更保守模型'的安全设计值得关注,它把安全做成了运行时机制而非事后审查。对国内知识机构而言,这更坚定了'开源可自托管模型 + 本地化'作为稳妥底座的判断。",
+          "url": "https://www.anthropic.com/news",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "发布十天就被出口管制摁下线,前沿模型这下真成了地缘政治筹码。"
+            },
+            {
+              "who": "研究者",
+              "text": "敏感请求自动回退到更保守模型,把安全做成运行时机制,这个工程思路值得借鉴。"
+            },
+            {
+              "who": "馆员",
+              "text": "海外旗舰说停就停,机构还是得有一套能自托管的开源底座兜底才安心。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Plaud 发布面向自治 AI agent 的可穿戴设备,不止做转写而做'数据管道'",
+          "summary": "6 月 17 日,AI 笔记设备厂商 Plaud 宣布今年内推出可直接对接 AI agent 的全新可穿戴设备,电池续航 8–12 小时、或含蜂窝连接,并试验随时间学习用户的个性化 AI;公司预计 2026 年销售达 5 亿美元。",
+          "source": "Android Authority",
+          "region": "美国 / 中国(团队背景)",
+          "published": "2026-06-17",
+          "overview": "6 月 17 日,凭 Plaud Note、NotePin 等 AI 笔记设备走红的 Plaud 宣布,将于年内推出全新可穿戴设备,核心定位是把数据直接'喂'进自治 AI agent,而非仅做音频转写——公司由此从'记笔记'转向为 AI 模型提供主动数据管道。新设备电池续航至少 8 小时、可能达 12 小时,或具备蜂窝连接以降低使用摩擦、加快 AI 功能触达;公司还在试验类似 ChatGPT 的个性化 AI,随用户使用逐渐学习偏好。Plaud 已积累全球 200 万用户,2026 年(年中即)预计销售达 5 亿美元。与折戟的 Humane AI Pin、Rabbit R1 不同,其成功被归因于'为忙碌专业人士提供本地、可靠的环境采集'这一清晰实用价值。",
+          "analysis": "可穿戴的角色正从'语音转文字工具'升级为'喂给 agent 的实时数据入口',这把个人知识管理的边界从屏幕前推到了全天候环境采集。相较一味想取代手机的失败者,Plaud 的'做减法、抓刚需'路线证明 AI 硬件要先有清晰的真实工作流价值。对知识工作者,这类设备意味着会议、走访、口述资料能无缝沉淀进个人知识库,但隐私与采集边界将是落地前必须回答的问题。",
+          "url": "https://www.androidauthority.com/plaud-new-ai-agent-wearable-3678336/",
+          "social": [
+            {
+              "who": "创业者",
+              "text": "Humane 和 Rabbit 都想取代手机然后死掉,Plaud 只做'可靠环境采集'反而活得好。"
+            },
+            {
+              "who": "读者",
+              "text": "全天候录入听着方便,但随身设备一直采集,隐私这关怎么过得先说清楚。"
+            },
+            {
+              "who": "开发者",
+              "text": "可穿戴从转写工具变成喂 agent 的数据入口,这才是 AI 硬件真正有用的形态。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 高等教育开放获取期刊创刊:聚焦教学评估、治理与 AI 素养",
+          "summary": "6 月 4 日,加州州立大学圣贝纳迪诺分校(CSUSB)宣布创办一本关于'AI 在高等教育'的开放获取期刊,旨在记录与评估机构如何设计学习体验、评估学生作业并治理新兴技术。",
+          "source": "CSUSB News",
+          "region": "美国",
+          "published": "2026-06-04",
+          "overview": "6 月 4 日,加州州立大学圣贝纳迪诺分校(CSUSB)宣布创办一本聚焦'人工智能在高等教育'的开放获取(open-access)期刊,旨在系统记录与评估各院校如何借助 AI 设计学习体验、评估学生作业并治理新兴技术。期刊范围涵盖 AI 增强的教学与评估、伦理与公平的 AI 实践、学习科学、教学设计、机构政策与治理,以及与 AI 素养相关的师资发展。这一创刊与近期图书馆界关于'图书馆作为 AI 素养引领者'的讨论相呼应——业界普遍认为图书馆、馆员与信息专业人员在教育、政策、出版与系统开发等领域均有机会承担 AI 素养引领角色。同期 ALA 2026 年会定于 6 月 25–29 日在芝加哥举行。",
+          "analysis": "把'AI 在教育'的实践沉淀为开放获取的同行评审知识,等于给教育数字化转型建立了证据基底,这正是图书馆与研究机构擅长的事:组织、评估、传播。开放获取本身也呼应学术出版的开放潮流,降低一线教师与馆员获取经验的门槛。对图书馆而言,'AI 素养引领者'不是口号——从馆藏到读者培训,馆员天然处在帮公众用对 AI 的位置。",
+          "url": "https://www.csusb.edu/inside/article/594030/new-open-access-journal-ai-higher-education-launches-csusb",
+          "social": [
+            {
+              "who": "学界",
+              "text": "终于有专门刊物把'AI 怎么改教学评估与治理'做成同行评审证据,而不是各做各的零散经验。"
+            },
+            {
+              "who": "馆员",
+              "text": "AI 素养引领者这事图书馆最该接——我们本来就在做信息素养培训。"
+            },
+            {
+              "who": "读者",
+              "text": "开放获取意味着一线老师不用付费墙就能学到别人的踩坑经验,这点很实在。"
+            }
+          ]
+        },
+        {
+          "title_zh": "香港发布本地大模型 HKGAI V3,并推出全港首个'生产力级'超级智能体",
+          "summary": "据报道,香港生成式 AI 研发中心(HKGAI)召开 HKGAI V3 大模型发布暨生态合作大会,正式发布本地大模型最新版本 HKGAI V3,并推出香港首个生产力级超级智能体,助推本地 AI 发展。",
+          "source": "新华网 / 36Kr",
+          "region": "中国(香港)",
+          "published": "2026-06-03",
+          "overview": "6 月初,香港生成式人工智能研发中心(HKGAI)举办'HKGAI V3 大模型发布暨生态合作大会',正式发布本地大模型最新版本 HKGAI V3,并同步推出香港首个'生产力级'超级智能体,以推动香港人工智能产业发展。此举被视为香港在 AI 自主能力上的标志性进展。与此呼应,微软《2026 工作趋势指数》同期指出,香港的 AI 采用速度快于组织变革本身;而 6 月香港还举办了首届具身智能产业峰会等活动,显示本地 AI 生态正从试点走向生产力落地。",
+          "analysis": "区域性'本地大模型 + 生产力智能体'的组合,反映各地都在追求 AI 主权与本地语境适配——这对处理本地文献、繁体中文、地方文化资料的知识机构尤为重要,通用海外模型未必吃得透本地语料。'生产力级'的提法把重点从'能聊天'拉到'能干活',与全球'agent 落地'的主线一致。对图书馆/档案机构,本地化模型在方言、本地史料、馆藏特色资源上的适配价值,是通用大模型难以替代的。",
+          "url": "http://www.news.cn/gangao/20260603/08410cc8daea44039cffa250bfbfd4c8/c.html",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "各地都在做本地大模型,AI 主权和本地语料适配比单纯比参数更现实。"
+            },
+            {
+              "who": "馆员",
+              "text": "处理繁体和本地史料,本地化模型对语境的理解通用大模型还真比不了。"
+            },
+            {
+              "who": "创业者",
+              "text": "从'能聊天'到'生产力级智能体',香港这步踩在了 agent 落地的主线上。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 视频与生成式音频进入操作系统级:Kling v3 领跑榜单,Android 17 内置 Lyria 3",
+          "summary": "截至 6 月,Kling v3 以 2031 分领跑文生视频竞技榜,Veo 3.1、Kling 3.0 等普遍支持原生音频与唇同步;谷歌随 Android 17 把 Lyria 3 音乐生成与 AudioLM 翻译开放为系统级 API。",
+          "source": "llm-stats / AIML API / buildfastwithai",
+          "region": "美国 / 中国",
+          "published": "2026-06-22",
+          "overview": "截至 6 月,生成式视频竞争白热化:Kling v3(快手)以约 2031 的竞技场分数领跑文生视频盲测榜,其后是 LTX-2 Fast 与 Seedance 2.0 Fast。Veo 3.1、Kling 3.0、Hailuo 2.3 等已普遍支持原生音频生成,Veo 3.1 音画同步质量最佳、Kling 3.0 支持多语对白唇同步并提供多镜头分镜模式(约 0.10 美元/秒)。与此同时,OpenAI 的 Sora 应用已于 4 月 26 日关闭、API 计划 9 月停用,但 Sora 2 仍内嵌于 ChatGPT 供订阅用户使用。生成式音频也在下沉:谷歌随 Android 17 将 Lyria 3 音乐生成与 AudioLM 翻译开放为系统级 API,供第三方开发者调用。",
+          "analysis": "国产模型(Kling、Seedance、Hailuo)在视频盲测榜上集体居前,说明生成式媒体的'第一梯队'已不再由单一国家或公司垄断,内容生产工具进一步平民化。原生音频 + 唇同步把'数字人讲解'的制作成本压到极低,正契合机构做导览、科普、活动短片的需求。Lyria 3 下沉到系统层意味着配乐、配音会像调用相机一样普通——但这也对原创版权与内容可信度提出更紧迫的治理问题。",
+          "url": "https://llm-stats.com/leaderboards/best-ai-for-video-generation",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "文生视频榜前排几乎被国产模型包了,生成式媒体的第一梯队不再是某一家独大。"
+            },
+            {
+              "who": "馆员",
+              "text": "原生音频加唇同步,做导览短片和科普数字人的成本被打到地板,值得试。"
+            },
+            {
+              "who": "读者",
+              "text": "配乐配音变得像调用相机一样普通,真假难辨,版权和可信度更得有人管了。"
+            },
+            {
+              "who": "创业者",
+              "text": "Sora 应用都关了,说明光有炫技不够,能稳定接进工作流的工具才活得久。"
+            }
+          ]
+        },
+        {
+          "title_zh": "中国宣布五年约 2950 亿美元 AI 基础设施计划,年均约 590 亿美元",
+          "summary": "据 6 月 22 日多方汇总,中国宣布一项为期五年、总额约 2950 亿美元(年均约 590 亿美元)的政府 AI 基础设施投入计划,出台时点正值各国围绕模型出口管制的地缘紧张升温。",
+          "source": "buildfastwithai(综合报道)",
+          "region": "中国",
+          "published": "2026-06-22",
+          "overview": "据 6 月 22 日多家 AI 资讯汇总,中国宣布一项为期五年、总额约 2950 亿美元的政府 AI 基础设施承诺,折合年均约 590 亿美元,主要投向算力集群等底层基建。这一计划出台时点正值围绕大模型出口管制的地缘政治紧张升温——同期 Anthropic 的 Fable 5、Mythos 5 因美国出口管制指令被迫下线。相关动态还包括:科创板第五套上市标准拟扩容至 AI 大模型行业、DeepSeek 完成创纪录融资等,共同勾勒出国家层面对 AI 算力与产业的系统性加码。(该数字来自二手汇总,具体口径与官方原文以权威发布为准。)",
+          "analysis": "在前沿模型受出口管制约束的背景下,国家级算力基建投入是典型的'以基础设施换确定性'——把不可控的外部供给,替换为可掌控的本土算力底座。对知识机构是利好:本地算力越充裕,自托管开源模型、做大规模数字化处理的边际成本越低。但也提醒一点:此类宏观数字常出自二手汇总,引用时需以官方口径为准,避免以讹传讹。",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "出口管制卡前沿模型,国家就砸基建换算力确定性,这逻辑很顺。"
+            },
+            {
+              "who": "研究者",
+              "text": "本土算力越足,机构自托管开源模型做大规模数字化的成本就越低,是实打实的利好。"
+            },
+            {
+              "who": "馆员",
+              "text": "宏观数字多来自二手汇总,引用前还是得回到官方口径,别被放大的数字带偏。"
+            }
+          ]
+        },
+        {
+          "title_zh": "微软推出自研 MAI 模型:MAI-Code-1-Flash 与 MAI-Thinking-1,降低对 OpenAI 依赖",
+          "summary": "6 月 2 日 Build 大会上,微软发布自研 MAI 系列模型,包括把自然语言描述转为应用与网站源码的 MAI-Code-1-Flash,以及推理模型 MAI-Thinking-1,意在降低对 OpenAI 依赖并压低开发者成本。",
+          "source": "CNBC / Microsoft AI",
+          "region": "美国",
+          "published": "2026-06-02",
+          "overview": "6 月 2 日 Build 2026 上,微软发布自研 MAI(Microsoft AI)系列模型,首发包括 MAI-Code-1-Flash——一款将人类书面描述转化为应用与网站源码的代码模型,以及 MAI-Thinking-1 推理模型。此举被广泛解读为微软在持续投资 OpenAI 的同时,系统性构建自有模型能力以降低对单一供应商的依赖、并为开发者降低成本。配合同日发布的常驻 agent Scout 与 Work IQ API,微软正把'自有模型 + agent 平台 + 企业集成'整合为一套闭环。",
+          "analysis": "连最深度绑定 OpenAI 的微软都要自建模型,说明'多模型、不被单一供应商锁定'已成行业共识——这与机构选型时应保留替代方案的判断完全一致。代码生成模型走向'自然语言直出应用',会把内部工具开发的门槛进一步降低,馆员、研究者用自然语言搭小工具会越来越可行。模型层商品化的趋势下,真正的差异化正上移到 agent 编排与数据集成。",
+          "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "微软都在 OpenAI 之外自建模型,'别被单一供应商锁死'已经是行业共识了。"
+            },
+            {
+              "who": "开发者",
+              "text": "自然语言直接出应用源码,内部小工具的开发门槛被一路打低。"
+            },
+            {
+              "who": "馆员",
+              "text": "用大白话就能搭个小工具,以后馆里很多临时需求不用排队等开发了。"
             }
           ]
         }
@@ -2015,370 +2363,6 @@
         "英国"
       ]
     },
-    "podcasts": {
-      "regions": [
-        "美国",
-        "英国",
-        "日本",
-        "德国",
-        "澳洲",
-        "新加坡",
-        "中国"
-      ],
-      "items": [
-        {
-          "podcast": "The AI Daily Brief: Artificial Intelligence News and Analysis",
-          "title": "每日AI新闻与分析",
-          "summary": "每日更新人工智能领域最新动态与深度分析。",
-          "region": "美国",
-          "host": "Nathaniel Whittemore",
-          "topics": [
-            "人工智能",
-            "新闻分析",
-            "科技趋势"
-          ],
-          "url": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614?uo=4"
-        },
-        {
-          "podcast": "The Artificial Intelligence Show",
-          "title": "AI行业深度探讨",
-          "summary": "两位专家探讨人工智能的商业应用与未来影响。",
-          "region": "美国",
-          "host": "Paul Roetzer and Mike Kaput",
-          "topics": [
-            "人工智能",
-            "商业应用",
-            "行业趋势"
-          ],
-          "url": "https://podcasts.apple.com/us/podcast/the-artificial-intelligence-show/id1548733275?uo=4"
-        },
-        {
-          "podcast": "AI LITERACY - A Podcast about Artificial Intelligence",
-          "title": "AI素养普及播客",
-          "summary": "面向大众普及人工智能基础知识与实用技能。",
-          "region": "美国",
-          "host": "AI LITERACY",
-          "topics": [
-            "人工智能",
-            "科普教育",
-            "技术素养"
-          ],
-          "url": "https://podcasts.apple.com/us/podcast/ai-literacy-a-podcast-about-artificial-intelligence/id1553736450?uo=4"
-        },
-        {
-          "podcast": "Artificial Intelligence 101",
-          "title": "AI入门指南",
-          "summary": "从零开始讲解人工智能核心概念与应用。",
-          "region": "美国",
-          "host": "Luca Marchesotti",
-          "topics": [
-            "人工智能",
-            "入门教程",
-            "技术解析"
-          ],
-          "url": "https://podcasts.apple.com/us/podcast/artificial-intelligence-101/id1595568010?uo=4"
-        },
-        {
-          "podcast": "The Artificial Intelligence Show",
-          "title": "AI行业深度探讨（英国版）",
-          "summary": "两位专家探讨人工智能的商业应用与未来影响。",
-          "region": "英国",
-          "host": "Paul Roetzer and Mike Kaput",
-          "topics": [
-            "人工智能",
-            "商业应用",
-            "行业趋势"
-          ],
-          "url": "https://podcasts.apple.com/gb/podcast/the-artificial-intelligence-show/id1548733275?uo=4"
-        },
-        {
-          "podcast": "Artificial Intelligence Podcast: ChatGPT, Claude, Midjourney and all other AI Tools",
-          "title": "AI工具全解析",
-          "summary": "深入评测ChatGPT、Claude、Midjourney等热门AI工具。",
-          "region": "英国",
-          "host": "Jonathan Green : Artificial Intelligence Expert and Author of ChatGPT Profits",
-          "topics": [
-            "人工智能",
-            "AI工具",
-            "实用评测"
-          ],
-          "url": "https://podcasts.apple.com/gb/podcast/artificial-intelligence-podcast-chatgpt-claude-midjourney/id1139479669?uo=4"
-        },
-        {
-          "podcast": "Me, Myself, and AI",
-          "title": "AI与个人成长",
-          "summary": "探讨人工智能如何影响个人生活与职业发展。",
-          "region": "英国",
-          "host": "MIT Sloan Management Review",
-          "topics": [
-            "人工智能",
-            "个人发展",
-            "管理思考"
-          ],
-          "url": "https://podcasts.apple.com/gb/podcast/me-myself-and-ai/id1533115958?uo=4"
-        },
-        {
-          "podcast": "Google DeepMind: The Podcast",
-          "title": "DeepMind前沿研究",
-          "summary": "走进Google DeepMind，了解人工智能最新科研突破。",
-          "region": "英国",
-          "host": "Hannah Fry",
-          "topics": [
-            "人工智能",
-            "前沿研究",
-            "DeepMind"
-          ],
-          "url": "https://podcasts.apple.com/gb/podcast/google-deepmind-the-podcast/id1476316441?uo=4"
-        },
-        {
-          "podcast": "テクノロジーFLASH by 日経クロステック",
-          "title": "日经科技快讯",
-          "summary": "每日速递日本及全球最新科技动态。",
-          "region": "日本",
-          "host": "日経クロステック",
-          "topics": [
-            "科技新闻",
-            "日本科技",
-            "行业动态"
-          ],
-          "url": "https://podcasts.apple.com/jp/podcast/%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BCflash-by-%E6%97%A5%E7%B5%8C%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%86%E3%83%83%E3%82%AF/id1813349022?uo=4"
-        },
-        {
-          "podcast": "テクノロジーとカルチャーの種あかし",
-          "title": "科技与文化揭秘",
-          "summary": "探讨科技如何塑造文化与社会变迁。",
-          "region": "日本",
-          "host": "Decentier",
-          "topics": [
-            "科技文化",
-            "社会影响",
-            "日本视角"
-          ],
-          "url": "https://podcasts.apple.com/jp/podcast/%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%A8%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC%E3%81%AE%E7%A8%AE%E3%81%82%E3%81%8B%E3%81%97/id1814487847?uo=4"
-        },
-        {
-          "podcast": "ITマイスター牧野克彦の最新テクノロジー話 Net Surf ViewN",
-          "title": "IT大师牧野克彦聊科技",
-          "summary": "资深IT专家解读最新技术趋势与行业洞察。",
-          "region": "日本",
-          "host": "SBSラジオ",
-          "topics": [
-            "IT技术",
-            "专家解读",
-            "日本科技"
-          ],
-          "url": "https://podcasts.apple.com/jp/podcast/it%E3%83%9E%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E7%89%A7%E9%87%8E%E5%85%8B%E5%BD%A6%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E8%A9%B1-net-surf-viewn/id1815678193?uo=4"
-        },
-        {
-          "podcast": "耳でテクノロジーニュース",
-          "title": "用耳朵听科技新闻",
-          "summary": "轻松收听全球科技资讯，快速掌握前沿动态。",
-          "region": "日本",
-          "host": "ryosan",
-          "topics": [
-            "科技新闻",
-            "音频摘要",
-            "日本科技"
-          ],
-          "url": "https://podcasts.apple.com/jp/podcast/%E8%80%B3%E3%81%A7%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/id1787093004?uo=4"
-        },
-        {
-          "podcast": "Zukunft verstehen. Wie Technik die Welt verändert.",
-          "title": "理解未来：技术如何改变世界",
-          "summary": "探讨技术发展如何塑造未来社会与生活。",
-          "region": "德国",
-          "host": "Sascha Lobo, Cisco",
-          "topics": [
-            "技术趋势",
-            "未来社会",
-            "德国视角"
-          ],
-          "url": "https://podcasts.apple.com/de/podcast/zukunft-verstehen-wie-technik-die-welt-ver%C3%A4ndert/id1557502841?uo=4"
-        },
-        {
-          "podcast": "SAP Sommeliers - dein Podcast über Technologie, Karriere und guten Wein",
-          "title": "SAP品酒师：科技、职业与美酒",
-          "summary": "结合科技、职业发展与品酒文化的独特播客。",
-          "region": "德国",
-          "host": "Ankerkopf",
-          "topics": [
-            "科技",
-            "职业发展",
-            "生活文化"
-          ],
-          "url": "https://podcasts.apple.com/de/podcast/sap-sommeliers-dein-podcast-%C3%BCber-technologie-karriere/id1596888308?uo=4"
-        },
-        {
-          "podcast": "MIT Technology Review – Der Podcast",
-          "title": "MIT科技评论（德语版）",
-          "summary": "德语呈现MIT科技评论的深度技术与创新报道。",
-          "region": "德国",
-          "host": "MIT Technology Review",
-          "topics": [
-            "科技评论",
-            "创新技术",
-            "德国科技"
-          ],
-          "url": "https://podcasts.apple.com/de/podcast/mit-technology-review-der-podcast/id1511589900?uo=4"
-        },
-        {
-          "podcast": "Computer und Kommunikation",
-          "title": "计算机与通信",
-          "summary": "德国广播电台出品，探讨计算机与通信技术发展。",
-          "region": "德国",
-          "host": "Deutschlandfunk",
-          "topics": [
-            "计算机",
-            "通信技术",
-            "德国科技"
-          ],
-          "url": "https://podcasts.apple.com/de/podcast/computer-und-kommunikation/id173754605?uo=4"
-        },
-        {
-          "podcast": "Tech Life",
-          "title": "科技生活",
-          "summary": "BBC出品，讲述科技如何影响全球日常生活。",
-          "region": "澳洲",
-          "host": "BBC World Service",
-          "topics": [
-            "科技生活",
-            "全球影响",
-            "BBC"
-          ],
-          "url": "https://podcasts.apple.com/au/podcast/tech-life/id802996636?uo=4"
-        },
-        {
-          "podcast": "TED Tech",
-          "title": "TED科技演讲",
-          "summary": "精选TED演讲，探讨科技前沿与创新思想。",
-          "region": "澳洲",
-          "host": "TED Tech",
-          "topics": [
-            "科技演讲",
-            "创新思想",
-            "TED"
-          ],
-          "url": "https://podcasts.apple.com/au/podcast/ted-tech/id470624027?uo=4"
-        },
-        {
-          "podcast": "Rabbit Hole",
-          "title": "兔子洞：科技与网络迷思",
-          "summary": "纽约时报出品，深入探讨科技如何改变我们的认知与行为。",
-          "region": "澳洲",
-          "host": "The New York Times",
-          "topics": [
-            "科技影响",
-            "网络文化",
-            "深度报道"
-          ],
-          "url": "https://podcasts.apple.com/au/podcast/rabbit-hole/id1507423923?uo=4"
-        },
-        {
-          "podcast": "Big Technology Podcast",
-          "title": "大科技播客",
-          "summary": "解析科技巨头动态与行业重大事件。",
-          "region": "澳洲",
-          "host": "Alex Kantrowitz",
-          "topics": [
-            "科技巨头",
-            "行业分析",
-            "商业科技"
-          ],
-          "url": "https://podcasts.apple.com/au/podcast/big-technology-podcast/id1522960417?uo=4"
-        },
-        {
-          "podcast": "Bloomberg Tech",
-          "title": "彭博科技",
-          "summary": "彭博社出品，提供全球科技新闻与市场分析。",
-          "region": "新加坡",
-          "host": "Bloomberg",
-          "topics": [
-            "科技新闻",
-            "市场分析",
-            "全球视野"
-          ],
-          "url": "https://podcasts.apple.com/sg/podcast/bloomberg-tech/id1611767434?uo=4"
-        },
-        {
-          "podcast": "Big Technology Podcast",
-          "title": "大科技播客（新加坡版）",
-          "summary": "解析科技巨头动态与行业重大事件。",
-          "region": "新加坡",
-          "host": "Alex Kantrowitz",
-          "topics": [
-            "科技巨头",
-            "行业分析",
-            "商业科技"
-          ],
-          "url": "https://podcasts.apple.com/sg/podcast/big-technology-podcast/id1522960417?uo=4"
-        },
-        {
-          "podcast": "Last Week in AI",
-          "title": "上周AI回顾",
-          "summary": "每周总结人工智能领域重要新闻与进展。",
-          "region": "新加坡",
-          "host": "Skynet Today",
-          "topics": [
-            "人工智能",
-            "每周回顾",
-            "新闻摘要"
-          ],
-          "url": "https://podcasts.apple.com/sg/podcast/last-week-in-ai/id1502782720?uo=4"
-        },
-        {
-          "podcast": "Lex Fridman Podcast",
-          "title": "Lex Fridman访谈",
-          "summary": "深度对话各界精英，探讨科技、哲学与人生。",
-          "region": "新加坡",
-          "host": "Lex Fridman",
-          "topics": [
-            "深度访谈",
-            "科技",
-            "哲学"
-          ],
-          "url": "https://podcasts.apple.com/sg/podcast/lex-fridman-podcast/id1434243584?uo=4"
-        },
-        {
-          "podcast": "What's Next｜科技早知道",
-          "title": "科技早知道",
-          "summary": "声动活泼出品，前瞻全球科技趋势与商业创新。",
-          "region": "中国",
-          "host": "声动活泼",
-          "topics": [
-            "科技趋势",
-            "商业创新",
-            "全球视野"
-          ],
-          "url": "https://podcasts.apple.com/cn/podcast/whats-next-%E7%A7%91%E6%8A%80%E6%97%A9%E7%9F%A5%E9%81%93/id1494812579?uo=4"
-        },
-        {
-          "podcast": "DeepTalk | 发现改变世界的新兴科技",
-          "title": "DeepTalk：发现改变世界的新兴科技",
-          "summary": "聚焦前沿科技，探索改变世界的创新力量。",
-          "region": "中国",
-          "host": "DeepTalk",
-          "topics": [
-            "前沿科技",
-            "创新",
-            "改变世界"
-          ],
-          "url": "https://podcasts.apple.com/cn/podcast/deeptalk-%E5%8F%91%E7%8E%B0%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E6%96%B0%E5%85%B4%E7%A7%91%E6%8A%80/id1753227960?uo=4"
-        },
-        {
-          "podcast": "科技早8点",
-          "title": "科技早8点",
-          "summary": "每日早晨8点，快速了解科技圈新鲜事。",
-          "region": "中国",
-          "host": "之远不知远",
-          "topics": [
-            "科技新闻",
-            "每日速递",
-            "中国科技"
-          ],
-          "url": "https://podcasts.apple.com/cn/podcast/%E7%A7%91%E6%8A%80%E6%97%A98%E7%82%B9/id1872051855?uo=4"
-        }
-      ]
-    },
     "voices": {
       "items": [
         {
@@ -2748,11 +2732,401 @@
               "text": "8万多星不是白来的,但它偏重型,起步成本和运维要求比轻量框架高。"
             }
           ]
+        },
+        {
+          "title_zh": "OpenClaw — 自托管个人 AI 助手(本地优先,接管你常用的所有聊天渠道)",
+          "eng": "openclaw/openclaw",
+          "summary": "2026 年现象级开源项目,自托管、本地优先的个人 AI 助手,通过你已在用的聊天渠道为你干活。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "380k",
+          "lang": "TypeScript",
+          "published": "2026-01-20",
+          "overview": "OpenClaw 是 2026 年增长最猛的开源项目,由 PSPDFKit 创始人 Peter Steinberger 发起,从 1 月底病毒式走红后星标一路冲到 38 万。它是一个常驻在你自己设备(Mac mini、树莓派、VPS)上的个人 AI 助手守护进程,把 AI 模型接到你已经在用的 WhatsApp、Telegram、Slack、Discord、飞书、微信等几十个渠道,数据不经过外部 API。社区技能注册表已有上百个技能,覆盖 Gmail、GitHub、Notion、Obsidian、智能家居等。在完全放开权限的默认配置下,它能读写文件系统、执行 shell、操作邮件日历和浏览器——能力强但安全风险也大。",
+          "analysis": "对图书馆和研究工作者,OpenClaw 的价值在于把 AI 助手从'网页对话框'变成常驻、可主动调度、贴着既有工作流(聊天软件+本地文件)的助理,且数据自托管,契合机构对隐私和数据不出境的诉求。它原生接 Obsidian、Notion 等知识工具,可以做'我离岗时帮我盯任务、整理资料'这类长跑任务。但它的高权限默认配置是真实安全隐患(2026 年已被称为年度首个重大安全事件),机构部署务必先做沙箱与最小权限。",
+          "url": "https://github.com/openclaw/openclaw",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "增速是真的猛,但 380k 星里有多少是 FOMO 跟风?默认全权限直接读写文件、跑 shell、控浏览器,等于把数字生活的钥匙交给一个跑在本机的进程,先看清楚再装。"
+            },
+            {
+              "who": "开发者",
+              "text": "本地优先 + 自托管 + 接管现有聊天渠道这套设计很对路,终于不用再开一个新 App。但生产环境一定要上沙箱和按渠道隔离权限。"
+            },
+            {
+              "who": "研究者",
+              "text": "数据不经外部 API 这点对处理敏感资料很关键,可以让它常驻帮我整理引用、盯进度,比网页对话框实用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "n8n — 可视化 + 可写代码的工作流自动化平台(原生 AI/Agent 编排)",
+          "eng": "n8n-io/n8n",
+          "summary": "公平代码许可的工作流自动化平台,400+ 集成,可自托管,原生支持 AI Agent 编排。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "194k",
+          "lang": "TypeScript",
+          "published": "2026-06-01",
+          "overview": "n8n 是面向技术团队的工作流自动化平台,把可视化无代码画布和'需要时能写 JS/Python'的灵活性结合在一起,内置 400 多个集成。它原生支持基于 LangChain 的 AI Agent 工作流,可以编排会用工具的智能体。采用 fair-code 许可,支持完全自托管,也提供云版,企业版带高级权限和 SSO。2026 年它已是 GitHub 上星标最高的自动化项目之一(19.4 万)。",
+          "analysis": "n8n 非常适合做图书馆的'数字化中台':把采编、读者通知、活动报名、新书数据抓取、报表汇总等碎活用一张可视化流程图串起来,既不用从零写脚本,又能在卡点处插自定义代码。它原生的 Agent 节点意味着可以把'抓取-清洗-用 LLM 归类/摘要-写回数据库'做成一条自动流水线。自托管+公平代码许可对预算有限、又在意数据自主的事业单位很友好。",
+          "url": "https://github.com/n8n-io/n8n",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "可视化和写代码两头都要的时候,n8n 是少有能兼顾的;复杂逻辑直接塞 Code 节点,不被无代码框死。"
+            },
+            {
+              "who": "馆员",
+              "text": "把读者提醒、新书采集、活动报名表汇总这些重复劳动接成一条自动流程,自托管还不怕数据外流,实用。"
+            },
+            {
+              "who": "创业者",
+              "text": "400+ 集成 + 原生 Agent 节点,小团队拿它当自动化骨架,省掉一堆胶水代码。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Dify — 一站式 LLM 应用 / Agent 开发平台(工作流+RAG+模型管理)",
+          "eng": "langgenius/dify",
+          "summary": "开源 LLM 应用开发平台,集 AI 工作流、RAG 管线、Agent 能力、模型管理与可观测于一体。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "146k",
+          "lang": "TypeScript",
+          "published": "2026-06-01",
+          "overview": "Dify 是面向生产的开源 LLM 应用开发平台,提供可视化界面把 AI 工作流编排、RAG 检索管线、Agent 能力、多模型管理和可观测性整合在一起。它支持上百种 AI 模型,带提示词优化工具和文档处理管线,能让开发者从原型快速走到生产。提供云托管和自托管两种部署方式,是 2026 年最热门的开源 AI 应用框架之一(14.6 万星)。",
+          "analysis": "Dify 对图书馆做'智能问答/馆藏检索助手'是低门槛起点:不用自己拼 LangChain,在画布上就能搭出'上传馆藏文档→建 RAG→对外问答'的应用,还自带可观测性看回答质量。多模型管理意味着可以在国产模型和海外模型之间灵活切换,适配机构的合规与成本要求。自托管版让敏感馆藏数据留在内网。对研究者,它也是快速验证'某个专题知识库+对话'想法的脚手架。",
+          "url": "https://github.com/langgenius/dify",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "不想从零拼 RAG 和 Agent 的时候,Dify 的可视化编排+可观测性能省掉大量样板代码,原型到上线很快。"
+            },
+            {
+              "who": "学界",
+              "text": "搭个专题知识库问答的最小验证用 Dify 很快,多模型可切换,方便对比不同 LLM 在本领域的表现。"
+            },
+            {
+              "who": "馆员",
+              "text": "自托管让馆藏数据不出内网,可视化界面也让非专职开发的同事能参与维护问答应用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "PaddleOCR — 文档/图片转 LLM-ready 结构化数据(100+ 语种,含轻量 VLM)",
+          "eng": "PaddlePaddle/PaddleOCR",
+          "summary": "把 PDF 与图片转成 JSON/Markdown 结构化数据,支持 100+ 语种,含业界领先的轻量文档解析 VLM。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "83.7k",
+          "lang": "Python",
+          "published": "2026-06-01",
+          "overview": "PaddleOCR 是百度飞桨团队的 OCR 工具集,能把 PDF 文档和图片转成结构化、LLM-ready 的数据(JSON/Markdown),精度业界领先,支持 100 多种语言。它推出的 PaddleOCR-VL(0.9B)是面向文档解析的轻量级视觉语言模型,在 OmniDocBench v1.6 上达到约 96.3% 的准确率;PP-OCRv6 用单一统一模型覆盖 50 种语言。项目长期是中文 OCR 生态的事实标准,2026 年星标 8.37 万。",
+          "analysis": "PaddleOCR 在中文及多语种识别上的积累极深,对中文古籍、竖排、繁体、手写、票据这些'洋工具常翻车'的场景特别能打,是国内图书馆和档案数字化的首选基座。它的轻量 VLM 用 4GB 级显存就能跑,Mac/边缘设备也能本地化部署,省 API、可离线、数据不出本机。对研究者做大规模历史报刊、地方文献的文本化与可检索化,它是性价比极高的上游工具。",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "古籍竖排、繁体、票据这些场景洋 OCR 经常崩,PaddleOCR 的中文底子是真的厚,档案数字化离不开它。"
+            },
+            {
+              "who": "开发者",
+              "text": "0.9B 的轻量 VLM 用很小显存就能跑出 96% 级精度,边缘和本地部署友好,省 API 又离线。"
+            },
+            {
+              "who": "研究者",
+              "text": "把大批历史报刊、地方文献做成可检索全文,它是性价比最高的那一档上游工具。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Docling — IBM 出品的文档转换工具(已捐给 Linux 基金会,统一管线接 LangChain/LlamaIndex)",
+          "eng": "docling-project/docling",
+          "summary": "把 PDF/Office/HTML/EPUB/音视频等多格式统一解析为结构化数据,原生接 LangChain、LlamaIndex。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "62.1k",
+          "lang": "Python",
+          "published": "2026-06-01",
+          "overview": "Docling 由 IBM 苏黎世研究院'AI for knowledge'团队发起,现已作为项目托管于 LF AI & Data 基金会(Linux 基金会),专注把各种文档格式解析为可直接喂给生成式 AI 的结构化数据。它支持 PDF(含高级版面与表格结构识别)、DOCX、PPTX、XLSX、HTML、EPUB、图片乃至音视频与邮件,通过统一管线导出 Markdown/JSON,并原生集成 LangChain、LlamaIndex 等 AI 框架。2026 年初 IBM 还配套发布了 Granite-Docling-258M 视觉语言模型(Apache 2.0)。",
+          "analysis": "Docling 的差异点是'企业级、治理规范、生态正统':背靠 IBM 研究院、进了 Linux 基金会、Apache 许可,对机构采购和长期可维护性是加分项。它的统一管线把 EPUB、邮件、音视频也纳入,适合图书馆把电子书、口述史录音、讲座视频一起纳入可检索的知识资产。对研究团队,它与 LangChain/LlamaIndex 的原生集成省去自己写解析适配层,是搭建合规 RAG 管线的稳妥地基。",
+          "url": "https://github.com/docling-project/docling",
+          "social": [
+            {
+              "who": "学界",
+              "text": "背靠 IBM 研究院又进了 Linux 基金会、Apache 许可,长期可维护性和合规性让机构敢用,不怕哪天断更。"
+            },
+            {
+              "who": "馆员",
+              "text": "EPUB、邮件甚至音视频都能进同一条管线,把电子书和口述史录音一起纳入可检索资产,这思路很对。"
+            },
+            {
+              "who": "开发者",
+              "text": "原生接 LangChain 和 LlamaIndex,省掉自己写一堆解析适配层,搭 RAG 管线直接拿来当地基。"
+            }
+          ]
+        },
+        {
+          "title_zh": "llm-wiki-agent — 会自我生长的个人知识库(Karpathy 'LLM Wiki' 模式,免 API Key)",
+          "eng": "SamurAIGPT/llm-wiki-agent",
+          "summary": "把资料丢进文件夹,让 Claude/Codex/Gemini 读取并自动维护一座持续互联的 Markdown 维基。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "3k",
+          "lang": "Python",
+          "published": "2026-04-15",
+          "overview": "llm-wiki-agent 实现了 Andrej Karpathy 2026 年 4 月提出的'LLM Wiki'模式:你把来源资料(支持 Markdown、PDF、DOCX、PPTX、XLSX、HTML、CSV、JSON 等)丢进文件夹,Agent 读取后抽取知识,维护一座持续互联的 Markdown 维基。它会生成人物/机构的实体页、概念/框架的概念页,以及跨来源综合的总览页,并带矛盾检测、知识图谱可视化和缺口/孤页 lint。它直接复用 Claude Code、Codex、OpenCode、Gemini CLI 的本地能力,基础使用无需 API Key。",
+          "analysis": "这是 2026 年知识管理最有想法的新范式,值得馆员和研究者重点关注:它把 RAG 那种'每次现查原文'反过来——新资料到来时由 LLM 一次性编译成结构化维基页,以后查的是预先综合好的知识,知识会'复利'累积。对长期跟踪某专题、做学科服务的馆员,这正是把零散资料沉淀为可持续生长的机构知识资产的思路。星标虽只有 3k,但它代表的是方法论级别的新趋势,且全本地、纯 Markdown、可被其他 AI 直接读取(导出 llms.txt),极契合数字人文与个人/团队情报场景。",
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+          "social": [
+            {
+              "who": "学界",
+              "text": "Karpathy 这个'编译成维基、知识复利'的思路是对 RAG 的反向修正——查的是综合好的页面而不是每次重翻原文,对长期专题研究太对味了。"
+            },
+            {
+              "who": "馆员",
+              "text": "把零散资料沉淀成会自我生长、还能查矛盾和缺口的机构知识库,正是学科服务和情报跟踪想要的形态。"
+            },
+            {
+              "who": "研究者",
+              "text": "全本地、纯 Markdown、还能导出 llms.txt 给别的 AI 读,免 API Key 就能跑,数据自主又轻量,值得试。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Karakeep(原 Hoarder)— 自托管'万物收藏'读后再读应用(AI 自动打标+全文检索)",
+          "eng": "karakeep-app/karakeep",
+          "summary": "自托管的'收藏一切'应用(链接/笔记/图片/PDF),带 AI 自动打标摘要、全文检索与全页归档。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "26.3k",
+          "lang": "TypeScript",
+          "published": "2026-02-26",
+          "overview": "Karakeep(前身 Hoarder)是一款自托管的'万物收藏'应用,可保存链接、笔记、图片和 PDF,带一点 AI。它支持自动抓取链接标题/描述/配图、基于 AI(ChatGPT 或本地 Ollama 模型)的自动打标与摘要、对图片做 OCR 文字提取、全文检索,以及用 monolith 做整页归档对抗链接失效、用 youtube-dl 自动存视频。技术栈是 Next.js + Drizzle + Meilisearch,AGPL-3.0 许可,2026 年星标 2.63 万。",
+          "analysis": "在 Mozilla 关停 Pocket、稍后再读类产品集体云端化的背景下,Karakeep 是隐私友好的接班人,对图书馆和研究者尤其对路:它能自托管,把读者推荐链接、专题资料、网页剪藏统一收纳并自动打标,还能整页归档防止资料失效——这正是做'数字资源保存'和'链接腐烂'治理的现实需求。AI 打标可接本地 Ollama 模型,不必把收藏内容外送。对个人研究者,它是构建可检索阅读库的轻量自托管方案。",
+          "url": "https://github.com/karakeep-app/karakeep",
+          "social": [
+            {
+              "who": "读者",
+              "text": "Pocket 关了正缺替代品,Karakeep 能自托管、AI 自动打标还整页归档防失效,资料不再说没就没。"
+            },
+            {
+              "who": "馆员",
+              "text": "把专题链接和网页剪藏统一收纳、自动归类,还能整页存档对抗链接腐烂,正好对接数字资源保存的活。"
+            },
+            {
+              "who": "开发者",
+              "text": "AI 打标能切到本地 Ollama,收藏内容不外送;AGPL + 自托管,隐私和数据自主都顾到了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "marimo — 响应式 Python 笔记本(纯 Python 存储、可复现、能当 App 部署)",
+          "eng": "marimo-team/marimo",
+          "summary": "响应式 Python 笔记本:改一个单元格自动重算依赖单元格,纯 Python 存储、可 Git 版本化、可部署为 App。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "21.6k",
+          "lang": "Python",
+          "published": "2026-06-01",
+          "overview": "marimo 是新一代响应式 Python 笔记本:运行某个单元格或操作 UI 控件时,它会自动重算依赖的单元格(或标记为过期),始终保持代码与输出一致,消除传统笔记本的隐藏状态问题。笔记本以纯 Python 文件存储,一等公民支持 SQL,可作为脚本执行、也能部署为 Web App,并能用 Git 版本化。它被 Cloudflare、Shopify、BlackRock 等企业使用,2026 年还出现了把 AI Agent 直接接进运行中笔记本的 marimo-pair 扩展。",
+          "analysis": "marimo 是 Jupyter 的结构性升级,对做数据驱动研究和数字人文的人很实用:纯 Python 存储意味着能像代码一样 Git 协作和审阅,响应式重算+消除隐藏状态大幅提升结果可复现性——这正是学术工作最该补的短板。'写完即可一键部署成交互 App'让馆员能把馆藏统计、读者行为分析做成可视化看板对外发布,而不必另写前端。内置 SQL 也方便直接查库做分析。",
+          "url": "https://github.com/marimo-team/marimo",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "Jupyter 的隐藏状态坑了我太多次,marimo 响应式重算+纯 Python 存储,可复现性和 Git 协作终于像写正经代码一样。"
+            },
+            {
+              "who": "馆员",
+              "text": "分析写完一键变成交互 App,把馆藏统计和读者数据做成可视化看板对外发布,不用再单独写前端。"
+            },
+            {
+              "who": "学界",
+              "text": "笔记本能 diff、能 review、能当脚本跑,这对教学和论文复现都是实打实的改进。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Open WebUI — 自托管、可离线的 AI 平台(类 ChatGPT 界面,内置 RAG/联网/语音)",
+          "eng": "open-webui/open-webui",
+          "summary": "可扩展、功能丰富、可离线运行的自托管 AI 平台,对接 Ollama 与 OpenAI 兼容 API,内置 RAG、语音、联网。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "143k",
+          "lang": "Python",
+          "published": "2026-06-01",
+          "overview": "Open WebUI 是一个可扩展、功能丰富、对用户友好的自托管 AI 平台,可完全离线运行。它对接 Ollama 等本地 LLM 运行器以及各种 OpenAI 兼容 API,提供类 ChatGPT 的网页界面,并内置检索增强生成(RAG)、语音/视频通话、图像生成和网页浏览等能力。它是 2026 年最流行的 LLM 前端之一(14.3 万星),累计下载量极大。",
+          "analysis": "Open WebUI 是机构落地'内部 AI 助手'最省事的前端:配合本地 Ollama 就能在内网搭一个完全离线、数据不出门的 ChatGPT 平替,带用户管理、对接馆藏文档的 RAG、文档问答,适合图书馆给馆员和读者提供受控的 AI 服务。对怕数据合规风险、又想让全员用上 AI 的单位,它把'界面+权限+知识库'一站打包,比让大家各自用公网服务安全得多。",
+          "url": "https://github.com/open-webui/open-webui",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "配本地 Ollama 在内网搭个完全离线的 ChatGPT 平替,带用户管理和馆藏文档 RAG,给全员用又不怕数据出门。"
+            },
+            {
+              "who": "开发者",
+              "text": "对接任何 OpenAI 兼容 API,自托管、可离线、内置 RAG 和联网,做内部 AI 门户几乎不用自己写前端。"
+            },
+            {
+              "who": "技术圈",
+              "text": "下载量和星标都摆在那,生态成熟、插件多,机构落地内部 AI 助手的默认前端选它基本不踩坑。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OpenCode — 开源 AI 编码 Agent(终端 UI + 桌面端,自带 build/plan 双智能体)",
+          "eng": "anomalyco/opencode",
+          "summary": "开源 AI 编码 Agent,提供终端 UI 与桌面端,内置负责开发的 build 与负责分析探索的 plan 双智能体。",
+          "source": "GitHub",
+          "region": "全球",
+          "stars": "178k",
+          "lang": "TypeScript",
+          "published": "2026-06-01",
+          "overview": "OpenCode 自称'开源的 AI 编码 Agent',同时提供 CLI / 终端 UI 和桌面应用两种形态。它内置两个智能体:负责实际开发改码的 build 智能体,以及负责代码分析与探索的 plan 智能体。项目支持 npm、Homebrew 及各 Linux 发行版包管理器等多种安装方式,代码量大、迭代活跃(超 1.4 万次提交),2026 年是开源编码 Agent 里星标最高的项目之一(17.8 万)。",
+          "analysis": "OpenCode 让'终端里的 AI 程序员'有了开源、可换模型、可自托管的选择,对图书馆的小型技术团队很实在:做数字化脚本、数据清洗、网站维护这类没有专职开发的活,可以让 Agent 读懂整个代码库、跨文件改动、跑命令。plan/build 分离的设计契合'先想清楚再动手'的工程纪律,降低乱改代码的风险。开源可控这点,也让机构不必把代码和数据交给闭源云端服务。",
+          "url": "https://github.com/anomalyco/opencode",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "终端里的编码 Agent 总算有了开源、可换模型、可自托管的选项;plan 和 build 分开,先规划再动手,乱改的风险小很多。"
+            },
+            {
+              "who": "技术圈",
+              "text": "17.8 万星、1.4 万次提交,社区是真活跃;不想被某家闭源云端 Agent 绑死的,这是首选替代。"
+            },
+            {
+              "who": "馆员",
+              "text": "没有专职程序员的小团队,拿它写数字化脚本、做数据清洗,Agent 能读懂整个项目跨文件改,门槛降了一大截。"
+            }
+          ]
         }
       ]
     },
     "hot": {
       "items": [
+        {
+          "title_zh": "上博 2026 年将推 18 个特展,\"美洲古代文明大展\"打造全球最大规模美洲文明展",
+          "summary": "上海博物馆公布2026年特展计划,全年将推出18个特展,贯通古今、融汇中西。其中\"世界树之巅:美洲古代文明大展\"预计于2026年7月至2027年10月亮相,将打造全球史上最大规模、最高等级的美洲古代文明大展,汇聚超过1000件来自美洲地区的精美文物。另一重磅是\"八大山人书画艺术大展\",集结上海博物馆、故宫博物院,以及美国大都会艺术博物馆、纳尔逊-阿特金斯艺术博物馆、日本东京国立博物馆、大阪市立美术馆等20余家机构约180件/组作品,为全球有史以来最大规模八大山人大展。北京首都博物馆则筹备玛雅与安第斯文明特展,覆盖三大展厅及公共空间近1万平方米,约800件展品跨越3000年历史。",
+          "source": "上海市人民政府 / 澎湃新闻 / 新浪财经",
+          "region": "中国",
+          "published": "2026-06-24",
+          "overview": "上海博物馆 2026 年将推 18 个特展,重头戏\"世界树之巅:美洲古代文明大展\"(7 月开幕)汇聚超 1000 件美洲文物,号称全球最大规模美洲文明展;\"八大山人书画大展\"联合大都会、东京国立博物馆等 20 余家机构约 180 件/组作品,创该题材全球最大规模。北京首都博物馆同期筹备玛雅与安第斯文明特展,展陈面积近 1 万平方米、约 800 件展品。京沪两地不约而同发力\"美洲古代文明\",显示中国大馆策展正以全球视野组织顶级国际借展。",
+          "analysis": "中国一线博物馆从\"守着本土馆藏\"转向\"全球组局\"——同时引进美洲文明、联合欧美日多馆做八大山人,这种策展能级跃升背后是文化自信与国际话语权的争夺。对知识工作者,超大型特展是难得的\"现场知识库\":1000 件文物、3000 年跨度,本身就是可深度研究的一手材料。图书馆完全可以做配套——围绕特展开设主题书单、讲座、文献导读,把\"看展热\"转化为\"阅读热\",形成博物馆与图书馆的知识联动。同时也提醒:这类大展的数字化档案与图录,正是机构知识库值得收藏的内容。",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32484299",
+          "social": [
+            {
+              "who": "读者",
+              "text": "一年 18 个特展、还能在家门口看全球最大规模美洲文明展,上海这文化供给太奢侈了。"
+            },
+            {
+              "who": "馆员",
+              "text": "大展是现成的阅读推广钩子,配套书单和讲座能把看展人群引向深度阅读。"
+            },
+            {
+              "who": "学界",
+              "text": "联合大都会、东京国立博物馆做八大山人,策展组局能力比展品数量更见功力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DeepSeek 启动约 70 亿美元融资、估值达 590 亿美元,腾讯宁德拟巨额入股",
+          "summary": "据多方报道,2026年6月中国 AI 公司深度求索(DeepSeek)启动首轮大额融资,规模约70亿美元,投后估值达590亿美元,腾讯拟投100亿元人民币、宁德时代拟投50亿元人民币。与此同时,国产大模型独角兽集体冲刺资本市场:阶跃星辰计划于6月30日前向港交所递表,目标估值约100亿美元;月之暗面已启动港股 IPO 评估,与中金、高盛展开磋商,投后估值升至约180亿美元。智谱、宇树等也在 IPO 进程中。资本对\"中国 AI 资产\"的定价正快速重估,头部模型公司进入\"边开源、边融资、边上市\"的并行阶段。",
+          "source": "腾讯新闻 / 36氪 / 21世纪经济报道",
+          "region": "中国",
+          "published": "2026-06-24",
+          "overview": "6 月,DeepSeek 启动约 70 亿美元融资、估值冲到 590 亿美元,腾讯拟投 100 亿元、宁德时代拟投 50 亿元人民币。同期国产大模型公司扎堆奔赴资本市场:阶跃星辰拟 6 月底前递表港交所(目标估值约 100 亿美元),月之暗面启动港股 IPO 评估(估值约 180 亿美元),智谱、宇树等也在推进。资本对\"中国 AI 资产\"快速重估,头部公司进入\"开源+融资+上市\"三线并行的新阶段。这轮热度与同期密集开源的技术进展互为支撑。",
+          "analysis": "技术开源与资本狂热同时发生,看似矛盾实则互补:把最强模型开源换来生态与口碑,再用生态故事支撑高估值融资和 IPO,这是中国 AI 厂商当下的典型打法。对知识工作者的现实影响是双向的——一方面,资本充足意味着未来一两年仍有大量免费/低价开源模型可用,降低了机构数字化的工具门槛;另一方面要警惕\"估值泡沫\"叙事,真正能落到图书馆、教育场景的,不是估值数字,而是稳定可用、可私有部署的能力。理性的做法是关注产品与开源生态,而非被融资金额牵着走。",
+          "url": "https://news.qq.com/rain/a/20260414A03K6G00",
+          "social": [
+            {
+              "who": "创业者",
+              "text": "边开源边融资边上市,用生态换估值,这套打法现在是国产 AI 头部的标准动作。"
+            },
+            {
+              "who": "技术圈",
+              "text": "590 亿美元估值很惊人,但对用户真正重要的是它持续开源、能本地部署的那部分能力。"
+            },
+            {
+              "who": "研究者",
+              "text": "资本越热,越要冷静区分\"叙事估值\"和\"真实可用的产品\",别被融资金额带节奏。"
+            }
+          ]
+        },
+        {
+          "title_zh": "海昏侯墓十年考古:出土《齐论语》《诗经》简,堪称一座\"地下图书馆\"",
+          "summary": "随着海昏侯墓考古发掘走过十年,这座汉代侯国墓葬的文献价值被系统梳理:墓中出土失传1800余年的《齐论语》、迄今存字最多的《诗经》简(相关简牍约1200枚,系秦汉时期全本《诗经》首次发现)、首次现世的《春秋》经实物,这些典籍在墓中有序存放,俨然一座\"地下图书馆\"。墓中还出土《海昏侯国除诏书》——南方地区唯一的汉代诏书实物,木牍上有19位大臣署名,完整记录了刘贺死后侯国废除全过程。海昏侯墓考古先后斩获中国考古多项大奖,2019年获\"世界考古论坛奖·重大田野考古发现奖\",2021年入选\"百年百大考古发现\"。",
+          "source": "新华网 / 科技日报 / 光明网",
+          "region": "中国",
+          "published": "2026-06-24",
+          "overview": "海昏侯墓考古十年成果被系统总结:出土失传 1800 多年的《齐论语》、迄今存字最多的《诗经》简(约 1200 枚,系秦汉全本《诗经》首次发现)和首次现世的《春秋》经实物,典籍有序存放如同\"地下图书馆\";还有南方唯一汉代诏书实物《海昏侯国除诏书》(19 位大臣署名)。该墓斩获国内考古四大奖项,并获\"世界考古论坛奖\"、入选\"百年百大考古发现\"。这些简牍正在重写汉代经学文献的传承图景。",
+          "analysis": "把两千年前的墓葬称作\"地下图书馆\",对图书馆从业者有特殊触动:文献的有序存放、版本的保存与传承,本就是图书馆学的源头命题,海昏侯墓简牍证明这种\"知识管理\"意识在汉代已相当成熟。失传《齐论语》《春秋》经实物的出土,意味着古籍整理、文字考释会有持续多年的研究产出,这正是数字人文与古籍数字化的富矿——高清扫描、字符识别、版本比对、知识图谱都有用武之地。对公共文化机构,这类\"国宝级\"发现是开展中华典籍主题阅读、数字化展示和研学的绝佳素材。",
+          "url": "https://www.news.cn/politics/20260117/882f756e198a4c568a748839ab9ebb28/c.html",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "墓里典籍\"有序存放如地下图书馆\",说明知识管理的意识两千年前就有,这点特别打动人。"
+            },
+            {
+              "who": "学界",
+              "text": "失传《齐论语》和全本《诗经》简的出土,够经学和文献学研究消化很多年。"
+            },
+            {
+              "who": "读者",
+              "text": "希望这些简牍尽快高清数字化公开,让普通人也能\"翻\"这座地下图书馆。"
+            }
+          ]
+        },
+        {
+          "title_zh": "2026 国际出版企业高层论坛在京举行:26 国近 300 位业者共议\"AI 时代重新定义出版\"",
+          "summary": "2026年6月22日,由中国出版协会、国际出版商协会共同主办的2026国际出版企业高层论坛在北京举行,来自26个国家和地区的近300位中外出版企业人士,围绕\"AI时代重新定义出版\"主题展开研讨。中国出版协会理事长邬书林强调,出版行业要客观理性接纳新技术、加快复合型人才培育,同时严守版权保护底线、健全适配 AI 的版权治理体系。法兰克福书展主席岳根·博思呼吁建立\"报酬公平、来源可追溯、权责清晰\"的 AI 应用规范与版权规则;外研集团董事长王芳则认为,未来竞争在于\"擅用 AI 的组织与不擅用 AI 的组织\"之间的比拼。论坛还涉及\"一带一路\"出版国际营销、中非出版交流合作等议题。",
+          "source": "中国新闻网",
+          "region": "中国",
+          "published": "2026-06-22",
+          "overview": "6 月 22 日,2026 国际出版企业高层论坛在北京举行,26 国近 300 位业者围绕\"AI 时代重新定义出版\"研讨。核心共识有三:一要理性拥抱 AI 并培养复合型人才;二要守住版权底线、建立\"报酬公平、来源可追溯、权责清晰\"的 AI 版权规则;三是未来竞争在\"会不会用 AI 的组织之间\"。论坛同时讨论\"一带一路\"出版走出去、中非出版合作等国际议题。整体基调是 AI 应\"赋能而非替代\"人的原创创意。",
+          "analysis": "这场论坛把出版业最焦虑的两件事摆上台面:版权与人才。\"来源可追溯、权责清晰\"恰恰是图书馆和出版机构的专业强项——著录、版本、权属管理本就是图书馆学的核心能力,在 AI 训练数据合规化的浪潮里,这套\"溯源\"功夫反而成了稀缺资产。对馆员而言,值得关注的是\"复合型人才\":既懂内容又懂 AI 工具链的人,正是数字图书馆、机构知识库建设的关键缺口。\"会用 AI 的组织 vs 不会用的组织\"这句话,同样适用于公共文化机构。",
+          "url": "https://www.chinanews.com.cn/cul/2026/06-22/10645135.shtml",
+          "social": [
+            {
+              "who": "读者",
+              "text": "最怕 AI 把好书做成流水线快消品,\"赋能而非替代原创\"这个底线必须守住。"
+            },
+            {
+              "who": "馆员",
+              "text": "\"来源可追溯、权责清晰\"说的就是版本和权属管理,这本来就是图书馆的看家本领。"
+            },
+            {
+              "who": "学界",
+              "text": "AI 训练数据的版权治理体系一天不健全,学术出版的引用与署名规范就一天不安稳。"
+            }
+          ]
+        },
+        {
+          "title_zh": "《柳叶刀》:HPV疫苗在英格兰已阻止约200例宫颈癌死亡,20-24岁组首现'零死亡'记录",
+          "summary": "2026年6月18日发表于《柳叶刀》、由伦敦玛丽女王大学主导、英国癌症研究中心资助的研究估计,HPV(人乳头瘤病毒)疫苗在英格兰已防止约200例宫颈癌死亡。研究还发现,2020至2024年间没有20-24岁女性死于宫颈癌——这是有记录以来首次出现这样的时段。这一人群正是较早接种HPV疫苗、如今进入相关年龄段的一代。该成果为大规模公共卫生疫苗接种计划的长期效果提供了硬数据,凸显出'预防性接种'在数年乃至十余年尺度上的累积收益。",
+          "source": "The Lancet / Queen Mary University of London / Wikipedia 2026 in science",
+          "region": "国外",
+          "published": "2026-06-18",
+          "overview": "2026年6月18日发表于《柳叶刀》、由伦敦玛丽女王大学主导、英国癌症研究中心资助的研究估计,HPV疫苗在英格兰已防止约200例宫颈癌死亡。研究还发现2020至2024年间无20-24岁女性死于宫颈癌——这是有记录以来首次。该人群正是较早接种HPV疫苗、如今进入相关年龄段的一代。成果为大规模公共卫生疫苗接种计划的长期效果提供硬数据,凸显预防性接种在数年乃至十余年尺度上的累积收益。",
+          "analysis": "这是'循证公共卫生'的范例:一项早年推行的接种计划,十余年后用真实世界数据兑现了救命承诺。对图书馆健康信息服务与科普推广而言,这类有明确数字、有人群对照的研究是抵御疫苗谣言的最佳弹药。它也提示研究支持工作者:长期队列数据的价值随时间复利增长,数字化保存好这类纵向数据,就是为未来的循证决策留下底座。",
+          "url": "https://en.wikipedia.org/wiki/2026_in_science",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "'20-24岁组零死亡'是历史首次,这正是当年接种那批人长大后的真实世界回报,胜过任何模型预测。"
+            },
+            {
+              "who": "读者",
+              "text": "这种带着具体数字和人群对照的结果,比一句'疫苗有效'有说服力得多,值得拿去回应身边的犹豫者。"
+            },
+            {
+              "who": "学界",
+              "text": "它提醒我们公共卫生的收益是延迟兑现的复利,长期队列与纵向数据的保存和可及性必须被当作基础设施来对待。"
+            }
+          ]
+        },
         {
           "title_zh": "智谱 GLM-5.2 上线并 MIT 协议全量开源:登顶开源权重榜、原生支持 100 万 token 上下文",
           "eng": "GLM-5.2",
@@ -2805,6 +3179,30 @@
           ]
         },
         {
+          "title_zh": "《自然·通讯》:Heliconius蝴蝶寿命是近亲约三倍、几乎不显衰老,或藏长寿密码",
+          "summary": "2026年6月16日发表于《自然·通讯》、由布里斯托大学等机构完成的研究发现,Heliconius属蝴蝶演化出了惊人的长寿:平均寿命约为其最近亲缘物种的三倍,极端情况下最长寿命差距可达25倍。例如Heliconius hewitsoni最长可活348天,而近亲Dione juno仅存活约14天。更惊人的是,部分Heliconius物种几乎检测不到随年龄的体能衰退——以握力测试衡量,研究者在年老个体身上未发现明显退化,肌肉功能与体重维持到了对昆虫而言的'高龄'。其独特的花粉取食习性可能起作用,但即使被剥夺花粉,Heliconius hecale仍保有显著长寿优势,说明营养与演化因素共同支撑了其延寿。研究者认为,相关机制最终或能为延长人类健康寿命提供新靶点。",
+          "source": "University of Bristol / Nature Communications / ScienceDaily",
+          "region": "国外",
+          "published": "2026-06-16",
+          "overview": "2026年6月16日发表于《自然·通讯》、由布里斯托大学等完成的研究发现,Heliconius属蝴蝶演化出惊人长寿:平均寿命约为最近亲的三倍,极端情况最长寿命差距达25倍。如Heliconius hewitsoni最长活348天,近亲Dione juno仅约14天。更惊人的是部分物种几乎检测不到随龄体能衰退——握力测试显示年老个体无明显退化。其独特花粉取食习性可能起作用,但即便被剥夺花粉,Heliconius hecale仍保有显著长寿优势,说明营养与演化因素共同支撑延寿。研究者认为相关机制或为延长人类健康寿命提供新靶点。",
+          "analysis": "'同一类生物里近亲寿命差25倍'本身就是演化生物学的绝佳天然实验,把'为什么会衰老'这个大问题摆到了可比较的尺度上。对科普与研究而言,蝴蝶这种亲切的载体,是讲'健康寿命'与衰老机制的理想切入点。对知识工作者,它也是一则提醒:答案常藏在'极端对照'里——找到差异最大的两个样本去比较,往往比研究平均值更能逼近机制。",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260622014302.htm",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "同属之内最长寿命差25倍,这是研究衰老机制梦寐以求的天然对照,比敲基因的实验组还干净。"
+            },
+            {
+              "who": "读者",
+              "text": "一只蝴蝶能活近一年还几乎不显老,而近亲两周就走完一生,大自然的差异有时比科幻还离奇。"
+            },
+            {
+              "who": "学界",
+              "text": "别急着把'蝴蝶长寿'外推到人类,但'剥夺花粉仍长寿'说明背后有演化层面的硬机制,值得深挖。"
+            }
+          ]
+        },
+        {
           "title_zh": "2026 年 6 月国产 AI 开源大爆发:一周 25+ 模型齐发,从 LLM 到 3D 全模态覆盖",
           "eng": "open-weight model explosion June 2026",
           "summary": "六月初一周内逾 25 个开源模型集体亮相,中国厂商占据全球开源 TOP10 多数席位,覆盖语言、图像、语音、视频、3D 全模态,应用侧 API 成本大幅下降。",
@@ -2827,6 +3225,30 @@
             {
               "who": "研究者",
               "text": "全模态都开源后,真正稀缺的不是模型而是高质量数据和场景 know-how。"
+            }
+          ]
+        },
+        {
+          "title_zh": "2026\"文化和自然遗产日\":7000 余项活动,主题\"非遗,让生活更美好\"",
+          "summary": "2026年6月13日是\"文化和自然遗产日\"。文化和旅游部开展非遗主题宣传展示,主宣传语为\"非遗,让生活更美好!\"。围绕这一节点,文物部门等在全国开展7000余项活动。非遗主题聚焦系统性保护、推动非遗融入现代生活、培育传承体验新场景、助力经济社会发展等内容。各地通过传承人现场展示、师徒同台展演、青年传承人成果汇报等方式呈现保护成果;并结合\"非遗消夏购物月\",依托地域文化特色开展非遗促消费,推出非遗潮玩、联名文创;各地非遗馆、传承体验中心还推出特色展览与非遗研学课程。福建一省即推出 169 场活动。",
+          "source": "新华网 / 文化和旅游部",
+          "region": "中国",
+          "published": "2026-06-13",
+          "overview": "6 月 13 日\"文化和自然遗产日\",全国开展 7000 余项活动,非遗主宣传语为\"非遗,让生活更美好\"。重点在于让非遗融入现代生活:传承人现场展演、青年传承人汇报、非遗研学课程,加上\"非遗消夏购物月\"带动非遗潮玩、联名文创消费。福建一省就有 169 场活动。整体导向是把非遗从\"被保护的标本\"变成\"可体验、可消费、可传承\"的活态文化,并培育新的传承体验场景。",
+          "analysis": "遗产日的关键词从\"保护\"转向\"融入生活+研学+消费\",对公共文化机构是明确信号:非遗不是橱窗里的展品,而要做成可参与的体验和课程。图书馆完全可以接住这条线——把地方非遗做成少儿研学、家庭工作坊、口述史采集和数字化建档,既是阅读推广也是文化记忆保存。\"非遗研学课程\"\"传承体验新场景\"几乎是为图书馆、文化馆量身定做的合作切口。把非遗与儿童阅读结合(如绘本化非遗故事),能让保护工作真正\"年轻化\"。",
+          "url": "https://www.news.cn/culture/20260605/fa2f1de02af7461894a2827342f599cd/c.html",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "非遗研学课程、传承体验场景,正是图书馆做少儿阅读推广和地方文化建档可以接的活。"
+            },
+            {
+              "who": "读者",
+              "text": "比起隔着玻璃看,能上手体验、能买到联名文创的非遗才真正\"让生活更美好\"。"
+            },
+            {
+              "who": "学界",
+              "text": "把非遗做成可消费、可研学的活态形态是对的,但要警惕过度商业化稀释了文化内核。"
             }
           ]
         },
@@ -2883,6 +3305,222 @@
           ]
         },
         {
+          "title_zh": "中国JUNO中微子天文台首批成果登上《自然》封面:两项振荡参数测得全球最高精度",
+          "summary": "位于广东地下700米的江门中微子实验(JUNO)发布首批物理成果,以封面文章形式刊于2026年6月10/11日的《自然》。研究团队仅用59天高质量数据(2025年8月26日至11月2日采集),就对两项中微子振荡参数做出迄今最精确的测量,不确定度比过去数十年实验联合结果还低约1.6倍。JUNO是一座装有2万吨液体闪烁体的巨型球形探测器,探测来自阳江、台山核电站的电子反中微子。下一步目标是确定中微子的质量排序(正序还是倒序),并探寻可能的新物理。负责人之一表示,一台耕耘十余年的仪器刚开机、只用极少数据就拿到世界领先结果,令人振奋。",
+          "source": "Scientific American / Nature / ScienceDaily",
+          "region": "国外",
+          "published": "2026-06-11",
+          "overview": "位于广东地下700米的江门中微子实验(JUNO)发布首批物理成果,以封面文章形式刊于2026年6月的《自然》。团队仅用59天高质量数据(2025年8月底至11月初采集),就对两项中微子振荡参数做出迄今最精确测量,不确定度比过去数十年实验联合结果低约1.6倍。JUNO是一座装有2万吨液体闪烁体的巨型球形探测器,探测来自阳江、台山核电站的电子反中微子。下一步目标是确定中微子质量排序并探寻新物理。负责人表示,耕耘十余年的仪器刚开机、用极少数据就拿到世界领先结果,令人振奋。",
+          "analysis": "这是基础物理领域少见的'大科学装置开门红',也是中国主导国际合作的标志性成果。对知识工作者而言,值得关注的是它'59天数据即超越数十年积累'背后的方法论——高精度仪器+开放数据,正在改变科研产出的节奏。图书馆与科研机构可借此类里程碑做科普选题、整理中微子研究的脉络文献,帮助公众理解'看不见的粒子'如何被一座地下巨球'称重'。",
+          "url": "https://www.scientificamerican.com/article/juno-neutrino-observatory-releases-first-results/",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "一台磨了十几年的探测器刚通电、只攒了不到两个月数据,两个参数就同时做到世界第一,这种'即插即领先'在大科学里太罕见了。"
+            },
+            {
+              "who": "学界",
+              "text": "真正的悬念是质量排序,这需要数年持续累积数据;首批结果更像是宣告'仪器达标',精彩的还在后头。"
+            },
+            {
+              "who": "读者",
+              "text": "2万吨液体、地下700米、一个13层楼高的'鱼缸'——光是想象这台装置就够震撼了,科普价值拉满。"
+            }
+          ]
+        },
+        {
+          "title_zh": "日本团队造出'无电池人工光合'装置:阳光忽强忽弱也能稳定把CO₂变燃料",
+          "summary": "大阪公立大学研究团队开发出一种更稳定的人工光合系统:他们把一个'自调节'的化学组件直接整合进电解槽,使系统无需外部电子设备、电池与转换器即可高效运行。其原理在于,电解槽通过自身的热学与阻抗特性自主调整电气行为——阳光增强时电解槽自然升温,这种自调节让产燃料过程全天更稳定,并自动化运行、减少对电池与昂贵外部元件的依赖。实测装置在真实阳光下、即便光强波动,也能稳定地由水和CO₂生成甲酸。该研究题为《用于稳定液态太阳燃料生产的化学最大功率点跟踪系统》,发表于期刊《EES Solar》(2026年3月20日),并在6月由ScienceDaily等广泛报道。去掉电池与转换器后,系统元件更少,未来有望更易制造、维护与规模化。",
+          "source": "Osaka Metropolitan University / ScienceDaily / EES Solar",
+          "region": "国外",
+          "published": "2026-06-11",
+          "overview": "大阪公立大学团队开发出更稳定的人工光合系统:把'自调节'化学组件直接整合进电解槽,使系统无需外部电子设备、电池与转换器即可高效运行。原理是电解槽借自身热学与阻抗特性自主调整电气行为——阳光增强时自然升温,这种自调节让产燃料全天更稳定、自动化,并减少对电池与昂贵元件的依赖。实测在真实阳光下即便光强波动,也能稳定由水和CO₂生成甲酸。研究发表于《EES Solar》(2026年3月20日),6月经ScienceDaily等广泛报道。去掉电池转换器后元件更少,未来更易制造、维护与规模化。",
+          "analysis": "这是把'复杂系统简化'做到极致的工程美学:用材料本身的物理特性替代一整套电子控制,既降本又增稳。它对应了当下绿色技术的一个趋势——从'堆设备'转向'让系统自己聪明'。对知识工作者是个好的隐喻:无论做工具还是建流程,最优雅的方案往往是减少环节、让系统自洽,而非不断加层。这类把CO₂变燃料的'人工树叶'也是科技馆与科普选题的常青素材。",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260611024601.htm",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "用电解槽自身的热与阻抗特性当'调节器',省掉一整套电池和转换器,这种'让物理替你控制'的思路非常漂亮。"
+            },
+            {
+              "who": "创业者",
+              "text": "去掉电池和功率电子=元件更少、故障点更少、更便宜,这正是绿色技术从实验室走向规模化最缺的'简单'。"
+            },
+            {
+              "who": "读者",
+              "text": "阳光忽强忽弱还能稳稳把二氧化碳变成燃料,这种'人工树叶'听起来就是未来该有的样子。"
+            }
+          ]
+        },
+        {
+          "title_zh": "NASA公布Artemis III乘组,为史上最复杂登月任务之一做准备",
+          "summary": "据ScienceDaily 2026年6月11日报道,NASA已为计划于2027年执行的Artemis III任务选定乘组——这是一次旨在检验未来月球探索路径的高难度任务。乘组成员包括Andre Douglas、Luca Parmitano、Randy Bresnik与Frank Rubio。宇航员将搭乘猎户座(Orion)飞船,并与蓝色起源(Blue Origin)和SpaceX分别研制的月球着陆器执行前所未有的对接操作。任务被描述为'有史以来最复杂的太空任务之一',它将检验载人重返月面所依赖的一整套新装备与新流程,为更长远的月球乃至火星探索铺路。",
+          "source": "ScienceDaily / NASA",
+          "region": "国外",
+          "published": "2026-06-11",
+          "overview": "据ScienceDaily 2026年6月11日报道,NASA已为计划2027年执行的Artemis III任务选定乘组——一次旨在检验未来月球探索路径的高难度任务。乘组含Andre Douglas、Luca Parmitano、Randy Bresnik与Frank Rubio。宇航员将搭乘猎户座飞船,并与蓝色起源和SpaceX分别研制的着陆器执行前所未有的对接操作。任务被描述为'有史以来最复杂的太空任务之一',将检验载人重返月面依赖的一整套新装备与新流程,为更长远的月球乃至火星探索铺路。",
+          "analysis": "Artemis III把'多家私营公司着陆器+政府飞船'拼成一条复杂任务链,本质是航天进入'公私协同、模块对接'新模式的压力测试。对关注科技演进的知识工作者,这是观察'大型协作工程如何管理接口与风险'的活教材。对图书馆与科普,载人重返月球天然具备跨代号召力,适合配合天文教育、青少年STEM活动做长期选题储备——尤其当真正登月临近时,公众的好奇会迅速升温。",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260611024606.htm",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "政府飞船去对接两家不同公司造的着陆器,接口与流程的复杂度是这次任务真正的风险点,比飞行本身还难。"
+            },
+            {
+              "who": "读者",
+              "text": "时隔半个世纪人类要再次登月,而且要直接看私营公司造的着陆器,这种'新旧交替'的看点太足了。"
+            },
+            {
+              "who": "学界",
+              "text": "Artemis III更像一次系统集成的压力测试,它检验的是公私协同模式能否撑起可持续的深空探索。"
+            }
+          ]
+        },
+        {
+          "title_zh": "新闻出版商屏蔽互联网档案馆爬虫防AI抓取,EFF警告'拦不住AI却会抹掉历史'",
+          "summary": "为防止内容被AI公司抓取用于训练,包括《纽约时报》《今日美国》在内的23家新闻机构,已位列241个拒绝互联网档案馆(Internet Archive)爬虫访问的站点之中。电子前哨基金会(EFF)2026年3月发文、6月持续发酵,警告此举'拦不住AI,却会抹掉网络的历史记录'。EFF指出,Wayback Machine近三十年来保存了网络的历史档案,已超过一万亿个页面;维基百科跨249种语言引用了超过260万篇由其保存的新闻文章,法庭曾把存档页面当作证据,记者也用它证明政府机构事后修改了官方声明。EFF强调,即便法院限制AI训练,法律本身已保护这家非营利机构所做的搜索与网页存档工作。",
+          "source": "Electronic Frontier Foundation / Nieman Lab / Fortune",
+          "region": "国外",
+          "published": "2026-06-09",
+          "overview": "为防AI抓取训练,《纽约时报》《今日美国》等23家新闻机构已位列241个拒绝互联网档案馆爬虫的站点之中。EFF于2026年3月发文、6月持续发酵,警告此举'拦不住AI却会抹掉网络历史记录'。EFF指出Wayback Machine近三十年保存了超一万亿页面,维基百科跨249种语言引用了超260万篇其保存的新闻,法庭曾以存档页作证据,记者也用它证明官方事后改了声明。EFF强调即便法院限制AI训练,法律已保护这家非营利机构的搜索与存档工作。",
+          "analysis": "这是当下最该被图书馆界正视的冲突:版权焦虑驱动的'防AI'动作,正误伤公共记忆基础设施。对档案与数字保存工作而言,启示有二——其一,'防训练'与'保历史'必须用更精细的技术与协议区分,而非一刀切封爬虫;其二,图书馆作为长期保存的第三方,其法律与伦理地位需要被重新阐明和捍卫。这条新闻几乎是为数字保存从业者量身定做的议题。",
+          "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "把档案馆和AI爬虫一起封掉,等于为了挡贼把整座图书馆的门焊死,未来的研究者会发现大片历史凭空消失。"
+            },
+            {
+              "who": "技术圈",
+              "text": "robots.txt根本分不清'保存历史'和'喂养大模型',问题出在工具太粗糙,需要更细的来源与用途协议。"
+            },
+            {
+              "who": "读者",
+              "text": "Wayback Machine是普通人核实'网页原本写了什么'的最后凭证,它被掏空,公共记忆就出现窟窿。"
+            }
+          ]
+        },
+        {
+          "title_zh": "苹果WWDC发布新一代Apple Intelligence与'Siri AI',强调隐私架构与系统级行动",
+          "summary": "苹果在2026年6月8日的WWDC26上发布全新一代Apple Intelligence,并推出'Siri AI'——一个更聪明、更博学、更有行动力的Siri,运行于以隐私为核心的架构之上。新Siri能回答关于屏幕内容的问题,跨信息、邮件、照片与各应用进行个人语境检索,接入网络获取实时答案,并执行系统级的跨应用操作;还新增独立的Siri应用,对话历史经iCloud在多设备间同步。配套更新包括照片的'空间重构'、Image Playground的AI生图、Safari的'变化通知'、信息的情境化提醒建议等。支持包含简体/繁体中文在内的15种语言,兼容iPhone 16系列、iPhone 15 Pro及M1以上Mac。开发者即刻测试,公测下月开放,秋季作为免费更新正式推出。",
+          "source": "Apple Newsroom",
+          "region": "国外",
+          "published": "2026-06-08",
+          "overview": "苹果在2026年6月8日WWDC26上发布新一代Apple Intelligence,并推出'Siri AI'——更聪明、博学、有行动力的Siri,运行于隐私为核心的架构。新Siri能回答屏幕内容问题,跨信息/邮件/照片与各应用做个人语境检索,接入网络取实时答案,执行系统级跨应用操作;新增独立Siri应用,对话历史经iCloud多设备同步。配套含照片'空间重构'、Image Playground生图、Safari'变化通知'等。支持含中文在内15种语言,兼容iPhone 16系列等。开发者即刻测试,公测下月,秋季作为免费更新推出。",
+          "analysis": "苹果的差异化押注是'端侧+隐私+个人语境',这与云端大模型路线形成对照,对处理敏感馆藏与读者数据的机构尤其有意义——设备本地完成检索与生成,意味着隐私合规的新可能。对知识工作者而言,'跨应用语境检索+系统级行动'若兑现,等于把个人信息流变成可被AI直接调度的工作台;但'去年承诺的智能Siri一再跳票'的前车之鉴,也提醒大家在落地前保持审慎。",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "真正的看点是系统级行动加个人语境检索;但苹果在Siri上已经跳票太多次,这次秋季能否如约交付才是关键。"
+            },
+            {
+              "who": "技术圈",
+              "text": "端侧+隐私架构是和云端大模型的正面差异化,押注的是'你的数据不出设备'这块越来越值钱的招牌。"
+            },
+            {
+              "who": "读者",
+              "text": "能跨邮件、照片、信息按我的语境查东西听着很爽,但前提是它真听得懂、又真不把我的隐私传出去。"
+            }
+          ]
+        },
+        {
+          "title_zh": "2026 年高考 6 月 7—8 日举行,报名 1290 万人连续两年下降,招生向基础学科倾斜",
+          "summary": "2026年全国高考统考于6月7日、8日举行,全国报名人数为1290万人,较上年减少约45万,是高考报名人数连续第二年下降。教育部部署的招生改革重点包括:专业设置向基础学科、新兴学科、交叉学科和急需学科倾斜,加快存量学科专业迭代优化,扩大优质本科教育招生规模;持续深化考试内容和形式改革,更好考查学生关键能力、学科素养和思维品质;原则上按专业招生、严控大类招生数量与规模;完善\"文化素质+职业技能\"的职教高考制度;并继续实施面向农村和脱贫地区的专项招生计划以保障公平。",
+          "source": "教育部 / 新华网 / 中国教育在线",
+          "region": "中国",
+          "published": "2026-06-07",
+          "overview": "2026 年高考 6 月 7-8 日举行,报名 1290 万人、连续第二年下降(较上年少约 45 万)。招生改革三大看点:专业向基础、新兴、交叉、急需学科倾斜并扩大优质本科招生;深化考试内容改革,重在考查关键能力、学科素养与思维品质;原则上按专业招生、严控大类招生。职教高考完善\"文化素质+职业技能\"制度,并延续面向农村和脱贫地区的专项计划保公平。报名人数下降与学科结构优化叠加,折射人口与产业的双重转向。",
+          "analysis": "报名人数连续下降与\"向基础/交叉/急需学科倾斜\",共同指向一个信号:高等教育正从\"规模扩张\"转向\"结构调优\",更看重\"关键能力、学科素养、思维品质\"而非应试。这对图书馆与阅读推广是利好——当评价导向从刷题转向素养与思维,跨学科阅读、研究性学习、信息素养教育的价值就被放大。\"交叉学科\"成为政策热词,也意味着馆藏建设和学科服务要打破院系壁垒,支持学生做跨领域探究。对少儿与中学阶段,提前培养自主阅读和信息辨别能力,正是应对这种\"素养导向\"的长线投资。",
+          "url": "http://www.news.cn/20260122/e1299d4642fc4d2ba14f74ac0786c241/c.html",
+          "social": [
+            {
+              "who": "读者",
+              "text": "考的是\"思维品质和学科素养\"而不是死记硬背,平时跨学科阅读的重要性更高了。"
+            },
+            {
+              "who": "馆员",
+              "text": "评价转向素养与研究性学习,正是信息素养教育和跨学科书单发力的好时机。"
+            },
+            {
+              "who": "学界",
+              "text": "人数下降叠加学科结构优化,高校该认真思考\"培养什么人\"而非只是\"招满人\"。"
+            }
+          ]
+        },
+        {
+          "title_zh": "NASA罗曼太空望远镜运抵肯尼迪中心,发射提前八个月至8月30日",
+          "summary": "NASA在2026年6月初宣布,南希·格雷斯·罗曼太空望远镜(Roman)定于8月30日由SpaceX猎鹰重型火箭从肯尼迪航天中心39A工位发射,比原先'不晚于2027年5月'的承诺整整提前约八个月。这台近1.8万磅重的望远镜已于6月21日运抵佛罗里达,进入最后准备阶段。罗曼的核心使命是研究暗能量、系外行星与天体物理,其广域相机的视场至少是哈勃的100倍,能在极短时间内拍下大片天区。它还能遮挡星光,直接观测系外行星和行星形成盘。NASA称这是一次罕见的'提前交付',将更早开启对数十亿星系的巡天。",
+          "source": "NASA Science / SpacePolicyOnline / Discover",
+          "region": "国外",
+          "published": "2026-06-06",
+          "overview": "NASA在2026年6月初宣布,罗曼太空望远镜定于8月30日由猎鹰重型从肯尼迪中心39A工位发射,比原计划'不晚于2027年5月'提前约八个月。这台近1.8万磅的望远镜已于6月21日运抵佛罗里达做最后准备。罗曼核心任务是研究暗能量、系外行星与天体物理,广域相机视场至少是哈勃的100倍,能极快拍下大片天区,还能遮挡星光直接成像系外行星与行星形成盘。NASA称这是一次罕见的'提前交付',将更早开启数十亿星系的巡天。",
+          "analysis": "大型航天项目以'超期+超支'闻名,罗曼能提前八个月是难得的工程管理范例。对研究与数字化场景的启发在于它'广域巡天'的范式:一次拍下海量星系,产出的是PB级开放数据集,天文学正越来越像数据科学。图书馆和科研支持机构可提前关注其数据发布政策,为天文教育、公民科学项目储备素材;'100倍哈勃视场'这种直观对比也是绝佳的科普锚点。",
+          "url": "https://science.nasa.gov/blogs/roman/2026/06/03/hello-world-nasa-shares-new-home-for-roman-space-telescope-updates/",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "视场是哈勃的100倍意味着同样时间能巡更大的天,暗能量和微引力透镜系外行星研究将迎来海量统计样本。"
+            },
+            {
+              "who": "技术圈",
+              "text": "航天项目能提前八个月交付简直是奇迹,值得复盘它的项目管理到底做对了什么。"
+            },
+            {
+              "who": "读者",
+              "text": "能直接给系外行星'拍照'而不只是推算,这种从间接到直接的跨越最让人激动。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI设计的'通用'冠状病毒疫苗首次通过人体一期试验,论文6月发表于《感染杂志》",
+          "summary": "剑桥大学及其衍生公司DIOSynVax研发的pEVAC-PS疫苗,其有效成分完全由计算机模拟设计,成为首个进入人体试验的'计算机设计疫苗',相关结果于2026年6月发表在《Journal of Infection》。这是一种针对Sarbeco冠状病毒亚属的'广谱疫苗',目标是同时防护SARS-CoV-2、SARS-CoV-1及相关蝙蝠冠状病毒。研究团队用机器学习分析该病毒家族的全球基因序列,通过计算机模拟找出整个家族共享的结构特征,再设计出含这些共性的合成'超级抗原'。一期试验在39名健康志愿者中进行,采用无针注射,结果显示安全、耐受良好、无明显副作用,并能激发对多种冠状病毒的免疫反应。",
+          "source": "University of Cambridge / ScienceDaily / Journal of Infection",
+          "region": "国外",
+          "published": "2026-06-05",
+          "overview": "剑桥大学及衍生公司DIOSynVax研发的pEVAC-PS疫苗,有效成分完全由计算机模拟设计,成为首个进入人体试验的'计算机设计疫苗',结果于2026年6月发表于《Journal of Infection》。这是针对Sarbeco冠状病毒亚属的广谱疫苗,目标同时防护SARS-CoV-2、SARS-CoV-1及相关蝙蝠冠状病毒。团队用机器学习分析该病毒家族全球序列,经模拟找出共享结构特征,设计出合成'超级抗原'。39名志愿者的一期试验采用无针注射,显示安全、耐受良好、无明显副作用,并能激发对多种冠状病毒的免疫反应。",
+          "analysis": "这是'AI设计'从蛋白质结构预测走向真实临床终点的关键一步——不再是论文里的分子,而是注进人体并验证安全的疫苗。它示范了'机器学习+生成式设计+实验闭环'的科研新范式,对研究信息工作者意味着:跨学科的计算-生物文献交叉检索需求会激增。对图书馆而言,如何帮研究者追踪'AI辅助发现'类成果的可信度与可复现性,会成为新的素养教育课题。",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "把'电脑里画出来的抗原'真正打进人体并验证安全,这是计算免疫学从理论走向临床的分水岭。"
+            },
+            {
+              "who": "学界",
+              "text": "要冷静看待:一期只证明安全和免疫原性,离真正防病的有效性终点还很远,别被'AI设计'标签带跑。"
+            },
+            {
+              "who": "读者",
+              "text": "如果一针能同时防住一整个冠状病毒家族,那应对下一次大流行的底气就完全不一样了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "联合国大学报告:全球数据中心2030年耗电或达945太瓦时,用水9.3万亿升",
+          "summary": "2026年6月3日,联合国大学水、环境与健康研究所发布报告,估计在人工智能需求增长的推动下,全球数据中心的电力消耗到2030年可能达到945太瓦时(TWh),相关用水量上升至9.3万亿升,二氧化碳排放达3.99亿吨。这组数字把'AI热潮'的物理代价摆上台面:支撑大模型训练与推理的算力基础设施,正成为电力、水资源与碳排放的重要新增需求方。报告为政策制定者评估AI发展的可持续性边界、规划绿色算力提供了量化参照。",
+          "source": "United Nations University / Wikipedia 2026 in science",
+          "region": "国外",
+          "published": "2026-06-03",
+          "overview": "2026年6月3日,联合国大学水、环境与健康研究所发布报告,估计在AI需求推动下,全球数据中心电力消耗到2030年可能达945太瓦时,相关用水量升至9.3万亿升,二氧化碳排放达3.99亿吨。这组数字把'AI热潮'的物理代价摆上台面:支撑大模型训练与推理的算力基础设施,正成为电力、水资源与碳排放的重要新增需求方。报告为政策制定者评估AI可持续性边界、规划绿色算力提供量化参照。",
+          "analysis": "在人人谈'用AI'的当下,这份报告提供了稀缺的'成本视角':每一次便捷的生成背后,都有真实的电与水被消耗。对图书馆与研究机构推进数字化、上AI工具时,这是一个该被纳入决策的可持续性维度——本地小模型与云端大模型的选择,不只关乎成本与隐私,也关乎能耗足迹。把这类量化报告引入素养教育,有助于培养知识工作者对技术'物理代价'的清醒认知。",
+          "url": "https://en.wikipedia.org/wiki/2026_in_science",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "945太瓦时接近一个中等国家的全年用电,我们在欢呼AI能力时,很少有人算过这笔电费和水账。"
+            },
+            {
+              "who": "创业者",
+              "text": "能耗正从'隐性外部性'变成'显性成本',谁能把绿色算力和能效做成卖点,谁就握住了下一波竞争力。"
+            },
+            {
+              "who": "馆员",
+              "text": "机构上AI工具不该只比功能和价格,能耗与碳足迹也该进采购评估,这本身就是一堂数字素养课。"
+            }
+          ]
+        },
+        {
           "title_zh": "Anthropic 估值飙至 9650 亿美元、秘密递交 IPO,反超 OpenAI",
           "eng": "Anthropic $965B valuation, confidential IPO filing",
           "summary": "Anthropic 完成新一轮融资,估值约 9650 亿美元超过 OpenAI,并已秘密申请上市,成为 2026 年 AI 资本浪潮的标志性事件。",
@@ -2909,6 +3547,78 @@
           ]
         },
         {
+          "title_zh": "宇树科技 73 天\"闪电\"过会,拟募资 42 亿冲刺 A 股\"人形机器人第一股\"",
+          "summary": "2026年6月1日,宇树科技科创板 IPO 上会获通过。从3月20日上交所受理到过会仅用时73天,创下2026年迄今最快 IPO 审核纪录。公司计划募资42.02亿元,投向智能机器人模型研发、机器人本体研发等4个项目。业绩方面,2023至2025年营收从1.59亿元飙升至17.08亿元,净利润从亏损1114万元转为盈利2.88亿元,是全球少数实现盈利的具身智能公司;2025年人形机器人出货量超5500台,位列全球第一。其人形机器人 G1 价格已压低至9.9万元。创始人王兴兴持股23.82%、控制近七成表决权。\"人形机器人扎堆上市\"成为2026年资本市场新潮流。",
+          "source": "新浪财经 / 财联社 / 证券时报",
+          "region": "中国",
+          "published": "2026-06-01",
+          "overview": "6 月 1 日,宇树科技科创板 IPO 过会,从受理到过会仅 73 天创年内最快纪录,拟募资 42.02 亿元投入机器人模型与本体研发。公司 2023-2025 年营收从 1.59 亿飙至 17.08 亿、扭亏为盈利 2.88 亿,是全球少数盈利的具身智能公司,2025 年人形机器人出货超 5500 台居全球第一,G1 售价已降到 9.9 万元。创始人王兴兴控制近七成表决权。它领衔了 2026 年\"人形机器人扎堆上市\"潮。",
+          "analysis": "宇树最值得关注的不是上市本身,而是\"既能盈利又能把价格打到 10 万以内\"——这意味着人形机器人正从实验室和展会走向可规模量产的商业拐点。对公共文化机构,虽然人形机器人短期内不会进图书馆值守,但\"具身智能+量产降价\"的趋势,预示着导览机器人、自动整架/盘点机器人这类应用的成本会快速下降,几年内可能成为大型馆的现实选项。9.9 万元的定价尤其值得记下——当一项前沿技术跌破\"机构可负担\"门槛时,落地往往就在两三年内。",
+          "url": "https://finance.sina.com.cn/wm/2026-05-26/doc-inhzevau9083919.shtml",
+          "social": [
+            {
+              "who": "技术圈",
+              "text": "73 天过会+真盈利+G1 降到 9.9 万,人形机器人从\"概念\"进入\"能算账\"的阶段了。"
+            },
+            {
+              "who": "创业者",
+              "text": "全球少数盈利的具身智能公司先上市,资本会顺着它给整个赛道重新定价。"
+            },
+            {
+              "who": "研究者",
+              "text": "出货量全球第一靠的是把价格打下来,量产能力比炫技 demo 更决定行业走向。"
+            }
+          ]
+        },
+        {
+          "title_zh": "史密森自然历史博物馆推出《来自这片土地》:600余件标本与文化藏品代表全美各州与领地",
+          "summary": "美国史密森学会国家自然历史博物馆于2026年6月推出长期展览《From These Lands: Sharing Our Natural and Cultural Heritage》(来自这片土地:共享我们的自然与文化遗产),展期延续至2029年,位于二楼。展览汇集了600余件标本与文化物品,代表全美50个州、华盛顿特区及五个海外领地,内容横跨远古化石、璀璨矿物、被珍视的文化器物与开创性的科学发现。展览以'自然遗产与文化遗产并置共享'为核心,试图把一个国家辽阔多元的自然史与人文史编织进同一空间叙事。同月还有北亚利桑那博物馆6月26-28日的'文化遗产艺术节'(致敬科罗拉多高原原住民传统)等多场文化活动。",
+          "source": "Smithsonian National Museum of Natural History",
+          "region": "国外",
+          "published": "2026-06-01",
+          "overview": "史密森学会国家自然历史博物馆于2026年6月推出长期展《From These Lands:共享我们的自然与文化遗产》,展期延续至2029年,位于二楼。展览汇集600余件标本与文化物品,代表全美50州、华盛顿特区及五个海外领地,内容横跨远古化石、璀璨矿物、被珍视的文化器物与开创性科学发现。核心是'自然遗产与文化遗产并置共享',把辽阔多元的自然史与人文史编织进同一空间叙事。同月另有北亚利桑那博物馆6月26-28日'文化遗产艺术节'致敬科罗拉多高原原住民传统等活动。",
+          "analysis": "把自然标本与文化器物放进同一叙事,是当代博物馆策展的重要转向——从'分门别类陈列'走向'跨界讲一个共同体的故事'。这种'自然+文化'融合叙事,对图书馆做主题展陈、跨学科阅读推广很有借鉴:儿童与公众更容易被'一个地方的完整故事'打动,而非孤立的知识点。少儿阅读场景尤其可参考其'用具体物件承载宏大主题'的手法,把抽象的'多样性'变成可触摸的展品。",
+          "url": "https://naturalhistory.si.edu/exhibits/these-lands-sharing-our-natural-and-cultural-heritage",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "把化石、矿物和文化器物编进同一条叙事线,这种跨界策展思路对我们做主题书展和阅读推广很有启发。"
+            },
+            {
+              "who": "读者",
+              "text": "用600多件具体物件去讲'整个国家的自然与人文',比一块块说明牌堆知识点更能让孩子记住。"
+            },
+            {
+              "who": "学界",
+              "text": "自然遗产与文化遗产长期被学科墙分开,把它们并置共享本身就是对'什么是遗产'的重新定义。"
+            }
+          ]
+        },
+        {
+          "title_zh": "出版业的'AI清算'全面爆发:从撤稿到伪造引用,行业仍在摸索规则",
+          "summary": "美国东北大学2026年5月底报道,生成式AI正把图书出版业推入一场关于'什么算原创人类创作'的清算。导火索包括:阿歇特图书集团(Hachette)在3月因作者疑似用AI撰写部分内容而撤下一部恐怖小说;作者Steven Rosenbaum的《真相的未来》被读者发现含伪造引用与虚构名言,甚至杜撰了对东北大学教授的不实归属;《Granta》杂志旗下英联邦短篇小说奖也卷入一篇疑似AI生成作品获奖的争议。哲学与计算机科学教授Vance Ricks发问:'人写作意味着什么,又与机器写作有何不同?'创意写作教授Stephanie Young则指出,编辑劳动正前移到稿件抵达签约编辑之前,暴露了出版流程的结构性脆弱。业内共识是:大家都在手忙脚乱地摸索,尚无成熟的AI披露与检测最佳实践。",
+          "source": "Northeastern Global News",
+          "region": "国外",
+          "published": "2026-05-28",
+          "overview": "美国东北大学2026年5月底报道,生成式AI正把图书出版业推入关于'什么算原创人类创作'的清算。导火索包括阿歇特3月因作者疑似用AI撰稿撤下一部恐怖小说;Steven Rosenbaum《真相的未来》被发现含伪造引用与虚构名言,甚至杜撰对学者的不实归属;《Granta》英联邦短篇奖也卷入疑似AI作品获奖争议。教授发问'人写作与机器写作有何不同',另有学者指出编辑劳动前移暴露流程脆弱。业内共识是大家都在手忙脚乱摸索,尚无成熟的AI披露与检测实践。",
+          "analysis": "这对图书馆采编与读者服务是直接的警示:'伪造引用、虚构名言'意味着馆藏与参考咨询中,事实核查的负担正急剧上升。出版上游的把关一旦失守,下游的图书馆就成了错误信息的传播节点。馆员可借此推动'信息溯源素养'教育,并在采购与荐读时建立对AI生成内容的甄别意识;'人类创作认证'类标识也值得在编目元数据中预留位置。",
+          "url": "https://news.northeastern.edu/2026/05/28/book-publishing-ai-reckoning/",
+          "social": [
+            {
+              "who": "读者",
+              "text": "买书时发现里面的引用和名言是编的,这种信任崩塌比文笔差可怕得多——我们到底还能信什么?"
+            },
+            {
+              "who": "创业者",
+              "text": "出版社靠荣誉制做事实核查、编辑资源又长期缩水,这恰恰是AI钻空子的地方,也是核查工具创业的机会。"
+            },
+            {
+              "who": "馆员",
+              "text": "上游把关失灵,图书馆就成了错误信息的二传手;'信息溯源'必须从素养课变成采编环节的硬流程。"
+            }
+          ]
+        },
+        {
           "title_zh": "毕业论文'AI 率超标'引争议:多所高校引入 AIGC 检测,'向 AI 证明自己是人'成大学生新焦虑",
           "summary": "复旦、北邮、中传等高校出台 AI 使用规定,湖北大学、福州大学等多校在毕业论文审核中试行 AIGC 风险检测,误判与'去 AI 味'引发广泛争议。",
           "source": "华东师范大学 / 新京报",
@@ -2930,6 +3640,30 @@
             {
               "who": "馆员",
               "text": "堵不如疏,信息素养教育该补上'如何合规用 AI'这一课,而不是简单封杀。"
+            }
+          ]
+        },
+        {
+          "title_zh": "我国发布《人工智能终端智能化分级》系列国标:从 L1 到 L4 给 AI 终端定\"等级\"",
+          "summary": "2026年5月8日,工业和信息化部、国家市场监督管理总局、商务部等部门联合发布《人工智能终端智能化分级》(GB/Z 177—2026)系列国家标准。标准采用\"2+N\"架构:\"2\"为《参考框架》和《总体要求》,明确智能化的概念、等级划分与测试方法;\"N\"是面向手机、电脑、电视、眼镜、汽车座舱、音箱、耳机等不同品类的具体标准,首批覆盖 7 类产品。终端智能化由低到高分为 L1 响应级、L2 工具级、L3 辅助级、L4 协同级,其中 L4 将随产业发展在后续修订中进一步完善。标准为行业提供统一评价体系,推动 AI 终端从\"规模扩张\"迈向\"质量分级\"。",
+          "source": "新华网 / 央视网 / IT之家",
+          "region": "中国",
+          "published": "2026-05-08",
+          "overview": "工信部等部门 5 月 8 日联合发布《人工智能终端智能化分级》系列国标,给 AI 终端的\"智能水平\"定了 L1-L4 四个等级:响应级、工具级、辅助级、协同级。标准用\"2+N\"架构,先立框架与总体要求,再分手机、电脑、眼镜、电视、耳机等 7 大品类细化,首批落地。目的是用统一评价体系规范市场、避免厂商\"自说自话\"地堆 AI 概念,引导产品从拼数量转向拼质量。L4 协同级留作后续修订,显示分级是动态演进的。",
+          "analysis": "这是中国在 AI 落地侧少见的\"分级国标\",把抽象的\"智能\"翻译成可测、可比的等级,本质是给消费者和采购方一把\"度量尺\"。对图书馆、学校这类机构采购 AI 终端(智能音箱、电子阅读设备、智能眼镜导览)很有现实价值——招标时可直接写明所需级别,避免被营销话术绑架。更深一层,分级思路与图书馆界熟悉的\"元数据标准化\"同源:先统一定义和测试方法,生态才能健康互通。L4\"协同级\"留白也务实,承认当前多设备协同还不成熟。",
+          "url": "https://www.news.cn/tech/20260512/1517350612df4612b741b5498554b62a/c.html",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "以后采购智能导览、电子书设备可以直接按 L1-L4 写需求,比听厂商吹\"AI 加持\"靠谱多了。"
+            },
+            {
+              "who": "研究者",
+              "text": "把\"智能化\"做成可测试的分级框架,是治理 AI 概念泛滥的好办法,定义和测试方法统一最重要。"
+            },
+            {
+              "who": "技术圈",
+              "text": "L4 协同级先留白很诚实,多设备真正协同还远没成熟,不硬凑等级反而可信。"
             }
           ]
         },
@@ -3088,6 +3822,30 @@
           ]
         },
         {
+          "title_zh": "月之暗面发布并开源 Kimi K2.6:可连续编码 13 小时、调度 300 个子 Agent 并行",
+          "summary": "2026年4月,月之暗面正式发布并开源最强模型 Kimi K2.6,在代码、长程任务执行与 Agent 集群(swarm)能力上全面升级,多项基准对标甚至超过 GPT-5.4 等顶级闭源模型。其标志性案例是:K2.6 接手一个有 8 年历史的开源金融撮合引擎做优化,连续工作 13 小时、发起逾千次工具调用、修改 4000 多行代码,最终把中位吞吐量提升 185%、峰值吞吐量提升 133%。模型可编排约 300 个子 Agent 并行处理复杂任务,现已面向免费用户、付费订阅、Kimi Code 及企业 API 全量开放。",
+          "source": "IT之家 / OSCHINA / 21世纪经济报道",
+          "region": "中国",
+          "published": "2026-04-21",
+          "overview": "Kimi K2.6 是月之暗面发布并开源的新旗舰,主打代码、长程任务和\"Agent 集群\"能力。它能连续编码 13 小时、修改 4000+ 行代码、调度约 300 个子 Agent 并行,多项基准对标 GPT-5.4。真实工程案例中,它把一个 8 年老开源撮合引擎的中位吞吐量提升 185%。模型对免费用户、订阅用户和企业 API 全量开放,Kimi Code Bench 较上一代 K2.5 提升约 20%。这一发布与同期 GLM-5.2 一起,把\"国产开源大模型\"推到全球第一梯队。",
+          "analysis": "K2.6 把\"Agent 集群+长时间自主作业\"做成了可演示的硬指标(13 小时、4000 行、300 子 Agent),这正是知识工作从\"问一句答一句\"走向\"交一个项目\"的拐点。对图书馆和研究场景,这意味着批量元数据清洗、跨库去重、大规模 OCR 后校对这类\"机械但量大\"的活,可由一个主 Agent 拆给数百子任务并行完成。但越是放手让 AI 长时间自跑,越要给它\"可验证的验收标准\"(测试、校验脚本),否则 13 小时跑偏的代价也成倍放大——这与图书著录\"必须可核对\"的职业习惯高度契合。",
+          "url": "https://www.ithome.com/0/941/385.htm",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "300 个子 Agent 并行+连续 13 小时改代码,这已经不是\"补全工具\"而是\"能托管整个工程\"的范式了。"
+            },
+            {
+              "who": "创业者",
+              "text": "把最强模型直接开源,等于用开放权重换开发者生态,对融资叙事和企业落地都是加分项。"
+            },
+            {
+              "who": "技术圈",
+              "text": "真实案例敢拿 8 年老金融引擎练手并报吞吐量提升,比刷榜跑分有说服力得多。"
+            }
+          ]
+        },
+        {
           "title_zh": "维基百科人类访问量下滑 8%,并大规模禁用 AI 生成内容",
           "eng": "Wikipedia traffic decline & AI-content crackdown",
           "summary": "维基媒体基金会称生成式 AI 摘要与短视频分流导致人类访问量同比下降约 8%;维基百科同时收紧规则,封禁多数 AI 生成内容。",
@@ -3110,6 +3868,30 @@
             {
               "who": "馆员视角",
               "text": "维基的困境就是公共数字馆藏的预演:内容被白嫖、认同被中间层截走,我们得提前设防。"
+            }
+          ]
+        },
+        {
+          "title_zh": "弗吉尼亚大学发布'档案AI协议':不可逆模型若无法证明来源与署名,就不得获取馆藏",
+          "summary": "弗吉尼亚大学特藏部于2026年1月底发布'UVA档案AI协议',为档案机构处理'文化遗产藏品+AI'请求确立训练与访问标准。协议由图书馆院长Leo Lo在题为《没有来源的记忆:生成式AI时代的出处、同意与信任》的报告中提出。其核心原则是:不可逆的模型不得获取藏品,除非能在实践中证明逐件级的出处与有意义的署名,且档案机构保留'可合同强制执行'的中止后续使用的控制权。协议区分'通用训练'(禁止)与'检索或受控的内部AI模型'(允许)。Lo警告:'没有来源的信息是一种负债,我们正冒着用长期控制权换取短期便利的风险',并呼吁所有图书馆、档案馆与博物馆都来采用它。",
+          "source": "UVA Library",
+          "region": "国外",
+          "published": "2026-01-30",
+          "overview": "弗吉尼亚大学特藏部于2026年1月底发布'UVA档案AI协议',为档案机构处理'文化遗产藏品+AI'请求确立训练与访问标准。协议由图书馆院长Leo Lo在《没有来源的记忆》报告中提出,核心原则是:不可逆模型不得获取藏品,除非能逐件证明出处与有意义署名,且机构保留可合同强制执行的中止权。协议区分'通用训练'(禁止)与'检索/受控内部AI模型'(允许)。Lo警告'没有来源的信息是一种负债,我们正冒着用长期控制换短期便利的风险',并呼吁所有图书馆、档案馆与博物馆采用。",
+          "analysis": "这是少有的、把'AI伦理'落成可操作条款的图书馆界实践,直接回应了上一条互联网档案馆的困境。它给出的'逐件级出处+可撤销控制权'框架,几乎是数字馆藏对接AI时的最小安全集,值得国内图书馆与特藏部门借鉴。对馆员而言,这不只是政策文本,更是一套谈判筹码:在与AI公司合作时,守住'随时可叫停'的契约权,就是守住机构对文化记忆的长期掌控。",
+          "url": "https://library.virginia.edu/news/2026/protecting-what-remains-introducing-uva-archival-ai-protocol",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "'不可逆模型若不能证明逐件出处就不给访问'——这是第一份让我觉得真能拿去和厂商谈判的条款,而不是空洞表态。"
+            },
+            {
+              "who": "学界",
+              "text": "关键在'可合同强制执行的中止权':数据一旦进了大模型就抽不出来,所以唯一的杠杆是在签约时就锁死。"
+            },
+            {
+              "who": "读者",
+              "text": "把'通用训练'和'内部检索'分开很务实——读者其实欢迎AI帮忙查档案,反对的是藏品被悄悄吃进黑箱。"
             }
           ]
         },

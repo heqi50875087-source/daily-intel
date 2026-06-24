@@ -69,12 +69,11 @@ def main():
     DATA.mkdir(parents=True, exist_ok=True); ARCH.mkdir(parents=True, exist_ok=True)
     log("抓取数据源…")
     ai_raw = sources.fetch_ai(); lib_raw = sources.fetch_libraries()
-    cn_raw = sources.fetch_cn_library(); pod_raw = sources.fetch_podcasts()
-    log(f"原始: AI {len(ai_raw)} / 图书馆 {len(lib_raw)}(+中国 {len(cn_raw)}) / 播客 {sum(len(v) for v in pod_raw.values())}")
+    cn_raw = sources.fetch_cn_library()
+    log(f"原始: AI {len(ai_raw)} / 图书馆 {len(lib_raw)}(+中国 {len(cn_raw)})")
     mods = {}
     for key, fn in [("ai", lambda: do_ai(ai_raw, backend)),
-                    ("libraries", lambda: do_libraries(lib_raw, cn_raw, backend)),
-                    ("podcasts", lambda: do_podcasts(pod_raw, backend))]:
+                    ("libraries", lambda: do_libraries(lib_raw, cn_raw, backend))]:
         try:
             mods[key] = fn(); log("✓", key, len(mods[key]["items"]))
         except Exception as e:
@@ -102,7 +101,7 @@ def main():
             if old.get(k, {}).get("regions"): mods[k]["regions"] = old[k]["regions"]
             log("· 保留加工", k, len(enr), "+新", len(fresh))
     # github/hot 无每日源,始终沿用上次; ai/libraries/voices/podcasts 生成失败时也沿用
-    for k in ["ai", "libraries", "voices", "podcasts", "github", "hot"]:
+    for k in ["ai", "libraries", "voices", "github", "hot"]:
         if not mods.get(k):
             mods[k] = old.get(k, {"items": []}); log("· 沿用上次", k)
     now = datetime.datetime.now().astimezone()
