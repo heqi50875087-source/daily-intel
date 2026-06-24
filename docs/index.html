@@ -384,7 +384,7 @@ function renderFeed(){
         <p>${esc(it.summary||"")}</p>
         <div class="card-foot"><div class="topics">${(it.topics||[]).map(t=>`<span class="topic">${esc(t)}</span>`).join("")}</div></div>`;
     }else if(active==="libraries"){
-      const scope=it.scope==="academic"?"高校":it.scope==="public"?"公共":"";
+      const scope={academic:"高校",public:"公共",children:"少儿",national:"国家级",tech:"智慧",policy:"政策",special:"专业"}[it.scope]||"";
       html=`<div class="card-meta">${catTag("图书馆"+(scope?" · "+scope:""),"library")}${regionTag(it.region)}
         <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
         <span class="date">${esc(it.published||"")}</span></div>
