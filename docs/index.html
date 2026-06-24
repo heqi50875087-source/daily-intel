@@ -306,8 +306,10 @@ footer .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 /* ===================== 配置 ===================== */
 const MODULES = [
   {key:"ai",        label:"AI 进展",  cat:"ai",      hasRegion:false},
-  {key:"podcasts",  label:"全球播客", cat:"podcast",  hasRegion:true},
+  {key:"github",    label:"GitHub工具",cat:"ai",     hasRegion:false},
+  {key:"hot",       label:"实时热点", cat:"voice",    hasRegion:true},
   {key:"libraries", label:"图书馆",   cat:"library",  hasRegion:true},
+  {key:"podcasts",  label:"全球播客", cat:"podcast",  hasRegion:true},
   {key:"voices",    label:"关键声音", cat:"voice",    hasRegion:true},
 ];
 const CAT_COLOR = {ai:"--ai",podcast:"--podcast",library:"--library",voice:"--voice"};
@@ -423,6 +425,18 @@ function renderFeed(){
     }else if(active==="libraries"){
       const scope={academic:"高校",public:"公共",children:"少儿",national:"国家级",tech:"智慧",policy:"政策",special:"专业"}[it.scope]||"";
       html=`<div class="card-meta">${catTag("图书馆"+(scope?" · "+scope:""),"library")}${regionTag(it.region)}
+        <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||it.title||"")}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="github"){
+      html=`<div class="card-meta">${catTag("GitHub","ai")}${it.lang?`<span class="tag region">${esc(it.lang)}</span>`:""}
+        <span class="src">${esc(it.stars?"★ "+it.stars:"")}</span>
+        <span class="date">${esc(it.published||"")}</span></div>
+        <h3>${esc(it.title_zh||"")}${it.eng?`<span class="eng">${esc(it.eng)}</span>`:""}</h3>
+        <p>${esc(it.summary||"")}</p>`;
+    }else if(active==="hot"){
+      html=`<div class="card-meta">${catTag("热点","voice")}${regionTag(it.region)}
         <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
         <span class="date">${esc(it.published||"")}</span></div>
         <h3>${esc(it.title_zh||it.title||"")}</h3>
