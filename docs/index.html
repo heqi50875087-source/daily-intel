@@ -213,6 +213,43 @@ a.card-link:hover .go .arr{transform:translateX(3px)}
 .empty button{margin-top:18px;border:1px solid var(--accent);background:transparent;color:var(--accent);
   padding:9px 22px;border-radius:8px;cursor:pointer;font-family:var(--font-sans);font-size:14px}
 
+/* ============ 可点击卡片 + 详情页 ============ */
+.card.clickable{cursor:pointer}
+.card.clickable:hover h3{color:var(--accent)}
+.card .more-hint{margin-top:11px;font-size:12.5px;color:var(--accent);font-family:var(--font-mono);
+  display:inline-flex;align-items:center;gap:5px}
+.card .more-hint .arr{transition:transform .2s}
+.card.clickable:hover .more-hint .arr{transform:translateX(3px)}
+.detail{animation:fade .4s;padding-bottom:30px}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.back{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-sans);font-size:14.5px;font-weight:700;
+  color:var(--ink);cursor:pointer;padding:10px 16px 10px 12px;margin-bottom:18px;background:var(--paper-2);
+  border:1px solid var(--rule-2);border-radius:11px;box-shadow:var(--shadow);transition:all .15s;
+  -webkit-tap-highlight-color:transparent;position:sticky;top:10px;z-index:15}
+.back:hover{border-color:var(--accent);color:var(--accent)}
+.back:active{transform:scale(.96)}
+.back .bk-ico{font-size:18px;line-height:1;font-weight:400}
+.dt-title{font-family:var(--font-serif);font-weight:700;font-size:calc(25px*var(--scale));line-height:1.32;
+  margin:10px 0 6px;text-wrap:pretty}
+.dt-eng{font-size:13px;color:var(--ink-3);line-height:1.5;margin-bottom:4px}
+.dt-h{font-family:var(--font-serif);font-weight:600;font-size:calc(17px*var(--scale));margin:26px 0 12px;
+  display:flex;align-items:center;gap:8px}
+.dt-h::before{content:"";width:3px;height:17px;background:var(--accent);border-radius:2px}
+.dt-body{font-size:calc(15.5px*var(--scale));line-height:1.85;color:var(--ink);text-wrap:pretty}
+.dt-body p{margin-bottom:13px}
+.dt-analysis{font-size:calc(15.5px*var(--scale));line-height:1.85;color:var(--ink);text-wrap:pretty;
+  padding:16px 18px;background:var(--accent-soft);border-radius:12px;border-left:3px solid var(--accent)}
+.dt-analysis p{margin-bottom:12px}.dt-analysis p:last-child{margin-bottom:0}
+.social-list{display:flex;flex-direction:column;gap:11px}
+.social-item{padding:13px 15px;background:var(--paper-2);border:1px solid var(--rule-2);border-radius:11px}
+.social-who{font-family:var(--font-sans);font-weight:700;font-size:13px;color:var(--accent);margin-bottom:5px;
+  display:flex;align-items:center;gap:6px}
+.social-who::before{content:"❝";font-size:15px;opacity:.6}
+.social-text{font-size:calc(14.5px*var(--scale));line-height:1.7;color:var(--ink-2);text-wrap:pretty}
+.dt-link{display:inline-flex;align-items:center;gap:6px;margin-top:24px;padding:11px 20px;
+  border:1px solid var(--rule-2);border-radius:10px;color:var(--ink);text-decoration:none;font-size:14px;
+  font-family:var(--font-sans);font-weight:600;transition:all .2s}
+.dt-link:hover{border-color:var(--accent);color:var(--accent)}
 /* ============ 页脚 ============ */
 footer{border-top:1px solid var(--rule);margin-top:20px;padding:22px 0 10px;
   font-family:var(--font-mono);font-size:11px;color:var(--ink-3);line-height:1.8}
@@ -295,7 +332,7 @@ const SAMPLE = {
 };
 
 /* ===================== 状态 ===================== */
-let DATA=null, active="ai", region="__all__", usingSample=false;
+let DATA=null, active="ai", region="__all__", usingSample=false, view={name:"list"};
 
 /* ===================== 工具 ===================== */
 const $=(s,r=document)=>r.querySelector(s);
@@ -329,7 +366,7 @@ function renderTabs(){
     b.setAttribute("role","tab");
     b.setAttribute("aria-selected",String(m.key===active));
     b.innerHTML=`${m.label}<span class="count">${items.length||""}</span>`;
-    b.onclick=()=>{active=m.key;region="__all__";try{history.replaceState(null,"","#"+m.key);}catch(e){}render();};
+    b.onclick=()=>{active=m.key;region="__all__";view={name:"list"};try{history.replaceState(null,"","#"+m.key);}catch(e){}render();};
     box.appendChild(b);
   });
 }
@@ -401,7 +438,13 @@ function renderFeed(){
           <p>${esc(it.recent||"")}</p>
         </div></div>`;
     }
-    feed.appendChild(cardArt(html,i));
+    if(CLICKABLE.has(active)){
+      const hasRich=it.analysis||it.overview||(it.social&&it.social.length);
+      html+=`<div class="more-hint">${hasRich?"查看我的分析与社媒热议":"查看详情"} <span class="arr">→</span></div>`;
+    }
+    const art=cardArt(html,i);
+    if(CLICKABLE.has(active)){art.classList.add("clickable");art.onclick=()=>openDetail(active,mod.items.indexOf(it));}
+    feed.appendChild(art);
   });
   c.appendChild(feed);
 }
@@ -427,7 +470,62 @@ function renderMeta(){
   $("#updated").textContent=usingSample?"等待首次生成":ago(DATA?.generated_at);
   $("#genInfo").textContent=DATA?.generated_at&&!usingSample?("生成于 "+new Date(DATA.generated_at).toLocaleString("zh-CN")):"";
 }
-function render(){renderTabs();renderRegions();renderBanner();renderFeed();renderMeta();}
+function render(){
+  renderTabs();renderMeta();
+  if(view.name==="detail"){
+    $("#toolbar")&&$("#toolbar").classList.remove("show");
+    renderDetail();
+  }else{
+    renderRegions();renderBanner();renderFeed();
+  }
+}
+
+/* ============ 详情页 ============ */
+const CLICKABLE=new Set(["ai","libraries","github","hot"]);
+function openDetail(mod,idx){
+  view={name:"detail",mod,idx};
+  try{history.pushState({v:"detail",mod,idx},"","#"+mod+"/"+idx);}catch(e){}
+  render();window.scrollTo(0,0);
+}
+function goList(){view={name:"list"};render();}
+window.addEventListener("popstate",(e)=>{
+  const st=e.state;
+  if(st&&st.v==="detail"&&DATA?.modules?.[st.mod]?.items?.[st.idx])view={name:"detail",mod:st.mod,idx:st.idx};
+  else view={name:"list"};
+  if(st&&st.v==="detail"&&st.mod)active=st.mod;
+  render();
+});
+function paras(txt){return String(txt||"").split(/\n\n+|\n/).filter(Boolean).map(p=>`<p>${esc(p)}</p>`).join("");}
+function renderDetail(){
+  const c=$("#content");c.innerHTML="";
+  const mod=DATA?.modules?.[view.mod];const it=mod?.items?.[view.idx];
+  if(!it){return goList();}
+  const cfg=MODULES.find(m=>m.key===view.mod);
+  const d=el("div","detail");
+  const back=el("button","back");back.innerHTML='<span class="bk-ico">‹</span> 返回列表';back.onclick=()=>history.back();
+  d.appendChild(back);
+  const scope=({academic:"高校",public:"公共",children:"少儿",national:"国家级",tech:"智慧",policy:"政策",special:"专业"}[it.scope])||"";
+  const head=el("div","dt-head");
+  head.innerHTML=`<div class="card-meta">${catTag((cfg?cfg.label:"")+(scope?" · "+scope:""),cfg?cfg.cat:"ai")}${regionTag(it.region)}
+    <span class="src">${esc(it.source?"来源 · "+it.source:"")}</span>
+    <span class="date">${esc(it.published||"")}</span></div>
+    <h2 class="dt-title">${esc(it.title_zh||it.title||it.name||"")}</h2>
+    ${it.eng?`<div class="dt-eng">${esc(it.eng)}</div>`:""}`;
+  d.appendChild(head);
+  const overview=it.overview||it.summary;
+  if(overview){d.appendChild(el("div","dt-h","概述"));const b=el("div","dt-body");b.innerHTML=paras(overview);d.appendChild(b);}
+  if(it.analysis){d.appendChild(el("div","dt-h","🔎 我的分析"));const b=el("div","dt-analysis");b.innerHTML=paras(it.analysis);d.appendChild(b);}
+  if(it.social&&it.social.length){
+    d.appendChild(el("div","dt-h","💬 社媒热议"));
+    const sl=el("div","social-list");
+    it.social.forEach(s=>{const item=el("div","social-item");
+      item.innerHTML=`<div class="social-who">${esc(s.who||s.platform||"网友")}</div><div class="social-text">${esc(s.text||s.comment||"")}</div>`;
+      sl.appendChild(item);});
+    d.appendChild(sl);
+  }
+  if(it.url&&it.url!=="#"){const a=el("a","dt-link");a.href=it.url;a.target="_blank";a.rel="noopener";a.innerHTML="阅读原文 ↗";d.appendChild(a);}
+  c.appendChild(d);window.scrollTo(0,0);
+}
 
 function showSkeleton(){
   $("#content").innerHTML=`<div class="feed skeleton">`+
@@ -473,8 +571,13 @@ $("#sizeBtn").onclick=()=>{
 
 /* ===================== 启动 ===================== */
 loadPrefs();
-// 深链:#模块 选中标签; ?theme= 覆盖主题(便于测试/分享)
-{const h=location.hash.replace("#","");if(MODULES.some(m=>m.key===h))active=h;
+// 深链:#模块 选中标签 / #模块/序号 直达详情; ?theme= 覆盖主题。同时设历史基线保证后退回列表
+{const h=location.hash.replace(/^#/,"");
+ const dm=h.match(/^([a-z]+)\/(\d+)$/);
+ if(dm&&MODULES.some(m=>m.key===dm[1])){active=dm[1];view={name:"detail",mod:dm[1],idx:+dm[2]};
+   try{history.replaceState({v:"list"},"","#"+dm[1]);history.pushState({v:"detail",mod:dm[1],idx:+dm[2]},"","#"+h);}catch(e){}}
+ else if(MODULES.some(m=>m.key===h)){active=h;try{history.replaceState({v:"list"},"","#"+h);}catch(e){}}
+ else{try{history.replaceState({v:"list"},"","");}catch(e){}}
  const qt=new URLSearchParams(location.search).get("theme");if(["auto","light","dark"].includes(qt))document.documentElement.dataset.theme=qt;}
 {const t=document.documentElement.dataset.theme||"auto";$("#themeBtn").textContent=t==="dark"?"●":t==="light"?"○":"◐";}
 load();
