@@ -89,7 +89,20 @@ def main():
     if (DATA / "latest.json").exists():
         try: old = json.load(open(DATA / "latest.json", encoding="utf-8")).get("modules", {})
         except Exception: pass
-    for k in ["ai", "libraries", "voices", "podcasts"]:
+    # 保护 workflow 深加工产物: 旧条目里带 analysis 的(概述/分析/社媒)优先保留, 新抓取的去重追加
+    import re as _re
+    def _nu(u): return _re.sub(r"^https?://", "", u or "").rstrip("/").lower().split("?")[0]
+    for k in ["ai", "libraries"]:
+        enr = [i for i in old.get(k, {}).get("items", []) if i.get("analysis")]
+        if enr and mods.get(k) and mods[k].get("items"):
+            seen = {_nu(i.get("url", "")) for i in enr}
+            fresh = [i for i in mods[k]["items"] if _nu(i.get("url", "")) not in seen]
+            cap = 60 if k == "libraries" else 30
+            mods[k]["items"] = (enr + fresh)[:cap]
+            if old.get(k, {}).get("regions"): mods[k]["regions"] = old[k]["regions"]
+            log("· 保留加工", k, len(enr), "+新", len(fresh))
+    # github/hot 无每日源,始终沿用上次; ai/libraries/voices/podcasts 生成失败时也沿用
+    for k in ["ai", "libraries", "voices", "podcasts", "github", "hot"]:
         if not mods.get(k):
             mods[k] = old.get(k, {"items": []}); log("· 沿用上次", k)
     now = datetime.datetime.now().astimezone()
