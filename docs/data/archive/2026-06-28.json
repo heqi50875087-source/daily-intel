@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T19:37:52+08:00",
+  "generated_at": "2026-06-28T20:03:34+08:00",
   "date": "2026-06-28",
   "engine": "deepseek:deepseek-chat",
   "modules": {
@@ -68,6 +68,34 @@
             {
               "who": "科技记者",
               "text": "这对苹果Vision Pro团队是重大损失，但OpenAI的硬件计划可能因此加速。"
+            }
+          ]
+        },
+        {
+          "title_zh": "热浪影响大脑功能，科学家正探究原因",
+          "eng": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+          "summary": "极端高温不仅影响身体，还损害认知功能，科学家正在研究其神经机制。",
+          "source": "MIT Tech Review",
+          "region": "全球",
+          "published": "2026-06-26",
+          "tags": [
+            "热浪",
+            "大脑",
+            "健康",
+            "气候变化",
+            "科学研究"
+          ],
+          "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+          "overview": "随着欧洲遭遇创纪录热浪，科学家们正在研究高温如何影响大脑。研究表明，极端高温会导致认知能力下降、情绪波动和决策失误。可能的机制包括脱水、炎症反应和神经递质失衡。这一研究对于应对气候变化下的公共健康风险至关重要。",
+          "analysis": "热浪对大脑的影响凸显了气候变化的非直接健康威胁。随着全球变暖，理解和缓解高温对认知的损害将成为公共卫生的优先事项。",
+          "social": [
+            {
+              "who": "神经科学家",
+              "text": "高温对大脑的影响可能比我们想象的更严重，尤其是在儿童和老年人中。"
+            },
+            {
+              "who": "政策制定者",
+              "text": "城市规划和建筑设计中应考虑热浪对居民认知功能的影响。"
             }
           ]
         },
@@ -915,40 +943,6 @@
             {
               "who": "馆员",
               "text": "本地能跑得动大模型,对我们这种有读者隐私数据、不能随便上云的机构是好事。但一上来就绑定CUDA生态,也得防被锁死在单一架构里。"
-            }
-          ]
-        },
-        {
-          "title_zh": "谷歌 Gemini 3.5 上线:Flash 以 4 倍速度逼近旗舰编码能力,3.5 Pro(200 万上下文+Deep Think)6 月跟进",
-          "eng": "Gemini 3.5 Flash / Gemini 3.5 Pro",
-          "summary": "谷歌 Gemini 3.5 Flash 在 I/O 后成为消费端与搜索 AI 模式默认模型,以约 4 倍速度提供接近 Pro 的编码/推理能力;3.5 Pro 配 200 万上下文与 Deep Think,6 月陆续推出。",
-          "source": "Google DeepMind / Google Cloud Blog",
-          "region": "美国",
-          "scope": "大模型发布/多模态",
-          "published": "2026-05-20",
-          "overview": "谷歌在 5 月 I/O 大会上发布 Gemini 3.5 Flash,并迅速把它设为消费版 Gemini App、谷歌搜索'AI 模式(AI Mode)'以及 Vertex AI / Gemini API 的默认模型。Flash 这条线主打'又快又便宜还能干活':在保持 Flash 级速度与低成本(约每百万输入 token 1.5 美元、输出 9 美元)的同时,把编码与推理质量拉到接近旗舰 Pro 的水平,官方称约为 Pro 速度的 4 倍。性能指标上,它在长程多轮任务基准较上一代提升约 42%,token 使用效率提升约 68%,多模态理解(图表问答基准 CharXiv 84.2%)处于领先位置。被定位为'下一个看点'的 Gemini 3.5 Pro 则携带 200 万 token 超长上下文窗口和专门的'Deep Think 深度思考'模式,于 6 月起陆续全面可用。谷歌同期还推出面向智能体开发的 Gemini API Managed Agents 等配套能力,把'模型 + 智能体编排'打包供给开发者。整体路线很清晰:用 Flash 抢日常高频场景的性价比,用 Pro 的超长上下文 + 深思啃复杂硬任务。",
-          "analysis": "Gemini 这一代的关键词是'又快又便宜还能干活 + 超长上下文',对知识工作的撬动点很实在。200 万 token 上下文意味着可以一次性把一整套地方文献、一份长篇研究报告、甚至整批活动资料全部喂进去做问答与综述,极大降低过去'分段切片再人工合并'的工程负担——这恰是馆员和研究者最头疼的环节之一。多模态能力强,则利于直接处理扫描件、图表、海报这类图书馆里大量存在的非纯文本资料。更值得警惕的是它已成为搜索默认:读者越来越习惯'搜索即问答',直接拿到整理好的答案而不再翻链接,这会重塑信息行为,也倒逼图书馆把资源发现、检索导览界面顺势改造成对话式入口,否则容易在读者动线里被边缘化。而成本持续下探,则让'把 AI 嵌进公共服务'从少数机构的奢侈实验,变成多数机构都负担得起的常规选项。",
-          "url": "https://deepmind.google/models/gemini/flash/",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Flash 用四倍速度做到接近 Pro 的编码质量,日常智能体跑起来既快又省,纯论性价比这一代很难拒绝。"
-            },
-            {
-              "who": "读者",
-              "text": "搜索直接给我整理好的答案而不是一堆链接,确实省事,但久了会担心自己慢慢丧失了'自己翻、自己判断'的习惯。"
-            },
-            {
-              "who": "馆员",
-              "text": "200 万上下文可以一次喂进整批地方文献做综述,过去最折磨人的'长文档切片再合并'被直接化解,这对编目和参考咨询是真减负。"
-            },
-            {
-              "who": "研究者",
-              "text": "超长上下文好用,但越长越要警惕'中间遗忘'和幻觉,关键结论还是得回到原文逐条核对,不能图省事全信模型综述。"
-            },
-            {
-              "who": "技术圈",
-              "text": "谷歌把 Flash 塞进搜索默认、把 Pro 留给深思硬任务,这种分层卡位是在用入口优势锁住用户,生态护城河比单看模型分数更可怕。"
             }
           ]
         }
@@ -2611,6 +2605,42 @@
               "text": "灾后重建不仅需要资金，更需要社区的支持和志愿者的参与，图书馆应提前建立应急网络。"
             }
           ]
+        },
+        {
+          "title_zh": "中国国家图书馆举办“少儿阅读推广人”培训",
+          "eng": "",
+          "summary": "国家图书馆面向全国开展少儿阅读推广人培训，提升馆员专业能力。",
+          "source": "中国国家图书馆",
+          "region": "中国",
+          "scope": "public",
+          "published": "",
+          "url": "https://www.nlc.cn/",
+          "overview": "该培训项目旨在培养专业的少儿阅读推广人才，课程涵盖儿童心理学、绘本讲读、活动策划等模块。通过线上线下结合方式，覆盖全国各级图书馆，推动少儿阅读服务标准化。",
+          "analysis": "上海少儿馆可参考其课程体系，建立本馆的阅读推广人培养机制，提升服务专业性。",
+          "social": [
+            {
+              "who": "馆员",
+              "text": "培训内容很实用，特别是绘本讲读技巧，直接能用到工作中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "上海少年儿童图书馆新馆开放，打造智慧阅读空间",
+          "eng": "",
+          "summary": "上海少年儿童图书馆新馆正式开放，引入智能导览、AR互动等科技元素。",
+          "source": "上海少年儿童图书馆",
+          "region": "中国",
+          "scope": "public",
+          "published": "",
+          "url": "https://www.sst.cn/",
+          "overview": "新馆位于浦东，建筑面积约1.5万平方米，设有绘本馆、文学馆、科普馆等主题区域。采用RFID自助借还、智能书架等系统，并配备AR互动墙和虚拟现实体验区，为儿童提供沉浸式阅读环境。",
+          "analysis": "上海少儿馆可借鉴其智慧化建设经验，评估新技术对儿童阅读体验的实际影响，优化空间设计。",
+          "social": [
+            {
+              "who": "读者",
+              "text": "新馆的AR互动区孩子特别喜欢，借书也很方便。"
+            }
+          ]
         }
       ],
       "regions": [
@@ -2624,18 +2654,18 @@
     "sports": {
       "items": [
         {
-          "title_zh": "克拉克留下强大苏格兰遗产，但离任带来解脱感",
+          "title_zh": "克拉克留下强大遗产但离任带来解脱感",
           "eng": "Clarke leaves strong Scotland legacy but exit brings sense of relief",
-          "summary": "史蒂夫·克拉克带领苏格兰走出低谷，但始终未能突破大赛小组赛。汤姆·英格利希对其执教生涯的必读分析。",
+          "summary": "史蒂夫·克拉克带领苏格兰走出低谷，但始终未能突破大赛小组赛。汤姆·英格利希撰文分析其执教生涯。",
           "source": "BBC Football",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/cn4d1eg5eqeo?at_medium=RSS&at_campaign=rss",
-          "overview": "史蒂夫·克拉克在苏格兰队执教期间，成功将球队带出长期无缘大赛的困境，但在本届世界杯小组赛出局后，他选择离任。文章回顾了他的执教遗产，指出虽然苏格兰未能突破小组赛，但克拉克为球队奠定了坚实基础。他的离开对球队而言既是一种损失，也带来新的开始。",
-          "analysis": "克拉克的离任标志着苏格兰足球一个时代的结束。他重塑了球队的战术纪律和团队精神，但大赛成绩的瓶颈也暴露了阵容深度的不足。",
+          "overview": "史蒂夫·克拉克在苏格兰队执教期间，成功将球队带出长期低谷，但始终未能带领球队突破大赛小组赛阶段。他的离任虽然留下了坚实的遗产，但也让许多人感到解脱。汤姆·英格利希的深度分析文章回顾了克拉克的执教历程。",
+          "analysis": "克拉克的离任标志着苏格兰一个时代的结束，但球队需要新的方向来突破小组赛瓶颈。他的遗产在于重建了球队的竞争力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "克拉克是苏格兰的英雄，但也许换帅能带来新气象。"
+              "text": "克拉克做了很多，但大赛成绩始终是硬伤，也许换帅是必要的。"
             }
           ],
           "region": "足球·世界杯"
@@ -2643,29 +2673,29 @@
         {
           "title_zh": "淘汰赛来临——英格兰通往决赛之路",
           "eng": "Knockouts are here - what is England's path to the final?",
-          "summary": "BBC体育分析英格兰在晋级淘汰赛后，需要如何做才能闯入决赛。",
+          "summary": "BBC体育分析英格兰晋级淘汰赛后，需要如何做才能闯入决赛。",
           "source": "BBC Football",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰队以小组头名出线，现在面临淘汰赛的挑战。文章详细分析了英格兰可能遇到的对手和晋级路线，包括潜在的强敌如法国、阿根廷等。英格兰需要保持防守稳固，同时发挥进攻火力，才能走得更远。",
-          "analysis": "英格兰的淘汰赛之路充满变数，但球队在小组赛展现了韧性。关键在于中场控制和定位球效率，这将是他们突破密集防守的法宝。",
+          "overview": "英格兰队已晋级世界杯淘汰赛阶段，BBC体育分析了他们通往决赛的潜在路径。球队需要应对一系列强敌，并发挥出最佳状态。",
+          "analysis": "英格兰的淘汰赛之路充满挑战，但球队阵容深度和关键球员的状态将是决定性因素。图赫尔需要制定有效的战术。",
           "social": [
             {
               "who": "解说",
-              "text": "英格兰的签运不错，但淘汰赛没有弱旅，必须每场都全力以赴。"
+              "text": "英格兰小组赛表现不算惊艳，但淘汰赛才是真正的考验。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "27次飞行，24场比赛：国际足联主席如何穿梭世界杯",
+          "title_zh": "27次飞行、24场比赛：国际足联主席的世界杯空中之旅",
           "eng": "27 flights, 24 matches: How Fifa's president is jetting around World Cup",
-          "summary": "詹尼·因凡蒂诺在北美各地已累计飞行数千英里。",
+          "summary": "因凡蒂诺在北美各地飞行了数千英里，观看世界杯比赛。",
           "source": "BBC Football",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/cgev5wy0zg3o?at_medium=RSS&at_campaign=rss",
-          "overview": "国际足联主席因凡蒂诺在本届世界杯期间频繁飞行，已累计27次航班和24场比赛的行程。他穿梭于北美各大赛场，展现了对赛事的高度参与。文章还提到他的行程安排和背后的政治意义。",
-          "analysis": "因凡蒂诺的密集行程反映了国际足联对世界杯的重视，但也引发了对资源消耗和环保的争议。他的出现往往伴随着政策宣示和外交活动。",
+          "overview": "国际足联主席詹尼·因凡蒂诺在2026年世界杯期间频繁飞行，累计27次航班、观看24场比赛，行程覆盖北美多个城市。",
+          "analysis": "因凡蒂诺的密集行程显示了他对世界杯的重视，但也引发了关于其角色和资源分配的讨论。",
           "social": [
             {
               "who": "资深球迷",
@@ -2677,67 +2707,71 @@
         {
           "title_zh": "伊朗是世界杯历史上最不幸的球队吗？",
           "eng": "Are Iran the unluckiest side in World Cup history?",
-          "summary": "伊朗队在最后时刻两次被剥夺世界杯32强席位。",
+          "summary": "伊朗两次在最后时刻被剥夺世界杯32强席位，堪称史上最倒霉。",
           "source": "BBC Football",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-          "overview": "伊朗队在小组赛最后一轮遭遇戏剧性出局，因同组另一场比赛的结果导致他们被淘汰。这已经是伊朗第二次在最后时刻无缘世界杯淘汰赛。文章回顾了伊朗队的悲情历史，包括1982年和2026年的两次“被做掉”。",
-          "analysis": "伊朗队的出局令人惋惜，但也暴露了他们在关键比赛中的心理脆弱。球队需要提升在压力下的表现，才能避免重蹈覆辙。",
-          "social": [
-            {
-              "who": "教练",
-              "text": "伊朗踢得不错，但足球就是这样残酷，细节决定成败。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "世界杯射手榜：巴黎圣日耳曼和皇马领跑，水晶宫和桑德兰抢眼",
-          "eng": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
-          "summary": "水晶宫和桑德兰在2026年世界杯小组赛后的英超俱乐部射手榜上领先阿森纳、利物浦和曼城。",
-          "source": "BBC Football",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
-          "overview": "世界杯小组赛结束后，各俱乐部球员的进球数统计出炉。巴黎圣日耳曼和皇马球员贡献最多进球，而英超中水晶宫和桑德兰的球员表现抢眼，超过了传统豪门。文章列出了详细的进球榜单，并分析了各队球员的表现。",
-          "analysis": "水晶宫和桑德兰的崛起反映了中小俱乐部球员在国家队中的重要作用。这也可能影响转会市场，这些球员的身价有望上涨。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "没想到水晶宫和桑德兰的球员这么猛，英超中下游球队也有宝藏。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "英格兰32强战将在BBC播出——查看完整赛程",
-          "eng": "England last-32 tie on BBC - see full schedule",
-          "summary": "英格兰对阵刚果（金）的世界杯32强赛将在BBC One和BBC iPlayer直播，所有16场淘汰赛首轮比赛均覆盖。",
-          "source": "BBC Football",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC公布了世界杯淘汰赛首轮的转播计划，英格兰对阵刚果（金）的比赛将在BBC One和iPlayer直播。此外，所有16场32强赛都将通过BBC体育平台覆盖。文章还提供了完整的赛程表和观赛指南。",
-          "analysis": "英格兰的对手刚果（金）实力不容小觑，但英格兰拥有主场般的支持。BBC的全面转播将吸引大量观众，这场比赛也是检验英格兰进攻火力的好机会。",
+          "overview": "伊朗队在世界杯历史上两次在最后时刻被挤出32强，包括本届赛事。文章探讨了他们是否是最不幸的球队。",
+          "analysis": "伊朗的遭遇令人同情，但足球比赛结果往往取决于细节。他们需要反思如何在关键时刻把握命运。",
           "social": [
             {
               "who": "解说",
-              "text": "英格兰对刚果（金）应该能赢，但非洲球队不好对付，小心冷门。"
+              "text": "伊朗两次被绝杀，运气实在太差了，但这就是足球。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "羽毛球计分制改革：2027年起采用新规则",
-          "eng": "Badminton votes to change scoring system from 2027",
-          "summary": "世界羽毛球联合会投票决定从2027年起更改比赛计分方式，具体细节待公布。",
-          "source": "BBC Badminton",
-          "published": "2026-04-25",
-          "url": "https://www.bbc.co.uk/sport/badminton/articles/cwyd4edznv2o?at_medium=RSS&at_campaign=rss",
-          "overview": "世界羽毛球联合会通过投票决定，自2027年起对羽毛球比赛的计分系统进行改革。目前现行的是三局两胜、每局21分的赛制，新规则的具体方案尚未公布，但预计将影响比赛节奏和策略。这一决定旨在提升比赛的观赏性和公平性。",
-          "analysis": "计分制改革是羽毛球运动的重要转折点，可能缩短比赛时间或增加悬念。新规则能否吸引更多观众和赞助商，值得关注。",
+          "title_zh": "世界杯射手榜：巴黎圣日耳曼和皇马领跑，水晶宫和桑德兰意外上榜",
+          "eng": "World Cup goals chart led by PSG and Real - plus Palace and Sunderland",
+          "summary": "2026年世界杯小组赛阶段，水晶宫和桑德兰在英超俱乐部射手榜上领先阿森纳、利物浦和曼城。",
+          "source": "BBC Football",
+          "published": "2026-06-28",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg59eerpw4o?at_medium=RSS&at_campaign=rss",
+          "overview": "2026年世界杯小组赛结束后，巴黎圣日耳曼和皇马在俱乐部进球榜上领先。英超中，水晶宫和桑德兰的球员进球数超过阿森纳、利物浦和曼城。",
+          "analysis": "这一数据反映了世界杯上球员的出色表现，也凸显了中小俱乐部球员的潜力。水晶宫和桑德兰的崛起令人惊喜。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "改计分制是好事，现在比赛有时太拖沓，希望新规则能让比赛更紧凑。"
+              "text": "没想到水晶宫和桑德兰的球员这么能进球，英超格局要变？"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "英格兰32强赛将在BBC播出——查看完整赛程",
+          "eng": "England last-32 tie on BBC - see full schedule",
+          "summary": "英格兰对阵刚果（金）的32强赛将在BBC One和iPlayer直播，所有16场淘汰赛均有BBC体育覆盖。",
+          "source": "BBC Football",
+          "published": "2026-06-28",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3vy1ynv34ko?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰在世界杯32强赛中对阵刚果（金），比赛将在BBC One和iPlayer直播。BBC体育将覆盖全部16场首轮淘汰赛。",
+          "analysis": "BBC的全面转播确保球迷不会错过任何精彩对决。英格兰对阵刚果（金）的比赛将是检验球队实力的关键一战。",
+          "social": [
+            {
+              "who": "解说",
+              "text": "英格兰对刚果（金）看似轻松，但淘汰赛无弱旅，必须全力以赴。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "羽毛球计分制改革：2027年起改为11分制",
+          "eng": "Badminton votes to change scoring system from 2027",
+          "summary": "世界羽联投票通过，从2027年起将现行21分制改为11分制，每局先得11分者胜，比赛节奏将大幅加快。",
+          "source": "BBC Badminton",
+          "published": "2026-04-25",
+          "url": "https://www.bbc.co.uk/sport/badminton/articles/cwyd4edznv2o?at_medium=RSS&at_campaign=rss",
+          "overview": "世界羽联在2026年4月投票决定，从2027年开始正式采用11分制（每球得分制），取代沿用多年的21分制。新规则下，每局比赛先得11分者获胜，比赛时长预计缩短，攻防转换更频繁。这一改革旨在提升比赛观赏性和电视转播吸引力，但也在球员和教练中引发争议，部分人认为会削弱传统战术的深度。",
+          "analysis": "11分制将彻底改变羽毛球比赛节奏，强攻型选手可能更占优势，而慢热型或依赖拉吊的选手面临挑战。改革能否真正提升观赏性，还需看实战效果。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "11分制让比赛更刺激，但传统21分制的经典逆转可能再也看不到了。"
+            },
+            {
+              "who": "教练",
+              "text": "新规则要求球员从第一分就全力投入，战术布置需要彻底调整。"
             }
           ],
           "region": "羽毛球"
@@ -2745,50 +2779,62 @@
         {
           "title_zh": "羽坛传奇安赛龙因伤退役",
           "eng": "Badminton great Axelsen retires",
-          "summary": "两届奥运冠军和世界冠军维克托·安赛龙宣布因伤无法再参加最高水平比赛，正式退役。",
+          "summary": "两届奥运冠军、世界冠军维克托·安赛龙宣布因伤退役，表示自己已无法再以最高水平参赛。",
           "source": "BBC Badminton",
           "published": "2026-04-15",
           "url": "https://www.bbc.co.uk/sport/badminton/articles/cy0112ezde1o?at_medium=RSS&at_campaign=rss",
-          "overview": "丹麦羽毛球名将维克托·安赛龙宣布退役，他表示因伤病困扰已无法再保持顶尖竞技状态。安赛龙曾两次夺得奥运会金牌（2020年东京、2024年巴黎）和多次世锦赛冠军，是男单项目的绝对统治者。他的退役标志着羽毛球一个时代的结束。",
-          "analysis": "安赛龙的退役让男单格局出现真空，年轻选手如奈良冈功大、李诗沣等将迎来冲击冠军的良机。他的伤病也提醒运动员高强度赛程对身体的影响。",
-          "social": [
-            {
-              "who": "解说员",
-              "text": "安赛龙是史上最伟大的男单选手之一，他的退役是羽坛的巨大损失。"
-            }
-          ],
-          "region": "羽毛球"
-        },
-        {
-          "title_zh": "莱恩/文迪欧锦赛男双夺金：实现重大目标",
-          "eng": "Lane & Vendy achieve big goal with European gold",
-          "summary": "英格兰男双组合本·莱恩和肖恩·文迪在欧锦赛上夺得金牌，实现了他们渴望已久的目标。",
-          "source": "BBC Badminton",
-          "published": "2026-04-14",
-          "url": "https://www.bbc.co.uk/sport/badminton/articles/cvgee9p7yvgo?at_medium=RSS&at_campaign=rss",
-          "overview": "在2026年欧洲羽毛球锦标赛上，英格兰男双组合本·莱恩和肖恩·文迪成功摘金。莱恩赛后表示，他们一直“极度渴望”这枚金牌，如今终于如愿以偿。这是英格兰男双在欧洲赛场的重要突破。",
-          "analysis": "莱恩/文迪的胜利证明了英格兰男双的进步，他们有望在接下来的世锦赛和英联邦运动会上继续冲击奖牌。",
+          "overview": "丹麦羽毛球名将维克托·安赛龙（Viktor Axelsen）于2026年4月15日宣布退役。他曾在2020年东京奥运会和2024年巴黎奥运会夺得男单金牌，并多次获得世锦赛冠军。安赛龙表示，长期伤病使他无法再保持顶尖竞技状态，因此决定结束职业生涯。他的退役标志着羽毛球男单一个时代的终结。",
+          "analysis": "安赛龙是近十年最成功的男单选手，他的退役使男单格局出现真空，年轻选手如奈良冈功大、李诗沣等将争夺新王座。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "这对组合配合越来越默契，欧洲金牌是对他们努力的最好回报。"
+              "text": "安赛龙的退役是羽毛球界的巨大损失，他的技术和体育精神令人难忘。"
+            },
+            {
+              "who": "解说员",
+              "text": "安赛龙时代落幕，男单将进入群雄逐鹿的新阶段。"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "吉尔摩终获欧锦赛女单金牌：五次银牌后圆梦",
+          "title_zh": "英格兰男双组合莱恩/文迪欧锦赛夺金",
+          "eng": "Lane & Vendy achieve big goal with European gold",
+          "summary": "英格兰男双本·莱恩和肖恩·文迪在欧锦赛上夺得金牌，实现了他们梦寐以求的目标。",
+          "source": "BBC Badminton",
+          "published": "2026-04-14",
+          "url": "https://www.bbc.co.uk/sport/badminton/articles/cvgee9p7yvgo?at_medium=RSS&at_campaign=rss",
+          "overview": "在2026年欧洲羽毛球锦标赛上，英格兰男双组合本·莱恩（Ben Lane）和肖恩·文迪（Sean Vendy）夺得金牌。莱恩赛后表示，他们一直“渴望”这枚金牌，终于如愿以偿。这是英格兰男双在欧洲赛场上的重要突破，也为两人冲击更高荣誉奠定了基础。",
+          "analysis": "莱恩/文迪的胜利证明了英格兰男双的崛起，他们的进攻型打法在欧锦赛上极具威胁，未来有望在世界大赛中制造惊喜。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "这对组合终于兑现了天赋，欧锦赛金牌是他们应得的回报。"
+            },
+            {
+              "who": "教练",
+              "text": "莱恩和文迪的配合越来越默契，他们的进攻是取胜关键。"
+            }
+          ],
+          "region": "羽毛球"
+        },
+        {
+          "title_zh": "苏格兰女将吉尔摩终获欧锦赛金牌",
           "eng": "'Like DiCaprio getting his Oscar' - Gilmour finally wins European gold",
-          "summary": "苏格兰选手克里斯蒂·吉尔摩在五次获得欧锦赛女单银牌后，终于夺得金牌。",
+          "summary": "苏格兰选手克里斯蒂·吉尔摩在五次获得欧锦赛银牌后，终于夺得女单金牌，被形容为“像小李子拿到奥斯卡”。",
           "source": "BBC Badminton",
           "published": "2026-04-13",
           "url": "https://www.bbc.co.uk/sport/badminton/articles/c62j09pv79xo?at_medium=RSS&at_campaign=rss",
-          "overview": "苏格兰羽毛球女将克里斯蒂·吉尔摩在2026年欧洲锦标赛上终于赢得女单金牌，此前她曾五次获得银牌。吉尔摩的坚持和努力最终得到回报，这一成就被形容为“像莱昂纳多·迪卡普里奥拿到奥斯卡奖”。",
-          "analysis": "吉尔摩的夺冠是毅力与实力的体现，她克服了多次决赛失利的心理阴影。这枚金牌将极大提升她的信心，为后续国际赛事注入动力。",
+          "overview": "苏格兰羽毛球女单选手克里斯蒂·吉尔摩（Kirsty Gilmour）在2026年欧洲锦标赛上终于赢得金牌，此前她曾五次屈居亚军。吉尔摩的坚持和突破被媒体形容为“像莱昂纳多·迪卡普里奥拿到奥斯卡奖”。这枚金牌是她职业生涯的重大成就，也激励了更多苏格兰年轻球员。",
+          "analysis": "吉尔摩的坚韧令人敬佩，她的技术全面，但心理素质一直是短板。这次夺冠证明她克服了心魔，未来有望在更高舞台取得突破。",
           "social": [
             {
-              "who": "教练",
-              "text": "吉尔摩的坚持令人敬佩，她终于得到了应得的荣誉。"
+              "who": "资深球迷",
+              "text": "吉尔摩终于圆梦，她的坚持是体育精神的最好体现。"
+            },
+            {
+              "who": "解说员",
+              "text": "五次银牌后终夺金，吉尔摩的故事堪称励志典范。"
             }
           ],
           "region": "羽毛球"
@@ -2800,63 +2846,63 @@
           "source": "BBC Table Tennis",
           "published": "2026-05-28",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/cgkp65m03nxo?at_medium=RSS&at_campaign=rss",
-          "overview": "本·富特经过严格考核，成功晋升为国际乒联精英裁判，全球仅有25人获此殊荣。他将执法最高水平的国际赛事，包括世锦赛和奥运会。富特表示这是多年努力的成果，并期待在更大舞台上展现专业水准。",
-          "analysis": "英国裁判跻身世界顶尖行列，体现了英国在乒乓球裁判领域的进步。富特的晋升将提升英国在国际乒坛的话语权。",
+          "overview": "英国乒乓球裁判本·富特成功晋升为世界精英级裁判，全球仅有25人获此殊荣。这一晋升标志着他在裁判领域的卓越成就和长期努力得到了国际认可。富特将有机会执法最高水平的乒乓球赛事，包括世锦赛和奥运会。",
+          "analysis": "富特的晋升不仅是个人的荣誉，也提升了英国乒乓球裁判的国际地位。未来他将在重大赛事中扮演关键角色，确保比赛公平公正。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "富特成为精英裁判，英国乒乓球的软实力又增强了！"
+              "text": "富特的晋升实至名归，英国裁判终于站上世界舞台！"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "如何观看：BBC直播2026年世界乒乓球团体锦标赛",
+          "title_zh": "BBC直播：2026年世界乒乓球团体锦标赛",
           "eng": "How to watch: World Team Table Tennis Championships on BBC",
           "summary": "2026年世界乒乓球团体锦标赛半决赛和决赛本周末在伦敦举行，BBC将提供直播。",
           "source": "BBC Table Tennis",
           "published": "2026-05-08",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c0r250zzw08o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年世界乒乓球团体锦标赛在伦敦举行，BBC将直播半决赛和决赛。观众可通过BBC体育频道和在线平台观看。赛事汇聚全球顶尖队伍，争夺团体冠军。",
-          "analysis": "世锦赛在伦敦举办，对英国乒乓球是重大机遇。BBC的直播将吸引更多观众关注乒乓球。",
+          "overview": "2026年世界乒乓球团体锦标赛半决赛和决赛将于本周末在伦敦举行，BBC将提供全程直播。这是乒乓球顶级赛事首次在伦敦举办，吸引了全球顶尖队伍参赛。观众可通过BBC平台观看精彩对决。",
+          "analysis": "伦敦举办世乒赛团体赛是乒乓球运动在英国推广的重要契机。BBC的直播将让更多英国观众关注这项运动，有望激发本土乒乓球热潮。",
           "social": [
             {
-              "who": "解说员",
-              "text": "伦敦世锦赛直播，球迷们可以大饱眼福了！"
+              "who": "解说",
+              "text": "伦敦的赛场氛围一定很棒，期待看到顶尖选手的较量！"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "威尔士女队世乒赛遭香港淘汰",
+          "title_zh": "威尔士女队世乒赛团体赛止步32强",
           "eng": "Wales beaten by Hong Kong in World Team Champs last 32",
-          "summary": "2026年世界乒乓球团体锦标赛，威尔士女队以2-3不敌中国香港，止步32强。",
+          "summary": "威尔士女队在2026年世界乒乓球团体锦标赛32强赛中2-3不敌中国香港队，遗憾出局。",
           "source": "BBC Table Tennis",
           "published": "2026-05-04",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/czd24zv0ql4o?at_medium=RSS&at_campaign=rss",
-          "overview": "威尔士女队在32强赛中与中国香港队激战五盘，最终2-3惜败。香港队凭借关键分上的出色发挥晋级。威尔士队虽败犹荣，展现了顽强斗志。",
-          "analysis": "威尔士队与强敌香港队打得难解难分，虽败犹荣。这场比赛暴露了威尔士队在关键分处理上的不足。",
+          "overview": "在2026年世界乒乓球团体锦标赛32强赛中，威尔士女队以2-3惜败于中国香港队，结束了本次世锦赛之旅。比赛过程激烈，威尔士队一度接近胜利，但最终未能把握关键分。中国香港队凭借更稳定的发挥晋级下一轮。",
+          "analysis": "威尔士队虽败犹荣，展现了顽强的斗志。与中国香港队的差距主要体现在关键分的处理上，未来需加强心理素质和战术执行力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "威尔士队拼尽全力，虽败犹荣！香港队经验更胜一筹。"
+              "who": "教练",
+              "text": "姑娘们拼尽了全力，输给经验更丰富的对手不丢人。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "英国乒乓球俱乐部提供医疗咨询",
+          "title_zh": "乒乓球俱乐部引入医疗服务，关爱中老年群体",
           "eng": "The table tennis club where you can see a doctor",
-          "summary": "英国一家50岁以上黑人男性乒乓球俱乐部在10个地点运营，并计划扩展，提供医疗咨询。",
+          "summary": "英国一个面向50岁以上黑人群体的乒乓球俱乐部在10个地点运营，并计划扩展，同时提供医疗服务。",
           "source": "BBC Table Tennis",
           "published": "2026-06-01",
           "url": "https://www.bbc.co.uk/news/articles/clyp8rr0gk0o?at_medium=RSS&at_campaign=rss",
-          "overview": "该俱乐部名为“50岁以上黑人男性论坛”，通过乒乓球活动促进健康，并提供医疗咨询。目前已在10个地点运营，计划进一步扩大。俱乐部旨在改善社区健康，减少孤独感。",
-          "analysis": "乒乓球与医疗结合，创新了社区健康模式。这种模式值得推广，尤其对改善老年男性健康有积极意义。",
+          "overview": "英国一个名为“Over 50s Black Men Forum”的乒乓球俱乐部在10个地点运营，不仅提供乒乓球运动，还整合了医疗服务。该俱乐部旨在通过运动促进中老年黑人群体的健康，并计划进一步扩展。参与者可以在打乒乓球的同时咨询医生，实现运动与健康管理的结合。",
+          "analysis": "这种创新模式将体育与社区医疗相结合，有效解决了中老年人运动与就医不便的问题。未来有望在其他社区推广，成为体育促进公共健康的典范。",
           "social": [
             {
-              "who": "社区教练",
-              "text": "打球还能看病，这样的俱乐部太棒了！"
+              "who": "资深球迷",
+              "text": "乒乓球不仅是竞技，还能成为社区健康的一部分，太棒了！"
             }
           ],
           "region": "乒乓球"
@@ -2864,67 +2910,62 @@
         {
           "title_zh": "克拉克离任：苏格兰足球的遗产与解脱",
           "eng": "Clarke leaves strong Scotland legacy but exit brings sense of relief",
-          "summary": "史蒂夫·克拉克带领苏格兰队走出低谷，但始终未能突破大赛小组赛，他的离任既留下遗产也带来解脱。",
+          "summary": "史蒂夫·克拉克带领苏格兰重返大赛舞台，但始终未能突破小组赛，他的离任既留下遗产也带来解脱感。",
           "source": "BBC Sport",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/cn4d1eg5eqeo?at_medium=RSS&at_campaign=rss",
-          "overview": "史蒂夫·克拉克结束了苏格兰队主帅任期，他成功将球队带出长期无缘大赛的荒野，但连续两届大赛均止步小组赛。BBC体育的汤姆·英格利希撰文分析其执教生涯，认为克拉克为苏格兰足球奠定了坚实基础，但未能突破淘汰赛门槛也让他的离开带来一丝如释重负的感觉。",
-          "analysis": "克拉克的功过分明：他重塑了苏格兰的战术纪律和团队精神，但大赛关键战缺乏变招。继任者能否在克拉克的框架上更进一步，将是苏格兰足球未来几年的关键。",
+          "overview": "史蒂夫·克拉克执教苏格兰队期间，成功将球队带出低谷，连续晋级欧洲杯和世界杯，但两次大赛均止步小组赛。他的离任标志着一个时代的结束，评论认为其功绩不可抹杀，但球队需要新方向。",
+          "analysis": "克拉克的防守体系曾让苏格兰变得坚韧，但进攻乏力始终是短板。新帅需在保持防守稳固的同时提升创造力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "克拉克让苏格兰人重新相信国家队，但小组赛的魔咒必须有人打破。"
+              "text": "克拉克让苏格兰人重新骄傲，但小组赛魔咒必须打破。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "他的遗产是重建了球队文化，但战术僵化限制了上限。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "英格兰淘汰赛之路：通往决赛的挑战",
+          "title_zh": "英格兰队淘汰赛之路：通往决赛的挑战",
           "eng": "Knockouts are here - what is England's path to the final?",
-          "summary": "英格兰队晋级世界杯淘汰赛后，BBC体育分析其通往决赛的潜在对手与赛程。",
+          "summary": "英格兰队晋级世界杯淘汰赛后，BBC分析其通往决赛的潜在对手与赛程。",
           "source": "BBC Sport",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/c5yz0zkzw39o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰队以小组头名出线后，淘汰赛首轮将对阵刚果民主共和国。若晋级，可能遭遇法国等强队。BBC体育详细解析了英格兰队各轮次的潜在对手，以及需要克服的伤病和战术问题。",
-          "analysis": "英格兰队小组赛表现稳健，但右后卫位置因伤出现危机，图赫尔对此表示担忧。淘汰赛的强度将真正检验球队的深度和应变能力。",
+          "overview": "英格兰队在世界杯小组赛出线后，淘汰赛首轮将面对刚果（金）。若晋级，可能遭遇法国、阿根廷等强队。赛程显示，英格兰所在半区强敌环伺，但球队阵容深度是优势。",
+          "analysis": "英格兰队小组赛表现稳健，但淘汰赛防守专注度需提升。右后卫伤病危机可能成为隐患。",
           "social": [
             {
-              "who": "解说员",
-              "text": "英格兰的签运不错，但右后卫的窟窿可能成为定时炸弹。"
+              "who": "足球分析师",
+              "text": "英格兰的签运不算差，但防守失误必须减少。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "索斯盖特需要证明他的战术能应对强队。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "伊朗：世界杯史上最不幸的球队？",
+          "title_zh": "伊朗队：世界杯史上最不幸的球队？",
           "eng": "Are Iran the unluckiest side in World Cup history?",
-          "summary": "伊朗队在世界杯小组赛最后一刻被淘汰，这已是他们第二次在最后时刻失去晋级资格。",
+          "summary": "伊朗队在世界杯小组赛最后时刻两次被挤出32强，堪称史上最倒霉球队。",
           "source": "BBC Sport",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/clywd8pl09do?at_medium=RSS&at_campaign=rss",
-          "overview": "伊朗队在2026年世界杯小组赛最后一轮中，因奥地利与阿尔及利亚的默契球结果而被淘汰，这已是他们第二次在最后时刻被挤出32强。BBC体育回顾了伊朗队两次“到手的晋级资格被夺走”的惨痛经历，堪称世界杯史上最不幸的球队之一。",
-          "analysis": "伊朗队的出局充满争议，但自身在关键战中缺乏终结能力也是原因。两次被“做掉”的经历，或许会促使国际足联重新审视小组赛末轮同组开赛的规则。",
+          "overview": "伊朗队在2026年世界杯小组赛最后一轮中，因奥地利与阿尔及利亚的默契球被淘汰，这已是他们第二次在最后时刻无缘淘汰赛。此前在2022年世界杯，他们也因类似情况出局。",
+          "analysis": "伊朗队的悲剧凸显了世界杯赛制的残酷，也引发对公平竞赛的讨论。球队实力不弱，但运气始终不站在他们一边。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "伊朗队两次被默契球伤害，世界杯的公平竞赛精神何在？"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "温网2026前瞻：威廉姆斯姐妹回归，穆雷新角色",
-          "eng": "Williams sisters return & Murray's new job - Wimbledon 2026 preview",
-          "summary": "2026年温网即将开赛，塞雷娜·威廉姆斯、诺瓦克·德约科维奇等名将参赛，安迪·穆雷也将以新身份亮相。",
-          "source": "BBC Sport",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c0qypk51v7do?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年温布尔登网球锦标赛将于6月29日开赛。44岁的塞雷娜·威廉姆斯复出参赛，七届冠军德约科维奇冲击第八冠，辛纳力争卫冕。此外，安迪·穆雷将担任BBC解说嘉宾。BBC体育提供了完整的观赛指南，包括赛程、种子选手和看点。",
-          "analysis": "威廉姆斯的回归为温网增添了传奇色彩，但她的竞技状态存疑。德约科维奇在法网早早出局后，渴望在草地重振旗鼓。辛纳在法网意外失利后，能否在温网捍卫冠军值得关注。",
-          "social": [
+              "text": "伊朗队两次被做掉，国际足联必须反思赛制。"
+            },
             {
-              "who": "解说员",
-              "text": "威廉姆斯姐妹的回归是温网最大的故事，但德约科维奇才是真正的夺冠热门。"
+              "who": "足球评论员",
+              "text": "伊朗的防守很顽强，但进攻效率不足也是原因。"
             }
           ],
           "region": "综合"
@@ -2932,67 +2973,104 @@
         {
           "title_zh": "图赫尔担忧英格兰右后卫危机",
           "eng": "Tuchel worried about right-back situation",
-          "summary": "英格兰队右后卫位置连续出现伤病，图赫尔表示“担忧”。",
+          "summary": "英格兰队右后卫位置接连出现伤病，图赫尔表示担忧。",
           "source": "BBC Sport",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/cj9gyp71ge4o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰队右后卫位置遭遇伤病潮，贾雷尔·夸安萨成为最新一位受伤的球员。主帅托马斯·图赫尔坦言对右后卫的处境感到“担忧”，球队可能被迫启用非主力球员或调整阵型。",
-          "analysis": "右后卫的伤病问题可能成为英格兰淘汰赛的软肋。图赫尔需要尽快找到解决方案，否则对手会重点攻击这一侧。",
+          "overview": "在贾雷尔·夸安萨成为最新一位受伤的右后卫后，英格兰队该位置人手紧缺。图赫尔承认对此感到忧虑，可能被迫启用替补或调整阵型。",
+          "analysis": "右后卫是英格兰战术体系的关键环节，伤病可能迫使球队改变打法。图赫尔需要尽快找到解决方案。",
           "social": [
+            {
+              "who": "足球分析师",
+              "text": "英格兰的右后卫魔咒还在继续，这可能是淘汰赛的定时炸弹。"
+            },
             {
               "who": "资深球迷",
-              "text": "右后卫都快凑不齐人了，图赫尔得想想B计划。"
+              "text": "希望沃克能及时复出，否则右路会被打爆。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "恩尼斯惊险击败扎亚斯，统一154磅拳王头衔",
-          "eng": "Jaron Ennis survives scare to stop Xander Zayas and unify 154lb titles in instant classic",
-          "summary": "杰伦·恩尼斯在第七回合击倒桑德尔·扎亚斯，统一WBA和WBO超次中量级拳王金腰带。",
-          "source": "Guardian Sport",
+          "title_zh": "2026温网前瞻：威廉姆斯姐妹回归，穆雷新角色",
+          "eng": "Williams sisters return & Murray's new job - Wimbledon 2026 preview",
+          "summary": "温网2026年即将开幕，塞雷娜·威廉姆斯回归，辛纳和德约科维奇领衔，穆雷担任新职务。",
+          "source": "BBC Sport",
           "published": "2026-06-28",
-          "url": "https://www.theguardian.com/sport/2026/jun/28/jaron-ennis-xander-zayas-fight-boxing-result",
-          "overview": "在周六晚的比赛中，杰伦·“靴子”·恩尼斯经历了职业生涯最严峻的考验，最终在第七回合击倒桑德尔·扎亚斯，赢得WBA和WBO超次中量级拳王头衔，成为两个级别的世界冠军。恩尼斯三次击倒扎亚斯，但在第三回合一度陷入危机，最终凭借顽强意志获胜。",
-          "analysis": "这场比赛证明了恩尼斯的冠军之心，但也暴露了他防守端的漏洞。扎亚斯虽败犹荣，未来仍是该级别的威胁。恩尼斯统一战的下一个目标可能是WBC拳王。",
-          "social": [
-            {
-              "who": "拳击评论员",
-              "text": "恩尼斯展现了真正的冠军品质，但扎亚斯让他吃尽了苦头。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "德约科维奇：受塞雷娜激励，剑指温网历史",
-          "eng": "'Inspirational and epic': Djokovic inspired by Serena Williams as he targets Wimbledon history",
-          "summary": "诺瓦克·德约科维奇表示塞雷娜·威廉姆斯的回归激励了他，他希望在温网赢得第八冠，超越费德勒。",
-          "source": "Guardian Sport",
-          "published": "2026-06-27",
-          "url": "https://www.theguardian.com/sport/2026/jun/27/novak-djokovic-inspired-serena-williams-wimbledon-tennis",
-          "overview": "七届温网冠军诺瓦克·德约科维奇在备战今年温网时表示，44岁的塞雷娜·威廉姆斯的复出给了他额外动力。德约科维奇称威廉姆斯的行为“鼓舞人心且史诗级”，他若夺冠将以八冠超越费德勒，成为温网历史第一人。",
-          "analysis": "德约科维奇在法网早早出局后，对温网冠军更加渴望。威廉姆斯的传奇回归确实能激发老将的斗志，但德约科维奇需要先克服年龄和新生代的冲击。",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c0qypk51v7do?at_medium=RSS&at_campaign=rss",
+          "overview": "2026年温布尔登网球锦标赛将于6月29日开赛，44岁的塞雷娜·威廉姆斯复出参赛，辛纳作为男单头号种子力争卫冕，德约科维奇冲击第八冠。安迪·穆雷将担任BBC评论员。",
+          "analysis": "威廉姆斯姐妹的回归为温网增添传奇色彩，辛纳在法网早早出局后急需证明自己。德约科维奇状态正佳，有望追平费德勒纪录。",
           "social": [
             {
               "who": "网球评论员",
-              "text": "德约科维奇和威廉姆斯都在书写传奇，温网将成为他们历史的一部分。"
+              "text": "塞雷娜的回归是体育史上最伟大的复出之一，她的精神令人敬佩。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "辛纳在草地上的优势明显，但德约科维奇永远不能低估。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "恩尼斯激战险胜，统一超次中量级拳王头衔",
+          "eng": "Jaron Ennis survives scare to stop Xander Zayas and unify 154lb titles in instant classic",
+          "summary": "杰伦·恩尼斯在第七回合击倒桑德尔·萨亚斯，统一WBA和WBO超次中量级拳王金腰带。",
+          "source": "Guardian Sport",
+          "published": "2026-06-28",
+          "url": "https://www.theguardian.com/sport/2026/jun/28/jaron-ennis-xander-zayas-fight-boxing-result",
+          "overview": "杰伦·恩尼斯在比赛中三次击倒萨亚斯，但自己也遭遇第三回合危机，最终在第七回合TKO获胜，夺得WBA和WBO两条金腰带，成为两个级别的世界冠军。这场比赛被评为年度最佳候选。",
+          "analysis": "恩尼斯展现了冠军的坚韧，但防守漏洞也暴露无遗。萨亚斯虽败犹荣，证明了自己是超次中量级的顶尖挑战者。",
+          "social": [
+            {
+              "who": "拳击评论员",
+              "text": "恩尼斯通过了最严峻的考验，他的心脏和重拳令人印象深刻。"
+            },
+            {
+              "who": "资深拳迷",
+              "text": "这场比赛是经典，萨亚斯虽败犹荣，未来可期。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "德约科维奇受塞雷娜激励，剑指温网历史",
+          "eng": "‘Inspirational and epic’: Djokovic inspired by Serena Williams as he targets Wimbledon history",
+          "summary": "德约科维奇表示塞雷娜·威廉姆斯的回归激励了他，他将在温网冲击第八冠。",
+          "source": "Guardian Sport",
+          "published": "2026-06-27",
+          "url": "https://www.theguardian.com/sport/2026/jun/27/novak-djokovic-inspired-serena-williams-wimbledon-tennis",
+          "overview": "七届温网冠军德约科维奇称塞雷娜·威廉姆斯的复出“鼓舞人心且史诗般”，这激励他争取第八个温网冠军，从而超越费德勒。德约科维奇在法网后状态良好，被视为夺冠热门。",
+          "analysis": "德约科维奇在草地上的统治力依然强大，但年轻选手如辛纳和阿尔卡拉斯（因伤缺席）的挑战不容忽视。塞雷娜的回归为赛事增添了传奇色彩。",
+          "social": [
+            {
+              "who": "网球分析师",
+              "text": "德约科维奇和塞雷娜都是活着的传奇，他们的相互激励是体育最美的故事。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "德约科维奇第八冠几乎板上钉钉，但辛纳不会轻易放弃。"
             }
           ],
           "region": "综合"
         },
         {
           "title_zh": "拉塞尔争议性夺得F1奥地利站杆位",
-          "eng": "Russell snatches controversial F1 Austrian GP pole after Verstappen's late crash",
-          "summary": "乔治·拉塞尔在奥地利大奖赛排位赛最后时刻凭借争议性圈速夺得杆位，维斯塔潘因撞车引发黄旗。",
+          "eng": "Russell snatches controversial F1 Austrian GP pole after Verstappen’s late crash",
+          "summary": "乔治·拉塞尔在奥地利大奖赛排位赛最后时刻凭借争议性圈速夺得杆位，维斯塔潘因撞车出局。",
           "source": "Guardian Sport",
           "published": "2026-06-27",
           "url": "https://www.theguardian.com/sport/2026/jun/27/russell-snatches-controversial-austrian-grand-prix-pole-after-verstappens-late-crash",
-          "overview": "在奥地利大奖赛排位赛最后时刻，马克斯·维斯塔潘撞车引发黄旗，但乔治·拉塞尔在黄旗期间仍做出最快圈速，争议性地夺得杆位。拉塞尔对自己的表现充满信心，认为可以击败冠军领跑者安东内利。",
-          "analysis": "拉塞尔的杆位存在争议，因为黄旗期间理论上应减速。但赛会未予处罚，拉塞尔抓住了机会。正赛中他能否将杆位转化为胜利，将是对梅赛德斯赛车竞争力的重要检验。",
+          "overview": "在奥地利大奖赛排位赛最后时刻，维斯塔潘撞车引发黄旗，拉塞尔在黄旗状态下做出最快圈速，引发争议。拉塞尔最终获得杆位，维斯塔潘因事故未能完成冲刺。",
+          "analysis": "拉塞尔的杆位存在争议，黄旗规则再次成为焦点。维斯塔潘的失误让红牛失去优势，梅赛德斯有望在正赛争冠。",
           "social": [
             {
+              "who": "F1评论员",
+              "text": "拉塞尔的圈速确实惊人，但黄旗下的成绩应该被取消吗？"
+            },
+            {
               "who": "资深车迷",
-              "text": "拉塞尔的圈速确实惊人，但黄旗争议让这个杆位打了折扣。"
+              "text": "维斯塔潘的失误太致命了，红牛需要反思策略。"
             }
           ],
           "region": "综合"
@@ -3009,59 +3087,59 @@
       "items": [
         {
           "name": "Sam Altman",
-          "role": "CEO of OpenAI",
-          "region": "北美",
+          "role": "OpenAI CEO",
+          "region": "美国",
           "domain": "ai",
-          "recent": "关注AI安全与AGI发展，推动多模态模型应用",
+          "recent": "关注AI硬件与通用人工智能发展",
           "url": "https://blog.samaltman.com"
         },
         {
           "name": "Dario Amodei",
-          "role": "CEO of Anthropic",
-          "region": "北美",
+          "role": "Anthropic CEO",
+          "region": "美国",
           "domain": "ai",
-          "recent": "聚焦AI伦理与模型可解释性，应对出口管制",
-          "url": "https://www.anthropic.com"
-        },
-        {
-          "name": "Sundar Pichai",
-          "role": "CEO of Google",
-          "region": "北美",
-          "domain": "ai",
-          "recent": "推动搜索AI化与Gemini模型整合",
-          "url": "https://blog.google"
-        },
-        {
-          "name": "李开复",
-          "role": "CEO of 零一万物",
-          "region": "亚洲",
-          "domain": "ai",
-          "recent": "关注亚洲AI模型创新与开源生态",
-          "url": "https://yicai.com"
-        },
-        {
-          "name": "聂震宁",
-          "role": "韬奋基金会理事长",
-          "region": "亚洲",
-          "domain": "library",
-          "recent": "倡导智慧图书馆建设与全民阅读推广",
+          "recent": "关注AI安全与出口管制政策",
           "url": ""
         },
         {
-          "name": "Loida Garcia-Febo",
-          "role": "IFLA主席",
-          "region": "北美",
-          "domain": "library",
-          "recent": "关注灾后图书馆重建与数字包容",
-          "url": "https://www.ifla.org"
+          "name": "Sundar Pichai",
+          "role": "Google CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "推动搜索向AI驱动对话转型",
+          "url": ""
         },
         {
-          "name": "Lex Fridman",
-          "role": "播客主持人",
-          "region": "北美",
-          "domain": "podcast",
-          "recent": "深度对话AI领袖，探讨技术与社会影响",
-          "url": "https://lexfridman.com/podcast"
+          "name": "Marc Benioff",
+          "role": "Salesforce CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "关注企业AI代理与Slack集成",
+          "url": ""
+        },
+        {
+          "name": "李开复",
+          "role": "零一万物CEO",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "关注亚洲AI模型创新与开源生态",
+          "url": ""
+        },
+        {
+          "name": "刘炜",
+          "role": "上海图书馆副馆长",
+          "region": "中国",
+          "domain": "library",
+          "recent": "关注智慧图书馆与少儿阅读空间建设",
+          "url": ""
+        },
+        {
+          "name": "Megan Oakleaf",
+          "role": "图书馆学教授",
+          "region": "美国",
+          "domain": "library",
+          "recent": "关注学术图书馆趋势与AI素养教育",
+          "url": ""
         }
       ]
     },
