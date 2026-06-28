@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """数据源:RSS(AI / 图书馆) + Apple Podcasts(iTunes)。引擎无关,只负责抓原始素材。"""
-import time, html, re, requests, feedparser
+import time, html, re, datetime, requests, feedparser
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) intel-bot/1.0"}
 
@@ -60,6 +60,74 @@ def fetch_ai(per=5):
 def fetch_libraries(per=5):
     return fetch_many(LIB_FEEDS, per)
 
+SPORTS_FEEDS = {
+    "足球·世界杯": [
+        ("BBC Football", "http://feeds.bbci.co.uk/sport/football/rss.xml"),
+        ("Guardian Football", "https://www.theguardian.com/football/rss"),
+    ],
+    "羽毛球": [
+        ("BBC Badminton", "http://feeds.bbci.co.uk/sport/badminton/rss.xml"),
+    ],
+    "乒乓球": [
+        ("BBC Table Tennis", "http://feeds.bbci.co.uk/sport/table-tennis/rss.xml"),
+    ],
+    "综合": [
+        ("BBC Sport", "http://feeds.bbci.co.uk/sport/rss.xml"),
+        ("Guardian Sport", "https://www.theguardian.com/sport/rss"),
+        ("BBC Tennis", "http://feeds.bbci.co.uk/sport/tennis/rss.xml"),
+        ("BBC Basketball", "http://feeds.bbci.co.uk/sport/basketball/rss.xml"),
+        ("BBC Olympics", "http://feeds.bbci.co.uk/sport/olympics/rss.xml"),
+        ("China Daily Sports", "http://www.chinadaily.com.cn/rss/sports_rss.xml"),
+    ],
+}
+
+def fetch_sports(per=6):
+    """体育:按子类(足球世界杯/羽毛球/乒乓球/综合)分组抓取,复用 fetch_feed。"""
+    out = {}
+    for sub, feeds in SPORTS_FEEDS.items():
+        items = []
+        for name, url in feeds:
+            items += fetch_feed(name, url, per)
+        out[sub] = items
+    return out
+
+HOT_FEEDS = {
+    "国外": [
+        ("BBC News", "http://feeds.bbci.co.uk/news/rss.xml"),
+        ("Guardian World", "https://www.theguardian.com/world/rss"),
+        ("China Daily World", "http://www.chinadaily.com.cn/rss/world_rss.xml"),
+    ],
+    "中国": [
+        ("China Daily", "http://www.chinadaily.com.cn/rss/china_rss.xml"),
+        ("36氪", "https://36kr.com/feed"),
+    ],
+}
+
+def fetch_github(days=7, n=15):
+    """GitHub 最近 days 天创建的高星新项目(官方 Search API,无需 key)。"""
+    since = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    try:
+        r = requests.get("https://api.github.com/search/repositories",
+                         params={"q": f"created:>{since}", "sort": "stars", "order": "desc", "per_page": n},
+                         timeout=20, headers=UA)
+        return [{"source": "GitHub", "title": it.get("full_name", ""),
+                 "summary": (it.get("description") or "")[:300],
+                 "stars": it.get("stargazers_count", 0), "lang": it.get("language") or "",
+                 "url": it.get("html_url", ""), "published": (it.get("created_at") or "")[:10]}
+                for it in r.json().get("items", []) if it.get("full_name")]
+    except Exception:
+        return []
+
+def fetch_hot(per=6):
+    """实时热点:按 中国/国外 分组抓取,复用 fetch_feed。"""
+    out = {}
+    for region, feeds in HOT_FEEDS.items():
+        items = []
+        for name, url in feeds:
+            items += fetch_feed(name, url, per)
+        out[region] = items
+    return out
+
 def fetch_podcasts(limit=4):
     raw = {}
     for zh, cc, term in PODCAST_REGIONS:
@@ -100,6 +168,37 @@ def fetch_cn_library(max_each=4):
                                 "url": u, "published": (r.get("date") or "")[:10]})
     except Exception:
         return out
+    return out
+
+LIB_CN_SITES = [
+    ("中国图书馆学会", "http://www.lsc.org.cn/", "http://www.lsc.org.cn"),
+    ("国家图书馆", "http://www.nlc.cn/", "http://www.nlc.cn"),
+]
+_LIB_CN_KW = ["讲座", "征集", "培训", "活动", "通知", "公告", "研讨", "论坛", "展览",
+              "阅读推广", "报名", "倡议", "服务", "计划", "评选", "大赛", "书目", "会员"]
+
+def fetch_cn_library_official(per=8):
+    """中国图书馆学会/国图官网的活动·讲座·征集·培训(无 RSS,解析首页链接)。published 记抓取日,保证排前。"""
+    today = datetime.date.today().isoformat()
+    out = []
+    for name, url, base in LIB_CN_SITES:
+        try:
+            r = requests.get(url, timeout=12, headers=UA)
+            html = r.content.decode(r.apparent_encoding or "utf-8", errors="replace")
+            links = re.findall(r'<a[^>]+href="([^"]+)"[^>]*>\s*([^<]{8,60})\s*</a>', html)
+            seen, cnt = set(), 0
+            for href, title in links:
+                title = title.strip()
+                if title in seen or not any(k in title for k in _LIB_CN_KW):
+                    continue
+                seen.add(title)
+                full = href if href.startswith("http") else (base + href if href.startswith("/") else base + "/" + href)
+                out.append({"source": name, "title": title[:200], "summary": title[:200], "url": full, "published": today})
+                cnt += 1
+                if cnt >= per:
+                    break
+        except Exception:
+            continue
     return out
 
 if __name__ == "__main__":
