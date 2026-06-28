@@ -163,6 +163,15 @@ def main():
     for k in ["ai", "libraries", "sports", "voices", "github", "hot"]:
         if not mods.get(k):
             mods[k] = old.get(k, {"items": []}); log("· 沿用上次", k)
+    # 时间窗口:只保留当月+上月(滚动),清掉更早旧闻;无日期条目(如人物)不动
+    cutoff = (datetime.date.today().replace(day=1) - datetime.timedelta(days=1)).replace(day=1).isoformat()
+    for k in ["ai", "libraries", "sports", "github", "hot"]:
+        if mods.get(k) and mods[k].get("items"):
+            kept = [it for it in mods[k]["items"]
+                    if not (it.get("published") or "").strip() or (it.get("published") or "").strip() >= cutoff]
+            if len(kept) != len(mods[k]["items"]):
+                log(f"· 时间窗口 {k}: {len(mods[k]['items'])}→{len(kept)} (留≥{cutoff})")
+                mods[k]["items"] = kept
     now = datetime.datetime.now().astimezone()
     out = {"generated_at": now.isoformat(timespec="seconds"), "date": now.strftime("%Y-%m-%d"),
            "engine": f"{backend[0]}:{backend[1]}", "modules": mods}
