@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T08:36:29+08:00",
+  "generated_at": "2026-06-29T09:36:50+08:00",
   "date": "2026-06-29",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "modules": {
@@ -546,6 +546,33 @@
           ]
         },
         {
+          "title_zh": "Google医疗AI AMIE在Nature发表研究：可匹敌初级医生",
+          "eng": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+          "summary": "谷歌旗下医疗对话式AI系统AMIE的研究成果发表在《自然》杂志上，显示其在复杂疾病管理方面已达到与初级保健医生相当的水平。这是Google在医疗AI领域的重要里程碑。",
+          "source": "Google Blog AI",
+          "region": "美国/全球",
+          "published": "2026-06-17",
+          "tags": [
+            "医疗AI",
+            "Nature研究",
+            "对话式AI",
+            "疾病管理"
+          ],
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+          "overview": "谷歌的研究团队在《自然》杂志上发表了关于其医疗AI系统AMIE的最新研究成果。AMIE是一个基于对话的AI系统，专门用于帮助患者管理复杂慢性病（如糖尿病、高血压等）。研究结果显示，AMIE在疾病管理的关键指标上与初级保健医生的表现相当，这意味着AI有望在不替代医生的前提下，显著提升慢性病患者日常管理的可及性和质量。",
+          "analysis": "这一成果的意义在于它选择了'辅助而非替代'的技术路线——AMIE不是要取代医生诊断，而是在患者与医生之间架起一座持续沟通的桥梁。对于全球数十亿慢性病患者的日常管理而言，这种模式可能比完全自动化更具可行性和伦理接受度。同时，《自然》杂志的发表也赋予了这一成果更高的学术可信度。",
+          "social": [
+            {
+              "who": "医疗AI研究者",
+              "text": "当AI在疾病管理上达到初级医生水平时，真正的挑战不再是技术能力，而是如何让全球医疗体系接纳这种'人机协作'的新范式——这需要政策、保险和伦理框架的全面配套。"
+            },
+            {
+              "who": "公共卫生专家",
+              "text": "慢性病管理的核心痛点是'持续性'而非'准确性'——AMIE的价值不在于做出完美诊断，而在于让患者每天都能获得专业的健康指导，这正是人类医生难以大规模覆盖的领域。"
+            }
+          ]
+        },
+        {
           "title_zh": "Plaud 发布面向自治 AI agent 的可穿戴设备,不止做转写而做'数据管道'",
           "summary": "6 月 17 日,AI 笔记设备厂商 Plaud 宣布今年内推出可直接对接 AI agent 的全新可穿戴设备,电池续航 8–12 小时、或含蜂窝连接,并试验随时间学习用户的个性化 AI;公司预计 2026 年销售达 5 亿美元。",
           "source": "Android Authority",
@@ -870,40 +897,6 @@
             {
               "who": "学界",
               "text": "香港这套打法的学术价值在于『低资源、高语境特异性』语言的本地大模型范式。粤语、中英混杂、繁体语料的处理经验,对其他多语地区和方言保护都有借鉴意义,但需要把方法和评测公开,否则只是个产品。"
-            }
-          ]
-        },
-        {
-          "title_zh": "微软 Build 2026 一口气自研 7 个 MAI 模型:声明'从零训练、不蒸馏他人',加速摆脱对 OpenAI 依赖",
-          "eng": "Microsoft MAI models (MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, etc.)",
-          "summary": "微软在 Build 2026 发布 7 个完全自研的 MAI 系列模型,覆盖推理、编码、图像、语音、转写,强调不蒸馏其他实验室、不依赖来路不明数据,战略上走向'自给自足'。",
-          "source": "Microsoft AI 官方 / CNBC",
-          "region": "美国",
-          "scope": "大模型发布/厂商自研",
-          "published": "2026-06-02",
-          "overview": "微软在旧金山 Build 2026 大会上一口气推出七个完全自研的第一方 MAI 系列模型，覆盖推理、编码、图像、语音、转写五大能力，思路是'按能力分工'而非追求一个通用大模型。其中旗舰推理模型 MAI-Thinking-1 为约 350 亿激活参数的 MoE、256K 上下文，官方称在 AIME 25 数学竞赛拿到 97%、SWE-bench Pro 达 53%，整体水平据称已对标 Anthropic 的 Opus 4.6、盲测优于 Sonnet 4.6；轻量编码模型 MAI-Code-1-Flash 仅约 50 亿激活参数、定位类似 Claude Haiku 但更便宜，并深度集成进 GitHub Copilot 与 VS Code。微软 AI 负责人穆斯塔法·苏莱曼（Mustafa Suleyman）反复强调一条原则：这些推理模型'从零训练，零蒸馏（zero distillation）、不从其他实验室抄、只用干净且经过适当授权的数据'，并配套自研芯片 Maia 200 做软硬件协同优化，对外宣布微软正在建一个'超级智能实验室'。作为曾经向 OpenAI 投入数百亿美元、深度绑定的最大金主，微软此番'自建全栈'被外界普遍解读为系统性降低对 OpenAI 依赖、把整条 AI 技术栈（芯片+模型+应用）攥到自己手里的战略转向。",
-          "analysis": "对一家曾是 OpenAI 最大靠山的公司，'自研芯片+自研模型+零蒸馏+按能力分工'这一整套动作信号极强：前沿模型正从'稀缺独家'快速变成'巨头人人能造的基础设施'，行业竞争从'谁有最强模型'转向'谁能把模型做得又便宜又贴合具体工作流'。最值得图书馆、出版与教育界记下的，是它把'数据来源合法、不蒸馏他人'抬到了营销主轴——这恰恰精准回应了这些版权敏感行业最深的顾虑：模型有没有'偷吃'受版权保护的内容、能不能放心用于面向公众的服务。对机构用户，供应商多元化（不被单一 API 绑死、议价空间更大）本身就是利好；而'按能力分工的小模型'更直接契合图书馆把转写、检索、图像编辑等不同任务分别外包给最便宜模型的成本结构——没必要为一个语音转写任务去喂一个万能旗舰。当然，'零蒸馏、数据合法'目前仍是厂商自我声明，能否经得起独立审计才是真考验；微软高调喊'超级智能'，也要警惕宏大叙事盖过工程现实。",
-          "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
-          "social": [
-            {
-              "who": "技术圈",
-              "text": "自研芯片 Maia 200 + 自研模型 + 零蒸馏，这是要把整条 AI 栈攥在自己手里，和 OpenAI 的关系彻底从'依赖'转向'竞合'。微软在给自己留后路。"
-            },
-            {
-              "who": "开发者",
-              "text": "MAI-Code 直接缝进 Copilot 和 VS Code，5B 激活、对标 Haiku 还更便宜——这种'够用又省钱'的日常体验，比单独发个刷榜旗舰实在多了。"
-            },
-            {
-              "who": "馆员",
-              "text": "'不蒸馏、只用授权数据'这句承诺如果真能兑现并接受审计，对版权敏感的图书馆和出版场景，比单纯刷分有意义得多。问题是怎么证明，不能光听它自己说。"
-            },
-            {
-              "who": "学界",
-              "text": "把多个专用小模型按能力拆开，技术上更务实，也更省算力。但'零蒸馏'无从外部核验，AIME 97%、对标 Opus 这类成绩也都是自测，独立评测出来前别太当真。"
-            },
-            {
-              "who": "创业者",
-              "text": "巨头亲自下场自研，等于宣告'有最强模型'不再是稀缺壁垒。未来拼的是工程化、成本和与工作流的贴合度——这对中小团队反而是机会，差异化空间在应用层。"
             }
           ]
         }
@@ -1689,366 +1682,72 @@
     "sports": {
       "items": [
         {
-          "title_zh": "加拿大伤停补时绝杀南非，历史首次闯入世界杯十六强",
-          "eng": "Canada into last 16 with late winner against South Africa",
-          "summary": "斯蒂芬·尤斯塔基奥在伤停补时第二分钟打入戏剧性进球，帮助东道主加拿大击败南非，历史上首次晋级世界杯十六强。主教练马什赛后发表激情演讲，称球员为“未来的英雄”。",
-          "source": "BBC Football",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss",
-          "overview": "作为联合东道主的加拿大在世界杯淘汰赛阶段表现出色，斯蒂芬·尤斯塔基奥的绝杀进球成为全场焦点。主教练杰西·马什赛后发表激情演讲，称球员为“加拿大的英雄”。这是加拿大足球历史上首次进入世界杯十六强，全队和工作人员在场边庆祝这一历史性时刻。",
-          "analysis": "东道主身份赋予了加拿大巨大的主场优势，但能在淘汰赛阶段击败南非并创造历史，说明球队整体实力得到了认可。马什的赛后讲话显示了他对这支年轻队伍的极高期望，未来潜力巨大。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "尤斯塔基奥的补时绝杀太精彩了，加拿大终于创造了属于他们的世界杯历史！"
-            },
-            {
-              "who": "教练视角",
-              "text": "马什赛后对球员的评价充满激情，这支队伍展现了超越年龄的成熟与决心。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "凯恩与贝林厄姆双响助英格兰锁定小组头名，但防线隐患犹存",
-          "eng": "Kane and Bellingham produce the goods but England need others to step up",
-          "summary": "凯恩和贝林厄姆各入一球帮助英格兰2-0击败巴拿马，但图赫尔对球队右后卫和中场深度的担忧依然存在。主教练表示这是一个“保持信念并继续推进的时刻”。",
-          "source": "Guardian Football",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/football/2026/jun/28/kane-and-bellingham-produce-the-goods-but-england-need-others-to-step-up",
-          "overview": "英格兰队在新泽西举行的比赛中以2-0战胜巴拿马，凯恩和贝林厄姆的进球确保了球队在L组中排名第一。然而，图赫尔对右后卫位置以及边路防守的隐患表示担忧，中场球员体能消耗也是潜在问题。主教练图赫尔表示这是一个“保持信念并继续推进的时刻”。",
-          "analysis": "虽然核心球员表现亮眼，但英格兰队暴露出的防线和边路弱点在淘汰赛阶段可能成为致命伤。面对下一轮对手，球队需要在关键时刻有更多球员站出来分担压力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "凯恩和贝林厄姆继续是英格兰的定海神针，但图赫尔必须解决右后卫的问题了。"
-            },
-            {
-              "who": "解说员",
-              "text": "纽瓦克这场的胜利虽然稳固，但中场体能问题在淘汰赛阶段会被放大，需要警惕。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿尔及利亚与奥地利3-3战平，重演1982年“希洪耻辱”？",
-          "eng": "Conspiracy or chaos? Algeria & Austria defend 'unexpected' draw",
-          "summary": "阿尔及利亚与奥地利的3-3平局引发了对1982年世界杯经典混乱赛事的联想，两队均试图为这场令人意外的比赛正名。",
-          "source": "BBC Football",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckg4v1wvwxxo?at_medium=RSS&at_campaign=rss",
-          "overview": "阿尔及利亚与奥地利的比赛以3-3的比分结束，这一结果让外界联想到1982年世界杯在西班牙希洪发生的著名混乱赛事。两队均对这场“意外”的比赛进行了辩护，试图解释比赛中出现的争议和混乱局面。这场比赛发生在周日，是世界杯淘汰赛阶段的一场焦点对决。",
-          "analysis": "44年后重演类似的戏剧性场面，无论是巧合还是阴谋，都让这场比赛充满了话题性。对于阿尔及利亚和奥地利来说，如何在混乱中保持冷静将是未来比赛的关键。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "3-3平局太疯狂了，这让人想起1982年的希洪耻辱，世界杯的戏剧性果然名不虚传！"
-            },
-            {
-              "who": "教练视角",
-              "text": "这种意外结果往往暴露出球队在战术执行上的不足，需要赛后认真复盘。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼联确认乌加特膝盖韧带受伤，世界杯对阵西班牙时离场",
-          "eng": "Ugarte has 'most serious injury footballer can face'",
-          "summary": "曼联官方确认中场球员曼努埃尔·乌加特在对阵西班牙的世界杯比赛中膝盖韧带受损，可能面临长期缺阵。25岁的球员被担架抬离球场后接受了进一步评估。",
-          "source": "BBC Football",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5yzx3de02jo?at_medium=RSS&at_campaign=rss",
-          "overview": "曼联官方确认，中场球员曼努埃尔·乌加特在乌拉圭对阵西班牙的世界杯比赛中膝盖韧带受损。这位25岁的球员在比赛接近半场时因扭伤被担架抬离球场，随后接受了进一步评估。曼联表示伤势评估仍在进行中，乌加特可能面临漫长的缺阵期。",
-          "analysis": "乌加特的受伤对曼联来说是一个重大打击，尤其是在世界杯期间发生的伤病往往意味着赛季初的缺席。对于乌拉圭队而言，失去这位中场核心也将影响后续比赛的表现。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "乌加特在世界杯上受伤真是太可惜了，这对曼联和乌拉圭都是巨大的损失。"
-            },
-            {
-              "who": "教练视角",
-              "text": "膝盖韧带损伤是最严重的伤病之一，恢复期可能很长，需要做好长期备战计划。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "摩洛哥对阵荷兰：32年恩怨在世界杯淘汰赛重燃",
-          "eng": "'Street football on world stage': Morocco and Netherlands face off in last-32 tie with a backstory",
-          "summary": "摩洛哥与荷兰在世界杯淘汰赛中相遇，两队自1994年以来首次正式交锋，比赛充满了历史恩怨和“街头足球”的氛围。",
-          "source": "Guardian Football",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/football/2026/jun/28/street-football-on-world-stage-morocco-and-netherlands-face-off-in-last-32-game-with-a-backstory",
-          "overview": "摩洛哥与荷兰在世界杯淘汰赛中相遇，这场比赛距离两队1994年在美国奥兰多的首次正式交锋已经过去了32年。比赛地点墨西哥蒙特雷曾是多支球队的训练基地，增添了比赛的独特氛围。自1960年代以来，大量摩洛哥人移居荷兰，使得这场对决带有类似“同城德比”的情感色彩。",
-          "analysis": "这场比赛不仅是技战术的较量，更是两国足球文化和历史恩怨的碰撞。32年的等待让这场比赛充满了期待，双方都需要在关键时刻展现出足够的实力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "32年后再相遇，这场摩洛哥对荷兰的比赛注定是世界杯历史上最精彩的对决之一！"
-            },
-            {
-              "who": "解说员",
-              "text": "蒙特雷的场地加上两国的历史恩怨，这场比赛的氛围将非常独特，值得所有球迷关注。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "安切洛蒂为巴西对阵日本制定计划：他总是有备而来",
-          "eng": "Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo",
-          "summary": "罗德里戈透露，安切洛蒂将为巴西队对阵日本的比赛做好充分准备，展现了“教父”级别的战术素养和临场应变能力。",
-          "source": "Guardian Football",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/football/2026/jun/28/carlo-ancelotti-brazil-japan-world-cup",
-          "overview": "皇家马德里球员罗德里戈在采访中透露，安切洛蒂将为巴西队对阵日本的比赛制定详细计划。他回忆了2022年欧冠半决赛中安切洛蒂在场边指导自己的经历，强调了“教父”级别的战术素养和临场应变能力。对于巴西队来说，如何在淘汰赛中应对日本队的挑战将是关键。",
-          "analysis": "安切洛蒂的执教经验是巴西队最大的优势之一，他在关键时刻的决策往往能改变比赛走向。罗德里戈的信任表明球队对教练组的信心十足，但面对日本队这样的对手，仍需保持警惕。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "安切洛蒂再次展现了他作为顶级教练的魅力，巴西队有他坐镇确实让人放心。"
-            },
-            {
-              "who": "解说员",
-              "text": "罗德里戈的回忆让人印象深刻，安切洛蒂在场边的指导往往能决定比赛的胜负。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "BBC直播：2026年世界乒乓球团体锦标赛决赛周末伦敦开战",
-          "eng": "How to watch: World Team Table Tennis Championships on BBC",
-          "summary": "2026年世界乒乓球团体锦标赛半决赛及决赛将于本周末在伦敦举行，BBC将提供现场直播。",
-          "source": "BBC Table Tennis",
-          "published": "2026-05-08",
-          "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c0r250zzw08o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年世界乒乓球团体锦标赛（World Team Table Tennis Championships）的半决赛和决赛定于本周末在伦敦举行。BBC体育频道将全程直播比赛，为英国观众提供便捷的观看渠道。这是该赛事的重要阶段，吸引了全球关注。",
-          "analysis": "作为乒坛最高级别的团体赛事之一，伦敦站的决赛争夺历来竞争激烈。BBC的直播安排有助于提升国内关注度，推动乒乓球运动在本土的发展。",
-          "social": [
-            {
-              "who": "资深球迷/解说",
-              "text": "伦敦世团赛决赛周末不容错过，BBC直播方便国内观众在家观战。"
-            }
-          ],
-          "region": "乒乓球"
-        },
-        {
-          "title_zh": "威尔士队不敌香港队出局：2026年世乒赛团体赛32强战况",
-          "eng": "Wales beaten by Hong Kong in World Team Champs last 32",
-          "summary": "在2026年世界乒乓球团体锦标赛中，威尔士女队在32强赛中以2-3负于香港队，结束了她们的征程。",
-          "source": "BBC Table Tennis",
-          "published": "2026-05-04",
-          "url": "https://www.bbc.co.uk/sport/table-tennis/articles/czd24zv0ql4o?at_medium=RSS&at_campaign=rss",
-          "overview": "威尔士女子乒乓球队在2026年世界乒乓球团体锦标赛的32强淘汰赛中遭遇香港队，最终以2比3的比分落败。这一结果意味着威尔士女队在本次大赛中的参赛资格宣告终结。比赛过程展现了双方选手的激烈对抗。",
-          "analysis": "香港队的晋级显示了亚洲乒坛在团体赛中的深厚底蕴和竞争力。对于威尔士队而言，此次失利也反映了欧洲队伍在面对亚洲强旅时的挑战。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "威尔士女队不敌香港，亚洲力量在团体赛中依然强势。"
-            }
-          ],
-          "region": "乒乓球"
-        },
-        {
-          "title_zh": "BBC报道：英国乒乓球俱乐部助力老年黑人男性健康社区活动",
+          "title_zh": "可看医生的乒乓球俱乐部：50岁以上黑人男性论坛扩展中",
           "eng": "The table tennis club where you can see a doctor",
-          "summary": "Over 50s Black Men Forum已在10个地点运营，旨在通过乒乓球等运动促进社区健康并计划扩展。",
+          "summary": "BBC报道了一个覆盖10个地点的乒乓球社区项目，旨在为50岁以上男性提供健康支持并计划扩张。",
           "source": "BBC Table Tennis",
           "published": "2026-06-01",
           "url": "https://www.bbc.co.uk/news/articles/clyp8rr0gk0o?at_medium=RSS&at_campaign=rss",
-          "overview": "Over 50s Black Men Forum是一个面向五十岁以上黑人男性的社区论坛，目前在英国设有10个运营地点。该组织致力于通过乒乓球等体育活动促进成员健康，并计划进一步扩大其影响力。BBC对此进行了专题报道。",
-          "analysis": "这一举措体现了乒乓球运动在英国社会包容性方面的积极角色，不仅是一项竞技体育，更是连接不同群体、改善公共健康的桥梁。",
+          "overview": "The Over 50s Black Men Forum在10个地点运营乒乓球俱乐部，该项目不仅提供运动机会，还整合了医疗资源。论坛正计划进一步扩大覆盖范围，体现了乒乓球在社区健康促进方面的独特价值。",
+          "analysis": "这类社区项目展示了乒乓球作为全民健身项目的潜力，特别是在老龄化群体中结合健康管理的新模式值得关注。",
           "social": [
             {
-              "who": "社区体育推广者",
-              "text": "乒乓球不仅是竞技，更是连接不同群体的纽带。"
+              "who": "资深球迷",
+              "text": "看到乒乓球能跟医疗资源挂钩，这种社区运营模式确实有推广价值。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "英国裁判Foote晋升世界顶级级别",
+          "title_zh": "英国裁判Foote晋升为世界顶级精英级别",
           "eng": "Table tennis umpire Foote promoted to world's elite",
-          "summary": "英国乒乓球裁判Ben Foote成为全球仅25人之一，获聘为国际乒联精英级裁判。",
+          "summary": "英国乒乓球裁判Ben Foote成为全球仅25人中的佼佼者，获晋升至国际乒联最高级别的执裁行列。",
           "source": "BBC Table Tennis",
           "published": "2026-05-28",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/cgkp65m03nxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国乒乓球裁判Ben Foote近日被晋升至国际乒联（ITTF）精英级裁判行列。全球仅有25人获此殊荣，标志着他在裁判领域的专业水平得到了国际认可。这一任命对英国乒乓球运动的管理和赛事组织具有积极意义。",
-          "analysis": "精英级裁判的选拔标准极高，Foote的晋升反映了英国在培养高水平赛事官员方面的投入。这对提升未来国际赛事的判罚质量和公正性至关重要。",
+          "overview": "Ben Foote被晋升为国际乒联（ITTF）裁判委员会的精英级别成员，全球仅有25名裁判获此殊荣。这一任命标志着英国在乒乓球裁判领域的实力提升，也反映了Foote长期执裁积累的深厚经验。",
+          "analysis": "顶级裁判的选拔直接关系到赛事公平性，Foote的晋升对关注国际赛事规则的球迷来说是一个值得留意的信号。",
           "social": [
             {
-              "who": "裁判/赛事从业者",
-              "text": "精英级裁判稀缺，Foote的晋升对提升判罚标准意义重大。"
+              "who": "教练",
+              "text": "全球仅25人入选，含金量很高，说明英国在裁判培养上确实下了功夫。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "拉杜卡努因伤退出温网",
-          "eng": "Injured Raducanu withdraws from Wimbledon",
-          "summary": "英国一姐拉杜卡努在温网开赛前宣布退赛，右腿伤势从旧疾发展为应力性骨折。",
-          "source": "BBC Sport",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c15y0q31522o?at_medium=RSS&at_campaign=rss",
-          "overview": "23岁的英国网球选手拉杜卡努在温布尔登锦标赛开赛前宣布退赛，她原本被种子排名第30位，原定周一在主赛场对阵安东妮亚·鲁齐奇。她在声明中表示无法相信需要说出退赛的决定，此前她的右腿伤势在温网备战期间持续恶化，从旧伤演变为应力性骨折。这是拉杜卡努自2021年美网夺冠以来遭遇的又一次重大伤病挫折。",
-          "analysis": "作为英国网球最具代表性的新生代选手之一，拉杜卡努的退赛对英国体育界影响深远。温网正值赛季关键节点，大量顶尖球员同时受伤令人担忧。她的缺席也将削弱温网女单签表的竞争力和关注度。",
+          "title_zh": "如何在BBC观看世界乒乓球团体锦标赛",
+          "eng": "How to watch: World Team Table Tennis Championships on BBC",
+          "summary": "2026年世界乒乓球团体锦标赛半决赛和决赛于本周末在伦敦举行，BBC将提供直播。",
+          "source": "BBC Table Tennis",
+          "published": "2026-05-08",
+          "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c0r250zzw08o?at_medium=RSS&at_campaign=rss",
+          "overview": "2026年世界乒乓球团体锦标赛的半决赛及决赛阶段正在伦敦进行，BBC体育频道将为观众提供赛事直播服务。这是该年度最重要的团体对抗赛之一，汇聚了全球顶尖选手。",
+          "analysis": "作为世界最高水平的团体赛事，此次比赛是检验队伍实力的关键舞台，值得所有乒乓球爱好者关注。",
+          "social": [
+            {
+              "who": "解说",
+              "text": "伦敦世锦赛决赛周末，BBC直播方便国内球迷同步观看，不用折腾时差。"
+            }
+          ],
+          "region": "乒乓球"
+        },
+        {
+          "title_zh": "威尔士不敌香港止步世界团体锦标赛32强",
+          "eng": "Wales beaten by Hong Kong in World Team Champs last 32",
+          "summary": "在2026年世界乒乓球团体锦标赛中，威尔士女队以2-3负于香港队，无缘八强。",
+          "source": "BBC Table Tennis",
+          "published": "2026-05-04",
+          "url": "https://www.bbc.co.uk/sport/table-tennis/articles/czd24zv0ql4o?at_medium=RSS&at_campaign=rss",
+          "overview": "在2026年世界乒乓球团体锦标赛的32强赛中，威尔士女队以2-3的比分不敌香港队，结束了她们在本届赛事中的征程。这场失利意味着威尔士女队在本届赛事中的希望已经破灭，而香港队则成功晋级下一轮。",
+          "analysis": "亚洲队伍在世界舞台上的竞争力持续增强，香港队的胜利再次证明了该地区在乒乓球项目上的深厚底蕴和人才储备。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "拉杜卡努的退赛让英国网球再次陷入低谷，希望她能尽快恢复健康重返赛场。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "温网开赛前一周就出现如此多伤病，整个赛事的健康状况确实令人忧虑。"
+              "text": "威尔士女队这次确实有点可惜，不过香港队能赢也说明亚洲乒坛的竞争越来越激烈了。"
             }
           ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "斯托克斯宣布退役：国际赛场是最好的选择",
-          "eng": "Retirement the best thing for me - Stokes",
-          "summary": "本·斯托克斯解释了他为何选择在国际赛场退役，称自己在夏季备战期间已精疲力竭。",
-          "source": "BBC Sport",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c3dymxr4187o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰板球名将本·斯托克斯正式宣布退出国际板球队，他在采访中详细阐述了退役原因。斯托克斯表示自己在夏季备战期间身心俱疲，最终做出退役决定。这一消息在英联邦体育界引起广泛关注，斯托克斯作为英格兰板球的标志性人物之一，其退役标志着英格兰板球一个时代的结束。",
-          "analysis": "斯托克斯的退役反映了现代运动员面临的巨大压力，尤其是在多赛事密集赛程下。他的离开将影响英格兰板球队的中坚力量配置，年轻球员需要填补这一空缺。",
-          "social": [
-            {
-              "who": "英联邦球迷",
-              "text": "斯托克斯的退役令人惋惜，他是英格兰板球历史上最伟大的运动员之一。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "职业倦怠已成为顶级运动员面临的普遍问题，需要整个体育界重新审视赛程安排和球员健康保护机制。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "加拿大加时绝杀南非晋级世界杯16强",
-          "eng": "Canada into last 16 with late winner against South Africa",
-          "summary": "斯蒂芬·尤斯塔基奥在补时第二分钟打入戏剧性进球，帮助东道主加拿大击败南非首次闯入世界杯16强。",
-          "source": "BBC Sport",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/videos/clyx5432r8do?at_medium=RSS&at_campaign=rss",
-          "overview": "在2026年世界杯小组赛中，东道主加拿大凭借斯蒂芬·尤斯塔基奥的戏剧性进球击败南非队。尤斯塔基奥在补时第二分钟打入关键进球，帮助球队锁定胜局并首次晋级16强。作为赛事联合主办国之一，加拿大的这一胜利具有特殊意义，展现了东道主的竞争力和韧性。",
-          "analysis": "加拿大作为世界杯东道主的表现令人印象深刻，尤其是在淘汰赛阶段展现出的战斗力。尤斯塔基奥的进球堪称经典时刻，为加拿大球迷带来了巨大的喜悦。南非队的出局也反映了本届世界杯的竞争激烈程度。",
-          "social": [
-            {
-              "who": "加拿大球迷",
-              "text": "这是加拿大足球历史上的重要时刻，尤斯塔基奥的进球将永远被铭记！"
-            },
-            {
-              "who": "世界杯评论员",
-              "text": "东道主球队在世界杯上的表现往往备受关注，加拿大的晋级证明了他们的实力不容小觑。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "韩国主帅辞职：总统怒斥'无能之人'",
-          "eng": "South Korea coach resigns after president condemns 'incompetent people' in World Cup exit",
-          "summary": "韩国总统李在世界杯出局后公开谴责球队，前队长洪明甫在次日宣布辞去主教练职务。",
-          "source": "Guardian Sport",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/football/2026/jun/28/south-korea-coach-resigns-president-condemns-world-cup-exit",
-          "overview": "57岁的前韩国队长洪明甫在世界杯小组赛出局后辞去主教练职务，这是他在第二次执教期间遭遇的又一次早期淘汰。韩国总统李对球队表现表示强烈不满，公开谴责'无能之人'并向国民道歉。孙兴慜在对阵南非队时未被选入名单的决定也引发了争议。洪明甫此前曾在2014年世界杯同样早早出局，这次再次未能带领球队走得更远。",
-          "analysis": "韩国足球近年来在亚洲赛场表现起伏不定，此次世界杯出局再次引发国内批评声浪。总统级别的介入显示了公众对国家队成绩的高度关注，但也可能给新任教练带来巨大压力。孙兴慜的缺席问题需要俱乐部和国家队之间更好的沟通机制来解决。",
-          "social": [
-            {
-              "who": "韩国足球迷",
-              "text": "洪明甫再次未能带领球队走远，希望新帅能带来改变。"
-            },
-            {
-              "who": "体育记者",
-              "text": "总统公开批评国家队教练在亚洲足坛极为罕见，这反映了韩国社会对足球成绩的高期待。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "凯恩和贝林厄姆建功但英格兰需更多人挺身而出",
-          "eng": "Kane and Bellingham produce the goods but England need others to step up",
-          "summary": "凯恩和贝林厄姆的进球帮助英格兰2-0击败巴拿马，但图赫尔对右后卫和中场位置存在隐患表示担忧。",
-          "source": "Guardian Sport",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/football/2026/jun/28/kane-and-bellingham-produce-the-goods-but-england-need-others-to-step-up",
-          "overview": "英格兰队在纽瓦克以2-0击败巴拿马，锁定小组L组头名出线。凯恩和贝林厄姆各入一球，展现了出色的个人能力。然而主教练图赫尔对球队右后卫位置和中场深度表示担忧，多位右后卫在比赛中表现不佳。英格兰队将在亚特兰大对阵喀麦隆的16强赛中面临考验，需要更多球员站出来分担压力。图赫尔表示这是一个'保持信念和推动前进的时刻'。",
-          "analysis": "凯恩和贝林厄姆的组合确实令人印象深刻，但过度依赖这两位球星存在风险。英格兰队在右后卫和中场位置的人员配置问题需要在淘汰赛阶段得到解决。图赫尔的执教风格需要更多球员能够适应他的战术体系并承担责任。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "凯恩和贝林厄姆是英格兰队的核心，但我们需要看到其他位置的球员也能站出来。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "图赫尔的战术体系对球员个人能力要求很高，英格兰队需要更多全能型球员来支撑他的计划。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "乔治·拉塞尔赢得奥地利大奖赛：梅赛德斯重返胜利",
-          "eng": "Relief for Russell as he returns to winning ways",
-          "summary": "乔治·拉塞尔从杆位出发赢得2026年奥地利大奖赛，为梅赛德斯车队带来新的胜利。",
-          "source": "BBC Sport",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/c14yr0kpjy1o?at_medium=RSS&at_campaign=rss",
-          "overview": "梅赛德斯车队的乔治·拉塞尔在2026年奥地利大奖赛中从杆位出发并赢得比赛，这是他在2026赛季的又一胜利。比赛在红牛环赛道进行，拉塞尔的表现令人振奋。与此同时，汉密尔顿驾驶法拉利赛车获得第五名，对法拉利的表现表示失望。拉塞尔的胜利为梅赛德斯车队带来了久违的喜悦，也展示了他在赛场上的竞争力和稳定性。",
-          "analysis": "拉塞尔的杆位起步和胜利证明了梅赛德斯车队的竞争力正在回升。对于汉密尔顿和法拉利来说，这次比赛是一次现实检验，需要重新评估他们的赛车性能和策略。2026赛季的竞争格局正在发生变化，各车队之间的差距在缩小。",
-          "social": [
-            {
-              "who": "F1粉丝",
-              "text": "拉塞尔终于回来了！梅赛德斯的胜利让所有人看到了希望。"
-            },
-            {
-              "who": "赛车评论员",
-              "text": "红牛环赛道是考验车手能力的经典赛场，拉塞尔的胜利展示了他的速度和决策能力。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "奥黛丽·韦罗逼近女子800米世界纪录",
-          "eng": "Audrey Werro edges closer to women's 800m world record at Paris Diamond League",
-          "summary": "瑞士新星奥黛丽·韦罗在巴黎钻石联赛跑出1分53秒28，成为历史上第三快的成绩。",
-          "source": "Guardian Sport",
-          "published": "2026-06-28",
-          "url": "https://www.theguardian.com/sport/2026/jun/28/audrey-werro-edges-closer-womens-800m-world-record-paris-diamond-league-athletics",
-          "overview": "在巴黎钻石联赛女子1500米比赛中，英国奥运冠军基利·霍奇金森表现出色。与此同时，瑞士新星奥黛丽·韦罗跑出1分53秒28的成绩，成为历史上第三快的800米成绩，距离保持25年的世界纪录仅一步之遥。这一成绩让人们相信，贾尔米拉·克拉托希洛娃的800米世界纪录可能在本赛季被打破。英国奥运冠军霍奇金森表示她相信自己能够突破这一纪录时间1分53秒。",
-          "analysis": "女子800米项目正处于历史性的变革期，韦罗和霍奇金森等年轻选手正在挑战维持了40多年的世界纪录。这一成绩的提升反映了田径运动的整体进步和训练方法的革新。巴黎钻石联赛作为顶级赛事平台，为这些突破提供了理想的舞台。",
-          "social": [
-            {
-              "who": "田径爱好者",
-              "text": "女子800米的世界纪录终于要被打破了！韦罗的表现令人惊叹。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "这一成绩的提升不仅仅是个人突破，更反映了整个女子中长跑项目的进步趋势。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "塞雷娜·威廉姆斯：反兴奋剂检测几乎让她放弃复出",
-          "eng": "How 'gruelling' doping protocols almost put Williams off comeback",
-          "summary": "塞雷娜·威廉姆斯表示，反兴奋剂检测的性质几乎让她放弃了令人震惊的复出计划。",
-          "source": "BBC Tennis",
-          "published": "2026-06-28",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr47kl0r9veo?at_medium=RSS&at_campaign=rss",
-          "overview": "网球传奇塞雷娜·威廉姆斯透露，反兴奋剂检测的严苛程度几乎让她放弃了复出计划。这一消息在网球界引起广泛关注，反映了当前体育界对运动员健康管理和权益保护的讨论。威廉姆斯作为历史上最伟大的女子网球选手之一，她的复出决定备受关注。她希望能够在保持健康的同时重返赛场，继续为网球运动做出贡献。",
-          "analysis": "塞雷娜的复出故事引发了关于反兴奋剂政策与运动员权益平衡的重要讨论。严格的检测程序虽然必要，但也可能对运动员的身心造成额外压力。这一话题需要体育界、医学界和政策制定者共同探索更加人性化的解决方案。",
-          "social": [
-            {
-              "who": "网球粉丝",
-              "text": "塞雷娜的复出令人振奋！希望她能顺利重返赛场继续精彩表现。"
-            },
-            {
-              "who": "体育权益倡导者",
-              "text": "反兴奋剂政策需要在严格执法和人文关怀之间找到更好的平衡点。"
-            }
-          ],
-          "region": "综合"
+          "region": "乒乓球"
         }
       ],
       "regions": [
@@ -2061,222 +1760,182 @@
     "github": {
       "items": [
         {
-          "title_zh": "Codex 橙皮书：全链路使用指南",
+          "title_zh": "Codex 橙皮书：全链路 AI Coding 实战指南",
           "eng": "bozhouDev/codex-orange-book",
-          "summary": "从安装到实战案例的全链路 Codex 使用指南，非官方开源，含可下载 PDF。",
+          "summary": "从安装到实战案例的全链路 Codex 使用指南，含可下载 PDF。",
           "source": "GitHub",
-          "stars": 2274,
+          "stars": 2280,
           "lang": "HTML",
           "published": "2026-06-23",
           "url": "https://github.com/bozhouDev/codex-orange-book",
-          "overview": "这是一本面向 OpenAI Codex 的全链路使用指南，涵盖安装配置、核心功能讲解以及大量实战案例。以橙皮书的形式呈现，提供可下载的 PDF 版本，适合不同技术水平的开发者快速上手 AI 编程工具。内容持续更新，紧跟 Codex 产品迭代节奏。",
-          "analysis": "作为 GitHub 上最热门的 AI 开发工具学习资源之一，该项目帮助中文开发者系统掌握 Codex 的使用技巧。在 AI 编码助手日益普及的背景下，这类高质量中文教程填补了语言鸿沟，对国内开发者群体具有显著实用价值。",
+          "overview": "这是一份非官方的 Codex AI 编程助手使用指南，涵盖安装配置、核心功能介绍及实战案例。内容以 HTML 形式组织，提供可下载的 PDF 版本，适合希望快速上手 Codex 的开发者阅读。",
+          "analysis": "作为高星学习资源，它降低了 AI Coding 工具的上手门槛，尤其对中文用户友好。在 AI 编程助手普及的背景下，系统化的中文指南具有实用价值。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Codex 上手最快的中文资源，实战案例丰富，比官方文档更易理解。"
-            },
-            {
-              "who": "技术博主",
-              "text": "非官方但质量极高，PDF 版本方便离线阅读，适合团队内部培训使用。"
+              "who": "AI 开发者",
+              "text": "Codex 生态的入门必读材料，PDF 下载功能很贴心。"
             }
           ]
         },
         {
           "title_zh": "DeepSpec：推测解码全栈训练与评估框架",
           "eng": "deepseek-ai/DeepSpec",
-          "summary": "由 DeepSeek 官方推出的推测解码算法训练和评估的完整代码库。",
+          "summary": "由 DeepSeek 开源的用于训练和评估推测解码（Speculative Decoding）算法的全栈代码库。",
           "source": "GitHub",
-          "stars": 2133,
+          "stars": 2170,
           "lang": "Python",
           "published": "2026-06-26",
           "url": "https://github.com/deepseek-ai/DeepSpec",
-          "overview": "DeepSpec 是一个全栈代码库，专门用于推测解码（speculative decoding）算法的训练和评估。该项目由 DeepSeek AI 团队维护，提供了从模型训练到性能评测的完整工具链，支持多种解码策略的实验对比和基准测试。",
-          "analysis": "推测解码是提升大语言模型推理速度的关键技术之一。DeepSeek 作为头部 AI 公司开源此框架，为研究者和工程师提供了标准化的实验平台，有助于加速 LLM 部署效率优化领域的创新。",
+          "overview": "该仓库提供了推测解码算法的完整实现，包括训练流程和评估工具。作为 DeepSeek 官方项目，它展示了大模型推理加速的前沿技术路径，支持研究者复现和扩展相关算法。",
+          "analysis": "推测解码是提升 LLM 推理速度的关键技术之一。DeepSeek 开源此框架有助于社区统一评估标准，推动高效推理技术的发展。",
           "social": [
             {
               "who": "AI 研究员",
-              "text": "推测解码领域最完整的开源实现之一，训练和评估流程设计得很清晰。"
-            },
-            {
-              "who": "LLM 工程师",
-              "text": "想优化模型推理速度但缺乏工具链的，这个项目直接解决了痛点。"
+              "text": "官方全栈实现非常完整，对推理加速方向的研究者来说是宝贵的参考基准。"
             }
           ]
         },
         {
-          "title_zh": "The Eleven：AI Agent 自主开足球盘口",
+          "title_zh": "TheEleven：自主 AI Agent 足球预测交易",
           "eng": "winsznx/theeleven",
-          "summary": "11个自主 AI Agent 在 X Layer 上实时开设足球让球市场，使用自定义 Uniswap v4 hook。",
+          "summary": "11 个自主 AI Agent 在 X Layer 上实时开设足球让球市场，结合自定义 Uniswap v4 hook。",
           "source": "GitHub",
-          "stars": 694,
+          "stars": 695,
           "lang": "TypeScript",
           "published": "2026-06-25",
           "url": "https://github.com/winsznx/theeleven",
-          "overview": "该项目部署了 11 个自主运行的 AI Agent，在 X Layer 区块链上实时开设足球让球（prop）市场。技术亮点包括自定义 Uniswap v4 hook、无 Gas USDT0 质押机制等，展示了 AI Agent 与 DeFi 协议深度集成的前沿实践。",
-          "analysis": "这是 AI Agent + 去中心化金融的标志性项目之一，证明了多智能体系统可以自主完成复杂的金融市场操作。对研究 AI Agent 在 Web3 领域的应用具有重要参考价值。",
+          "overview": "该项目展示了 AI Agent 在去中心化金融（DeFi）领域的实际应用，通过自主决策开设和交易足球预测市场。技术栈包含自定义 Uniswap v4 hook 和无 Gas USDT0 质押功能。",
+          "analysis": "这是 AI Agent + DeFi 的典型案例，验证了多智能体协作在实时金融市场中的可行性，对 Web3 开发者有启发意义。",
           "social": [
             {
               "who": "Web3 开发者",
-              "text": "AI Agent 自主交易足球盘口的概念很酷，Uniswap v4 hook 的实现值得学习。"
-            },
-            {
-              "who": "多智能体研究者",
-              "text": "11个Agent协同工作的架构设计为多智能体系统提供了很好的参考案例。"
+              "text": "AI Agent 自主交易的落地案例，Uniswap v4 hook 的集成思路值得学习。"
             }
           ]
         },
         {
           "title_zh": "Awesome Evals：AI Agent 评估资源精选库",
           "eng": "benchflow-ai/awesome-evals",
-          "summary": "由 BenchFlow 维护的 AI Agent 构建与评估最佳资源合集，涵盖论文、博客、演讲、工具和基准测试。",
+          "summary": "由 BenchFlow 维护的 AI Agent 构建与评估最佳资源合集，涵盖论文、博客、工具和基准测试。",
           "source": "GitHub",
-          "stars": 560,
+          "stars": 561,
           "lang": "",
           "published": "2026-06-24",
           "url": "https://github.com/benchflow-ai/awesome-evals",
-          "overview": "这是一个精心策划的 AI Agent 评估领域资源库，收录了论文、博客文章、技术演讲、开源工具和基准测试数据集。由 BenchFlow（行业知名评测平台）维护，确保内容的质量和时效性，是进入 AI Agent 评估领域的最佳入门入口。",
-          "analysis": "AI Agent 的质量评估是当前行业痛点，缺乏统一的评估标准和工具链。该项目系统性地整理了该领域资源，帮助研究者和工程师快速了解评估方法论和最新进展。",
+          "overview": "这是一个精心策划的非 BS 资源库，专注于 AI Agent 的评估领域。内容涵盖学术论文、行业博客、演讲视频以及各类评测工具，旨在帮助开发者建立可靠的 Agent 评估体系。",
+          "analysis": "随着 AI Agent 数量激增，如何科学评估其性能成为痛点。该仓库提供了结构化的学习路径和工具推荐，对从业者极具参考价值。",
           "social": [
             {
-              "who": "AI 评测从业者",
-              "text": "评估领域的资源太分散了，这个合集省了大量调研时间。"
-            },
-            {
-              "who": "Agent 开发者",
-              "text": "想给自己的 Agent 做 benchmark 但不知道从哪开始，这里提供了清晰的路线图。"
+              "who": "AI 工程师",
+              "text": "Agent 评测方向的资源汇总，省去了大量检索时间，非常实用。"
             }
           ]
         },
         {
-          "title_zh": "pdfx：多文件合并存储的 PDF 扩展标准",
+          "title_zh": "pdfx：基于元数据的 PDF 多文件合并扩展",
           "eng": "AlexandrosGounis/pdfx",
-          "summary": "PDF 标准的扩展，允许通过元数据将多个文件存储在单个 PDF 中。",
+          "summary": "对传统 PDF 标准的扩展，允许通过元数据将多个文件存储在一个文件中。",
           "source": "GitHub",
-          "stars": 485,
+          "stars": 487,
           "lang": "TypeScript",
           "published": "2026-06-24",
           "url": "https://github.com/AlexandrosGounis/pdfx",
-          "overview": "pdfx 是对传统 PDF 标准的扩展，核心功能是通过元数据机制将多个文件打包存储在一个 PDF 文档中。该项目使用 TypeScript 实现，提供了完整的 API 和工具链，支持文件的添加、提取和管理操作。",
-          "analysis": "在数字文档管理日益重要的今天，多文件合并存储的需求持续增长。pdfx 为这一场景提供了标准化的解决方案，有望成为新的行业规范。",
+          "overview": "该项目扩展了 PDF 标准，支持将多个文件打包进单个 PDF 并通过元数据区分。这对于需要管理大量文档但希望保持单文件结构的场景非常有用，如法律合同或技术手册归档。",
+          "analysis": "解决了多文件 PDF 管理的痛点，TypeScript 实现保证了类型安全和可维护性，适合企业级文档处理需求。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "处理 PDF 的痛点太多了，这个方案优雅地解决了多文件打包的问题。"
-            },
-            {
-              "who": "文档工程师",
-              "text": "替代了传统的 ZIP+PDF 组合方案，更轻量且兼容性更好。"
+              "who": "后端开发者",
+              "text": "单文件管理多文档的方案很巧妙，扩展了标准 PDF 的实用性。"
             }
           ]
         },
         {
-          "title_zh": "Tabbit Toy：本地 AI 模型浏览器扩展",
+          "title_zh": "Tabbit Toy：本地模型访问与一键 Cookie 提取插件",
           "eng": "goehou/tabbit-toy",
-          "summary": "基于 Tabbit 的研究包，支持 OAI 格式导出、会员认证和一键提取 Cookie，方便快速使用 Claude/GPT 等模型。",
+          "summary": "基于 TabbIt 的研究包，支持转化为 OAI 格式，增加会员认证和一键提取 Cookie 的浏览器扩展。",
           "source": "GitHub",
           "stars": 378,
           "lang": "JavaScript",
           "published": "2026-06-23",
           "url": "https://github.com/goehou/tabbit-toy",
-          "overview": "这是一个面向本地 AI 模型使用的浏览器扩展工具，支持将 Tabbit 格式转换为 OAI（OpenAI API）兼容格式。同时集成了会员认证功能和一键 Cookie 提取能力，让用户能够便捷地在本地环境中调用 Claude、GPT 等主流大语言模型。",
-          "analysis": "随着本地化部署 AI 模型的趋势增强，这类工具降低了用户的使用门槛。Tabbit Toy 通过浏览器扩展的形式简化了配置流程，对希望低成本使用大模型的开发者很有吸引力。",
+          "overview": "这是一个浏览器扩展工具，旨在帮助用户快速在本地使用 Claude、GPT 等 AI 模型。它支持将请求转化为 OAI 格式，并提供会员认证和 Cookie 提取功能，降低了本地部署大模型的门槛。",
+          "analysis": "对于希望低成本体验或微调主流大模型的开发者来说，该插件提供了便捷的接入方式，尤其适合快速原型开发场景。",
           "social": [
             {
               "who": "AI 爱好者",
-              "text": "不想折腾 API key 和后端服务的最佳选择，一键就能用 Claude。"
-            },
-            {
-              "who": "独立开发者",
-              "text": "本地跑模型 + 浏览器扩展的组合很实用，省去了自建服务的时间成本。"
+              "text": "一键提取 Cookie 的功能很实用，本地跑模型的成本大幅降低。"
             }
           ]
         },
         {
-          "title_zh": "AI 视频制作技能库",
+          "title_zh": "Video Production Skills：AI 视频制作技能库",
           "eng": "Pluviobyte/video-production-skills",
-          "summary": "可复用的 AI 视频制作技能库，覆盖创作、重制、动态设计、片头和 QA。",
+          "summary": "可复用的 AI 视频制作技能库，涵盖创作、重制、动态设计、开场和 QA。",
           "source": "GitHub",
-          "stars": 360,
+          "stars": 362,
           "lang": "Python",
           "published": "2026-06-26",
           "url": "https://github.com/Pluviobyte/video-production-skills",
-          "overview": "这是一个面向 AI 视频制作的技能库，涵盖了从内容创作、素材重制到动态设计、片头制作和质量检测的完整流程。采用 Python 实现，提供可复用的模块和工具，帮助创作者高效完成各类视频项目。",
-          "analysis": "AI 视频生成是当前增长最快的创意技术之一。该项目将零散的视频制作技能系统化整理为可复用库，降低了 AI 视频创作的技术门槛，对内容创作者和独立开发者具有实用价值。",
+          "overview": "该仓库收集了 AI 辅助视频制作的各种可复用技能模块，包括动态设计、开场动画生成和质量检测。旨在帮助内容创作者利用 AI 工具提升视频生产效率。",
+          "analysis": "AI 在视频领域的落地应用日益增多，该库提供了结构化的技能参考，有助于开发者快速构建自己的视频生产管线。",
           "social": [
             {
-              "who": "视频创作者",
-              "text": "AI 做视频的碎片化太严重了，这个库把常用技能都整理好了。"
-            },
-            {
-              "who": "创意技术从业者",
-              "text": "从片头到 QA 的全流程覆盖很全面，适合团队标准化视频生产。"
+              "who": "内容创作者",
+              "text": "模块化设计很好，可以按需组合不同的 AI 视频生成技能。"
             }
           ]
         },
         {
-          "title_zh": "OpenTag：Slack/GitHub Agent 提及路由工具",
+          "title_zh": "OpenTag：Slack/GitHub AI Agent 路由集成",
           "eng": "amplifthq/opentag",
           "summary": "开源的 Slack 和 GitHub @agent 提及功能，将标记请求路由到 Codex、Claude Code 并返回结果。",
           "source": "GitHub",
-          "stars": 352,
+          "stars": 353,
           "lang": "TypeScript",
           "published": "2026-06-24",
           "url": "https://github.com/amplifthq/opentag",
-          "overview": "OpenTag 为 Slack 和 GitHub 提供了原生的 @agent 提及功能，当用户在对话中标记某个 Agent 时，请求会被自动路由到 Codex、Claude Code 等 AI 工具执行，并将结果直接返回到线程中。这是一个将 AI 能力无缝集成到日常协作工具的桥梁项目。",
-          "analysis": "AI 与团队协作平台的深度整合是当前企业级应用的重要方向。OpenTag 通过开源方式实现了这一愿景，让开发者可以在自己的 Slack 和 GitHub 工作流中直接使用主流 AI Agent，无需额外配置。",
+          "overview": "OpenTag 允许开发者在 Slack 和 GitHub 中通过 @agent 提及来触发 AI 任务。系统会自动将请求路由到 Codex 或 Claude Code，并将结果直接返回到对话线程中，实现了无缝的 AI 协作体验。",
+          "analysis": "这是企业级 AI 协作的重要一步，将 AI 能力嵌入日常开发工具链，提升了团队的工作效率和代码审查质量。",
           "social": [
             {
-              "who": "企业 DevOps",
-              "text": "@agent 直接在 Slack 里调用 Codex/Claude Code，这比手动切换工具效率高太多了。"
-            },
-            {
-              "who": "AI 集成工程师",
-              "text": "开源方案让企业可以自定义路由逻辑，不依赖第三方 SaaS 的封闭生态。"
+              "who": "DevOps 工程师",
+              "text": "在 Slack 中直接调用 AI 解决技术问题太方便了，集成思路清晰。"
             }
           ]
         },
         {
-          "title_zh": "ComfyUI Conditioning Rebalance：图像编辑优化节点",
-          "eng": "nova452/ComfyUI-Conditioning-Rebalance",
-          "summary": "提供类似 IP-Adapter 功能的 ComfyUI 条件重平衡节点，支持 Krea 2 图像参考编辑和安全过滤器绕过。",
+          "title_zh": "CopilotKit OpenTag：AI 代码助手协作标签系统",
+          "eng": "CopilotKit/OpenTag",
+          "summary": "来自 CopilotKit 的开源 AI 协作工具，支持在 Slack/GitHub 中路由请求到 Codex/Claude Code。",
           "source": "GitHub",
-          "stars": 298,
-          "lang": "Python",
-          "published": "2026-06-23",
-          "url": "https://github.com/nova452/ComfyUI-Conditioning-Rebalance",
-          "overview": "这是一个 ComfyUI 的自定义节点插件，核心功能包括：提供类似 IP-Adapter 的条件重平衡能力、支持 Krea 2 图像参考编辑、以及绕过训练时内置的质量稀释安全过滤器。该项目为 Stable Diffusion 工作流提供了更精细的控制手段。",
-          "analysis": "ComfyUI 生态的自定义节点持续丰富着 AI 图像生成的可能性空间。该插件在条件控制和模型过滤方面的创新，为专业图像创作者提供了更强的创作自由度。",
+          "stars": 321,
+          "lang": "TypeScript",
+          "published": "2026-06-26",
+          "url": "https://github.com/CopilotKit/OpenTag",
+          "overview": "作为 CopilotKit 生态的一部分，OpenTag 提供了标准化的 AI Agent 提及和路由机制。它支持将开发者在 Slack 或 GitHub 中的请求自动分发到指定的 AI 代码助手，并返回执行结果。",
+          "analysis": "CopilotKit 是知名的开源 AI 开发工具公司，其 OpenTag 项目进一步巩固了其在企业 AI 协作领域的地位，适合关注 AI DevTools 的开发者。",
           "social": [
             {
-              "who": "AI 绘图师",
-              "text": "Krea 2 参考编辑的实现很实用，比原版 IP-Adapter 灵活多了。"
-            },
-            {
-              "who": "ComfyUI 开发者",
-              "text": "条件重平衡的思路可以借鉴到其他节点开发中，技术实现值得学习。"
+              "who": "AI 产品经理",
+              "text": "CopilotKit 的生态整合能力很强，OpenTag 让 AI 助手真正融入了工作流。"
             }
           ]
         },
         {
-          "title_zh": "WLOC：Apple 网络定位修改工具",
+          "title_zh": "WLOC：Apple 网络定位修改与代理工具集成",
           "eng": "Yu9191/wloc",
-          "summary": "修改 Apple gs-loc 返回坐标，支持 Surge/Quantumult X/Loon/Stash 代理客户端和快捷指令一键设置。",
+          "summary": "支持 Surge / Quantumult X / Loon / Stash 的 Apple 系统定位修改方案，提供快捷指令一键设置。",
           "source": "GitHub",
-          "stars": 1063,
+          "stars": 1075,
           "lang": "JavaScript",
           "published": "2026-06-24",
           "url": "https://github.com/Yu9191/wloc",
-          "overview": "WLOC 是一个用于修改 Apple 设备网络定位（gs-loc）返回坐标的工具，支持 Surge、Quantumult X、Loon、Stash 等主流代理客户端。通过快捷指令实现一键设置和恢复定位功能，解决了 iOS 用户在海外使用代理时遇到的位置信息不准确问题。",
-          "analysis": "随着 iOS 隐私保护机制的增强，gs-loc 的位置准确性成为开发者的重要关注点。WLOC 为需要精确网络定位的用户提供了可靠的解决方案，在 iOS 开发者和海外用户群体中有较高需求。",
+          "overview": "该工具允许用户在 Apple 设备上修改网络定位（gs-loc）返回的坐标，并深度集成了 Surge、Quantumult X 等主流代理工具。通过快捷指令实现一键设置或恢复定位，方便开发者测试海外应用的地理限制功能。",
+          "analysis": "作为面向特定开发者群体的实用工具，它解决了在受限网络环境下测试国际应用的功能验证需求，是 iOS 开发社区中常用的辅助手段。",
           "social": [
             {
               "who": "iOS 开发者",
-              "text": "gs-loc 不准的问题困扰很久了，这个工具配合代理客户端使用很稳定。"
-            },
-            {
-              "who": "海外用户",
-              "text": "快捷指令一键操作的设计很贴心，不用每次都手动配置定位参数。"
+              "text": "配合 Surge 使用体验很好，一键切换定位对测试海外 App 非常高效。"
             }
           ]
         }
@@ -2577,56 +2236,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦GPT-5及o系列模型发布、AGI进展与AI安全治理框架",
+          "recent": "聚焦 OpenAI 硬件战略及企业级 AI 应用扩展，回应行业对算力与基础设施的迫切需求。",
           "url": "https://www.samaltman.com"
         },
         {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
-          "region": "英国",
+          "name": "李开复 (Kai-Fu Lee)",
+          "role": "创新工场创始人",
+          "region": "中国/美国",
           "domain": "ai",
-          "recent": "推进AlphaFold在生物医药领域的应用落地，探索神经科学与AI交叉研究",
-          "url": "https://www.demishassabis.com"
-        },
-        {
-          "name": "李飞飞(Fei-Fei Li)",
-          "role": "斯坦福大学AI教授/HAI创始人",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注多模态大模型发展、AI伦理治理及全球AI教育公平倡议",
-          "url": "https://feifeili.ai"
+          "recent": "关注 AGI 治理框架及人工智能对劳动力市场的重塑影响，呼吁建立人机协作新范式。",
+          "url": "https://www.kai-fu-lee.com"
         },
         {
           "name": "Lex Fridman",
-          "role": "AI研究者/播客主持人",
+          "role": "知名播客主持人",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "持续进行深度AI访谈，探讨意识研究、技术哲学与人类认知边界",
+          "domain": "podcast/ai",
+          "recent": "持续通过深度访谈探讨人类意识与 AI 技术的边界，推动公众理解前沿科技伦理。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "周志华",
-          "role": "中国人工智能学者/南京大学教授",
-          "region": "中国",
+          "name": "Katherine Maher",
+          "role": "国际图联 (IFLA) 执行主任",
+          "region": "爱尔兰/全球",
+          "domain": "library",
+          "recent": "致力于将 AI 技术融入图书馆服务，同时强调数字公平、隐私保护及开放获取的重要性。",
+          "url": "https://www.ifla.org/en/about-us/executive-director-katherine-maher/"
+        },
+        {
+          "name": "Tim Berners-Lee",
+          "role": "万维网 (W3C) 创始人",
+          "region": "英国",
+          "domain": "library",
+          "recent": "倡导构建去中心化身份网络，旨在解决 AI 时代下的数据主权与用户信任危机。",
+          "url": "https://www.w3.org/People/BernersLee/"
+        },
+        {
+          "name": "Yoshua Bengio",
+          "role": "蒙特利尔大学教授/Turing Award 得主",
+          "region": "加拿大",
           "domain": "ai",
-          "recent": "聚焦大语言模型理论突破与中国AI学术生态建设",
-          "url": ""
+          "recent": "推动安全可控的通用人工智能发展，主张以神经科学为基础设计更可靠的 AI 模型。",
+          "url": "https://yoshuabengio.io"
         },
         {
           "name": "Rachel Thomas",
-          "role": "OpenML联合创始人/开放科学倡导者",
+          "role": "AI4ALL 创始人/斯坦福 HAI 研究员",
           "region": "美国",
-          "domain": "library",
-          "recent": "推动学术图书馆向开放科学与数据驱动研究转型，探索AI辅助知识管理",
-          "url": "https://rachelthomas.io"
-        },
-        {
-          "name": "吴恩达(Andrew Ng)",
-          "role": "DeepLearning.AI创始人/前Google Brain CEO",
-          "region": "加拿大",
-          "domain": "ai",
-          "recent": "推进企业级AI教育普及与AI Agent应用落地，关注全球AI人才战略",
-          "url": "https://www.andrewng.org"
+          "domain": "ai/library",
+          "recent": "致力于缩小公众与 AI 技术之间的鸿沟，推动图书馆和教育机构成为 AI 素养普及的核心阵地。",
+          "url": "https://rachelthomas.ai"
         }
       ]
     }
