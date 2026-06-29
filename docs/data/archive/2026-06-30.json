@@ -1,10 +1,37 @@
 {
-  "generated_at": "2026-06-30T06:03:52+08:00",
+  "generated_at": "2026-06-30T07:04:09+08:00",
   "date": "2026-06-30",
   "engine": "deepseek:deepseek-chat",
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "韩国投资1万亿美元扩大内存芯片生产并发展人形机器人",
+          "eng": "South Korea to spend $1T on more memory chip production and humanoid robots",
+          "summary": "韩国宣布大规模投资计划，旨在主导物理AI领域，并计划在2028年前实现商用人形机器人。",
+          "source": "Ars Technica",
+          "region": "韩国",
+          "published": "2026-06-29",
+          "tags": [
+            "韩国",
+            "芯片",
+            "人形机器人",
+            "投资"
+          ],
+          "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+          "overview": "韩国政府宣布将投入1万亿美元用于扩大内存芯片生产设施，并加速人形机器人技术的研发与商业化。目标是在2028年前推出商用人形机器人，并在物理AI领域占据全球领先地位。此举是韩国应对全球AI芯片需求激增和劳动力短缺的战略举措。",
+          "analysis": "韩国正试图通过政府主导的大规模投资，在AI硬件和机器人领域建立竞争优势。然而，如此巨额的投入能否带来预期回报，以及如何平衡芯片与机器人两大方向，仍是挑战。",
+          "social": [
+            {
+              "who": "投资者",
+              "text": "韩国在存储芯片领域的优势明显，但人形机器人商业化仍需时间验证。"
+            },
+            {
+              "who": "工程师",
+              "text": "大规模投资将推动技术突破，但需关注供应链和人才储备。"
+            }
+          ]
+        },
         {
           "title_zh": "AI代理不是你的“同事”",
           "eng": "AI agents are not your “coworkers”",
@@ -768,38 +795,6 @@
             {
               "who": "学界",
               "text": "最该警惕的是攻防不对称：防御方要核验身份、走合规流程才能用，攻击方却没有任何门槛。'五眼'说攻击实战化只剩几个月，留给老旧系统打补丁的窗口期不多了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "谷歌发布 Gemini 2.5 Pro(Deep Think):200 万上下文,称当前最强可用模型",
-          "summary": "6 月 22 日,谷歌推出带 Deep Think 推理模式的 Gemini 2.5 Pro,主打科学、数学与通用推理领先,配 200 万 token 上下文窗口,被部分评测称为当前公众可用的最强模型。",
-          "source": "buildfastwithai / llm-stats",
-          "region": "美国",
-          "published": "2026-06-22",
-          "overview": "据 6 月 22 日多方汇总,中国宣布一项为期五年、总额约 2950 亿美元(年均约 590 亿美元)的政府主导 AI 基础设施投入计划。这一计划的出台时点高度敏感:就在美国商务部对 Anthropic 的 Fable 5、Mythos 5 等前沿模型实施出口管制、限制中国获取的约 10 天后;消息发布的同一周末正逢 G7 会谈,特朗普称围绕『Fable 5 禁令』的讨论『进展顺利』。报道还提到,一位中国 AI 公司 CEO 公开放话,称其公司将早于马斯克预测的 2027 年第一季度,率先做出对标 Fable 5 级别的能力。横向对比看规模:微软 2026 年 AI 资本开支约 1900 亿美元、谷歌 2026 年资本开支指引为 1750–1850 亿美元——单家美国巨头的年度投入就远超中国整个五年计划的年均额度,但二者性质不同:美国是私营资本逐利投入、节奏由市场决定,中国则是国家主导的定向资金,容忍更长的回报周期、服务战略而非短期利润。换言之,这笔钱的关键不在『绝对数大不大』,而在它是一种『国家意志驱动、对冲外部技术封锁』的产业政策信号,意在确保在算力、数据中心等底层基建上不被『卡脖子』。整条新闻的底色,是中美在模型出口管制、算力获取上的地缘紧张正持续升温。",
-          "analysis": "解读这条新闻,最容易踩的坑就是只盯着 2950 亿这个数字去和微软、谷歌的资本开支比大小——那其实比错了对象。要点在于「国家主导 vs 私营逐利」的体制差异:国家资金可以投到商业上短期不划算、但战略上必须自主的底层基建(算力、数据中心、能源、国产芯片配套),并承受漫长回报周期,这是市场资本不愿干的事,目标直指『被出口管制卡脖子时仍能自给』。这件事的直接导火索是美国对 Fable 5/Mythos 5 的出口管制,说明前沿大模型已被正式当作受控战略物资,AI 进入了类似芯片的『科技冷战』格局。对知识工作、图书馆与研究界,这种割裂的长期影响不容小觑:模型与算力的获取正在沿地缘边界分化,未来很可能出现『不同阵营用不同模型、数据与知识基础设施各成体系』的局面,跨境学术协作、文献数据库、AI 工具的可用性都会受牵连。它也提醒我们,『AI 自主可控』不再只是大厂议题,任何依赖 AI 的知识机构都需要思考供应链韧性——一旦某个外部模型被禁用或断供,工作流能否平稳切换到替代方案。至于那位 CEO『早于 2027 Q1 追平』的豪言,更像竞赛中的喊话,真实差距仍需用可验证的能力而非时间表来回答。",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026",
-          "social": [
-            {
-              "who": "研究者",
-              "text": "拿 2950 亿去和微软 1900 亿一年的资本开支比大小是误读。重点是体制不同——国家钱能投市场不愿碰的底层基建、扛得住长周期,目标是『被卡脖子时也能自给』,而不是赚钱。这是产业政策,不是商业投资。"
-            },
-            {
-              "who": "技术圈",
-              "text": "把 Fable 5、Mythos 5 列入出口管制,等于正式把前沿大模型当成了战略物资,AI 走上了芯片的老路。接下来就是各搞各的算力和模型,『科技冷战 2.0』算是坐实了。"
-            },
-            {
-              "who": "馆员",
-              "text": "最该担心的是知识基础设施跟着地缘割裂。如果未来不同阵营用不同模型、数据库各成体系,我们的跨境文献获取、AI 工具可用性都会受影响。机构得提前想『某个外部模型断供了,工作流怎么切换』。"
-            },
-            {
-              "who": "创业者",
-              "text": "国家级长钱砸基建,对本土做应用层的是利好——算力和数据中心便宜了、稳了,我们就能放心搭产品。但也别盲目乐观,定向资金容易堆出重复建设和闲置算力,效率未必跟得上市场化投入。"
-            },
-            {
-              "who": "学界",
-              "text": "那句『早于 2027 Q1 追平 Fable 5』是典型的竞赛喊话,听听就好。真实差距要用可复现的能力评测来说话,而不是 CEO 的时间表。封锁会不会反而倒逼出更强的本土自主路线,才是值得长期观察的研究问题。"
             }
           ]
         }
@@ -1661,127 +1656,127 @@
     "sports": {
       "items": [
         {
-          "title_zh": "巴西补时绝杀日本，惊险晋级16强",
-          "eng": "Brazil into last 16 as Martinelli strikes in stoppage time to break Japan hearts",
-          "summary": "巴西在世界杯1/16决赛中凭借马丁内利的补时进球2-1逆转日本，惊险晋级。",
-          "source": "Guardian Football",
+          "title_zh": "巴西险胜日本，安切洛蒂的“狡猾”战术再显神威",
+          "eng": "45 minutes from Brazil 'humiliation' - but 'Crafty Carlo' does it again",
+          "summary": "巴西在世界杯32强赛中一度落后日本，但最终凭借马丁内利的补时绝杀2-1逆转晋级。安切洛蒂的战术再次奏效。",
+          "source": "BBC Football",
           "published": "2026-06-29",
-          "url": "https://www.theguardian.com/football/2026/jun/29/brazil-japan-world-cup-2026-last-32-match-report",
-          "overview": "巴西在1/16决赛中一度0-1落后日本，但最终凭借马丁内利在伤停补时的进球2-1逆转取胜。巴西队全场表现并不出色，但安切洛蒂的战术再次奏效：保持比赛悬念，等待对手犯错或球星闪光。日本队上半场领先，但未能守住优势。巴西晋级后将在1/8决赛对阵德国与巴拉圭的胜者。",
-          "analysis": "巴西队状态起伏不定，但安切洛蒂的实用主义让他们继续前进。日本队虽败犹荣，展现了亚洲足球的竞争力。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c17yzyy8ldko?at_medium=RSS&at_campaign=rss",
+          "overview": "巴西在休斯顿的上半场表现糟糕，0-1落后日本，面临提前出局的危机。但安切洛蒂的球队在下半场找回状态，最终由马丁内利在补时阶段打入制胜球，以2-1获胜晋级16强。这是巴西连续第二场在表现不佳的情况下赢球，安切洛蒂的“先稳住再爆发”策略再次成功。",
+          "analysis": "巴西的慢热问题令人担忧，但安切洛蒂的临场调整能力是球队的定心丸。如果巴西想走得更远，必须尽快解决进攻效率低下的问题。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "巴西踢得并不好，但这就是世界杯，赢球才是硬道理。"
+              "text": "巴西踢得真难看，但安切洛蒂就是有办法赢球，这就是冠军相？"
             },
             {
-              "who": "解说员",
-              "text": "马丁内利的绝杀拯救了巴西，但球队需要尽快提升表现。"
+              "who": "解说",
+              "text": "马丁内利的绝杀救了巴西，但这样的表现很难让人信服他们是夺冠热门。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德国对阵巴拉圭：世界杯1/16决赛直播",
-          "eng": "Germany v Paraguay: World Cup 2026 last 32 – live",
-          "summary": "德国与巴拉圭在世界杯1/16决赛中交锋，争夺16强席位。",
-          "source": "Guardian Football",
+          "title_zh": "恩佐·马雷斯卡接替瓜迪奥拉，曼城球迷能期待什么？",
+          "eng": "Why Maresca? What Man City fans can expect from Guardiola's successor",
+          "summary": "曼城选择恩佐·马雷斯卡作为瓜迪奥拉的继任者，分析他的执教风格和可能带来的变化。",
+          "source": "BBC Football",
           "published": "2026-06-29",
-          "url": "https://www.theguardian.com/football/live/2026/jun/29/germany-v-paraguay-world-cup-2026-last-32-live",
-          "overview": "德国与巴拉圭在1/16决赛中相遇。德国队小组赛表现稳健，而巴拉圭则凭借顽强的防守晋级。比赛在亚特兰大进行，双方都渴望晋级。德国队拥有强大的中场控制力，巴拉圭则依赖反击和定位球。",
-          "analysis": "德国队是热门，但巴拉圭的防守韧性不容小觑。比赛可能陷入僵局，德国需要耐心寻找机会。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2k248wwk74o?at_medium=RSS&at_campaign=rss",
+          "overview": "瓜迪奥拉在曼城执教十年后离任，俱乐部选择了他的前助手恩佐·马雷斯卡接替。马雷斯卡曾在帕尔马和莱斯特城执教，以传控足球为基础，但更注重直接进攻。他面临巨大挑战，需要延续瓜迪奥拉的辉煌战绩，同时建立自己的风格。",
+          "analysis": "马雷斯卡熟悉曼城体系，但独立执教经验有限。他能否在高压环境下保持球队竞争力，将是关键看点。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "德国队应该能赢，但巴拉圭不好对付。"
+              "text": "马雷斯卡在莱斯特城干得不错，但曼城是另一个级别，希望他能顶住压力。"
             },
             {
-              "who": "战术分析师",
-              "text": "德国需要利用边路宽度，巴拉圭的密集防守很难打破。"
+              "who": "解说",
+              "text": "曼城选择马雷斯卡是冒险也是传承，他需要尽快证明自己不是瓜迪奥拉的影子。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "马杜埃克：英格兰需警惕刚果（金）的挑战",
-          "eng": "Fluency the key for Noni Madueke before England’s ‘difficult’ DR Congo test",
-          "summary": "英格兰边锋马杜埃克警告球队，刚果（金）在1/16决赛中将是难缠的对手。",
-          "source": "Guardian Football",
-          "published": "2026-06-29",
-          "url": "https://www.theguardian.com/football/2026/jun/29/noni-madueke-england-democratic-republic-congo-world-cup-2026",
-          "overview": "英格兰将在1/16决赛中对阵刚果（金）。马杜埃克表示，球队需要提升进攻流畅度，因为刚果（金）会采取类似加纳的防守反击战术。英格兰在小组赛0-0战平加纳，进攻端表现不佳。马杜埃克还透露球队练习了点球，以防进入点球大战。",
-          "analysis": "英格兰进攻乏力的问题需要解决，刚果（金）的防守反击可能制造麻烦。索斯盖特需要找到破密集防守的办法。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "英格兰进攻太慢，需要加快节奏。"
-            },
-            {
-              "who": "解说员",
-              "text": "马杜埃克说得对，刚果（金）不好对付，英格兰必须提高效率。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德尚：法国队保持攻击性，迎战瑞典",
-          "eng": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
-          "summary": "法国主帅德尚表示球队不会改变攻击性打法，备战与瑞典的1/16决赛。",
-          "source": "Guardian Football",
-          "published": "2026-06-29",
-          "url": "https://www.theguardian.com/football/2026/jun/29/didier-deschamps-france-sweden-world-cup-2026-round-of-32",
-          "overview": "法国将在1/16决赛中对阵瑞典。德尚强调球队会保持攻击性，称法国有“制造危险的能力”。他此前因母亲去世短暂离队，现已回归。法国队被视为夺冠热门，但瑞典队防守稳固，可能给法国制造麻烦。",
-          "analysis": "法国队攻击线豪华，但瑞典的防守组织严密。德尚需要平衡进攻与防守，避免被反击。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "法国队攻击力强，但瑞典不好啃。"
-            },
-            {
-              "who": "战术分析师",
-              "text": "法国需要警惕瑞典的定位球，这是瑞典的主要得分手段。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "图赫尔仍在寻找边路解决方案——希勒点评",
+          "title_zh": "希勒：图赫尔仍在寻找边路解决方案，英格兰阵容未定",
           "eng": "How Tuchel is still searching for solutions out wide - Shearer",
-          "summary": "阿兰·希勒分析英格兰队边路问题，认为图赫尔尚未找到稳定阵容。",
+          "summary": "英格兰前队长阿兰·希勒分析图赫尔在世界杯上的边路用人问题，认为球队仍有积极因素但阵容不稳。",
           "source": "BBC Football",
           "published": "2026-06-29",
           "url": "https://www.bbc.co.uk/sport/football/articles/cqj1g9egd80o?at_medium=RSS&at_campaign=rss",
-          "overview": "前英格兰队长阿兰·希勒指出，英格兰队在本届世界杯上有许多积极因素，但阵容不稳定仍是问题。图赫尔在边路位置仍在尝试不同组合，尚未找到最佳方案。希勒认为，英格兰需要尽快确定主力阵容，以应对淘汰赛的挑战。",
-          "analysis": "英格兰边路进攻缺乏锐利度，图赫尔需要做出选择。希勒的观点反映了球迷的担忧：阵容轮换过多可能影响默契。",
+          "overview": "希勒指出，英格兰在世界杯小组赛阶段边路进攻缺乏威胁，图赫尔仍在试验不同组合。尽管球队整体表现有亮点，但首发阵容尚未固定，这可能是隐患。英格兰即将在32强赛对阵刚果民主共和国，图赫尔需要尽快确定最佳配置。",
+          "analysis": "英格兰的边路问题可能成为淘汰赛的致命弱点。图赫尔必须做出果断选择，否则面对强敌时难以突破。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "希勒说得对，英格兰边路一直有问题。"
+              "text": "希勒说得对，英格兰边路踢得太死板，萨卡和福登应该同时上。"
             },
             {
-              "who": "解说员",
-              "text": "图赫尔还在试阵，但淘汰赛没有太多试错空间。"
+              "who": "解说",
+              "text": "图赫尔还在试阵，但淘汰赛没有容错空间，他得赶紧定下来。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "世界杯点球大战制胜秘诀分析",
+          "title_zh": "世界杯点球大战制胜秘诀：历史数据揭示规律",
           "eng": "How to win a World Cup penalty shootout",
-          "summary": "BBC分析历届世界杯点球大战数据，总结获胜关键因素。",
+          "summary": "通过分析历届世界杯点球大战数据，总结罚球策略和心理因素对胜负的影响。",
           "source": "BBC Football",
           "published": "2026-06-28",
           "url": "https://www.bbc.co.uk/sport/football/articles/cd9px47g8jlo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC通过分析历届世界杯点球大战的所有罚球，总结出获胜的关键因素：心理素质、准备工作和门将的预判。数据显示，先罚球队胜率略高，而门将的扑救成功率在近年有所提升。文章还提到，球队在点球大战前的心理辅导和模拟训练至关重要。",
-          "analysis": "点球大战是世界杯淘汰赛的常见结局，心理因素往往决定胜负。英格兰等球队已加强点球训练，但历史战绩仍不理想。",
+          "overview": "文章回顾了世界杯历史上所有点球大战的数据，发现先罚球队胜率略高，而门将的预判和球员的心理素质至关重要。此外，特定罚球方向（如中路）的成功率较低，但出其不意的选择有时更有效。",
+          "analysis": "点球大战是心理战，球队需要在赛前充分准备，包括模拟压力环境。英格兰等历史战绩不佳的球队尤其需要重视。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "点球大战太紧张了，心理素质最重要。"
+              "text": "数据很有用，但点球还是看临场心态，英格兰得好好练练。"
             },
             {
-              "who": "教练",
-              "text": "数据很有用，但点球最终还是看球员的临场发挥。"
+              "who": "解说",
+              "text": "这些规律能帮助教练制定策略，但执行才是关键。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "苏格兰球迷呼唤莫耶斯或波斯特科格鲁，但现实残酷",
+          "eng": "Harsh reality behind Scotland fans' calls for Moyes & Postecoglou",
+          "summary": "部分苏格兰球迷希望莫耶斯或波斯特科格鲁接替克拉克执教国家队，但两人是否现实？",
+          "source": "BBC Football",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ce8kew413jjo?at_medium=RSS&at_campaign=rss",
+          "overview": "苏格兰在世界杯小组赛出局后，球迷呼吁换帅，莫耶斯和波斯特科格鲁是热门人选。但两人目前都有俱乐部工作，且薪资要求高，苏格兰足协难以负担。此外，两人是否愿意接手国家队也是未知数。",
+          "analysis": "苏格兰换帅面临现实障碍，与其追求大牌，不如考虑务实的选择。克拉克的执教成绩其实并不差，但球迷的耐心有限。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "莫耶斯和波斯特科格鲁确实好，但苏格兰请不起，还是现实点吧。"
+            },
+            {
+              "who": "解说",
+              "text": "苏格兰足协需要长远规划，而不是被舆论左右。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "法国主帅德尚：对阵瑞典要保持“制造危险”的能力",
+          "eng": "Deschamps hopes France’s ‘capacity for danger’ continues in Sweden World Cup test",
+          "summary": "法国在32强赛对阵瑞典前，德尚强调球队不会改变进攻风格，并保持自信。",
+          "source": "Guardian Football",
+          "published": "2026-06-29",
+          "url": "https://www.theguardian.com/football/2026/jun/29/didier-deschamps-france-sweden-world-cup-2026-round-of-32",
+          "overview": "德尚在赛前表示，法国队拥有“制造危险”的能力，并希望在对阵瑞典的比赛中继续保持。他承认球队被视为夺冠热门，但强调不会因此改变进攻策略。法国在小组赛表现出色，德尚希望球队延续状态。",
+          "analysis": "法国是本届世界杯最大热门之一，但淘汰赛需要更稳定的发挥。瑞典防守顽强，法国需要耐心寻找机会。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "法国进攻火力十足，但瑞典不好啃，德尚得小心。"
+            },
+            {
+              "who": "解说",
+              "text": "德尚的自信有道理，但淘汰赛一场定胜负，任何疏忽都可能致命。"
             }
           ],
           "region": "足球·世界杯"
@@ -1789,16 +1784,16 @@
         {
           "title_zh": "乒乓球裁判富特晋升世界精英行列",
           "eng": "Table tennis umpire Foote promoted to world's elite",
-          "summary": "英国乒乓球裁判本·富特成为全球仅25名精英裁判之一。",
+          "summary": "英国乒乓球裁判本·富特成为全球仅25位精英级裁判之一。",
           "source": "BBC Table Tennis",
           "published": "2026-05-28",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/cgkp65m03nxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国乒乓球裁判本·富特晋升为世界精英裁判，全球仅有25人达到这一级别。富特此前已执法多项国际赛事，此次晋升是对其专业能力的最高认可。",
-          "analysis": "富特的晋升体现了英国在乒乓球裁判领域的实力，也为年轻裁判树立了榜样。精英裁判的稀缺性意味着富特将执法更多顶级赛事。",
+          "overview": "英国乒乓球裁判本·富特（Ben Foote）成功晋升为世界精英级裁判，全球仅有25人获此殊荣。这一级别代表了乒乓球裁判领域的最高水平，富特凭借多年执法经验和专业能力获得国际乒联认可。他的晋升不仅是个人的成就，也提升了英国在乒乓球裁判界的地位。",
+          "analysis": "富特的晋升反映了英国乒乓球裁判水平的提升，未来他可能执法更多顶级赛事。对于年轻裁判而言，这是一个激励。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "裁判也是比赛的一部分，富特能进精英行列说明英国裁判水平很高。"
+              "text": "富特能进入精英行列，说明英国裁判实力不容小觑，期待他在大赛中的表现。"
             }
           ],
           "region": "乒乓球"
@@ -1810,67 +1805,88 @@
           "source": "BBC Table Tennis",
           "published": "2026-05-08",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c0r250zzw08o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年世界乒乓球团体锦标赛半决赛和决赛将于本周末在伦敦举行，BBC提供全程直播。这是世乒赛团体赛首次在伦敦举办，吸引了全球目光。",
-          "analysis": "主场作战的英国队有望取得佳绩，直播将吸引更多观众关注乒乓球。伦敦作为举办地，也展现了英国对乒乓球运动的重视。",
+          "overview": "2026年世界乒乓球团体锦标赛的半决赛和决赛将于本周末在伦敦举行，BBC将提供全程直播。这是世乒赛团体赛首次在伦敦举办，吸引了全球顶尖队伍参赛。观众可以通过BBC平台观看精彩对决，包括男团和女团的冠军争夺战。",
+          "analysis": "世乒赛团体赛在伦敦举办，对英国乒乓球发展是重大利好。BBC直播将提升赛事关注度，可能吸引更多英国观众参与乒乓球运动。",
           "social": [
             {
               "who": "解说员",
-              "text": "世乒赛在伦敦举办是英国乒乓球的盛事，BBC直播能让更多人感受比赛魅力。"
+              "text": "伦敦的观众有福了，能在现场见证世界顶级对决，BBC直播也让全球球迷不错过精彩。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "威尔士女队世乒赛团体赛止步32强",
+          "title_zh": "威尔士女团世乒赛32强不敌中国香港",
           "eng": "Wales beaten by Hong Kong in World Team Champs last 32",
-          "summary": "威尔士女队2026年世乒赛团体赛32强战2-3不敌中国香港，遗憾出局。",
+          "summary": "2026年世乒赛团体赛，威尔士女团在32强赛中以2-3惜败中国香港，止步首轮。",
           "source": "BBC Table Tennis",
           "published": "2026-05-04",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/czd24zv0ql4o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年世界乒乓球团体锦标赛32强战中，威尔士女队以2-3惜败于中国香港队，结束了本次世乒赛之旅。比赛过程激烈，威尔士队一度领先但最终被逆转。",
-          "analysis": "威尔士队虽败犹荣，展现了顽强斗志。中国香港队经验更丰富，关键分处理更胜一筹。威尔士队未来需加强关键球能力。",
+          "overview": "在2026年世界乒乓球团体锦标赛决赛阶段，威尔士女团在32强赛中以2-3不敌中国香港队，遗憾出局。比赛中威尔士队一度领先，但最终被对手逆转。中国香港队凭借更稳定的发挥晋级下一轮。威尔士队虽败犹荣，展现了顽强斗志。",
+          "analysis": "威尔士女团虽实力不及对手，但拼至决胜局，体现了进步。中国香港队经验更丰富，关键分处理更果断。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "威尔士队打得不错，但香港队更稳定。希望威尔士年轻球员能积累经验。"
+              "text": "威尔士队打得不错，但香港队更老练，可惜了。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "乒乓球俱乐部提供医疗服务",
+          "title_zh": "乒乓球俱乐部引入医疗服务：50岁以上黑人男性论坛",
           "eng": "The table tennis club where you can see a doctor",
-          "summary": "50岁以上黑人男性论坛在10个地点运营乒乓球俱乐部，并计划扩展。",
+          "summary": "英国一家乒乓球俱乐部为50岁以上黑人男性提供医疗咨询，并计划扩展至10个地点。",
           "source": "BBC Table Tennis",
           "published": "2026-06-01",
           "url": "https://www.bbc.co.uk/news/articles/clyp8rr0gk0o?at_medium=RSS&at_campaign=rss",
-          "overview": "一个名为“50岁以上黑人男性论坛”的组织在10个地点运营乒乓球俱乐部，提供医疗咨询等服务，旨在促进健康社交。该组织计划进一步扩大规模。",
-          "analysis": "乒乓球与医疗结合的模式创新，有助于吸引更多中老年群体参与运动。这种社区项目对提升公共健康有积极意义。",
+          "overview": "英国一家乒乓球俱乐部创新性地将医疗健康服务融入运动场景，专门为50岁以上的黑人男性提供健康检查和咨询。该项目名为“50岁以上黑人男性论坛”，目前已在10个地点运营，并计划进一步扩展。通过乒乓球运动结合医疗支持，旨在改善该群体的健康状况和社交生活。",
+          "analysis": "这种体育与健康结合的模式很有社会意义，尤其针对特定群体。乒乓球作为低门槛运动，适合中老年人参与，医疗服务的加入能吸引更多人。",
           "social": [
             {
-              "who": "社区工作者",
-              "text": "乒乓球不仅能锻炼身体，还能提供医疗支持，这种模式值得推广。"
+              "who": "社区教练",
+              "text": "乒乓球不仅是运动，还能成为健康入口，这个项目值得推广。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "辛纳五盘大战险胜凯茨曼诺维奇，卫冕首秀惊险过关",
-          "eng": "Defending champion Sinner survives five-set scare",
-          "summary": "温网男单卫冕冠军辛纳在先失一盘的情况下，经过五盘苦战以4-6, 6-3, 6-7(6), 6-2, 6-3逆转凯茨曼诺维奇，艰难晋级第二轮。",
-          "source": "BBC Tennis",
+          "title_zh": "巴西2-1逆转日本，安切洛蒂冷静指挥晋级32强",
+          "eng": "45 minutes from Brazil 'humiliation' - but 'Crafty Carlo' does it again",
+          "summary": "巴西在世界杯32强赛上半场落后日本，但下半场连入两球逆转取胜，安切洛蒂的临场调整再次奏效。",
+          "source": "BBC Sport",
           "published": "2026-06-29",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckg0nngzxvko?at_medium=RSS&at_campaign=rss",
-          "overview": "世界第一辛纳在温网首轮遭遇严峻考验，面对塞尔维亚选手凯茨曼诺维奇，他一度在第三盘抢七失利后陷入被动。但辛纳及时调整，凭借强大的底线火力连扳两盘，最终以3-2获胜。比赛中辛纳还曾摔倒擦伤脚部，但坚持完赛。这场胜利也让他暂时摆脱了此前五盘战绩不佳的质疑。",
-          "analysis": "辛纳的意志力经受住了考验，但慢热和体能问题仍是隐患。卫冕之路从首轮就如此艰难，或许预示着本届温网男单竞争将异常激烈。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c17yzyy8ldko?at_medium=RSS&at_campaign=rss",
+          "overview": "巴西在休斯顿进行的世界杯32强赛中一度面临出局危机，半场0-1落后日本。但安切洛蒂在中场保持冷静，下半场巴西连进两球，最终2-1获胜晋级。安切洛蒂赛后表示从未怀疑球队能扳回比赛，并称这是巴西“最完整的比赛”。日本主帅森保一承认球队需要提高。",
+          "analysis": "安切洛蒂再次展现“狡猾卡洛”的特质，在逆境中不慌不乱，通过战术调整扭转战局。巴西的韧性和深度在淘汰赛阶段将至关重要。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "辛纳这场赢得真不容易，五盘大战太刺激了，希望他后面能调整好状态。"
+              "text": "安切洛蒂的临场指挥真是大师级，巴西下半场像换了一支球队。"
             },
             {
-              "who": "网球评论员",
-              "text": "辛纳展现了冠军的韧性，但面对排名较低的对手打得如此纠结，说明他还没有达到最佳状态。"
+              "who": "解说员",
+              "text": "日本队上半场表现惊艳，但体能下降后无法抵挡巴西的攻势。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "辛纳苦战五盘险胜凯茨曼诺维奇，卫冕首秀惊险过关",
+          "eng": "Sinner overcomes rust and five-set demons to edge past Kecmanovic in Wimbledon opener",
+          "summary": "世界第一辛纳在温网首轮经历五盘大战，以4-6, 6-3, 6-7(6), 6-2, 6-3逆转凯茨曼诺维奇，克服了此前五盘战绩不佳的质疑。",
+          "source": "Guardian Sport",
+          "published": "2026-06-29",
+          "url": "https://www.theguardian.com/sport/2026/jun/29/sinner-overcomes-rust-and-five-set-demons-to-edge-past-kecmanovic-in-wimbledon-opener",
+          "overview": "卫冕冠军辛纳在温网中央球场首轮遭遇苦战，先丢一盘后扳平，第三盘抢七失利，但最终连赢两盘以3-2获胜。比赛中辛纳一度摔倒并擦伤脚部，但他展现了顽强的意志力。此前他的五盘战绩仅为6胜12负，备受质疑。",
+          "analysis": "辛纳用一场硬仗回应了外界对他五盘能力的质疑，但状态起伏明显，后续需要提升稳定性。卫冕之路从不是坦途。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "辛纳终于赢下五盘大战了！这对他的信心是巨大提升。"
+            },
+            {
+              "who": "解说员",
+              "text": "凯茨曼诺维奇打得非常出色，但辛纳在关键分上的处理更胜一筹。"
             }
           ],
           "region": "综合"
@@ -1878,146 +1894,125 @@
         {
           "title_zh": "莫兰特被交易至开拓者，灰熊开启重建",
           "eng": "Grizzlies reportedly trade Ja Morant to Trail Blazers in blockbuster deal",
-          "summary": "据多家媒体报道，灰熊将当家球星莫兰特交易至开拓者，换来格兰特和穆雷。这笔重磅交易标志着灰熊彻底重建。",
+          "summary": "据多家媒体报道，灰熊将贾·莫兰特交易至开拓者，换来杰拉米·格兰特和克里斯·穆雷，莫兰特在灰熊的动荡时期就此结束。",
           "source": "Guardian Sport",
           "published": "2026-06-29",
           "url": "https://www.theguardian.com/sport/2026/jun/29/ja-morant-trade-portland-trail-blazers-memphis-grizzlies",
-          "overview": "孟菲斯灰熊与波特兰开拓者达成一笔重磅交易，将贾·莫兰特送至开拓者，换回杰拉米·格兰特和克里斯·穆雷。这笔交易仍需NBA联盟批准和体检通过。莫兰特在灰熊的生涯充满争议，此次交易标志着他动荡的灰熊时期正式结束。开拓者则得到一位全明星后卫，有望进一步补强阵容。",
-          "analysis": "莫兰特的天赋毋庸置疑，但场外问题让灰熊最终决定放弃他。开拓者冒险一搏，若能驾驭莫兰特，将有望重返争冠行列；反之则可能陷入更深的泥潭。",
+          "overview": "NBA重磅交易：灰熊将当家球星贾·莫兰特送至开拓者，换取杰拉米·格兰特和克里斯·穆雷。交易尚需联盟批准和体检。莫兰特在灰熊期间曾因场外事件多次停赛，此次交易标志着灰熊彻底重建。开拓者则得到一位全明星后卫，可能继续寻求大交易。",
+          "analysis": "莫兰特的天赋毋庸置疑，但场外问题让灰熊最终选择放手。开拓者赌他的潜力，而灰熊获得即战力球员和未来资产。这笔交易将改变西部格局。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "莫兰特终于走了，灰熊重建是明智之举，他的场外麻烦太多了。"
+              "text": "莫兰特终于离开灰熊了，希望他在开拓者能重新开始。"
             },
             {
-              "who": "篮球分析师",
-              "text": "开拓者这笔交易风险很大，但莫兰特的能力值得赌一把，关键是球队文化能否约束他。"
+              "who": "解说员",
+              "text": "灰熊得到格兰特和穆雷，阵容更加均衡，但失去莫兰特意味着重建。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "巴西2-1逆转日本，安切洛蒂保持冷静",
-          "eng": "‘The right path’: Carlo Ancelotti keeps cool after Brazil survive Japan scare in last 32",
-          "summary": "世界杯1/16决赛，巴西在先失一球的情况下2-1逆转日本。安切洛蒂赛后表示从未怀疑球队能逆转，并称球队正走在正确道路上。",
-          "source": "Guardian Sport",
-          "published": "2026-06-29",
-          "url": "https://www.theguardian.com/football/2026/jun/29/the-right-path-carlo-ancelotti-keeps-cool-as-brazil-come-from-behind-to-beat-japan",
-          "overview": "巴西队在世界杯1/16决赛中遭遇日本队的顽强抵抗，上半场先丢一球。但下半场巴西队加强进攻，最终连进两球完成逆转，以2-1获胜晋级16强。安切洛蒂在半场休息时告诉球员保持耐心，坚信球队会进球。日本队主帅森保一则表示球队需要提高。",
-          "analysis": "巴西队展现了强队底蕴，但面对日本队一度陷入困境，说明球队的慢热问题仍需解决。安切洛蒂的沉稳指挥是球队逆转的关键，但淘汰赛容错率更低，巴西需要更快进入状态。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "巴西这场踢得有点悬，幸好下半场醒了，安切洛蒂的调整很及时。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "日本队虽败犹荣，他们给巴西制造了巨大麻烦。巴西的进攻还需要更犀利，否则后面很难走远。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英国选手温网首日10人出局，诺里爆冷一轮游",
-          "eng": "Stunned Norrie among 10 Britons to lose on day one",
-          "summary": "温网首个比赛日，英国选手遭遇滑铁卢，包括诺里在内的10名本土球员在首轮出局，令主场球迷大失所望。",
-          "source": "BBC Sport",
-          "published": "2026-06-29",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cyv05122mr5o?at_medium=RSS&at_campaign=rss",
-          "overview": "温网首日，英国军团表现惨淡，共有10位本土选手在单打首轮告负。其中男单名将卡梅隆·诺里爆冷输给排名远低于自己的对手，成为当日最大冷门。其他英国选手也大多未能通过首轮关，只有少数几人晋级。这无疑是近年来英国网球在温网最糟糕的开局之一。",
-          "analysis": "英国选手在主场压力下发挥失常，诺里的出局尤其令人意外。这暴露出英国网球在顶尖选手之外的厚度不足，年轻选手的成长速度未能达到预期。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "太失望了，诺里居然一轮游，英国网球这是怎么了？"
-            },
-            {
-              "who": "网球评论员",
-              "text": "英国选手在温网首日集体低迷，心理压力可能是主因，但技术层面也需要反思。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "大坂直美温网穿和服致敬日本，兼顾全白着装规定",
-          "eng": "Osaka 'pays love and respect to Japan' in Wimbledon kimono",
-          "summary": "大坂直美在温网首轮比赛中身穿特别设计的和服风格网球裙，既符合全白着装规定，又表达了对日本文化的热爱与尊重。",
-          "source": "BBC Sport",
-          "published": "2026-06-29",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cd0mymk9d70o?at_medium=RSS&at_campaign=rss",
-          "overview": "大坂直美在温网首轮比赛中身着特别定制的白色网球裙，其设计灵感源自日本传统和服，在严格遵守温网全白着装规定的同时，巧妙融入了日本文化元素。大坂表示这是她对日本的爱与尊重。她的服装在社交媒体上引发热议，许多球迷称赞其创意与美感。",
-          "analysis": "大坂直美不仅以球技闻名，更以时尚品味著称。这次温网着装既遵守了规则，又展现了个人风格和文化认同，堪称体育与时尚结合的典范。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "大坂的裙子太美了，既优雅又符合规定，这才是真正的时尚！"
-            },
-            {
-              "who": "时尚评论员",
-              "text": "大坂直美再次证明她是网球界的时尚先锋，这套和风设计既尊重传统又充满新意。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "雄狮队裁掉角卫阿诺德，因其涉嫌策划绑架殴打",
+          "title_zh": "雄狮裁掉角卫阿诺德，其被指控策划绑架殴打",
           "eng": "Lions release Terrion Arnold after allegations player orchestrated kidnappings and beatings",
-          "summary": "底特律雄狮队宣布裁掉角卫特雷恩·阿诺德，此前他因涉嫌策划绑架并殴打三名男子而被捕，保释金定为100万美元。",
+          "summary": "底特律雄狮队裁掉角卫泰里昂·阿诺德，此前他因涉嫌策划绑架并殴打三名男子被捕，保释金定为100万美元。",
           "source": "Guardian Sport",
           "published": "2026-06-29",
           "url": "https://www.theguardian.com/sport/2026/jun/29/lions-release-terrion-arnold-after-allegations-player-orchestrated-kidnappings-and-beatings",
-          "overview": "底特律雄狮队于周一宣布裁掉角卫特雷恩·阿诺德，几天前他因涉嫌策划绑架和殴打三名男子而被捕。检方称阿诺德错误地怀疑这些男子偷了他的奢侈品和10万美元现金。佛罗里达州法官将他的保释金定为100万美元。雄狮队未给出具体裁人理由，但声明与逮捕发生在同一天。",
-          "analysis": "这起事件严重损害了NFL的形象，雄狮队迅速切割是明智之举。阿诺德的行为若属实，将面临严重的法律后果，其职业生涯也可能就此终结。",
+          "overview": "底特律雄狮队宣布裁掉角卫泰里昂·阿诺德，此前他因涉嫌策划绑架并殴打三名男子在佛罗里达州被捕。检察官称阿诺德错误怀疑这三名男子偷了他的奢侈品和10万美元现金。阿诺德的保释金定为100万美元，雄狮队未说明裁人原因，但公告与法庭听证同日。",
+          "analysis": "这起案件性质恶劣，雄狮迅速切割以维护球队形象。阿诺德的职业生涯面临严重危机，法律后果将决定他的未来。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "太恶劣了，这种球员就该直接开除，NFL不能容忍暴力行为。"
+              "text": "太震惊了，阿诺德居然做出这种事，雄狮裁得对。"
             },
             {
-              "who": "法律分析师",
-              "text": "阿诺德面临的指控非常严重，如果罪名成立，他可能面临长期监禁。"
+              "who": "解说员",
+              "text": "NFL对场外暴力零容忍，阿诺德恐怕很难再回到联盟。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "美国队备战世界杯：不惧波黑惊喜，专注自身",
+          "title_zh": "温网首日：德约苦战过关，诺里等10位英国选手出局",
+          "eng": "Stunned Norrie among 10 Britons to lose on day one",
+          "summary": "温网首日英国选手遭遇重创，10人出局，包括头号男单诺里被爆冷。德约科维奇四盘击败吴易昺，但坦言状态并非最佳。",
+          "source": "BBC Tennis",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cyv05122mr5o?at_medium=RSS&at_campaign=rss",
+          "overview": "温网首日对英国选手来说是灾难性的一天，10名英国选手在单打首轮出局，包括男单头号种子卡梅隆·诺里，他意外输给排名较低的对手。德约科维奇以3-1击败中国选手吴易昺，开启冲击第25座大满贯的征程，但赛后表示“开心但不新鲜”。大坂直美穿着和风白色战袍亮相，向日本致敬。",
+          "analysis": "英国网球在温网首日遭遇滑铁卢，本土选手压力巨大。德约虽过关但状态一般，后续需提升。大坂直美的着装成为亮点，但比赛表现更受关注。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "诺里出局太意外了，英国男单今年又没希望了。"
+            },
+            {
+              "who": "解说员",
+              "text": "德约的移动和击球感觉还没到最佳，但赢球就是硬道理。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "网球伤病危机？温网前多位球星退赛引发担忧",
+          "eng": "Is tennis' relentless nature causing injury crisis?",
+          "summary": "英国球星德雷珀和拉杜卡努因伤退出温网，BBC分析为何顶级球员伤病频发，赛程密集可能是主因。",
+          "source": "BBC Sport",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c3eyd24pk75o?at_medium=RSS&at_campaign=rss",
+          "overview": "温网开赛前，英国选手杰克·德雷珀和艾玛·拉杜卡努因伤退赛，引发对网球运动伤病危机的讨论。BBC分析认为，全年无休的赛程、硬地草地球场转换以及比赛强度增加，导致球员身体不堪重负。多位顶尖选手近期也遭遇伤病困扰。",
+          "analysis": "网球赛程过于密集的问题由来已久，但伤病潮愈演愈烈。球员、赛事方和ATP/WTA需要共同寻找解决方案，否则更多天才可能被伤病摧毁。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "拉杜卡努又伤了，她太脆弱了，赛程真的该改革。"
+            },
+            {
+              "who": "解说员",
+              "text": "网球运动的身体消耗被低估了，球员需要更多休息时间。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "美国队备战波黑，里姆称不惧淘汰赛压力",
           "eng": "USA say they are ready for surprises from Bosnia and Herzegovina",
-          "summary": "美国队将在世界杯1/16决赛中对阵波黑。后卫里姆表示球队不惧对手的意外战术，已做好充分准备。",
+          "summary": "美国队将在世界杯32强赛对阵波黑，后卫里姆表示球队已做好准备应对任何意外，不因淘汰赛而紧张。",
           "source": "Guardian Sport",
           "published": "2026-06-29",
           "url": "https://www.theguardian.com/sport/2026/jun/29/usmnt-bosnia-herzegovina-world-cup-round-of-32-preview",
-          "overview": "美国队即将在世界杯1/16决赛中迎战波黑。后卫蒂姆·里姆表示，球队不会因为进入淘汰赛而感到额外压力，他们已经准备好应对波黑可能带来的任何惊喜。里姆认为，世界杯新赛制下的32强淘汰赛阶段并没有让球队感到紧张，全队心态平稳，专注于发挥自身水平。",
-          "analysis": "美国队小组赛表现稳健，面对实力稍逊的波黑，他们需要保持专注，避免轻敌。淘汰赛一场定胜负，任何意外都可能发生，美国队必须做好万全准备。",
+          "overview": "美国队即将在世界杯32强赛中对阵波黑。后卫蒂姆·里姆表示，球队没有因为进入淘汰赛而感受到额外压力，他们已准备好应对波黑的任何战术变化。美国队小组赛表现平稳，而波黑作为黑马不容小觑。",
+          "analysis": "美国队心态放松是好事，但波黑战术多变，可能制造麻烦。美国队需保持专注，避免轻敌。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "美国队心态不错，但波黑也不是软柿子，希望他们能顺利晋级。"
+              "text": "美国队小组赛踢得不错，但淘汰赛是另一回事，希望他们能走远。"
             },
             {
-              "who": "足球评论员",
-              "text": "美国队需要警惕波黑的反击，他们的防守稳定性将决定比赛走向。"
+              "who": "解说员",
+              "text": "波黑有实力爆冷，美国队必须从第一分钟就全力以赴。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "国际奥委会宣布为每位奥运选手提供1万美元补助金",
-          "eng": "IOC announces new $10,000 grant for Olympians",
-          "summary": "国际奥委会宣布，未来每位参加奥运会的运动员均可申请1万美元补助金，用于支持其训练和参赛。",
-          "source": "BBC Olympics",
-          "published": "2026-06-24",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/c5yzkzr82n1o?at_medium=RSS&at_campaign=rss",
-          "overview": "国际奥委会（IOC）宣布一项新政策：未来每位参加奥运会的运动员都将有资格申请1万美元（约7600英镑）的补助金，用于每届他们参加的奥运会。这笔资金旨在帮助运动员减轻经济负担，更好地备战和参赛。IOC表示，这是对运动员支持计划的一部分，体现了对奥林匹克选手的重视。",
-          "analysis": "这一举措有助于缓解许多运动员面临的经济压力，尤其是来自小国或冷门项目的选手。但1万美元对于高投入的奥运备战来说可能只是杯水车薪，IOC还需探索更多支持方式。",
+          "title_zh": "曼城官宣马雷斯卡接替瓜迪奥拉，球迷期待什么？",
+          "eng": "Why Maresca? What Man City fans can expect from Guardiola's successor",
+          "summary": "瓜迪奥拉离任后，曼城选择恩佐·马雷斯卡作为新帅。BBC分析这位意大利教头将给球队带来什么变化。",
+          "source": "BBC Sport",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2k248wwk74o?at_medium=RSS&at_campaign=rss",
+          "overview": "曼城正式宣布恩佐·马雷斯卡接替佩普·瓜迪奥拉成为新任主教练。马雷斯卡此前在莱斯特城执教表现出色，并曾担任瓜迪奥拉的助教。BBC分析指出，马雷斯卡将延续传控风格，但可能更注重防守稳定性。曼城球迷期待他能保持球队的竞争力。",
+          "analysis": "马雷斯卡是瓜迪奥拉体系的传承者，但独立执教经验有限。曼城阵容强大，但英超竞争激烈，他需要快速证明自己。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "终于有实际支持了，很多运动员确实需要经济帮助，希望这笔钱能真正用到他们身上。"
+              "text": "马雷斯卡在莱斯特城干得不错，但曼城压力更大，希望他能成功。"
             },
             {
-              "who": "体育政策分析师",
-              "text": "IOC的补助金是积极的一步，但金额有限，且申请流程需要简化，确保公平分配。"
+              "who": "解说员",
+              "text": "曼城选择马雷斯卡是延续哲学，但瓜迪奥拉的影子太重，他需要打出自己的烙印。"
             }
           ],
           "region": "综合"
@@ -2037,147 +2032,147 @@
           "eng": "deepseek-ai/DeepSpec",
           "summary": "提供训练和评估投机解码算法的完整代码库，加速大模型推理。",
           "source": "GitHub",
-          "stars": 3688,
+          "stars": 3725,
           "lang": "Python",
           "published": "2026-06-26",
           "url": "https://github.com/deepseek-ai/DeepSpec",
-          "overview": "DeepSpec 是 DeepSeek 开源的投机解码全栈框架，包含训练、评估和推理模块。支持多种投机解码策略，提供标准化基准和工具，帮助研究者快速实验和对比。代码库设计模块化，易于扩展。",
-          "analysis": "投机解码是提升大模型推理速度的关键技术，DeepSpec 填补了该领域缺乏统一训练评估框架的空白，对 AI 推理优化有重要价值。",
+          "overview": "DeepSpec 是 DeepSeek 开源的投机解码全栈框架，包含训练、评估和推理模块。支持多种投机解码策略，提供标准化基准测试，帮助研究者快速验证新算法。代码结构清晰，易于扩展。",
+          "analysis": "投机解码是提升大模型推理吞吐的关键技术，DeepSpec 填补了该领域开源工具链的空白，适合 AI 推理优化研究者。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "终于有标准框架来对比不同投机解码方法了，省去重复造轮子的时间。"
+              "who": "AI 研究员",
+              "text": "终于有一个统一的投机解码框架了，不用再重复造轮子。"
             }
           ]
         },
         {
-          "title_zh": "wloc：修改 Apple 设备网络定位的工具",
+          "title_zh": "wloc：苹果设备网络定位修改工具",
           "eng": "Yu9191/wloc",
-          "summary": "通过修改 Apple 网络定位服务返回坐标，支持 Surge/Quantumult X 等代理工具。",
+          "summary": "修改 Apple 网络定位返回坐标，支持 Surge/Quantumult X/Loon/Stash 及快捷指令。",
           "source": "GitHub",
-          "stars": 1459,
+          "stars": 1462,
           "lang": "JavaScript",
           "published": "2026-06-24",
           "url": "https://github.com/Yu9191/wloc",
-          "overview": "wloc 允许用户自定义 Apple 设备的网络定位，通过快捷指令一键设置/恢复。支持 Surge、Quantumult X、Loon、Stash 等主流代理工具。无需越狱，操作简单。",
-          "analysis": "对于需要修改定位的开发者或普通用户，wloc 提供了便捷的解决方案，且开源透明，安全性有保障。",
+          "overview": "wloc 通过拦截 Apple 的 gs-loc 请求，返回自定义坐标，实现虚拟定位。支持主流代理工具和快捷指令一键设置，无需越狱。适用于位置相关应用测试或隐私保护。",
+          "analysis": "实用性强，解决苹果设备定位修改痛点，社区活跃，适合开发者和普通用户。",
           "social": [
             {
-              "who": "开发者",
-              "text": "配合代理工具使用，定位修改非常方便，代码质量也不错。"
+              "who": "iOS 开发者",
+              "text": "测试位置相关 App 终于不用跑断腿了，一键切换定位太方便。"
             }
           ]
         },
         {
-          "title_zh": "CS-Fundamentals：计算机基础面试准备合集",
+          "title_zh": "CS-Fundamentals：计算机基础面试精选",
           "eng": "Krishnagangwal/CS-Fundamentals",
           "summary": "精选计算机基础知识点，涵盖 DSA、网络、数据库、操作系统、系统设计等。",
           "source": "GitHub",
-          "stars": 943,
+          "stars": 947,
           "lang": "",
           "published": "2026-06-28",
           "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
-          "overview": "该仓库整理了计算机科学核心领域的面试准备资料，包括数据结构与算法、计算机网络、数据库与 SQL、面向对象、操作系统、系统设计及软件工程。内容结构化，适合系统复习。",
-          "analysis": "对于准备技术面试的开发者，这是一份高质量的学习资源，覆盖全面且持续更新。",
+          "overview": "一个精心整理的计算机基础学习资源库，包含数据结构与算法、计算机网络、数据库与 SQL、面向对象、操作系统、系统设计及软件工程等模块。内容结构化，适合求职准备。",
+          "analysis": "面试准备利器，覆盖全面且持续更新，适合计算机学生和转行开发者。",
           "social": [
             {
               "who": "求职者",
-              "text": "知识点整理得很清晰，比零散刷题高效多了。"
+              "text": "这个仓库帮我系统复习了面试重点，强烈推荐。"
             }
           ]
         },
         {
           "title_zh": "theeleven：AI 代理驱动的足球预测市场",
           "eng": "winsznx/theeleven",
-          "summary": "11 个自主 AI 代理在 X Layer 上创建实时足球预测市场，使用 Uniswap v4 和 gasless USDT0 质押。",
+          "summary": "11 个自主 AI 代理在 X Layer 上开设实时足球预测市场，使用 Uniswap v4 和 gasless USDT0。",
           "source": "GitHub",
           "stars": 714,
           "lang": "TypeScript",
           "published": "2026-06-25",
           "url": "https://github.com/winsznx/theeleven",
-          "overview": "theeleven 是一个去中心化应用，由 11 个 AI 代理自动运营足球预测市场。基于 X Layer 区块链，采用自定义 Uniswap v4 hook 实现高效交易，支持无 gas 费的 USDT0 质押。展示了 AI 与 DeFi 的结合。",
-          "analysis": "该项目融合了 AI 代理、区块链和预测市场，创新性强，展示了自主代理在金融场景的潜力。",
+          "overview": "theeleven 是一个基于 AI 代理的预测市场平台，11 个自主代理在 X Layer 区块链上创建足球比赛预测市场。利用 Uniswap v4 自定义 hook 和免 gas 的 USDT0 质押，实现去中心化投注。",
+          "analysis": "结合 AI 代理与 DeFi，创新性强，展示了自主代理在金融场景的应用潜力。",
           "social": [
             {
               "who": "区块链开发者",
-              "text": "AI 代理自动做市的概念很酷，Uniswap v4 hook 的实现值得学习。"
+              "text": "AI 代理+预测市场，这个组合太酷了，值得深入研究。"
             }
           ]
         },
         {
           "title_zh": "awesome-evals：AI 代理评估资源精选",
           "eng": "benchflow-ai/awesome-evals",
-          "summary": "精选构建和评估 AI 代理的最佳资源，包括论文、博客、工具和基准。",
+          "summary": "精选 AI 代理构建与评估的最佳资源，包括论文、博客、工具、基准等。",
           "source": "GitHub",
           "stars": 586,
           "lang": "",
           "published": "2026-06-24",
           "url": "https://github.com/benchflow-ai/awesome-evals",
-          "overview": "该仓库由 BenchFlow 维护，收集了 AI 代理评估领域的优质资源，涵盖论文、博客、演讲、工具和基准测试。内容经过筛选，避免噪音，适合研究者快速入门。",
-          "analysis": "AI 代理评估是当前热点，awesome-evals 提供了系统化的学习路径，对构建可靠代理系统有重要参考价值。",
+          "overview": "由 BenchFlow 维护的 AI 代理评估资源列表，涵盖论文、博客、演讲、工具和基准测试。内容经过筛选，避免冗余，帮助开发者快速了解评估领域。",
+          "analysis": "AI 代理评估是当前热点，该仓库提供高质量资源索引，适合研究者和工程师。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "资源整理得很用心，省去了大量搜索时间。"
+              "who": "AI 工程师",
+              "text": "评估代理一直很头疼，这个列表帮我省了很多搜索时间。"
             }
           ]
         },
         {
-          "title_zh": "pdfx：扩展 PDF 标准，支持多文件存储",
+          "title_zh": "pdfx：多文件合并的 PDF 扩展格式",
           "eng": "AlexandrosGounis/pdfx",
-          "summary": "通过元数据将多个文件存储在一个 PDF 中，扩展传统 PDF 标准。",
+          "summary": "扩展传统 PDF 标准，通过元数据将多个文件存储在一个 PDF 中。",
           "source": "GitHub",
-          "stars": 553,
+          "stars": 555,
           "lang": "TypeScript",
           "published": "2026-06-24",
           "url": "https://github.com/AlexandrosGounis/pdfx",
-          "overview": "pdfx 是一种新的 PDF 扩展格式，允许将多个文件（如图片、文档）嵌入单个 PDF 的元数据中。提供 CLI 和 API 支持，兼容标准 PDF 阅读器。适用于归档和分发。",
-          "analysis": "解决了多文件打包的痛点，创新性地利用 PDF 元数据，实用性强。",
+          "overview": "pdfx 是一种新的 PDF 扩展格式，允许将多个文件（如图片、文档）嵌入到一个 PDF 文件的元数据中。提供 TypeScript 实现，支持创建和提取。适用于文档归档和分发。",
+          "analysis": "解决多文件打包问题，创新且实用，适合需要整合多种资源的场景。",
           "social": [
             {
-              "who": "开发者",
-              "text": "想法很巧妙，以后发报告可以附带所有源文件了。"
+              "who": "文档工作者",
+              "text": "终于不用压缩包了，一个 PDF 搞定所有附件。"
             }
           ]
         },
         {
-          "title_zh": "torlink：终端中的种子搜索与下载工具",
+          "title_zh": "torlink：终端种子搜索与下载工具",
           "eng": "baairon/torlink",
-          "summary": "零配置的种子查找和下载器，直接在终端运行。",
+          "summary": "一个优雅的零配置终端种子查找与下载器。",
           "source": "GitHub",
-          "stars": 514,
+          "stars": 543,
           "lang": "TypeScript",
           "published": "2026-06-25",
           "url": "https://github.com/baairon/torlink",
-          "overview": "torlink 是一个终端工具，无需配置即可搜索和下载种子文件。界面简洁，支持关键词搜索、磁力链接解析和下载。基于 TypeScript 开发，跨平台。",
-          "analysis": "对于习惯命令行的用户，torlink 提供了高效的种子下载体验，零依赖设计降低了使用门槛。",
+          "overview": "torlink 是一个终端下的种子搜索和下载工具，无需配置即可使用。界面简洁，支持搜索、选择并直接下载。基于 TypeScript 开发，跨平台。",
+          "analysis": "终端党福音，轻量高效，适合习惯命令行的用户。",
           "social": [
             {
               "who": "开发者",
-              "text": "终端下直接搜种子，比开浏览器方便多了。"
+              "text": "在终端里就能搜种子下载，太方便了。"
             }
           ]
         },
         {
           "title_zh": "video-production-skills：AI 视频制作技能库",
           "eng": "Pluviobyte/video-production-skills",
-          "summary": "可复用的 AI 视频制作技能库，涵盖创作、动态设计、片头等。",
+          "summary": "可复用的 AI 视频制作技能库，涵盖创作、重制、动效、开场和 QA。",
           "source": "GitHub",
-          "stars": 431,
+          "stars": 434,
           "lang": "Python",
           "published": "2026-06-26",
           "url": "https://github.com/Pluviobyte/video-production-skills",
-          "overview": "该仓库提供一系列 AI 驱动的视频制作技能，包括视频创作、重制、动态设计、片头制作和质量检查。基于 Python，可集成到工作流中，提升视频生产效率。",
-          "analysis": "AI 视频制作是热门方向，该库将常见任务模块化，降低了 AI 视频工具的使用门槛。",
+          "overview": "一个面向 AI 视频生成的技能库，包含多种可复用的视频制作技能，如视频创作、重制、动态设计、开场制作和质量检查。基于 Python，易于集成到 AI 工作流。",
+          "analysis": "推动 AI 视频制作标准化，适合内容创作者和 AI 应用开发者。",
           "social": [
             {
               "who": "视频创作者",
-              "text": "这些技能模块可以直接用，省去自己训练模型的时间。"
+              "text": "这些技能模块让 AI 视频生成更可控，质量也更高。"
             }
           ]
         },
         {
-          "title_zh": "contained-app：macOS 上的容器 CLI 原生应用",
+          "title_zh": "contained-app：macOS 容器 CLI 原生应用",
           "eng": "tdeverx/contained-app",
           "summary": "Apple Container CLI 的原生 macOS 应用。",
           "source": "GitHub",
@@ -2185,48 +2180,48 @@
           "lang": "Swift",
           "published": "2026-06-25",
           "url": "https://github.com/tdeverx/contained-app",
-          "overview": "contained-app 为 Apple 的 Container CLI 提供了原生 macOS 图形界面，方便管理容器。支持容器创建、启动、停止等操作，界面遵循 macOS 设计规范。",
-          "analysis": "对于在 macOS 上使用容器的开发者，该应用提供了更友好的交互方式，弥补了 CLI 的不足。",
+          "overview": "contained-app 是 Apple Container CLI 的图形化前端，提供原生 macOS 界面来管理容器。支持创建、启动、停止等操作，降低使用门槛。",
+          "analysis": "填补 Apple 容器工具缺少 GUI 的空白，适合 macOS 开发者。",
           "social": [
             {
               "who": "macOS 开发者",
-              "text": "终于有原生 GUI 了，比命令行直观多了。"
+              "text": "终于有 GUI 了，管理容器方便多了。"
             }
           ]
         },
         {
-          "title_zh": "OpenTag：开源 @提及 AI 代理工具",
+          "title_zh": "OpenTag：开源 @agent 提及路由工具",
           "eng": "amplifthq/opentag",
-          "summary": "在 Slack 和 GitHub 中通过 @提及 调用 AI 代理（如 Codex、Claude Code）并返回结果。",
+          "summary": "开源 @agent 提及，支持 Slack 和 GitHub，路由请求到 Codex、Claude Code 并返回结果。",
           "source": "GitHub",
           "stars": 370,
           "lang": "TypeScript",
           "published": "2026-06-24",
           "url": "https://github.com/amplifthq/opentag",
-          "overview": "OpenTag 是一个开源工具，允许用户在 Slack 或 GitHub 中通过 @提及 标签触发 AI 代理。请求被路由到 Codex、Claude Code 等模型，结果直接回复在讨论线程中。支持自定义代理。",
-          "analysis": "将 AI 代理集成到协作平台，提升团队效率。开源且可定制，适合企业部署。",
+          "overview": "OpenTag 是一个开源工具，允许用户在 Slack 或 GitHub 中通过 @agent 提及来调用 AI 代理（如 Codex、Claude Code），并将结果回复到线程中。简化团队协作中的 AI 调用。",
+          "analysis": "提升团队效率，将 AI 能力无缝集成到日常沟通工具中。",
           "social": [
             {
-              "who": "开发者",
-              "text": "在 Slack 里直接 @AI 就能得到代码建议，太方便了。"
+              "who": "团队管理者",
+              "text": "直接在 Slack 里 @agent 就能用 AI，太省事了。"
             }
           ]
         },
         {
-          "title_zh": "Plumtown：边玩边赚的 cozy 生活模拟游戏",
-          "eng": "playCandyDrop/Plumtown",
-          "summary": "免费浏览器游戏，建造家园、提升技能、赚取 $PLUM 并兑换 SOL。",
+          "title_zh": "CandyDrop：基于 Solana 的益智游戏",
+          "eng": "playCandyDrop/CandyDrop",
+          "summary": "割绳子、喂怪物、赚 Solana。基于 Solana 的益智 Play-to-Earn 游戏。",
           "source": "GitHub",
           "stars": 357,
           "lang": "JavaScript",
           "published": "2026-06-26",
-          "url": "https://github.com/playCandyDrop/Plumtown",
-          "overview": "Plumtown 是一款网页生活模拟游戏，玩家可以建造房屋、学习技能、发展职业，并赚取 $PLUM 代币，可兑换为 Solana 上的 SOL。游戏免费，无需下载。",
-          "analysis": "结合了游戏和加密货币激励，玩法轻松，适合休闲玩家体验 Web3 游戏。",
+          "url": "https://github.com/playCandyDrop/CandyDrop",
+          "overview": "CandyDrop 是一款基于 Solana 区块链的益智游戏，玩法类似割绳子，通过技巧赚取 $CANDY 代币并兑换 SOL。无需赌注，纯技能驱动。",
+          "analysis": "结合游戏与 DeFi，创新 Play-to-Earn 模式，适合区块链游戏爱好者。",
           "social": [
             {
               "who": "游戏玩家",
-              "text": "画风可爱，还能赚钱，比传统模拟游戏有趣。"
+              "text": "好玩还能赚钱，技能越好赚得越多。"
             }
           ]
         }
@@ -2236,161 +2231,281 @@
       "items": [
         {
           "title_zh": "英国将公布拖延已久的国防开支计划，聚焦无人机战争",
-          "summary": "英国国防投资计划将于周二公布，详细说明如何将数十亿英镑用于装备英国武装部队，重点发展无人机作战能力。",
+          "summary": "英国国防投资计划将于周二公布，重点阐述如何将数十亿英镑用于武装部队装备，尤其是无人机作战领域。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-06-29",
           "url": "https://www.bbc.co.uk/news/articles/cwy0rw5dx1ko?at_medium=RSS&at_campaign=rss",
-          "overview": "英国政府即将发布一项长期拖延的国防投资计划，该计划将明确未来数年内如何分配数十亿英镑资金，以提升英国武装部队的装备水平，尤其侧重于无人机战争领域。此举旨在应对现代战争形态的变化，加强英国在无人系统方面的战略能力。",
-          "analysis": "该计划标志着英国国防战略的重大转向，无人机将成为未来军事投资的核心。这反映了全球军事技术发展的趋势，也凸显了英国在安全环境变化下的应对策略。",
+          "overview": "英国政府即将发布一份长期拖延的国防投资计划，该计划将详细说明如何分配数十亿英镑资金，以提升英国武装部队的装备水平。计划的核心是聚焦无人机战争，这反映了现代战争形态的转变。此举旨在应对日益复杂的全球安全挑战，并确保英国在军事技术领域的领先地位。",
+          "analysis": "该计划凸显了英国对无人机等新兴作战能力的重视，可能引发新一轮军备竞赛。同时，巨额投资能否有效转化为实际战斗力仍待观察。",
           "social": [
             {
-              "who": "军事分析人士",
-              "text": "无人机战争是未来冲突的关键，英国此举意在保持技术优势，但巨额投入能否有效转化为战斗力仍需观察。"
+              "who": "军事专家",
+              "text": "无人机将成为未来战场的关键，英国此举是明智的战略调整。"
+            },
+            {
+              "who": "反对党议员",
+              "text": "政府拖延多年才公布计划，暴露了国防管理的混乱。"
             }
           ]
         },
         {
-          "title_zh": "伯纳姆承诺新“10号北”计划将重新平衡英国权力",
-          "summary": "最有可能成为下一任首相的伯纳姆表示，他的权力下放计划将“推动每个地区的良好增长”。",
+          "title_zh": "伯纳姆承诺新“北方唐宁街10号”计划将重新平衡英国权力",
+          "summary": "最有可能成为下任首相的伯纳姆表示，他的权力下放计划将“推动每个地区的良好增长”。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-06-29",
           "url": "https://www.bbc.co.uk/news/articles/cx2jw5q5pdzo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国政治人物安迪·伯纳姆提出了一项名为“10号北”的新权力下放计划，旨在将更多权力从伦敦转移到英国各地区。伯纳姆承诺，该计划将促进各地经济增长，实现更均衡的区域发展。作为下任首相的热门人选，他的这一提议备受关注。",
-          "analysis": "该计划若实施，将深刻改变英国的政治格局，削弱中央集权，增强地方自主权。伯纳姆借此巩固政治资本，但能否真正兑现增长承诺仍存疑问。",
+          "overview": "英国政治人物伯纳姆提出一项名为“北方唐宁街10号”的权力下放计划，旨在将更多决策权从伦敦转移到地方，以促进各地区经济均衡发展。伯纳姆被认为是下任首相的热门人选，该计划被视为其竞选纲领的核心部分。",
+          "analysis": "该计划若实施，将深刻改变英国政治格局，但可能面临中央政府的阻力。伯纳姆借此巩固北方选民支持，为竞选造势。",
           "social": [
             {
-              "who": "经济评论员",
-              "text": "权力下放是好事，但关键在于执行细节，否则可能只是空头支票。"
+              "who": "北方企业主",
+              "text": "我们期待更多自主权，这将激发地方经济活力。"
+            },
+            {
+              "who": "伦敦政评家",
+              "text": "权力下放听起来美好，但实际操作复杂，可能加剧地区不平等。"
             }
           ]
         },
         {
-          "title_zh": "委内瑞拉强烈余震引发恐慌，死亡人数超1700人",
-          "summary": "委内瑞拉北部发生4.6级余震，首都加拉加斯和拉瓜伊拉受影响，此前双地震已致1719人死亡，人道主义危机加剧。",
+          "title_zh": "委内瑞拉强烈余震引发恐慌，死亡人数已超1700",
+          "summary": "委内瑞拉北部发生4.6级余震，首都加拉加斯和拉瓜伊拉受影响，此前双地震已致1719人死亡。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-06-29",
           "url": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
-          "overview": "在委内瑞拉遭受致命双地震五天后，一场4.6级强烈余震再次袭击北部地区，导致惊恐的居民涌上街头。此前的地震已造成1719人死亡，数万人失踪，并引发日益严重的人道主义紧急情况。救援工作仍在继续，但希望渺茫。",
-          "analysis": "连续地震暴露了委内瑞拉基础设施的脆弱性和应急能力的不足。国际援助至关重要，但政治局势可能阻碍救援效率。",
+          "overview": "在委内瑞拉遭受致命双地震五天后，一场4.6级余震再次袭击北部地区，导致惊恐的居民涌上街头。目前地震已造成至少1719人死亡，数万人失踪，人道主义危机日益严重。救援工作仍在继续，但幸存者希望渺茫。",
+          "analysis": "余震加剧了灾民的恐慌情绪，救援和重建工作面临巨大挑战。国际社会应加大援助力度，帮助委内瑞拉渡过难关。",
           "social": [
             {
-              "who": "当地居民",
-              "text": "我们害怕回到屋里，每次震动都感觉房子要塌了。"
+              "who": "受灾居民",
+              "text": "我们害怕回家，每次震动都让人想起那场噩梦。"
+            },
+            {
+              "who": "救援人员",
+              "text": "时间不多了，我们仍在废墟中寻找生命迹象。"
             }
           ]
         },
         {
           "title_zh": "刚果（金）近300名埃博拉患者下落不明，法国确诊首例",
-          "summary": "非洲疾控中心称，刚果（金）近300名埃博拉确诊者下落不明，存在大规模社区传播风险。法国确认一名从刚果（金）返回的医生感染埃博拉，为该国首例。",
+          "summary": "非洲疾控中心称，刚果（金）近300名埃博拉检测阳性者下落不明，法国确认一名从刚果（金）返回的医生感染。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-06-26",
           "url": "https://www.theguardian.com/global-development/2026/jun/26/whereabouts-of-nearly-300-people-with-ebola-unknown-in-drc",
-          "overview": "刚果（金）埃博拉疫情形势严峻，近300名确诊患者行踪不明，可能造成大规模社区传播。与此同时，法国确认一名曾在刚果（金）执行人道主义任务的医生感染埃博拉，这是法国首例病例。患者已被转移至专门机构，情况稳定，接触者追踪正在进行。",
-          "analysis": "埃博拉疫情跨境传播风险上升，国际社会需加强协调防控。刚果（金）冲突地区医疗可及性差，是疫情失控的关键因素。",
+          "overview": "刚果（金）埃博拉疫情持续恶化，近300名确诊患者失联，引发大规模社区传播担忧。模型预测到9月可能造成数千人死亡。与此同时，法国确认首例埃博拉病例，患者为一名从疫区返回的医生，目前情况稳定，风险较低。",
+          "analysis": "疫情跨境传播风险上升，国际社会需加强协调防控。刚果（金）冲突地区医疗可及性差，是疫情失控的主因。",
           "social": [
             {
-              "who": "公共卫生专家",
-              "text": "必须立即找到这些患者并隔离，否则疫情可能演变为全球威胁。"
-            }
-          ]
-        },
-        {
-          "title_zh": "索马里女子因网上批评政府被判三年监禁引发愤怒",
-          "summary": "27岁的萨迪亚·莫阿利姆·阿里因在社交媒体上发表批评政府的言论被判处三年监禁，前总统和总理以及人权组织均表示谴责。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-06-26",
-          "url": "https://www.theguardian.com/global-development/2026/jun/26/woman-sadia-moalim-ali-three-year-jail-sentence-somalia-online-comments-governement",
-          "overview": "索马里一名27岁的护理专业毕业生萨迪亚·莫阿利姆·阿里因在社交媒体上发表批评政府的言论，被以侮辱政府机构罪判处三年监禁。此案引发国内外的广泛愤怒，前总统、前总理以及人权组织纷纷谴责这一判决，认为其侵犯了言论自由。",
-          "analysis": "此案凸显索马里言论自由与政府权威之间的紧张关系。国际压力可能促使索马里政府重新审视相关法律，但短期内司法独立仍受质疑。",
-          "social": [
+              "who": "非洲疾控中心主任",
+              "text": "我们面临巨大挑战，必须尽快找到失联患者。"
+            },
             {
-              "who": "人权观察组织",
-              "text": "这一判决是对言论自由的公然打击，索马里政府应立即释放萨迪亚。"
+              "who": "法国卫生部长",
+              "text": "已启动接触者追踪，公众无需过度恐慌。"
             }
           ]
         },
         {
           "title_zh": "津巴布韦参议院批准延长总统任期，反对派称“宪法政变”",
-          "summary": "津巴布韦参议院以75票赞成、4票反对通过宪法修正案，允许83岁的总统埃默森·姆南加古瓦留任至2030年，反对派指责此举为“宪法政变”。",
+          "summary": "津巴布韦参议院以75-4票通过宪法修正案，允许83岁总统姆南加古瓦留任至2030年。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-06-25",
           "url": "https://www.theguardian.com/world/2026/jun/25/constitutional-coup-zimbabwe-senate-approves-presidential-term",
-          "overview": "津巴布韦参议院投票通过了宪法修正案，将总统任期延长，使现任总统姆南加古瓦能够继续执政至2030年。政府称此举将带来稳定，但反对派认为这是对民主的破坏，是一场“宪法政变”。修正案还需众议院批准。",
-          "analysis": "姆南加古瓦通过修宪延长任期，可能进一步巩固权力，但也会加剧政治分裂。国际社会对此高度关注，可能影响津巴布韦的外交关系和经济前景。",
+          "overview": "津巴布韦参议院投票通过宪法修正案，将总统任期延长至2030年，此举被反对派称为“宪法政变”。政府称修正案将带来稳定，但批评者认为这将进一步巩固83岁总统姆南加古瓦的权力，破坏民主进程。",
+          "analysis": "延长任期可能引发国内政治动荡和国际制裁。姆南加古瓦政府正面临经济危机和民众不满，此举或加剧矛盾。",
           "social": [
             {
               "who": "反对派领袖",
-              "text": "这是对宪法的强奸，我们不会接受这个结果。"
+              "text": "这是对民主的践踏，我们将继续抗争。"
+            },
+            {
+              "who": "政府发言人",
+              "text": "修正案符合国家利益，将确保长期稳定。"
             }
           ]
         },
         {
-          "title_zh": "佛得角世界杯之旅令英国侨民社区欢欣鼓舞",
-          "summary": "佛得角在世界杯上对阵西班牙和乌拉圭取得艰难平局，英国佛得角侨民感到无比自豪，称“每个人都在谈论佛得角”。",
+          "title_zh": "索马里女子因网上批评政府被判三年监禁，引发愤怒",
+          "summary": "27岁的萨迪亚·莫阿利姆·阿里因在社交媒体上发表批评政府的言论被判处三年监禁，前总统和总理均表示谴责。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-06-26",
-          "url": "https://www.theguardian.com/world/2026/jun/26/cape-verde-world-cup-run-delights-diaspora-community-uk",
-          "overview": "非洲岛国佛得角在世界杯上的出色表现让英国侨民社区倍感骄傲。13岁的劳伦说，以前很难找到包含佛得角的地图，现在这个国家终于成为焦点。佛得角队先后战平西班牙和乌拉圭，吸引了全世界的关注。",
-          "analysis": "世界杯为小国提供了展示国家形象的绝佳平台，佛得角的成功不仅提升了民族自豪感，也可能促进旅游业和国际合作。",
+          "url": "https://www.theguardian.com/global-development/2026/jun/26/woman-sadia-moalim-ali-three-year-jail-sentence-somalia-online-comments-governement",
+          "overview": "索马里一名27岁护理专业毕业生萨迪亚·莫阿利姆·阿里因在社交媒体上批评政府机构，被以侮辱政府机构罪判处三年监禁。此案引发国内外广泛关注，前总统、前总理及人权组织纷纷谴责判决，认为这是对言论自由的打压。",
+          "analysis": "该案凸显索马里言论自由状况堪忧，政府可能借此压制异见。国际社会的压力或促使当局重新考虑判决。",
           "social": [
             {
-              "who": "佛得角侨民",
-              "text": "看到我们的国家在世界杯上被全世界谈论，我激动得哭了。"
+              "who": "人权观察",
+              "text": "这是对基本自由的攻击，必须立即释放萨迪亚。"
+            },
+            {
+              "who": "索马里政府官员",
+              "text": "法律面前人人平等，她的言论已越界。"
             }
           ]
         },
         {
-          "title_zh": "京东方股价暴涨60%，与康宁合作推动玻璃基板概念",
-          "summary": "京东方与康宁签署合作备忘录，股价自5月21日以来上涨约60%，创2009年以来新高，带动A股玻璃基板封装概念走热。",
+          "title_zh": "摩纳哥居民楼爆炸致三人受伤，疑似袭击",
+          "summary": "摩纳哥一居民楼发生爆炸，造成三人受伤，摩纳哥政府首脑称“极有可能是袭击”。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o?at_medium=RSS&at_campaign=rss",
+          "overview": "摩纳哥一栋住宅楼发生爆炸，导致三人受伤。摩纳哥政府首脑向法新社表示，这起爆炸“极有可能是一次袭击”。目前调查正在进行中，尚未有组织宣称负责。",
+          "analysis": "若确认为袭击，将打破摩纳哥长期的安全纪录，可能引发对欧洲小型国家安全脆弱性的讨论。",
+          "social": [
+            {
+              "who": "摩纳哥居民",
+              "text": "我们从未想过这里会发生袭击，太可怕了。"
+            },
+            {
+              "who": "安全专家",
+              "text": "摩纳哥作为富裕小国，可能成为恐怖分子的目标。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国新庇护规则：难民需偿还约1万英镑费用",
+          "summary": "根据新法律，部长将有权向获得庇护支持的成年人追讨费用。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-06-29",
+          "url": "https://www.bbc.co.uk/news/articles/cddlgqlm7q2o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国政府出台新庇护法规，规定获得庇护支持的成年人需偿还约1万英镑的费用。部长们将获得新的权力来追讨这些成本。此举旨在减轻纳税人负担，但引发人权组织批评。",
+          "analysis": "新规可能进一步收紧难民政策，增加难民融入难度。政府试图在控制移民和履行人道义务之间取得平衡。",
+          "social": [
+            {
+              "who": "难民慈善机构",
+              "text": "这会让最脆弱的人陷入更深的债务困境。"
+            },
+            {
+              "who": "内政部官员",
+              "text": "纳税人不应为所有庇护成本买单。"
+            }
+          ]
+        },
+        {
+          "title_zh": "京东方股价暴涨60%，与康宁合作成催化剂",
+          "summary": "京东方与康宁签署合作备忘录，在玻璃基封装载板等领域合作，股价创2009年以来新高。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-06-29",
           "url": "https://36kr.com/p/3874045136720899?f=rss",
-          "overview": "京东方与康宁在玻璃基封装载板、可折叠玻璃等领域达成合作，引发市场追捧。京东方股价自5月21日启动行情以来上涨约60%，创下2009年以来新高。此前京东方长期被视作周期股，累计资本开支超5000亿元，但股东回报有限。此次合作被视为技术突破，带动A股玻璃基板封装概念板块活跃。",
-          "analysis": "京东方与康宁的合作有望在新型显示和封装技术领域取得突破，改变其重资产周期股的属性。但股价短期暴涨后需警惕回调风险。",
+          "overview": "京东方自5月21日行情启动以来，股价上涨约60%，创2009年以来新高。催化剂是与康宁签署合作备忘录，双方将在玻璃基封装载板、可折叠玻璃、钙钛矿玻璃基板等领域合作。京东方上市以来累计资本开支超5000亿元，但长期被视作周期股，此次合作有望改变市场认知。",
+          "analysis": "与康宁的合作打开了京东方在先进封装等新领域的发展空间，但面板行业的周期性风险依然存在。投资者需关注合作落地情况。",
           "social": [
             {
-              "who": "投资者",
-              "text": "终于等到京东方涨了，希望这次能持续，别再让股民失望。"
+              "who": "散户投资者",
+              "text": "终于等到京东方涨了，希望这次能持续。"
+            },
+            {
+              "who": "行业分析师",
+              "text": "合作意义重大，但京东方仍需证明其盈利能力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "百度OCR模型Unlimited OCR在HuggingFace、GitHub四榜登顶",
+          "summary": "百度OCR模型在多个平台取得领先成绩，同时国务院印发《教育发展“十五五”规划》。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-06-29",
+          "url": "https://36kr.com/p/3873626425332743?f=rss",
+          "overview": "百度OCR模型Unlimited OCR在HuggingFace和GitHub上四项榜单登顶，展现技术实力。此外，国务院印发《教育发展“十五五”规划》，为未来五年教育发展定调。美国养老金即将被动调仓，预计有300亿美元卖盘。",
+          "analysis": "百度在AI技术上的突破有助于巩固其行业地位。教育规划将引导资源投入，而美国养老金调仓可能影响全球市场。",
+          "social": [
+            {
+              "who": "AI研究员",
+              "text": "百度OCR的进步令人印象深刻，开源生态受益。"
+            },
+            {
+              "who": "教育工作者",
+              "text": "期待新规划能解决教育资源不均问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Moxy摸喜发布首款AI陪伴机器人，采用柔性电子皮肤",
+          "summary": "奥感微旗下品牌Moxy摸喜发布首款AI陪伴机器人，以无对话、无摄像头、纯触觉交互为特色。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-06-29",
+          "url": "https://36kr.com/p/3874015941645570?f=rss",
+          "overview": "Moxy摸喜在深圳发布首款AI陪伴机器人，核心特点是“无对话、无摄像头、纯触觉交互”。该产品采用离电型柔性传感技术，可覆盖玩偶全身曲面，实现高灵敏度触觉反馈。团队自主研发的离电型触觉传感系统具备超柔性、高灵敏度、大量程和毫秒级响应等特性。",
+          "analysis": "该产品开辟了AI陪伴的新交互范式，但市场接受度有待验证。柔性电子皮肤技术有望拓展到更多消费电子领域。",
+          "social": [
+            {
+              "who": "科技博主",
+              "text": "纯触觉交互很新颖，但用户是否习惯没有语音的陪伴？"
+            },
+            {
+              "who": "产品经理",
+              "text": "这可能是情感陪伴机器人的一个差异化方向。"
             }
           ]
         },
         {
           "title_zh": "Sand.ai获超亿美元融资，曹越谈视频生成模型路径",
-          "summary": "视频生成模型公司Sand.ai完成超亿美元融资，创始人曹越表示视频是通往世界模型的最重要路径，公司坚持自回归架构和MoE路线。",
+          "summary": "Sand.ai完成超亿美元融资，创始人曹越表示视频是通往世界模型最重要的路径。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-06-29",
           "url": "https://36kr.com/p/3873965241931014?f=rss",
-          "overview": "Sand.ai是一家成立于2024年的视频生成模型公司，近日完成超亿美元融资。创始人曹越认为视频生成是通往世界模型的关键，公司坚持自回归架构，并率先实现音画同出。其模型Magi-1在Google DeepMind的Physics IQ benchmark上长期保持第一。曹越还透露，团队已将模型架构从Dense转向MoE，在国内视频公司中较为领先。",
-          "analysis": "Sand.ai在技术路线上坚持非共识选择，自回归和MoE架构的突破使其在视频生成领域占据先机。巨额融资将加速其技术迭代和商业化进程。",
+          "overview": "视频生成模型公司Sand.ai获得超亿美元融资。创始人曹越认为视频是通往世界模型最重要的路径。公司采用自回归架构训练模型Magi-1，并率先实现音画同出。团队还将模型架构从Dense转向MoE，在国内视频生成领域领先。",
+          "analysis": "Sand.ai的技术路线选择具有前瞻性，但视频生成领域竞争激烈。融资将加速其模型迭代和商业化。",
           "social": [
             {
-              "who": "AI行业观察者",
-              "text": "Sand.ai的技术路线很激进，但成果证明其判断正确，视频生成赛道竞争将更加激烈。"
+              "who": "投资人",
+              "text": "曹越的团队执行力强，我们看好视频生成的前景。"
+            },
+            {
+              "who": "技术同行",
+              "text": "自回归路线在视频生成上仍有挑战，但Sand.ai的进展令人瞩目。"
             }
           ]
         },
         {
-          "title_zh": "微泰医疗海外营收大增227%，CGM出海浪潮来袭",
-          "summary": "微泰医疗2025年海外收入达3.43亿元，同比增长227.2%，首次超过国内收入，动态血糖仪（CGM）出海成为医疗器械新趋势。",
+          "title_zh": "微泰医疗海外营收大增227%，CGM出海加速",
+          "summary": "微泰医疗2025年海外收入3.43亿元，同比增长227.2%，首次超过国内收入。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-06-29",
           "url": "https://36kr.com/p/3873902389794053?f=rss",
-          "overview": "微泰医疗2025年实现营收6.61亿元，同比增长91.2%，净利润4015万元，首次盈利。其中海外收入3.43亿元，同比大增227.2%，规模首次超过国内。公司专注于糖尿病管理器械，同时拥有胰岛素泵和CGM产品。CGM出海成为国产医疗器械从进口替代到全球突围的典型样本。",
-          "analysis": "微泰医疗的海外高增长表明国产CGM产品在国际市场具备竞争力，但面临雅培等巨头的激烈竞争。持续创新和渠道建设是保持优势的关键。",
+          "overview": "微泰医疗2025年实现营收6.61亿元，同比增长91.2%，净利润4015万元，首次盈利。海外收入达3.43亿元，同比大增227.2%，规模首次超过国内。公司专注于糖尿病管理器械，同时拥有胰岛素泵和CGM产品，出海战略成效显著。",
+          "analysis": "微泰医疗的出海成功表明国产医疗器械在全球市场的竞争力提升。CGM市场空间广阔，但需应对国际巨头的竞争。",
+          "social": [
+            {
+              "who": "行业观察者",
+              "text": "微泰的海外增长证明中国CGM产品已具备全球竞争力。"
+            },
+            {
+              "who": "糖尿病患者",
+              "text": "希望国产CGM能降低使用成本，让更多人受益。"
+            }
+          ]
+        },
+        {
+          "title_zh": "数字相控阵芯片厂商宸思科技获厦门高新投投资",
+          "summary": "宸思科技完成新一轮融资，聚焦数字相控阵芯片及模组研发，应用于低空经济、卫星互联网等领域。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-06-29",
+          "url": "https://36kr.com/p/3873806295274756?f=rss",
+          "overview": "广州宸思通讯科技有限公司完成新一轮融资，由厦门高新投独家投资。公司成立于2020年，聚焦数字相控阵芯片及模组，具备“芯片+模组+产品”垂直整合能力。其DBF芯片于2025年量产，相比FPGA方案在成本、功耗、体积上具有优势，可应用于低空经济、卫星互联网、雷达等领域。",
+          "analysis": "数字相控阵技术是下一代雷达和通信的关键，宸思科技的产品有望打破国外垄断。低空经济和卫星互联网的快速发展将带来巨大市场。",
           "social": [
             {
               "who": "行业分析师",
-              "text": "CGM出海是国产医疗器械的突破口，但需注意海外市场的法规和品牌壁垒。"
+              "text": "DBF芯片国产化意义重大，宸思科技有望成为细分龙头。"
+            },
+            {
+              "who": "投资方代表",
+              "text": "我们看好宸思的技术积累和市场前景。"
             }
           ]
         }
@@ -2404,10 +2519,10 @@
       "items": [
         {
           "name": "Andrew Ng",
-          "role": "AI 教育者、Coursera 联合创始人",
+          "role": "AI研究员、Coursera联合创始人",
           "region": "美国",
           "domain": "ai",
-          "recent": "关注 AI 代理与工作流自动化，强调 AI 代理并非人类同事的替代品",
+          "recent": "关注AI代理工作流与教育应用",
           "url": "https://www.andrewng.org/"
         },
         {
@@ -2415,48 +2530,48 @@
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动 AI 安全与政府合作，如 Claude 半价供加州政府使用",
+          "recent": "推动AI安全与政府合作",
           "url": ""
         },
         {
           "name": "李开复",
-          "role": "创新工场董事长、AI 专家",
+          "role": "创新工场董事长、AI专家",
           "region": "中国",
           "domain": "ai",
-          "recent": "关注 AI 大模型应用与创业生态，推动 AI 在产业落地",
+          "recent": "关注AI大模型商业化与产业落地",
           "url": "https://www.kaifulee.com/"
         },
         {
-          "name": "吴军",
-          "role": "计算机科学家、硅谷投资人",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "探讨 AI 对搜索和知识获取的影响，如 Google 搜索框的 AI 化改造",
-          "url": ""
-        },
-        {
-          "name": "陈力",
-          "role": "中国图书馆学会理事长",
-          "region": "中国",
+          "name": "吴建中",
+          "role": "澳门大学图书馆馆长",
+          "region": "中国澳门",
           "domain": "library",
-          "recent": "推动智慧图书馆建设与全民阅读，关注数智赋能图书馆服务",
+          "recent": "关注智慧图书馆建设与AI赋能",
           "url": ""
         },
         {
-          "name": "Loida Garcia-Febo",
-          "role": "IFLA 前主席、图书馆权益倡导者",
-          "region": "美国/波多黎各",
-          "domain": "library",
-          "recent": "关注灾后图书馆重建与数字鸿沟，倡导图书馆在危机中的角色",
-          "url": ""
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主持人、AI 研究员",
+          "name": "R. David Lankes",
+          "role": "图书馆学教授、播客主持人",
           "region": "美国",
           "domain": "podcast",
-          "recent": "通过深度访谈探讨 AI 伦理、安全与前沿技术，影响公众认知",
-          "url": "https://lexfridman.com/"
+          "recent": "探讨图书馆在AI时代的新角色",
+          "url": "https://davidlankes.org/"
+        },
+        {
+          "name": "刘炜",
+          "role": "上海图书馆副馆长",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动图书馆数字化转型与AI应用",
+          "url": ""
+        },
+        {
+          "name": "Brewster Kahle",
+          "role": "互联网档案馆创始人",
+          "region": "美国",
+          "domain": "library",
+          "recent": "关注数字保存与AI对信息生态的影响",
+          "url": "https://brewster.kahle.org/"
         }
       ]
     }
