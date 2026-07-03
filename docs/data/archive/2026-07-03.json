@@ -1,791 +1,10 @@
 {
-  "generated_at": "2026-07-03T20:37:48+08:00",
+  "generated_at": "2026-07-03T21:23:27+08:00",
   "date": "2026-07-03",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "modules": {
     "ai": {
-      "items": [
-        {
-          "title_zh": "LLM陷入群体思维困境，初创公司试图破解",
-          "eng": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-          "summary": "大语言模型在生成随机数等任务中表现出明显的模式化倾向（即“群体思维”），一家新创公司正尝试通过技术手段打破这一僵局。",
-          "source": "MIT Tech Review (The Download)",
-          "region": "全球/美国",
-          "published": "2026-07-02",
-          "tags": [
-            "AI安全",
-            "大语言模型",
-            "多样性"
-          ],
-          "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-          "overview": "文章指出，当用户要求ChatGPT或Claude生成随机数时，模型往往倾向于输出特定数字（如7），显示出明显的模式化偏见。一家初创公司正在开发解决方案以打破这种“群体思维”倾向，试图让AI在推理和决策中展现出更多样化的能力。这反映了当前LLM在创造力和多样性方面的核心瓶颈。",
-          "analysis": "LLM的“群体思维”不仅是技术问题，更是安全隐忧——如果模型缺乏真正的随机性和多样性，其在高风险领域的决策可能变得僵化且不可预测。该初创公司的方案若成功，可能推动下一代AI架构向更具探索性的方向发展。",
-          "social": [
-            {
-              "who": "AI研究员",
-              "text": "这种模式化倾向在RLHF训练过程中被有意强化，以追求回答的“正确性”，但这牺牲了模型的多样性和创造性。"
-            },
-            {
-              "who": "产品设计师",
-              "text": "对于需要创意输出的应用场景（如广告文案、艺术创作），这种群体思维是致命的缺陷。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta 推出全新 AI 应用 Pocket，与旧版 Pocket 截然不同",
-          "eng": "Meta has a new app called Pocket that is absolutely nothing like the old Pocket",
-          "summary": "在 Mozilla 关闭经典阅读工具 Pocket 后，Meta 推出了同名新应用 Pocket，主打 AI 生成的互动小工具和游戏。",
-          "source": "The Verge",
-          "region": "全球/美国",
-          "published": "2026-07-02",
-          "tags": [
-            "AI产品",
-            "Meta",
-            "应用生态"
-          ],
-          "url": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
-          "overview": "Meta 推出了名为 Pocket 的新应用，与 Mozilla 此前关闭的经典阅读工具 Pocket 毫无关系。这款新应用允许用户通过 AI 提示词生成和分享互动式小工具（gizmos）和游戏。CEO Mark Zuckerberg 全力押注 AI 战略，这一产品体现了 Meta 在 AI 原生用户体验上的探索方向。",
-          "analysis": "Meta 此举旨在利用 AI 能力重新定义内容消费方式，从被动阅读转向主动生成和交互。这反映了科技巨头正在将 AI 深度整合到日常应用中，而不仅仅是作为辅助工具存在。",
-          "social": [
-            {
-              "who": "产品设计师",
-              "text": "AI 生成的互动内容虽然有趣，但用户体验的一致性和质量稳定性仍需时间验证，避免沦为一次性玩具。"
-            },
-            {
-              "who": "科技记者",
-              "text": "Meta 通过收购经典品牌名称来推广 AI 产品是一种聪明的营销策略，但也可能引起老用户的混淆和不满。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Jersey Mike's IPO折射出AI炒作已有多严重",
-          "eng": "Jersey Mike's IPO illustrates how bad the AI hype has become",
-          "summary": "TechCrunch评论Jersey Mike's三明治店IPO文件中提及AI，讽刺了AI概念在非科技行业的过度渗透。",
-          "source": "TechCrunch AI",
-          "region": "全球",
-          "published": "2026-07-02",
-          "tags": [
-            "AI泡沫",
-            "IPO",
-            "行业趋势"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-          "overview": "TechCrunch记者指出，Jersey Mike's三明治连锁店的IPO文件中竟然提到了AI应用，讽刺了AI概念已渗透到连快餐店都在使用的程度。文章分析了这种过度炒作如何导致非技术公司盲目跟风，将AI作为营销噱头而非实际生产力工具。这一现象反映了资本市场对AI概念的狂热追捧，以及企业利用AI叙事提升估值的倾向。",
-          "analysis": "当三明治店都需要在IPO中提及AI时，说明整个市场的注意力已经被AI完全占据。这种“AI洗白”行为虽然短期有助于融资，但长期来看可能损害投资者对真正技术公司的信任。监管层可能需要关注这种非实质性AI应用的披露标准。",
-          "social": [
-            {
-              "who": "金融分析师",
-              "text": "IPO文件中提到AI就像90年代互联网公司必须提到‘互联网’一样，已经变成了一种合规性废话。"
-            },
-            {
-              "who": "科技记者",
-              "text": "讽刺的是，真正改变世界的AI公司反而在忙着解释自己为什么没有用AI做三明治。"
-            }
-          ]
-        },
-        {
-          "title_zh": "扎克伯格称AI代理进展不及预期",
-          "eng": "Mark Zuckerberg tells staff that AI agents haven't progressed as quickly as he'd hoped",
-          "summary": "Meta CEO扎克伯格在内部分会上表示，AI代理(AI Agent)的开发进度没有达到他预期的速度。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-02",
-          "tags": [
-            "Meta策略",
-            "AI代理",
-            "行业现实"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-          "overview": "Meta CEO扎克伯格在内部会议上透露，AI代理技术的实际进展落后于他的期望。这一表态揭示了当前AI行业在从大语言模型向自主智能体演进过程中面临的瓶颈。尽管外部宣传火热，但核心能力的成熟仍需时间。",
-          "analysis": "这反映了科技巨头内部对AI炒作与现实差距的清醒认知。如果Meta无法快速推进Agent能力，其在企业级市场的竞争地位可能会受到Google和Microsoft等对手的威胁。",
-          "social": [
-            {
-              "who": "AI产品经理",
-              "text": "从Chat到Agent是质的飞跃，目前大多数所谓的'代理'实际上只是带有工具调用的聊天机器人。"
-            },
-            {
-              "who": "科技行业观察者",
-              "text": "CEO的坦诚表态反而增加了市场对Meta AI战略的信心，说明他们仍在积极追赶而非放弃。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特斯拉驾驶员因德州致命事故面临过失杀人指控",
-          "eng": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
-          "summary": "一名使用特斯拉全自主驾驶(FSD)系统的男子在德克萨斯州撞入一户住宅导致一名女子死亡后，被逮捕并面临过失杀人罪指控。这是FSD技术引发法律追责的最新重大案例。",
-          "source": "The Verge",
-          "region": "美国/德州",
-          "published": "2026-07-02",
-          "tags": [
-            "特斯拉",
-            "自动驾驶",
-            "法律责任"
-          ],
-          "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
-          "overview": "44岁的迈克尔·巴特勒被指控因使用特斯拉Full-Self Driving (FSD)系统驾驶Model 3撞入德克萨斯州一户住宅，导致一名女子死亡。这是目前已知的首例针对个人使用FSD造成致命后果的刑事过失杀人指控。该事件引发了公众和监管机构对自动驾驶技术安全边界及法律责任归属的激烈讨论，可能对L4级自动驾驶的商业化进程产生重大影响。",
-          "analysis": "此案将彻底改变公众对L4级自动驾驶技术的信任度。如果定罪，特斯拉可能面临巨额赔偿和品牌危机；如果无罪释放，则意味着法律体系尚未准备好处理此类新型事故责任认定。无论结果如何，这都将成为自动驾驶立法的重要里程碑。",
-          "social": [
-            {
-              "who": "汽车安全研究者",
-              "text": "FSD的边界在哪里？当系统接管失败时，驾驶员的责任界定是法律最大的灰色地带。"
-            },
-            {
-              "who": "投资人",
-              "text": "监管风险正在上升，特斯拉在L4商业化道路上的步伐可能需要重新评估。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI提议向美国主权财富基金捐赠5%股权",
-          "eng": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
-          "summary": "OpenAI CEO Sam Altman提出将公司5%的股权捐赠给美国主权财富基金，引发公众分享AI产业金融收益的讨论。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "OpenAI",
-            "股权捐赠",
-            "主权财富基金",
-            "AI治理"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-          "overview": "OpenAI CEO Sam Altman提出将公司5%的股权捐赠给美国主权财富基金，这一提议旨在让公众分享AI产业带来的金融收益。此举引发了关于AI行业利润分配和公共利益的广泛讨论，标志着AI巨头在治理模式上的重要转变。该提案重新激活了此前关于开放AI股权的讨论，可能影响OpenAI未来的融资策略和公司治理结构。",
-          "analysis": "这一提议反映了AI行业从封闭走向开放的治理趋势，但也暴露出商业利益与公共利益之间的张力。如果主权财富基金获得5%股权，将改变OpenAI的股权结构和决策机制，同时为美国公共财政开辟新的收入来源。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "这标志着AI行业从私人垄断向公共利益分享的转变，但5%的股权比例是否足以产生实质影响仍需观察。"
-            },
-            {
-              "who": "政策研究者",
-              "text": "主权财富基金持有AI公司股权可能引发新的监管问题，需要平衡创新激励与公共责任。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anthropic与三星讨论定制AI芯片合作",
-          "eng": "Anthropic is discussing a new custom chip with Samsung",
-          "summary": "Anthropic正与三星探讨开发定制AI芯片的合作，此举发生在OpenAI宣布与Broadcom合作推出自有AI芯片仅一周后。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "Anthropic",
-            "定制芯片",
-            "三星",
-            "AI硬件"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-          "overview": "Anthropic正与三星讨论开发新一代定制AI芯片的合作事宜，这一消息出现在OpenAI宣布与Broadcom合作推出自有AI芯片仅一周之后。这标志着AI巨头在硬件层面的竞争正在加剧，从软件模型扩展到底层计算基础设施的自主可控。定制芯片的开发将直接影响AI推理和训练的成本效率，是AI行业垂直整合战略的重要一步。",
-          "analysis": "Anthropic选择三星而非传统半导体厂商，可能反映了对供应链安全和成本控制的考量。与OpenAI-Broadcom合作形成对比，显示AI芯片市场正在出现多元化竞争格局，定制芯片将成为AI公司核心竞争力的关键要素。",
-          "social": [
-            {
-              "who": "半导体行业分析师",
-              "text": "AI芯片定制化趋势将加速传统GPU厂商的转型压力，三星在移动芯片领域的经验可能为Anthropic提供差异化优势。"
-            },
-            {
-              "who": "AI工程师",
-              "text": "定制芯片有望显著提升推理效率并降低成本，但开发周期和生态兼容性是需要关注的风险因素。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta推出全新AI应用Pocket进军游戏领域",
-          "eng": "Meta quietly launches vibe-coded gaming app Pocket",
-          "summary": "Meta秘密推出名为Pocket的实验性AI应用，允许用户通过文本提示生成和分享交互式迷你游戏，标志着其在AI应用领域的激进扩张。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "Meta",
-            "Pocket",
-            "AI游戏",
-            "文本生成"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-          "overview": "Meta秘密推出名为Pocket的实验性AI应用，允许用户通过文本提示（vibe coding）生成和分享交互式迷你游戏。这款应用与Mozilla去年关闭的旧版Pocket完全不同，完全聚焦于AI驱动的内容创作和游戏开发。Meta CEO扎克伯格全力押注AI战略，这一产品体现了公司从社交媒体平台向AI原生应用的转型决心，同时也反映了'文本即代码'范式在创意领域的快速扩展。",
-          "analysis": "Meta通过收购Mozilla的Pocket品牌并赋予其全新AI定位，展现了其在AI应用生态布局上的激进策略。'vibe coding'概念将编程门槛降至最低，可能催生新的用户群体和商业模式，但也面临产品质量和技术成熟度的挑战。",
-          "social": [
-            {
-              "who": "游戏开发者",
-              "text": "文本生成游戏的理念降低了创作门槛，但AI生成的游戏在可玩性和平衡性方面仍需大量改进空间。"
-            },
-            {
-              "who": "科技记者",
-              "text": "Meta收购并重新定义Pocket品牌是一个大胆的品牌重塑案例，反映了AI时代产品命名的灵活性和策略性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "微软成立独立 AI 部署公司，投入 25 亿美元",
-          "eng": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-          "summary": "继亚马逊、OpenAI 和 Anthropic 之后，微软宣布成立自己的 AI 部署集团，并承诺投入 25 亿美元。这标志着微软从云服务提供商向 AI 基础设施运营商的战略转型。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-02",
-          "tags": [
-            "企业 AI",
-            "微软",
-            "投资"
-          ],
-          "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-          "overview": "微软正式推出独立的 AI 部署公司，并承诺投入 25 亿美元资金。这一举措紧随亚马逊、OpenAI 和 Anthropic 之后，表明科技巨头正在从单纯的模型训练转向 AI 的实际落地和应用部署。此举旨在帮助企业在复杂环境中更快速地集成和使用 AI 能力。",
-          "analysis": "微软成立独立部署公司意味着它不再满足于只做“卖铲子”的云服务提供商，而是要直接下场解决企业落地的最后一公里问题。25 亿美元的投资规模显示了其决心，但也引发了关于垂直整合是否会挤压中小 AI 创业公司的生存空间的讨论。",
-          "social": [
-            {
-              "who": "云架构师",
-              "text": "微软此举降低了企业部署 AI 的门槛，但同时也意味着 Azure 生态将变得更加封闭和依赖性强。"
-            },
-            {
-              "who": "科技评论员",
-              "text": "AI 部署正在成为新的战场，谁能解决最后一公里的问题，谁就能赢得企业市场的主导权。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI 正深入工业基础设施：发电厂涡轮机运行教学",
-          "eng": "Teaching AI to run with the turbines",
-          "summary": "MIT Technology Review 报道，AI 正在从消费级工具走向工业核心操作系统。在物理基础设施、运营连续性和安全性至关重要的行业中，AI 已成为核心操作层的一部分。",
-          "source": "MIT Tech Review",
-          "region": "美国/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "工业 AI",
-            "基础设施",
-            "应用落地"
-          ],
-          "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-          "overview": "文章指出，虽然 Chatbot 和图像生成器吸引了公众目光，但 AI 最具影响力的用例正在远离消费者工具。在拥有庞大工业系统、需要持续运营和安全性的行业中，AI 正成为核心操作系统层。随着工业系统的不断扩展，AI 在其中扮演的角色越来越关键。",
-          "analysis": "这篇文章揭示了 AI 价值的真正所在：不是炫技的对话能力，而是对物理世界的精确控制和优化。工业 AI 的成熟度将决定整个经济体的效率上限。对于投资者和从业者来说，关注工业 AI 可能比关注消费级 AI 更具长期价值。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "工业场景对可靠性的要求远高于互联网应用，AI 在这里的容错空间几乎为零，这对算法鲁棒性是巨大考验。"
-            },
-            {
-              "who": "产业观察者",
-              "text": "当 AI 开始管理发电厂和工厂时，我们才真正进入了智能社会的门槛，这比任何手机 App 都重要。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google AI 数据中心建设导致 2025 年用电量激增 37%",
-          "eng": "Google’s AI buildout drove 37% increase in electricity use in 2025",
-          "summary": "Ars Technica 报道 Google 在推进 AI 基础设施的同时，其 2025 年全年用电量增长了 37%，引发对清洁能源平衡的讨论。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "AI 能源",
-            "Google",
-            "数据中心",
-            "碳排放"
-          ],
-          "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-          "overview": "Google 试图在 AI 数据中心的碳排放与清洁能源努力之间取得平衡。尽管公司承诺使用可再生能源，但 AI 模型训练和推理的巨大算力需求导致电力消耗显著上升。这一数据凸显了 AI 行业快速扩张带来的环境挑战。",
-          "analysis": "37% 的增幅表明 AI 基础设施的能耗曲线正在陡峭化，单纯依赖绿色能源采购可能不足以应对未来的增长压力。这要求科技公司在模型效率优化和能源结构转型上同步发力。",
-          "social": [
-            {
-              "who": "环保研究者",
-              "text": "AI 的电力需求增长速度超过了可再生能源的建设速度，这是一个结构性问题。"
-            },
-            {
-              "who": "工程师",
-              "text": "算力即电力，如何在提升模型性能的同时控制能耗是行业核心难题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI 提议向特朗普政府出让 AI 繁荣 5% 股权",
-          "eng": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
-          "summary": "OpenAI CEO Sam Altman 提出向美国政府让渡 5% 股份，以缓解与特朗普政府的紧张关系并回应公众对 AI 的反感。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-07-02",
-          "tags": [
-            "AI政策",
-            "OpenAI",
-            "政府持股"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-          "overview": "据《金融时报》报道，OpenAI 提议向美国政府提供 5% 的所有权份额。CEO Sam Altman 认为让公众拥有经济利益是分享 AI 繁荣的最佳方式。此举旨在缓解与特朗普政府的紧张关系及应对日益增长的公众反对情绪。这标志着科技巨头从技术中立走向政治妥协的潜在转折点。",
-          "analysis": "股权置换可能成为未来科技公司与政府博弈的新范式，但也引发了关于数据主权和控制权的深层讨论。Altman 此举更多是危机公关而非战略转型，但信号意义深远。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "政府持股模式若被采纳，将彻底改变硅谷与华盛顿的关系结构，但 Altman 此举更多是危机公关而非战略转型。"
-            },
-            {
-              "who": "政策研究者",
-              "text": "5% 的份额看似不多，但在 AI 估值飙升的背景下，这相当于数十亿美元，足以影响公司的独立决策能力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "印度科技大亨自掏 3000 万美元打造 AI 版 Microsoft Office",
-          "eng": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
-          "summary": "TechCrunch 报道，印度企业家 Bhavin Turakhia 创立了名为 Neo 的初创公司，投入自有资金 3000 万美元开发 AI 驱动的办公套件，直接挑战微软 Office 和 Google Apps。这是他的第五次创业尝试，聚焦企业软件领域。",
-          "source": "TechCrunch AI",
-          "region": "印度/全球",
-          "published": "2026-07-02",
-          "tags": [
-            "企业 AI",
-            "初创融资",
-            "办公自动化"
-          ],
-          "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-          "overview": "印度科技大亨 Bhavin Turakhia 宣布投入 3000 万美元自有资金，开发名为 Neo 的 AI 办公套件，旨在取代 Microsoft Office 和 Google Apps。这是他的第五次创业尝试，Neo 利用 AI Agent 技术重新定义企业文档处理流程，试图在巨头林立的赛道中开辟新路径。",
-          "analysis": "在 AI Agent 技术成熟背景下，垂直领域的办公自动化可能成为下一个爆发点，对传统 SaaS 巨头构成潜在威胁。尽管挑战微软 Office 难度极大，但 AI 原生应用可能在特定场景下提供更高效的替代方案。",
-          "social": [
-            {
-              "who": "企业软件投资人",
-              "text": "AI 办公套件的市场潜力巨大，但用户迁移成本极高，Neo 需要在体验上做到极致才能吸引企业客户。"
-            },
-            {
-              "who": "产品经理",
-              "text": "微软 Office 的护城河在于生态锁定，Neo 需要找到差异化切入点，比如更智能的文档协作或自动化工作流。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anthropic 发布 Claude Science，进军科学研发领域",
-          "eng": "The Download: Anthropic launches Claude Science, and California's carbon manure math",
-          "summary": "Anthropic 在制药和生物技术高管活动上发布了旗舰产品 Claude Science，旨在为科学研究提供 AI 支持。该产品标志着 AI 工具从通用对话向垂直专业领域（如药物研发）的深入渗透。",
-          "source": "MIT Tech Review",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 产品发布",
-            "科学 AI",
-            "Anthropic"
-          ],
-          "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
-          "overview": "Anthropic 昨日面向制药高管、生物科技创始人和研究人员发布了 Claude Science，这是一款旨在支持科学研究的新旗舰产品。此举表明 AI 公司正在积极寻找高价值垂直场景，试图在药物发现和生物技术研发中建立壁垒。与此同时，加州的碳牛粪补贴数学模型也引发了关于气候政策有效性的讨论。",
-          "analysis": "Claude Science 的发布反映了 AI 厂商从通用能力向专业领域深耕的趋势。对于制药和生物科技行业而言，这意味着研发流程可能迎来效率革命，但也带来了数据安全和伦理审查的新挑战。Anthropic 选择在这一领域发力，说明其认为科学计算是区别于 ChatGPT 等消费级产品的核心差异化方向。",
-          "social": [
-            {
-              "who": "AI 行业分析师",
-              "text": "Claude Science 如果能在药物研发中证明 ROI，将彻底改变 VC 对 AI 应用层的投资逻辑，从通用模型转向垂直场景。"
-            },
-            {
-              "who": "科研人员",
-              "text": "期待 Claude Science 在实验设计自动化方面的实际表现，这比单纯的文本生成更有价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Xbox 宣布“重置”计划：微软裁员与工作室关闭背后的行业变局",
-          "eng": "Xbox’s ‘reset’: all the news about Microsoft’s looming layoffs and studio closures",
-          "summary": "Xbox 新任 CEO Asha Sharma 发出内部备忘录警告面临重大挑战，包括利润率下降和工作室关闭，标志着微软在游戏业务上的战略收缩。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "游戏行业",
-            "微软",
-            "企业重组"
-          ],
-          "url": "https://www.theverge.com/games/959900/xbox-reset-layoffs-studio-closures",
-          "overview": "Xbox 部门在 CEO Asha Sharma 上任后不久便发出“重置”备忘录，警告员工将面临裁员和工作室关闭。业务面临严峻挑战，包括利润率仅为 3% 的问责指标以及远高于预期的成本压力，这反映了微软在游戏领域从增长转向防御的战略调整。",
-          "analysis": "尽管 Xbox 是微软 AI 战略的重要载体（如 Game Pass 整合 Copilot），但当前的财务困境表明游戏硬件和订阅服务的盈利模式仍需优化。这一重组可能加速资源向云游戏和 AI 驱动的服务端转移，但也增加了核心玩家社区的不确定性。",
-          "social": [
-            {
-              "who": "游戏行业分析师",
-              "text": "Xbox 的‘重置’不仅是裁员，更是微软在 AI 时代重新定义游戏业务边界的信号，硬件利润正在被软件和服务侵蚀。"
-            },
-            {
-              "who": "独立开发者",
-              "text": "工作室关闭的消息令人遗憾，但这也可能为中小团队提供更多收购和整合的机会。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Hugging Face与Cerebras合作将Gemma 4引入实时语音AI",
-          "eng": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-          "summary": "Hugging Face 与芯片公司 Cerebras 合作，将 Google 的开源模型 Gemma 4 应用于实时语音 AI 场景。",
-          "source": "Hugging Face",
-          "region": "全球",
-          "published": "2026-07-01",
-          "tags": [
-            "Gemma",
-            "开源模型",
-            "语音AI",
-            "Cerebras"
-          ],
-          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-          "overview": "Hugging Face 与 Cerebras 联合宣布将 Gemma 4 模型部署到实时语音 AI 应用中。这一合作旨在利用 Cerebras 的芯片技术加速推理，使开源模型能够在语音交互场景中实现低延迟响应。",
-          "analysis": "将前沿开源模型引入实时语音场景是一个重要里程碑，表明开源生态正在追赶闭源模型在端侧和实时应用中的表现。这对依赖 Google 闭源模型的语音开发者来说是一个利好消息。",
-          "social": [
-            {
-              "who": "芯片架构师",
-              "text": "Cerebras 的芯片设计非常适合这种大规模并行推理任务，与 Gemma 4 的结合展示了硬件-软件协同优化的潜力。"
-            },
-            {
-              "who": "开发者",
-              "text": "开源语音模型的低延迟能力将降低开发门槛，更多初创公司可能因此进入实时 AI 对话领域。"
-            }
-          ]
-        },
-        {
-          "title_zh": "SpaceX展示AI手机原型：更薄于iPhone的' handset-like'设备",
-          "eng": "Elon Musk denies a report about SpaceX's AI phone prototype",
-          "summary": "据《华尔街日报》报道，SpaceX在6月创纪录IPO之前向投资者展示了类似手机的AI设备原型。马斯克否认了这一报道的真实性，称其为'完全虚假'。该设备据称比iPhone更薄，引发了关于太空公司跨界进入消费电子领域的讨论。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "SpaceX",
-            "AI手机",
-            "马斯克",
-            "消费电子"
-          ],
-          "url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
-          "overview": "《华尔街日报》报道，SpaceX在创纪录的IPO之前向投资者展示了类似手机的AI设备原型，该设备据称比iPhone更薄。马斯克随后否认了这一报道的真实性，称其为'完全虚假'。不过，这一消息引发了广泛讨论——如果属实，这意味着SpaceX可能正在利用其在卫星互联网和AI领域的技术积累，跨界进入消费电子市场。",
-          "analysis": "无论报道是否属实，这一事件揭示了科技巨头跨界趋势的加速。SpaceX拥有卫星通信、火箭制造和AI三大核心能力，如果能够将这些能力整合到消费级设备中，将创造全新的产品形态。马斯克的否认也反映了公众对这类跨界传闻的高度关注。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "如果SpaceX真的在做手机，那将是卫星通信+AI+硬件整合的全新范式，但目前技术成熟度仍有很大距离。"
-            },
-            {
-              "who": "投资人",
-              "text": "马斯克总是能在意想不到的领域制造话题，但SpaceX的核心竞争力仍在太空而非消费电子。"
-            }
-          ]
-        },
-        {
-          "title_zh": "索尼宣布2028年起停止生产PlayStation游戏光盘：物理游戏的葬礼已经开始",
-          "eng": "The funeral for PlayStation discs has begun",
-          "summary": "索尼宣布将从2028年1月起停止为新游戏生产光盘，同时关闭部分数字商店。这一决定引发了游戏行业关于物理媒体存废的激烈讨论，零售商和玩家对此表示强烈不满。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "索尼",
-            "PlayStation",
-            "游戏光盘",
-            "数字转型"
-          ],
-          "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
-          "overview": "索尼宣布将从2028年1月起停止为新PlayStation游戏生产光盘，同时关闭部分数字商店。这一决定引发了游戏行业的强烈反响——零售商Pink Gorilla Games的老板表示'这对玩家来说完全是负面的'，因为这将削弱游戏的可保存性和所有权概念。与此同时，博物馆和收藏家开始担忧物理游戏媒体的长期保存问题。",
-          "analysis": "索尼的这一决定标志着游戏行业从物理媒体向数字化的不可逆转转型。虽然数字化带来了便利，但也引发了关于游戏所有权、存档权和零售生态的深层讨论。对于收藏家和怀旧玩家而言，这意味着一个时代的终结；对于索尼而言，这是应对盗版和推动订阅模式的战略选择。",
-          "social": [
-            {
-              "who": "零售商",
-              "text": "这对实体游戏零售店是毁灭性的打击，我们已经失去了与消费者直接连接的重要渠道。"
-            },
-            {
-              "who": "收藏家",
-              "text": "物理光盘不仅是娱乐产品，更是文化载体。失去它们意味着失去了一部分游戏历史。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Cloudflare 新政策要求 AI 公司分离爬虫与训练数据抓取",
-          "eng": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
-          "summary": "Cloudflare 给 AI 公司提供至 9 月 15 日的宽限期，要求其将用于搜索的网页爬虫与用于 AI 训练的爬虫分开，否则将面临被默认屏蔽的风险。此举旨在推动 AI 企业为出版商内容付费。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 监管",
-            "Cloudflare",
-            "数据版权"
-          ],
-          "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-          "overview": "Cloudflare 宣布了一项新政策，要求使用其网络基础设施的 AI 公司必须将用于搜索引擎索引的爬虫与用于训练 AI 代理和模型的爬虫进行物理或逻辑上的分离。如果未能遵守，这些公司的网站流量将被默认阻断。这一举措被视为推动 AI 行业建立更公平的内容获取机制的重要一步。",
-          "analysis": "该政策可能迫使 OpenAI、Google 等巨头重新评估其数据抓取成本结构，加速“付费训练”模式的落地。这不仅是技术合规问题，更是 AI 与内容创作者之间权力博弈的转折点。",
-          "social": [
-            {
-              "who": "法律专家",
-              "text": "将爬虫分离作为合规门槛是一个务实的做法，它为出版商争取了实质性的议价能力。"
-            },
-            {
-              "who": "AI 工程师",
-              "text": "对于依赖大规模网络爬取进行预训练的模型来说，这意味着训练成本将显著上升。"
-            }
-          ]
-        },
-        {
-          "title_zh": "SpaceX 展示 AI 手机原型，马斯克否认相关报道",
-          "eng": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-          "summary": "据《华尔街日报》报道，SpaceX 在 IPO 前向投资者展示了类似手机的 AI 设备原型，马斯克随后否认该报道的真实性。TechCrunch 分析认为这可能是 SpaceX 进军无线通信领域的信号。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "SpaceX",
-            "AI 硬件",
-            "马斯克"
-          ],
-          "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-          "overview": "在 SpaceX 创下纪录的 IPO 之前，有报道称该公司向投资者展示了一款比 iPhone 更薄的 AI 设备原型。尽管马斯克称该报道“完全虚假”，但 TechCrunch 指出这可能暗示 SpaceX 正试图扩展其业务范围至无线通信领域。这一设备结合了 AI 功能，展示了航天巨头在消费电子领域的野心。",
-          "analysis": "无论原型是否真实，SpaceX 探索非航天业务的趋势值得关注。AI 硬件的融合如果成真，将改变我们对太空公司商业模式的认知，同时也可能加剧科技巨头的竞争格局。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "SpaceX 的多元化战略总是出人意料，无线通信领域的入场可能会引发新的反垄断讨论。"
-            },
-            {
-              "who": "航天爱好者",
-              "text": "如果 SpaceX 真的在做 AI 手机，那它可能比苹果更激进地整合硬件和 AI 能力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "MIT 研究揭示 LLM 陷入“群体思维”，初创公司试图打破僵局",
-          "eng": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-          "summary": "MIT Technology Review 报道了一项关于大语言模型输出模式的研究，发现 LLM 倾向于生成重复的数字或答案（如总是回答 7）。一家初创公司正在开发方法来让模型摆脱这种思维定势。",
-          "source": "MIT Tech Review",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "大语言模型",
-            "AI 研究",
-            "群体思维"
-          ],
-          "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-          "overview": "研究人员发现，当要求 LLM 生成随机数字时，模型往往不会真正随机，而是倾向于选择特定数字（如 7），表现出一种“群体思维”倾向。一家初创公司正在尝试通过新的训练或架构方法来解决这一问题，旨在提高 AI 在需要多样性和创造性任务中的表现。",
-          "analysis": "这一现象揭示了当前 LLM 在概率分布上的潜在缺陷，可能影响其在创意写作、数学推理等场景的可靠性。解决“群体思维”问题对于提升 AI 的通用智能水平至关重要。",
-          "social": [
-            {
-              "who": "AI 研究员",
-              "text": "随机性测试是评估模型真实能力的好方法，这比简单的基准测试更能反映模型的内在偏差。"
-            },
-            {
-              "who": "产品设计师",
-              "text": "如果用户总是得到相同的“随机”答案，这会严重损害用户对 AI 工具的信任感。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google Gemini Spark 代理助手登陆 macOS",
-          "eng": "Gemini Spark, Google's agentic assistant, is now available on Mac",
-          "summary": "Google 的 24/7 全天候代理助手 Gemini Spark 现已支持 Mac 平台，并带来了实时追踪和更多应用支持等改进功能。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "Google",
-            "Gemini",
-            "macOS"
-          ],
-          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
-          "overview": "Google 宣布其旗舰代理助手 Gemini Spark 正式登陆 macOS，用户可以在 Mac 上获得全天候的 AI 辅助服务。此次更新还包括了实时位置追踪功能以及对更多桌面应用程序的支持，进一步巩固了 Google 在个人生产力工具领域的竞争地位。",
-          "analysis": "Gemini Spark 进入桌面端意味着 Google 正在将 AI 代理从移动端向全平台扩展。面对 Apple Intelligence 和微软 Copilot 的竞争，Google 需要在桌面生态中提供更强的本地化体验。",
-          "social": [
-            {
-              "who": "Mac 用户",
-              "text": "终于可以在 Mac 上使用 Gemini Spark 了，希望它能像 iOS 版本一样流畅。"
-            },
-            {
-              "who": "科技评论员",
-              "text": "Google 正在试图将 AI 助手变成操作系统级别的功能，而不仅仅是浏览器插件。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国家庭电池安装量创历史新高，AI 数据中心需求推动电网变革",
-          "eng": "US home battery installations hit record high on rising electricity costs",
-          "summary": "受电价上涨影响，美国住宅储能系统安装量在 2026 年初创下纪录，这一趋势不仅为电网解锁了更多选项，也为 AI 数据中心的能源供应提供了新路径。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 基础设施",
-            "储能",
-            "能源"
-          ],
-          "url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
-          "overview": "由于电价持续上涨，美国家庭电池安装量在 2026 年初达到了历史新高。这一增长不仅反映了消费者对能源成本的应对策略，还揭示了电网灵活性的重要性。分析指出，这种分布式储能能力的提升为 AI 数据中心的电力供应提供了新的解决方案，有助于缓解日益增长的算力对能源的巨大需求。",
-          "analysis": "家庭储能的爆发式增长与 AI 数据中心的需求形成了有趣的互补关系。随着 AI 算力的扩张，电网的稳定性将成为关键瓶颈，而分布式电池网络可能成为解决这一问题的核心基础设施之一。",
-          "social": [
-            {
-              "who": "能源分析师",
-              "text": "家庭储能的增长速度远超预期，这表明电价压力正在重塑美国的电力消费结构。"
-            },
-            {
-              "who": "AI 基础设施规划师",
-              "text": "如果 AI 数据中心能利用这些分布式电池资源，将大大减少对集中式发电厂的依赖。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Venice AI 以 6500 万美元 A 轮融资成为独角兽",
-          "eng": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
-          "summary": "隐私优先的 AI 平台 Venice AI 宣布完成 6500 万美元 Series A 融资，年化收入已超 7000 万美元，CEO Erik Voorhees 表示公司已实现盈利。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 创业",
-            "融资",
-            "隐私计算"
-          ],
-          "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
-          "overview": "隐私优先的 AI 平台 Venice AI 正式成为独角兽企业，完成了 6500 万美元的 Series A 轮融资。CEO Erik Voorhees 透露，公司已经实现盈利，年化经常性收入超过 7000 万美元。这一成就表明市场对注重数据隐私的 AI 解决方案的需求正在快速增长。",
-          "analysis": "Venice AI 的成功证明了“隐私优先”并非仅仅是营销口号，而是可以在商业上可行的策略。在 GDPR 和全球数据保护法规日益严格的背景下，这种差异化定位可能成为 AI 初创公司突围的关键路径。",
-          "social": [
-            {
-              "who": "VC 投资人",
-              "text": "Venice AI 的盈利模式令人印象深刻，说明隐私计算技术已经开始产生实际商业价值。"
-            },
-            {
-              "who": "企业合规官",
-              "text": "对于需要处理敏感数据的行业来说，Venice AI 提供的方案可能比传统大模型更具吸引力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普政府解除 Anthropic Mythos 和 Fable 模型的监管限制",
-          "eng": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
-          "summary": "特朗普政府突然解除了对 Anthropic 两款新模型的限制，但业界指出这种反复无常的 AI 政策让企业对未来模型发布的合规前景缺乏清晰度。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 监管",
-            "Anthropic",
-            "政策变动"
-          ],
-          "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
-          "overview": "特朗普政府宣布解除此前对 Anthropic 旗下 Mythos 和 Fable 模型的特定限制，允许其发布。然而，这种政策上的反复无常使得整个 AI 行业在模型合规和未来监管方向上感到困惑。此举被视为政治风向变化对科技巨头直接影响的一个缩影。",
-          "analysis": "监管的不确定性是 AI 企业最大的风险之一。虽然短期解除限制利好 Anthropic 的产品迭代速度，但长期缺乏稳定的政策框架可能阻碍大规模的企业级部署和公众信任的建立。",
-          "social": [
-            {
-              "who": "科技政策研究员",
-              "text": "这种‘先限制后放开’的模式本质上是一种政治博弈工具，而非基于技术风险评估的监管决策，对行业创新环境构成了负面干扰。"
-            },
-            {
-              "who": "AI 创业者",
-              "text": "合规成本的不确定性直接影响了我们的融资节奏和产品发布计划，希望政策能尽快稳定下来。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google 推出搭载 Gemini 的新款智能音箱，但 AI 能力尚未就绪",
-          "eng": "Google built a great smart speaker, but Gemini isn’t ready for it",
-          "summary": "The Verge 评测了 Google 新款智能音箱，硬件表现优异，但受限于当前 Gemini 模型的能力，AI 助手体验仍显不足。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-07-01",
-          "tags": [
-            "智能硬件",
-            "Google Gemini",
-            "AI 评测"
-          ],
-          "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
-          "overview": "Google 发布了新款 Home Speaker，硬件设计令人印象深刻，旨在通过 AI 赋予智能音箱新的生命力。然而评测指出，尽管硬件已准备好，Gemini 模型在复杂对话和任务执行上的能力尚不足以完全发挥设备潜力。这反映了当前 AI 大模型与消费级硬件之间存在的脱节问题。",
-          "analysis": "Google 试图用 Gemini 重塑智能音箱品类，但‘好马配差鞍’的尴尬局面说明，AI Agent 在端侧或轻量级交互中的成熟度仍需提升。硬件厂商往往跑在软件能力的前面，等待 AI 真正理解自然语言意图是关键瓶颈。",
-          "social": [
-            {
-              "who": "消费电子评论员",
-              "text": "硬件本身已经非常成熟，但如果没有足够聪明的‘大脑’，再好的音箱也只是个昂贵的闹钟。Google 需要加速端侧推理的优化。"
-            },
-            {
-              "who": "产品经理",
-              "text": "这提醒我们，AI 产品的成功不仅取决于模型能力，还取决于交互场景的设计。目前 Gemini 在家庭场景下的多轮对话逻辑仍需打磨。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Wayve 以 85 亿美元估值推出员工股票期权计划吸引人才",
-          "eng": "Wayve launches $85M employee tender offer at $8.5B valuation",
-          "summary": "自动驾驶 AI 初创公司 Wayve 宣布以 85 亿美元估值向员工提供价值 8500 万美元的期权，成为利用员工激励吸引和留住人才的趋势案例。",
-          "source": "TechCrunch AI",
-          "region": "全球",
-          "published": "2026-07-01",
-          "tags": [
-            "AI 融资",
-            "自动驾驶",
-            "人才战略"
-          ],
-          "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
-          "overview": "Wayve 是一家专注于自动驾驶技术的 AI 初创公司，近期以 85 亿美元估值推出了员工股票期权计划。这是越来越多 AI 初创公司采用的战略工具，旨在在不进行大规模公开融资的情况下吸引顶尖技术人才。该举措反映了当前 AI 行业对核心人才的激烈争夺以及资本市场的谨慎态度。",
-          "analysis": "员工期权计划（Tender Offer）的兴起表明，AI 创业公司在 IPO 之前需要更灵活的方式来激励团队。Wayve 的高估值说明自动驾驶赛道依然受到资本市场青睐，但人才竞争已从薪资转向股权和愿景绑定。",
-          "social": [
-            {
-              "who": "风险投资人",
-              "text": "85 亿美元估值在自动驾驶领域不算低，员工期权计划是一种聪明的信号释放方式，表明公司有信心在不稀释现有股东的前提下扩张团队。"
-            },
-            {
-              "who": "AI 工程师",
-              "text": "比起现金，期权更能绑定长期利益。但前提是公司技术路线要清晰，否则期权可能变成废纸。Wayve 的技术积累是不错的加分项。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anthropic 发布旗舰产品 Claude Science，专为科学研究设计",
-          "eng": "Claude Science is Anthropic’s newest flagship product",
-          "summary": "Anthropic 推出 Claude Science，一款专为科学研究设计的 AI 代理，可自主执行复杂科研任务，类似于 Claude Code 对软件工程的支持。",
-          "source": "MIT Tech Review",
-          "region": "美国",
-          "published": "2026-06-30",
-          "tags": [
-            "AI代理",
-            "科学研究",
-            "Anthropic"
-          ],
-          "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-          "overview": "Anthropic 在面向制药高管、生物技术创始人和研究人员的活动中宣布了 Claude Science，这是其最新的旗舰产品，旨在像 Claude Code 支持软件工程一样支持科学研究。Claude Science 能够根据简洁的高层指令自主执行有意义的工作，并拥有访问外部工具和数据的权限。",
-          "analysis": "Claude Science 的推出标志着 AI 从辅助编码扩展到辅助科学发现，可能加速药物研发、材料科学等领域的突破。Anthropic 正通过专业化产品巩固其在 AI 研究领域的领先地位。",
-          "social": [
-            {
-              "who": "研究者",
-              "text": "Claude Science 有望大幅缩短科研周期，但需验证其在真实实验室环境中的可靠性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenClaw 开源 AI 代理登陆 Android 和 iOS",
-          "eng": "OpenClaw is finally available on Android and iOS",
-          "summary": "免费开源 AI 代理 OpenClaw 正式登陆移动平台，用户可在手机上使用其自主任务执行能力。",
-          "source": "TechCrunch AI",
-          "region": "全球",
-          "published": "2026-06-30",
-          "tags": [
-            "开源AI",
-            "移动应用",
-            "AI代理"
-          ],
-          "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-          "overview": "OpenClaw，一个免费的开源 AI 代理程序，现已登陆 Android 和 iOS 平台。该程序允许用户在手机上运行 AI 代理，执行各种自主任务。",
-          "analysis": "OpenClaw 的移动化将 AI 代理的普及推向新高度，但移动端的算力和隐私限制可能影响其性能。开源模式有助于社区驱动创新。",
-          "social": [
-            {
-              "who": "技术爱好者",
-              "text": "在手机上运行 AI 代理太酷了，但电池续航和数据处理是实际使用中的痛点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anthropic发布Claude Sonnet 5：更便宜的AI代理运行方案",
-          "eng": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-          "summary": "Anthropic推出Claude Sonnet 5，具备更强的代理能力、更低的价格和更好的安全性，成为Opus、GPT-5.5和Gemini Pro的廉价替代品。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-06-30",
-          "tags": [
-            "AI模型",
-            "Anthropic",
-            "Claude",
-            "AI代理"
-          ],
-          "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-          "overview": "Anthropic发布了Claude Sonnet 5，这是其最新一代AI模型，专注于代理能力。该模型在保持高性能的同时降低了成本，旨在为企业提供更经济的AI代理解决方案。Sonnet 5在推理、编码和任务自动化方面表现出色，并增强了安全对齐。",
-          "analysis": "Claude Sonnet 5的推出标志着AI代理市场竞争加剧，Anthropic通过价格优势吸引中小企业。此举可能迫使其他厂商调整定价策略，推动AI代理的普及。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Sonnet 5的价格很香，但代理能力是否真的能替代Opus？期待实际测试。"
-            },
-            {
-              "who": "投资人",
-              "text": "Anthropic正在用性价比抢占市场，这对整个AI生态是好事。"
-            }
-          ]
-        }
-      ]
+      "items": []
     },
     "libraries": {
       "items": [
@@ -1489,7 +708,298 @@
       ]
     },
     "sports": {
-      "items": [],
+      "items": [
+        {
+          "title_zh": "纳格尔斯曼辞职，德国队帅位陷入动荡",
+          "eng": "World Cup 2026: Germany hold Klopp talks after Nagelsmann quits; Portugal to face Spain after VAR drama – live",
+          "summary": "据《图片报》报道，38岁的纳格尔斯曼已与德国足协高层达成离职协议。此前他在周四于法兰克福进行了长达三小时的秘密会谈后决定离开帅位。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/live/2026/jul/03/world-cup-2026-portugal-spain-switzerland-australia-egypt-argentina-cape-verde-colombia-ghana-live",
+          "overview": "纳格尔斯曼在世界杯期间宣布辞职，与德国足协（DFB）进行了为期三小时的秘密峰会后达成协议。这标志着德国队帅位出现重大变动，俱乐部名宿克洛普被卷入相关讨论中。这一人事地震发生在葡萄牙对阵西班牙的比赛引发 VAR 争议之后，为赛事增添了更多不确定性。",
+          "analysis": "纳格尔斯曼的离开对德国足球影响深远，新帅人选将成为世界杯备战的关键变量。德国足协在法兰克福的紧急会谈显示了对局势的重视程度。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "德国队刚经历 VAR 争议，又换帅，这届世界杯变数太大了"
+            },
+            {
+              "who": "教练视角",
+              "text": "三小时的秘密峰会说明内部压力已经无法忽视，更衣室管理是核心问题"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "英格兰对阵墨西哥需低姿态应对高原挑战",
+          "eng": "England must go low against Mexico to hit heights with Total Arsenalball",
+          "summary": "图赫尔需要放慢比赛节奏，帮助球队适应墨西哥城的高海拔环境。阿兹特克体育场海拔超过7000英尺，英格兰队没有时间进行充分的身体适应训练。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/total-arsenalball-england-low-block-mexico-azteca",
+          "overview": "在阿兹特克体育场迎战墨西哥时，英格兰队面临严峻的高原挑战。主教练图赫尔预测本届世界杯将充满防守性战术，球队必须采用低位防守策略来应对高海拔带来的体能消耗和适应时间不足的问题。",
+          "analysis": "高原作战对体能要求极高，英格兰若无法有效适应，进攻端可能大打折扣。图赫尔的“总阿森纳球”风格在此地可能需要做出妥协。",
+          "social": [
+            {
+              "who": "解说",
+              "text": "墨西哥城的海拔是硬伤，图赫尔的低位防守方案是唯一解"
+            },
+            {
+              "who": "资深球迷",
+              "text": "7000英尺以上踢球，体能分配比战术更重要"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "挪威终于兑现世界杯承诺——与巴西的重逢恰逢其时",
+          "eng": "Norway have finally lived up to World Cup billing – a reunion with Brazil is perfect timing | Lars Sivertsen",
+          "summary": "斯塔勒·索尔巴肯率领的挪威队超越了此前的黄金一代，正准备迎战曾在1998年击败过的对手。对于拥有560万人口的小国而言，挪威在竞技体育上的成就令人瞩目。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/norway-have-finally-lived-up-to-world-cup-billing-a-reunion-with-brazil-is-perfect-timing",
+          "overview": "挪威队在主教练索尔巴肯的带领下，表现超出了此前黄金一代的预期，即将与巴西队进行一场备受期待的重逢。这支来自北欧的球队在国际赛场上的竞争力持续上升，被视为本届世界杯的惊喜之师。",
+          "analysis": "1998年的胜利是挪威足球的里程碑，如今再次面对巴西，他们渴望延续这份荣耀。小国崛起的故事往往能点燃全球球迷的热情。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "560万人口的国家能出这样的球队，确实了不起"
+            },
+            {
+              "who": "体育评论员",
+              "text": "北欧足球的崛起是趋势，挪威这次真的站上了世界舞台中央"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "拉明·亚马尔肩负西班牙世界杯梦想的重担",
+          "eng": "Family ties and focus: Lamine Yamal carries burden of Spain’s World Cup dream",
+          "summary": "这位18岁的天才球员正带领国家争取第二个冠军头衔。他在对阵奥地利的比赛中打入第三球时，年仅三岁的弟弟在镜头前兴奋地欢呼。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/lamine-yamal-spain-world-cup-brother-keyne",
+          "overview": "18岁的拉明·亚马尔是西班牙队冲击世界杯第二座奖杯的核心人物。他在淘汰赛阶段的表现令人动容，其年幼的弟弟也在现场为哥哥加油助威，成为社交媒体上的热门话题。洛杉矶球场的建设背景也侧面反映了赛事的规模。",
+          "analysis": "亚马尔的崛起象征着西班牙足球的新生力量，家庭支持是他坚持梦想的重要动力。年轻球员在大赛中的心理成熟度往往被低估。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "三岁的弟弟在球场边喊“加油”，这才是真正的传承"
+            },
+            {
+              "who": "体育记者",
+              "text": "18岁扛起国家队梦想，亚马尔的未来不可限量"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "斯坦威转会阿森纳：锁定奖杯后的新征程",
+          "eng": "Georgia Stanway targets trophies after sealing ‘unbelievable’ move to Arsenal",
+          "summary": "英格兰中场球员斯坦威以自由身加盟阿森纳，结束了她在拜仁慕尼黑的生涯。她帮助拜仁赢得了四连冠的女足德甲冠军，并表示这是赢得更多奖杯的正确选择。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/georgia-stanway-arsenal-wsl",
+          "overview": "乔治亚·斯坦威在合同到期后免费转会至阿森纳，结束了她在拜仁慕尼黑效力期间连续四次夺得女足德甲冠军的辉煌时期。她表示阿森纳是提升自我和争夺荣誉的最佳平台，这一转会标志着她职业生涯的新篇章。",
+          "analysis": "从拜仁到阿森纳，斯坦威的转会标志着她职业生涯的新阶段，北伦敦俱乐部有望为她提供更多争冠机会。女足联赛的竞争格局因此可能发生变化。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "四连冠后自由身加盟枪手，这步棋走得漂亮"
+            },
+            {
+              "who": "教练视角",
+              "text": "斯坦威的经验和冠军底蕴对阿森纳的中场建设至关重要"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "世界杯成功改变了佛得角的日常生活——“旗帜无处不在”",
+          "eng": "'Now the flag is everywhere': how World Cup success has changed life in Cape Verde",
+          "summary": "蓝鲨队将成为历史上参加淘汰赛的最少人口国家之一，他们将在周五对阵阿根廷。世界杯的成功已经深刻影响了这个岛国的社会生活和文化氛围。",
+          "source": "Guardian Football",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/cape-verde-history-2026-world-cup-argentina-last-32",
+          "overview": "佛得角蓝鲨队即将在淘汰赛中迎战阿根廷，这将是该国历史上首次进入世界杯淘汰赛阶段。世界杯的成功不仅带来了荣誉，更让国旗遍布全国，深刻改变了当地居民的生活方式和自豪感。圣地亚哥岛上的节日庆典也反映了民众的热情。",
+          "analysis": "作为人口最少的参赛国之一，佛得角的晋级本身就是奇迹，他们的故事激励着无数足球爱好者。这种社会层面的影响往往比比赛结果更加深远。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "蓝鲨队能进淘汰赛已经是奇迹，这面旗帜值得骄傲"
+            },
+            {
+              "who": "体育评论员",
+              "text": "世界杯让世界上最小的国家之一拥有了全世界最关注的舞台"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "乒乓球俱乐部引入医生服务，50岁以上男性论坛计划扩张",
+          "eng": "The table tennis club where you can see a doctor",
+          "summary": "BBC报道英国一个由50岁以上黑人男性组成的论坛运营着多个地点的乒乓球俱乐部，并计划扩展。",
+          "source": "BBC Table Tennis",
+          "published": "2026-06-01",
+          "url": "https://www.bbc.co.uk/news/articles/clyp8rr0gk0o?at_medium=RSS&at_campaign=rss",
+          "overview": "该论坛在10个地点运营乒乓球俱乐部，旨在为50岁以上男性提供运动与医疗结合的服务。论坛计划进一步扩大规模，以覆盖更多社区。",
+          "analysis": "将医疗资源引入社区乒乓球活动是英国推广大众体育的新尝试，有助于提升中老年群体的参与度和健康水平。",
+          "social": [
+            {
+              "who": "资深球迷/社区成员",
+              "text": "这种模式很有意义，让运动回归健康本质。"
+            }
+          ],
+          "region": "乒乓球"
+        },
+        {
+          "title_zh": "世界杯创纪录：葡萄牙4球被判无效，马丁内斯称无争议判罚",
+          "eng": "Martínez says there was no 'lucky call' after record four goals ruled out in Portugal win",
+          "summary": "世界杯历史上首次出现单场比赛四个进球被吹掉，克罗地亚主帅达利奇表示球队情绪已被摧毁。",
+          "source": "Guardian Sport",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/roberto-martinez-portugal-croatia-record-four-goals-ruled-out-world-cup-2026",
+          "overview": "葡萄牙队凭借VAR的多次介入，以一场充满争议的比赛晋级世界杯16强。这是该届赛事历史上首次在同一场比赛中取消四个进球，克罗地亚队因此遭受重创。主帅达利奇形容球队的情绪已被“彻底杀死”，而比利时主帅马丁内斯则坚称这些判罚并非运气使然，球上有芯片是VAR介入的明显原因。",
+          "analysis": "VAR在本届世界杯中的干预力度达到了前所未有的程度，虽然确保了公平性，但也引发了关于比赛流畅度的讨论。葡萄牙队的晋级之路充满了戏剧性，这将成为赛后热议的话题。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "四个进球全被吹掉，克罗地亚的防线简直成了筛子，VAR这次确实帮了大忙。"
+            },
+            {
+              "who": "评论员",
+              "text": "球上有芯片导致VAR介入，这解释了为什么会有这么多争议判罚，技术辅助裁判的作用越来越关键。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "曼赞比闪耀：瑞士轻松晋级16强，阿尔及利亚防线被撕裂",
+          "eng": "Manzambi dazzles as Switzerland stroll into last 16 with win over Algeria",
+          "summary": "20岁的弗赖堡前锋曼赞比表现出色，为瑞士队首开纪录，帮助球队舒适地晋级世界杯16强。",
+          "source": "Guardian Sport",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/manzambi-switzerland-world-cup-algeria-match-report",
+          "overview": "瑞士队以压倒性优势击败阿尔及利亚，顺利进入世界杯16强。20岁的弗赖堡前锋曼赞比是球队的关键人物，他摧毁了阿尔及利亚的防线并为队友恩博洛助攻首开纪录。队长格拉尼特·扎卡试图控制高涨的期望值，但瑞士队的表现让这一任务变得更加困难。纽卡斯尔联队也在积极寻求签下这位年轻前锋。",
+          "analysis": "曼赞比的崛起令人瞩目，他不仅展现了出色的个人能力，还成为了瑞士队晋级的关键功臣。纽卡斯尔联队的介入也表明他在转会市场上具有极高的价值。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "曼赞比太棒了，20岁就能在世界杯上如此表现，未来可期。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "瑞士队整体战术执行非常到位，恩博洛的进球也体现了球队的攻击效率。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "梅西在迈阿密迎来阿根廷之旅：球迷期待俱乐部与国家队双线交汇",
+          "eng": "Lionel Messi makes his Miami homecoming with Argentina: 'For us this is a chance to celebrate him'",
+          "summary": "阿根廷队在16强赛中对阵佛得角，这将是梅西在迈阿密的小布宜诺斯艾利斯社区受到热烈欢迎的时刻。",
+          "source": "Guardian Sport",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/football/2026/jul/03/lionel-messi-argentina-miami-world-cup",
+          "overview": "阿根廷队的16强对手是佛得角，这场比赛将见证梅西在俱乐部（迈阿密国际）和国家队之间的路径交汇。在迈阿密的小布宜诺斯艾利斯社区，几乎每个人都会分享与梅西相遇的故事，从面包店员工到咖啡店老板，大家对这位球星的热情不减。",
+          "analysis": "梅西在迈阿密的回归不仅是个人荣誉的延续，更是这座城市足球文化的象征。他的表现将继续激励着无数年轻球员。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "梅西在迈阿密的每一步都充满了故事，这次世界杯之旅注定精彩。"
+            },
+            {
+              "who": "解说员",
+              "text": "小布宜诺斯艾利斯的居民对梅西的热爱是真实的，这种情感连接超越了足球本身。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "世界杯门票转售价格飙升：英格兰球迷在官方平台标价高达2.6万英镑",
+          "eng": "England fan tickets on resale for up to £26k - including 15% Fifa fee",
+          "summary": "英格兰球迷在FIFA官方转售平台上将原本购买的门票重新列出，价格高达数千英镑，其中包括15%的FIFA费用。",
+          "source": "BBC Sport",
+          "published": "2026-07-03",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cj3g7dxlvexo?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰球迷在FIFA官方转售平台上将原本购买的门票重新列出，价格高达数千英镑，其中包括15%的FIFA费用。这一现象反映了世界杯期间门票需求的激增以及球迷对比赛的热情。",
+          "analysis": "世界杯门票市场的供需失衡导致了价格的飙升，这不仅是经济问题，也引发了关于公平性和可及性的讨论。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "看到英格兰的门票价格如此之高，真是让人唏嘘不已。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "世界杯期间门票价格的波动是正常的市场行为，但15%的FIFA费用确实增加了购票成本。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "汉密尔顿在银石赛道练习赛中领先：法拉利车手领跑英国大奖赛",
+          "eng": "Hamilton fastest in Silverstone practice session",
+          "summary": "法拉利的刘易斯·汉密尔顿在英国大奖赛的练习赛中表现出色，为即将到来的冲刺排位赛奠定了基础。",
+          "source": "BBC Sport",
+          "published": "2026-07-03",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/c75yk24rrd7o?at_medium=RSS&at_campaign=rss",
+          "overview": "在银石赛道的练习赛中，法拉利的刘易斯·汉密尔顿以最快圈速领先全场。这一表现为他即将到来的冲刺排位赛奠定了良好的基础，同时也展示了法拉利车队在本赛季的竞争力。",
+          "analysis": "汉密尔顿在银石赛道的表现再次证明了他的实力，法拉利车队的竞争力也在不断提升。接下来的比赛将是对他状态的进一步考验。",
+          "social": [
+            {
+              "who": "资深F1粉丝",
+              "text": "汉密尔顿在银石的练习赛中表现出色，法拉利的竞争力不容小觑。"
+            },
+            {
+              "who": "赛车评论员",
+              "text": "冲刺排位赛将是关键，汉密尔顿需要保持这种状态才能取得好成绩。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "温网2026：萨菲乌林惊艳费隆塞卡；大阪直美出战",
+          "eng": "Wimbledon 2026: Safiullin stuns Fonseca; Osaka in action; Djokovic and Sinner to come – live",
+          "summary": "温布尔登网球锦标赛现场直播，萨菲乌林在比赛中表现出色，大阪直美也在比赛中亮相。",
+          "source": "Guardian Sport",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/03/wimbledon-2026-djokovic-sabalenka-sinner-gauff-osaka-live",
+          "overview": "温布尔登网球锦标赛的现场直播中，萨菲乌林在比赛中表现出色，大阪直美也在比赛中亮相。此外，卡利尼斯卡娅因左腿腘绳肌受伤接受治疗，本奇奇在第二盘以6-4、4-4领先。德约科维奇和辛纳的比赛即将开始。",
+          "analysis": "温网作为网球四大满贯之一，每年的比赛都备受关注。萨菲乌林的表现令人惊喜，大阪直美的出战也增加了比赛的看点。接下来的比赛将更加激烈。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "萨菲乌林在温网的表现太棒了，他的进步令人瞩目。"
+            },
+            {
+              "who": "网球评论员",
+              "text": "卡利尼斯卡娅的受伤是个遗憾，但本奇奇的防守确实出色。接下来的比赛将更加精彩。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "MLB爆发 benches-clearing 事件：纳什维尔国民队投手与红袜队一垒手各被禁赛7场",
+          "eng": "Nationals' Cavalli suspended seven games after 'Sit down, boy' comment sparks brawl",
+          "summary": "华盛顿国民队投手卡代·卡瓦利和波士顿红袜队一垒手威尔逊·孔特拉斯因 benches-clearing 事件各被禁赛7场。",
+          "source": "Guardian Sport",
+          "published": "2026-07-02",
+          "url": "https://www.theguardian.com/sport/2026/jul/02/cade-cavalli-willson-contreras-suspension-brawl",
+          "overview": "华盛顿国民队投手卡代·卡瓦利和波士顿红袜队一垒手威尔逊·孔特拉斯因 benches-clearing 事件各被禁赛7场。这一事件源于卡瓦利的种族相关言论，引发了板凳席的混乱。MLB还分别对国民队右投手迈尔斯·米科拉斯和红袜队外野手内特·伊顿进行了5场和3场的禁赛处罚。",
+          "analysis": "这一事件再次提醒我们，棒球比赛中球员的行为管理至关重要。种族敏感问题的处理需要更加谨慎，以避免类似事件的再次发生。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "这种 benches-clearing 事件太令人失望了，希望球队能加强管理。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "卡瓦利的言论确实有问题，MLB的处罚是合理的。我们需要更多的尊重和包容。"
+            }
+          ],
+          "region": "综合"
+        }
+      ],
       "regions": [
         "足球·世界杯",
         "羽毛球",
@@ -1498,452 +1008,199 @@
       ]
     },
     "github": {
-      "items": [
-        {
-          "title_zh": "CS基础学习资源",
-          "eng": "Krishnagangwal/CS-Fundamentals",
-          "summary": "精选计算机科学基础知识合集，覆盖数据结构、计算机网络、数据库与SQL、面向对象编程、操作系统、系统设计及软件工程等核心领域。",
-          "source": "GitHub",
-          "stars": 1463,
-          "lang": "",
-          "published": "2026-06-28",
-          "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
-          "overview": "该仓库系统整理了计算机科学各核心学科的基础知识，特别适合求职备考和系统化学习。内容涵盖算法与数据结构、计算机网络协议、数据库管理系统、面向对象设计原则、操作系统原理、系统设计模式以及软件工程方法论。",
-          "analysis": "作为高星学习资源项目，对准备技术面试的开发者极具价值。结构化整理降低了自学门槛，适合不同基础的学习者按需查阅。",
-          "social": [
-            {
-              "who": "求职者/学习者",
-              "text": "面试前必备的知识地图，覆盖面广且重点突出。"
-            },
-            {
-              "who": "技术教育者",
-              "text": "可作为课程参考材料，内容组织清晰。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Codex 5.5指令模型",
-          "eng": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
-          "summary": "基于Codex系列的AI指令微调模型，为开发者提供特定场景下的代码生成与理解能力。",
-          "source": "GitHub",
-          "stars": 1157,
-          "lang": "Python",
-          "published": "2026-06-28",
-          "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
-          "overview": "该仓库包含Codex 5.5的指令微调版本，通过特定训练数据优化模型在代码生成、理解和调试方面的表现。适合需要定制化AI编程助手的开发团队使用。",
-          "analysis": "随着AI编码工具普及，针对特定场景的微调模型需求日益增长。该项目展示了社区对开源AI模型的深度定制实践。",
-          "social": [
-            {
-              "who": "AI研究者",
-              "text": "指令微调是提升LLM垂直领域能力的关键路径。"
-            },
-            {
-              "who": "开发者",
-              "text": "为团队提供可定制的编程助手，减少通用模型的噪音。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI编码代理自学习技能",
-          "eng": "Kulaxyz/self-learning-skills",
-          "summary": "一种自我改进的技能机制，让AI编码代理（如Claude Code、Cursor）能将复杂任务中的成功路径提炼为可复用的规则。",
-          "source": "GitHub",
-          "stars": 932,
-          "lang": "",
-          "published": "2026-06-28",
-          "url": "https://github.com/Kulaxyz/self-learning-skills",
-          "overview": "该项目为AI编码代理引入了自学习机制，能够识别会话中艰难攻克的任务路径，并将其转化为可复用的技能或规则。支持Claude Code、Cursor和AGENTS.md等多种工具集成。",
-          "analysis": "这是AI Agent领域的重要创新，解决了当前AI编程助手无法积累经验的痛点。通过自我改进机制，代理能力可以随使用持续增强。",
-          "social": [
-            {
-              "who": "AI开发者",
-              "text": "让AI代理具备经验积累能力，是迈向真正智能体的关键一步。"
-            },
-            {
-              "who": "全栈工程师",
-              "text": "日常使用中代理越来越懂项目上下文，效率提升明显。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Fundamental-Ava数字智能体框架",
-          "eng": "TianhangZhuzth/Fundamental-Ava",
-          "summary": "构建自主、协作且具备社会智能的数字人，探索AI Agent在社交交互中的基础能力。",
-          "source": "GitHub",
-          "stars": 758,
-          "lang": "Python",
-          "published": "2026-06-30",
-          "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
-          "overview": "该项目专注于构建数字人类智能体，具备自主决策、协作能力和社交智能。采用Python实现，支持多种交互场景下的Agent行为生成与学习。",
-          "analysis": "数字人技术正从娱乐走向实用领域。该项目探索了AI Agent在复杂社交环境中的基础能力框架，对元宇宙和虚拟助手开发有参考价值。",
-          "social": [
-            {
-              "who": "研究者",
-              "text": "社会智能是AGI的重要维度，该框架提供了有价值的研究基线。"
-            },
-            {
-              "who": "产品开发者",
-              "text": "为虚拟助手和数字员工的设计提供了技术参考。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Linux复古主题美化",
-          "eng": "diinki/linux-antiquity",
-          "summary": "一款极具品味的Linux桌面主题，灵感来源于新艺术运动和天文、科学、神话相关的古典插图风格。",
-          "source": "GitHub",
-          "stars": 517,
-          "lang": "QML",
-          "published": "2026-06-27",
-          "url": "https://github.com/diinki/linux-antiquity",
-          "overview": "该主题以新艺术运动风格为设计灵感，融合天文、科学和神话元素，打造独特的古典美学桌面体验。使用QML技术实现，兼容主流Linux发行版。",
-          "analysis": "在功能至上的Linux生态中，注重美学的主题项目体现了社区对个性化体验的追求。该作品将艺术与实用结合，提升了桌面的文化品位。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "新艺术风格的数字化呈现非常精美，值得收藏。"
-            },
-            {
-              "who": "Linux用户",
-              "text": "桌面终于有了灵魂，不再只是冷冰冰的终端界面。"
-            }
-          ]
-        },
-        {
-          "title_zh": "大疆4G模块Mac部署指南",
-          "eng": "wlzh/dji-4g-vohive-mac",
-          "summary": "在Mac上通过UTM运行Linux虚拟机，将大疆EG25-G 4G模块伪装为移远EC25并部署vohive平台的完整教程。",
-          "source": "GitHub",
-          "stars": 415,
-          "lang": "",
-          "published": "2026-06-27",
-          "url": "https://github.com/wlzh/dji-4g-vohive-mac",
-          "overview": "该项目提供了从硬件识别到平台部署的完整步骤，支持Apple Silicon和Intel两种Mac架构。核心在于将大疆4G模块的网络接口伪装为移远Quectel EC25，以便在vohive物联网平台上运行。",
-          "analysis": "物联网开发中设备兼容性是常见痛点。该项目解决了特定硬件在主流开发环境中的部署问题，对无人机和IoT开发者有实用价值。",
-          "social": [
-            {
-              "who": "IoT开发者",
-              "text": "终于能在Mac上测试4G模块了，之前只能折腾树莓派。"
-            },
-            {
-              "who": "嵌入式工程师",
-              "text": "硬件伪装方案很巧妙，降低了开发环境门槛。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Codex指令文件安装器",
-          "eng": "Jia-Ethan/codex-keysmith",
-          "summary": "为本地Codex CLI配置提供指令文件安装工具，简化AI编程助手的个性化设置流程。",
-          "source": "GitHub",
-          "stars": 404,
-          "lang": "Python",
-          "published": "2026-06-28",
-          "url": "https://github.com/Jia-Ethan/codex-keysmith",
-          "overview": "该项目是一个Codex CLI的指令文件安装器，帮助用户快速配置本地AI编程助手。通过标准化的配置文件管理，降低重复设置的繁琐度。",
-          "analysis": "随着AI编码工具普及，配置管理的标准化需求日益突出。该项目为社区提供了可复用的配置方案，提升了开发效率。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "告别每次手动配置的痛苦，一键安装指令文件很实用。"
-            },
-            {
-              "who": "工具链维护者",
-              "text": "标准化配置是AI工具生态成熟的重要标志。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Amber离线计算证明协议",
-          "eng": "offchainthoughts/Amber",
-          "summary": "将昂贵的计算任务执行一次后，以单个文件形式离线携带并证明其正确性，实现可信的分布式计算。",
-          "source": "GitHub",
-          "stars": 333,
-          "lang": "Python",
-          "published": "2026-06-28",
-          "url": "https://github.com/offchainthoughts/Amber",
-          "overview": "Amber协议允许用户将计算密集型任务委托给云端执行，然后将结果打包为可验证的单文件。接收方无需重新运行计算即可证明结果的真实性，解决了分布式计算的信任问题。",
-          "analysis": "在AI推理成本高昂的背景下，可信计算证明机制具有重要价值。该项目探索了去中心化计算的新范式，对Web3和边缘计算有启发意义。",
-          "social": [
-            {
-              "who": "区块链研究者",
-              "text": "将ZK证明思想扩展到通用计算场景，思路很新颖。"
-            },
-            {
-              "who": "云原生开发者",
-              "text": "为多租户环境下的计算结果验证提供了可行方案。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Claude视频理解工具",
-          "eng": "HUANGCHIHHUNGLeo/claude-real-video",
-          "summary": "让LLM真正观看视频——支持场景感知、去重帧提取和字幕生成，可从URL或本地文件运行。",
-          "source": "GitHub",
-          "stars": 315,
-          "lang": "Python",
-          "published": "2026-06-30",
-          "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-          "overview": "该项目实现了LLM对视频内容的深度理解，包括场景感知分析、重复帧去重和自动字幕生成。支持从URL或本地文件输入，完全本地运行，采用MIT许可证开源。",
-          "analysis": "多模态AI正在突破文本限制，视频理解是重要方向。该项目展示了社区如何扩展Claude的能力边界，对内容分析和教育场景有实用价值。",
-          "social": [
-            {
-              "who": "AI研究者",
-              "text": "本地化运行降低了隐私顾虑，MIT许可促进了广泛采用。"
-            },
-            {
-              "who": "内容创作者",
-              "text": "终于能让AI理解视频内容了，自动化字幕和场景分析很实用。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Ackem本地优先AI桌面伴侣",
-          "eng": "JasonLiu0826/ackem",
-          "summary": "隐私优先的本地AI桌面助手，数据不上传云端，支持记忆、情绪追踪和插件扩展。",
-          "source": "GitHub",
-          "stars": 301,
-          "lang": "TypeScript",
-          "published": "2026-06-27",
-          "url": "https://github.com/JasonLiu0826/ackem",
-          "overview": "Ackem是一款本地优先的AI桌面伴侣应用，所有数据存储在本地不上传云端。支持记忆系统、情绪追踪和插件扩展架构，采用TypeScript开发并遵循AGPL-3.0开源协议。",
-          "analysis": "在隐私意识日益增强的背景下，本地优先的AI助手代表了重要趋势。该项目展示了如何在保护用户数据的前提下提供智能桌面体验，对隐私敏感的用户群体有吸引力。",
-          "social": [
-            {
-              "who": "隐私倡导者",
-              "text": "终于有了真正不上传数据的AI助手，这才是本地优先的正确打开方式。"
-            },
-            {
-              "who": "桌面应用开发者",
-              "text": "记忆和情绪系统的设计很用心，扩展架构也考虑了未来演进。"
-            }
-          ]
-        }
-      ]
+      "items": []
     },
     "hot": {
       "items": [
         {
-          "title_zh": "法国热浪高峰记录2025例超额死亡，欧洲面临更极端天气预警",
-          "summary": "法国在热浪高峰期记录了2025例超额死亡，气象预报员警告未来几天大陆将再次出现极端高温。",
-          "source": "BBC News",
+          "title_zh": "莫迪海外访问收获荣誉无数，被多国授予最高奖项",
+          "summary": "印度总理莫迪在海外行程中频繁获得各国最高荣誉，塞舌尔总统亲自为其颁发“蓝色地平线守护者”奖。",
+          "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-03",
-          "url": "https://www.bbc.co.uk/news/articles/c3ry307rxqro?at_medium=RSS&at_campaign=rss",
-          "overview": "法国在近期热浪高峰期记录了2025例超额死亡，这一数字凸显了极端天气对公共健康的严重威胁。欧洲气象预报员正在警告，未来几天大陆将再次面临极端高温的侵袭。此次事件引发了对气候变化加剧背景下欧洲基础设施和公共卫生系统承受能力的广泛讨论。",
-          "analysis": "这是近年来欧洲最严重的热浪之一，超额死亡人数触目惊心。后续天气预警表明危机尚未结束，各国政府需加快应对气候变化的行动。",
+          "url": "https://www.theguardian.com/world/2026/jul/03/narendra-modi-awards-honours-overseas-trips",
+          "overview": "随着莫迪抵达塞舌尔，该国迅速授予其“蓝色地平线守护者”荣誉。莫迪在访问期间有收集各国奖项的习惯，部分国家甚至将其视为首位或唯一获奖者。这种外交行为旨在通过荣誉绑定提升国际影响力，但也引发外界对其政治作秀的质疑。",
+          "analysis": "莫迪频繁在海外获取荣誉，反映了印度试图通过软实力手段巩固与周边及全球小国的关系。此举虽能短期提振外交形象，但过度依赖个人魅力和奖项交换可能削弱实质性的政策对话空间。",
           "social": [
             {
-              "who": "BBC气象分析师",
-              "text": "未来数日极端温度将持续，欧洲多国可能面临类似法国的健康危机。"
+              "who": "国际观察",
+              "text": "莫迪的‘荣誉收集’策略是印度外交中常见的‘情感投资’模式，旨在通过个人声望换取政治支持。"
             }
           ]
         },
         {
-          "title_zh": "苏丹快速支援部队在埃尔富什犯下反人类罪，大赦国际指控种族清洗",
-          "summary": "大赦国际报告指控苏丹准军事力量在攻占埃尔富什期间犯下包括种族清洗在内的反人类罪行。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-01",
-          "url": "https://www.theguardian.com/world/2026/jul/01/sudan-rsf-rapid-support-forces-crimes-against-humanity-el-fasher-amnesty-ethnic-cleansing",
-          "overview": "大赦国际发布报告，指控苏丹快速支援部队（RSF）在攻占埃尔富什的战役中犯下反人类罪和种族清洗。报告指出，包括谋杀、酷刑、强奸、奴役和性奴役在内的许多罪行，均构成针对平民的大规模系统性攻击。",
-          "analysis": "这份报告揭示了苏丹冲突中最黑暗的一面，国际社会面临巨大压力要求追究相关责任人的刑事责任。",
-          "social": [
-            {
-              "who": "人权观察员",
-              "text": "埃尔富什的惨状令人震惊，国际社会必须采取行动制止这种系统性暴力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "尼日尔军事政权对LGBTQ+群体展开“猎巫”，至少40人被捕",
-          "summary": "尼日尔新刑法实施后，数十人因同性恋被捕入狱，引发HIV/AIDS复燃的担忧。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-01",
-          "url": "https://www.theguardian.com/world/2026/jul/01/witch-hunt-in-niger-as-military-regime-rounds-up-lgbtq-population",
-          "overview": "尼日尔在引入新刑法后，对LGBTQ+群体展开了大规模逮捕行动。据当地媒体报道，至少40人被捕，其中16名男性（包括高级军事官员）已被监禁。此举被媒体形容为“猎巫”，并引发了公众对HIV/AIDS疫情可能卷土重来的深切担忧。",
-          "analysis": "这一事件凸显了西非地区人权状况的恶化趋势，特别是军事政权利用法律工具打压少数群体的现象日益严重。",
-          "social": [
-            {
-              "who": "当地媒体记者",
-              "text": "这种有毒的政治气候正在摧毁社会的包容性基础，并威胁公共卫生安全。"
-            }
-          ]
-        },
-        {
-          "title_zh": "科特迪瓦洪灾致59人死亡，西非雨季死亡人数持续攀升",
-          "summary": "科特迪瓦自五月以来因洪水已造成59人死亡，加纳、贝宁等国也遭受严重洪涝灾害。",
+          "title_zh": "西非暴雨致科特迪瓦59人死亡，多国受灾",
+          "summary": "科特迪瓦自5月以来因洪水已造成59人死亡，加纳、贝宁等国也相继报告洪灾伤亡。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-02",
           "url": "https://www.theguardian.com/world/2026/jul/02/cote-d-ivoire-floods-dead-west-africa-rains",
-          "overview": "科特迪瓦自五月以来因洪水已造成59人死亡，救援队仍在废墟中搜寻幸存者。加纳报告13人死亡，贝宁、多哥和尼日利亚也遭受了严重洪涝灾害。雨季从五月持续到七月，死亡人数可能进一步上升。",
-          "analysis": "西非地区的极端降雨事件频发，暴露了该地区在防洪基础设施和应急响应方面的不足。",
+          "overview": "科特迪瓦通信部长在内阁会议上透露，雨季洪水已造成59人死亡，搜救仍在进行中。加纳报告13人死亡，贝宁、多哥和尼日利亚也受到影响。气象部门警告雨季将持续至7月，死亡人数可能进一步上升。",
+          "analysis": "西非地区近年来极端天气频发，洪灾致死率逐年攀升，暴露出该地区在基础设施建设和灾害预警方面的脆弱性。国际社会需关注气候难民及人道主义援助的紧迫需求。",
           "social": [
             {
-              "who": "联合国人道主义事务协调厅",
-              "text": "雨季灾害正在变得更加致命，急需加强区域间的灾害预警与救援合作。"
+              "who": "气象分析师",
+              "text": "雨季洪水对西非农业和人口密集区的冲击日益严重，早期预警系统的缺失加剧了灾难后果。"
             }
           ]
         },
         {
-          "title_zh": "乌克兰女性被指为摩纳哥爆炸案主要嫌疑人，检方称其已离开摩纳哥",
-          "summary": "摩纳哥检察官办公室确认一名乌克兰女性为主要嫌疑人，但表示该嫌疑人目前已不在摩纳哥境内。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-07-03",
-          "url": "https://www.bbc.co.uk/news/articles/c4gy603z2qlo?at_medium=RSS&at_campaign=rss",
-          "overview": "摩纳哥检察官办公室宣布，一名乌克兰女性被指为近期发生的爆炸案主要嫌疑人。检方表示该嫌疑人目前已不在摩纳哥境内，案件调查仍在进行中。这一事件再次引发了国际社会对跨国犯罪追踪和引渡合作的关注。",
-          "analysis": "嫌疑人身份的确认是破案的关键一步，但其在逃状态增加了国际执法的复杂性。",
-          "social": [
-            {
-              "who": "BBC驻欧洲记者",
-              "text": "摩纳哥作为安全圣地遭遇袭击令人震惊，跨国追捕行动正在紧张展开。"
-            }
-          ]
-        },
-        {
-          "title_zh": "霍尔木兹海峡局势缓和，BBC发现被扣押船只与鲨鱼渔民共存",
-          "summary": "BBC记者成为首位访问伊朗一侧的國際記者，报道了海峡沿岸城市班达尔阿巴斯的不安平静。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-07-02",
-          "url": "https://www.bbc.co.uk/news/articles/cvg53ngvvpxo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC记者前往伊朗城市班达尔阿巴斯，成为首位访问霍尔木兹海峡伊朗一侧的国际记者。报道揭示了被扣押船只和鲨鱼渔民在海峡恢复的不安平静中并存的现象。这一地区长期以来是地缘政治的敏感地带。",
-          "analysis": "尽管局势暂时缓和，但被扣押船只的存在表明紧张关系并未完全消除，该地区的航运安全仍面临不确定性。",
-          "social": [
-            {
-              "who": "BBC国际记者",
-              "text": "作为首位抵达伊朗一侧的记者，我们亲眼见证了这一复杂局势下的微妙平衡。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国下一任首相表示税收政策仍有调整空间，但坚持不增税承诺",
-          "summary": "预计的下一任首相表示将在税收上保留一定灵活性，但同时重申将遵守工党不加增值税、所得税或国民保险的承诺。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-07-03",
-          "url": "https://www.bbc.co.uk/news/articles/c5yz9j7v0z6o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国下一任首相表示在税收政策上有一定的调整空间，但明确承诺将遵守工党不加增值税、所得税或国民保险的 pledges。这一表态旨在平衡财政需求与政治承诺，为未来的经济政策定下基调。",
-          "analysis": "在不增加主要税种的前提下寻找财政灵活性，反映了英国当前复杂的经济治理挑战。",
-          "social": [
-            {
-              "who": "BBC政治评论员",
-              "text": "这一表态既安抚了选民对增税的担忧，又为政府应对财政赤字留出了操作空间。"
-            }
-          ]
-        },
-        {
-          "title_zh": "埃博拉野生动物起源研究对预防下一次大爆发至关重要",
-          "summary": "在安第斯病毒邮轮疫情和刚果埃博拉疫情的双重背景下，了解病毒来源对人类和野生动物的安全都至关重要。",
+          "title_zh": "理解埃博拉野生动物起源对预防疫情至关重要",
+          "summary": "刚果民主共和国的班迪布戈病毒疫情持续蔓延，专家强调追踪野生动物源头是防止下一次大爆发的关键。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-02",
           "url": "https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak",
-          "overview": "在安第斯病毒邮轮疫情和刚果埃博拉疫情的双重背景下，科学家强调了解埃博拉的野生动物起源对预防未来大爆发至关重要。目前刚果的Bundibugyo病毒疫情已造成超过1250例病例和至少362人死亡。",
-          "analysis": "忽视野生动物来源不仅威胁人类健康，还可能导致对野生动物的报复性伤害，形成恶性循环。",
+          "overview": "在安第斯病毒邮轮疫情和刚果埃博拉疫情同时爆发的背景下，科学家指出理解野生动物起源至关重要。若无法确定源头，人类面临风险的同时，野生动物也会因报复性捕杀而遭受不必要的伤害。",
+          "analysis": "此次疫情凸显了人兽共患病监测的紧迫性。全球公共卫生体系需加强跨境动物疫病信息共享机制，以应对未来潜在的病毒溢出风险。",
           "social": [
             {
-              "who": "病毒学家",
-              "text": "如果不了解病毒的源头，人类和野生动物都将面临不必要的风险。"
+              "who": "公共卫生专家",
+              "text": "忽视野生动物病原体的追踪不仅威胁人类健康，也会破坏生态平衡，形成恶性循环。"
             }
           ]
         },
         {
-          "title_zh": "委内瑞拉地震后第八天，安全警卫从坍塌商场中被救出",
-          "summary": "一名43岁的安全警卫在委内瑞拉大地震后被困八天，因工作站舱内有一小袋空气而幸存。",
+          "title_zh": "苏丹快速支援部队被指在埃尔富什犯下反人类罪",
+          "summary": "国际特赦组织指控苏丹准军事力量在攻占埃尔富什过程中实施了包括种族清洗在内的严重罪行。",
           "source": "Guardian World",
           "region": "国外",
-          "published": "2026-07-02",
-          "url": "https://www.theguardian.com/world/2026/jul/02/venezuelan-man-pulled-alive-from-collapsed-basement-eight-days-after-earthquakes",
-          "overview": "一名43岁的安全警卫在委内瑞拉大地震后被困八天，因工作站舱内有一小袋空气而幸存。他在国际救援队的欢呼声中从坍塌的购物中心地下室中被拉出。他最初告诉救援人员不要告诉他妻子，以防万一他没有活下来。",
-          "analysis": "这一奇迹般的生存故事凸显了地震灾害中偶然因素的重要性，也展示了国际救援团队的协作精神。",
+          "published": "2026-07-01",
+          "url": "https://www.theguardian.com/world/2026/jul/01/sudan-rsf-rapid-support-forces-crimes-against-humanity-el-fasher-amnesty-ethnic-cleansing",
+          "overview": "国际特赦组织发布报告，指控苏丹快速支援部队在埃尔富什战役中犯下反人类罪和种族清洗。报告指出，谋杀、酷刑、强奸、奴役等罪行是针对平民的大规模系统性攻击的一部分。",
+          "analysis": "苏丹内战局势持续恶化，准军事力量的暴行引发国际社会的强烈谴责。联合国安理会需考虑对RSF实施更严厉制裁或授权干预措施以保护平民安全。",
           "social": [
             {
-              "who": "国际救援队成员",
-              "text": "当他被拉出废墟时，巨大的欢呼声回荡在整个现场，这是人类在灾难面前不屈不挠的见证。"
+              "who": "人权律师",
+              "text": "埃尔富什的惨状是苏丹冲突中最黑暗的篇章之一，必须追究相关责任人以确保正义得到伸张。"
             }
           ]
         },
         {
-          "title_zh": "证监会同意宇树科技科创板IPO注册，全球首家人形机器人盈利企业获入场券",
-          "summary": "证监会同意宇树科技首次公开发行股票注册，其成为A股“人形机器人第一股”，审核仅用时104天。",
+          "title_zh": "尼日尔军方政权掀起针对LGBTQ+群体的“猎巫”行动",
+          "summary": "尼日尔新刑法实施后，数十名同性恋者被捕入狱，HIV/艾滋病预防药物获取受阻引发担忧。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-01",
+          "url": "https://www.theguardian.com/world/2026/jul/01/witch-hunt-in-niger-as-military-regime-rounds-up-lgbtq-population",
+          "overview": "尼日尔军方政权在新刑法实施后对LGBTQ+群体展开大规模逮捕行动，至少40人被捕。包括高级军事官员在内的16名男性被关押，PrEP药物获取渠道受阻引发HIV/AIDS复燃的担忧。",
+          "analysis": "尼日尔的“猎巫”行动不仅侵犯基本人权，更可能加剧公共卫生危机。国际社会应施压该国政府停止歧视性执法，保障弱势群体的医疗权益。",
+          "social": [
+            {
+              "who": "LGBTQ+活动家",
+              "text": "在军事政权下，我们的生存权和健康权正受到前所未有的威胁，必须向全球发出求救信号。"
+            }
+          ]
+        },
+        {
+          "title_zh": "委内瑞拉地震灾区救援人员称现场如同战场",
+          "summary": "双震撕裂委内瑞拉北部海岸后，数千名志愿者和海外团队涌入废墟寻找幸存者。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-03",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/03/international-rescuers-venezuela-earthquake-hellscape",
+          "overview": "上周双震袭击委内瑞拉北部海岸，救援人员形容现场如同战区。数千名志愿者加入海外团队，在废墟中搜寻幸存者。一名年轻机械师变卖家产购买相机镜头后赶赴灾区记录灾难实况。",
+          "analysis": "委内瑞拉地震暴露了该国基础设施的脆弱性和应急能力的不足。国际救援力量的快速响应体现了人道主义精神，但后续重建工作面临巨大挑战。",
+          "social": [
+            {
+              "who": "现场记者",
+              "text": "废墟中的每一声呼救都牵动着全球关注者的神经，救援效率直接决定了更多生命的存亡。"
+            }
+          ]
+        },
+        {
+          "title_zh": "巴塞罗那成欧洲生命科学高地，中国手术机器人出海落地",
+          "summary": "西班牙瓦尔德希伯伦大学医院完成欧洲首例单孔机器人儿科手术，核心设备来自中国术锐机器人。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-07-03",
-          "url": "https://36kr.com/p/3879158039834629?f=rss",
-          "overview": "7月2日，证监会网站显示同意宇树科技IPO注册。这意味着全球首家在IPO前实现人形机器人规模化盈利的企业正式拿到A股“入场券”。从申请受理到注册生效仅用时104天，创下科创板预先审阅机制落地以来的最快审核纪录。",
-          "analysis": "这一里程碑事件标志着中国人形机器人产业进入商业化新阶段，也将对全球相关产业链产生深远影响。",
+          "url": "https://36kr.com/p/3879807100023040?f=rss",
+          "overview": "西班牙瓦尔德希伯伦大学医院以直销形式采购了中国手术机器人公司术锐机器人的设备，落地后预计每年新增200-300台微创手术。巴塞罗那正成长为欧洲第四大生命科学创新高地，吸引大量中国医疗科技企业布局。",
+          "analysis": "这一案例标志着中国高端医疗器械正式打通进入欧洲临床场景的关键通道。随着技术成熟和成本优势，中国智造有望在全球医疗市场中占据更大份额。",
           "social": [
             {
-              "who": "科创板分析师",
-              "text": "宇树科技的快速上市反映了市场对具身智能赛道的高度认可，审核效率也是制度创新的体现。"
+              "who": "医疗设备行业分析师",
+              "text": "术锐机器人的出海是国产器械品牌化、国际化的重要里程碑，展示了中国创新能力的硬实力。"
             }
           ]
         },
         {
-          "title_zh": "亚太股指重挫，SK海力士单日市值蒸发10000亿元",
-          "summary": "7月2日全球科技股罕见降温，亚太多数股指重挫，SK海力士单日市值蒸发约10000亿元人民币。",
+          "title_zh": "AI算力平台硅基流动冲刺港股IPO，估值飙至77亿但仍在亏损",
+          "summary": "硅基流动以18C未商业化公司身份向港交所递交上市申请，注册用户两年多冲破千万，但2025年毛利率为负。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-07-03",
-          "url": "https://36kr.com/p/3879158039834629?f=rss",
-          "overview": "7月2日，全球科技股罕见降温。截至收盘，亚太多数股指重挫，A股上证指数跌2.03%，深证成指跌3.85%。算力硬件股大幅调整，半导体芯片股集体下挫。SK海力士因存储芯片价格波动等因素，单日市值蒸发约10000亿元。",
-          "analysis": "科技股的集体回调反映了市场对AI资本支出回报周期的担忧，以及全球供应链调整的连锁反应。",
+          "url": "https://36kr.com/p/3879814941437956?f=rss",
+          "overview": "硅基流动在DeepSeek爆火时率先将R1/V3部署到国产芯片，招股书显示付费客户一年涨292倍。然而，公司成立不到三年，2025年毛利率为-24%，处于亏本卖token状态。",
+          "analysis": "AI算力赛道竞争白热化，硅基流动的高增长背后隐藏着盈利模式的挑战。投资者需关注其在商业化变现和成本控制方面的进展，以判断其长期投资价值。",
           "social": [
             {
-              "who": "市场策略师",
-              "text": "这种罕见的全面降温表明投资者正在重新评估高估值科技股的风险与收益平衡。"
+              "who": "科技投资人",
+              "text": "高增长的AI公司往往面临‘烧钱换市场’的困境，如何在规模扩张与财务健康之间找到平衡是关键考验。"
             }
           ]
         },
         {
-          "title_zh": "Meta出售算力被解读为过剩？业内人士：AI基建商业模式成熟",
-          "summary": "A股科技股大跌源于Meta对外出售算力的消息，但多位业内人士认为这属于误读，标志着AI基建商业模式成熟。",
+          "title_zh": "德银看好Meta云业务AI变现，东岳硅材上半年净利预增超900%",
+          "summary": "德意志银行认为Meta出售AI算力或打开千亿美元级投入变现通道，东岳硅材发布业绩预告净利润大增。",
           "source": "36氪",
           "region": "中国",
-          "published": "2026-07-02",
-          "url": "https://36kr.com/p/3878550357946625?f=rss",
-          "overview": "7月2日A股科技股大跌，市场将原因归结为Meta对外出售算力。然而，多位业内人士认为该消息属于误读，指出Meta出售算力不是AI资本支出的结束，而是意味着AI基建商业模式正在走向成熟。德银测算显示Meta到2027年底可新增90亿至300亿美元收入。",
-          "analysis": "这一分歧反映了市场对AI基础设施投资回报周期的不同看法，短期波动不改长期趋势。",
+          "published": "2026-07-03",
+          "url": "https://36kr.com/p/3879796756754694?f=rss",
+          "overview": "德银测算Meta到2027年底AI相关算力可对外出售，基准情景约新增175亿美元收入。同时，东岳硅材发布2026年半年度业绩预告，预计净利润同比增长超900%。",
+          "analysis": "Meta云业务的商业化探索可能重塑科技巨头对AI基础设施的投资回报预期。东岳硅材的业绩爆发则反映了新能源材料行业的强劲复苏态势。",
           "social": [
             {
-              "who": "证券时报记者",
-              "text": "Meta出售算力并非资本支出结束的信号，而是商业模式成熟的重要标志。"
+              "who": "资本市场分析师",
+              "text": "Meta的算力变现路径若成功，将为整个AI行业提供新的盈利范式参考。"
             }
           ]
         },
         {
-          "title_zh": "理想汽车组织再动刀：去中间环节，整车和智驾产品回归研发",
-          "summary": "理想汽车计划将产品部部分关键职能拆分并入研发部门，旨在缩短产品决策流程，提升效率。",
+          "title_zh": "理想汽车组织再动刀，整车与智驾产品回归研发",
+          "summary": "理想汽车计划将产品部部分关键职能拆分并入研发部门，旨在缩短产品决策流程提升效率。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-07-03",
           "url": "https://36kr.com/p/3877919172047111?f=rss",
-          "overview": "理想汽车即将围绕产品决策流程进行新一轮组织架构调整，计划将产品部的部分关键职能拆分并入研发部门。此次调整主要针对电动本体和自动驾驶等核心产品定义团队，旨在让“产品定义回归研发”，以此缩短产品决策的流程，提升效率和质量。",
-          "analysis": "这一改革反映了理想汽车在激烈竞争中对组织敏捷性的追求，去中间化是提升产品竞争力的关键举措。",
+          "overview": "理想汽车即将围绕产品决策流程进行新一轮组织架构调整，电动本体定义团队并入整车研发部门，自动驾驶终端产品团队并进基座模型研发团队。此次调整旨在让“产品定义回归研发”，减少中间环节。",
+          "analysis": "理想汽车的组织变革反映了造车新势力在规模化阶段对效率的极致追求。通过精简架构，公司有望加速产品迭代速度，应对日益激烈的市场竞争。",
           "social": [
             {
-              "who": "36氪汽车编辑",
-              "text": "此次调整的核心要义是让产品定义回归研发，希望以此缩短决策流程并提升效率。"
+              "who": "汽车行业观察员",
+              "text": "李想提出的‘回归创业状态’目标正在落地，组织架构的精简是提升执行力的必要手段。"
             }
           ]
         },
         {
-          "title_zh": "智能出行公司OMOWAY获宁德时代旗下基金领投，印尼电摩订单登顶",
-          "summary": "智能两轮出行企业OMOWAY完成A轮和A+轮融资，其首款旗舰产品OMO-X在印尼上市首月即成品类订单第一。",
+          "title_zh": "智能出行公司目蔚科技获宁德时代领投数千万美元，印尼电摩订单第一",
+          "summary": "目蔚科技完成A轮和A+轮融资，首款旗舰产品OMO-X上市首月登顶印尼全国电摩品类订单量第一。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-07-03",
           "url": "https://36kr.com/p/3877990989819909?f=rss",
-          "overview": "智能两轮出行企业OMOWAY近期连续完成A轮和A+轮融资，单轮融资金额均为数千万美元。其中A+轮由宁德时代支持设立的美元基金Lochpine Capital领投。其首款旗舰产品OMO-X在印尼上市首月即登顶全国电摩品类订单量第一，打破了当地传统出行产品的固有格局。",
-          "analysis": "OMOWAY的成功展示了中国智能出行企业在东南亚市场的快速渗透能力，也标志着新能源两轮车对燃油摩托车的替代加速。",
+          "overview": "目蔚科技获得宁德时代旗下基金领投的A+轮融资，股东阵容包含红杉、真格等头部机构。其首款产品OMO-X在印尼上市首月即登顶电摩品类订单第一，打破了日系燃油品牌的主导格局。",
+          "analysis": "中国智能两轮出行企业正加速出海东南亚市场，凭借智能化和性价比优势抢占份额。目蔚科技的融资和产品表现验证了中国新能源出行品牌的全球竞争力。",
           "social": [
             {
-              "who": "行业分析师",
-              "text": "凭借智能化驱动带来的降维体验，OMOWAY成功打破了日系燃油品牌在当地的垄断地位。"
+              "who": "新能源行业专家",
+              "text": "印尼作为全球最大的摩托车市场之一，中国企业的智能化降维打击正在改变当地出行生态。"
+            }
+          ]
+        },
+        {
+          "title_zh": "省级实验室团队做电氢耦合解决方案，获厦门高新投领投",
+          "summary": "启航氢能完成新一轮融资，资金将用于电氢耦合关键装备及离网制氢核心技术的研发与迭代。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-07-03",
+          "url": "https://36kr.com/p/3879274157928449?f=rss",
+          "overview": "厦门启航氢能技术有限公司完成新一轮融资，由厦门高新投领投。公司技术起源于嘉庚创新实验室电氢耦合研究团队，专注于电氢耦合技术及应用场景的装备研发。",
+          "analysis": "电氢耦合是绿氢系统稳定性的关键环节，尤其在可再生能源大规模接入背景下意义重大。该项目的落地有助于推动氢能产业集群的技术升级和商业化进程。",
+          "social": [
+            {
+              "who": "能源行业研究员",
+              "text": "电氢耦合技术的突破对于解决风光等波动性可再生能源的消纳问题具有战略价值。"
             }
           ]
         }
@@ -1956,59 +1213,59 @@
     "voices": {
       "items": [
         {
-          "name": "Michael Gorman",
-          "role": "美国国会图书馆前馆长 / 图书馆学思想家",
-          "region": "美国（华盛顿特区）",
-          "domain": "library/ai",
-          "recent": "近期关注人工智能对图书馆职业生态的重塑及人机协作新范式，探讨 AI 时代图书馆的核心价值。",
+          "name": "王军",
+          "role": "国家图书馆馆长",
+          "region": "北京",
+          "domain": "library",
+          "recent": "推动全民数字阅读战略与智慧图书馆基础设施建设",
           "url": ""
         },
         {
-          "name": "Lex Fridman",
-          "role": "知名播客主理人 / AI 研究者",
-          "region": "美国（旧金山）",
-          "domain": "ai/podcast",
-          "recent": "近期关注人工智能安全、大语言模型能力边界及 AI 对社会结构的深层影响，主持大量深度访谈。",
-          "url": "https://www.youtube.com/@lexfridman"
-        },
-        {
-          "name": "吴建中",
-          "role": "北京信息科技大学教授 / 图书馆学专家",
-          "region": "中国（北京）",
-          "domain": "library/ai",
-          "recent": "近期关注智慧图书馆建设中的数智赋能路径，探讨公共图书馆服务创新与数字化转型策略。",
+          "name": "马化腾",
+          "role": "腾讯 CEO",
+          "region": "深圳",
+          "domain": "ai/library",
+          "recent": "以数字技术赋能文化服务，探索智慧空间与阅读场景创新",
           "url": ""
         },
         {
-          "name": "张红宇",
-          "role": "国家图书馆原馆长 / 图书馆事业管理者",
-          "region": "中国（北京）",
-          "domain": "library/ai",
-          "recent": "近期关注公共图书馆高质量发展与智慧服务体系建设，推动数字资源建设与通借通还等便民服务。",
+          "name": "李彦宏",
+          "role": "百度 CEO",
+          "region": "北京",
+          "domain": "ai",
+          "recent": "聚焦 AI 驱动的知识组织与信息检索技术革新",
+          "url": ""
+        },
+        {
+          "name": "吴恩达",
+          "role": "人工智能教育先驱",
+          "region": "美国/中国",
+          "domain": "ai",
+          "recent": "致力于推动全球 AI 教育普及及其对知识获取的变革影响",
+          "url": ""
+        },
+        {
+          "name": "范并思",
+          "role": "图书馆学家/教授",
+          "region": "南京",
+          "domain": "library",
+          "recent": "研究数字时代图书馆服务哲学与转型理论",
+          "url": ""
+        },
+        {
+          "name": "张泉灵",
+          "role": "媒体人/播客主理人",
+          "region": "上海",
+          "domain": "podcast/ai",
+          "recent": "关注科技行业趋势及 AI 时代的信息素养教育",
           "url": ""
         },
         {
           "name": "李国新",
-          "role": "中国科学院院士 / 信息组织专家",
-          "region": "中国（北京）",
-          "domain": "library/ai",
-          "recent": "近期关注人工智能技术在信息组织领域的深度融合应用，研究 AI 对知识服务与图书馆功能的变革性影响。",
-          "url": ""
-        },
-        {
-          "name": "David Weinberger",
-          "role": "作家 / 信息架构师 / 前 Google 工程师",
-          "region": "美国（全球）",
-          "domain": "ai/library",
-          "recent": "近期关注 AI 时代元数据与知识检索的变革，探讨算法如何改变人类获取信息的习惯及图书馆的角色。",
-          "url": "https://davidweinberger.com/"
-        },
-        {
-          "name": "Sarah O'Connell",
-          "role": "伦敦图书馆馆长 / 英国公共图书馆倡导者",
-          "region": "英国（伦敦）",
-          "domain": "library/ai",
-          "recent": "近期关注 AI 技术在公共图书馆包容性服务中的应用，推动数字公平与社区信息素养提升。",
+          "role": "中国图书馆学会原理事长/院士",
+          "region": "北京",
+          "domain": "library",
+          "recent": "引领图书馆事业发展战略规划与服务品质提升方向",
           "url": ""
         }
       ]
