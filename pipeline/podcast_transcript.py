@@ -5,15 +5,29 @@
 """
 import os, sys, json, re, time, requests, warnings
 from concurrent.futures import ThreadPoolExecutor, as_completed
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jsonio import save_json
 warnings.filterwarnings("ignore")
 HERE=os.path.dirname(os.path.abspath(__file__))
 APP=os.path.join(os.path.dirname(HERE),"docs/data/podcast_app.json")
 UA={'User-Agent':'Mozilla/5.0 (Macintosh)'}
 PROXY={'http':'http://127.0.0.1:18080','https':'http://127.0.0.1:18080'}
-if "DEEPSEEK_API_KEY" not in os.environ:
-    for line in open(os.path.join(HERE,".env")):
-        if line.startswith("DEEPSEEK_API_KEY"): os.environ["DEEPSEEK_API_KEY"]=line.split("=",1)[1].strip()
-KEY=os.environ["DEEPSEEK_API_KEY"]
+
+def _load_key(envp=None):
+    """懒加载 DeepSeek key:环境变量优先,其次 pipeline/.env;都没有才报清晰错误。
+    (旧版在 import 时裸 open .env,文件不存在直接 FileNotFoundError 崩掉所有导入方)"""
+    k=os.environ.get("DEEPSEEK_API_KEY","")
+    if k: return k
+    envp=envp or os.path.join(HERE,".env")
+    try:
+        for line in open(envp):
+            if line.startswith("DEEPSEEK_API_KEY"):
+                k=line.split("=",1)[1].strip()
+                if k:
+                    os.environ["DEEPSEEK_API_KEY"]=k; return k
+    except FileNotFoundError:
+        pass
+    raise RuntimeError(f"缺 DEEPSEEK_API_KEY: 请设环境变量或写入 {envp}")
 
 def fetch(url):
     for px in [None,PROXY]:
@@ -50,10 +64,11 @@ def split_text(t,size=3500):
     return chunks
 
 def tr(c):
+    key=_load_key()   # 缺 key 时立即抛清晰错误,不进重试循环静默产出"[翻译失败]"
     sysp=("你是专业中英翻译。把这段英文播客转写翻成流畅自然的简体中文,忠实原意、不遗漏、不加评论;口语适当顺滑成书面中文。只输出中文译文。")
     for a in range(3):
         try:
-            r=requests.post("https://api.deepseek.com/chat/completions",headers={"Authorization":f"Bearer {KEY}"},
+            r=requests.post("https://api.deepseek.com/chat/completions",headers={"Authorization":f"Bearer {key}"},
                 json={"model":"deepseek-chat","temperature":0.3,"messages":[{"role":"system","content":sysp},{"role":"user","content":c}]},timeout=180)
             r.raise_for_status(); return r.json()["choices"][0]["message"]["content"].strip()
         except Exception:
@@ -88,7 +103,7 @@ def main():
     old=len(hit.get('zh_full',''))
     hit['zh_full']=zh; hit['truncated']=False; hit['transcript_source']=url
     d['generated']=time.strftime("%Y-%m-%d %H:%M")
-    json.dump(d,open(APP,'w'),ensure_ascii=False,indent=2)
+    save_json(d,APP)
     print(f"✅ {hit['show'][:24]}: {old}字 → {len(zh)}字 完整版 (失败{fail}段)")
 
 if __name__=="__main__": main()

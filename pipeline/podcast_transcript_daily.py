@@ -5,6 +5,7 @@
 import os, sys, json, re, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from podcast_transcript import fetch, extract, split_text, tr  # 复用
+from jsonio import save_json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 HERE=os.path.dirname(os.path.abspath(__file__))
@@ -67,7 +68,7 @@ def main():
                 old=len(ep.get('zh_full',''))
                 eps[key].update(upd)
                 d['generated']=time.strftime("%Y-%m-%d %H:%M")
-                json.dump(d,open(APP,'w'),ensure_ascii=False,indent=2)
+                save_json(d,APP)
                 print(f"  ✓ {ep['show'][:20]}: {old}→{len(upd['zh_full'])}字 完整版", file=sys.stderr)
             else:
                 print(f"  ✗ {ep['show'][:20]}: {msg}", file=sys.stderr)

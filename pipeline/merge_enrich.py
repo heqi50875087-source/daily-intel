@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """把 workflow 产出的 概述/分析/社媒(/tmp/enrich.json)按 url 回填进 latest.json 的 libraries.items。"""
 import json, os, sys, re, time
+from jsonio import save_json
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
 ENR=sys.argv[1] if len(sys.argv)>1 else "/tmp/enrich.json"
@@ -27,7 +28,7 @@ for it in items:
     filled+=1
 
 data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+save_json(data,LATEST)
 # 统计
 has_ana=sum(1 for it in items if it.get('analysis'))
 has_soc=sum(1 for it in items if it.get('social'))

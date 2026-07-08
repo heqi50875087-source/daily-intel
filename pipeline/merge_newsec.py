@@ -3,6 +3,7 @@
 模块: kidlit/research/creative/sports/games。按url去重、按日期倒序、补regions(sports/kidlit)。"""
 import json, os, sys, re, time
 from collections import Counter
+from jsonio import save_json
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
 SRC=sys.argv[1] if len(sys.argv)>1 else "/tmp/newsec.json"
@@ -41,5 +42,5 @@ for mk, items in bm.items():
     print(f"  {mk}: +{len(add)} → {len(allit)}条  region={regions[:5]}")
 
 data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+save_json(data,LATEST)
 print("✅ 整合完成")

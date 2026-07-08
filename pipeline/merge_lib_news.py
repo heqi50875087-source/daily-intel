@@ -2,6 +2,7 @@
 """把 workflow 收集的图书馆新闻 (/tmp/lib_items.json) 合并进 docs/data/latest.json。
 去重(按url)、规范scope/region、按日期排序、更新地区筛选。保留少量原有条目。"""
 import json, os, sys, time, re
+from jsonio import save_json
 
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
@@ -64,7 +65,7 @@ def main():
     lib['regions']=regions
     data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
     data['date']=time.strftime("%Y-%m-%d")
-    json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+    save_json(data,LATEST)
 
     print(f"✅ 合并完成: 共 {len(merged)} 条 (新{len(merged)-kept_old} + 保留旧{kept_old})")
     print(f"   地区: {regions}")

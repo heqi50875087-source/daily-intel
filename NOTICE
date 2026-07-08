@@ -1,0 +1,23 @@
+远见 · 每日情报 — 数据管线 (daily-intel)
+Copyright 2026 "远见 · 每日情报" 项目作者
+
+本产品在 Apache License 2.0 下分发（见 LICENSE）。
+
+以下第三方组件被本项目使用，其许可与义务如下。
+许可条款会变，商用/再分发前以各自官方仓库当时的 LICENSE 为准；本表为工作参考，非法律意见。
+
+== Python 依赖（见 pipeline/requirements.txt） ==
+- requests                Apache License 2.0
+- feedparser              BSD 2-Clause License
+- ddgs（duckduckgo 搜索）  MIT License
+
+== 可选组件（仅"播客转录/配音"功能使用，非每日主流程） ==
+- OpenAI Whisper          MIT License            语音转录；若打包权重须随附 MIT 许可
+- FFmpeg                  LGPL/GPL（取决于构建）  音频抽取/转码；静态链接 GPL 组件（如某些 x264 构建）会传染，建议用 LGPL 构建
+- Ollama                  MIT License            可选的本地大模型运行时
+
+== 外部服务（仅调用 API，未捆绑其代码或权重） ==
+- DeepSeek API            按 DeepSeek 服务条款；生成输出可商用，勿宣称拥有该模型；内容发送至境内第三方处理，须在隐私政策中告知
+- Apple Podcasts / iTunes Search API   按 Apple 媒体服务条款；仅取公开元数据与链接
+
+本项目仅做"只读聚合"：所有新闻/播客内容版权归原作者，均保留原标题与原链接，不对外声称拥有其版权。

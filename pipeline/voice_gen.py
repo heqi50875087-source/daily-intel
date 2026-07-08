@@ -2,6 +2,7 @@
 """给每集生成 1-2 分钟中文导读配音(念 标题+导读+要点)。edge-tts, 写 docs/data/voice/。"""
 import json, asyncio, os, hashlib, sys
 import edge_tts
+from jsonio import save_json
 APP="docs/data/podcast_app.json"; VDIR="docs/data/voice"
 os.makedirs(VDIR, exist_ok=True)
 d=json.load(open(APP))
@@ -22,6 +23,6 @@ async def main():
             print(f"  配音 {ep['title_zh'][:22]} {os.path.getsize(path)//1024}KB", file=sys.stderr)
         except Exception as e:
             print(f"  失败 {ep['title_zh'][:22]}: {str(e)[:40]}", file=sys.stderr); ep.pop('voice', None)
-    json.dump(d, open(APP,'w'), ensure_ascii=False, indent=2)
+    save_json(d, APP)
     print(f"[完成] 本次新配音 {n} 集", file=sys.stderr)
 asyncio.run(main())

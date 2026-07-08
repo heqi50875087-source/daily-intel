@@ -3,6 +3,7 @@
 GitHub工具→github栏; AI新闻→扩充ai; 中国热点+国际热点→hot栏(两筛选中国/国外); 跨行业灵感→图书馆栏。"""
 import json, os, sys, re, time
 from collections import Counter
+from jsonio import save_json
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
 SRC=sys.argv[1] if len(sys.argv)>1 else "/tmp/breadth.json"
@@ -56,7 +57,7 @@ order=['中国','全球']; regions=[r for r in order if r in rc]+[r for r,_ in r
 mods['libraries']['items']=lib2; mods['libraries']['regions']=regions
 
 data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+save_json(data,LATEST)
 
 print(f"✅ 整合完成:")
 print(f"   GitHub工具: {len(gh)} 条")

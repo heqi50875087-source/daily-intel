@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """通用回填: 把详细版 overview/analysis/social 按 url 覆盖到 latest.json 所有模块对应条目。"""
 import json, os, sys, re, time
+from jsonio import save_json
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
 ENR=sys.argv[1] if len(sys.argv)>1 else "/tmp/reenrich.json"
@@ -25,7 +26,7 @@ for mk,mod in data['modules'].items():
         filled+=1; bymod[mk]=bymod.get(mk,0)+1
 
 data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+save_json(data,LATEST)
 print(f"✅ 回填 {filled} 条: {bymod}")
 # 复核详细度
 m=data['modules']

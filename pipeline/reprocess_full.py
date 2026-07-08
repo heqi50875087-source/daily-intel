@@ -11,22 +11,32 @@ import os, sys, json, time, re, requests, subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 sys.path.insert(0, os.path.dirname(__file__))
 import podcast_fulltext, podcast_zh
+from jsonio import save_json
 
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT=f"{ROOT}/docs/data/podcast_app.json"
 WORK=f"{os.path.dirname(__file__)}/podcast_work"
-FF="/Users/apple/.local/bin/ffmpeg"; FP="/Users/apple/.local/bin/ffprobe"
+FF=os.environ.get("FFMPEG","/Users/apple/.local/bin/ffmpeg"); FP=os.environ.get("FFPROBE","/Users/apple/.local/bin/ffprobe")
 MAXB=250*1048576
 UA={'User-Agent':'Mozilla/5.0 (Macintosh)'}
-PROXY={'http':'http://127.0.0.1:18080','https':'http://127.0.0.1:18080'}
+_PX=os.environ.get("INTEL_PROXY","http://127.0.0.1:18080")
+PROXY={'http':_PX,'https':_PX}
 MODEL=os.environ.get("WHISPER_MODEL","small")
 TW=int(os.environ.get("TRANS_WORKERS","4"))
 
-# DeepSeek key
-if "DEEPSEEK_API_KEY" not in os.environ:
-    for line in open(f"{os.path.dirname(__file__)}/.env"):
-        if line.startswith("DEEPSEEK_API_KEY"):
-            os.environ["DEEPSEEK_API_KEY"]=line.split("=",1)[1].strip()
+def load_key(envp=None):
+    """懒加载 DeepSeek key(旧版在 import 时裸 open .env,文件缺失直接崩)。缺 key 给清晰指引后退出。"""
+    if os.environ.get("DEEPSEEK_API_KEY"): return
+    envp=envp or f"{os.path.dirname(os.path.abspath(__file__))}/.env"
+    try:
+        for line in open(envp):
+            if line.startswith("DEEPSEEK_API_KEY"):
+                k=line.split("=",1)[1].strip()
+                if k:
+                    os.environ["DEEPSEEK_API_KEY"]=k; return
+    except FileNotFoundError:
+        pass
+    sys.exit(f"缺 DEEPSEEK_API_KEY: 请设环境变量或写入 {envp}")
 
 def dl_full(url, path):
     """全量下载音频, 跟随重定向, 直连优先代理兜底"""
@@ -80,6 +90,7 @@ def main():
     if len(sys.argv)<2:
         print(__doc__); return
     arg=sys.argv[1]; val=sys.argv[2] if len(sys.argv)>2 else ""
+    load_key()
     out=json.load(open(OUT)); eps=out['episodes']
     targets=pick(eps, arg, val)
     print(f"将重处理 {len(targets)} 集 (模型={MODEL})", file=sys.stderr)
@@ -104,7 +115,7 @@ def main():
         v['en']=en; v['zh_full']=zhfull; v['duration_min']=round(dur,1)
         v['truncated']=(n>=MAXB)  # 仅当真超250MB才算截断
         out['generated']=time.strftime("%Y-%m-%d %H:%M")
-        json.dump(out, open(OUT,'w'), ensure_ascii=False, indent=2)
+        save_json(out, OUT)
         try: os.remove(mp3)
         except: pass
         print(f"    ✅完成: {dur:.0f}分钟音频 → 英文{len(en)}字 → 中文{len(zhfull)}字 "

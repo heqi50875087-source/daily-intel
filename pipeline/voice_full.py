@@ -5,9 +5,12 @@
 用法: python voice_full.py [--force] [--only "节目名关键字"]"""
 import json, asyncio, os, hashlib, sys, subprocess, tempfile, shutil
 import edge_tts
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jsonio import save_json
 
-APP  = "docs/data/podcast_app.json"
-VDIR = "docs/data/voice_full"
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 锚定仓库根,与 CWD 无关
+APP  = os.path.join(_ROOT, "docs/data/podcast_app.json")
+VDIR = os.path.join(_ROOT, "docs/data/voice_full")
 os.makedirs(VDIR, exist_ok=True)
 
 # ── 音色池(edge-tts 简体中文)──
@@ -56,7 +59,7 @@ DEFAULT = ("solo", [F1])   # 未知 / 中性 → 女声(用户指定)
 
 # 覆盖:从 build_lineup.py 生成的 voice_map.json 读取(35档完整性别映射)
 try:
-    for _k, _v in json.load(open("docs/data/voice_map.json")).items():
+    for _k, _v in json.load(open(os.path.join(_ROOT, "docs/data/voice_map.json"))).items():
         SHOW_VOICE[_k] = (_v[0], list(_v[1]))
 except Exception:
     pass
@@ -105,8 +108,9 @@ def reencode_concat(parts, out):
 async def gen(key, ep, force):
     fn  = hashlib.md5(key.encode()).hexdigest()[:12] + ".mp3"
     out = f"{VDIR}/{fn}"
-    ep["voice_full"] = f"data/voice_full/{fn}"
+    rel = f"data/voice_full/{fn}"
     if os.path.exists(out) and os.path.getsize(out) > 5000 and not force:
+        ep["voice_full"] = rel
         return None
     mode, voices = SHOW_VOICE.get(ep.get("show",""), DEFAULT)
     ps = paras_of(ep)
@@ -123,6 +127,7 @@ async def gen(key, ep, force):
                 p = f"{tmp}/{i+1:03d}.mp3"
                 await tts(para, v, p); parts.append(p)
         reencode_concat(parts, out)
+        ep["voice_full"] = rel   # 只在成品落盘后才写回,失败集不再留下指向不存在文件的死链接
         return True
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -148,7 +153,7 @@ async def main():
             elif r is None: sk+=1
         except Exception as e:
             print(f"  ✗ {ep.get('title_zh','')[:22]}: {type(e).__name__} {str(e)[:40]}", file=sys.stderr)
-        json.dump(d, open(APP,"w"), ensure_ascii=False, indent=2)   # 边做边存,中断可续
+        save_json(d, APP)   # 边做边存,中断可续(原子写,不留半截文件)
     print(f"[完成] 新配 {n} 集, 跳过(已存在) {sk} 集", file=sys.stderr)
 
 if __name__ == "__main__":

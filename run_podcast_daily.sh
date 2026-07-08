@@ -34,9 +34,14 @@ git add docs/data docs/data/voice_full docs/podcast.html docs/sw.js docs/index.h
 if ! git diff --cached --quiet; then
   git commit -m "远音每日更新 $(date +%F)" >> "$LOG" 2>&1
   # 推送走 GreenHub HTTP 桥(github 直连可能不通,代理可通);桥端口稳定为 18080
-  git -c http.proxy=http://127.0.0.1:18080 -c https.proxy=http://127.0.0.1:18080 push >> "$LOG" 2>&1 \
-    && echo "  ✓ 已更新并推送上线" >> "$LOG" \
-    || git push >> "$LOG" 2>&1 && echo "  ✓ 已推送(直连)" >> "$LOG"
+  # if/elif 替代 A&&B||C&&D:旧写法代理成功时两条日志都打,两路全败时 set -e 杀掉脚本连"完成"都不写
+  if git -c http.proxy=http://127.0.0.1:18080 -c https.proxy=http://127.0.0.1:18080 push >> "$LOG" 2>&1; then
+    echo "  ✓ 已更新并推送上线" >> "$LOG"
+  elif git push >> "$LOG" 2>&1; then
+    echo "  ✓ 已推送(直连)" >> "$LOG"
+  else
+    echo "  ✗ 推送失败(代理+直连都不通),提交已留本地,下次运行自动重推" >> "$LOG"
+  fi
 else
   echo "  今日无新集,内容已最新" >> "$LOG"
 fi

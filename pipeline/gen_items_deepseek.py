@@ -4,10 +4,22 @@
 输出: {byMod:{module:[items]}} → 指定文件。严格基于提供的事实与真实URL,不编造。"""
 import os, sys, json, re, requests, time
 HERE=os.path.dirname(os.path.abspath(__file__))
-if "DEEPSEEK_API_KEY" not in os.environ:
-    for line in open(os.path.join(HERE,".env")):
-        if line.startswith("DEEPSEEK_API_KEY"): os.environ["DEEPSEEK_API_KEY"]=line.split("=",1)[1].strip()
-KEY=os.environ["DEEPSEEK_API_KEY"]
+
+def load_key(envp=None):
+    """懒加载 DeepSeek key(旧版在 import 时裸 open .env,文件缺失直接崩)。返回 key 或清晰报错退出。"""
+    k=os.environ.get("DEEPSEEK_API_KEY","")
+    if k: return k
+    envp=envp or os.path.join(HERE,".env")
+    try:
+        for line in open(envp):
+            if line.startswith("DEEPSEEK_API_KEY"):
+                k=line.split("=",1)[1].strip()
+                if k:
+                    os.environ["DEEPSEEK_API_KEY"]=k; return k
+    except FileNotFoundError:
+        pass
+    sys.exit(f"缺 DEEPSEEK_API_KEY: 请设环境变量或写入 {envp}")
+
 for k in ("HTTP_PROXY","HTTPS_PROXY","http_proxy","https_proxy"): os.environ.pop(k,None)
 
 SYS=("你是资深中文资讯编辑。我会给你某一主题的【真实事实】和【可用真实URL列表】。"
@@ -19,6 +31,7 @@ SYS=("你是资深中文资讯编辑。我会给你某一主题的【真实事�
      "硬约束:① 只用我给的事实,不确定的不写、不编造比分或事件;② url 必须来自我给的列表;③ 只输出 JSON 数组,无任何解释或markdown标记。")
 
 def gen(cfg):
+    key=load_key()
     user=(f"主题: {cfg['module']} / 子类region='{cfg['region']}'\n"
           f"参考日期: {cfg.get('published_hint','2026-06')}\n"
           f"需要 {cfg['n']} 条。\n\n【真实事实】\n{cfg['facts']}\n\n【可用真实URL列表】\n"+
@@ -26,7 +39,7 @@ def gen(cfg):
     for a in range(3):
         try:
             r=requests.post("https://api.deepseek.com/chat/completions",
-                headers={"Authorization":f"Bearer {KEY}"},
+                headers={"Authorization":f"Bearer {key}"},
                 json={"model":"deepseek-chat","temperature":0.6,
                       "messages":[{"role":"system","content":SYS},{"role":"user","content":user}]},
                 timeout=180)

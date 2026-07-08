@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """扩充内容整合: AI数字→ai, GitHub工具→github, 中国/国际资讯→hot。带URL核验(丢死链)。"""
 import json, os, sys, re, time, requests, concurrent.futures, warnings
+from jsonio import save_json
 warnings.filterwarnings("ignore")
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST=f"{ROOT}/docs/data/latest.json"
@@ -73,5 +74,5 @@ a3=append('hot', hot_cn+hot_in, regions=["中国","国外"])
 mods['hot']['items'].sort(key=lambda x:x.get('published',''), reverse=True)
 
 data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-json.dump(data,open(LATEST,'w'),ensure_ascii=False,indent=2)
+save_json(data,LATEST)
 print(f"✅ 整合: AI+{a1}→{len(mods['ai']['items'])} | GitHub+{a2}→{len(mods['github']['items'])} | 热点+{a3}→{len(mods['hot']['items'])}")

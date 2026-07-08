@@ -5,6 +5,7 @@
 - 走 GreenHub 代理 18080。
 配音音色(edge-tts):F1/F2 女, M1清亮/M2浑厚/M3播音 男。"""
 import json, sys, os, time, urllib.parse, requests, difflib
+from jsonio import save_json
 
 PROXY = {'http': 'http://127.0.0.1:18080', 'https': 'http://127.0.0.1:18080'}
 F1="zh-CN-XiaoxiaoNeural"; F2="zh-CN-XiaoyiNeural"
@@ -91,10 +92,10 @@ def main():
         shows.append(entry)
         vmap[entry["name"]] = [mode, voices]
         print(f"  {'复用' if name in old else '解析'} {entry['name'][:38]:38} feed={'✓' if entry['feedUrl'] else '✗缺'}", file=sys.stderr)
-    json.dump(shows, open("docs/data/shows.json", "w"), ensure_ascii=False, indent=2)
-    json.dump(vmap, open("docs/data/voice_map.json", "w"), ensure_ascii=False, indent=2)
+    save_json(shows, "docs/data/shows.json")
+    save_json(vmap, "docs/data/voice_map.json")
     os.makedirs("pipeline/podcast_work", exist_ok=True)
-    json.dump(shows, open("pipeline/podcast_work/shows.json", "w"), ensure_ascii=False, indent=2)
+    save_json(shows, "pipeline/podcast_work/shows.json")
     print(f"[完成] {len(shows)} 档 | 复用 {reused} | iTunes解析 {resolved} | 缺feed {sum(1 for s in shows if not s['feedUrl'])}", file=sys.stderr)
 
 if __name__ == "__main__":

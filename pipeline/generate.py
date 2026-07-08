@@ -6,6 +6,7 @@
 import os, json, sys, time, pathlib, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import sources, llm
+from jsonio import save_json
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -111,6 +112,13 @@ def do_hot(raw_by_region, backend):
     items = out.get("items", [])
     return {"items": items, "regions": sorted({i.get("region") for i in items if i.get("region")})}
 
+def keep_manual_modules(mods, old):
+    """手工整合板块(kidlit/research/creative/games/podcasts 等)不在定时回填名单里:
+    整体沿用旧值,防止整点任务把 merge_* 脚本的成果静默抹掉。old 为空时无操作。"""
+    for k in old:
+        if k not in mods:
+            mods[k] = old[k]; log("· 保留手工板块", k)
+
 def main():
     load_env()
     backend = llm.pick_backend()
@@ -126,11 +134,14 @@ def main():
         f" / 体育 {sum(len(v) for v in sports_raw.values())}"
         f" / GitHub {len(gh_raw)} / 热点 {sum(len(v) for v in hot_raw.values())}")
     mods = {}
-    for key, fn in [("ai", lambda: do_ai(ai_raw, backend)),
-                    ("libraries", lambda: do_libraries(lib_raw, cn_raw, backend)),
-                    ("sports", lambda: do_sports(sports_raw, backend)),
-                    ("github", lambda: do_github(gh_raw, backend)),
-                    ("hot", lambda: do_hot(hot_raw, backend))]:
+    # 原始抓取为空(网络全断)时跳过该模块的 LLM 生成:防止模型对空数据编造条目,也省 token;走下方"沿用上次"
+    for key, fn, has_raw in [("ai", lambda: do_ai(ai_raw, backend), bool(ai_raw)),
+                    ("libraries", lambda: do_libraries(lib_raw, cn_raw, backend), bool(lib_raw or cn_raw)),
+                    ("sports", lambda: do_sports(sports_raw, backend), any(sports_raw.values())),
+                    ("github", lambda: do_github(gh_raw, backend), bool(gh_raw)),
+                    ("hot", lambda: do_hot(hot_raw, backend), any(hot_raw.values()))]:
+        if not has_raw:
+            log("✗", key, "原始抓取为空,跳过生成(沿用上次)"); mods[key] = None; continue
         try:
             mods[key] = fn(); log("✓", key, len(mods[key]["items"]))
         except Exception as e:
@@ -138,7 +149,10 @@ def main():
     try:
         ai_i = mods["ai"]["items"] if mods.get("ai") else []
         lib_i = mods["libraries"]["items"] if mods.get("libraries") else []
-        mods["voices"] = do_voices(ai_i, lib_i, backend); log("✓ voices", len(mods["voices"]["items"]))
+        if not (ai_i or lib_i):
+            log("✗ voices 无上下文,跳过生成(沿用上次)"); mods["voices"] = None
+        else:
+            mods["voices"] = do_voices(ai_i, lib_i, backend); log("✓ voices", len(mods["voices"]["items"]))
     except Exception as e:
         log("✗ voices", e); mods["voices"] = None
     old = {}
@@ -163,6 +177,7 @@ def main():
     for k in ["ai", "libraries", "sports", "voices", "github", "hot"]:
         if not mods.get(k):
             mods[k] = old.get(k, {"items": []}); log("· 沿用上次", k)
+    keep_manual_modules(mods, old)
     # 时间窗口:只保留当月+上月(滚动),清掉更早旧闻;无日期条目(如人物)不动
     cutoff = (datetime.date.today().replace(day=1) - datetime.timedelta(days=1)).replace(day=1).isoformat()
     for k in ["ai", "libraries", "sports", "github", "hot"]:
@@ -175,8 +190,8 @@ def main():
     now = datetime.datetime.now().astimezone()
     out = {"generated_at": now.isoformat(timespec="seconds"), "date": now.strftime("%Y-%m-%d"),
            "engine": f"{backend[0]}:{backend[1]}", "modules": mods}
-    (DATA / "latest.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    (ARCH / f"{out['date']}.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    save_json(out, DATA / "latest.json")
+    save_json(out, ARCH / f"{out['date']}.json")
     log("✅ 写入完成", out["date"], "| 引擎", out["engine"])
 
 if __name__ == "__main__":
