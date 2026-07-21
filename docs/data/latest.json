@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T23:02:20+08:00",
+  "generated_at": "2026-07-22T06:40:33+08:00",
   "date": "2026-07-21",
   "engine": "deepseek:deepseek-chat",
   "modules": {
@@ -2037,6 +2037,106 @@
     },
     "academic": {
       "items": [
+        {
+          "title_zh": "Transcription Can Bring People Together: A Reflection from Shelby Kruger",
+          "eng": "Transcription Can Bring People Together: A Reflection from Shelby Kruger",
+          "summary": "In this blog post, 2026 Junior Fellow Shelby Kruger reflects on her work with the By the People crowdsourced transcription program this summer.",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-07-21",
+          "overview": "In this blog post, 2026 Junior Fellow Shelby Kruger reflects on her work with the By the People crowdsourced transcription program this summer.",
+          "url": "https://blogs.loc.gov/thesignal/2026/07/shelby-kruger/"
+        },
+        {
+          "title_zh": "Benchmarking Resource-Efficient LLMs for Research Topic Ontology Generation in the Biomedical Field",
+          "eng": "Benchmarking Resource-Efficient LLMs for Research Topic Ontology Generation in the Biomedical Field",
+          "summary": "Knowledge Organization Systems like Ontologies and taxonomies are fundamental for structuring scientific knowledge, yet their manual curation presents a persistent bottleneck in knowledge management. ",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "Knowledge Organization Systems like Ontologies and taxonomies are fundamental for structuring scientific knowledge, yet their manual curation presents a persistent bottleneck in knowledge management. While Large Language Models (LLMs) offer a scalable mechanism for automated ontology generation, their capacity to classify complex, domain-specific semantics requires systematic evaluation. In this paper, we assess the performance of five small, open-source LLMs (up to 9 billion parameters) in identifying semantic relationships between biomedical concepts. To support this evaluation, we introduce",
+          "url": "https://arxiv.org/abs/2607.17902v1"
+        },
+        {
+          "title_zh": "jina-reranker-v3.5: An Efficient Listwise Reranker with Hybrid Attention and Self-Distillation",
+          "eng": "jina-reranker-v3.5: An Efficient Listwise Reranker with Hybrid Attention and Self-Distillation",
+          "summary": "Listwise rerankers are the discriminative core of agentic retrieval pipelines, yet production deployment demands efficiency, domain robustness, and fluency on semi-structured data at the same time. We",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "Listwise rerankers are the discriminative core of agentic retrieval pipelines, yet production deployment demands efficiency, domain robustness, and fluency on semi-structured data at the same time. We present jina-reranker-v3.5, a 0.6B-parameter listwise reranker that meets these demands together without sacrificing the cross-document comparison that makes its predecessor jina-reranker-v3 effective. jina-reranker-v3.5 keeps the last-but-not-late (LBNL) interaction of jina-reranker-v3 and reworks it along three axes. It replaces uniform global attention with a hybrid schedule of three sliding-w",
+          "url": "https://arxiv.org/abs/2607.18152v1"
+        },
+        {
+          "title_zh": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+          "eng": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+          "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redu",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from the user's question and rank candidates by semantic similarity. Together, these choices create prior-corpus misalignment: a mismatch between model priors and the target filings' structure, terminology, and evidence standards. As a result, query generation misses corpus-specific ",
+          "url": "https://arxiv.org/abs/2607.18102v1"
+        },
+        {
+          "title_zh": "Evidence-in-the-Loop: Trace-Driven Optimization for Customer-Service LLM Agents",
+          "eng": "Evidence-in-the-Loop: Trace-Driven Optimization for Customer-Service LLM Agents",
+          "summary": "Production customer-service bots must improve answer quality across iterative releases, yet large language models must not bypass evidence boundaries, policy rules, or human-handoff safeguards. We pre",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "Production customer-service bots must improve answer quality across iterative releases, yet large language models must not bypass evidence boundaries, policy rules, or human-handoff safeguards. We present an \\textbf{Evidence-Grounded Customer-Service Agent Workflow} deployed in a real-world customer-service setting. BM25 recall, issue-title-vector recall, issue-description-vector recall, weighted RRF fusion, and cross-encoder reranking construct grounded FAQ evidence for controlled LLM decisions. Policy-guided orchestration then combines this RAG evidence with scenario-specific rule evidence, ",
+          "url": "https://arxiv.org/abs/2607.18039v1"
+        },
+        {
+          "title_zh": "Remote Awareness of Seafloor Images Collected by AUVs over Low-Bandwidth Communication Links",
+          "eng": "Remote Awareness of Seafloor Images Collected by AUVs over Low-Bandwidth Communication Links",
+          "summary": "This paper introduces a method for real-time processing and transmission of autonomous underwater vehicle (AUV) imagery over low-bandwidth communication links. It leverages artificial intelligence (AI",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "This paper introduces a method for real-time processing and transmission of autonomous underwater vehicle (AUV) imagery over low-bandwidth communication links. It leverages artificial intelligence (AI) techniques to identify a set of images that best represent an entire dataset, or automatically finds the most similar images to a given query image for transmission to operators. Combined with metadata of a larger set of images, compressed versions of the selected images can be transmitted over satellite communication links or underwater modems, and provide operators on shore with information ab",
+          "url": "https://arxiv.org/abs/2607.18013v1"
+        },
+        {
+          "title_zh": "MagicSelector: Joint Optimization for Agent Tool Selection via Counterfactual Decomposition and Progressive Reranking",
+          "eng": "MagicSelector: Joint Optimization for Agent Tool Selection via Counterfactual Decomposition and Progressive Reranking",
+          "summary": "We present MagicSelector, a joint optimization framework integrating Counterfactual task decomposition, Progressive reranking, and Dynamic Top-K, designed to address the fundamental challenges of tool",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "We present MagicSelector, a joint optimization framework integrating Counterfactual task decomposition, Progressive reranking, and Dynamic Top-K, designed to address the fundamental challenges of tool retrieval in agents. MagicSelector is a specialized framework capable of translating ambiguous user instructions into executable atomic subtasks and guiding high-precision tool retrieval, effectively mitigating redundant noise and severe context distraction in out-of-domain (OOD) scenarios.We empower MagicSelector with these capabilities through three key contributions: (1) a preferenceguided cou",
+          "url": "https://arxiv.org/abs/2607.17751v1"
+        },
+        {
+          "title_zh": "ANNLib: A Development Framework for Efficient Approximate Nearest Neighbor Search",
+          "eng": "ANNLib: A Development Framework for Efficient Approximate Nearest Neighbor Search",
+          "summary": "Approximate Nearest Neighbor Search (ANNS) plays a pivotal role in modern deep learning pipelines. Recently, many ANNS systems have been proposed to either provide broad functionality or reach high pe",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-07-20",
+          "overview": "Approximate Nearest Neighbor Search (ANNS) plays a pivotal role in modern deep learning pipelines. Recently, many ANNS systems have been proposed to either provide broad functionality or reach high performance. However, it is yet difficult to achieve both with minimal programming efforts. We propose ANNLib to address the gap. ANNLib is a library that provides a programming framework for achieving high performance and flexible functionality in ANNS systems, based on popular graph-based ANNS algorithms. We carefully decouple and independently optimize both the algorithm and the data structure co",
+          "url": "https://arxiv.org/abs/2607.17582v1"
+        },
+        {
+          "title_zh": "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries",
+          "eng": "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries",
+          "summary": "Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each scholar's record by hand takes staff an estimated 15 hours and",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-07-18",
+          "overview": "Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each scholar's record by hand takes staff an estimated 15 hours and does not scale to a full cohort. An artificial intelligence (AI) agent could serve as a tool to gather scholar data across platforms and disciplines. Methods. We built a human-in-the-loop AI agent that assembles a dossier of sourced evidence for each scholar and drafts one-sentence Translational Science Benefits Model (TSBM) impact summaries for staff review. We evaluated it in the impact-reporti",
+          "url": "https://arxiv.org/abs/2607.16989v1"
+        },
+        {
+          "title_zh": "Translating AI into scientific impact: Field context, career position, and institutional capability in AI-enabled research",
+          "eng": "Translating AI into scientific impact: Field context, career position, and institutional capability in AI-enabled research",
+          "summary": "Artificial intelligence (AI) is increasingly embedded in scientific research, but its scientific value is unlikely to be distributed evenly. This study examines how AI knowledge integration is associa",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-07-18",
+          "overview": "Artificial intelligence (AI) is increasingly embedded in scientific research, but its scientific value is unlikely to be distributed evenly. This study examines how AI knowledge integration is associated with scientific impact and asks who benefits from AI-related knowledge in science. Using large-scale bibliographic data, we measure AI integration through references to papers in the OpenAlex Artificial intelligence subfield and link it to five-year citation impact. The results show that AI references are generally associated with higher citation impact, but the returns vary substantially acro",
+          "url": "https://arxiv.org/abs/2607.16780v1"
+        },
         {
           "title_zh": "New Online at the Library of Congress: July 2026",
           "eng": "New Online at the Library of Congress: July 2026",
