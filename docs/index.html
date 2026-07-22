@@ -514,6 +514,10 @@ function renderBanner(){
     b.innerHTML=`<span>示例数据 · 今日真实内容尚未生成（已就绪等待每日脚本灌入）</span><button id="bretry">重试</button>`;
     slot.appendChild(b);
     $("#bretry").onclick=load;
+  }else if(DATA?.generation_status==="degraded"){
+    const b=el("div","banner");
+    b.innerHTML=`<span>AI 加工暂时降级：${esc(DATA.generation_error||"当前展示上次成功内容")}</span>`;
+    slot.appendChild(b);
   }
 }
 function renderMeta(){
