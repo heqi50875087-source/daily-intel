@@ -73,6 +73,6 @@ a3=append('hot', hot_cn+hot_in, regions=["中国","国外"])
 # hot按日期排序
 mods['hot']['items'].sort(key=lambda x:x.get('published',''), reverse=True)
 
-data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
 save_json(data,LATEST)
 print(f"✅ 整合: AI+{a1}→{len(mods['ai']['items'])} | GitHub+{a2}→{len(mods['github']['items'])} | 热点+{a3}→{len(mods['hot']['items'])}")

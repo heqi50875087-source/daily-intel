@@ -27,7 +27,7 @@ for it in items:
         if sl: it['social']=sl
     filled+=1
 
-data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
 save_json(data,LATEST)
 # 统计
 has_ana=sum(1 for it in items if it.get('analysis'))

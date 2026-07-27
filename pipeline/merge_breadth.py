@@ -56,7 +56,7 @@ rc=Counter(x.get('region','') for x in lib2)
 order=['中国','全球']; regions=[r for r in order if r in rc]+[r for r,_ in rc.most_common() if r not in order]
 mods['libraries']['items']=lib2; mods['libraries']['regions']=regions
 
-data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
 save_json(data,LATEST)
 
 print(f"✅ 整合完成:")

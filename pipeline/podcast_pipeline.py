@@ -100,7 +100,15 @@ def main():
             s,ep=futs[fut]
             if fut.result(): downloaded.append((s,ep)); print(f"  OK下载 {s['name'][:28]}",file=sys.stderr)
             else: print(f"  X下载 {s['name'][:28]}",file=sys.stderr)
+    # 时间预算:本任务 09:00 开跑,正是她开工时间。云端引擎时一集几十秒无所谓,
+    # 但本地 9B 全文翻译一集要好几分钟,十几集就能把整个上午的机器磨钝。
+    # 超预算就停手,剩下的明天再补 —— 本管线是增量的,做过的集不会重做。
+    budget=float(os.environ.get("PODCAST_BUDGET_MIN","45"))*60
+    t0=time.time()
     for s,ep in downloaded:
+        if time.time()-t0>budget:
+            print(f"⏸ 已用满 {budget/60:.0f} 分钟预算,剩 {len(downloaded)-downloaded.index((s,ep))} 集留到明天",file=sys.stderr)
+            break
         t=time.time()
         try:
             segs,_=model.transcribe(ep['mp3'],language="en")

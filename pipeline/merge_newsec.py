@@ -39,8 +39,10 @@ for mk, items in bm.items():
     order=REGION_ORDER.get(mk,[])
     regions=[r for r in order if r in rc]+[r for r,_ in rc.most_common() if r not in order]
     if len(regions)>=2: mods[mk]["regions"]=regions
+    # 只给真拿到新条目的栏目盖时间戳:别让一个活栏目替其他栏目伪装新鲜(见 generate.py module_updated)
+    if add: data.setdefault('module_updated',{})[mk]=time.strftime("%Y-%m-%d %H:%M")
     print(f"  {mk}: +{len(add)} → {len(allit)}条  region={regions[:5]}")
 
-data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
 save_json(data,LATEST)
 print("✅ 整合完成")

@@ -63,7 +63,7 @@ def main():
 
     lib['items']=merged
     lib['regions']=regions
-    data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+    data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
     data['date']=time.strftime("%Y-%m-%d")
     save_json(data,LATEST)
 

@@ -25,7 +25,7 @@ for mk,mod in data['modules'].items():
             if sl: it['social']=sl
         filled+=1; bymod[mk]=bymod.get(mk,0)+1
 
-data['generated_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+data['merged_at']=time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
 save_json(data,LATEST)
 print(f"✅ 回填 {filled} 条: {bymod}")
 # 复核详细度
