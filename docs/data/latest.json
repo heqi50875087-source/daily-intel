@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T11:08:24+08:00",
+  "generated_at": "2026-07-27T12:29:04+08:00",
   "date": "2026-07-27",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-07-27 11:08",
     "ai": "2026-07-27 09:43",
     "voices": "2026-07-27 10:31",
-    "github": "2026-07-27 11:08",
+    "github": "2026-07-27 12:29",
     "libraries": "2026-07-27 10:31",
     "sports": "2026-07-27 10:31"
   },
@@ -1904,222 +1904,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "ESP32-AI：边缘设备上的本地AI推理",
+          "title_zh": "ESP32 端侧 AI 开发框架",
           "eng": "slvDev/esp32-ai",
-          "summary": "在ESP32微控制器上运行本地AI模型，实现低功耗的边缘智能应用。",
+          "summary": "面向 ESP32 微控制器的 Python AI 开发工具，让开发者在边缘设备上运行机器学习模型。",
           "source": "GitHub",
-          "stars": 1399,
+          "stars": 1425,
           "lang": "Python",
           "published": "2026-07-23",
           "url": "https://github.com/slvDev/esp32-ai",
-          "overview": "该项目将AI推理能力引入ESP32微控制器，支持在资源受限的硬件上运行机器学习模型。通过Python接口实现设备端的语音识别、图像分类等任务，无需云端依赖。适合物联网开发者、嵌入式工程师和创客社区使用。",
-          "analysis": "边缘AI是当前热门方向，该项目降低了在低成本硬件上部署AI的门槛，对IoT开发者和创客有极高实用价值。1399星说明社区认可度高。",
+          "overview": "该项目为 ESP32 系列微控制器提供了完整的 Python AI 开发环境，支持在资源受限的边缘设备上部署和运行机器学习模型。亮点包括简化了嵌入式 AI 的开发流程，降低了硬件 AI 的入门门槛，适合物联网场景下的智能应用开发。",
+          "analysis": "端侧 AI 是当前热门方向，ESP32 作为主流 IoT 芯片生态，该项目填补了 Python 开发者在边缘 AI 领域的工具空白，对物联网和嵌入式 AI 社区有实际价值。",
           "social": [
             {
-              "who": "嵌入式开发者",
-              "text": "终于可以在几美元的ESP32板上跑AI了，这对离线场景太有价值"
+              "who": "硬件开发者",
+              "text": "让 ESP32 跑 AI 变得简单，适合做智能家居、语音识别等边缘场景原型验证。"
             },
             {
-              "who": "创客/硬件爱好者",
-              "text": "边缘计算+AI的完美结合，不再需要云端API"
+              "who": "AI 研究者",
+              "text": "Python 生态 + 边缘部署的结合点，值得在端侧模型压缩和推理优化方向关注。"
             }
           ]
         },
         {
-          "title_zh": "Thinking Orbs：AI对话界面的思考状态指示器",
+          "title_zh": "思考中光球 UI 组件库",
           "eng": "Jakubantalik/thinking-orbs",
-          "summary": "为AI和Agent UI提供六种调优状态的思考动画组件，支持自动明暗切换。",
+          "summary": "专为 AI 与 Agent 界面设计的思考状态加载指示器，六种调优状态、两种尺寸、自动适配明暗主题。",
           "source": "GitHub",
           "stars": 1104,
           "lang": "TypeScript",
           "published": "2026-07-21",
           "url": "https://github.com/Jakubantalik/thinking-orbs",
-          "overview": "这是一个精心设计的UI组件库，为AI聊天界面提供思考中的视觉反馈。包含六种不同状态的动画（如加载、推理中、完成等），两种尺寸规格，自动适配深色/浅色主题。纯TypeScript实现，易于集成到任何前端项目。",
-          "analysis": "随着AI Agent UI成为标配，这类细节组件需求激增。1104星说明开发者社区对AI界面体验优化有强烈需求，是实用型开发工具的代表。",
+          "overview": "这是一个面向 AI 聊天界面和 Agent UI 的视觉组件库，提供六种不同的思考状态动画（如脉冲、旋转、呼吸等），自动适配深色/浅色主题。解决了 AI 应用中最常见的「模型正在思考」状态的可视化问题，开箱即用。",
+          "analysis": "随着 AI 原生应用爆发，UI 交互细节成为产品差异化关键。该组件精准命中了 AI Agent UI 的通用痛点——思考状态展示，对前端开发者构建 AI 产品有直接参考价值。",
           "social": [
             {
               "who": "前端开发者",
-              "text": "终于有个现成的思考动画组件了，不用自己画orb了"
+              "text": "AI 产品的 loading 状态太容易被忽视，这个组件把「思考中」做成了视觉亮点，值得集成。"
             },
             {
-              "who": "AI产品设计师",
-              "text": "六种状态覆盖了所有对话场景，比那些简陋的loading spinner好太多"
+              "who": "UI 设计师",
+              "text": "六种调优状态覆盖了不同场景的等待时长感知，自动主题适配也很实用。"
             }
           ]
         },
         {
-          "title_zh": "Cindy：开箱即用的开源AI Agent",
-          "eng": "makecindy/cindy",
-          "summary": "一个真正开箱即用的开源AI智能体，无需复杂配置即可使用。",
-          "source": "GitHub",
-          "stars": 544,
-          "lang": "TypeScript",
-          "published": "2026-07-22",
-          "url": "https://github.com/makecindy/cindy",
-          "overview": "Cindy是一个注重实用性的AI Agent框架，强调开箱即用而非过度工程化。基于TypeScript构建，支持多种任务执行和工具调用能力。项目理念是降低AI Agent的使用门槛，让非技术用户也能快速上手。",
-          "analysis": "开源AI Agent生态正在爆发，但多数项目配置复杂。Cindy的'想到就能做到'理念切中痛点，544星在同类项目中表现突出。",
-          "social": [
-            {
-              "who": "AI应用开发者",
-              "text": "终于有个不需要折腾环境的Agent框架了"
-            },
-            {
-              "who": "产品经理",
-              "text": "开箱即用才是好东西，复杂的架构反而阻碍了落地"
-            }
-          ]
-        },
-        {
-          "title_zh": "动手学Pi：从零构建Pi风格AI Agent的学习指南",
-          "eng": "hahhforest/pi-textbook",
-          "summary": "沿15个真实checkpoint，手把手学习如何构建类似Pi的AI智能体。",
-          "source": "GitHub",
-          "stars": 476,
-          "lang": "TypeScript",
-          "published": "2026-07-21",
-          "url": "https://github.com/hahhforest/pi-textbook",
-          "overview": "这是一套结构化的学习资源，通过15个渐进式checkpoint引导读者从零开始构建Pi风格的AI Agent。涵盖Agent架构、工具调用、记忆管理等核心概念，适合有编程基础的学习者系统掌握AI Agent开发技能。",
-          "analysis": "AI Agent学习资源稀缺且质量参差不齐，该项目以实战导向填补了这一空白。476星说明学习者群体对其高度认可。",
-          "social": [
-            {
-              "who": "AI学习者",
-              "text": "终于有个系统化的Agent教程了，不像那些碎片化文章"
-            },
-            {
-              "who": "技术教育者",
-              "text": "checkpoint式设计很好，每步都有明确产出，适合教学场景"
-            }
-          ]
-        },
-        {
-          "title_zh": "ScriptC：TypeScript原生编译器",
-          "eng": "vercel-labs/scriptc",
-          "summary": "Vercel Labs出品的TypeScript到Native代码的编译器，提升运行时性能。",
-          "source": "GitHub",
-          "stars": 423,
-          "lang": "TypeScript",
-          "published": "2026-07-22",
-          "url": "https://github.com/vercel-labs/scriptc",
-          "overview": "由Vercel Labs开发的编译器项目，将TypeScript源码编译为原生机器码或高效中间代码。旨在解决JavaScript运行时性能瓶颈问题，支持TypeScript类型系统完整保留。面向需要高性能Web应用和Serverless场景的开发者。",
-          "analysis": "Vercel Labs出品意味着有成熟的工程实践背书。TypeScript到Native编译是长期技术方向，423星在编译器类项目中表现不错。",
-          "social": [
-            {
-              "who": "性能优化工程师",
-              "text": "TypeScript直接编译成native，JS运行时终于不是瓶颈了"
-            },
-            {
-              "who": "全栈开发者",
-              "text": "Vercel出的东西质量有保障，等不及Node.js原生支持就先用上"
-            }
-          ]
-        },
-        {
-          "title_zh": "AgentAcct：编码Agent的工作智能仪表板",
-          "eng": "mikehasa/agentacct",
-          "summary": "本地优先的编码Agent工作追踪工具，提供真实的使用数据和工作记录。",
-          "source": "GitHub",
-          "stars": 375,
-          "lang": "Python",
-          "published": "2026-07-24",
-          "url": "https://github.com/mikehasa/agentacct",
-          "overview": "AgentAcct是一个面向编码AI Agent的本地化工作追踪工具。它能读取编码Agent的运行日志，生成真实的使用统计、工作记录和加入时间等数据。采用纯Python实现，零JavaScript依赖，提供localhost仪表板。解决的是AI Agent使用透明度问题。",
-          "analysis": "随着企业越来越多地使用AI编码助手，如何评估其实际产出成为刚需。该项目从本地化、隐私优先角度切入，375星说明开发者社区有真实需求。",
-          "social": [
-            {
-              "who": "DevOps工程师",
-              "text": "终于能看清Agent到底干了什么了，不是黑箱"
-            },
-            {
-              "who": "AI安全研究者",
-              "text": "本地优先+只读日志设计很好，不会泄露敏感代码"
-            }
-          ]
-        },
-        {
-          "title_zh": "OptMem：AI Agent的永久记忆系统",
-          "eng": "VictorTaelin/OptMem",
-          "summary": "为AI Agent提供持久化记忆能力，426 token提示词即可即插即用。",
-          "source": "GitHub",
-          "stars": 359,
-          "lang": "Python",
-          "published": "2026-07-25",
-          "url": "https://github.com/VictorTaelin/OptMem",
-          "overview": "OptMem是一个轻量级的AI Agent记忆持久化方案。通过426 token的提示词模板实现Agent跨会话的记忆保持，支持即插即用。解决了当前AI Agent缺乏长期记忆的核心痛点，无需复杂的外部存储系统。",
-          "analysis": "记忆管理是AI Agent落地的关键瓶颈之一。该项目以极简设计（仅426 token）解决大问题，359星说明社区对这一方向有强烈需求。",
-          "social": [
-            {
-              "who": "AI架构师",
-              "text": "终于有个不需要外部数据库的记忆方案了"
-            },
-            {
-              "who": "Prompt工程师",
-              "text": "426 token就能实现持久记忆，这个token效率太惊人了"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI文案写手：人类语感的营销文案生成器",
+          "title_zh": "人味 AI 文案写作助手",
           "eng": "mikiarlo3/ai-copywriter",
-          "summary": "结合真实文案技巧与营销知识，以人类语调生成高质量营销内容。",
+          "summary": "融合真实文案技巧与营销知识的 AI 文案生成器，输出带有「人类语气」的内容而非机械模板。",
           "source": "GitHub",
-          "stars": 859,
+          "stars": 861,
           "lang": "Python",
           "published": "2026-07-24",
           "url": "https://github.com/mikiarlo3/ai-copywriter",
-          "overview": "这是一个专注于营销文案生成的AI工具，强调使用真实文案技巧和营销知识来生成具有人类语调的内容。不同于通用文本生成器，它针对广告、社交媒体、产品描述等场景优化。Python实现，易于集成到工作流中。",
-          "analysis": "859星在AI应用类项目中表现优秀。随着企业降本增效，AI辅助文案创作需求持续增长，该项目切中了营销从业者的实际需求。",
+          "overview": "该项目专注于生成具有真实营销洞察和人性化语气的 AI 文案，区别于通用 LLM 输出。支持多种文案场景（社交媒体、广告、邮件等），强调「人味」而非模板化内容。对内容创作者和营销团队有实用价值。",
+          "analysis": "AI 生成内容的同质化是行业痛点，该项目从 prompt 工程角度切入，试图解决 AI 文案的「机械感」问题，对内容运营和营销自动化场景有参考价值。",
           "social": [
             {
-              "who": "数字营销人员",
-              "text": "终于有个不写'人工智能说'的AI文案工具了"
+              "who": "内容创作者",
+              "text": "终于有一个不是满篇「亲爱的好吗」的 AI 文案工具了，语气自然度明显提升。"
             },
             {
-              "who": "内容创作者",
-              "text": "人类语调这个卖点很实在，不像那些模板化的生成器"
+              "who": "营销从业者",
+              "text": "prompt 调优的思路值得学习，但实际效果取决于具体使用场景，建议结合真实数据验证。"
             }
           ]
         },
         {
-          "title_zh": "故事转手绘视频：AI漫画动画生成工具",
-          "eng": "gnipbao/story-to-handdrawn-video",
-          "summary": "将中文故事文案或有序图片转换为手绘日记漫画风格的动画视频。",
+          "title_zh": "开源即用型 AI Agent 框架 Cindy",
+          "eng": "makecindy/cindy",
+          "summary": "开箱即用的开源 AI Agent 平台——想到就能做到，无需复杂配置即可运行智能代理任务。",
           "source": "GitHub",
-          "stars": 653,
+          "stars": 591,
+          "lang": "TypeScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/makecindy/cindy",
+          "overview": "Cindy 是一个开源的 AI Agent 框架，主打「开箱即用」理念，用户无需深入配置即可运行智能代理。支持任务规划、工具调用和结果反馈等核心能力，降低了构建自定义 Agent 的技术门槛。",
+          "analysis": "当前 Agent 框架百花齐放但多数需要大量定制，该项目以低门槛定位切入，适合快速原型验证和小团队使用，对 AI Agent 普及有推动作用。",
+          "social": [
+            {
+              "who": "AI 开发者",
+              "text": "终于有一个不需要折腾配置就能跑起来的 Agent 了，适合做 PoC 和内部工具。"
+            },
+            {
+              "who": "产品经理",
+              "text": "「想到就做」的定位很清晰，但需要关注其任务复杂度和可靠性边界在哪里。"
+            }
+          ]
+        },
+        {
+          "title_zh": "故事转手绘动画视频生成器",
+          "eng": "gnipbao/story-to-handdrawn-video",
+          "summary": "将中文故事文案或有序图片转化为手绘日记漫画风格的动画视频（静音 MP4 图片序列）。",
+          "source": "GitHub",
+          "stars": 654,
           "lang": "JavaScript",
           "published": "2026-07-21",
           "url": "https://github.com/gnipbao/story-to-handdrawn-video",
-          "overview": "这是一个创意型AI应用，支持将中文故事文案或图片序列转换为手绘日记漫画风格的动画视频（无声MP4）。采用Agent技能架构实现，适合内容创作者、教育者和独立开发者。输出为静帧图片组成的MP4格式。",
-          "analysis": "653星说明用户对AI辅助创意内容有强烈需求。手绘风格降低了版权风险，且符合当下'治愈系'内容趋势，应用前景广阔。",
+          "overview": "这是一个创意内容生成工具，支持将文字故事或图片序列转化为手绘风格的动画视频。采用 Agent 技能架构实现自动化流程，输出为静音 MP4 格式的图片序列帧，适合制作个人日记、儿童绘本等场景的动画内容。",
+          "analysis": "AI + 创意的结合点是当前高增长赛道，该项目在「故事→动画」这条链路中提供了低门槛方案，对内容创作者和教育领域有实用价值。",
           "social": [
             {
               "who": "独立开发者",
-              "text": "不用画师也能做漫画了，这个Agent技能设计得很优雅"
+              "text": "把文字变成手绘动画的思路很妙，适合做个人品牌的内容创作工具。"
             },
             {
               "who": "教育从业者",
-              "text": "把故事变成动画视频，孩子会更喜欢学习"
+              "text": "儿童绘本制作场景很适合这个工具，但需要关注输出质量和风格一致性。"
             }
           ]
         },
         {
-          "title_zh": "Hyperliquid交易监控：大额交易实时通知",
+          "title_zh": "TypeScript 原生编译器 ScriptC",
+          "eng": "vercel-labs/scriptc",
+          "summary": "Vercel Labs 出品的 TypeScript 到 Native 编译方案，将 TS 代码直接编译为高性能原生运行时。",
+          "source": "GitHub",
+          "stars": 488,
+          "lang": "TypeScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/vercel-labs/scriptc",
+          "overview": "由 Vercel Labs 团队开发的 TypeScript-to-Native Compiler，旨在将 TypeScript 代码编译为高性能原生运行时。相比传统 JS 引擎执行，native 编译可显著提升性能并减少运行时开销，是前端工程化的重要基础设施方向。",
+          "analysis": "TypeScript 生态的成熟催生了对原生编译的需求，Vercel Labs 的技术背书增加了可信度。该项目若成功落地，将影响整个前端工具链和部署架构。",
+          "social": [
+            {
+              "who": "全栈工程师",
+              "text": "TS 直接跑 native 意味着性能不再是瓶颈，但需要关注编译复杂度和调试体验。"
+            },
+            {
+              "who": "平台架构师",
+              "text": "Vercel Labs 做这个方向很合理，edge runtime 场景下原生编译的价值会更大。"
+            }
+          ]
+        },
+        {
+          "title_zh": "动手学 Pi：Agent 构建实战教程",
+          "eng": "hahhforest/pi-textbook",
+          "summary": "沿 15 个真实 checkpoint 从零构建 Pi-style Agent 的中文学习资源，手把手教学 AI Agent 开发全流程。",
+          "source": "GitHub",
+          "stars": 494,
+          "lang": "TypeScript",
+          "published": "2026-07-21",
+          "url": "https://github.com/hahhforest/pi-textbook",
+          "overview": "这是一套系统化的中文学习教程，通过 15 个真实 checkpoint（检查点）引导开发者从零构建 Pi-style AI Agent。涵盖 Agent 架构设计、工具调用、记忆管理等核心概念，适合希望深入理解 Agent 开发的技术人员。",
+          "analysis": "Agent 开发正从概念走向工程化实践，该教程以 checkpoint 驱动的方式降低了学习曲线，对中文技术社区培养 Agent 开发能力有实际意义。",
+          "social": [
+            {
+              "who": "AI 学习者",
+              "text": "checkpoint 式教学很清晰，比零散文档好太多，适合系统入门 Agent 开发。"
+            },
+            {
+              "who": "技术教育者",
+              "text": "15 个 checkpoint 覆盖了关键知识点，但需要关注与实际生产环境的差距。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI Agent 永久记忆方案 OptMem",
+          "eng": "VictorTaelin/OptMem",
+          "summary": "为 AI Agent 提供永久记忆的轻量级方案——仅用 426 token prompt + 脚本即可实现持久化上下文管理。",
+          "source": "GitHub",
+          "stars": 378,
+          "lang": "Python",
+          "published": "2026-07-25",
+          "url": "https://github.com/VictorTaelin/OptMem",
+          "overview": "OptMem 是一个面向 AI Agent 的永久记忆系统，核心思路是用极短的 prompt（426 token）配合脚本实现持久化上下文管理。解决了当前 Agent 对话中「遗忘」问题的痛点，让 Agent 能够跨会话保持关键信息。",
+          "analysis": "Agent 的记忆能力是决定其实用性的关键因素之一。该项目以极简设计切入记忆问题，适合对 token 成本敏感的场景，为 Agent 架构设计提供了新思路。",
+          "social": [
+            {
+              "who": "AI 架构师",
+              "text": "426 token 的 prompt 就能实现永久记忆？思路很巧妙，但需要验证复杂场景下的可靠性。"
+            },
+            {
+              "who": "开发者",
+              "text": "plug and play 的定位很适合快速集成到现有 Agent 项目中，降低了记忆管理的复杂度。"
+            }
+          ]
+        },
+        {
+          "title_zh": "编码 Agent 工作智能分析工具 AgentAcct",
+          "eng": "mikehasa/agentacct",
+          "summary": "面向编码 AI Agent 的工作智能分析平台——提供使用真相、记录工作和诚实汇报，零 JavaScript 本地仪表盘。",
+          "source": "GitHub",
+          "stars": 410,
+          "lang": "Python",
+          "published": "2026-07-24",
+          "url": "https://github.com/mikehasa/agentacct",
+          "overview": "AgentAcct 是一个专注于编码 AI Agent 工作透明度的分析工具，通过只读访问 coding-agent 日志来提供使用真相、记录的工作成果和诚实的汇报。采用零 JavaScript 的本地仪表盘设计，保障数据隐私和安全。",
+          "analysis": "随着企业大规模部署编码 AI Agent，对其产出质量和工作效率的评估成为刚需。该项目从「可观测性」角度切入，对 DevOps 团队和 AI 治理有实际价值。",
+          "social": [
+            {
+              "who": "DevOps 工程师",
+              "text": "终于有了编码 Agent 的「工作报表」工具，透明度问题解决了大半。"
+            },
+            {
+              "who": "AI 治理研究者",
+              "text": "零 JS 本地仪表盘的设计很注重隐私，适合企业级部署场景。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Hyperliquid 大额交易监控追踪器",
           "eng": "0xhype/hyperliquid-tracker",
-          "summary": "实时监控Hyperliquid平台上的大额交易，触发时即时推送通知。",
+          "summary": "实时通知 Hyperliquid 链上大额交易发生，帮助交易者及时捕捉市场异动和套利机会。",
           "source": "GitHub",
           "stars": 511,
           "lang": "TypeScript",
           "published": "2026-07-21",
           "url": "https://github.com/0xhype/hyperliquid-tracker",
-          "overview": "这是一个加密货币交易监控工具，专门针对Hyperliquid平台。当检测到大额交易发生时，通过多种渠道即时推送通知。TypeScript实现，支持多交易所数据源接入。适合量化交易者、DeFi用户和加密市场观察者使用。",
-          "analysis": "511星在加密工具类项目中表现突出。随着DeFi生态发展，实时交易监控需求持续增长，该项目提供了实用的解决方案。",
+          "overview": "该工具监控 Hyperliquid 交易所链上的大额交易活动，当检测到显著交易量时即时通知用户。支持自定义阈值和通知方式，帮助交易者快速响应市场变化。对高频交易和 DeFi 策略执行有实用价值。",
+          "analysis": "加密货币交易工具的开发者社区需求旺盛，该项目以 TypeScript 实现、实时推送为核心卖点，在 DeFi 工具生态中填补了监控类工具的空白。",
           "social": [
             {
-              "who": "量化交易者",
-              "text": "大额交易预警太实用了，能提前布局"
+              "who": "DeFi 交易者",
+              "text": "大额交易通知很及时，对捕捉市场异动很有帮助，但需要关注误报率。"
             },
             {
-              "who": "DeFi用户",
-              "text": "比那些收费的监控服务好多了，开源免费"
+              "who": "区块链开发者",
+              "text": "TypeScript + WebSocket 的架构设计清晰，值得参考实现自己的链上监控工具。"
+            }
+          ]
+        },
+        {
+          "title_zh": "端侧 AI 推理框架 ESP32-AI",
+          "eng": "slvDev/esp32-ai",
+          "summary": "面向 ESP32 微控制器的 Python AI 开发框架，让边缘设备也能运行机器学习模型。",
+          "source": "GitHub",
+          "stars": 1425,
+          "lang": "Python",
+          "published": "2026-07-23",
+          "url": "https://github.com/slvDev/esp32-ai",
+          "overview": "该项目为 ESP32 系列微控制器提供了完整的 Python AI 开发环境，支持在资源受限的边缘设备上部署和运行机器学习模型。亮点包括简化了嵌入式 AI 的开发流程，降低了硬件 AI 的入门门槛，适合物联网场景下的智能应用开发。",
+          "analysis": "端侧 AI 是当前热门方向，ESP32 作为主流 IoT 芯片生态，该项目填补了 Python 开发者在边缘 AI 领域的工具空白，对物联网和嵌入式 AI 社区有实际价值。",
+          "social": [
+            {
+              "who": "硬件开发者",
+              "text": "让 ESP32 跑 AI 变得简单，适合做智能家居、语音识别等边缘场景原型验证。"
+            },
+            {
+              "who": "AI 研究者",
+              "text": "Python 生态 + 边缘部署的结合点，值得在端侧模型压缩和推理优化方向关注。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Agent 工作智能分析平台 AgentAcct",
+          "eng": "mikehasa/agentacct",
+          "summary": "面向编码 AI Agent 的工作智能分析平台——提供使用真相、记录工作和诚实汇报，零 JavaScript 本地仪表盘。",
+          "source": "GitHub",
+          "stars": 410,
+          "lang": "Python",
+          "published": "2026-07-24",
+          "url": "https://github.com/mikehasa/agentacct",
+          "overview": "AgentAcct 是一个专注于编码 AI Agent 工作透明度的分析工具，通过只读访问 coding-agent 日志来提供使用真相、记录的工作成果和诚实的汇报。采用零 JavaScript 的本地仪表盘设计，保障数据隐私和安全。",
+          "analysis": "随着企业大规模部署编码 AI Agent，对其产出质量和工作效率的评估成为刚需。该项目从「可观测性」角度切入，对 DevOps 团队和 AI 治理有实际价值。",
+          "social": [
+            {
+              "who": "DevOps 工程师",
+              "text": "终于有了编码 Agent 的「工作报表」工具，透明度问题解决了大半。"
+            },
+            {
+              "who": "AI 治理研究者",
+              "text": "零 JS 本地仪表盘的设计很注重隐私，适合企业级部署场景。"
             }
           ]
         }
