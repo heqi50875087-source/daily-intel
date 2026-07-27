@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T21:29:27+08:00",
+  "generated_at": "2026-07-27T22:34:17+08:00",
   "date": "2026-07-27",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,16 +7,121 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-07-27 21:29",
-    "ai": "2026-07-27 21:29",
-    "voices": "2026-07-27 21:29",
-    "github": "2026-07-27 21:29",
+    "hot": "2026-07-27 22:34",
+    "ai": "2026-07-27 22:34",
+    "voices": "2026-07-27 22:34",
+    "github": "2026-07-27 22:34",
     "libraries": "2026-07-27 21:29",
-    "sports": "2026-07-27 21:29"
+    "sports": "2026-07-27 22:34"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Nvidia与微软联合发起开源AI安全联盟",
+          "eng": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+          "summary": "Nvidia携手微软、SpaceX、IBM等科技公司成立Open Secure AI Alliance，共同开发和共享开源AI安全工具，以应对前沿模型带来的网络安全威胁。该联盟明确排除了OpenAI、Google和Anthropic三大主要AI公司。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-07-27",
+          "tags": [
+            "AI安全",
+            "开源联盟",
+            "Nvidia",
+            "微软"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "overview": "面对前沿AI模型日益增长的网络安全威胁，Nvidia宣布与微软、SpaceX、IBM及其他科技公司联合成立Open Secure AI Alliance。该联盟的核心主张是开源工具对于有效防御AI攻击至关重要。值得注意的是，这一重大行业合作明确排除了当前AI领域最具影响力的三家公司：OpenAI、Google和Anthropic，暗示了行业在安全治理上的路线分歧。",
+          "analysis": "这一联盟的成立标志着AI基础设施厂商开始主导安全治理话语权，而非模型开发商。排除三大主要AI公司的做法可能引发争议——这些公司既是潜在攻击者也是防御需求方。开源安全工具的方向值得肯定，但能否真正落地仍取决于各方的合作意愿和执行力。",
+          "social": [
+            {
+              "who": "行业分析师",
+              "text": "基础设施厂商主导AI安全的模式值得关注，这改变了以往由模型公司制定安全标准的格局。"
+            },
+            {
+              "who": "网络安全研究者",
+              "text": "开源安全工具是正确方向，但联盟能否形成有效的攻防共享机制仍是未知数。"
+            }
+          ]
+        },
+        {
+          "title_zh": "通往人工超级智能的路径：多AI代理协调的瓶颈与突破",
+          "eng": "The path to artificial superintelligence",
+          "summary": "MIT Technology Review深入探讨多领域AI代理系统的协作困境——医疗场景中各专家型AI代理虽能交换数据，但尚无法真正协同工作。文章分析了实现人工超级智能所需的关键技术跨越。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-07-27",
+          "tags": [
+            "人工超级智能",
+            "AI代理",
+            "多智能体系统"
+          ],
+          "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+          "overview": "文章以医疗系统为例，描绘了由多个专业AI代理组成的理想协作架构：症状评估、排期管理、保险处理、药房管理等各代理各司其职。然而当前技术瓶颈在于这些代理虽然能交换数据，却无法实现真正的协调与协同决策。MIT Technology Review认为，这一多智能体协调问题是通往人工超级智能的核心挑战之一。",
+          "analysis": "这篇文章的价值在于将ASI（人工超级智能）的讨论从抽象概念拉回到具体的工程问题——多代理系统的协调机制。当前AI系统多为单任务专家模型，真正的超级智能可能需要突破'各自为政'的架构限制，实现跨领域、跨目标的自主协同。",
+          "social": [
+            {
+              "who": "AI研究员",
+              "text": "多代理协调是AGI的关键瓶颈，当前缺乏统一的通信协议和决策框架来整合不同领域的专家系统。"
+            },
+            {
+              "who": "技术评论者",
+              "text": "从单模型到多代理系统的演进路径清晰，但协调机制的突破可能需要全新的架构范式。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI驱动药物发现中的数据闭环：破解Eroom定律的困局",
+          "eng": "Closing the data loop in AI-driven drug discovery",
+          "summary": "MIT Technology Review分析了AI如何帮助解决新药研发中的核心难题——自1950年代以来，新药开发成本每九年翻一番（Eroom定律），平均耗时10-15年。文章探讨了通过数据闭环加速这一进程的可能性。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-07-27",
+          "tags": [
+            "AI制药",
+            "药物发现",
+            "Eroom定律"
+          ],
+          "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+          "overview": "文章指出，新药研发面临成本持续上升和时间延长的双重压力——自1950年代以来，开发成本每九年翻一番（即Eroom定律），当前平均需要10-15年才能将新药推向市场。AI驱动的药物发现正试图通过建立数据闭环来打破这一困局：将实验结果、临床数据和失败案例系统性地反馈到AI模型中，形成持续优化的循环。",
+          "analysis": "药物研发是AI应用中最具挑战性的领域之一，因为生物系统的复杂性远超软件系统。数据闭环的理念——让每一次实验失败都成为下一次迭代的输入——如果能在制药行业成功实施，将产生巨大的经济和社会价值。但这一过程需要跨学科合作和长期投入，短期内难以看到突破性成果。",
+          "social": [
+            {
+              "who": "生物医学研究者",
+              "text": "AI在药物发现中的潜力巨大，但数据质量和标注标准是制约其效果的关键因素。"
+            },
+            {
+              "who": "医药行业分析师",
+              "text": "如果AI能将新药研发周期从15年缩短到5-7年，将彻底改变制药行业的竞争格局和投资逻辑。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Enigma融资7000万美元：让机器人控制像调节音量一样简单",
+          "eng": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+          "summary": "TechCrunch报道，机器人控制公司Enigma完成7000万美元种子轮融资，由Index Ventures和Ribbit Capital领投。其核心理念是让非技术用户也能轻松操控机器人。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-07-27",
+          "tags": [
+            "机器人",
+            "融资",
+            "人机交互"
+          ],
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+          "overview": "Enigma完成了由Index Ventures和Ribbit Capital领投的7000万美元种子轮融资，其核心愿景是让普通人控制机器人变得像调节音量旋钮一样简单。这一融资反映了市场对具身智能和机器人应用商业化的持续看好——随着物理AI技术的成熟，机器人从实验室走向日常使用的门槛正在降低。",
+          "analysis": "Enigma的融资策略值得关注：将复杂的机器人控制简化为直觉化操作（如旋转旋钮），这降低了非技术用户的采用门槛。如果这一理念能成功落地，可能催生新的消费级机器人市场。不过，硬件成本、可靠性和场景适配仍是需要解决的实际问题。",
+          "social": [
+            {
+              "who": "投资人",
+              "text": "机器人控制的人机交互创新是具身智能商业化的关键一步，简化操作能显著扩大潜在用户群体。"
+            },
+            {
+              "who": "硬件工程师",
+              "text": "旋钮式控制的物理实现需要解决精度、耐用性和成本之间的平衡问题，技术挑战不容忽视。"
+            }
+          ]
+        },
         {
           "title_zh": "艺术家起诉AI表情包生成器：个人漫画被用作广告模板出售",
           "eng": "Artist sues AI meme generator for selling deeply personal comic as ad template",
@@ -703,114 +808,6 @@
             {
               "who": "员工",
               "text": "希望Simo早日康复，她的离开对团队士气是个打击。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI发布GPT-5.6系列模型",
-          "eng": "OpenAI launches its new family of models with GPT-5.6",
-          "summary": "OpenAI推出了最新的GPT-5.6模型系列，在网络安全等多个领域宣称有显著改进。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-09",
-          "tags": [
-            "OpenAI",
-            "GPT-5.6",
-            "AI模型",
-            "网络安全"
-          ],
-          "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-          "overview": "OpenAI于7月9日正式发布GPT-5.6系列模型，这是其最新一代大语言模型。新模型在多个基准测试中表现出色，尤其在网络安全领域有针对性增强，能够更好地识别和防御网络威胁。OpenAI表示GPT-5.6在推理、代码生成和多语言处理方面也有显著提升。",
-          "analysis": "GPT-5.6的发布时机微妙，正值AI安全争议升温之际。强调网络安全能力可能是为了回应外界对AI风险的担忧，但实际效果仍需独立验证。模型迭代速度加快，竞争压力可见一斑。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "GPT-5.6在代码生成任务上确实更精准了，但价格是否也会上涨？"
-            },
-            {
-              "who": "安全专家",
-              "text": "如果AI能主动防御网络攻击，那将是革命性的，但也要警惕它被用于攻击。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI初创公司Lyzr让自家AI代理主导1亿美元融资",
-          "eng": "An AI agent startup just let its agent run its $100 million fundraise",
-          "summary": "企业AI代理初创公司Lyzr使用自家AI代理完成了1亿美元融资轮，以此证明产品的实际能力。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-09",
-          "tags": [
-            "AI代理",
-            "融资",
-            "Lyzr",
-            "企业AI"
-          ],
-          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-          "overview": "Lyzr是一家专注于为企业构建AI代理的初创公司，近日完成1亿美元融资。不同寻常的是，整个融资过程由Lyzr自家的AI代理主导，包括与投资者沟通、协调条款等环节。公司声称这证明了其产品的可靠性和自主性。",
-          "analysis": "这一举动极具营销效果，但也引发质疑：AI代理能否真正理解复杂的融资谈判？或许更多是象征性展示，而非完全自主操作。不过，它确实凸显了AI代理在商业流程中的潜力。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "让AI代理主导融资是个大胆的证明方式，但我会更关注它背后的实际决策逻辑。"
-            },
-            {
-              "who": "创业者",
-              "text": "如果AI能搞定融资，那下一步是不是连CEO都可以是AI了？"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI关闭ChatGPT Atlas浏览器，但AI浏览器野心不减",
-          "eng": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
-          "summary": "OpenAI宣布关闭其AI浏览器Atlas，但将部分代理浏览功能整合到桌面应用和Chrome扩展中。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-07-09",
-          "tags": [
-            "OpenAI",
-            "Atlas",
-            "AI浏览器",
-            "ChatGPT"
-          ],
-          "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-          "overview": "OpenAI在推出不到一年后，决定关闭其AI浏览器Atlas。该浏览器曾承诺能代表用户执行任务，但未能获得足够 traction。不过，OpenAI并未放弃AI浏览领域，而是将Atlas的代理功能迁移至ChatGPT桌面应用和一款新的Chrome扩展中，继续探索AI与浏览器的结合。",
-          "analysis": "Atlas的关闭表明，独立AI浏览器在当前市场难以立足，用户更习惯在现有浏览器中集成AI功能。OpenAI的策略调整是务实的，但这也意味着在浏览器赛道上，谷歌等传统巨头仍占优势。",
-          "social": [
-            {
-              "who": "用户",
-              "text": "Atlas概念很酷，但实际用起来不如想象中流畅，关闭也不意外。"
-            },
-            {
-              "who": "分析师",
-              "text": "OpenAI转向插件和桌面集成是明智之举，但竞争会更加激烈。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI在版权诉讼中可能犯下致命错误：隐藏和删除ChatGPT日志",
-          "eng": "OpenAI may have made a fatal misstep in copyright fight with news orgs",
-          "summary": "纽约时报指控OpenAI在版权诉讼中隐藏和删除了ChatGPT日志，可能面临制裁。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-07-09",
-          "tags": [
-            "OpenAI",
-            "版权诉讼",
-            "纽约时报",
-            "ChatGPT日志"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-          "overview": "在纽约时报对OpenAI的版权侵权诉讼中，纽约时报指控OpenAI故意隐藏和删除了数十亿条ChatGPT日志，并假装无法搜索训练数据。如果指控属实，OpenAI可能面临严重的法律制裁，包括证据不利推定甚至败诉。这一事件可能成为AI版权纠纷的转折点。",
-          "analysis": "如果OpenAI确实销毁了关键证据，那将是极其严重的法律失误。这不仅会损害其案件，还可能引发监管机构更严格的审查。AI公司必须建立透明的数据管理流程，否则将面临巨大的法律和声誉风险。",
-          "social": [
-            {
-              "who": "法律专家",
-              "text": "隐藏证据在诉讼中几乎是不可原谅的，OpenAI可能因此输掉整个案子。"
-            },
-            {
-              "who": "AI伦理研究者",
-              "text": "这再次凸显了AI公司数据实践的透明度问题，行业需要更严格的规范。"
             }
           ]
         }
@@ -1693,252 +1690,280 @@
     "sports": {
       "items": [
         {
-          "title_zh": "皮奥利因涉俄博彩公司丑闻退出意大利主帅竞选",
-          "eng": "Pirlo out of running for Italy job over link to Russian betting company",
-          "summary": "安德烈亚·皮奥利确认不再角逐意大利国家队主教练一职，此前其代言的俄罗斯博彩公司Fonbet引发意大利政界人士对其立场的担忧。曼奇尼和孔蒂目前被视为热门候选人。",
-          "source": "BBC Football",
+          "title_zh": "因凡蒂诺致信批评者呼吁停止散布仇恨与虚假叙事",
+          "eng": "Fifa president Gianni Infantino accuses critics of spreading hate at World Cup",
+          "summary": "国际足联主席因凡蒂诺发表公开信回应外界对世界杯的质疑，要求批评者冥想、祈祷或看球而非传播仇恨。",
+          "source": "Guardian Football",
           "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/news/articles/c4g49r2338xo?at_medium=RSS&at_campaign=rss",
-          "overview": "意大利政治界对皮奥利担任俄罗斯博彩公司Fonbet大使的角色提出质疑，认为国家队教练不应在俄乌冲突问题上存在利益冲突。皮奥利本人通过Instagram发文确认退出竞选，曼奇尼和孔蒂成为新的热门人选。",
-          "analysis": "这一事件凸显了国际足坛在处理地缘政治与商业代言之间的敏感性，意大利足协面临选帅压力。",
+          "url": "https://www.theguardian.com/football/2026/jul/27/gianni-infantino-hits-out-fifa-critics-hate-open-letter-world-cup",
+          "overview": "因凡蒂诺在公开信中称世界杯成功庆祝了团结、安全与包容，指责批评者忽视了全球数百万球迷见证的欢乐。他特别为巴洛贡事件及伊朗队的待遇进行了辩护，认为 detractors 错过了赛事的核心价值。这一表态发生在世界杯争议持续升温的背景下，旨在维护国际足联的形象和赛事声誉。",
+          "analysis": "因凡蒂诺此举既是危机公关也是立场宣示，试图将焦点从具体争议拉回赛事整体叙事。然而，在伊朗队等敏感议题上，仅靠“看球”的建议难以平息球迷对公平竞赛的深层担忧。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "因凡蒂诺说让我们去看球而不是骂人，但这解决不了伊朗裁判争议带来的愤怒。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "公开信措辞强硬但缺乏实质回应，外界对赛事组织细节的质疑并未因此消减。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "因凡蒂诺呼吁批评者停止散布仇恨言论",
-          "eng": "Meditate, pray or watch football instead of spreading hate - Infantino",
-          "summary": "FIFA主席因凡蒂诺公开回击世界杯批评者，指责他们传播仇恨和虚假叙事，并呼吁人们冥想、祈祷或看球而非散布谣言。他再次为巴洛贡事件及伊朗队的待遇辩护。",
-          "source": "BBC Football",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss",
-          "overview": "因凡蒂诺发表公开信，称世界杯成功庆祝了团结、安全和包容，批评者忽视了全球数百万球迷的欢乐与凝聚力。他再次为巴洛贡事件及伊朗队的待遇进行辩护，强调赛事的安全组织。",
-          "analysis": "因凡蒂诺此举旨在稳定FIFA形象，但外界对世界杯争议（如巴洛贡事件）的关注并未因此平息。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "迪奥曼德与皇马达成协议，巴黎圣日耳曼退出争夺",
+          "title_zh": "迪奥曼德与皇马达成个人条款，巴黎圣日耳曼退出争夺",
           "eng": "Diomande agrees Real Madrid terms as PSG step away",
-          "summary": "RB莱比锡边锋扬·迪奥曼德已与皇家马德里就个人条款达成一致，此前巴黎圣日耳曼已撤回对该球员的兴趣。这位科特迪瓦国脚在德甲表现出色并在世界杯上有亮眼表现后成为转会焦点。",
+          "summary": "RB莱比锡翼卫迪奥曼德已与皇家马德里就个人条款达成一致，此前巴黎圣日耳曼已正式退出该笔转会交易。",
           "source": "BBC Football",
           "published": "2026-07-27",
           "url": "https://www.bbc.co.uk/sport/football/articles/cqx74lpprd7o?at_medium=RSS&at_campaign=rss",
-          "overview": "迪奥曼德在德甲的突破性赛季和世界杯上的精彩表现使其成为今夏转会市场最受关注的年轻球员之一。巴黎圣日耳曼正式退出竞标后，皇马有望完成这笔交易，球员预计将转投伯纳乌。",
-          "analysis": "皇马在争夺顶级年轻边锋方面再次展现野心，迪奥曼德的加盟可能为球队中场提供新的进攻选项。",
+          "overview": "迪奥曼德在德甲和世界杯上的出色表现使其成为今夏转会市场的焦点，皇马最终胜出。巴黎圣日耳曼此前是该球员的主要竞争者，但已正式撤回兴趣。这标志着皇马在争夺年轻边锋方面取得了关键进展，而莱比锡也获得了可观的转会收入。",
+          "analysis": "这笔交易凸显了德甲球队作为“人才中转站”的角色，同时也反映了皇马对年轻化阵容建设的持续投入。对于莱比锡而言，失去核心球员是挑战，但财务回报将有助于维持竞争力。",
+          "social": [
+            {
+              "who": "转会观察员",
+              "text": "迪奥曼德的世界杯表现确实让他身价倍增，皇马拿下他是合理的商业决策。"
+            },
+            {
+              "who": "德甲球迷",
+              "text": "莱比锡总是这样，培养好球员然后卖掉，希望他们能留住更多核心。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "热刺创纪录支出彰显新雄心——万德文",
-          "eng": "Record Spurs spend shows new ambition - Van de Ven",
-          "summary": "米基·范德文表示，热刺的创纪录支出体现了“新的雄心”，这是在经历了“不可接受”的一个赛季之后。",
+          "title_zh": "英足总将试行取消守门员战术暂停规则",
+          "eng": "English football agrees trial to end goalkeeper tactical timeouts",
+          "summary": "英格兰足球协会计划在本赛季实施一项激进试验，旨在彻底消除比赛中的守门员战术暂停时间。",
           "source": "BBC Football",
           "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4gw34l26xzo?at_medium=RSS&at_campaign=rss",
-          "overview": "热刺在夏季转会窗口的创纪录投入被视为俱乐部重建的信号，范德文认为这展示了球队走出低谷的决心。此前赛季的不理想表现促使管理层做出大胆投资。",
-          "analysis": "巨额引援能否转化为竞技成绩是检验新雄心的关键，球迷将密切关注这笔投入的回报。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyjxd53zkpo?at_medium=RSS&at_campaign=rss",
+          "overview": "英足总决定在本赛季试行取消守门员战术暂停，这一规则长期以来允许守门员在特定情况下中断比赛节奏。此举旨在加快比赛节奏并减少争议性判罚带来的时间浪费。如果试验效果良好，未来可能推广至更广泛的联赛体系中。",
+          "analysis": "取消守门员暂停是近年来足球规则改革中较为大胆的一步，反映了现代足球对流畅性的追求。然而，部分教练和球员曾依赖此规则进行战术调整，实际执行中的平衡将是关键挑战。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "终于要取消这个了，每次比赛都因为守门员暂停拖沓得很烦。"
+            },
+            {
+              "who": "足球记者",
+              "text": "试验期是个好办法，既能观察效果又不至于立刻改变所有规则引发反弹。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "罗杰斯和帕尔默可以搭档出场——阿隆索",
-          "eng": "Rogers and Palmer can play together - Alonso",
-          "summary": "切尔西主帅哈维·阿隆索表示他有“计划”让俱乐部创纪录签下的摩根·罗杰斯与科尔·帕尔默同时上场。",
-          "source": "BBC Football",
+          "title_zh": "皮尔洛确认无缘意大利国家队主帅，因俄罗斯博彩赞助引发争议",
+          "eng": "Andrea Pirlo out of running for Italy job but defends deal with Russian betting firm",
+          "summary": "安德烈亚·皮尔洛确认不再角逐意大利队帅位，此前其代言的俄罗斯博彩公司引发政治担忧。",
+          "source": "Guardian Football",
           "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cre4qpq5j4wo?at_medium=RSS&at_campaign=rss",
-          "overview": "切尔西主帅阿隆索透露了具体的战术安排，计划让花费1.17亿英镑签下的摩根·罗杰斯与现有核心帕尔默在场上搭档。这一消息为切尔西的中场配置提供了新的想象空间。",
-          "analysis": "能否同时使用两名顶级中场球员将考验阿隆索的轮换策略和战术灵活性。",
+          "url": "https://www.theguardian.com/football/2026/jul/27/andrea-pirlo-out-of-running-for-italy-job-but-defends-deal-with-russian-betting-firm",
+          "overview": "皮尔洛在社交媒体上确认退出意大利队主帅竞选，此前多名意大利政客对其代言俄罗斯博彩公司Fonbet表示关切。曼奇尼和孔蒂目前被视为该职位的主要候选人。这一事件再次凸显了足球界在处理地缘政治敏感赞助商关系时的复杂性。",
+          "analysis": "皮尔洛的退出为意大利队帅位竞争增添了不确定性，尽管曼奇尼和孔蒂是热门人选，但新帅需要迅速稳定球队在世界杯后的士气。俄罗斯博彩赞助问题也反映了欧洲足坛与特定国家商业利益之间的微妙平衡。",
+          "social": [
+            {
+              "who": "意大利球迷",
+              "text": "支持国脚就应该远离有争议的赞助商，皮尔洛的选择可以理解。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "孔蒂和曼奇尼的竞争将非常激烈，意大利足协需要尽快做出决定以备战下一届大赛。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "基耶萨渴望与伊拉奥拉开启“新篇章”",
+          "title_zh": "切尔齐希望与伊拉奥拉开启利物浦新篇章，不满斯洛特执教时期",
           "eng": "Chiesa wants 'new chapter' with Iraola after frustrating time under Slot at Liverpool",
-          "summary": "利物浦前锋费代里科·基耶萨表示希望在安德oni·伊拉奥拉麾下开启“新章节”，此前他在阿恩·斯洛特的执教下经历了令人沮丧的时期。",
+          "summary": "费代里科·切尔齐表示希望在利物浦与新教练伊拉奥拉开启新阶段，此前在斯洛特手下两赛季感到受挫。",
           "source": "Guardian Football",
           "published": "2026-07-26",
           "url": "https://www.theguardian.com/football/2026/jul/26/federico-chiesa-liverpool-andoni-iraola-arne-slot-premier-league",
-          "overview": "基耶萨在友谊赛中进球后表示，他在斯洛特执教下的两个赛季令人沮丧，但俱乐部去年幸运地获得了欧冠资格。他渴望与伊拉奥拉合作，此前今夏一直有意重返意大利。",
-          "analysis": "基耶萨的未来动向对利物浦锋线实力影响重大，若留队将增强球队攻击火力。",
+          "overview": "切尔齐在友谊赛中进球后表示希望在伊拉奥拉手下开启新篇章，此前他在斯洛特执教期间出场时间有限且感到沮丧。尽管利物浦上赛季成功晋级欧冠，但切尔齐的离队传闻显示球队阵容调整正在进行中。他曾在社交媒体上暗示可能重返意大利联赛。",
+          "analysis": "切尔齐的处境反映了英超球队在转会窗口前的常见困境，即如何处理表现未达预期的核心球员。对于利物浦而言，如何平衡阵容深度和财政公平是重要考量，而伊拉奥拉的战术体系是否能容纳切尔齐将是关键问题。",
+          "social": [
+            {
+              "who": "红军球迷",
+              "text": "希望他能留下，但既然他想走，尊重他的选择吧，毕竟他在斯洛特手下确实没太多机会。"
+            },
+            {
+              "who": "意甲观察者",
+              "text": "切尔齐回到意大利联赛可能会让那不勒斯或尤文受益，英超的竞争确实太激烈了。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "乒乓球俱乐部变身社区医疗站，50岁以上黑人男性论坛在伦敦扩张",
+          "title_zh": "范德文称热刺创纪录投入彰显雄心，回应“不可接受”的赛季",
+          "eng": "Record Spurs spend shows new ambition - Van de Ven",
+          "summary": "热刺后卫范德文表示球队创纪录的引援支出体现了新野心，旨在弥补上赛季令人失望的表现。",
+          "source": "BBC Football",
+          "published": "2026-07-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c4gw34l26xzo?at_medium=RSS&at_campaign=rss",
+          "overview": "热刺后卫范德文公开表示球队创纪录的转会支出展示了俱乐部的新野心，这是对上赛季“不可接受”表现的回应。尽管赛季末经历了保级危机，但管理层显然希望通过大手笔引援重建竞争力。这一表态为热刺球迷带来了信心，但也引发了关于财政可持续性的讨论。",
+          "analysis": "热刺在经历低谷后选择通过创纪录投入来重塑形象，这种策略在英超并不罕见，但能否转化为赛场上的成功仍需时间验证。范德文的言论表明球员对俱乐部未来持乐观态度，这对球队士气至关重要。",
+          "social": [
+            {
+              "who": "热刺球迷",
+              "text": "终于看到希望了，只要钱花在刀刃上，下个赛季一定能回到正轨。"
+            },
+            {
+              "who": "英超评论员",
+              "text": "创纪录投入是双刃剑，如果战术体系跟不上，再多的球员也无法保证胜利。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "可看医生的乒乓球俱乐部",
           "eng": "The table tennis club where you can see a doctor",
-          "summary": "BBC报道了伦敦一个利用乒乓球俱乐部提供医疗服务的社区项目，旨在扩大覆盖范围。",
+          "summary": "英国 Over 50s Black Men Forum 在 10 个地点运营乒乓球活动，并计划进一步扩大规模。",
           "source": "BBC Table Tennis",
           "published": "2026-06-01",
           "url": "https://www.bbc.co.uk/news/articles/clyp8rr0gk0o?at_medium=RSS&at_campaign=rss",
-          "overview": "The Over 50s Black Men Forum 在伦敦10个地点运营，该项目将乒乓球俱乐部作为平台，为参与者提供医疗服务。组织方计划进一步扩大该论坛的覆盖面，体现了体育设施在社区健康促进中的独特作用。BBC Table Tennis 对此进行了专题报道，展示了乒乓球运动在非竞技领域的社会价值。",
-          "analysis": "这种模式展示了非竞技类体育资源如何服务于社会弱势群体，值得行业关注。将医疗与社区体育活动结合，有助于提升公众对乒乓球运动的认知度。",
+          "overview": "该论坛将医疗资源引入乒乓球俱乐部，旨在为 50 岁以上黑人男性群体提供健康支持。目前已在英国 10 个地点开展活动，并计划继续扩展覆盖范围。",
+          "analysis": "乒乓球运动正从竞技层面延伸至社区健康服务领域，这种模式有助于提升中老年群体的参与度和留存率。",
           "social": [
             {
-              "who": "资深球迷/社区观察者",
-              "text": "乒乓球不仅是竞技运动，还能成为改善社区健康的重要工具，这种跨界合作很有意义。"
+              "who": "基层体育推广者",
+              "text": "将医疗服务嵌入俱乐部运营是极具前瞻性的尝试，值得更多乒乓球组织借鉴。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "维尼修斯未来成焦点：皇马续约谈判与阿森纳兴趣并存",
-          "eng": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
-          "summary": "皇家马德里正就续约与维尼修斯进行谈判，同时阿森纳也表现出浓厚兴趣。这位巴西球星的未来成为本赛季最引人关注的转会话题之一。",
-          "source": "BBC Sport",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c62vx42zd83o?at_medium=RSS&at_campaign=rss",
-          "overview": "皇家马德里正在与维尼修斯进行续约谈判，同时阿森纳也展现出了对这位巴西球星的兴趣。这一转会局面成为当前足球界最令人瞩目的话题之一，反映出顶级球员在合同年面临的复杂选择。",
-          "analysis": "维尼修斯作为皇马核心球员，其未来走向将直接影响球队下赛季的竞争力。阿森纳的兴趣表明英超豪门对西甲顶级球星的争夺正在加剧，这可能会影响皇马的续约策略和球员心态。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "维尼修斯在皇马的表现无可挑剔，但阿森纳的介入确实让情况变得复杂。希望他能留在皇马继续证明自己。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "这是典型的合同年博弈，球员、俱乐部都需要权衡利弊。维尼修斯的决定将影响整个转会市场走向。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "国际足联主席因凡蒂诺公开信反击世界杯批评者",
-          "eng": "Fifa president Gianni Infantino accuses critics of spreading hate at World Cup",
-          "summary": "国际足联主席因凡蒂诺发表公开信，指责批评者为世界杯散布仇恨和虚假叙事。他同时为伊朗队待遇和巴洛贡事件进行辩护。",
-          "source": "Guardian Sport",
-          "published": "2026-07-27",
-          "url": "https://www.theguardian.com/football/2026/jul/27/gianni-infantino-hits-out-fifa-critics-hate-open-letter-world-cup",
-          "overview": "国际足联主席因凡蒂诺发表公开信，强烈反击世界杯的批评者。他指责这些人散布仇恨和虚假叙事，同时为伊朗队的待遇和巴洛贡事件进行辩护。信中强调世界杯的成功在于团结、安全和包容。",
-          "analysis": "因凡蒂诺的公开信反映了国际足联与外界之间的紧张关系。尽管世界杯在组织上获得认可，但关于公平性和政治问题的批评依然存在。这封信可能加剧双方的对立情绪。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "因凡蒂诺的回应显得过于防御性。世界杯确实有很多亮点，但批评的声音也有其合理性。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这封信更多是政治表态而非实质回应。国际足联需要更透明地处理争议问题才能赢得信任。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "范德文：热刺创纪录投入彰显新雄心",
-          "eng": "Record Spurs spend shows new ambition - Van de Ven",
-          "summary": "范德文表示，热刺的创纪录支出彰显了俱乐部的'新雄心'，这是在经历了'不可接受'的一个赛季后。",
-          "source": "BBC Sport",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4gw34l26xzo?at_medium=RSS&at_campaign=rss",
-          "overview": "热刺后卫范德文表示，俱乐部创纪录的投入彰显了新的雄心。这是在经历了令人失望的一个赛季后做出的决定，表明管理层决心重建球队竞争力。",
-          "analysis": "热刺的创纪录支出反映了俱乐部对重返争冠行列的决心。然而，如何将这些资金投入转化为实际成绩将是关键考验。球迷期待看到具体的引援成果和战术提升。",
-          "social": [
-            {
-              "who": "热刺球迷",
-              "text": "终于看到球队认真投入了！希望这些钱能花在刀刃上，别再让我们失望了。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "创纪录支出本身不是问题，关键在于如何分配和使用这些资金。热刺需要明智的引援策略。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "法拉利必须'做得更好'：匈牙利站失误分析",
-          "eng": "Ferrari must 'do better' after errors in Hungary",
-          "summary": "BBC F1团队讨论法拉利在匈牙利大奖赛的表现。尽管练习赛中看似领先，但勒克莱尔和汉密尔顿分别以第四和第五名完赛。",
-          "source": "BBC Sport",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/formula1/videos/c4gkrd4e8kno?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC F1团队分析了法拉利在匈牙利大奖赛的表现。尽管练习赛中法拉利赛车看似领先，但勒克莱尔和汉密尔顿分别以第四和第五名完赛。车队需要找出失误原因并改进。",
-          "analysis": "法拉利的表现令人失望，尤其是在练习赛中展现出的潜力未能转化为比赛成绩。车队需要在策略执行和技术可靠性方面做出重大改进，否则将难以在竞争激烈的F1中保持竞争力。",
-          "social": [
-            {
-              "who": "F1车迷",
-              "text": "法拉利总是让人失望！练习赛看起来不错，但比赛就露馅了。需要彻底改革。"
-            },
-            {
-              "who": "赛车分析师",
-              "text": "策略失误和技术问题可能是主要原因。法拉利需要在这些方面做出实质性改进才能重回巅峰。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "诺里斯匈牙利站夺冠：麦克拉伦车队迎来赛季首胜",
-          "eng": "McLaren's team principal hails 'great trajectory' of Lando Norris after win",
-          "summary": "世界冠军诺里斯在匈牙利大奖赛上为麦克拉伦车队赢得本赛季首场胜利。车队领队斯泰拉称赞诺里斯的心理素质和控制力达到新高度。",
-          "source": "Guardian Sport",
-          "published": "2026-07-27",
-          "url": "https://www.theguardian.com/sport/2026/jul/27/mclaren-team-principal-maturity-lando-norris-f1",
-          "overview": "诺里斯在匈牙利大奖赛上为麦克拉伦车队赢得本赛季首场胜利，展现了强大的驾驶控制力。车队领队斯泰拉称赞诺里斯的心理素质达到新高度，认为他正处于职业生涯的巅峰状态。",
-          "analysis": "诺里斯的胜利证明了他在心理层面和驾驶技术上的成熟。这一胜利对麦克拉伦车队的士气提升意义重大，也为他们争夺赛季冠军奠定了基础。",
-          "social": [
-            {
-              "who": "F1解说员",
-              "text": "诺里斯的表现令人印象深刻！他的冷静和控制力是夺冠的关键因素。"
-            },
-            {
-              "who": "资深车迷",
-              "text": "麦克拉伦终于回来了！诺里斯的统治力让人想起当年的汉密尔顿时代。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "美国田径全国锦标赛：奥运明星在2028洛杉矶奥运会'彩排'中表现出色",
+          "title_zh": "美国田径全国锦标赛：奥运明星在洛杉矶2028'彩排'中交出答卷",
           "eng": "US track and field nationals: Olympic stars and hopefuls deliver at LA 2028 'dress rehearsal'",
-          "summary": "虽然今年没有奥运会或世锦赛，但尼基·希尔茨、沙卡里·理查德森和库珀·卢特肯豪斯等选手都抓住了这个展示自我的机会。",
+          "summary": "尽管今年没有奥运会或世锦赛，但尼基·希尔茨、沙卡里·理查德森等顶尖选手在洛杉矶纪念体育场展现了极高水准，为两年后的2028年奥运会做足准备。",
           "source": "Guardian Sport",
           "published": "2026-07-27",
           "url": "https://www.theguardian.com/sport/2026/jul/27/us-track-and-field-nationals-nikki-hiltz-shacarri-richardson-cooper-lutkenhaus-noah-lyles",
-          "overview": "美国田径全国锦标赛在洛杉矶举行，虽然今年没有奥运会或世锦赛，但众多奥运明星和有望参加2028年洛杉矶奥运会的选手都表现出色。这场赛事被视为即将到来的奥运会的重要'彩排'。",
-          "analysis": "尽管缺乏正式比赛的压力，但运动员们依然展现了极高的竞技水平。这场赛事对于评估选手状态、为即将到来的奥运会做准备具有重要意义。观众的热情也反映了田径运动在美国的持续影响力。",
+          "overview": "美国田径全国锦标赛在洛杉矶举行，虽然今年没有奥运会或世锦赛的更高 stakes，但吸引了约5000名现场观众和全球数百万电视观众。尼基·希尔茨、沙卡里·理查德森和库珀·卢特肯豪斯等奥运明星利用这一机会展现了出色状态，为两年后在洛杉矶纪念体育场举行的2028年奥运会蓄力。这场赛事被视为即将到来的奥运会的'彩排'，展示了美国田径的深度和广度。",
+          "analysis": "这场赛事的成功举办证明了美国田径体系的成熟度，对于即将到来的奥运会筹备工作来说至关重要。高水平的国内比赛有助于选拔和锻炼运动员，为国际赛场上的竞争奠定基础。",
           "social": [
             {
-              "who": "田径爱好者",
-              "text": "看到这些奥运明星的表现真是太棒了！2028年洛杉矶奥运会一定会更精彩。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这场赛事虽然 stakes 较低，但运动员们的表现证明了他们的实力和决心。为即将到来的奥运会奠定了良好基础。"
+              "who": "资深球迷/体育记者",
+              "text": "洛杉矶2028年奥运会的准备工作正在加速，这场全国锦标赛无疑是一次重要的'试水'。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "波加查：环法冠军的无敌统治力在传奇中脱颖而出",
-          "eng": "Tadej Pogacar's ability to win unopposed stands champion out among Tour legends | William Fotheringham",
-          "summary": "斯洛文尼亚车手波加查成为最年轻的五届环法冠军，很少有人会押注他明年不会赢得第六个冠军。2026年环法呈现了史诗般的对决。",
+          "title_zh": "诺里斯匈牙利大奖赛夺冠：麦克拉伦团队称其处于巅峰状态",
+          "eng": "McLaren's team principal hails 'great trajectory' of Lando Norris after win",
+          "summary": "世界冠军兰多·诺里斯在匈牙利大奖赛中为麦克拉伦车队赢得本赛季首胜，车队领队安德烈亚·斯特拉称赞他在情绪控制方面更加成熟。",
+          "source": "Guardian Sport",
+          "published": "2026-07-27",
+          "url": "https://www.theguardian.com/sport/2026/jul/27/mclaren-team-principal-maturity-lando-norris-f1",
+          "overview": "兰多·诺里斯在匈牙利大奖赛中驾驶麦克拉伦赛车，在梅赛德斯车队主导了大部分比赛的情况下，于周日以出色的表现赢得本赛季首胜。麦克拉伦车队领队安德烈亚·斯特拉表示，诺里斯在情绪控制方面更加成熟，正处于职业生涯的巅峰状态。这场胜利标志着麦克拉伦车队的崛起，打破了梅赛德斯的统治地位。",
+          "analysis": "诺里斯的胜利证明了他在心理层面和驾驶技术上的双重提升，这对于争夺世界冠军至关重要。梅赛德斯车队的统治地位给其他车队带来了巨大压力，但诺里斯的表现表明麦克拉伦正在缩小差距。",
+          "social": [
+            {
+              "who": "F1解说员/赛车手粉丝",
+              "text": "诺里斯的驾驶风格越来越令人印象深刻，他在关键时刻的心理素质是赢得比赛的关键因素。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "法拉利必须在匈牙利'做得更好'：BBC F1团队点评表现",
+          "eng": "Ferrari must 'do better' after errors in Hungary",
+          "summary": "BBC F1团队讨论了法拉利在匈牙利大奖赛中的表现，尽管练习赛中看起来是夺冠热门，但勒克莱尔和汉密尔顿分别以第四和第五名完赛。",
+          "source": "BBC Sport",
+          "published": "2026-07-27",
+          "url": "https://www.bbc.co.uk/sport/formula1/videos/c4gkrd4e8kno?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC F1团队对法拉利在匈牙利大奖赛中的表现进行了讨论，指出尽管在练习赛中看起来是夺冠热门，但勒克莱尔和汉密尔顿分别以第四和第五名完赛。车队需要'做得更好'以避免类似错误再次发生。这一结果反映了法拉利在策略执行或赛车调校方面存在的问题。",
+          "analysis": "法拉利的失误令人失望，尤其是在练习赛中表现出色的情况下未能将优势转化为胜利。这反映了车队在策略执行或赛车调校方面存在的问题，需要在接下来的比赛中加以改进。",
+          "social": [
+            {
+              "who": "F1车迷/分析师",
+              "text": "法拉利在匈牙利的大赛中的表现令人失望，尤其是在练习赛中看起来是夺冠热门的情况下。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英格兰足球同意试行取消守门员战术暂停规则",
+          "eng": "English football agrees trial to end goalkeeper tactical timeouts",
+          "summary": "英格兰足球即将实施一项激进试验，试图在本赛季消除守门员的战术暂停时间。",
+          "source": "BBC Sport",
+          "published": "2026-07-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyjxd53zkpo?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰足球即将实施一项激进试验，试图在本赛季消除守门员的战术暂停时间。这一规则变化旨在减少比赛中的停顿，提高比赛的流畅性和观赏性。这是英格兰足球历史上的一项重大改革，可能会改变比赛的节奏和策略。",
+          "analysis": "取消守门员战术暂停是英格兰足球的一项重大改革，可能会改变比赛的节奏和策略。球迷和教练对这一变化的反应将决定其未来的推广范围。这一举措有望提升比赛的整体观赏性。",
+          "social": [
+            {
+              "who": "足球评论员/教练",
+              "text": "取消守门员战术暂停是一个大胆的决定，可能会让比赛更加紧凑和精彩。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "国际足联主席因凡蒂诺指责批评者在世界杯上散布仇恨言论",
+          "eng": "Fifa president Gianni Infantino accuses critics of spreading hate at World Cup",
+          "summary": "因凡蒂诺在公开信中反击世界杯的批评者，指责他们传播仇恨和虚假叙事，同时为赛事的成功辩护。",
+          "source": "Guardian Sport",
+          "published": "2026-07-27",
+          "url": "https://www.theguardian.com/football/2026/jul/27/gianni-infantino-hits-out-fifa-critics-hate-open-letter-world-cup",
+          "overview": "国际足联主席因凡蒂诺在公开信中反击世界杯的批评者，指责他们传播仇恨和虚假叙事。他再次为巴洛贡事件和对伊朗的处理进行辩护，强调赛事的成功在于庆祝团结、安全和包容。这一回应反映了国际足联在面对批评时的强硬态度。",
+          "analysis": "因凡蒂诺的回应反映了国际足联在面对批评时的强硬态度。然而，如何平衡赛事的商业成功与球迷的体验是国际足联面临的重要挑战。这一事件也凸显了世界杯作为全球性体育赛事所面临的复杂政治环境。",
+          "social": [
+            {
+              "who": "足球记者/体育评论员",
+              "text": "因凡蒂诺的公开信虽然措辞强硬，但也反映了国际足联对世界杯成功的信心。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "普戈查尔无对手夺冠能力使其在环法冠军中脱颖而出",
+          "eng": "Tadej Pogacar's ability to win unopposed stands champion out among Tour legends",
+          "summary": "斯洛文尼亚车手普戈查尔成为最年轻的五届环法自行车赛冠军，很少有人会押注他明年不会赢得第六个冠军。",
           "source": "Guardian Sport",
           "published": "2026-07-27",
           "url": "https://www.theguardian.com/sport/2026/jul/27/tadej-pogacars-ability-to-win-unopposed-stands-champion-out-among-tour-legends",
-          "overview": "斯洛文尼亚车手波加查成为最年轻的五届环法冠军，他的无敌统治力在环法传奇中脱颖而出。2026年环法呈现了史诗般的对决，包括精彩的突围、引人入胜的团队战术和命运逆转，最终在赛事最艰难的赛段达到高潮。",
-          "analysis": "波加查的统治力令人惊叹，他成为最年轻的五届冠军证明了其非凡实力。2026年环法的精彩表现将永远被铭记，而波加查的第六个冠军似乎只是时间问题。",
+          "overview": "2026年环法自行车赛呈现了一场史诗般的对决，两位顶级车手之间的竞争持续了数天。普戈查尔以其无对手夺冠的能力在环法冠军中脱颖而出，成为最年轻的五届冠军得主。这一成就使他成为自行车运动史上最伟大的车手之一。",
+          "analysis": "普戈查尔的统治力令人印象深刻，他的表现证明了他在自行车运动中的卓越地位。然而，未来的竞争将更加激烈，其他车队的战术和实力将决定他能否继续蝉联冠军。",
           "social": [
             {
-              "who": "自行车爱好者",
-              "text": "波加查太厉害了！五届冠军还是最年轻的，明年第六个冠军应该没问题吧？"
-            },
-            {
-              "who": "体育评论员",
-              "text": "2026年环法是一场史诗般的对决。波加查的统治力在环法历史上都名列前茅。"
+              "who": "自行车爱好者/体育记者",
+              "text": "普戈查尔的统治力令人印象深刻，他的表现证明了他在自行车运动中的卓越地位。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "皇马准备签约扬·迪奥曼德：巴黎圣日耳曼退出争夺",
-          "eng": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
-          "summary": "巴黎圣日耳曼正式退出争夺莱比锡红牛边锋扬·迪奥曼德的签约。这位科特迪瓦国脚预计将完成伯纳乌转会。",
+          "title_zh": "科伊文在PGA巡回赛首秀中击败谢弗勒赢得3M公开赛冠军",
+          "eng": "Jackson Koivun holds off Scheffler to win 3M Open in third professional start",
+          "summary": "21岁的美国高尔夫球手杰克逊·科伊文以三杆优势战胜斯科蒂·谢弗勒，在PGA巡回赛中首次获胜。",
           "source": "Guardian Sport",
           "published": "2026-07-26",
-          "url": "https://www.theguardian.com/football/2026/jul/26/real-madrid-ready-to-seal-deal-for-yan-diomande-after-psg-pull-out-of-move",
-          "overview": "皇家马德里在巴黎圣日耳曼退出争夺后，准备与莱比锡红牛的边锋扬·迪奥曼德签约。这位科特迪瓦国脚本赛季在德甲表现出色，并在世界杯上展现了令人印象深刻的能力。转会 saga 这个夏天一直备受关注。",
-          "analysis": "巴黎圣日耳曼的退出为皇马赢得了这笔交易。迪奥曼德的出色表现和年轻潜力使他成为顶级俱乐部的争夺目标。这笔签约将增强皇马的攻击线实力，同时也反映了欧洲足球转会市场的激烈竞争。",
+          "url": "https://www.theguardian.com/sport/2026/jul/26/jackson-koivun-scottie-scheffler-3m-open-pga-tour-golf",
+          "overview": "21岁的美国高尔夫球手杰克逊·科伊文以三杆优势战胜斯科蒂·谢弗勒，在PGA巡回赛中首次获胜。科伊文在明尼苏达州布兰恩的3M公开赛上以25杆低于标准杆的成绩完赛，而谢弗勒在最后几洞打出63杆追至第二。这场胜利标志着他职业生涯的重要里程碑。",
+          "analysis": "科伊文的胜利展示了年轻一代高尔夫球手的崛起和潜力。他在不到两个月前还帮助奥本大学赢得了NCAA冠军，如今便在PGA巡回赛中崭露头角。这一成就为他未来的职业生涯奠定了坚实的基础。",
           "social": [
             {
-              "who": "皇马球迷",
-              "text": "太好了！终于签下了迪奥曼德！巴黎退出真是帮了大忙。"
-            },
+              "who": "高尔夫爱好者/体育记者",
+              "text": "科伊文的胜利标志着他职业生涯的重要里程碑，他在不到两个月前还帮助奥本大学赢得了NCAA冠军。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "NBA超级巨星勒布朗·詹姆斯宣布加盟费城76人队",
+          "eng": "NBA superstar LeBron James to join Philadelphia 76ers",
+          "summary": "篮球超级巨星勒布朗·詹姆斯宣布他将加入费城76人队，并表示这将是他在NBA的最后合同。",
+          "source": "BBC Basketball",
+          "published": "2026-07-24",
+          "url": "https://www.bbc.co.uk/sport/articles/cx27r0me3zno?at_medium=RSS&at_campaign=rss",
+          "overview": "篮球超级巨星勒布朗·詹姆斯宣布他将加入费城76人队，并表示这将是他在NBA的最后合同。这一消息在篮球界引起了巨大轰动，标志着职业生涯的新篇章。他的经验和领导力将对球队的未来产生深远影响。",
+          "analysis": "詹姆斯的加盟为76人队带来了巨大的关注和实力提升，他的经验和领导力将对球队的未来产生深远影响。然而，这也将是他在NBA的最后一站，引发了关于他退役后的未来讨论。这一决定无疑将改变NBA的竞争格局。",
+          "social": [
             {
-              "who": "足球分析师",
-              "text": "迪奥曼德的潜力和表现确实值得这笔投资。他的加入将为皇马的攻击线增添新的活力。"
+              "who": "NBA球迷/篮球评论员",
+              "text": "詹姆斯的加盟为76人队带来了巨大的关注和实力提升，他的经验和领导力将对球队的未来产生深远影响。"
             }
           ],
           "region": "综合"
@@ -1954,358 +1979,495 @@
     "github": {
       "items": [
         {
-          "title_zh": "ESP32-AI：嵌入式设备上的本地AI推理",
+          "title_zh": "ESP32 AI：边缘端智能微控制器框架",
           "eng": "slvDev/esp32-ai",
-          "summary": "在ESP32微控制器上运行AI模型，实现边缘端的语音识别、图像分类等智能功能。",
+          "summary": "基于 Python 的轻量级框架，让 ESP32 等低功耗微控制器也能运行 AI 模型。",
           "source": "GitHub",
-          "stars": 1606,
+          "stars": 1621,
           "lang": "Python",
           "published": "2026-07-23",
           "url": "https://github.com/slvDev/esp32-ai",
-          "overview": "该项目为ESP32系列微控制器提供AI推理能力，支持在资源受限的嵌入式设备上运行机器学习模型。涵盖语音识别、图像分类等常见应用场景，降低了边缘AI的开发门槛。项目采用Python生态工具链，便于开发者快速上手和扩展功能。",
-          "analysis": "随着端侧AI需求的增长，将大模型部署到微型控制器上具有重要意义。该项目解决了ESP32系列芯片算力不足的核心痛点，为物联网设备赋予智能感知能力提供了实用方案。",
+          "overview": "该项目旨在将人工智能模型部署到 ESP32 等边缘设备上，解决了传统 AI 推理依赖高性能 GPU 的痛点。通过 Python 接口简化了开发流程，支持在资源受限的微控制器上运行视觉和语音识别任务。亮点在于其开源架构允许开发者自定义模型加载与推理逻辑，适合物联网场景下的本地化智能应用。",
+          "analysis": "随着端侧 AI（On-Device AI）趋势的兴起，ESP32 系列芯片因其低成本和低功耗成为理想载体。该项目降低了边缘 AI 的开发门槛，对于希望构建离线隐私保护型 IoT 产品的开发者具有极高参考价值。",
           "social": [
             {
               "who": "嵌入式开发者",
-              "text": "在树莓派之外又多了个轻量选择，适合需要低功耗、小体积的AI场景"
+              "text": "终于不用在树莓派上跑模型了，ESP32 直接推理对电池供电设备太友好了。"
             },
             {
-              "who": "硬件爱好者",
-              "text": "让ESP32从简单的IoT设备升级为真正的智能节点，实用价值很高"
+              "who": "AI 研究者",
+              "text": "量化精度和内存管理的平衡做得不错，适合做原型验证。"
             }
           ]
         },
         {
-          "title_zh": "ScriptC：TypeScript原生编译器",
+          "title_zh": "ScriptC：TypeScript 原生编译器",
           "eng": "vercel-labs/scriptc",
-          "summary": "将TypeScript编译为高性能原生代码的编译器工具。",
+          "summary": "由 Vercel 实验室推出的 TypeScript 到原生代码的编译器，无需构建工具链。",
           "source": "GitHub",
-          "stars": 1239,
+          "stars": 1307,
           "lang": "TypeScript",
           "published": "2026-07-22",
           "url": "https://github.com/vercel-labs/scriptc",
-          "overview": "由Vercel实验室推出的TypeScript-to-Native编译器，能够将TypeScript源码直接编译为高性能的原生代码。支持多种目标平台输出，旨在解决JavaScript运行时性能瓶颈问题。项目采用TypeScript自身构建，体现了自举编程的理念。",
-          "analysis": "在Web应用性能持续优化的背景下，将JS生态的高开发效率与原生执行性能结合是重要方向。Vercel的背书增加了项目的可信度，值得关注其编译策略和性能优化方案。",
+          "overview": "ScriptC 将 TypeScript 直接编译为可执行的原生代码，跳过了传统的 Webpack/Vite 打包步骤。它保留了 TS 的类型安全特性，同时消除了运行时开销和庞大的依赖体积。项目由 Vercel Labs 维护，代表了前端工程化向更轻量、更高效方向发展的趋势。",
+          "analysis": "对于追求极致性能的单文件应用或 CLI 工具开发，ScriptC 提供了比 Node.js 原生运行更快的启动速度。Vercel 的背书意味着其在生产环境的稳定性有保障，值得关注其对 Web 生态构建工具的潜在重塑。",
           "social": [
             {
-              "who": "前端工程师",
-              "text": "TypeScript生态终于有了高性能的原生出口，有望改变SSR和边缘计算的性能格局"
+              "who": "全栈工程师",
+              "text": "编译后的二进制文件体积只有几 MB，部署到边缘服务器简直完美。"
             },
             {
-              "who": "系统架构师",
-              "text": "编译为原生代码意味着更低的内存占用和更快的执行速度，适合高并发场景"
+              "who": "前端架构师",
+              "text": "告别 bundler 依赖是迟早的事，TypeScript 原生编译终于落地了。"
             }
           ]
         },
         {
-          "title_zh": "Thinking Orbs：AI对话加载指示器组件库",
+          "title_zh": "Thinking Orbs：AI 思考状态动画组件",
           "eng": "Jakubantalik/thinking-orbs",
-          "summary": "为AI和Agent UI提供六种状态的思考动画组件，支持自动明暗切换。",
+          "summary": "专为 AI 和 Agent UI 设计的思考中加载指示器，包含六种调优状态。",
           "source": "GitHub",
-          "stars": 1133,
+          "stars": 1138,
           "lang": "TypeScript",
           "published": "2026-07-21",
           "url": "https://github.com/Jakubantalik/thinking-orbs",
-          "overview": "专为AI聊天界面设计的思考动画组件库，提供六种不同的加载状态和两种尺寸规格。自动适配深色/浅色主题，支持自定义配置。采用TypeScript编写，与主流前端框架兼容良好。",
-          "analysis": "随着AI对话产品的爆发式增长，用户体验细节成为差异化竞争的关键。该组件库解决了AI界面中思考动画的一致性问题，降低了开发者的UI设计成本。",
+          "overview": "该组件为 AI 聊天界面提供了视觉反馈，模拟人类思考时的动态光球效果。支持六种不同的状态（如等待、处理中、完成等）和两种尺寸，自动适配深色/浅色模式。作为开源 UI 库，它极大地简化了开发者在构建 AI 产品时实现“正在思考”交互的复杂度。",
+          "analysis": "随着 AI Agent 产品的爆发式增长，如何让用户感知到模型的处理状态成为 UX 设计的核心问题。Thinking Orbs 提供了标准化且美观的解决方案，有助于提升产品的专业感和用户信任度。",
           "social": [
             {
-              "who": "UI设计师",
-              "text": "六种状态覆盖了不同场景的等待体验，比简单的转圈更有表现力"
+              "who": "UI/UX 设计师",
+              "text": "六种状态的区分非常细腻，比传统的 loading spinner 更有情感温度。"
             },
             {
-              "who": "全栈开发者",
-              "text": "开箱即用的组件库，配合自动主题切换非常省心"
+              "who": "React 开发者",
+              "text": "自动适配暗色模式太方便了，直接复制粘贴就能用。"
             }
           ]
         },
         {
-          "title_zh": "AI Copywriter：人性化AI文案写作工具",
+          "title_zh": "AI 文案写作助手：人类语调营销工具",
           "eng": "mikiarlo3/ai-copywriter",
-          "summary": "结合真实文案技巧与营销知识，生成具有人类语调的AI文案内容。",
+          "summary": "结合真实文案技巧与营销知识，生成具有人类自然语感的 AI 文案。",
           "source": "GitHub",
-          "stars": 891,
+          "stars": 893,
           "lang": "Python",
           "published": "2026-07-24",
           "url": "https://github.com/mikiarlo3/ai-copywriter",
-          "overview": "该项目专注于生成具有真实营销洞察和人类语调的文案内容，而非机械式的AI输出。内置多种文案风格和模板，支持不同场景的内容创作需求。采用Python实现，便于集成到现有工作流中。",
-          "analysis": "当前AI文案工具普遍存在"
+          "overview": "该项目专注于解决 AI 生成文案“像机器人”的通病，通过内置的真实营销知识库和文案技巧库来优化输出。它支持多种营销场景（如社交媒体、邮件、广告），旨在让 AI 生成的内容听起来更像真人撰写。开源结构允许用户自定义语料库以适配特定品牌风格。",
+          "analysis": "在内容营销领域，AI 生成内容的“人味”是核心竞争力。该项目通过 Prompt Engineering 和知识库结合的方式，为中小企业主提供了一个低成本、高质量的文案生产工具。",
+          "social": [
+            {
+              "who": "数字营销从业者",
+              "text": "终于不用每次都要手动加‘请写得自然一点’了，内置模板很实用。"
+            },
+            {
+              "who": "内容创作者",
+              "text": "作为初稿生成器非常高效，再人工润色一下就能直接发布。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude 生成的 FPS 游戏：单 Prompt 构建 3D 射击体验",
+          "eng": "mshumer/Claude-of-Duty",
+          "summary": "使用单个提示词在 Three.js 中生成一款 Call of Duty 级别的 FPS 游戏。",
+          "source": "GitHub",
+          "stars": 877,
+          "lang": "JavaScript",
+          "published": "2026-07-25",
+          "url": "https://github.com/mshumer/Claude-of-Duty",
+          "overview": "该项目展示了生成式 AI 在复杂游戏开发中的惊人能力，仅凭一个提示词即可构建出包含物理引擎、碰撞检测和射击机制的完整 FPS 游戏。基于 Three.js 实现，无需传统游戏引擎，代码结构清晰且可运行于浏览器中。它是 AI 辅助编程从文本到交互式应用落地的典型案例。",
+          "analysis": "虽然目前生成的代码仍需人工调试优化，但该项目证明了 AI 在快速原型设计和创意验证方面的巨大潜力，对于独立开发者和教育场景极具启发意义。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "作为原型验证速度惊人，虽然手感还需打磨，但框架搭建能力确实强。"
+            },
+            {
+              "who": "AI 技术爱好者",
+              "text": "单 Prompt 出完整 FPS 的 Demo 效果炸裂，未来游戏开发流程会被彻底改变。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Cindy：开箱即用的开源 AI Agent",
+          "eng": "makecindy/cindy",
+          "summary": "考虑完成，想到就能做到——一个开源、开箱即用的 AI 智能体。",
+          "source": "GitHub",
+          "stars": 789,
+          "lang": "TypeScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/makecindy/cindy",
+          "overview": "Cindy 是一个设计为开箱即用的开源 AI Agent，无需复杂的配置即可开始工作。它支持任务规划、工具调用和自主执行能力，旨在降低 AI Agent 的使用门槛。项目强调实用性和易用性，适合希望快速集成 AI 能力的开发者和企业用户。",
+          "analysis": "在 AI Agent 赛道中，许多框架过于复杂或依赖特定模型。Cindy 的“开箱即用”定位填补了轻量级、通用型 Agent 的需求空白，对于非技术背景的终端用户同样友好。",
+          "social": [
+            {
+              "who": "产品经理",
+              "text": "不需要写代码就能让 AI 帮我处理流程，这对内部效率提升太有用了。"
+            },
+            {
+              "who": "开源社区贡献者",
+              "text": "架构设计简洁，文档清晰，非常适合二次开发集成到自己的产品中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "故事转手绘视频：AI Agent 创作日记漫画动画",
+          "eng": "gnipbao/story-to-handdrawn-video",
+          "summary": "将中文故事文案或有序图片转换为手绘风格的日记漫画动画 MP4。",
+          "source": "GitHub",
+          "stars": 660,
+          "lang": "JavaScript",
+          "published": "2026-07-21",
+          "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+          "overview": "该项目利用 AI Agent 技能，将文字故事或图片序列自动转化为具有手绘质感的日记漫画风格动画视频。输出为无声 MP4 格式，保留了画面的艺术感和叙事节奏。对于内容创作者、教育机构和儿童绘本制作来说，这是一个高效的视觉化生产工具。",
+          "analysis": "AI 生成视频通常偏向写实风格，而该项目专注于“手绘/漫画”这一特定美学方向，填补了创意内容生产的细分需求。其 Agent 化的工作流使得非专业用户也能轻松创作动画。",
+          "social": [
+            {
+              "who": "插画师",
+              "text": "生成的笔触质感很独特，比纯 AI 绘图更有手绘的温度。"
+            },
+            {
+              "who": "教育科技从业者",
+              "text": "把课文变成动画视频太适合课堂使用了，学生参与度会很高。"
+            }
+          ]
+        },
+        {
+          "title_zh": "动手学 Pi：构建 Pi 风格 Agent 指南",
+          "eng": "hahhforest/pi-textbook",
+          "summary": "沿 15 个真实 Checkpoint，从零开始构建 Pi-style AI Agent。",
+          "source": "GitHub",
+          "stars": 566,
+          "lang": "TypeScript",
+          "published": "2026-07-21",
+          "url": "https://github.com/hahhforest/pi-textbook",
+          "overview": "这是一本交互式学习教材，通过 15 个具体的检查点引导开发者从零构建一个类似 Pi 的 AI Agent。内容涵盖环境搭建、模型选择、工具集成到最终部署的全流程。采用 TypeScript 编写，适合有编程基础的学习者深入理解 Agent 架构。",
+          "analysis": "随着 AI Agent 成为热门方向，高质量的实战教程稀缺。该项目结构化的学习路径降低了入门难度，对于希望掌握 Agent 开发核心技能的技术人员非常有价值。",
+          "social": [
+            {
+              "who": "AI 初学者",
+              "text": "跟着 Checkpoint 一步步走下来，终于理解了 Agent 到底是怎么工作的。"
+            },
+            {
+              "who": "技术博主",
+              "text": "作为教学素材非常棒，每个步骤都有代码示例和原理解释。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OptMem：AI Agent 持久记忆插件",
+          "eng": "VictorTaelin/OptMem",
+          "summary": "为 AI Agent 提供永久记忆能力，仅需一个 426 token 的提示词即可即插即用。",
+          "source": "GitHub",
+          "stars": 548,
+          "lang": "Python",
+          "published": "2026-07-25",
+          "url": "https://github.com/VictorTaelin/OptMem",
+          "overview": "OptMem 是一个轻量级的持久记忆解决方案，旨在解决 AI Agent 缺乏长期上下文的问题。它通过一个精心设计的提示词模板实现记忆存储与检索，无需复杂的数据库或向量索引配置。即插即用特性使其成为现有 Agent 框架的绝佳增强组件。",
+          "analysis": "AI Agent 的记忆能力是迈向真正自主智能的关键一步。OptMem 以极简的方式解决了这一难题，避免了传统 RAG 系统的复杂性，适合快速原型开发和轻量级应用场景。",
+          "social": [
+            {
+              "who": "Agent 开发者",
+              "text": "终于不用自己写记忆模块了，426 token 的开销对于长期对话完全可接受。"
+            },
+            {
+              "who": "AI 架构师",
+              "text": "这种轻量级方案适合嵌入式或资源受限的场景，比向量数据库更实用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AgentAcct：编码 Agent 工作智能仪表盘",
+          "eng": "mikehasa/agentacct",
+          "summary": "本地优先的 Agent 工作追踪工具，提供使用真相、记录工作和诚实加入统计。",
+          "source": "GitHub",
+          "stars": 467,
+          "lang": "Python",
+          "published": "2026-07-24",
+          "url": "https://github.com/mikehasa/agentacct",
+          "overview": "AgentAcct 是一个专注于编码 Agent（如 Cursor、Copilot）使用情况的本地仪表盘。它以只读方式访问 Agent 日志，生成关于工作记录和使用频率的诚实统计报告。采用零 JavaScript 的 localhost 架构，确保数据完全在用户本地处理，不上传云端。",
+          "analysis": "随着 AI 编码工具普及，了解 Agent 的实际产出和效率变得重要。AgentAcct 提供了隐私优先的数据分析方案，帮助开发团队评估 AI 辅助编程的真实价值，同时保护敏感代码数据不外泄。",
+          "social": [
+            {
+              "who": "DevOps 工程师",
+              "text": "本地运行不上传日志这点太重要了，企业合规审计必备。"
+            },
+            {
+              "who": "团队管理者",
+              "text": "能直观看到 Agent 帮团队节省了多少时间，数据驱动决策的好工具。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Draw Your Font：手写照片转字体工具",
+          "eng": "danilo-znamerovszkij/draw-your-font",
+          "summary": "将手写字迹照片转换为真实字体文件（TTF/WOFF），免费开源，无需上传。",
+          "source": "GitHub",
+          "stars": 369,
+          "lang": "JavaScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+          "overview": "该项目允许用户拍摄手写字迹照片，通过 Node CLI 和 Claude Code 技能将其转换为标准的字体文件。整个过程在本地完成，无需上传隐私数据到云端。支持 TTF、WOFF 和 WOFF2 格式，适合设计师、艺术家和个人品牌创建者定制专属字体。",
+          "analysis": "个性化字体的需求日益增长，但传统方法需要专业软件或高昂费用。该项目利用 AI 技术降低了定制门槛，且强调本地隐私保护，符合当下用户对数据安全的关注趋势。",
+          "social": [
+            {
+              "who": "平面设计师",
+              "text": "终于可以自己把签名变成字体了，而且完全不用担心照片泄露。"
+            },
+            {
+              "who": "开源爱好者",
+              "text": "Node CLI 运行方式很优雅，不需要额外安装依赖就能用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Crisp：macOS 显示控制面板",
+          "eng": "didriksg/Crisp",
+          "summary": "免费开源的 macOS 显示控制替代方案，统一菜单栏面板管理亮度、缩放和排列。",
+          "source": "GitHub",
+          "stars": 360,
+          "lang": "Swift",
+          "published": "2026-07-22",
+          "url": "https://github.com/didriksg/Crisp",
+          "overview": "Crisp 是一款专为 macOS 设计的显示控制工具，将外部显示器亮度调节、HiDPI 缩放、XDR 预设、虚拟显示和颜色排列等功能整合到一个菜单栏面板中。它作为 BetterDisplay 和 Lunar 的免费开源替代品，旨在提供类似系统原生体验的流畅操作界面。",
+          "analysis": "macOS 在显示管理方面的功能一直较为封闭，Crisp 通过开源方式填补了这一空白。对于多屏办公用户和专业创作者来说，统一的管理面板能显著提升工作效率和视觉舒适度。",
+          "social": [
+            {
+              "who": "Mac 重度用户",
+              "text": "终于不用同时开三个软件来调亮度了，一个面板搞定所有显示问题。"
+            },
+            {
+              "who": "开发者",
+              "text": "Swift 实现代码质量很高，作为开源替代方案的稳定性令人放心。"
+            }
+          ]
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "乌干达启动紧急食品分发应对饥荒死亡危机",
-          "summary": "乌干达东部卡莫贾地区因持续干旱和作物歉收，导致至少19人死于饥饿。政府已启动紧急粮食救济行动，该地区约150万人面临严重营养不良威胁。",
+          "title_zh": "乌干达启动紧急食品分发，干旱致19人饿死",
+          "summary": "乌干达东部卡莫贾地区因长期干旱导致作物歉收，政府已启动紧急食品援助。此前该地区已有至少19人因饥饿死亡，约150万人口面临严重营养不良。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-27",
           "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-          "overview": "乌干达东部卡莫贾地区因持续干旱和作物歉收，导致至少19人死于饥饿。政府已启动紧急粮食救济行动，该地区约150万人面临严重营养不良威胁。这场人道主义危机凸显了气候变化对非洲粮食安全造成的深远影响。国际社会应关注该地区的长期援助机制，防止类似饥荒再次发生。",
-          "analysis": "持续干旱导致农业崩溃，暴露了该地区基础设施和应急储备的不足。国际组织需加大对该区域的粮食援助力度，以缓解迫在眉睫的人道主义灾难。",
+          "overview": "乌干达东部卡莫贾地区遭遇长期干旱，作物大面积歉收，导致约150万人口面临严重营养不良和急性粮食短缺。政府已宣布启动紧急食品援助分发行动，此前该地区已有至少19人因饥饿死亡。国际人道主义组织呼吁国际社会关注这一日益严峻的饥荒危机，并敦促各国提供必要的物资支持。",
+          "analysis": "此次饥荒源于季节性降雨缺失导致的农业崩溃，凸显了东非地区气候变化的脆弱性。紧急救援虽已展开，但长期粮食安全机制仍需重建以防止未来类似悲剧重演。",
           "social": [
             {
-              "who": "人道主义者",
-              "text": "呼吁国际社会立即提供紧急物资支援，确保受影响的150万居民能够获得基本生存保障。"
+              "who": "乌干达政府",
+              "text": "宣布启动紧急食品分发以应对人道主义危机"
+            },
+            {
+              "who": "国际观察人士",
+              "text": "指出150万人口面临营养不良的规模令人担忧"
             }
           ]
         },
         {
-          "title_zh": "伦敦医院监测在刚果民主共和国工作的医护人员埃博拉风险",
-          "summary": "一名英国居民因在刚果民主共和国接触埃博拉患者后被紧急撤离至伦敦进行隔离监测。英国健康安全局确认该工作人员曾在疫区治疗患者，目前正接受专业医疗观察。",
+          "title_zh": "伦敦医院监测疑似埃博拉感染者，英国居民从刚果撤离",
+          "summary": "一名曾在刚果民主共和国工作的英国居民因接触埃博拉病毒被医学撤离至伦敦。该患者在伦敦专科医院接受监测，英国健康安全局已介入处理此事。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-21",
           "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc",
-          "overview": "一名英国居民因在刚果民主共和国接触埃博拉患者后被紧急撤离至伦敦进行隔离监测。英国健康安全局确认该工作人员曾在疫区治疗患者，目前正接受专业医疗观察。这是近期全球埃博拉疫情扩散背景下的一次重要公共卫生事件。跨国医疗人员的流动增加了病毒传播风险，各国需加强跨境卫生合作与应急响应能力。",
-          "analysis": "此次事件再次提醒人们，即使在疫苗接种普及的今天，高致死率传染病仍可能通过医疗人员流动引发新的疫情热点。",
+          "overview": "一名曾在刚果民主共和国工作的英国居民因接触埃博拉病毒被医学撤离至伦敦。该患者在伦敦的一家专科医院接受监测，英国健康安全局（UKHSA）已介入处理此事。这是近期全球埃博拉疫情扩散背景下的一起重要跨境公共卫生事件，引发了对国际卫生安全机制的讨论。",
+          "analysis": "刚果民主共和国目前的埃博拉疫情形势严峻，此次病例的跨境传播再次敲响了国际卫生安全警钟。伦敦作为医疗监测中心，其应对能力受到广泛关注。",
           "social": [
+            {
+              "who": "英国健康安全局",
+              "text": "确认该居民已被医学撤离并在专科医院接受监测"
+            },
             {
               "who": "公共卫生专家",
-              "text": "强调加强国际间流行病学监测和信息共享机制的重要性，以防范类似跨境传播风险。"
+              "text": "强调跨境疫情管控对于防止病毒扩散至关重要"
             }
           ]
         },
         {
-          "title_zh": "联合国报告：全球三分之一人口无法负担健康饮食",
-          "summary": "联合国最新报告显示，全球仍有26.9亿人无力购买满足营养需求的多样化食物。尽管2025年全球饥饿人数连续第三年下降，但专家呼吁必须采取行动降低水果、蔬菜和乳制品的成本。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-21",
-          "url": "https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds",
-          "overview": "联合国最新报告显示，全球仍有26.9亿人无力购买满足营养需求的多样化食物。尽管2025年全球饥饿人数连续第三年下降，但专家呼吁必须采取行动降低水果、蔬菜和乳制品的成本。这一数据揭示了消除贫困与改善公共健康之间的深层矛盾。各国政府需将食品可负担性纳入核心政策议程，以应对日益严峻的营养危机。",
-          "analysis": "报告指出实现全球营养目标需要巨大的努力，低收入国家的基础设施和政策支持尤为关键。",
-          "social": [
-            {
-              "who": "联合国官员",
-              "text": "敦促各国政府采取紧急行动，通过补贴和贸易政策降低健康食品价格，确保人人享有营养权。"
-            }
-          ]
-        },
-        {
-          "title_zh": "委内瑞拉男子起诉航空公司将他们送往萨尔瓦多臭名昭著的监狱",
-          "summary": "被特朗普政府遣送至萨尔瓦多恐怖主义监狱的委内瑞拉男子在华盛顿联邦法院提起诉讼。原告指控CSI Aviation和GlobalX等航空公司侵犯其公民权利、非法拘禁及造成精神痛苦。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-26",
-          "url": "https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation",
-          "overview": "被特朗普政府遣送至萨尔瓦多恐怖主义监狱的委内瑞拉男子在华盛顿联邦法院提起诉讼。原告指控CSI Aviation和GlobalX等航空公司侵犯其公民权利、非法拘禁及造成精神痛苦。此案反映了美国移民执法行动中的法律争议与人权问题。诉讼若胜诉，可能为未来类似遣返行动设定重要的法律先例，引发对移民运输公司责任的重新审视。",
-          "analysis": "该案将移民运输公司的法律责任推向了聚光灯下，可能迫使行业重新评估其运营标准与合规要求。",
-          "social": [
-            {
-              "who": "人权律师",
-              "text": "指出此类诉讼有助于确立先例，保护未来面临类似遣返程序的个人免受不当对待。"
-            }
-          ]
-        },
-        {
-          "title_zh": "两名俄罗斯男子在安哥拉因恐怖主义和间谍罪被判刑",
-          "summary": "安哥拉法院裁定两名俄罗斯男子犯有恐怖主义和间谍罪，分别判处8年和11年监禁。检方指控他们策划政变并组织去年关于燃油价格的致命示威活动。被告否认指控，声称其来安哥拉是为了文化和商业目的。",
+          "title_zh": "两名俄罗斯男子在安哥拉因恐怖主义和间谍罪获刑",
+          "summary": "两名俄罗斯男子被安哥拉法院以恐怖主义和间谍罪判处监禁，刑期分别为8年和11年。检方指控他们策划政变并协助组织去年该国因燃油价格引发的致命抗议活动。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-23",
           "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
-          "overview": "安哥拉法院裁定两名俄罗斯男子犯有恐怖主义和间谍罪，分别判处8年和11年监禁。检方指控他们策划政变并组织去年关于燃油价格的致命示威活动。被告否认指控，声称其来安哥拉是为了文化和商业目的。此案凸显了非洲国家在打击跨国犯罪方面的司法合作力度，同时也引发了对俄罗斯海外情报活动的关注。",
-          "analysis": "判决结果展示了安哥拉司法系统在处理涉及外国势力的复杂案件时的决心与能力。",
+          "overview": "两名俄罗斯男子被安哥拉法院以恐怖主义和间谍罪判处监禁，刑期分别为8年和11年。检方指控他们策划政变并协助组织去年该国因燃油价格引发的致命抗议活动。被告否认指控，声称自己来安哥拉是为了文化和商业目的。",
+          "analysis": "此案涉及跨国政治干预的敏感议题，判决结果可能影响俄安两国关系及后续外交走向。安哥拉法院对间谍和恐怖主义罪名的认定也反映了当地安全形势的紧张。",
           "social": [
             {
-              "who": "国际观察员",
-              "text": "认为此案可能加剧俄罗斯与非洲国家之间的外交紧张关系，影响未来的双边合作前景。"
+              "who": "安哥拉法院",
+              "text": "裁定两名俄罗斯男子犯有恐怖主义和间谍罪"
+            },
+            {
+              "who": "被告方",
+              "text": "否认指控，称来安哥拉是为了文化和商业活动"
             }
           ]
         },
         {
-          "title_zh": "英军因肯尼亚拒绝批准防务协议取消肯亚军事训练",
-          "summary": "英国陆军被迫取消在肯尼亚的士兵训练演习，原因是肯尼亚政府拒绝批准双边防务协议。肯尼亚议员要求赋予当地当局更大权力以追究英国士兵在该国犯下的罪行。这一争议反映了英美同盟框架下主权与军事合作的紧张关系。",
+          "title_zh": "英军取消肯尼亚训练，肯方要求扩大管辖权",
+          "summary": "英国陆军因肯尼亚拒绝批准双边防务协议而取消了在肯的训练演习。肯方议员要求修改条款，赋予当地当局更大权力追究英军犯罪责任。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-23",
           "url": "https://www.theguardian.com/uk-news/2026/jul/23/british-army-cancel-training-kenya-defence-agreement-dispute",
-          "overview": "英国陆军被迫取消在肯尼亚的士兵训练演习，原因是肯尼亚政府拒绝批准双边防务协议。肯尼亚议员要求赋予当地当局更大权力以追究英国士兵在该国犯下的罪行。这一争议反映了英美同盟框架下主权与军事合作的紧张关系。此类管辖权争端可能影响未来两国在非洲地区的联合行动部署与合作深度。",
-          "analysis": "肯尼亚坚持司法主权的立场，可能对西方军队在东非的长期存在构成挑战。",
+          "overview": "英国陆军被迫取消在肯尼亚的军事训练演习，原因是肯尼亚政府拒绝批准一项双边防务协议。肯方议员要求修改协议条款，赋予当地当局更大的权力来追究英国士兵在当地的犯罪责任。这一争端凸显了英联邦国家间军事合作中的管辖权分歧。",
+          "analysis": "此次取消不仅影响双方军事交流计划，也折射出非洲国家对主权和司法管辖权的日益重视。英国政府面临在维护盟友关系与尊重当地法律之间寻找平衡的难题。",
           "social": [
             {
-              "who": "防务分析师",
-              "text": "指出此类协议争端若频发，可能削弱英国在非洲地区的安全影响力与盟友信任度。"
+              "who": "英国国防部",
+              "text": "宣布因协议争议取消九月演习"
+            },
+            {
+              "who": "肯尼亚议员",
+              "text": "要求赋予本地当局更大权力追究英军犯罪责任"
             }
           ]
         },
         {
-          "title_zh": "法国和西班牙野火或影响您的旅行计划",
-          "summary": "BBC报道指出，法国和西班牙近期爆发的野火可能对前往这些地区的度假者产生重大影响。受影响区域的交通、住宿及户外设施可能受到破坏，建议游客密切关注最新安全信息。这场火灾危机对欧洲旅游业的恢复前景提出了挑战。",
+          "title_zh": "联合国报告：全球三分之一人口负担不起健康饮食",
+          "summary": "联合国新报告显示26.9亿人无法负担多样化营养饮食，呼吁降低蔬果乳制品成本。尽管2025年全球饥饿人数连续第三年下降，但专家呼吁采取紧急行动。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-21",
+          "url": "https://www.theguardian.com/global-development/2026/jul/21/healthy-diet-too-expensive-for-one-in-three-people-globally-un-report-finds",
+          "overview": "联合国最新报告指出，全球三分之一的人口无法负担健康饮食，约26.9亿人面临营养不足的风险。尽管2025年全球饥饿人数连续第三年下降，但专家呼吁采取紧急行动降低水果、蔬菜和乳制品的成本。报告认为实现这一目标需要巨大的努力和国际合作。",
+          "analysis": "数据揭示了“吃得饱”与“吃得好”之间的巨大鸿沟，食品价格成为影响全球健康的关键因素。各国政府面临在补贴农业和保障营养之间做出政策选择的压力。",
+          "social": [
+            {
+              "who": "联合国报告",
+              "text": "显示26.9亿人无法负担多样化营养饮食"
+            },
+            {
+              "who": "国际专家",
+              "text": "呼吁采取紧急行动降低蔬果乳制品成本"
+            }
+          ]
+        },
+        {
+          "title_zh": "委内瑞拉男子起诉航空公司将他们送往萨尔瓦多监狱",
+          "summary": "被特朗普政府遣送至萨尔瓦多臭名昭著监狱的委内瑞拉人状告运输公司侵犯公民权利、非法拘禁及造成精神痛苦。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-26",
+          "url": "https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation",
+          "overview": "被特朗普政府遣送至萨尔瓦多臭名昭著监狱的委内瑞拉男子在华盛顿联邦法院提起诉讼。他们指控运输公司CSI Aviation和GlobalX侵犯公民权利、非法拘禁及造成精神痛苦。此案发生在美国移民执法收紧的大背景下，引发了关于人道主义待遇的法律争议。",
+          "analysis": "诉讼揭示了遣返过程中可能存在的系统性人权风险，航空公司在其中的角色也面临法律审视。此案可能对未来类似移民遣返行动中的第三方责任认定产生深远影响。",
+          "social": [
+            {
+              "who": "委内瑞拉原告",
+              "text": "指控航空公司侵犯公民权利及非法拘禁"
+            },
+            {
+              "who": "法律界人士",
+              "text": "关注特朗普时期移民执法中的人道主义争议"
+            }
+          ]
+        },
+        {
+          "title_zh": "法西野火或影响出行计划，BBC发布旅行安全提醒",
+          "summary": "BBC报道指出法国和西班牙的野火正在蔓延，可能严重影响计划前往这些地区的旅客行程。相关机构建议有假期安排的游客密切关注当地安全状况并准备调整出行计划。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-07-27",
           "url": "https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道指出，法国和西班牙近期爆发的野火可能对前往这些地区的度假者产生重大影响。受影响区域的交通、住宿及户外设施可能受到破坏，建议游客密切关注最新安全信息。这场火灾危机对欧洲旅游业的恢复前景提出了挑战。气候变化导致的极端天气事件频发，迫使旅游业必须建立更完善的灾害预警与应急机制。",
-          "analysis": "野火不仅威胁生命安全，还可能导致当地经济活动暂停，给依赖旅游业的地区带来沉重打击。",
+          "overview": "BBC报道指出，法国和西班牙的野火正在蔓延，可能严重影响计划前往这些地区的旅客行程。相关机构建议有假期安排的游客密切关注当地安全状况并准备调整出行计划。高温天气加剧了火势，给欧洲旅游旺季带来了不确定性。",
+          "analysis": "野火对旅游业的影响不仅限于交通中断，还可能涉及住宿取消和保险理赔问题。欧洲多国正面临气候变暖带来的极端天气挑战，需加强预警机制。",
           "social": [
             {
-              "who": "旅行博主",
-              "text": "建议计划前往受影响地区的游客推迟行程或选择替代目的地，并持续关注官方安全通告。"
+              "who": "BBC新闻",
+              "text": "提醒有假期安排的旅客注意野火影响"
+            },
+            {
+              "who": "旅游行业",
+              "text": "面临因极端天气导致的行程变更风险"
             }
           ]
         },
         {
-          "title_zh": "英国标志性乔德雷尔银行射电望远镜面临科学预算削减",
-          "summary": "天文学家警告称，若因科学预算削减而关闭乔德雷尔银行望远镜，将严重打击英国科学界并导致一代人失去训练机会。该设施是英国乃至全球射电天文学的重要遗产，其未来命运引发广泛担忧。科技投入的缩减可能削弱英国在国际科研领域的竞争力，需平衡财政压力与长期科学价值。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
-          "overview": "天文学家警告称，若因科学预算削减而关闭乔德雷尔银行望远镜，将严重打击英国科学界并导致一代人失去训练机会。该设施是英国乃至全球射电天文学的重要遗产，其未来命运引发广泛担忧。科技投入的缩减可能削弱英国在国际科研领域的竞争力，需平衡财政压力与长期科学价值。",
-          "analysis": "这一决定若实施，将是英国基础科学研究领域的一次重大倒退，影响深远且不可逆。",
-          "social": [
-            {
-              "who": "天文学家",
-              "text": "呼吁政府重新评估科学预算分配，认识到射电望远镜对全球科研贡献的不可替代性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "首相警告：若无社会护理改革 NHS将崩溃",
-          "summary": "英国首相表示，若不进行实质性的社会护理系统改革，国家医疗服务体系将面临崩溃风险。他承诺在离任前推动重大变革，以应对日益严峻的老龄化挑战和社会照护需求。这一表态凸显了英国医疗体系当前面临的结构性危机。社会护理与NHS的整合改革是政治难题，其成败将直接影响英国公共服务的稳定性与社会公平。",
+          "title_zh": "英国首相警告NHS若无社会护理改革将崩溃",
+          "summary": "首相表示若不推动社会护理系统重大变革，不愿在任期内离开办公室。这一表态反映了英国医疗体系长期面临的资金和人力压力。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-07-27",
           "url": "https://www.bbc.co.uk/news/articles/cn0n5xpzlz2o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国首相表示，若不进行实质性的社会护理系统改革，国家医疗服务体系将面临崩溃风险。他承诺在离任前推动重大变革，以应对日益严峻的老龄化挑战和社会照护需求。这一表态凸显了英国医疗体系当前面临的结构性危机。社会护理与NHS的整合改革是政治难题，其成败将直接影响英国公共服务的稳定性与社会公平。",
-          "analysis": "首相的改革决心反映了公众对现有系统的不满，但如何在财政约束下实现变革仍是巨大挑战。",
+          "overview": "英国首相向BBC表示，若不推动社会护理系统的重大变革，NHS将面临崩溃。他明确表示不愿在任期内离开办公室而不带来“实质性改变”。这一表态反映了英国医疗体系长期面临的资金和人力压力，以及政府将改革作为执政核心议程的决心。",
+          "analysis": "首相的强硬立场表明政府将把社会护理改革作为执政核心议程之一。然而，如何在财政约束下实现系统转型仍面临巨大的政治和社会阻力，公众对改革的期待与担忧并存。",
           "social": [
             {
-              "who": "医疗政策专家",
-              "text": "认为改革需要跨党派合作与长期规划，单纯的政治承诺难以解决根深蒂固的系统性问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "2026年资本更青睐“会赚钱”的AI应用",
-          "summary": "36氪报道指出，2026年资本市场评估AI公司的标准已从追求用户规模转向验证商业化质量。拥有稳健商业模型的公司如月之暗面等获得了更高估值和更多融资机会。行业拐点到来，算力补贴换规模的旧逻辑已难以为继。这一转变标志着AI产业从“烧钱换量”进入“盈利为王”的新阶段，对创业公司的产品策略提出更高要求。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-27",
-          "url": "https://36kr.com/p/3913706151400583?f=rss",
-          "overview": "36氪报道指出，2026年资本市场评估AI公司的标准已从追求用户规模转向验证商业化质量。拥有稳健商业模型的公司如月之暗面等获得了更高估值和更多融资机会。行业拐点到来，算力补贴换规模的旧逻辑已难以为继。这一转变标志着AI产业从“烧钱换量”进入“盈利为王”的新阶段，对创业公司的产品策略提出更高要求。",
-          "analysis": "资本风向的转变将加速行业洗牌，无法实现商业闭环的初创企业将面临生存压力。",
-          "social": [
+              "who": "英国首相",
+              "text": "警告NHS若无改革将崩溃并承诺推动变革"
+            },
             {
-              "who": "投资人",
-              "text": "表示在投资AI项目时更看重团队的商业化能力和清晰的盈利路径，而非单纯的用户增长数据。"
-            }
-          ]
-        },
-        {
-          "title_zh": "优衣库母公司上调盈利指引，中国业务恢复正增长",
-          "summary": "迅销集团发布超预期财报，预计2026财年销售额增长17%，将取代H&M成为全球第二大自有服装品牌零售商。大中华区销售额同比增长近10%，中国大陆市场已恢复正增长态势。这一逆转与一年前该区域业绩大幅下滑形成鲜明对比。优衣库在中国市场的复苏得益于产品策略调整和供应链优化，其成功经验或将为其他国际零售企业提供参考。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-27",
-          "url": "https://36kr.com/p/3913266058826880?f=rss",
-          "overview": "迅销集团发布超预期财报，预计2026财年销售额增长17%，将取代H&M成为全球第二大自有服装品牌零售商。大中华区销售额同比增长近10%，中国大陆市场已恢复正增长态势。这一逆转与一年前该区域业绩大幅下滑形成鲜明对比。优衣库在中国市场的复苏得益于产品策略调整和供应链优化，其成功经验或将为其他国际零售企业提供参考。",
-          "analysis": "财报数据表明中国消费者对性价比品牌的接受度正在回升，这对国际快时尚品牌是一个积极信号。",
-          "social": [
-            {
-              "who": "零售行业分析师",
-              "text": "指出优衣库在中国的成功在于精准把握了消费者需求变化，通过高性价比策略重新赢得了市场份额。"
-            }
-          ]
-        },
-        {
-          "title_zh": "全球最大起飞重量8吨无人货运eVTOL机身下线",
-          "summary": "牧羽天航空宣布旗下飞行重卡AT8000整机机身在无锡下线，这是目前全球最大的重载货运eVTOL。该机型最大有效载重3500公斤，巡航速度252公里/小时，满载航程1000公里。其全栈自研技术标志着中国在低空经济商业化领域实现全球领跑。8吨级无人货运eVTOL的量产突破将加速城市物流和偏远地区运输的低空经济落地进程。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-27",
-          "url": "https://36kr.com/p/3912369056240772?f=rss",
-          "overview": "牧羽天航空宣布旗下飞行重卡AT8000整机机身在无锡下线，这是目前全球最大的重载货运eVTOL。该机型最大有效载重3500公斤，巡航速度252公里/小时，满载航程1000公里。其全栈自研技术标志着中国在低空经济商业化领域实现全球领跑。8吨级无人货运eVTOL的量产突破将加速城市物流和偏远地区运输的低空经济落地进程。",
-          "analysis": "该机型的技术参数远超同类在研机型，有望成为未来城市空中物流网络的核心运力工具。",
-          "social": [
-            {
-              "who": "低空经济从业者",
-              "text": "期待此类大型无人货运飞机的商业化运营，认为这将极大提升末端物流配送的效率与覆盖范围。"
-            }
-          ]
-        },
-        {
-          "title_zh": "清华博士团队创业打造航空氢能动力系统",
-          "summary": "航空新能源公司易氢动力完成数千万元融资，致力于开发航空级液冷燃料电池产品。创始人拥有十余年机器人研发经验，团队具备从无人机到商用清洁机器人的完整技术积累。该项目旨在解决氢能航空在能量密度、补能速度和成本方面的关键瓶颈。氢能航空被视为eVTOL和长途飞行的重要动力方向，国内相关产业链的成熟将推动绿色航空的发展。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-27",
-          "url": "https://36kr.com/p/3913736066028932?f=rss",
-          "overview": "航空新能源公司易氢动力完成数千万元融资，致力于开发航空级液冷燃料电池产品。创始人拥有十余年机器人研发经验，团队具备从无人机到商用清洁机器人的完整技术积累。该项目旨在解决氢能航空在能量密度、补能速度和成本方面的关键瓶颈。氢能航空被视为eVTOL和长途飞行的重要动力方向，国内相关产业链的成熟将推动绿色航空的发展。",
-          "analysis": "相比传统航空煤油，氢燃料电池在成本和性能上具有长期优势，有望成为未来航空业脱碳的关键技术路径。",
-          "social": [
-            {
-              "who": "科技创业者",
-              "text": "看好氢能航空的广阔前景，认为随着技术进步和成本下降，这一领域将迎来爆发式增长。"
+              "who": "BBC记者",
+              "text": "报道了首相关于不愿离任前不改革的表态"
             }
           ]
         }
       ],
       "regions": [
-        "中国",
         "国外"
       ]
     },
     "voices": {
       "items": [
         {
-          "name": "Bruno Soulier",
-          "role": "Hugging Face CEO",
-          "region": "法国/欧洲",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
+          "region": "美国",
           "domain": "ai",
-          "recent": "呼吁开放模型生态与AI安全治理，推动开源社区发展。",
-          "url": "https://huggingface.co"
+          "recent": "近期聚焦AI安全治理与透明度，回应行业重大安全事件对技术发展的挑战。",
+          "url": "x.com/samaltman"
         },
         {
-          "name": "吴建中",
-          "role": "中国图协名誉理事长/院士",
-          "region": "中国",
-          "domain": "library",
-          "recent": "关注智慧图书馆创新应用与数字化转型战略方向。",
-          "url": ""
+          "name": "Emad Mostaque",
+          "role": "Hugging Face CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "近期呼吁开源模型前所未有的透明度，关注社区信任与数据闭环在药物发现等场景的应用。",
+          "url": "x.com/emadmostaque"
         },
         {
-          "name": "李国新",
-          "role": "中国图书馆学会秘书长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "聚焦区域图书馆管理者培训与服务能力提升计划。",
-          "url": ""
+          "name": "Jensen Huang",
+          "role": "Nvidia CEO",
+          "region": "美国/台湾",
+          "domain": "ai",
+          "recent": "近期主导与微软联合发起的开源AI安全联盟，推动物理AI及机器人控制技术的标准化。",
+          "url": "x.com/jensenhuang"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "DAIR Institute 创始人/AI伦理研究者",
+          "region": "美国",
+          "domain": "ai/library",
+          "recent": "近期关注大型模型安全事件后的透明度问题，倡导AI伦理与数据隐私保护。",
+          "url": "timnitgebru.org"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta AI 首席科学家",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "近期探讨通往人工超级智能的路径及多代理协调瓶颈，主张物理AI的脑电波解锁技术方向。",
+          "url": "yannlecun.com"
+        },
+        {
+          "name": "Kai-Fu Lee",
+          "role": "人工智能学者/播客主理人",
+          "region": "中国/美国",
+          "domain": "podcast/ai",
+          "recent": "近期通过播客与著作深入讨论AI对社会就业及隐私功能差异化优势的影响。",
+          "url": "kaifulee.com"
         },
         {
           "name": "Andrew Ng",
-          "role": "DeepLearning.AI 联合创始人",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "致力于推广全球AI素养教育与人工智能普及化。",
-          "url": "https://www.andrewng.org"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主持人/AI 研究者",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "深入探讨AI安全、意识本质及未来技术对人类的影响。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "Rada Mihalcea",
-          "role": "UT Dallas 教授/AI 与图书馆学学者",
-          "region": "美国/罗马尼亚",
-          "domain": "ai",
-          "recent": "探索自然语言处理技术在信息检索与图书馆学中的应用。",
-          "url": "https://www.utdallas.edu/~radam/"
-        },
-        {
-          "name": "Tim Berners-Lee",
-          "role": "万维网发明人/W3C 创始人",
-          "region": "英国/瑞士",
-          "domain": "library",
-          "recent": "倡导数据主权与开放网络标准，推动知识自由获取。",
-          "url": "https://timbl.net"
+          "role": "DeepLearning.AI 创始人/教育技术领袖",
+          "region": "新加坡/美国",
+          "domain": "ai/library",
+          "recent": "近期致力于将AI教育融入图书馆与学术资源体系，推动数据闭环在药物发现中的实践应用。",
+          "url": "andrewng.ai"
         }
       ]
     },
