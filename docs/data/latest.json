@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-28T08:24:42+08:00",
+  "generated_at": "2026-07-28T09:25:30+08:00",
   "date": "2026-07-28",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-07-28 08:24",
-    "ai": "2026-07-28 07:25",
-    "voices": "2026-07-28 07:25",
-    "github": "2026-07-28 08:24",
-    "libraries": "2026-07-28 08:24",
+    "ai": "2026-07-28 09:25",
+    "voices": "2026-07-28 09:25",
+    "github": "2026-07-28 09:25",
+    "libraries": "2026-07-28 09:25",
     "sports": "2026-07-28 07:25",
     "academic": "2026-07-28 06:40"
   },
@@ -1588,9 +1588,6 @@
           ]
         },
         {
-          "title_zh": ""
-        },
-        {
           "title_zh": "单位会员入会操作流程",
           "eng": "",
           "summary": "中国图书馆学会发布单位会员入会操作流程，方便机构加入。",
@@ -2013,218 +2010,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "边缘 AI 推理：ESP32-ai",
-          "eng": "slvDev/esp32-ai",
-          "summary": "将 AI 模型部署到 ESP32 微控制器上的开源框架，实现端侧智能。",
-          "source": "GitHub",
-          "stars": 1735,
-          "lang": "Python",
-          "published": "2026-07-23",
-          "url": "https://github.com/slvDev/esp32-ai",
-          "overview": "该项目致力于在 ESP32 等低成本微控制器上运行 AI 推理任务，打破了边缘设备算力不足的瓶颈。通过优化的模型量化和内存管理，它让开发者能够用极低的硬件成本实现图像识别、语音处理等功能。支持多种主流框架的转换与部署，降低了嵌入式 AI 的开发门槛。",
-          "analysis": "随着端侧 AI 需求爆发，ESP32-ai 为 IoT 场景提供了极具性价比的方案。对于希望探索边缘智能的开发者而言，这是一个入门与进阶并存的高质量资源。",
-          "social": [
-            {
-              "who": "嵌入式开发者",
-              "text": "终于可以在几块钱的开发板上跑 LLM 了，这对物联网场景是重大利好。"
-            }
-          ]
-        },
-        {
-          "title_zh": "TypeScript 原生编译器：scriptc",
-          "eng": "vercel-labs/scriptc",
-          "summary": "Vercel Labs 推出的 TypeScript 到原生代码的编译器，跳过浏览器解释执行。",
-          "source": "GitHub",
-          "stars": 1700,
-          "lang": "TypeScript",
-          "published": "2026-07-22",
-          "url": "https://github.com/vercel-labs/scriptc",
-          "overview": "scriptc 是 Vercel Labs 开发的一款编译器，能够将 TypeScript 源码直接编译为原生 JavaScript 或 WebAssembly，无需依赖运行时解释。它旨在消除传统 TS 项目中的构建步骤和体积开销，让开发者获得接近 C++ 级别的执行性能。该项目展示了前端工程化从“编译”到“原生”的演进方向。",
-          "analysis": "对于追求极致性能的 Serverless 场景或大型单页应用，scriptc 提供了绕过解释器瓶颈的新思路，是 Vercel 生态的重要基础设施补充。",
-          "social": [
-            {
-              "who": "前端架构师",
-              "text": "TypeScript 终于不用在运行时吃性能亏了，这比纯 JS 写 TS 更有说服力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "开源前沿智能：Kimi-K3",
+          "title_zh": "Kimi-K3：前沿开源智能模型",
           "eng": "MoonshotAI/Kimi-K3",
-          "summary": "月之暗面发布的开源前沿大模型，旨在推动 AI 能力的开放共享。",
+          "summary": "月之暗面发布的开源前沿级人工智能模型，面向开发者与研究者提供高性能推理能力。",
           "source": "GitHub",
-          "stars": 1145,
+          "stars": 1280,
           "lang": "",
           "published": "2026-07-27",
           "url": "https://github.com/MoonshotAI/Kimi-K3",
-          "overview": "Kimi-K3 是 Moonshot AI（月之暗面）推出的开源前沿智能模型，代表了当前国产大模型在推理能力上的最新水平。项目提供了完整的模型权重和训练配置，支持社区进行微调与扩展。其设计目标是让开发者能够基于前沿基座构建垂直领域应用。",
-          "analysis": "作为国产 AI 厂商的开源标杆，Kimi-K3 降低了使用顶尖模型能力的门槛，对于需要私有化部署或定制化的企业具有极高价值。",
+          "overview": "Kimi-K3是月之暗面推出的前沿级开源智能模型，在推理能力、上下文理解和多模态处理方面达到行业领先水平。该项目面向全球开发者开放，旨在推动大模型技术的民主化与本地部署。",
+          "analysis": "作为国产大模型的标杆项目，Kimi-K3的开源策略有助于降低AI应用门槛，对国内开发者生态具有显著推动作用。值得关注其在长上下文处理和复杂推理任务上的表现。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "前沿模型的开源化是行业趋势，Kimi-K3 的发布为学术界提供了宝贵的实验基座。"
+              "who": "AI研究者",
+              "text": "前沿级模型开源的意义在于让学术界能复现和验证最新技术成果。"
+            },
+            {
+              "who": "开发者",
+              "text": "本地部署替代API调用，数据隐私和成本控制优势明显。"
             }
           ]
         },
         {
-          "title_zh": "提示词生成 FPS：Claude-of-Duty",
-          "eng": "mshumer/Claude-of-Duty",
-          "summary": "仅凭一个提示词，在 Three.js 中构建出《使命召唤》级别的 FPS 游戏。",
+          "title_zh": "ScriptC：TypeScript原生编译器",
+          "eng": "vercel-labs/scriptc",
+          "summary": "Vercel实验室推出的TypeScript到原生代码的编译器，实现高性能运行时部署。",
           "source": "GitHub",
-          "stars": 1017,
-          "lang": "JavaScript",
-          "published": "2026-07-25",
-          "url": "https://github.com/mshumer/Claude-of-Duty",
-          "overview": "该项目展示了 AI 生成游戏代码的惊人潜力，用户只需输入一段自然语言描述，即可在浏览器中运行完整的 FPS 射击游戏。基于 Three.js 构建，它无需安装任何引擎或插件，直接通过 Web 技术实现高性能图形渲染。这标志着从“辅助编程”到“全栈生成”的跨越。",
-          "analysis": "虽然目前更多是演示性质，但它验证了 AI 驱动复杂交互应用生成的可行性，对游戏开发工具和低代码平台有深远启发。",
+          "stars": 1734,
+          "lang": "TypeScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/vercel-labs/scriptc",
+          "overview": "ScriptC将TypeScript源码直接编译为高性能原生代码，绕过传统JavaScript运行时。支持Node.js和浏览器环境，旨在解决TypeScript在性能敏感场景下的瓶颈问题。",
+          "analysis": "Vercel作为前端基础设施巨头推出此项目，标志着TypeScript从开发语言向生产级运行语言的转变。对需要极致性能的前端应用具有实用价值。",
           "social": [
             {
-              "who": "独立开发者",
-              "text": "一个 prompt 就能出完整 FPS？这比用 Unity 搭个原型快太多了。"
+              "who": "全栈开发者",
+              "text": "终于可以在不牺牲类型安全的前提下获得接近原生代码的性能了。"
+            },
+            {
+              "who": "架构师",
+              "text": "编译为原生意味着更低的内存占用和更快的冷启动，适合边缘计算场景。"
             }
           ]
         },
         {
-          "title_zh": "拟人化 AI 文案写手：ai-copywriter",
-          "eng": "mikiarlo3/ai-copywriter",
-          "summary": "结合真实写作技巧与营销知识，生成具有人类语气的 AI 文案工具。",
-          "source": "GitHub",
-          "stars": 935,
-          "lang": "Python",
-          "published": "2026-07-24",
-          "url": "https://github.com/mikiarlo3/ai-copywriter",
-          "overview": "这是一个专注于内容营销的 AI 工具，核心优势在于生成的文案具有真实的人类语气，避免了传统 AI 写作常见的机械感。它融合了专业的文案技巧与市场营销知识，能够根据品牌调性调整输出风格。适用于社交媒体运营、广告文案撰写等场景。",
-          "analysis": "在 AI 生成内容泛滥的背景下，强调“人类语气”和“营销深度”是该项目的差异化亮点，解决了企业级文案对真实感的刚需。",
-          "social": [
-            {
-              "who": "数字营销从业者",
-              "text": "终于有工具能写出不像机器的广告了，这对 SEO 和内容运营来说太实用了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "开箱即用的开源 AI Agent：cindy",
+          "title_zh": "Cindy：开箱即用的开源AI Agent",
           "eng": "makecindy/cindy",
-          "summary": "考虑即完成。一个开源、开箱即用的 AI 智能体，无需复杂配置即可运行。",
+          "summary": "一个开源、开箱即用的AI智能体框架，无需复杂配置即可快速构建自动化工作流。",
           "source": "GitHub",
-          "stars": 838,
+          "stars": 844,
           "lang": "TypeScript",
           "published": "2026-07-22",
           "url": "https://github.com/makecindy/cindy",
-          "overview": "Cindy 是一个设计为开箱即用的开源 AI Agent，旨在简化智能体的部署和使用流程。它支持多种任务执行模式，用户无需编写大量胶水代码即可让 AI 代理处理复杂工作流。项目注重用户体验，提供了清晰的配置界面和文档，降低了非技术背景用户的上手难度。",
-          "analysis": "随着 AI Agent 成为主流范式，降低使用门槛至关重要。Cindy 的“开箱即用”理念恰好切中了当前 Agent 工具过于复杂的痛点。",
+          "overview": "Cindy是一个注重实用性的AI Agent框架，强调开箱即用的体验。支持多工具调用、任务分解和持久化记忆，适合快速原型开发和生产部署。",
+          "analysis": "在AI Agent赛道日益拥挤的背景下，Cindy以简洁的架构降低了使用门槛。对于希望快速验证Agent能力的团队来说是一个值得关注的起点。",
           "social": [
             {
               "who": "产品经理",
-              "text": "不需要懂代码就能用 AI Agent 干活了，这才是真正的普惠智能体。"
+              "text": "不需要写大量胶水代码就能让AI执行复杂任务，这对非技术团队很友好。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript生态意味着更好的类型安全和开发体验。"
             }
           ]
         },
         {
-          "title_zh": "AI 代理持久记忆：OptMem",
+          "title_zh": "OptMem：AI Agent持久记忆系统",
           "eng": "VictorTaelin/OptMem",
-          "summary": "为 AI 代理提供永久记忆的解决方案，仅需一个脚本即可实现即插即用。",
+          "summary": "为AI智能体提供永久记忆能力，仅需426 token的提示即可实现即插即用。",
           "source": "GitHub",
-          "stars": 642,
+          "stars": 649,
           "lang": "Python",
           "published": "2026-07-25",
           "url": "https://github.com/VictorTaelin/OptMem",
-          "overview": "OptMem 解决了 AI Agent 在长对话或多轮任务中丢失上下文的核心问题，通过高效的记忆管理机制实现信息的持久化存储与检索。它仅需一个 426 token 的提示词和一个脚本即可集成到现有工作流中，无需大规模修改代码。这对于需要跨会话保持状态的复杂代理系统至关重要。",
-          "analysis": "记忆能力是 AI Agent 从“工具”进化为“助手”的关键一步，OptMem 以极低的成本实现了这一功能，具有广泛的适用性。",
+          "overview": "OptMem解决了AI Agent缺乏长期记忆的核心痛点，通过高效的压缩和检索机制实现持久化存储。支持脚本化配置，可快速集成到现有Agent框架中。",
+          "analysis": "记忆能力是区分简单Chatbot与真正智能体的关键因素。OptMem的轻量级设计使其易于集成，对构建多轮交互、长期任务的Agent系统具有重要价值。",
           "social": [
             {
-              "who": "AI 工程师",
-              "text": "Agent 的上下文窗口有限，持久记忆是刚需，这个方案轻量且优雅。"
+              "who": "AI工程师",
+              "text": "426 token就能实现持久记忆，成本效益比令人印象深刻。"
+            },
+            {
+              "who": "研究者",
+              "text": "为Agent的记忆机制提供了一个可复现的基线方案。"
             }
           ]
         },
         {
-          "title_zh": "分布式 Agent 环境平台：AgentENV",
+          "title_zh": "AgentENV：分布式Agent环境平台",
           "eng": "kvcache-ai/AgentENV",
-          "summary": "基于 Rust 构建的分布式平台，用于大规模运行 AI 代理环境。",
+          "summary": "面向大规模运行的分布式智能体环境测试与训练平台，支持高并发场景。",
           "source": "GitHub",
-          "stars": 582,
+          "stars": 626,
           "lang": "Rust",
           "published": "2026-07-23",
           "url": "https://github.com/kvcache-ai/AgentENV",
-          "overview": "AgentENV (AENV) 是一个专为大规模运行 AI Agent 环境而设计的分布式平台，利用 Rust 的高性能特性确保低延迟和高吞吐。它支持多代理并发执行、资源隔离和状态同步，是构建复杂 Agent 测试床和生产环境的理想选择。该平台特别适合需要模拟真实世界交互场景的研究与工程团队。",
-          "analysis": "Rust 语言在 AI Infra 领域的崛起趋势明显，AgentENV 展示了高性能运行时对 Agent 规模化部署的重要性。",
+          "overview": "AgentENV是一个用Rust构建的高性能分布式平台，专为大规模运行和测试AI Agent环境而设计。支持并行仿真、性能基准测试和环境隔离等功能。",
+          "analysis": "随着Agent生态的成熟，对大规模测试基础设施的需求日益增长。AgentENV的性能导向设计和Rust语言选择使其在资源消耗和响应速度上具有优势。",
           "social": [
             {
-              "who": "AI Infra 工程师",
-              "text": "用 Rust 写 Agent 环境调度，性能和稳定性都远超 Python 方案，值得在生产环境试用。"
+              "who": "AI平台工程师",
+              "text": "Rust的性能意味着可以在更多节点上并行运行测试，大幅缩短迭代周期。"
+            },
+            {
+              "who": "研究者",
+              "text": "标准化的Agent环境对可复现研究至关重要。"
             }
           ]
         },
         {
-          "title_zh": "代码代理工作账本：agentacct",
+          "title_zh": "AgentAcct：编码Agent工作分析工具",
           "eng": "mikehasa/agentacct",
-          "summary": "面向编码 Agent 的本地优先工作智能工具，提供真实的使用记录与诚实的工作汇报。",
+          "summary": "面向编程智能体的本地优先工作分析系统，提供使用真相、记录的工作和诚实的加入统计。",
           "source": "GitHub",
           "stars": 469,
           "lang": "Python",
           "published": "2026-07-24",
           "url": "https://github.com/mikehasa/agentacct",
-          "overview": "Agentacct 专注于解决编码 Agent（如 Copilot、Cursor）使用过程中的透明度问题，通过只读访问日志来记录真实的工作内容和参与情况。它提供零 JavaScript 的本地仪表盘，确保数据不出本机，保护隐私的同时让开发者能清晰追踪 AI 辅助工作的产出与效率。",
-          "analysis": "随着 AI 编程助手普及，如何评估其实际贡献成为痛点，Agentacct 提供了可信的度量方式，对团队管理有实用价值。",
+          "overview": "AgentAcct专注于对编码Agent的工作进行透明化分析，提供只读日志访问和本地仪表板。无需JavaScript依赖，确保数据隐私和离线可用性。",
+          "analysis": "随着AI编程助手日益普及，对其工作质量和效率的评估成为新需求。AgentAcct填补了这一空白，帮助团队理解Agent的实际贡献度。",
           "social": [
             {
               "who": "技术管理者",
-              "text": "终于能看到 Agent 到底干了什么活，而不是只看代码行数了，这对绩效评估很有帮助。"
+              "text": "终于能看到AI Agent到底做了什么、做对了什么，而不是只看它声称完成了多少。"
+            },
+            {
+              "who": "开发者",
+              "text": "本地优先设计意味着代码和日志数据不会离开内网，适合合规要求严格的场景。"
             }
           ]
         },
         {
-          "title_zh": "增强版 Claude 运行器：openclaude-improved",
+          "title_zh": "OpenClaude Improved：增强版Claude客户端",
           "eng": "0xwilliamortiz/openclaude-improved",
-          "summary": "一个通用的 Claude 接口改进方案，支持在任何地方运行并使用任何后端。",
+          "summary": "一个运行在任何平台、兼容任何模型的Claude改进型客户端，提供增强的交互体验。",
           "source": "GitHub",
-          "stars": 414,
+          "stars": 462,
           "lang": "TypeScript",
           "published": "2026-07-26",
           "url": "https://github.com/0xwilliamortiz/openclaude-improved",
-          "overview": "该项目旨在提供一个更灵活、更强大的 Claude 接口封装，允许开发者在任意环境中运行并对接多种后端服务。它解决了官方 API 限制多、兼容性差的问题，支持自定义提示词模板和流式输出优化。对于需要深度集成大模型能力的开发团队来说，这是一个实用的中间件选择。",
-          "analysis": "在大模型快速迭代的背景下，灵活的接口封装比绑定单一厂商更具长期价值，该项目降低了切换成本。",
+          "overview": "OpenClaude Improved是一个跨平台的Claude客户端增强方案，支持多种后端模型。提供改进的UI交互、工具调用优化和自定义配置能力。",
+          "analysis": "在AI助手领域，用户体验和可定制性同样重要。该项目展示了如何通过开源方式提升商业产品的可用性，对开发者构建自己的AI工作流有参考价值。",
           "social": [
             {
-              "who": "全栈开发者",
-              "text": "不想被锁死在某个 API 上，这个改进版让 Claude 的调用方式更自由了。"
+              "who": "独立开发者",
+              "text": "不绑定特定模型意味着可以根据任务需求灵活切换，成本可控。"
+            },
+            {
+              "who": "用户体验设计师",
+              "text": "改进的交互设计让AI对话更加自然流畅，降低了使用门槛。"
             }
           ]
         },
         {
-          "title_zh": "手写体转字体工具：draw-your-font",
-          "eng": "danilo-znamerovszkij/draw-your-font",
-          "summary": "将手写字迹照片转换为真实字体文件（TTF/WOFF），免费开源且无需上传数据。",
-          "source": "GitHub",
-          "stars": 401,
-          "lang": "JavaScript",
-          "published": "2026-07-22",
-          "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
-          "overview": "draw-your-font 允许用户通过拍摄手写文字照片来生成专业的字体文件，支持 TTF、WOFF 和 WOFF2 格式。该工具完全在本地运行，无需上传任何数据到云端，保护了用户的隐私安全。它结合了 Node CLI 工具和 Claude Code Skill，实现了从草图到可用字体的自动化转换流程。",
-          "analysis": "个性化字体需求日益增长，且隐私问题敏感，draw-your-font 的“本地处理 + AI 辅助”模式完美平衡了功能与安全性。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "终于可以自己把签名变成字体用了，而且数据不离开电脑，这点太重要了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "专家并行训练库：MoonEP",
+          "title_zh": "MoonEP：动态冗余专家并行库",
           "eng": "MoonshotAI/MoonEP",
-          "summary": "通过动态冗余专家实现完美平衡的专家并行化库，优化大模型训练效率。",
+          "summary": "月之暗面推出的完美平衡的专家并行化库，通过动态冗余专家提升推理效率。",
           "source": "GitHub",
-          "stars": 383,
+          "stars": 408,
           "lang": "Python",
           "published": "2026-07-24",
           "url": "https://github.com/MoonshotAI/MoonEP",
-          "overview": "MoonEP 是 Moonshot AI 开发的一个专家并行化（MoE）训练库，通过动态冗余专家机制实现模型负载的完美平衡。它旨在解决传统 MoE 架构中计算资源分配不均的问题，从而提升大模型的训练效率和推理速度。该项目为社区提供了可复用的优化策略和实验框架。",
-          "analysis": "MoE 架构是当前大模型发展的核心方向之一，MoonEP 的负载均衡方案对降低训练成本、提高模型质量具有显著意义。",
+          "overview": "MoonEP是一种创新的模型并行策略，通过动态分配冗余专家模块来平衡计算负载。支持多种硬件配置，旨在提升大模型的推理吞吐量和资源利用率。",
+          "analysis": "专家混合（MoE）架构是当前大模型的重要趋势，MoonEP在动态调度方面的创新有助于解决传统MoE的负载均衡问题。对需要大规模部署的团队具有实用价值。",
           "social": [
             {
-              "who": "ML 研究员",
-              "text": "MoE 的 load balancing 一直是难题，这个动态冗余方案看起来很有前景，值得跟进实验。"
+              "who": "AI基础设施工程师",
+              "text": "动态冗余设计比静态分配更灵活，能更好地适应不同推理场景的需求。"
+            },
+            {
+              "who": "研究者",
+              "text": "为MoE的负载均衡问题提供了一个新的解决思路，值得深入分析。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI文案写作助手：人性化营销文案生成器",
+          "eng": "mikiarlo3/ai-copywriter",
+          "summary": "结合真实文案技巧与营销知识，以人类语气生成的AI文案工具。",
+          "source": "GitHub",
+          "stars": 937,
+          "lang": "Python",
+          "published": "2026-07-24",
+          "url": "https://github.com/mikiarlo3/ai-copywriter",
+          "overview": "该工具专注于生成具有真实营销洞察力的文案，而非简单的模板填充。支持多种文风、品牌调性和目标受众配置，输出结果更接近专业文案人员的作品。",
+          "analysis": "在AI内容生成领域，'人性化'和'专业性'是核心差异化因素。该项目强调真实营销知识的应用，对需要高质量商业文案的团队具有实用价值。",
+          "social": [
+            {
+              "who": "市场营销人员",
+              "text": "终于有一个工具能理解品牌调性而不只是堆砌关键词了。"
+            },
+            {
+              "who": "内容创作者",
+              "text": "可以作为初稿生成器，再人工润色，效率提升明显。"
+            }
+          ]
+        },
+        {
+          "title_zh": "手写转字体：照片变TTF/WOFF2开源工具",
+          "eng": "danilo-znamerovszkij/draw-your-font",
+          "summary": "将手写字迹照片转换为真实字体文件（TTF/WOFF/WOFF2），免费开源，无需上传数据。",
+          "source": "GitHub",
+          "stars": 403,
+          "lang": "JavaScript",
+          "published": "2026-07-22",
+          "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+          "overview": "Draw Your Font支持通过照片将手写体转换为专业字体文件，提供Node CLI工具和Claude Code技能集成。完全本地处理，保护用户隐私，无需上传任何数据到云端。",
+          "analysis": "个性化字体需求在设计师和创作者群体中持续增长。该项目以隐私优先的设计理念解决了这一痛点，同时与AI工具链的集成使其更容易被开发者采用。",
+          "social": [
+            {
+              "who": "平面设计师",
+              "text": "终于可以用自己的手写字做字体了，而且完全不用担心数据泄露。"
+            },
+            {
+              "who": "独立开发者",
+              "text": "Node CLI + Claude Code技能的双重支持，集成到工作流中非常方便。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Crisp：macOS HiDPI显示缩放工具",
+          "eng": "didriksg/Crisp",
+          "summary": "免费开源的macOS外部显示器HiDPI/Retina缩放应用，替代BetterDisplay和Lunar。",
+          "source": "GitHub",
+          "stars": 400,
+          "lang": "Swift",
+          "published": "2026-07-22",
+          "url": "https://github.com/didriksg/Crisp",
+          "overview": "Crisp是一个轻量级macOS菜单栏应用，提供清晰的高分辨率缩放、亮度调节（DDC）、虚拟显示器、预设管理和色彩配置等功能。专为外部Retina显示器优化设计。",
+          "analysis": "随着多屏办公的普及，外部显示器的清晰度问题日益突出。Crisp作为免费开源替代方案，降低了用户的使用成本，同时支持亮度和色彩的高级配置。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "终于不用为模糊的外接显示器文字烦恼了，而且完全免费。"
+            },
+            {
+              "who": "开发者",
+              "text": "Swift实现意味着macOS原生性能，菜单栏应用也足够轻量不占资源。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ESP32-AI：边缘AI开发框架",
+          "eng": "slvDev/esp32-ai",
+          "summary": "面向ESP32微控制器的AI推理框架，实现低成本设备上的本地智能。",
+          "source": "GitHub",
+          "stars": 1745,
+          "lang": "Python",
+          "published": "2026-07-23",
+          "url": "https://github.com/slvDev/esp32-ai",
+          "overview": "ESP32-AI为ESP32系列微控制器提供AI推理能力，支持在资源受限的边缘设备上运行轻量级模型。适用于智能家居、工业物联网等场景的本地智能处理需求。",
+          "analysis": "边缘AI是IoT领域的重要趋势，ESP32作为最流行的开发板之一，其AI能力的扩展将大幅降低部署成本。该项目对希望实现端侧推理的开发者具有实用价值。",
+          "social": [
+            {
+              "who": "嵌入式工程师",
+              "text": "终于可以在几块钱的开发板上跑AI了，这对IoT原型验证太有吸引力了。"
+            },
+            {
+              "who": "产品经理",
+              "text": "本地推理意味着数据不出设备，隐私合规问题迎刃而解。"
             }
           ]
         }
@@ -2453,56 +2498,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "关注AI安全边界突破与模型对齐控制问题，推动企业级AI智能体部署",
+          "recent": "聚焦 AI 安全边界与全球模型部署策略，回应开源社区及国际竞争态势。",
           "url": "https://www.samaltman.com"
         },
         {
-          "name": "Satya Nadella",
-          "role": "Microsoft CEO",
-          "region": "印度裔/美国",
-          "domain": "ai",
-          "recent": "警告过度依赖单一AI系统可能威胁企业生存，推动网络安全AI模型与智能体安全体系建设",
-          "url": "https://www.microsoft.com/en-us/about/satya-nadella"
-        },
-        {
-          "name": "Timnit Gebru",
-          "role": "AI伦理研究者/图灵研究所联合创始人",
-          "region": "加纳裔/美国",
-          "domain": "ai",
-          "recent": "持续推动AI安全对齐辩论，关注开源替代方案与模型公平性问题",
-          "url": "https://www.turinginstitute.org"
-        },
-        {
-          "name": "Dara O'Rourke",
-          "role": "数据科学学者/图书馆学专家",
-          "region": "爱尔兰裔/美国",
-          "domain": "library",
-          "recent": "关注开放获取与免费AI模型对学术资源生态的影响，推动公共知识基础设施变革",
-          "url": "https://www.daraorourke.com"
-        },
-        {
-          "name": "Chris Anderson",
-          "role": "TED创始人/HBR播客主持",
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "关注AI对话式交互如何重塑信息获取方式，探讨搜索框从关键词到自然语言的范式转变",
-          "url": "https://www.chrisanderson.com"
-        },
-        {
-          "name": "Rebecca Gibb",
-          "role": "英国国家图书馆负责人/数字人文推动者",
-          "region": "英国",
-          "domain": "library",
-          "recent": "关注AI技术对文化遗产数字化与公共知识保存的影响，推动图书馆在智能时代的服务转型",
-          "url": ""
-        },
-        {
-          "name": "周曦 (Zhou Xi)",
-          "role": "Moonshot AI联合创始人/首席科学家",
-          "region": "中国",
           "domain": "ai",
-          "recent": "推动顶级AI模型免费开放策略，以极低成本挑战国际主流系统，关注开源生态建设",
-          "url": ""
+          "recent": "关注 Claude 对话数据安全性及 AI 模型的伦理责任，应对共享泄露风险。",
+          "url": "https://anthropic.com/about/dario-amodei"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "知名播客主理人/YouTuber",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "通过深度访谈探讨 AI 行业领袖观点及未来技术发展方向。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "Kenneth Rosenblatt",
+          "role": "IFLA 总干事",
+          "region": "国际（瑞士）",
+          "domain": "library",
+          "recent": "推动 IFLA 全球图书馆数字化转型、灾后重建及可持续发展战略。",
+          "url": "https://www.ifla.org/en/leadership/kenneth-rosenblatt"
+        },
+        {
+          "name": "杜若洲",
+          "role": "国家图书馆代表人物",
+          "region": "中国",
+          "domain": "library",
+          "recent": "主导智慧图书馆创新应用案例推广，关注全民阅读服务平台建设。",
+          "url": "https://www.nlc.cn"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "AI 研究者/教育者",
+          "region": "美国/全球",
+          "domain": "ai",
+          "recent": "致力于 AI 教育普及与开放模型对全球知识获取的赋能作用。",
+          "url": "https://www.andrewng.org"
+        },
+        {
+          "name": "Tim Berners-Lee",
+          "role": "万维网发明者/数字主权倡导者",
+          "region": "英国/国际",
+          "domain": "library/ai",
+          "recent": "倡导数字数据主权与开放标准，关注网络基础设施安全及图书馆互联挑战。",
+          "url": "https://www.w3.org/People/BernersLee"
         }
       ]
     },
