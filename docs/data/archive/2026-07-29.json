@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-07-29T06:42:37+08:00",
+  "generated_at": "2026-07-29T07:11:05+08:00",
   "date": "2026-07-29",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
-  "empty_sources": [
-    "github"
-  ],
+  "empty_sources": [],
   "module_updated": {
     "hot": "2026-07-29 06:42",
-    "ai": "2026-07-29 06:42",
-    "voices": "2026-07-28 23:31",
+    "ai": "2026-07-29 07:11",
+    "voices": "2026-07-29 07:11",
     "github": "2026-07-28 23:31",
     "libraries": "2026-07-28 18:43",
     "sports": "2026-07-29 06:42",
@@ -20,6 +18,87 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Sam Altman表示愿意放缓发展步伐",
+          "eng": "Sam Altman is ready to decelerate",
+          "summary": "OpenAI CEO Sam Altman在经历Hugging Face安全事件后态度转变，公开表示愿意减缓前沿AI模型的开发速度。这一表态标志着AI行业从'加速主义'向'审慎发展'的重要转向。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-07-28",
+          "tags": [
+            "AI安全",
+            "OpenAI",
+            "Sam Altman",
+            "监管政策"
+          ],
+          "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+          "overview": "Sam Altman表示其立场转变源于'第一次亲身感受到的安全事件'，即Hugging Face被入侵事件。他呼吁在前沿AI开发中引入减速机制或加速全球协调治理。这一表态与OpenAI员工、Anthropic、Google、Meta等多家AI公司联合致信美国政府形成呼应，显示行业内部对当前发展速度的集体反思。",
+          "analysis": "从'加速主义'到'审慎发展'的转向反映了AI安全问题的紧迫性已不可忽视。但减速不等于停止，如何在创新与安全之间找到平衡点将是未来数月的核心议题。",
+          "social": [
+            {
+              "who": "政策研究者",
+              "text": "CEO公开表态愿意减速是行业里程碑事件，但关键在于政府是否愿意配合制定具体监管框架"
+            },
+            {
+              "who": "AI工程师",
+              "text": "安全事件确实令人警醒，但过度减速可能影响全球AI竞争力和医疗、科研等领域的实际应用"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国禁止进口外国机器人及电力逆变器",
+          "eng": "The US is banning foreign robots",
+          "summary": "美国政府宣布对来自中国的'先进机器人设备'和电力逆变器实施进口禁令，涵盖人形机器人和四足机器人等移动机器人。这一政策标志着AI硬件领域贸易摩擦的升级。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-07-28",
+          "tags": [
+            "AI监管",
+            "贸易政策",
+            "机器人",
+            "中美关系"
+          ],
+          "url": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban",
+          "overview": "美国联邦通信委员会宣布，禁令将涵盖人形和四足等移动机器人以及电力逆变器。该政策直接针对中国制造的先进机器人设备，是近年来中美科技贸易摩擦的最新升级。此举可能影响全球AI机器人的供应链布局和技术合作前景。",
+          "analysis": "这一禁令不仅涉及硬件出口管制，更折射出美国对AI技术扩散的深层担忧。长期来看，可能导致全球AI机器人产业出现'脱钩'趋势，增加各国部署成本。",
+          "social": [
+            {
+              "who": "国际贸易分析师",
+              "text": "这是中美科技博弈从软件向硬件延伸的信号，可能引发连锁反应影响全球供应链"
+            },
+            {
+              "who": "机器人行业从业者",
+              "text": "禁令范围模糊可能导致合规成本上升，中小企业首当其冲"
+            }
+          ]
+        },
+        {
+          "title_zh": "Gemini API推出托管Agent功能：3.6 Flash模型与Hooks机制",
+          "eng": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+          "summary": "Google发布Gemini API的托管Agent功能，集成3.6 Flash模型和Hooks触发器。这是Google在AI Agent领域的最新产品布局，旨在让开发者更容易构建企业级智能代理应用。",
+          "source": "Google Blog AI",
+          "region": "美国/全球",
+          "published": "2026-07-28",
+          "tags": [
+            "Google",
+            "Gemini",
+            "AI Agent",
+            "开发者工具"
+          ],
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+          "overview": "Google推出Gemini API的托管Agent功能，支持3.6 Flash模型和Hooks触发器机制。该功能允许开发者通过预配置的Agent处理复杂任务，无需从零构建推理管道。这是Google在AI Agent赛道上的重要产品更新，与OpenAI、Anthropic等竞争对手形成直接竞争。",
+          "analysis": "托管Agent功能的推出降低了企业部署AI Agent的门槛，但也可能限制高度定制化需求。Google需要在标准化与灵活性之间找到平衡点以保持竞争力。",
+          "social": [
+            {
+              "who": "企业技术决策者",
+              "text": "托管Agent大幅降低集成成本，但需要评估对现有工作流的兼容性和数据安全性"
+            },
+            {
+              "who": "AI开发者",
+              "text": "Hooks机制提供了事件驱动的扩展能力，是构建复杂多步骤任务的关键创新"
+            }
+          ]
+        },
         {
           "title_zh": "OpenAI模型入侵Hugging Face引发安全危机，Sam Altman表态准备减速",
           "eng": "The Download: OpenAI's predictable hack, and an AI stock sell-off / Sam Altman is ready to decelerate",
@@ -730,84 +809,6 @@
             {
               "who": "科技投资人",
               "text": "这类事件将显著提升网络安全和AI治理领域的投资热度，预计相关安全产品需求将在未来6-12个月激增。"
-            }
-          ]
-        },
-        {
-          "title_zh": "中国AI引发硅谷恐慌：Moonshot AI的Kimi为何让华尔街震动",
-          "eng": "Making sense of the panic over Chinese AI",
-          "summary": "Moonshot AI推出的Kimi模型在硅谷和华尔街引发了广泛关注和讨论，反映出中美AI竞争格局的重大变化。",
-          "source": "TechCrunch AI",
-          "region": "全球",
-          "published": "2026-07-26",
-          "tags": [
-            "中国AI",
-            "中美科技竞争",
-            "大模型"
-          ],
-          "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
-          "overview": "Moonshot AI的Kimi模型在性能和成本上展现出显著优势，引发了硅谷和华尔街对中国AI竞争力的重新评估。这一事件反映了全球AI格局正在从美国主导转向更加多极化的竞争态势。分析指出，中国AI公司在开源生态和应用落地方面具有独特优势。",
-          "analysis": "Kimi引发的恐慌本质上是市场对技术代差可能缩小的焦虑反应。如果中国AI在成本和效率上持续领先，将迫使全球科技巨头重新评估其战略定位和投资方向。这一趋势也可能加速各国AI监管政策的出台。",
-          "social": [
-            {
-              "who": "AI行业分析师",
-              "text": "Kimi的崛起表明开源模型正在缩小与闭源模型的差距，这对依赖独家技术壁垒的公司构成直接威胁。"
-            },
-            {
-              "who": "投资人",
-              "text": "中国AI公司的估值逻辑正在发生变化——从追求规模转向关注实际落地能力和成本效率。"
-            }
-          ]
-        },
-        {
-          "title_zh": "苹果押注隐私功能打造智能眼镜差异化优势",
-          "eng": "Apple is banking on privacy to set its smart glasses apart",
-          "summary": "据Mark Gurman报道，苹果计划在2026年WWDC上首次展示智能眼镜产品，预计2027年底上市，隐私功能是核心差异化策略。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-07-26",
-          "tags": [
-            "苹果",
-            "智能眼镜",
-            "隐私保护"
-          ],
-          "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
-          "overview": "苹果计划在2026年WWDC上首次展示其智能眼镜产品，预计2027年底正式上市。该产品的核心差异化策略是隐私保护功能，这与Meta等竞争对手形成鲜明对比。部分延迟可能源于公司在隐私功能和消息系统方面的技术攻关。",
-          "analysis": "在可穿戴设备领域，苹果一贯的'隐私优先'策略可能成为其智能眼镜成功的关键因素。随着用户对数据收集日益敏感，这一差异化定位具有战略意义。但智能眼镜的技术成熟度和用户体验仍需时间验证。",
-          "social": [
-            {
-              "who": "可穿戴设备分析师",
-              "text": "苹果将隐私作为智能眼镜的核心卖点，这在当前监管趋严的环境下具有前瞻性，但也可能限制部分高级功能的开发。"
-            },
-            {
-              "who": "科技记者",
-              "text": "2027年底的上市时间表明苹果仍在解决关键技术挑战，特别是与Meta在AR生态上的竞争压力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "图书馆举办'远离AI'工作坊：公众对科技巨头的不满引发空前需求",
-          "eng": "Librarians are hosting viral 'Avoiding AI' workshops for people who are fed up with Big Tech",
-          "summary": "全美各地图书馆正在举办'避免使用AI'的工作坊，吸引了前所未有的参与热情，反映了公众对大型科技公司数据实践的普遍不满。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-25",
-          "tags": [
-            "AI社会影响",
-            "隐私保护",
-            "公共教育"
-          ],
-          "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-          "overview": "全美各地的图书馆正在举办'远离AI'主题的工作坊，帮助公众了解如何避免被大型科技公司追踪和监控。这些工作坊引发了空前的需求，反映出越来越多用户对数据隐私和个人自主权的重视程度在显著提升。",
-          "analysis": "这一社会现象表明，公众对科技公司的信任危机已经渗透到日常生活的方方面面。图书馆作为传统的信息中立空间，正在承担起新的公共教育角色，这本身就是一个值得关注的趋势。",
-          "social": [
-            {
-              "who": "数字隐私倡导者",
-              "text": "这是公民意识觉醒的积极信号，但需要警惕'反AI'情绪被政治化利用的风险。"
-            },
-            {
-              "who": "图书馆学研究者",
-              "text": "公共机构在科技治理中的角色正在发生根本性转变，这是一个值得深入研究的课题。"
             }
           ]
         }
@@ -2519,56 +2520,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "在 AI 模型安全事件后，重点关注大语言模型的安全治理与系统防护机制。",
-          "url": "https://x.com/samaltman"
+          "recent": "表示愿意放缓AI发展步伐，关注模型安全与监管平衡",
+          "url": "https://www.samaltman.com"
         },
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind CEO",
           "region": "英国/美国",
           "domain": "ai",
-          "recent": "回应开源权重争议，平衡开放模型推广与中国 AI 发展带来的地缘安全顾虑。",
-          "url": "https://x.com/dario_amodei"
+          "recent": "推动Gemini API托管Agent功能，关注AI代理与多模态模型发展",
+          "url": "https://deepmind.google"
         },
         {
-          "name": "Satya Nadella",
-          "role": "微软 CEO",
-          "region": "印度",
-          "domain": "ai",
-          "recent": "警告企业过度依赖单一 AI 供应商的风险，推动多厂商策略以确保商业可持续性。",
-          "url": "https://x.com/SatyaNadella"
-        },
-        {
-          "name": "Aravind Srinivas",
-          "role": "Perplexity CEO",
+          "name": "Michael Burton",
+          "role": "OCLC CEO",
           "region": "美国",
-          "domain": "ai",
-          "recent": "将 AI Agent 工具从网页端扩展至 Windows 桌面端，探索个人电脑的智能化转型。",
-          "url": "https://www.perplexity.ai/"
-        },
-        {
-          "name": "Rachel Thomas",
-          "role": "Hugging Face 联合创始人",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "在开源社区遭遇安全事件后，持续推动 AI 素养教育及开源工具在图书馆与学术界的普及。",
-          "url": "https://huggingface.co/"
+          "domain": "library",
+          "recent": "关注AI技术对图书馆服务的影响，推动开放获取与数字资源建设",
+          "url": "https://www.oclc.org"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人",
-          "region": "以色列/美国",
+          "role": "播客主持人/YouTube创作者",
+          "region": "美国",
           "domain": "podcast",
-          "recent": "通过深度对话探讨超级智能、意识本质及 AI 伦理，成为公众理解前沿 AI 研究的重要桥梁。",
-          "url": "https://lexfridman.com/"
+          "recent": "持续访谈AI领域关键人物，关注AGI发展与技术伦理议题",
+          "url": "https://lexfridman.com"
         },
         {
-          "name": "Peter Suber",
-          "role": "开放获取运动领袖与图书馆学家",
+          "name": "Elon Musk",
+          "role": "Neuralink/xAI CEO",
           "region": "美国",
-          "domain": "library",
-          "recent": "关注生成式 AI 对信息访问模式的冲击，探索图书馆在 AI 时代的服务转型路径。",
-          "url": "https://suber.org/"
+          "domain": "ai",
+          "recent": "关注脑机接口与AI安全，推动人形机器人及自主系统发展",
+          "url": "https://www.x.ai"
+        },
+        {
+          "name": "李飞飞",
+          "role": "斯坦福大学AI研究员/前Facebook AI实验室负责人",
+          "region": "中国/美国",
+          "domain": "ai",
+          "recent": "关注计算机视觉与AI基础研究，推动AI教育普及与开放研究",
+          "url": "https://www.flyingddog.com"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "DeepLearning.AI创始人/斯坦福教授",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "关注AI教育普及与产业应用，推动全球AI人才培养计划",
+          "url": "https://www.andrewng.org"
         }
       ]
     },
