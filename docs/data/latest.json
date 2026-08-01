@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T12:24:40+08:00",
+  "generated_at": "2026-08-01T13:35:20+08:00",
   "date": "2026-08-01",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,44 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-01 10:10",
-    "ai": "2026-08-01 12:24",
+    "hot": "2026-08-01 13:35",
+    "ai": "2026-08-01 13:35",
     "voices": "2026-08-01 07:17",
-    "github": "2026-08-01 11:22",
+    "github": "2026-08-01 13:35",
     "libraries": "2026-08-01 06:30",
-    "sports": "2026-08-01 12:24",
+    "sports": "2026-08-01 13:35",
     "academic": "2026-08-01 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Reddit与Google的DMCA诉讼持续升级：AI搜索结果的版权争议",
+          "eng": "Reddit keeps its strange DMCA fight over Google search results alive",
+          "summary": "Reddit在Google败诉后仍继续推进对Perplexity AI的诉讼，指控其与其他网络爬虫合谋。这场围绕搜索结果和AI内容生成的法律纠纷凸显了数字时代版权保护的复杂性。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-07-31",
+          "tags": [
+            "Reddit",
+            "DMCA",
+            "版权诉讼",
+            "AI搜索"
+          ],
+          "url": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+          "overview": "Reddit在Google败诉后仍继续推进对Perplexity AI的诉讼，指控其与其他网络爬虫合谋。此前报道显示，Reddit曾就Google搜索结果的版权问题提起诉讼，但Google最终胜诉。这场围绕搜索结果和AI内容生成的法律纠纷凸显了数字时代版权保护的复杂性，各方对'合理使用'边界的理解存在根本性分歧。",
+          "analysis": "这场诉讼的核心矛盾在于：搜索引擎和AI平台是否有权复制和使用互联网上的公开内容。Reddit的坚持反映了内容创作者群体对AI侵蚀其经济利益的担忧，而科技巨头则倾向于更开放的内容使用政策。这一法律灰色地带可能持续数年才见分晓。",
+          "social": [
+            {
+              "who": "知识产权律师",
+              "text": "DMCA诉讼已成为科技公司之间争夺内容控制权的主要武器，但法律框架明显滞后于技术发展"
+            },
+            {
+              "who": "AI开发者",
+              "text": "过度限制内容使用将阻碍AI模型训练，需要在版权保护和AI发展之间找到平衡点"
+            }
+          ]
+        },
         {
           "title_zh": "OpenAI发现更多AI代理在Hugging Face事件中失控",
           "eng": "OpenAI reportedly finds evidence that more of its agents ran amok",
@@ -774,32 +801,6 @@
               "text": "从聊天到自主代理的转变需要重新思考人机交互的设计范式"
             }
           ]
-        },
-        {
-          "title_zh": "Mythos攻击使PQC算法候选者HAWK失效",
-          "eng": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-          "summary": "后量子密码学算法候选者HAWK在经历多年测试未发现致命弱点后，被Mythos攻击方法发现严重缺陷，导致其退出竞争。",
-          "source": "Ars Technica",
-          "region": "全球",
-          "published": "2026-07-29",
-          "tags": [
-            "网络安全",
-            "后量子密码学",
-            "HAWK"
-          ],
-          "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
-          "overview": "NIST第三轮后量子密码学算法候选者HAWK被Mythos攻击方法发现致命弱点，此前该算法经历了多年测试而未暴露此问题。这一事件凸显了后量子密码学研究的不确定性，以及新攻击方法可能颠覆现有安全假设的风险。",
-          "analysis": "HAWK的失效表明后量子密码学领域仍存在重大未知风险。随着全球各国加速部署后量子加密标准，此类安全漏洞的发现可能迫使整个行业重新评估已选定的算法方案，影响网络安全基础设施的建设进程。",
-          "social": [
-            {
-              "who": "密码学家",
-              "text": "新攻击方法的发现提醒我们，即使经过多年测试的算法也可能存在未知弱点"
-            },
-            {
-              "who": "安全工程师",
-              "text": "后量子密码学的标准化进程需要更加谨慎地评估候选算法的安全性"
-            }
-          ]
         }
       ]
     },
@@ -1151,295 +1152,271 @@
     "sports": {
       "items": [
         {
-          "title_zh": "FIFA 放弃世界杯股权出售计划",
+          "title_zh": "FIFA放弃世界杯股权出售计划，遭广泛反对后撤回提案",
           "eng": "Fifa scraps controversial World Cup investment plan",
-          "summary": "国际足联主席因凡蒂诺在遭遇全球范围内强烈反对后，正式宣布放弃将世界杯等大赛股份出售给私人投资者的争议性提案。",
+          "summary": "国际足联主席因凡蒂诺在遭遇全球范围内强烈反对后，宣布放弃将世界杯赛事权益出售给私人投资者的争议性计划。",
           "source": "BBC Football",
           "published": "2026-08-01",
           "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
-          "overview": "因凡蒂诺承认该计划“造成了不再符合客观利益的分裂”，在国际足联内部及全球范围内引发了巨大争议。欧洲足联此前已威胁抵制未来国际足联活动，最终迫使该项目搁浅。",
-          "analysis": "此举标志着国际足联商业化路线的重大转向，世界杯作为足球最高殿堂的独立性再次受到关注。若主席更替，FIFA 内部权力格局将发生剧变。",
+          "overview": "该计划曾引发足球界巨大震动，导致欧足联威胁抵制未来FIFA活动。因凡蒂诺承认该项目“造成了不再符合客观利益的分裂”。国际足联正式确认该提案不会继续推进。",
+          "analysis": "此举标志着FIFA在商业化改革上的重大倒退，但也反映了全球足球治理中公众信任与资本扩张之间的深层矛盾。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "终于不用看世界杯被卖钱了，国际足联还是得听大家的。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "因凡蒂诺的野心碰壁了，这比任何比分都更能说明足球治理的现状。"
+              "text": "终于不用看世界杯变成商品了"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "因凡蒂诺去留成谜，谁将接棒？",
-          "eng": "Infantino on the brink? Who might replace him if he goes?",
-          "summary": "国际足联主席因凡蒂诺在世界杯股权计划失败后面临巨大风暴，外界开始密切关注其继任者人选。",
-          "source": "BBC Football",
-          "published": "2026-08-01",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c998m4ve0rpo?at_medium=RSS&at_campaign=rss",
-          "overview": "因凡蒂诺在治理争议中处于风暴中心，BBC 分析了若其离任可能出现的替代方案及潜在候选人。这一政治博弈直接影响国际足联未来的发展方向。",
-          "analysis": "如果主席更替，FIFA 与各大洲足联的关系将重新洗牌，欧洲足联的态度是关键变量。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "该换人了，治理混乱已经严重影响了国家队备战。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "权力真空期往往伴随着更大的动荡，FIFA 的未来充满不确定性。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "麦克尼斯时代开启，流浪者队与邓迪联战平",
-          "eng": "Same start but different outlook at Rangers as McInnes era begins",
-          "summary": "新帅麦克尼斯执教流浪者队的首场比赛以 1-1 战平邓迪联告终，球队展现出不同的前景。",
-          "source": "BBC Football",
-          "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c04krgdvn3ro?at_medium=RSS&at_campaign=rss",
-          "overview": "尽管开局未胜，麦克尼斯表示球队将在新赛季有所提升。对手邓迪联由拉赫兰·罗斯首开纪录，但阿萨加德在下半场扳平比分。",
-          "analysis": "麦克尼斯接手后战术风格转变明显，首战平局虽未取胜但展现了新面貌，防守端表现稳固。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "流浪者终于有新气象了，开局平稳比输球强。"
-            },
-            {
-              "who": "解说员",
-              "text": "下半场的反击很有章法，麦克尼斯的执教理念正在落地。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "穆德里克上诉成功，切尔西球员获准恢复训练",
-          "eng": "Chelsea's Mudryk free to play after appeal against doping ban",
-          "summary": "切尔西门将穆德里克在反兴奋剂禁令的申诉中获得胜利，结束了自 2024 年 11 月以来无法参加俱乐部训练的困境。",
-          "source": "BBC Football",
-          "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cvg8pvr8e8go?at_medium=RSS&at_campaign=rss",
-          "overview": "穆德里克此前因禁赛无法进入切尔西训练基地，此次上诉成功意味着他可以重新参与球队活动。这对乌克兰球员及切尔西锋线深度是重大利好。",
-          "analysis": "穆德里克的回归将增强切尔西的进攻选择，但需要时间适应比赛节奏和战术体系。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "终于能上场了，乌克兰球员回来了。"
-            },
-            {
-              "who": "教练视角",
-              "text": "需要时间适应节奏，但锋线深度是实实在在的加分项。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "纽卡斯尔确认霍华德辞去主教练职务",
+          "title_zh": "纽卡斯尔联确认霍华德辞去主教练职务，执教近五年后离任",
           "eng": "Newcastle confirm Howe resignation as head coach",
-          "summary": "埃迪·霍华德在执教近五年后正式宣布辞去纽卡斯尔联队主教练一职。",
+          "summary": "埃迪·霍华德在执掌纽卡斯尔联队近五年后正式宣布辞去主教练一职。",
           "source": "BBC Football",
           "published": "2026-07-31",
           "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联队官方确认霍华德离任，结束了他长达近五年的执教生涯。这一人事变动标志着俱乐部一个时代的结束。",
-          "analysis": "新帅人选将成为今夏转会窗焦点，纽卡需要尽快确定方向以备战新赛季英超联赛。",
+          "overview": "这一消息标志着俱乐部进入了一个新的管理篇章，具体继任者人选尚未公布。",
+          "analysis": "尽管执教期间球队成绩起伏不定，但霍华德的离任为俱乐部带来了重建阵容和战术体系的机会。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "五年太久了，是时候换个思路了。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "接下来谁执教？这将是纽卡今夏最大的悬念之一。"
+              "who": "英超观察者",
+              "text": "纽卡终于要换血了"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "切尔西被英足总罚款千万英镑，避免扣分处罚",
+          "title_zh": "切尔西因违规向经纪人支付款项被英足总罚款千万英镑，避免扣分处罚",
           "eng": "Chelsea fined £10m but avoid suspended points deduction",
-          "summary": "切尔西因在 2009 至 2022 年间向代理人支付违规款项，被英足总处以 1000 万英镑罚款并免于扣分。",
+          "summary": "切尔西俱乐部因在2009年至2022年间违反经纪人相关规则，被英足总处以1000万英镑罚款，并获缓刑的转会禁令。",
           "source": "BBC Football",
           "published": "2026-07-31",
           "url": "https://www.bbc.co.uk/sport/football/articles/c5ygz42gedno?at_medium=RSS&at_campaign=rss",
-          "overview": "切尔西承认在阿布时代存在秘密支付行为，英足总此前已对俱乐部开出类似罚单。此次处罚虽重，但避免了扣分这一更严厉的制裁措施。",
-          "analysis": "切尔西在财务合规问题上再次暴露出历史遗留问题，巨额罚款虽重但避免扣分显示了俱乐部的谈判能力。",
+          "overview": "俱乐部承认了前管理层秘密支付的事实，此前英超联赛已对类似违规行为进行过处罚。",
+          "analysis": "虽然避免了直接扣分，但巨额罚款和转会禁令仍将对球队未来的引援操作产生显著限制。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "又交了一笔巨款，希望别再犯同样的错误了。"
-            },
-            {
-              "who": "足球记者",
-              "text": "财务纪律必须加强，否则扣分才是真正致命的打击。"
+              "who": "切尔西球迷",
+              "text": "希望别再罚了"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "FIFA放弃世界杯股权出售计划",
+          "title_zh": "麦克尼斯时代开启，流浪者队与邓迪联战平苏格兰超级联赛首轮",
+          "eng": "Same start but different outlook at Rangers as McInnes era begins",
+          "summary": "德里克·麦克尼斯在执教流浪者队的苏格兰超级联赛首秀中未能取胜，球队以1-1战平邓迪联。",
+          "source": "BBC Football",
+          "published": "2026-07-31",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c04krgdvn3ro?at_medium=RSS&at_campaign=rss",
+          "overview": "拉赫兰·罗斯为邓迪联打入赛季首球取得半场领先，但阿萨格德在下半场扳平比分帮助流浪者队拿到一分。",
+          "analysis": "尽管开局不利，麦克尼斯表示球队将在新赛季中有所提升，这场平局被视为新教练时代的起点。",
+          "social": [
+            {
+              "who": "苏格兰足球迷",
+              "text": "麦克尼斯需要证明自己"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "穆德里克在成功上诉后恢复比赛资格，结束自2024年11月以来的禁赛状态",
+          "eng": "Chelsea's Mudryk free to play after appeal against doping ban",
+          "summary": "切尔西乌克兰边锋穆德里克在成功对药检禁令提出申诉后，终于恢复了参赛资格。",
+          "source": "BBC Football",
+          "published": "2026-07-31",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvg8pvr8e8go?at_medium=RSS&at_campaign=rss",
+          "overview": "该球员自去年11月以来未参加过任何比赛，且此前无法进入俱乐部训练基地。",
+          "analysis": "穆德里克的回归为切尔西的阵容深度提供了更多选择，尤其是在赛季前备战阶段。",
+          "social": [
+            {
+              "who": "乌克兰球迷",
+              "text": "欢迎回家"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "阿森纳卫冕之路：球员疲劳管理与维尼修斯的引援难题",
+          "eng": "Arsenal's title defence: keeping tired players fit and the Vinícius question",
+          "summary": "阿森纳在击败MK多恩后正式开启季前赛程，但卫冕冠军面临核心球员疲劳和薪资结构限制等挑战。",
+          "source": "Guardian Football",
+          "published": "2026-07-31",
+          "url": "https://www.theguardian.com/football/2026/jul/31/arsenal-mikel-arteta-injuries-fatigue-title-defence",
+          "overview": "球队将在赛季前的友谊赛中对阵赫罗纳，试图展示上赛季夺冠并非偶然。",
+          "analysis": "如果无法签下维尼修斯·儒尼奥尔，阿森纳在争夺英超冠军时将面临巨大的战术和阵容调整压力。",
+          "social": [
+            {
+              "who": "枪手球迷",
+              "text": "希望新援能早点到位"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "FIFA放弃争议性世界杯投资计划",
           "eng": "Fifa scraps controversial World Cup investment plan",
-          "summary": "国际足联主席因凡蒂诺在遭到广泛反对后，宣布放弃将世界杯赛事权益出售给私人投资者的争议性方案。",
+          "summary": "FIFA主席因凡蒂诺提出的将世界杯等核心赛事股权出售给私人投资者的计划在遭到全球强烈反对后正式放弃，标志着FIFA商业化改革尝试的重大挫折。",
           "source": "BBC Sport",
           "published": "2026-08-01",
           "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
-          "overview": "国际足联主席因凡蒂诺此前提议将世界杯等核心赛事的权益出售给私人投资者，该计划在全球范围内引发了强烈反对。因凡蒂诺随后发表声明称该提案不会继续推进，承认其造成了不必要的分裂。欧洲足球协会联盟（UEFA）曾威胁抵制未来的国际足联活动，最终迫使这一商业计划搁浅。",
-          "analysis": "这一决定反映了国际足联在商业化与会员利益之间的艰难平衡。因凡蒂诺的权威可能因此受到挑战，未来国际足联的改革方向将变得更加谨慎。",
+          "overview": "FIFA主席因凡蒂诺提出的将世界杯等核心赛事股权出售给私人投资者的计划，在遭到全球范围内强烈反对后正式放弃。该提案曾引发足球界广泛愤怒，甚至导致欧足联威胁抵制FIFA未来的活动。因凡蒂诺随后发表声明承认该项目“造成了不再符合客观利益的分裂”。这一决定标志着FIFA商业化改革尝试的重大挫折。",
+          "analysis": "此举虽然平息了争议，但也暴露了FIFA在商业利益与足球传统之间的深层矛盾。未来世界杯的运营模式将如何调整，将是全球足坛关注的焦点。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "这是足球治理的一次重要转折，说明会员权益不能随意被资本化。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "因凡蒂诺的野心受挫，但国际足联的商业化探索并未完全停止。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "纽卡斯尔联确认主教练豪厄尔辞职",
-          "eng": "Newcastle confirm Howe resignation as head coach",
-          "summary": "埃迪·豪厄尔在执教近五年后宣布辞去纽卡斯尔联队主教练一职。",
-          "source": "BBC Sport",
-          "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联俱乐部正式确认埃迪·豪厄尔辞去主教练职务，结束了他近五年的执教生涯。这一消息在英超和欧洲足坛引起了广泛关注，球队的未来方向成为球迷热议的话题。",
-          "analysis": "豪厄尔的离开标志着纽卡斯尔一个时代的结束。新帅的选拔将直接影响球队的竞技表现和俱乐部的发展战略。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "五年时间不算短，但球队成绩是否达到预期是关键问题。"
+              "text": "终于不用为世界杯买单给私人资本了，这步棋走得对。"
             },
             {
               "who": "体育记者",
-              "text": "纽卡斯尔需要尽快找到合适的继任者以稳定军心。"
+              "text": "因凡蒂诺的改革之路看来走不通了，足球治理的复杂性远超预期。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "切尔西球员穆德里克因反兴奋剂禁令上诉获准恢复训练",
+          "title_zh": "纽卡斯尔联确认主帅豪厄尔辞职",
+          "eng": "Newcastle confirm Howe resignation as head coach",
+          "summary": "纽卡斯尔联俱乐部正式确认主帅埃迪·豪厄尔辞去主教练职务，结束了他近五年的执教生涯。",
+          "source": "BBC Sport",
+          "published": "2026-07-31",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss",
+          "overview": "纽卡斯尔联俱乐部正式确认主帅埃迪·豪厄尔辞去主教练职务，结束了他近五年的执教生涯。豪厄尔在执教的最后阶段带领球队经历了起伏，其离任标志着英超联赛又一位知名教练的离去。俱乐部尚未公布继任者人选，新帅的到来将直接影响球队未来的赛季走向。",
+          "analysis": "豪厄尔的离开让纽卡球迷面临新的不确定性，英超市场竞争激烈，谁能接棒将是关键看点。",
+          "social": [
+            {
+              "who": "英超观察员",
+              "text": "豪厄尔是个好教练但运气不佳，希望下任主帅能带来新气象。"
+            },
+            {
+              "who": "纽卡球迷",
+              "text": "五年了，是时候换血了，期待新帅能带领我们重回巅峰。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "切尔西乌克兰边锋穆德里克解禁回归",
           "eng": "Chelsea's Mudryk free to play after appeal against doping ban",
-          "summary": "切尔西和乌克兰边锋穆德里克在成功对反兴奋剂禁令提出上诉后，恢复了训练自由。",
+          "summary": "切尔西乌克兰边锋穆德里克在成功上诉反兴奋剂禁令后，恢复了参赛资格并获准进入俱乐部训练基地。",
           "source": "BBC Sport",
           "published": "2026-07-31",
           "url": "https://www.bbc.co.uk/sport/football/articles/cvg8pvr8e8go?at_medium=RSS&at_campaign=rss",
-          "overview": "穆德里克自2024年11月以来未能参加比赛，且无法进入切尔西的训练基地。此次上诉成功使他得以恢复训练，为未来的比赛做好准备。",
-          "analysis": "这一事件凸显了反兴奋剂体系中的争议和运动员权益保护的重要性。穆德里克的回归对切尔西的阵容深度将产生积极影响。",
+          "overview": "切尔西乌克兰边锋穆德里克在成功上诉反兴奋剂禁令后，恢复了参赛资格并获准进入俱乐部训练基地。自2024年11月以来，穆德里克一直无法参加比赛或接触球队设施，此次解禁对他个人和切尔西阵容深度都是利好消息。",
+          "analysis": "穆德里克的回归为切尔西中场增添了重要选项，但能否迅速适应节奏仍需观察。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "穆德里克终于能回来了，希望他能尽快恢复状态。"
+              "who": "切尔西球迷",
+              "text": "欢迎回家！终于不用再担心禁赛问题了。"
             },
             {
-              "who": "体育评论员",
-              "text": "反兴奋剂禁令的争议性决定再次引发了关于运动员权益保护的讨论。"
+              "who": "足球分析师",
+              "text": "穆德里克的速度和创造力是顶级资产，希望他能尽快找回状态。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "费城76人队确认签下NBA超级巨星勒布朗·詹姆斯",
+          "title_zh": "费城76人队正式签下勒布朗·詹姆斯",
           "eng": "Philadelphia 76ers confirm signing of NBA superstar LeBron James",
-          "summary": "费城76人队正式宣布签下NBA超级巨星勒布朗·詹姆斯。",
-          "source": "BBC Sport",
+          "summary": "费城76人队正式确认签下NBA超级巨星勒布朗·詹姆斯，这一消息在篮球界引起了巨大轰动。",
+          "source": "BBC Basketball",
           "published": "2026-07-27",
           "url": "https://www.bbc.co.uk/sport/articles/cx27r0me3zno?at_medium=RSS&at_campaign=rss",
-          "overview": "费城76人队确认签下勒布朗·詹姆斯，这一消息震惊了整个NBA和体育界。詹姆斯的加盟将极大地提升球队的竞争力和关注度。",
-          "analysis": "这一签约是NBA自由市场的一个重大事件，标志着詹姆斯职业生涯的新篇章。费城76人队的阵容实力将因此得到显著提升。",
+          "overview": "费城76人队正式确认签下NBA超级巨星勒布朗·詹姆斯，这一消息在篮球界引起了巨大轰动。此前詹姆斯曾引发多支球队的关注和猜测，最终选择加盟76人队标志着他职业生涯的新篇章。这一签约发生在休赛期，意味着新赛季的阵容竞争将更加激烈。",
+          "analysis": "詹姆斯的加盟无疑将提升76人队的竞争力，但球队需要处理好与现有阵容的化学反应问题。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "詹姆斯终于来了！费城的球迷可以期待一场精彩的比赛了。"
+              "who": "NBA老球迷",
+              "text": "詹姆斯终于回来了！无论去哪个队都是焦点。"
             },
             {
-              "who": "体育评论员",
-              "text": "这一签约对NBA的竞争格局产生了深远影响，其他球队需要重新评估自己的策略。"
+              "who": "篮球评论员",
+              "text": "76人得到了超级巨星，但能否夺冠还要看整体配合和战术体系。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "前NFL球星罗莫因威斯康星州酒驾被捕被CBS体育无限期停职",
+          "title_zh": "CBS将前四分卫罗莫无限期停职",
           "eng": "Tony Romo placed on leave from CBS Sports after OWI arrest in Wisconsin",
-          "summary": "前达拉斯牛仔队四分卫托尼·罗莫在威斯康星州因涉嫌酒后驾车被捕后，被CBS体育无限期停职。",
+          "summary": "CBS体育宣布将前达拉斯牛仔四分卫托尼·罗莫无限期停职，因其上周在威斯康星州因涉嫌醉驾被捕。",
           "source": "Guardian Sport",
           "published": "2026-07-31",
           "url": "https://www.theguardian.com/sport/2026/jul/31/tony-romo-cbs-leave-owi-arrest-jj-watt-nfl-broadcast",
-          "overview": "CBS体育宣布前NFL球星托尼·罗莫因涉嫌酒后驾车被捕后被无限期停职，由JJ瓦特接替其作为CBS NFL转播的主播。这一事件在NFL和体育媒体界引起了广泛关注。",
-          "analysis": "这一事件再次引发了关于运动员场外行为和职业操守的讨论。CBS体育需要尽快找到合适的替代人选以确保转播质量。",
+          "overview": "CBS体育宣布将前达拉斯牛仔四分卫托尼·罗莫无限期停职，因其上周在威斯康星州因涉嫌醉驾被捕。JJ瓦特将接替罗莫成为CBS NFL转播的主播之一，与吉姆·南斯和特蕾西·沃尔夫森搭档。这一人事变动对NFL的电视转播阵容产生了直接影响，同时也引发了关于运动员场外行为的广泛讨论。",
+          "analysis": "这一事件对NFL转播阵容产生了直接影响，也引发了关于运动员场外行为的讨论。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "罗莫的离开对CBS的NFL转播阵容是一个打击，希望JJ瓦特能填补空缺。"
+              "who": "NFL解说员",
+              "text": "罗莫的缺席是个损失，希望瓦特能填补这个空缺。"
             },
             {
-              "who": "体育评论员",
-              "text": "酒后驾车是严重违法行为，无论其职业成就如何都不应被原谅。"
+              "who": "体育记者",
+              "text": "醉驾被捕后无限期停职，这对他的职业生涯和形象都是打击。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "亨特·贝尔在格拉斯哥赢得800米金牌后展望2026年全面夺金",
+          "title_zh": "乌克兰就IOC恢复俄罗斯参赛资格提出申诉",
+          "eng": "Ukraine appeal against IOC decision to reinstate Russia",
+          "summary": "乌克兰国家奥委会就国际奥委会临时恢复俄罗斯参赛资格的决定，向体育仲裁法院提出了正式申诉。",
+          "source": "BBC Olympics",
+          "published": "2026-07-29",
+          "url": "https://www.bbc.co.uk/sport/olympics/articles/c5yvpwk1033o?at_medium=RSS&at_campaign=rss",
+          "overview": "乌克兰国家奥委会就国际奥委会临时恢复俄罗斯参赛资格的决定，向体育仲裁法院提出了正式申诉。这一决定在国际体坛引发了广泛争议，乌克兰方面认为这损害了奥林匹克运动的公正性。随着申诉的推进，俄乌在奥林匹克运动中的博弈将持续升温，最终裁决结果将影响未来大型赛事的参与格局。",
+          "analysis": "俄乌在奥林匹克运动中的博弈持续升温，最终裁决结果将影响未来大型赛事的参与格局。",
+          "social": [
+            {
+              "who": "国际奥委会观察员",
+              "text": "这是一个艰难的决定，但体育仲裁法院的介入可能会带来新的转机。"
+            },
+            {
+              "who": "乌克兰支持者",
+              "text": "不能容忍俄罗斯以这种方式回归赛场，申诉是必要的步骤。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "亨特·贝尔英联邦运动会800米夺金展望全年目标",
           "eng": "Hunter Bell eyes ambitious sweep after 800m gold in Glasgow",
-          "summary": "英国运动员乔治亚·亨特·贝尔在格拉斯哥英联邦运动会上赢得800米金牌后，展望了2026年的全面夺金计划。",
+          "summary": "英国选手亨特·贝尔在格拉斯哥英联邦运动会上赢得800米金牌后，展望了2026年夺取多枚金牌的雄心勃勃的目标。",
           "source": "BBC Sport",
           "published": "2026-07-31",
           "url": "https://www.bbc.co.uk/sport/athletics/articles/cj36lz1d2lno?at_medium=RSS&at_campaign=rss",
-          "overview": "亨特·贝尔在格拉斯哥英联邦运动会上赢得800米金牌，展现了她在田径领域的出色实力。她计划利用这一 momentum 在2026年继续争取更多金牌。",
-          "analysis": "亨特·贝尔的成就为英国田径队注入了信心，她的目标将为其他运动员树立榜样。2026年的比赛将是检验她实力的关键时刻。",
+          "overview": "英国选手亨特·贝尔在格拉斯哥英联邦运动会上赢得800米金牌后，展望了2026年夺取多枚金牌的雄心勃勃的目标。她的胜利展示了英国田径队的实力，也为她个人的职业生涯增添了新的亮点。接下来的比赛将是检验其能否实现全年目标的关键时刻，贝尔的表现无疑为英国田径注入了信心。",
+          "analysis": "贝尔的表现证明了她在中长跑项目上的统治力，接下来的比赛将是检验其能否实现全年目标的关键。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "亨特·贝尔太棒了！希望她能继续创造佳绩。"
+              "who": "田径爱好者",
+              "text": "太棒了！800米金牌实至名归，期待她接下来更大的突破。"
             },
             {
-              "who": "体育评论员",
-              "text": "她的表现证明了英国田径的实力，期待她在2026年带来更多惊喜。"
+              "who": "英国体育评论员",
+              "text": "贝尔的崛起是英国田径的一大亮点，希望她能继续保持势头。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "沃恩德鲁索娃反兴奋剂案关键发现：遛狗和粗话短信",
-          "eng": "Dog walk and expletive text - key findings in Vondrousova anti-doping case",
-          "summary": "BBC体育分析了2023年温网冠军马尔凯塔·沃恩德鲁索娃因拒绝兴奋剂检测而被禁赛四年的完整报告。",
-          "source": "BBC Tennis",
+          "title_zh": "美职联试图延续世界杯后的 momentum",
+          "eng": "How does MLS pick up the World Cup mantle? Casemiro helps, but it'll take much more",
+          "summary": "美职联试图在世界杯后延续 momentum，卡塞米罗的加盟被视为标志性事件之一。然而，联赛能否真正接过北美足球的旗帜，关键在于能否说服美国本土年轻球员留在联盟而非流向欧洲。",
+          "source": "Guardian Sport",
           "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cn0nrgp7nqlo?at_medium=RSS&at_campaign=rss",
-          "overview": "关于沃恩德鲁索娃反兴奋剂违规的完整报告已发布，BBC体育分析了其中的关键发现。该事件涉及她在2023年温网夺冠后拒绝接受兴奋剂检测，最终被禁赛四年。",
-          "analysis": "这一案件引发了对网球界反兴奋剂执法透明度和运动员权益保护的广泛讨论。沃恩德鲁索娃的禁赛决定是否公正成为争议焦点。",
+          "url": "https://www.theguardian.com/football/2026/jul/31/mls-casemiro-sebastian-berhalter-world-cup-young-american-players",
+          "overview": "美职联试图在世界杯后延续 momentum，卡塞米罗的加盟被视为标志性事件之一。然而，联赛能否真正接过北美足球的旗帜，关键在于能否说服美国本土年轻球员留在联盟而非流向欧洲。尽管卡塞米罗等老将的到来提升了联赛的关注度，但留住本土年轻球员才是MLS长期发展的核心挑战。",
+          "analysis": "MLS需要解决人才流失的根本问题，否则仅靠引进外援难以维持长期竞争力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "这个案子太复杂了，希望最终能有一个公正的结果。"
+              "who": "MLS球迷",
+              "text": "卡塞米罗是个好签，但留住自己的年轻人更重要。"
             },
             {
-              "who": "体育评论员",
-              "text": "反兴奋剂检测中的拒绝行为需要更加明确的处罚标准，以避免类似争议再次发生。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "鲍尔特将率领英国队参加比莉·简·金杯决赛",
-          "eng": "Boulter to lead GB at Billie Jean King Cup finals",
-          "summary": "凯蒂·鲍尔特将被选为英国队在2026年9月于中国深圳举行的比莉·简·金杯决赛中担任队长。",
-          "source": "BBC Tennis",
-          "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cpq8vlq2vdgo?at_medium=RSS&at_campaign=rss",
-          "overview": "凯蒂·鲍尔特被选为英国队在即将到来的比莉·简·金杯决赛中担任队长，该赛事将于2026年9月在中国深圳举行。这一任命标志着她在网球领域的进一步崛起。",
-          "analysis": "鲍尔特的领导能力将直接影响英国队的表现和士气。她的经验和技术将成为球队在决赛中的关键优势。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "鲍尔特太棒了！希望她能带领英国队取得好成绩。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这一任命是合理的，鲍尔特的经验和实力使她成为最佳选择。"
+              "who": "足球产业分析师",
+              "text": "世界杯的曝光度是双刃剑，MLS需要在商业和人才之间找到平衡点。"
             }
           ],
           "region": "综合"
@@ -1455,218 +1432,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "Kimi K3 - 月之暗面前沿智能模型",
+          "title_zh": "Kimi-K3：前沿智能模型",
           "eng": "MoonshotAI/Kimi-K3",
-          "summary": "月之暗面发布的Kimi K3大语言模型，Open Frontier Intelligence项目。",
+          "summary": "月之暗面推出的新一代前沿人工智能模型，具备强大的推理与生成能力。",
           "source": "GitHub",
-          "stars": 7726,
+          "stars": 7738,
           "lang": "",
           "published": "2026-07-27",
           "url": "https://github.com/MoonshotAI/Kimi-K3",
-          "overview": "月之暗面（Moonshot AI）推出的Kimi K3模型，定位为前沿智能体基础设施。该项目汇聚了全球开发者对Kimi K3模型的讨论、微调方案与部署实践，是目前中文圈关注度最高的开源AI项目之一。项目持续更新，反映了社区对国产大模型的深度参与。",
-          "analysis": "作为当前GitHub上高星最多的AI模型仓库，Kimi K3代表了2026年7月中国AI生态的重要里程碑。其高关注度说明开发者群体对国产替代方案的强烈需求，也为后续本地化部署和垂直场景应用提供了参考方向。",
+          "overview": "Kimi-K3是MoonshotAI（月之暗面）发布的前沿智能模型，在推理、代码生成和自然语言理解方面表现突出。该项目开源了模型的完整架构与训练细节，为研究者和开发者提供了深入探索前沿AI技术的窗口。7738颗星标反映了社区对其技术价值的广泛认可。",
+          "analysis": "作为国产大模型的代表作之一，Kimi-K3在推理能力上具有显著优势，适合需要深度分析、代码生成和复杂任务处理的场景。开源发布为学术研究和技术创新提供了重要基础。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "Kimi K3的社区活跃度极高，大量微调方案和API封装项目围绕其展开，是观察国产大模型生态的最佳窗口。"
+              "who": "AI研究者",
+              "text": "前沿模型架构的完整开源对理解大语言模型的推理机制有重要参考价值"
+            },
+            {
+              "who": "开发者",
+              "text": "适合需要强推理能力的复杂应用场景，代码生成质量表现突出"
             }
           ]
         },
         {
-          "title_zh": "qm - 多人协作Agent工作平台",
+          "title_zh": "QM：多人协作Agent平台",
           "eng": "yc-software/qm",
-          "summary": "YC出品的多人实时协作AI Agent框架，面向团队协作场景。",
+          "summary": "YC出品的多人在线AI Agent协作工具，支持团队实时协同完成复杂任务。",
           "source": "GitHub",
-          "stars": 2205,
+          "stars": 2547,
           "lang": "TypeScript",
           "published": "2026-07-29",
           "url": "https://github.com/yc-software/qm",
-          "overview": "由YC孵化推出的qm项目，定位为多人Agent协作工作平台。支持多智能体实时交互、任务分配与协同执行，旨在解决传统AI Agent在复杂工作流中缺乏团队协作能力的问题。采用TypeScript构建，便于开发者快速集成到现有系统中。",
-          "analysis": "YC背书的项目天然具备产品化潜力，qm的多Agent协作架构切中了企业级AI落地的核心痛点——从单智能体走向团队化部署。其开源策略有助于推动整个行业向多Agent范式演进。",
+          "overview": "QM是由Y Combinator出品的多人AI Agent协作平台，允许团队成员通过自然语言指令协同完成开发、分析等复杂任务。项目采用TypeScript构建，支持实时通信和任务分配，是团队化使用AI工具的重要实践。2547颗星标体现了YC生态项目的社区影响力。",
+          "analysis": "作为YC出品的工具，QM代表了AI Agent从个人使用走向团队协作的趋势。其多人协同机制为分布式开发、头脑风暴等场景提供了新的解决方案。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "YC出品+TypeScript技术栈，对团队协作场景的AI Agent支持非常实用，值得工程团队关注。"
+              "who": "开发者",
+              "text": "团队化使用AI Agent的标杆项目，实时协作功能设计精良"
+            },
+            {
+              "who": "研究者",
+              "text": "多人Agent协同机制为研究分布式智能系统提供了实践案例"
             }
           ]
         },
         {
-          "title_zh": "persona - 实时语音交互引擎",
+          "title_zh": "Persona：实时语音AI助手",
           "eng": "xikhar/persona",
-          "summary": "为AI智能体注入实时语音能力的开源项目，让对话真正\"活\"起来。",
+          "summary": "将真实感语音技术带入AI交互，让虚拟角色拥有自然流畅的实时对话能力。",
           "source": "GitHub",
-          "stars": 718,
+          "stars": 722,
           "lang": "JavaScript",
           "published": "2026-07-28",
           "url": "https://github.com/xikhar/persona",
-          "overview": "persona项目专注于为AI Agent提供实时语音输出能力，通过流式音频生成让智能体具备\"说话\"的临场感。支持多种音色和语速调节，适用于客服机器人、虚拟助手等需要自然交互的场景。JavaScript实现使其易于嵌入现有Web应用。",
-          "analysis": "随着多模态AI的发展，语音交互正成为关键差异化能力。persona填补了文本Agent到语音Agent之间的技术空白，对构建更自然的AI产品具有重要价值。",
+          "overview": "Persona项目致力于将实时语音技术应用于AI角色交互，通过先进的语音合成和识别技术实现自然流畅的对话体验。该项目采用JavaScript构建，注重用户体验和交互质量，为虚拟助手、角色扮演等场景提供了技术方案。",
+          "analysis": "实时语音是AI交互的重要方向，Persona在语音质量和响应速度上做了优化，适合需要高沉浸感的应用场景如教育、客服等。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "实时语音是AI Agent落地的最后一公里，persona让文字对话升级为真正的语音交互体验。"
+              "who": "开发者",
+              "text": "实时语音交互的实现方案值得参考，对提升AI应用的用户体验有直接帮助"
+            },
+            {
+              "who": "研究者",
+              "text": "语音合成与识别的集成方式对多模态AI研究有参考价值"
             }
           ]
         },
         {
-          "title_zh": "qwen-audio-agent - 通义千问实时语音Agent运行时",
+          "title_zh": "QwenAudio Agent：实时语音Agent运行时",
           "eng": "QwenAudio/qwen-audio-agent",
-          "summary": "阿里通义推出的AI Agent实时语音运行时，让智能体持续对话、工作和呈现。",
+          "summary": "让AI Agent具备实时语音能力，保持对话的连续性和自然感。",
           "source": "GitHub",
-          "stars": 618,
+          "stars": 626,
           "lang": "JavaScript",
           "published": "2026-07-27",
           "url": "https://github.com/QwenAudio/qwen-audio-agent",
-          "overview": "Qwen团队推出的实时语音Agent运行时，核心能力是让AI Agent保持\"在线\"状态——持续对话、执行任务并实时呈现结果。支持流式音频输出和多轮交互，JavaScript实现便于快速集成到各类应用中。是通义千问生态中面向语音场景的重要补充。",
-          "analysis": "与persona形成差异化竞争，qwen-audio-agent背靠阿里技术栈，在中文语音合成和语义理解方面有天然优势。实时Agent运行时概念代表了AI产品从\"问答式\"向\"陪伴式\"交互的演进方向。",
+          "overview": "QwenAudio推出的实时语音Agent运行时，使AI Agent能够像真人一样持续对话、工作并保持在场感。该项目基于通义千问的音频能力构建，支持多种应用场景如客服、教育、陪伴等，是AI语音交互的重要基础设施。",
+          "analysis": "作为阿里云通义系列的产品，QwenAudio Agent在实时性和稳定性上做了优化，适合需要长时间对话的场景。其开源实现为开发者提供了集成方案。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "通义千问生态的语音Agent方案，中文场景下的实时交互体验值得期待。"
+              "who": "开发者",
+              "text": "实时语音Agent的运行时设计值得参考，降低了集成成本"
+            },
+            {
+              "who": "研究者",
+              "text": "多模态AI Agent的实时交互机制对研究有参考价值"
             }
           ]
         },
         {
-          "title_zh": "FDE指南 - 前沿部署工程师入门书",
+          "title_zh": "FDE指南：前沿部署工程师入门",
           "eng": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-          "summary": "基于范冰《增长黑客》框架的前端部署工程师（FDE）从零入门指南。",
+          "summary": "基于范冰《增长黑客》框架的前沿部署工程师从零入门指南。",
           "source": "GitHub",
-          "stars": 583,
+          "stars": 597,
           "lang": "",
           "published": "2026-07-30",
           "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-          "overview": "这是一本面向前端部署工程师的系统性学习指南，基于范冰《增长黑客》的框架体系。内容涵盖从基础概念到实战部署的全链路知识，帮助开发者建立完整的前端工程化思维。采用中文撰写，降低了技术门槛。",
-          "analysis": "在AI工具链日益复杂的背景下，\"前沿部署工程师\"角色越来越重要。本书填补了从开发到部署的中间环节知识空白，对前端团队的技术成长具有实用价值。",
+          "overview": "FDE（前沿部署工程师）指南是一本面向AI时代新角色的学习资源，基于范冰《增长黑客》的框架体系，帮助开发者理解如何将AI技术落地到实际业务中。项目采用中文编写，适合国内开发者快速入门前沿部署领域。",
+          "analysis": "作为学习资源类项目，FDE指南填补了AI部署工程师这一新兴角色的知识空白，对希望将AI技术落地的开发者有重要参考价值。",
           "social": [
             {
-              "who": "开发者/学习者",
-              "text": "基于成熟框架的前端部署指南，适合想系统提升工程能力的开发者阅读。"
+              "who": "学习者",
+              "text": "前沿部署工程师的角色定位清晰，适合想要转型的开发者"
+            },
+            {
+              "who": "从业者",
+              "text": "基于成熟框架的学习路径设计合理，降低了入门门槛"
             }
           ]
         },
         {
-          "title_zh": "ponytail-improved - AI Agent\"偷懒\"代码生成器",
+          "title_zh": "Ponytail Improved：AI代码生成优化器",
           "eng": "0xwilliamortiz/ponytail-improved",
-          "summary": "让AI Agent像最懒的高级工程师一样思考，只写最佳代码。",
+          "summary": "让AI Agent像最懒的高级开发者一样思考，专注于生成最佳代码。",
           "source": "GitHub",
           "stars": 570,
           "lang": "JavaScript",
           "published": "2026-07-28",
           "url": "https://github.com/0xwilliamortiz/ponytail-improved",
-          "overview": "ponytail-improved是一个AI代码生成优化器，核心理念是\"最好的代码是你从未写过的\"。它通过引导AI Agent采用更简洁、更优雅的实现方式，减少冗余代码和过度工程化问题。JavaScript实现使其可轻松集成到各类IDE和开发工具中。",
-          "analysis": "随着AI编程工具的普及，如何避免AI生成的\"过度工程化\"代码成为新挑战。ponytail-improved从思维层面优化Agent的代码生成策略，代表了AI辅助编程从\"能写\"到\"写好\"的进阶方向。",
+          "overview": "Ponytail Improved是一个AI代码生成优化工具，核心理念是让AI Agent像最懒的高级开发者一样思考——只生成真正需要的代码。该项目采用JavaScript构建，注重代码质量和效率，适合需要高质量代码生成的场景。",
+          "analysis": "作为AI编码辅助工具的改进版，Ponytail Improved在代码质量上做了优化，其'最懒的开发者'理念有助于减少冗余代码生成，提升开发效率。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "\"最好的代码是你从未写过的\"——这个理念直击AI编程的核心痛点，非常实用。"
+              "who": "开发者",
+              "text": "'最懒的开发者'理念很实用，能有效减少AI生成的冗余代码"
+            },
+            {
+              "who": "研究者",
+              "text": "对理解AI编码辅助工具的优化方向有参考价值"
             }
           ]
         },
         {
-          "title_zh": "deltafin - 本地运行Kimi K3的完整方案",
+          "title_zh": "DeltaFin：本地运行Kimi K3方案",
           "eng": "gavamedia/deltafin",
-          "summary": "在单台设备上完整运行Kimi K3，并提供OpenAI兼容API服务器。",
+          "summary": "在单台设备上完整运行Kimi K3模型，并提供OpenAI兼容的API服务器。",
           "source": "GitHub",
-          "stars": 565,
+          "stars": 568,
           "lang": "Python",
           "published": "2026-07-28",
           "url": "https://github.com/gavamedia/deltafin",
-          "overview": "deltafin是一个完整的本地AI部署方案，支持在单台设备上运行Kimi K3模型，并提供OpenAI兼容的API接口。开发者可直接用它搭建本地聊天机器人和编码Agent服务器，无需依赖云端服务。Python实现降低了部署门槛。",
-          "analysis": "隐私敏感场景下，本地化大模型部署需求持续增长。deltafin将Kimi K3的本地运行门槛大幅降低，为个人开发者和中小企业提供了可行的私有化方案。",
+          "overview": "DeltaFin是一个本地化部署方案，支持在单台设备上完整运行Kimi K3模型，并提供OpenAI兼容的API服务器。该项目采用Python构建，降低了使用前沿模型的硬件门槛，适合需要离线或隐私保护的场景。",
+          "analysis": "作为Kimi K3的本地化方案，DeltaFin让开发者可以在自己的设备上使用前沿模型，无需依赖云服务，对数据安全和成本控制有重要意义。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "单设备跑通Kimi K3+OpenAI API，对需要数据隐私的团队非常有吸引力。"
+              "who": "开发者",
+              "text": "本地运行方案降低了硬件门槛，适合需要离线使用的场景"
+            },
+            {
+              "who": "研究者",
+              "text": "模型量化和优化的实现细节对研究有参考价值"
             }
           ]
         },
         {
-          "title_zh": "openclaude-improved - 随处可用的Claude运行器",
+          "title_zh": "OpenClaude Improved：通用AI助手",
           "eng": "0xwilliamortiz/openclaude-improved",
-          "summary": "在任何地方运行Claude，使用任何硬件——轻量级AI推理方案。",
+          "summary": "一个可以在任何地方运行、使用任何资源的改进版Claude AI助手。",
           "source": "GitHub",
           "stars": 563,
           "lang": "TypeScript",
           "published": "2026-07-26",
           "url": "https://github.com/0xwilliamortiz/openclaude-improved",
-          "overview": "openclaude-improved是一个跨平台Claude推理运行器，支持在任何硬件环境上执行AI任务。采用TypeScript构建，提供统一的API接口，开发者可将其集成到各类应用中。核心理念是\"runs anywhere, uses anything\"，降低了对特定GPU的依赖。",
-          "analysis": "在云端API成本持续上升的背景下，本地化/边缘化推理方案越来越重要。openclaude-improved的跨平台特性使其成为构建离线AI应用的理想选择。",
+          "overview": "OpenClaude Improved是一个改进版的AI助手项目，支持在任何环境中运行并使用各种资源。该项目采用TypeScript构建，注重灵活性和兼容性，适合需要跨平台使用的场景。",
+          "analysis": "作为通用型AI助手，OpenClaude Improved在兼容性和灵活性上做了优化，适合需要集成到不同系统中的开发者。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "\"runs anywhere, uses anything\"——这种灵活性对构建离线AI产品至关重要。"
+              "who": "开发者",
+              "text": "跨平台兼容性设计精良，降低了集成成本"
+            },
+            {
+              "who": "研究者",
+              "text": "对理解AI助手的架构设计和优化方向有参考价值"
             }
           ]
         },
         {
-          "title_zh": "ratchet - AI Agent规则合规检查器",
-          "eng": "0xwilliamortiz/ratchet",
-          "summary": "Agent读规则，ratchet检查它是否遵守了——AI行为审计工具。",
-          "source": "GitHub",
-          "stars": 401,
-          "lang": "JavaScript",
-          "published": "2026-07-31",
-          "url": "https://github.com/0xwilliamortiz/ratchet",
-          "overview": "ratchet是一个AI Agent行为合规检查工具，核心功能是验证Agent是否遵循了预设的规则和约束。当Agent执行任务时，ratchet会自动审计其行为轨迹，确保输出符合预期规范。JavaScript实现使其可嵌入各类Agent框架中。",
-          "analysis": "随着企业级AI Agent的普及，如何确保Agent行为可控、合规成为关键问题。ratchet从\"事后审计\"角度解决了这一痛点，对金融、医疗等高风险场景尤为重要。",
-          "social": [
-            {
-              "who": "开发者/研究者",
-              "text": "Agent读规则，ratchet检查——这个设计思路巧妙，让AI行为可追溯、可验证。"
-            }
-          ]
-        },
-        {
-          "title_zh": "talivia - 开源自托管营收分析平台",
+          "title_zh": "Talivia：开源营收分析平台",
           "eng": "talivia-group/talivia",
-          "summary": "面向创始人的开源营收优先分析工具，支持网页分析、会话回放和收入归因。",
+          "summary": "面向创始人的开源自托管营收分析工具，支持网页分析、会话回放和收入归因。",
           "source": "GitHub",
-          "stars": 527,
+          "stars": 532,
           "lang": "TypeScript",
           "published": "2026-07-29",
           "url": "https://github.com/talivia-group/talivia",
-          "overview": "talivia是一个开源的自托管营收分析平台，定位为\"datafast替代方案\"。核心功能包括网页流量分析、会话回放、收入归因和客户价值集成。采用TypeScript构建，支持私有化部署，适合对数据隐私有要求的团队使用。",
-          "analysis": "在SaaS工具订阅成本持续攀升的背景下，开源自托管方案为中小企业提供了高性价比替代选择。talivia的营收优先设计直击创始人最关心的增长指标。",
+          "overview": "Talivia是一个开源的营收分析平台，支持网页分析、会话回放、收入归因和客户收入集成等功能。该项目定位为Datafast的替代品，采用TypeScript构建，适合需要自托管数据隐私保护的团队使用。",
+          "analysis": "作为开源替代方案，Talivia在功能完整性和隐私保护上做了平衡，适合对数据安全有要求的创业公司和技术团队。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "datafast的开源替代品，TypeScript技术栈+自托管部署，对注重数据隐私的团队很实用。"
+              "who": "开发者",
+              "text": "自托管方案满足了数据隐私需求，功能覆盖全面"
+            },
+            {
+              "who": "研究者",
+              "text": "营收归因的实现方式对研究数据分析有参考价值"
             }
           ]
         },
         {
-          "title_zh": "rescript - 浏览器端视频音频编辑器",
+          "title_zh": "Rescript：浏览器视频编辑器",
           "eng": "wassgha/rescript",
-          "summary": "开源的基于转录脚本的视频/音频编辑器，完全运行在浏览器中。",
+          "summary": "开源的基于转录字幕的视频/音频编辑器，完全在浏览器中运行。",
           "source": "GitHub",
-          "stars": 473,
+          "stars": 475,
           "lang": "TypeScript",
           "published": "2026-07-26",
           "url": "https://github.com/wassgha/rescript",
-          "overview": "rescript是一个创新的视频/音频编辑工具，核心理念是\"基于转录脚本进行编辑\"——用户通过文字描述来操控音视频内容。完全在浏览器中运行，无需上传文件到服务器，保护隐私的同时提供流畅的编辑体验。TypeScript实现便于二次开发。",
-          "analysis": "\"基于转录编辑\"的概念打破了传统时间轴编辑的模式，大幅降低了视频剪辑的学习门槛。结合浏览器端运行的架构，使其成为AI时代内容创作工具的新范式。",
+          "overview": "Rescript是一个开源的视频和音频编辑器，基于转录字幕进行编辑操作，完全在浏览器中运行无需安装。该项目采用TypeScript构建，支持多种媒体格式，适合需要快速剪辑视频内容的创作者使用。",
+          "analysis": "作为浏览器端的视频编辑工具，Rescript降低了使用门槛，其基于字幕的编辑方式特别适合播客、访谈等音频内容制作场景。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "用文字描述来剪辑音视频——这个交互方式非常直觉化，对非专业用户友好。"
+              "who": "开发者",
+              "text": "浏览器端运行方案降低了部署成本，适合快速原型开发"
+            },
+            {
+              "who": "研究者",
+              "text": "基于字幕的视频编辑机制对研究多模态内容处理有参考价值"
             }
           ]
         },
         {
-          "title_zh": "snowflow_demo - WebGPU程序化雪景渲染演示",
+          "title_zh": "Snowflow Demo：WebGPU雪景渲染",
           "eng": "Noniv/snowflow_demo",
-          "summary": "基于WebGPU和Babylon.js的程序化雪景实时渲染技术演示。",
+          "summary": "使用WebGPU和Babylon.js实现的实时程序化雪景渲染演示项目。",
           "source": "GitHub",
-          "stars": 413,
+          "stars": 416,
           "lang": "JavaScript",
           "published": "2026-07-28",
           "url": "https://github.com/Noniv/snowflow_demo",
-          "overview": "snowflow_demo是一个技术演示项目，展示了基于WebGPU的程序化雪景实时渲染能力。使用Babylon.js引擎和手写WGSL着色器，实现了GPU生成的地形、雪变形效果、程序化角色、布料模拟、水面波纹、大气效果和后期处理——无需任何纹理贴图或3D模型资产。",
-          "analysis": "该项目展示了WebGPU在复杂场景渲染中的潜力，证明了纯程序化生成可以替代传统美术资源制作流程。对游戏开发者和图形技术爱好者具有参考价值。",
+          "overview": "Snowflow Demo是一个使用WebGPU和Babylon.js实现的实时程序化雪景渲染项目，包含GPU生成的地形、雪变形、程序化角色、布料模拟等效果。该项目无需纹理、网格或动画资产即可实现丰富的视觉效果，展示了WebGPU的强大能力。",
+          "analysis": "作为WebGPU技术的实践案例，Snowflow Demo展示了现代浏览器图形能力的上限，适合学习WebGPU编程和3D渲染技术。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "无需纹理、模型或动画资产就能实现完整雪景——WebGPU的程序化渲染能力令人印象深刻。"
+              "who": "开发者",
+              "text": "WebGPU编程的优秀实践案例，对学习现代浏览器图形技术有参考价值"
+            },
+            {
+              "who": "研究者",
+              "text": "程序化渲染的实现方式对研究实时图形学有参考价值"
+            }
+          ]
+        },
+        {
+          "title_zh": "Ratchet：Agent规则检查器",
+          "eng": "0xwilliamortiz/ratchet",
+          "summary": "让AI Agent阅读规则后，自动检查其是否遵循了这些规则。",
+          "source": "GitHub",
+          "stars": 402,
+          "lang": "JavaScript",
+          "published": "2026-07-31",
+          "url": "https://github.com/0xwilliamortiz/ratchet",
+          "overview": "Ratchet是一个AI Agent规则检查工具，让Agent在执行任务前先阅读相关规则，然后自动验证其是否遵循了这些约束。该项目采用JavaScript构建，适合需要确保AI行为符合特定规范的场景如企业合规、安全策略等。",
+          "analysis": "作为AI Agent的'守门人'工具，Ratchet在确保AI行为可控性方面具有重要价值，适合对AI输出质量有严格要求的企业级应用场景。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Agent规则检查机制设计精良，有效提升了AI输出的可控性"
+            },
+            {
+              "who": "研究者",
+              "text": "对理解如何约束和优化AI Agent行为有参考价值"
             }
           ]
         }
@@ -1675,212 +1700,187 @@
     "hot": {
       "items": [
         {
-          "title_zh": "西班牙塞乌塔遭大规模非法移民涌入，至少57人遇难引发政治危机",
-          "summary": "数万名移民在24小时内涌入西班牙飞地塞乌塔，导致至少57人死亡。西班牙首相桑切斯称此举为“领土完整被侵犯”，意大利随后暂停与马德里之间的申根协议。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-31",
-          "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
-          "overview": "数万名移民在短短24小时内涌入西班牙北非飞地塞乌塔，造成至少57人死亡。这一巨大的人道主义危机导致城市8.5万居民不堪重负，西班牙首相桑切斯怒斥这是“对领土完整的侵犯”。意大利随即暂停了与马德里之间的申根自由流动协议，欧盟内部政治紧张局势升级。",
-          "analysis": "此次事件暴露了欧洲南部边境管控的严重漏洞，死亡人数刷新纪录。塞乌塔作为西班牙在摩洛哥的军事前哨，其人口规模极小，难以应对如此规模的非法入境潮，可能引发更广泛的难民政策辩论。",
-          "social": [
-            {
-              "who": "欧盟观察员",
-              "text": "边境危机再次证明申根区内部团结的脆弱性，意大利暂停协议是成员国保护自身利益的本能反应。"
-            }
-          ]
-        },
-        {
-          "title_zh": "刚果民主共和国埃博拉疫情成为该病毒历史上增长最快的一次爆发",
-          "summary": "刚果东部五个省份确认病例达3,360例，死亡1,487人。由于针对邦迪布戈亚毒株的疫苗可能仍需数月才能问世，卫生工作者面临减缓疫情的严峻挑战。",
+          "title_zh": "刚果（金）埃博拉疫情为病毒已知历史中增长最快的一次",
+          "summary": "刚果民主共和国东部五省确诊3360例，死亡1487人。这是该病毒历史上增速最快的疫情爆发，疫苗研发可能仍需数月。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-31",
           "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
-          "overview": "刚果民主共和国的埃博拉疫情已蔓延至东部五个省份，确诊人数和死亡人数均创历史纪录。最新数据显示病例数已达3,360例，死亡1,487人。针对该特定毒株的有效疫苗研发进展缓慢，预计仍需数月才能投入使用。",
-          "analysis": "此次疫情增长速度之快令人震惊，凸显了非洲地区公共卫生基础设施的薄弱。在缺乏有效疫苗和医疗资源的情况下，如何遏制病毒传播将成为国际社会的紧迫课题。",
+          "overview": "刚果民主共和国东部五省确诊3360例，死亡1487人。这是该病毒历史上增速最快的疫情爆发，疫苗研发可能仍需数月。卫生工作者面临严峻挑战以遏制疫情蔓延。",
+          "analysis": "此次埃博拉疫情在已知历史中增长最快，对全球公共卫生安全构成重大威胁。若疫苗无法及时到位，周边国家面临输入性风险的可能性将显著增加。",
           "social": [
             {
-              "who": "全球卫生专家",
-              "text": "埃博拉病毒的快速扩散再次敲响了警钟，国际社会必须加大对非洲地区疾病监测和防控体系的投入。"
+              "who": "WHO专家",
+              "text": "必须立即加强东非地区的医疗资源调配，防止疫情向更多省份扩散。"
+            },
+            {
+              "who": "国际观察员",
+              "text": "这再次提醒我们，热带传染病防控体系在全球化背景下依然脆弱。"
             }
           ]
         },
         {
-          "title_zh": "马斯克回应特斯拉剥离中国业务传闻，称系假新闻",
-          "summary": "针对第三方转发的特斯拉考虑拆分中国业务的报道，马斯克亲自回复称“这是假新闻”，特斯拉中国内部人士也证实消息不实。",
+          "title_zh": "西班牙首相指责走私者：六万移民涌入塞乌塔引发政治危机",
+          "summary": "约六万名移民在24小时内试图进入西班牙飞地塞乌塔，导致至少57人死亡。意大利随后暂停与马德里之间的申根协议自由流动安排。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-07-31",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+          "overview": "约六万名移民在24小时内试图进入西班牙飞地塞乌塔，导致至少57人死亡。西班牙首相桑切斯称这是“对领土完整性的侵犯”。意大利随后暂停了与马德里之间的申根协议自由流动安排。",
+          "analysis": "这一事件暴露了欧盟南部边境管控的严重漏洞，可能引发欧洲内部关于难民配额和边境政策的新一轮激烈辩论。",
+          "social": [
+            {
+              "who": "欧盟议员",
+              "text": "申根区的安全基石正在被侵蚀，各国必须重新审视自由流动的前提条件。"
+            },
+            {
+              "who": "人道主义组织",
+              "text": "在指责走私者的同时，国际社会不应忽视这些绝望移民背后的深层根源问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "国际足联放弃争议性世界杯投资计划",
+          "summary": "在广泛反对声浪下，国际足联放弃了出售主要赛事股份的计划。该提案此前由主席因凡蒂诺提出，旨在为世界杯融资。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
+          "overview": "在广泛反对声浪下，国际足联放弃了出售主要赛事股份的计划。该提案此前由主席因凡蒂诺提出，旨在为世界杯融资。足球界普遍认为此举是回应球迷和成员国对商业化的强烈不满。",
+          "analysis": "这一决定标志着国际足联在商业化与公共利益之间的重大妥协，未来如何平衡财政需求与赛事纯粹性将成为核心议题。",
+          "social": [
+            {
+              "who": "球迷代表",
+              "text": "终于听到了我们的声音，足球不应完全沦为资本的游戏。"
+            },
+            {
+              "who": "体育产业分析师",
+              "text": "虽然放弃了出售股份，但FIFA的财政压力并未解除，未来可能寻求其他融资渠道。"
+            }
+          ]
+        },
+        {
+          "title_zh": "马斯克否认特斯拉剥离中国业务；国内航线燃油附加费再降30元",
+          "summary": "针对特斯拉考虑拆分中国业务的传闻，马斯克及内部人士均予以否认。同时，多家航空公司宣布自8月5日起下调燃油附加费，800公里以上航线每人省30元。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-01",
           "url": "https://36kr.com/p/3920241240419720?f=rss",
-          "overview": "7月31日，关于特斯拉正考虑拆分中国业务的传闻甚嚣尘上。对此，特斯拉CEO马斯克在社交媒体上直接回应称“这是假新闻”。同时，特斯拉中国内部人士向媒体表示该消息不实，强调公司在中国市场的战略并未改变。",
-          "analysis": "此次辟谣反映了中美贸易摩擦背景下，外资企业在中国市场面临的舆论压力。马斯克的强硬回应旨在稳定投资者信心，表明特斯拉仍看好中国市场的增长潜力。",
+          "overview": "针对特斯拉考虑拆分中国业务的传闻，马斯克及内部人士均予以否认。同时，多家航空公司宣布自8月5日起下调燃油附加费，800公里以上航线每人省30元。此外，中国最高薪本科专业易主，电子科学与工程专业以7814元位居第一。",
+          "analysis": "特斯拉中国业务的稳定性再次得到确认，消除了市场对中美贸易摩擦影响汽车产业链的担忧。国内航司同步降费则进一步降低了出行成本。",
           "social": [
             {
-              "who": "汽车行业分析师",
-              "text": "尽管有传闻，但中国仍是特斯拉全球最大的单一市场之一，短期内剥离业务的可能性极低。"
+              "who": "科技博主",
+              "text": "马斯克这次辟谣挺快，看来中国市场对特斯拉来说还是太重要了。"
+            },
+            {
+              "who": "旅客",
+              "text": "终于降价了！暑期出行成本能省不少，期待更多航线跟进。"
             }
           ]
         },
         {
-          "title_zh": "开云集团上半年营收增长16%，古驰业绩修复超预期",
-          "summary": "法国开云集团发布2026年上半年财报，营收同比增长16%。核心品牌古驰第二季度营收降幅收窄至2%，法股次日开盘飙升17%。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-31",
-          "url": "https://36kr.com/p/3919225763540611?f=rss",
-          "overview": "法国开云集团公布2026年上半年业绩，按固定汇率计营收同比增长16%至30.48亿欧元。其中核心品牌古驰第二季度营收降幅从第一季度的8%大幅收窄至2%，经常性营业利润率同比提升1个百分点。受财报提振，次日法股开盘飙升17%。",
-          "analysis": "在消费下行周期和地缘政治不确定性下，开云集团实现了三年来首次单季度正增长，显示出奢侈品行业强大的韧性和品牌修复能力。古驰的业绩改善尤为关键，验证了管理层战略调整的有效性。",
-          "social": [
-            {
-              "who": "时尚产业评论员",
-              "text": "古驰的强势反弹表明消费者对中国市场的信心正在恢复，这为整个奢侈品行业注入了积极信号。"
-            }
-          ]
-        },
-        {
-          "title_zh": "曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
-          "summary": "前腾讯混元团队及米哈游旗下AI公司高管曾爱玲加入哔哩哔哩，负责AI视频生成业务。此举显示B站在AI领域的持续投入和人才争夺战加剧。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-31",
-          "url": "https://36kr.com/p/3910776673064073?f=rss",
-          "overview": "36氪独家获悉，拥有香港中文大学博士学位的AI专家曾爱玲入职B站，直接向CEO陈睿汇报。她此前曾在腾讯混元团队和米哈游旗下Anuttacon公司负责多模态视频生成系统开发。B站此举旨在强化其在AI视频创作领域的核心竞争力。",
-          "analysis": "随着AIGC技术快速发展，各大平台对顶尖AI人才的争夺日益白热化。曾爱玲的加入标志着B站在AI视频赛道上的布局进一步升级，未来可能推出更具创新性的视频生成产品。",
-          "social": [
-            {
-              "who": "互联网行业猎头",
-              "text": "头部平台的AI人才流动频率加快，这既是技术迭代的结果，也反映了市场对AI商业化落地的高度期待。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国国务院在巴西艾滋病大会上的非洲地图标注错误引发外交风波",
-          "summary": "美国国务院在里约热内卢举行的全球会议演示中展示的非洲地图将每个国家名称标错，遭到与会者截图传播并引发广泛批评。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-30",
-          "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
-          "overview": "在美国国务院于巴西里约热内卢举行的全球艾滋病会议上的演示中，展示的一张非洲地图将每个国家的名称都标注错误。这一失误被与会者截图并迅速在社交媒体上传播，美国国务院随后表示“承担全部责任”。",
-          "analysis": "此次事件不仅暴露了美国政府内部数据审核流程的疏漏，更在国际舞台上造成了尴尬的外交形象。在强调全球合作与尊重的国际会议上出现此类低级错误，引发了对政府专业性的质疑。",
-          "social": [
-            {
-              "who": "外交政策学者",
-              "text": "细节决定成败，地图标注错误虽看似小事，但在国际场合却可能损害国家的严肃性和可信度。"
-            }
-          ]
-        },
-        {
-          "title_zh": "坎特伯雷大主教承诺支持1亿英镑基金援助受奴役影响社区",
-          "summary": "在访问加纳期间，坎特伯雷大主教Sarah Mullally对英国国教参与跨大西洋奴隶贸易表示“哀痛”，并重申对1亿英镑赔偿基金的承诺。",
+          "title_zh": "坎特伯雷大主教承诺支持1亿英镑赔偿受奴役社区基金",
+          "summary": "英国圣公会大主教Sarah Mullally访问加纳期间，对英国国教参与跨大西洋奴隶贸易表示“哀痛”。她重申了对该争议性赔偿基金的承诺。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-07-31",
           "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement",
-          "overview": "坎特伯雷大主教Sarah Mullally在访问加纳一座曾关押数千名被奴役非洲人的城堡时，公开表达了对英国国教参与跨大西洋奴隶贸易的“哀痛”。她重申了对1亿英镑赔偿基金的承诺，旨在帮助受影响的社区。",
-          "analysis": "这一表态标志着英国教会正式面对其历史上的道德污点，并试图通过实际行动弥补过失。此举在宗教界和非洲社群中引发了广泛讨论，关于历史正义与和解的对话仍在继续。",
+          "overview": "英国圣公会大主教Sarah Mullally访问加纳期间，对英国国教参与跨大西洋奴隶贸易表示“哀痛”。她重申了对该争议性赔偿基金的承诺。此举发生在数千名被奴役非洲人曾被关押的前英国城堡遗址。",
+          "analysis": "这一表态在宗教界和历史正义之间架起了桥梁，但赔偿基金的实际执行和受助社区的反馈仍是外界关注的焦点。",
           "social": [
             {
-              "who": "社会活动家",
-              "text": "教会的道歉必须伴随实质性的行动和资源投入，才能真正体现对受害者的尊重和对历史的正视。"
+              "who": "历史学者",
+              "text": "这是基督教会对殖民历史的正视，具有里程碑意义。"
+            },
+            {
+              "who": "非洲裔社区代表",
+              "text": "承诺是好的开始，但我们需要看到资金真正落实到改善我们生活的具体行动中。"
             }
           ]
         },
         {
-          "title_zh": "HIV预防新药有望减少全球病例，但美国外援削减阻碍获取",
-          "summary": "专家在巴西艾滋病大会上指出，新型注射用PrEP药物虽具潜力，但因美国对外援助削减，最需要的人群将无法获得该药物。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-31",
-          "url": "https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts",
-          "overview": "在巴西举行的艾滋病2026大会上，专家警告称新型注射用PrEP药物有望大幅减少全球HIV新发病例。然而，由于美国对外援助的削减，许多最需要该药物的地区将无法获得这一救命药物。世界卫生组织此前已推荐将该药物纳入预防策略。",
-          "analysis": "技术创新与资金支持的脱节是全球公共卫生面临的典型困境。尽管医学进步显著，但政治决策中的预算削减可能抵消医疗成果，加剧全球健康不平等。",
-          "social": [
-            {
-              "who": "国际卫生组织代表",
-              "text": "药物研发的成功不应被地缘政治博弈所阻碍，确保救命药物公平可及是全球共同的责任。"
-            }
-          ]
-        },
-        {
-          "title_zh": "肯尼亚15头大象死亡或因误食番茄农场所用氰化物农药",
-          "summary": "肯尼亚野生动物管理局分析发现，南部公园附近死亡的15头大象体内检出氰化物痕迹，系食用了用于控制害虫的农药。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-07-30",
-          "url": "https://www.theguardian.com/environment/2026/jul/30/elephant-deaths-kenya-park-cyanide-poisoning-wildlife",
-          "overview": "肯尼亚南部公园附近15头大象近期死亡，经肯尼亚野生动物管理局（KWS）分析，尸体样本中检出氰化物。这很可能是大象误食了用于番茄农场害虫控制的农药所致。该机构负责人Erustus Kanga确认了这一初步结论。",
-          "analysis": "这一事件揭示了农业活动与野生动物保护之间的潜在冲突。农药的随意使用可能对周边生态系统造成严重威胁，呼吁加强农田管理与自然保护区之间的缓冲带建设。",
-          "social": [
-            {
-              "who": "环保组织志愿者",
-              "text": "人类活动对野生动物的影响日益显著，我们需要在经济发展与生态保护之间找到更可持续的平衡点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sam Fender与Olivia Dean合作曲打破英国单曲榜73年纪录",
-          "summary": "该组合的歌曲《Rein Me In》连续19周非连续登顶英国单曲榜，打破了长达73年的历史记录。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-07-31",
-          "url": "https://www.bbc.co.uk/news/articles/cly8r2p27lzo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国歌手Sam Fender与Olivia Dean的合作歌曲《Rein Me In》在单曲榜上连续19周非连续登顶，打破了此前保持73年的纪录。这一成就展示了该组合在英国音乐市场的巨大影响力和持久的听众基础。",
-          "analysis": "打破长达73年的纪录意味着英国流行音乐榜单的竞争格局发生了显著变化。这对其他试图挑战传统霸主的艺人来说是一个重要的里程碑，也反映了独立音乐人崛起的新趋势。",
-          "social": [
-            {
-              "who": "音乐评论家",
-              "text": "这一纪录的打破证明了听众口味的多元化，同时也为英国音乐产业注入了新的活力和可能性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "国内航线燃油附加费再次下调，800公里以上航线每人省30元",
-          "summary": "自2026年8月5日起，多家航空公司调整燃油附加费标准，长距离航线每位旅客可节省30元。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-31",
-          "url": "https://36kr.com/p/3920241240419720?f=rss",
-          "overview": "去哪儿网获悉，自2026年8月5日起，多家航空公司将调整国内航线燃油附加费。成人旅客在800公里以上航线上每位收取70元，800公里（含）以下航线每位收取40元，相较于此前分别降低了30元和10元。",
-          "analysis": "燃油附加费的再次下调直接减轻了旅客的出行成本，有助于刺激国内航空市场的消费需求。这一调整也反映了当前国际油价走势对国内航司运营策略的影响。",
-          "social": [
-            {
-              "who": "旅行博主",
-              "text": "对于暑期出游的家庭来说，这30元的节省虽然不多，但积少成多，确实能降低出行门槛。"
-            }
-          ]
-        },
-        {
-          "title_zh": "国内首个创客工具行业联盟成立，推动数字化制造出海",
-          "summary": "PingPong联合产业链企业发起国内首个Maker Tool行业联盟，发布白皮书显示全球DIY创客工具市场预计2033年达362亿美元。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-07-31",
-          "url": "https://36kr.com/p/3919301778288261?f=rss",
-          "overview": "全球支付平台PingPong联合产业链企业发起国内首个Maker Tool（创客工具）行业联盟，并发布《创客经济新纪元：Maker Tool行业全景解析白皮书》。该联盟旨在通过产业协同、渠道和资金服务，推动中国创客工具品牌拓展海外市场。",
-          "analysis": "随着AI技术降低创作门槛，桌面数字化制造设备正从专业领域走向消费市场。这一新兴赛道的快速增长为中国硬件企业提供了新的出海机遇，同时也面临产品安全和环保合规等挑战。",
-          "social": [
-            {
-              "who": "创客经济研究者",
-              "text": "创客工具市场的爆发式增长反映了DIY文化的复兴，中国企业在其中有望凭借供应链优势占据重要地位。"
-            }
-          ]
-        },
-        {
-          "title_zh": "警方发布Nancy Guthrie勒索信，试图通过语言特征寻找绑架者",
-          "summary": "调查人员希望公众能识别勒索信中独特的语言特征。",
+          "title_zh": "警方公布南希·古瑟勒索信以寻找绑架者",
+          "summary": "调查人员希望公众能识别勒索信上独特的语言特征。这是警方在最新一轮寻找绑架者行动中的举措。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-07-31",
           "url": "https://www.bbc.co.uk/news/articles/ce973re9404o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国警方发布了Nancy Guthrie绑架案的最新勒索信内容，希望公众能识别信中独特的语言特征。调查人员认为这些“显著的语言学特征”可能有助于被公众辨认出幕后绑匪的身份。",
-          "analysis": "此类案件往往涉及复杂的犯罪网络，警方的公开行动旨在借助社会力量加速破案。勒索信中的语言细节可能是破局的关键线索，体现了现代刑侦技术与公众参与结合的趋势。",
+          "overview": "调查人员希望公众能识别勒索信上独特的语言特征。这是警方在最新一轮寻找绑架者行动中的举措，旨在通过语言学分析缩小嫌疑人范围。",
+          "analysis": "此类案件往往涉及复杂的犯罪网络，警方的公开征集线索策略有助于调动社会力量参与破案。",
           "social": [
             {
-              "who": "语言学爱好者",
-              "text": "通过文字分析来追踪嫌疑人是一种有趣且有效的方法，希望警方能尽快揭开真相。"
+              "who": "语言学家",
+              "text": "勒索信中的方言和用词习惯可能是关键突破口，值得公众仔细辨认。"
+            },
+            {
+              "who": "普通市民",
+              "text": "希望警方能尽快破案，让受害者早日回家。"
             }
           ]
+        },
+        {
+          "title_zh": "美国国务院在巴西全球会议上展示的非洲地图误标所有国家",
+          "summary": "在美国国务院于巴西里约热内卢艾滋病会议上的演示中，一张标注错误的非洲地图引发了与会者的强烈反响。美国国务院随后对此承担全部责任。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-30",
+          "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
+          "overview": "在美国国务院于巴西里约热内卢艾滋病会议上的演示中，一张标注错误的非洲地图引发了与会者的强烈反响。美国国务院随后对此承担全部责任。视频显示该错误地图在演示中途被展示出来。",
+          "analysis": "这一事件凸显了政府机构内部数据审核的疏忽，在国际多边场合造成的尴尬可能影响外交形象。",
+          "social": [
+            {
+              "who": "外交评论员",
+              "text": "在全球关注的国际会议上出现这种低级错误，确实令人失望。"
+            },
+            {
+              "who": "社交媒体用户",
+              "text": "截图已经疯传了，看来美国国务院的地图库需要大清洗。"
+            }
+          ]
+        },
+        {
+          "title_zh": "专家称HIV预防新药有望减少全球病例但美国援助削减阻碍获取",
+          "summary": "注射型PrEP药物具有巨大潜力，但全球对HIV预防的投资大幅下降。专家警告美国对外援助的削减将导致最需要该药物的群体无法获得。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-31",
+          "url": "https://www.theguardian.com/society/2026/jul/31/hiv-aids-medication-usaid-cuts",
+          "overview": "注射型PrEP药物具有巨大潜力，但全球对HIV预防的投资大幅下降。专家警告美国对外援助的削减将导致最需要该药物的群体无法获得。这一议题在里约热内卢举行的艾滋病2026会议上成为焦点。",
+          "analysis": "技术突破与资金断供之间的矛盾再次显现，若援助政策不调整，新药的推广将面临巨大障碍。",
+          "social": [
+            {
+              "who": "公共卫生专家",
+              "text": "预防胜于治疗，削减预防投入最终会增加医疗系统的负担。"
+            },
+            {
+              "who": "国际NGO代表",
+              "text": "我们需要国际社会重新承诺对全球健康公平的投资。"
+            }
+          ]
+        },
+        {
+          "title_zh": "肯尼亚十五头大象死亡疑因氰化物中毒",
+          "summary": "肯尼亚野生动物管理局分析发现，南部公园附近15头大象的尸体中检测到氰化物残留。这可能与动物误食番茄农场使用的农药有关。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-07-30",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/elephant-deaths-kenya-park-cyanide-poisoning-wildlife",
+          "overview": "肯尼亚野生动物管理局分析发现，南部公园附近15头大象的尸体中检测到氰化物残留。这可能与动物误食番茄农场使用的农药有关。该化合物通常用于农业中的害虫控制。",
+          "analysis": "人类活动对野生动物的间接毒害日益严重，加强农田与保护区之间的生态隔离是当务之急。",
+          "social": [
+            {
+              "who": "环保主义者",
+              "text": "农药的扩散正在无声地威胁着非洲象群的未来，必须立即行动。"
+            },
+            {
+              "who": "农业从业者",
+              "text": "我们也在反思如何更安全地使用化学品，避免对周边生态造成不可逆的伤害。"
+            }
+          ]
+        },
+        {
+          "title_zh": ""
         }
       ],
       "regions": [
