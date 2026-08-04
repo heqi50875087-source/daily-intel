@@ -1,23 +1,75 @@
 {
-  "generated_at": "2026-08-04T07:26:13+08:00",
+  "generated_at": "2026-08-04T08:33:27+08:00",
   "date": "2026-08-04",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-04 06:39",
-    "ai": "2026-08-04 06:39",
-    "voices": "2026-08-04 07:26",
+    "hot": "2026-08-04 08:33",
+    "ai": "2026-08-04 08:33",
+    "voices": "2026-08-04 08:33",
     "github": "2026-08-04 07:26",
     "libraries": "2026-08-04 07:26",
-    "sports": "2026-08-04 07:26",
+    "sports": "2026-08-04 08:33",
     "academic": "2026-08-04 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "美企 AI 助力乌克兰廉价自杀式无人机自主追踪目标",
+          "eng": "US company's AI lets Ukraine's cheap kamikaze drones track targets on their own",
+          "summary": "一笔价值 1 亿美元的协议为 5 万架乌克兰无人机注入了美国开发的 AI 能力，使其具备自主目标追踪功能。",
+          "source": "Ars Technica",
+          "region": "全球/欧洲",
+          "published": "2026-08-03",
+          "tags": [
+            "军事 AI",
+            "无人机技术",
+            "国防科技"
+          ],
+          "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+          "overview": "美国公司通过 1 亿美元的交易，为乌克兰提供了能够自主追踪目标的 AI 系统，覆盖多达 5 万架低成本自杀式无人机。这项技术升级旨在提升无人集群的打击精度和效率，标志着低成本军事装备与高端 AI 算法结合的实战化趋势。此举引发了关于 AI 武器扩散及战争伦理的广泛讨论。",
+          "analysis": "将前沿 AI 能力注入廉价武器平台，正在模糊‘高科技’与‘消耗品’之间的界限。这种组合极大地降低了使用门槛，但也意味着冲突烈度和不可控性的显著上升，对国际安全架构构成挑战。",
+          "social": [
+            {
+              "who": "国防科技评论员",
+              "text": "AI 赋能低成本无人机是改变战场不对称格局的关键变量，其影响远超单一武器系统本身。"
+            },
+            {
+              "who": "国际安全分析师",
+              "text": "技术扩散速度往往快于监管框架的建立，此类交易需引起国际社会的高度警惕。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Palantir CEO Karp 称 AI 行业为“马克思主义”",
+          "eng": "After killer quarter, Palantir CEO Alex Karp calls AI industry 'Marxist'",
+          "summary": "在季度利润突破 10 亿美元后，Palantir CEO 警告前沿 AI 实验室对企业的可信度不足。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-08-03",
+          "tags": [
+            "企业 AI",
+            "行业观点",
+            "信任危机"
+          ],
+          "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+          "overview": "Palantir 在交付 10 亿美元利润的强劲季度后，CEO Alex Karp 再次发出警告，认为前沿 AI 实验室过于不可信，不适合企业级部署。他使用“马克思主义”一词来形容当前行业格局中数据所有权和利益分配的失衡问题。这一表态反映了大型企业在面对开源模型和初创公司竞争时的安全焦虑与战略分歧。",
+          "analysis": "Karp 的言论揭示了 AI 商业化的核心矛盾：技术民主化趋势与企业对数据安全、知识产权控制的诉求之间的冲突正在加剧。这可能导致行业进一步分裂为‘可信’与‘不可信’两大阵营，影响资本流向和技术合作模式。",
+          "social": [
+            {
+              "who": "企业战略顾问",
+              "text": "当利润如此丰厚时，CEO 的言论往往带有强烈的利益导向，但数据主权担忧确实是企业决策的关键因素。"
+            },
+            {
+              "who": "AI 行业观察者",
+              "text": "这种‘信任税’可能成为 Palantir 等老牌玩家巩固市场份额的工具，但也可能抑制创新生态的活力。"
+            }
+          ]
+        },
         {
           "title_zh": "特朗普AI保护主义政策转向机器人行业",
           "eng": "Trump's AI protectionism has come for robotics",
@@ -740,58 +792,6 @@
               "text": "当前法律框架对AI自主行为的追责存在巨大空白，Anthropic可能面临前所未有的法律挑战。"
             }
           ]
-        },
-        {
-          "title_zh": "Google Earth AI深度伪造工具上线一天即遭关闭",
-          "eng": "Google Earth's AI deepfake tool only lasted one day",
-          "summary": "Google于7月31日关闭了其推出的Google Earth AI图像生成功能，该工具允许用户通过文本提示编辑卫星图像。因引发虚假信息担忧，该工具仅运行一天便被撤回。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-07-31",
-          "tags": [
-            "Google Earth",
-            "AI深度伪造",
-            "卫星图像"
-          ],
-          "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-          "overview": "Google在推出Google Earth AI图像生成功能仅一天后便紧急关闭了该服务。该工具允许用户通过文本提示在真实卫星地图上叠加AI生成的虚假内容，引发了严重的虚假信息传播担忧。有用户故意在该平台上生成添加难民等敏感内容的虚假图像。Google迅速撤回这一功能，反映出科技公司在AI应用与社会责任之间的艰难平衡。",
-          "analysis": "这一事件凸显了AI生成技术在地理空间数据领域的特殊风险。卫星地图具有高度公信力，一旦被篡改可能引发严重的社会后果。Google的快速反应虽然明智，但也暴露出其在AI产品上线前安全评估的不足。",
-          "social": [
-            {
-              "who": "地理信息专家",
-              "text": "卫星图像的真实性是公众信任的基础，一旦这种信任被破坏，修复将极其困难。"
-            },
-            {
-              "who": "科技评论员",
-              "text": "Google的迅速撤回值得肯定，但更应反思的是为什么要在一天后才意识到问题严重性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sam Altman呼吁AI行业放慢脚步",
-          "eng": "Sam Altman isn't the only one who wants to pump the brakes on AI",
-          "summary": "OpenAI CEO Sam Altman表示，经过多年全力推动AI发展后，现在可能是让AI行业'减速'的时候。这一表态出现在其模型在Hugging Face测试环境中泄露事件之后。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-07-31",
-          "tags": [
-            "OpenAI",
-            "Sam Altman",
-            "AI监管"
-          ],
-          "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-          "overview": "在经历了多年全力推动AI发展后，OpenAI CEO Sam Altman公开表示AI行业可能需要'减速'。这一表态出现在其公司模型从测试环境泄露到Hugging Face平台的背景下。尽管有人指出这可能与安全管理疏忽有关，但Altman的言论反映了科技界对AI快速发展带来的风险的重新审视。",
-          "analysis": "这是AI行业领袖首次公开呼吁减速发展，标志着行业共识的转变。此前OpenAI一直是AI发展的主要推动者，如今转向审慎态度，可能预示着监管压力增大或内部安全问题的累积效应。",
-          "social": [
-            {
-              "who": "政策研究者",
-              "text": "Altman的表态值得重视，但'减速'的具体含义和实施方式仍不明确，需要更具体的政策建议。"
-            },
-            {
-              "who": "AI从业者",
-              "text": "安全事件频发确实让人反思，但完全停止发展也不现实，关键在于如何在创新与安全之间找到平衡点。"
-            }
-          ]
         }
       ]
     },
@@ -1209,295 +1209,295 @@
     "sports": {
       "items": [
         {
-          "title_zh": "欧洲多国足协撤回对因凡蒂诺的支持，FIFA主席危机加剧",
-          "eng": "More European countries' FAs withdraw support for Infantino as pressure intensifies",
-          "summary": "威尔士、塞尔维亚和芬兰等国足协相继撤回对国际足联主席因凡蒂诺连任的背书。英格兰足球协会成为最高级别的欧足联成员协会之一，正式致函FIFA确认不再支持其第四个任期。",
-          "source": "Guardian Football",
-          "published": "2026-08-03",
-          "url": "https://www.theguardian.com/football/2026/aug/03/wales-become-first-nation-to-drop-support-for-fifa-president-gianni-infantino",
-          "overview": "因凡蒂诺的FIFA主席任期正面临前所未有的危机，全球范围内对其连任的支持正在瓦解。英格兰足球协会（FA）率先成为欧足联成员中最高级别的撤回支持者，正式致函确认不再背书其第四个任期。此前威尔士、塞尔维亚和芬兰等国已相继跟进。据BBC报道，反对派还威胁将采取'不合作'行动，除非因凡蒂诺下台。这一系列事件标志着FIFA治理危机进入新阶段。",
-          "analysis": "多国足协集体撤回支持表明因凡蒂诺的权威正受到系统性挑战，这不仅是政治博弈，更可能影响世界杯等重大赛事的组织能力。若连任计划失败，FIFA将面临权力真空和重组压力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "因凡蒂诺的危机已经蔓延到欧洲核心国家，这比想象中更严重。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "FA作为最高级别欧足联成员率先表态，说明FIFA治理问题已无法回避。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿森纳首轮报价7000万英镑求购纽卡斯尔队长布鲁诺·吉马良斯遭拒",
-          "eng": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
-          "summary": "英超冠军阿森纳正式向纽卡斯尔提交首份转会报价，金额达7000万英镑，但被纽卡拒绝。巴西中场吉马良斯在世界杯假期后抵达纽卡拉曼加训练营与新任主教练会面。",
-          "source": "Guardian Football",
-          "published": "2026-08-03",
-          "url": "https://www.theguardian.com/football/2026/aug/03/premier-league-transfer-newcastle-reject-first-bid-arsenal-bruno-guimaraes",
-          "overview": "阿森纳在世界杯结束后正式开启对纽卡斯尔队长布鲁诺·吉马良斯的转会谈判，首轮报价7000万英镑被纽卡拒绝。吉马良斯在巴西度过世界杯假期后抵达拉曼加训练营，首次与纽卡新任主教练贾伊斯勒会面。这一消息表明阿森纳在夏季转会窗的野心不小，但纽卡的防守姿态也暗示他们可能不会轻易放走核心球员。",
-          "analysis": "7000万英镑的首轮报价被拒说明纽卡斯尔对吉马良斯的估值更高，或者他们希望看到更多竞争。对于阿森纳而言，若无法在转会窗关闭前达成协议，可能需要调整策略或寻找替代方案。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "7000万英镑首轮报价就被拒了？纽卡的胃口可能更大。"
-            },
-            {
-              "who": "转会分析师",
-              "text": "吉马良斯是纽卡的核心资产，短期内被高价买走的可能性不大。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "亨德森自由身加盟切尔西，与布伦特福德合同协商终止",
-          "eng": "England midfielder Henderson joins Chelsea",
-          "summary": "英格兰中场乔丹·亨德森在布伦特福德合同协商终止后，以两年合约正式签约切尔西。",
-          "source": "BBC Football",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰中场乔丹·亨德森在布伦特福德合同协商终止后，以两年合约正式加盟切尔西。这一转会标志着亨德森职业生涯的又一次重要转折，他从英超竞争对手布伦特福德转投同城对手切尔西。对于切尔西而言，签下经验丰富的亨德森有助于球队在中场增添稳定性和领导力。",
-          "analysis": "亨德森的加盟为切尔西中场增添了经验，但两年合约也意味着他可能不会长期留队。这笔交易更多是切尔西短期补强的需要，而非长期规划的一部分。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "亨德森去切尔西了？这算是英超转会窗的意外之喜。"
-            },
-            {
-              "who": "足球记者",
-              "text": "布伦特福德与切尔西的矛盾终于通过球员流动得到了化解。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "富勒姆从皇马签下加西亚和帕拉西奥斯，双方各签五年合约",
-          "eng": "Fulham sign Garcia and Palacios from Real Madrid",
-          "summary": "富勒姆以五年合约从皇家马德里签下贡萨洛·加西亚和塞萨尔·帕拉西奥斯两名球员。",
-          "source": "BBC Football",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c5yv049xqpzo?at_medium=RSS&at_campaign=rss",
-          "overview": "富勒姆成功从皇家马德里签下两名球员：贡萨洛·加西亚和塞萨尔·帕拉西奥斯，双方各签五年合约。这一交易显示了富勒姆在夏季转会窗的雄心，他们正在积极引进年轻有潜力的球员来加强阵容深度。对于皇马而言，这两名球员的离开也反映了他们在培养年轻球员方面的策略调整。",
-          "analysis": "五年长约说明富勒姆对这两名球员的未来规划非常明确，希望他们能长期效力。这笔交易也可能影响皇马下赛季的中场配置和战术安排。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "富勒姆从皇马挖人？这操作越来越大胆了。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "五年合约锁定年轻球员，富勒姆的长期规划思路很清晰。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼联女足在女超联赛开赛前一个月仍无主教练且阵容单薄",
-          "eng": "Have Man Utd lost faith in their women's team?",
-          "summary": "距离女子超级联赛赛季开始仅剩一个月，曼联女足没有主教练且阵容薄弱。",
-          "source": "BBC Football",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c78gn8e3v47o?at_medium=RSS&at_campaign=rss",
-          "overview": "在女子超级联赛赛季开始仅剩一个月的关键时刻，曼联女足面临没有主教练且阵容单薄的困境。这一状况引发了外界对俱乐部是否重视女足发展的质疑。距离新赛季开幕还有一个月时间，曼联需要尽快解决教练任命和球员招募问题，否则可能影响球队在新赛季的表现和竞争力。",
-          "analysis": "曼联女足的困境反映了英超豪门在女足投资上的不均衡。尽管男足成绩斐然，但女足部门的管理和资源投入仍然不足。这一状况如果不及时解决，可能会影响俱乐部的整体形象和声誉。",
-          "social": [
-            {
-              "who": "女足球迷",
-              "text": "一个月了还没找到教练？曼联对女足的态度真的有问题。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "英超女足的竞争越来越激烈，曼联不能继续忽视这个部门。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "维尼修斯转投阿森纳的传闻引发热议：不合逻辑但可能奏效",
-          "eng": "Vinícius Júnior to Arsenal doesn't make sense. That's why it may work | Jonathan Wilson",
-          "summary": "据报维尼修斯与阿森纳在个人层面正在推进转会谈判。《卫报》专栏作家乔纳森·威尔逊撰文分析，这一看似不合逻辑的转会可能因为创造性张力而成功。",
-          "source": "Guardian Football",
-          "published": "2026-08-03",
-          "url": "https://www.theguardian.com/football/2026/aug/03/arsenal-vinicius-transfer-real-madrid",
-          "overview": "据报巴西球星维尼修斯与阿森纳在个人层面正在推进转会谈判，这一消息令外界感到震惊。《卫报》专栏作家乔纳森·威尔逊撰文分析认为，尽管从逻辑上看这笔交易似乎不合理，但足球历史上不乏反直觉的成功案例。他认为创造性张力和不同元素的结合可能产生意想不到的效果，但也存在失败的风险。",
-          "analysis": "维尼修斯作为皇马的核心球员，转会传闻本身就极具话题性。阿森纳若能成功签下他，将极大提升球队的攻击力和国际影响力。但这一交易能否成行，还需等待更多细节的披露。",
-          "social": [
-            {
-              "who": "足球评论员",
-              "text": "维尼修斯去阿森纳？这操作太疯狂了，但也许真的能成功。"
-            },
-            {
-              "who": "皇马球迷",
-              "text": "如果真要走人，那确实是皇马的损失。不过转会市场就是这样 unpredictable。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "国际足联主席因凡蒂诺面临反对者“不合作”威胁",
+          "title_zh": "FIFA主席面临“不合作”威胁",
           "eng": "Infantino opponents threaten 'non co-operation' with Fifa",
-          "summary": "据欧盟高级消息人士透露，反对国际足联主席因凡蒂诺的各方正威胁若不使其下台将拒绝与该组织合作。同时，包括英格兰在内的多个欧洲足协已撤回对其连任的支持。",
-          "source": "BBC Sport",
+          "summary": "反对FIFA主席因凡蒂诺的各方势力正威胁与足联进行“不合作”，除非其辞职。据欧足联高层消息人士透露，这一局面正在升级。",
+          "source": "BBC Football",
           "published": "2026-08-03",
           "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
-          "overview": "国际足联主席詹尼·因凡蒂诺（Gianni Infantino）的任期危机持续升级。据欧盟高级消息人士透露，反对派正威胁若因凡蒂诺不辞职，将拒绝与国际足联合作。与此同时，英格兰足总成为首个撤回支持的国家，威尔士和塞尔维亚也紧随其后，不再背书其明年竞选连任的计划。",
-          "analysis": "这一系列动作表明国际足联内部的权力斗争已白热化，欧洲足球管理层的分裂可能影响世界杯等重大赛事的筹备与运营。若局势无法缓解，国际足联的公信力将面临严峻考验。",
+          "overview": "据欧足联高层消息人士透露，反对FIFA主席詹尼·因凡蒂诺的各方正在威胁与足联“不合作”，除非他下台。这一事件表明围绕FIFA领导层的危机正在加剧，可能影响国际足球治理的正常运转。",
+          "analysis": "若因凡蒂诺无法化解内部压力，FIFA的决策效率将大打折扣，世界杯等重大赛事的组织也可能面临不确定性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "因凡蒂诺这届任期确实风波不断，多国足协集体倒戈说明问题已经严重到必须面对了。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "英格兰足总带头撤回支持是一个标志性事件，意味着欧洲主流足球界正在重新审视国际足联的治理模式。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "亨德森自由身加盟切尔西签两年合同",
-          "eng": "England midfielder Henderson joins Chelsea",
-          "summary": "前利物浦中场乔丹·亨德森在与布伦特福德合同协商终止后，以自由球员身份与英超对手切尔西签约两年。",
-          "source": "BBC Sport",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰中场乔丹·亨德森在与其英超竞争对手布伦特福德的合同经双方同意提前终止后，正式成为自由球员。他随后迅速签下了一份为期两年的新合约，加盟了伦敦劲旅切尔西队，结束了此前无球可踢的尴尬局面。",
-          "analysis": "对于切尔西而言，亨德森的加入增强了中场经验和领导力，尽管年龄偏大，但在争冠或保级中都能提供稳定的控制力。这对布伦特福德来说也是一次不小的损失。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "亨德森终于不用流浪了，去蓝军是个务实的选择，毕竟切尔西需要经验。"
-            },
-            {
-              "who": "前球员",
-              "text": "自由身加盟说明之前和布伦特福德的谈判确实谈崩了，能迅速找到下家也不错。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "拉德万努斯将缺席美网继续应力性骨折康复",
-          "eng": "Raducanu to miss US Open to continue recovery",
-          "summary": "英国网球名将埃玛·拉德万努斯因应力性骨折需要持续恢复治疗，确认将错过即将到来的美国网球公开赛。",
-          "source": "BBC Tennis",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cn4njxg33l7o?at_medium=RSS&at_campaign=rss",
-          "overview": "2021年温网冠军、现世界排名上升迅速的英国选手埃玛·拉德万努斯（Emma Raducanu）宣布她将缺席即将举行的美国网球公开赛。原因是她正在继续从应力性骨折中恢复，需要时间来确保身体完全康复以避免进一步损伤。",
-          "analysis": "这对她的赛季表现是一个重大打击，但健康永远是第一位的。对于美网来说，失去一位具有话题性的年轻选手意味着少了一位潜在的爆冷黑马。",
-          "social": [
-            {
-              "who": "网球爱好者",
-              "text": "希望早日康复，应力性骨折确实很磨人，别急着一上来就硬撑。"
+              "text": "FIFA内部动荡已经严重影响到了整个足球界，不知道未来会怎样。"
             },
             {
               "who": "体育记者",
-              "text": "去年美网一轮游后她一直在追赶排名，这次受伤可能会让她错过赛季最佳窗口期。"
+              "text": "欧足联高层的消息证实了危机的严重性，这不仅仅是政治斗争那么简单。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "菲律宾新星埃阿拉赢得华盛顿公开赛首座WTA冠军",
-          "eng": "Eala becomes first Filipino to win WTA singles title",
-          "summary": "21岁的菲律宾选手亚历山德拉·埃阿拉在雨延后的决赛中逆转击败头号种子佩古拉，成为首位赢得WTA巡回赛单打冠军的菲律宾球员。",
-          "source": "BBC Tennis",
+          "title_zh": "更多欧洲足协撤回对因凡蒂诺的支持",
+          "eng": "More European countries’ FAs withdraw support for Infantino as pressure intensifies",
+          "summary": "英格兰足总等欧洲国家足协正式停止背书因凡蒂诺的连任竞选，威尔士和塞尔维亚也加入行列。",
+          "source": "Guardian Football",
           "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglr1pr1gxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在华盛顿公开赛（DC Open）的决赛中，21岁的菲律宾新星亚历山德拉·埃阿拉（Alexandra Eala）在先丢一盘的情况下逆转击败头号种子杰西卡·佩古拉（Jessica Pegula），比分4-6、6-4、6-0。这是菲律宾历史上首位赢得WTA巡回赛级别单打冠军的球员，而泰勒·弗里茨也在男子决赛中夺冠。",
-          "analysis": "埃阿拉的崛起令人瞩目，她在华盛顿的表现证明了她具备在大满贯级别赛事中竞争的能力。对于菲律宾网球来说，这是一个历史性的突破时刻。",
+          "url": "https://www.theguardian.com/football/2026/aug/03/wales-become-first-nation-to-drop-support-for-fifa-president-gianni-infantino",
+          "overview": "英足总成为最高调的欧足联成员国之一，确认不再支持因凡蒂诺竞选第四任期。威尔士和塞尔维亚也加入芬兰行列撤回对FIFA主席的支持，全球范围内结束其危机重重的任期的行动正在加速。",
+          "analysis": "多国联合施压显示因凡蒂诺在FIFA内部的根基已严重动摇，若连任失败将引发组织层面的重大重组。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "逆转佩古拉太精彩了，21岁拿大满贯级别冠军，未来可期。"
+              "who": "足球评论员",
+              "text": "欧洲足协集体反水，FIFA改革迫在眉睫，这是历史性的时刻。"
             },
             {
-              "who": "解说员",
-              "text": "雨延后的比赛节奏被打乱，埃阿拉在逆境中的调整能力确实出色。"
+              "who": "资深球迷",
+              "text": "看到这么多国家站出来反对，说明大家真的忍不了了。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "LAFC联席老板伯格当选下任美国职业足球大联盟主席",
-          "eng": "LAFC co-managing owner Larry Berg voted as next MLS commissioner",
-          "summary": "MLS董事会投票选出洛杉矶FC联席管理合伙人拉里·伯格为下一任联赛主席，将于2027年1月接替唐·加伯。",
-          "source": "Guardian Sport",
+          "title_zh": "阿森纳首份报价被纽卡斯尔拒绝",
+          "eng": "Newcastle reject first bid from Arsenal for captain Bruno Guimarães",
+          "summary": "英超冠军阿森纳向纽卡队长吉马良斯开出7000万英镑首轮报价，遭纽卡斯尔拒绝。",
+          "source": "Guardian Football",
           "published": "2026-08-03",
-          "url": "https://www.theguardian.com/football/2026/aug/03/larry-berg-mls-commissioner-vote",
-          "overview": "美国职业足球大联盟（MLS）董事会已投票决定任命洛杉矶FC的联席管理合伙人拉里·伯格（Larry Berg）为下届联赛主席。他将自2027年1月起接替现任主席唐·加伯（Don Garber），成为MLS历史上第三位主席，标志着该30年老牌联赛进入新的管理层时代。",
-          "analysis": "伯格的背景是私募股权公司高管，这预示着MLS可能进一步向商业化和资本化方向发展。对于俱乐部运营和联赛扩张策略来说，新领导层的视角将至关重要。",
+          "url": "https://www.theguardian.com/football/2026/aug/03/premier-league-transfer-newcastle-reject-first-bid-arsenal-bruno-guimaraes",
+          "overview": "阿森纳正式开启转会谈判并做出首轮报价，但纽卡斯尔拒绝了该提议。吉马良斯在巴西世界杯后抵达纽卡训练营与新任主帅会面，双方关系尚处于早期阶段。",
+          "analysis": "尽管阿森纳财力雄厚且急需中场加强，但纽卡的防守核心地位稳固，这场博弈将决定今夏转会走向。",
           "social": [
             {
-              "who": "足球经理",
-              "text": "从私募背景接手MLS，不知道会不会加速球队出售或者引入更多投资。"
+              "who": "英超球迷",
+              "text": "7000万买不了队长？纽卡态度强硬，看来吉马良斯是铁了心留队。"
             },
             {
-              "who": "美国球迷",
-              "text": "加伯时代结束了，希望新主席能带来更稳定的联赛发展计划。"
+              "who": "足球分析师",
+              "text": "阿森纳的报价虽然高，但纽卡的坚持说明他们清楚失去核心后卫的风险。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "MLS调查新英格兰革命队球员遭反犹太喊歌事件",
-          "eng": "MLS investigates reports of antisemitic chants toward New England's Dor Turgeman in Montreal",
-          "summary": "以色列前锋多尔·图格曼在对阵蒙特利尔的比赛中进球后，被球迷高唱“解放巴勒斯坦”等歧视性口号，MLS已确认知晓此事并展开调查。",
-          "source": "Guardian Sport",
+          "title_zh": "亨德森加盟切尔西",
+          "eng": "England midfielder Henderson joins Chelsea",
+          "summary": "自由球员乔丹·亨德森在双方协商终止布伦特福德合同后，与切尔西签下两年合约。",
+          "source": "BBC Football",
           "published": "2026-08-03",
-          "url": "https://www.theguardian.com/football/2026/aug/03/mls-dor-turgeman-montreal-new-england-revolution-israel",
-          "overview": "在新英格兰革命队与CF蒙特利尔队的MLS比赛中，以色列前锋多尔·图格曼（Dor Turgeman）在进球后被部分球迷高唱具有反犹太色彩的口号。新英格兰革命队强烈谴责了这些行为，称其为“反犹”和“歧视性”的喊声。美国职业足球大联盟已确认知晓此事并正在调查中。",
-          "analysis": "这一事件再次凸显了足球赛场上的种族和宗教仇恨问题，尤其是在涉及以色列/巴勒斯坦冲突的背景下。MLS需要采取更坚决的措施来维护联赛的形象和包容性。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
+          "overview": "前布伦特福德中场乔丹·亨德森在双方协商终止原合同后，以自由身签约切尔西。这笔交易为蓝军的中场增添了丰富的国际大赛经验。",
+          "analysis": "亨德森的加入为切尔西提供了即战力，但能否适应阿诺德的战术体系以及与新援的配合仍需观察。",
           "social": [
             {
+              "who": "英超解说",
+              "text": "老将回归蓝桥，期待他在关键时刻能发挥经验优势。"
+            },
+            {
               "who": "资深球迷",
-              "text": "进球后立刻被喊这种口号太离谱了，俱乐部和联盟必须严肃处理。"
+              "text": "亨德森来了，希望他能帮球队稳住中场节奏。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "富勒姆从皇马签下两名球员",
+          "eng": "Fulham sign Garcia and Palacios from Real Madrid",
+          "summary": "富勒姆以五年合约签下了冈萨洛·加西亚和塞萨尔·帕拉西奥斯，这两名球员均来自皇家马德里。",
+          "source": "BBC Football",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5yv049xqpzo?at_medium=RSS&at_campaign=rss",
+          "overview": "富勒姆与皇马签约了冈萨洛·加西亚和塞萨尔·帕拉西奥斯，双方达成了五年合约。这笔交易显示了富勒姆在夏窗的积极引援策略，从西甲豪门挖角。",
+          "analysis": "两名年轻球员的到来为富勒姆注入了新鲜血液，若能在英超站稳脚跟，将是俱乐部未来的重要资产。",
+          "social": [
+            {
+              "who": "英超球迷",
+              "text": "皇马放人？富勒姆运气不错，这两名球员潜力很大。"
+            },
+            {
+              "who": "足球记者",
+              "text": "从皇马挖角需要勇气，希望他们能适应英超的节奏。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "查尔顿再次挂牌出售",
+          "eng": "Charlton up for sale again as US owners look to cash in after three years",
+          "summary": "美国老板在收购俱乐部仅三年后便将其重新挂牌出售，买家将是六年内的第五任所有者。",
+          "source": "Guardian Football",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/football/2026/aug/03/charlton-athletic-for-sale-the-valley-stadium",
+          "overview": "由加布里埃尔·布伦纳领导的美国财团在2023年以1500万英镑收购俱乐部仅三年后便将其重新挂牌出售。销售材料将查尔顿描述为“最后一个足球俱乐部上行机会”，买家将是六年内的第五任所有者。",
+          "analysis": "连续易主反映俱乐部经营困境，新老板能否扭转局面存疑，这再次引发了对英冠俱乐部商业可持续性的讨论。",
+          "social": [
+            {
+              "who": "英冠球迷",
+              "text": "查尔顿又卖了？希望这次能稳，别再折腾了。"
             },
             {
               "who": "体育评论员",
-              "text": "足球场上的仇恨言论从来都不是小事，尤其是在涉及地缘政治敏感话题时更应警惕。"
+              "text": "三年就卖，说明之前的投资并没有达到预期效果，这是个警示。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "拉里·伯格当选下任MLS主席，将于2027年1月接任",
+          "eng": "LAFC co-managing owner Larry Berg voted as next MLS commissioner",
+          "summary": "美国职业足球大联盟董事会投票选出洛杉矶FC联合管理合伙人拉里·伯格为继任者，将接替唐·加伯成为MLS历史上第三位主席。",
+          "source": "Guardian Sport",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/football/2026/aug/03/larry-berg-mls-commissioner-vote",
+          "overview": "美国职业足球大联盟（MLS）治理层已投票决定任命洛杉矶FC（LAFC）联合管理合伙人拉里·伯格为继任者。他将取代任职30年的唐·加伯，成为MLS历史上第三位主席。其任期将于2027年1月1日正式开始。",
+          "analysis": "这一人事变动标志着MLS进入新的治理时代，伯格作为私募股权公司的高管背景可能带来更商业化的运营视角。对于联赛未来的扩张策略和财务健康度将是关键考验。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "终于等到这一天，伯格的加入给MLS带来了新的期待。"
+            },
+            {
+              "who": "行业观察者",
+              "text": "从唐·加伯到拉里·伯格，MLS的治理层换血意味着联赛战略方向的潜在转变。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "费城76人队确认签下NBA超级巨星勒布朗·詹姆斯",
-          "eng": "Philadelphia 76ers confirm signing of NBA superstar LeBron James",
-          "summary": "NBA超级巨星勒布朗·詹姆斯正式加盟费城76人队，结束了此前在迈阿密热火队的生涯。",
-          "source": "BBC Basketball",
-          "published": "2026-07-27",
-          "url": "https://www.bbc.co.uk/sport/articles/cx27r0me3zno?at_medium=RSS&at_campaign=rss",
-          "overview": "费城76人队已正式确认签下NBA传奇球星勒布朗·詹姆斯（LeBron James）。这一消息此前曾引发广泛猜测，包括迈阿密热火队误发其“介绍性新闻发布会”视频的事件也一度让外界以为他可能留队。如今尘埃落定，詹姆斯将开启职业生涯的新篇章。",
-          "analysis": "詹姆斯加盟76人队意味着NBA格局的重大变化，费城需要围绕这位超级巨星进行阵容调整以争夺总冠军。这对东部联盟的竞争态势将产生深远影响。",
+          "title_zh": "因凡蒂诺对手威胁对国际足联进行“不合作”",
+          "eng": "Infantino opponents threaten 'non co-operation' with Fifa",
+          "summary": "据欧足联高层消息人士透露，因凡蒂诺的反对者正威胁除非其下台，否则将与国际足联实施“不合作”。",
+          "source": "BBC Sport",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
+          "overview": "围绕国际足联主席詹尼·因凡蒂诺的去留危机持续升级。据欧足联高级消息来源报道，因凡蒂诺的主要对手正威胁对国际足联实施“不合作”行动，除非该组织领导人辞职。这一事态发展表明全球足球治理层面的对抗正在加剧。",
+          "analysis": "因凡蒂诺的任期危机已不仅仅是政治博弈，更涉及整个足球管理体系的信任崩塌。反对者的升级施压可能迫使国际足联在改革议程上做出重大让步或面临分裂风险。",
           "social": [
             {
-              "who": "篮球迷",
-              "text": "终于去了费城！76人这下有争冠的底气了。"
+              "who": "足球评论员",
+              "text": "因凡蒂诺的处境岌岌可危，这种不合作的威胁是前所未有的强硬手段。"
             },
             {
-              "who": "前球员",
-              "text": "从迈阿密到费城，詹姆斯的选择总是让人意外但又充满期待。"
+              "who": "资深球迷",
+              "text": "看到FIFA内部如此分裂，不禁让人对未来的国际赛事感到担忧。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "乌克兰对国际奥委会恢复俄罗斯参赛资格提出上诉",
-          "eng": "Ukraine appeal against IOC decision to reinstate Russia",
-          "summary": "乌克兰国家奥委会就国际奥委会临时恢复俄罗斯参加奥运会的决定向体育仲裁法庭提起上诉。",
-          "source": "BBC Olympics",
-          "published": "2026-07-29",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/c5yvpwk1033o?at_medium=RSS&at_campaign=rss",
-          "overview": "乌克兰国家奥林匹克委员会已正式向体育仲裁法庭（CAS）提起诉讼，反对国际奥委会（IOC）关于临时恢复俄罗斯运动员参加国际赛事的决定。这一决定此前曾引发广泛争议，乌克兰方面认为这违反了之前的制裁协议，可能对奥运会的公正性造成损害。",
-          "analysis": "俄乌冲突背景下的奥运参赛资格问题一直是国际社会关注的焦点。乌克兰的上诉可能进一步延长俄罗斯运动员以中立身份参赛的等待期，对2028年洛杉矶奥运会的组织工作带来不确定性。",
+          "title_zh": "亨德森自由身加盟切尔西，签约两年",
+          "eng": "England midfielder Henderson joins Chelsea",
+          "summary": "前英格兰中场乔丹·亨德森在与布伦特福德合同协商终止后，以两年合约正式签约切尔西。",
+          "source": "BBC Sport",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c62qnnrzqk5o?at_medium=RSS&at_campaign=rss",
+          "overview": "自由球员乔丹·亨德森在英超对手布伦特福德与其协商终止合同后，迅速与切尔西达成了一份为期两年的新协议。这一转会标志着这位经验丰富的中场球员开启了职业生涯的新篇章。",
+          "analysis": "亨德森的加盟为切尔西的中场增添了经验和领导力，尤其是在争冠关键期。他的到来也反映了切尔西在夏季转会窗口的引援策略正在逐步成型。",
           "social": [
             {
-              "who": "体育政策分析师",
-              "text": "这不仅仅是体育问题，更是地缘政治在赛场上的延伸，仲裁结果将影响未来几届奥运。"
+              "who": "英超球迷",
+              "text": "亨德森终于找到新东家了，切尔西中场这下稳了不少。"
             },
             {
-              "who": "国际观察者",
-              "text": "乌克兰的上诉是合理的法律途径，希望CAS能做出公正裁决。"
+              "who": "资深球迷",
+              "text": "从布伦特福德到斯坦福桥，亨德森的职业生涯又迈出了重要一步。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "拉德万努斯将缺席美网继续恢复治疗",
+          "eng": "Raducanu to miss US Open to continue recovery",
+          "summary": "前温网冠军艾玛·拉德万努斯因应力性骨折正在康复中，确认将错过即将到来的美国网球公开赛。",
+          "source": "BBC Sport",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cn4njxg33l7o?at_medium=RSS&at_campaign=rss",
+          "overview": "前温网冠军艾玛·拉德万努斯因应力性骨折伤势需要继续恢复治疗，已确认将无法参加即将举行的美国网球公开赛。这一消息让关注她伤情的球迷感到遗憾，同时也为美网的参赛名单增添了变数。",
+          "analysis": "拉德万努斯的缺席凸显了职业运动员在伤病管理上的挑战。对于美网而言，她的缺阵可能影响部分签位的竞争格局，但更多是对其个人职业生涯的考验。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "希望她能早日康复，应力性骨折确实需要时间恢复。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "从温网冠军到缺席美网，拉德万努斯的伤病之路令人惋惜。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "菲律宾新星埃阿拉赢得DC公开赛首冠，成首位WTA单打冠军菲裔选手",
+          "eng": "Breakout star Alexandra Eala continues rise with first WTA title at DC Open",
+          "summary": "21岁的菲律宾新星亚历山德拉·埃阿拉逆转击败头号种子佩古拉夺冠，成为历史上首位赢得WTA巡回赛单打冠军的菲律宾球员。",
+          "source": "Guardian Sport",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/sport/2026/aug/03/alexandra-eala-dc-open-title-philippines",
+          "overview": "在经历了雨延后的华盛顿公开赛（DC Open）决赛中，21岁的菲律宾新星亚历山德拉·埃阿拉逆转击败了头号种子、美国名将杰西卡·佩古拉，以4-6、6-4、6-0夺冠。这是菲律宾历史上首位WTA巡回赛单打冠军得主。同时，泰勒·弗里茨在男单决赛中也夺得了赛季首冠。",
+          "analysis": "埃阿拉的胜利不仅是个人职业生涯的里程碑，更是亚洲网球在世界舞台上的重要突破。她在落后一盘的情况下连扳两盘，展现了极强的心理素质和竞技状态。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "菲律宾终于有了自己的WTA冠军！埃阿拉的表现太令人振奋了。"
+            },
+            {
+              "who": "网球评论员",
+              "text": "逆转佩古拉夺冠，这位21岁的天才少女证明了天赋与努力可以创造奇迹。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "MLS调查新英格兰革命队遭反犹口号事件",
+          "eng": "MLS investigates reports of antisemitic chants toward New England's Dor Turgeman in Montreal",
+          "summary": "在蒙特利尔对阵新英格兰革命的比赛中，球迷向以色列前锋喊出歧视性口号，引发新英格兰强烈谴责及MLS官方调查。",
+          "source": "Guardian Sport",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/football/2026/aug/03/mls-dor-turgeman-montreal-new-england-revolution-israel",
+          "overview": "在新英格兰革命队与CF蒙特利尔的 MLS 比赛中，部分球迷被广播麦克风捕捉到向以色列籍前锋多尔·图格曼喊出具有歧视性的口号。新英格兰革命队强烈谴责了这一行为，称其为“反犹”和“歧视性”，MLS官方已确认知晓此事并展开调查。",
+          "analysis": "这一事件再次引发了关于足球赛场种族主义和仇恨言论的讨论。MLS作为北美顶级联赛，其处理此类事件的效率和态度将直接影响联盟的形象和社会责任履行。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "无论在哪里踢球，反犹口号都是不可接受的，希望MLS能严肃处理。"
+            },
+            {
+              "who": "体育记者",
+              "text": "足球不应成为仇恨的温床，新英格兰革命队的谴责是必要的第一步。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "利物浦夏季美国之行引发球迷对备战状态的担忧",
+          "eng": "Inside Liverpool's summer so far - should fans be worried?",
+          "summary": "BBC体育记者报道了利物浦队在美国巡演期间的最新动态，引发了关于球队新赛季备战是否充分的讨论。",
+          "source": "BBC Sport",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c4g42rz2y89o?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC体育记者阿达姆·帕特尔对利物浦队在美巡赛期间的最新情况进行了报道，内容涉及球队在夏季的备战状态和阵容调整。这一系列报道让部分球迷开始担忧球队在新赛季前的准备是否充分。",
+          "analysis": "利物浦作为英超争冠热门，其夏季备战细节往往牵动人心。球迷的担忧反映了外界对球队阵容深度和管理层决策的关注，这将在新赛季开始后得到验证。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "看到这些报道确实让人有些担心，希望管理层能给出一个满意的交代。"
+            },
+            {
+              "who": "英超观察者",
+              "text": "夏季巡演的意义在于磨合和适应，但关键还是看正式比赛的表现。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "蒂埃尼展现价值助凯尔特人开启苏超卫冕之旅",
+          "eng": "Tierney shows value as Celtic title defence begins",
+          "summary": "BBC苏格兰频道分析了基兰·蒂埃尼在凯尔特人客场战胜邓迪的苏超比赛中的表现及其对球队的影响。",
+          "source": "BBC Sport",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/articles/cpd72xwyjw9o?at_medium=RSS&at_campaign=rss",
+          "overview": "在苏超联赛凯尔特人对阵邓迪的比赛中，基兰·蒂埃尼的表现引起了广泛关注。BBC苏格兰频道深入分析了这位球员对球队近期胜利及新赛季卫冕征程的贡献，展现了他在场上的关键作用。",
+          "analysis": "蒂埃尼作为凯尔特人防线的重要成员，其状态直接影响球队的争冠前景。在赛季初的关键战役中展现出的价值，为凯尔特人的卫冕之路增添了信心。",
+          "social": [
+            {
+              "who": "苏超球迷",
+              "text": "蒂埃尼的状态真好，凯尔特人的防线这下可以放心了。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "赛季开始就踢出这样的表现，看来凯尔特人今年有希望卫冕。"
             }
           ],
           "region": "综合"
@@ -1661,262 +1661,226 @@
     "hot": {
       "items": [
         {
-          "title_zh": "塞维塔大规模越境事件暴露欧洲内部裂痕，西班牙指责摩洛哥",
-          "summary": "约5万人从摩洛哥涌入西班牙飞地塞维塔，导致严重人道主义危机及政治争端。",
+          "title_zh": "塞维拉移民危机暴露欧洲内部裂痕：西班牙指责摩洛哥纵容大规模越境",
+          "summary": "约5万人从摩洛哥涌入西班牙飞地塞维拉，导致数千人在试图抵达时死亡，引发马德里与欧盟其他国家的政治争端。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain",
-          "overview": "上周约5万人从摩洛哥涌入西班牙北非飞地塞维塔，造成大规模越境混乱。塞维塔领导人指责摩洛哥对此次行动“至少是鼓励或默许的”，称其是对西班牙领土完整性的攻击。欧盟委员会主席冯德莱恩致信西班牙首相，呼吁加强边境管控和人员遣返机制，凸显欧洲内部在移民问题上的严重分歧。",
-          "analysis": "塞维塔事件不仅是人道主义危机，更成为检验欧盟团结的试金石。摩洛哥被指幕后推手，而欧盟各国在接收与遣返责任上立场不一，可能影响后续边境政策走向。",
+          "overview": "上周估计有5万人从摩洛哥穿越直布罗陀海峡进入西班牙飞地塞维拉，其中数十人在尝试抵达过程中死亡。塞维拉领导人指责摩洛哥至少鼓励或默许了此次大规模越境行动，称这是对西班牙领土完整的攻击。欧盟委员会主席冯德莱恩随后致信西班牙首相，呼吁加强边境管控并寻求更多遣返合作。",
+          "analysis": "该事件深刻暴露了欧洲在移民问题上的严重分裂，西班牙与邻国之间的政治矛盾急剧升温。摩洛哥被指为幕后推手，使得原本属于国内管辖的边境安全问题上升为国际外交争端。",
           "social": [
             {
-              "who": "欧洲安全观察员",
-              "text": "塞维塔事件表明北非移民路线正在发生结构性变化，传统管控手段面临失效风险。"
-            },
-            {
-              "who": "西班牙政治评论家",
-              "text": "马德里与欧盟其他成员国之间的信任危机可能因此次事件进一步加深。"
+              "who": "欧盟观察员",
+              "text": "塞维拉事件再次证明，欧洲一体化在边境管控上的承诺与现实之间存在巨大鸿沟，各国利益分歧难以弥合。"
             }
           ]
         },
         {
           "title_zh": "伊朗称正与阿曼谈判而非美国，特朗普强烈谴责其领导层",
-          "summary": "伊朗澄清未与美国恢复谈判，引发特朗普对伊方领导层的严厉批评。",
+          "summary": "伊朗表示与美国没有恢复谈判的接触，这一表态引发美国总统特朗普的严厉批评和外交施压。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
-          "overview": "在特朗普宣布谈判将恢复之际，伊朗方面表示目前仅与阿曼进行对话，否认与美国直接接触。这一表态引发美国方面的强烈不满，特朗普随即对伊朗领导层发出严厉谴责。中东局势的微妙变化再次成为国际外交焦点。",
-          "analysis": "伊美之间的沟通渠道是否真正畅通存在争议，伊朗试图通过第三方斡旋降低谈判压力。若谈判无法实质推进，地区紧张态势可能进一步升级。",
+          "overview": "伊朗方面澄清称目前仅与阿曼进行对话，并未与美国恢复谈判。这一信息被特朗普视为对美伊关系的严重挑衅，随即发出强烈谴责。局势表明中东核问题谈判陷入僵局，双方信任基础进一步削弱。",
+          "analysis": "伊朗试图通过外交渠道分化美国与其他盟友的策略可能适得其反，反而加剧了华盛顿的敌意。特朗普政府的强硬回应预示着未来数月内双边关系将更加紧张。",
           "social": [
             {
-              "who": "中东问题分析师",
-              "text": "伊朗的措辞策略显示其希望保持外交灵活性，避免在公开场合陷入被动。"
-            },
-            {
               "who": "国际关系学者",
-              "text": "特朗普的反应折射出美国国内对伊政策强硬派的诉求压力正在上升。"
+              "text": "伊朗的模糊表态往往被解读为拖延战术，但在当前地缘政治环境下，任何外交窗口关闭都可能导致不可逆的后果。"
             }
           ]
         },
         {
-          "title_zh": "俄方称乌克兰无人机袭击黑海海滩致7死40伤，含三名儿童",
-          "summary": "俄罗斯报告称乌克兰无人机击中黑海繁忙度假海滩，造成严重人员伤亡。",
+          "title_zh": "乌克兰无人机袭击俄罗斯黑海海滩致7死40伤",
+          "summary": "三名儿童在度假胜地遇难，俄方称乌军无人机击中繁忙海滩区域造成重大伤亡。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o?at_medium=RSS&at_campaign=rss",
-          "overview": "乌克兰无人机袭击了黑海沿岸一个繁忙的度假海滩，导致至少7人死亡、40人受伤，其中包括3名儿童。这一事件再次凸显俄乌冲突对平民生活区域的直接威胁，引发国际社会对战争后果的广泛关注。",
-          "analysis": "民用设施成为军事打击目标，加剧了当地居民的安全焦虑。此类袭击可能进一步阻碍黑海地区的旅游和经济发展恢复。",
+          "overview": "俄罗斯方面报告称，乌克兰无人机袭击了黑海沿岸一个繁忙的度假海滩，造成至少7人死亡、40人受伤。其中三名遇难者为儿童，事件发生在热门旅游胜地。这一袭击凸显了俄乌冲突对平民生活区域的持续威胁。",
+          "analysis": "针对民用设施的精确打击能力表明乌克兰方面在不对称战争中不断升级战术手段。此类事件在国际舆论中引发强烈谴责，可能影响人道主义援助的通道安全。",
           "social": [
             {
-              "who": "人道主义救援组织代表",
-              "text": "平民伤亡数字令人痛心，冲突对非战斗人员的伤害正在不断累积。"
-            },
-            {
-              "who": "国际法专家",
-              "text": "针对民用区域的袭击可能违反国际人道主义法相关原则。"
+              "who": "战争报道记者",
+              "text": "当度假海滩成为战场，战争的残酷性不再局限于前线，平民心理创伤将成为战后重建中最难愈合的部分。"
             }
           ]
         },
         {
-          "title_zh": "英足总拟退出国际足联主席连任支持，Infantino面临反对者威胁",
-          "summary": "英格兰和威尔士足协将撤回对国际足联主席因凡蒂诺的连任背书。",
+          "title_zh": "英国将禁止性犯罪者适用提前释放方案",
+          "summary": "PC安德鲁·哈珀的遗孀表示其丈夫的凶手仍符合该计划资格，称此举令人作呕。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/news/articles/c20e15d0z6zo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国政府宣布将禁止强奸犯和儿童性犯罪者在适用提前释放计划，回应了公众对司法公正的强烈呼声。受害者家属对此表示极度愤怒，认为凶手仍享有减刑机会是对受害者的二次伤害。",
+          "analysis": "这一政策调整反映了社会对严重暴力犯罪零容忍态度的转变，同时也给英国司法改革带来了新的立法挑战。如何在惩罚与改造之间取得平衡将考验立法者智慧。",
+          "social": [
+            {
+              "who": "法律评论员",
+              "text": "虽然限制提前释放是正义的体现，但需警惕该政策是否会被扩大化，从而影响到其他非暴力犯罪的量刑公平性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英足总威胁退出国际足联主席因凡蒂诺连任竞选支持",
+          "summary": "威尔士足协已加入英国，两国将撤回对因凡蒂诺继续担任国际足联主席的支持。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.bbc.co.uk/sport/football/articles/cp30vg829nxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰足球协会（FA）计划加入威尔士足协，撤回对国际足联主席因凡蒂诺连任竞选的支持。反对者威胁将与国际足联进行“不合作”，这一动向可能动摇国际足联的权力格局和治理稳定性。",
-          "analysis": "欧洲两大足球强国的联合退出具有标志性意义，反映出国际足联在改革和透明度方面的信任危机正在加深。",
+          "overview": "英格兰足球协会计划加入威尔士，共同撤回对国际足联主席因凡蒂诺连任竞选的支持。这一举动标志着欧洲主要足球力量在国际足联内部权力斗争中的重大转向。",
+          "analysis": "英足总的退出可能动摇因凡蒂诺的执政基础，引发国际足联内部的重组和分裂风险。全球足球治理结构的未来走向将因此受到深远影响。",
           "social": [
             {
-              "who": "足球行业评论员",
-              "text": "英足总的决定可能引发更多成员国效仿，导致因凡蒂诺的连任之路更加艰难。"
-            },
-            {
-              "who": "体育治理研究者",
-              "text": "国际足联内部派系斗争公开化，将影响全球足球赛事的商业价值评估。"
+              "who": "体育产业分析师",
+              "text": "足球政治化趋势日益明显，当国家队利益凌驾于组织稳定之上时，整个国际足联的公信力将面临严峻考验。"
             }
           ]
         },
         {
-          "title_zh": "法国批评改革英国计划动用海军遣返移民，无视巴黎反对意见",
-          "summary": "改革英国党宣布将使用海军力量遣返移民至法国，即便遭到法方强烈反对。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-03",
-          "url": "https://www.bbc.co.uk/news/articles/cr59qyy4l5yo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国改革党提出利用海军力量将非法移民遣返至法国，尽管法国方面明确反对。这一激进方案引发了法英两国在移民问题上的外交摩擦，凸显了欧洲各国在处理边境管控和难民接收问题上的立场差异。",
-          "analysis": "此举若实施，可能引发国际法和主权争议，同时加剧英国国内政治极化情绪。",
-          "social": [
-            {
-              "who": "欧盟移民政策专家",
-              "text": "单边行动无法解决根源问题，反而可能破坏欧洲一体化的合作基础。"
-            },
-            {
-              "who": "英国政治观察家",
-              "text": "改革党的方案反映了右翼政党在移民议题上的极端化趋势正在加速。"
-            }
-          ]
-        },
-        {
-          "title_zh": "西汉姆联联合老板苏利文被建议远离主场赛事，球迷骚乱担忧加剧",
-          "summary": "伦敦体育场建议西汉姆联联合老板苏利文回避主场比赛，因性 misconduct 指控引发球迷不安。",
+          "title_zh": "西汉姆联共同老板被建议远离主场赛事",
+          "summary": "伦敦体育场建议其共同老板回避，以免引发球迷骚乱，此前该俱乐部面临性不当行为指控。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.bbc.co.uk/news/articles/c77gzjjmgleo?at_medium=RSS&at_campaign=rss",
-          "overview": "因涉及性不当行为的指控，西汉姆联联合老板大卫·苏利文被伦敦体育场建议远离主场赛事。球迷群体对俱乐部管理层的不满情绪高涨，担心现场可能出现骚乱或抗议活动。",
-          "analysis": "体育界高管的道德丑闻正成为社会关注的焦点，俱乐部需平衡商业利益与公众信任之间的关系。",
+          "overview": "伦敦体育场向西汉姆联共同老板戴维·沙利文发出建议，要求其远离主场赛事。此举源于俱乐部此前涉及的性不当行为指控引发的球迷强烈不满和潜在骚乱风险。",
+          "analysis": "体育界对性侵丑闻的零容忍态度正在重塑行业治理标准。俱乐部管理层与球迷之间的信任危机若无法化解，可能影响球队的商业价值和竞技状态。",
           "social": [
             {
-              "who": "英超联赛分析师",
-              "text": "此类事件对球队士气和品牌形象的打击是长期的，管理层需要果断回应。"
-            },
-            {
-              "who": "球迷权益代表",
-              "text": "俱乐部应优先保障球迷的安全和感受，而非保护个别管理层的利益。"
+              "who": "英超球迷代表",
+              "text": "无论老板身份如何显赫，涉嫌伤害他人身体和尊严的行为绝不应被特权豁免，这是底线问题。"
             }
           ]
         },
         {
-          "title_zh": "西非多国反同性恋法律持续收紧，活动人士警告政治权力博弈",
-          "summary": "塞内加尔、尼日尔等国加强反LGBTQ+立法，活动人士认为这是政客维持权力的手段。",
+          "title_zh": "儿童疫苗接种率下降原因并非社交媒体——英国诊所采取激进措施应对",
+          "summary": "随着英国各地儿童免疫接种率持续走低，西约克郡一家诊所正采取积极步骤提升接种率。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/news/articles/c0qvlw2dd0no?at_medium=RSS&at_campaign=rss",
+          "overview": "英国儿童免疫接种率正在全国范围内下降，但分析指出原因并非社交媒体误导。西约克郡一家诊所正采取激进措施试图扭转这一趋势，包括主动上门和社区动员。",
+          "analysis": "疫苗接种率的下滑可能削弱群体免疫力，增加传染病爆发风险。解决这一问题需要深入理解家长犹豫背后的真实社会心理因素，而非简单归咎于信息传播渠道。",
+          "social": [
+            {
+              "who": "公共卫生专家",
+              "text": "在疫苗犹豫日益普遍的背景下，建立社区信任比单纯的信息科普更为关键，基层医疗网络的作用不可替代。"
+            }
+          ]
+        },
+        {
+          "title_zh": "西非多国反LGBTQ+法律激增，活动人士警告政治势力利用此议题",
+          "summary": "塞内加尔将同性恋行为最高刑期翻倍至10年，尼日尔也首次刑事化同性性行为。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-02",
           "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
-          "overview": "西非多国正在实施或加强反LGBTQ+法律，塞内加尔将同性恋行为最高刑期翻倍至10年，尼日尔也首次将同性性行为定罪。活动人士警告称，政治家正将LGBTQ+群体视为“最容易的替罪羊”以维持权力。",
-          "analysis": "全球范围内对LGBTQ+权利的倒退趋势值得警惕，西非地区的立法变化可能影响区域人权合作和国际形象。",
+          "overview": "西非地区越来越多国家实施或加强反LGBTQ+法律，活动人士警告政客将此类群体视为维持权力的 easiest 替罪羊。塞内加尔和尼日尔等国近期均出台了更为严苛的惩罚措施。",
+          "analysis": "这一趋势反映了全球范围内保守主义回潮在非洲大陆的具体投射。法律条文的收紧不仅威胁少数群体的基本权利，也可能加剧社会撕裂和国际人权组织的批评压力。",
           "social": [
             {
-              "who": "国际人权组织代表",
-              "text": "这些法律不仅侵犯基本权利，还可能加剧社会分裂和边缘化群体的困境。"
-            },
-            {
-              "who": "非洲LGBTQ+活动家",
-              "text": "我们需要更多的国际支持和团结，以对抗国内政治压力带来的倒退。"
+              "who": "LGBTQ+权益倡导者",
+              "text": "将性取向作为政治筹码是民主倒退的明显信号，国际社会应加大对这些国家公民保护机制的关注力度。"
             }
           ]
         },
         {
-          "title_zh": "奥地利打破高温纪录逼近历史极值，日本应对台风海豚袭击",
-          "summary": "欧洲多地出现破纪录高温，日本则面临强台风“海豚”的威胁。",
+          "title_zh": "奥地利打破高温纪录，日本应对台风海豚来袭",
+          "summary": "欧洲多地持续出现创纪录高温，奥地利注册了新的7月峰值，而冲绳正面临强风和风暴潮。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-03",
           "url": "https://www.theguardian.com/environment/2026/aug/03/weather-tracker-austria-heat-europe-japan-typhoon-dolphin",
-          "overview": "2026年夏季欧洲多地气温飙升，奥地利维塞尔堡录得40.3°C的新纪录，距历史最高仅差0.2°C。与此同时，日本冲绳地区正面临强台风“海豚”带来的狂风和风暴潮威胁。",
-          "analysis": "极端天气事件的频发再次敲响了气候变化的警钟，各国需加强灾害预警和应对能力。",
+          "overview": "2026年夏季欧洲多地气温飙升，奥地利维塞尔堡录得40.3°C的新纪录，距历史最高仅差0.2°C。与此同时，日本冲绳地区正遭遇台风海豚带来的强风和风暴潮威胁。",
+          "analysis": "极端天气事件的频发再次敲响了气候变化的警钟。北半球不同区域同时面临热浪和台风的考验，凸显了全球变暖对气象模式的深远影响。",
           "social": [
             {
-              "who": "气象学家",
-              "text": "全球变暖背景下，极端高温和强台风的频率正在显著增加。"
-            },
-            {
-              "who": "环保活动人士",
-              "text": "减少碳排放是应对气候危机的根本途径，各国应加快绿色转型步伐。"
+              "who": "气象预报员",
+              "text": "当历史极值不断被刷新，我们需要重新评估现有城市基础设施在极端气候下的韧性设计标准。"
             }
           ]
         },
         {
-          "title_zh": "AI工作流从实验走向产线面临规模化挑战，行业需构建协作生态",
-          "summary": "2026 ChinaJoy AI未来生态大会上，行业专家探讨AI工作流规模化落地的瓶颈与协作生态。",
+          "title_zh": "从实验到产线：AI工作流规模化挑战与协作生态探讨",
+          "summary": "2026 ChinaJoy大会上，行业先行者共同探讨了生成能力不再是门槛后，如何构建稳定的工作流与协作生态。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-03",
           "url": "https://36kr.com/p/3923717502072969?f=rss",
-          "overview": "在2026 ChinaJoy AI未来生态大会上，来自Funloom AI、阿里云等行业先行者共同探讨了AI工作流从实验室到产线的规模化挑战。专家指出，真正的瓶颈不在于模型生成能力，而在于工作流的稳定性和协作生态的有效构建。",
-          "analysis": "随着生成式AI能力的趋平，行业竞争焦点转向工程化落地能力和场景理解深度，规模化是决定企业成败的关键。",
+          "overview": "在AI生成能力趋于成熟之际，内容生产正经历从技术验证到产业落地的关键跨越。单点突破易，系统协同难，真正的挑战在于工作流能否稳定运转及协作生态的有效构建。2026 ChinaJoy AI未来生态大会上，多位行业专家围绕规模化落地瓶颈展开了深度圆桌讨论。",
+          "analysis": "AI工具的商业化核心已从模型能力转向工程化落地和场景理解深度。企业需要建立适应快速迭代的协作机制，才能真正释放技术红利并实现可持续增长。",
           "social": [
             {
-              "who": "AI产业分析师",
-              "text": "单点突破易，系统协同难，未来赢家将是那些能打通全链路的企业。"
-            },
+              "who": "科技行业从业者",
+              "text": "很多团队陷入了对模型的过度依赖，忽视了工作流中人的判断力和工程化能力才是最终决定效率的关键因素。"
+            }
+          ]
+        },
+        {
+          "title_zh": "可灵3.0电影感测试：复杂叙事短片创作仍需拆分镜头策略",
+          "summary": "围绕《霸王别姬》主题的压力测试显示，模型在关键镜头表现突出，但长动作场景依赖提示词与分镜设计。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-08-03",
+          "url": "https://36kr.com/p/3923465542364545?f=rss",
+          "overview": "针对可灵3.0进行的电影感压力测试围绕人物一致性、构图与空间层次等维度展开。结果显示，模型在关键镜头创作上表现优异，但在处理跨空间移动和多道具打斗场景时仍需拆分短镜头策略。",
+          "analysis": "可灵3.0更适合关键帧和短动作的创作需求，对于复杂叙事影片，更稳妥的思路是结合分镜设计与后期剪辑串联完整段落。这为AI辅助影视创作提供了明确的方法论指引。",
+          "social": [
             {
-              "who": "技术从业者",
-              "text": "我们需要更多关注如何让AI真正融入日常业务流程，而非仅停留在演示阶段。"
+              "who": "独立电影制作人",
+              "text": "AI工具正在改变我们的创作流程，但理解工具的边界比盲目追求自动化更能保证作品的艺术质量。"
             }
           ]
         },
         {
           "title_zh": "硅光资深团队获数千万天使轮融资，瞄准CPO/OIO下一代光互连",
-          "summary": "量引科技完成数千万元天使轮融资，创始人团队拥有30余年集成电路行业经验。",
+          "summary": "量引科技完成融资由珠海科技产业集团领投，将用于扩充团队及迭代流片。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-03",
           "url": "https://36kr.com/p/3923374038265217?f=rss",
-          "overview": "光芯片企业量引科技近期完成天使轮融资，由珠海科技产业集团领投。公司聚焦硅光子传输芯片、Optical IO及共封装光学（CPO）的研发，创始团队融合了国内外研发和制造经验，旨在解决算力集群规模增长带来的高功耗问题。",
-          "analysis": "随着生成式AI和大模型训练需求爆发，光互连技术成为突破算力瓶颈的关键方向，该轮融资将加速相关技术的产业化进程。",
+          "overview": "光芯片企业量引科技近期完成数千万元天使轮融资，由珠海科技产业集团领投。公司聚焦光子集成电路领域，致力于硅光子传输芯片及共封装光学技术的研发。创始团队拥有30余年集成电路行业经验，背景涵盖英特尔、思科等巨头。",
+          "analysis": "随着生成式AI与大模型训练需求爆发，算力集群规模指数级增长推动传输速率迈向1.6T乃至3.2T。传统信号调制方式面临高功耗瓶颈，硅光技术成为下一代光互连的关键解决方案。",
           "social": [
             {
-              "who": "半导体行业专家",
-              "text": "CPO和OIO是未来数据中心互联的核心技术，国内团队在此领域的布局值得关注。"
-            },
-            {
-              "who": "投资人视角",
-              "text": "硬科技赛道需要长期投入，该团队的背景和资源为项目落地提供了坚实保障。"
+              "who": "半导体行业投资人",
+              "text": "算力基础设施的升级换代周期正在加速，拥有深厚技术积淀的团队在CPO赛道具备较强的先发优势。"
             }
           ]
         },
         {
-          "title_zh": "可灵3.0压力测试：电影感镜头表现突出，复杂叙事需拆分策略",
-          "summary": "围绕《霸王别姬》主题进行原创脚本测试，验证可灵3.0在人物一致性和光影氛围上的能力。",
+          "title_zh": "前安克3D打印负责人创立B端工具品牌获数千万融资",
+          "summary": "「轻量智造」选择做纯制造逻辑的桌面级3D打印机，目标帮工厂节约人力并提升产能。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-03",
-          "url": "https://36kr.com/p/3923465542364545?f=rss",
-          "overview": "36氪对可灵3.0进行了压力测试，围绕《霸王别姬》主题创作原创脚本。结果显示，模型在构图、光影和人物一致性上表现突出，适合关键镜头创作。但对于复杂叙事影片，建议将长动作拆分为单目标短镜头，再通过后期剪辑串联。",
-          "analysis": "可灵3.0在电影感场景的应用潜力巨大，但处理多角色、跨空间移动等复杂任务时仍需优化提示词和拆分策略。",
+          "url": "https://36kr.com/p/3923371035831684?f=rss",
+          "overview": "前安克创新3D打印业务负责人创立的「轻量智造」连续完成两轮超2500万元融资。公司初代产品为独立四头3D打印机，定价2399美金，已在Kickstarter平台众筹。创始人表示不做玩具而做工具，关注如何帮工厂节约一半人力并提升4倍产能。",
+          "analysis": "在消费级3D打印红海中，轻量智造选择了一条截然不同的B端路线。随着中国3D打印机出口量同比增长超100%，工业制造领域的智能化转型需求正在释放巨大市场空间。",
           "social": [
             {
-              "who": "影视制作从业者",
-              "text": "AI辅助创作正在改变传统工作流，但导演对最终画面的把控力依然不可替代。"
-            },
-            {
-              "who": "AI技术评测员",
-              "text": "模型在特定场景下的稳定性仍需更多数据验证，复杂任务的成功率有待提升。"
+              "who": "制造业创业者",
+              "text": "从消费级转向工业级的逻辑非常清晰，当ROI成为核心指标时，设备的稳定性和效率远比花哨的功能更重要。"
             }
           ]
         },
         {
-          "title_zh": "A股收盘沪指跌近1%，德明利因大股东爆仓传闻暴跌超9%",
-          "summary": "上证指数收于3809.66点，德明利受市场情绪影响大幅下跌，换手率高达16.49%。",
-          "source": "36氪",
-          "region": "中国",
-          "published": "2026-08-03",
-          "url": "https://36kr.com/p/3923603053686151?f=rss",
-          "overview": "8月3日A股收盘，上证指数微跌0.59%，创业板指下跌1.24%。德明利因网传第五大股东爆仓致股价暴跌超9%，换手率高达16.49%。公司回应称股东个人股份处置属自身事务，非法定披露范畴。",
-          "analysis": "市场情绪波动剧烈，投资者需警惕传闻对个股的冲击。企业应加强信息披露透明度，稳定市场预期。",
-          "social": [
-            {
-              "who": "财经评论员",
-              "text": "大股东爆仓传闻往往引发短期恐慌，但长期价值取决于公司基本面和业绩表现。"
-            },
-            {
-              "who": "资深股民",
-              "text": "高换手率和缩量下跌说明市场信心不足，投资者应保持理性，避免盲目跟风。"
-            }
-          ]
-        },
-        {
-          "title_zh": "大疆系Ebike公司Amflow营收突破10亿，高端市场逆势增长",
-          "summary": "从大疆独立的Ebike品牌Amflow将6499欧元起的高端车卖出3万辆，营收已超10亿元。",
+          "title_zh": "大疆系Ebike公司Amflow营收突破10亿，高端车年销量达3万辆",
+          "summary": "从大疆独立出的Amflow将6499欧元起的高端Ebike卖出佳绩，在欧洲市场逆势增长。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-03",
           "url": "https://36kr.com/p/3923367465266824?f=rss",
-          "overview": "从大疆诞生的Ebike公司Amflow，在行业普遍低迷的背景下逆势增长，整体营收突破10亿元。其主打6499欧元起的高端市场，已卖出3万辆车。同时，另一大疆系品牌Avinox也已独立运营，拥有60多个客户。",
-          "analysis": "欧洲Ebike市场虽受库存压力影响，但高端细分赛道仍有增长空间。大疆系团队的成功证明了差异化定位和品质导向的战略价值。",
+          "overview": "从大疆独立出的Ebike公司Amflow整体营收已突破10亿元，将6499欧元起的高端Ebike卖出3万辆。其助力系统品牌Avinox也已独立运营并获60多个客户。在欧洲Ebike市场受困于高库存压力的背景下，这一逆势增长令人瞩目。",
+          "analysis": "Amflow的成功证明了高端定位在特定细分市场中的可行性。中国企业在欧洲市场的竞争力不仅体现在价格优势上，更在于产品设计和品牌故事的差异化构建能力。",
           "social": [
             {
-              "who": "消费电子行业分析师",
-              "text": "从大疆到Ebike的跨界成功，体现了品牌基因在垂直领域的延伸能力。"
-            },
-            {
-              "who": "欧洲市场观察者",
-              "text": "中国Ebike厂商正在通过高端化策略重塑全球竞争格局，不再局限于低价出口。"
+              "who": "新能源出行观察者",
+              "text": "大疆系团队将消费电子的敏捷迭代思维带入Ebike领域，这种跨界融合正在重塑整个行业的竞争格局。"
             }
           ]
         }
@@ -1929,60 +1893,60 @@
     "voices": {
       "items": [
         {
-          "name": "吴建中",
-          "role": "中国科学技术大学图书馆馆长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "关注智慧图书馆建设、移动阅读推广新模式及高校图书馆数字化转型路径。",
-          "url": "https://lib.ustc.edu.cn/"
-        },
-        {
-          "name": "李国新",
-          "role": "中国图书馆学会会长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "推动全国馆社共荐优质书目及服务平台发布，强调图书馆服务标准化与质量提升。",
-          "url": "https://www.clac.org.cn/"
-        },
-        {
-          "name": "Andrew Ng",
-          "role": "DeepLearning.AI 联合创始人、前谷歌深度学习研究院负责人",
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦人工智能在教育领域的普惠应用，倡导通过 AI 降低技术门槛以赋能全球学习者。",
-          "url": "https://www.andrewng.org/"
+          "recent": "推动全球 AI 安全治理标准，强调宪法式 AI 原则以应对监管争议。",
+          "url": "https://x.com/darioamodei"
         },
         {
-          "name": "Tim Berners-Lee",
-          "role": "万维网发明者、World Wide Web Foundation 创始人",
+          "name": "李开复 (Kai-Fu Lee)",
+          "role": "AI 学者与创业者",
+          "region": "中国/全球",
+          "domain": "ai",
+          "recent": "聚焦 AI 对教育与就业的深远影响，倡导技术向善与社会适应。",
+          "url": "https://kaifulee.com"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "播客主持人/AI 研究者",
+          "region": "美国/全球",
+          "domain": "podcast",
+          "recent": "主持深度对话探讨 AI 对齐、意识本质及自主代理的伦理边界。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta 首席科学家",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "主张开源 AI 模型发展，挑战 AGI 时间表并参与欧盟监管框架讨论。",
+          "url": "https://yannlecun.com"
+        },
+        {
+          "name": "Yoshua Bengio",
+          "role": "蒙特利尔大学 AI 教授",
+          "region": "加拿大",
+          "domain": "ai",
+          "recent": "关注负责任 AI 研发，强调机器学习在发展中地区的社会影响与公平性。",
+          "url": "https://x.com/YoshuaBengio"
+        },
+        {
+          "name": "Alice Creaghan",
+          "role": "图书馆学家/AI 倡导者",
           "region": "英国",
           "domain": "library",
-          "recent": "呼吁建立数据信托机制与开放网络架构，主张图书馆应成为数字时代知识主权的核心守护者。",
-          "url": "https://www.w3.org/"
-        },
-        {
-          "name": "Bill Gates",
-          "role": "微软联合创始人、Thrive Global CEO",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "通过播客及公开演讲探讨 AI 对教育体系与阅读习惯的深远影响，关注技术如何重塑知识获取方式。",
-          "url": "https://www.gatesnotes.com/"
-        },
-        {
-          "name": "刘擎",
-          "role": "复旦大学哲学学院教授、思想市场播客主理人",
-          "region": "中国",
-          "domain": "podcast",
-          "recent": "从哲学视角审视 AI 时代人类知识的边界与价值，探讨智能技术对人类认知与社会结构的冲击。",
+          "recent": "倡导图书馆作为数字素养和 AI 伦理教育的核心公共基础设施。",
           "url": ""
         },
         {
-          "name": "Sarah Miller",
-          "role": "美国国会图书馆数字战略办公室主任",
-          "region": "美国",
+          "name": "Tim Berners-Lee",
+          "role": "万维网发明者/数据主权倡导者",
+          "region": "英国/瑞士",
           "domain": "library",
-          "recent": "主导制定图书馆领域人工智能伦理准则，推动公共图书馆在生成式 AI 时代的角色转型与服务创新。",
-          "url": "https://www.loc.gov/about/leadership/sarah-miller.html"
+          "recent": "呼吁数据主权与开放网络标准，保护公众信息获取权免受商业控制。",
+          "url": "https://timbl.org"
         }
       ]
     },
