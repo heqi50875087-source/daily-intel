@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-04T09:37:47+08:00",
+  "generated_at": "2026-08-04T10:13:02+08:00",
   "date": "2026-08-04",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-04 09:37",
     "ai": "2026-08-04 09:37",
     "voices": "2026-08-04 09:37",
-    "github": "2026-08-04 09:37",
+    "github": "2026-08-04 10:13",
     "libraries": "2026-08-04 07:26",
     "sports": "2026-08-04 09:37",
     "academic": "2026-08-04 06:40"
@@ -1513,82 +1513,246 @@
     "github": {
       "items": [
         {
-          "title_zh": "QM — 多人协作智能体工作平台",
+          "title_zh": "QM — 多智能体协作工作平台",
           "eng": "yc-software/qm",
-          "summary": "面向团队协作的多智能体编排框架，支持多人实时共享与协同使用AI Agent。",
+          "summary": "YC出品的多人在线AI智能体协作框架，支持团队共享智能体、任务编排与实时同步。",
           "source": "GitHub",
-          "stars": 9686,
+          "stars": 9808,
           "lang": "TypeScript",
           "published": "2026-07-29",
           "url": "https://github.com/yc-software/qm",
-          "overview": "YC出品的开源项目，定位为团队级AI智能体协作平台。支持多人同时接入同一Agent会话、实时共享上下文与执行结果，适合产品团队、研究小组等场景下的高效协同开发。采用TypeScript构建，工程化程度高。",
-          "analysis": "作为YC孵化的项目，QM代表了AI Agent从个人工具向团队协作工具演进的重要方向。9686星的高关注度说明市场对多Agent协作有强烈需求，值得开发者关注其架构设计思路。",
+          "overview": "QM是YC Software推出的多智能体协作平台，允许团队成员共同创建、部署和管理AI智能体。支持多人实时编辑智能体配置、共享任务队列和结果可视化，内置工作流编排能力。作为YC孵化项目，代表了企业级AI Agent协作的最新方向。",
+          "analysis": "9808星的高关注度表明市场对团队协作+AI Agent的需求极为旺盛。YC出品意味着产品成熟度高、生态完善，适合团队将AI智能体融入日常开发和工作流程。",
           "social": [
             {
-              "who": "开发者/研究者",
-              "text": "多人实时共享Agent上下文是团队提效的关键场景，QM的编排能力值得关注。"
+              "who": "开发者",
+              "text": "YC出品的项目质量有保障，多人协作Agent框架填补了个人工具到团队协作的空白。"
             },
             {
-              "who": "产品人",
-              "text": "YC出品+高star数，说明团队协作AI工具正成为下一个风口。"
+              "who": "AI研究者",
+              "text": "多智能体编排+实时同步是2026年最热门方向之一，QM提供了很好的实践参考。"
             }
           ]
         },
         {
-          "title_zh": "TryCompAI CRM — 开源智能体优先CRM",
+          "title_zh": "TryComp — 开源Agent优先CRM系统",
           "eng": "trycompai/crm",
-          "summary": "面向AI原生工作流的开源CRM系统，以Agent为核心架构设计客户管理。",
+          "summary": "首个以AI Agent为核心的开源CRM，用智能体自动处理客户交互、跟进和数据分析。",
           "source": "GitHub",
-          "stars": 3260,
+          "stars": 3325,
           "lang": "TypeScript",
           "published": "2026-07-31",
           "url": "https://github.com/trycompai/crm",
-          "overview": "完全开源的CRM产品，采用agentic-first设计理念，将AI Agent深度嵌入客户管理全流程。支持自动化客户跟进、智能线索分类与预测分析，适合中小团队快速部署使用。TypeScript全栈实现。",
-          "analysis": "在SaaS领域引入Agent优先架构是重要趋势，TryCompAI CRM展示了如何将AI原生思维应用于传统CRM场景，对开发者理解AI+业务融合有参考价值。",
+          "overview": "TryComp是一个完全开源的CRM系统，设计理念从传统人工操作转向AI Agent驱动。智能体可自动执行客户跟进、邮件撰写、数据分析等任务，支持自定义Agent工作流和插件扩展。界面简洁现代，适合中小团队快速部署使用。",
+          "analysis": "3325星说明市场对'AI原生CRM'有强烈需求。开源意味着企业可以完全掌控数据隐私和客户信息，这在当前数据安全法规趋严的背景下极具吸引力。",
           "social": [
             {
               "who": "创业者",
-              "text": "开源CRM+Agent架构，降低中小团队客户管理成本的好选择。"
+              "text": "开源CRM+Agent架构是SaaS创业的好起点，可低成本验证产品市场匹配度。"
             },
             {
               "who": "开发者",
-              "text": "agentic-first的CRM设计值得学习，可参考其API与插件生态。"
+              "text": "TypeScript全栈实现，代码质量高，社区活跃，值得作为学习Agent CRM的参考项目。"
             }
           ]
         },
         {
-          "title_zh": "FDE指南 — 前沿部署工程师入门书",
+          "title_zh": "FDE前沿部署工程师指南",
           "eng": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-          "summary": "基于范冰《增长黑客》框架的前瞻部署工程师（FDE）从零到一学习指南，中文原创。",
+          "summary": "基于范冰《增长黑客》框架，系统讲解前沿部署工程师(FDE)的完整方法论。",
           "source": "GitHub",
-          "stars": 2067,
+          "stars": 2105,
           "lang": "",
           "published": "2026-07-30",
           "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-          "overview": "这是一本面向中国开发者的FDE（Forward Deployed Engineer）入门指南，以范冰《增长黑客》为理论框架，系统讲解如何快速将产品推向市场。涵盖用户调研、MVP构建、数据驱动迭代等核心方法论。",
-          "analysis": "在中文技术社区中，系统性介绍前沿部署工程师角色的原创内容稀缺。2067星说明该方向在中国开发者群体中有广泛需求，适合产品经理和全栈开发者学习参考。",
+          "overview": "这是一本面向中国开发者的前沿部署工程师(FDE)入门指南，以范冰《增长黑客》为理论框架。内容涵盖产品上线策略、用户获取、数据驱动决策等核心主题，适合产品经理和开发者系统学习增长方法论。文档结构清晰，配有大量实战案例。",
+          "analysis": "2105星说明中文技术社区对系统化学习方法论的需求旺盛。FDE概念在国内尚属新兴领域，本书填补了从理论到实践的空白，尤其适合刚入行的产品人和开发者。",
           "social": [
             {
               "who": "产品经理",
-              "text": "FDE角色定义清晰，对想快速验证产品的中国团队很有指导意义。"
+              "text": "增长黑客框架的中文实战版，比直接啃英文原书更友好，案例贴合国内场景。"
             },
             {
               "who": "学习者",
-              "text": "中文原创+框架化内容，降低了前沿部署工程师的学习门槛。"
+              "text": "从零入门到系统掌握FDE方法论的最佳路径之一，值得收藏反复阅读。"
             }
           ]
         },
         {
-          "title_zh": "Skill Recorder — 屏幕工作流自动记录与技能重建",
+          "title_zh": "Skill Recorder — 屏幕工作流自动化工具",
           "eng": "microsoft/skill-recorder",
-          "summary": "桌面应用，录制屏幕操作会话并通过GitHub Copilot CLI重构为可复用技能或自动化流程。",
+          "summary": "微软出品的桌面应用，录制屏幕操作并自动生成可复用的技能或自动化流程。",
           "source": "GitHub",
-          "stars": 1406,
+          "stars": 1436,
           "lang": "TypeScript",
           "published": "2026-07-29",
           "url": "https://github.com/microsoft/skill-recorder",
-          "overview": "微软出品的桌面工具，能够录制用户在屏幕上的操作会话，利用Copilot CLI将操作序列重构为结构化的意图与步骤列表，进而生成可复用的Skill或Automation。支持接入Microsoft Scout、Copilot Cowork和Copilot Studio等平台。",
-          "analysis": "这是AI Agent从"
+          "overview": "Skill Recorder是一款桌面应用，通过录制用户的屏幕操作会话，利用GitHub Copilot CLI将操作序列重构为意图和有序步骤。生成的技能可直接用于Microsoft Scout、Copilot Cowork或Copilot Studio等平台。支持导出为可复用的自动化流程，大幅降低重复性工作的门槛。",
+          "analysis": "微软官方出品，与Copilot生态深度整合。将'录屏→理解→复用'的闭环做得非常自然，代表了AI自动化的下一个演进方向：从代码生成到操作行为生成。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "微软官方+GitHub Copilot集成，生态优势明显，适合企业级自动化场景。"
+            },
+            {
+              "who": "效率工具爱好者",
+              "text": "把屏幕操作变成可复用技能的理念很酷，日常重复工作终于有了AI解决方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Kimi K3单CPU推理实现",
+          "eng": "FareedKhan-dev/kimi-k3-in-c",
+          "summary": "将2.78万亿参数的Kimi K3模型用纯C99在单CPU上运行，仅占用8.24GB内存。",
+          "source": "GitHub",
+          "stars": 1264,
+          "lang": "C",
+          "published": "2026-08-01",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+          "overview": "这是一个技术奇迹：将阿里千问Kimi K3的2.78万亿参数模型，用纯C99语言实现，无需BLAS库、无需深度学习框架、无需GPU，仅靠单CPU和8.24GB内存即可运行推理。代码完全可移植，展示了极致优化的可能性。",
+          "analysis": "1264星反映了社区对'AI民主化'的强烈兴趣。纯C实现意味着可以在嵌入式设备、树莓派等低资源环境部署大模型，这对边缘计算和离线场景意义重大。",
+          "social": [
+            {
+              "who": "AI研究者",
+              "text": "2.78T参数在单CPU上跑通，这个优化水平令人惊叹，对量化和推理优化有重要参考价值。"
+            },
+            {
+              "who": "嵌入式开发者",
+              "text": "纯C实现+无框架依赖，意味着可以在任何硬件平台上部署，边缘AI的里程碑式项目。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Sol Advisor — 代码架构编排工具",
+          "eng": "DannyMac180/sol-advisor",
+          "summary": "基于Codex原生的代码架构编排系统，集成Luna和Terra实现路径规划。",
+          "source": "GitHub",
+          "stars": 1010,
+          "lang": "Shell",
+          "published": "2026-08-01",
+          "url": "https://github.com/DannyMac180/sol-advisor",
+          "overview": "Sol Advisor是一个代码架构编排工具，深度集成GitHub Copilot Codex。它提供Luna和Terra两条实现路径，支持强制性的最新Sol版本审查流程。Shell脚本实现保证了执行效率和可移植性，适合CI/CD流水线中的自动化代码质量检查。",
+          "analysis": "1010星说明市场对'AI辅助架构设计'有实际需求。将Codex能力封装为可编排的架构工具链，比单纯用Copilot写代码更进一步——它关注的是整体架构而非单个函数。",
+          "social": [
+            {
+              "who": "架构师",
+              "text": "Sol版本审查+双路径实现是亮点，适合需要严格质量控制的团队。"
+            },
+            {
+              "who": "开发者",
+              "text": "Shell脚本实现轻量高效，可以嵌入现有CI/CD流程而不增加额外依赖。"
+            }
+          ]
+        },
+        {
+          "title_zh": "GenOffice — AI原生办公套件",
+          "eng": "genspark-ai/genoffice",
+          "summary": "面向macOS和Windows的AI原生办公套件，包含文档、表格、演示文稿和PDF处理功能。",
+          "source": "GitHub",
+          "stars": 690,
+          "lang": "TypeScript",
+          "published": "2026-07-31",
+          "url": "https://github.com/genspark-ai/genoffice",
+          "overview": "GenOffice是Genspark AI推出的AI原生办公套件，覆盖文档编辑、电子表格、演示文稿和PDF处理四大核心场景。作为TypeScript全栈应用，它支持跨平台运行（macOS+Windows），设计上强调AI辅助而非传统工具思维——用户可以用自然语言生成内容、分析数据、创建图表。",
+          "analysis": "690星说明市场对'AI原生办公'有真实需求。不同于在Word上套一层AI插件的思路，GenOffice从底层重新设计交互逻辑，代表了办公软件进化的新方向。",
+          "social": [
+            {
+              "who": "效率工具爱好者",
+              "text": "AI原生而非AI附加——这个设计理念很对，用自然语言办公才是真正的未来。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript全栈+跨平台，代码质量高，值得作为AI应用开发的参考项目。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Anatomy — 3D人体解剖交互式探索器",
+          "eng": "thebuggeddev/anatomy",
+          "summary": "基于Three.js和GPT 5.6 Sol构建的交互式3D人体解剖学探索工具。",
+          "source": "GitHub",
+          "stars": 780,
+          "lang": "TypeScript",
+          "published": "2026-08-02",
+          "url": "https://github.com/thebuggeddev/anatomy",
+          "overview": "Anatomy是一款交互式3D人体解剖学探索工具，使用Three.js构建可视化界面，结合GPT 5.6 Sol提供智能问答。用户可以自由旋转、缩放、拆解人体各系统（骨骼、肌肉、神经等），AI助手可实时解答解剖学问题。适合医学教育、生物学习和科普场景。",
+          "analysis": "780星说明市场对'AI+3D可视化教育工具'有需求。将GPT与Three.js结合，让解剖学习从静态图片变为交互式3D体验，在教育科技领域具有创新价值。",
+          "social": [
+            {
+              "who": "医学教育者",
+              "text": "3D交互+AI问答的组合非常实用，比传统解剖图谱直观得多。"
+            },
+            {
+              "who": "开发者",
+              "text": "Three.js + GPT的集成模式值得学习，展示了如何将LLM能力融入可视化应用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Talivia — 开源营收分析平台",
+          "eng": "talivia-group/talivia",
+          "summary": "面向创始人的开源自托管营收优先分析工具，支持网页分析、会话回放和收入归因。",
+          "source": "GitHub",
+          "stars": 679,
+          "lang": "TypeScript",
+          "published": "2026-07-29",
+          "url": "https://github.com/talivia-group/talivia",
+          "overview": "Talivia是一个开源的营收优先分析平台，专为创始人和小型团队设计。核心功能包括网页流量分析、用户会话回放、收入归因分析和客户收入集成。定位为Datafast的替代品，强调数据隐私——所有数据处理在本地完成，无需将敏感商业数据发送到第三方云服务商。",
+          "analysis": "679星说明市场对'自托管+营收分析'有真实需求。在GDPR等法规趋严的背景下，开源可自托管的数据分析工具越来越受欢迎。TypeScript全栈实现保证了开发体验和数据质量。",
+          "social": [
+            {
+              "who": "创业者",
+              "text": "Datafast的开源替代品，数据完全掌控在自己手里，适合对隐私敏感的团队。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript全栈+自托管架构，代码质量高，适合作为数据分析产品的参考实现。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Humanizer CLI — AI文本检测终端工具",
+          "eng": "0xwilliamortiz/humanizer-cli",
+          "summary": "33种AI写作特征检测方法，直接在终端运行，支持前后对比示例和草稿检查。",
+          "source": "GitHub",
+          "stars": 558,
+          "lang": "JavaScript",
+          "published": "2026-08-01",
+          "url": "https://github.com/0xwilliamortiz/humanizer-cli",
+          "overview": "Humanizer CLI是一个终端工具，提供33种检测AI写作特征的方法。功能包括：文本前后对比示例展示、草稿自动检查、零依赖安装。用户可以将自己的文本粘贴进去，立即获得关于AI痕迹的详细分析报告。支持多种语言风格评估维度，如句式多样性、词汇丰富度、逻辑连贯性等。",
+          "analysis": "558星说明市场对'AI内容检测'有实际需求。随着AI生成内容泛滥，企业和创作者都需要工具来识别和确保内容的原创性。零依赖+终端友好的设计降低了使用门槛。",
+          "social": [
+            {
+              "who": "内容创作者",
+              "text": "33种检测方法很全面，零依赖安装对开发者非常友好。"
+            },
+            {
+              "who": "企业合规人员",
+              "text": "AI内容检测是刚需，终端工具便于集成到现有工作流中批量检查。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Interior — React微交互组件库",
+          "eng": "ddoemonn/interior",
+          "summary": "专为React构建的微交互组件库，聚焦点击后那半秒的视觉反馈。",
+          "source": "GitHub",
+          "stars": 469,
+          "lang": "TypeScript",
+          "published": "2026-07-30",
+          "url": "https://github.com/ddoemonn/interior",
+          "overview": "Interior是一个为React设计的微交互组件库，专注于捕捉用户点击后那关键的半秒视觉反馈。提供按钮、链接、卡片等常见UI元素的精致动画效果，包括悬停状态、加载指示器和过渡动画。TypeScript类型完整，支持自定义配置和主题切换，开箱即用。",
+          "analysis": "469星说明市场对'高质量React微交互'有需求。在组件库泛滥的时代，Interior聚焦于一个被忽视的细节——微交互，这正是提升用户体验的关键所在。TypeScript实现保证了良好的开发体验。",
+          "social": [
+            {
+              "who": "前端开发者",
+              "text": "专注那半秒的视觉反馈，这个切入点很聪明——细节决定产品质感。"
+            },
+            {
+              "who": "UI设计师",
+              "text": "微交互是提升用户体验的关键环节，Interior提供了现成的实现方案。"
+            }
+          ]
         }
       ]
     },
