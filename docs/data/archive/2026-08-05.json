@@ -1,25 +1,49 @@
 {
-  "generated_at": "2026-08-05T09:26:08+08:00",
+  "generated_at": "2026-08-05T10:29:35+08:00",
   "date": "2026-08-05",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
-  "empty_sources": [
-    "github"
-  ],
+  "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-05 09:26",
-    "ai": "2026-08-05 09:26",
-    "voices": "2026-08-05 09:26",
+    "hot": "2026-08-05 10:29",
+    "ai": "2026-08-05 10:29",
+    "voices": "2026-08-05 10:29",
     "github": "2026-08-05 08:37",
-    "libraries": "2026-08-05 08:37",
-    "sports": "2026-08-05 09:26",
+    "libraries": "2026-08-05 10:29",
+    "sports": "2026-08-05 10:29",
     "academic": "2026-08-05 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "LiquidAI发布LFM2.5-2.6B模型：本地部署轻量级AI代理的新选择",
+          "eng": "Deploy Local Agents Everywhere with LFM2.5-2.6B",
+          "summary": "Hugging Face上的LiquidAI团队发布了开源模型LFM2.5-2.6B，旨在让用户无需依赖云端即可在本地设备运行AI代理。",
+          "source": "Hugging Face (LiquidAI Blog)",
+          "region": "全球/美国",
+          "published": "2026-08-04",
+          "tags": [
+            "开源模型",
+            "本地部署",
+            "AI代理"
+          ],
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "overview": "LiquidAI团队发布了LFM2.5-2.6B模型，这是一个专为在资源有限的设备上运行而设计的轻量级语言模型。该模型支持用户在不依赖云端API的情况下部署本地AI代理，降低了AI应用的使用门槛并增强了数据隐私保护。",
+          "analysis": "在Claude Code等商业AI编程工具价格高昂的背景下，开源轻量级模型的涌现为个人开发者和中小企业提供了替代方案。这标志着AI民主化进程从“使用”向“拥有和运行”的进一步延伸。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "终于可以在自己的电脑上跑本地代理了，不再受制于API调用次数和费用限制。"
+            },
+            {
+              "who": "隐私倡导者",
+              "text": "数据不出本机是最大卖点，对于处理敏感信息的场景来说，这比任何云端方案都更可靠。"
+            }
+          ]
+        },
         {
           "title_zh": "Nvidia 牵头组建开放 AI 联盟，一周内已提出防御方案",
           "eng": "Nvidia doesn't mess around: A week after open AI industry group formed, it's already showing progress",
@@ -763,32 +787,6 @@
               "text": "新技术的商业化不能以牺牲居民生活质量为代价，需要建立更完善的社区影响评估和补偿机制。"
             }
           ]
-        },
-        {
-          "title_zh": "Defcon安全大会新徽章存在可被黑客检查的安全漏洞",
-          "eng": "Defcon's new badge is a security key you can see inside",
-          "summary": "Defcon安全大会的新款参会徽章内置了可拆卸芯片，允许黑客在会议期间直接检查并继续使用该安全密钥。这一设计缺陷引发了安全社区的广泛讨论。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-01",
-          "tags": [
-            "网络安全",
-            "Defcon",
-            "硬件安全"
-          ],
-          "url": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-          "overview": "Defcon安全大会推出的新款参会徽章内置了可拆卸芯片，该芯片作为安全密钥可以验证参会者身份。然而，这一设计存在严重缺陷——黑客可以在会议期间直接取出并检查芯片内容，甚至继续使用该密钥访问受保护系统。这一事件在安全社区引发了广泛讨论，凸显了硬件安全设计中'信任边界'的重要性。",
-          "analysis": "Defcon作为全球最大网络安全大会，其自身安全措施出现漏洞具有讽刺意味。这一事件揭示了当前身份验证系统在物理层面存在的薄弱环节——即使采用芯片级安全方案，如果物理访问控制不足，仍可能被绕过。这对所有依赖硬件密钥的安全系统都是一个警示。",
-          "social": [
-            {
-              "who": "硬件安全工程师",
-              "text": "这个案例完美诠释了'信任边界'的概念——任何安全措施都必须考虑物理层面的攻击向量，否则再强的加密也形同虚设。"
-            },
-            {
-              "who": "网络安全从业者",
-              "text": "Defcon大会本身就在教授安全技能，其自身的安全措施出现漏洞反而成为了最好的教学案例。"
-            }
-          ]
         }
       ]
     },
@@ -1071,9 +1069,6 @@
           ]
         },
         {
-          "title_zh": ""
-        },
-        {
           "图领英才": "高级管理者研修计划首期研修班在湖北武汉举办，由中国图书馆学会组织。该计划旨在通过系统化培训提升图书馆高级管理人员的专业素养和领导力，以适应行业发展的新需求。",
           "analysis": "上海少儿馆管理层可关注此类专业研修机会，借鉴其管理理念来优化少儿服务的组织架构与人才梯队建设。",
           "social": [
@@ -1207,297 +1202,217 @@
     "sports": {
       "items": [
         {
+          "title_zh": "国际足联被指以“勒索”手段迫使支持因凡蒂诺连任",
+          "eng": "Fifa accused of using 'blackmail' to force support for Infantino's re-election bid",
+          "summary": "约旦足协主席指控国际足联威胁切断资金援助，以此强迫其支持因凡蒂诺的连任竞选。这是针对国际足联商业改革计划最严厉的外部干预之一。",
+          "source": "Guardian Football",
+          "published": "2026-08-04",
+          "url": "https://www.theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
+          "overview": "约旦足协主席侯赛因王子公开指控国际足联秘书长因凡蒂诺的行政团队使用“勒索”手段，声称若约旦足协拒绝支持其连任竞选，国际足联将威胁 withhold 资金援助。这一事件发生在因凡蒂诺面临对其世界杯商业出售计划猛烈批评的背景下，标志着国际足联内部治理危机进一步升级。",
+          "analysis": "此事若属实，将严重损害因凡蒂诺的公信力，并可能引发更多国家足协的联合抵制。国际足联的商业改革与政治运作之间的界限再次受到质疑，全球足球治理格局面临重塑压力。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "如果资金援助真的被用作政治筹码，那国际足联的公信力已经跌到谷底了。"
+            },
+            {
+              "who": "足球记者",
+              "text": "约旦足协主席曾是因凡蒂诺的竞争对手，这一指控带有明显的政治动机，但资金威胁的说法若属实后果严重。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
           "title_zh": "因凡蒂诺紧急召集高层会议应对批评声浪",
           "eng": "Infantino calls executive meeting as criticism mounts",
-          "summary": "FIFA 主席因凡蒂诺在面临对其世界杯商业运营出售计划的猛烈批评后，于周三紧急召集高级领导层开会。",
+          "summary": "面对对其世界杯商业和赛事运营出售计划的猛烈抨击，国际足联主席因凡蒂诺于周三紧急召集高级管理层开会。",
           "source": "BBC Football",
           "published": "2026-08-04",
           "url": "https://www.bbc.co.uk/sport/football/articles/c2k7p4nxdy4o?at_medium=RSS&at_campaign=rss",
-          "overview": "因凡蒂诺在世界杯出售计划遭遇多方反对后，面临日益严峻的批评压力。他于周三召集高级管理层举行紧急会议，试图应对这一危机局面。FIFA 秘书长已称该出售计划为“令人悲伤且可耻的”。",
-          "analysis": "此次会议凸显了 FIFA 内部权力斗争的白热化，因凡蒂诺的商业改革路线正面临前所未有的阻力，未来世界杯运营模式能否落地存疑。",
+          "overview": "国际足联主席因凡蒂诺在遭遇多国足协对其世界杯商业出售计划强烈反对后，紧急召集高级领导层召开执行会议。此前已有多个关键国家撤回支持，其改革方案被批评为“令人悲伤和可耻”。此次会议旨在评估内部压力并制定应对策略。",
+          "analysis": "因凡蒂诺的处境岌岌可危，世界杯商业出售计划若无法获得广泛支持，可能直接导致国际足联面临分裂或选举挑战。高层紧急会议反映出局势已从批评升级为潜在的权力危机。",
           "social": [
+            {
+              "who": "足球评论员",
+              "text": "因凡蒂诺的连任之路正在变得艰难，世界杯改革方案的失败可能成为压垮骆驼的最后一根稻草。"
+            },
             {
               "who": "资深球迷",
-              "text": "FIFA 的改革总是雷声大雨点小，这次出售计划看来要黄了"
-            },
-            {
-              "who": "足球评论员",
-              "text": "因凡蒂诺的处境岌岌可危，各洲足联的支持正在瓦解"
+              "text": "国际足联的改革总是雷声大雨点小，这次恐怕也不例外。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "约旦足协指控 FIFA 以“勒索”手段施压支持因凡蒂诺连任",
-          "eng": "Fifa accused of using 'blackmail' to force support for Infantino's re-election bid",
-          "summary": "约旦足协会长指控 FIFA 威胁若其不公开支持因凡蒂诺的竞选连任，将切断对该国的财政援助。",
-          "source": "Guardian Football",
-          "published": "2026-08-04",
-          "url": "https://www.theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
-          "overview": "约旦足协会长、前 FIFA 候选人阿里·本·侯赛因王子公开指控 FIFA 管理层涉嫌“勒索”，声称 FIFA 威胁若约旦足协拒绝支持因凡蒂诺的竞选连任，将扣留财政援助。这是继世界杯出售计划失败后，针对因凡蒂诺权力的又一重大打击。",
-          "analysis": "这一指控若属实，将从道德和法律层面进一步动摇因凡蒂诺的领导合法性，可能加速 FIFA 内部选举的爆发。",
-          "social": [
-            {
-              "who": "足球记者",
-              "text": "用资金绑架投票权，这已经不仅仅是政治斗争了"
-            },
-            {
-              "who": "国际足联观察者",
-              "text": "约旦王子的介入让这场权力博弈变得更加复杂"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼联拟任命前心之队主帅奥利德为女足新教练",
-          "eng": "Man Utd set to appoint ex-Hearts boss Olid as women's manager",
-          "summary": "曼联计划聘请前苏格兰球队心之队（Hearts）主教练埃娃·奥利德接替马库斯·斯金纳担任女足主教练。",
-          "source": "Guardian Football",
-          "published": "2026-08-04",
-          "url": "https://www.theguardian.com/football/2026/aug/04/manchester-united-women-new-head-coach-marc-skinner",
-          "overview": "曼联正在与 40 岁的前心之队主帅埃娃·奥利德进行非常深入的谈判，预计她将于周三正式亮相球队。这一任命旨在取代刚刚离任的马库斯·斯金纳。曼联女足阵容已向斯金纳表达了敬意。",
-          "analysis": "奥利德的执教履历和年龄表明曼联正在寻求一位经验丰富且能长期稳定发展的管理者来重建女足体系。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "希望新教练能给女足带来新气象"
-            },
-            {
-              "who": "足球分析师",
-              "text": "斯金纳的离任对曼联来说是个损失，奥利德能否延续辉煌还有待观察"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿森纳目标球员维尼修斯称穆里尼奥希望他“开心”留在皇马",
-          "eng": "'We are cool' - Szoboszlai plays down Liverpool row",
-          "summary": "皇家马德里前锋维尼修斯在穆里尼奥执教的首个训练日表现积极，暗示自己有意继续留队。",
-          "source": "Guardian Football",
-          "published": "2026-08-04",
-          "url": "https://www.theguardian.com/football/2026/aug/04/arsenal-target-vinicius-junior-jose-mourinho-real-madrid",
-          "overview": "维尼修斯在穆里尼奥接手皇马后的首个训练日展现了积极态度，尽管外界对其未来充满猜测。他透露穆里尼奥希望他感到幸福并留在球队，并表示适应新教练的过程非常顺利。这位巴西前锋目前合同还剩一年。",
-          "analysis": "维尼修斯的表态为皇马的转会市场操作提供了缓冲，但合同仅剩一年的事实意味着双方仍需就续约或离队进行实质性谈判。",
-          "social": [
-            {
-              "who": "西甲球迷",
-              "text": "穆里尼奥来了，希望他能留住这位核心"
-            },
-            {
-              "who": "足球评论员",
-              "text": "维尼修斯的笑容背后可能隐藏着对未来的焦虑"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼联承认票务调查执行中犯错但坚持调查理由正当",
+          "title_zh": "曼联承认票务调查执行中出错但坚持理由正当",
           "eng": "Man Utd admit ticket touting investigation error",
-          "summary": "曼联官方承认在打击倒票行为的调查中犯了错误，但强调开展此次调查的初衷是合理的。",
+          "summary": "曼彻斯特联队承认在打击倒票调查中犯了错误，但坚称进行调查的原因本身是合理的。",
           "source": "BBC Football",
           "published": "2026-08-04",
           "url": "https://www.bbc.co.uk/sport/football/articles/cddjrnv0847o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼联承认在票务调查的执行过程中出现了失误，但坚持认为发起该调查的原因具有正当性。这一表态旨在回应外界对俱乐部处理球迷事务方式的质疑。",
-          "analysis": "曼联此举试图在维护俱乐部形象与安抚球迷之间寻找平衡，但承认执行错误可能会削弱其公信力。",
-          "social": [
-            {
-              "who": "老特拉福德球迷",
-              "text": "调查初衷没问题，但执行搞砸了确实让人失望"
-            },
-            {
-              "who": "足球记者",
-              "text": "曼联需要在处理此类敏感问题时更加谨慎"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "巴萨从曼城签下巴西前锋科罗琳创女足转会费纪录",
-          "eng": "Barcelona sign Brazil forward Kerolin from Manchester City for club-record £1.25m",
-          "summary": "巴塞罗那以约 125 万英镑的转会费从曼城签下巴西前锋科罗琳，创下女子超级联赛球队出售球员的最高收入。",
-          "source": "Guardian Football",
-          "published": "2026-08-04",
-          "url": "https://www.theguardian.com/football/2026/aug/04/barcelona-sign-brazil-forward-kerolin-manchester-city-womens-super-league",
-          "overview": "巴塞罗那以创俱乐部纪录的转会费从曼城签下了巴西前锋科罗琳，这笔交易金额约为 125 万英镑。这一费用也是英格兰俱乐部出售球员收到的最高金额之一，超过了利物浦此前向阿森纳出售奥利维亚·史密斯所获得的 100 万英镑。",
-          "analysis": "这笔交易标志着女足市场价值的显著提升，巴萨的投入也反映了其对女子足球阵容建设的重视。",
-          "social": [
-            {
-              "who": "女足关注者",
-              "text": "女足转会费终于开始破纪录了"
-            },
-            {
-              "who": "足球分析师",
-              "text": "曼城出售球员创收能力惊人，巴萨这笔投资回报值得期待"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "国际足联主席因凡蒂诺召开高层会议应对批评加剧",
-          "eng": "Fifa accused of using 'blackmail' to force support for Infantino's re-election bid",
-          "summary": "约旦足协主席指控国际足联以扣留资金为要挟，强迫其支持因凡蒂诺的连任竞选。面对日益激烈的反对声浪，因凡蒂诺紧急召集高层领导开会讨论出售商业和赛事运营的计划。",
-          "source": "Guardian Sport",
-          "published": "2026-08-04",
-          "url": "https://www.theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
-          "overview": "约旦足协主席、前国际足联候选人侯赛因王子公开指控现任主席因凡蒂诺的行政团队存在“勒索”行为，声称若其协会拒绝支持连任竞选，国际足联将威胁切断财务援助。这一事件发生在因凡蒂诺计划出售国际足联商业和赛事运营资产引发广泛批评的背景下，他随后紧急召集高层领导进行会议以应对危机。",
-          "analysis": "此次指控若属实，将对国际足联的声誉和治理结构造成严重打击，尤其是在世界杯改革方案本就备受争议的情况下。因凡蒂诺能否在内部团结和外部压力下推进其商业计划，将是未来数周的关键看点。",
+          "overview": "曼联官方承认在执行打击球场倒票行为的调查过程中出现了失误，但强调发起该调查的初衷是为了维护比赛公平和球迷权益。这一声明旨在回应外界对俱乐部处理方式的质疑，试图在承认操作瑕疵的同时捍卫其行动合法性。",
+          "analysis": "曼联此举是在平衡公众信任与内部合规需求之间的尝试。虽然承认错误有助于缓解舆论压力，但如何确保未来调查的公正执行将是关键看点。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "国际足联的商业化操作一直争议不断，这次被指控勒索更是雪上加霜，信任危机恐难短期化解。"
+              "text": "承认错误总比死不认账强，希望俱乐部能真正落实改进措施。"
             },
             {
-              "who": "足球评论员",
-              "text": "因凡蒂诺的连任之路显然布满荆棘，约旦方面的指控让局势更加复杂。"
+              "who": "足球记者",
+              "text": "曼联在票务调查中的失误引发了广泛讨论，这反映出大型俱乐部在日常运营中面临的合规挑战。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "UFC白宫自由日250活动导致约3000万美元亏损",
-          "eng": "UFC's White House spectacle led to losses of around $30m, company reveals",
-          "summary": "UFC在白宫南草坪举办“自由日250”活动，邀请制事件总成本估计达6000万美元，公司宣布该活动导致约3000万美元亏损。尽管特朗普和万斯出席，但活动因涉及对奥巴马的抹黑而备受争议。",
-          "source": "Guardian Sport",
+          "title_zh": "曼联拟任命前 Hearts 主帅欧利德为新任女足主教练",
+          "eng": "Manchester United set to appoint former Hearts manager Eva Olid as new head coach",
+          "summary": "曼彻斯特联队计划任命前 Hearts 主帅伊娃·欧利德接替马库斯·斯金纳，出任女足主教练。",
+          "source": "Guardian Football",
           "published": "2026-08-04",
-          "url": "https://www.theguardian.com/sport/2026/aug/04/ufc-freedom-250-white-house-losses-trump",
-          "overview": "UFC公司所有者宣布，在白宫南草坪举办的“自由日250”活动导致约3000万美元（约合2200万英镑）的亏损。该邀请制事件总成本估计达6000万美元，尽管美国总统特朗普和副总统万斯出席，但活动因涉及对前总统奥巴马的抹黑而引发广泛争议。",
-          "analysis": "这一巨额亏损暴露了顶级体育娱乐与政治结合的商业风险，尤其是在社交媒体时代，任何负面联想都可能迅速摧毁品牌价值。UFC未来在类似高规格政治场合的举办策略可能需要重新评估。",
+          "url": "https://www.theguardian.com/football/2026/aug/04/manchester-united-women-new-head-coach-marc-skinner",
+          "overview": "曼联正计划任命 40 岁的伊娃·欧利德作为新任女足主教练，以取代离任的马库斯·斯金纳。据多家消息源透露，双方谈判已进入非常深入的阶段，欧利德预计将于周三与球队会面。曼联女足阵容已对斯金纳的离任表示致敬。",
+          "analysis": "欧利德的任命标志着曼联女足进入新的管理周期。她在 Hearts 的成功经验若能复制到英超赛场，将有助于提升俱乐部女子足球的整体竞争力和关注度。",
           "social": [
             {
-              "who": "体育商业分析师",
-              "text": "6000万成本换来3000万亏损，这笔账算得让人心疼，政治营销的风险果然不可控。"
+              "who": "资深球迷",
+              "text": "希望新教练能带来新气象，让女足联赛的对抗更加激烈。"
             },
             {
-              "who": "UFC粉丝",
-              "text": "虽然比赛精彩，但抹黑前总统的争议让这场活动蒙上了阴影，商业决策确实需要更谨慎。"
+              "who": "足球记者",
+              "text": "欧利德在 Hearts 的表现证明了她的执教能力，曼联选择她是一个合理的决定。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "亚特兰大猎鹰队签下NFL历史上最高薪跑卫比安·罗宾逊",
-          "eng": "Falcons make Bijan Robinson highest-paid running back in NFL history with deal worth up to $75m",
-          "summary": "亚特兰大猎鹰队与两届职业碗球员比安·罗宾逊达成三年合同续约，总额高达7500万美元，使其成为NFL历史上薪资最高的跑卫。罗宾逊在社交媒体上表达了对球队和城市的感激之情。",
-          "source": "Guardian Sport",
+          "title_zh": "巴萨以创纪录转会费签下巴西前锋科罗林",
+          "eng": "Barcelona sign Brazil forward Kerolin from Manchester City for club-record £1.25m",
+          "summary": "巴塞罗那从曼城签下巴西前锋科罗林，转会费据报约为 125 万英镑，创俱乐部纪录及 WSL 球队出售球员最高收入。",
+          "source": "Guardian Football",
           "published": "2026-08-04",
-          "url": "https://www.theguardian.com/sport/2026/aug/04/bijan-robinson-atlanta-falcons-contract-nfl",
-          "overview": "亚特兰大猎鹰队与两届职业碗球员比安·罗宾逊达成三年合同续约，总额高达7500万美元（其中5100万美元为保底），使其成为NFL历史上薪资最高的跑卫。这一平均年薪超过了费城老鹰队的萨昆·巴克利，罗宾逊在社交媒体上表达了对球队和城市的感激之情。",
-          "analysis": "这笔交易标志着NFL薪资结构的进一步膨胀，对于其他球队的跑卫市场价值产生了直接影响。猎鹰队通过锁定核心球员来巩固竞争力，但高昂的薪资也可能限制其在自由市场上的灵活性。",
+          "url": "https://www.theguardian.com/football/2026/aug/04/barcelona-sign-brazil-forward-kerolin-manchester-city-womens-super-league",
+          "overview": "巴塞罗那正式签下巴西前锋科罗林，转会费据消息人士透露约为 125 万英镑。这笔交易不仅是巴萨的俱乐部纪录，也是 WSL（女子超级联赛）球队出售球员所获得的最高金额，超越了利物浦此前签下的奥利维亚·史密斯的交易额。",
+          "analysis": "这一转会凸显了女子足球市场的商业价值正在快速增长。巴塞罗那愿意支付创纪录费用，表明女足球员的商业潜力已得到顶级俱乐部的认可。",
           "social": [
             {
-              "who": "NFL球迷",
-              "text": "7500万！这钱花得值吗？罗宾逊的表现确实出色，但球队需要平衡整体阵容建设。"
+              "who": "资深球迷",
+              "text": "女子足球的转会市场越来越火热，这完全是好事。"
             },
             {
-              "who": "体育记者",
-              "text": "这笔合同让NFL的薪资泡沫更加明显，其他球队的跑卫市场价值可能因此受到影响。"
+              "who": "足球记者",
+              "text": "巴萨此举为 WSL 球员树立了新的标杆，有望吸引更多顶级人才加入女足行列。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "环法女子赛：瑞士车手雷瑟赢得第四赛段计时赛夺回黄衫",
-          "eng": "Tour de France Femmes: Reusser aces stage four time trial to snatch yellow jersey",
-          "summary": "世界计时赛冠军、34岁的瑞士骑手马琳·雷瑟在第四赛段从热夫雷-尚贝尔坦到第戎的比赛中获胜，以14秒的优势领先卫冕冠军法朗德-普雷沃特。这是雷瑟职业生涯第三次赢得环法女子赛。",
-          "source": "Guardian Sport",
+          "title_zh": "阿森纳与纽卡斯尔就瓜尔马雷斯转会展开直接谈判",
+          "eng": "Arsenal in talks to sign Newcastle's Guimaraes",
+          "summary": "阿森纳已与纽卡斯尔联队开启直接谈判，试图签下球队队长布鲁诺·瓜尔马雷斯。",
+          "source": "BBC Football",
           "published": "2026-08-04",
-          "url": "https://www.theguardian.com/sport/2026/aug/04/marlen-reusser-demi-vollering-tour-de-france-femmes-stage-four-cycling",
-          "overview": "世界计时赛冠军、34岁的瑞士骑手马琳·雷瑟在第四赛段从热夫雷-尚贝尔坦到第戎的比赛中获胜，以14秒的优势领先卫冕冠军法朗德-普雷沃特。这是雷瑟职业生涯第三次赢得环法女子赛，她在爬坡中表现不佳的法朗德-普雷沃特进一步失去了时间优势。",
-          "analysis": "雷瑟的胜利巩固了她在计时赛领域的统治地位，而法朗德-普雷沃特的失利则凸显了她在复杂地形中的弱点。接下来的比赛将是对两位车手综合实力的考验。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg9k2yvywxo?at_medium=RSS&at_campaign=rss",
+          "overview": "阿森纳已直接与纽卡斯尔联队展开谈判，目标是将球队队长布鲁诺·瓜尔马雷斯签入麾下。这一转会涉及英超顶级中场球员，双方俱乐部之间的直接沟通表明交易正在实质性推进中。",
+          "analysis": "瓜尔马雷斯作为纽卡核心球员，其离队将直接影响球队的战术体系。阿森纳的追逐反映了其对中场实力的迫切需求，这笔交易若成行将是今夏最具影响力的转会之一。",
           "social": [
             {
-              "who": "自行车爱好者",
-              "text": "雷瑟的计时赛能力太强了，14秒的优势看起来不可逾越，卫冕冠军的压力很大。"
+              "who": "资深球迷",
+              "text": "瓜尔马雷斯是纽卡的灵魂人物，希望他能留下继续战斗。"
             },
             {
-              "who": "体育解说员",
-              "text": "法朗德-普雷沃特在爬坡中的表现令人失望，雷瑟的胜利让比赛更加精彩。"
+              "who": "足球记者",
+              "text": "阿森纳对瓜尔马雷斯的兴趣表明他们正在积极补强中场，这对争冠前景至关重要。"
             }
           ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "国际足联被指以“勒索”迫使各国足协支持因凡蒂诺连任",
+          "eng": "Fifa accused of using 'blackmail' to force support for Infantino's re-election bid",
+          "summary": "约旦足总主席指控国际足联威胁切断资金援助，除非各协会支持因凡蒂诺的连任竞选。面对日益激烈的批评，因凡蒂诺已召集高层召开紧急会议讨论其商业运营出售计划。",
+          "source": "Guardian Sport",
+          "published": "2026-08-04",
+          "url": "https://www.theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
+          "overview": "约旦足总主席、前国际足联候选人侯赛因王子公开指责国际足联利用财务杠杆施压，称若足协不表态支持现任秘书长连任，将面临资金被冻结的风险。这一指控发生在因凡蒂诺面临关于出售FIFA商业及赛事运营权的更广泛批评之际，他随后紧急召集了高级管理层会议以应对危机。",
+          "analysis": "这标志着围绕国际足联权力斗争的公开化升级。侯赛因王子作为2016年竞选中的第三名候选人，其介入显示了反对阵营正在寻求更有力的政治手段来挑战因凡蒂诺的权威，FIFA内部的治理结构正面临严峻考验。",
           "region": "综合"
         },
         {
           "title_zh": "阿尔卡拉斯因手腕伤势退出辛辛那提公开赛",
           "eng": "Alcaraz out of Cincinnati Open with lingering injury",
-          "summary": "西班牙网球名将阿尔卡拉斯因手腕伤势持续恢复，宣布退出辛辛那提公开赛。这一消息对即将到来的美网赛事格局产生了重大影响。",
+          "summary": "世界排名顶尖的西班牙网球选手阿尔卡拉斯宣布退赛，以继续恢复其手腕伤势。这一消息对即将开始的硬地赛季产生了重大影响。",
           "source": "BBC Tennis",
           "published": "2026-08-04",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/c20e1723pdno?at_medium=RSS&at_campaign=rss",
-          "overview": "西班牙网球名将阿尔卡拉斯因手腕伤势持续恢复，宣布退出辛辛那提公开赛。这一消息对即将到来的美网赛事格局产生了重大影响，顶级选手的缺席将改变比赛的竞争态势。",
-          "analysis": "阿尔卡拉斯的退出为其他年轻球员提供了机会，但同时也让球迷感到失望。他的手腕伤势需要进一步观察，未来能否重返赛场仍是未知数。",
-          "social": [
-            {
-              "who": "网球粉丝",
-              "text": "阿尔卡拉斯的退出太可惜了，希望他能早日康复，重返赛场。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这一伤病对球员来说是巨大的打击，但也是职业生涯中常见的挑战。"
-            }
-          ],
+          "overview": "作为美网前的最后一站重要赛事，辛辛那提公开赛失去了头号种子阿尔卡拉斯的参赛。此前他在华盛顿公开赛中虽赢得冠军但手腕伤势并未完全康复，此次退赛意味着他可能将缺席即将到来的美网。",
+          "analysis": "对于球迷而言，这不仅是顶级选手的缺席，更引发了关于职业网球运动员在密集赛程中伤病管理问题的讨论。如果阿尔卡拉斯无法在美网前恢复状态，可能会改变整个硬地赛季的竞争格局和夺冠赔率。",
           "region": "综合"
         },
         {
-          "title_zh": "布鲁克率太阳队创百球赛新纪录得分241分",
-          "eng": "Brilliant Brook leads Sunrisers to record Hundred score",
-          "summary": "哈里·布鲁克打出15球五十，瑞安·里克尔顿94分不落后，太阳队利兹在百球赛中创下新纪录，以241-2击败伦敦精神队。",
-          "source": "BBC Sport",
-          "published": "2026-08-04",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c2lqpyv9g7qo?at_medium=RSS&at_campaign=rss",
-          "overview": "哈里·布鲁克打出15球五十，瑞安·里克尔顿94分不落后，太阳队利兹在百球赛中创下新纪录，以241-2击败伦敦精神队。这一表现展示了球队在进攻端的强大实力，为赛季增添了亮点。",
-          "analysis": "布鲁克的快速得分能力和里克尔顿的稳定性是球队获胜的关键因素。这一纪录将激励其他球队在未来的比赛中追求更高的目标。",
-          "social": [
-            {
-              "who": "板球爱好者",
-              "text": "241分！这太疯狂了，太阳队的进攻火力确实强大，期待他们接下来的表现。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "布鲁克的15球五十令人印象深刻，这种爆发力在百球赛中非常罕见。"
-            }
-          ],
+          "title_zh": "费城76人队确认签下NBA超级巨星勒布朗·詹姆斯",
+          "eng": "Philadelphia 76ers confirm signing of NBA superstar LeBron James",
+          "summary": "费城76人队正式宣布签下NBA传奇球星勒布朗·詹姆斯，结束了此前关于他下家去向的种种猜测。",
+          "source": "BBC Basketball",
+          "published": "2026-07-27",
+          "url": "https://www.bbc.co.uk/sport/articles/cx27r0me3zno?at_medium=RSS&at_campaign=rss",
+          "overview": "在经历了自由市场开启前的各种传闻和猜测后，费城76人队官方确认了与勒布朗·詹姆斯的签约。这一消息此前曾引发广泛争议，包括特朗普总统公开批评詹姆斯，以及迈阿密热火队误发其“入职”视频等插曲。",
+          "analysis": "詹姆斯重返东部联盟加盟76人队是一个巨大的商业和竞技事件。这不仅改变了费城队的阵容深度，也再次引发了关于超级巨星在职业生涯末期选择战队的复杂讨论，尤其是在政治环境日益影响体育领域的背景下。",
           "region": "综合"
         },
         {
-          "title_zh": "曼联计划任命前赫arts主帅奥利德为女足主教练",
-          "eng": "Man Utd set to appoint ex-Hearts boss Olid as women's manager",
-          "summary": "曼彻斯特联队正准备任命前赫arts主帅伊娃·奥利德为女足主教练，以取代马克·斯金纳。这一人事变动标志着曼联对女足发展的重视。",
-          "source": "BBC Sport",
-          "published": "2026-08-04",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c86n72316g1o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼彻斯特联队正准备任命前赫arts主帅伊娃·奥利德为女足主教练，以取代马克·斯金纳。这一人事变动标志着曼联对女足发展的重视，奥利德的执教经验将为球队带来新的活力。",
-          "analysis": "奥利德的任命可能为曼联女足注入新的战术理念和管理风格。这一决策反映了俱乐部在女子足球领域的长期战略眼光。",
-          "social": [
-            {
-              "who": "女足球迷",
-              "text": "希望奥利德能带来改变，让曼联女足更上一层楼。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "这一人事变动是积极的信号，说明俱乐部对女足发展有明确的规划。"
-            }
-          ],
+          "title_zh": "亚历山德拉·埃拉成为首位赢得WTA单打冠军的菲律宾选手",
+          "eng": "Eala becomes first Filipino to win WTA singles title",
+          "summary": "菲律宾网球选手亚历山德拉·埃拉在华盛顿公开赛决赛中击败头号种子佩古拉，创造了历史。",
+          "source": "BBC Tennis",
+          "published": "2026-08-03",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglr1pr1gxo?at_medium=RSS&at_campaign=rss",
+          "overview": "埃拉在华盛顿公开赛决赛中展现了非凡的斗志，最终击败了世界排名第一的佩古拉，成为首位赢得WTA单打冠军的菲律宾运动员。BBC Sport将其描述为展现了“菲律宾之心”的历史性时刻。",
+          "analysis": "这一成就对于菲律宾体育界具有里程碑意义，标志着亚洲网球在该地区的进一步渗透和发展。埃拉的胜利也证明了非传统强国的选手在顶级赛事中依然具备竞争力，激励了更多年轻球员投身职业网坛。",
           "region": "综合"
         },
         {
-          "title_zh": "土耳其特拉布宗体育开始与萨拉赫签约谈判",
-          "eng": "Turkish club Trabzonspor begin talks to sign Salah",
-          "summary": "土耳其俱乐部特拉布宗体育表示已开始就签下穆罕默德·萨拉赫进行谈判。这一消息引发了球迷和媒体的广泛关注。",
-          "source": "BBC Sport",
+          "title_zh": "亚特兰大猎鹰队签下NFL历史上薪资最高的跑卫罗宾逊",
+          "eng": "Falcons make Bijan Robinson highest-paid running back in NFL history with deal worth up to $75m",
+          "summary": "亚特兰大猎鹰队与两届职业碗选手比安·罗宾逊达成三年合同续约，总价值最高可达7500万美元，使其成为NFL历史上薪资最高的跑卫。",
+          "source": "Guardian Sport",
           "published": "2026-08-04",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckgdkd5ggg7o?at_medium=RSS&at_campaign=rss",
-          "overview": "土耳其俱乐部特拉布宗体育表示已开始就签下穆罕默德·萨拉赫进行谈判。这一消息引发了球迷和媒体的广泛关注，萨拉赫的转会动态一直是足球界的重要话题。",
-          "analysis": "如果谈判成功，这将是对萨拉赫职业生涯的新挑战，同时也可能改变英超联赛的竞争格局。土耳其俱乐部的崛起也为球员提供了更多选择。",
-          "social": [
-            {
-              "who": "利物浦粉丝",
-              "text": "希望萨拉赫能留下，但转会市场总是充满变数，只能等待结果。"
-            },
-            {
-              "who": "足球记者",
-              "text": "特拉布宗体育的报价如果属实，说明他们对萨拉赫的兴趣非常强烈。"
-            }
-          ],
+          "url": "https://www.theguardian.com/sport/2026/aug/04/bijan-robinson-atlanta-falcons-contract-nfl",
+          "overview": "罗宾逊的续约合同不仅金额巨大，而且平均年薪超过了费城老鹰队跑卫萨昆·巴克利的水平。他在社交媒体上表达了对球队和城市的感激之情，称这份合同是献给上帝的礼物。",
+          "analysis": "这一签约反映了NFL对顶级跑卫价值的重新评估，尤其是在进攻战术日益多样化的背景下。猎鹰队的这一投资表明他们希望围绕罗宾逊构建核心阵容，以确保在未来的竞争中保持竞争力。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "UFC白宫自由250活动导致约3000万美元亏损",
+          "eng": "UFC's White House spectacle led to losses of around $30m, company reveals",
+          "summary": "UFC在白宫南草坪举办的“自由250”庆典活动最终导致公司损失约3000万美元，尽管该活动吸引了特朗普和万斯等政要出席。",
+          "source": "Guardian Sport",
+          "published": "2026-08-04",
+          "url": "https://www.theguardian.com/sport/2026/aug/04/ufc-freedom-250-white-house-losses-trump",
+          "overview": "UFC公司所有者透露，尽管“自由250”活动旨在庆祝美国独立250周年并吸引了包括总统在内的政要出席，但整体成本估计达6000万美元，而实际收入未能覆盖支出。该活动中还发生了盖奇在夜赛中获胜但伴随奥巴马抹黑事件的争议。",
+          "analysis": "这一事件凸显了体育与政治结合的商业风险。UFC作为全球最赚钱的格斗赛事品牌，其试图通过高端政治活动提升品牌形象的策略似乎并未达到预期效果，反而暴露了此类活动的巨大财务隐患和政治敏感性。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "环法女车赛第四站：瑞士选手雷瑟尔夺黄衫",
+          "eng": "Tour de France Femmes: Reusser aces stage four time trial to snatch yellow jersey",
+          "summary": "世界计时赛冠军、34岁的瑞士车手马琳·雷瑟尔在第四站从吉维什-尚贝尔坦到第戎的比赛中获胜，从而夺取了总成绩领先者的黄衫。",
+          "source": "Guardian Sport",
+          "published": "2026-08-04",
+          "url": "https://www.theguardian.com/sport/2026/aug/04/marlen-reusser-demi-vollering-tour-de-france-femmes-stage-four-cycling",
+          "overview": "雷瑟尔在第四站计时赛中表现出色，以14秒的优势领先卫冕冠军保罗琳·费朗-普雷沃特。这是她职业生涯第三次赢得环法女车赛单站比赛，展现了她在对抗时钟方面的卓越能力。",
+          "analysis": "这一结果标志着环法女车赛竞争格局的重大变化。作为计时赛专家，雷瑟尔的崛起对传统爬坡型选手构成了挑战，也预示着未来几站比赛中可能出现更加激烈的争夺和战术博弈。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "美国男足国家队将迎战墨西哥和加拿大开启2030世界杯周期",
+          "eng": "USMNT to face Mexico and Canada in friendlies to kick off 2030 World Cup cycle",
+          "summary": "美国男子国家足球队将在11天内进行四场友谊赛，包括对阵秘鲁、智利、墨西哥和加拿大的比赛，以开启下一个世界杯周期。",
+          "source": "Guardian Sport",
+          "published": "2026-08-04",
+          "url": "https://www.theguardian.com/football/2026/aug/04/usmnt-friendlies-mexico-canada",
+          "overview": "在波切蒂诺同意回归执教后，美国男足国家队将在本土进行一系列友谊赛。这些比赛将作为备战即将到来的世界杯周期的热身活动，对手包括南美和北美地区的强队。",
+          "analysis": "这一系列安排显示了美国足球在重建过程中的积极姿态。通过与墨西哥、加拿大等邻国的较量，美国队不仅能够检验新教练的战术理念，还能为本届世界杯预选赛积累宝贵的经验。对于球迷而言，这标志着美国足球进入了一个新的竞争阶段。",
           "region": "综合"
         }
       ],
@@ -1713,62 +1628,262 @@
     "hot": {
       "items": [
         {
-          "title_zh": "马斯克个人财富缩水超两万亿人民币，创纪录",
-          "summary": "SpaceX上市后股价下跌，马斯克单月财富缩水3630亿美元，相当于亏掉两个黄仁勋。",
+          "title_zh": "视频显示俄无人机追逐乌克兰街头摊贩，乌方称构成战争罪",
+          "summary": "一段视频显示一名平民被遥控无人机驱赶，乌克兰方面表示该行为涉嫌战争罪。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss",
+          "overview": "乌克兰公布了一段令人震惊的视频，画面中一名平民在街头被一架远程控制的无人机紧追不舍。该事件发生在俄乌冲突期间，引发了国际社会对战争行为边界的关注。乌方正式声明称，这种针对无辜平民的攻击构成了战争罪。视频中的受害者表现出极度的恐惧，场面骇人听闻。",
+          "analysis": "此事件凸显了现代战争中无人系统被用于直接攻击平民的严重性。若调查属实，相关责任人可能面临国际刑事法院的追责。",
+          "social": [
+            {
+              "who": "乌克兰民众",
+              "text": "我们不能再容忍无人机用来追杀普通人，这是对生命的践踏。"
+            },
+            {
+              "who": "国际人权组织",
+              "text": "利用无人系统猎杀平民已突破战争法底线，必须立即停止此类行为。"
+            }
+          ]
+        },
+        {
+          "title_zh": "冯德莱恩呼吁加强EU边境管控，回应塞乌塔危机",
+          "summary": "欧盟委员会主席冯德莱恩致信西班牙首相，要求加强欧洲边境管理以应对塞乌塔飞地涌入的移民潮。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
+          "overview": "数十万人在上周从摩洛哥涌入西班牙塞乌塔飞地，随后迅速离开，引发了马德里与欧盟其他国家的激烈争吵。冯德莱恩在致信中表示，必须在此事件后加强边境控制，涉及五个方面的移民管控工作。她强调需要建立物理屏障并更有效地遣返人员。",
+          "analysis": "塞乌塔危机暴露了欧盟内部在难民政策上的深层裂痕。西班牙的强硬立场与邻国的同情态度形成鲜明对比，可能影响未来的欧洲团结。",
+          "social": [
+            {
+              "who": "西班牙公民",
+              "text": "我们的领土安全不容侵犯，必须采取果断措施保护边境。"
+            },
+            {
+              "who": "欧盟移民活动人士",
+              "text": "加强物理屏障不应成为拒绝人道主义援助的借口，需要更平衡的方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "塞乌塔领导人指控摩洛哥对大规模越境行动负有责任",
+          "summary": "西班牙塞乌塔领导人指责摩洛哥鼓励或默许了上周的大规模边境穿越事件，马德里要求欧盟展现团结。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain",
+          "overview": "塞乌塔领导人胡安·耶稣斯·比瓦斯将上周的边境穿越事件定性为对西班牙领土完整的攻击。他指责拉巴特方面“如果不是精心策划，至少是鼓励或默许”了此次行动。西班牙官员表示已就此向欧盟提出正式抗议，要求成员国展现团结。",
+          "analysis": "这一指控若属实，将使摩洛哥面临国际舆论压力。塞乌塔作为直布罗陀海峡附近的战略飞地，其边境安全直接关系到欧洲防线的完整性。",
+          "social": [
+            {
+              "who": "西班牙政治评论员",
+              "text": "这是对我们主权的一次直接挑战，我们不能坐视不管。"
+            },
+            {
+              "who": "摩洛哥民间声音",
+              "text": "我们只是在寻求更好的生活机会，不应被贴上鼓励越境的标签。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国撤销巴西驻美大使签证，外交争端升级",
+          "summary": "特朗普政府因巴西拒绝批准其提名的驻巴大使人选而撤销了巴西驻美大使的签证。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa",
+          "overview": "美国国务院宣布取消巴西驻美大使玛丽亚·路易莎·里贝罗·维奥蒂的签证。此举是对卢拉政府拒绝批准特朗普提名的驻巴大使人选以及上月拒绝发放相关签证的报复性措施。这一外交摩擦标志着两国关系出现显著恶化，可能影响双边贸易和外交合作。",
+          "analysis": "美巴之间的外交博弈反映了当前全球地缘政治中大国与小国之间的紧张态势。签证撤销可能导致双方外交渠道暂时中断，增加谈判难度。",
+          "social": [
+            {
+              "who": "巴西外交界",
+              "text": "这是对我们国家尊严的侮辱，我们将采取一切必要措施维护主权。"
+            },
+            {
+              "who": "国际观察家",
+              "text": "这种报复性外交手段只会加深误解，双方应回归对话轨道。"
+            }
+          ]
+        },
+        {
+          "title_zh": "西非多国反LGBTQ+法律激增，活动人士发出警告",
+          "summary": "西非地区越来越多国家实施或加强反LGBTQ+法律，活动人士称政治势力将性少数群体视为维持权力的替罪羊。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-02",
+          "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+          "overview": "塞内加尔将同性恋行为的最高刑期加倍至10年，尼日尔也禁止了同性性行为。活动人士指出，这些法律的变化与全球范围内对LGBTQ+权利的反弹趋势有关。政治压力被认为是推动立法的主要因素之一。",
+          "analysis": "西非地区的法律变化不仅影响当地少数群体的人权状况，也可能引发国际社会的制裁或外交干预。这一趋势值得持续关注。",
+          "social": [
+            {
+              "who": "LGBTQ+活动人士",
+              "text": "法律不应成为压迫的工具，每个人都应享有平等的权利和尊严。"
+            },
+            {
+              "who": "当地保守派议员",
+              "text": "这些法律反映了我们社会的价值观和文化传统，必须得到尊重。"
+            }
+          ]
+        },
+        {
+          "title_zh": "武装男子在特朗普高尔夫球场附近被捕",
+          "summary": "一名持枪男子在特朗普访问加州期间于其高尔夫球场附近被捕，事件发生在总统举办筹款晚宴前夕。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.bbc.co.uk/news/articles/c20jp3mp7lyo?at_medium=RSS&at_campaign=rss",
+          "overview": "在特朗普总统计划于加州沿海高尔夫球场举办筹款晚宴之际，一名武装男子在该场地附近被捕。这一事件发生在总统访问期间，引发了安全方面的担忧。警方迅速控制了嫌疑人并进行了调查。",
+          "analysis": "此类事件凸显了美国政治人物安保工作的复杂性。尽管安保严密，但突发事件仍可能发生，需进一步完善应急预案。",
+          "social": [
+            {
+              "who": "当地居民",
+              "text": "总统访问期间发生这种事，让我们感到不安和担忧。"
+            },
+            {
+              "who": "安全专家",
+              "text": "安保措施需要持续升级以应对各种潜在威胁，不能掉以轻心。"
+            }
+          ]
+        },
+        {
+          "title_zh": "马斯克财富缩水超2万亿人民币，上海雪花膏母公司破产",
+          "summary": "SpaceX股价下跌导致马斯克个人财富大幅缩水，同时上海一家老字号企业也宣告破产。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-05",
           "url": "https://36kr.com/p/3925868626360706?f=rss",
-          "overview": "SpaceX上市后首份财报前夕，马斯克个人财富出现大幅缩水，单月减少约3630亿美元（约合人民币2.45万亿元），创下其个人身家下降的纪录。这一跌幅甚至超过了全球第二至第十大富豪中任何一人的全部身家，显示出科技巨头财富波动的高风险性。",
-          "analysis": "马斯克的财富缩水反映了SpaceX上市后市场对其估值预期的调整，也折射出科技行业泡沫化与回归理性的博弈。对于投资者而言，这再次提醒了高杠杆投资在资本市场中的脆弱性。",
+          "overview": "SpaceX上市后股价回落，马斯克身家从万亿级别降至约6900亿美元，单月缩水幅度创纪录。与此同时，上海浦东新区一家雪花膏母公司因财产不足以支付破产费而宣告破产。此外，日本半导体供应链面临断供风险的消息也引发关注。",
+          "analysis": "科技巨头的财富波动反映了资本市场的不确定性。传统制造业的困境则揭示了行业转型期的阵痛。这些事件共同构成了当前全球经济格局的重要注脚。",
           "social": [
             {
-              "who": "财经博主",
-              "text": "万亿富豪的财富波动如此剧烈，说明科技股的高风险属性依然显著，普通人更应谨慎投资。"
+              "who": "投资者",
+              "text": "科技股的高波动性让很多人不敢轻易入场，需要更稳健的投资策略。"
             },
             {
-              "who": "SpaceX粉丝",
-              "text": "虽然股价下跌，但马斯克在航天领域的成就依然不可磨灭，短期波动不改长期趋势。"
+              "who": "传统制造业从业者",
+              "text": "老字号的倒下让人感慨，希望更多企业能抓住转型机遇。"
             }
           ]
         },
         {
-          "title_zh": "“车企牌”电池相继上市，自主品牌加速技术自主化",
-          "summary": "鸿蒙智行、理想汽车、小米等推出自有品牌电池，试图通过穿透式管理抢占用户心智。",
+          "title_zh": "车企推出自有品牌电池，试图掌控核心技术",
+          "summary": "鸿蒙智行、理想汽车和小米等品牌纷纷推出自有电池产品，通过“穿透式管理”主导电池技术标准和生产。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-04",
           "url": "https://36kr.com/p/3925382191708552?f=rss",
-          "overview": "随着鸿蒙智行巨鲸电池、理想汽车牌电池及小米龙甲电池的相继发布，国内车企正加速推出自有品牌动力电池。这些企业试图通过“穿透式管理”从电芯到电池包全流程介入，以技术标准和用户心智的抢占来摆脱对传统头部电池厂商的依赖。",
-          "analysis": "这一趋势标志着新能源汽车产业链竞争从单纯的产能比拼转向核心技术掌控权的争夺。车企自建电池品牌有助于提升产品差异化竞争力，但也可能加剧行业内的资源内耗与供应链整合难度。",
+          "overview": "多家车企正通过自有电池品牌将每个技术点攥在手中，从电芯到电池包的技术和性能标准全部由车企主导定义。这与过去依赖宁德时代等头部供应商的模式有显著区别。部分车企甚至参与电芯材料开发并对核心供应链全流程介入监管。",
+          "analysis": "这一趋势标志着汽车产业竞争焦点的转移，从整车制造延伸至核心零部件领域。车企希望通过垂直整合提升产品竞争力和用户忠诚度。",
           "social": [
             {
-              "who": "汽车消费者",
-              "text": "车企自研电池更有保障吗？希望能在续航和安全上真正看到提升，而不是换个名字而已。"
+              "who": "汽车行业分析师",
+              "text": "车企入局电池赛道是必然选择，有助于打破供应链垄断并推动技术创新。"
             },
             {
-              "who": "新能源分析师",
-              "text": "这是产业链垂直整合的必然趋势，但技术壁垒能否突破仍需时间验证，宁德时代等依然面临挑战。"
+              "who": "消费者代表",
+              "text": "希望车企能真正提升电池性能和安全标准，而不是仅仅为了营销噱头。"
             }
           ]
         },
         {
-          "title_zh": "芯晓科技自研工具将芯片电源签核周期缩短至几天",
-          "summary": "「芯晓科技」推出数字电源签核工具“IcPower”，速度是国外大厂工具的4.5-8.5倍。",
+          "title_zh": "巽霖科技完成近2亿元B轮融资，押注玻璃基板替代有机载板",
+          "summary": "在电子级玻纤布涨价和AI封装紧缺背景下，国内玻璃基板领军企业巽霖科技宣布完成新一轮融资。",
           "source": "36氪",
           "region": "中国",
           "published": "2026-08-04",
-          "url": "https://36kr.com/p/3925067918227591?f=rss",
-          "overview": "「芯晓科技」针对芯片设计流程中电源签核周期长的行业痛点，推出了首款数字电源签核工具“IcPower”。该工具支持7nm等先进工艺，在典型测试用例中的运算速度是国外大厂工具的4.5至8.5倍，成功将原本需要数周的签核周期缩短至几天。",
-          "analysis": "这一突破对于提升国产芯片设计效率具有重要意义，有助于打破国外EDA工具在高端领域的垄断地位。随着半导体产业链的国产化进程加速，此类核心工具的自主研发将成为行业竞争的关键变量。",
+          "url": "https://36kr.com/p/3924953058605444?f=rss",
+          "overview": "巽霖科技宣布完成近2亿元B轮融资，由英诺基金、千乘资本等新股东投资。本轮融资将主要用于玻璃基板产能扩张和封装产线建设。行业背景下，AI封装载板交期拉长至6个月以上，有机基板供给危机持续加深。",
+          "analysis": "玻璃基板的崛起被视为解决AI芯片封装瓶颈的关键路径之一。多家机构的持续投入表明该领域具有明确的市场前景和技术确定性。",
           "social": [
             {
-              "who": "芯片设计师",
-              "text": "电源签核一直是流程中的瓶颈，这个工具如果好用能大大提升工作效率，期待更多国产替代方案。"
+              "who": "半导体行业从业者",
+              "text": "玻璃基板确实是未来的方向，但目前产能和良率仍需突破。"
             },
             {
-              "who": "半导体投资人",
-              "text": "EDA工具是芯片设计的核心基础设施，国内厂商若能在此领域取得突破，市场空间巨大。"
+              "who": "投资机构代表",
+              "text": "AI产业链的确定性窗口期已经到来，我们需要提前布局相关技术。"
+            }
+          ]
+        },
+        {
+          "title_zh": "BBC调查揭露驱虫药被冒充癌症治疗药物出售",
+          "summary": "一名绝症患者被推销驱虫药和疥疮药作为癌症治疗手段，BBC调查发现此类欺诈行为普遍存在。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7wvpwjzeo?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC调查报道揭露了一种令人痛心的现象：驱虫药和疥疮药被冒充为癌症治疗药物进行销售。一名身患绝症的男子曾被电梯销售员以能缩小肿瘤为由推荐这些药物。此类欺诈行为利用了患者对疾病的恐惧和对正规医疗渠道的不信任。",
+          "analysis": "医疗诈骗不仅侵害患者的经济利益，更可能延误病情导致生命危险。加强监管和公众教育对于打击此类犯罪至关重要。",
+          "social": [
+            {
+              "who": "绝症患者家属",
+              "text": "我们太需要希望了，但绝不能让骗子利用这份脆弱来牟利。"
+            },
+            {
+              "who": "医疗监管机构",
+              "text": "必须加大对非法药物销售的打击力度，保护患者的合法权益。"
+            }
+          ]
+        },
+        {
+          "title_zh": "巴基斯坦雪崩夺走登山传奇人物及一代向导的生命",
+          "summary": "一次雪崩在巴基斯坦夺走了多位登山者的生命，其中包括一位传奇人物和许多记录保持者向导。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
+          "overview": "巴基斯坦的一次雪崩造成了严重的人员伤亡，其中包括一位登山传奇人物和许多创下记录的向导。他们的同伴表示，这些人的死对尼泊尔的登山界造成了毁灭性的打击。此次事故再次引发了关于高海拔登山安全标准的讨论。",
+          "analysis": "喜马拉雅山脉的极端环境使得登山活动充满风险。此次悲剧提醒我们，即使在技术不断进步的今天，自然力量依然不可小觑。",
+          "social": [
+            {
+              "who": "登山爱好者",
+              "text": "每一次出发都是对生命的挑战，希望我们能从中吸取教训，更加敬畏自然。"
+            },
+            {
+              "who": "登山安全专家",
+              "text": "我们需要建立更严格的准入机制和安全标准，以减少此类悲剧的发生。"
+            }
+          ]
+        },
+        {
+          "title_zh": "国风IP重塑硬核数码消费，年轻人热衷跨界联名",
+          "summary": "《八仙！》电影带动国风IP热潮，年轻人对国潮产品的喜爱推动了数码产品领域的跨界合作。",
+          "source": "36氪",
+          "region": "中国",
+          "published": "2026-08-04",
+          "url": "https://36kr.com/p/3925017067862409?f=rss",
+          "overview": "暑期档电影《八仙！》凭借东方美学画面和反套路剧情成为黑马，其周边产品迅速售罄。数据显示，超过九成的年轻人认为国潮产品已更深入地走进日常生活。蜜雪冰城、美团外卖等品牌也开始与粤剧院展开跨界联名。",
+          "analysis": "国风IP的崛起反映了年轻消费者对文化认同感的追求。这种趋势正在重塑数码消费市场的格局，为品牌创新提供了新的方向。",
+          "social": [
+            {
+              "who": "Z世代消费者",
+              "text": "国潮太酷了！我们不仅想要产品，更希望看到文化的表达和创新。"
+            },
+            {
+              "who": "品牌营销专家",
+              "text": "国风联名是连接传统文化与现代消费的最佳桥梁，未来还有更大的空间。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国利兹市临时关闭街道供儿童玩耍",
+          "summary": "利兹市实施了一项创新举措，临时关闭街道让儿童有更多安全空间玩耍，该计划对成人也产生了积极影响。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/news/articles/c8jnmzekx0ro?at_medium=RSS&at_campaign=rss",
+          "overview": "在英国利兹市，街道被临时关闭以允许儿童在更宽敞的空间中安全玩耍。这一举措旨在解决城市环境中儿童活动空间不足的问题。实施后，该计划被证明对儿童和成人均有益处，得到了社区的广泛支持。",
+          "analysis": "这一政策体现了城市规划中对人性化需求的重视。通过重新分配公共空间资源，可以有效提升居民的生活质量和幸福感。",
+          "social": [
+            {
+              "who": "利兹市家长",
+              "text": "终于有了让孩子安全玩耍的地方，这对我们来说意义重大。"
+            },
+            {
+              "who": "城市规划师",
+              "text": "城市设计应该以人为本，为不同年龄段的居民创造更多互动空间。"
             }
           ]
         }
@@ -1781,60 +1896,60 @@
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦 AI 安全与对齐，关注前沿模型能力增长中的风险管控及宪法式 AI 治理。",
-          "url": "anthropic.com"
+          "recent": "关注 AI 模型安全对齐及 HuggingFace 事件后的行业信任重建。",
+          "url": "openai.com"
         },
         {
-          "name": "Lex Fridman",
-          "role": "知名播客主理人/YouTube 创作者",
+          "name": "Jensen Huang",
+          "role": "NVIDIA CEO",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "深度对话 AGI 发展路径、意识本质及开源模型生态，探讨 AI 对人类社会的长期影响。",
-          "url": "lexfridman.com"
+          "domain": "ai",
+          "recent": "推动生成式仿真技术在医疗机器人领域的应用落地。",
+          "url": "nvidia.com"
         },
         {
           "name": "Yann LeCun",
-          "role": "Meta Chief Scientist / AI 研究者",
-          "region": "法国/欧洲",
+          "role": "Meta 首席科学家 / Facebook AI Research 创始人",
+          "region": "法国/美国",
           "domain": "ai",
-          "recent": "推动开放世界模型研究，探讨开源与安全的前沿平衡及 AI 基础理论突破。",
-          "url": "lecun.ai"
+          "recent": "倡导开源 AI 生态发展，探讨自主智能体的未来形态。",
+          "url": "x.com/YannLeCun"
         },
         {
-          "name": "Lisa Su",
-          "role": "AMD CEO / 芯片行业领袖",
-          "region": "台湾/美国",
-          "domain": "ai",
-          "recent": "关注数据中心算力需求爆发与 GPU 基础设施规模化扩张，应对 AI 硬件瓶颈。",
-          "url": "lisasu.com"
-        },
-        {
-          "name": "Sundar Pichai",
-          "role": "Google CEO / 科技行业领袖",
-          "region": "印度/美国",
-          "domain": "ai",
-          "recent": "推动生成式 AI 与搜索引擎深度融合，重塑信息获取方式及互联网产品战略。",
-          "url": "pichai.google"
-        },
-        {
-          "name": "李开复 (Kai-Fu Lee)",
-          "role": "AI 投资人/前 Google 中国 CEO",
-          "region": "中国",
-          "domain": "ai",
-          "recent": "关注 AI 对教育公平及知识服务的影响，倡导负责任的 AI 治理与人类价值导向。",
-          "url": "kaifulee.com"
-        },
-        {
-          "name": "David Weinberger",
-          "role": "信息架构学者/作家 (NYU)",
+          "name": "Lex Fridman",
+          "role": "知名播客主持人 / AI 领域深度访谈者",
           "region": "美国",
-          "domain": "library",
-          "recent": "探讨人工智能时代信息架构的演变，关注数字图书馆与知识组织在生成式 AI 下的未来。",
-          "url": "davidweinberger.com"
+          "domain": "podcast/ai",
+          "recent": "通过深度访谈持续探索 AGI 伦理边界与技术前景。",
+          "url": "lexfridman.com"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "斯坦福 AI 教授 / 前百度首席科学家",
+          "region": "中国/美国",
+          "domain": "ai/library",
+          "recent": "聚焦人工智能与教育融合，推动智慧图书馆资源建设。",
+          "url": "andrewng.org"
+        },
+        {
+          "name": "Marcia de la Cruz",
+          "role": "美国国会图书馆馆长",
+          "region": "美国",
+          "domain": "library/ai",
+          "recent": "致力于数字文化遗产保护及 AI 技术在公共图书馆的整合应用。",
+          "url": "loc.gov"
+        },
+        {
+          "name": "Peter Suber",
+          "role": "开放获取运动学者 / 哈佛大学教授",
+          "region": "加拿大/美国",
+          "domain": "library/ai",
+          "recent": "关注开放获取运动与 AI 训练数据权益之间的平衡关系。",
+          "url": "peter-suber.org"
         }
       ]
     },
