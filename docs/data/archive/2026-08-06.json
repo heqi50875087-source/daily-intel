@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-06T10:27:51+08:00",
+  "generated_at": "2026-08-06T11:21:28+08:00",
   "date": "2026-08-06",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-06 08:24",
-    "ai": "2026-08-06 09:17",
-    "voices": "2026-08-06 09:17",
-    "github": "2026-08-06 10:27",
-    "libraries": "2026-08-06 10:27",
+    "hot": "2026-08-06 11:21",
+    "ai": "2026-08-06 11:21",
+    "voices": "2026-08-06 11:21",
+    "github": "2026-08-06 11:21",
+    "libraries": "2026-08-06 11:21",
     "sports": "2026-08-06 10:27",
     "academic": "2026-08-06 06:40"
   },
@@ -1515,48 +1515,66 @@
         {
           "title_zh": "开源智能CRM系统",
           "eng": "trycompai/crm",
-          "summary": "面向AI Agent优先架构的开源客户关系管理系统，支持多Agent协作管理客户数据。",
+          "summary": "一款面向AI Agent优先架构的开源客户关系管理系统。",
           "source": "GitHub",
-          "stars": 6328,
+          "stars": 6393,
           "lang": "TypeScript",
           "published": "2026-07-31",
           "url": "https://github.com/trycompai/crm",
-          "overview": "该项目是一个以AI Agent为核心设计理念的开源CRM系统，采用TypeScript构建，支持多Agent协作处理客户数据、销售线索和跟进任务。与传统CRM不同，它原生集成了AI能力，让Agent可以直接参与客户关系管理流程。项目已获6328星，社区关注度极高。",
-          "analysis": "在AI Agent浪潮下，传统CRM正在被重新定义。该项目代表了"
-        },
-        {
-          "title_zh": "AnyDoc文档转Markdown工具",
-          "eng": "firecrawl/anydoc",
-          "summary": "用Rust构建的万能文档转换器，支持Word、PPT、Excel、PDF等格式转为干净Markdown。",
-          "source": "GitHub",
-          "stars": 5206,
-          "lang": "Rust",
-          "published": "2026-08-03",
-          "url": "https://github.com/firecrawl/anydoc",
-          "overview": "AnyDoc是一个用Rust编写的高性能文档转换工具，支持将Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等多种格式转换为干净的Markdown。项目提供Node.js和Python绑定，方便集成到各种工作流中。5206星表明开发者社区对其高度认可。",
-          "analysis": "在AI时代，文档处理是核心能力之一。AnyDoc的Rust实现保证了高性能和低内存占用，多语言绑定使其成为AI Agent处理文档的理想选择。对于需要批量转换大量文档的团队来说，这是必备工具。",
+          "overview": "该项目将CRM系统重新设计为以AI Agent为核心的架构，支持智能客户交互、自动化跟进和数据分析。采用TypeScript构建，提供完整的Web界面和API接口，适合企业级部署。",
+          "analysis": "在AI Agent浪潮下，传统CRM的被动式管理正在被主动式智能服务取代。该项目代表了CRM领域的前沿方向，对开发者和产品团队都有很高的参考价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "Rust性能+多格式支持，集成到数据处理管道里非常顺手"
+              "text": "Agent-first架构是未来CRM的标准形态，这个开源实现值得跟进。"
+            },
+            {
+              "who": "产品经理",
+              "text": "智能客户交互功能可以直接提升团队效率，非常适合SaaS产品参考。"
             }
           ]
         },
         {
-          "title_zh": "CPU上跑万亿参数Kimi模型",
-          "eng": "FareedKhan-dev/kimi-k3-in-c",
-          "summary": "在单颗CPU、8.24GB内存中运行2.78万亿参数的Kimi K3推理，纯C99实现无GPU依赖。",
+          "title_zh": "AnyDoc文档转Markdown工具",
+          "eng": "firecrawl/anydoc",
+          "summary": "将Word、PowerPoint、Excel、PDF等多种格式转换为干净的Markdown，基于Rust构建。",
           "source": "GitHub",
-          "stars": 2591,
+          "stars": 5338,
+          "lang": "Rust",
+          "published": "2026-08-03",
+          "url": "https://github.com/firecrawl/anydoc",
+          "overview": "支持Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等多种文档格式的转换，输出为高质量的Markdown。采用Rust编写性能优异，同时提供Node.js和Python绑定。",
+          "analysis": "在AI工作流中，文档解析是核心环节。该项目解决了多格式统一处理的问题，对构建知识库、文档分析等场景有直接价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Rust性能加上Python/Node双绑定，API集成非常方便。"
+            },
+            {
+              "who": "研究者",
+              "text": "多格式支持很全面，做文档分析pipeline的必备工具。"
+            }
+          ]
+        },
+        {
+          "title_zh": "CPU上运行万亿参数Kimi模型",
+          "eng": "FareedKhan-dev/kimi-k3-in-c",
+          "summary": "在单颗CPU、8.24GB内存中运行2.78万亿参数的Kimi K3推理，纯C99实现。",
+          "source": "GitHub",
+          "stars": 2602,
           "lang": "C",
           "published": "2026-08-01",
           "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-          "overview": "这是一个极具技术挑战性的项目，成功将2.78万亿参数的Kimi K3模型压缩到可在单颗CPU、仅8.24GB内存中运行的水平。采用纯C99实现，不依赖BLAS库、深度学习框架或GPU硬件。这种极致轻量化的推理方案为边缘计算和受限环境下的AI应用打开了新可能。",
-          "analysis": "万亿参数模型通常只能在大型数据中心运行，该项目证明了在消费级硬件上也能进行大规模LLM推理。对于资源受限的部署场景（如嵌入式设备、服务器集群）具有重大实用价值，是AI推理优化的里程碑式尝试。",
+          "overview": "无需BLAS、无需框架、无需GPU，纯C99实现万亿参数模型的CPU推理。项目强调便携性，可在任何支持C的平台上运行，内存占用仅8.24GB。",
+          "analysis": "将大模型部署到边缘设备是行业热点，该项目证明了CPU推理的可行性，对资源受限场景有重要参考价值。",
           "social": [
             {
               "who": "研究者",
-              "text": "CPU跑万亿参数模型？这打破了传统认知，对边缘AI部署意义重大"
+              "text": "纯C实现万亿参数模型，技术难度极高，值得深入研究。"
+            },
+            {
+              "who": "开发者",
+              "text": "边缘AI部署的新思路，对嵌入式场景很有启发。"
             }
           ]
         },
@@ -1565,327 +1583,349 @@
           "eng": "genspark-ai/genoffice",
           "summary": "面向macOS和Windows的AI原生办公套件，包含文字处理、电子表格、演示文稿和PDF功能。",
           "source": "GitHub",
-          "stars": 1790,
+          "stars": 1810,
           "lang": "TypeScript",
           "published": "2026-07-31",
           "url": "https://github.com/genspark-ai/genoffice",
-          "overview": "GenOffice是一个AI原生的办公套件，覆盖文字处理、电子表格、演示文稿和PDF四大核心功能。与传统的Microsoft Office或Google Docs不同，它从底层就为AI Agent设计，支持AI直接参与文档创建、编辑和分析。TypeScript构建使其跨平台兼容性好。",
-          "analysis": "随着AI能力的成熟，办公软件正在经历范式转变。GenOffice代表了"
-        },
-        {
-          "title_zh": "3D人体解剖学交互探索器",
-          "eng": "thebuggeddev/anatomy",
-          "summary": "基于Three.js和GPT 5.6构建的交互式3D人体解剖学学习工具。",
-          "source": "GitHub",
-          "stars": 1619,
-          "lang": "TypeScript",
-          "published": "2026-08-02",
-          "url": "https://github.com/thebuggeddev/anatomy",
-          "overview": "这是一个将前沿AI与3D可视化结合的教育项目，使用Three.js构建交互式3D人体模型，并集成GPT 5.6 Sol进行智能问答和讲解。用户可以通过3D视角探索人体解剖结构，同时获得AI驱动的实时解释和学习指导。1619星反映了教育科技领域的强劲需求。",
-          "analysis": "将大语言模型的语义理解能力与3D可视化结合，为医学教育和生物学学习提供了全新体验。这种"
-        },
-        {
-          "title_zh": "中文AI文本人性化写作工具",
-          "eng": "KKKKhazix/human-writing",
-          "summary": "让AI生成的中文内容读起来像真人写的，通用创作与改稿Skill，开箱即用。",
-          "source": "GitHub",
-          "stars": 1112,
-          "lang": "Python",
-          "published": "2026-08-05",
-          "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "human-writing是一个专注于中文内容的人性化写作工具，旨在消除AI生成文本的机械感。它提供通用创作和改稿功能，可以直接集成到工作流中使用。在AI内容泛滥的时代，让文字读起来"
-        },
-        {
-          "title_zh": "真实服务Agent基准测试平台",
-          "eng": "Accio-Lab/RealReplicaBench",
-          "summary": "在高保真、有状态且可复现的真实在线服务副本中，对长周期AI Agent进行基准测试。",
-          "source": "GitHub",
-          "stars": 1019,
-          "lang": "HTML",
-          "published": "2026-08-02",
-          "url": "https://github.com/Accio-Lab/RealReplicaBench",
-          "overview": "RealReplicaBench是一个创新的评估框架，通过在真实在线服务的高保真副本中运行AI Agent来测试其长周期任务能力。与传统的模拟环境不同，它使用真实的有状态服务副本，确保测试结果的可复现性和真实性。HTML前端提供了直观的可视化界面。",
-          "analysis": "随着AI Agent从简单对话向复杂多步骤任务演进，评估Agent真实世界表现的能力变得至关重要。该平台填补了实验室测试与实际应用之间的鸿沟，为Agent开发者和研究者提供了可靠的评估基准。",
+          "overview": "重新定义办公套件，将AI能力深度集成到文字处理、电子表格、演示文稿和PDF编辑中。支持macOS和Windows双平台，采用TypeScript构建现代化界面。",
+          "analysis": "AI原生办公是下一个大趋势，该项目展示了如何将AI无缝融入传统办公场景，对产品经理和技术团队都有参考价值。",
           "social": [
             {
-              "who": "研究者",
-              "text": "在真实服务副本上测试Agent比模拟环境更有说服力"
+              "who": "开发者",
+              "text": "TypeScript全栈实现，代码质量高，值得学习架构设计。"
+            },
+            {
+              "who": "用户",
+              "text": "AI原生办公的概念很吸引人，期待功能持续完善。"
             }
           ]
         },
         {
-          "title_zh": "AI PPT生成Skill工具",
-          "eng": "Binaryify/open-kimi-ppt-skill",
-          "summary": "非官方Kimi Slides Skill，让AI Agent生成可编辑PPTD+PPTX文件并附带本地浏览器编辑器。",
+          "title_zh": "3D人体解剖交互式探索器",
+          "eng": "thebuggeddev/anatomy",
+          "summary": "基于Three.js和GPT 5.6 Sol构建的交互式3D人体解剖学学习工具。",
           "source": "GitHub",
-          "stars": 679,
+          "stars": 1631,
+          "lang": "TypeScript",
+          "published": "2026-08-02",
+          "url": "https://github.com/thebuggeddev/anatomy",
+          "overview": "将AI与3D可视化结合，提供交互式人体解剖学学习体验。用户可通过自然语言提问获取详细的解剖结构信息，支持多角度观察和标注。",
+          "analysis": "AI+3D可视化的教育应用是新兴方向，该项目展示了如何将大模型能力融入传统医学教育工具中。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Three.js与GPT的结合很有创意，交互设计值得学习。"
+            },
+            {
+              "who": "学习者",
+              "text": "3D可视化让解剖学变得直观易懂，非常适合医学教育。"
+            }
+          ]
+        },
+        {
+          "title_zh": "中文AI写作人性化改写工具",
+          "eng": "KKKKhazix/human-writing",
+          "summary": "让AI生成的中文内容读起来像具体的人在说话，通用创作与改稿Skill。",
+          "source": "GitHub",
+          "stars": 1177,
+          "lang": "Python",
+          "published": "2026-08-05",
+          "url": "https://github.com/KKKKhazix/human-writing",
+          "overview": "专注于中文内容的人性化改写，开箱即用的Skill设计。适用于各种创作场景，包括文章润色、文案优化和内容改写等。",
+          "analysis": "随着AI写作普及，如何让内容更自然、更有个性成为关键问题。该项目直接解决了中文语境下的这一痛点。",
+          "social": [
+            {
+              "who": "创作者",
+              "text": "中文AI写作的个性化需求很真实，这个工具正好解决。"
+            },
+            {
+              "who": "开发者",
+              "text": "Skill设计模式值得参考，便于集成到各种工作流中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "真实在线服务Agent基准测试平台",
+          "eng": "Accio-Lab/RealReplicaBench",
+          "summary": "在高保真、有状态且可复现的真实在线服务副本中，对长周期AI Agent进行基准测试。",
+          "source": "GitHub",
+          "stars": 1020,
+          "lang": "HTML",
+          "published": "2026-08-02",
+          "url": "https://github.com/Accio-Lab/RealReplicaBench",
+          "overview": "构建真实在线服务的可复现副本，用于评估长周期AI Agent在复杂场景中的表现。支持高保真状态模拟和结果可复现性验证。",
+          "analysis": "Agent基准测试是AI研究的关键环节，该项目提供了更接近真实世界的测试环境，对研究者有重要参考价值。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "长周期Agent评估的痛点终于有了解决方案，很有意义。"
+            },
+            {
+              "who": "开发者",
+              "text": "可复现性是科研的核心要求，这个设计思路很严谨。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Kimi PPT生成Skill",
+          "eng": "Binaryify/open-kimi-ppt-skill",
+          "summary": "非官方Kimi Slides Skill：让AI Agent生成可编辑PPTD+PPTX，附带本地浏览器编辑器。",
+          "source": "GitHub",
+          "stars": 732,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-          "overview": "这是一个非官方的Kimi Slides集成工具，让AI Agent能够生成可编辑的PPTD和PPTX格式演示文稿。项目还附带了一个本地浏览器编辑器，用户可以直接在浏览器中查看和修改生成的PPT内容。Python实现使其易于集成到各种自动化流程中。",
-          "analysis": "AI生成演示文稿的需求日益增长，但大多数工具输出的是不可编辑的图片。该项目提供了真正的可编辑PPT输出，配合本地编辑器实现了从生成到修改的完整工作流，对内容创作者和团队来说非常实用。",
+          "overview": "通过AI Agent生成可编辑的PPTD和PPTX文件，并附带本地浏览器编辑器。支持非官方Kimi Slides Skill集成，方便用户快速创建演示文稿。",
+          "analysis": "AI+演示文稿是实用场景之一，该项目降低了PPT制作的门槛，对内容创作者有直接价值。",
           "social": [
             {
-              "who": "内容创作者",
-              "text": "能直接编辑生成的PPT太方便了，省去了手动调整的麻烦"
+              "who": "开发者",
+              "text": "Skill模式让集成变得简单，浏览器编辑器设计很贴心。"
+            },
+            {
+              "who": "用户",
+              "text": "AI生成PPT的需求很真实，这个工具正好满足。"
+            }
+          ]
+        },
+        {
+          "title_zh": "图标变形动画库Morphicons",
+          "eng": "guillermolg00/morphicons",
+          "summary": "任何图标可变形为任何其他图标，支持基于描边的通用变形和弹簧物理效果。",
+          "source": "GitHub",
+          "stars": 730,
+          "lang": "TypeScript",
+          "published": "2026-08-01",
+          "url": "https://github.com/guillermolg00/morphicons",
+          "overview": "实现图标间的平滑变形动画，支持基于描边的通用变形和弹簧物理效果。零依赖设计，gzip压缩仅约7KB，性能优异。",
+          "analysis": "图标变形是UI动效中的高级需求，该项目提供了轻量级解决方案，对前端开发者有实用价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "零依赖+7KB体积，性能与易用性的完美平衡。"
+            },
+            {
+              "who": "设计师",
+              "text": "图标变形效果很流畅，对交互设计很有帮助。"
             }
           ]
         },
         {
           "title_zh": "macOS蓝牙设备定位命令行工具",
           "eng": "ben-z/findphone",
-          "summary": "通过信号强度在macOS命令行定位附近蓝牙设备，适用于Find My不可用时。",
+          "summary": "通过信号强度在macOS命令行中定位附近蓝牙设备，适用于Find My不可用时。",
           "source": "GitHub",
-          "stars": 597,
+          "stars": 608,
           "lang": "Swift",
           "published": "2026-07-31",
           "url": "https://github.com/ben-z/findphone",
-          "overview": "findphone是一个实用的macOS命令行工具，通过读取蓝牙信号强度来定位附近的设备。当系统自带的Find My功能不可用时（如设备离线或位置服务受限），这个工具可以作为可靠的替代方案。Swift实现确保了与macOS系统的深度集成和原生性能。",
-          "analysis": "虽然听起来是小众工具，但在实际使用中非常实用——比如查找丢失的耳机、遥控器或其他蓝牙配件时，Find My经常无法定位。命令行接口让脚本自动化成为可能，适合需要批量设备管理的场景。",
+          "overview": "在macOS命令行中通过蓝牙信号强度定位附近设备，提供精确的距离估算。适用于Find My功能不可用时的替代方案。",
+          "analysis": "蓝牙定位是实用工具类项目，该项目展示了如何在系统限制下实现设备定位功能。",
           "social": [
             {
               "who": "开发者",
-              "text": "macOS上找不到设备时的救星，命令行用起来很顺手"
+              "text": "命令行设计简洁高效，Swift实现质量不错。"
+            },
+            {
+              "who": "用户",
+              "text": "Find My不可用时很有用，实用性强。"
             }
           ]
-        },
-        {
-          "title_zh": "图标形态变换库Morphicons",
-          "eng": "guillermolg00/morphicons",
-          "summary": "任何图标可以平滑变形为任何其他图标，基于弹簧物理的通用图标变换方案。",
-          "source": "GitHub",
-          "stars": 725,
-          "lang": "TypeScript",
-          "overview": "Morphicons是一个创新的图标库，支持将任何stroke-based图标平滑变形为其他图标，采用弹簧物理引擎实现自然的过渡动画。零依赖设计，gzip压缩仅约7KB，非常适合前端项目使用。TypeScript实现保证了类型安全和良好的开发体验。",
-          "analysis": "在UI设计中，图标之间的动态转换是提升用户体验的有效手段。Morphicons的零依赖和小体积特点使其成为轻量级项目的理想选择，而弹簧物理效果让动画看起来自然流畅，无需复杂的配置即可实现专业的变形效果。"
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "厄尔尼诺或致明年末前5000万人陷入急性饥饿",
-          "summary": "联合国预报员警告，快速发展的厄尔尼诺天气系统可能在今年年底前将约5000万人口推入急性饥饿状态。目前全球已有数亿人面临严重粮食不安全状况，非洲部分地区持续干旱和伊朗战争对食品价格的施压加剧了危机。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.theguardian.com/environment/2026/aug/05/el-nino-could-push-50m-people-acute-hunger-next-year",
-          "overview": "联合国预报员警告，快速发展的厄尔尼诺天气系统可能在今年年底前将约5000万人口推入急性饥饿状态。目前全球已有数亿人面临严重粮食不安全状况，非洲部分地区持续干旱和伊朗战争对食品价格的施压加剧了危机。45个国家正经历严重的粮食不安全，预计形势将进一步恶化。这一预测凸显了气候变化与地缘冲突叠加对人类生存的巨大威胁。",
-          "analysis": "厄尔尼诺现象通常导致全球气温升高和降水模式改变，直接冲击农业产区和粮食安全储备。此次影响范围之广、人数之多前所未有，国际社会需紧急协调人道主义援助资源以应对即将到来的饥荒潮。",
-          "social": [
-            {
-              "who": "联合国预报员",
-              "text": "45国面临严重粮食不安全，形势严峻"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国将关闭五处领事馆，批评者担忧中国填补外交真空",
-          "summary": "美国国务院通知国会，计划关闭加拿大、格林纳达、日本、印尼和喀麦隆等五处领事馆及外交机构。此举以成本削减为由进行辩护，并基于对美双边关系的重新评估。",
+          "title_zh": "美国宣布关闭五个领事馆，中国恐填补外交真空",
+          "summary": "美国国务院通知国会计划关闭加拿大、格林纳达、日本、印尼和喀麦隆等地的五个外国领事馆及机构。此举被批评为留下外交真空，风险可能被中国利用。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-05",
           "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-          "overview": "美国国务院通知国会，计划关闭加拿大、格林纳达、日本、印尼和喀麦隆等五处领事馆及外交机构。此举以成本削减为由进行辩护，并基于对美双边关系的重新评估。批评者担忧这一举动将在亚洲、非洲等地留下外交真空，可能被中国利用来扩大其影响力。",
-          "analysis": "美国外交机构的收缩反映了当前财政压力与战略重心的转移，但在地缘政治博弈加剧的背景下，此举可能削弱其在关键地区的存在并引发盟友的不安。",
+          "overview": "美国国务院正式通知国会，计划关闭分布在亚洲、非洲、北美和加勒比地区的五个外国领事馆及机构。这一决定虽然以成本削减为由进行辩护，但实质上反映了美国对双边关系的重新评估。批评者指出，此举正在削弱美国的全球影响力，特别是在关键地区。",
+          "analysis": "这一决定引发外界对中美博弈加剧的深层担忧。在亚洲和非洲等战略要地留下空白，可能为竞争对手提供填补外交真空的机会。",
           "social": [
             {
-              "who": "国际观察家",
-              "text": "中国可能填补美国留下的外交空白"
+              "who": "国际观察员",
+              "text": "美国在全球关键节点收缩触角，客观上为中国提供了扩大影响力的窗口期。"
             }
           ]
         },
         {
-          "title_zh": "塞维塔危机：虚假信息如何使该地成为欧洲最新焦点",
-          "summary": "上周估计约7.2万移民试图穿越摩洛哥进入西班牙塞维塔微型飞地，其中大部分在24小时内返回。当地官员称至少88人在尝试过境时死亡。",
+          "title_zh": "厄尔尼诺现象或致5000万人陷入急性饥饿",
+          "summary": "联合国预报员警告称，快速发展的厄尔尼诺天气系统可能在年底前将约5000万人口推入急性饥饿状态。目前已有数十亿人面临因非洲干旱和伊朗战争导致的严重粮食不安全。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.theguardian.com/environment/2026/aug/05/el-nino-could-push-50m-people-acute-hunger-next-year",
+          "overview": "联合国预报员发出严厉警告，称正在快速发展的厄尔尼诺天气系统可能在年底前将约5000万人口推入急性饥饿状态。这将在现有因非洲长期干旱和伊朗战争导致食品价格压力而面临危险饥饿水平的人群之外，进一步加剧全球粮食危机。",
+          "analysis": "气候变化与地缘冲突的叠加效应正对全球粮食安全构成前所未有的严峻挑战。45个国家目前的状况令人极度担忧，国际社会需紧急协调应对机制。",
+          "social": [
+            {
+              "who": "气候专家",
+              "text": "厄尔尼诺的破坏力远超预期，必须立即启动国际粮食援助计划以缓解人道主义危机。"
+            }
+          ]
+        },
+        {
+          "title_zh": "塞乌塔危机：虚假信息如何使该地成为欧洲最新焦点",
+          "summary": "过去一周显示，图像、谣言和右翼政治投机可以迅速掩盖事实。上周估计有7.2万移民试图进入西班牙北非飞地塞乌塔，其中至少88人在尝试穿越时死亡。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-05",
           "url": "https://www.theguardian.com/world/2026/aug/05/wednesday-briefing-how-misinformation-and-a-hardened-immigration-policy-turned-ceuta-into-europes-latest-flashpoint",
-          "overview": "上周估计约7.2万移民试图穿越摩洛哥进入西班牙塞维塔微型飞地，其中大部分在24小时内返回。当地官员称至少88人在尝试过境时死亡。虚假信息、谣言和右翼政治投机迅速掩盖了地面事实，使这一事件成为欧洲最新的移民危机焦点。",
-          "analysis": "该事件暴露了信息战在现代移民危机中的双重作用，既煽动恐惧又阻碍人道主义救援的理性讨论，使得真相难以在舆论场中占据主导地位。",
+          "overview": "本周的简报揭示了虚假信息、谣言和右翼政治投机如何迅速掩盖塞乌塔边境的真实情况。上周，估计有7.2万移民试图进入西班牙北非飞地塞乌塔，绝大多数人在数小时内返回，但至少有88人在尝试穿越时丧生。",
+          "analysis": "这一事件凸显了虚假信息在移民危机中的放大作用，右翼政治力量利用情绪化叙事加剧了社会分裂。事实与舆论之间的鸿沟正在加深。",
           "social": [
             {
-              "who": "人权组织",
-              "text": "88人死亡，人道主义灾难"
+              "who": "媒体评论员",
+              "text": "在信息战时代，真相往往最先被淹没。塞乌塔事件再次证明了独立调查的重要性。"
             }
           ]
         },
         {
-          "title_zh": "冯德莱恩呼吁加强欧盟边境以应对塞维塔危机",
-          "summary": "欧洲委员会主席冯德莱恩在塞维塔大规模移民事件后致信西班牙首相桑切斯，呼吁加强欧盟边境管控。她在信中强调需要在五个领域采取行动，包括遣返更多人员。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-03",
-          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
-          "overview": "欧洲委员会主席冯德莱恩在塞维塔大规模移民事件后致信西班牙首相桑切斯，呼吁加强欧盟边境管控。她在信中强调需要在五个领域采取行动，包括遣返更多人员。这一事件引发了马德里与其他欧洲国家之间的激烈争吵。",
-          "analysis": "此次危机迫使欧盟重新审视其边境管理策略，冯德莱恩的信件表明欧盟内部在移民问题上正寻求更统一的强硬立场以维护区域安全秩序。",
-          "social": [
-            {
-              "who": "欧盟官员",
-              "text": "需要在五个领域加强管控"
-            }
-          ]
-        },
-        {
-          "title_zh": "因凡蒂诺为错误道歉但留任国际足联主席",
-          "summary": "在高级行政人员的支持下，吉亚尼·因凡蒂诺将继续担任国际足联主席。他对其争议性的私人投资计划中犯下的错误“真诚道歉”。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
-          "overview": "在高级行政人员的支持下，吉亚尼·因凡蒂诺将继续担任国际足联主席。他对其争议性的私人投资计划中犯下的错误“真诚道歉”。尽管面临内部压力，高层的支持确保了其职位的稳固。这一决定在国际足坛引发了关于治理透明度的广泛讨论。",
-          "analysis": "因凡蒂诺的去留反映了国际体育组织在商业利益与道德问责之间的艰难平衡，其私人投资计划的争议性凸显了权力监督的重要性。",
-          "social": [
-            {
-              "who": "足球界人士",
-              "text": "私人投资计划引发信任危机"
-            }
-          ]
-        },
-        {
-          "title_zh": "半数疫苗被丢弃——“免冰箱”版本或改变这一现状",
-          "summary": "科学家已成功将疫苗在室温下保持稳定长达一年，这可能彻底改变全球疫苗接种方式。目前全球约半数的疫苗因冷链运输困难而被丢弃，尤其是在医疗基础设施薄弱的地区。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.bbc.co.uk/news/articles/ce85qe8j0nzo?at_medium=RSS&at_campaign=rss",
-          "overview": "科学家已成功将疫苗在室温下保持稳定长达一年，这可能彻底改变全球疫苗接种方式。目前全球约半数的疫苗因冷链运输困难而被丢弃，尤其是在医疗基础设施薄弱的地区。这一突破有望大幅降低疫苗储存和分发的成本与难度。",
-          "analysis": "室温稳定疫苗的问世是公共卫生领域的重大里程碑，将极大提升发展中国家获取免疫保护的能力，减少因物流限制导致的资源浪费。",
-          "social": [
-            {
-              "who": "科学家",
-              "text": "室温保存一年，技术突破"
-            }
-          ]
-        },
-        {
-          "title_zh": "剑桥大学教授因抄袭丑闻辞职",
-          "summary": "剑桥大学副教授杰森·阿代（Jason Arday）因卷入抄袭争议而宣布辞职。他表示已“得出结论，结束这一章节的唯一方式就是退一步”。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.bbc.co.uk/news/articles/c1e146jw618o?at_medium=RSS&at_campaign=rss",
-          "overview": "剑桥大学副教授杰森·阿代（Jason Arday）因卷入抄袭争议而宣布辞职。他表示已“得出结论，结束这一章节的唯一方式就是退一步”。学术界对此次事件的反应引发了关于学术诚信和机构问责的广泛讨论。",
-          "analysis": "知名学府教授的抄袭丑闻再次敲响了学术道德警钟，促使高校重新审视其科研伦理审查机制以及导师制度的有效性。",
-          "social": [
-            {
-              "who": "学术界",
-              "text": "抄袭丑闻震动剑桥大学"
-            }
-          ]
-        },
-        {
-          "title_zh": "前新纳粹活动人士退出保守党候选人名单",
-          "summary": "英国保守党领导人凯米·巴德诺克宣布，前新纳粹活动人士乔舒亚·博恩希尔-佩恩将不再作为候选人参选。他将被安排为保守党提供关于打击极端主义的咨询建议。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kx8n2vwxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国保守党领导人凯米·巴德诺克宣布，前新纳粹活动人士乔舒亚·博恩希尔-佩恩将不再作为候选人参选。他将被安排为保守党提供关于打击极端主义的咨询建议。这一决定旨在维护政党形象并回应公众对极右翼渗透的担忧。",
-          "analysis": "英国政坛在处理极右翼人物与政治利益之间的关系上再次面临考验，此举显示了主流政党试图划清界限以应对社会分裂压力的努力。",
-          "social": [
-            {
-              "who": "英国保守党",
-              "text": "前新纳粹退出候选人名单"
-            }
-          ]
-        },
-        {
-          "title_zh": "被判刑的葬礼老板致歉信激怒家属",
-          "summary": "因赫尔市葬礼丑闻被定罪的前老板罗伯特·布什发表了一封公开道歉信，试图向受影响的家属表达歉意。然而，这封信并未平息公众的愤怒，反而激怒了那些在事件中失去亲人的家庭。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.bbc.co.uk/news/articles/c79gxqynwd3o?at_medium=RSS&at_campaign=rss",
-          "overview": "因赫尔市葬礼丑闻被定罪的前老板罗伯特·布什发表了一封公开道歉信，试图向受影响的家属表达歉意。然而，这封信并未平息公众的愤怒，反而激怒了那些在事件中失去亲人的家庭。该事件揭示了殡葬行业监管缺失带来的严重后果。",
-          "analysis": "尽管法律制裁已执行，但受害者的情感创伤和信任崩塌难以通过简单的道歉来弥补，凸显了制度性失灵的代价和社会对公正的渴望。",
-          "social": [
-            {
-              "who": "受害者家属",
-              "text": "公开道歉未能平息愤怒"
-            }
-          ]
-        },
-        {
-          "title_zh": "数百人在摩洛哥塞维塔边境焦急等待失踪亲人",
-          "summary": "数百名民众聚集在摩洛哥北部城市菲迪克，靠近西班牙塞维塔的边境。他们展示失踪亲人的照片，希望在过境人群中追踪到他们的下落。死亡人数已接近100人。",
+          "title_zh": "数百摩洛哥人在塞乌塔边境焦急等待失踪亲人",
+          "summary": "数百人聚集在西班牙塞乌塔附近的摩洛哥北部城镇，向过往行人展示失踪亲人的照片以寻找线索。死亡人数已接近100人，家属们充满焦虑地等待消息。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-05",
           "url": "https://www.theguardian.com/world/2026/aug/05/hundreds-in-morocco-gather-near-ceuta-border-in-anxious-wait-for-missing-loved-ones",
-          "overview": "数百名民众聚集在摩洛哥北部城市菲迪克，靠近西班牙塞维塔的边境。他们展示失踪亲人的照片，希望在过境人群中追踪到他们的下落。死亡人数已接近100人，这场大规模跨境事件引发了国际社会的广泛关注。",
-          "analysis": "家属的焦急等待反映了移民危机中个体命运的脆弱性，也凸显了信息透明度在灾难救援中的重要性以及人道主义关怀的迫切需求。",
+          "overview": "数百名摩洛哥人聚集在塞乌塔边境附近的Fnideq小镇，向过往行人展示失踪亲人的照片，希望能追踪到他们的行踪。随着死亡人数接近100人，家属们在充满焦虑中等待消息，这一场景再次引发了国际社会对大规模非法移民尝试惨烈后果的关注。",
+          "analysis": "大规模非法移民尝试的惨烈后果再次引发人道主义危机讨论。边境管控与人道救援之间的张力持续升级，成为欧洲政治的核心议题之一。",
           "social": [
             {
-              "who": "摩洛哥民众",
-              "text": "数百人在边境焦急等待"
+              "who": "人权组织代表",
+              "text": "每一个失踪的数字背后都是一个破碎的家庭，国际社会不应对此视而不见。"
+            }
+          ]
+        },
+        {
+          "title_zh": "冯德莱恩呼吁加强欧盟边境管控以应对塞乌塔危机",
+          "summary": "欧洲委员会主席冯德莱恩致信西班牙首相桑切斯，要求加强欧洲边境安全。她指出在五个领域的移民控制方面需要采取行动，包括遣返更多人员。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-03",
+          "url": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen",
+          "overview": "欧洲委员会主席冯德莱恩在塞乌塔事件后致信西班牙首相桑切斯，明确指出需要加强欧洲边境安全。她在信中强调，从此次事件中可以看出，必须在五个领域的移民控制方面采取行动，包括遣返更多人员。",
+          "analysis": "塞乌塔事件暴露了现有边境管理措施的严重不足。欧盟内部在如何平衡人道主义责任与主权安全问题上仍存在显著分歧，冯德莱恩的呼吁能否促成实质行动尚待观察。",
+          "social": [
+            {
+              "who": "欧洲政策分析师",
+              "text": "物理屏障和更严格的遣返政策是必要的，但必须辅以国际合作以避免推卸责任。"
+            }
+          ]
+        },
+        {
+          "title_zh": "因凡蒂诺为投资失误致歉但留任国际足联主席",
+          "summary": "吉亚尼·因凡蒂诺在收到高级执行人员支持后将继续担任国际足联主席，但他真诚地为争议性私人投资计划中的错误道歉。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
+          "overview": "国际足联主席吉亚尼·因凡蒂诺在面临争议性私人投资计划审查后，宣布将继续留任。尽管他真诚地为其中的错误道歉，但高级执行人员的支持确保了其职位的稳固。这一决定反映了国际体育组织内部权力结构的复杂性。",
+          "analysis": "尽管面临丑闻压力，高层的支持确保了因凡蒂诺职位的稳固。这再次引发了关于国际足联治理透明度和问责制的广泛讨论。",
+          "social": [
+            {
+              "who": "足球评论员",
+              "text": "道歉不能替代制度改革，球迷期待看到实质性的治理变革而非仅仅是留任。"
+            }
+          ]
+        },
+        {
+          "title_zh": "剑桥大学教授卷入抄袭风波后辞职",
+          "summary": "杰森·阿代教授表示已“得出结论，结束这一章节的唯一方式是退一步”。他在学术诚信争议中选择了主动离职以平息事态。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.bbc.co.uk/news/articles/c1e146jw618o?at_medium=RSS&at_campaign=rss",
+          "overview": "剑桥大学教授杰森·阿代深陷抄袭争议，最终选择辞职以结束这一风波。他在声明中表示已“得出结论，结束这一章节的唯一方式是退一步”。此举反映了学术界对学术诚信问题的零容忍态度日益增强。",
+          "analysis": "教授的辞职不仅是个人选择的体现，也折射出当前学术界维护声誉的紧迫性。随着检测技术的进步，学术不端行为的曝光率正在上升。",
+          "social": [
+            {
+              "who": "教育界人士",
+              "text": "学术诚信是教育的基石，任何妥协都是不可接受的。希望此事能推动更严格的审查机制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "被判刑的葬礼老板向受影响家属发出公开道歉信",
+          "summary": "罗伯特·布什就赫尔葬礼丑闻向受影响的家属发表了一封公开道歉信。此举发生在其因相关罪行被监禁之后，引发了家属的不满。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.bbc.co.uk/news/articles/c79gxqynwd3o?at_medium=RSS&at_campaign=rss",
+          "overview": "罗伯特·布什在因赫尔葬礼丑闻被监禁后，向受影响的家属发表了一封公开道歉信。然而，这一举动并未获得家属的谅解，反而引发了更大的愤怒。这反映了司法公正与道德责任之间的复杂关系。",
+          "analysis": "丑闻中的道歉往往被视为一种公关手段而非真诚悔过。受害者家庭对正义和道德责任的诉求依然强烈，法律制裁只是第一步。",
+          "social": [
+            {
+              "who": "社会活动家",
+              "text": "迟来的道歉无法弥补逝去的生命，家属们需要的是实质性的赔偿和真相。"
             }
           ]
         }
       ],
       "regions": [
-        "中国",
         "国外"
       ]
     },
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 AI 安全与对齐，回应开源项目中出现的潜在风险事件。",
-          "url": "https://www.anthropic.com/about/dario-amodei"
-        },
-        {
           "name": "Jeff Dean",
-          "role": "Google 前传奇研究员/新公司创始人",
+          "role": "AI 首席研究员/新公司创始人",
           "region": "美国",
           "domain": "ai",
-          "recent": "离开 Google 后创办新公司，致力于推动开放研究生态发展。",
-          "url": ""
-        },
-        {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "主导大模型迭代与 AI 安全治理框架的构建，回应行业竞争与安全争议。",
-          "url": "https://openai.com/about/sam-altman/"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "知名播客主持人/研究者",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "通过深度对话探讨 AGI 进展及其对社会伦理与媒体素养的影响。",
-          "url": "https://lexfridman.com/"
+          "recent": "离开Google创办新公司，聚焦AI前沿研究独立探索与商业化路径。",
+          "url": "linkedin.com/in/jdean"
         },
         {
           "name": "Elon Musk",
-          "role": "企业家/AI 项目推动者",
-          "region": "全球/美国",
+          "role": "xAI 创始人/CEO",
+          "region": "全球（总部美国）",
           "domain": "ai",
-          "recent": "探索 AI 驱动的知识库项目，但近期更新停滞引发外界关注。",
-          "url": "https://x.com/elonmusk"
+          "recent": "xAI推出Grokipedia等知识产品，关注AI替代维基百科的可行性及机器人行业政策。",
+          "url": "x.ai"
         },
         {
-          "name": "吴建中",
-          "role": "中国图书馆学会理事长",
+          "name": "Dr. Maria Tereza de Souza",
+          "role": "IFLA 国际图书馆协会联合会主席（2024-2026）",
+          "region": "全球",
+          "domain": "library",
+          "recent": "主持IFLA重建图书馆研讨会，关注灾后图书馆与博物馆恢复工作及行业韧性。",
+          "url": "ifla.org"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "AI 教育领袖/DeepLearning.AI 创始人",
+          "region": "美国（全球影响）",
+          "domain": "ai/podcast/library",
+          "recent": "推动AI教育普及，关注人工智能在图书馆与学术教育中的深度融合及媒体素养教学。",
+          "url": "andrewng.ai"
+        },
+        {
+          "name": "黄维平",
+          "role": "中国图书馆学会/智慧图书馆领域代表学者",
           "region": "中国",
           "domain": "library",
-          "recent": "推动智慧图书馆建设及“图领英才”等高级管理人才培养计划。",
+          "recent": "参与杭州智慧图书馆研讨会，关注高校智慧图书馆建设与移动阅读推广新模式。",
           "url": ""
         },
         {
-          "name": "Siva Vaidhyanathan",
-          "role": "媒体素养学者/作家",
+          "name": "Jenny Randles",
+          "role": "Meta AI 产品副总裁",
           "region": "美国",
-          "domain": "library",
-          "recent": "倡导媒体素养教育，引导公众在生成式 AI 叙事中保持理性认知。",
-          "url": "https://www.sivav.com/"
+          "domain": "ai",
+          "recent": "主导Meta Muse Code AI编程代理发布，关注AI辅助编程工具对开发者的影响。",
+          "url": "meta.com"
+        },
+        {
+          "name": "Sam Altman",
+          "role": "OpenAI CEO/播客主持人",
+          "region": "美国",
+          "domain": "ai/podcast",
+          "recent": "主持个人播客并领导OpenAI，关注AI政策监管、知识获取变革及行业生态。",
+          "url": "altman.ai"
         }
       ]
     },
