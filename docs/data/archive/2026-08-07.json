@@ -1,23 +1,51 @@
 {
-  "generated_at": "2026-08-07T21:34:19+08:00",
+  "generated_at": "2026-08-07T22:47:34+08:00",
   "date": "2026-08-07",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
-  "empty_sources": [],
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "empty_sources": [
+    "github"
+  ],
   "module_updated": {
-    "hot": "2026-08-07 21:34",
-    "ai": "2026-08-07 21:34",
-    "voices": "2026-08-07 21:34",
+    "hot": "2026-08-07 22:47",
+    "ai": "2026-08-07 22:47",
+    "voices": "2026-08-07 22:47",
     "github": "2026-08-07 20:33",
-    "libraries": "2026-08-07 21:34",
-    "sports": "2026-08-07 21:34",
+    "libraries": "2026-08-07 22:47",
+    "sports": "2026-08-07 22:47",
     "academic": "2026-08-07 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "字节跳动训练10万亿参数AI模型，剑指Anthropic",
+          "eng": "ByteDance trains massive AI model in bid to rival Anthropic",
+          "summary": "TikTok母公司字节跳动正在训练一个拥有10万亿参数的超大规模AI模型，规模远超当前主流大模型，旨在直接挑战Anthropic在前沿AI领域的领先地位。",
+          "source": "Ars Technica",
+          "region": "全球",
+          "published": "2026-08-07",
+          "tags": [
+            "大模型训练",
+            "字节跳动",
+            "Anthropic竞争"
+          ],
+          "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+          "overview": "字节跳动正秘密训练一个参数量达到10万亿的AI模型，这一规模是当前主流大模型的数十倍。此举标志着中国科技巨头在基础模型研发上的重大投入升级，目标直指Anthropic等美国AI公司。该消息由Ars Technica率先报道，引发业界对全球AI竞赛格局变化的广泛关注。",
+          "analysis": "10万亿参数意味着计算资源和训练成本的指数级增长，这不仅是技术能力的跃升，更是战略层面的全面对标。如果成功，将彻底改变中美AI竞争态势。值得关注的是，字节跳动此前在开源模型领域已有布局，此次大模型训练可能与其开源策略形成协同效应。",
+          "social": [
+            {
+              "who": "AI行业分析师",
+              "text": "10万亿参数如果属实，将是人类历史上最大的基础模型之一。这标志着中国AI公司从应用层向基础模型层的全面进军。"
+            },
+            {
+              "who": "投资人视角",
+              "text": "这种规模的训练需要数百亿美元级别的投入，字节跳动显然在为未来3-5年的AI竞争做长期布局。"
+            }
+          ]
+        },
         {
           "title_zh": "新墨西哥法院裁定Meta额外支付5.67亿美元儿童安全罚款",
           "eng": "New Mexico court orders Meta to pay additional $567M in child safety case",
@@ -64,6 +92,32 @@
             {
               "who": "社会活动家",
               "text": "青少年心理健康问题与社交媒体使用之间的关联需要更多研究和关注。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Z世代约会应用弃用滑动匹配，转向AI配对系统",
+          "eng": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+          "summary": "以Ditto为代表的Z世代约会应用彻底放弃传统的左右滑动匹配模式，转而采用AI驱动的智能配对算法。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-08-06",
+          "tags": [
+            "AI社交",
+            "约会应用",
+            "Z世代"
+          ],
+          "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+          "overview": "以Ditto为代表的新一代约会应用正在彻底颠覆传统模式，放弃左右滑动匹配机制，转而采用AI驱动的智能配对算法。这一代20多岁的用户已对基于滑动的约会应用深感失望，愿意尝试任何替代方案——包括AI匹配器。",
+          "analysis": "这反映了Z世代对传统社交模式的深度不满和主动求变态度。AI匹配不仅是一种技术升级，更代表了约会文化从\"数量驱动\"向\"质量驱动\"的范式转变。但AI匹配的准确性、隐私保护和算法偏见等问题仍需行业认真对待。",
+          "social": [
+            {
+              "who": "社会学研究者",
+              "text": "Z世代对传统约会模式的集体反叛，可能预示着亲密关系建立方式的代际变革正在发生。"
+            },
+            {
+              "who": "产品经理视角",
+              "text": "AI匹配是差异化竞争的有效手段，但核心挑战在于如何让用户感知到匹配质量的提升而非仅仅是技术噱头。"
             }
           ]
         },
@@ -743,58 +797,6 @@
               "text": "在 Claude Code 和 Cursor 等竞品已经占据市场的情况下，Meta 需要证明其 AI Agent 在处理复杂代码库时的独特价值主张。"
             }
           ]
-        },
-        {
-          "title_zh": "Hank Green 发现 YouTube 标签无法捕捉的 AI 问题",
-          "eng": "Hank Green found the AI problem that YouTube labels can’t catch",
-          "summary": "YouTuber Hank Green 指出，除了 AI 生成的低质量内容（Slop）之外，YouTube 的内容标签系统还存在其他难以检测的 AI 生成问题。",
-          "source": "Ars Technica",
-          "region": "全球",
-          "published": "2026-08-05",
-          "tags": [
-            "AI 内容",
-            "YouTube",
-            "创作者经济"
-          ],
-          "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-          "overview": "YouTuber Hank Green 发现 YouTube 的内容标签系统无法有效识别所有 AI 生成的问题，除了显而易见的低质量内容外，还存在更隐蔽的 AI 生成痕迹。这一发现引发了关于平台如何平衡内容审核与创作者自由的广泛讨论。",
-          "analysis": "随着 AI 生成内容的泛滥，传统的标签和分类机制正面临失效的风险。平台需要开发更智能的检测技术，同时避免对合法创作者造成误伤，这对整个内容生态的可持续性至关重要。",
-          "social": [
-            {
-              "who": "内容创作者",
-              "text": "YouTube 的标签系统如果无法有效区分 AI 生成内容，将严重影响观众的信任度，我们需要更透明的标注机制来保护原创者权益。"
-            },
-            {
-              "who": "平台治理专家",
-              "text": "AI 生成的隐蔽性正在挑战现有的内容审核框架，单纯的标签分类已不足以应对日益复杂的生成式内容生态。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Uber CEO 否认 Waymo 合作破裂传闻",
-          "eng": "Uber CEO brushes off reports of a Waymo break-up",
-          "summary": "Uber CEO Dara Khosrowshahi 表示，尽管此前在凤凰城结束了合作，Uber 与 Waymo 在亚特兰大和奥斯汀的合作关系依然非常稳固。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-08-05",
-          "tags": [
-            "自动驾驶",
-            "Uber",
-            "Waymo"
-          ],
-          "url": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
-          "overview": "Uber CEO Dara Khosrowshahi 在财报电话会议上回应了关于 Waymo 合作破裂的传闻，强调两家公司在亚特兰大和奥斯汀的合作依然非常强劲。此前双方曾在凤凰城结束合作，但此次声明表明自动驾驶领域的竞争格局仍在动态调整中。",
-          "analysis": "Uber 与 Waymo 的合作关系反映了自动驾驶行业从'单打独斗'向'战略合作'转变的趋势。尽管面临技术挑战和监管压力，双方仍致力于通过合作推动商业化落地。",
-          "social": [
-            {
-              "who": "自动驾驶分析师",
-              "text": "Uber 和 Waymo 的合作关系表明，即使是竞争对手也在寻求在特定市场实现互补，这对整个行业的竞争格局产生了深远影响。"
-            },
-            {
-              "who": "科技投资人",
-              "text": "Waymo 作为自动驾驶领域的标杆企业，其与 Uber 的持续合作意味着该技术在商业化道路上仍面临诸多挑战，需要更多合作伙伴的支持。"
-            }
-          ]
         }
       ]
     },
@@ -1228,171 +1230,154 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼城拒绝巴萨3800万英镑罗德里报价，仍在洽谈引进卢顿中场布阿迪",
-          "eng": "Man City reject Barcelona's Rodri bid & in talks for Bouaddi",
-          "summary": "曼城拒绝了巴塞罗那提出的3800万英镑罗德里转会报价，同时继续与里尔中场球员布阿迪保持谈判。",
-          "source": "BBC Sport",
+          "title_zh": "挪威要求因凡蒂诺辞职，墨西哥与阿根廷力挺国际足联主席",
+          "eng": "Norway call for Infantino to resign as Mexico and Argentina back president",
+          "summary": "世界足球治理危机持续加深。挪威足协公开要求国际足联主席因凡蒂诺立即辞职，而墨西哥和阿根廷则打破地区联盟立场，公开支持因凡蒂诺留任，导致全球足球阵营严重分裂。",
+          "source": "BBC Football",
           "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/sport/articles/clyj1rgdnpxo?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在夏季转会窗口期间拒绝了巴塞罗那提出的3800万英镑罗德里转会报价，显示出俱乐部对核心球员留队的坚定态度。与此同时，球队仍在与里尔中场球员阿尤布·布阿迪保持谈判，试图加强中场阵容深度。这一系列操作表明曼城在留住现有骨干和引进新援之间寻求平衡。",
-          "analysis": "曼城在留住罗德里和引进新援之间寻求平衡，反映出俱乐部对中场控制的重视。布阿迪的引进可能旨在为球队提供更具攻击性的中场选项，以应对英超竞争。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
+          "overview": "挪威足球联合会率先要求国际足联主席因凡蒂诺辞职，理由是其试图将世界杯权益出售给私人投资者的行为严重损害了信任。与此同时，墨西哥和阿根廷足协打破了中北美及加勒比足联（Concacaf）的统一立场，公开支持因凡蒂诺，进一步加剧了世界足球的阵营对立。挪威方面表示对因凡蒂诺已无信任可言，认为没有回头路可走。",
+          "analysis": "这场围绕因凡蒂诺的权力斗争已从单纯的治理争议演变为全球足球的政治分裂。墨西哥和阿根廷的倒戈表明，世界杯出售丑闻的影响正在重塑各大洲足联之间的联盟关系，未来国际足联的改革能否获得广泛支持将取决于这种内部分裂何时弥合。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "罗德里是曼城的灵魂人物，3800万英镑的报价确实偏低，拒绝是正确的决定。"
+              "text": "因凡蒂诺的世界杯出售计划彻底摧毁了足球界的信任基石，挪威和墨西哥阿根廷的对立只是冰山一角。"
             },
-            {
-              "who": "转会分析师",
-              "text": "布阿迪作为里尔的中场新星，如果加盟曼城将极大丰富球队的中场厚度。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "纽卡斯尔主帅威尔逊透露：队长古伊萨雷斯曾渴望加盟阿森纳",
-          "eng": "Emotional Guimaraes wanted to join Arsenal - Wilson",
-          "summary": "纽卡斯尔体育总监罗斯·威尔逊表示，球队本无意出售布鲁诺·古伊萨雷斯，但这位“非常感性”的队长本人希望转会至阿森纳。",
-          "source": "BBC Sport",
-          "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c0m7knennd3o?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联体育总监罗斯·威尔逊透露，球队本无意出售队长布鲁诺·古伊萨雷斯。然而，这位“非常感性”的队长本人表达了强烈的加盟阿森纳的愿望，使得转会局势变得复杂。这一消息在英超转会市场上引起了广泛关注。",
-          "analysis": "球员个人意愿与俱乐部计划之间的冲突是转会市场常见的难题。纽卡斯尔需要在尊重球员情感与维护球队稳定之间做出抉择，这可能会影响未来的引援策略。",
-          "social": [
-            {
-              "who": "英超解说员",
-              "text": "古伊萨雷斯作为纽卡的队长，他的去留对球队士气至关重要。"
-            },
-            {
-              "who": "阿森纳球迷",
-              "text": "如果他能来，那将是阿森纳中场的一大补强，但纽卡不会轻易放人。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "维尼修斯续约皇马至2032年，阿森纳引援希望落空",
-          "eng": "'This is where I belong': Katelyn Ohashi's Olympic comeback is fueled by joy, not redemption",
-          "summary": "巴西国脚维尼修斯·儒尼奥尔与皇家马德里达成六年新合同，将效力至2032年。此前阿森纳曾被视为其主要潜在下家，但球员本人表示“八年在伯纳乌太少了”。",
-          "source": "Guardian Sport",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/football/2026/aug/06/arsenal-hopes-dashed-after-vinicius-junior-extends-real-madrid-contract-to-2032",
-          "overview": "巴西国脚维尼修斯·儒尼奥尔已与皇家马德里达成六年新合同，将效力至2032年，结束了夏季关于其未来的猜测。此前阿森纳曾被视为其主要潜在下家，但球员本人表示“八年在伯纳乌太少了”。皇马在穆里尼奥到来后的动荡赛季中未能赢得任何奖杯，这也影响了谈判背景。",
-          "analysis": "维尼修斯的续约稳定了皇马的核心阵容，但也意味着阿森纳在夏季转会窗口的引援计划受挫。球员对长期留队的态度表明他对俱乐部的忠诚度依然很高，这对其他追求他的球队来说是一个打击。",
-          "social": [
-            {
-              "who": "足球记者",
-              "text": "维尼修斯的续约是皇马在动荡赛季后的一个积极信号，尽管他们未能赢得任何奖杯。"
-            },
-            {
-              "who": "阿森纳球迷",
-              "text": "阿森纳的引援计划再次受挫，我们需要寻找其他解决方案来加强阵容。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "挪威足协呼吁国际足联主席因凡蒂诺辞职，两国支持其留任",
-          "eng": "Norway call on Infantino to resign but two countries back Fifa president",
-          "summary": "挪威足球协会要求国际足联主席因凡蒂诺辞职，起因是他试图出售世界杯相关股份。目前仍有两个国家支持因凡蒂诺继续任职。",
-          "source": "BBC Sport",
-          "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
-          "overview": "挪威足球协会要求国际足联主席因凡蒂诺辞职，起因是他试图出售世界杯相关股份。目前仍有两个国家支持因凡蒂诺继续任职，显示出国际足坛对此事的分歧。这一事件凸显了国际足联在商业利益与体育治理之间的紧张关系。",
-          "analysis": "挪威的施压可能引发更多国家的效仿，对因凡蒂诺的领导地位构成挑战。国际足联需要在透明度和效率之间找到平衡，以避免进一步的信任危机。",
-          "social": [
             {
               "who": "足球评论员",
-              "text": "因凡蒂诺的商业决策引发了争议，但他在推动世界杯发展方面也有贡献。"
-            },
-            {
-              "who": "国际足联支持者",
-              "text": "挪威的施压可能会影响世界杯的未来规划，我们需要谨慎对待这一决定。"
+              "text": "如果国际足联无法解决治理危机，欧足联的抵制运动可能会让全球赛事体系陷入瘫痪。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "英格兰前锋托尼因去年12月事件被控袭击罪",
-          "eng": "England forward Toney charged with assault",
-          "summary": "曾入选今年夏天世界杯阵容的英格兰前锋伊万·托尼，因去年12月发生的一起事件被正式指控犯有袭击罪。",
-          "source": "BBC Sport",
+          "title_zh": "英格兰前锋汤尼因索霍夜店事件被控袭击罪",
+          "eng": "England striker Ivan Toney charged with assault after Soho nightclub incident",
+          "summary": "30岁的英格兰国脚汤尼在伦敦索霍区一家夜店涉嫌袭击他人后，于7月31日被正式指控犯有实际身体伤害罪，将于9月在威斯敏斯特治安法院出庭受审。",
+          "source": "Guardian Football",
           "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9nz7qwyqo?at_medium=RSS&at_campaign=rss",
-          "overview": "曾入选今年夏天世界杯阵容的英格兰前锋伊万·托尼，因去年12月发生的一起事件被正式指控犯有袭击罪。这一消息在体育界引起了广泛关注，涉及到球员场外行为与国家队形象的关联。对于英格兰队来说，如何处理此类球员将是未来的一大挑战。",
-          "analysis": "托尼的事件再次引发了关于职业运动员场外行为的讨论。对于英格兰队来说，如何在保持竞技水平的同时管理球员的行为，是一个需要深思的问题。",
+          "url": "https://www.theguardian.com/uk-news/2026/aug/07/england-striker-ivan-toney-charged-with-assault-after-soho-nightclub-incident",
+          "overview": "英格兰足球运动员汤尼在2025年12月于伦敦索霍区一家夜店涉嫌实施袭击，苏格兰场于7月31日正式对其提出实际身体伤害罪指控。汤尼目前效力于沙特职业联赛的阿尔阿赫利俱乐部，将于9月24日在威斯敏斯特治安法院出庭。",
+          "analysis": "汤尼事件再次引发了关于足球运动员场外行为的讨论，尤其是在他身披英格兰国家队战袍期间发生的法律纠纷。此案若成立，将对其职业生涯和国家队未来入选产生重大影响。",
           "social": [
             {
-              "who": "国家队教练",
-              "text": "球员的场外行为必须受到约束，否则会影响整个国家队的声誉。"
+              "who": "体育记者",
+              "text": "汤尼在沙特联赛的表现与他在国内的丑闻形成了鲜明对比，法律程序即将开始。"
             },
             {
-              "who": "球迷代表",
-              "text": "托尼的指控令人失望，我们需要看到他在法律面前的公正审判。"
+              "who": "球迷",
+              "text": "英格兰队需要面对球员场外行为的现实，这不应成为国家队选拔的障碍。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "NFL季前赛揭幕战：海鹰队新秀四分卫率队逆转击败红雀队",
+          "title_zh": "非洲足联因赛事周期调整放弃价值超十亿美元的交易",
+          "eng": "Afcon's biennial switch cost African governing body deal worth more than $1bn",
+          "summary": "非洲足球联合会（Caf）将非洲杯从两年一届改为四年一届，导致放弃了与商业伙伴签署的至少十亿美元的长期收入协议，这一决策对非洲足球财政造成了巨大冲击。",
+          "source": "Guardian Football",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/football/2026/aug/07/afcons-biennial-switch-cost-african-governing-body-deal-worth-more-than-1bn",
+          "overview": "非洲足球联合会（Caf）决定将非洲杯从两年一届改为四年一届，这一重大调整直接导致其放弃了与商业伙伴签署的至少十亿美元的长期收入协议。自2019年以来，Caf未能达成新的长期财务交易，此次变更进一步加剧了非洲足球的经济困境。",
+          "analysis": "这一决策反映了非洲足联在国际足联治理危机背景下的战略失误，四年一届的周期虽然减少了赛事频率，但牺牲了巨大的商业价值。这可能会影响非洲足球的整体发展水平和球员收入。",
+          "social": [
+            {
+              "who": "非洲足球分析师",
+              "text": "失去十亿美元的交易对非洲足球是沉重打击，需要寻找新的商业模式来弥补财政缺口。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "Caf的决策失误表明其在商业谈判中缺乏远见，这可能会影响未来世界杯申办的前景。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "海恩斯·金末节绝杀助黑豹逆转卡迪纳尔，NFL季前赛开门红",
           "eng": "Panthers rally past Cardinals behind undrafted rookie QB in NFL preseason opener",
-          "summary": "未经选秀的新秀四分卫海恩斯·金在最后一攻中完成达阵，帮助卡罗来纳黑豹队在33-30的逆转胜利中击败亚利桑那红雀队。这是2026年NFL季前赛的揭幕战。",
+          "summary": "2026年NFL季前赛揭幕战在名人堂比赛举行，卡罗来纳黑豹队凭借新秀四分卫海恩斯·金的最后时刻达阵跑动，以33-30逆转击败亚利桑那卡迪纳尔队。这位未被选秀的菜鸟球员展现了惊人的终结能力。",
           "source": "Guardian Sport",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/sport/2026/aug/07/haynes-king-panthers-cardinals-hall-of-fame-game",
-          "overview": "未经选秀的新秀四分卫海恩斯·金在最后一攻中完成达阵，帮助卡罗来纳黑豹队在33-30的逆转胜利中击败亚利桑那红雀队。这是2026年NFL季前赛的揭幕战，比赛在名人堂球场举行。红雀队的卡森·贝克也在首秀中表现出色，给观众留下了深刻印象。",
-          "analysis": "海恩斯·金的出色表现证明了他作为新秀四分卫的潜力，可能改变黑豹队的未来选秀策略。这场逆转胜利为季前赛增添了不少戏剧性，也展示了NFL的竞技魅力。",
-          "social": [
-            {
-              "who": "NFL分析师",
-              "text": "海恩斯·金的表现令人惊喜，他可能是下一位被高估新秀中的黑马。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这场揭幕战充满了悬念，黑豹队的逆转胜利为整个赛季开了个好头。"
-            }
-          ],
+          "overview": "NFL 2026赛季季前赛以名人堂比赛拉开帷幕，卡罗来纳黑豹队在新秀四分卫海恩斯·金的带领下完成逆转。这位未被选秀的年轻球员在最后时刻从五码线跑入达阵得分，帮助球队33-30战胜亚利桑那卡迪纳尔队。同时，亚利桑那队的卡森·贝克也在首秀中表现出色。",
+          "analysis": "作为NFL新赛季的序幕，这场逆转凸显了季前赛的不确定性。黑豹队选择启用未进入选秀的新秀四分卫，其表现令人意外，也为即将到来的常规赛增添了看点。",
           "region": "综合"
         },
         {
-          "title_zh": "环法自行车赛女子版第七赛段：蒙维杜山终点线逼近，最艰难赛程即将上演",
+          "title_zh": "'这是我的归属'：Katelyn Ohashi 以纯粹的快乐驱动奥运回归之路",
+          "eng": "'This is where I belong': Katelyn Ohashi's Olympic comeback is fueled by joy, not redemption",
+          "summary": "离开精英体操赛场十年后，UCLA明星运动员凯特琳·奥哈西正以自己的节奏追逐洛杉矶2028奥运会参赛资格。她每天坚持训练四小时，同时兼顾育儿和爱好，展现出对运动的热爱而非救赎心态。",
+          "source": "Guardian Sport",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/sport/2026/aug/07/katelyn-ohashi-olympic-comeback-la-2028-gymnastics",
+          "overview": "体操明星凯特琳·奥哈西在离开精英赛场十年后，以全新的生活节奏重返训练场。她每天制作健康饮品、遛狗、驾车前往健身房，每周训练四天约四小时，同时兼顾各种爱好。她的回归并非为了救赎，而是源于对运动的纯粹热爱。",
+          "analysis": "奥哈西的故事代表了新一代运动员的价值观转变——不再为荣誉而战，而是享受运动本身。她的回归有望激励更多年轻体操选手勇敢追梦，重新定义竞技体育的精神内涵。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "2026环法女子赛：蒙维杜山终点线逼近，最艰难赛段即将上演",
           "eng": "Tour de France Femmes 2026: Mont Ventoux finish looms on toughest stage – live",
-          "summary": "2026年环法自行车赛女子版进入第七赛段，车手们正冲向标志性的蒙维杜山终点。科雷瓦尔的突围未能成功，大集团重新汇合后开始爬坡。",
+          "summary": "第六赛段进入最后114公里，车手们正冲向著名的蒙维杜山终点。科雷瓦尔的突围未能持久，车群在平路阶段率先发起实质攻击，比赛悬念迭起。",
           "source": "Guardian Sport",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/sport/live/2026/aug/07/tour-de-france-femmes-2026-stage-seven-mont-ventoux-finish-live",
-          "overview": "2026年环法自行车赛女子版进入第七赛段，车手们正冲向标志性的蒙维杜山终点。科雷瓦尔的突围未能成功，大集团重新汇合后开始爬坡。比赛还剩114公里，车手们在平路段和科隆比耶爬坡处展开了实质性的攻击，预示着终点前的混战。",
-          "analysis": "蒙维杜山是环法自行车赛中最具挑战性的赛道之一，这一赛段的竞争将非常激烈。科雷瓦尔的突围未能改变大集团的节奏，这表明车手们需要全力以赴才能在这场硬仗中取得胜利。",
-          "social": [
-            {
-              "who": "自行车爱好者",
-              "text": "蒙维杜山是环法的经典赛道，这一赛段的竞争将非常激烈。"
-            },
-            {
-              "who": "赛事解说员",
-              "text": "车手们在平路段和爬坡处的攻击令人兴奋，我们期待看到精彩的冲刺。"
-            }
-          ],
+          "overview": "2026环法女子赛第六赛段进入最后冲刺阶段，车手们正冲向标志性的蒙维杜山终点。荷兰选手科雷瓦尔在平路阶段率先突围领先约15秒，但未能维持优势。车群随后在科隆比耶爬坡路段展开激烈争夺，比赛悬念不断升级。",
+          "analysis": "蒙维杜山作为环法女子赛的标志性挑战，其陡峭的坡度和独特的风景总是能制造戏剧性场面。这一赛段被视为整个赛事中最考验车手体能和心理素质的时刻，观众将见证历史性的对决。",
           "region": "综合"
         },
         {
-          "title_zh": "英国棋王亚当斯自1988年以来首次在英国锦标赛中失利，败给18岁新星",
+          "title_zh": "墨西哥与阿根廷力挺因凡蒂诺，足球界内战进一步加深",
+          "eng": "Mexico and Argentina line up behind Infantino to deepen football's civil war",
+          "summary": "墨西哥足协打破中北美足联（Concacaf）立场，公开支持国际足联主席因凡蒂诺，此举加剧了全球足球治理危机。Concacaf此前呼吁全面审查国际足联的管理问题，并支持欧足联的改革要求。",
+          "source": "Guardian Sport",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/football/2026/aug/07/mexico-argentina-gianni-infantino-deepen-football-civil-war-fifa",
+          "overview": "墨西哥足球联合会打破中北美足联（Concacaf）的统一立场，公开支持国际足联主席因凡蒂诺。这一举动发生在世界杯丑闻引发全球治理危机的背景下，Concacaf此前呼吁全面审查国际足联的管理问题，并支持欧足联的改革要求。阿根廷也加入支持行列。",
+          "analysis": "这一分裂标志着足球世界在世界杯丑闻后陷入更深的政治博弈。墨西哥的选择可能影响中北美地区的未来发展方向，同时也为2026年世界杯的组织带来不确定性。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "亚当斯自1988年以来首次在英国锦标赛中失利，败于新星之手",
           "eng": "Chess: Adams loses first British Championship game since 1988 to rising star",
-          "summary": "54岁的塔顿特级大师迈克尔·亚当斯在第九次争夺英国冠军头衔的比赛中，于第四轮被18岁的乌克兰天才巴扎库察击败。这是亚当斯自1988年以来的首场锦标赛失利。",
+          "summary": "54岁的英国国际象棋大师迈克尔·亚当斯在连续87场不败后遭遇终结，他在第四轮比赛中因残局劣势认输，对手是年仅18岁的乌克兰天才选手巴扎库察。这场胜利打破了亚当斯追求第十个冠军头衔的梦想。",
           "source": "Guardian Sport",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/sport/2026/aug/07/chess-adams-loses-first-british-championship-game-since-1988-to-rising-star",
-          "overview": "54岁的塔顿特级大师迈克尔·亚当斯在第九次争夺英国冠军头衔的比赛中，于第四轮被18岁的乌克兰天才巴扎库察击败。这是亚当斯自1988年以来的首场锦标赛失利，他在60步后因丢失车残局而认输。此前他已连续87场比赛不败，期间赢得了所有九个冠军头衔。",
-          "analysis": "巴扎库察的胜利标志着英国棋坛新一代力量的崛起，打破了亚当斯的长期统治。这一结果对亚当斯冲击第十个英国冠军头衔的计划产生了重大影响，也预示着英国棋坛的未来充满希望。",
-          "social": [
-            {
-              "who": "国际象棋评论员",
-              "text": "巴扎库察的胜利是英国棋坛的一个里程碑，他展现了非凡的天赋和潜力。"
-            },
-            {
-              "who": "资深棋手",
-              "text": "亚当斯的失利令人意外，但这也是竞技体育的魅力所在，年轻一代正在崛起。"
-            }
-          ],
+          "overview": "英国国际象棋大师迈克尔·亚当斯在连续87场不败的辉煌纪录后，于第四轮比赛中遭遇终结。他在残局阶段因劣势认输，对手是年仅18岁的乌克兰天才选手巴扎库察。这场失利打破了亚当斯追求第十个英国冠军头衔的梦想，标志着新一代棋手的崛起。",
+          "analysis": "亚当斯的失败不仅是个人职业生涯的转折点，也象征着新一代棋手的崛起。年轻选手巴扎库察的胜利证明了国际象棋领域正在经历代际更替，为这项传统运动注入了新的活力和期待。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "诺里在蒙特利尔挽救赛点逆转德米纳尔，加拿大公开赛上演精彩反击",
+          "eng": "Norrie saves match point in superb Montreal fightback",
+          "summary": "英国选手卡梅隆·诺里在加拿大公开赛中面对世界第七号种子亚历克斯·德米纳尔时挽救了一个赛点，最终以出色的表现赢得比赛。这场胜利展现了诺里的韧性和竞技状态。",
+          "source": "BBC Tennis",
+          "published": "2026-08-07",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr7kl7jxv59o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国网球选手卡梅隆·诺里在加拿大公开赛中面对世界第七号种子亚历克斯·德米纳尔时，上演了一场令人惊叹的逆转好戏。他在比赛中挽救了一个赛点，最终以出色的表现赢得胜利，展现了顽强的竞技精神和卓越的技战术水平。",
+          "analysis": "诺里作为英国网球的重要代表人物，他的逆转胜利不仅提升了个人排名信心，也为英国网球的国际竞争力注入了动力。面对顶级对手的顽强拼搏精神值得肯定，这场比赛将成为加拿大公开赛的经典回忆。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "阿尔卡拉斯因手腕伤势退出辛辛那提公开赛，赛季前景蒙上阴影",
+          "eng": "Alcaraz out of Cincinnati Open with lingering injury",
+          "summary": "西班牙网球巨星卡洛斯·阿尔卡拉斯因持续的手腕伤势宣布退出辛辛那提公开赛，这是他在2026年赛季中又一次重大缺席。此前他已因伤错过了多场重要赛事，恢复进程令人担忧。",
+          "source": "BBC Tennis",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c20e1723pdno?at_medium=RSS&at_campaign=rss",
+          "overview": "西班牙网球巨星卡洛斯·阿尔卡拉斯因持续的手腕伤势宣布退出辛辛那提公开赛，这是他在2026年赛季中的又一次重大缺席。此前他已因伤错过了多场重要赛事，恢复进程令人担忧。BBC Sport分析了手腕伤势对顶尖球员的影响以及为何这类伤病难以管理。",
+          "analysis": "手腕伤势对顶尖球员的影响深远且难以治愈，阿尔卡拉斯的连续缺赛可能影响其全年排名和状态调整。这一事件再次引发了关于职业网球运动员伤病管理的讨论，也令球迷们对他的赛季前景感到担忧。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "德雷珀在加拿大公开赛首轮出局时泪流满面，长期伤后复出之路充满坎坷",
+          "eng": "Tearful Draper struggles during comeback defeat",
+          "summary": "英国选手杰克·德雷珀在经历长期伤病困扰后重返赛场，却在加拿大公开赛第一轮比赛中遭遇失利并情绪崩溃。这场失败凸显了他恢复过程中的艰难与挑战。",
+          "source": "BBC Tennis",
+          "published": "2026-08-04",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cgljg3g7y2eo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国网球选手杰克·德雷珀在经历长期伤病困扰后重返赛场，却在加拿大公开赛第一轮比赛中遭遇失利。他在比赛进行到一半时泪流满面，情绪崩溃，这场失败凸显了他恢复过程中的艰难与挑战。尽管遭遇挫折，他的复出之路依然展现了不屈的斗志。",
+          "analysis": "德雷珀的泪水反映了职业运动员面对伤病和压力时的脆弱一面。他的复出之路虽然充满波折，但依然展现了不屈的斗志，值得球迷们的关注和支持。这场比赛也提醒我们，职业体育不仅是竞技，更是心理与身体的双重考验。",
           "region": "综合"
         }
       ],
@@ -1530,104 +1515,199 @@
     "hot": {
       "items": [
         {
-          "title_zh": "学者呼吁对剑桥大学Jason Arday任命进行独立调查",
-          "summary": "教授Priyamvada Gopal等学者要求剑桥大学不应“自己批改作业”，应启动独立调查程序。",
-          "source": "BBC News",
+          "title_zh": "刚果（金）埃博拉疫情爆发，病毒或正在变异",
+          "summary": "刚果民主共和国埃博拉确诊病例已超4000例，卫生官员警告病毒可能正在发生变异。非盟公共卫生监管机构宣布将全面升级应对措施，并计划挨家挨户寻找患者。",
+          "source": "Guardian World",
           "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/news/articles/c05q0nznq24o?at_medium=RSS&at_campaign=rss",
-          "overview": "剑桥大学近期任命引发学术界广泛争议，多位教授联名呼吁启动独立调查。参与联名的Priyamvada Gopal教授指出，学校不应在涉及自身利益时自行裁决，必须引入外部监督以确保公正性。该事件反映了英国高等教育界对学术自由与行政权力边界的持续关切。",
-          "analysis": "此次争议的核心在于任命程序的透明度和独立性。若调查证实存在违规操作，可能影响剑桥大学的国际声誉及招生吸引力。学术界集体发声显示了对制度改革的强烈诉求。",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
+          "overview": "刚果民主共和国正经历一场大规模的埃博拉疫情，确诊病例数已突破4000例。非洲公共卫生监管机构表示渐进式行动已无意义，宣布将全面升级响应措施，包括挨家挨户排查患者。官员们担心导致此次疫情的病毒可能正在发生变异，增加了防控难度。",
+          "analysis": "疫情规模之大及潜在的病毒变异风险引发了国际社会的广泛关注。非盟机构的果断升级决策表明全球卫生安全形势严峻，后续疫苗和药物供应将是关键挑战。",
           "social": [
             {
-              "who": "教育评论员",
-              "text": "高校人事任免应接受公众监督，否则将损害学术公信力。"
+              "who": "非洲疾控中心",
+              "text": "呼吁各国停止渐进式行动，全面动员资源应对变异风险。"
             }
           ]
         },
         {
-          "title_zh": "主导PC Harper案调查的警官表示凶手可能提前获释令人震惊",
-          "summary": "前高级督察Stuart Blaik首次公开分享其对案件的看法，对凶手可能被提前释放表示震惊。",
+          "title_zh": "美国关闭五处领事馆，担忧中国填补外交真空",
+          "summary": "美国国务院通知国会将在加拿大、日本等五国关闭领事馆，批评者担心此举将为中国留下外交真空地带。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-05",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
+          "overview": "美国国务院正式通知国会，计划在加拿大、格林纳达、日本、印度尼西亚和喀麦隆关闭五处领事馆及使团。此举被官方以成本削减为由解释，但外界批评认为这将在亚洲、非洲和加勒比地区制造外交真空，可能由中国填补。",
+          "analysis": "这一决定不仅涉及美国的外交收缩战略，更引发了关于大国博弈格局变化的深层讨论。中国是否趁机扩大在相关国家的影响力成为各方关注的焦点。",
+          "social": [
+            {
+              "who": "国际关系专家",
+              "text": "认为这是美国外交政策转向的信号，可能重塑地区力量平衡。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美取消海地TPS保护，数十万移民面临遣返风险",
+          "summary": "美国内政部正式撤销海地人的临时保护身份（TPS），数万名海地人面临被逮捕和遣返的紧迫威胁。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration",
+          "overview": "美国内政部宣布正式取消海地人的临时保护身份（TPS），这意味着数十万在海地合法居住和工作的移民将失去法律保护。尽管面临海地国内暴力与政治动荡的威胁，这些移民仍可能被迫返回祖国。联邦法官已确认这一行政命令。",
+          "analysis": "此举加剧了美国移民政策的争议性，引发人道主义危机担忧。海地国内的治安状况使得遣返行动充满风险，人权组织对此表示强烈谴责。",
+          "social": [
+            {
+              "who": "美国联邦法官",
+              "text": "已确认行政命令的合法性，但案件后续可能面临法律挑战。"
+            }
+          ]
+        },
+        {
+          "title_zh": "尼日利亚安全部队单日解救超300名人质创纪录",
+          "summary": "尼日利亚军方、警察和反恐部门联合行动，在凯吉湖国家公园森林中解救了超过300名被绑架者。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
+          "overview": "尼日利亚安全部队在凯吉湖国家公园的茂密森林中成功解救了超过300名被武装分子绑架的人质。总统博拉·蒂努布将此行动誉为该国历史上单日最大规模的人质救援行动，标志着反恐战事的重大进展。",
+          "analysis": "此次大规模联合营救展示了尼日利亚在应对恐怖主义方面的决心和能力提升。然而，该地区的安全形势依然复杂，后续如何防止类似事件再次发生仍是关键课题。",
+          "social": [
+            {
+              "who": "尼日利亚总统办公室",
+              "text": "高度赞扬了此次行动，称其为国家安全工作的里程碑。"
+            }
+          ]
+        },
+        {
+          "title_zh": "塞维塔灾难引发关注，特朗普对摩洛哥影响力受审视",
+          "summary": "西班牙领土塞维塔发生大规模移民涌入事件后，华盛顿与拉巴特的关系受到质疑，特朗普的调解角色成为焦点。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/world/2026/aug/06/trump-influence-morocco-spotlight-ceuta-border-disaster",
+          "overview": "西班牙领土塞维塔遭遇大规模移民涌入的灾难性事件，引发了对摩洛哥与西班牙边境管控能力的质疑。特朗普此前与摩洛哥国王穆罕默德六世的密切关系再次成为焦点，外界担忧美国的影响力可能间接助长了这一危机。",
+          "analysis": "塞维塔事件不仅暴露了欧洲南部边境管理的脆弱性，更将美非外交关系置于聚光灯下。摩洛哥作为非洲首个加入特朗普和平委员会的国家，其角色备受审视。",
+          "social": [
+            {
+              "who": "西班牙政府",
+              "text": "正全力应对塞维塔地区的紧急人道主义危机和基础设施压力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国连环性侵犯被判双重谋杀及强奸罪成立",
+          "summary": "此前由伦敦大都会警察监控的连环性侵犯西蒙·利维，被裁定犯有双重谋杀和强奸罪。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.bbc.co.uk/news/articles/ceqe1nzqgg4o?at_medium=RSS&at_campaign=rss",
+          "overview": "西蒙·利维是一名此前由伦敦大都会警察监控的连环性侵犯，现已被裁定犯有双重谋杀和强奸罪。这一判决引发了公众对性犯罪者监管机制有效性的讨论，特别是关于警方监控措施是否足以防止此类悲剧再次发生。",
+          "analysis": "此案凸显了英国在打击严重性犯罪方面的司法进展，同时也暴露了监控系统在面对高智商罪犯时的局限性。受害者家属和社会呼吁加强立法以保护弱势群体。",
+          "social": [
+            {
+              "who": "BBC记者",
+              "text": "报道指出警方此前已对嫌疑人进行监控，但未能阻止悲剧发生。"
+            }
+          ]
+        },
+        {
+          "title_zh": "主导哈珀警探案调查的警官表示凶手可能获释令其震惊",
+          "summary": "曾领导哈珀警探死亡案调查的前高级督察公开表达了他对案件进展的看法，称凶手可能被提前释放令人震惊。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.bbc.co.uk/news/articles/c9q9erpz953o?at_medium=RSS&at_campaign=rss",
-          "overview": "此前主导警察Harper遇害案调查的前高级督察Stuart Blaik罕见公开表态，表达了对案件进展的不满。他特别指出凶手面临被提前释放的风险，认为这严重违背了司法正义原则。这是该案调查负责人首次就具体判决走向发表个人意见。",
-          "analysis": "警方高层对判决结果的质疑可能引发公众对量刑标准的讨论。此案涉及警察执法安全，社会关注度极高，后续法律程序的公正性将成为焦点。",
+          "overview": "前高级督察斯图尔特·布莱克首次公开分享了他对哈珀警探死亡案的看法，表达了对凶手可能被提前释放的震惊。这一案件涉及一名警察在调查过程中被杀，引发了公众对司法公正和执法安全的广泛关注。",
+          "analysis": "此案反映了英国社会对警察安全和司法系统透明度的深层关切。前调查领导人的公开表态为案件增添了新的舆论维度，可能推动进一步的独立审查。",
           "social": [
             {
-              "who": "法律分析师",
-              "text": "执法者遇害案的量刑需格外慎重，提前释放凶手将严重打击公众安全感。"
+              "who": "公众舆论",
+              "text": "对凶手可能被释放表示强烈不满，呼吁加强执法保护。"
             }
           ]
         },
         {
-          "title_zh": "英格兰足球运动员Ivan Toney因在Soho夜店袭击被起诉",
-          "summary": "30岁的前布伦特福德前锋Toney将于下月出庭受审，涉及在伦敦Soho夜店的暴力事件。",
+          "title_zh": "英格兰足球运动员伊万·托尼因在苏活夜店袭击被起诉",
+          "summary": "30岁的布伦特福德前前锋伊万·托尼因涉嫌在伦敦苏活区夜店实施袭击而被正式指控，将于下月出庭。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.bbc.co.uk/news/articles/cpw9nz7qwyqo?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰足球运动员Ivan Toney因涉嫌在伦敦Soho夜店实施袭击行为被正式起诉。这位30岁的前布伦特福德前锋将于下月出庭接受审判。案件细节目前尚未完全公开，但事件发生在英国首都的核心区域，引发了当地社区的广泛关注。",
-          "analysis": "体育明星涉暴力犯罪案件往往引发双重审视：既关注法律制裁的公正性，也讨论公众人物行为的社会影响。Toney案若定罪，可能对其职业生涯造成重大打击。",
+          "overview": "英格兰足球运动员伊万·托尼因涉嫌在伦敦苏活区夜店实施袭击而被正式起诉，预计将于下月出庭受审。这一事件再次引发了公众对职业运动员行为规范的讨论，尤其是在公共场合的暴力行为问题。",
+          "analysis": "作为知名体育明星，托尼的行为受到广泛关注。此案不仅涉及法律问题，还触及了社会对名人特权和公共安全的敏感神经。法院的最终判决将对类似案件产生示范效应。",
           "social": [
             {
-              "who": "足球圈观察者",
-              "text": "球场上的英雄不应成为暴力行为的庇护所，法律面前人人平等。"
+              "who": "足球界人士",
+              "text": "呼吁运动员应以身作则，遵守法律法规和社会道德规范。"
             }
           ]
         },
         {
-          "title_zh": "90秒停电引发铁路通勤混乱",
-          "summary": "此次事件引发了人们对断电供应如何产生如此广泛影响的质疑。",
+          "title_zh": "剑桥大学将审查高级学术人员招聘流程",
+          "summary": "在杰森·阿代辞职事件后，剑桥大学计划重新审视其招聘高级学者的程序，以确保外部监督。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.bbc.co.uk/news/articles/c05q0nznq24o?at_medium=RSS&at_campaign=rss",
+          "overview": "剑桥大学宣布将在杰森·阿代辞职事件后，对高级学术人员的招聘流程进行全面审查。参与此事的教授普利亚马瓦达·戈帕尔表示，大学不应“自己批改作业”，强调外部监督的重要性。这一举措旨在提升大学的透明度和公信力。",
+          "analysis": "剑桥大学作为世界顶尖学府，其内部治理问题具有全球影响力。此次改革可能为其他高等教育机构提供借鉴，推动学术界在招聘和评估机制上的标准化建设。",
+          "social": [
+            {
+              "who": "参与教授",
+              "text": "强调外部监督对于维护学术诚信和公平至关重要。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国90秒停电引发铁路通勤混乱",
+          "summary": "一次仅持续90秒的电力中断导致铁路系统陷入瘫痪，引发了公众对供电稳定性及应急机制的广泛质疑。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国铁路系统遭遇了一次仅持续90秒的短暂停电，却导致了大规模通勤混乱。尽管时间极短，但足以打乱列车运行计划并影响大量乘客出行。该事件引发了关于电力基础设施脆弱性及应急恢复能力的深入讨论。",
-          "analysis": "现代交通系统对电力的依赖度极高，微小的故障可能产生不成比例的连锁反应。此次事故暴露了铁路系统在应对突发断电时的韧性不足，相关部门需加强冗余设计。",
+          "overview": "英国铁路系统因一次仅持续90秒的电力中断而陷入严重混乱，大量通勤者受到影响。这一事件引发了公众对供电基础设施稳定性和应急响应机制的广泛质疑，凸显了现代交通系统对能源供应的高度依赖。",
+          "analysis": "短暂的停电为何能引发如此大的连锁反应，暴露了铁路系统在冗余设计和应急沟通上的不足。政府和企业需重新评估关键基础设施的抗风险能力，以防止类似事件再次发生。",
           "social": [
             {
-              "who": "通勤者代表",
-              "text": "短暂的停电不应导致如此漫长的延误，公共交通的可靠性亟待提升。"
+              "who": "通勤者",
+              "text": "对供电中断导致的出行不便表示强烈不满，呼吁加强基础设施建设。"
             }
           ]
         },
         {
-          "title_zh": "Minnie Merriman医疗记录数据泄露调查启动",
-          "summary": "来自西约克郡的Minnie Merriman在阿布鲁斯工业区被发现严重受伤后死亡，其医疗记录遭泄露。",
+          "title_zh": "明妮·梅里曼医疗记录遭泄露调查，疑与死亡相关",
+          "summary": "西约克郡居民明妮·梅里曼在阿布鲁斯工业 estate 被发现重伤后死亡，其医疗记录泄露事件正接受调查。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.bbc.co.uk/news/articles/cvg8n70jp2jo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国西约克郡居民Minnie Merriman的医疗记录遭到泄露，引发调查。该女子此前在苏格兰阿布鲁斯工业区被发现严重受伤后不幸身亡。数据泄露事件与她的死亡之间是否存在关联尚待确认，但此事已引起隐私保护机构的重视。",
-          "analysis": "个人健康数据的泄露不仅侵犯隐私，更可能危及生命安全。此次事件凸显了医疗信息系统安全防护的紧迫性，相关机构需尽快查明泄露源头并加强监管。",
+          "overview": "西约克郡居民明妮·梅里曼在阿布鲁斯工业 estate 被发现重伤后死亡，其医疗记录泄露事件正接受调查。这一案件引发了公众对个人隐私保护和数据安全的高度关注，特别是在医疗信息管理方面。",
+          "analysis": "医疗记录的泄露不仅侵犯个人隐私，还可能对受害者及其家属造成二次伤害。此案将推动英国进一步审视医疗数据的安全存储和访问控制机制，加强相关法律法规的执行力。",
           "social": [
             {
-              "who": "隐私权倡导者",
-              "text": "医疗数据是高度敏感信息，任何未经授权的访问都是不可接受的。"
+              "who": "隐私保护倡导者",
+              "text": "呼吁加强对个人医疗数据的法律保护，防止类似泄露事件再次发生。"
             }
           ]
         },
         {
-          "title_zh": "挪威呼吁国际足联主席因凡蒂诺辞职，墨西哥和阿根廷支持总统",
-          "summary": "挪威足球联合会要求因凡蒂诺辞职，此前他试图出售世界杯股份引发争议。",
-          "source": "BBC News",
+          "title_zh": "乌干达顶级足球运动员被持砖头劫匪杀害",
+          "summary": "乌干达国家队球员大卫·奥沃里在首都坎帕拉遭抢劫时试图反抗，头部受伤后不治身亡。",
+          "source": "Guardian World",
           "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4g6l3gnv0go?at_medium=RSS&at_campaign=rss",
-          "overview": "挪威足球联合会正式要求国际足联主席吉亚尼·因凡蒂诺辞职，起因是他试图出售世界杯相关股份。与此同时，墨西哥和阿根廷方面公开表态支持现任总统。这一系列事件使得国际足联内部的权力斗争进一步升级。",
-          "analysis": "因凡蒂诺的离任风波反映了全球体育治理中商业利益与公共信任之间的张力。挪威的强硬立场可能推动更多成员国加入声讨行列，对国际足联的未来走向产生深远影响。",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
+          "overview": "乌干达国家队球员大卫·奥沃里在首都坎帕拉遭抢劫时试图反抗，头部受伤后不治身亡。这一事件引发了乌干达足球界的深切哀悼，同时也暴露了该国首都地区治安问题的严峻性。",
+          "analysis": "奥沃里的死不仅是一起刑事案件，更折射出乌干达社会安全形势的恶化。作为国家队的核心球员，他的遇害对乌干达足球事业造成了巨大打击，也促使政府重新审视公共安全问题。",
           "social": [
             {
-              "who": "体育记者",
-              "text": "世界杯的商业化不应以牺牲组织公信力为代价，领导层的透明度至关重要。"
+              "who": "乌干达足球界",
+              "text": "陷入悲痛之中，呼吁加强社会治安以保护运动员和公众安全。"
             }
           ]
         }
       ],
       "regions": [
-        "中国",
         "国外"
       ]
     },
@@ -1638,56 +1718,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动 ChatGPT 向免费用户开放无限文本聊天及新增思考功能，并计划推出 AI 智能音箱硬件产品。",
-          "url": "https://x.com/samaltman"
+          "recent": "持续推动 ChatGPT 免费用户权益扩展及 AI 智能硬件产品布局，加速模型普惠化进程。",
+          "url": "https://www.samaltman.com"
         },
         {
-          "name": "Sundar Pichai",
-          "role": "Google CEO",
-          "region": "美国/全球",
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind CEO",
+          "region": "英国/美国",
           "domain": "ai",
-          "recent": "关注谷歌 AI 帝国内部人才结构调整及模型延迟优化，应对行业竞争与监管压力。",
-          "url": "https://x.com/sundarpichai"
-        },
-        {
-          "name": "David Weinberger",
-          "role": "知名博主/播客主理人",
-          "region": "美国",
-          "domain": "podcast/library",
-          "recent": "倡导超越意志力约束的媒体素养教育新方向，探讨 AI 时代信息获取与图书馆服务的融合。",
-          "url": "https://davidweinberger.com"
-        },
-        {
-          "name": "Mark Zuckerberg",
-          "role": "Meta CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "面对儿童安全巨额罚款，推动 AI 模型治理与合规建设，同时应对人形机器人进口限制等政策变化。",
-          "url": "https://x.com/zuck"
-        },
-        {
-          "name": "吴建中",
-          "role": "中国图书馆学会相关专家/全民阅读推动者",
-          "region": "中国",
-          "domain": "library",
-          "recent": "主导第四届中俄图书馆论坛及百县馆长论坛，推进志愿服务行动与优质书目服务平台建设。",
+          "recent": "主导 Google 搜索框向 AI 对话模式转型，同时应对内部人才流动与旗舰模型战略调整。",
           "url": ""
         },
         {
-          "name": "Isaac Chong",
-          "role": "Suno AI CEO",
-          "region": "新加坡/美国",
+          "name": "Jensen Huang",
+          "role": "NVIDIA CEO",
+          "region": "美国/台湾",
           "domain": "ai",
-          "recent": "计划推出 AI 音乐水印与下载限制机制，以应对大规模滥用并保护版权生态。",
-          "url": "https://suno.com/about"
+          "recent": "加速为万亿参数级 AI 模型训练提供算力基础设施支持，深化全球芯片生态建设。",
+          "url": ""
         },
         {
-          "name": "R. David Lankes",
-          "role": "图书馆学先驱/学者",
-          "region": "美国",
+          "name": "Michael Gorman",
+          "role": "前美国国会图书馆馆长/IFLA 前主席",
+          "region": "美国/英国",
           "domain": "library",
-          "recent": "关注学术图书馆的学科推广机会及包容性参考服务原则，探索 AI 时代图书馆的新角色。",
-          "url": "https://davidlankes.com"
+          "recent": "关注 AI 时代图书馆角色重塑、灾后韧性重建策略及参考服务包容性原则的制定。",
+          "url": "https://michaelgorman.info"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "播客主理人/科技评论家",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "通过长对话形式深度探讨 AI 技术伦理与行业领袖观点，持续影响公众对人工智能的认知。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "Ben Thompson",
+          "role": "Stratechery 创始人/科技分析师",
+          "region": "加拿大",
+          "domain": "podcast",
+          "recent": "以深度分析解读字节跳动、Google 等巨头在 AI 领域的战略博弈与市场动态。",
+          "url": "https://stratechery.com"
+        },
+        {
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "聚焦 Claude Code 等高阶编程工具开发及开源替代品的竞争格局，强调模型安全与能力平衡。",
+          "url": ""
         }
       ]
     },
