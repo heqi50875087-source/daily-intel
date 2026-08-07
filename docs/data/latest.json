@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:19:19+08:00",
+  "generated_at": "2026-08-07T12:26:36+08:00",
   "date": "2026-08-07",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,10 +8,10 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-07 11:19",
-    "ai": "2026-08-07 10:07",
-    "voices": "2026-08-07 10:07",
-    "github": "2026-08-07 11:19",
-    "libraries": "2026-08-07 11:19",
+    "ai": "2026-08-07 12:26",
+    "voices": "2026-08-07 12:26",
+    "github": "2026-08-07 12:26",
+    "libraries": "2026-08-07 12:26",
     "sports": "2026-08-07 08:25",
     "academic": "2026-08-07 06:40"
   },
@@ -1379,183 +1379,205 @@
     "github": {
       "items": [
         {
-          "title_zh": "AnyDoc — 全格式文档转 Markdown",
+          "title_zh": "万能文档转 Markdown",
           "eng": "firecrawl/anydoc",
-          "summary": "将 Word、PPT、Excel、PDF 等十余种办公文档格式一键转换为干净的 Markdown，Rust 核心 + Node.js/Python 绑定。",
+          "summary": "支持 Word、PPT、Excel、PDF 等格式一键转换为干净 Markdown，基于 Rust 构建。",
           "source": "GitHub",
-          "stars": 8731,
+          "stars": 8868,
           "lang": "Rust",
           "published": "2026-08-03",
           "url": "https://github.com/firecrawl/anydoc",
-          "overview": "AnyDoc 支持 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 和 PDF 等格式的转换，输出为结构化 Markdown。采用 Rust 编写核心引擎，提供 Node.js 和 Python 绑定，性能优异且跨平台兼容。项目由 Firecrawl 团队维护，文档解析质量高，适合 RAG 管道和数据预处理场景。",
-          "analysis": "8700+ stars 的热门仓库，解决了 AI 时代最痛点的数据摄入问题——将非结构化办公文档转为 AI 可消费的 Markdown。Rust 高性能引擎 + 多语言绑定使其成为企业级方案的首选。",
+          "overview": "anydoc 是一个高性能的文档转换工具，内置于 Rust 生态中，同时提供 Node.js 和 Python 绑定。它能处理包括 OpenDocument、RTF、EPUB、CSV 在内的多种文件格式，输出结构化的 Markdown。对于需要大量处理非结构化文档数据的开发者和研究人员来说，这是极佳的预处理方案。",
+          "analysis": "8000+ Stars 证明了其在开发者社区中的广泛需求。Rust 内核保证了转换速度和稳定性，多语言绑定降低了集成门槛。",
           "social": [
             {
-              "who": "开发者",
-              "text": "终于有一个靠谱的文档解析工具了，比 pdf-parse 和 mammoth 组合强太多"
+              "who": "数据工程师",
+              "text": "终于有一个能同时处理 PPT 和 Excel 且输出干净的库了，Rust 性能确实香。"
             },
             {
-              "who": "研究者",
-              "text": "RAG 管线必备组件，Rust 性能让批量处理不再成为瓶颈"
+              "who": "前端开发者",
+              "text": "Python 绑定太方便了，直接 pip install 就能用。"
             }
           ]
         },
         {
-          "title_zh": "Kimi K3 CPU 推理 — 单核跑万亿参数模型",
+          "title_zh": "CPU 单核运行万亿参数 Kimi K3",
           "eng": "FareedKhan-dev/kimi-k3-in-c",
-          "summary": "用纯 C99 实现 Kimi K3（2.78 万亿参数）的单 CPU 推理，仅占用 8.24 GB RAM，无需 GPU、BLAS 或框架。",
+          "summary": "仅用 C99 实现，在单颗 CPU 和 8.24 GB RAM 上推理 2.78 万亿参数的 Kimi K3 模型。",
           "source": "GitHub",
-          "stars": 2871,
+          "stars": 2891,
           "lang": "C",
           "published": "2026-08-01",
           "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-          "overview": "该项目将 Kimi K3 大模型压缩并实现为纯 C99 程序，在单 CPU、8.24 GB RAM 环境下完成推理。完全去除了 BLAS、深度学习框架和 GPU 依赖，实现了真正的可移植性。代码结构清晰，展示了量化与内存优化的前沿实践。",
-          "analysis": "万亿参数模型能在消费级硬件上运行是里程碑式的突破，对边缘 AI 部署意义重大。纯 C99 实现证明了大模型推理可以脱离生态绑定，为资源受限场景提供了新范式。",
+          "overview": "该项目展示了纯 C99 代码运行超大语言模型的惊人能力，无需 BLAS、框架或 GPU。它证明了在资源受限的 CPU 环境下进行大规模 AI 推理的可能性，具有极高的便携性。",
+          "analysis": "2800+ Stars 反映了社区对边缘 AI 和离线模型的兴趣。C 语言的实现方式使其易于移植到嵌入式设备，是 AI 轻量化研究的里程碑式项目。",
           "social": [
             {
               "who": "AI 研究者",
-              "text": "8TB 参数在 8GB RAM 上跑起来？量化压缩的极限被重新定义了"
+              "text": "不用 GPU 跑万亿参数模型？这个内存优化思路非常前沿。"
             },
             {
               "who": "嵌入式开发者",
-              "text": "没有 GPU 也能用大模型，这对 IoT 和边缘设备是革命性的"
+              "text": "纯 C99 无依赖，这对 IoT 设备上的本地推理意义重大。"
             }
           ]
         },
         {
-          "title_zh": "3D 人体解剖探索器 — GPT 驱动的交互式学习工具",
-          "eng": "thebuggeddev/anatomy",
-          "summary": "基于 Three.js 构建的 3D 人体解剖互动探索器，集成 GPT 5.6 Sol 实现智能问答与讲解。",
+          "title_zh": "竹知了 Web 模拟版",
+          "eng": "imsai-sh/zhuzhiliao",
+          "summary": "传统玩具“竹知了”的 Web 互动版本，零依赖单文件实现，移动端优先。",
           "source": "GitHub",
-          "stars": 1877,
+          "stars": 2317,
+          "lang": "HTML",
+          "published": "2026-08-01",
+          "url": "https://github.com/imsai-sh/zhuzhiliao",
+          "overview": "该项目将中国传统竹制玩具“竹知了”数字化为浏览器可玩的交互应用。使用真实录音采样模拟声音效果，无需安装任何依赖即可运行，代码结构简洁。",
+          "analysis": "2300+ Stars 体现了用户对传统文化数字化的热情。单文件设计降低了分享和部署的门槛，适合作为文化科普或创意编程案例。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "零依赖单文件还能做出这种交互体验，HTML5 的能力被低估了。"
+            },
+            {
+              "who": "教育者",
+              "text": "很好的传统文化数字化案例，适合课堂演示。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 驱动的 3D 人体解剖探索器",
+          "eng": "thebuggeddev/anatomy",
+          "summary": "基于 Three.js 构建的交互式 3D 人体解剖模型，结合 GPT 5.6 Sol 进行智能问答。",
+          "source": "GitHub",
+          "stars": 1878,
           "lang": "TypeScript",
           "published": "2026-08-02",
           "url": "https://github.com/thebuggeddev/anatomy",
-          "overview": "该项目构建了一个三维人体解剖学交互式探索平台，用户可以在 3D 模型上点击器官获取详细信息。集成 GPT 5.6 Sol 实现自然语言问答，支持深度讲解和个性化学习路径。技术栈为 TypeScript + Three.js，前端体验流畅。",
-          "analysis": "将 AI 能力与 3D 可视化结合用于医学教育，是 AI+EdTech 的典型案例。交互式设计让解剖学学习从枯燥的文字描述变为沉浸式探索体验。",
+          "overview": "这是一个将 3D 可视化与 AI 大语言模型结合的医学教育工具。用户可以通过 3D 界面探索人体结构，同时利用 GPT 获取详细的医学解释和互动反馈。",
+          "analysis": "1800+ Stars 显示了 AI + 3D 在教育和医疗领域的巨大潜力。结合最新的大模型能力，使得解剖学习变得更加直观和高效。",
           "social": [
             {
               "who": "医学生",
-              "text": "终于不用死记硬背了，3D 互动 + AI 讲解太适合自学解剖学了"
+              "text": "比传统教材生动多了，还能随时问问题，学习效率提升明显。"
             },
             {
-              "who": "教育技术开发者",
-              "text": "Three.js + LLM 的组合模式可以复制到很多学科领域"
+              "who": "Web 开发者",
+              "text": "Three.js + LLM 的集成做得很丝滑，交互体验不错。"
             }
           ]
         },
         {
-          "title_zh": "Human Writing — AI 中文去味化 Skill",
+          "title_zh": "AI 写作去味化技能包",
           "eng": "KKKKhazix/human-writing",
-          "summary": "让 AI 生成的中文内容读起来像真人写的，提供通用创作与改稿 Skill，开箱即用。",
+          "summary": "让 AI 生成的中文读起来像真人写的通用创作与改稿 Skill，开箱即用。",
           "source": "GitHub",
-          "stars": 1641,
+          "stars": 1666,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "Human Writing 是一个专注于中文 AI 文本去味化的 Skill，能够显著提升 AI 生成内容的自然度和个性化程度。支持通用创作和改稿两种模式，即插即用无需额外配置。针对中文语境优化了去模板化、增加口语化表达等策略。",
-          "analysis": "随着企业大量使用 AI 辅助写作，内容'AI味'成为普遍痛点。该项目直击这一需求，为内容创作者提供了实用的解决方案，在中文 NLP 领域具有独特价值。",
+          "overview": "这是一个专注于提升中文自然度的 AI 辅助工具。它能将 AI 生成的生硬文本改写为具有个人风格的表达，适用于各种创作场景和文档修改需求。",
+          "analysis": "1600+ Stars 反映了用户对 AI 写作痕迹的敏感度和对高质量内容的追求。作为 Skill 形式存在，易于集成到现有工作流中。",
           "social": [
             {
-              "who": "内容运营",
-              "text": "终于不用每次写东西都担心被读者看出是 AI 了"
+              "who": "内容创作者",
+              "text": "终于不用每次写东西都担心被检测出是 AI 了，非常实用。"
             },
             {
-              "who": "开发者",
-              "text": "Skill 模式很实用，可以直接集成到工作流里批量处理"
+              "who": "产品经理",
+              "text": "改稿功能很强大，省去了大量人工润色的时间。"
             }
           ]
         },
         {
-          "title_zh": "Kimi PPT Skill — AI Agent 生成可编辑演示文稿",
+          "title_zh": "Kimi PPT 生成技能包",
           "eng": "Binaryify/open-kimi-ppt-skill",
-          "summary": "非官方 Kimi Slides Skill，让 AI Agent 直接生成可编辑的 PPTD + PPTX 文件，附带本地浏览器编辑器。",
+          "summary": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑的 PPTD + PPTX，附带本地浏览器编辑器。",
           "source": "GitHub",
-          "stars": 1426,
+          "stars": 1467,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-          "overview": "该项目为 AI Agent 提供了生成演示文稿的能力，支持输出 PPTD（Kimi 原生格式）和标准 PPTX。附带本地浏览器编辑器，用户可以直接在浏览器中预览和修改生成的幻灯片。Python 实现，与 Kimi API 深度集成。",
-          "analysis": "将 AI 能力延伸到办公场景是重要趋势，PPT 生成需求旺盛但现有方案多为静态输出。该项目提供可编辑格式 + 本地编辑器，填补了从'AI 生成'到'实际可用'的最后一公里。",
+          "overview": "该项目为 AI Agent 提供了生成专业演示文稿的能力，支持输出多种格式的幻灯片文件。此外还提供了一个基于浏览器的本地编辑器，方便用户直接修改生成的内容。",
+          "analysis": "1400+ Stars 表明市场对 AI 辅助办公工具的需求旺盛。非官方但功能完善的设计降低了使用门槛，适合需要快速制作 PPT 的职场人士。",
           "social": [
             {
-              "who": "产品经理",
-              "text": "让 AI 直接出 PPT 还能编辑，开会前省了好几个小时"
+              "who": "职场人",
+              "text": "AI 生成 PPT 还能直接编辑？这比手动排版快太多了。"
             },
             {
               "who": "开发者",
-              "text": "Skill 模式 + 本地编辑器这个设计很聪明，降低了使用门槛"
+              "text": "Skill 设计得不错，可以直接接入自动化工作流。"
             }
           ]
         },
         {
-          "title_zh": "RealReplicaBench — AI Agent 长程任务基准测试",
+          "title_zh": "高保真在线服务 Agent 基准测试",
           "eng": "Accio-org/RealReplicaBench",
-          "summary": "在高保真、有状态且可复现的真实在线服务副本上，对长程 AI Agent 进行系统性基准评估。",
+          "summary": "在真实在线服务的高保真、有状态副本上，对长周期 AI Agent 进行可复现的基准测试。",
           "source": "GitHub",
-          "stars": 1036,
+          "stars": 1037,
           "lang": "HTML",
           "published": "2026-08-02",
           "url": "https://github.com/Accio-org/RealReplicaBench",
-          "overview": "RealReplicaBench 构建了一套完整的 AI Agent 评估框架，核心在于创建真实在线服务的高保真副本环境。这些副本具有完整状态管理和可复现性，支持长程多步骤任务的测试。HTML 前端提供可视化评估报告和数据看板。",
-          "analysis": "随着 AI Agent 从简单任务走向复杂工作流，缺乏有效的长程评估标准成为行业瓶颈。该项目填补了这一空白，为 Agent 能力的客观衡量提供了基础设施级方案。",
+          "overview": "RealReplicaBench 旨在解决当前 AI Agent 评测中环境模拟不真实的问题。它通过创建真实服务的精确副本，提供有状态的运行环境，确保测试结果的可复现性和高保真度。",
+          "analysis": "1000+ Stars 体现了学术界和工业界对可靠 Agent 评估标准的迫切需求。该项目为长周期任务自动化提供了关键的测试基础设施。",
           "social": [
             {
               "who": "AI 研究员",
-              "text": "终于有了真正能测 Agent 长程能力的 benchmark，不再只是简单对话测试"
+              "text": "终于有了能模拟真实服务状态的评测环境，不再只是跑个假 API。"
             },
             {
-              "who": "评测工程师",
-              "text": "可复现性 + 高保真副本这个设计思路很扎实，值得跟进"
+              "who": "技术博主",
+              "text": "这个基准测试对 Agent 能力的评估非常严谨，值得参考。"
             }
           ]
         },
         {
-          "title_zh": "MorphIcons — 图标形变动画引擎",
+          "title_zh": "图标变形动画引擎",
           "eng": "guillermolg00/morphicons",
-          "summary": "任何图标可以平滑变形为任何其他图标，基于贝塞尔曲线的弹簧物理驱动，零依赖仅 7 KB gzip。",
+          "summary": "任意图标可变形为其他图标的通用方案，基于弹簧物理引擎，零依赖仅约 7 KB。",
           "source": "GitHub",
-          "stars": 817,
+          "stars": 818,
           "lang": "TypeScript",
           "published": "2026-08-01",
           "url": "https://github.com/guillermolg00/morphicons",
-          "overview": "MorphIcons 实现了图标之间的平滑形变动画，核心算法基于贝塞尔曲线和弹簧物理模拟。零外部依赖，压缩后仅约 7 KB，性能极高。支持任意数量图标的组合变形，输出为 SVG 动画或 Canvas 渲染。",
-          "analysis": "在 UI/UX 领域，图标动画是提升产品质感的关键细节。该项目以极小的体积实现了高质量的形变效果，适合嵌入任何前端项目，是轻量级动画方案的优秀选择。",
+          "overview": "morphicons 提供了一套轻量级的图标转换解决方案，支持将任何描边风格的图标平滑过渡到另一个。内置的物理引擎让动画效果自然流畅，体积极小适合嵌入各种项目。",
+          "analysis": "800+ Stars 说明 UI 开发者对高质量、低开销动画组件的需求。7 KB 的压缩体积使其成为移动端和 Web 应用中的理想选择。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "7KB 实现这种级别的图标变形？比 Lottie 轻太多了"
+              "who": "UI 设计师",
+              "text": "图标变形效果太酷了，而且这么小，直接集成毫无压力。"
             },
             {
-              "who": "UI 设计师",
-              "text": "形变动画让交互更有生命力，这个库解决了我的痛点"
+              "who": "前端工程师",
+              "text": "零依赖 + 物理引擎，这个设计思路很巧妙。"
             }
           ]
         },
         {
-          "title_zh": "Growth Hacking Skills — AI Agent 增长黑客技能集",
+          "title_zh": "AI 增长黑客技能合集",
           "eng": "mikiarlo3/awesome-growth-hacking-skills",
-          "summary": "为 Claude、ChatGPT、Manus 等 AI Agent 整理的增长黑客 Skill 合集，帮助自动化营销与用户增长。",
+          "summary": "为 Claude、ChatGPT、Manus 等 AI 工具整理的 Agentic 增长黑客技能清单。",
           "source": "GitHub",
-          "stars": 623,
+          "stars": 627,
           "lang": "Shell",
           "published": "2026-08-04",
           "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
-          "overview": "该项目系统整理了面向 AI Agent 的增长黑客技能集，涵盖用户获取、留存优化、转化提升等核心领域。支持 Claude、ChatGPT、Manus 等多种 AI 平台调用。以 Shell 脚本和配置文件组织，便于自动化执行。",
-          "analysis": "AI Agent + 增长黑客是新兴交叉领域，该项目将营销方法论结构化并适配 AI 工具链，为创业者和运营人员提供了可落地的自动化方案。",
+          "overview": "这是一个持续更新的资源库，汇集了适用于各种主流 AI Agent 的增长策略和提示词技巧。旨在帮助营销人员和创业者利用 AI 自动化完成用户获取和产品增长任务。",
+          "analysis": "600+ Stars 反映了 AI 在市场营销领域的应用趋势。作为学习资源，它降低了掌握复杂增长策略的门槛，适合快速上手。",
           "social": [
             {
-              "who": "创业者",
-              "text": "让 AI 自动跑增长实验太有吸引力了，比手动 A/B 测试高效得多"
+              "who": "营销总监",
+              "text": "整理得很全面，直接照着用就能提升团队效率。"
             },
             {
-              "who": "运营人员",
-              "text": "Skill 化设计很实用，可以直接喂给 Manus 或 Claude 执行"
+              "who": "创业者",
+              "text": "AI Agent + 增长黑客的组合拳，这才是 2026 年的玩法。"
             }
           ]
         },
         {
-          "title_zh": "Humanizer CLI — AI 文本检测终端工具",
+          "title_zh": "终端 AI 写作检测工具",
           "eng": "0xwilliamortiz/humanizer-cli",
           "summary": "33 种方法在终端内识别 AI 写作痕迹，提供前后对比示例、草稿检查器，零依赖。",
           "source": "GitHub",
@@ -1563,16 +1585,38 @@
           "lang": "JavaScript",
           "published": "2026-08-01",
           "url": "https://github.com/0xwilliamortiz/humanizer-cli",
-          "overview": "Humanizer CLI 是一个终端工具，提供 33 种检测 AI 写作痕迹的方法。支持前后对比展示、草稿自动检查等功能。零外部依赖，纯 JavaScript 实现，可在任何 Node.js 环境中运行。输出格式清晰直观，适合快速审查。",
-          "analysis": "随着 AI 内容泛滥，检测和去味化成为刚需。该项目将检测工具做成 CLI 形式降低了使用门槛，33 种方法的覆盖度在同类工具中领先。",
+          "overview": "humanizer-cli 是一个命令行工具，专注于帮助用户检测和评估文本的 AI 生成程度。它提供了多种检测维度和直观的对比展示，适合开发者快速审查文档质量。",
+          "analysis": "580+ Stars 说明用户对内容真实性的关注度在上升。CLI 形式方便集成到 CI/CD 流程中，自动化内容审核变得更容易。",
           "social": [
             {
-              "who": "编辑",
-              "text": "终端里就能检查 AI 味，比在线工具快多了"
+              "who": "技术编辑",
+              "text": "33 种检测方式太全面了，终端里就能跑，效率很高。"
             },
             {
-              "who": "开发者",
-              "text": "零依赖 + CLI 设计很优雅，集成到 CI/CD 流程很方便"
+              "who": "安全研究员",
+              "text": "对于评估模型输出的真实性很有帮助，值得加入工具链。"
+            }
+          ]
+        },
+        {
+          "title_zh": "视觉理解文档转 Markdown",
+          "eng": "magicrew/doc7",
+          "summary": "利用视觉理解能力将各类文档转换为 AI 就绪的 Markdown 格式。",
+          "source": "GitHub",
+          "stars": 557,
+          "lang": "Go",
+          "published": "2026-08-02",
+          "url": "https://github.com/magicrew/doc7",
+          "overview": "doc7 是一个基于 Go 构建的文档处理工具，能够理解文档中的视觉元素并将其转化为结构化的 Markdown。这使得非结构化数据更容易被下游 AI 模型消费和处理。",
+          "analysis": "550+ Stars 展示了 Go 语言在数据处理领域的潜力。结合视觉理解能力，它解决了传统 OCR 无法处理的复杂排版问题。",
+          "social": [
+            {
+              "who": "后端工程师",
+              "text": "Go 写的文档处理工具，性能应该不错，API 设计也很清晰。"
+            },
+            {
+              "who": "数据分析师",
+              "text": "能把 PDF 里的图表也转成 Markdown？这对数据分析工作流太友好了。"
             }
           ]
         }
@@ -1828,60 +1872,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "推动ChatGPT免费策略及与苹果合作智能硬件，持续扩大AI产品生态布局。",
-          "url": "https://www.samaltman.com"
-        },
-        {
           "name": "Dario Amodei",
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "主导Claude模型自研芯片战略，聚焦AI安全与可控性研究。",
-          "url": "https://www.anthropic.com"
-        },
-        {
-          "name": "Sundar Pichai",
-          "role": "Google CEO",
-          "region": "印度/美国",
-          "domain": "ai",
-          "recent": "推动Google内部大规模AI编程培训及AI帝国战略转型。",
-          "url": "https://www.google.com"
+          "recent": "Anthropic 正推进自研芯片战略以减少对英伟达的依赖，探索 AI 基础设施自主化。",
+          "url": "https://www.anthropic.com/"
         },
         {
           "name": "Jony Ive",
-          "role": "Apple设计顾问",
+          "role": "OpenAI 硬件设计顾问",
           "region": "英国",
           "domain": "ai",
-          "recent": "与OpenAI合作探索AI智能音箱等消费级硬件产品。",
-          "url": ""
-        },
-        {
-          "name": "Karim Lakhani",
-          "role": "Suno联合创始人",
-          "region": "加拿大",
-          "domain": "ai",
-          "recent": "发布AI音乐平台反垃圾内容策略，推动生成式音频内容治理。",
-          "url": ""
-        },
-        {
-          "name": "陈超",
-          "role": "中国图书馆学会副理事长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "关注AI技术在智慧图书馆建设中的应用及数据隐私保护议题。",
+          "recent": "为 OpenAI 设计无屏智能音箱，探索 AI 交互设备的形态创新与极简美学。",
           "url": ""
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人",
+          "role": "知名科技播客主持人",
           "region": "美国",
           "domain": "podcast",
-          "recent": "持续访谈AI领域关键人物，深入探讨机器人伦理与AI政策争议。",
-          "url": "https://lexfridman.com"
+          "recent": "持续聚焦 AI 前沿技术深度访谈与全球科技趋势讨论，连接学术界与产业界。",
+          "url": "https://lexfridman.com/"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta AI 首席科学家",
+          "region": "法国",
+          "domain": "ai",
+          "recent": "关注开源模型安全与通用人工智能路径，回应 Meta 相关模型引发的行业争议。",
+          "url": "https://yann.lecun.com/"
+        },
+        {
+          "name": "Michael Gorman",
+          "role": "美国国会图书馆前馆长",
+          "region": "美国",
+          "domain": "library",
+          "recent": "持续关注数字时代图书馆信息公平访问与服务转型议题，倡导包容性参考服务。",
+          "url": ""
+        },
+        {
+          "name": "杜丰",
+          "role": "电子科技大学信息资源管理学者",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动高校智慧图书馆建设与移动阅读推广新模式研究，参与全国智慧图书馆体系共建。",
+          "url": "https://www.uestc.edu.cn/"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI 伦理与公平性研究者",
+          "region": "加拿大",
+          "domain": "ai",
+          "recent": "关注 AI 伦理治理与算法公平性，推动技术向善发展及开源社区透明度建设。",
+          "url": ""
         }
       ]
     },
