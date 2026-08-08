@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-08T08:35:47+08:00",
+  "generated_at": "2026-08-08T09:23:26+08:00",
   "date": "2026-08-08",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-08 07:39",
     "ai": "2026-08-08 08:35",
     "voices": "2026-08-08 08:35",
-    "github": "2026-08-08 07:39",
-    "libraries": "2026-08-07 23:36",
+    "github": "2026-08-08 09:23",
+    "libraries": "2026-08-08 09:23",
     "sports": "2026-08-08 08:35",
     "academic": "2026-08-08 06:40"
   },
@@ -1508,69 +1508,52 @@
     "github": {
       "items": [
         {
-          "title_zh": "万能文档转 Markdown：Rust 高性能解析引擎",
+          "title_zh": "AnyDoc：全格式文档转Markdown",
           "eng": "firecrawl/anydoc",
-          "summary": "将 Word、PPT、Excel、PDF 等多种格式一键转换为干净的 Markdown，专为 AI 数据清洗设计。",
+          "summary": "将Word、PPT、Excel、PDF等十多种办公文档格式一键转换为干净的Markdown，内置Rust核心引擎。",
           "source": "GitHub",
-          "stars": 10925,
+          "stars": 11034,
           "lang": "Rust",
           "published": "2026-08-03",
           "url": "https://github.com/firecrawl/anydoc",
-          "overview": "该项目使用 Rust 构建，提供 Node.js 和 Python 绑定，支持 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 及 PDF 等主流文档格式。它能将复杂的排版结构还原为语义清晰的 Markdown，极大降低了非结构化数据进入 AI 工作流的门槛。内置多种解析策略，确保输出内容的准确性和可读性。",
-          "analysis": "作为 RAG（检索增强生成）和知识库构建的基础设施，文档解析是核心痛点。Rust 的底层性能保证了大规模批量转换的效率，且多语言绑定降低了集成成本，对 AI 开发者极具实用价值。",
-          "social": [
-            {
-              "who": "AI 数据工程师",
-              "text": "终于有一个工具能把 PDF 里的表格和嵌套列表完美还原成 Markdown 了，比手动清洗效率高十倍。"
-            }
-          ]
+          "overview": "支持Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等多种格式转换，输出为结构清晰的Markdown。采用Rust高性能内核构建，同时提供Node.js和Python绑定，方便集成到各类工作流中。",
+          "analysis": "11034星的高关注度项目，解决了AI时代文档处理的核心痛点——将非结构化办公文档转化为AI可理解的Markdown格式，对知识库搭建、RAG系统等有直接应用价值。多语言绑定使其成为开发者首选的文档预处理工具。"
         },
         {
-          "title_zh": "3D 人体解剖交互式探索器（GPT 驱动）",
+          "title_zh": "Anatomy：交互式3D人体解剖探索器",
           "eng": "thebuggeddev/anatomy",
-          "summary": "基于 Three.js 构建的 3D 人体解剖学交互应用，结合 GPT 5.6 Sol 实现智能问答与讲解。",
+          "summary": "基于Three.js和GPT构建的交互式3D人体解剖学习工具，支持AI驱动的实时问答与标注。",
           "source": "GitHub",
-          "stars": 1973,
+          "stars": 1982,
           "lang": "TypeScript",
           "published": "2026-08-02",
           "url": "https://github.com/thebuggeddev/anatomy",
-          "overview": "这是一个将医学教育与 AI 大模型结合的交互式项目。用户可以在 3D 场景中自由旋转、缩放人体结构，并通过自然语言提问获取解剖学知识。项目利用 GPT 5.6 Sol 作为后端大脑，提供精准的术语解释和病理分析，界面流畅且视觉效果好。",
-          "analysis": "将 LLM 能力与 3D 可视化结合是教育科技的新趋势。该项目展示了 AI Agent 在垂直领域（医学）的落地潜力，对教育类 App 开发者和医疗 AI 从业者有参考意义。",
-          "social": [
-            {
-              "who": "医学生/开发者",
-              "text": "用自然语言问解剖结构太酷了，比死记硬背课本有趣多了，适合做教学演示工具。"
-            }
-          ]
+          "overview": "使用Three.js构建三维人体模型，用户可在3D空间中自由探索、旋转、缩放解剖结构。集成GPT 5.6 Sol实现AI实时问答和智能标注，将传统医学教学转化为沉浸式交互体验。",
+          "analysis": "将前沿AI能力与3D可视化结合的教育项目，在医学学习领域具有突破性意义。开源后有望推动更多学科（如生物、化学）的交互式教学资源开发。"
         },
         {
-          "title_zh": "AI 写作去味：让中文内容读起来像真人",
+          "title_zh": "Human Writing：让AI写作像真人一样自然",
           "eng": "KKKKhazix/human-writing",
-          "summary": "通用创作与改稿 Skill，解决 AI 生成中文内容过于机械、缺乏个性的问题。",
+          "summary": "通用创作与改稿Skill，让AI生成的中文内容读起来像一个具体的人在说话，开箱即用。",
           "source": "GitHub",
-          "stars": 1869,
+          "stars": 1875,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "该项目专注于优化中文 AI 写作输出，提供开箱即用的 Skill。它能通过调整句式、词汇选择和情感表达，让生成的文本摆脱"
+          "overview": "专为中文场景设计的AI写作去机械化Skill，通过风格化改写让AI输出具备个性化表达。支持通用创作和改稿两种模式，即插即用无需额外配置。",
+          "analysis": "直击当前AI内容生成的最大痛点——机械感与同质化。在自媒体、营销文案、内容运营等场景中具有广泛实用价值，是中文AI写作领域的重要工具。"
         },
         {
-          "title_zh": "万能文档转 Markdown：Rust 高性能解析引擎",
-          "eng": "firecrawl/anydoc",
-          "summary": "将 Word、PPT、Excel、PDF 等多种格式一键转换为干净的 Markdown，专为 AI 数据清洗设计。",
+          "title_zh": "Open Kimi PPT Skill：AI生成可编辑PPT",
+          "eng": "Binaryify/open-kimi-ppt-skill",
+          "summary": "非官方Kimi Slides Skill，让AI Agent直接生成可编辑的PPTD和PPTX文件，附带本地浏览器编辑器。",
           "source": "GitHub",
-          "stars": 10925,
-          "lang": "Rust",
-          "published": "2026-08-03",
-          "url": "https://github.com/firecrawl/anydoc",
-          "overview": "该项目使用 Rust 构建，提供 Node.js 和 Python 绑定，支持 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 及 PDF 等主流文档格式。它能将复杂的排版结构还原为语义清晰的 Markdown，极大降低了非结构化数据进入 AI 工作流的门槛。内置多种解析策略，确保输出内容的准确性和可读性。",
-          "analysis": "作为 RAG（检索增强生成）和知识库构建的基础设施，文档解析是核心痛点。Rust 的底层性能保证了大规模批量转换的效率，且多语言绑定降低了集成成本，对 AI 开发者极具实用价值。",
-          "social": [
-            {
-              "who": "AI 数据工程师",
-              "text": "终于有一个工具能把 PDF 里的表格和嵌套列表完美还原成 Markdown 了，比手动清洗效率高十倍。"
-            }
-          ]
+          "stars": 1588,
+          "lang": "",
+          "published": "2026-08-05",
+          "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+          "overview": "通过Kimi Slides Skill让AI Agent生成可编辑的PPTD和PPTX格式文件，并内置本地浏览器编辑器供用户修改。无需安装额外软件，直接在浏览器中完成演示文稿的创作与调整。",
+          "analysis": "将AI能力延伸到办公生产力领域，解决了"
         }
       ]
     },
