@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-09T13:41:02+08:00",
+  "generated_at": "2026-08-09T14:35:32+08:00",
   "date": "2026-08-09",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-09 13:41",
-    "ai": "2026-08-09 13:41",
+    "ai": "2026-08-09 14:35",
     "voices": "2026-08-09 13:41",
-    "github": "2026-08-09 13:41",
+    "github": "2026-08-09 14:35",
     "libraries": "2026-08-09 07:35",
-    "sports": "2026-08-09 13:41",
+    "sports": "2026-08-09 14:35",
     "academic": "2026-08-08 06:40"
   },
   "modules": {
@@ -1231,237 +1231,122 @@
     "sports": {
       "items": [
         {
-          "title_zh": "阿森纳7500万英镑从纽卡斯尔签下布鲁诺·吉马良斯",
-          "eng": "Arsenal sign Guimaraes from Newcastle in £75m deal",
-          "summary": "英超冠军阿森纳以7500万英镑的转会费从纽卡斯尔签下了巴西中场布鲁诺·吉马良斯。这笔交易为阿尔特塔的战术体系增添了新的变数，同时也意味着纽卡斯尔失去了一位关键球员。",
+          "title_zh": "FIFA 痛批联合运动试图推翻英凡蒂诺主席",
+          "eng": "Fifa criticises campaign to oust president Infantino",
+          "summary": "国际足联强烈谴责针对其及总统因凡蒂诺的有组织攻击行为，称其为旨在破坏组织运作的持续行动。",
           "source": "BBC Football",
           "published": "2026-08-08",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c1719r079rjo?at_medium=RSS&at_campaign=rss",
-          "overview": "阿森纳官方宣布以7500万英镑从纽卡斯尔签下巴西中场布鲁诺·吉马良斯。吉马良斯在纽卡斯尔期间表现出色，被球迷视为球队核心之一。这笔交易让阿尔特塔在中场有了更多选择，同时也意味着纽卡斯尔失去了一位关键球员。",
-          "analysis": "吉马良斯的到来为阿森纳的中场提供了深度和创造力，但如何融入现有的战术体系将是关键。对于纽卡斯尔来说，这是阵容重建的重要一步。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+          "overview": "国际足联发表声明，严厉批评外界所谓的“联合且持续的”试图颠覆组织及其主席因凡蒂诺（Gianni Infantino）的运动。这一表态发生在欧洲足联确认向一名与英凡蒂诺有传闻关系的女性员工支付了离职补偿金之后，进一步加剧了围绕英凡蒂诺的去留争议。FIFA 强调不应将暗示当作事实来呈现。",
+          "analysis": "国际足联此举意在巩固内部权威并反击媒体及外部势力的施压，但“联合运动”的措辞暗示背后可能存在更复杂的利益博弈，英凡蒂诺的未来仍充满不确定性。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "因凡蒂诺的任期争议越来越像一场政治角力，FIFA 的反击虽然强硬，但能否真正平息外界质疑仍是未知数。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "FIFA就针对因凡蒂诺的罢免运动向媒体发起新一轮攻击",
-          "eng": "Fifa launches new attack on media over alleged 'concerted effort' to undermine Gianni Infantino",
-          "summary": "FIFA强烈批评外界对其及主席因凡蒂诺的“蓄意破坏”行为，并指责存在有组织的抹黑行动。国际足联随即发布声明回应欧洲足联确认的离职支付争议。",
-          "source": "Guardian Football",
+          "title_zh": "新帅穆里尼奥麾下，亚历山大-阿诺德能否成为皇马关键人物？",
+          "eng": "New season, new boss - will Alexander-Arnold be key figure at Real Madrid?",
+          "summary": "特伦特·亚历山大-阿诺德在皇家马德里的第二个赛季面临考验，他需要在穆里尼奥的战术体系下证明自己的价值。",
+          "source": "BBC Football",
+          "published": "2026-08-09",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c78gvzvwql0o?at_medium=RSS&at_campaign=rss",
+          "overview": "随着新帅穆里尼奥执掌皇马，亚历山大-阿诺德迎来了职业生涯中一个关键的转折点。这位利物浦旧将需要在新的战术环境中重新定位自己，以证明自己是球队不可或缺的核心球员。",
+          "analysis": "穆里尼奥的防守反击风格与阿诺德的传控体系存在天然冲突，阿诺德能否适应新帅节奏将是皇马新赛季的一大看点。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "阿诺德在安菲尔德是传奇，但在伯纳乌能否复制成功？穆里尼奥的战术纪律可能会限制他的自由度。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "蒂勒曼斯对阵巴黎首秀惊艳，曼联未来可期",
+          "eng": "Tielemans cameo against PSG hints at Man Utd future",
+          "summary": "曼联花费 3500 万英镑签下的尤里·蒂勒曼斯在对阵巴黎圣日耳蒙的友谊赛中上演令人印象深刻的处子秀。",
+          "source": "BBC Football",
           "published": "2026-08-08",
-          "url": "https://www.theguardian.com/football/2026/aug/08/fifa-launches-new-attack-on-media-over-alleged-concerted-effort-to-undermine-gianni-infantino",
-          "overview": "国际足联发布声明，指控存在针对其主席因凡蒂诺的“蓄意且持续的抹黑努力”，并呼吁媒体不应将暗示当作事实。这一表态发生在欧洲足联确认向一名与因凡蒂诺有关的女性员工支付了离职款项之后，进一步加剧了围绕FIFA治理的争议。",
-          "analysis": "因凡蒂诺面临的压力持续升级，FIFA此举意在通过施压媒体来维护自身形象，但外界对其透明度的质疑并未因此平息。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ce34k3qve4no?at_medium=RSS&at_campaign=rss",
+          "overview": "在哥德堡举行的友谊赛中，曼联以 1-1 战平欧洲冠军巴黎圣日耳蒙。蒂勒曼斯作为新援首发出场并展现了出色的表现，但英格兰中场芒特在第 20 分钟因脚部伤势被换下，令比赛蒙上阴影。",
+          "analysis": "3500 万英镑的投入能否迅速转化为战力是疑问，蒂勒曼斯的惊艳表现给了管理层信心，但芒特的伤病问题提醒着曼联在阵容深度上的隐忧。",
+          "social": [
+            {
+              "who": "解说",
+              "text": "蒂勒曼斯这脚传球太漂亮了，看来这笔转会确实物有所值，不过芒特受伤确实让人心疼。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "芒特受伤掩盖了曼联与巴黎圣日耳曼的平局",
-          "eng": "Mason Mount injury overshadows Manchester United's draw with PSG",
-          "summary": "曼联在哥德堡友谊赛中1-1战平欧洲冠军巴黎圣日耳曼，但英格兰中场芒特的脚伤离场令比赛蒙上阴影。新援蒂勒曼斯替补登场表现抢眼，暗示未来角色。",
-          "source": "Guardian Football",
-          "published": "2026-08-08",
-          "url": "https://www.theguardian.com/football/2026/aug/08/mason-mount-injury-overshadows-manchester-uniteds-draw-with-psg",
-          "overview": "曼联在哥德堡与巴黎圣日耳曼的友谊赛中以1-1战平，新援蒂勒曼斯替补登场表现出色。然而比赛被英格兰中场芒特的脚伤所掩盖，他在开场不到20分钟后因伤离场，这已是自2023年从切尔西加盟以来他多次受困于伤病问题的延续。",
-          "analysis": "曼联在转会窗投入巨资后首秀表现尚可，但芒特长期伤病的隐患不容忽视。蒂勒曼斯的登场为中场注入了活力，但也反映出球队阵容深度和轮换策略的紧迫性。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "维萨与图雷闪耀助贾伊斯勒首秀获胜——评分",
+          "title_zh": "贾伊斯勒首秀带队获胜，维萨与图雷闪耀纽卡友谊赛",
           "eng": "Wissa & Toure star as Jaissle wins first Newcastle friendly - ratings",
-          "summary": "纽卡斯尔联在主教练贾伊斯勒的首场比赛中2-1击败瓦伦西亚，前锋维萨梅开二度。尽管球队赢得奖杯，但贾伊斯勒表示并不打算“砸碎更衣室”。",
+          "summary": "新帅马蒂亚斯·贾伊斯勒执教纽卡斯尔的首场比赛以 2-1 击败瓦伦西亚告终，前锋维萨梅开二度。",
           "source": "BBC Football",
           "published": "2026-08-08",
           "url": "https://www.bbc.co.uk/sport/football/articles/c4gk75keg1lo?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联在主教练马蒂亚斯·贾伊斯勒的首秀中主场2-1击败瓦伦西亚，前锋约阿内·维萨梅开二度。尽管球队赢得奖杯，但贾伊斯勒表示并不打算“砸碎更衣室”。",
-          "analysis": "贾伊斯勒的首秀胜利为纽卡斯尔注入了新的希望，维萨的出色表现证明了他作为新援的价值。然而，球队能否在赛季中保持这种状态将是关键考验。",
+          "overview": "在贾伊斯勒执掌纽卡斯尔联后的首场正式比赛中，球队客场 2-1 战胜瓦伦西亚。新援维萨表现出色，贡献两粒进球，图雷也有亮眼发挥。尽管取得了胜利，贾伊斯勒表示并不打算“砸碎更衣室”来庆祝。",
+          "analysis": "贾伊斯勒的首秀即胜为新赛季注入了信心，维萨的加盟似乎立竿见影，但纽卡需要在联赛开始前的热身赛中保持这种节奏。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "维萨这赛季买得值！贾伊斯勒首战就赢球，虽然没砸更衣室，但这态度很稳。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "英超主教练从未如此不“英格兰化”、未夺冠或职位不稳",
+          "title_zh": "英超教练从未如此不“英格兰”、未夺冠或职位不稳",
           "eng": "Premier League managers have never been less English, title-winning or secure in their jobs",
-          "summary": "2026-27赛季将有11支英超俱乐部由执教不到一年的新教练带队，这是联赛历史上转会频率最高的时期之一。",
+          "summary": "巨大的换帅频率意味着 2026-27 赛季将有 11 支俱乐部由执教不足一年的新教练领衔。",
           "source": "Guardian Football",
           "published": "2026-08-08",
           "url": "https://www.theguardian.com/football/2026/aug/08/premier-league-managers-have-never-been-less-english-title-winning-or-secure-in-their-jobs",
-          "overview": "2026-27赛季将有11支英超俱乐部由执教不到一年的新教练带队，这是联赛历史上转会频率最高的时期之一。Opta数据显示，只有1888-89和1946-47赛季的开局阵容更换次数与之相当。",
-          "analysis": "英超主教练的高流动率反映了俱乐部对短期成绩的追求，但也可能影响球队的长期稳定性和战术连贯性。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "西汉姆联在卡拉宝杯中击败朴茨茅斯——沙利文无视建议出席",
-          "eng": "West Ham sink Pompey in Carabao Cup as Sullivan ignores advice to stay away",
-          "summary": "西汉姆联在卡拉宝杯首轮轻松战胜朴茨茅斯，俱乐部大股东沙利文不顾体育场运营方的反对出席比赛。",
-          "source": "Guardian Football",
-          "published": "2026-08-08",
-          "url": "https://www.theguardian.com/football/2026/aug/08/west-ham-portsmouth-carabao-cup-first-round-match-report",
-          "overview": "西汉姆联在卡拉宝杯首轮比赛中以较大优势击败朴茨茅斯，确保了晋级。俱乐部大股东沙利文不顾体育场运营方的建议出席比赛，尽管他面临严重的指控和公众舆论的压力。",
-          "analysis": "沙利文的出席为比赛增添了戏剧性色彩，但西汉姆联在赛场上的表现才是球迷关注的焦点。球队能否在赛季中保持竞争力将是关键考验。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "弗雷德里克·理查德赢得美国体操锦标赛全能冠军",
-          "eng": "Fred Richard coasts to first national title at US gymnastics championships",
-          "summary": "22岁的弗雷德里克·理查德以总分170.015分、领先第二名两分的优势，赢得了美国男子体操团体全能冠军。",
-          "source": "Guardian Sport",
-          "published": "2026-08-09",
-          "url": "https://www.theguardian.com/sport/2026/aug/09/frederick-richard-us-gymnastics-all-around-title",
-          "overview": "这位在巴黎奥运会获得团体铜牌的选手展示了冲击2028洛杉矶奥运会的潜力。他在两天的比赛中表现出色，成功登顶美国体操锦标赛男子全能榜。",
-          "analysis": "作为年轻一代的领军人物，他的表现证明了美国男子体操队的竞争力。这一胜利标志着他从巴黎周期的低谷中迅速反弹，为未来的国际大赛奠定了基础。",
+          "overview": "Opta 数据显示，英超 20 支球队中有 9 支将在新赛季启用不同的主教练，这一换帅频率仅次于 1888-89 和 1946-47 两个赛季。这标志着英超历史上教练职位最不稳定、夺冠前景最不确定的时期之一。",
+          "analysis": "频繁换帅反映出俱乐部在竞技成绩上的焦虑，但也可能带来战术风格的混乱，新赛季的冠军争夺将充满变数。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "理查德的表现令人印象深刻，他在巴黎奥运会上的团体铜牌经历让他更加成熟，全能冠军的争夺战非常激烈。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "两分优势夺冠说明他在多个项目上都有稳定发挥，这对冲击2028洛杉矶奥运会来说是一个积极的信号。"
+              "text": "每换一个教练就少一个冠军，英超这换帅速度真是前无古人了。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "阿根廷传奇球星梅西的父亲兼经纪人豪尔赫·梅西去世，享年68岁",
+          "title_zh": "布伦南·吉马良斯加盟阿森纳，为阿尔特塔中场提供新选择",
+          "eng": "Versatile Bruno Guimarães gives Mikel Arteta options to shuffle midfield pack | Ed Aarons",
+          "summary": "纽卡斯尔球员布伦南·吉马良斯以 7500 万英镑转会费加盟阿森纳，其多面手属性为阿尔特塔的中场调度提供了更多可能性。",
+          "source": "Guardian Football",
+          "published": "2026-08-08",
+          "url": "https://www.theguardian.com/football/2026/aug/08/bruno-guimaraes-mikel-arteta-arsenal-options-midfield",
+          "overview": "巴西中场吉马良斯正式成为阿森纳的新援，转会费高达 7500 万英镑。他在纽卡斯尔期间以多面手著称，既能防守也能创造机会，这为阿尔特塔在进攻端打破低位防守提供了新的战术选项。",
+          "analysis": "这笔交易被视为阿尔特塔的又一笔精妙操作，吉马良斯的到来将显著提升阿森纳中场的控制力和创造力，但能否适应英超节奏仍需验证。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "7500 万买吉马良斯，阿尔特塔的眼光还是一如既往的毒辣，中场终于有帮手了。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "阿根廷巨星梅西父亲兼经纪人豪尔赫·梅西去世，享年68岁",
           "eng": "Jorge Messi, father and agent of Argentina great, dies aged 68",
-          "summary": "梅西的父亲和长期经纪人豪尔赫·梅西在罗萨里奥的一家医疗诊所因病去世，享年68岁。",
+          "summary": "阿根廷足球传奇里奥·梅西的父亲和长期经纪人豪尔赫·梅西在罗萨里奥的一家医疗诊所去世，享年68岁。梅西家族已确认死讯，其子女包括罗德里戈、马蒂亚斯和玛丽亚·索尔均陪伴在侧。",
           "source": "Guardian Sport",
           "published": "2026-08-08",
           "url": "https://www.theguardian.com/football/2026/aug/08/jorge-messi-dies-father-agent-lionel-messi-argentina-inter-miami",
-          "overview": "梅西家族已宣布这一消息，他在生命的最后几个月在医疗中心和家中之间交替生活。他的妻子塞莉亚和孩子们罗德里戈、马蒂亚斯和马利亚·索尔一直陪伴在他身边。",
-          "analysis": "这对梅西及其家人来说是一个巨大的打击，他不仅是家庭支柱也是俱乐部层面的关键人物。这一事件再次提醒人们顶级运动员背后的家庭牺牲和支持的重要性。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "梅西的父亲不仅是他的经纪人，更是他职业生涯中最重要的支持者之一，这个消息让无数粉丝感到悲痛。"
-            },
-            {
-              "who": "体育记者",
-              "text": "豪尔赫·梅西在阿根廷足球界有着深远的影响，他的去世标志着一个时代的结束，对梅西的经纪生涯也将产生重大影响。"
-            }
-          ],
+          "overview": "豪尔赫·梅西在长期患病后于医疗诊所去世，其妻子塞莉亚和三个孩子一直陪伴左右。里奥·梅西在父亲弥留之际曾前往探望。这一消息由梅西家族正式对外公布，引发全球足球界哀悼。",
+          "analysis": "作为阿根廷足球历史上最具影响力的人物之一，豪尔赫·梅西不仅是梅西父亲的私人医生和经纪人，更是推动梅西职业生涯的关键人物。他的去世标志着阿根廷足球一个时代的终结，对梅西本人及整个足球世界都是重大损失。",
           "region": "综合"
         },
         {
-          "title_zh": "国际足联批评针对主席因凡蒂诺的罢免运动",
+          "title_zh": "国际足联强烈批评针对主席因凡蒂诺的罢免运动",
           "eng": "Fifa criticises campaign to oust president Infantino",
-          "summary": "国际足联强烈谴责了旨在“破坏”其组织和主席扬尼·因凡蒂诺地位的所谓“协调且持续的行动”。",
-          "source": "BBC Sport",
-          "published": "2026-08-08",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
-          "overview": "随着对因凡蒂诺的压力增加，国际足联发表声明称存在外部势力试图动摇其领导地位。这一事件反映了足球治理中日益加剧的政治化趋势和内部权力斗争的公开化。",
-          "analysis": "国际足联的这一表态旨在维护其现任主席的权威，但外界对于因凡蒂诺未来去留的讨论仍在继续。这显示了全球足球管理机构在应对政治压力时的复杂立场。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "国际足联总是试图控制舆论，这种批评运动可能只是他们维护自身利益的一种手段。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "因凡蒂诺面临的压力来自多方面，国际足联的回应虽然强硬，但并不能完全消除外界对其领导能力的质疑。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "WNBA球员卡林顿在犯规后被驱逐并社交媒体发文引发争议",
-          "eng": "Sky's DiJonai Carrington posts 'white privilege' after ejection for hard foul on Sophie Cunningham",
-          "summary": "芝加哥天空队球员迪乔奈·卡林顿在对阵印第安纳狂热队的比赛中因二级恶意犯规被驱逐，随后在社交媒体上发布了“白人特权”字样。",
-          "source": "Guardian Sport",
-          "published": "2026-08-08",
-          "url": "https://www.theguardian.com/sport/2026/aug/08/sophie-cunningham-foul-dijonai-carrington-ejected-wnba",
-          "overview": "该事件引发了关于种族和体育执法的广泛讨论，卡林顿是黑人球员，而受害者索菲·坎宁安是白人球员。这一事件凸显了WNBA中日益紧张的种族关系以及社交媒体时代运动员言论对职业生涯的影响。",
-          "analysis": "这一事件不仅涉及赛场上的犯规行为，更触及了社会敏感的种族议题。卡林顿的社交媒体发言可能对其职业生涯产生深远影响，同时也引发了关于如何处理此类争议的讨论。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "这场比赛中的犯规和随后的社交媒体事件令人震惊，这不仅仅是体育问题，更是社会问题。"
-            },
-            {
-              "who": "WNBA评论员",
-              "text": "卡林顿的行为在赛场上是严重的违规，但她在社交媒体上的发言进一步加剧了争议，这对她的职业形象造成了巨大打击。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "辛普森在威廉姆森重赛中复仇，夺回英联邦超级中量级头衔",
-          "eng": "Simpson avenges only loss in Williamson rematch",
-          "summary": "卡勒姆·辛普森通过一致判定击败特洛伊·威廉姆森，成功夺回了英国和英联邦超级中量级冠军头衔。",
-          "source": "BBC Sport",
-          "published": "2026-08-08",
-          "url": "https://www.bbc.co.uk/sport/boxing/articles/c7vgjdry18jo?at_medium=RSS&at_campaign=rss",
-          "overview": "这是辛普森在与威廉姆森的系列赛中的第二次交锋，他此前曾输掉过一次比赛。这场胜利巩固了辛普森在该级别中的地位，展示了他在 rematch 中的心理优势和技术提升。",
-          "analysis": "拳击比赛中，重赛的胜负往往取决于运动员的心理状态和战术调整。辛普森的胜利表明他在面对强劲对手时能够保持冷静并发挥出色。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "辛普森在重赛中展现了强大的心理素质和竞技水平，这场胜利让他重新夺回了属于自己的冠军头衔。"
-            },
-            {
-              "who": "拳击评论员",
-              "text": "威廉姆森是一位非常有实力的对手，但辛普森在这场战斗中找到了制胜的关键，他的表现令人印象深刻。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "纽卡斯尔联队赢得奖杯，主帅贾伊斯勒赛后保持冷静",
-          "eng": "Jaissle starts with win but not planning to 'smash locker room'",
-          "summary": "纽卡斯尔联队在比赛中获胜并捧起奖杯，主教练马蒂亚斯·贾伊斯勒在胜利之夜保持了克制。",
-          "source": "BBC Sport",
-          "published": "2026-08-08",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3049pl53yyo?at_medium=RSS&at_campaign=rss",
-          "overview": "尽管球队取得了重要成就，但教练并未表现出过度兴奋或破坏更衣室纪律的行为。这反映了俱乐部管理层对年轻教练的期望，即在取得成绩的同时保持职业素养和团队稳定性。",
-          "analysis": "纽卡斯尔联队的这一胜利对于球队来说意义重大，而贾伊斯勒的表现则展示了他在管理球队情绪方面的成熟度。这对于一支正在重建中的球队来说是至关重要的品质。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "贾伊斯勒在赢得奖杯后依然保持冷静，这种职业素养赢得了俱乐部管理层和球迷的尊重。"
-            },
-            {
-              "who": "体育记者",
-              "text": "纽卡斯尔联队的这一胜利是球队重建过程中的重要里程碑，而贾伊斯勒的表现则为未来的发展奠定了良好的基础。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "诺里在蒙特利尔大师赛中挽救赛点逆转击败德米纳尔",
-          "eng": "Norrie saves match point in superb Montreal fightback",
-          "summary": "英国选手卡梅隆·诺里在加拿大公开赛中挽救了一个赛点，以出色的反击击败了世界第七亚历克斯·德米纳尔。",
-          "source": "BBC Tennis",
-          "published": "2026-08-07",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr7kl7jxv59o?at_medium=RSS&at_campaign=rss",
-          "overview": "这场胜利展示了诺里的韧性和高水平竞技状态，他在比赛中展现了强大的心理素质。诺里在蒙特利尔大师赛中的表现让他成为巡回赛中的热门人选。",
-          "analysis": "诺里的表现让他成为巡回赛中的热门人选，他的逆转能力是他在顶级赛事中脱颖而出的关键因素。这场胜利也证明了他能够在关键时刻保持冷静并发挥出色。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "诺里在蒙特利尔大师赛中的表现令人印象深刻，他挽救赛点的逆转展示了他在顶级赛事中的竞争力。"
-            },
-            {
-              "who": "网球评论员",
-              "text": "德米纳尔是世界第七的选手，但诺里在这场战斗中展现了出色的技术和心理素质，他的胜利是实至名归的。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "阿尔卡拉斯因手腕伤势退出辛辛那提公开赛",
-          "eng": "Alcaraz out of Cincinnati Open with lingering injury",
-          "summary": "西班牙网球名将卡洛斯·阿尔卡拉斯因手腕伤势持续困扰而退出了辛辛那提公开赛。",
-          "source": "BBC Tennis",
-          "published": "2026-08-04",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c20e1723pdno?at_medium=RSS&at_campaign=rss",
-          "overview": "这是阿尔卡拉斯自受伤以来缺席比赛的又一例证，分析指出手腕伤病的恢复过程非常困难且漫长。这一伤病对阿尔卡拉斯的赛季表现造成了重大影响，也引发了关于顶级运动员如何管理慢性伤病的讨论。",
-          "analysis": "阿尔卡拉斯的伤势对他的职业生涯是一个重大挑战，手腕伤病的恢复需要时间和耐心。这场退赛也让其他选手有机会在巡回赛中争夺更多的积分和排名提升。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "阿尔卡拉斯的伤势令人担忧，他的缺席让许多粉丝感到失望，但也提醒我们顶级运动员的健康是多么重要。"
-            },
-            {
-              "who": "网球评论员",
-              "text": "手腕伤病对网球选手来说是一个常见的挑战，但阿尔卡拉斯的情况似乎更加复杂，需要更多的时间来恢复和适应比赛节奏。"
-            }
-          ],
+          "summary": "国际足联对旨在推翻其主席詹尼·因凡蒂诺的运动发出严厉警告，称其为",
           "region": "综合"
         }
       ],
@@ -1477,242 +1362,220 @@
         {
           "title_zh": "AnyDoc：多格式文档转Markdown",
           "eng": "firecrawl/anydoc",
-          "summary": "将Word、PPT、Excel、PDF等十余种办公文档格式一键转换为干净的Markdown，内置Rust引擎并支持Node.js和Python绑定。",
+          "summary": "将Word、PowerPoint、Excel、PDF等10+种办公文档格式转换为干净的Markdown，用Rust构建并支持Node.js和Python绑定。",
           "source": "GitHub",
-          "stars": 12227,
+          "stars": 12253,
           "lang": "Rust",
           "published": "2026-08-03",
           "url": "https://github.com/firecrawl/anydoc",
-          "overview": "AnyDoc是一个高性能文档转换工具，支持Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等多种格式输出为结构化Markdown。采用Rust编写保证性能，同时提供Node.js和Python绑定方便集成到各类AI工作流中，是数据清洗和知识库构建的利器。",
-          "analysis": "12K+星标说明社区认可度极高，文档转Markdown是AI Agent处理企业数据的刚需场景，Rust高性能引擎使其在批量转换场景下优势明显，对构建RAG、知识图谱等AI应用有直接价值。",
+          "overview": "AnyDoc是一个高性能文档转换工具，支持Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等多种格式输出为Markdown。采用Rust编写确保性能，同时提供Node.js和Python绑定方便集成。对于需要处理大量办公文档的团队来说，它能显著提升数据清洗效率。",
+          "analysis": "12000+星标说明社区认可度极高。在AI Agent时代，结构化文档输入是核心需求，AnyDoc解决了从非结构化办公文档到机器可读格式的关键痛点，适合构建知识库、RAG系统等场景。",
           "social": [
             {
               "who": "开发者",
-              "text": "替代了之前需要多个工具拼接的文档处理流程，一个工具搞定所有格式，集成到数据处理管道非常方便。"
+              "text": "处理大量PDF和Word转Markdown的需求终于有了高性能方案，Rust性能确实出色"
             },
             {
-              "who": "AI应用构建者",
-              "text": "RAG系统的第一步就是文档解析，这个工具让非结构化文档直接变成可索引的Markdown，极大简化了数据准备环节。"
+              "who": "研究者",
+              "text": "对构建企业知识库很有帮助，多格式支持覆盖了大部分办公场景"
             }
           ]
         },
         {
-          "title_zh": "Human Writing：让AI写作更像真人",
+          "title_zh": "Human Writing：让AI写作更像人写的中文",
           "eng": "KKKKhazix/human-writing",
           "summary": "通用创作与改稿Skill，让AI生成的中文内容读起来像一个具体的人在说话，开箱即用。",
           "source": "GitHub",
-          "stars": 1998,
+          "stars": 2003,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "这是一个专注于中文内容去AI味的Skill工具，通过特定的提示词工程和改写策略，让大模型生成的文本摆脱模板化、机械化特征。支持通用创作和改稿两种模式，可直接集成到Claude等平台的Skills系统中使用。",
-          "analysis": "随着AI生成内容的泛滥，'去AI味'成为内容创作者的刚需痛点，该项目精准解决了中文语境下的表达自然度问题，对自媒体运营、营销文案等有直接实用价值。",
+          "overview": "这是一个专注于中文AI写作风格优化的Skill，能够调整AI生成内容的语气、节奏和表达方式，使其更接近真人写作。支持通用创作与改稿场景，无需复杂配置即可使用。对于需要高质量中文内容输出的团队来说非常实用。",
+          "analysis": "随着AI生成内容泛滥，如何让输出更自然成为关键挑战。这个工具直击痛点，特别适合自媒体运营和内容营销场景。2000+星标说明需求真实存在。",
           "social": [
             {
               "who": "内容创作者",
-              "text": "终于有一个专门针对中文优化的去AI味工具了，之前用英文的改写技巧效果不好，这个开箱即用很省心。"
+              "text": "终于有工具专门解决中文AI写作'机器味'的问题了"
             },
             {
-              "who": "Skill开发者",
-              "text": "作为Claude Skill生态的一部分，这种垂直场景的Prompt工程做得很扎实，值得参考其改写策略。"
+              "who": "开发者",
+              "text": "作为Skill设计得很简洁，集成到现有工作流很方便"
             }
           ]
         },
         {
-          "title_zh": "Open Kimi PPT Skill：AI一键生成可编辑PPT",
+          "title_zh": "Open Kimi PPT Skill：AI生成可编辑PPT",
           "eng": "Binaryify/open-kimi-ppt-skill",
-          "summary": "非官方Kimi Slides Skill，让AI Agent直接生成可编辑的PPTD和PPTX文件，并附带本地浏览器编辑器。",
+          "summary": "非官方Kimi Slides Skill，让AI Agent生成可编辑的PPTD和PPTX文件，并附带本地浏览器编辑器。",
           "source": "GitHub",
-          "stars": 1591,
+          "stars": 1592,
           "lang": "",
           "published": "2026-08-05",
           "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-          "overview": "这是一个非官方的Kimi Slides集成Skill，核心能力是让AI Agent直接输出可编辑的PPTD和PPTX格式文件。项目还附带了一个本地浏览器编辑器，用户无需安装额外软件即可在网页端预览和修改生成的演示文稿。",
-          "analysis": "PPT生成是AI办公场景的高频需求，该项目将Kimi的演示能力开源化，降低了使用门槛，对需要批量制作汇报材料的职场人士很有价值。",
+          "overview": "这是一个非官方的Kimi Slides Skill，能够指导AI Agent生成可编辑的PPTD和PPTX格式演示文稿。附带本地浏览器编辑器，用户可以直接在浏览器中预览和修改生成的PPT内容。支持多种主题和布局风格。",
+          "analysis": "1500+星标显示开发者社区对AI辅助制作演示文稿的需求旺盛。非官方Skill的灵活性使其能适配不同场景，适合快速原型设计和内部汇报。",
           "social": [
             {
-              "who": "职场开发者",
-              "text": "之前用Kimi做PPT只能导出图片，现在可以直接拿到可编辑文件，配合浏览器编辑器修改很方便。"
+              "who": "产品经理",
+              "text": "用AI生成PPT初稿再人工精修，效率提升了好几倍"
             },
             {
-              "who": "AI工具爱好者",
-              "text": "非官方Skill生态的活力很强，这种桥接能力和原生API的体验差距正在快速缩小。"
+              "who": "开发者",
+              "text": "非官方Skill的好处是可以自由定制，不受平台限制"
             }
           ]
         },
         {
-          "title_zh": "Awesome Growth Hacking Skills：AI Agent增长黑客技能集",
+          "title_zh": "Awesome Growth Hacking Skills：AI增长黑客技能集",
           "eng": "mikiarlo3/awesome-growth-hacking-skills",
-          "summary": "为Claude、ChatGPT、Manus等AI Agent精选的增长黑客Skill合集，帮助开发者快速找到自动化获客方案。",
+          "summary": "为Claude、ChatGPT、Manus等AI工具整理的增长黑客Skill合集，帮助团队用AI驱动用户增长。",
           "source": "GitHub",
-          "stars": 770,
+          "stars": 771,
           "lang": "Shell",
           "published": "2026-08-04",
           "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
-          "overview": "这是一个精心策划的AI Agent增长黑客Skill资源库，收录了适用于Claude、ChatGPT和Manus等主流平台的自动化获客与增长策略。每个Skill都针对具体的增长场景（如社交媒体推广、邮件营销、SEO优化）进行了结构化封装，方便开发者直接调用。",
-          "analysis": "在AI Agent时代，增长黑客的工作流正在被重新定义，这个合集为营销团队和独立开发者提供了即插即用的自动化方案，降低了使用门槛。",
+          "overview": "这是一个精心整理的增长黑客Skill集合，涵盖用户获取、留存优化、转化提升等核心增长场景。支持Claude、ChatGPT和Manus等多个AI Agent平台，每个Skill都针对特定增长策略设计。由enso.bot团队维护更新。",
+          "analysis": "在AI Agent时代，增长黑客方法论与AI工具的结合产生了新的可能性。这个合集降低了使用门槛，让非技术背景的增长人员也能借助AI快速执行增长实验。",
           "social": [
             {
-              "who": "独立开发者",
-              "text": "一个人也能用AI Agent跑通完整的增长闭环了，这些Skill覆盖了从内容分发到用户留存的关键环节。"
+              "who": "运营人员",
+              "text": "把增长策略变成可复用的Skill，团队效率提升明显"
             },
             {
-              "who": "营销从业者",
-              "text": "传统增长黑客需要大量人力执行的任务现在可以用Prompt直接驱动，效率提升非常明显。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Gemma Translator：Google Gemma翻译工具",
-          "eng": "google-gemma/gemma-translator",
-          "summary": "基于Google Gemma模型的翻译工具，为开发者提供轻量级的本地化翻译能力。",
-          "source": "GitHub",
-          "stars": 593,
-          "lang": "JavaScript",
-          "published": "2026-08-03",
-          "url": "https://github.com/google-gemma/gemma-translator",
-          "overview": "这是Google官方基于Gemma模型构建的翻译工具，采用JavaScript实现，支持在浏览器端直接运行。作为开源翻译方案，它提供了比传统API更灵活的本地化部署能力，适合对数据隐私有要求的场景。",
-          "analysis": "Google将Gemma用于翻译领域是一个值得关注的方向，开源翻译工具在边缘计算和离线场景中具有独特优势，该项目为开发者提供了另一种选择。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "浏览器端直接运行翻译模型是个有趣的方向，对于需要离线或低延迟翻译的场景很有吸引力。"
-            },
-            {
-              "who": "数据隐私关注者",
-              "text": "相比调用第三方API，本地化部署的翻译方案在合规和数据安全方面更有保障。"
+              "who": "研究者",
+              "text": "AI+增长的交叉领域值得持续关注，这个合集是很好的入门资源"
             }
           ]
         },
         {
           "title_zh": "Lingxi：开源跨境出海平台",
           "eng": "wumingqi60/lingxi",
-          "summary": "灵犀跨境-开源共建版，面向跨境电商的SaaS平台，支持多语言、多币种和全球物流管理。",
+          "summary": "灵犀跨境-开源共建版，面向跨境电商的开源平台工具。",
           "source": "GitHub",
-          "stars": 592,
+          "stars": 610,
           "lang": "TypeScript",
           "published": "2026-08-03",
           "url": "https://github.com/wumingqi60/lingxi",
-          "overview": "Lingxi是一个开源的跨境电商平台，基于TypeScript构建，提供多语言、多币种支付和全球物流管理等功能。项目采用开源共建模式，允许开发者参与功能扩展和本地化适配，适合中小卖家快速搭建出海业务。",
-          "analysis": "跨境电商是持续增长的市场需求，开源方案降低了技术门槛，让非技术背景的创业者也能快速启动海外业务，社区共建模式保证了持续迭代能力。",
+          "overview": "Lingxi是一个开源的跨境电商平台，支持多平台店铺管理、商品上架、订单处理等核心功能。采用TypeScript构建，便于二次开发和集成。开源共建模式让社区可以共同完善产品功能。",
+          "analysis": "跨境电商赛道持续增长，开源方案降低了中小卖家的技术门槛。TypeScript生态成熟，后续维护和扩展都有保障。600+星标说明有真实用户在使用。",
           "social": [
             {
-              "who": "电商从业者",
-              "text": "之前用Shopify月费很高，这个开源方案可以按需部署，成本可控很多。"
+              "who": "开发者",
+              "text": "TypeScript开发体验好，文档齐全，适合团队快速上手"
             },
             {
-              "who": "全栈开发者",
-              "text": "TypeScript技术栈对前端友好，文档和社区都在积极建设中，适合想入局跨境电商的开发者。"
+              "who": "创业者",
+              "text": "开源方案省去了大量定制开发成本，可以专注业务运营"
             }
           ]
         },
         {
-          "title_zh": "ASM Hall of Shame：汇编性能极限挑战",
+          "title_zh": "ASM Hall of Shame：CPU性能极限探索",
           "eng": "xoreaxeaxeax/asm-hall-of-shame",
-          "summary": "汇编语言CPU性能基准测试集合，记录各种'打破底线'的极端优化案例。",
+          "summary": "汇编语言编写的CPU性能极限测试集合，展示各种极端优化技巧对处理器性能的微妙影响。",
           "source": "GitHub",
-          "stars": 567,
+          "stars": 569,
           "lang": "C",
           "published": "2026-08-06",
           "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-          "overview": "这是一个汇编语言性能极限的展示仓库，收录了大量'打破底线'的CPU优化案例。项目由知名汇编专家xoreaxeaxeax维护，展示了从指令级并行到微架构利用的各种极端优化技巧，是底层系统编程的重要参考资源。",
-          "analysis": "在AI和云计算时代，底层性能优化依然重要，这个项目为系统程序员提供了宝贵的汇编优化灵感，适合对CPU微架构感兴趣的开发者深入学习。",
+          "overview": "这是一个汇编级CPU性能测试集合，通过精心设计的汇编代码探索处理器微架构的边界。每个示例都展示了特定优化技巧（如指令重排、缓存利用）对实际性能的影响。作者xoreaxeaxeax是知名的底层系统研究者。",
+          "analysis": "在AI芯片和边缘计算时代，理解CPU微架构比以往更重要。这个集合既是学术资源也是工程参考，帮助开发者避免过度优化陷阱。500+星标说明社区认可其教育价值。",
           "social": [
             {
-              "who": "系统程序员",
-              "text": "这些汇编技巧虽然极端，但理解它们有助于更好地把握编译器优化的边界在哪里。"
+              "who": "系统研究者",
+              "text": "汇编级性能测试的标杆项目，每个案例都值得深入研究"
             },
             {
-              "who": "性能工程师",
-              "text": "当C/C++优化遇到瓶颈时，汇编级别的思考方式能提供新的突破口。"
+              "who": "开发者",
+              "text": "避免盲目优化CPU密集型代码的好参考，很有教育意义"
             }
           ]
         },
         {
           "title_zh": "Awesome Free AI Course Notes：全球顶尖AI课程笔记合集",
           "eng": "MarcosSete/awesome-free-ai-course-notes",
-          "summary": "精选MIT等世界顶级大学的机器学习与AI课程公开讲义，帮助学习者获取最优质的教育资源。",
+          "summary": "汇集MIT等世界顶级大学机器学习与AI课程的免费讲座笔记，帮助学习者获取优质教育资源。",
           "source": "GitHub",
-          "stars": 560,
+          "stars": 563,
           "lang": "",
           "published": "2026-08-03",
           "url": "https://github.com/MarcosSete/awesome-free-ai-course-notes",
-          "overview": "这是一个精心策划的免费AI课程笔记资源库，收录了MIT、斯坦福等世界顶级大学的机器学习与人工智能公开讲义。项目整理了从基础到进阶的系统化学习路径，让学习者无需付费即可获取与顶尖机构学生相同的教育资源。",
-          "analysis": "AI教育资源的可及性一直是行业痛点，这个合集将分散的公开课程资料系统化整理，对自学者和预算有限的开发者有极大帮助，是高质量的入门和进阶资源。",
+          "overview": "这是一个精心整理的免费AI课程笔记集合，涵盖机器学习、深度学习、自然语言处理等核心领域。笔记来源包括MIT、斯坦福等世界顶级大学，内容质量高且系统化。持续更新维护，是AI学习者的宝贵资源库。",
+          "analysis": "AI教育资源的可及性一直是行业痛点，这个合集降低了学习门槛。对于预算有限的学习者和教育机构来说非常有价值。500+星标说明需求广泛。",
           "social": [
             {
-              "who": "AI学习者",
-              "text": "MIT的课程笔记终于被系统整理了，不用自己到处找PDF，一个仓库搞定所有核心内容。"
+              "who": "学生",
+              "text": "免费获取MIT级别的课程笔记，对自学AI帮助很大"
             },
             {
-              "who": "教育研究者",
-              "text": "这些讲义代表了当前AI教育的最高水平，对课程设计者和教材编写者也有参考价值。"
+              "who": "教育者",
+              "text": "整理成结构化资源后可以直接用于教学参考"
             }
           ]
         },
         {
-          "title_zh": "JoyAI-Video-Edit：实时开放视频编辑",
+          "title_zh": "JoyAI Video Edit：实时开放视频编辑",
           "eng": "jd-opensource/JoyAI-Video-Edit",
           "summary": "基于自回归扩散模型的实时开放式视频编辑工具，支持自然语言指令驱动的视频内容修改。",
           "source": "GitHub",
-          "stars": 529,
+          "stars": 537,
           "lang": "Python",
           "published": "2026-08-04",
           "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
-          "overview": "这是京东开源的视频编辑项目，采用自回归扩散模型实现实时开放式视频编辑。用户可以通过自然语言指令驱动视频内容的修改和生成，支持多种编辑场景如物体替换、风格迁移等，是AIGC在视频领域的最新探索。",
-          "analysis": "视频AI编辑是当前最热门的技术方向之一，该项目将京东的算力优势与开源社区结合，为开发者提供了可复用的视频编辑框架，对内容创作者和媒体行业有直接价值。",
+          "overview": "JoyAI Video Edit是一个基于自回归扩散模型的视频编辑工具，支持通过自然语言指令实时修改视频内容。采用Python实现，由京东开源团队开发。能够处理复杂的视频编辑任务，如对象替换、场景变换等。",
+          "analysis": "视频生成和编辑是AI领域最热门的方向之一。这个项目的'自回归扩散'技术路线代表了前沿探索方向。500+星标说明社区对AI视频工具的关注度很高。",
           "social": [
             {
-              "who": "视频创作者",
-              "text": "用文字描述就能修改视频内容，比传统剪辑软件直观多了，降低了视频后期制作的门槛。"
+              "who": "开发者",
+              "text": "自回归扩散模型在视频编辑上的应用很有创新性"
             },
             {
-              "who": "AI研究者",
-              "text": "自回归扩散模型在视频编辑上的应用很有创新性，开源框架为后续研究提供了很好的基线。"
+              "who": "创作者",
+              "text": "用自然语言描述想改什么，比传统剪辑工具直观多了"
             }
           ]
         },
         {
-          "title_zh": "VirtualMacOniPad：iPad运行macOS",
+          "title_zh": "VirtualMacOniPad：在iPad上运行macOS",
           "eng": "nfzerox/VirtualMacOniPad",
-          "summary": "让iPad Pro和iPad Air运行完整的macOS系统，支持Xcode、Terminal等专业应用。",
+          "summary": "让iPad Pro（M1/M2芯片）直接运行macOS，支持Xcode、Terminal等专业应用。",
           "source": "GitHub",
           "stars": 526,
           "lang": "Objective-C",
           "published": "2026-08-03",
           "url": "https://github.com/nfzerox/VirtualMacOniPad",
-          "overview": "这是一个让iPad运行完整macOS系统的开源项目，支持在iPad Pro（M1/M2）和iPad Air（M1）上直接运行Xcode、Terminal等专业应用。项目基于Objective-C实现，需要iPadOS 16至16.3.1版本，打破了Apple设备生态的长期限制。",
-          "analysis": "虽然依赖特定系统版本存在局限性，但该项目展示了跨平台虚拟化的技术可能性，对移动开发者和创意工作者有吸引力，也引发了关于苹果生态封闭性的讨论。",
+          "overview": "这是一个突破性项目，让搭载M1/M2芯片的iPad Pro能够运行完整的macOS系统。支持Xcode、Terminal等苹果专业应用直接在设备上运行。需要iPadOS 16至16.3.1版本，目前处于早期阶段但潜力巨大。",
+          "analysis": "打破了iPad和Mac之间的生态壁垒，为移动开发者和创意工作者提供了全新可能性。虽然限制较多（特定芯片和系统版本），但技术突破意义重大。500+星标说明社区热情很高。",
           "social": [
             {
-              "who": "iPad开发者",
-              "text": "终于可以在iPad上跑Xcode了，虽然需要特定系统版本，但技术可行性已经证明了。"
+              "who": "开发者",
+              "text": "在iPad上直接写代码的梦想终于实现了，M1/M2性能确实给力"
             },
             {
-              "who": "移动平台研究者",
-              "text": "跨架构虚拟化一直是个难题，这个项目在ARM芯片上的macOS运行方案很有参考价值。"
+              "who": "研究者",
+              "text": "虚拟化技术在移动设备上的应用探索很有学术价值"
             }
           ]
         },
         {
-          "title_zh": "Swiftlet：Apple设备本地运行大模型",
+          "title_zh": "Swiftlet：Apple设备上本地运行大模型",
           "eng": "leonickson1/Swiftlet",
-          "summary": "基于Swift和Metal的运行时，让Qwen等大参数MoE模型在iPhone等Apple设备上本地流畅运行。",
+          "summary": "基于Swift和Metal的运行时，让Qwen 35B/80B等大模型在iPhone等苹果设备上本地推理。",
           "source": "GitHub",
           "stars": 462,
           "lang": "Swift",
           "published": "2026-08-03",
-          "url": "https://github.com/leonickson1/Swiftlet",
-          "overview": "Swiftlet是一个专为Apple设备设计的LLM运行时，基于Swift语言和Metal GPU加速。它通过流式传输专家权重从存储加载的方式，实现了35B和80B参数Qwen MoE模型在iPhone上的本地运行，大幅降低了内存占用。",
-          "analysis": "将大语言模型部署到移动设备是行业热点，Swiftlet的MoE架构优化思路值得借鉴，对隐私敏感场景（如医疗、金融）有重要应用价值，也推动了端侧AI的发展。",
+          "url": "https://github.com/Swiftlet",
+          "overview": "Swiftlet是一个创新的本地大模型推理框架，采用Swift语言和Metal GPU加速。支持Qwen 35B和80B等大规模混合专家模型在iPhone上运行，通过流式加载专家权重降低内存需求。这是目前已知最轻量的手机端LLM方案之一。",
+          "analysis": "端侧AI是行业趋势，Swiftlet在苹果生态中实现了大模型的本地化推理。462星标虽不算高但增长迅速，说明开发者社区对端侧AI的关注度在提升。技术路线独特，值得持续关注。",
           "social": [
             {
-              "who": "移动端开发者",
-              "text": "在iPhone上跑80B模型虽然还是挑战，但流式加载专家权重的思路很巧妙，内存占用控制得不错。"
+              "who": "开发者",
+              "text": "iPhone上跑80B模型？这个方案的技术细节很令人兴奋"
             },
             {
-              "who": "AI隐私倡导者",
-              "text": "数据不出设备对很多行业很重要，端侧大模型是解决这一问题的关键方向。"
+              "who": "研究者",
+              "text": "流式加载专家权重的思路巧妙，内存效率值得研究"
             }
           ]
         }
