@@ -1,23 +1,49 @@
 {
-  "generated_at": "2026-08-10T20:30:43+08:00",
+  "generated_at": "2026-08-10T21:36:42+08:00",
   "date": "2026-08-10",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-10 20:30",
-    "ai": "2026-08-10 20:30",
-    "voices": "2026-08-10 19:27",
-    "github": "2026-08-10 19:27",
-    "libraries": "2026-08-10 18:33",
-    "sports": "2026-08-10 20:30",
+    "hot": "2026-08-10 21:36",
+    "ai": "2026-08-10 21:36",
+    "voices": "2026-08-10 21:36",
+    "github": "2026-08-10 21:36",
+    "libraries": "2026-08-10 21:36",
+    "sports": "2026-08-10 21:36",
     "academic": "2026-08-08 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Meta回归开源：Muse Glimmer本地化、代理式、多模态模型发布",
+          "eng": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+          "summary": "Meta发布了全新开源模型Muse Glimmer，具备本地部署、自主代理能力和多模态处理特性。这一回归标志着Meta在AI开源领域的战略转向。",
+          "source": "Hugging Face",
+          "region": "美国/全球",
+          "published": "2026-08-10",
+          "tags": [
+            "Meta",
+            "开源模型",
+            "多模态"
+          ],
+          "url": "https://huggingface.co/blog/muse-glimmer",
+          "overview": "Muse Glimmer是Meta最新推出的开源AI模型，集成了本地运行、自主代理（agentic）和多模态处理三大核心能力。与Meta此前主要依赖闭源大模型的策略不同，这一发布标志着其回归开源生态。该模型旨在让开发者能够在本地设备上部署具备复杂任务执行能力的AI系统，同时支持文本、图像等多种输入输出格式。",
+          "analysis": "在Claude Code等商业AI代理产品快速迭代的背景下，Meta的开源策略为开发者和中小企业提供了更具性价比的选择。但开源模型的推理能力和安全性仍需社区验证，其实际表现可能与闭源版本存在差距。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "本地化部署意味着数据隐私和成本控制的双重优势，这对注重合规的欧洲企业和研究机构尤其有吸引力。"
+            },
+            {
+              "who": "开源社区成员",
+              "text": "Meta回归开源是积极信号，但需要关注模型的实际性能基准和安全评估是否透明公开。"
+            }
+          ]
+        },
         {
           "title_zh": "首个第三方 Android 应用商店正式登陆美国 Google Play",
           "eng": "The first rival Android app store just arrived in the US Play Store",
@@ -768,32 +794,6 @@
               "text": "如果能真正自动化公司运营的基础工作，这将彻底改变早期创业的成本结构。"
             }
           ]
-        },
-        {
-          "title_zh": "Suno计划为AI生成音乐添加水印以规范行业使用",
-          "eng": "Suno hopes to go legit with watermarks for AI-generated music",
-          "summary": "AI音乐平台Suno计划通过添加水印和限制下载量来防止大规模滥用，推动AI音乐走向正规化。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-08-06",
-          "tags": [
-            "Suno",
-            "AI音乐",
-            "水印技术"
-          ],
-          "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
-          "overview": "AI音乐生成平台Suno计划通过添加水印和限制下载量来防止大规模滥用，推动AI音乐走向正规化。这一举措旨在解决版权争议并建立行业信任标准。",
-          "analysis": "水印技术可能成为AI内容识别的重要工具，但如何平衡创作者权益和AI发展仍需持续探索。",
-          "social": [
-            {
-              "who": "音乐产业从业者",
-              "text": "AI音乐的水印机制有助于区分人类创作和AI生成内容，对版权保护有积极意义。"
-            },
-            {
-              "who": "技术政策研究者",
-              "text": "行业自发的规范措施可能比政府监管更有效率，但需要多方协作才能实现。"
-            }
-          ]
         }
       ]
     },
@@ -1227,210 +1227,314 @@
     "sports": {
       "items": [
         {
-          "title_zh": "欧足联、中北美及亚足联致公开信要求因凡蒂诺辞职",
+          "title_zh": "欧足联、亚足联和北美足联联名信要求因凡蒂诺辞职",
           "eng": "Uefa, Concacaf and AFC push for Infantino to quit and discuss rival competitions",
-          "summary": "三大洲足联联合向国际足联主席因凡蒂诺发出公开信，指责其通过欺骗破坏信任，要求他辞职并讨论竞争赛事问题。这是足球治理危机的重大升级。",
+          "summary": "三大洲足联联合致公开信，指控国际足联主席因凡蒂诺通过欺骗手段破坏信任。三方要求因凡蒂诺辞职并讨论竞争赛事问题，标志着围绕其“足球前进企业”计划失败的危机进一步升级。",
           "source": "Guardian Football",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/uefa-concacaf-afc-fifa-gianni-infantino-world-cup",
-          "overview": "欧足联、中北美及亚足联三大洲足联联合致信国际足联，公开谴责因凡蒂诺的“足球前进企业”计划失败，指责其通过欺骗破坏信任。信中呼吁领导层应服务于足球而非寻求指挥权，并讨论 rival competitions 问题。这是自 FIFA 主席丑闻曝光以来，治理危机进一步升级的标志性事件。",
-          "analysis": "三大洲足联罕见联手施压，标志着国际足联内部权力格局正在发生根本性变化，若因凡蒂诺辞职将重塑全球足球管理架构。",
+          "overview": "欧足联、亚足联和北美足联联合致公开信，指控国际足联主席因凡蒂诺通过欺骗手段破坏信任。三方要求因凡蒂诺辞职并讨论竞争赛事问题，标志着围绕其“足球前进企业”计划失败的危机进一步升级。这一事件被视为足球治理领域的一次重大对抗，北美的蒙塔利亚尼被认为是潜在的继任者之一。",
+          "analysis": "三大洲足联罕见联手施压，说明因凡蒂诺的争议已超出国际足联内部，成为全球足球治理的核心矛盾。若辞职成真，将引发国际足联权力交接及世界杯申办格局的重大变动。",
           "social": [
             {
-              "who": "足球治理观察员",
-              "text": "三大洲足联联合施压，标志着国际足联内部权力格局正在发生根本性变化。"
+              "who": "资深球迷",
+              "text": "这封信的分量很重，三大洲足联联手施压，因凡蒂诺的任期可能面临终结。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "‘足球服务于足球’而非寻求指挥权，这个口号直指FIFA体制的根本问题。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "伊劳拉执教利物浦初期阵型初现端倪",
-          "eng": "How Liverpool are shaping up under Iraola",
-          "summary": "在伊劳拉上任后的四场季前赛中，利物浦新帅正逐步打出自己的战术风格，BBC Sport 分析了球队目前的成型情况。",
-          "source": "BBC Football",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cx27gkmed3wo?at_medium=RSS&at_campaign=rss",
-          "overview": "Andoni Iraola 接手利物浦后，球队在四场季前赛中开始展现其独特的战术印记。尽管样本量有限，但 BBC Sport 指出新帅正试图将个人风格融入球队体系，为即将到来的英超新赛季做准备。",
-          "analysis": "伊劳拉以高位逼抢和快速转换著称，若能在赛季初稳定发挥，利物浦有望在新赛季冲击更高荣誉。",
-          "social": [
-            {
-              "who": "英超战术分析师",
-              "text": "四场季前赛虽然样本有限，但伊劳拉的体系雏形已经清晰可见。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "伊普斯维奇重返英超的转会策略能否成功？",
-          "eng": "Championship all-stars to global gamble – will Ipswich's approach work?",
-          "summary": "作为重返英超的球队，BBC Sport 审视了伊普斯维奇在转会市场上与传统豪门截然不同的操作方式。",
-          "source": "BBC Football",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
-          "overview": "伊普斯维奇在重返英超之际，采取了与传统英冠球队不同的转会策略。BBC Sport 深入分析了俱乐部如何在全球化市场中运作，试图通过独特的引援方式提升竞争力。",
-          "analysis": "冠军联赛全明星阵容的全球化运作面临巨大挑战，需观察其实际效果以及能否适应英超节奏。",
-          "social": [
-            {
-              "who": "英冠升级专家",
-              "text": "冠军联赛全明星阵容的全球化运作面临巨大挑战，需观察其实际效果。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿森纳紧急寻求中卫补强应对蒂尔曼和萨利巴缺阵",
-          "eng": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
-          "summary": "威廉·萨利巴在世界杯期间背部受伤长期缺席，朱里安·蒂尔曼也尚未恢复比赛状态，阿尔特塔正推动签下维拉的孔萨作为补强。",
-          "source": "Guardian Football",
-          "published": "2026-08-10",
-          "url": "https://www.theguardian.com/football/2026/aug/10/arsenal-defensive-backup-jurrien-timber-william-saliba-sidelined-transfer-window",
-          "overview": "阿森纳中卫防线面临双重危机，威廉·萨利巴在世界杯期间背部受伤将长期缺阵，朱里安·蒂尔曼也尚未恢复比赛状态。阿尔特塔透露现有球员需要提升表现，同时俱乐部正积极寻求签下阿斯顿维拉的孔萨作为补强。",
-          "analysis": "卫冕冠军防线面临严峻考验，新援能否尽快到位以及现有球员能否顶住压力是赛季初的关键看点。",
-          "social": [
-            {
-              "who": "阿森纳球迷",
-              "text": "萨利巴和蒂尔曼同时缺阵对卫冕冠军来说是个严峻考验，希望新援能尽快到位。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "埃弗顿与水晶宫达成布伦南·约翰逊和麦克尼尔互换协议",
-          "eng": "Crystal Palace and Everton agree Brennan Johnson-Dwight McNeil swap deal",
-          "summary": "埃弗顿与水晶宫正式敲定球员互换交易，麦克尼尔将转会至水晶宫，威尔士国脚约翰逊则反向加盟埃弗顿。这笔交易涉及半年前水晶宫以3500万英镑签下的麦克尼尔再次易主。",
-          "source": "Guardian Football",
-          "published": "2026-08-10",
-          "url": "https://www.theguardian.com/football/2026/aug/10/crystal-palace-everton-brennan-johnson-dwight-mcneil-transfer-roundup",
-          "overview": "埃弗顿与水晶宫正式达成布伦南·约翰逊和麦克尼尔的互换协议。这笔交易发生在麦克尼尔半年前以3500万英镑从热刺加盟水晶宫之后，当时其经纪人曾指控俱乐部在转会中干扰球员心理健康。如今双方重新敲定交易，标志着这一争议事件的阶段性解决。",
-          "analysis": "半年后再次易主引发外界对俱乐部运营策略的讨论，这笔交易背后的故事值得深挖。",
-          "social": [
-            {
-              "who": "转会市场评论员",
-              "text": "半年后再次易主引发外界对俱乐部运营策略的讨论，这笔交易背后的故事值得深挖。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼城接近签下布阿迪以缓解罗德里离队冲击",
+          "title_zh": "曼城接近签下8500万英镑的布阿迪以缓解罗德里离队冲击",
           "eng": "Manchester City closing in on £85m Bouaddi to soften blow of Rodri's expected exit",
-          "summary": "18岁的中场球员布阿迪已与曼城达成个人条款，俱乐部正与里尔敲定转会细节，此举旨在为罗德里可能加盟巴塞罗那铺平道路。",
+          "summary": "曼城新帅马雷斯卡正推动签下摩洛哥中场布阿迪，转会费约8500万英镑。此举旨在为罗德里预计加盟巴塞罗那铺平道路，同时让年轻球员融入一线队。",
           "source": "Guardian Football",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/manchester-city-85m-ayyoub-bouaddi-rodri-barcelona-transfer",
-          "overview": "曼城正接近以约8500万英镑从里尔签下18岁中场球员布阿迪，该球员已与俱乐部达成个人条款。这笔交易被视为为罗德里可能加盟巴塞罗那铺平道路的关键一步，里尔方面则标价约1亿欧元。",
-          "analysis": "这笔交易若成行将标志着曼城中场核心阵容的重大重组，同时也意味着巴萨在引援上的重大进展，英超格局或将因此改变。",
+          "overview": "曼城新帅马雷斯卡正推动签下摩洛哥国际球员布阿迪（Ayyoub Bouaddi），转会费约8500万英镑。此举旨在为罗德里预计加盟巴塞罗那铺平道路，同时让年轻中场融入一线队。双方仍在与里尔俱乐部敲定最终交易细节，个人条款已达成一致。",
+          "analysis": "马雷斯卡的建队思路越来越清晰：用年轻球员填补老将离队的空缺。布阿迪若能站稳脚跟，将为曼城中场注入新的活力和深度。",
           "social": [
             {
-              "who": "曼城球迷",
-              "text": "罗德里离队若成行将是英超格局的重大变动，布阿迪能否接棒是关键看点。"
+              "who": "解说/分析师",
+              "text": "布阿迪加盟后罗德里离队才更顺理成章，马雷斯卡的建队思路越来越清晰了。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "8500万英镑签一个18岁球员，这笔投资如果成功回报将是惊人的。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "\"生命线\"乒乓球场地临时重新开放",
+          "title_zh": "阿森纳在蒂姆贝尔和萨利巴缺阵时加大引援力度寻找防守替补",
+          "eng": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
+          "summary": "威廉·萨利巴在世界杯期间背部受伤将长期缺阵，尤里恩·蒂姆贝尔也尚未恢复比赛状态。阿尔特塔表示现有球员需提升表现，俱乐部正加大引援力度寻找防守替补。",
+          "source": "Guardian Football",
+          "published": "2026-08-10",
+          "url": "https://www.theguardian.com/football/2026/aug/10/arsenal-defensive-backup-jurrien-timber-william-saliba-sidelined-transfer-window",
+          "overview": "威廉·萨利巴在世界杯期间背部受伤将长期缺阵，尤里恩·蒂姆贝尔也尚未恢复比赛状态。阿尔特塔表示现有球员需提升表现，俱乐部正加大引援力度寻找防守替补，包括对维拉后卫孔萨的报价。此前阿森纳在友谊赛中以2-3负于多特蒙德，连续两场失利引发外界关注。",
+          "analysis": "双线伤缺核心中卫是赛季初最危险的信号之一。阿尔特塔需要现有球员迅速补位，否则防线漏洞可能影响联赛开局。",
+          "social": [
+            {
+              "who": "教练视角",
+              "text": "萨利巴和蒂姆贝尔同时缺阵是致命打击，孔萨的报价说明枪手对防线补强的决心。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "连续两场友谊赛失利加上核心伤停，赛季开局压力很大。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "伊普斯维奇以不同方式备战重返英超",
+          "eng": "Championship all-stars to global gamble – will Ipswich's approach work?",
+          "summary": "作为英冠冠军重返英超，伊普斯维奇在转会市场上采取了与以往不同的策略。BBC体育分析了他们如何以“全球豪赌”的方式备战新赛季。",
+          "source": "BBC Football",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
+          "overview": "伊普斯维奇作为英冠冠军重返英超，在转会市场上采取了与以往不同的策略。BBC体育分析了他们如何以“全球豪赌”的方式备战新赛季。这种大胆的市场操作能否在新赛季站稳脚跟，将是外界关注的焦点。",
+          "analysis": "从英冠冠军到英超新军，他们的引援策略确实大胆。关键在于阵容深度和战术磨合速度，这决定了他们能否避免重返顶级联赛后迅速滑落的命运。",
+          "social": [
+            {
+              "who": "解说/分析师",
+              "text": "从英冠冠军到英超新军，他们的引援策略确实大胆，能否站稳脚跟是关键考验。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "全球豪赌听起来很刺激，但英超的强度远超英冠，容错率很低。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "利物浦在伊劳拉执教下队形初现端倪",
+          "eng": "How Liverpool are shaping up under Iraola",
+          "summary": "新帅伊劳拉在四场季前赛中开始展现自己的执教风格。尽管样本量较小，但利物浦在战术和阵容上的初步变化已引起关注。",
+          "source": "BBC Football",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx27gkmed3wo?at_medium=RSS&at_campaign=rss",
+          "overview": "新帅伊劳拉在四场季前赛中开始展现自己的执教风格。尽管样本量较小，但利物浦在战术和阵容上的初步变化已引起关注。BBC体育分析了这位新任主帅如何为球队打上自己的烙印，以及红军在新赛季的潜在走向。",
+          "analysis": "伊劳拉的战术体系需要时间磨合，四场比赛只是起点。如果他能成功将个人风格融入利物浦的传统优势中，新赛季有望带来惊喜。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "伊劳拉刚来四场比赛就看出门道，希望新赛季能延续这种势头。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "新帅上任初期样本量有限，但战术方向的明确是积极信号。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "水晶宫与埃弗顿达成布伦南·约翰逊换麦克尼尔协议",
+          "eng": "Crystal Palace and Everton agree Brennan Johnson-Dwight McNeil swap deal",
+          "summary": "水晶宫和埃弗顿达成协议，交换布伦南·约翰逊和德怀特·麦克尼尔。此前麦克尼尔曾拒绝转会并指控俱乐部影响其心理健康，如今半年后双方完成互换。",
+          "source": "Guardian Football",
+          "published": "2026-08-10",
+          "url": "https://www.theguardian.com/football/2026/aug/10/crystal-palace-everton-brennan-johnson-dwight-mcneil-transfer-roundup",
+          "overview": "水晶宫和埃弗顿达成协议，交换布伦南·约翰逊和德怀特·麦克尼尔。此前麦克尼尔曾拒绝转会并指控俱乐部影响其心理健康，如今半年后双方完成互换。同时以色列右后卫哈利利也即将加盟水晶宫，进一步充实阵容。",
+          "analysis": "这次互换解决了双方的引援需求，但麦克尼尔此前的心理创伤事件为这笔交易蒙上了一层阴影。希望新东家能为他提供更好的环境。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "半年前麦克尼尔差点来水晶宫又走了，现在直接互换，看来双方都消化了上次的矛盾。"
+            },
+            {
+              "who": "解说/分析师",
+              "text": "这笔交易对双方都有利，但心理健康问题需要持续关注，不能只看重竞技层面。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "\"生命线\"乒乓场馆临时重开",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一座被称为\"生命线\"的社区乒乓球场地在短暂关闭后重新向公众开放，使用者表示这如同精神家园回归。",
+          "summary": "一个被称为“生命线”的乒乓球场地重新对外开放，使用者表示这如同将精神家园归还。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "\"Lifeline\"乒乓球场地此前曾面临关闭风险，如今已临时重新开放。该场地在社区中扮演着重要角色，被使用者视为精神寄托之所。有使用者表示，这就像我们的精神家园终于回到了我们身边。",
-          "analysis": "社区体育设施的重开往往承载着超越竞技的意义，它关系到公众健康、社交连接和社区凝聚力。此类场地的存废直接反映了基层体育资源的可持续性挑战。",
+          "overview": "BBC报道了一个名为“Lifeline”的乒乓球场地暂时重新开放的消息。有用户形容该场所是他们的“精神家园”，此次重开对社区成员意义重大。具体运营细节和开放时间未在摘要中详述，但强调了其情感价值和社会支持功能。",
+          "analysis": "社区体育设施的恢复往往能显著提升参与者的归属感和心理健康，这对推动大众乒乓球运动具有积极意义，尤其是在后疫情时代或设施关闭后的重建期。",
           "social": [
             {
-              "who": "资深球迷/社区成员",
-              "text": "\"精神家园回归\"这句话道出了很多乒乓球爱好者的真实心声——场地不只是打球的地方，更是归属感的来源。"
+              "who": "资深球迷",
+              "text": "场地重开对老玩家来说意义重大，这种社区归属感是竞技体育之外最珍贵的部分。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "欧足联等三大洲足联合署公开信，要求国际足联主席因凡蒂诺辞职",
+          "title_zh": "欧足联、中北美及亚足联联合致信要求因凡蒂诺辞职",
           "eng": "Uefa, Concacaf and AFC push for Infantino to quit and discuss rival competitions",
-          "summary": "欧足联、中北美及加勒比足联与亚洲足球联合会联合发表公开信，严厉批评国际足联主席因凡蒂诺通过欺骗手段破坏信任，呼吁其辞职并就替代性赛事进行对话。",
-          "source": "The Guardian",
+          "summary": "欧足联、中北美足协和亚洲足球联合会发表公开信，指责国际足联主席因凡蒂诺通过欺骗破坏信任，呼吁其辞职并讨论竞争赛事问题。这是自“足球前进企业”计划失败以来，三大洲足联对国际足联发起的最激烈挑战之一。",
+          "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/uefa-concacaf-afc-fifa-gianni-infantino-world-cup",
-          "overview": "三大洲足联联合致信，指控国际足联主席因凡蒂诺的'足球前进企业'计划失败，指责其通过欺骗手段破坏信任。此举标志着足球治理危机进一步升级，各洲际足联正寻求讨论替代性赛事安排以应对潜在分裂。",
-          "analysis": "若因凡蒂诺无法回应或辞职，国际足联内部权力真空将加剧各洲际足联的离心倾向，可能导致全球足球管理体系面临前所未有的重组压力。",
+          "overview": "三大洲足联联合行动，公开信措辞严厉，要求因凡蒂诺下台。信中批评其领导方式并非服务于足球，而是试图掌控权力。这一事件标志着国际足联内部治理危机的进一步升级，可能影响世界杯等核心赛事的运作。",
+          "analysis": "这是近年来足球界最具政治影响力的公开挑战之一，三大洲足联罕见地联手施压，显示出对因凡蒂诺改革方案的彻底失望。若辞职成真，将引发国际足联权力交接的重大不确定性。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "三大洲足联联手逼宫，说明因凡蒂诺的‘足球前进’计划已经彻底失败，足球世界的分裂正在加剧。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "这封信不仅是政治施压，更是对国际足联治理模式的根本性质疑，可能重塑全球足球的管理格局。"
+            }
+          ],
           "region": "综合"
         },
         {
-          "title_zh": "埃弗顿与水晶宫达成球员互换协议：麦克尼尔与约翰逊互易东主",
-          "eng": "Swap agreed for Everton's McNeil and Palace's Johnson",
-          "summary": "埃弗顿和水晶宫达成协议，威尔士国脚布伦南·约翰逊将转会至埃弗顿，而埃弗顿边锋德怀特·麦克尼尔则反向加盟水晶宫。",
-          "source": "BBC Sport",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo?at_medium=RSS&at_campaign=rss",
-          "overview": "埃弗顿与水晶宫正式确认了球员互换交易，威尔士国脚布伦南·约翰逊将从水晶宫转会至埃弗顿，而埃弗顿边锋德怀特·麦克尼尔则前往水晶宫。这笔交易对双方阵容深度都有实质影响。",
-          "analysis": "对于水晶宫而言，麦克尼尔的加盟将增强其侧翼进攻火力，有助于球队在英超争冠路上的竞争力提升；而对埃弗顿来说，约翰逊则是重要的中场补强。",
-          "region": "综合"
-        },
-        {
-          "title_zh": "女子环法大赛：范德尔林根夺总冠军，摆脱波加查阴影",
-          "eng": "Tour de France Femmes steps out of Pogacar's shadow to showcase truly compelling racing | Jeremy Whittle",
-          "summary": "荷兰选手范德尔林根在尼斯站最后一赛段中击败波兰对手涅维亚多马，夺得女子环法自行车赛个人总冠军。比赛充满了戏剧性争议，但赛后姐妹情谊回归，展现了这项赛事独特的魅力。",
-          "source": "The Guardian",
-          "published": "2026-08-10",
-          "url": "https://www.theguardian.com/sport/2026/aug/10/cycling-tour-de-france-femmes-demi-vollering-tadej-pogacar",
-          "overview": "在尼斯站最后一赛段的高潮中，荷兰选手范德尔林根击败了波兰对手涅维亚多马，成功卫冕女子环法自行车赛个人总冠军。尽管比赛过程中存在争议，但赛后女性团结的氛围再次成为赛事的亮点。",
-          "analysis": "范德尔林根的第二次夺冠进一步巩固了她在女子公路赛中的统治地位，同时也让男子赛事中波加查的巨大阴影彻底消退，标志着女子自行车运动进入了新纪元。",
-          "region": "综合"
-        },
-        {
-          "title_zh": "墨西哥U-20决赛争议红牌后锁定2028奥运资格",
+          "title_zh": "墨西哥U-20决赛爆冷击败美国锁定2028奥运席位",
           "eng": "Mexico seal place at 2028 Olympics after controversial VAR red card in U-20 win over US",
-          "summary": "墨西哥队在阿兹特克球场以2-0击败美国队，成功卫冕中北美U-20锦标赛冠军并锁定洛杉矶奥运会参赛席位。比赛因美国球员克里斯·苹果怀特的争议性红牌而蒙上阴影。",
-          "source": "The Guardian",
+          "summary": "墨西哥队在阿兹特克体育场以2-0战胜美国队，成功卫冕中北美U-20冠军并锁定2028洛杉矶奥运会参赛资格。比赛因VAR判罚导致美国球员被红牌罚下而充满争议，墨西哥前锋克里斯托瓦尔·阿尔法罗梅开二度。",
+          "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/mexico-seal-place-at-2028-olympics-after-controversial-var-red-card-in-u-20-win-over-us",
-          "overview": "墨西哥队在阿兹特克球场以2-0击败美国队，成功卫冕中北美U-20锦标赛冠军并锁定洛杉矶奥运会参赛席位。比赛因VAR判罚导致美国球员苹果怀特红牌离场而充满争议，但墨西哥队的胜利确保了其奥运资格。",
-          "analysis": "尽管存在VAR判罚争议，但墨西哥队的胜利确保了其奥运资格，为即将到来的洛杉矶奥运会增添了竞争悬念，同时也引发了关于青年足球裁判标准的讨论。",
+          "overview": "墨西哥U-20队在决赛中以2-0击败东道主美国队，提前锁定2028年洛杉矶奥运会参赛资格。比赛前半段因VAR介入判罚美国球员克里斯·阿普尔怀特红牌离场，场面一度紧张。尽管争议不断，墨西哥队的胜利确保了他们在奥运舞台上的席位。",
+          "analysis": "VAR技术在本届U-20决赛中的运用再次引发讨论，尤其是在关键判罚上是否公正的问题。对于墨西哥队而言，这不仅是荣誉的胜利，更是通往洛杉矶奥运会的重要一步。",
+          "social": [
+            {
+              "who": "足球记者",
+              "text": "VAR红牌成为比赛焦点，但墨西哥队的实力确实更强，这场胜利实至名归。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "美国队作为东道主却早早被罚下一人，VAR的判罚虽然争议大，但也反映了现代足球对公平竞赛的追求。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "女子环法赛 Vollering 夺第二冠，摆脱波加查阴影",
+          "eng": "Tour de France Femmes steps out of Pogacar's shadow to showcase truly compelling racing",
+          "summary": "荷兰选手德米·沃勒林在尼斯举行的女子环法赛最后一站中攻克难关夺冠，这是她第二次获得总成绩冠军。比赛充满戏剧性，沃勒林与波兰选手涅维亚多马在最后爬坡段展开激烈争夺，最终姐妹情谊回归赛场传统。",
+          "source": "Guardian Sport",
+          "published": "2026-08-10",
+          "url": "https://www.theguardian.com/sport/2026/aug/10/cycling-tour-de-france-femmes-demi-vollering-tadej-pogacar",
+          "overview": "女子环法赛在尼斯落幕，荷兰选手沃勒林以总成绩第二冠结束了比赛。最后一站爬坡段竞争激烈，她与波兰选手涅维亚多马展开激烈争夺，最终沃勒林凭借出色的进攻能力锁定胜局。这场比赛展示了女子自行车运动的真正魅力和竞技水平。",
+          "analysis": "沃勒林的胜利标志着女子环法赛正在摆脱男子赛事的阴影，成为一项独立且极具竞争力的顶级赛事。她的表现证明了女子车手在极限运动中的卓越实力。",
+          "social": [
+            {
+              "who": "自行车爱好者",
+              "text": "女子环法赛的竞争越来越激烈，沃勒林的胜利再次证明了这项运动的精彩程度。"
+            },
+            {
+              "who": "体育解说员",
+              "text": "最后一站的爬坡段争夺非常精彩，沃勒林和涅维亚多马的对抗是整场比赛的高潮。"
+            }
+          ],
           "region": "综合"
         },
         {
           "title_zh": "世界排名第一辛纳因膝伤退出辛辛那提公开赛",
           "eng": "World number one Sinner to miss Cincinnati Open",
-          "summary": "意大利网球名将辛纳因膝盖伤势宣布退赛，无法参加本周在辛辛那提举行的公开赛，但他预计月底美网期间能够恢复状态。",
-          "source": "BBC Sport",
+          "summary": "世界第一扬尼克·辛纳因膝盖伤势宣布退出本周在辛辛那提举行的ATP赛事，但他表示预计月底美国网球公开赛前能恢复状态。这是顶级球员在本赛季的重要缺席之一。",
+          "source": "BBC Tennis",
           "published": "2026-08-09",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/cdx7gg7wq2do?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的意大利网球选手辛纳因膝盖伤势宣布退赛，无法参加本周在辛辛那提举行的公开赛。尽管面临伤病困扰，他仍表示预计月底美网期间能够恢复状态。",
-          "analysis": "辛纳的缺席对辛辛那提赛事的冠军争夺格局产生了直接影响，其膝盖伤势能否在美网前痊愈是外界关注的焦点，同时也让球迷担忧其手腕伤势是否会影响即将到来的大满贯赛季。",
+          "overview": "ATP世界第一辛纳因膝盖伤势不得不退出辛辛那提公开赛，这对赛事的竞争力和关注度产生了影响。尽管他预计能在美国网球公开赛前恢复，但这一缺席无疑为赛季增添了一丝遗憾。",
+          "analysis": "辛纳的膝伤问题再次成为关注焦点，顶级球员的伤病管理一直是网球运动面临的挑战之一。他的缺席将让其他选手有机会争夺冠军头衔。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "辛纳的膝伤令人惋惜，希望他能尽快恢复状态参加美网。"
+            },
+            {
+              "who": "体育记者",
+              "text": "辛纳的缺席对辛辛那提公开赛的影响是深远的，顶级球员的伤病总是让赛事更加充满不确定性。"
+            }
+          ],
           "region": "综合"
         },
         {
-          "title_zh": "NBA球星克拉克死因确认：药物滥用导致",
-          "eng": "NBA forward Clarke's death due to effects of drugs",
-          "summary": "洛杉矶法医部门证实，孟菲斯灰熊队前锋布兰登·克拉克的死亡系海洛因和可卡因使用所致。这一消息震惊了NBA联盟及球迷群体。",
+          "title_zh": "埃弗顿与水晶宫达成麦克尼尔和约翰逊互换协议",
+          "eng": "Swap agreed for Everton's McNeil and Palace's Johnson",
+          "summary": "埃弗顿与水晶宫达成协议，威尔士国脚布伦南·约翰逊将转会至埃弗顿，而埃弗顿边锋德怀特·麦克尼尔则前往水晶宫。这笔交易标志着两家俱乐部在转会市场上的新动向。",
           "source": "BBC Sport",
-          "published": "2026-08-08",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
-          "overview": "洛杉矶法医部门正式确认，孟菲斯灰熊队前锋布兰登·克拉克的死亡系海洛因和可卡因使用所致。这一悲剧性消息震惊了整个NBA联盟及球迷群体，引发了对职业运动员心理健康与药物滥用问题的深刻反思。",
-          "analysis": "这再次引发了关于职业运动员心理健康与药物滥用问题的讨论，尤其是在年轻球员中，如何建立更完善的预防和支持机制成为亟待解决的问题。",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg32lvxpvyo?at_medium=RSS&at_campaign=rss",
+          "overview": "埃弗顿和水晶宫达成了一笔互换交易，威尔士国脚布伦南·约翰逊将加入埃弗顿，而埃弗顿的边锋德怀特·麦克尼尔则转会至水晶宫。这笔交易是两家俱乐部在转会市场上的重要操作，显示出他们对阵容优化的不同策略。",
+          "analysis": "这笔互换交易反映了英超球队在夏季转会窗口的灵活操作，两家俱乐部通过交换球员实现了各自的目标。对于球迷而言，这意味着他们将在新赛季看到不同的阵容组合。",
+          "social": [
+            {
+              "who": "埃弗顿球迷",
+              "text": "麦克尼尔的离开让人有些不舍，但约翰逊的到来可能会为球队带来新的活力。"
+            },
+            {
+              "who": "水晶宫球迷",
+              "text": "这笔交易对双方都有利，麦克尼尔在边路的突破能力应该能为我们增添不少进攻火力。"
+            }
+          ],
           "region": "综合"
         },
         {
-          "title_zh": "万卓索娃药检风波引发关注：网球与足球反兴奋剂标准对比鲜明",
-          "eng": "Vondrousova's antics put tennis doping tests in spotlight – a far cry from football's view | Tumaini Carayol",
-          "summary": "前温网冠军万卓索娃拒绝药检导致四年禁赛，其事件在穆德里克回归切尔西之际凸显了网球与足球在处理此类问题上的巨大差异。万卓索娃在社交媒体上表达了对其安全问题的严重担忧。",
-          "source": "The Guardian",
+          "title_zh": "NBA传奇教练兼五冠球员唐·纳尔逊去世，享年86岁",
+          "eng": "Don Nelson, legendary coach and five-time NBA champion as player, dies at 86",
+          "summary": "NBA历史上胜场数第二多的教练、曾随波士顿凯尔特人队赢得五次总冠军的球员唐·纳尔逊于周日去世，享年86岁。他帮助培养了斯蒂芬·库里和德克·诺维茨基等球星，其执教生涯的成就仅次于比尔·拉塞尔。",
+          "source": "Guardian Sport",
+          "published": "2026-08-09",
+          "url": "https://www.theguardian.com/sport/2026/aug/09/don-nelson-legendary-coach-and-five-time-nba-champion-as-player-dies-at-86",
+          "overview": "NBA传奇人物唐·纳尔逊去世，享年86岁。他不仅是五届总冠军得主，还是NBA历史上胜场数第二多的教练。他的职业生涯涵盖了球员和教练两个阶段，对篮球运动的发展做出了巨大贡献。",
+          "analysis": "纳尔逊的去世是NBA的一大损失，他的执教生涯见证了联盟的多次变革和发展。他对年轻球星的培养和指导将继续被后人铭记。",
+          "social": [
+            {
+              "who": "篮球历史学家",
+              "text": "纳尔逊的职业生涯堪称传奇，从球员到教练，他始终与NBA的最高荣誉紧密相连。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "斯蒂芬·库里和德克·诺维茨基都受益于纳尔逊的指导，他的影响深远而持久。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "万卓索娃禁赛事件引发网球反兴奋剂测试争议",
+          "eng": "Vondrousova's antics put tennis doping tests in spotlight – a far cry from football's view",
+          "summary": "前温网冠军马克塔·万卓索娃因拒绝药检被禁赛四年，其社交媒体上的反应引发了关于网球与足球在反兴奋剂处理上差异的讨论。这一事件恰逢切尔西球员穆德里克回归，凸显了不同体育项目间程序的鲜明对比。",
+          "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/sport/2026/aug/10/marketa-vondrousova-doping-ban-tennis-wada-mykhailo-mudryk-chelsea-fa-return-football",
-          "overview": "前温网冠军万卓索娃拒绝药检导致四年禁赛，其事件在穆德里克回归切尔西之际凸显了网球与足球在处理此类问题上的巨大差异。万卓索娃在社交媒体上表达了对其安全问题的严重担忧，试图引导舆论方向。",
-          "analysis": "这一对比暴露了不同体育项目在反兴奋剂程序透明度上的差距，可能推动国际体育组织重新审视相关标准，同时也引发了公众对运动员权益保护的广泛讨论。",
+          "overview": "万卓索娃因拒绝药检被禁赛四年，她在社交媒体上的反应引发了广泛讨论。这一事件与切尔西球员穆德里克的回归形成鲜明对比，凸显了网球和足球在反兴奋剂处理程序上的巨大差异。WADA（世界反兴奋剂机构）的介入使得这一话题更加复杂化。",
+          "analysis": "万卓索娃的事件再次将反兴奋剂问题推上风口浪尖，不同体育项目之间的处理方式差异引发了公众对公平性和透明度的质疑。这一事件可能对网球运动的形象产生负面影响。",
+          "social": [
+            {
+              "who": "体育评论员",
+              "text": "万卓索娃的社交媒体反应令人失望，但这也反映了运动员在面对禁赛时的复杂心理状态。"
+            },
+            {
+              "who": "网球爱好者",
+              "text": "反兴奋剂测试是保护运动纯洁性的必要手段，但处理方式确实需要更加透明和公正。"
+            }
+          ],
           "region": "综合"
         },
         {
-          "title_zh": "霍奇金森的黄金崛起：团队背后的世界纪录追逐",
-          "eng": "The team behind Hodgkinson's golden rise and the hunt for a world record",
-          "summary": "BBC体育深入报道了英国800米名将霍奇金森的飞速上升之路，以及她正在积极追求打破世界纪录的目标。文章揭示了支撑其成功背后的团队力量。",
+          "title_zh": "英冠全明星阵容回归英超——伊普斯维奇的策略能否奏效？",
+          "eng": "Championship all-stars to global gamble – will Ipswich's approach work?",
+          "summary": "随着伊普斯维奇准备重返英超联赛，BBC Sport分析了他们如何在转会市场上采取不同的方法。这支球队以英冠全明星阵容为基础，试图在全球范围内进行大胆投资。",
           "source": "BBC Sport",
           "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/cjwp3nnlgqpo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC体育深入报道了英国800米名将霍奇金森的飞速上升之路，以及她正在积极追求打破世界纪录的目标。文章揭示了支撑其成功背后的团队力量，展现了她在田径赛场上的统治力。",
-          "analysis": "霍奇金森正处于职业生涯的黄金期，若能突破世界纪录将确立其在田径史上的地位，她的崛起也代表了英国短跑项目的复兴，为即将到来的赛季增添了无限期待。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx2lexp9qjxo?at_medium=RSS&at_campaign=rss",
+          "overview": "伊普斯维奇在重返英超联赛之际，采取了与众不同的转会策略。他们以英冠全明星阵容为基础，试图在全球范围内进行大胆投资，这与传统的中游球队策略有所不同。BBC Sport深入分析了这一策略的可行性和潜在风险。",
+          "analysis": "伊普斯维奇的策略反映了现代足球俱乐部在竞争中的创新思维，但全球范围内的投资也带来了巨大的财务和竞技压力。他们的成功与否将成为英超联赛的一大看点。",
+          "social": [
+            {
+              "who": "足球分析师",
+              "text": "伊普斯维奇的全明星阵容是重返英超的坚实基础，但全球投资的风险也不容忽视。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "这支球队的策略很有野心，希望他们能在英超站稳脚跟并继续发展。"
+            }
+          ],
           "region": "综合"
         }
       ],
@@ -1448,262 +1552,240 @@
           "eng": "KKKKhazix/human-writing",
           "summary": "通用创作与改稿Skill，让AI生成的中文内容读起来像一个具体的人在说话。开箱即用。",
           "source": "GitHub",
-          "stars": 2207,
+          "stars": 2230,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "这是一个面向AI写作优化的Skill工具，核心功能是让大模型生成的中文文本摆脱'机器味'，呈现出具体人物的说话风格。支持通用创作与改稿场景，用户无需复杂配置即可直接使用。项目采用Python实现，社区反响热烈，两天内获得2207星。",
-          "analysis": "随着AI内容生成日益普及，如何让输出更自然、更有个性是刚需痛点。该项目直击'AI味太重'的问题，对自媒体创作者、营销文案撰写者等群体有直接实用价值。高星数验证了市场需求旺盛。",
+          "overview": "这是一个通用创作与改稿的AI Skill，核心能力是让AI生成的中文内容摆脱机器味，读起来像一个具体的人在说话。支持多种写作场景的创作与改写，开箱即用无需额外配置。项目已获2230+星，说明社区对AI去机械化写作的强烈需求。",
+          "analysis": "随着AI生成内容泛滥，如何让输出具备人格化、自然感成为创作者的核心痛点。该项目直接解决这一问题，且以Skill形式兼容主流AI平台，实用价值极高。适合内容创作者、自媒体运营者以及需要批量产出的团队使用。",
           "social": [
             {
               "who": "开发者",
-              "text": "解决了AI写作最核心的体验问题——自然度。对于需要批量生成内容但又不想牺牲质量的团队来说，这个Skill是必备工具。"
+              "text": "这个skill解决了AI写作最大的痛点——去机械化。2000+星说明需求真实存在，值得收藏。"
             },
             {
-              "who": "研究者",
-              "text": "从NLP角度看，这本质上是风格迁移与个性化生成的工程化落地，值得研究其prompt engineering方法论。"
+              "who": "内容创作者",
+              "text": "终于不用每次写东西都担心被读者看出是AI了，实用工具。"
             }
           ]
         },
         {
-          "title_zh": "AI一键生成可编辑PPT",
+          "title_zh": "Kimi PPT生成Skill（非官方）",
           "eng": "Binaryify/open-kimi-ppt-skill",
-          "summary": "非官方Kimi Slides Skill，让AI Agent自动生成可编辑的PPTD和PPTX文件，并附带本地浏览器编辑器。",
+          "summary": "非官方Kimi Slides Skill：让AI Agent生成可编辑PPTD + PPTX，并附带本地浏览器编辑器。",
           "source": "GitHub",
           "stars": 1607,
           "lang": "",
           "published": "2026-08-05",
           "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-          "overview": "这是一个非官方的Kimi Slides集成Skill，核心能力是让AI Agent直接生成可编辑的PPTD和PPTX格式文件。项目还附带了一个本地浏览器编辑器，用户可以在不依赖在线服务的情况下预览和修改生成的演示文稿。两天内获得1607星，说明社区对AI+办公自动化的需求强烈。",
-          "analysis": "PPT制作是职场高频刚需，传统方式耗时费力。该项目将AI能力与Office生态打通，降低了演示文稿制作的门槛。非官方但功能完整，体现了开源社区的创造力。",
+          "overview": "这是一个非官方的Kimi Slides Skill，让AI Agent能够生成可编辑的PPTD和PPTX文件。项目附带一个本地浏览器编辑器，用户可以直接在浏览器中查看和修改生成的演示文稿。支持多种主题和布局模板，降低了制作专业PPT的技术门槛。",
+          "analysis": "PPT需求是职场刚需，而AI生成PPT的能力目前仍不成熟。该项目通过Skill形式让Kimi Agent具备PPT生成能力，且输出可编辑格式而非静态图片，实用性远超同类项目。适合需要频繁做演示的开发者、产品经理和教师群体。",
           "social": [
             {
-              "who": "开发者",
-              "text": "把Kimi的PPT生成能力做成了可复用的Skill，对不想等官方API的团队来说非常实用。"
+              "who": "产品经理",
+              "text": "终于可以用AI直接出PPT了，而且还能自己改，比那些只能导出图片的工具强太多。"
             },
             {
-              "who": "办公效率爱好者",
-              "text": "AI生成+本地编辑的组合拳很聪明——既享受AI的速度，又保留了对最终输出的控制权。"
+              "who": "开发者",
+              "text": "Binaryify出品必属精品，Skill生态越来越完善了。"
             }
           ]
         },
         {
-          "title_zh": "让Agent控制你的手机",
+          "title_zh": "手机Agent控制框架",
           "eng": "ShawnPana/phone-harness",
-          "summary": "一个框架，让你的AI Agent能够直接操控手机应用，实现跨平台自动化操作。",
+          "summary": "让AI Agent直接控制你的手机，实现自动化操作与交互。",
           "source": "GitHub",
-          "stars": 1119,
+          "stars": 1144,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/ShawnPana/phone-harness",
-          "overview": "该项目旨在让AI Agent具备控制手机的能力，通过模拟用户操作来执行各种任务。采用Python实现，支持跨平台运行。在两天内获得1119星，反映了社区对移动端Agent自动化的高度关注。",
-          "analysis": "随着多模态Agent的发展，手机作为最普及的计算终端，其自动化潜力巨大。该项目填补了桌面端与移动端之间的空白，为移动场景下的AI Agent提供了基础设施层面的支持。",
+          "overview": "这是一个让AI Agent控制手机的工具框架，支持通过自动化脚本操控手机应用。项目基于Python开发，提供了完整的API接口和示例代码，方便开发者快速集成到自己的工作流中。适用于需要手机端自动化的测试、数据采集等场景。",
+          "analysis": "随着Agent能力扩展到移动端，手机自动化成为新的蓝海领域。该项目填补了AI Agent控制手机的空白，且以开源框架形式提供，降低了开发门槛。适合移动应用测试工程师、数据爬虫开发者以及想探索手机自动化的研究者。",
           "social": [
             {
-              "who": "开发者",
-              "text": "手机端Agent控制一直是难点，这个项目提供了一个清晰的架构思路，值得跟进。"
+              "who": "测试工程师",
+              "text": "移动端自动化一直是个痛点，这个工具让Agent直接操控手机太实用了。"
             },
             {
               "who": "研究者",
-              "text": "从计算机视觉和交互设计的交叉视角看，手机UI的抽象与映射是很有趣的研究方向。"
+              "text": "Agent从桌面到移动端的扩展是必然趋势，这个项目走在前面。"
             }
           ]
         },
         {
-          "title_zh": "流畅响应式网页动画引擎",
-          "eng": "oil-oil/oil-motion",
-          "summary": "创建平滑、响应式的交互式网页动画，让开发者轻松实现高性能动效。",
-          "source": "GitHub",
-          "stars": 809,
-          "lang": "Python",
-          "published": "2026-08-07",
-          "url": "https://github.com/oil-oil/oil-motion",
-          "overview": "这是一个专注于网页动画的开源项目，核心能力是生成平滑、响应式的交互式动画效果。采用Python实现后端逻辑，面向前端开发者提供动效解决方案。两天内获得809星，说明社区对高质量Web动效工具的需求持续增长。",
-          "analysis": "在AI辅助前端开发的趋势下，动效工具的易用性和性能成为关键竞争点。该项目定位清晰，专注于解决一个具体痛点——让非专业动画师也能做出流畅的网页效果。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Web动效一直是前端开发的瓶颈之一，这个工具降低了实现复杂动画的门槛。"
-            },
-            {
-              "who": "设计师",
-              "text": "对于需要快速原型验证的设计师来说，响应式动画能力让迭代效率大幅提升。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI Agent增长黑客Skill合集",
-          "eng": "mikiarlo3/awesome-growth-hacking-skills",
-          "summary": "为Claude、ChatGPT、Manus等AI Agent提供增长黑客相关的Skill集合，帮助产品团队通过AI实现用户增长。",
-          "source": "GitHub",
-          "stars": 806,
-          "lang": "Shell",
-          "published": "2026-08-04",
-          "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
-          "overview": "这是一个面向AI Agent的增长黑客Skill集合，涵盖了用户增长、获客、留存等核心场景。支持Claude、ChatGPT、Manus等多个主流AI平台。两天内获得806星，反映了产品团队对AI驱动增长的迫切需求。",
-          "analysis": "随着AI Agent进入企业工作流，如何将营销方法论与AI能力结合是新兴课题。该项目将增长黑客的实战经验封装为可复用的Skill，降低了团队的学习成本。",
-          "social": [
-            {
-              "who": "产品人",
-              "text": "把增长黑客的方法论和AI Agent的能力结合起来，这个思路很前沿。"
-            },
-            {
-              "who": "开发者",
-              "text": "Skill集合的形式让不同平台的Agent都能快速上手，复用性很强。"
-            }
-          ]
-        },
-        {
-          "title_zh": "京都山寺夜行交互体验",
-          "eng": "MengTo/kage",
-          "summary": "一个交互式五章夜行体验项目，以京都山寺为背景，使用Three.js实时渲染。",
-          "source": "GitHub",
-          "stars": 716,
-          "lang": "HTML",
-          "published": "2026-08-08",
-          "url": "https://github.com/MengTo/kage",
-          "overview": "这是一个以京都山寺为背景的交互式叙事项目，采用Three.js进行实时3D渲染。项目包含五个章节的完整体验流程，用户可以在浏览器中直接参与互动。两天内获得716星，体现了社区对高质量Web交互艺术作品的认可。",
-          "analysis": "在AI生成内容泛滥的背景下，这种注重美学体验和叙事深度的作品反而显得珍贵。Three.js的实时渲染能力让传统网页无法实现的视觉效果成为可能，为Web开发树立了新的标杆。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Three.js的交互设计做得很细腻，这种将文化叙事与技术实现结合的方式值得学习。"
-            },
-            {
-              "who": "研究者",
-              "text": "从交互式叙事的学术角度看，这个项目在空间设计与用户引导之间找到了很好的平衡点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "CPU性能极限汇编探索",
-          "eng": "xoreaxeaxeax/asm-hall-of-shame",
-          "summary": "深入探索CPU性能的底层极限，通过汇编代码挑战处理器指令集的性能边界。",
-          "source": "GitHub",
-          "stars": 697,
-          "lang": "C",
-          "published": "2026-08-06",
-          "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-          "overview": "这是一个专注于CPU性能极限的汇编代码集合，作者通过精心设计的汇编程序探索处理器指令集的性能边界。采用C语言实现底层逻辑，面向系统级开发者提供性能优化参考。两天内获得697星，反映了社区对底层技术深度的持续关注。",
-          "analysis": "在AI和高级语言主导的开发趋势下，这种回归底层的探索显得尤为珍贵。项目为理解CPU微架构、指令流水线等核心概念提供了实践案例，是系统编程教育的优质资源。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "汇编级别的性能优化案例很少见，这个项目对理解现代CPU架构很有帮助。"
-            },
-            {
-              "who": "研究者",
-              "text": "从计算机体系结构的角度看，这些汇编代码是研究指令级并行和缓存效应的绝佳素材。"
-            }
-          ]
-        },
-        {
-          "title_zh": "实时开放视频编辑AI工具",
+          "title_zh": "JoyAI视频编辑（官方）",
           "eng": "jd-opensource/JoyAI-Video-Edit",
-          "summary": "[官方仓库] JoyAI-Video-Edit：基于自回归扩散模型的实时开放式视频编辑，支持用户自由指定编辑内容。",
+          "summary": "[官方仓库] JoyAI视频编辑：基于自回归扩散模型的实时开放式视频编辑。",
           "source": "GitHub",
-          "stars": 673,
+          "stars": 680,
           "lang": "Python",
           "published": "2026-08-04",
           "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
-          "overview": "这是京东开源的视频编辑项目，核心能力是基于自回归扩散模型实现实时开放式视频编辑。用户可以自由指定要编辑的内容，系统会生成相应的修改结果。采用Python实现，两天内获得673星，体现了社区对AI视频处理技术的高度关注。",
-          "analysis": "视频编辑是AI应用的重要场景之一，传统方式需要专业设备和技能。该项目将扩散模型与实时编辑结合，降低了视频处理的门槛，为内容创作者提供了新的工具选择。",
+          "overview": "这是JoyAI的官方视频编辑仓库，采用自回归扩散模型实现实时开放式视频编辑。支持对视频进行多种编辑操作，包括添加特效、修改场景等。作为JD开源项目，技术实力有保障，且文档完善便于二次开发。",
+          "analysis": "视频编辑是AI应用的重要赛道，而实时开放式编辑代表了最新的技术方向。该项目由大厂官方维护，技术成熟度高，适合视频创作者和需要视频处理能力的开发者使用。",
           "social": [
             {
-              "who": "开发者",
-              "text": "自回归扩散模型在视频编辑中的应用是前沿方向，这个开源项目让研究者可以快速复现和扩展。"
+              "who": "视频创作者",
+              "text": "AI视频编辑终于能用了，而且还是官方的，质量有保障。"
             },
             {
-              "who": "内容创作者",
-              "text": "实时编辑能力意味着可以边看边改，大大提升了创作效率。"
+              "who": "开发者",
+              "text": "自回归扩散模型做视频编辑是前沿方向，值得跟进学习。"
             }
           ]
         },
         {
           "title_zh": "AI编码Agent Skill集合",
           "eng": "eternityspring/shuohao-skills",
-          "summary": "面向Claude Code和Codex的AI编码Agent Skill集合，包含小说角色设定、代码生成等多种实用场景。",
+          "summary": "给AI编码agent用的skill集合，Claude Code和codex都能跑。包含小说角色设定等创意工具。",
           "source": "GitHub",
-          "stars": 617,
+          "stars": 623,
           "lang": "JavaScript",
           "published": "2026-08-06",
-          "url": "https://github.com/GitHub/eternityspring/shuohao-skills",
-          "overview": "这是一个面向AI编码Agent的Skill集合，支持Claude Code和Codex等多个主流编码工具。项目包含小说角色设定（人物画像、卡通形象提示词、音色提示词等）等多种实用场景。采用JavaScript实现，两天内获得617星，反映了社区对AI辅助编程工具的持续需求。",
-          "analysis": "随着AI编码Agent的普及，如何为不同场景定制Skill成为关键问题。该项目覆盖了从创意写作到代码生成等多个领域，展示了Skill生态的丰富可能性。",
+          "url": "https://github.com/eternityspring/shuohao-skills",
+          "overview": "这是一个专为AI编码Agent设计的Skill集合，兼容Claude Code和codex两大主流平台。特色功能包括novel-characters——将小说拆分成角色设定集，包含人物画像、卡通形象提示词、音色提示词和三视图等。还包含多种实用编码辅助工具。",
+          "analysis": "随着AI编码Agent的普及，如何为它们提供高质量的Skill成为关键问题。该项目直接面向这一需求，且同时支持Claude Code和codex两大平台，覆盖面广。创意类Skill（如小说角色设定）更是差异化亮点。",
           "social": [
             {
               "who": "开发者",
-              "text": "Claude Code和Codex都能用，这个兼容性做得很好。小说角色设定的Skill很有创意。"
+              "text": "给AI编码Agent提供Skill是刚需，这个集合很实用，特别是novel-characters功能很有创意。"
+            },
+            {
+              "who": "创作者",
+              "text": "把小说变成角色设定集的功能太酷了，AI+创作的新玩法。"
+            }
+          ]
+        },
+        {
+          "title_zh": "长时程计算机使用框架",
+          "eng": "AMAP-ML/LongHorizon-Harness",
+          "summary": "长时程计算机使用框架：让AI Agent在桌面应用和CLI中长期运行，保持任务状态并可靠推进复杂工作流。",
+          "source": "GitHub",
+          "stars": 538,
+          "lang": "Python",
+          "published": "2026-08-04",
+          "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+          "overview": "这是高德地图AI团队开源的长时程计算机使用框架，支持AI Agent在桌面应用和命令行中长期运行。核心特性包括新鲜上下文执行、持久化验证状态、独立审计、可恢复进度以及原生CLI集成。专为复杂工作流设计，确保Agent在长时间任务中不会丢失状态。",
+          "analysis": "当前大多数AI Agent只能处理短时间任务，而长时程计算机使用是Agent落地的关键瓶颈。该项目由高德地图团队维护，技术实力可靠，且功能全面（审计、恢复等），适合需要复杂自动化流程的企业用户。",
+          "social": [
+            {
+              "who": "企业开发者",
+              "text": "长时程任务一直是AI Agent的短板，这个框架解决了状态保持和可恢复的问题，很实用。"
             },
             {
               "who": "研究者",
-              "text": "从Agent工具链的角度看，Skill的标准化和复用是提升开发效率的关键路径。"
+              "text": "高德地图团队在Agent领域的投入值得肯定，技术方向正确。"
+            }
+          ]
+        },
+        {
+          "title_zh": "微信AI集成工具",
+          "eng": "SMNETSTUDIO/WeChat-AI",
+          "summary": "微信AI集成工具：让AI能力接入微信生态，实现智能交互与自动化。",
+          "source": "GitHub",
+          "stars": 457,
+          "lang": "TypeScript",
+          "published": "2026-08-10",
+          "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+          "overview": "这是一个将AI能力接入微信生态的工具，支持在微信环境中实现智能交互与自动化操作。采用TypeScript开发，代码质量高且易于维护。适合需要微信端AI功能的开发者，如客服机器人、内容推送等场景。",
+          "analysis": "微信作为中国最大的社交平台之一，其AI集成需求巨大但官方工具有限。该项目填补了这一空白，且以开源形式提供，降低了开发成本。适合需要微信端AI能力的企业和个人开发者。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "微信生态的AI接入一直是个痛点，这个工具让开发变得简单多了。"
+            },
+            {
+              "who": "产品经理",
+              "text": "TypeScript写的代码质量有保障，适合企业级项目使用。"
             }
           ]
         },
         {
           "title_zh": "ComfyUI MiniMax H3音频工作流",
           "eng": "T8mars/comfyui-minimax-h3-audio-T8",
-          "summary": "基于MiniMax H3模型的ComfyUI音频生成工作流，支持高质量语音和音乐创作。",
+          "summary": "ComfyUI MiniMax H3音频生成工作流，支持高质量语音合成与音乐创作。",
           "source": "GitHub",
-          "stars": 575,
+          "stars": 581,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
-          "overview": "这是一个基于MiniMax H3模型的ComfyUI音频生成工作流，支持高质量语音和音乐创作。采用Python实现后端逻辑，面向音频创作者提供AI辅助工具。两天内获得575星，反映了社区对AI音频生成技术的持续关注。",
-          "analysis": "随着多模态AI的发展，音频生成成为重要应用场景。该项目将MiniMax H3模型与ComfyUI工作流结合，为音频创作者提供了灵活的工具选择，降低了专业音频制作的门槛。",
+          "overview": "这是一个基于ComfyUI的MiniMax H3音频生成工作流，支持高质量语音合成与音乐创作。用户可以在ComfyUI界面中可视化配置参数，灵活调整音频生成的各种效果。适合需要AI音频生成的创作者和开发者。",
+          "analysis": "AI音频生成是热门赛道，而ComfyUI提供了可视化的工作流配置方式，降低了使用门槛。该项目将MiniMax H3模型接入ComfyUI生态，使得更多用户能够方便地使用高质量的音频生成能力。",
           "social": [
-            {
-              "who": "开发者",
-              "text": "ComfyUI的可视化工作流让非程序员也能配置复杂的音频生成流程，这个设计很聪明。"
-            },
             {
               "who": "创作者",
-              "text": "MiniMax H3的音质表现不错，配合ComfyUI的工作流灵活性，创作空间很大。"
+              "text": "ComfyUI可视化操作太友好了，比命令行配置简单多了。"
+            },
+            {
+              "who": "开发者",
+              "text": "MiniMax H3的音频质量不错，工作流封装得也很规范。"
             }
           ]
         },
         {
-          "title_zh": "长周期计算机使用Agent框架",
-          "eng": "AMAP-ML/LongHorizon-Harness",
-          "summary": "长周期桌面应用和CLI的AI Agent运行框架，支持长时间任务执行、状态保持和可靠进度管理。",
+          "title_zh": "MCP服务器：电话号码服务",
+          "eng": "sv-number/mcp-server",
+          "summary": "为AI Agent提供电话号码服务的MCP服务器：在任何国家订购私人号码，读取短信验证码并返回。",
           "source": "GitHub",
-          "stars": 534,
+          "stars": 459,
+          "lang": "JavaScript",
+          "published": "2026-08-07",
+          "url": "https://github.com/sv-number/mcp-server",
+          "overview": "这是一个MCP服务器，专门为需要电话号码的AI Agent提供服务。用户可以在任何国家订购私人号码，读取短信验证码并自动返回给Agent。支持多语言、多国别覆盖，且集成到MCP协议中便于与主流AI平台对接。",
+          "analysis": "随着AI Agent需要更多外部服务集成，MCP协议成为新的标准。该项目将电话号码服务封装为MCP服务器，解决了Agent在注册、验证等场景中的痛点。适合需要全球号码服务的开发者和企业用户。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "MCP生态越来越完善了，这个电话号码服务很实用，特别是多国家覆盖。"
+            },
+            {
+              "who": "测试工程师",
+              "text": "Agent注册验证一直是痛点，有了这个工具就不用手动操作了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "油动：响应式Web动画库",
+          "eng": "oil-oil/oil-motion",
+          "summary": "创建流畅、响应式的交互式Web动画，让网页动起来。",
+          "source": "GitHub",
+          "stars": 884,
           "lang": "Python",
-          "published": "2026-08-04",
-          "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
-          "overview": "这是高德地图AI实验室开源的长周期计算机使用框架，核心能力是让AI Agent在桌面应用和CLI中长时间运行复杂任务。项目支持新鲜上下文执行、持久化验证状态、独立审计和可恢复进度等特性。两天内获得534星，反映了社区对Agent基础设施层面的关注。",
-          "analysis": "当前大多数AI Agent框架只支持短时任务，长周期任务的可靠执行是行业痛点。该项目从状态管理、错误恢复等工程角度提供了系统化的解决方案，为复杂工作流自动化奠定了基础。",
+          "published": "2026-08-07",
+          "url": "https://github.com/oil-oil/oil-motion",
+          "overview": "这是一个用于创建流畅、响应式交互式Web动画的库。支持多种动画效果，包括过渡、缓动、交互触发等。代码简洁易读，文档完善，适合前端开发者快速集成到项目中。项目已获884+星，说明社区认可度高。",
+          "analysis": "Web动画是提升用户体验的重要手段，而油动提供了轻量级的解决方案。与重量级动画库相比，该项目更专注于响应式和交互性，适合需要动态效果但不想引入复杂依赖的开发者。",
           "social": [
             {
-              "who": "开发者",
-              "text": "新鲜上下文执行和可恢复进度这两个特性很实用，解决了长任务中断后的恢复问题。"
+              "who": "前端开发者",
+              "text": "轻量级Web动画库一直是痛点，这个工具代码简洁、文档完善，很好用。"
             },
             {
-              "who": "研究者",
-              "text": "从Agent可靠性工程的角度看，独立审计和状态验证是保证系统可信度的关键设计。"
+              "who": "设计师",
+              "text": "响应式动画让网页更有活力，集成到项目中效果明显。"
             }
           ]
         },
         {
-          "title_zh": "AI开发者终端Fuxi",
-          "eng": "fuxicodex/Fuxi",
-          "summary": "一个快速、自包含的AI开发者终端，将AI能力直接集成到命令行环境中。",
+          "title_zh": "Growth Hacking Skill集合",
+          "eng": "mikiarlo3/awesome-growth-hacking-skills",
+          "summary": "为Claude、ChatGPT、Manus等AI工具收集的成长黑客Skill，助力产品增长。",
           "source": "GitHub",
-          "stars": 456,
-          "lang": "",
+          "stars": 809,
+          "lang": "Shell",
           "published": "2026-08-04",
-          "url": "https://github.com/fuxicodex/Fuxi",
-          "overview": "这是一个面向开发者的AI终端工具，核心能力是将AI能力直接集成到命令行环境中。项目强调快速响应和自包含特性，用户无需额外配置即可使用。两天内获得456星，反映了社区对AI原生开发工具的持续需求。",
-          "analysis": "随着AI编码Agent的普及，将AI能力融入终端环境是提升开发者效率的重要方向。该项目定位为轻量级、自包含的工具，适合需要快速迭代的开发场景。",
+          "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
+          "overview": "这是一个为AI工具收集的成长黑客Skill集合，涵盖Claude、ChatGPT、Manus等多个平台。内容包括用户增长策略、数据分析模板、营销自动化脚本等实用内容。由enso.bot维护，定期更新。",
+          "analysis": "成长黑客是产品运营的核心能力，而将其与AI工具结合可以大幅提升效率。该项目收集了多个平台的Skill，覆盖面广且实用性强。适合产品经理、运营人员和创业者使用。",
           "social": [
             {
-              "who": "开发者",
-              "text": "把AI集成到终端里，不用开新窗口就能用，这个体验很流畅。"
+              "who": "产品经理",
+              "text": "把增长黑客和AI Skill结合起来太实用了，特别是数据分析模板很有用。"
             },
             {
-              "who": "研究者",
-              "text": "从人机交互的角度看，终端是程序员最熟悉的界面，在这里集成AI降低了学习成本。"
+              "who": "创业者",
+              "text": "低成本获取用户一直是痛点，这个Skill集合提供了很多现成方案。"
             }
           ]
         }
@@ -1712,98 +1794,122 @@
     "hot": {
       "items": [
         {
-          "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "西班牙宣布将从周六午夜起对来自意大利的访客实施临时边境检查，以回应罗马在塞维塔大规模移民涌入后采取类似措施。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙内政部发表声明称，鉴于意大利面临持续的非法移民压力，且罗马已在塞维塔采取类似措施应对摩洛哥人大规模涌入，西班牙决定实施临时边境检查。该措施将于周六午夜生效并持续至9月7日，旨在加强管控来自意大利的访客流动。此举反映了欧洲南部国家在移民危机面前的协同应对趋势，同时也引发了关于边境自由与安全的广泛讨论。",
-          "analysis": "这一举措凸显了伊比利亚半岛国家在面对北非移民压力时的联动反应。临时检查机制虽然短期有效，但长期来看可能加剧地区紧张关系并影响正常的人员往来。",
-          "social": [
-            {
-              "who": "国际观察员",
-              "text": "西班牙此举是对意大利压力的直接回应，欧洲南部边境管控正在形成连锁效应。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护地位的努力",
-          "summary": "美国联邦法官裁定特朗普政府可以推进终止南苏丹国民临时保护地位的计划，此前最高法院已允许政府剥夺海地和叙利亚人的类似保护。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "移民权利组织试图阻止该决定但被驳回，数百名在南苏丹的美国人面临失去合法居留身份的风险。这一裁决标志着美国移民政策收紧趋势的延续，对依赖TPS的难民群体影响深远。法官的决定遵循了最高法院的先例，显示出司法系统在当前政治环境下对行政权力的支持。",
-          "analysis": "南苏丹人作为受保护群体的未来充满不确定性，可能引发新一轮的社会争议和人道主义危机。这一裁决让许多依赖TPS的难民感到不安，他们担心失去在美国合法居留的权利。",
-          "social": [
-            {
-              "who": "移民权益倡导者",
-              "text": "这一裁决让许多依赖TPS的难民感到不安，他们担心失去在美国合法居留的权利。"
-            }
-          ]
-        },
-        {
-          "title_zh": "刚果（金）大规模埃博拉疫情爆发，病毒可能正在变异",
-          "summary": "刚果民主共和国爆发的埃博拉疫情病例已突破4000例，卫生官员担忧病毒可能正在发生变异。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
-          "overview": "非洲公共卫生监管机构宣布将全面升级应对措施，计划逐户寻找患者，标志着从渐进式行动转向大规模应对。此次疫情的严重性引发了国际社会对全球传染病防控能力的再次审视。病毒的潜在变异增加了疫情控制的难度，需要更高级别的国际协作和医疗资源支持。刚果（金）的基础卫生设施薄弱，大规模排查行动面临巨大挑战，但也是遏制疫情扩散的关键一步。",
-          "analysis": "埃博拉疫情的规模令人震惊，病毒变异风险要求各国加强跨境传染病监测合作。",
-          "social": [
-            {
-              "who": "公共卫生专家",
-              "text": "埃博拉疫情的规模令人震惊，病毒变异风险要求各国加强跨境传染病监测合作。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国将关闭五个领事馆，批评者担忧中国填补外交真空",
-          "summary": "美国国务院通知国会计划关闭加拿大、格林纳达、日本、印度尼西亚和喀麦隆等五个领事馆及任务机构，理由是基于成本考量和对双边关系的重新评估。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-          "overview": "批评者担忧此举将留下外交真空，可能被中国填补。这一决定引发了关于美国全球战略收缩及其对盟友关系影响的广泛讨论。关闭领事馆不仅是财政问题，更折射出美国在特定地区外交优先级的调整。如果中国趁机扩大在这些国家的影响力，将对现有的国际秩序格局产生深远影响。",
-          "analysis": "美国撤出这些地区的领事服务，客观上为竞争对手提供了拓展影响力的机会窗口。",
-          "social": [
-            {
-              "who": "地缘政治分析师",
-              "text": "美国撤出这些地区的领事服务，客观上为竞争对手提供了拓展影响力的机会窗口。"
-            }
-          ]
-        },
-        {
-          "title_zh": "乌干达顶级足球运动员被持铺路石的强盗杀害",
-          "summary": "乌干达顶级足球运动员大卫·奥沃里在首都坎帕拉遭遇持铺路石的强盗袭击后不幸身亡。他在试图阻止抢劫者抢夺手机时遭到致命伤害，目前已被送往医院抢救无效死亡。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
-          "overview": "奥沃里曾担任体育俱乐部维拉队队长并代表国家队出战，他的死讯令乌干达足球界陷入悲痛。这起事件暴露了城市治安的严峻问题，即使是知名运动员也无法幸免于暴力犯罪。公众对加强社区安保和打击街头犯罪的呼声日益高涨。",
-          "analysis": "奥沃里的遭遇令人痛心，这再次提醒我们即使在足球之国，安全依然是悬在人们头上的利剑。",
-          "social": [
-            {
-              "who": "体育评论员",
-              "text": "奥沃里的遭遇令人痛心，这再次提醒我们即使在足球之国，安全依然是悬在人们头上的利剑。"
-            }
-          ]
-        },
-        {
-          "title_zh": "库尔德电影制作人回忆遭受“不人道”的ICE强制喂食经历",
-          "summary": "库尔德电影制作人加巴尔·乔利详细讲述了他在移民和海关执法局拘留中心遭受强制喂食的经历，包括被锁链束缚、固定以及身体和情感上的创伤。",
-          "source": "Guardian World",
+          "title_zh": "一艘小船载230人横渡英吉利海峡创纪录",
+          "summary": "英国内政部称，这一事件显示了犯罪团伙将越来越多人塞入不适宜航行的船只上的“鲁莽和危险行为”。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-08-10",
-          "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
-          "overview": "他形容这一过程“不人道”，并描述了在隔离医疗室中被迫进食的恐怖场景。这一事件引发了对美国移民执法手段合法性和人道性的强烈质疑。乔利的证词揭示了ICE拘留系统中存在的严重人权问题，强制喂食作为惩罚或控制手段在国际法上存在争议。此类个案的曝光有助于推动公众对移民政策改革的关注。",
-          "analysis": "这种不人道的待遇必须受到谴责，任何国家都不应以这种方式对待被拘留者。",
+          "url": "https://www.bbc.co.uk/news/articles/c4g4vxjg2yno?at_medium=RSS&at_campaign=rss",
+          "overview": "一艘载有230名非法移民的小船成功横渡英吉利海峡，打破了历史记录。英国内政部对此表示震惊，指出这反映了有组织犯罪团伙为了牟利而不断将更多人员塞入不安全的船只上的危险策略。这一事件再次引发了关于欧洲边境安全和难民政策的激烈讨论。",
+          "analysis": "该事件凸显了欧洲移民危机的持续恶化以及非法走私网络的运作能力。政府需要重新评估现有的海上拦截和边境管控措施，以防止类似规模的偷渡行动频繁发生。",
           "social": [
             {
-              "who": "人权活动人士",
-              "text": "这种不人道的待遇必须受到谴责，任何国家都不应以这种方式对待被拘留者。"
+              "who": "英国公民",
+              "text": "对如此大规模的不安全偷渡感到恐惧，呼吁加强海峡巡逻力度。"
+            },
+            {
+              "who": "移民权益组织",
+              "text": "谴责将人塞入不适宜航行的船只是一种反人类的行为，要求政府提供人道主义救援通道。"
+            }
+          ]
+        },
+        {
+          "title_zh": "龙卷风席卷伦敦格林威治公园",
+          "summary": "周日在伦敦格林威治公园拍摄的录像显示，一个小旋风在人们周围旋转的瞬间被记录下来。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/videos/c07r0njvpm1o?at_medium=RSS&at_campaign=rss",
+          "overview": "一段视频捕捉到了伦敦格林威治公园内发生的小型旋风（尘卷风）瞬间，旋涡在行人周围旋转。这一罕见的天气现象引发了当地居民和社交媒体上的广泛关注与讨论。",
+          "analysis": "虽然规模较小未造成严重伤害，但此类极端天气事件在全球变暖背景下日益频繁，提醒公众关注城市微气候的变化趋势。",
+          "social": [
+            {
+              "who": "伦敦市民",
+              "text": "在公园散步时亲眼目睹了这一幕，感叹气候变化带来的不可预测性。"
+            },
+            {
+              "who": "气象博主",
+              "text": "分析了该区域近期气压变化，指出这是典型的夏季尘卷风现象。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国旅行酒店前台将钥匙交给家暴施暴者致受害者遇险",
+          "summary": "一名女子向BBC讲述，袭击者在酒店大堂踢开房门后，前台竟将房间钥匙交给了施暴者。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/cvgx1v922p5o?at_medium=RSS&at_campaign=rss",
+          "overview": "一名女性受害者指控英国Travelodge酒店前台工作人员在明知其伴侣为施暴者的情况下，仍将房间钥匙交给了该男子。袭击者随后踢坏了房门，导致受害者陷入极度危险的境地。这一事件引发了公众对酒店行业安全 protocols 的强烈质疑。",
+          "analysis": "此事暴露了部分酒店在处理住客纠纷时缺乏基本的安全意识和培训，可能加剧家庭暴力受害者的风险。相关机构需审视其员工在处理此类敏感情况时的标准操作流程。",
+          "social": [
+            {
+              "who": "女性权益倡导者",
+              "text": "强烈谴责酒店前台的行为，认为这直接威胁了受害者生命安全，要求加强行业监管。"
+            },
+            {
+              "who": "普通住客",
+              "text": "表示在异国他乡遭遇此类事件令人绝望，呼吁酒店建立更完善的紧急求助机制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "南非特种部队涉嫌谋杀高级侦探证据曝光",
+          "summary": "Frans Mathipa 在驾车时遭枪击身亡，BBC获得了针对八名被告的检方案件材料。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-09",
+          "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
+          "overview": "南非高级侦探 Frans Mathipa 在驾车时遭枪击身亡，BBC 获得了检方针对八名被指控者的案件材料。证据显示南非特种部队可能参与了此次谋杀行动。这一事件引发了国际社会对南非军事纪律和司法公正的严重关切。",
+          "analysis": "此案若属实，将是对南非法治体系的重大打击，也反映了该国在处理敏感政治人物安全时的潜在风险。检方材料的公开为独立调查提供了重要依据。",
+          "social": [
+            {
+              "who": "南非法律界人士",
+              "text": "对特种部队涉嫌谋杀表示震惊，呼吁立即启动独立司法审查程序。"
+            },
+            {
+              "who": "国际人权组织",
+              "text": "关注此案可能涉及的政治暗杀性质，敦促南非政府透明处理检方材料。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国水务巨头泰晤士水公司支付百万英镑签约费引争议",
+          "summary": "七位数的付款作为说服 Steve Buck 加入这家陷入困境的公用事业公司的方案的一部分。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国水务公司泰晤士水（Thames Water）向新任财务主管 Steve Buck 支付了高达100万英镑的签约费，以吸引其加入这家面临严重财政危机的公用事业企业。这笔巨额费用在公众和企业界引发了关于高管薪酬与公司困境之间合理性的广泛讨论。",
+          "analysis": "在水务危机频发的背景下，如此高昂的签约费可能被视为对纳税人资金的浪费，同时也反映了企业在招聘关键人才时的竞争压力与社会责任之间的平衡难题。",
+          "social": [
+            {
+              "who": "英国公众",
+              "text": "质疑在公用事业亏损的情况下支付百万英镑薪酬是否合理，要求政府介入审查。"
+            },
+            {
+              "who": "企业分析师",
+              "text": "指出此类签约费通常用于吸引顶尖人才解决复杂问题，但需确保其后续表现能匹配成本。"
+            }
+          ]
+        },
+        {
+          "title_zh": "前剑桥教授因抄袭丑闻取消公开活动",
+          "summary": "Arday 的一场讲座“应讲者要求”被取消，其他活动也从列表中移除。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/cd7lj3703epo?at_medium=RSS&at_campaign=rss",
+          "overview": "前剑桥大学教授 Jason Arday 因卷入抄袭争议，其公开活动被迫取消。其中一场讲座“应讲者要求”被取消，其他相关活动也从列表中移除。这一事件再次引发了学术界对学术诚信和名人效应之间关系的深入探讨。",
+          "analysis": "Arday 的遭遇凸显了学术界在维护声誉与坚持原则之间的两难处境，也促使人们反思如何在尊重个人选择的同时捍卫学术标准。",
+          "social": [
+            {
+              "who": "剑桥大学校友",
+              "text": "对抄袭行为的零容忍态度表示支持，认为取消活动是必要的自律措施。"
+            },
+            {
+              "who": "学术界评论员",
+              "text": "指出此事反映了学术圈在名人效应与道德标准之间的紧张关系。"
             }
           ]
         }
@@ -1817,59 +1923,59 @@
       "items": [
         {
           "name": "Demis Hassabis",
-          "role": "DeepMind/Google CEO",
+          "role": "DeepMind CEO / Google DeepMind 联合创始人",
           "region": "英国",
           "domain": "ai",
-          "recent": "关注AI推理能力与Agent自主性，推动科学发现中的逻辑推理而非单纯数据驱动",
-          "url": ""
+          "recent": "近期聚焦于 AI 推理能力在科学预测中的核心价值，强调模型发展需超越单纯的数据驱动。",
+          "url": "https://twitter.com/demishassabis"
         },
         {
           "name": "Dario Amodei",
-          "role": "Anthropic CEO",
+          "role": "Anthropic CEO / AI 安全研究者",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦AI安全与对齐研究，推动Claude Code编程自主性升级及模型默认模式优化",
+          "recent": "近期推动 Claude Code 编程自主性大幅提升，同时关注 AI 安全测试环境正在成为真实安全风险。",
+          "url": "https://twitter.com/amodeidario"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta CTO / AI 先驱",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "近期主导 Meta 回归开源策略，发布本地化、代理式及多模态模型以扩大技术普惠。",
+          "url": "https://twitter.com/ylecun"
+        },
+        {
+          "name": "David Lankes",
+          "role": "图书馆创新学者 / 播客主持人",
+          "region": "美国",
+          "domain": "podcast/library",
+          "recent": "近期致力于媒体素养教学新方向与图书馆外展服务创新，强调包容性参考服务的构建。",
           "url": ""
         },
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "主导大语言模型商业化与生态建设，关注AI帝国重组及行业竞争格局",
+          "name": "吴建中",
+          "role": "中国图书馆学会原理事长 / 图书馆学专家",
+          "region": "中国",
+          "domain": "library",
+          "recent": "近期活跃于多项馆社论坛与志愿服务行动，关注信息公平访问、优质书目共荐及基层服务。",
           "url": ""
         },
         {
-          "name": "Timnit Gebru",
-          "role": "AI伦理研究者/Google前研究员",
-          "region": "加纳/美国",
-          "domain": "ai",
-          "recent": "关注AI公平性与安全测试环境风险，推动算法偏见审查进入政策层",
-          "url": ""
-        },
-        {
-          "name": "Janelle Shane",
-          "role": "AI安全研究者/作家",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "研究AI安全风险与行为不可预测性，关注病毒生成等极端场景的伦理边界",
+          "name": "Jane Poynter",
+          "role": "IFLA 前主席 / 图书馆与信息科学领袖",
+          "region": "英国",
+          "domain": "library",
+          "recent": "近期通过 IFLA 推动灾后重建中图书馆与博物馆的重生故事，并探索议会图书馆研究服务的未来议程。",
           "url": ""
         },
         {
           "name": "Lex Fridman",
-          "role": "AI播客主持人/研究者",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "深度访谈AI领域关键人物，探讨通用人工智能、意识与科学推理等前沿议题",
-          "url": ""
-        },
-        {
-          "name": "Peter Suber",
-          "role": "开放获取倡导者/MIT图书馆学教授",
-          "region": "美国",
-          "domain": "library",
-          "recent": "推动学术资源开放获取与知识自由，关注AI时代信息可及性变革",
-          "url": ""
+          "role": "AI 播客主持人 / 科技评论人",
+          "region": "以色列/美国",
+          "domain": "ai/podcast",
+          "recent": "近期持续深入探讨 AI 安全、推理能力瓶颈以及人机交互的未来伦理边界。",
+          "url": "https://lexfridman.com"
         }
       ]
     },
