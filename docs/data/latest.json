@@ -1,23 +1,75 @@
 {
-  "generated_at": "2026-08-11T06:25:37+08:00",
+  "generated_at": "2026-08-11T07:26:26+08:00",
   "date": "2026-08-11",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-11 06:25",
-    "ai": "2026-08-11 06:25",
+    "hot": "2026-08-11 07:26",
+    "ai": "2026-08-11 07:26",
     "voices": "2026-08-11 06:25",
     "github": "2026-08-11 06:25",
     "libraries": "2026-08-10 22:33",
-    "sports": "2026-08-11 06:25",
-    "academic": "2026-08-08 06:40"
+    "sports": "2026-08-11 07:26",
+    "academic": "2026-08-11 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Meta以新开源模型重启挣扎中的AI战略",
+          "eng": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+          "summary": "Meta推出新的开源AI模型Muse Glimmer，试图在闭源巨头主导的市场中找到差异化路径，但战略前景仍存不确定性。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-08-10",
+          "tags": [
+            "Meta",
+            "开源AI",
+            "模型发布"
+          ],
+          "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+          "overview": "文章报道了Meta推出新的开源权重AI模型Muse Glimmer，这是扎克伯格'个人超级智能'(personal superintelligence)愿景的技术基础。该模型旨在弥合AI用户之间的鸿沟——让没有技术背景的人也能访问和定制自己的AI系统。然而，分析指出Meta在AI竞赛中持续落后于OpenAI、Google等竞争对手，此次开源策略能否扭转局面尚存疑问。",
+          "analysis": "Meta的开源路线选择反映了其核心困境：缺乏算力优势时，开放生态可能是唯一可行的差异化路径。但'个人超级智能'概念过于宏大，需要验证技术可行性和用户实际需求之间的匹配度。",
+          "social": [
+            {
+              "who": "AI投资人",
+              "text": "Meta的开源策略是聪明的防守而非进攻。在算力军备竞赛中落后时，开放生态可以成为新的护城河——但前提是模型质量足够好。"
+            },
+            {
+              "who": "开发者",
+              "text": "Glimmer模型的开源意味着社区可以定制和优化，这对中小企业和研究人员是利好。但Meta能否持续投入更新仍是个问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "亚马逊资助美国最大天然气发电厂：AI数据中心扩张的环境代价",
+          "eng": "Amazon backs power plant that may become top source of US climate pollution",
+          "summary": "亚马逊宣布在美国建设首个完全脱离电网的数据中心，同时资助可能成为美国气候污染最大来源的天然气发电厂，凸显AI基础设施扩张与环保承诺之间的矛盾。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-08-10",
+          "tags": [
+            "AI基础设施",
+            "能源",
+            "气候变化"
+          ],
+          "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+          "overview": "文章报道了亚马逊在AI数据中心扩张方面的重大举措：宣布建设美国首个完全脱离电网的数据中心，同时资助一座可能成为美国气候污染最大来源的天然气发电厂。这一矛盾行为凸显了科技公司在追求AI算力增长与履行环保承诺之间的根本性张力。分析指出，即使采用可再生能源，数据中心的能源需求仍在指数级增长，传统能源依赖短期内难以消除。",
+          "analysis": "这是AI行业'绿色洗白'(greenwashing)的典型案例——宣布气候承诺的同时资助化石燃料项目。随着全球对AI能耗的关注加剧，这类矛盾行为可能面临更严格的监管审查和公众压力。",
+          "social": [
+            {
+              "who": "环境政策分析师",
+              "text": "亚马逊的行为揭示了科技公司的典型困境：短期商业利益与长期气候目标的冲突。脱离电网是方向正确的，但过渡期的化石燃料依赖需要透明披露。"
+            },
+            {
+              "who": "能源行业观察者",
+              "text": "AI数据中心的能耗增长曲线正在重新定义全球电力需求格局。传统发电厂和可再生能源之间的竞争将因AI而加速。"
+            }
+          ]
+        },
         {
           "title_zh": "Claude Agent入侵健身房预约系统，AI安全事件引发行业震动",
           "eng": "Tech industry is buzzing after a Claude agent hacked into a gym",
@@ -751,58 +803,6 @@
               "text": "暂停开发反而可能提升市场信心，表明公司在合规框架内运作，这对监管友好型投资逻辑有利。"
             }
           ]
-        },
-        {
-          "title_zh": "Cloudflare 推出专为 AI Agent 设计的浏览器 Kitesurf",
-          "eng": "Cloudflare launches Kitesurf, a browser built for AI agents",
-          "summary": "Cloudflare 发布了名为 Kitesurf 的云托管浏览器，专为 AI Agent 而非人类设计，旨在降低自动化任务的计算资源消耗。",
-          "source": "TechCrunch",
-          "region": "全球 (美国)",
-          "published": "2026-08-07",
-          "tags": [
-            "AI Agent",
-            "基础设施",
-            "浏览器"
-          ],
-          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-          "overview": "Cloudflare 推出了 Kitesurf，这是一款专为 AI Agent 构建的云托管浏览器。与传统 Chromium 相比，它在常见自动化任务中消耗更少的计算资源，旨在帮助开发者更高效地构建基于浏览器的 AI Agent。这标志着 Web 基础设施正从“为人设计”向“为机器设计”转型的关键一步。",
-          "analysis": "Kitesurf 的出现意味着 Agent 经济需要独立的运行环境。当浏览器成为 Agent 的操作系统时，Cloudflare 作为底层网络巨头正在抢占这一生态位，可能重塑前端开发格局。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "为 Agent 优化浏览器资源消耗是务实之举，但这也意味着人类浏览器的体验可能会被边缘化。"
-            },
-            {
-              "who": "开发者",
-              "text": "如果 Agent 成为主要用户，现有的 Web 标准可能需要重新定义以适配非人类交互模式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官裁定 Meta 构成“公共妨害”，须资助青少年心理健康治疗",
-          "eng": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
-          "summary": "新墨西哥州法官下令 Meta 支付 5.67 亿美元基金，以解决其帮助造成的青少年心理健康危机。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-08-07",
-          "tags": [
-            "AI社会影响",
-            "法律诉讼",
-            "Meta"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
-          "overview": "一名新墨西哥州法官裁定 Meta 构成了“公共妨害”，并下令其支付 5.67 亿美元用于帮助解决青少年心理健康危机。这一判决直接关联到社交媒体算法对年轻用户心理状态的负面影响，是科技巨头因产品副作用承担法律责任的里程碑式案例。",
-          "analysis": "此案若执行，将确立科技公司对其 AI 推荐算法造成的社会危害负有经济责任的先例。对于正在面临全球监管压力的 Meta 而言，这可能只是更大规模问责的开始。",
-          "social": [
-            {
-              "who": "法律学者",
-              "text": "'公共妨害'定性的突破意义在于承认了平台算法的外部性成本，这比单纯的数据隐私诉讼更具杀伤力。"
-            },
-            {
-              "who": "投资人",
-              "text": "合规风险正在成为科技估值的最大折价因素之一，此类判决可能加速行业洗牌。"
-            }
-          ]
         }
       ]
     },
@@ -1236,35 +1236,43 @@
     "sports": {
       "items": [
         {
-          "title_zh": "欧足联、中北美及亚足联联合致信要求国际足联主席因凡蒂诺辞职",
+          "title_zh": "欧足联、中北美及亚足联联名信呼吁国际足联主席因凡蒂诺辞职",
           "eng": "Uefa, Concacaf and AFC push for Infantino to quit and discuss rival competitions",
-          "summary": "三大洲足联联名公开信抨击因凡蒂诺，要求其下台并就世界杯改革方案进行对话。",
-          "source": "Guardian Football",
+          "summary": "三大洲足联联合致公开信，要求国际足联主席因凡蒂诺下台，并讨论世界杯等竞争赛事改革。此前因凡蒂诺的“足球前进企业”计划失败引发危机。",
+          "source": "The Guardian",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/uefa-concacaf-afc-fifa-gianni-infantino-world-cup",
-          "overview": "欧足联、中北美及加勒比足联（Concacaf）和亚足联（AFC）联合致信，公开要求国际足联主席因凡蒂诺辞职。信中批评其领导方式“服务于足球而非寻求指挥”，并提及因凡蒂诺此前推行的足球企业计划（FFE）失败引发危机。三大洲足联将推动讨论竞争格局等核心议题。",
-          "analysis": "这是世界杯改革僵局下的重大升级，若因凡蒂诺被迫下台，国际足联权力结构将面临重组，对2030年世界杯筹备影响深远。",
+          "overview": "欧足联、中北美及加勒比足球协会（Concacaf）和亚洲足球联合会（AFC）联合致公开信，强烈批评国际足联主席因凡蒂诺的领导风格。信件要求他辞职，并呼吁建立服务于足球而非寻求指挥的领导力。这一事件是围绕因凡蒂诺失败的“足球前进企业”（FFE）计划所引发的更大危机的升级。",
+          "analysis": "三大洲足联罕见联手施压，显示国际足联内部权力格局正面临严峻挑战。若因凡蒂诺辞职，继任者人选将成为焦点，同时世界杯赛制改革等议题也将重新摆上台面。",
           "social": [
             {
-              "who": "资深球迷/观察者",
-              "text": "三大洲足联罕见联手，说明因凡蒂诺的FIFA改革方案已彻底失去信任基础。"
+              "who": "资深球迷",
+              "text": "三大洲足联联合逼宫主席，足球治理的裂痕已经深到无法忽视的地步了。"
+            },
+            {
+              "who": "足球从业者",
+              "text": "因凡蒂诺的FFE计划失败是导火索，但深层矛盾在于权力分配与利益冲突。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "利物浦所有者芬威体育集团接近以13.5亿英镑出售30%股份给贝佐斯财团",
+          "title_zh": "利物浦大股东接近以13.5亿英镑出售30%股份给贝佐斯财团",
           "eng": "Liverpool owners close to £1.35bn sale of 30% stake to consortium including Jeff Bezos",
-          "summary": "包括亚马逊创始人贝佐斯在内的投资者财团正接近完成对利物浦约30%股份的收购交易。",
-          "source": "Guardian Football",
+          "summary": "包含亚马逊创始人杰夫·贝佐斯的投资者财团正接近完成对利物浦约30%股份的收购，交易金额约为13.5亿英镑。",
+          "source": "The Guardian",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/liverpool-sale-stake-consortium-jeff-bezos-amazon-fenway-sports-group",
-          "overview": "由印度亿万富翁拉克希米·米塔尔女婿阿米特·巴蒂亚领导的投资者财团，正与芬威体育集团（FSG）进行谈判，拟收购利物浦约30%的股份。交易金额接近13.5亿英镑。Facebook联合创始人爱德华多·萨维林也是该财团成员之一。",
-          "analysis": "这笔交易若完成，将标志着英超俱乐部所有权结构再次发生巨变，外部资本进入红队可能影响球队运营策略及未来转会投入方向。",
+          "overview": "由印度亿万富翁拉克希米·米塔尔女婿阿米尔·巴蒂亚领导的投资者财团，正与芬威体育集团（FSGB）就利物浦约30%股份的出售进行谈判。Facebook联合创始人爱德华多·萨维林也是该财团成员之一。这笔交易若达成，将是利物浦俱乐部历史上最大规模的股权变动。",
+          "analysis": "科技巨头和印度资本进入英超豪门，标志着英超所有权格局的进一步多元化。芬威体育集团作为创始股东，此次减持将如何影响球队运营战略值得持续关注。",
           "social": [
             {
-              "who": "俱乐部观察者",
-              "text": "13.5亿英镑的估值加上贝佐斯的名字，利物浦的商业版图正在被彻底改写。"
+              "who": "资深球迷",
+              "text": "贝佐斯入主利物浦？如果这笔交易完成，英超的资本版图又要变天了。"
+            },
+            {
+              "who": "足球记者",
+              "text": "13.5亿英镑出售30%股份，芬威体育集团终于松手了一部分控制权。"
             }
           ],
           "region": "足球·世界杯"
@@ -1272,67 +1280,87 @@
         {
           "title_zh": "阿劳霍租借加盟利物浦，巴塞罗那防线为何崩塌？",
           "eng": "Why has Araujo joined Liverpool and where did it go wrong at Barcelona?",
-          "summary": "乌拉圭后卫阿隆索·阿劳霍从巴塞罗那租借加盟利物浦，BBC分析了利物浦引进他的原因及巴萨防线的困境。",
+          "summary": "乌拉圭后卫阿隆·阿劳霍已租借加盟利物浦，BBC Sport分析了利物浦引进该球员的原因以及他在巴塞罗那时期的困境。",
           "source": "BBC Football",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/sport/football/articles/c4gx5w7egvwo?at_medium=RSS&at_campaign=rss",
-          "overview": "利物浦正式宣布从巴塞罗那租借签下后卫罗纳德·阿劳霍。报道指出，这笔交易反映了利物浦对乌拉圭中卫的需求，同时也揭示了巴塞罗那在防守端近期出现的战术或人员问题。",
-          "analysis": "阿劳霍的加盟是利物浦夏窗补强的关键一环，对于巴萨而言，核心后防人的流失可能影响其下赛季的欧冠竞争力。",
+          "overview": "利物浦从巴塞罗那租借签下了乌拉圭中后卫阿隆·阿劳霍。BBC Sport对此进行了详细报道，解释了利物浦为何选择这位后卫，并回顾了他在巴萨期间表现不佳的原因。这笔交易显示了利物浦在转会市场上对后防实力的重视。",
+          "analysis": "阿劳霍在巴萨的挣扎与利物浦的引援策略形成对比，这名球员能否在安菲尔德找回状态将是新赛季的关键看点之一。",
           "social": [
             {
-              "who": "英超球迷",
-              "text": "利物浦终于拿到了他们一直想要的中卫，阿劳霍在安菲尔德的表现值得期待。"
+              "who": "资深球迷",
+              "text": "阿劳霍在巴萨踢得不好，但到了利物浦能不能翻身？这取决于克洛普怎么用他。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "巴萨防线的问题一直存在，租借阿劳霍是止损还是试错，还需要时间验证。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "足总杯第二轮抽签：切尔西主场迎战卢顿，森林对阵利兹联",
-          "eng": "Carabao Cup second-round draw: Chelsea host Luton, Forest at home to Leeds",
-          "summary": "英超球队切尔西和热刺均获得主场优势，切尔西将在新帅阿隆索带领下冲击自2015年以来的首座足总杯。",
-          "source": "Guardian Football",
-          "published": "2026-08-10",
-          "url": "https://www.theguardian.com/football/2026/aug/10/carabao-cup-second-round-draw-chelsea-luton-nottingham-forest-leeds",
-          "overview": "足总杯第二轮抽签结果出炉，切尔西将在主场对阵英冠卢顿，热刺对阵查尔顿。诺丁汉森林将客场挑战利兹联，这是本轮唯一的英超对决。布伦特福德客场挑战伯明翰，伊普斯维奇对阵莱斯特城等比赛也已确定。",
-          "analysis": "阿隆索执教切尔西的首个杯赛舞台颇具看点，而森林与利兹联的对决则是本赛季英超球队之间的首次直接碰撞。",
-          "social": [
-            {
-              "who": "足总杯老粉",
-              "text": "卢顿在主场面对切尔西？虽然切尔西是五冠王，但新帅上任首战总是充满不确定性。"
-            }
-          ],
+          "title_zh": "",
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "范德文与热刺续约长期合同，确认俱乐部未来方向",
-          "eng": "Van de Ven signs new long-term deal with Spurs",
-          "summary": "热刺后卫米基·范德文签署新的长期合同，表示对俱乐部的未来发展方向感到清晰。",
+          "title_zh": "“这是足球，不是PlayStation”——欧足联裁判主管谈VAR争议",
+          "eng": "It's football, not PlayStation - Uefa refs' chief on VAR",
+          "summary": "欧足联裁判主管罗伯托·罗塞蒂表示，部分视频助理裁判的判罚“与足球无关”，引发外界对VAR介入尺度的讨论。",
           "source": "BBC Football",
           "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4g362n1e28o?at_medium=RSS&at_campaign=rss",
-          "overview": "热刺后卫米基·范德文宣布与俱乐部签署新的长期合同。他在声明中表示，签约让他对热刺想要前往的方向感到“清晰”。这一消息被视为俱乐部在阵容建设上的稳定信号。",
-          "analysis": "核心球员的续约是球队稳定的基石，范德文的留队有助于球队保持后防线的完整性，为赛季初的比赛做好准备。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvg90n3dvd5o?at_medium=RSS&at_campaign=rss",
+          "overview": "欧足联裁判主管罗伯托·罗塞蒂公开批评了部分VAR（视频助理裁判）的判罚，称这些审查“与足球无关”。这一言论引发了关于现代足球中科技辅助判罚边界的广泛讨论。",
+          "analysis": "罗塞蒂的直言不讳反映了欧洲足坛对过度依赖VAR的不满情绪。如何在保持比赛流畅性与确保判罚准确性之间找到平衡，将是未来改革的重点。",
           "social": [
             {
-              "who": "热刺球迷",
-              "text": "终于签下了！范德文是防线的重要一环，长期合同意味着他可以安心备战新赛季了。"
+              "who": "资深球迷",
+              "text": "裁判主管说VAR是PlayStation？看来大家早就受够了那些慢镜头回放。"
+            },
+            {
+              "who": "足球记者",
+              "text": "罗塞蒂的批评很有分量，但改变VAR规则需要欧足联和各大联赛的共识。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "诺丁汉森林老板起诉水晶宫：球迷横幅被指构成诽谤",
-          "eng": "Nottingham Forest owner Marinakis sues Crystal Palace over fan banner",
-          "summary": "诺丁汉森林老板马林纳基斯就球迷展示其持枪威胁吉布斯-怀特的横幅对水晶宫提起诽谤诉讼。",
-          "source": "Guardian Football",
+          "title_zh": "足总杯第二轮抽签揭晓：切尔西主场迎战卢顿，森林对阵利兹联",
+          "eng": "Carabao Cup second-round draw: Chelsea host Luton, Forest at home to Leeds",
+          "summary": "英超五强在足总杯第二轮中各有安排，切尔西将在主场面对英冠球队卢顿，诺丁汉森林则坐镇主场迎战利兹联。",
+          "source": "The Guardian",
           "published": "2026-08-10",
-          "url": "https://www.theguardian.com/football/2026/aug/10/nottingham-forest-owner-marinakis-sues-crystal-palace-over-fan-banner",
-          "overview": "诺丁汉森林老板马林纳基斯因水晶宫球迷在1-1平局期间展示描绘其持枪威胁英格兰中场吉布斯-怀特头部的横幅，对俱乐部提起诽谤诉讼。此前，水晶宫已收到英足总5万英镑的罚款。",
-          "analysis": "这一事件凸显了足球文化中球迷行为与俱乐部管理之间的紧张关系，也反映了现代足球中名人效应与粉丝互动的边界问题。",
+          "url": "https://www.theguardian.com/football/2026/aug/10/carabao-cup-second-round-draw-chelsea-luton-nottingham-forest-leeds",
+          "overview": "足总杯第二轮抽签结果公布，切尔西将在主场迎战英冠球队卢顿，这是切尔西自2015年以来首次尝试在足总杯中夺冠。诺丁汉森林将主场对阵利兹联，这是本轮唯一的英超对碰。此外，热刺将对阵查尔顿，布伦特福德客场挑战伯明翰等比赛也在列。",
+          "analysis": "切尔西在新任主帅阿隆索的带领下，有望在本届足总杯中有所作为。森林与利兹联的对决则是英超球队之间的直接对话，值得关注。",
           "social": [
             {
-              "who": "英超评论员",
-              "text": "5万英镑的罚款只是开始，老板起诉俱乐部本身就是一个非常不寻常的法律动作。"
+              "who": "资深球迷",
+              "text": "阿隆索执教切尔西的首个杯赛任务就是足总杯，卢顿是不错的对手。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "森林主场迎战利兹联，这是本轮最吸引人的英超对决之一。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "诺丁汉森林老板起诉水晶宫：球迷横幅涉嫌诽谤",
+          "eng": "Nottingham Forest owner Marinakis sues Crystal Palace over fan banner",
+          "summary": "诺丁汉森林老板马林纳基斯因球迷展示其持枪威胁吉布斯-怀特头部的横幅，对水晶宫提起诽谤诉讼。",
+          "source": "The Guardian",
+          "published": "2026-08-10",
+          "url": "https://www.theguardian.com/football/2026/aug/10/nottingham-forest-owner-marinakis-sues-crystal-palace-over-fan-banner",
+          "overview": "诺丁汉森林老板埃万杰洛斯·马林纳基斯因水晶宫球迷在比赛中展示其持枪威胁吉布斯-怀特头部的横幅，对俱乐部提起诽谤诉讼。此前，水晶宫已被英足总处以5万英镑罚款。律师已就此事提起诉讼。",
+          "analysis": "这一事件凸显了足球文化中球迷行为与俱乐部管理之间的紧张关系。马林纳基斯的法律行动可能引发更多关于球迷表达自由的讨论。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "球迷横幅惹官司，看来水晶宫这次真的捅了马蜂窝。"
+            },
+            {
+              "who": "足球记者",
+              "text": "5万英镑罚款只是开始，马林纳基斯选择起诉俱乐部而非接受处罚，态度强硬。"
             }
           ],
           "region": "足球·世界杯"
@@ -1340,188 +1368,184 @@
         {
           "title_zh": "“生命线”乒乓球场地临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "BBC报道，一处名为“Lifeline”的社区乒乓球场地暂时恢复运营，使用者表示这如同将精神家园归还。",
+          "summary": "BBC报道，一个名为“生命线”的社区乒乓球场地在短暂关闭后重新向公众开放，使用者表示这如同将精神家园归还。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地此前处于关闭状态，现暂时重新开放。使用者对此反响热烈，称其具有精神层面的意义。具体关闭原因及开放时间未详述。",
-          "analysis": "社区体育设施的临时恢复反映了公众对基层运动场所的强烈需求，此类“生命线”项目对于维持居民运动习惯至关重要。",
+          "overview": "该场地此前曾面临关闭风险，现暂时恢复运营。对于依赖此设施进行社交和锻炼的社区成员而言，这一消息具有重要意义。",
+          "analysis": "社区体育设施的存续直接关系到公众健康和社会凝聚力，此类场地的重新开放反映了基层体育组织在资源有限情况下的韧性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "社区场地的回归对维持基层运动热情意义重大。"
-            },
-            {
-              "who": "普通用户",
-              "text": "能重新使用这个场地，感觉像找回了精神家园。"
+              "text": "社区乒乓球馆能重新开门，对很多依赖这里社交的人来说是好事。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "英国选手 Hunt 赢得欧洲田径锦标赛百米金牌",
-          "eng": "GB's Hunt wins European 100m gold",
-          "summary": "英国运动员 Amy Hunt 在伯明翰举行的欧洲田径锦标赛上夺得女子 100 米冠军，拿下个人首个成年组国际大赛头衔。",
+          "title_zh": "英国选手 Hunt 在欧锦赛百米飞人大战中夺金",
+          "eng": "GB's Hunt 'comes of age' with European 100m gold",
+          "summary": "英国田径运动员 Amy Hunt 在伯明翰举行的欧洲田径锦标赛上赢得女子 100 米金牌，实现了职业生涯的重大突破。",
           "source": "BBC Sport",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/sport/athletics/articles/c629lxdx88wo?at_medium=RSS&at_campaign=rss",
-          "overview": "在伯明翰举行的欧洲田径锦标赛上，英国选手 Amy Hunt 凭借出色的发挥赢得了女子 100 米金牌。这是她职业生涯中获得的第一个高级别国际赛事冠军，标志着她在成年组竞技层面的重大突破。",
-          "analysis": "Hunt 的爆发力表现令人印象深刻，这不仅是她个人的里程碑，也是英国田径近年来的亮点之一。百米短跑竞争极为激烈，能在欧洲锦标赛上夺冠含金量极高。",
+          "overview": "在伯明翰欧洲田径锦标赛女子 100 米决赛中，英国选手 Amy Hunt 以出色的表现夺冠。这是她职业生涯的首枚重大金牌，标志着她从年轻新星正式成长为世界级短跑运动员。比赛过程紧凑激烈，Hunt 展现了极强的冲刺能力。",
+          "analysis": "Hunt 的胜利不仅是个人荣誉，也提升了英国田径在国际赛场上的竞争力。作为新生代选手，她在关键大赛中展现出的心理素质令人印象深刻。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "Hunt 终于在国际大赛上证明了实力，这是英国田径的骄傲时刻。"
+              "text": "Hunt 终于迎来了属于她的时刻，百米飞人赛道上又多了一位英国名将。"
             },
             {
               "who": "体育评论员",
-              "text": "百米短跑一直是世界顶级选手的战场，Hunt 的胜利值得所有关注田径运动的人庆祝。"
+              "text": "伯明翰欧锦赛的百米决赛竞争白热化，Hunt 的胜利实至名归。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "欧足联、中北美及亚足联联合施压要求因凡蒂诺辞职",
+          "title_zh": "WNBA 围绕跨性别运动员资格问题爆发争议",
+          "eng": "The transgender controversy surrounding the WNBA",
+          "summary": "印第安纳狂热队球员 Sophie Cunningham 呼吁禁止跨性别女性参加女子体育比赛，引发 WNBA 内部关于参赛资格的激烈争论。",
+          "source": "BBC Sport",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/ckg3enx6rj6o?at_medium=RSS&at_campaign=rss",
+          "overview": "WNBA 印第安纳狂热队球员 Sophie Cunningham 公开表示，禁止跨性别女性参加女子体育是“常识”，这一言论在联盟内引发了轩然大波。此前有前 NBA 球员指出，根据现有资格规则，他们可能符合参加 2027 年选秀的条件。",
+          "analysis": "这一争议触及了体育界长期存在的公平性与包容性之间的核心矛盾。WNBA 作为女子职业篮球的最高殿堂，其政策走向将对整个女子体育产生深远影响。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "这不仅仅是篮球的问题，更是关于体育定义和公平的深层讨论。"
+            },
+            {
+              "who": "教练视角",
+              "text": "联盟需要在竞技公平和社会包容之间找到平衡点，否则将面临巨大的舆论压力。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "美国 1500 米冠军 Koech 因兴奋剂被禁赛三年",
+          "eng": "US 1500m champion Koech gets three-year doping ban",
+          "summary": "美国中长跑选手 Jonah Koech 因血液兴奋剂违规，被国际田联处以三年禁赛的严厉处罚。",
+          "source": "BBC Sport",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/cjrv9ng729qo?at_medium=RSS&at_campaign=rss",
+          "overview": "曾是美国 1500 米冠军的 Jonah Koech 因血液兴奋剂违规，被国际田联宣布禁赛三年。这一处罚旨在维护田径运动的公平性，对运动员的职业生涯造成了重大打击。",
+          "analysis": "兴奋剂问题一直是田径运动的毒瘤，Koech 的案例再次凸显了反兴奋剂工作的严峻性和必要性。对于中长跑项目来说，保持药检的严格性是至关重要的。",
+          "social": [
+            {
+              "who": "体育记者",
+              "text": "三年禁赛意味着 Koech 将失去大量比赛机会，这对他的职业生涯无疑是毁灭性的。"
+            },
+            {
+              "who": "田径爱好者",
+              "text": "兴奋剂违规必须受到严惩，这样才能保护那些靠实力说话的运动员。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "欧足联等三大洲足联联名施压 FIFA 主席辞职",
           "eng": "Uefa, Concacaf and AFC push for Infantino to quit and discuss rival competitions",
-          "summary": "三大洲足球联合会联名致公开信，强烈批评国际足联主席因凡蒂诺的领导力，呼吁其辞职并就竞争赛事问题展开讨论。",
+          "summary": "欧足联、中北美及加勒比足联和亚足联联合致信，强烈要求 FIFA 主席因凡蒂诺辞职，并讨论建立独立赛事体系。",
           "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/uefa-concacaf-afc-fifa-gianni-infantino-world-cup",
-          "overview": "欧足联、中北美及加勒比海足球联合会（Concacaf）和亚洲足球联合会（AFC）联合发表公开信，严厉批评国际足联主席因凡蒂诺的领导力，要求他辞职并就竞争赛事问题进行讨论。这一行动是在 FIFA 总统失败的 Football Forward Enterprise (FFE) 计划细节曝光后发生的戏剧性升级。",
-          "analysis": "这标志着全球足球治理格局的重大裂痕，三大洲足联罕见地联合发声，可能对 FIFA 内部权力结构产生深远影响。因凡蒂诺面临的压力前所未有。",
+          "overview": "欧足联、中北美及加勒比足联和亚足联联合发表公开信，要求 FIFA 主席因凡蒂诺辞职。信中批评其“领导力应服务于足球，而非寻求指挥”，并提及了因凡蒂诺失败的“Football Forward Enterprise”计划引发的冲突。三大洲足联正推动建立与 FIFA 世界杯竞争的独立赛事体系。",
+          "analysis": "这一事件标志着国际足球治理格局的重大转变。三大洲足联的联合行动显示了它们对现有 FIFA 体系的强烈不满，未来国际足球赛事的竞争将更加激烈。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "三大洲足联联手施压，这足以说明 FIFA 内部的矛盾已经激化到无法调和的地步。"
+              "text": "三大洲足联联手施压，FIFA 主席的位置可能不保，国际足坛即将迎来大变革。"
             },
             {
               "who": "足球分析师",
-              "text": "这一事件可能引发全球足球治理的重组，各国足协需要重新评估与 FIFA 的关系。"
+              "text": "独立赛事体系的建立将改变世界杯的垄断地位，这对全球足球生态将是深远的影响。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "万卓索娃 doping 争议将网球检测置于聚光灯下",
-          "eng": "Vondrousova's antics put tennis doping tests in spotlight – a far cry from football's view | Tumaini Carayol",
-          "summary": "前温网冠军万卓索娃因拒绝药检被禁赛四年，其对此事的公开回应与足球领域对类似问题的处理方式形成鲜明对比。",
+          "title_zh": "网球 doping 检测因 Vondrousova 事件成为焦点",
+          "eng": "Vondrousova's antics put tennis doping tests in spotlight – a far cry from football's view",
+          "summary": "前温网冠军 Marketa Vondrousova 因拒绝药检被禁赛四年，其言行引发网球界对药检程序的广泛讨论。",
           "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/sport/2026/aug/10/marketa-vondrousova-doping-ban-tennis-wada-mykhailo-mudryk-chelsea-fa-return-football",
-          "overview": "前温布尔登冠军 Marketa Vondrousova 因拒绝药检被禁赛四年，她在社交媒体和采访中对此事进行了大量回应，声称对检测过程的安全有严重担忧。这一事件凸显了网球领域在反兴奋剂程序透明度上与足球领域的巨大差异。",
-          "analysis": "万卓索娃的争议行为引发了公众对体育检测公正性的广泛讨论，不同运动项目在处理类似问题上的态度差异值得深思。",
+          "overview": "前温网冠军 Marketa Vondrousova 因拒绝药检被 WADA 禁赛四年。在此期间，她通过社交媒体和采访表达了对药检安全性的担忧，试图主导舆论叙事。这一事件将网球 doping 检测程序推向了公众视野的中心。",
+          "analysis": "Vondruosova 的事件凸显了体育界在药检程序透明度和运动员权益保护之间的紧张关系。与足球相比，网球在药检争议上的处理方式显得尤为独特和敏感。",
           "social": [
             {
-              "who": "网球爱好者",
-              "text": "这一事件让人们对网球的反兴奋剂程序产生了更多质疑，希望未来能更加透明。"
+              "who": "网球评论员",
+              "text": "Vondrousova 的禁赛事件让网球 doping 检测成为了全球关注的焦点，这不仅仅是体育问题。"
             },
             {
-              "who": "体育记者",
-              "text": "万卓索娃的回应虽然引起了关注，但禁赛四年的决定本身已经足够说明问题。"
+              "who": "资深球迷",
+              "text": "运动员的安全和隐私同样重要，如何在药检中平衡这两者是亟待解决的问题。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "女子环法脱离普加奇的阴影展现真正精彩的竞技",
-          "eng": "Tour de France Femmes steps out of Pogacar's shadow to showcase truly compelling racing | Jeremy Whittle",
-          "summary": "荷兰选手 Vollering 在尼斯站赢得女子环法第二名，与波兰选手 Niewiadoma 的激烈争夺为赛事增添了戏剧性。",
+          "title_zh": "环法女子赛 Vollering 夺总冠军，摆脱 Pogacar 阴影",
+          "eng": "Tour de France Femmes steps out of Pogacar's shadow to showcase truly compelling racing",
+          "summary": "荷兰选手 Demi Vollering 在环法女子赛最后一站激烈争夺中夺冠，成功摆脱了男子赛事冠军普高查尔的阴影。",
           "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/sport/2026/aug/10/cycling-tour-de-france-femmes-demi-vollering-tadej-pogacar",
-          "overview": "在尼斯举行的女子环法自行车赛中，荷兰选手 Demi Vollering 赢得了第二名，与波兰选手 Kasia Niewiadoma 的激烈争夺为赛事增添了戏剧性。尽管普加奇在男子赛事中占据主导地位，但女子赛事终于展现出独立于男子赛事之外的竞争力和观赏价值。",
-          "analysis": "Vollering 的胜利证明了女子环法正在成为一项真正具有竞争力的赛事，不再仅仅是男子赛事的附属品。",
+          "overview": "在环法女子赛最后一站，荷兰选手 Demi Vollering 与波兰选手 Kasia Niewiadoma 展开激烈争夺，最终 Vollering 以攻击性表现赢得总冠军。这一胜利标志着环法女子赛正逐步摆脱男子赛事冠军普高查尔的阴影，展现出自身独特的魅力。",
+          "analysis": "Vollering 的胜利证明了环法女子赛的竞技水平正在不断提升。随着赛事独立性的增强，它有望成为与男子环法同等重要的顶级自行车赛事。",
           "social": [
             {
               "who": "自行车爱好者",
-              "text": "女子环法的竞争越来越激烈，这让我们看到了这项运动的未来潜力。"
+              "text": "Vollering 的夺冠是环法女子赛历史上的重要时刻，她的表现令人振奋。"
             },
             {
               "who": "体育评论员",
-              "text": "Vollering 的表现令人印象深刻，她终于摆脱了普加奇的阴影，证明了自己的实力。"
+              "text": "环法女子赛的竞争越来越激烈，Vollering 的胜利证明了这项赛事的真正价值。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "墨西哥凭借争议 VAR 红卡击败美国锁定 2028 奥运席位",
+          "title_zh": "墨西哥 U-20 队凭借争议 VAR 红卡击败美国锁定奥运资格",
           "eng": "Mexico seal place at 2028 Olympics after controversial VAR red card in U-20 win over US",
-          "summary": "墨西哥队在阿兹特克球场以 2-0 战胜东道主美国队，Cristóbal Alfaro 梅开二度助其卫冕中北美 U-20 冠军并锁定洛杉矶奥运会参赛资格。",
+          "summary": "墨西哥队在 U-20 中北美锦标赛决赛中以 2-0 击败美国队，凭借争议性 VAR 红卡锁定 2028 年洛杉矶奥运会参赛资格。",
           "source": "Guardian Sport",
           "published": "2026-08-10",
           "url": "https://www.theguardian.com/football/2026/aug/10/mexico-seal-place-at-2028-olympics-after-controversial-var-red-card-in-u-20-win-over-us",
-          "overview": "在阿兹特克球场举行的中北美 U-20 锦标赛决赛中，墨西哥队以 2-0 战胜东道主美国队。Cristóbal Alfaro 梅开二度帮助墨西哥卫冕冠军并锁定 2028 年洛杉矶奥运会的参赛资格。比赛因 VAR 判罚红卡而蒙上阴影，但墨西哥的奥运之路由此确定。",
-          "analysis": "VAR 的红卡判罚引发了争议，但墨西哥的胜利是实至名归的。这一结果对两国年轻球员的未来发展具有重要意义。",
+          "overview": "在 U-20 中北美锦标赛决赛中，墨西哥队以 2-0 击败东道主美国队。比赛因 VAR 判罚 Chris Applewhite 红牌而充满争议，该红牌发生在半场前。Cristóbal Alfaro 梅开二度帮助墨西哥锁定 2028 年洛杉矶奥运会参赛资格。",
+          "analysis": "VAR 技术的引入虽然旨在提高公平性，但此次判罚的争议性再次引发了关于技术辅助与裁判直觉之间平衡的讨论。对于墨西哥队来说，奥运资格的获得无疑是巨大的成就。",
           "social": [
             {
-              "who": "足球迷",
-              "text": "墨西哥队的胜利令人振奋，他们在奥运资格赛中的表现堪称完美。"
+              "who": "足球评论员",
+              "text": "VAR 红卡的争议性判罚让这场比赛充满了戏剧性，但也引发了对技术辅助边界的思考。"
             },
-            {
-              "who": "体育评论员",
-              "text": "VAR 的红卡判罚虽然引发争议，但比赛的结果是公正的，墨西哥队 deserves this victory."
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "利物浦股东接近以 13.5 亿英镑出售 30% 股权给包括贝佐斯在内的财团",
-          "eng": "Liverpool owners close to £1.35bn sale of 30% stake to consortium including Jeff Bezos",
-          "summary": "由亚马逊创始人杰夫·贝佐斯牵头的投资联盟正与芬威体育集团洽谈，拟收购利物浦足球俱乐部 30% 的股份。",
-          "source": "Guardian Sport",
-          "published": "2026-08-10",
-          "url": "https://www.theguardian.com/football/2026/aug/10/liverpool-sale-stake-consortium-jeff-bezos-amazon-fenway-sports-group",
-          "overview": "由亚马逊创始人杰夫·贝佐斯牵头的投资联盟正与芬威体育集团（FSG）进行谈判，拟以 13.5 亿英镑的价格收购利物浦足球俱乐部 30% 的股份。该财团还包括印度亿万富翁拉克什米·米塔尔的女婿 Amit Bhatia 和 Facebook 联合创始人 Eduardo Saverin。",
-          "analysis": "这笔交易若成行将改变英超格局，标志着顶级球星背后的资本运作进入新阶段。贝佐斯的加入无疑为利物浦的未来发展注入了新的活力。",
-          "social": [
-            {
-              "who": "足球投资者",
-              "text": "贝佐斯的投资将为利物浦带来巨大的商业价值，这将是英超历史上最大的一笔交易之一。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "这笔交易的完成将标志着利物浦进入一个新的时代，其未来发展前景令人期待。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "森林队老板起诉水晶宫球迷展示持枪横幅事件",
-          "eng": "Forest owner Marinakis sues Palace over gun banner",
-          "summary": "诺丁汉森林俱乐部老板 Marinakis 因水晶宫球迷展示其持枪指向中场球员 Gibbs-White 头部的横幅而对其提起诉讼。",
-          "source": "BBC Sport",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/football/articles/czjlwe90py7o?at_medium=RSS&at_campaign=rss",
-          "overview": "诺丁汉森林足球俱乐部老板 Evangelos Marinakis 因水晶宫球迷展示其持枪指向中场球员 Morgan Gibbs-White 头部的横幅而对其提起诉讼。这一事件引发了关于足球界对极端球迷行为零容忍态度的讨论。",
-          "analysis": "Marinakis 的法律行动反映了足球界对极端球迷行为的零容忍态度升级，这一事件可能引发更广泛的行业反思。",
-          "social": [
             {
               "who": "资深球迷",
-              "text": "这种持枪横幅的行为是不可接受的，森林队老板的起诉是正义之举。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这一事件再次提醒我们，足球界需要更加重视对极端行为的打击力度。"
+              "text": "墨西哥队凭借实力赢得比赛，奥运资格的获得是实至名归的。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "世界第一辛纳因膝伤退出辛辛那提公开赛",
+          "title_zh": "世界排名第一的 Sinner 因伤退出辛辛那提公开赛",
           "eng": "World number one Sinner to miss Cincinnati Open",
-          "summary": "世界排名第一的 Jannik Sinner 因膝盖伤势宣布退赛，但他预计月底美国网球公开赛期间将恢复状态。",
+          "summary": "世界排名第一的 Jannik Sinner 因膝盖受伤退出本周在辛辛那提举行的网球公开赛，但仍预计月底可参加美网。",
           "source": "BBC Tennis",
           "published": "2026-08-09",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/cdx7gg7wq2do?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的 Jannik Sinner 因膝盖伤势宣布退出本周在辛辛那提举行的网球公开赛。尽管他预计月底美国网球公开赛期间将恢复状态，但这一缺席对美网前的热身至关重要。",
-          "analysis": "辛纳的膝伤问题一直困扰着他，此次退赛可能影响他在美网的备战计划。他的伤情发展将继续受到广泛关注。",
+          "overview": "世界排名第一的 Jannik Sinner 因膝盖受伤宣布退出辛辛那提公开赛。尽管面临伤病困扰，他仍表示预计月底可以恢复状态参加美网。这一消息对 ATP 巡回赛和球迷来说都是重大打击。",
+          "analysis": "Sinner 的缺席将改变辛辛那提公开赛的竞争格局，为其他选手提供了机会。膝盖伤势对于顶级网球运动员来说是常见的挑战，需要密切关注其康复进展。",
           "social": [
             {
-              "who": "网球爱好者",
-              "text": "辛纳的缺席令人遗憾，希望他能早日康复重返赛场。"
+              "who": "资深球迷",
+              "text": "Sinner 因伤退赛令人惋惜，但他的恢复速度依然让人期待。"
             },
             {
-              "who": "体育评论员",
-              "text": "膝伤是辛纳最大的隐患，此次退赛可能影响他在美网的备战计划。"
+              "who": "网球评论员",
+              "text": "膝盖伤势对 Sinner 的职业生涯影响重大，希望他能尽快康复重返赛场。"
             }
           ],
           "region": "综合"
@@ -1783,104 +1807,39 @@
     "hot": {
       "items": [
         {
-          "title_zh": "哥伦比亚7.4级地震致百余人死亡建筑倒塌",
-          "summary": "哥伦比亚卡利市发生7.4级强烈地震，导致超过100人死亡及数十栋建筑坍塌。",
-          "source": "Guardian World",
+          "title_zh": "英格兰超三分之二地区进入干旱状态",
+          "summary": "英国东米德兰兹、林肯郡和北安普敦郡等多个区域已正式升级为干旱等级，持续高温导致水资源严重短缺。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-08-10",
-          "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
-          "overview": "哥伦比亚卡利市发生7.4级地震，造成严重破坏。市长表示该市有超过两打建筑倒塌，部分居民仍被困在废墟中。卡利市政府已向波哥大和麦德林请求派遣灾害救援队伍支援搜救工作。",
-          "analysis": "此次强震凸显了哥伦比亚沿海城市面临的地质风险及基础设施脆弱性，大规模人员伤亡和建筑损毁引发了国际社会对灾后重建和人道主义援助的广泛关注。",
+          "url": "https://www.bbc.co.uk/news/articles/c70gk2dl5jyo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国气象部门宣布，英格兰超过三分之二的地区目前已进入干旱状态。东米德兰兹、林肯郡和北安普敦郡、肯特和伊斯特萨塞克斯、以及索伦特和南唐斯等区域均被纳入干旱名单。这一状况反映了近期持续高温天气对当地水资源和农业造成的严重影响，政府正密切关注旱情发展并准备相应的应对措施。",
+          "analysis": "此次大范围干旱不仅影响居民用水，还可能加剧野火风险和经济压力。分析人士指出，气候变化导致的极端天气频率增加是根本原因，英国需加强长期水资源管理策略以应对未来类似危机。",
           "social": [
             {
-              "who": "国际救援组织",
-              "text": "呼吁各国政府迅速启动紧急人道主义响应机制，确保被困人员得到及时救治与物资供应。"
+              "who": "气象专家",
+              "text": "干旱等级升级意味着未来数周降雨量仍难以满足需求，农业灌溉用水将受到严格限制。"
             }
           ]
         },
         {
-          "title_zh": "刚果民主共和国埃博拉疫情或出现变异病例超4000",
-          "summary": "刚果（金）埃博拉确诊病例突破4000例，卫生官员警告病毒可能正在发生变异。",
-          "source": "Guardian World",
+          "title_zh": "新森林火灾持续燃烧，车辆被弃置",
+          "summary": "英国新森林地区火灾仍在夜间进行扑救，有居民称担心自家汽车在火势蔓延中被烧毁。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
-          "overview": "刚果（金）埃博拉疫情持续蔓延，确诊病例已超过4000例。非洲公共卫生监管机构宣布将升级应对措施，计划逐户排查患者，认为渐进式行动已不足以应对当前危机。",
-          "analysis": "病毒潜在的突变风险使得此次疫情成为国际公共卫生的重大挑战，全球卫生组织正密切关注病毒变异情况并准备相应的疫苗和药物研发方案。",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/clye8l9422no?at_medium=RSS&at_campaign=rss",
+          "overview": "英国新森林地区的火灾扑救工作仍在夜间持续进行，现场火势凶猛。一名女性居民表示，她曾担心家人的汽车会在周日大火蔓延时被烧毁。此次火灾再次引发了公众对英国夏季防火安全的关注，消防部门正全力以赴控制火情并保护周边财产。",
+          "analysis": "新森林火灾与英格兰干旱天气密切相关，干燥植被极易燃烧。这凸显了极端气候条件下城市与自然交界地带面临的消防安全挑战，需要更完善的预警和疏散机制。",
           "social": [
             {
-              "who": "非洲疾控中心专家",
-              "text": "强调必须立即采取全面升级的防控策略，包括社区动员和快速检测网络建设，以遏制疫情进一步扩散。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
-          "summary": "联邦法官裁定特朗普政府可以取消数百名南苏丹公民的临时保护身份。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "美国马萨诸塞区联邦法官帕蒂·萨里斯裁定，特朗普政府可以推进取消数百名南苏丹公民临时保护身份（TPS）的计划。此前最高法院已允许政府剥夺海地和叙利亚人的类似保护。",
-          "analysis": "这一决定进一步收紧了美国对特定国家移民的保护政策，可能引发更多相关国家的移民群体寻求法律救济或政治施压。",
-          "social": [
-            {
-              "who": "移民权利组织",
-              "text": "表示将对此裁决提起上诉，并呼吁公众关注受影响的南苏丹难民在美国的生存现状与权益保障问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国将关闭五处领事馆引发中国填补真空担忧",
-          "summary": "美国国务院通知国会将在加拿大、日本等五国关闭领事机构，批评者担心中国可能填补外交空白。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-          "overview": "美国国务院通知国会将在加拿大、格林纳达、日本、印度尼西亚和喀麦隆关闭五处领事馆及机构。此举被批评为在外交领域留下真空，可能有利于中国填补相关地区的利益空间。",
-          "analysis": "此次关闭基于成本考量及双边关系重新评估，被视为美国在全球化背景下收缩海外外交布局的信号，对中美地缘政治博弈具有深远影响。",
-          "social": [
-            {
-              "who": "国际关系学者",
-              "text": "指出此举反映了美国在资源有限情况下的战略取舍，但也可能加速其他大国在这些地区的存在感提升。"
-            }
-          ]
-        },
-        {
-          "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "西班牙宣布对来自意大利的访客实施临时边境检查，回应罗马采取类似措施应对大规模移民潮。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙内政部宣布将对来自意大利的访客实施临时边境检查，以回应罗马在摩洛哥人涌入塞维利亚后采取的类似措施。检查将于周六午夜开始至9月7日结束。",
-          "analysis": "伊西两国边境管控升级反映了欧洲移民危机持续加剧的现状，各国正试图通过加强边境管理来缓解非法移民带来的社会压力。",
-          "social": [
-            {
-              "who": "欧盟政策观察员",
-              "text": "认为此类临时措施虽能短期缓解压力，但长期来看仍需欧盟层面协调统一的移民政策框架才能根本解决问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "乌干达顶级足球运动员遭持石劫匪袭击身亡",
-          "summary": "乌干达国家队球员大卫·奥沃里在卡门巴被劫匪用铺路石袭击后不治身亡。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
-          "overview": "乌干达职业足球俱乐部队长大卫·奥沃里在首都坎帕拉试图阻止劫匪抢夺手机时遭到袭击，最终在医院不治身亡。事件发生在周二晚上，目前乌干达足坛陷入哀悼。",
-          "analysis": "该事件不仅是一起令人痛心的刑事案件，也揭示了当地治安问题及体育界人士面临的潜在人身安全风险，引发了社会对公共安全的广泛讨论。",
-          "social": [
-            {
-              "who": "乌干达足球协会",
-              "text": "发表声明哀悼奥沃里的离世，并呼吁加强城市治安管理以保护运动员和市民的生命安全。"
+              "who": "当地居民",
+              "text": "看到火光逼近时非常恐慌，希望消防部门能尽快控制火势以保护社区安全。"
             }
           ]
         }
       ],
       "regions": [
-        "中国",
         "国外"
       ]
     },
@@ -1953,6 +1912,120 @@
           "region": "国际",
           "published": "2026-10-01",
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年科普阅读推广研讨会的通知",
+          "summary": "各图书馆： 为提升图书馆科普阅读推广服务水平，推动全民科普阅读高质量发展，中国图书馆学会阅读推广工作委员会拟于2026年9月2日至5日在江苏省南京市举办2026年科普阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：南京图书馆学会 金陵图书馆 北京市东城区图书馆 支持单位：图书馆报社 二、会议主题及内容 围绕“跨界协同 阅享科学—共建科普阅",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-10",
+          "overview": "各图书馆： 为提升图书馆科普阅读推广服务水平，推动全民科普阅读高质量发展，中国图书馆学会阅读推广工作委员会拟于2026年9月2日至5日在江苏省南京市举办2026年科普阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：南京图书馆学会 金陵图书馆 北京市东城区图书馆 支持单位：图书馆报社 二、会议主题及内容 围绕“跨界协同 阅享科学—共建科普阅读新生态”主题，聚焦科普阅读弘扬科学精神，传播科普阅读先进理念，推动图书馆事业发展。 三、会议时间及日程 （一）会议时间 2026年9月2日至5日（周三至周六） （二）会议安排 日期 时间 日程安排 9月2日 下午 报到 9月3日 上午 开幕式、主旨报告 下午 专题报告 9月4日 上午 案例分享 下午 现场交流 9月5日 上午 离会 四、会议地点 金陵图书馆（南京市建邺区乐山路158号） 五、参会人员 图书馆界科普阅读推广领域专家、学者，中国图书馆学会阅读推广工作委员会委员，各图书馆及相关机构代表等。 为促进交流研讨，欢迎参会人员围绕会议主题提交相关交流材料，用于选取代表进行交流发言。发言材料与报名回执同步提交至报名邮箱。 六、会务提示 （一）本次会议不收取会议费。会议期间食宿及交通统一安排，住宿及城市间往来交通费用自理。 （二）会议规模为150人，额满即止。请有意参加的代表填写“参会回执",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2086634550914072576.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年阅读与心理健康研讨会的通知",
+          "summary": "各图书馆： 为深入挖掘阅读疗愈价值，促进阅读推广与社会心理健康服务深度融合，中国图书馆学会阅读推广工作委员会定于2026年10月14日至16日在烟台大学图书馆举办“阅读与心理健康研讨会”。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：烟台大学图书馆 支持单位：同方知网数字科技有限公司 二、会议主题 读书颐情·全民健心 三、会议地点 烟台大学图书馆承先报",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-10",
+          "overview": "各图书馆： 为深入挖掘阅读疗愈价值，促进阅读推广与社会心理健康服务深度融合，中国图书馆学会阅读推广工作委员会定于2026年10月14日至16日在烟台大学图书馆举办“阅读与心理健康研讨会”。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：烟台大学图书馆 支持单位：同方知网数字科技有限公司 二、会议主题 读书颐情·全民健心 三、会议地点 烟台大学图书馆承先报告厅 四、参会人员 中国图书馆学会阅读推广工作委员会委员，阅读与心理健康研究领域专家、学者，各图书馆及相关机构的代表等。 五、会议时间和议程 （一）会议时间 2026年10月14日至16日（周三至周五） （二）议程安排 日期 时间 议程安排 10月14日 下午 报到 10月15日 上午 开幕式及主旨报告 下午 案例分享 10月16日 上午 现场交流 下午 离会 六、会议报名 （一）会议费用 本次会议不收取会议费。会议期间食宿及交通统一安排，参会人员住宿及往返交通费用自理。 （二）会议报名 本次会议采取定向邀请制，不接受公开报名，限额50人，额满即止。受邀代表请填写“会议回执”（附件1）并于2026年9月20日前发送至邮箱63498716@qq.com。已报名代表，如因故无法参会，请及时联系会务组。 （三）会议报到和住宿地点 烟台东方海天酒店（山东省烟台市莱山区海韵路12号） （四）住宿标准",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2086630777726312448.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年科普阅读推广研讨会的通知",
+          "summary": "各图书馆： 为提升图书馆科普阅读推广服务水平，推动全民科普阅读高质量发展，中国图书馆学会阅读推广工作委员会拟于2026年9月2日至5日在江苏省南京市举办2026年科普阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：南京图书馆学会 金陵图书馆 北京市东城区图书馆 支持单位：图书馆报社 二、会议主题及内容 围绕“跨界协同 阅享科学—共建科普阅",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-08-10",
+          "overview": "各图书馆： 为提升图书馆科普阅读推广服务水平，推动全民科普阅读高质量发展，中国图书馆学会阅读推广工作委员会拟于2026年9月2日至5日在江苏省南京市举办2026年科普阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：南京图书馆学会 金陵图书馆 北京市东城区图书馆 支持单位：图书馆报社 二、会议主题及内容 围绕“跨界协同 阅享科学—共建科普阅读新生态”主题，聚焦科普阅读弘扬科学精神，传播科普阅读先进理念，推动图书馆事业发展。 三、会议时间及日程 （一）会议时间 2026年9月2日至5日（周三至周六） （二）会议安排 日期 时间 日程安排 9月2日 下午 报到 9月3日 上午 开幕式、主旨报告 下午 专题报告 9月4日 上午 案例分享 下午 现场交流 9月5日 上午 离会 四、会议地点 金陵图书馆（南京市建邺区乐山路158号） 五、参会人员 图书馆界科普阅读推广领域专家、学者，中国图书馆学会阅读推广工作委员会委员，各图书馆及相关机构代表等。 为促进交流研讨，欢迎参会人员围绕会议主题提交相关交流材料，用于选取代表进行交流发言。发言材料与报名回执同步提交至报名邮箱。 六、会务提示 （一）本次会议不收取会议费。会议期间食宿及交通统一安排，住宿及城市间往来交通费用自理。 （二）会议规模为150人，额满即止。请有意参加的代表填写“参会回执",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2086634550914072576.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年阅读与心理健康研讨会的通知",
+          "summary": "各图书馆： 为深入挖掘阅读疗愈价值，促进阅读推广与社会心理健康服务深度融合，中国图书馆学会阅读推广工作委员会定于2026年10月14日至16日在烟台大学图书馆举办“阅读与心理健康研讨会”。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：烟台大学图书馆 支持单位：同方知网数字科技有限公司 二、会议主题 读书颐情·全民健心 三、会议地点 烟台大学图书馆承先报",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-08-10",
+          "overview": "各图书馆： 为深入挖掘阅读疗愈价值，促进阅读推广与社会心理健康服务深度融合，中国图书馆学会阅读推广工作委员会定于2026年10月14日至16日在烟台大学图书馆举办“阅读与心理健康研讨会”。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：烟台大学图书馆 支持单位：同方知网数字科技有限公司 二、会议主题 读书颐情·全民健心 三、会议地点 烟台大学图书馆承先报告厅 四、参会人员 中国图书馆学会阅读推广工作委员会委员，阅读与心理健康研究领域专家、学者，各图书馆及相关机构的代表等。 五、会议时间和议程 （一）会议时间 2026年10月14日至16日（周三至周五） （二）议程安排 日期 时间 议程安排 10月14日 下午 报到 10月15日 上午 开幕式及主旨报告 下午 案例分享 10月16日 上午 现场交流 下午 离会 六、会议报名 （一）会议费用 本次会议不收取会议费。会议期间食宿及交通统一安排，参会人员住宿及往返交通费用自理。 （二）会议报名 本次会议采取定向邀请制，不接受公开报名，限额50人，额满即止。受邀代表请填写“会议回执”（附件1）并于2026年9月20日前发送至邮箱63498716@qq.com。已报名代表，如因故无法参会，请及时联系会务组。 （三）会议报到和住宿地点 烟台东方海天酒店（山东省烟台市莱山区海韵路12号） （四）住宿标准",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2086630777726312448.html"
+        },
+        {
+          "title_zh": "A semantic geometry for uncovering paradigm dynamics via scientific publications",
+          "eng": "A semantic geometry for uncovering paradigm dynamics via scientific publications",
+          "source": "JASIST（信息科学技术学会刊）",
+          "region": "国际",
+          "published": "2026-08-09",
+          "url": "https://doi.org/10.1002/asi.70111"
+        },
+        {
+          "title_zh": "SCALE: Scientific Concept Aggregation via LLMs and Embeddings for Fine-Grained Taxonomy Extension",
+          "eng": "SCALE: Scientific Concept Aggregation via LLMs and Embeddings for Fine-Grained Taxonomy Extension",
+          "summary": "The increasing specialization of scientific research challenges existing classification systems, which provide effective representations of broad disciplines and research topics but often fail to capt",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "The increasing specialization of scientific research challenges existing classification systems, which provide effective representations of broad disciplines and research topics but often fail to capture the fine-grained conceptual structure of contemporary science. Author keywords offer greater specificity, but their fragmentation, redundancy, and terminological variability limit their use as stable units of knowledge organization. We introduce SCALE (Scientific Concept Aggregation via LLMs and Embeddings), a framework that extends the OpenAlex taxonomy with a new level of scientific Concepts",
+          "url": "https://arxiv.org/abs/2608.07254v1"
+        },
+        {
+          "title_zh": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+          "eng": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+          "summary": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant infor",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Contextualized Information Nugget KV Cache Reuse for Long-Context RAG). The name metaphorically reflects our core mechanism: much like assembling small tokens (or \"coins\") to accumulate a larger value, ",
+          "url": "https://arxiv.org/abs/2608.07458v1"
+        },
+        {
+          "title_zh": "Conformal Coverage Guarantees for Any Video Temporal Grounder",
+          "eng": "Conformal Coverage Guarantees for Any Video Temporal Grounder",
+          "summary": "Event boundaries in continuous video are ambiguous: re-annotate the same query-video pair and independent annotators mark moments that overlap by less than half on a large fraction of samples. The gro",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "Event boundaries in continuous video are ambiguous: re-annotate the same query-video pair and independent annotators mark moments that overlap by less than half on a large fraction of samples. The ground truth for video temporal grounding is therefore a distribution over intervals, yet every grounder returns a single interval with no statement of reliability, so at deployment a wrong interval is indistinguishable from a right one. COVER changes the output object: a post-hoc, model-agnostic wrapper that turns any grounder, a trained localizer or a black-box video--language model, into one that ",
+          "url": "https://arxiv.org/abs/2608.07434v1"
+        },
+        {
+          "title_zh": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+          "eng": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+          "summary": "In the context of geodata, existing Large Language Models have often been studied in a homogeneous setting, which has considerably limited insights into their generalization capabilities. In this pape",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "In the context of geodata, existing Large Language Models have often been studied in a homogeneous setting, which has considerably limited insights into their generalization capabilities. In this paper, we present \\benchName, a comprehensive benchmark for probing LLMs on geo-related tasks. We leverage a careful selection of twelve publicly available datasets from diverse geo-related tasks and domains, and evaluate a set of LLMs on geo-spatial and temporal understanding using our benchmark. Our results show that reasoning and size have a strong impact on overall performance. GeoBenchLLM is publ",
+          "url": "https://arxiv.org/abs/2608.07411v1"
+        },
+        {
+          "title_zh": "Geo-Spatial Concept Probing of Large Language Models: Abstraction, Compositionality, and Grounding",
+          "eng": "Geo-Spatial Concept Probing of Large Language Models: Abstraction, Compositionality, and Grounding",
+          "summary": "Understanding concepts is fundamental to generalization. Despite their impressive performance on a wide range of tasks, Large Language Models (LLMs) still struggle with genuine concept understanding. ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "Understanding concepts is fundamental to generalization. Despite their impressive performance on a wide range of tasks, Large Language Models (LLMs) still struggle with genuine concept understanding. Prior work has evaluated conceptual understanding in LLMs using natural-language benchmarks or narrowly scoped synthetic tasks, but these settings often conflate multiple skills or lack precise control over the underlying concepts and their properties. To support controlled probing of concepts in LLMs, we design tests on their core properties: abstraction, compositionality, and groundness. We set ",
+          "url": "https://arxiv.org/abs/2608.07353v1"
+        },
+        {
+          "title_zh": "Exact Adaptive Hybrid Retrieval Without Fixed Top-L Cutoffs",
+          "eng": "Exact Adaptive Hybrid Retrieval Without Fixed Top-L Cutoffs",
+          "summary": "Modern retrieval-augmented generation (RAG) systems often fuse fixed Top-$L$ results from dense and sparse retrievers, treating later contributions as zero. The cutoff therefore determines both the ra",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "Modern retrieval-augmented generation (RAG) systems often fuse fixed Top-$L$ results from dense and sparse retrievers, treating later contributions as zero. The cutoff therefore determines both the ranking and its execution cost. Yet truncated fusion is not generally equivalent to complete-list fusion: unread cross-list ranks can change Top-$K$ membership or order even when the observed candidates contain every item in the complete-list Top-$K$. Because channel rankings vary across queries and corpus updates, a depth selected from historical queries may not transfer reliably. We propose Exact ",
+          "url": "https://arxiv.org/abs/2608.07152v1"
+        },
+        {
+          "title_zh": "Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census",
+          "eng": "Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census",
+          "summary": "AI assistants are becoming a primary interface for local discovery, yet almost nothing is known about which venues they surface -- especially in food and drink, where recommendations carry direct reve",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-07",
+          "overview": "AI assistants are becoming a primary interface for local discovery, yet almost nothing is known about which venues they surface -- especially in food and drink, where recommendations carry direct revenue consequences. We present the first census-denominated audit of AI venue recommendation: a complete enumeration of 4,776 cafes, restaurants, and bars across two bounded markets (Canggu and Ubud, Bali), against which we evaluate 2,208 search-grounded responses from four production AI systems (ChatGPT, Claude, Gemini, Perplexity) to 96 persona-conditioned queries, collected over seven days under ",
+          "url": "https://arxiv.org/abs/2608.07069v1"
         },
         {
           "title_zh": "On country music stars, award-winning authors … and tomatoes",
@@ -3204,6 +3277,15 @@
           "published": "2026-07-20",
           "overview": "Approximate Nearest Neighbor Search (ANNS) plays a pivotal role in modern deep learning pipelines. Recently, many ANNS systems have been proposed to either provide broad functionality or reach high performance. However, it is yet difficult to achieve both with minimal programming efforts. We propose ANNLib to address the gap. ANNLib is a library that provides a programming framework for achieving high performance and flexible functionality in ANNS systems, based on popular graph-based ANNS algorithms. We carefully decouple and independently optimize both the algorithm and the data structure co",
           "url": "https://arxiv.org/abs/2607.17582v1"
+        },
+        {
+          "title_zh": "中国图书馆学会学术研究工作委员会关于举办2026年图书馆史研究学术研讨会的通知",
+          "summary": "各图书馆，各相关机构： 为进一步深化边疆民族地区图书馆史研究，推动中国图书馆史研究以及图书馆史志的编纂工作与研究,中国图书馆学会学术研究工作委员会拟于2026年11月13-16日在海南省海口市举办2026年图书馆史研究学术研讨会。会议具体事项通知如下： 一、组织机构 主办单位：中国图书馆学会学术研究工作委员会 协办单位：中山大学图书馆 中山大学国家文化遗产与文化发展研究院 承办单位：海南师范大学图",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-07-20",
+          "overview": "各图书馆，各相关机构： 为进一步深化边疆民族地区图书馆史研究，推动中国图书馆史研究以及图书馆史志的编纂工作与研究,中国图书馆学会学术研究工作委员会拟于2026年11月13-16日在海南省海口市举办2026年图书馆史研究学术研讨会。会议具体事项通知如下： 一、组织机构 主办单位：中国图书馆学会学术研究工作委员会 协办单位：中山大学图书馆 中山大学国家文化遗产与文化发展研究院 承办单位：海南师范大学图书馆 二、会议主题 铸牢中华民族共同体意识 推进边疆图书文化与中国图书馆事业发展 1.边疆民族地区历代图书文化史研究 2.边疆民族地区古代藏书与藏书楼研究 3.近现代以来边疆民族地区图书馆事业发展研究 4.西部大开发历史进程中的边疆民族地区图书馆事业发展研究 5.边疆民族地区图书馆与铸牢中华民族共同体意识研究 6.图书馆史志编纂研究 7.中国现代图书馆事业史研究 三、日程安排 时间：2026年11月13日至16日 地点：海南师范大学图书馆 日期 时间 内容 11月13日 星期五 下午 报到 11月14日 星期六 上午 开幕式 主旨报告 下午 专题发言（一） 11月15日 星期日 上午 专题发言（二） 会议总结及闭幕式 下午 现场交流 11月16日 星期一 上午 离会 四、参加人员 国内图书馆界专家学者、会议论文交流作者等，会议预计规模约80人。 五、论文交流 欢迎按照中国图书馆学会网站《2",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2086639250786381824.html"
         },
         {
           "title_zh": "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries",
