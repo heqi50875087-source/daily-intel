@@ -1,25 +1,101 @@
 {
-  "generated_at": "2026-08-11T22:26:41+08:00",
+  "generated_at": "2026-08-11T23:24:18+08:00",
   "date": "2026-08-11",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
-  "empty_sources": [
-    "github"
-  ],
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-11 20:37",
-    "ai": "2026-08-11 22:26",
-    "voices": "2026-08-11 21:37",
-    "github": "2026-08-11 20:37",
-    "libraries": "2026-08-11 21:37",
-    "sports": "2026-08-11 22:26",
+    "hot": "2026-08-11 23:24",
+    "ai": "2026-08-11 23:24",
+    "voices": "2026-08-11 23:24",
+    "github": "2026-08-11 23:24",
+    "libraries": "2026-08-11 23:24",
+    "sports": "2026-08-11 23:24",
     "academic": "2026-08-11 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Zoom重大安全漏洞：不到20个AI提示词即可入侵设备",
+          "eng": "'Zoomsday' hack uncovered using fewer than 20 AI prompts",
+          "summary": "研究人员利用公开可用的AI模型，仅用不到20条提示词就发现了Zoom的重大安全漏洞。该漏洞涉及Zoom的注释功能，攻击者可在会议期间劫持任何用户的设备。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-08-11",
+          "tags": [
+            "AI安全",
+            "Zoom",
+            "漏洞利用"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+          "overview": "A Security公司的研究人员发现，攻击者可以利用公开可用的AI模型生成提示词来触发Zoom的注释功能漏洞。该漏洞允许攻击者在会议期间劫持参会者的设备控制权。Zoom已发布补丁修复此问题。这一事件凸显了AI工具在安全研究中的双重角色——既是防御利器也是攻击武器。",
+          "analysis": "这一发现表明，AI模型正在改变网络安全威胁的面貌。传统上需要大量手动测试的安全漏洞，现在可能通过精心设计的AI提示词快速发现。这对企业安全团队提出了新挑战：不仅要修补已知漏洞，还要防范由AI辅助发现的未知漏洞。",
+          "social": [
+            {
+              "who": "安全研究员",
+              "text": "这提醒我们，AI在安全领域是一把双刃剑——它加速了漏洞的发现，也意味着攻击面可能比想象中更大。"
+            },
+            {
+              "who": "工程师",
+              "text": "企业需要重新评估其AI工具的使用策略，特别是在涉及敏感通信和会议的场景中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "亚马逊订单确认邮件因AI变得无意义",
+          "eng": "Why your Amazon order confirmation emails have become so unhelpful",
+          "summary": "亚马逊的订单确认邮件开始变得模糊不清，不再列出具体商品名称，只标注类别如'Your Beauty item is confirmed!'，引发消费者不满。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-08-11",
+          "tags": [
+            "AI应用",
+            "用户体验",
+            "亚马逊"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+          "overview": "今年夏天起，亚马逊客户发现订单确认邮件内容变得稀疏——不再列出具体商品名称，而是只标注商品类别。有消费者反映收到'Your Beauty item is confirmed!'这样的邮件，实际购买的是假牙清洁片。这一变化引发了大量社交媒体上的吐槽和讨论。",
+          "analysis": "这反映了AI在客户服务中的应用正在走向极端简化。当企业过度依赖AI生成内容时，个性化和信息准确性可能让位于效率指标。消费者期望的清晰、具体的沟通被模糊的模板化回复所取代，这对品牌信任度构成威胁。",
+          "social": [
+            {
+              "who": "产品设计师",
+              "text": "这是'AI优先'思维的典型反面教材——为了自动化而牺牲了最基本的信息传达功能。"
+            },
+            {
+              "who": "投资人",
+              "text": "用户体验的退化会直接转化为客户流失率上升，长期来看对营收的影响可能远超节省的人力成本。"
+            }
+          ]
+        },
+        {
+          "title_zh": "新型监控技术将手机与车牌关联：隐私面临新威胁",
+          "eng": "New surveillance tech links your phone to your license plate",
+          "summary": "手机和蓝牙信号可能被用于将路边摄像头转变为更强大的追踪工具，实现车辆与个人设备的跨平台关联。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-08-11",
+          "tags": [
+            "隐私安全",
+            "监控技术",
+            "AI应用"
+          ],
+          "url": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/",
+          "overview": "Ars Technica报道，新的监控技术可以利用手机和蓝牙信号将路边摄像头转变为更丰富的追踪工具。这项技术能够将车辆与个人设备关联起来，使得执法机构或商业实体能够以前所未有的精度追踪个人的行踪和活动模式。",
+          "analysis": "这一技术的发展标志着物理世界数字化监控的又一次升级。当车辆（通过车牌）和个人设备（通过手机信号和蓝牙）被关联时，传统的匿名出行方式将不复存在。这对隐私保护提出了严峻挑战，也引发了关于政府监控权力和公民自由边界的激烈辩论。",
+          "social": [
+            {
+              "who": "隐私倡导者",
+              "text": "当每一辆车都能与车主的手机关联时，'不被追踪的权利'将成为一项需要法律保护的稀缺资源。"
+            },
+            {
+              "who": "安全研究员",
+              "text": "这种跨设备追踪技术的出现，意味着现有的匿名化工具和反监控策略都需要全面升级。"
+            }
+          ]
+        },
         {
           "title_zh": "Spotify将标注AI虚拟人艺术家并排除其音乐推荐",
           "eng": "Spotify will label 'AI Persona' profiles and exclude their music from recommendations",
@@ -727,85 +803,6 @@
               "text": "WeatherNext 的开源发布降低了全球气象机构使用 AI 预测工具的门槛，有望加速气候适应技术的普及。"
             }
           ]
-        },
-        {
-          "title_zh": "火星上第一辆自动驾驶车辆证明成功运行",
-          "eng": "The first self-driving vehicle on Mars has proven to be a smashing success",
-          "summary": "NASA 的\"毅力号\"火星车在行驶距离中约 90% 实现了自主驾驶，标志着 AI 驱动的自动驾驶技术在极端外星环境中的首次大规模成功验证。",
-          "source": "Ars Technica",
-          "region": "全球",
-          "published": "2026-08-08",
-          "tags": [
-            "NASA",
-            "自动驾驶",
-            "火星探索"
-          ],
-          "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
-          "overview": "约 90% 的\"毅力号\"火星车行驶距离已实现自主驾驶，证明了 AI 导航系统在复杂外星地形中的可靠性。这一里程碑不仅展示了自动驾驶技术的极限能力，也为未来火星基地建设提供了关键的物流和探索技术支持。",
-          "analysis": "火星车的成功验证了 AI 在低带宽、高延迟环境下的鲁棒性，这对地球上的远程运维（如深海探测、偏远矿区）也有借鉴意义。然而，火星环境的极端复杂性仍限制了完全无人化的可能性。",
-          "social": [
-            {
-              "who": "航天工程师",
-              "text": "90% 的自主驾驶率意味着人类干预大幅减少，这降低了任务风险并提高了科学考察的效率。"
-            },
-            {
-              "who": "AI 技术爱好者",
-              "text": "在火星上实现自动驾驶是 AI 技术的终极测试之一，其成功将推动地球上的 L4/L5 级自动驾驶法规进程。"
-            }
-          ]
-        },
-        {
-          "title_zh": "欧洲免费卫星服务简化了野火追踪",
-          "eng": "Europe's free satellite service just made it easier to track wildfires",
-          "summary": "Copernicus Browser新增了野火可视化功能，正值创纪录的野火季节。这一改进使公众和专业人员能够更便捷地监控和应对森林火灾。",
-          "source": "Ars Technica",
-          "region": "欧洲/全球",
-          "published": "2026-08-07",
-          "tags": [
-            "卫星",
-            "野火监测",
-            "Copernicus",
-            "气候变化"
-          ],
-          "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
-          "overview": "欧洲哥白尼(Copernicus)卫星服务新增了野火可视化功能，正值创纪录的野火季节。这一改进使公众和专业人员能够更便捷地监控和应对森林火灾。通过浏览器即可访问实时卫星数据，降低了专业工具的使用门槛。",
-          "analysis": "在气候变化加剧的背景下，野火监测能力的提升对公共安全和应急响应至关重要。哥白尼服务的免费性质使其成为最具性价比的解决方案之一，但需要关注数据更新频率和覆盖范围的局限性。",
-          "social": [
-            {
-              "who": "应急管理人员",
-              "text": "实时卫星可视化让火灾响应速度大幅提升"
-            },
-            {
-              "who": "环保主义者",
-              "text": "免费开放的数据对气候行动至关重要"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI辅导员的边界：它们知道何时帮助、何时克制吗？",
-          "eng": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-          "summary": "Allen Institute的研究探讨了AI辅导模型在何种情况下应该主动提供帮助，以及在哪些时刻应该让学生独立探索。",
-          "source": "Hugging Face",
-          "region": "全球",
-          "published": "2026-08-07",
-          "tags": [
-            "AI教育",
-            "研究论文",
-            "辅导模型"
-          ],
-          "url": "https://huggingface.co/blog/allenai/tutormoments",
-          "overview": "Allen Institute for AI发布了一项关于AI辅导系统的研究成果，核心问题是：AI辅导员是否具备判断何时应该介入帮助、何时应该让学生自主探索的能力。这项研究通过'TutorMoments'框架分析了AI在辅导过程中的决策模式，发现当前模型在某些关键时刻的干预时机存在系统性偏差——要么过度帮助导致学生依赖，要么在需要支持时反应不足。",
-          "analysis": "教育中的AI应用面临一个根本性挑战：如何平衡辅助与自主。这项研究的意义在于它不是简单地评估AI辅导的效果，而是深入分析了AI决策的'时机感'(timing)问题。这为未来的教育AI设计提供了重要参考——最好的辅导者不仅知道答案，更知道何时给出答案。",
-          "social": [
-            {
-              "who": "教育技术研究员",
-              "text": "这项研究揭示了一个被忽视的问题：AI辅导的失败往往不是因为知识不足，而是因为时机判断失误。这为未来的模型设计提供了新的优化方向。"
-            },
-            {
-              "who": "教师",
-              "text": "作为一线教育工作者，我注意到学生在使用AI辅导后确实出现了依赖倾向。这项研究证实了我的观察，也提醒我们需要更智能的干预策略。"
-            }
-          ]
         }
       ]
     },
@@ -1239,265 +1236,205 @@
     "sports": {
       "items": [
         {
-          "title_zh": "诺丁汉森林以约3400万英镑签下科特迪瓦后卫迪奥曼德",
-          "eng": "Forest sign Sporting's Ivory Coast defender Diomande",
-          "summary": "诺丁汉森林以据报道约3400万英镑从葡萄牙体育签下科特迪瓦后卫迪奥曼德。",
-          "source": "BBC Football",
+          "title_zh": "森林签下迪奥曼德等球员，转会市场开局活跃",
+          "eng": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting's Diomande",
+          "summary": "诺丁汉森林以约3420万英镑签下科特迪瓦后卫迪奥曼德，富勒姆也签下了圣徒前锋查尔斯，切尔西前锋约根森租借至斯特拉斯堡。",
+          "source": "Guardian Football",
           "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c70g5539dygo?at_medium=RSS&at_campaign=rss",
-          "overview": "22岁的中后卫迪奥曼德曾入选科特迪瓦世界杯阵容，与森林签下四年合同并含一年续约选项。这笔交易标志着俱乐部在夏季转会窗对后防深度的积极投入。",
-          "analysis": "迪奥曼德的世界杯经验是其在市场上获得高估值的关键因素，这笔签约也反映了英超球队在夏窗对年轻且具备大赛经验的球员的需求。",
+          "url": "https://www.theguardian.com/football/2026/aug/11/transfer-roundup-nottingham-forest-ousmane-diomande-fulham-shea-charles",
+          "overview": "多家俱乐部在赛季前窗口完成重磅交易。诺丁汉森林以3420万英镑签下科特迪瓦后卫迪奥曼德，后者曾入选科特迪瓦世界杯阵容；富勒姆从南安普顿签下前锋查尔斯，费用约3000万英镑；切尔西前锋约根森租借至斯特拉斯堡。",
+          "analysis": "森林在转会市场上展现了强劲的投入意愿，重点补强了中后卫位置。多笔交易同时落地显示今夏转会窗口开局顺利，英超争欧战席位竞争加剧。",
           "social": [
             {
-              "who": "转会观察者",
-              "text": "3400万英镑的报价对于一名22岁的后卫来说相当可观，葡萄牙体育的放人意愿值得玩味。"
+              "who": "资深球迷",
+              "text": "森林这笔3400万的引援力度不小，看来新赛季争欧战有戏"
             },
             {
-              "who": "资深球迷",
-              "text": "森林后防一直需要加强，迪奥曼德如果能适应英超节奏将是巨大的提升。"
+              "who": "足球记者",
+              "text": "科特迪瓦国脚加盟英超，对下赛季非洲杯预选赛备战也有帮助"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "PFA就英甲工资帽变更对EFL启动法律程序",
+          "title_zh": "阿森纳19岁左后卫被报价曼联",
+          "eng": "Arsenal's Myles Lewis-Skelly offered to Manchester United as left-back solution",
+          "summary": "阿森纳将19岁左后卫刘易斯-斯基利作为左路解决方案报价给曼联，切尔西也获知了该球员的可签性。",
+          "source": "Guardian Football",
+          "published": "2026-08-11",
+          "url": "https://www.theguardian.com/football/2026/aug/11/arsenal-myles-lewis-skelly-offered-to-manchester-united-left-back",
+          "overview": "阿森纳希望回收部分为布鲁诺·吉马良斯支付的7500万英镑，因此将19岁的刘易斯-斯基利作为左后卫选项提供给曼联。切尔西也被通知了该球员的可签性。纽卡斯尔的刘易斯·霍尔仍是曼联的首选目标。",
+          "analysis": "阿森纳在转会市场上开始寻求回收成本，年轻球员的交易往往涉及复杂的谈判。曼联急需左路深度，这笔交易若成行将影响英超格局。",
+          "social": [
+            {
+              "who": "英超观察者",
+              "text": "19岁就进入多家豪门视野，斯基利确实是天才型球员"
+            },
+            {
+              "who": "球迷",
+              "text": "阿森纳卖人换钱，但能卖出7500万说明吉马良斯确实值"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "PFA对英甲薪资帽启动法律程序",
           "eng": "PFA starts legal proceedings over League One salary cap",
-          "summary": "英格兰职业球员协会针对英甲联赛工资帽政策变化正式向英冠联盟（EFL）提起诉讼。",
+          "summary": "职业足球运动员协会就英甲联赛薪资上限变更问题，正式对英格兰足球联盟提起诉讼。",
           "source": "BBC Football",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/sport/football/articles/cm2g992y7veo?at_medium=RSS&at_campaign=rss",
-          "overview": "PFA正式采取法律行动，针对EFL在英甲层面推行的薪资限制政策变化提出挑战，这标志着劳资关系紧张升级。",
-          "analysis": "此举可能影响低级别联赛的财政公平性讨论，球员权益保护与俱乐部成本控制之间的博弈将进入司法阶段。",
+          "overview": "PFA针对EFL关于英甲联赛薪资上限的调整启动了法律程序。这一举措可能影响低级别联赛球员的合同条款和收入保障，是近年来劳资关系紧张的一个标志性事件。",
+          "analysis": "薪资帽争议往往涉及俱乐部财务公平与球员权益的平衡。PFA此举表明球员方对规则变更持强硬态度，后续发展值得关注。",
           "social": [
             {
-              "who": "联赛分析师",
-              "text": "工资帽争议若诉诸法律，可能会为整个英格兰足球体系设定新的薪资谈判先例。"
+              "who": "足球从业者",
+              "text": "低级别联赛球员的薪资保障一直是痛点，这次法律行动是必要的"
             },
             {
-              "who": "体育记者",
-              "text": "这是近年来球员协会在低级别联赛中最为强硬的一次行动。"
+              "who": "球迷",
+              "text": "希望这能推动更合理的薪资结构，保护年轻球员"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "利物浦18岁新星恩杜克因年龄限制只能参加友谊赛",
-          "eng": "Meet Liverpool's rising star who can only play friendlies",
-          "summary": "利物浦18岁后卫恩杜克成为季前赛焦点，但因规则限制目前无法在正式比赛中出场。",
-          "source": "BBC Football",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cq569dvxg2yo?at_medium=RSS&at_campaign=rss",
-          "overview": "年轻中卫伊费亚尼·恩杜克的崛起是利物浦季前赛的主要看点之一，但他目前受限于规则无法在正式比赛中出场。",
-          "analysis": "这一规定凸显了足球界对未成年球员保护的争议，同时也反映了俱乐部在发掘新星与合规之间的平衡难题。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "18岁就能入选一线队名单说明天赋惊人，但规则确实让他的首秀推迟了。"
-            },
-            {
-              "who": "解说员",
-              "text": "这种保护性规定虽然必要，但对于急于证明自己的年轻球员来说确实是一种限制。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "水晶宫主席帕里什在麦克尼尔转会前与其伴侣沟通",
-          "eng": "Palace co-owner Parish spoke to McNeil's partner before move",
-          "summary": "水晶宫联合主席帕里什在中场球员麦克尼尔转会前与其伴侣进行了沟通，引发伦理讨论。",
-          "source": "BBC Football",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss",
-          "overview": "在麦克尼尔加盟水晶宫的转会操作过程中，俱乐部高层帕里什据报在正式签约前联系了球员的伴侣。",
-          "analysis": "这一细节若属实，将挑战足球转会的职业规范，球迷和媒体可能关注球员个人生活被卷入商业交易的程度。",
-          "social": [
-            {
-              "who": "体育记者",
-              "text": "在转会谈判中接触球员伴侣是一个敏感的灰色地带，这可能会影响行业的公信力。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "如果属实，这对球员的个人隐私和尊严确实是一种侵犯。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "被苏格兰落选的世界杯前锋尤尔转会塞维利亚",
+          "title_zh": "被苏格兰国家队弃用的前锋签约塞维利亚",
           "eng": "Striker snubbed by Scotland for World Cup signs for Sevilla",
-          "summary": "前苏格兰青年队国脚罗比·尤尔被塞维利亚签下，此前他曾入选苏格兰世界杯阵容但最终落选。",
+          "summary": "前苏格兰青年队国脚前锋尤雷在世界杯落选后，以550万英镑从瑞典球队IK Sirius转会至塞维利亚。",
           "source": "BBC Football",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/sport/football/articles/c7vgj826nnjo?at_medium=RSS&at_campaign=rss",
-          "overview": "前苏格兰青年队国脚罗比·尤尔被塞维利亚从瑞典俱乐部IK Sirius签下，转会费最高可达760万英镑。此前他曾入选苏格兰世界杯阵容但最终落选。",
-          "analysis": "国家队落选与俱乐部转会的巧合引发了关于球员市场价值与国家荣誉之间关系的讨论。",
+          "overview": "塞维利亚宣布从瑞典俱乐部IK Sirius签下前锋尤雷，转会费初始为550万英镑，潜在总价可达760万英镑。此前尤雷曾入选苏格兰世界杯阵容但未被征召，此次转会标志着他职业生涯的新阶段。",
+          "analysis": "世界杯落选后的球员往往面临动力不足的问题，塞维利亚的报价显示了对其潜力的认可。这笔交易对苏格兰足球来说是一个损失，但对俱乐部来说是低成本引进有潜力的前锋。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "被国家队忽视后迅速转会豪门，这种经历对年轻球员来说既是挫折也是动力。"
+              "who": "球迷",
+              "text": "世界杯没被选中就去踢球了，尤雷需要证明自己"
             },
             {
-              "who": "转会观察者",
-              "text": "550万英镑起步的报价对于一名前锋来说相当有竞争力，塞维利亚显然看重他的潜力。"
+              "who": "足球评论员",
+              "text": "550万英镑签一个前国脚，塞维利亚的性价比很高"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "切尔西女足将在欧冠资格赛第三轮对阵皇家社会",
+          "title_zh": "切尔西女足将在欧冠资格赛中对阵皇家社会",
           "eng": "Chelsea face Real Sociedad in WCL third qualifying round with riches at stake",
-          "summary": "切尔西女足作为上赛季英女超第三名获得参赛资格，需在两回合比赛中击败西班牙劲旅才能晋级。",
+          "summary": "切尔西女足将在女子欧冠第三轮资格赛中迎战西班牙球队皇家社会，需两回合胜利才能进入联赛阶段。",
           "source": "Guardian Football",
           "published": "2026-08-11",
           "url": "https://www.theguardian.com/football/2026/aug/11/chelsea-real-sociedad-womens-champions-league-wcl-third-qualifying-round",
-          "overview": "切尔西作为上赛季英女超第三名获得参赛资格，需在两回合比赛中击败西班牙劲旅才能晋级欧冠正赛，失利将面临巨大的经济损失。",
-          "analysis": "这场对决不仅关乎荣誉，更涉及俱乐部财政健康，女足赛事的商业价值正在快速提升。",
+          "overview": "切尔西女足将在女子欧冠第三轮资格赛中面对皇家社会，需要两回合胜利才能晋级联赛阶段。作为去年WSL第三名，这是切尔西女足在欧洲赛场上的重要机会，错失的财务影响巨大。",
+          "analysis": "切尔西女足在WSL中表现不佳后急需通过欧战证明实力。皇家社会是经验丰富的欧洲亚军球队，比赛将充满挑战。",
           "social": [
             {
-              "who": "体育记者",
-              "text": "切尔西女足连续获得欧冠资格说明球队在竞技层面取得了显著进步。"
+              "who": "女足球迷",
+              "text": "希望切尔西女足能在资格赛中证明自己"
             },
             {
-              "who": "资深球迷",
-              "text": "面对皇家社会这样的老牌劲旅，两回合的淘汰赛制对切尔西来说压力不小。"
+              "who": "体育记者",
+              "text": "女子欧冠的竞争越来越激烈，切尔西需要抓住这个机会"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "特朗普警告FIFA换帅是“可怕错误”，力挺因凡蒂诺",
-          "eng": "Donald Trump says it would be a 'terrible mistake' to replace Fifa's Gianni Infantino",
-          "summary": "美国总统特朗普在Truth Social发文支持国际足联主席因凡蒂诺，称将其免职将是“可怕的错误”。此前因凡蒂诺的世界杯出售计划失败后面临巨大压力。",
-          "source": "Guardian Sport",
+          "title_zh": "利物浦新星因规则限制只能参加友谊赛",
+          "eng": "Meet Liverpool's rising star who can only play friendlies",
+          "summary": "18岁后卫恩杜克韦在利物浦季前赛中崭露头角，但因国际足联注册问题目前只能参加友谊赛。",
+          "source": "BBC Football",
           "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/donald-trump-fifa-gianni-infantino",
-          "overview": "国际足联主席因凡蒂诺此前推行的世界杯股权出售计划宣告失败，导致其领导地位受到质疑。美国总统特朗普随即在社交媒体上表态支持，警告FIFA若更换领导人将犯下“可怕的错误”，并称赞因凡蒂诺是“了不起”的人选。",
-          "analysis": "这一表态凸显了国际足联高层政治化趋势的加剧，行政力量对体育治理机构的干预正在成为常态。对于因凡蒂诺而言，来自最高权力层的背书或许能暂时缓解内部压力，但世界杯改革的根本矛盾并未解决。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq569dvxg2yo?at_medium=RSS&at_campaign=rss",
+          "overview": "利物浦年轻后卫恩杜克韦在季前赛中成为主要话题之一，但因其年龄和注册状态，目前只能参加友谊赛。这一限制引发了关于年轻球员发展路径的讨论。",
+          "analysis": "国际足联的规则对年轻球员的出场机会有一定影响，利物浦需要找到合适的方式让这位新星获得更多比赛经验。",
           "social": [
             {
-              "who": "资深球迷/评论员",
-              "text": "政治人物介入体育管理已成定局，这既是对FIFA的施压，也是对因凡蒂诺个人能力的某种认可。"
+              "who": "球迷",
+              "text": "18岁就能在一线队崭露头角，恩杜克韦的未来不可限量"
+            },
+            {
+              "who": "足球分析师",
+              "text": "规则限制虽然存在，但球员的成长速度令人印象深刻"
             }
           ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "特朗普警告FIFA更换因凡蒂诺是",
           "region": "综合"
         },
         {
-          "title_zh": "54岁凯利·斯莱特在 Tahiti Pro 近乎完美表现击败梅迪纳",
+          "title_zh": "54岁凯利·斯莱特在塔希提站打出近满分表现",
           "eng": "Kelly Slater, 54, rolls back years with near-perfect surf in monster Tahiti swell",
-          "summary": "11次世界冠军凯利·斯莱特在塔希提Pro赛事中驾驭 Teahupo'o 巨浪，以 19.06 分的高分击败加布里埃尔·梅迪纳。",
+          "summary": "11次世界冠军凯利·斯莱特凭借19.06分的高分击败加布里埃尔·梅迪纳，在塔希提站展现出惊人的竞技状态。",
           "source": "Guardian Sport",
           "published": "2026-08-11",
           "url": "https://www.theguardian.com/sport/2026/aug/11/kelly-slater-near-perfect-surf-tahiti-pro-monster-swell",
-          "overview": "尽管年届 54 岁，斯莱特凭借一张外卡参赛，在塔希提 Pro 赛事中展现了惊人的竞技状态。他在 Teahupo'o 这一世界最重浪点之一完成了近乎完美的滑水动作，最终以 19.06 分击败巴西选手梅迪纳夺冠。",
-          "analysis": "斯莱特的表现再次证明了他作为管浪高手的统治力，54 岁拿下顶级赛事冠军在冲浪界极为罕见。Teahupo'o 对体能和技巧的要求极高，他的胜利不仅是个人实力的体现，也引发了关于职业运动员年龄上限的讨论。",
-          "social": [
-            {
-              "who": "冲浪爱好者/解说",
-              "text": "54岁还能在 Teahupo'o 这种地狱级浪点拿高分，斯莱特真的是冲浪界的常青树。"
-            }
-          ],
+          "overview": "斯莱特获得外卡参赛资格后，在Teahupo'o这一世界最重浪之一中展现了统治级表现。作为 barrel rider 的传奇地位再次得到巩固，这场胜利也证明了他对大龄运动员极限的挑战仍在继续。",
+          "analysis": "54岁依然能在大浪中打出近满分，斯莱特的竞技状态令人难以置信。Teahupo'o作为世界最危险浪点之一，他的表现进一步巩固了其在冲浪界的传奇地位。",
           "region": "综合"
         },
         {
-          "title_zh": "诺丁汉森林签下葡萄牙体育科特迪瓦后卫迪奥曼德",
-          "eng": "Forest sign Sporting's Ivory Coast defender Diomande",
-          "summary": "诺丁汉森林从葡萄牙体育签下科特迪瓦后卫乌斯曼·迪奥曼德，据报道转会费为 3400 万英镑。",
-          "source": "BBC Sport",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c70g5539dygo?at_medium=RSS&at_campaign=rss",
-          "overview": "诺丁汉森林官方宣布从葡萄牙体育签下科特迪瓦后卫乌斯曼·迪奥曼德。这笔交易据报道价值 3400 万英镑，是森林队今夏的重要引援之一。",
-          "analysis": "3400 万的转会费在英冠/英超边缘球队中属于大手笔投入，显示出诺丁汉森林对后防线的重视以及提升竞争力的决心。迪奥曼德的加盟可能改变球队的防守架构。",
-          "social": [
-            {
-              "who": "球迷/分析师",
-              "text": "3400万买一个后卫？这笔钱确实不小，希望他能像传闻中那样在英冠赛场站稳脚跟。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "霍奇金森等人在欧洲锦标赛 800 米项目晋级",
-          "eng": "Hodgkinson and gold medal rivals progress at Europeans",
-          "summary": "英国选手基利·霍奇金森及金牌竞争对手在欧锦赛 800 米预赛中成功晋级，有望冲击一场精彩的欧洲对决。",
-          "source": "BBC Sport",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/cwy4ww1k49eo?at_medium=RSS&at_campaign=rss",
-          "overview": "在 2026 年欧洲田径锦标赛上，英国名将基利·霍奇金森与金牌竞争对手奥黛丽·韦罗和费姆克·布罗德尔斯-波尔均成功晋级。这三位顶尖选手的相遇被视为一场令人垂涎的欧洲对决。",
-          "analysis": "800 米项目历来是短跑中的“马拉松”，竞争极为激烈。霍奇金森若能在此赛事中保持状态，将为即将到来的巴黎奥运会选拔提供重要参考。",
-          "social": [
-            {
-              "who": "田径迷/解说",
-              "text": "三位顶级高手同场竞技，这场欧锦赛 800 米决赛绝对值得期待。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "世界排名第一辛纳因膝伤退出辛辛那提公开赛",
+          "title_zh": "世界排名第一的辛纳因伤退出辛辛那提公开赛",
           "eng": "World number one Sinner to miss Cincinnati Open",
-          "summary": "世界第一扬尼克·辛纳因膝盖伤势宣布退赛，但预计月底美国网球公开赛期间将恢复健康参赛。",
+          "summary": "世界排名第一的扬尼克·辛纳因膝盖伤势退出本周辛辛那提公开赛，但预计月底美网前能恢复状态。",
           "source": "BBC Tennis",
           "published": "2026-08-09",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/cdx7gg7wq2do?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的意大利网球选手辛纳因膝盖受伤退出了本周举行的辛辛那提公开赛。尽管面临伤病困扰，他预计将在月底的美国网球公开赛前恢复健康并重返赛场。",
-          "analysis": "辛纳作为世界第一缺席辛辛那提，对赛事格局产生重大影响，其他顶尖选手可能因此获得冲击冠军的机会。膝伤对于职业网球的威胁不容忽视，这也引发了关于运动员负荷管理的讨论。",
-          "social": [
-            {
-              "who": "网球评论员/资深球迷",
-              "text": "辛纳退赛对辛辛那提影响巨大，但膝盖问题一直是他的隐患，希望美网前能彻底康复。"
-            }
-          ],
+          "overview": "辛纳的膝盖伤势成为本周网球界最大新闻之一。尽管退出辛辛那提站，他仍对美网参赛持乐观态度，但伤势恢复时间存在不确定性。",
+          "analysis": "作为世界排名第一的球员，辛纳的缺席将直接影响美网前的格局。膝盖伤势在硬地赛事中尤为棘手，他的恢复情况将是接下来两周的关键看点。",
           "region": "综合"
         },
         {
-          "title_zh": "萨巴伦卡和诺里在加拿大公开赛首轮出局",
-          "eng": "Sabalenka and Norrie exit Canadian Open in last 16",
-          "summary": "世界排名第一的阿丽娜·萨巴伦卡在多伦多遭遇意外失利，英国选手卡梅隆·诺里也在 16 强赛中出局。",
-          "source": "BBC Tennis",
-          "published": "2026-08-09",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c98vqj4zl9vo?at_medium=RSS&at_campaign=rss",
-          "overview": "在加拿大公开赛中，世界排名第一的阿丽娜·萨巴伦卡遭遇了一场令人意外的失利被淘汰出局。与此同时，英国选手卡梅隆·诺里也在 16 强赛中未能延续之前的良好势头而告负。",
-          "analysis": "世界第一萨巴伦卡的意外出局是本届赛事的最大冷门之一，这为其他种子选手提供了冲击冠军的绝佳机会。诺里的失利也终结了他此前在蒙特利尔的精彩表现。",
-          "social": [
-            {
-              "who": "网球解说/球迷",
-              "text": "萨巴伦卡爆冷出局太意外了，看来她在加拿大的状态确实有些波动。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "WNBA 跨性别争议持续发酵，涉及选秀资格与规则讨论",
+          "title_zh": "WNBA跨性别争议持续发酵",
           "eng": "The transgender controversy surrounding the WNBA",
-          "summary": "印第安纳狂热队球员关于禁止跨性别女性参赛的言论引发轩然大波，前 NBA 球员指出现行规则可能允许他们参加 2027 年选秀。",
+          "summary": "印第安纳狂热队球员索菲·坎宁安关于禁止跨性别女性参加女子体育的言论引发轩然大波，前NBA球员表示 eligibility 规则允许他们参加2027年选秀。",
           "source": "BBC Basketball",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/sport/basketball/articles/ckg3enx6rj6o?at_medium=RSS&at_campaign=rss",
-          "overview": "印第安纳狂热队球员索菲·坎宁安此前表示禁止跨性别女性参赛是“常识”，这一言论在 WNBA 引发了激烈争议。随后，前 NBA 球员指出根据现行规则，他们可能具备参加 2027 年选秀的资格，进一步加剧了这场关于体育公平与包容性的辩论。",
-          "analysis": "WNBA 的跨性别议题已从单纯的球员个人言论上升为联盟层面的政策讨论。这反映了美国社会在性别认同问题上日益复杂的立场，也考验着职业体育联盟在处理此类敏感话题时的平衡能力。",
-          "social": [
-            {
-              "who": "篮球评论员/资深球迷",
-              "text": "WNBA 的跨性别争议已经超出了体育范畴，成为了美国社会文化冲突的一个缩影。"
-            }
-          ],
+          "overview": "坎宁安的言论在WNBA引发了广泛争议，前NBA球员指出 eligibility 规则意味着他们可以参加2027年选秀。这一事件将体育公平性与个人权利之间的讨论推向了新高度。",
+          "analysis": "跨性别议题在女子体育中的讨论日益复杂化。eligibility 规则的模糊性成为焦点，这不仅是体育问题，更是社会议题的延伸。",
           "region": "综合"
         },
         {
-          "title_zh": "乌克兰对国际奥委会恢复俄罗斯参赛资格的决定提出申诉",
-          "eng": "Ukraine appeal against IOC decision to reinstate Russia",
-          "summary": "乌克兰国家奥委会向体育仲裁法庭提起上诉，反对国际奥委会临时恢复俄罗斯参加其赛事的决定。",
-          "source": "BBC Olympics",
-          "published": "2026-07-29",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/c5yvpwk1033o?at_medium=RSS&at_campaign=rss",
-          "overview": "国际奥委会（IOC）临时恢复了俄罗斯参加其赛事的资格，但乌克兰国家奥委会对此表示强烈反对。乌克兰方面随即向体育仲裁法庭提起上诉，试图阻止这一决定生效。",
-          "analysis": "俄乌冲突背景下，奥林匹克运动的治理面临前所未有的挑战。乌克兰的申诉表明，尽管 IOC 试图在政治与体育之间寻找平衡，但地缘政治因素对国际体育赛事的影响依然深远且难以消除。",
-          "social": [
-            {
-              "who": "奥运观察者/评论员",
-              "text": "IOC 恢复俄罗斯参赛资格的决定引发了巨大的外交风波，乌克兰的上诉或许只是更大博弈的开始。"
-            }
-          ],
+          "title_zh": "坎宁安被驱逐后发布'白人特权'帖子引发争议",
+          "eng": "Carrington makes 'white privilege' post after ejection",
+          "summary": "芝加哥天空队后卫迪乔奈·卡林顿在对阵印第安纳狂热队的比赛中因粗暴犯规被驱逐，随后在社交媒体上发布",
+          "region": "综合"
+        },
+        {
+          "title_zh": "霍奇金森在欧洲锦标赛800米中晋级",
+          "eng": "Hodgkinson and gold medal rivals progress at Europeans",
+          "summary": "基利·霍奇金森与金牌竞争对手奥黛丽·韦罗和费姆克·布罗德尔斯-博尔均成功晋级，为即将到来的欧洲800米决赛铺平道路。",
+          "source": "BBC Sport",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/cwy4ww1k49eo?at_medium=RSS&at_campaign=rss",
+          "overview": "三位顶尖选手的晋级为欧洲锦标赛增添了更多看点。这场即将到来的决赛将是奥运选拔赛的重要预演，竞争格局充满悬念。",
+          "analysis": "霍奇金森作为英国田径的希望之星，她的表现备受关注。三位强者的对决将决定谁能代表英国出战奥运会，这场决赛的意义远超赛事本身。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "18岁弗林特夫为兰开夏郡打出首个职业百次",
+          "eng": "Rocky Flintoff hits first professional century for Lancs",
+          "summary": "传奇英格兰全能球员安德鲁·弗林特夫的儿子，18岁的罗基·弗林特夫为兰开夏郡打出了职业生涯首个百次。",
+          "source": "BBC Sport",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c8rn483e415o?at_medium=RSS&at_campaign=rss",
+          "overview": "作为年轻球员，弗林特夫的表现令人瞩目。他的父亲安德鲁·弗林特夫是英格兰 cricket 的传奇人物，儿子的成就延续了家族传统。",
+          "analysis": "18岁打出职业百次在板球界极为罕见，弗林特夫的潜力不容小觑。他的表现不仅是个人的里程碑，也是英国 cricket 未来的希望所在。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "阿尔卡拉斯手腕伤势持续困扰",
+          "eng": "114 days and counting - how damaging is Alcaraz's wrist injury?",
+          "summary": "BBC Sport分析了卡洛斯·阿尔卡拉斯的长期缺阵以及手腕伤势为何难以管理。",
+          "source": "BBC Tennis",
+          "published": "2026-08-06",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cq56qz4xx1yo?at_medium=RSS&at_campaign=rss",
+          "overview": "阿尔卡拉斯的伤势已持续114天，这对他的职业生涯构成了重大挑战。手腕伤势在网球运动中尤为棘手，恢复过程充满不确定性。",
+          "analysis": "作为新生代领军人物，阿尔卡拉斯的缺阵对网坛格局产生了深远影响。手腕伤势的管理将成为他未来能否重返巅峰的关键因素。",
           "region": "综合"
         }
       ],
@@ -1511,244 +1448,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "AI人类化写作Skill",
+          "title_zh": "让AI写作像真人说话",
           "eng": "KKKKhazix/human-writing",
-          "summary": "让 AI 生成的中文内容读起来像真人写的，通用创作与改稿 Skill，开箱即用。",
+          "summary": "通用创作与改稿Skill，让AI生成的中文内容读起来像一个具体的人在说话，开箱即用。",
           "source": "GitHub",
-          "stars": 2374,
+          "stars": 2389,
           "lang": "Python",
           "published": "2026-08-05",
           "url": "https://github.com/KKKKhazix/human-writing",
-          "overview": "这是一个面向 AI 写作场景的 Skill，核心功能是消除 AI 文本中常见的机械感和重复句式，让输出内容更贴近真人表达习惯。支持通用创作与改稿两种模式，即插即用，无需额外配置即可在各类 AI 对话工具中使用。",
-          "analysis": "随着 AI 生成内容的普及，如何让文字'去AI味'成为刚需。该项目以高星数证明了社区对其实用性的认可，对内容创作者、自媒体运营者以及需要批量产出自然文本的团队都有直接价值。",
+          "overview": "这是一个专为中文AI写作优化的Skill，核心功能是消除AI文本的机械感和重复感，让输出内容读起来像真人创作。支持通用创作与改稿场景，用户无需额外配置即可直接使用。",
+          "analysis": "在AI内容泛滥的时代，如何让AI产出物具备'人味'是创作者的核心痛点。该项目以2389星成为近期高星项目之一，说明中文写作圈对去AI化有强烈需求。",
           "social": [
             {
               "who": "开发者",
-              "text": "解决了一个很实际的痛点——AI 写出来的东西太像 AI，这个 Skill 让输出更自然。"
+              "text": "解决了AI写作最头疼的'机器味'问题，直接可用，省了调prompt的时间。"
             },
             {
               "who": "内容创作者",
-              "text": "做自媒体和文案的必备工具，省去了大量人工润色时间。"
+              "text": "写公众号、文案再也不用担心被读者一眼看出是AI写的。"
             }
           ]
         },
         {
-          "title_zh": "Kimi PPT 生成Skill",
+          "title_zh": "非官方Kimi PPT生成Skill",
           "eng": "Binaryify/open-kimi-ppt-skill",
-          "summary": "非官方 Kimi Slides Skill：让 AI Agent 自动生成可编辑的 PPTD + PPTX 文件，并附带本地浏览器编辑器。",
+          "summary": "让AI Agent生成可编辑的PPTD+PPTX文件，并附带本地浏览器编辑器。",
           "source": "GitHub",
-          "stars": 1603,
+          "stars": 1601,
           "lang": "",
           "published": "2026-08-05",
           "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-          "overview": "该项目为 Kimi AI 打造了一个 PPT 生成 Skill，用户只需通过自然语言描述即可让 Agent 输出可编辑的演示文稿。支持生成 .pptd 和 .pptx 两种格式，并内置本地浏览器编辑器方便后续修改。",
-          "analysis": "AI 做 PPT 是当下热门需求，但官方工具往往限制较多。此非官方 Skill 提供了更灵活的方案，降低了 AI Agent 在办公场景中的使用门槛，对效率提升明显。",
+          "overview": "这是一个非官方的Kimi Slides Skill，能够生成可编辑的PPTD和PPTX格式文件。项目还附带了一个本地浏览器编辑器，用户可以直接在浏览器中查看和修改生成的演示文稿。",
+          "analysis": "AI Agent直接生成PPT是办公自动化的热门方向，该项目以开源方式绕过了官方限制，1601星说明社区对'AI+办公'工具的需求旺盛。",
           "social": [
             {
               "who": "开发者",
-              "text": "把自然语言转成可编辑 PPT 的思路很巧妙，浏览器编辑器让后续修改变得方便。"
+              "text": "非官方的好处是不受平台政策限制，功能更自由，但也要注意合规风险。"
             },
             {
               "who": "办公用户",
-              "text": "开会前用 AI 快速出初稿，再手动微调，效率翻倍。"
+              "text": "开会前让AI直接出PPT框架，效率提升明显，本地编辑器也很方便修改。"
             }
           ]
         },
         {
-          "title_zh": "手机 Agent 控制框架",
+          "title_zh": "手机Agent控制框架",
           "eng": "ShawnPana/phone-harness",
-          "summary": "让 AI Agent 直接操控你的手机，实现自动化操作与交互。",
+          "summary": "让AI Agent直接控制你的手机操作，实现自动化任务执行。",
           "source": "GitHub",
-          "stars": 1437,
+          "stars": 1456,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/ShawnPana/phone-harness",
-          "overview": "这是一个面向手机自动化的框架，允许 AI Agent 通过模拟触控、滑动、点击等操作来控制用户设备。支持多种主流操作系统，可应用于自动化测试、数据抓取和日常任务自动化等场景。",
-          "analysis": "随着多模态 Agent 的发展，手机作为重要交互终端，其自动化控制能力成为关键拼图。该项目为构建手机端 AI Agent 提供了基础基础设施，具有广泛的开发和应用价值。",
+          "overview": "该项目允许AI Agent通过模拟操作来控制手机，实现应用安装、消息处理、文件管理等自动化任务。基于Python构建，提供了稳定的接口让开发者集成到各种Agent框架中。",
+          "analysis": "随着多模态Agent的兴起，'手机即终端'的理念正在成为现实。1456星反映了社区对移动端自动化能力的强烈需求，尤其在测试和运维场景下价值突出。",
           "social": [
             {
               "who": "开发者",
-              "text": "手机自动化一直是难点，这个框架把 Agent 和移动端打通了，很有前瞻性。"
+              "text": "把手机变成Agent的执行端，思路很前沿，适合做自动化测试或日常任务编排。"
             },
             {
               "who": "研究者",
-              "text": "为研究人机交互和自动化提供了新的实验平台，值得深入探索。"
+              "text": "移动端Agent控制是AGI落地的重要一环，这个框架降低了研究门槛。"
             }
           ]
         },
         {
-          "title_zh": "油动画引擎",
+          "title_zh": "流畅Web动画引擎",
           "eng": "oil-oil/oil-motion",
-          "summary": "创建流畅、响应式的交互式网页动画，为前端开发提供轻量级动画解决方案。",
+          "summary": "创建平滑、响应式的交互式网页动画，让开发者轻松实现高性能动效。",
           "source": "GitHub",
-          "stars": 1374,
+          "stars": 1419,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/oil-oil/oil-motion",
-          "overview": "Oil Motion 是一个专注于网页动画的引擎，支持创建平滑过渡和响应式交互效果。相比传统 CSS 动画或复杂的前端框架方案，它提供了更简洁的 API 和更好的性能表现。",
-          "analysis": "前端动画一直是开发者痛点——CSS 不够灵活，JS 库又太重。Oil Motion 在两者之间找到了平衡点，适合需要高性能、轻量级动画效果的中大型项目。",
+          "overview": "专注于生成流畅、响应式的交互式Web动画，解决了传统CSS动画性能瓶颈和JavaScript动画代码复杂的问题。项目提供简洁的API，让开发者无需深入底层即可实现高性能动效。",
+          "analysis": "在Web开发中，动效是提升用户体验的关键因素，但手写高性能动画一直是个痛点。1419星说明前端社区对这类工具的认可度很高。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "终于有一个既轻量又能做出漂亮动画的方案了，告别过度依赖 GSAP。"
+              "who": "开发者",
+              "text": "告别复杂的GSAP配置，用更简洁的方式实现流畅动效，性能也不错。"
             },
             {
               "who": "设计师",
-              "text": "交互效果更流畅自然，给设计还原提供了更好的技术支撑。"
+              "text": "非技术人员也能通过简单指令生成好看的网页动画，降低了门槛。"
             }
           ]
         },
         {
-          "title_zh": "微信 AI 集成框架",
+          "title_zh": "微信AI集成方案",
           "eng": "SMNETSTUDIO/WeChat-AI",
-          "summary": "为微信小程序和公众号提供 AI 能力集成的开发框架，简化接入流程。",
+          "summary": "为开发者提供微信生态的AI能力接入方案，打通AI与社交场景。",
           "source": "GitHub",
-          "stars": 1321,
+          "stars": 1345,
           "lang": "TypeScript",
           "published": "2026-08-10",
           "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-          "overview": "该项目为微信生态提供了 AI 能力集成的标准化方案，支持在小程序和公众号中快速接入大模型对话、内容生成等功能。采用 TypeScript 编写，与微信开发者工具深度兼容。",
-          "analysis": "微信作为中国最大的流量入口之一，其 AI 集成需求巨大但官方文档分散。该项目通过统一框架降低了开发成本，对中小团队和创业者尤其有价值。",
+          "overview": "该项目为开发者提供了在微信生态中接入AI能力的完整方案，支持多种交互场景。使用TypeScript构建，代码质量较高，文档清晰，适合快速集成到现有项目中。",
+          "analysis": "微信作为中国最大的社交平台，其AI能力开放程度一直是行业关注焦点。1345星说明大量开发者需要这类桥接工具来落地AI应用。",
           "social": [
             {
               "who": "开发者",
-              "text": "微信生态做 AI 一直缺乏好工具，这个框架让接入变得标准化了。"
+              "text": "微信生态的AI接入一直是个痛点，这个项目把碎片化的方案整合成了完整工具链。"
             },
             {
-              "who": "产品负责人",
-              "text": "小程序里加个 AI 助手现在比以前方便太多了，开发周期缩短不少。"
+              "who": "产品经理",
+              "text": "想给小程序加AI功能但不知道从哪入手？这个仓库就是最佳起点。"
             }
           ]
         },
         {
-          "title_zh": "MiniMax H3 Mac 推理引擎",
+          "title_zh": "Mac本地H3推理引擎",
           "eng": "antirez/h3.c",
-          "summary": "为 Mac 电脑打造的 MiniMax H3 本地推理引擎，实现离线 AI 能力。",
+          "summary": "MiniMax H3模型在Mac上的轻量级推理引擎，实现本地化AI能力。",
           "source": "GitHub",
-          "stars": 893,
+          "stars": 1038,
           "lang": "C",
           "published": "2026-08-09",
-          "url": "https://github.com/antirez/h3.c",
-          "overview": "由 Redis 创始人 Salvatore Sanfilippo 主导开发的 H3 推理引擎，专为 Mac 平台优化。支持 MiniMax H3 模型的本地部署和推理，无需联网即可运行 AI 任务，注重性能和资源效率。",
-          "analysis": "开源社区大佬亲自下场做 AI 推理引擎，本身就具有标杆意义。C 语言实现保证了极致性能，Mac 平台的定位填补了轻量级本地推理的空白。",
+          "url": "https://github.com/h3.c",
+          "overview": "由Redis之父antirez打造的MiniMax H3推理引擎，专为Mac电脑优化。使用纯C语言编写，体积小巧、性能优异，支持在本地设备上运行H3模型进行文本生成和对话。",
+          "analysis": "本地化AI推理是去中心化趋势的重要方向，知名开发者参与降低了信任成本。1038星反映了社区对'离线AI'能力的期待。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Redis 创始人做的东西质量有保障，C 语言在推理引擎上的表现值得期待。"
+              "who": "研究者",
+              "text": "antirez亲自下场做模型推理引擎，代码质量和性能都有保障，值得研究。"
             },
             {
-              "who": "研究者",
-              "text": "本地化推理是趋势，这个方案让 Mac 用户也能跑大模型了。"
+              "who": "开发者",
+              "text": "在Mac上跑本地H3模型，不依赖云端API，隐私和延迟都更好控制。"
             }
           ]
         },
         {
-          "title_zh": "AI 短剧制作Skill集合",
+          "title_zh": "AI短剧制作Skill集合",
           "eng": "eternityspring/shuohao-skills",
-          "summary": "面向 AI 短剧制作的 Skill 集合，涵盖角色设定、场景图生成和剧本大纲编排等功能。",
+          "summary": "面向AI短剧制作的Agent Skill集合，涵盖角色设定、模型图生成和剧本大纲。",
           "source": "GitHub",
-          "stars": 716,
+          "stars": 781,
           "lang": "JavaScript",
           "published": "2026-08-06",
           "url": "https://github.com/eternityspring/shuohao-skills",
-          "overview": "该项目为 AI 短剧创作提供了完整的 Skill 工具链，包括角色圣经生成、设定图输出和剧情大纲编排等核心功能。可在 Claude Code 和 Codex 中直接运行，支持从创意到剧本的全流程自动化。",
-          "analysis": "AI 短剧是当前内容创作的热门赛道，该项目将分散的 AI 能力整合为标准化 Skill，降低了创作门槛。对影视从业者、自媒体创作者和内容团队都有实用价值。",
+          "overview": "这是一个专门为AI短剧制作设计的Skill集合，包含角色圣经、设定图生成和改编大纲等功能。可在Claude Code和Codex中运行，帮助创作者系统化地完成从概念到剧本的全流程。",
+          "analysis": "AI短剧是2024-2025年爆发的内容形态，该项目将零散的工具整合成完整工作流，781星说明'AI+影视制作'赛道正在升温。",
           "social": [
             {
-              "who": "开发者",
-              "text": "把短剧制作拆解成可复用的 Skill 模块，思路很清晰，执行效率很高。"
+              "who": "创作者",
+              "text": "做短剧再也不用东拼西凑工具了，一个Skill搞定角色、画面和剧本。"
             },
             {
-              "who": "内容创作者",
-              "text": "从角色设定到剧本大纲一条龙搞定，省去了大量前期策划工作。"
+              "who": "开发者",
+              "text": "Agent Skills的标准化实践很好，对后续AI内容生产工具的架构有参考价值。"
             }
           ]
         },
         {
-          "title_zh": "ComfyUI MiniMax H3 音频生成节点",
-          "eng": "T8mars/comfyui-minimax-h3-audio-T8",
-          "summary": "为 ComfyUI 工作流集成 MiniMax H3 音频生成能力，实现 AI 驱动的语音合成。",
+          "title_zh": "ComfyUI H3音频运动上下文",
+          "eng": "NikoDemon80/ComfyUI-H3-Motion-Context",
+          "summary": "在ComfyUI中实现MiniMax H3的Clip链式调用，让运动和音频跨片段真正连续。",
           "source": "GitHub",
-          "stars": 608,
+          "stars": 388,
           "lang": "Python",
-          "published": "2026-08-05",
-          "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
-          "overview": "该项目将 MiniMax H3 音频生成模型接入 ComfyUI 可视化工作流，支持在节点式界面中直接调用 AI 语音合成。用户可通过拖拽连线的方式灵活组合各种音频处理效果，实现高质量的 TTS 输出。",
-          "analysis": "ComfyUI 已成为 AI 创作领域的主流工具之一，将 H3 音频能力接入其中扩展了其应用场景。对播客制作、有声书生成和内容创作者来说是一个实用的增强方案。",
+          "published": "2026-08-07",
+          "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+          "overview": "该项目为ComfyUI平台提供了MiniMax H3模型的Clip链式调用功能，解决了视频生成中运动和音频在片段拼接处不连续的问题。通过上下文传递机制，确保生成的视频在视觉和听觉上保持连贯性。",
+          "analysis": "ComfyUI生态的扩展插件一直是AI创作工具的增长点，H3模型的视频能力结合ComfyUI的工作流优势，为创作者提供了更强大的本地化生成方案。",
           "social": [
             {
               "who": "开发者",
-              "text": "ComfyUI + H3 的组合让音频生成变得可视化，调试和迭代都更方便了。"
+              "text": "解决了视频拼接时运动不连贯的老问题，对做长视频的创作者很有帮助。"
             },
             {
-              "who": "内容创作者",
-              "text": "做有声内容和播客终于有了好用的本地方案，不再依赖在线 API。"
+              "who": "AI艺术家",
+              "text": "ComfyUI生态越来越丰富，H3的接入让本地视频生成能力又上了一个台阶。"
             }
           ]
         },
         {
-          "title_zh": "AI 小镇互动体验",
-          "eng": "mewamew/my_ai_town",
-          "summary": "一个以 AI 为主题的虚拟小镇互动项目，用 GDScript 实现沉浸式探索体验。",
+          "title_zh": "从零写出Pi Agent",
+          "eng": "SaladDay/pi-from-scratch",
+          "summary": "用600行TypeScript实现的超级迷你版Pi计算工具，让你轻松从0构建自己的AI Agent。",
           "source": "GitHub",
-          "stars": 412,
-          "lang": "GDScript",
-          "published": "2026-08-07",
-          "url": "https://github.com/mewamew/my_ai_town",
-          "overview": "该项目构建了一个以 AI 为主题的虚拟小镇，玩家可以在其中探索与 AI 相关的场景和互动内容。采用 Godot Engine 的 GDScript 语言开发，注重沉浸感和交互体验的设计。",
-          "analysis": "作为学习资源和创意项目，AI 小镇展示了如何将抽象概念转化为可互动的数字体验。对游戏开发者、教育者和 AI 爱好者来说是一个很好的灵感来源和实践案例。",
+          "stars": 451,
+          "lang": "TypeScript",
+          "published": "2026-08-09",
+          "url": "https://github.com/SaladDay/pi-from-scratch",
+          "overview": "这是一个教育性质的项目，用仅600行TypeScript代码实现了Pi计算的核心逻辑。项目的目标是帮助开发者从零开始理解Agent构建的基本原理，降低学习门槛。",
+          "analysis": "在AI Agent概念普及的背景下，这类'从0到1'的学习资源弥足珍贵。451星说明社区对可复现、可学习的开源项目有持续需求。",
           "social": [
             {
               "who": "学习者",
-              "text": "用 GDScript 做这种互动项目很有学习价值，代码结构清晰适合入门。"
+              "text": "600行代码就能理解Agent的核心逻辑，比读论文直观多了，适合入门。"
             },
             {
               "who": "开发者",
-              "text": "把 AI 概念做成可探索的虚拟世界，创意和执行力都很不错。"
+              "text": "教学项目做得很用心，注释清晰、结构简洁，是学习Agent开发的优秀起点。"
             }
           ]
         },
         {
-          "title_zh": "iOS 应用欢迎页灵感集",
+          "title_zh": "iOS顶级应用欢迎页参考",
           "eng": "Appllama/top-welcome-screens",
-          "summary": "收集并还原了 10 款顶级 iOS 应用的动画欢迎界面，用 React Native + Expo 重建。",
+          "summary": "收集并重建了10款高收入iOS应用的动画欢迎界面，用React Native + Expo实现。",
           "source": "GitHub",
-          "stars": 447,
+          "stars": 449,
           "lang": "TypeScript",
           "published": "2026-08-08",
           "url": "https://github.com/Appllama/top-welcome-screens",
-          "overview": "该项目精选了收入最高的 iOS 应用的欢迎界面设计，使用 React Native + Expo 框架进行了完整还原。每个案例都包含动画效果、交互逻辑和设计思路的详细说明，可作为移动端 UI 设计的参考素材。",
-          "analysis": "对于移动应用开发者和设计师来说，顶级产品的欢迎页设计是重要的学习资源。该项目不仅提供了视觉参考，还通过代码实现了可复用的设计方案，兼具学习和实践价值。",
+          "overview": "该项目收集了10款收入最高的iOS应用的动画欢迎界面设计，并使用React Native + Expo重新实现。每个案例都标注了原始应用名称和设计特点，为UI设计师和开发者提供了高质量的参考素材。",
+          "analysis": "在App Store竞争白热化的今天，第一印象至关重要。449星说明大量独立开发者和设计师需要这类高质量的设计参考来快速提升产品体验。",
           "social": [
             {
-              "who": "开发者",
-              "text": "直接看收入最高的 App 是怎么做欢迎页的，比闭门造车强多了。"
+              "who": "UI设计师",
+              "text": "直接看头部产品的欢迎页设计思路，比自己闭门造车效率高太多。"
             },
             {
-              "who": "设计师",
-              "text": "动画效果还原得很到位，代码也能直接用，学习价值很高。"
+              "who": "开发者",
+              "text": "React Native实现方便迁移到跨平台项目，代码质量也不错。"
             }
           ]
         },
         {
-          "title_zh": "CPU 性能极限探索汇编项目",
-          "eng": "xoreaxeaxeax/asm-hall-of-shame",
-          "summary": "深入 CPU 底层性能极限的汇编级优化研究，记录处理器微架构上的极致性能尝试。",
+          "title_zh": "AI小镇互动游戏",
+          "eng": "mewamew/my_ai_town",
+          "summary": "一个基于GODOT引擎的AI主题互动小镇游戏项目，探索AI角色在虚拟世界中的生活。",
           "source": "GitHub",
-          "stars": 754,
-          "lang": "C",
-          "published": "2026-08-06",
-          "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-          "overview": "该项目由知名汇编优化专家维护，专注于探索 CPU 微架构层面的性能极限。通过精心编写的汇编代码和基准测试，记录了处理器在不同指令集和优化策略下的极致表现，为系统级开发提供深度参考。",
-          "analysis": "在 AI 推理、游戏引擎和高频交易等领域，CPU 底层优化能力至关重要。该项目汇集了顶尖专家的研究成果，是理解现代处理器架构和性能调优的宝贵资源库。",
+          "stars": 428,
+          "lang": "GDScript",
+          "published": "2026-08-07",
+          "url": "https://github.com/mewamew/my_ai_town",
+          "overview": "这是一个以AI为主题的互动小镇游戏，使用GODOT引擎和GDScript开发。玩家可以在虚拟世界中与AI角色互动，探索AI在日常生活场景中的可能性，兼具趣味性和教育意义。",
+          "analysis": "'AI+游戏'是新兴的创意赛道，该项目将抽象的AI概念具象化为可交互的游戏体验，428星说明社区对这类寓教于乐的内容有需求。",
           "social": [
             {
               "who": "开发者",
-              "text": "汇编级别的 CPU 优化研究太硬核了，但里面的思路对系统开发很有启发。"
+              "text": "用GODOT做AI主题游戏是个有趣的尝试，技术栈选择合理，扩展性强。"
             },
             {
-              "who": "研究者",
-              "text": "记录了处理器微架构上的极致性能尝试，是理解硬件极限的好资料。"
+              "who": "玩家",
+              "text": "想看看AI角色在虚拟世界怎么生活？这个项目给了一个很直观的体验。"
             }
           ]
         }
@@ -1757,188 +1694,307 @@
     "hot": {
       "items": [
         {
-          "title_zh": "特朗普在伊朗威胁期间秘密换机，藏身餐车骗过记者",
-          "summary": "据报道，美国总统特朗普在一次北约峰会上被安排乘坐餐车秘密转移，以躲避媒体追踪。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
-          "overview": "特朗普在土耳其参加北约峰会期间，利用一架私人飞机与空军一号进行秘密交换。他本人并未出现在记者面前，而是藏身于一辆送餐卡车中，向随行记者谎称自己仍在空军一号上。这一事件引发了外界对美国政治运作透明度的质疑。",
-          "analysis": "此举凸显了美国高层在面临伊朗威胁时的安全考量与信息管控策略。媒体被蒙蔽反映了白宫对舆论的强力干预，也揭示了国际峰会期间安保与外交活动的复杂性。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "这是近年来罕见的总统行程造假事件，令人震惊。"
-            },
-            {
-              "who": "政治评论员",
-              "text": "在伊朗核问题紧张之际，这种秘密行动可能加剧地区误判风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国发布极端高温橙色预警，气温或达38度",
-          "summary": "英国气象局发布了周四的极端高温橙色预警，预计气温将达到38摄氏度。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/weather/articles/ce8ljn1ngg2o?at_medium=RSS&at_campaign=rss",
-          "overview": "随着夏季热浪来袭，英国气象办公室对全国大部分地区发出了极端天气警告。预计本周四将经历极端的温度峰值，公众被建议采取防暑降温措施以应对潜在的健康风险。",
-          "analysis": "此次高温可能与气候变化导致的极端天气频发有关。政府预警旨在提醒民众注意脱水、中暑等健康隐患，同时考验城市基础设施的耐热能力。",
-          "social": [
-            {
-              "who": "气象专家",
-              "text": "38度的高温对老年人和儿童构成严重威胁，需格外警惕。"
-            },
-            {
-              "who": "普通市民",
-              "text": "出门必须带伞防晒，家里空调要提前检查好。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国首相宣布扩大地方议会权力以限制电子烟和博彩店",
-          "summary": "英国首相安迪·伯纳姆宣布将赋予地方议会更多权力来关闭电子烟和博彩店铺，称城镇中心已被多年衰退掏空。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/cvg90el9236o?at_medium=RSS&at_campaign=rss",
-          "overview": "面对城镇商业中心的持续衰落，英国首相提出了一项新政策，旨在通过加强地方监管来遏制电子烟销售和博彩店扩张。这一举措被视为挽救高街经济、恢复社区活力的重要尝试。",
-          "analysis": "该政策反映了英国政府试图平衡个人自由与公共健康的努力。限制电子烟和博彩可能影响相关产业利益，但支持者认为这有助于减少青少年成瘾和社会问题。",
-          "social": [
-            {
-              "who": "商业分析师",
-              "text": "高街经济确实需要新动力，但这需要谨慎执行以免引发反弹。"
-            },
-            {
-              "who": "健康倡导者",
-              "text": "限制电子烟是保护下一代的重要一步，值得肯定。"
-            }
-          ]
-        },
-        {
-          "title_zh": "泽连斯基称俄罗斯使用朝鲜导弹袭击乌克兰",
-          "summary": "乌克兰总统表示，扎波罗热地区的打击使用了来自俄罗斯盟友的弹道导弹，造成至少6人死亡、19人受伤。",
+          "title_zh": "泽连斯基称俄方使用朝鲜导弹袭击乌克兰",
+          "summary": "乌克兰总统泽连斯基证实，俄罗斯利用朝鲜提供的弹道导弹对扎波罗热发动打击，造成至少6人死亡、19人受伤。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss",
-          "overview": "乌克兰总统泽连斯基证实，近期针对扎波罗热的军事行动涉及从朝鲜获得的弹道导弹。此次袭击已导致严重人员伤亡，进一步加剧了俄乌冲突的国际紧张局势及核扩散担忧。",
-          "analysis": "朝鲜导弹的介入表明俄罗斯正在寻求突破现有武器限制以增强打击能力。这一事件可能引发国际社会对朝鲜半岛安全格局的新一轮讨论，并增加联合国安理会介入的可能性。",
+          "overview": "乌克兰总统泽连斯基表示，扎波罗热地区遭受的打击涉及来自俄罗斯盟友朝鲜的弹道导弹。此次袭击已造成至少6人死亡和19人受伤。这一消息进一步加剧了国际社会对俄乌冲突升级及朝鲜军事介入的担忧。分析人士指出，这标志着朝鲜在代理人战争中的角色可能进一步扩大。",
+          "analysis": "俄朝联合使用导弹打击乌克兰表明双方军事合作深化，朝鲜武器出口能力增强。扎波罗热作为关键战略区域，其受损将影响乌方能源基础设施安全。国际社会需关注此类非国家行为体介入对冲突走向的深远影响。",
           "social": [
             {
-              "who": "国际观察家",
-              "text": "朝鲜导弹进入战场是重大信号，意味着核扩散风险正在升级。"
+              "who": "国际防务观察员",
+              "text": "朝鲜弹道导弹出现在乌克兰战场意味着平壤正积极通过代理人战争扩大影响力，这比直接参战更具隐蔽性但破坏力同样巨大。"
             },
             {
-              "who": "乌克兰支持者",
-              "text": "平民伤亡令人痛心，国际社会必须施压停止此类攻击。"
+              "who": "乌克兰民间评论者",
+              "text": "扎波罗热的平民伤亡再次提醒我们，这场冲突的代价最终由普通民众承担，国际社会不应袖手旁观。"
             }
           ]
         },
         {
-          "title_zh": "哥伦比亚强震致至少132人死亡，家庭在倒塌房屋中惊险逃生",
-          "summary": "哥伦比亚遭遇近年来最大地震之一，已造成至少132人死亡并宣布紧急状态，一个家庭在危急时刻成功脱险。",
+          "title_zh": "刚果民主共和国埃博拉疫情可能正在变异",
+          "summary": "刚果（金）埃博拉确诊病例已超4000例，卫生官员警告病毒可能正在发生变异，非洲公共卫生监管机构宣布将全面升级应对措施。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
+          "overview": "刚果民主共和国的埃博拉疫情持续蔓延，确诊病例已超过4000例。非洲公共卫生监管机构表示，渐进式行动已不足以应对危机，计划全面升级响应措施并逐户排查患者。官员们担心病毒正在发生变异，这增加了治疗的复杂性和传播风险。",
+          "analysis": "埃博拉病毒的潜在变异是此次疫情最令人担忧的因素，可能影响现有疫苗和药物的有效性。刚果（金）作为非洲人口大国，疫情失控将对区域公共卫生安全构成严重威胁，需要国际社会的紧急援助与协作。",
+          "social": [
+            {
+              "who": "全球健康专家",
+              "text": "如果埃博拉病毒发生变异，现有的防控手段可能失效，这将是继新冠以来最严峻的突发公共卫生事件之一。"
+            },
+            {
+              "who": "当地社区代表",
+              "text": "逐户排查虽然必要，但在资源匮乏的地区执行起来极具挑战，我们需要更多国际物资支持来保护我们的家人。"
+            }
+          ]
+        },
+        {
+          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
+          "summary": "美国联邦法官裁定允许特朗普政府取消对数百名南苏丹国民的临时保护身份（TPS），此前最高法院已允许政府剥夺海地和叙利亚人的类似保护。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
+          "overview": "美国马萨诸塞州联邦法官帕蒂·萨里斯驳回了移民权利组织的诉讼，允许特朗普政府推进取消南苏丹人临时保护身份的计划。此前最高法院的裁决已为政府剥夺海地和叙利亚人的TPS提供了法律依据。这一决定引发了关于移民政策合法性和人道主义危机的广泛讨论。",
+          "analysis": "此举进一步收紧了美国对特定国家国民的保护政策，可能迫使大量难民面临遣返风险。移民权利组织对此表示强烈反对，认为这违反了国际难民法精神，并可能引发更多法律挑战。",
+          "social": [
+            {
+              "who": "人权律师",
+              "text": "取消TPS保护将直接威胁到数千名在南苏丹危机中流离失所者的生命安全，这是政治决策对弱势群体造成的直接伤害。"
+            },
+            {
+              "who": "美国移民社区活动家",
+              "text": "这一裁决再次证明政府在移民问题上优先考虑政治议程而非人道主义责任，我们必须继续为受影响的家庭发声。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国将关闭五个领事馆引发中国填补外交真空担忧",
+          "summary": "美国国务院通知国会计划关闭加拿大、格林纳达、日本、印尼和喀麦隆等地的五个领事馆，批评者担心中国可能利用此机会扩大影响力。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
+          "overview": "美国国务院已通知国会，计划关闭分布在亚洲、非洲、北美和加勒比地区的五个外国领事馆及任务机构。官方理由是成本削减和对双边关系的重新评估。然而，批评者指出此举可能在中国填补外交真空方面留下空间，引发地缘政治层面的担忧。",
+          "analysis": "美国在全球范围内收缩外交存在被视为战略退却，特别是在与中国的竞争中可能削弱其软实力。关闭领事馆不仅影响当地侨民服务，还可能改变区域力量平衡，需要密切关注后续发展。",
+          "social": [
+            {
+              "who": "地缘政治分析师",
+              "text": "美国在全球关键节点撤出外交存在，客观上为中国提供了拓展影响力的窗口期，这将是未来几年国际博弈的焦点之一。"
+            },
+            {
+              "who": "当地侨民代表",
+              "text": "领事馆关闭将直接影响我们的签证服务和紧急援助能力，希望美方能重新考虑这一决定以保障在美公民利益。"
+            }
+          ]
+        },
+        {
+          "title_zh": "哥伦比亚发生强震致至少169人死亡",
+          "summary": "哥伦比亚遭受近年来最大规模地震之一袭击，已造成至少169人死亡，政府宣布进入紧急状态，一个家庭在房屋倒塌中侥幸逃生。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/videos/cwyl3w1e6zxo?at_medium=RSS&at_campaign=rss",
-          "overview": "哥伦比亚发生强烈地震，导致建筑物严重受损，至少132人遇难。当局已宣布全国进入紧急状态进行救援。视频显示一个家庭在地震发生时从即将倒塌的房屋中惊险逃生，凸显了灾害的破坏力。",
-          "analysis": "此次强震再次敲响了拉美地区抗震防灾的警钟。基础设施的老化和建筑规范的执行力度是亟待解决的问题，国际社会应关注灾后重建与预防机制的建立。",
+          "overview": "哥伦比亚遭遇近年来最强地震之一，至少169人遇难。视频显示一个家庭在房屋倒塌中奇迹般逃生。政府已宣布进入紧急状态以协调救援工作。此次灾害对当地基础设施和居民生活造成了巨大破坏，凸显了该地区地震风险的严峻性。",
+          "analysis": "哥伦比亚位于环太平洋火山带附近，强震频发但防灾能力有限。此次伤亡惨重表明需要加强建筑抗震标准和早期预警系统建设。国际社会应关注灾后重建及人道主义援助的及时到位。",
           "social": [
             {
-              "who": "救援组织",
-              "text": "紧急状态已启动，救援物资正在向灾区集中运送。"
+              "who": "灾害救援专家",
+              "text": "哥伦比亚的基础设施在地震中表现不佳，我们需要推动更严格的建筑规范以减少未来类似灾难的损失。"
             },
             {
-              "who": "幸存者家属",
-              "text": "感谢那个家庭成功逃生，希望更多人能重视地震预警。"
+              "who": "遇难者家属代表",
+              "text": "失去亲人的痛苦无法用言语表达，我们希望政府能尽快提供心理支持和经济援助来帮助受灾家庭度过难关。"
             }
           ]
         },
         {
-          "title_zh": "安妮·海瑟薇回应“假孕肚”质疑，幽默化解争议",
-          "summary": "女演员安妮·海瑟薇在首映礼上被拍到疑似怀孕，随后她幽默地回应了社交媒体上关于其孕肚不真实的批评。",
+          "title_zh": "特朗普在伊朗威胁期间秘密换机藏身餐车",
+          "summary": "据报道，美国总统特朗普在一次北约峰会的飞机交换中躲进餐车以躲避记者，此前媒体被误导以为他仍在空军一号上。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&at_campaign=rss",
+          "overview": "据多家媒体报道，美国总统特朗普在涉及伊朗威胁的敏感时刻，参与了一场秘密换机行动。记者们被错误告知他仍在空军一号上参加北约峰会，实际上他已躲进餐车中转移。这一事件引发了关于总统安全与媒体透明度之间平衡的讨论。",
+          "analysis": "此举暴露了白宫在处理敏感外交事务时的信息管控策略，可能对公众知情权造成损害。在伊朗局势紧张的背景下，这种不透明操作可能影响国际舆论对美方立场的判断。",
+          "social": [
+            {
+              "who": "政治评论员",
+              "text": "总统在危机时刻选择隐藏行踪而非公开沟通，这反映了当前美国政治环境中信息战和信任危机的加剧。"
+            },
+            {
+              "who": "记者协会代表",
+              "text": "被误导的记者们感到愤怒，媒体的独立性和准确性是民主社会的基石，此类事件不应成为常态。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国2026年夏季有望创最热纪录",
+          "summary": "英国气象局表示，只要8月剩余时间气温达到平均水平即可打破去年刚创造的夏季最高温记录。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/weather/articles/cn8n9pg54m1o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国气象局预测，2026年夏季有望成为有记录以来最热的一年。只要8月剩余时间的气温达到平均水平，就能打破去年刚刚创造的纪录。这一趋势反映了全球气候变暖的持续影响，极端高温天气正变得越来越频繁。",
+          "analysis": "连续两年刷新高温纪录表明气候变化对英国本土的影响日益显著，可能对农业、能源和公共健康构成威胁。政府需要采取更积极的减排措施并加强公众应对极端天气的准备。",
+          "social": [
+            {
+              "who": "气候活动人士",
+              "text": "每年都在刷新的温度纪录是气候危机的直接证据，我们必须要求政府立即采取行动减少碳排放。"
+            },
+            {
+              "who": "普通市民",
+              "text": "连续的高温天气让日常生活变得困难，希望政府能提供更多避暑设施和公共降温服务来保护老年人和儿童。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国1999年以来最大日食引发眼镜抢购潮",
+          "summary": "在英国迎来1999年以来最重大的日食之际，专业观测眼镜在网上几乎售罄，追星族纷纷 scrambling 寻找设备。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/news/articles/clyqxx27620o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国将迎来自1999年以来最显著的日食，引发了公众极大的观测热情。然而，专业日食眼镜在各大在线平台几乎全部售罄，追星族不得不四处寻找替代方案。这一现象反映了天文事件对公众兴趣的巨大吸引力以及相关产品的供需失衡。",
+          "analysis": "日食观测热潮体现了科学普及的成功，但也暴露了相关产品供应链的不足。建议消费者提前准备或使用专业设备以确保安全观测，避免直视太阳造成视力损伤。",
+          "social": [
+            {
+              "who": "天文爱好者",
+              "text": "终于等到这一天了！虽然眼镜难买，但我们可以用专业滤镜自制替代品，安全第一。"
+            },
+            {
+              "who": "电商卖家",
+              "text": "日食眼镜的需求量远超预期，我们已紧急加库存以满足市场需求，但仍供不应求。"
+            }
+          ]
+        },
+        {
+          "title_zh": "西班牙对意大利访客实施临时边境检查",
+          "summary": "为应对摩洛哥人涌入塞维利亚的移民潮，西班牙宣布将对来自意大利的游客实施临时边境检查，措施将持续至9月7日。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
+          "overview": "西班牙内政部宣布将对来自意大利的访客实施临时边境检查，以应对罗马此前实施的类似措施后出现的摩洛哥人涌入塞维利亚的移民潮。这一决定是在“持续的非法移民压力”背景下做出的，检查将从周六午夜开始，持续至9月7日。",
+          "analysis": "西班牙与意大利之间的边境管控升级反映了南欧国家面临的严峻移民挑战。此类临时措施虽能短期缓解压力，但长期来看需要更系统的区域合作和根源治理方案来应对非法移民问题。",
+          "social": [
+            {
+              "who": "欧盟政策研究者",
+              "text": "边境检查的临时化表明现有机制难以根本解决移民危机，各国之间的协调与合作才是长久之计。"
+            },
+            {
+              "who": "旅游行业从业者",
+              "text": "对意大利访客的检查可能会影响两国间的正常旅游往来，希望措施能尽快结束以减少不必要的摩擦。"
+            }
+          ]
+        },
+        {
+          "title_zh": "加拿大航空因儿童拒绝系安全带取消航班",
+          "summary": "一架从维多利亚飞往多伦多的加拿大航空公司航班在起飞前因一名儿童拒绝系安全带而被迫返回航站楼，最终取消行程。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-11",
+          "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
+          "overview": "波特航空公司的一架航班在起飞前因一名儿童拒绝系安全带而被迫返回航站楼。尽管家长和机组人员多次尝试让孩子就座并系好安全带均告失败，最终机组决定取消航班以确保安全。这一事件引发了关于航空安全和乘客配合度的讨论。",
+          "analysis": "航空公司的安全规定不容妥协，取消航班虽造成不便但体现了对安全的重视。此类事件也提醒家长在出行前应提前教育孩子遵守航空安全规则，避免不必要的延误和风险。",
+          "social": [
+            {
+              "who": "航空安全专家",
+              "text": "安全是航空业的生命线，任何情况下都不能因个别乘客的不配合而冒险起飞，取消航班是正确的决定。"
+            },
+            {
+              "who": "网友",
+              "text": "这太搞笑了！希望下次孩子能乖乖听话，不然航空公司真的会亏大了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "安妮·海瑟薇回应‘假孕肚’质疑",
+          "summary": "女演员安妮·海瑟薇在首映礼上被社交媒体批评其腹部隆起不真实，她对此进行了幽默回应。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/ce8ljew9rnjo?at_medium=RSS&at_campaign=rss",
-          "overview": "好莱坞明星安妮·海瑟薇在一次电影首映活动中因腹部隆起引发关注，部分网友质疑其为假孕肚。面对舆论压力，她以轻松幽默的方式回应了这些猜测，展现了良好的公众形象管理能力。",
-          "analysis": "虽然这是娱乐新闻，但反映了社交媒体时代对名人私生活的过度审视。明星需要更巧妙地处理个人生活与公众期待之间的平衡，海瑟薇的应对方式值得借鉴。",
+          "overview": "女演员安妮·海瑟薇在一场首映礼上因腹部隆起引发猜测，被社交媒体上的批评者质疑其是否为‘假孕肚’。她以幽默的方式回应了这些评论，展现了面对网络争议时的自信与从容。这一事件再次引发了关于公众人物隐私和网络暴力的讨论。",
+          "analysis": "安妮·海瑟薇的回应体现了明星在面对无端猜测时的智慧，同时也反映了社交媒体时代对名人私生活的过度关注。此类事件提醒我们应尊重个人隐私，避免传播未经证实的信息。",
           "social": [
             {
-              "who": "粉丝",
-              "text": "恭喜安妮！希望她一切顺利，不要被谣言困扰。"
+              "who": "粉丝群体",
+              "text": "安妮太棒了！她总是能用幽默化解尴尬，希望她能安心享受自己的生活而不被外界干扰。"
             },
             {
-              "who": "娱乐记者",
-              "text": "她的回应很得体，既没有否认也没有过度解释，保持了神秘感。"
+              "who": "媒体评论员",
+              "text": "这种无端的猜测不仅伤害了当事人，也助长了网络暴力的风气，我们需要更加理性和尊重地对待公众人物。"
+            }
+          ]
+        },
+        {
+          "title_zh": "乌干达顶级足球运动员遭劫匪杀害",
+          "summary": "乌干达国家足球队前队长大卫·奥沃里在首都坎帕拉遭遇抢劫时试图阻止劫匪，不幸被铺路石击伤致死。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
+          "overview": "乌干达足球界陷入悲痛，国家足球队前队长大卫·奥沃里在坎帕拉遭遇抢劫时试图阻止劫匪抢夺手机和财物，不幸被铺路石击伤致死。他在医院抢救无效后去世。这一事件震惊了整个乌干达体育社区，引发了对首都治安问题的广泛关注。",
+          "analysis": "奥沃里的遇害凸显了乌干达首都坎帕拉的治安问题，尤其是针对公众人物的暴力犯罪日益严重。政府需要加强安全措施以保护运动员和其他公民的生命安全，同时打击抢劫等犯罪行为。",
+          "social": [
+            {
+              "who": "乌干达球迷协会",
+              "text": "奥沃里是我们的英雄，他的牺牲让我们心痛不已。我们希望政府能尽快改善治安状况以保护我们的同胞。"
+            },
+            {
+              "who": "法律专家",
+              "text": "这种使用铺路石行凶的残忍手段令人发指，必须依法严惩凶手并加强社区巡逻力度。"
             }
           ]
         }
       ],
       "regions": [
-        "中国",
         "国外"
       ]
     },
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
+          "name": "Yann LeCun",
+          "role": "Meta首席AI科学家",
+          "region": "欧洲（法国）",
           "domain": "ai",
-          "recent": "聚焦 AI 安全与网络安全模型，推动 GenAI 能力边界拓展及数学领域 AI 接管进程。",
-          "url": "https://www.samaltman.com"
+          "recent": "聚焦本地化智能体驱动的多模态模型及AI推理能力的未来突破方向。",
+          "url": "https://x.com/yannlecun"
         },
         {
-          "name": "Yann LeCun",
-          "role": "Meta Chief AI Scientist",
-          "region": "法国/美国",
+          "name": "李飞飞 (Fei-Fei Li)",
+          "role": "斯坦福大学HAI研究所主任",
+          "region": "北美（美国）",
           "domain": "ai",
-          "recent": "主张开源模型战略重启，强调 AI 驱动科学研究需具备推理能力而非仅依赖数据。",
-          "url": "https://www.yannlecun.com"
+          "recent": "关注LLM学术研究新现实，强调AI科学需要推理能力而非仅靠数据。",
+          "url": "https://x.com/feifeili"
         },
         {
           "name": "李开复 (Kai-Fu Lee)",
-          "role": "创新工场创始人 / Kai-Fu Capital CEO",
-          "region": "中国/美国",
+          "role": "创新工场创始人、AI行业领袖",
+          "region": "亚太（中国）",
           "domain": "ai",
-          "recent": "关注 AI 对社会与知识管理的影响，推动人机协作新范式及教育领域变革。",
-          "url": ""
-        },
-        {
-          "name": "David Weinberger",
-          "role": "互联网思想家 / 博客作者",
-          "region": "美国",
-          "domain": "ai/podcast/library",
-          "recent": "探讨 GenAI 热潮中的信息组织与意义构建，倡导元数据思维应对 AI 个性化挑战。",
-          "url": "https://www.davidweinberger.com"
-        },
-        {
-          "name": "Peter Suber",
-          "role": "开放获取运动领袖 / 图书馆学者",
-          "region": "美国",
-          "domain": "library",
-          "recent": "推动学术图书馆在 AI 时代的包容性参考服务与开放获取实践，关注媒体素养教育新方向。",
-          "url": "https://peter-suber.org"
-        },
-        {
-          "name": "吴建中 (Wu Jianzhong)",
-          "role": "武汉大学信息管理学院院长 / 中国图书馆学会理事",
-          "region": "中国",
-          "domain": "library",
-          "recent": "参与京津冀智慧图书馆建设，探索阅读服务推广与区域信息协同及全民阅读实践。",
-          "url": ""
+          "recent": "探讨AI产业落地与人类协作的未来方向，推动中美科技交流。",
+          "url": "https://x.com/kailflee"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名 AI 播客主持人 / YouTuber",
-          "region": "美国",
-          "domain": "ai/podcast",
-          "recent": "持续深度访谈 AI 领域领袖，探讨 AGI 进展、AI 安全及人机交互伦理议题。",
+          "role": "知名播客主持人、AI研究者",
+          "region": "北美（美国）",
+          "domain": "podcast",
+          "recent": "深入讨论AI安全漏洞与隐私威胁，分析大模型对社会结构的长期影响。",
           "url": "https://lexfridman.com"
+        },
+        {
+          "name": "Sam Altman",
+          "role": "OpenAI首席执行官",
+          "region": "北美（美国）",
+          "domain": "ai",
+          "recent": "推动GPT系列推理能力升级，关注AI在日常商业与生活中的深度整合。",
+          "url": "https://x.com/samaltman"
+        },
+        {
+          "name": "王旭东",
+          "role": "中国国家图书馆馆长",
+          "region": "东亚（中国）",
+          "domain": "library",
+          "recent": "致力于国家图书馆服务体验优化及基层文化惠民工作的推进。",
+          "url": "https://www.nlc.cn"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI伦理学家、DAIR联合创始人",
+          "region": "非洲/北美（加纳/美国）",
+          "domain": "ai",
+          "recent": "聚焦AI监控技术带来的隐私新威胁，倡导负责任的AI安全治理。",
+          "url": "https://x.com/timnitgebru"
         }
       ]
     },
