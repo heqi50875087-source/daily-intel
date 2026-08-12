@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-12T14:40:27+08:00",
+  "generated_at": "2026-08-12T16:02:30+08:00",
   "date": "2026-08-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-12 14:40",
-    "ai": "2026-08-12 14:40",
+    "ai": "2026-08-12 16:02",
     "voices": "2026-08-12 14:40",
-    "github": "2026-08-12 13:40",
-    "libraries": "2026-08-12 14:40",
-    "sports": "2026-08-12 14:40",
+    "github": "2026-08-12 16:02",
+    "libraries": "2026-08-12 16:02",
+    "sports": "2026-08-12 16:02",
     "academic": "2026-08-12 06:40"
   },
   "modules": {
@@ -495,6 +495,32 @@
           ]
         },
         {
+          "title_zh": "NVIDIA发布Magpie TTS构建低延迟多语言语音Agent",
+          "eng": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+          "summary": "HuggingFace报道NVIDIA推出开源TTS模型Magpie，支持低延迟、多语言及完整的部署控制，用于构建语音AI代理。",
+          "source": "Hugging Face",
+          "region": "全球/美国",
+          "published": "2026-08-10",
+          "tags": [
+            "语音合成",
+            "Agent",
+            "低延迟"
+          ],
+          "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "overview": "该模型旨在解决语音合成在实时交互场景中的延迟问题，允许开发者完全掌控模型的部署与微调，适用于构建高度自然的语音Agent。",
+          "analysis": "随着语音Agent成为下一代人机交互的核心形态，NVIDIA的开源策略有助于降低开发门槛，推动语音交互从'朗读文本'向'自然对话'演进，这对客服、教育等场景意义重大。",
+          "social": [
+            {
+              "who": "AI工程师",
+              "text": "低延迟TTS是语音Agent落地的最后一公里，NVIDIA这次做得很扎实，开源权重让社区可以深度定制"
+            },
+            {
+              "who": "产品经理",
+              "text": "多语言支持意味着出海业务可以直接用本地化语音交互，不再依赖翻译中间层"
+            }
+          ]
+        },
+        {
           "title_zh": "Meta发布Muse Glimmer：本地化、代理式、多模态开源模型",
           "eng": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
           "summary": "Hugging Face报道Meta发布了新的开源AI模型Muse Glimmer，该模型具备本地部署、代理式交互和多模态能力。这是Meta在开源AI领域的最新进展。",
@@ -779,33 +805,6 @@
             {
               "who": "研究者",
               "text": "学术评估体系需要根本性改革，当前的同行评审机制无法有效应对AI辅助研究的复杂性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Valve逐步将SteamOS扩展至非Valve硬件，AI PC迎来新机遇",
-          "eng": "Valve slowly expands SteamOS support on non-Valve hardware",
-          "summary": "Valve正在缓慢地将SteamOS系统支持扩展到非Valve品牌的硬件设备，包括基于Intel的MSI Claw 8 EX AI+等设备。这一举措为AI PC和开源操作系统生态带来了新的可能性。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-10",
-          "tags": [
-            "SteamOS",
-            "Valve",
-            "AI PC",
-            "开源系统"
-          ],
-          "url": "https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/",
-          "overview": "Valve正在逐步扩大SteamOS在第三方硬件上的支持范围，最新更新已包含对Intel平台的MSI Claw 8 EX AI+等设备的改进。这一战略举措旨在打破Windows在游戏领域的垄断地位，为AI PC和开源操作系统生态创造新的增长空间。",
-          "analysis": "SteamOS的扩展不仅是游戏分发渠道的竞争，更是对PC操作系统格局的重塑。如果成功，可能催生一个以Linux为基础、兼顾游戏和AI应用的新型计算平台。",
-          "social": [
-            {
-              "who": "硬件工程师",
-              "text": "SteamOS对非Valve硬件的支持是渐进式的，主要受限于驱动兼容性和性能优化，短期内难以撼动Windows的主导地位。"
-            },
-            {
-              "who": "开发者",
-              "text": "Linux生态的成熟度正在提升，但游戏和AI应用对GPU算力的需求使得SteamOS的实际体验仍有差距。"
             }
           ]
         }
@@ -1241,18 +1240,22 @@
     "sports": {
       "items": [
         {
-          "title_zh": "FIFA 治理危机：欧足联等联合构建新框架",
-          "eng": "Infantino's opponents developing new framework for running world football",
-          "summary": "欧足联、中北美及亚足联正联合推进一套新的世界足球管理体系，试图取代 FIFA 在因凡蒂诺领导下被视为庇护式的治理体系。",
+          "title_zh": "欧足联等联合构建新框架，挑战国际足联治理体系",
+          "eng": "Infantino’s opponents developing new framework for running world football",
+          "summary": "欧足联、中北美及加勒比足联和亚足联正联手制定新的足球管理体系框架，旨在取代国际足联现行的被指为\"庇护制\"的治理模式。",
           "source": "Guardian Football",
           "published": "2026-08-11",
           "url": "https://www.theguardian.com/football/2026/aug/11/gianni-infantino-opponents-world-football-fifa-uefa",
-          "overview": "因凡蒂诺上任十年来，FIFA 的治理模式遭到欧足联、中北美及亚足联的反复批评，但独立审查请求被忽视。三大洲足联正联手制定新框架以替代现有体系，标志着国际足球权力格局可能面临重大调整。",
-          "analysis": "这一动向表明 FIFA 内部的改革阻力正在转化为外部压力，若新框架成型，因凡蒂诺的任期将面临前所未有的挑战。",
+          "overview": "国际足联主席因凡蒂诺自十年前接替布拉特以来，多次拒绝了对独立审查其治理体系的呼吁。欧足联、中北美及加勒比足联和亚足联正在合作开发一套替代方案，试图打破现有的权力格局。这一动向发生在2026年世界杯周期临近的背景下，对足球行政权力的未来走向具有深远影响。",
+          "analysis": "三大洲足联的联合行动表明，国际足联内部的改革呼声已无法仅靠主席个人推动解决。如果新框架成型，可能动摇因凡蒂诺的领导根基，同时也为即将到来的世界杯赛事组织带来不确定性。",
           "social": [
             {
-              "who": "国际足联观察员",
-              "text": "欧足联、中北美及亚足联正联合构建新框架，试图取代 Fifa 长期以来的庇护式治理体系，这标志着国际足球权力格局可能面临重大调整。"
+              "who": "资深球迷",
+              "text": "治理问题不解决，再好的球场和比赛也让人担忧。三大洲足联联手是好事，但执行力才是关键。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "这不仅是行政改革，更关乎足球运动的未来话语权分配。世界杯的公正性将直接受影响。"
             }
           ],
           "region": "足球·世界杯"
@@ -1260,84 +1263,104 @@
         {
           "title_zh": "埃梅里追逐首座超级杯——但这重要吗？",
           "eng": "Emery chases first Super Cup - but does it matter?",
-          "summary": "阿斯顿维拉自 1982 年以来首次参加超级杯，主帅埃梅里在赛前展现出对球队前景的乐观态度。",
+          "summary": "阿斯顿维拉自1982年以来首次参加欧洲超级杯，主帅埃梅里虽经验丰富，但球队阵容经历了夏季大量变动。",
           "source": "BBC Football",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/sport/football/articles/cq6dj2jn277o?at_medium=RSS&at_campaign=rss",
-          "overview": "阿斯顿维拉将在超级杯对阵巴黎圣日耳曼，这是自 1982 年以来俱乐部首次参加该项赛事。主帅埃梅里在赛前新闻发布会上显得异常轻松，似乎对阵容变动后的球队充满信心，并调侃了约翰·麦金尼的英语进步。",
-          "analysis": "尽管夏季有多名球员离队，埃梅里的乐观态度暗示他已准备好应对挑战，但超级杯对于维拉来说更多是赛季前的热身与信心展示。",
+          "overview": "阿斯顿维拉将在欧洲超级杯中对阵巴黎圣日耳曼，这是俱乐部自1982年以来的首次参赛。主帅埃梅里在赛前表现出极度自信，认为球队能够吸收夏季离队的阵容变化。尽管比赛关注度可能不如联赛，但作为赛季揭幕战之一，其象征意义不容忽视。",
+          "analysis": "对于维拉而言，超级杯是检验新阵容磨合度的试金石。埃梅里的乐观情绪值得注意，但他需要证明在核心球员流失后，球队依然具备争冠实力。",
+          "social": [
+            {
+              "who": "英超名帅",
+              "text": "夏季变动虽大，但更衣室氛围稳定才是关键。超级杯是检验团结的绝佳机会。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "1982年以来首次参赛，历史意义大于竞技意义。不过埃梅里的状态确实让人放心。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德佩指责科林蒂安合同终止行为\"不可接受\"",
+          "eng": "Depay says Corinthians ‘unacceptable’ as contract ends",
+          "summary": "荷兰球星德佩在巴西俱乐部科林蒂安决定不续约后，指控对方存在\"不可接受的行为\"并违反了协议。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwym29gnkzdo?at_medium=RSS&at_campaign=rss",
+          "overview": "荷兰前锋德佩与巴西科林蒂安的合同即将到期，俱乐部决定不续约。德佩随后公开指责俱乐部的处理方式不可接受，并声称对方违反了相关协议。这一事件反映了海外球员在合同谈判中面临的法律和文化差异挑战。",
+          "analysis": "德佩的指控若属实，可能引发国际足联层面的介入或法律诉讼。对于巴西俱乐部而言，处理外籍球员合同到期问题需要更加谨慎，以避免声誉受损。",
+          "social": [
+            {
+              "who": "足球记者",
+              "text": "海外球员与南美俱乐部的合同纠纷往往复杂难解，德佩的公开指责可能加剧双方矛盾。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "合同到期不续约是常见操作，但\"不可接受的行为\"这种措辞说明事情没那么简单。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "斯洛特退出荷兰国家队谈判，专注俱乐部足球",
+          "eng": "Slot pulls out of Netherlands talks to focus on club football",
+          "summary": "前利物浦主帅阿恩·斯洛特确认曾就荷兰国家队主教练职位进行谈判，但表示下一份工作将留在俱乐部。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c980rd5njneo?at_medium=RSS&at_campaign=rss",
+          "overview": "阿恩·斯洛特此前被传有意接手荷兰国家队主教练一职，但他已确认退出谈判，将精力集中在俱乐部层面。这一决定发生在2026年世界杯预选赛周期内，意味着荷兰足协需要寻找新的候选人来填补空缺。",
+          "analysis": "斯洛特的选择显示了他对俱乐部足球的承诺，但也给荷兰国家队带来了不确定性。在世界杯临近之际，新帅的选拔和球队磨合将是关键挑战。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "埃梅里在赛前新闻发布会上显得异常轻松，似乎对阵容变动后的球队充满信心，这让人期待他在红牛竞技场的首秀表现。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "纽卡主帅贾伊斯勒：经历动荡夏天后对俱乐部前景“相当乐观”",
-          "eng": "'I am quite optimistic': Newcastle's Jaissle on leading club after turbulent summer",
-          "summary": "新任纽卡斯尔联主帅贾伊斯勒在圣詹姆斯公园亮相，承认夏季出售三名关键球员留下的真空，但对未来保持乐观。",
-          "source": "Guardian Football",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/matthias-jaissle-eddie-howe-newcastle-united-manager-unveiling-st-james-park",
-          "overview": "38 岁的德国人贾伊斯勒在圣詹姆斯公园的亮相揭示了其保守务实的一面，与外界预期的“摇滚明星”形象有所不同。他承认夏季出售三名关键球员后留下的真空，但表示对俱乐部前景相当乐观。",
-          "analysis": "贾伊斯勒被沙特所有者选中接替埃迪·豪，他的到来标志着纽卡进入了一个新的管理时代，但核心球员的流失将是赛季初的最大考验。",
-          "social": [
+              "text": "斯洛特是名帅，但国家队需要长期规划。他的退出说明俱乐部足球对他的吸引力更大。"
+            },
             {
-              "who": "英超分析师",
-              "text": "贾伊斯勒在圣詹姆斯公园的亮相揭示了其保守务实的一面，但球队核心球员流失留下的真空仍需填补，这对新帅的首个赛季是严峻考验。"
+              "who": "足球评论员",
+              "text": "荷兰足协面临压力，需要在短时间内找到合适的候选人来备战世界杯预选赛。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "贝佐斯入局与 FSG 获利——这笔交易对利物浦意味着什么？",
+          "title_zh": "贝佐斯投资利物浦：对球迷意味着什么？",
           "eng": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
-          "summary": "分析显示，包括杰夫·贝佐斯在内的投资集团入股并未显著提升利物浦的竞技投入空间，且可能引发球迷不满。",
+          "summary": "分析显示，包括杰夫·贝佐斯在内的投资集团入股FSG，不会显著改变利物浦的支出能力，且可能引发球迷不满。",
           "source": "BBC Football",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
-          "overview": "利物浦的新投资方案由包括杰夫·贝佐斯在内的集团主导，虽然 FSG 从中获利，但分析认为这不会显著改变俱乐部的支出能力。此外，这一交易结构可能让球迷感到不安，因为所有权变更的复杂性增加了不确定性。",
-          "analysis": "这笔交易更多是商业层面的胜利，对于利物浦竞技实力的提升作用有限，球迷对管理层变动和财务透明度的担忧将持续存在。",
+          "overview": "利物浦母公司FSG宣布接受包括贝佐斯在内的投资集团入股，这一交易被视为对俱乐部的一次重大收购。然而分析指出，这笔投资不会显著提升球队的财政支出能力，且可能因所有权结构变化而与球迷产生隔阂。",
+          "analysis": "这笔交易的真正意义在于资本运作而非竞技提升。利物浦需要在商业利益和球迷情感之间找到平衡点，否则可能面临信任危机。",
           "social": [
             {
-              "who": "利物浦老球迷",
-              "text": "虽然贝佐斯的投资让 FSG 获利，但这未必能显著提升俱乐部的竞技投入空间，且可能引发球迷不满，毕竟所有权变更的复杂性增加了不确定性。"
+              "who": "资深球迷",
+              "text": "贝佐斯的名字出现在这里让人不安。投资不能改变竞技水平，但能改变俱乐部的灵魂。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "这笔交易对FSG是利好，但对利物浦的长期发展来说，如何管理好与球迷的关系才是关键。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "谢菲联租借曼城球员菲利普斯一个赛季",
-          "eng": "Sheff Utd re-sign Man City's Phillips on loan",
-          "summary": "谢菲尔德联队从曼城租借中场球员卡尔文·菲利普斯，签约为期一个赛季。",
-          "source": "BBC Football",
+          "title_zh": "贾伊斯勒在新castle亮相：承认夏季转会窗后的\"真空\"",
+          "eng": "‘I am quite optimistic’: Newcastle’s Jaissle on leading club after turbulent summer",
+          "summary": "前阿尔阿赫利主帅贾伊斯勒正式在新castle亮相，承认在出售三名关键球员后面临\"真空\"状态。",
+          "source": "Guardian Football",
           "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c0m7j79j873o?at_medium=RSS&at_campaign=rss",
-          "overview": "谢菲尔德联队正式宣布从曼城租借中场球员卡尔文·菲利普斯，签约为期一个赛季。这笔交易显示了英冠球队对英超中游球员的需求，同时也为菲利普斯提供了在顶级联赛之外的比赛机会。",
-          "analysis": "对于谢菲联而言，菲利普斯的到来将显著增强中场实力；对于曼城来说，这是一次合理的短期租借安排，有助于球员保持竞技状态。",
+          "url": "https://www.theguardian.com/football/2026/aug/11/matthias-jaissle-eddie-howe-newcastle-united-manager-unveiling-st-james-park",
+          "overview": "38岁的德国人贾伊斯勒在圣詹姆斯公园正式亮相，接替埃迪·豪成为新castle主帅。他在发布会上承认球队在夏季转会窗出售了三名关键球员后面临\"真空\"状态，但表示对俱乐部未来持乐观态度。尽管外界对他充满期待，但他展现出比宣传中更为谨慎的性格。",
+          "analysis": "贾伊斯勒的亮相标志着新castle进入了一个新的重建周期。如何在有限的预算下填补阵容缺口，将是他在英超赛场面临的最大挑战。",
           "social": [
             {
-              "who": "英冠记者",
-              "text": "谢菲联从曼城租借菲利普斯一个赛季，这笔交易显示了英冠球队对英超中游球员的需求，同时也为菲利普斯提供了在顶级联赛之外的比赛机会。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "PSG 能否实现三连冠并赢得六座奖杯？",
-          "eng": "Can PSG do a three-peat and win six trophies this season?",
-          "summary": "巴黎圣日耳曼新赛季目标明确，希望以赢得欧洲奖杯的方式开启并结束这个赛季。",
-          "source": "BBC Football",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cwylxdngg8yo?at_medium=RSS&at_campaign=rss",
-          "overview": "巴黎圣日耳曼在新赛季开始前便确立了雄心勃勃的目标，希望以赢得欧洲奖杯的方式开启并结束这个赛季。球队正试图延续前几个赛季的成功势头，实现三连冠的壮举。",
-          "analysis": "PSG 在夏季转会窗口的运作将直接影响其能否实现这一目标，而超级杯对阵阿斯顿维拉将是检验球队状态的早期试金石。",
-          "social": [
+              "who": "资深球迷",
+              "text": "出售三名关键球员后还能保持乐观？这需要真正的信心。贾伊斯勒需要尽快证明自己的能力。"
+            },
             {
-              "who": "巴黎球迷",
-              "text": "PSG 新赛季目标明确，希望以赢得欧洲奖杯的方式开启并结束这个赛季，实现三连冠梦想，这将是对球队实力的终极考验。"
+              "who": "足球评论员",
+              "text": "新castle的夏季变动令人震惊，但贾伊斯勒的沉稳表现让人看到了一丝希望。重建之路注定漫长。"
             }
           ],
           "region": "足球·世界杯"
@@ -1345,166 +1368,13 @@
         {
           "title_zh": "“生命线”乒乓球场地临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一处名为“生命线”的社区乒乓球场地暂时恢复运营，使用者表示这仿佛将精神家园归还给了我们。",
+          "summary": "英国‘生命线’（Lifeline）乒乓球场馆宣布暂时恢复运营，使用者表示这如同将精神家园归还给了我们。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地此前曾关闭，现暂时重新开放供公众使用。对于依赖该设施进行社交和锻炼的乒乓球爱好者而言，这一消息被视为重要的社区支持信号。使用者对场地回归表达了强烈的归属感与感激之情。",
-          "analysis": "社区体育设施的临时恢复反映了基层乒乓球运动在资源受限环境下的韧性，也凸显了场地对参与者心理健康的重要性。此类“生命线”项目对于维持社区凝聚力具有不可替代的作用。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "场地重新开放意味着大家终于又能聚到一起打球了，这种归属感很难替代。"
-            }
-          ],
+          "overview": "该场馆此前曾关闭，现暂时重新开放供公众使用。使用者对此反响热烈，称其具有精神层面的意义。具体开放时间或后续安排文中未详述。",
+          "analysis": "社区体育设施的临时恢复对于维持基层乒乓球运动生态至关重要，反映了公众对公共运动空间回归的强烈需求。",
           "region": "乒乓球"
-        },
-        {
-          "title_zh": "FIFA治理危机：欧足联等联合构建新框架挑战国际足联权威",
-          "eng": "Infantino's opponents developing new framework for running world football",
-          "summary": "欧足联、中北美及加勒比足联和亚足联正联手制定一套新的世界足球管理体系，旨在取代国际足联自2016年上任以来所采用的被指为“庇护制”的现行体系。尽管各方多次呼吁独立审查，但国际足联主席因凡蒂诺对此予以忽视。",
-          "source": "Guardian Sport",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/gianni-infantino-opponents-world-football-fifa-uefa",
-          "overview": "三大洲足联（UEFA、Concacaf、AFC）正协同合作，试图推出一套全新的世界足球治理框架，以替代他们认为自因凡蒂诺取代布拉特担任主席十年来所固化的“庇护体系”。此前，来自欧足联、中北美及亚足联的多次独立审查呼吁均被因凡蒂诺无视。",
-          "analysis": "这一动向标志着国际足联内部权力格局的重大分裂，三大洲足联的联合施压可能迫使FIFA进行实质性的制度改革，否则将面临更广泛的合法性危机。",
-          "social": [
-            {
-              "who": "资深足球评论员",
-              "text": "三大洲足联联手是前所未有的信号，因凡蒂诺的忽视策略恐难以为继。"
-            },
-            {
-              "who": "球迷代表",
-              "text": "如果FIFA不改革，足球世界的信任基础正在崩塌。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英国选手在欧洲田径锦标赛百米决赛包揽冠亚军",
-          "eng": "GB's Glave and Azu claim European 100m one-two",
-          "summary": "在伯明翰举行的欧洲田径锦标赛上，英国选手罗梅尔·格拉夫和杰里迈亚·阿祖为东道主夺得了令人震惊的百米比赛一二名。",
-          "source": "BBC Sport",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/cvg70y30x5go?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年欧洲田径锦标赛在伯明翰举行，英国短跑名将罗梅尔·格拉夫（Romell Glave）与杰里迈亚·阿祖（Jeremiah Azu）在男子100米决赛中为东道主英国队包揽了冠亚军，创造了令人瞩目的成绩。",
-          "analysis": "这一结果展示了英国田径在短距离项目上的强劲复苏势头，对于即将举行的世界锦标赛而言，这是一个极具分量的预演信号。",
-          "social": [
-            {
-              "who": "田径解说员",
-              "text": "英国队在百米项目上包揽金银，这是近年来欧洲赛场最亮眼的成绩之一。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "格拉夫和阿祖的爆发力令人印象深刻，伯明翰的主场优势功不可没。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "贝佐斯入主利物浦：对财政实力影响有限且可能引发球迷不满",
-          "eng": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
-          "summary": "分析指出，包括杰夫·贝佐斯在内的投资集团入股利物浦并不会显著改变其支出能力，且这一安排可能与球迷的情感产生冲突。",
-          "source": "BBC Sport",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Sport报道分析了利物浦足球俱乐部引入由杰夫·贝佐斯（Jeff Bezos）等组成的投资集团的交易细节，指出这笔投资对利物浦的财政实力提升作用有限，同时这种所有权结构可能会让部分球迷感到不安。",
-          "analysis": "尽管资本注入是英超俱乐部的常态，但贝佐斯的个人品牌与利物浦深厚的社区文化之间的张力，将是未来赛季中不可忽视的潜在风险因素。",
-          "social": [
-            {
-              "who": "利物浦老球迷",
-              "text": "贝佐斯的名字出现在安菲尔德总是让人警惕，足球不仅仅是生意。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这笔交易的核心问题在于它能否真正解决俱乐部的长期财务可持续性。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "纽约喷气机队角卫练习中晕倒送医",
-          "eng": "New York Jets' Qwan'tez Stiggers in hospital after collapsing during practice",
-          "summary": "纽约喷气机队 cornerback Qwan'tez Stiggers在与坦帕湾海盗队的联合训练中短暂失去意识后被救护车送往医院，目前教练表示他恢复良好。",
-          "source": "Guardian Sport",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/sport/2026/aug/11/new-york-jets-qwantez-stiggers-in-hospital-after-collapsing-during-practice",
-          "overview": "2026年8月11日，纽约喷气机队（New York Jets）角卫Qwan'tez Stiggers在与坦帕湾海盗队（Tampa Bay Buccaneers）的联合训练中突然晕倒，随后被抬上担架送医。主教练亚伦·格伦表示球员在倒下前意识清醒并能交流，目前暂无更多病情细节。",
-          "analysis": "NFL训练中的突发健康事件再次引发了对职业运动员身体负荷和赛场安全标准的关注，尤其是年轻球员的恢复情况将成为后续焦点。",
-          "social": [
-            {
-              "who": "NFL球迷",
-              "text": "训练中晕倒是个警钟，希望Stiggers能尽快康复回归赛场。"
-            },
-            {
-              "who": "体育记者",
-              "text": "联合训练中的意外虽然罕见，但提醒我们职业运动员的健康风险无处不在。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "巴黎圣日耳曼能否实现三连冠并赢得六座奖杯？",
-          "eng": "Can PSG do a three-peat and win six trophies this season?",
-          "summary": "巴黎圣日耳曼希望以赢得欧洲冠军的方式开启新赛季，同时延续其赛季末的辉煌战绩。",
-          "source": "BBC Sport",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cwylxdngg8yo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Sport分析了巴黎圣日耳曼（PSG）在新赛季初的雄心壮志，球队目标是在赛季开始时即赢得一座欧洲奖杯，从而有望实现三连冠并赢得六座不同赛事的冠军。",
-          "analysis": "PSG能否在赛季初就确立统治地位取决于其阵容深度和战术执行力，若开局顺利，这将是俱乐部历史上最具挑战性的卫冕之路之一。",
-          "social": [
-            {
-              "who": "足球分析师",
-              "text": "PSG想在赛季初就拿欧冠，这需要极强的状态和运气，难度不小。"
-            },
-            {
-              "who": "巴黎球迷",
-              "text": "三连冠的野心很大，但只要阵容在，我们就敢赌一把。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "CBS体育总裁称对Tony Romo未来“没有时间表”",
-          "eng": "CBS Sports chief says 'no timetable' on Tony Romo's future after OWI arrest",
-          "summary": "CBS体育总裁David Berson表示目前没有关于NFL首席分析师Tony Romo未来的决定时间线，Romo因上月在威斯康星州被逮捕而停职。",
-          "source": "Guardian Sport",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/sport/2026/aug/11/tony-romo-cbs-future-owi-arrest-david-berson-jj-watt",
-          "overview": "CBS Sports总裁大卫·伯森（David Berson）于8月12日表示，对于网络首席NFL分析师托尼·罗莫（Tony Romo）的未来尚无时间表做出决定。罗莫因涉嫌在威斯康星州酒后驾车被捕后已处于无限期休假状态，同时JJ·瓦特将加入吉姆·南斯担任主要广播团队。",
-          "analysis": "这一人事变动不仅影响CBS的NFL转播阵容稳定性，也反映了体育媒体行业对涉及法律问题的知名分析师的处理困境。",
-          "social": [
-            {
-              "who": "NFL球迷",
-              "text": "罗莫被捕后停职是意料之中，但CBS何时能找到替代者还是个问题。"
-            },
-            {
-              "who": "体育记者",
-              "text": "JJ·瓦特的加入是一个积极的信号，希望能稳定转播团队。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "WNBA爆发跨性别争议：印第安纳 Fever 队球员呼吁禁止跨性别女性参赛",
-          "eng": "The transgender controversy surrounding the WNBA",
-          "summary": "印第安纳 Fever 队后卫索菲·坎宁安称禁止跨性别女性参加女子体育是“常识”，此举在WNBA引发了轩然大波，前NBA球员表示资格规则允许他们进入2027年选秀。",
-          "source": "BBC Basketball",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/ckg3enx6rj6o?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Basketball报道了WNBA内部爆发的跨性别争议，印第安纳 Fever 队后卫索菲·坎宁安（Sophie Cunningham）公开主张禁止跨性别女性参加女子体育比赛是“常识”，这一言论引发了广泛讨论，同时有前NBA球员指出相关资格规则的变化可能允许他们进入2027年选秀。",
-          "analysis": "这场争议触及了职业体育中关于公平竞赛与包容性的核心议题，坎宁安的立场虽然激进但反映了部分群体的真实担忧，而规则的变动则可能引发连锁反应。",
-          "social": [
-            {
-              "who": "WNBA球迷",
-              "text": "跨性别话题在女子篮球中的讨论确实需要更加谨慎和尊重各方观点。"
-            },
-            {
-              "who": "前NBA球员",
-              "text": "资格规则的变化对职业运动员的职业生涯有着深远影响，我们需要理性看待。"
-            }
-          ],
-          "region": "综合"
         }
       ],
       "regions": [
@@ -1517,218 +1387,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "手机智能体控制框架",
+          "title_zh": "让AI Agent控制你的手机",
           "eng": "ShawnPana/phone-harness",
-          "summary": "让AI Agent直接操控你的手机，实现跨应用的自动化操作。",
+          "summary": "通过Python框架实现AI Agent对手机屏幕的精确操控，支持自动化任务执行。",
           "source": "GitHub",
-          "stars": 1531,
+          "stars": 1552,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/ShawnPana/phone-harness",
-          "overview": "一个允许AI Agent通过屏幕交互控制手机应用的开源框架。支持多种移动设备，可驱动自动化任务执行、应用操作和界面导航，是移动端Agent落地的基础设施级方案。",
-          "analysis": "随着AI Agent从桌面走向移动端成为趋势，该项目填补了手机端Agent控制的空白，对构建跨平台智能体有重要参考价值。",
+          "overview": "该工具允许开发者通过编程方式让AI Agent直接控制手机界面，包括点击、滑动、输入等操作。支持多种设备类型，提供灵活的事件监听和动作执行接口。对于需要自动化测试、无障碍辅助或智能代理场景的开发者来说非常实用。",
+          "analysis": "随着AI Agent生态快速发展，能够精确操控移动设备的工具需求激增。该项目填补了手机端Agent控制的重要空白，对自动化测试、智能客服、无障碍应用等场景有广泛价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "移动端Agent的杀手级基础设施，让手机也能成为AI的执行终端。"
+              "text": "这是移动端AI Agent落地的关键基础设施，让大模型真正能'动手'操作手机了。"
+            },
+            {
+              "who": "研究者",
+              "text": "为研究人机交互和自动化提供了新的实验平台，值得深入探索。"
             }
           ]
         },
         {
-          "title_zh": "流畅Web动画引擎",
+          "title_zh": "流畅的Web动画引擎",
           "eng": "oil-oil/oil-motion",
-          "summary": "创建平滑、响应式的交互式网页动画，替代传统CSS动画方案。",
+          "summary": "创建平滑、响应式的交互式网页动画，提升前端开发效率。",
           "source": "GitHub",
-          "stars": 1493,
+          "stars": 1499,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/oil-oil/oil-motion",
-          "overview": "一个专注于高性能、流畅Web动画的开源库，提供响应式交互能力。相比CSS animation和JS动画框架，它在性能与易用性之间取得了良好平衡，适合需要复杂动效的前端项目。",
-          "analysis": "前端动画工具生态中，该项目以Python后端+Web前端的架构提供了差异化方案，对追求高性能动效的开发者有吸引力。",
+          "overview": "专注于生成高质量、流畅的网页动画效果，支持响应式交互设计。提供简洁的API接口和丰富的预设模板，帮助开发者快速实现复杂的动画需求。特别适合需要高性能动画的前端项目和创意展示页面。",
+          "analysis": "在Web开发中，优秀的动画库能显著提升用户体验和产品质感。该项目以Python为核心构建，兼顾了性能与易用性，适合追求高品质前端体验的团队使用。",
           "social": [
             {
-              "who": "前端工程师",
-              "text": "告别卡顿的CSS动画时代，油式运动让网页交互真正丝滑起来。"
+              "who": "前端开发者",
+              "text": "告别手写复杂动画代码，这个工具让交互动画变得简单又优雅。"
+            },
+            {
+              "who": "设计师",
+              "text": "终于有了真正理解设计意图的动画工具，效果超出预期。"
             }
           ]
         },
         {
-          "title_zh": "微信AI集成方案",
+          "title_zh": "微信AI集成框架",
           "eng": "SMNETSTUDIO/WeChat-AI",
-          "summary": "将AI能力接入微信公众号与小程序的开源框架。",
+          "summary": "为微信公众号和小程序提供完整的AI能力接入方案，助力内容创作与用户互动。",
           "source": "GitHub",
-          "stars": 1466,
+          "stars": 1479,
           "lang": "TypeScript",
           "published": "2026-08-10",
           "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-          "overview": "面向中国市场的微信生态AI集成方案，支持在微信公众号和小程序中部署AI对话、智能客服等功能。采用TypeScript开发，便于开发者快速上手并定制业务逻辑。",
-          "analysis": "在中国市场，微信仍是流量入口的核心平台。该项目降低了AI能力接入微信生态的门槛，对国内SaaS和工具类创业者有实用价值。",
+          "overview": "专注于微信生态的AI集成解决方案，支持在公众号、小程序等场景中嵌入智能对话和自动化功能。提供TypeScript开发接口，便于快速构建基于大模型的微信应用。涵盖内容生成、用户交互等多个应用场景。",
+          "analysis": "微信作为中国最大的社交平台之一，其AI化进程备受关注。该项目为开发者提供了标准化的接入方式，降低了在微信生态中部署AI功能的门槛，具有极高的实用价值。",
           "social": [
             {
-              "who": "产品经理",
-              "text": "微信+AI的组合拳，让小程序也能拥有智能对话能力，商业落地场景丰富。"
+              "who": "公众号运营者",
+              "text": "让AI真正融入微信生态，内容创作效率提升明显。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript接口设计清晰，文档完善，上手很快。"
             }
           ]
         },
         {
-          "title_zh": "H3推理引擎（Mac版）",
+          "title_zh": "Mac端MiniMax H3推理引擎",
           "eng": "antirez/h3.c",
-          "summary": "为Mac电脑优化的MiniMax H3大模型本地推理引擎。",
+          "summary": "为Mac电脑提供本地化的小模型推理能力，实现离线AI应用运行。",
           "source": "GitHub",
-          "stars": 1340,
+          "stars": 1394,
           "lang": "C",
           "published": "2026-08-09",
           "url": "https://github.com/antirez/h3.c",
-          "overview": "由Redis创始人Salvatore Sanfilippo开发的H3大模型本地推理引擎，专为Mac平台优化。支持高效加载和运行MiniMax H3模型，让用户在无云依赖的情况下体验高质量AI对话。",
-          "analysis": "本地化AI推理是减少延迟、保护隐私的重要方向。该项目由知名开发者维护，代码质量和性能表现值得期待。",
+          "overview": "基于MiniMax H3模型构建的轻量级推理引擎，专为Mac平台优化。采用纯C语言实现，确保高性能和低资源占用。支持本地化运行，无需联网即可使用AI能力，适合隐私敏感和离线场景。",
+          "analysis": "随着端侧AI需求增长，本地推理引擎成为重要方向。该项目由Redis创始人antirez参与开发，技术底蕴深厚，为Mac用户提供了可靠的本地AI方案。",
           "social": [
             {
-              "who": "研究者",
-              "text": "Redis大佬亲自下场做LLM推理引擎，技术功底和工程能力都有保障。"
+              "who": "隐私倡导者",
+              "text": "数据不出设备，这才是真正的AI自由。"
+            },
+            {
+              "who": "开发者",
+              "text": "C语言实现性能出色，适合对延迟敏感的应用场景。"
             }
           ]
         },
         {
           "title_zh": "AI短剧制作技能集",
           "eng": "eternityspring/shuohao-skills",
-          "summary": "面向AI短剧创作的Agent技能集合，覆盖角色设定、概念图和剧本大纲。",
+          "summary": "为AI短剧创作提供完整的Agent技能集合，涵盖角色设定、视觉设计和剧本大纲。",
           "source": "GitHub",
-          "stars": 974,
+          "stars": 997,
           "lang": "JavaScript",
           "published": "2026-08-06",
           "url": "https://github.com/eternityspring/shuohao-skills",
-          "overview": "一套专为AI短剧制作设计的Agent技能包，包含角色圣经、模型设定图生成和剧本改编大纲等核心能力。可在Claude Code和OpenAI Codex中直接运行，大幅降低AI内容创作的门槛。",
-          "analysis": "短剧赛道正与AI深度融合，该项目将创作流程标准化为可复用的Agent技能，对内容创作者和MCN机构有实际帮助。",
+          "overview": "专为AI短剧制作设计的技能包，包含角色圣经、设定图生成和剧本大纲编排等功能。可在Claude Code和Codex等环境中运行，支持从创意构思到视觉呈现的全流程自动化。特别适合内容创作者和影视行业从业者使用。",
+          "analysis": "AI短剧是当前内容创作的新趋势，该项目提供了系统化的制作工具链，降低了AI辅助创作的门槛。对影视行业和自媒体创作者都有很高的实用价值。",
           "social": [
             {
               "who": "内容创作者",
-              "text": "从角色到剧本全链路AI化，让一个人也能跑通短剧制作流水线。"
+              "text": "从角色设定到剧本大纲一键生成，效率提升十倍不止。"
+            },
+            {
+              "who": "研究者",
+              "text": "Agent技能在创意领域的落地案例非常值得研究。"
             }
           ]
         },
         {
-          "title_zh": "YouTube Music无广告客户端",
+          "title_zh": "无广告YouTube Music客户端",
           "eng": "sohaibdevv/youtube-music",
-          "summary": "无需订阅即可流媒体播放YouTube Music音乐的轻量级开源客户端。",
+          "summary": "轻量级免订阅的YouTube Music流媒体客户端，支持后台播放和自定义歌单。",
           "source": "GitHub",
           "stars": 836,
           "lang": "TypeScript",
           "published": "2026-08-11",
           "url": "https://github.com/sohaibdevv/youtube-music",
-          "overview": "基于逆向API构建的YouTube Music客户端，支持后台播放、搜索和自定义歌单。无需付费订阅即可享受完整的音乐流媒体体验，是免费音乐爱好者的实用工具。",
-          "analysis": "在音乐订阅价格持续上涨的背景下，该项目为追求性价比的用户提供了合法替代方案，同时推动了开源音乐生态的发展。",
+          "overview": "基于逆向API构建的YouTube Music客户端，无需订阅即可享受完整功能。支持后台播放、歌曲搜索和自定义歌单管理。采用TypeScript开发，界面简洁美观，运行流畅稳定。适合音乐爱好者日常使用。",
+          "analysis": "在流媒体服务收费趋势下，免费替代方案需求旺盛。该项目提供了合法合规的开源解决方案，对开发者学习API逆向和客户端构建也有参考价值。",
           "social": [
             {
               "who": "音乐爱好者",
-              "text": "告别付费墙，TypeScript写的无广告客户端体验流畅，功能齐全。"
+              "text": "终于不用为听歌付费了，功能完整体验流畅。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript实现优雅，代码质量高，值得学习参考。"
             }
           ]
         },
         {
-          "title_zh": "Dalaran：机器人可视化基础设施",
+          "title_zh": "机器人数据可视化平台Dalaran",
           "eng": "Flaminis/Dalaran",
-          "summary": "面向多模态时序数据的机器人优先可视化与数据基础设施，ROS 2原生支持。",
+          "summary": "面向多模态时间序列数据的机器人优先可视化基础设施，原生支持ROS 2。",
           "source": "GitHub",
-          "stars": 726,
+          "stars": 773,
           "lang": "Rust",
           "published": "2026-08-07",
           "url": "https://github.com/Flaminis/Dalaran",
-          "overview": "Apache-2.0开源的机器人数据可视化框架，原生支持ROS 2协议，可读取现有.rrd录制文件。作为Rerun的硬分叉版本，在性能和灵活性上做了针对性优化，适合工业级机器人开发场景。",
-          "analysis": "机器人行业对实时数据可视化的需求日益增长，该项目以Rust编写保证了性能，同时保持了对ROS 2生态的深度兼容。",
+          "overview": "Apache-2.0开源的机器人数据可视化平台，专为多模态时间序列数据处理设计。原生支持ROS 2协议，可直接读取现有.rrd录制文件。基于Rust开发，性能优异且内存安全。作为Rerun的硬分叉版本，继承了其核心优势并进行了针对性优化。",
+          "analysis": "随着机器人和自动驾驶领域发展，高效的数据可视化成为刚需。该项目以Rust为核心语言，兼顾了性能和安全性，对ROS 2生态有重要补充价值。",
           "social": [
             {
               "who": "机器人工程师",
-              "text": "Rerun的硬分叉版本，面向工业场景做了针对性优化，值得在ROS 2项目中尝试。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI Agent电话号码MCP服务",
-          "eng": "sv-number/mcp-server",
-          "summary": "为需要电话号码的AI Agent提供全球200+国家的虚拟号码订购和短信验证码读取服务。",
-          "source": "GitHub",
-          "stars": 626,
-          "lang": "JavaScript",
-          "published": "2026-08-07",
-          "url": "https://github.com/sv-number/mcp-server",
-          "overview": "基于MCP协议的电话号码服务，支持全球200多个国家/地区的虚拟号码订购和短信验证码读取。AI Agent可通过单一API调用完成整个流程，是连接AI与通信基础设施的桥梁。",
-          "analysis": "随着AI Agent需要处理更多真实世界交互（如注册、验证），该项目解决了Agent获取通信能力的痛点，具有明确的商业价值。",
-          "social": [
+              "text": "终于有了真正理解机器人数据的可视化工具，调试效率大幅提升。"
+            },
             {
-              "who": "开发者",
-              "text": "MCP协议+全球号码覆盖，让AI Agent也能打电话和收验证码，实用场景很多。"
+              "who": "数据科学家",
+              "text": "Rust实现的性能让我在处理大规模时间序列数据时信心满满。"
             }
           ]
         },
         {
-          "title_zh": "从零手写Pi：TypeScript学习项目",
-          "eng": "SaladDay/pi-from-scratch",
-          "summary": "用600行TypeScript实现的极简版Pi计算，帮助开发者从0构建自己的AI Agent。",
-          "source": "GitHub",
-          "stars": 597,
-          "lang": "TypeScript",
-          "published": "2026-08-09",
-          "url": "https://github.com/SaladDay/pi-from-scratch",
-          "overview": "一个精心设计的教学项目，用仅600行TypeScript代码实现Pi计算核心逻辑。旨在帮助开发者理解Agent构建的基础原理，从最简模型出发逐步扩展功能，是学习AI Agent开发的优秀入门资源。",
-          "analysis": "在AI Agent概念泛滥的背景下，该项目回归本质——用最少的代码讲清楚核心原理，对初学者有极高的教学价值。",
-          "social": [
-            {
-              "who": "学习者",
-              "text": "600行搞定Pi计算，TypeScript入门+Agent思维训练，性价比极高的学习项目。"
-            }
-          ]
-        },
-        {
-          "title_zh": "shadcn UI聊天机器人模板",
+          "title_zh": "AI聊天机器人模板",
           "eng": "shadcn-ui/chatbot-template",
-          "summary": "基于Next.js、AI SDK和shadcn/ui构建的极简聊天机器人模板，运行于Vercel AI Gateway。",
+          "summary": "基于Next.js和Vercel AI Gateway的极简聊天机器人模板，开箱即用。",
           "source": "GitHub",
-          "stars": 463,
+          "stars": 483,
           "lang": "TypeScript",
           "published": "2026-08-11",
           "url": "https://github.com/shadcn-ui/chatbot-template",
-          "overview": "由shadcn UI团队推出的聊天机器人模板，集成了Next.js、AI SDK和Vercel AI Gateway。开箱即用，代码质量高，是构建AI对话界面的最佳起点之一。",
-          "analysis": "shadcn品牌加持意味着代码质量和设计感有保障，对需要快速搭建AI客服或对话产品的开发者来说是最省心的选择。",
+          "overview": "由shadcn团队打造的极简聊天机器人模板，集成Next.js、AI SDK和shadcn/ui组件库。运行在Vercel AI Gateway上，提供完整的对话界面和功能示例。代码结构清晰，文档详尽，适合快速搭建AI对话应用原型。",
+          "analysis": "作为shadcn团队的官方模板项目，其代码质量和设计标准代表了当前React生态的最佳实践。对需要快速构建AI聊天应用的开发者来说是最省心的起点。",
           "social": [
             {
-              "who": "全栈工程师",
-              "text": "shadcn出品必属精品，Next.js+Vercel AI Gateway的组合让聊天机器人模板开箱即用。"
+              "who": "前端开发者",
+              "text": "shadcn出品必属精品，这个模板让我半小时就搭好了demo。"
+            },
+            {
+              "who": "创业者",
+              "text": "快速验证AI产品想法的最佳起点，强烈推荐。"
             }
           ]
         },
         {
-          "title_zh": "顶级iOS应用欢迎页设计参考",
-          "eng": "Appllama/top-welcome-screens",
-          "summary": "10个来自头部iOS应用的动画欢迎页面，用React Native + Expo重新实现。",
+          "title_zh": "从零开始写Pi Agent",
+          "eng": "SaladDay/pi-from-scratch",
+          "summary": "用600行TypeScript实现的超级迷你版Pi计算程序，帮助开发者理解Agent开发。",
           "source": "GitHub",
-          "stars": 454,
+          "stars": 630,
+          "lang": "TypeScript",
+          "published": "2026-08-09",
+          "url": "https://github.com/SaladDay/pi-from-scratch",
+          "overview": "仅用600行TypeScript实现的Pi计算程序，代码简洁易懂。旨在帮助开发者从零开始理解Agent开发的核心概念和实现方式。提供完整的注释和示例，适合初学者学习AI Agent的构建原理。",
+          "analysis": "作为学习资源类项目，其核心价值在于降低入门门槛。通过极简的代码示例，让开发者能够快速掌握Agent开发的基本思路，对教育和技术传播有积极意义。",
+          "social": [
+            {
+              "who": "初学者",
+              "text": "终于理解了Agent是怎么工作的，600行代码讲清楚了核心原理。"
+            },
+            {
+              "who": "教育者",
+              "text": "非常适合用来教学生理解AI Agent的概念，简洁明了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "顶级iOS应用欢迎界面灵感集",
+          "eng": "Appllama/top-welcome-screens",
+          "summary": "收集10个高收入App的动画欢迎界面设计，用React Native + Expo重新实现。",
+          "source": "GitHub",
+          "stars": 455,
           "lang": "TypeScript",
           "published": "2026-08-08",
           "url": "https://github.com/Appllama/top-welcome-screens",
-          "overview": "精选10个收入最高的iOS应用的动画欢迎页面，使用React Native和Expo框架重新实现。每个案例都附带设计分析和代码实现，是学习移动端首屏设计的优秀参考资源。",
-          "analysis": "产品第一印象决定用户留存率，该项目将顶级应用的设计实践转化为可复用的代码模板，对移动产品经理和设计师有参考价值。",
+          "overview": "精选了10个收入最高的iOS应用的动画欢迎界面设计灵感，并使用React Native和Expo框架重新实现。每个案例都附有详细的设计说明和技术实现要点。适合UI设计师和产品经理参考学习。",
+          "analysis": "作为设计资源类项目，其价值在于将顶级产品的设计理念开源分享。对移动应用开发者和设计师来说，提供了宝贵的灵感和技术参考，有助于提升产品设计水平。",
           "social": [
             {
               "who": "UI设计师",
-              "text": "头部应用的欢迎页全拆解，React Native实现，拿来就能改的灵感库。"
+              "text": "这些欢迎界面的动画效果太惊艳了，直接抄作业就行。"
+            },
+            {
+              "who": "产品经理",
+              "text": "理解顶级产品的用户体验设计思路，对提升产品品质很有帮助。"
             }
           ]
         },
         {
-          "title_zh": "Claudish转英文工具",
-          "eng": "gvzdv/claudish-to-english",
-          "summary": "将Claude Code生成的代码注释和文档从Claudish语言自动转换为英文。",
+          "title_zh": "AI小镇模拟游戏",
+          "eng": "mewamew/my_ai_town",
+          "summary": "在GODOT引擎中构建的AI主题小镇模拟游戏，探索AI与城市生活的融合。",
           "source": "GitHub",
-          "stars": 446,
-          "lang": "Shell",
-          "published": "2026-08-10",
-          "url": "https://github.com/gvzdv/claudish-to-english",
-          "overview": "一个Shell脚本工具，用于将Claude Code生成的Claudish语言代码注释和文档转换为标准英文。解决了AI辅助编程中多语言注释混合的痛点，提升代码可读性和团队协作效率。",
-          "analysis": "随着AI编码助手普及，多语言注释混杂成为常见问题。该项目虽小但切中实际痛点，对使用Claude Code的团队有实用价值。",
+          "stars": 451,
+          "lang": "GDScript",
+          "published": "2026-08-07",
+          "url": "https://github.com/mewamew/my_ai_town",
+          "overview": "基于GODOT引擎开发的AI主题小镇模拟游戏，玩家可以在虚拟城市中体验AI与人类共存的场景。采用GDScript语言编写，代码结构清晰易读。适合对AI应用场景感兴趣的开发者和游戏爱好者。",
+          "analysis": "作为创意类项目，该项目展示了AI概念在娱乐领域的有趣应用方式。通过游戏化的形式帮助更多人理解AI技术，同时为GODOT引擎的中文社区贡献了优质内容。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Claude Code的副产物——Claudish注释自动转英文，团队协作时再也不用手动清理了。"
+              "who": "游戏开发者",
+              "text": "用GDScript做出这样的项目，代码质量令人印象深刻。"
+            },
+            {
+              "who": "AI爱好者",
+              "text": "在游戏中体验AI生活，寓教于乐的方式很棒。"
             }
           ]
         }
