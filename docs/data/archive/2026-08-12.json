@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T22:56:55+08:00",
+  "generated_at": "2026-08-12T23:08:57+08:00",
   "date": "2026-08-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | openai:OpenAI 额度不足(HTTP 429)",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-12 22:56",
-    "ai": "2026-08-12 22:56",
+    "ai": "2026-08-12 23:08",
     "voices": "2026-08-12 22:56",
     "github": "2026-08-12 22:56",
     "libraries": "2026-08-12 22:56",
@@ -18,6 +18,58 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Google 通过“做减法”让 Pixel 相机变得更好",
+          "eng": "Google is making the Pixel cameras better by making them worse",
+          "summary": "The Verge 深度解析了 Google Pixel 11 系列在计算摄影领域的策略转变，指出其通过削弱传统物理成像参数来换取 AI 算法带来的画质提升。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-08-12",
+          "tags": [
+            "计算摄影",
+            "AI 图像生成",
+            "硬件策略"
+          ],
+          "url": "https://www.theverge.com/tech/978084/google-camera-looks-interview-computational-photography",
+          "overview": "文章指出，现代智能手机照片在技术上几乎挑不出毛病——人脸明亮、天空湛蓝、夜景清晰。Google Pixel 11 系列进一步加剧了这一趋势，通过牺牲物理镜头的机械优势（如光圈控制），将更多工作交给 AI 计算摄影处理，使得“完美”的照片越来越依赖算法而非光学素质。",
+          "analysis": "这标志着手机摄影从“光学竞赛”正式转向“算力竞赛”。当硬件差异被 AI 抹平后，用户感知到的画质提升可能只是算法幻觉，长期来看可能导致影像真实性的丧失和创作多样性的萎缩。",
+          "social": [
+            {
+              "who": "摄影师",
+              "text": "当相机不再依赖物理光圈和传感器来捕捉光线时，我们失去的不仅是‘错误’的照片，更是那种不可复制的光影质感。"
+            },
+            {
+              "who": "科技评论员",
+              "text": "Google 正在用 AI 重新定义‘好照片’的标准，这既是进步也是危险——算法可以完美模拟一切，却无法真正理解场景。"
+            }
+          ]
+        },
+        {
+          "title_zh": "研究人员利用公共 AI 工具在不到 20 次提示内发现 Zoom 屏幕共享漏洞",
+          "eng": "Researchers found a way to hijack devices through Zoom screen sharing",
+          "summary": "Ars Technica 报道了安全研究人员使用公开可用的 AI 工具，以极低的成本快速发现了 Zoom 屏幕共享功能中的设备劫持漏洞。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-08-12",
+          "tags": [
+            "网络安全",
+            "AI 安全研究",
+            "Zoom"
+          ],
+          "url": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/",
+          "overview": "研究人员利用一个公共 AI 工具，仅需不到 20 次提示（prompts）就定位了 Zoom 屏幕共享中的设备劫持漏洞。该漏洞允许攻击者通过恶意屏幕共享内容控制用户设备，凸显了 AI 辅助安全研究在加速漏洞发现方面的双重影响——既提升了防御能力，也降低了攻击门槛。",
+          "analysis": "这一事件是“AI 赋能安全研究”的典型案例。公共 AI 工具的普及意味着零日漏洞的发现周期正在急剧缩短，企业必须将安全补丁速度提升到前所未有的水平，否则任何已知漏洞都可能迅速被自动化武器化。",
+          "social": [
+            {
+              "who": "安全工程师",
+              "text": "AI 让漏洞挖掘变得像写诗一样简单，这对企业的应急响应能力提出了严峻考验。"
+            },
+            {
+              "who": "隐私倡导者",
+              "text": "屏幕共享本应是安全的协作工具，如今却可能成为攻击者的后门，远程办公的安全假设需要被重新审视。"
+            }
+          ]
+        },
         {
           "title_zh": "Honor Robot Phone：手机内置云台相机的创新尝试",
           "eng": "Honor's Robot Phone is better than a gimbal in a phone has any right to be",
@@ -750,58 +802,6 @@
             {
               "who": "投资人",
               "text": "网络安全领域的AI化趋势正在加速，这类专项安全模型的市场需求将持续增长。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta以新开源模型重启挣扎中的AI战略",
-          "eng": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-          "summary": "Meta推出新的开源AI模型Muse Glimmer，试图在闭源巨头主导的市场中找到差异化路径，但战略前景仍存不确定性。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-10",
-          "tags": [
-            "Meta",
-            "开源AI",
-            "模型发布"
-          ],
-          "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-          "overview": "文章报道了Meta推出新的开源权重AI模型Muse Glimmer，这是扎克伯格'个人超级智能'(personal superintelligence)愿景的技术基础。该模型旨在弥合AI用户之间的鸿沟——让没有技术背景的人也能访问和定制自己的AI系统。然而，分析指出Meta在AI竞赛中持续落后于OpenAI、Google等竞争对手，此次开源策略能否扭转局面尚存疑问。",
-          "analysis": "Meta的开源路线选择反映了其核心困境：缺乏算力优势时，开放生态可能是唯一可行的差异化路径。但'个人超级智能'概念过于宏大，需要验证技术可行性和用户实际需求之间的匹配度。",
-          "social": [
-            {
-              "who": "AI投资人",
-              "text": "Meta的开源策略是聪明的防守而非进攻。在算力军备竞赛中落后时，开放生态可以成为新的护城河——但前提是模型质量足够好。"
-            },
-            {
-              "who": "开发者",
-              "text": "Glimmer模型的开源意味着社区可以定制和优化，这对中小企业和研究人员是利好。但Meta能否持续投入更新仍是个问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "亚马逊资助美国最大天然气发电厂：AI数据中心扩张的环境代价",
-          "eng": "Amazon backs power plant that may become top source of US climate pollution",
-          "summary": "亚马逊宣布在美国建设首个完全脱离电网的数据中心，同时资助可能成为美国气候污染最大来源的天然气发电厂，凸显AI基础设施扩张与环保承诺之间的矛盾。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-10",
-          "tags": [
-            "AI基础设施",
-            "能源",
-            "气候变化"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-          "overview": "文章报道了亚马逊在AI数据中心扩张方面的重大举措：宣布建设美国首个完全脱离电网的数据中心，同时资助一座可能成为美国气候污染最大来源的天然气发电厂。这一矛盾行为凸显了科技公司在追求AI算力增长与履行环保承诺之间的根本性张力。分析指出，即使采用可再生能源，数据中心的能源需求仍在指数级增长，传统能源依赖短期内难以消除。",
-          "analysis": "这是AI行业'绿色洗白'(greenwashing)的典型案例——宣布气候承诺的同时资助化石燃料项目。随着全球对AI能耗的关注加剧，这类矛盾行为可能面临更严格的监管审查和公众压力。",
-          "social": [
-            {
-              "who": "环境政策分析师",
-              "text": "亚马逊的行为揭示了科技公司的典型困境：短期商业利益与长期气候目标的冲突。脱离电网是方向正确的，但过渡期的化石燃料依赖需要透明披露。"
-            },
-            {
-              "who": "能源行业观察者",
-              "text": "AI数据中心的能耗增长曲线正在重新定义全球电力需求格局。传统发电厂和可再生能源之间的竞争将因AI而加速。"
             }
           ]
         }
