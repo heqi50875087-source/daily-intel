@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:31:46+08:00",
+  "generated_at": "2026-08-13T07:26:53+08:00",
   "date": "2026-08-13",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,95 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-13 06:31",
-    "ai": "2026-08-13 06:31",
-    "voices": "2026-08-13 06:31",
+    "hot": "2026-08-13 07:26",
+    "ai": "2026-08-13 07:26",
+    "voices": "2026-08-13 07:26",
     "github": "2026-08-13 06:31",
     "libraries": "2026-08-13 06:31",
-    "sports": "2026-08-13 06:31",
-    "academic": "2026-08-12 06:40"
+    "sports": "2026-08-13 07:26",
+    "academic": "2026-08-13 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "供应链攻击导致海量凭证泄露，AI软件包成重灾区",
+          "eng": "Terabytes of credentials leaked in massive supply-chain attack",
+          "summary": "一个被入侵的AI软件包遭到大规模数据抓取和窃取，2500名用户的大量凭据信息暴露。此次事件凸显了AI供应链安全面临的严峻挑战。",
+          "source": "Ars Technica",
+          "region": "全球",
+          "published": "2026-08-12",
+          "tags": [
+            "网络安全",
+            "供应链攻击",
+            "AI安全"
+          ],
+          "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+          "overview": "一个被入侵的AI软件包遭到大规模数据抓取和窃取，导致2500名用户的凭据信息大量泄露。攻击者从该AI软件包中提取了海量用户凭证数据，涉及的数据量达到太字节级别。此次事件表明AI软件的供应链安全已成为关键风险点，任何环节的漏洞都可能引发连锁反应。",
+          "analysis": "随着AI工具在企业和开发者中的快速普及，其依赖的第三方组件和软件包成为攻击者的新目标。此次泄露事件的规模之大令人震惊，反映出当前AI生态系统中对供应链安全的重视程度远远不够。企业需要建立更严格的软件包审核机制和持续监控体系来防范类似风险。",
+          "social": [
+            {
+              "who": "安全研究员",
+              "text": "AI领域的供应链攻击正在成为新的威胁向量，开发者必须像对待开源代码一样审查所依赖的第三方组件。"
+            },
+            {
+              "who": "企业CTO",
+              "text": "这次事件再次提醒我们，AI工具的安全不能只靠厂商承诺，建立内部安全审计流程同样重要。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Twitch内容已训练亚马逊AI多年，用户现可主动退出",
+          "eng": "Twitch content has trained Amazon AI for years, but users can opt out now",
+          "summary": "流媒体平台Twitch表示其用户生成内容'可能用于未来Gen AI模型改进'，但现已允许用户选择退出。Twitch首席产品官坦言如果采用默认同意模式，几乎没有人会选择加入。",
+          "source": "Ars Technica",
+          "region": "美国",
+          "published": "2026-08-12",
+          "tags": [
+            "AI训练数据",
+            "隐私",
+            "平台政策"
+          ],
+          "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+          "overview": "Twitch长期以来将其用户生成的直播内容用于训练亚马逊的AI模型，但此前缺乏透明的退出机制。现在平台已允许用户主动选择退出其内容的AI训练使用。Twitch CPO Mike Minton在直播中回应用户反馈时表示，如果采用默认同意模式，几乎没有人会选择加入，这反映了用户对数据使用的普遍担忧。",
+          "analysis": "这一政策转变凸显了AI训练数据来源的伦理争议——平台是否在未经充分同意的情况下使用了大量用户内容。Twitch选择提供退出选项而非默认同意，表明行业正在向更透明的方向发展。但已发生的训练使用是否可逆仍是一个开放问题。",
+          "social": [
+            {
+              "who": "隐私倡导者",
+              "text": "允许退出是进步的一步，但过去几年Twitch内容已被用于AI训练的事实无法改变，用户需要更多控制权。"
+            },
+            {
+              "who": "流媒体从业者",
+              "text": "作为创作者，我们有权知道我们的内容被如何使用，退出选项至少给了我们一些选择权。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude用户因Anthropic新水印系统引发不满：可能在工作场所和课堂中被识别",
+          "eng": "Some Claude users are mad that Anthropic's new watermarks will catch them using it at their jobs, classes",
+          "summary": "Anthropic推出的AI输出水印系统引发部分用户强烈反对，担心该功能会在工作和学习环境中暴露他们使用Claude的事实。社交媒体上出现了大量对此的批评声音。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-08-12",
+          "tags": [
+            "AI水印",
+            "Anthropic",
+            "用户隐私"
+          ],
+          "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+          "overview": "Anthropic为其AI模型Claude推出了新的水印系统，旨在标识AI生成的内容。然而这一举措引发了用户的不满，特别是担心在职场和课堂环境中使用Claude时会被识别出来。社交媒体上出现了大量批评声音，认为这侵犯了用户的隐私和使用自由。",
+          "analysis": "AI水印技术的初衷是提升透明度和可追溯性，但在实际应用中可能引发新的问题——用户在哪些场景下有权匿名使用AI工具？这一争议反映了技术治理中一个深层矛盾：透明度与用户自主权之间的张力。Anthropic需要在商业利益、合规需求和用户体验之间找到平衡点。",
+          "social": [
+            {
+              "who": "开发者权益倡导者",
+              "text": "水印系统可能成为职场中的'数字监控工具'，员工有权在不暴露AI使用习惯的情况下完成工作。"
+            },
+            {
+              "who": "教育技术评论员",
+              "text": "在学术环境中强制标注AI使用不仅侵犯学生隐私，还可能加剧对AI工具的污名化而非促进合理使用。"
+            }
+          ]
+        },
         {
           "title_zh": "亚马逊默认使用Twitch主播内容训练AI，除非用户主动退出",
           "eng": "Amazon will train on Twitch streamers' content by default, unless they opt out",
@@ -729,85 +807,6 @@
               "text": "如果水印成为标准，开源模型也需要跟进。否则开源生态将面临合规劣势，可能加速闭源化趋势。"
             }
           ]
-        },
-        {
-          "title_zh": "数学领域正经历AI接管",
-          "eng": "The AI takeover of mathematics has begun",
-          "summary": "牛津大学菲尔兹奖得主James Maynard教授表示，数学这一传统上发展缓慢的学科正在加速适应AI技术，该领域正面临前所未有的变革。",
-          "source": "The Verge",
-          "region": "全球/英国",
-          "published": "2026-08-11",
-          "tags": [
-            "AI与科学",
-            "数学",
-            "学术"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
-          "overview": "牛津大学数学家、菲尔兹奖得主James Maynard教授在与The Verge的对话中坦言，数学这一传统上发展缓慢的学科正在被AI技术深刻改变。Maynard在过去一年中经历了'灵魂拷问'式的思考，试图理解AI如何影响数学研究的未来方向和方法论。这一讨论发生在数学界加速拥抱AI的背景下——从自动证明定理到发现新猜想，AI工具正在以前所未有的速度渗透到数学的各个分支。The Verge的报道深入探讨了这场变革对数学家身份认同、研究方法和学术评价体系的影响。",
-          "analysis": "Maynard的'灵魂拷问'反映了学术界面对技术颠覆时的普遍焦虑：当AI能够完成传统上需要数年甚至数十年才能完成的数学证明时，人类数学家的价值何在？更深层的问题在于，AI发现的数学结果是否真正增进了人类的数学理解——还是仅仅是一种计算能力的延伸？这场变革可能重新定义什么是'数学发现'和什么是'数学研究'，其影响将远超数学领域本身。",
-          "social": [
-            {
-              "who": "数学家",
-              "text": "AI确实能加速某些类型的数学探索，但真正的数学突破往往来自直觉、美学判断和对问题本质的深刻理解——这些恰恰是AI目前难以复制的能力。"
-            },
-            {
-              "who": "研究者",
-              "text": "我们正处于一个转折点：AI正在改变数学研究的'速度'，但尚未改变其'深度'。关键在于如何设计人机协作的研究范式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI据报道完成70亿美元员工回购要约",
-          "eng": "OpenAI reportedly completed a $7 billion employee tender offer",
-          "summary": "旧金山的住房市场再次陷入困境。OpenAI向员工发出总额达70亿美元的回购要约，反映出该公司在快速扩张中对人才的激烈争夺以及硅谷高房价带来的压力。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-08-11",
-          "tags": [
-            "OpenAI",
-            "员工福利",
-            "人才竞争",
-            "硅谷住房"
-          ],
-          "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-          "overview": "OpenAI向员工发出总额达70亿美元的回购要约，这是该公司历史上最大规模的员工福利举措之一。该要约旨在帮助员工应对旧金山不断攀升的住房成本，同时巩固团队稳定性以支撑公司的快速扩张计划。这一举措凸显了AI行业头部公司在人才争夺战中面临的独特挑战——高薪资与高生活成本之间的张力。",
-          "analysis": "70亿美元的回购要约不仅是福利问题，更折射出AI行业'赢家通吃'格局下的人才虹吸效应。当OpenAI等公司持续以巨额薪酬吸引顶尖人才时，旧金山的住房市场首当其冲承受压力，形成一种讽刺性的循环：AI创造财富的同时也在推高生活成本。",
-          "social": [
-            {
-              "who": "投资人/行业观察者",
-              "text": "70亿美元回购要约是OpenAI在人才战争中的标志性动作，但这也意味着公司正面临巨大的财务压力。当一家公司的员工福利支出达到这个量级时，投资者需要重新评估其盈利路径的可持续性。"
-            },
-            {
-              "who": "工程师/开发者",
-              "text": "作为OpenAI的员工，这种回购要约确实令人振奋，但旧金山的住房成本意味着即使拿到高薪，实际生活质量可能并不如预期。这反映了科技行业'高收入、高生活成本'的典型困境。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI教授们正在协商学术研究的新现实",
-          "eng": "AI professors are negotiating the new realities of academic research",
-          "summary": "MIT Technology Review报道了加州Mountain View一场关于AI学术研究的研讨会，探讨了AI如何改变大学教授的研究方式和工作模式。",
-          "source": "MIT Tech Review",
-          "region": "美国/全球",
-          "published": "2026-08-10",
-          "tags": [
-            "AI与学术",
-            "研究方法论",
-            "大学"
-          ],
-          "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-          "overview": "文章记录了在加州Mountain View举行的一场关于AI学术研究的研讨会，参与者包括一些最杰出的和最有前景的AI研究者。讨论的核心议题是：当AI能够独立完成大量研究任务时，教授们的角色如何重新定义——从执行者转变为审查者和指导者。",
-          "analysis": "这一趋势可能从根本上改变学术界的评价体系和人才培养模式。如果AI能够承担大部分实验和数据分析工作，那么学术研究的\"人力成本\"将大幅下降，但同时也引发了关于原创性和学术诚信的深层讨论。",
-          "social": [
-            {
-              "who": "大学教授",
-              "text": "AI不是要取代我们，而是让我们从繁琐的执行工作中解放出来，专注于真正有创造力的思考。"
-            },
-            {
-              "who": "研究生",
-              "text": "担心自己的研究技能会被AI绕过，但同时也看到了效率提升的机遇。"
-            }
-          ]
         }
       ]
     },
@@ -1241,314 +1240,250 @@
     "sports": {
       "items": [
         {
-          "title_zh": "欧超杯：巴黎圣日耳曼2-1击败阿斯顿维拉成功卫冕",
+          "title_zh": "巴黎圣日耳曼欧超杯夺冠：2-1 击败阿斯顿维拉",
           "eng": "Désiré Doué does the business as PSG edge Aston Villa to lift Super Cup",
-          "summary": "在萨尔茨堡举行的欧足联超级杯中，巴黎圣日耳曼凭借库瓦雷斯赫利亚和杜埃的进球以2-1战胜阿斯顿维拉，成功卫冕。17岁的马德茹成为赛事历史上最年轻的进球者。",
+          "summary": "路易斯·恩里克率领的巴黎圣日耳曼在欧足联超级杯中以 2-1 战胜阿斯顿维拉，成功捧杯。格鲁吉亚球星姆希塔良（注：原文为 Kvaratskhelia）和杜埃分别进球锁定胜局。",
           "source": "Guardian Football",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/football/2026/aug/12/uefa-super-cup-aston-villa-psg-match-report",
-          "overview": "比赛在萨尔茨堡举行，路易斯·恩里克打造的PSG夺冠机器延续了三连冠势头（欧冠+两次欧超杯）。库瓦雷斯赫利亚第20分钟首开纪录，杜埃在第61/62分钟锁定胜局。维拉方面由马德茹在第45分钟扳平比分。",
-          "analysis": "路易斯·恩里克展现了极强的冠军基因管理，PSG在欧冠和欧超杯的统治力令人印象深刻。阿斯顿维拉虽败犹荣，但17岁小将马德茹的进球为比赛增添亮点。",
+          "overview": "在萨尔茨堡举行的欧超杯决赛中，巴黎圣日耳曼凭借格鲁吉亚前锋姆希塔良（Kvaratskhelia）第 20 分钟的进球以及杜埃（Doué）第 62 分钟的绝杀，以 2-1 击败阿斯顿维拉。维拉的进球来自马乔（Madjo）在第 45 分钟。路易斯·恩里克赛后表示无论从事何种运动——足球、网球还是帕德尔球——他都想赢得每一场比赛。这是巴黎连续第二次夺得欧冠冠军后再次在杯赛中大放异彩。",
+          "analysis": "这场胜利巩固了恩里克作为顶级俱乐部教练的地位，姆希塔良和杜埃的进球组合展示了球队在进攻端的深度。对于阿斯顿维拉而言，虽然失利但能在超级杯赛场与卫冕冠军抗衡已属不易。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "库瓦雷斯赫利亚和杜埃的组合太致命了，恩里克这班底就是冠军配置。"
+              "text": "姆希塔良和杜埃的组合太致命了，巴黎的进攻火力确实无人能挡。"
             },
             {
-              "who": "解说视角",
-              "text": "马德茹17岁就进了欧超杯，这个纪录恐怕很难被打破了。"
+              "who": "足球评论员",
+              "text": "恩里克在欧冠和欧超杯上的统治力令人印象深刻，这证明了他在战术层面的绝对掌控。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "梅西父亲去世引退役思考：他对足球未来充满“相当多的疑虑”",
-          "eng": "Lionel Messi has 'quite a few doubts' about football future after death of his father",
-          "summary": "阿根廷传奇球星梅西在父亲何塞·梅西上周因长期病痛去世（享年68岁）后，暗示自己职业生涯可能即将结束。",
-          "source": "Guardian Football",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/football/2026/aug/12/lionel-messi-doubts-football-future-death-of-his-father-jorge",
-          "overview": "何塞·梅西于上周在阿根廷罗萨里奥去世，享年68岁。今年夏天世界杯期间他的健康状况似乎受到了影响。梅西承认自己对足球未来有“相当多的疑虑”，暗示退役可能临近。",
-          "analysis": "父亲离世对梅西打击巨大，世界杯的高强度比赛可能加速了他的身体衰退。这不仅是体育新闻，更是关于一位传奇人物人生转折的报道。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "老何塞走了，梅西的世界也少了一角温暖，希望他能好好休息。"
-            },
-            {
-              "who": "教练视角",
-              "text": "39岁的队长在世界杯后身体透支，退役或许是对他最好的保护。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "哈维·埃尔南德斯执教荷兰国家队四年合同至2030年世界杯",
-          "eng": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
-          "summary": "前巴塞罗那主教练哈维·埃尔南德斯接替罗纳德·科曼成为荷兰队新任主帅，签约至2030年世界杯。",
-          "source": "Guardian Football",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/football/2026/aug/12/xavi-hernandez-appointed-head-coach-of-the-netherlands-on-four-year-contract",
-          "overview": "46岁的西班牙人哈维已与荷兰足协达成四年合约，将带领球队征战2030年世界杯。他取代了因本届世界杯止步16强（输给摩洛哥）而辞职的罗纳德·科曼。此前哈维自2024年起已离开管理岗位。",
-          "analysis": "哈维从巴萨执教回归国家队主帅岗位，标志着西班牙足球管理层的重大变动。荷兰队需要在科曼失败后重建信心。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "哈维去荷兰了？这倒是个大胆的决定，希望他能带来新的战术体系。"
-            },
-            {
-              "who": "教练视角",
-              "text": "从巴萨到荷兰国家队，哈维需要证明自己不只是俱乐部层面的赢家。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "马竞与热刺就罗梅罗转会达成协议，费用3420万英镑",
-          "eng": "Atletico agree £34.2m deal for Tottenham's Romero",
-          "summary": "克里斯蒂安·罗梅罗即将从托特纳姆热刺转会至西甲马德里竞技，双方已同意3420万英镑的转会费。",
+          "title_zh": "马竞与热刺就罗梅罗转会达成协议，费用约 3420 万英镑",
+          "eng": "Atletico Madrid agree £34.2m deal for Tottenham's Romero",
+          "summary": "克里斯蒂安·罗梅罗即将从托特纳姆热刺转会至马德里竞技，双方已就 3420 万英镑的转会费达成协议。",
           "source": "BBC Football",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/sport/football/articles/cy8e2vx2l30o?at_medium=RSS&at_campaign=rss",
-          "overview": "热刺队长克里斯蒂安·罗梅罗确认将加盟马竞。双方已就转会达成协议，费用为34.2m英镑。这对热刺防线和罗马尼亚球员来说是一个重要的赛季前变动。",
-          "analysis": "罗梅罗作为热刺队长离队，对球队士气有一定影响。马竞在夏季窗口加强后防线的操作显得果断且高效。",
+          "overview": "热刺已与马德里竞技就队长克里斯蒂安·罗梅罗的转会达成协议，费用为 3420 万英镑。罗梅罗在经历了 2025-26 赛季四次停赛的风波后，已获得俱乐部和主帅德泽尔比的放行许可。这笔交易标志着热刺在经历动荡赛季后的阵容调整。",
+          "analysis": "对于马德里竞技而言，签下队长级中卫是加强防线的关键一步。对热刺来说，虽然失去核心球员令人遗憾，但罗梅罗的停赛问题确实影响了球队稳定性，及时止损也是明智之举。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "罗梅罗去马竞了，热刺的防线这下要重新组阵了。"
+              "who": "英超球迷",
+              "text": "热刺在经历了那个充满争议的赛季后终于开始清理门户了。"
             },
             {
-              "who": "教练视角",
-              "text": "队长离队是任何球队都不愿看到的，但转会市场的现实往往如此残酷。"
+              "who": "西甲观察员",
+              "text": "马竞用这笔钱补强中卫线非常精准，罗梅罗的经验对年轻阵容是巨大帮助。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "古恩多兹在酋尔球场完成阿森纳首秀，友谊赛1-1战平科莫",
+          "title_zh": "哈维·埃尔南德斯以四年合同执教荷兰国家队",
+          "eng": "Xavi Hernández appointed head coach of the Netherlands on four-year contract",
+          "summary": "前巴塞罗那主帅哈维·埃尔南德斯与荷兰足协签约至 2030 年世界杯，接替因世界杯出局辞职的科曼。",
+          "source": "Guardian Football",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/football/2026/aug/12/xavi-hernandez-appointed-head-coach-of-the-netherlands-on-four-year-contract",
+          "overview": "46 岁的西班牙人哈维·埃尔南德斯已正式出任荷兰国家队主教练，合同期限至 2030 年世界杯。他接替了因在世界杯 16 强赛中被摩洛哥淘汰后辞职的罗纳德·科曼。这一任命被视为荷兰足球在经历低谷后的重大复兴信号。",
+          "analysis": "哈维的战术素养和球员时代的影响力将给荷兰队带来新的活力，尤其是在中场控制方面。对于球迷来说，看到前巴萨名帅执教国家队总是令人兴奋的。",
+          "social": [
+            {
+              "who": "荷兰球迷",
+              "text": "终于等到这一天了！哈维一定能带领我们重回巅峰。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "从巴萨到荷兰，哈维的执教履历证明了他适应不同体系的能力，这对 2030 世界杯是一个好兆头。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "吉马良斯在酋长球场完成阿森纳首秀，友谊赛 1-1 战平科莫",
           "eng": "Guimaraes makes Arsenal debut in draw with Como",
-          "summary": "布鲁诺·古恩多兹在酋尔球场的友谊赛中表现出色，完成了阿森纳的首次亮相。",
+          "summary": "布鲁诺·吉马良斯在酋尔球场对阵科莫的友谊赛中表现出色，完成了阿森纳处子秀。",
           "source": "BBC Football",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/sport/football/articles/ce8kp6k3p1no?at_medium=RSS&at_campaign=rss",
-          "overview": "阿森纳新援布鲁诺·古恩多兹在酋尔球场对阵意大利球队科莫的友谊赛中首秀登场，表现稳健。比赛最终1-1战平。这是新赛季前的热身赛之一。",
-          "analysis": "古恩多兹作为中场核心加盟阿森纳后迅速完成首秀，展现了良好的竞技状态。这场友谊赛为球迷提供了观察新阵容的机会。",
+          "overview": "布鲁诺·吉马良斯在酋尔球场对阵科莫的友谊赛中交出了一份稳健的表现，帮助阿森纳以 1-1 战平对手。这是他在阿森纳的首次亮相，展现了良好的竞技状态和适应能力。",
+          "analysis": "吉马良斯的到来为阿森纳中场增添了经验和活力，他的首秀表现令人满意。对于球迷来说，看到新援迅速融入球队总是让人开心的。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "古恩多兹首秀就踢得不错，看来在酋尔球场站稳脚跟没问题了。"
+              "who": "枪手球迷",
+              "text": "吉马良斯的首秀太稳了，这就是我们需要的中场硬度。"
             },
             {
-              "who": "教练视角",
-              "text": "中场位置竞争激烈，首秀表现好是第一步，接下来要看联赛中的稳定性。"
+              "who": "英超记者",
+              "text": "他在友谊赛中的表现证明了自己值得这笔转会费，阿森纳的中场配置更加合理了。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "安德森仍痛恨英格兰世界杯失利，但渴望在曼城社区盾中绽放光芒",
+          "title_zh": "安德森痛惜英格兰世界杯失利，将信心带入曼城社区盾之旅",
           "eng": "Anderson still pained by England defeat but ready to shine at Manchester City",
-          "summary": "中场球员安德森表示虽然对世界杯半决赛负于阿根廷感到痛苦，但他希望利用世界杯上的表现来激励曼城的职业生涯。",
+          "summary": "中场球员安德森表示英格兰世界杯半决赛负于阿根廷仍令其心痛，但希望利用世界杯表现激励曼城的职业生涯。",
           "source": "Guardian Football",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/football/2026/aug/12/elliot-anderson-england-argentina-world-cup-manchester-city-premier-league",
-          "overview": "埃利奥特·安德森承认英格兰队在世界杯半决赛中被阿根廷击败仍让他心痛，但他希望将世界杯上的信心带入曼城生涯。他可能在周日对阵英超冠军阿森纳的社区盾比赛中迎来首秀。比赛将在加的夫王子公园球场举行。",
-          "analysis": "世界杯失利后的心理重建是球员成长的关键一环。安德森若能在新东家迅速证明自己，将有助于缓解球迷的不满情绪。",
+          "overview": "埃利奥特·安德森承认英格兰在世界杯半决赛中输给阿根廷仍让他感到痛苦，但他希望利用在世界杯上的表现来激励自己在曼城的职业生涯。他可能在曼城对阵英超冠军阿森纳的社区盾比赛中迎来首秀，比赛将在卡迪夫王子公园球场举行。",
+          "analysis": "从国家队到俱乐部的转型是许多球员面临的挑战，安德森的世界杯经历将成为他在曼城立足的重要资本。社区盾作为赛季揭幕战，他的表现将受到广泛关注。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "世界杯输了确实难受，但能在社区盾证明实力是最好的回应。"
+              "who": "英格兰球迷",
+              "text": "世界杯的遗憾不能阻挡他在俱乐部发光发热，期待他在曼城的精彩表现。"
             },
             {
-              "who": "教练视角",
-              "text": "从国家队到俱乐部的过渡需要时间，安德森需要在新环境中找到节奏。"
+              "who": "曼城支持者",
+              "text": "安德森在世界杯上的发挥证明了他的实力，希望他能在社区盾中证明自己。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "\"生命线\"乒乓球场地临时重新开放",
+          "title_zh": "梅西思考退役之际回顾经典瞬间，父亲去世令其情感复杂",
+          "eng": "Messi's most iconic moments as he ponders retirement",
+          "summary": "随着里奥内尔·梅西考虑足球生涯未来并因父亲去世而情绪波动，BBC 回顾了他在足球领域最具标志性的时刻。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c74x9zd83vlo?at_medium=RSS&at_campaign=rss",
+          "overview": "在里奥内尔·梅西考虑自己的足球未来之际，BBC 体育回顾了他在足球历史上最具标志性的时刻。这一回顾正值他的父亲去世，使得这位传奇球星的情感状态备受关注。文章旨在纪念梅西的职业生涯成就。",
+          "analysis": "梅西的退役悬念一直是全球球迷关注的焦点，尤其是考虑到他刚刚经历的世界杯赛季。父亲的离世为这个决定增添了更多情感色彩，使得这一刻更加令人动容。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "无论梅西最终选择什么，他的贡献将永远铭刻在足球史上。"
+            },
+            {
+              "who": "体育记者",
+              "text": "在这个充满感伤的时刻回顾经典，是对这位传奇最好的致敬方式。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "切尔西为恩佐·费尔南德斯设定周五 1.2 亿英镑报价截止日",
+          "eng": "Chelsea set Friday deadline over £120m Fernandez",
+          "summary": "切尔西为俱乐部感兴趣的球员恩佐·费尔南德斯设定了周五的报价截止日期，金额超过 1.2 亿英镑。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwym2pkjxnpo?at_medium=RSS&at_campaign=rss",
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "“生命线”乒乓球场地临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "BBC报道一处被称为“生命线”的乒乓球活动场地暂时恢复运营，用户表示这如同将精神家园归还。",
+          "summary": "一处名为“生命线”的社区乒乓球场地暂时恢复运营，使用者表示这如同精神家园回归。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地对特定社区群体具有特殊意义，恢复运营后用户反响热烈，体现了公共体育设施在灵活管理方面的努力。",
-          "analysis": "社区体育设施的临时重启往往能产生超出预期的情感共鸣，这反映出基层乒乓球活动在社会连接中的独特价值。",
+          "overview": "该场地此前曾关闭，现暂时重新开放供公众使用。使用者对此反应热烈，称其如同“精神家园”被归还。这一举措体现了社区体育设施在特殊时期恢复运营的努力。",
+          "analysis": "社区乒乓球场馆的临时重开反映了基层体育设施的韧性，对于维持业余爱好者的训练节奏具有重要意义。",
           "social": [
             {
-              "who": "社区体育关注者",
-              "text": "场地恢复运营对长期等待的爱好者来说是重大利好，体现了公共设施的灵活性。"
+              "who": "资深球迷",
+              "text": "场地能重新开放真是太好了，这种精神家园的感觉很难替代。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "哈德森-史密斯在主场创造历史，勇夺欧锦赛400米金牌",
+          "title_zh": "英国选手哈德森-史密斯在主场赛道创造历史夺400米金牌",
           "eng": "GB's Hudson-Smith wins historic 400m gold on home track - highlights & report",
-          "summary": "英国选手马修·哈德森-史密斯在伯明翰举行的欧洲田径锦标赛上夺得男子400米冠军，成为该项目历史上获得奖牌最多的运动员之一。",
+          "summary": "英国选手马修·哈德森-史密斯在欧洲锦标赛上夺得400米金牌，成为该赛事历史上获奖牌最多的男性运动员之一。",
           "source": "BBC Sport",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/sport/athletics/articles/c93560k7l6go?at_medium=RSS&at_campaign=rss",
-          "overview": "英国名将马修·哈德森-史密斯在伯明翰主场作战，成功摘得欧洲田径锦标赛男子400米金牌。这一胜利使他成为该项目历史上获得奖牌最多的运动员之一，进一步巩固了他在短跑领域的传奇地位。比赛在激烈的竞争中展开，最终他力压群雄站上最高领奖台。",
-          "analysis": "哈德森-史密斯的成就标志着英国田径的复兴，尤其是在主场伯明翰夺冠更具象征意义。作为联合最杰出运动员之一，他的表现将激励更多年轻选手投身短跑项目。",
+          "overview": "哈德森-史密斯在伯明翰举行的欧洲田径锦标赛男子400米决赛中夺冠，成为该赛事历史上获奖牌最多的男性运动员之一。这一胜利发生在英国主场赛道上，具有特殊的意义。",
+          "analysis": "作为联合最资深的奖牌得主之一，哈德森-史密斯的这次夺冠巩固了他在短跑领域的统治地位，也展示了英国田径队在家门口比赛时的强大竞争力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "在伯明翰主场拿金太爽了，哈德森-史密斯绝对是英国田径的骄傲！"
+              "who": "资深田径迷",
+              "text": "英国选手在主场拿金太提气了，历史性时刻！"
             },
             {
               "who": "体育评论员",
-              "text": "400米是田径皇冠上的明珠之一，能在欧锦赛上夺冠并创造纪录，含金量十足。"
+              "text": "400米是短跑中最考验耐力的项目，能在欧锦赛夺冠含金量极高。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "马竞与热刺就罗梅罗转会费达3420万英镑协议",
-          "eng": "Atletico agree £34.2m deal for Tottenham's Romero",
-          "summary": "马德里竞技已与托特纳姆热刺就队长克里斯蒂安·罗梅罗的转会达成协议，转会费为3420万英镑。",
-          "source": "BBC Sport",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cy8e2vx2l30o?at_medium=RSS&at_campaign=rss",
-          "overview": "西甲劲旅马德里竞技正式与英超托特纳姆热刺就队长克里斯蒂安·罗梅罗的转会事宜达成协议，双方敲定了3420万英镑的转会费用。这笔交易意味着罗梅罗将离开英超加盟西甲豪门，对于热刺和球员个人而言都是一个重要的转折点。",
-          "analysis": "罗梅罗作为热刺队长离队，对球队士气有一定影响，但马竞在后卫线上的补强需求迫切。这笔交易金额适中，反映了当前后卫市场的竞争态势。",
-          "social": [
-            {
-              "who": "英超球迷",
-              "text": "热刺的队长要走了，虽然3400万不算天价，但感情上很难接受。"
-            },
-            {
-              "who": "西甲观察员",
-              "text": "马竞签下罗梅罗是明智之举，他的防守能力正好弥补了球队的后防短板。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "洛杉矶湖人队以创纪录的125亿美元价格出售",
-          "eng": "LA Lakers to be sold in record $12.5bn deal",
-          "summary": "据报道，洛杉矶湖人队将以创纪录的125亿美元交易被出售，买家包括Josh Kushner和Bob Iger。",
-          "source": "The Guardian",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/sport/2026/aug/12/josh-kushner-and-bob-iger-reportedly-buying-los-angeles-lakers-for-12bn",
-          "overview": "洛杉矶湖人队即将完成一笔创纪录的125亿美元出售交易，买家为亿万富翁Josh Kushner和迪士尼CEO Bob Iger。此前，Mark Walter以100亿美元的价格从Buss家族手中收购了该队的多数股权，不到一年时间后便再次易主。这笔交易旨在让新老板在最高水平上竞争NBA冠军。",
-          "analysis": "湖人队频繁易主反映了NBA顶级资产的高流动性。Kushner和Iger的联手入局表明他们对重建争冠阵容的信心，这对球队未来的运营策略将产生深远影响。",
-          "social": [
-            {
-              "who": "NBA分析师",
-              "text": "125亿的天价再次证明了湖人队的品牌价值无可匹敌，新东家有能力打造争冠阵容。"
-            },
-            {
-              "who": "湖人生存者",
-              "text": "又是换老板，希望这次能带来真正的改变，而不是像以前一样折腾。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "三双王威斯布鲁克宣布结束18年NBA职业生涯",
-          "eng": "Triple-double king Russell Westbrook calls time on 18-year NBA career",
-          "summary": "NBA生涯三双纪录保持者、2017年MVP拉塞尔·威斯布鲁克宣布退役，结束了长达18年的职业生涯。",
-          "source": "The Guardian",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/sport/2026/aug/12/russell-westbrook-retires-nba-triple-doubles-record-mvp",
-          "overview": "NBA历史三双纪录保持者、2017年常规赛MVP拉塞尔·威斯布鲁克正式宣布退役，结束了长达18年的职业生涯。他在社交媒体上分享了这个决定，并配有一段由演员Michael B Jordan配音的视频，回顾了自己在俄克拉荷马城雷霆队效力11个赛季的辉煌岁月。",
-          "analysis": "威斯布鲁克的退役标志着一个时代的结束，他留下的三双纪录可能长期无人能破。作为两届得分王和75周年纪念队成员，他的职业生涯充满了争议与荣耀，是NBA历史上最具话题性的球员之一。",
-          "social": [
-            {
-              "who": "雷霆球迷",
-              "text": "18年的青春，从雷霆到湖人再到快船，威少的故事太传奇了，再见！"
-            },
-            {
-              "who": "篮球评论员",
-              "text": "三双纪录的保持者退役，NBA的历史书又要翻篇了。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "德西雷·杜埃梅开二度助巴黎圣日耳曼2-1击败阿斯顿维拉夺得超级杯",
-          "eng": "Désiré Doué does the business as PSG edge Aston Villa to lift Super Cup",
-          "summary": "在欧足联超级杯中，巴黎圣日耳曼以2-1击败阿斯顿维拉，成功卫冕并再次捧起冠军奖杯。",
-          "source": "The Guardian",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/football/2026/aug/12/uefa-super-cup-aston-villa-psg-match-report",
-          "overview": "在萨尔茨堡举行的欧足联超级杯决赛中，巴黎圣日耳曼凭借德西雷·杜埃的梅开二度以2-1击败阿斯顿维拉，成功卫冕冠军。卢伊斯·恩里克指导的球队展现了强大的竞争力，延续了他们在欧冠赛场上的连胜势头。",
-          "analysis": "杜埃的出色表现是巴黎夺冠的关键因素，他在第62分钟的进球彻底锁定了胜局。这场胜利进一步巩固了巴黎在法国足球乃至欧洲足坛的地位，同时也为即将到来的新赛季注入了信心。",
-          "social": [
-            {
-              "who": "法甲球迷",
-              "text": "杜埃太棒了！两个进球直接带走超级杯，恩里克的战术安排功不可没。"
-            },
-            {
-              "who": "维拉球迷",
-              "text": "虽然输了，但这场超级杯确实打得精彩，巴黎的防守还是不够稳固。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英国选手埃文斯在100米蛙泳项目中夺得欧锦赛金牌",
+          "title_zh": "英国游泳名将埃文斯在欧锦赛100米蛙泳决赛夺金",
           "eng": "GB's Evans wins European gold in 100m breaststroke",
-          "summary": "英国游泳运动员安格拉德·埃文斯在巴黎举行的欧洲锦标赛女子100米蛙泳决赛中夺冠，这是她职业生涯中的首枚欧锦赛金牌。",
+          "summary": "英国选手安格哈拉德·埃文斯在巴黎举行的欧洲锦标赛女子100米蛙泳决赛中赢得首枚金牌。",
           "source": "BBC Sport",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/sport/swimming/articles/ce34p76qedzo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国游泳名将安格拉德·埃文斯在巴黎举行的欧洲锦标赛女子100米蛙泳决赛中成功夺冠，这是她职业生涯中的首枚欧锦赛金牌。她在激烈的竞争中展现了出色的技术和心理素质，最终脱颖而出。",
-          "analysis": "埃文斯的胜利标志着英国游泳项目的崛起，尤其是在蛙泳项目中。她的表现不仅为个人赢得了荣誉，也为英国体育代表团增添了光彩。",
+          "overview": "埃文斯在欧洲锦标赛女子100米蛙泳决赛中表现出色，为英国队再添一枚欧锦赛金牌。这是她在该项目上的重要突破。",
+          "analysis": "这一胜利巩固了她在短距离蛙泳项目上的地位，展现了英国游泳队在多个小项上持续具备争金实力的深度。",
           "social": [
             {
               "who": "游泳爱好者",
-              "text": "恭喜埃文斯！100米蛙泳的金牌太不容易了，她是真正的英雄。"
-            },
-            {
-              "who": "英国体育记者",
-              "text": "这是英国游泳的新篇章，埃文斯的崛起令人振奋。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "世界排名第一的辛纳因伤退出辛辛那提公开赛",
-          "eng": "World number one Sinner to miss Cincinnati Open",
-          "summary": "世界网球排名第一的扬尼克·辛纳因膝盖受伤宣布退出本周举行的辛辛那提公开赛，预计美网复出。",
-          "source": "BBC Tennis",
-          "published": "2026-08-09",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cdx7gg7wq2do?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的扬尼克·辛纳因膝盖伤势宣布退出即将举行的辛辛那提公开赛。尽管缺席本周的比赛，但他表示预计能在本月晚些时候的美网复出。这一消息对赛事格局产生了重大影响，顶级种子选手的缺阵为其他球员提供了机会。",
-          "analysis": "辛纳的退赛是美网前的重大损失，他的膝盖伤势一直是困扰他的问题。对于辛辛那提公开赛而言，这将是一场没有绝对统治者的比赛，其他顶尖选手有望借此提升排名和信心。",
-          "social": [
-            {
-              "who": "网球粉丝",
-              "text": "辛纳又伤了？希望他能尽快恢复，美网还是得靠他。"
-            },
-            {
-              "who": "赛事分析师",
-              "text": "顶级种子缺席，这场辛辛那提公开赛将充满变数，其他选手有望借此机会崛起。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "费城76人教练回应索菲·坎宁安争议事件，称批评者可以“滚蛋”",
-          "eng": "Fever's White says critics can 'go to hell' over handling of Sophie Cunningham controversy",
-          "summary": "印第安纳狂热队主教练斯蒂芬妮·怀特对索菲·坎宁安事件的处理方式遭到部分球迷的批评后，强硬回应称批评者可以“滚蛋”。",
-          "source": "The Guardian",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/sport/2026/aug/12/fevers-white-says-critics-can-go-to-hell-over-handling-of-sophie-cunningham-controversy",
-          "overview": "印第安纳狂热队主教练斯蒂芬妮·怀特因索菲·坎宁安事件的处理方式遭到部分球迷的批评，她强硬回应称批评者可以“滚蛋”。此前，芝加哥天空队的迪乔奈·卡林顿在对阵狂热队的比赛中因二级恶意犯规被驱逐出场，随后在社交媒体上发表了关于“白人特权”的帖子，引发了广泛争议。",
-          "analysis": "这一事件凸显了WNBA在处理球员冲突和种族议题时的复杂性。怀特的强硬态度反映了教练团队在面对舆论压力时的立场，而卡林顿的社交媒体行为则进一步加剧了事件的关注度。",
-          "social": [
-            {
-              "who": "WNBA球迷",
-              "text": "这场争议太复杂了，希望球队能尽快平息风波，专注于比赛。"
+              "text": "蛙泳女王再下一城，英国游泳队真争气。"
             },
             {
               "who": "体育记者",
-              "text": "坎宁安事件的处理方式引发了广泛的讨论，这不仅仅是球场上的冲突，更是社会议题的折射。"
+              "text": "欧洲锦标赛竞争激烈，能在巴黎夺金说明实力过硬。"
             }
           ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "巴黎圣日耳曼2-1逆转阿斯顿维拉夺得欧洲超级杯",
+          "eng": "Doué seals Super Cup glory for PSG after Madjo makes history for Villa",
+          "summary": "在萨尔茨堡举行的欧洲超级杯中，巴黎圣日耳曼以2-1击败阿斯顿维拉，成功卫冕冠军。",
+          "source": "Guardian Sport",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/football/2026/aug/12/uefa-super-cup-aston-villa-psg-match-report",
+          "overview": "路易斯·恩里克率领的巴黎圣日耳曼在欧洲超级杯决赛中凭借库瓦雷斯赫利亚和杜埃的进球，以2-1战胜阿斯顿维拉。维拉的马焦也在比赛中创造了历史时刻。",
+          "analysis": "这场胜利进一步证明了PSG在恩里克治下的统治力，连续赢得欧冠和超级杯展现了俱乐部在顶级赛事中的稳定性。",
+          "social": [
+            {
+              "who": "足球评论员",
+              "text": "恩里克的球队就是冠军机器，超级杯卫冕实至名归。"
+            },
+            {
+              "who": "维拉球迷",
+              "text": "马焦创造了历史，虽然输了但这场球踢得很有看头。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "NBA生涯三双王威斯特布鲁克宣布退役",
+          "eng": "Triple-double king Russell Westbrook calls time on 18-year NBA career",
+          "summary": "2017年MVP、NBA生涯三双纪录保持者拉塞尔·威斯布鲁克在社交媒体上宣布结束其18年的NBA职业生涯。",
+          "source": "Guardian Sport",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/sport/2026/aug/12/russell-westbrook-retires-nba-triple-doubles-record-mvp",
+          "overview": "威斯布鲁克在社交媒体上发布了一段由演员迈克尔·B·乔丹配音的视频，正式宣布退役。他持有NBA历史三双纪录（209次），并在2017年荣膺常规赛MVP。",
+          "analysis": "作为联盟历史上最伟大的三双王之一，他的退役标志着一个时代的结束，其18年的职业生涯充满争议与辉煌，令人唏嘘。",
+          "social": [
+            {
+              "who": "NBA老球迷",
+              "text": "三双王终于挂靴了，18年生涯起起伏伏，致敬传奇。"
+            },
+            {
+              "who": "篮球分析师",
+              "text": "209个三双是历史第一，这个纪录可能很久没人打破了。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "洛杉矶湖人队以创纪录的125亿美元出售",
+          "eng": "Josh Kushner and Bob Iger reportedly buying Los Angeles Lakers for $12.5bn",
+          "summary": "据报道，洛杉矶湖人队将以约125亿美元的创纪录价格被出售，买家包括Josh Kushner和Bob Iger。",
+          "source": "Guardian Sport",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/sport/2026/aug/12/josh-kushner-and-bob-iger-reportedly-buying-los-angeles-lakers-for-12bn",
+          "overview": "亿万富翁Mark Walter去年以100亿美元收购了湖人的多数股权，现在Kushner和Iger正以超过125亿美元的价格接手这笔交易。这一价格打破了NBA球队的历史售价记录。",
+          "analysis": "这笔交易反映了篮球联盟商业价值的持续攀升，新东家表示希望",
           "region": "综合"
         }
       ],
@@ -1808,202 +1743,178 @@
     "hot": {
       "items": [
         {
-          "title_zh": "刚果（金）埃博拉疫情或存在变异风险，病例突破4000例",
-          "summary": "刚果民主共和国埃博拉确诊病例已超4000例，卫生官员警告病毒可能正在发生变异，非洲公共卫生监管机构宣布将全面升级应对措施。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
-          "overview": "刚果民主共和国正经历一场大规模埃博拉疫情，确诊病例数已突破4000例大关。非洲公共卫生监管机构表示，渐进式行动已无意义，计划对响应措施进行全面升级，并开展逐户排查以寻找患者。官员们担心导致此次疫情的病毒可能正在发生变异，这给全球防疫带来了新的不确定性。",
-          "analysis": "埃博拉病毒的潜在变异能力引发了国际社会的严重关切，若确诊率持续攀升且病毒特性改变，可能对现有疫苗和治疗方案构成挑战。非洲公共卫生机构的全面升级行动是应对危机的关键一步，但资源是否充足仍是未知数。",
-          "social": [
-            {
-              "who": "世界卫生组织专家",
-              "text": "呼吁各国加强边境监测和医疗物资储备，以应对可能的变异株跨境传播风险。"
-            },
-            {
-              "who": "当地社区代表",
-              "text": "民众对政府逐户排查表示支持，但担心强制隔离措施可能引发社会恐慌和经济停滞。"
-            }
-          ]
-        },
-        {
-          "title_zh": "津巴布韦卡拉湖渡船倾覆致至少44人死亡",
-          "summary": "一艘严重超载的渡船在津巴布韦卡拉湖翻覆，造成至少44人死亡，救援行动仍在进行中。",
+          "title_zh": "津巴布韦卡拉湖渡轮倾覆致至少44人死亡",
+          "summary": "一艘严重超载的渡轮在津巴布韦最大人工湖卡拉湖畔翻沉，造成至少44人遇难。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
-          "overview": "津巴布韦警方确认，一艘核定载客90人的渡船在卡拉湖因波浪翻覆，船上实际载有114名成人乘客、5名船员及若干儿童。这是世界最大人工湖泊上发生的严重事故，目前救援行动正在进行中，仍有数十人失踪。",
-          "analysis": "此次事故暴露了当地水上交通安全管理的严重漏洞，超载运营是主要诱因之一。卡拉湖作为重要交通通道，此类事件频发反映出基础设施维护和安全监管的紧迫需求。",
+          "overview": "载有114名成年乘客及多名儿童、超出额定载客量90人的渡轮在波浪中翻覆。津巴布韦民防部门已确认死亡人数，救援行动仍在进行中。",
+          "analysis": "此次事故暴露了非洲内陆水运安全管理的严重缺陷，超载问题频发令人担忧。国际社会应关注发展中国家水上交通的安全监管体系建设。",
           "social": [
             {
-              "who": "津巴布韦搜救队",
-              "text": "正在全力搜寻失踪人员，并呼吁公众提供船只最后航行的目击信息以协助定位。"
-            },
-            {
-              "who": "遇难者家属代表",
-              "text": "对政府未能有效监管渡船运营表示愤怒，要求彻查事故原因并追究相关责任人的法律责任。"
+              "who": "国际观察家",
+              "text": "非洲内陆水域缺乏现代化监管体系是此类悲剧的根源，需加强国际合作提升救援能力。"
             }
           ]
         },
         {
-          "title_zh": "俄乌互攻黑海港口，粮食出口双双下滑",
-          "summary": "俄罗斯和乌克兰均对对方的航运设施和港口发动攻击，导致两国粮食出口量持续下降。",
+          "title_zh": "刚果（金）埃博拉疫情疑出现变异，病例突破4000例",
+          "summary": "刚果民主共和国埃博拉确诊病例已超4000例，卫生官员警告病毒可能正在发生变异。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-06",
+          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
+          "overview": "非洲公共卫生监管机构宣布将全面升级应对措施，计划逐户排查患者，认为渐进式行动已不足以遏制疫情蔓延。",
+          "analysis": "病毒变异风险增加了全球防控难度，国际社会需密切关注刚果（金）局势以防扩散至邻国及欧洲。",
+          "social": [
+            {
+              "who": "疾控专家",
+              "text": "埃博拉病毒的快速传播能力令人警惕，变异可能意味着现有疫苗和疗法面临新挑战。"
+            }
+          ]
+        },
+        {
+          "title_zh": "罕见日全食震撼英国与欧洲数百万观众",
+          "summary": "超过95%的太阳被月球遮挡，英国康沃尔及西班牙部分地区目睹了壮观的日全食奇观。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/news/articles/ckgdp4923rdo?at_medium=RSS&at_campaign=rss",
+          "overview": "此次天文现象在英国覆盖超过90%，西班牙和冰岛可见完全日食，吸引了大量民众驻足观赏并拍摄罕见天象。",
+          "analysis": "百年一遇的天文奇观再次引发公众对自然科学的兴趣，同时也考验了相关地区的公共安全管理能力。",
+          "social": [
+            {
+              "who": "天文爱好者",
+              "text": "站在日全食的阴影带中，那种震撼是任何照片都无法完全传达的。"
+            }
+          ]
+        },
+        {
+          "title_zh": "俄乌黑海港口互袭致粮食出口大幅下滑",
+          "summary": "俄罗斯和乌克兰互相攻击对方的航运设施和港口，导致两国粮食出口均出现下降。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
-          "overview": "乌克兰对俄罗斯主要粮食出口终端发动攻击，同时俄罗斯也对乌克兰黑海港口设施进行打击。这种相互破坏的行为导致两国粮食出口量双双下降，加剧了全球粮食供应链的不稳定性。",
-          "analysis": "黑海粮食走廊的受阻直接影响全球粮食安全，尤其是依赖进口小麦和玉米的发展中国家。双方持续升级的对峙态势可能迫使国际社会重新评估粮食援助和人道主义通道的安排。",
+          "overview": "双方针对对方在黑海的出口终端发动袭击，严重干扰了全球粮食供应链的稳定性。",
+          "analysis": "黑海粮食走廊受阻可能推高全球粮价，对依赖进口的发展中国家构成粮食安全威胁。",
           "social": [
             {
-              "who": "联合国粮农组织",
-              "text": "警告称若黑海航运长期中断，全球粮食价格将进一步飙升，发展中国家面临饥荒风险增加。"
-            },
-            {
-              "who": "国际航运分析师",
-              "text": "建议各国政府应优先保障人道主义物资运输通道畅通，避免冲突进一步波及民用物流网络。"
+              "who": "农业分析师",
+              "text": "战争对粮食贸易的破坏力远超预期，各国需建立应急储备机制以应对供应波动。"
             }
           ]
         },
         {
-          "title_zh": "美国移民执法局计划为特工配备电击手套",
-          "summary": "美国ICE花费2000万美元采购可释放电击的手套设备，旨在迫使被拘留者服从管理。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/articles/c20d292gdp4o?at_medium=RSS&at_campaign=rss",
-          "overview": "美国移民和海关执法局（ICE）宣布计划采购一种能释放强烈电击的手套，用于在执法过程中迫使被拘留者服从。该项目预算达2000万美元，旨在提升特工在处理不配合对象时的控制能力。",
-          "analysis": "此举引发了关于执法手段合法性和人权保障的广泛争议。批评者认为电击手套可能构成过度使用武力，而支持者则强调其在高风险执法环境中的必要性。该决策将受到国会和公众的密切关注。",
-          "social": [
-            {
-              "who": "美国公民自由联盟",
-              "text": "强烈谴责ICE的电击手套计划，认为这违反了移民的基本人权，并呼吁立即停止采购。"
-            },
-            {
-              "who": "边境执法支持者",
-              "text": "表示在混乱的边境环境中，此类装备有助于确保执法人员的安全和秩序维护。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护地位的努力",
-          "summary": "联邦法官裁定特朗普政府可以继续剥夺数百名南苏丹公民在美国的临时保护身份。",
+          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
+          "summary": "联邦法官裁定特朗普政府有权取消数百名南苏丹籍美国人的临时保护状态。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "美国马萨诸塞州联邦法官Patti Saris驳回了移民权利组织的上诉，允许特朗普政府继续推进终止南苏丹公民临时保护地位（TPS）的计划。此前最高法院已裁定允许政府剥夺海地和叙利亚人的类似保护。",
-          "analysis": "这一裁决可能迫使数千名在南苏丹局势动荡中寻求庇护的美国人面临遣返风险。移民权利组织表示将采取进一步法律行动，同时公众对政策人道主义影响的担忧持续升温。",
+          "overview": "此前最高法院已允许政府对海地和叙利亚人实施类似措施，移民权益组织试图阻止该决定但遭驳回。",
+          "analysis": "此举进一步收紧了美国对特定地区难民的庇护政策，可能引发新一轮关于移民权利的法律诉讼。",
           "social": [
             {
-              "who": "南苏丹裔美国社区领袖",
-              "text": "呼吁政府重新考虑这一决定，强调许多人在美国生活多年并为社会做出了贡献。"
-            },
-            {
-              "who": "法律评论员",
-              "text": "指出最高法院的先例为政府行动提供了法律依据，但行政权力的扩张仍需警惕其长期影响。"
+              "who": "移民律师",
+              "text": "TPS的取消意味着这些群体将失去合法居留身份，面临被遣返的风险。"
             }
           ]
         },
         {
           "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "西班牙宣布将从周六午夜起对来自意大利的访客实施临时边境检查，以应对大规模移民涌入。",
+          "summary": "为回应罗马对摩洛哥入境者采取类似措施，西班牙宣布从周六午夜起至9月7日实施临时边境管控。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙内政部宣布，鉴于罗马在摩洛哥人涌入塞维塔后实施类似措施，西班牙将从8月15日午夜起至9月7日对意大利访客进行临时边境检查。此举旨在应对持续的非法移民压力。",
-          "analysis": "这一举措反映了欧洲南部国家在面对北非移民潮时的防御性策略升级。西班牙与意大利之间的边境管控博弈可能进一步影响申根区的人员流动自由，引发欧盟内部关于难民分配机制的讨论。",
+          "overview": "此举旨在应对持续的非法移民压力，特别是来自摩洛哥经意大利进入西班牙塞维塔的大规模人员流动。",
+          "analysis": "伊西边境管控升级反映了南欧国家在移民问题上的博弈加剧，可能影响两国正常的人员往来和贸易。",
           "social": [
             {
-              "who": "欧盟人权观察员",
-              "text": "警告临时检查不应演变为系统性歧视，呼吁各国遵守国际难民法和申根协议精神。"
-            },
-            {
-              "who": "意大利旅游从业者",
-              "text": "表示边境限制可能严重影响两国之间的商务往来和旅游业合作，建议通过外交途径解决根本问题。"
+              "who": "欧洲旅行博主",
+              "text": "对于计划前往西班牙的意大利公民来说，未来两周出行需提前准备相关证件。"
             }
           ]
         },
         {
-          "title_zh": "墨西哥前州长因43名学生失踪案被正式起诉",
-          "summary": "墨西哥格雷罗州前州长安吉尔·阿吉雷因涉嫌下令销毁监控录像等罪名被正式指控。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
-          "overview": "墨西哥格雷罗州前州长安吉尔·阿吉雷因涉嫌在2014年43名学生失踪案中犯有强迫失踪和妨碍司法公正罪被正式起诉。该案已成为墨西哥贩毒集团暴力和政府包庇行为的象征，阿吉雷上周被捕后面临多项指控。",
-          "analysis": "这一起诉标志着墨西哥在追究历史案件责任方面迈出了重要一步，但实际执行仍面临巨大挑战。该案揭示了地方政治势力与犯罪组织之间的复杂关系，对墨西哥司法独立性和反腐进程具有深远影响。",
-          "social": [
-            {
-              "who": "失踪学生家属联盟",
-              "text": "对起诉表示欢迎，称这是正义的曙光，但强调必须确保审判过程公正透明。"
-            },
-            {
-              "who": "墨西哥人权组织",
-              "text": "呼吁政府加大对贩毒集团背后保护伞的调查力度，防止类似事件再次发生。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国上空出现罕见日全食，数百万人惊叹不已",
-          "summary": "一次百年一遇的日全食在英国和欧洲上空可见，吸引了大量民众驻足观看。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/videos/cwym2w32rn0o?at_medium=RSS&at_campaign=rss",
-          "overview": "一次罕见的日全食在英国和欧洲上空上演，数百万人得以目睹这一壮观的天文现象。BBC视频报道了现场盛况，展示了人们在黑暗中仰望天空的震撼瞬间。",
-          "analysis": "此次日全食不仅是一次天文奇观，也激发了公众对宇宙探索的兴趣。在社交媒体上，相关话题迅速走红，成为人们分享和讨论的热点内容。",
-          "social": [
-            {
-              "who": "天文爱好者",
-              "text": "分享了拍摄到的日冕照片和视频，表示这是职业生涯中最令人难忘的时刻之一。"
-            },
-            {
-              "who": "普通市民",
-              "text": "感叹大自然的奇妙，表示愿意为了观看这一现象而取消其他计划。"
-            }
-          ]
-        },
-        {
-          "title_zh": "科学家发现天然真菌可对抗非洲军蚁害虫",
-          "summary": "南非科学家的突破性研究显示，土壤中的自然真菌可用于对抗破坏性作物害虫非洲军蚁。",
+          "title_zh": "南非科学家发现真菌可自然治愈非洲军蚁虫灾害",
+          "summary": "土壤中发现的天然真菌可有效杀灭破坏性极强的非洲军蚁虫，为农民提供希望。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
-          "overview": "南非科学家马图韦发现了一种天然存在的真菌，能够杀死非洲军蚁——一种对东非和南部非洲农民最具破坏性的害虫。田野中死去的毛毛虫被白色物质包裹的景象引起了科学家的注意，这一发现为农业提供了新的希望。",
-          "analysis": "这一突破性研究可能为非洲农业带来革命性变化，减少对化学农药的依赖。然而，从实验室到田间应用的转化仍需时间和大量投入，科学家呼吁国际社会提供资金支持以加速推广。",
+          "overview": "南非科学家发现一种白色天然真菌正在消灭大量军蚁虫幼虫，相关研究有望成为对抗该害虫的天然疗法。",
+          "analysis": "这一突破若成功推广，将显著降低非洲农业损失，减少对化学农药的依赖，具有重大的生态和经济意义。",
           "social": [
             {
-              "who": "非洲农民代表",
-              "text": "对这一发现表示极大期待，称这将帮助他们摆脱长期困扰的害虫问题，提高粮食产量。"
-            },
-            {
-              "who": "农业科学家",
-              "text": "强调需要进一步研究真菌的生态影响和大规模应用可行性，以确保其安全性和有效性。"
+              "who": "环保主义者",
+              "text": "利用自然力量而非化学药剂来保护作物，是可持续农业发展的理想方向。"
             }
           ]
         },
         {
-          "title_zh": "英国A-Level、T-Level及BTEC考试结果公布在即",
-          "summary": "预计将有创纪录数量的学生获得首选大学的录取资格，学生们正焦急等待成绩揭晓。",
+          "title_zh": "墨西哥前州长因2014年43名学生失踪案被正式起诉",
+          "summary": "前格雷罗州州长因涉嫌下令销毁监控录像、强迫学生失踪等罪名被正式指控。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
+          "overview": "该案已成为墨西哥贩毒集团暴行和政府有罪不罚的象征，检方上周逮捕了该前州长。",
+          "analysis": "起诉高官标志着墨西哥在打击有组织犯罪方面取得进展，但司法独立性和证人保护仍是关键挑战。",
+          "social": [
+            {
+              "who": "拉美政治评论员",
+              "text": "正义或许迟到，但43名学生的失踪不应再被遗忘，此案是墨西哥法治的试金石。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国首相呼吁民众在干旱期间停用一次性烧烤炉",
+          "summary": "鉴于当前极端干燥天气，英国首相敦促公众避免使用一次性烤架以降低野火风险。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/news/articles/cr59p2nr6dqo?at_medium=RSS&at_campaign=rss",
+          "overview": "伯纳姆地区呼吁商店不要销售 disposable BBQs，政府希望公众配合避免引发火灾隐患。",
+          "analysis": "气候变化导致的极端天气频发正迫使各国重新审视日常生活中的防火安全规范。",
+          "social": [
+            {
+              "who": "户外露营爱好者",
+              "text": "虽然不方便，但在干旱季节为了公共安全，暂时放弃一次性烧烤是必要的妥协。"
+            }
+          ]
+        },
+        {
+          "title_zh": "伦敦双重杀人强奸犯获终身监禁判决",
+          "summary": "来自托特纳姆的西蒙·利维因杀害两名女性并强奸第三名受害者被判终身监禁。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/news/articles/c4g30dw9xw6o?at_medium=RSS&at_campaign=rss",
+          "overview": "法院对其犯下的严重暴力罪行作出最严厉判决，该罪犯将在监狱中度过余生。",
+          "analysis": "终身监禁的适用体现了英国司法系统对恶性暴力犯罪的零容忍态度，同时也引发关于量刑标准的讨论。",
+          "social": [
+            {
+              "who": "法律学者",
+              "text": "虽然判决令人满意，但预防此类犯罪的发生更需要社区层面的关注和支持。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国创纪录学生等待A-Level及BTEC成绩公布",
+          "summary": "预计又有创纪录数量的学生将成功获得首选大学的录取资格。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/news/articles/c8dn8q3r8mzo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国学生正等待A-Level、T-Level和BTEC考试结果的公布，预计将有创纪录数量的学生获得首选大学的录取资格。这一趋势反映了英国教育体系的持续改进和学生学术水平的提升。",
-          "analysis": "创纪录的录取率不仅体现了学生的努力，也说明了大学招生政策的调整。对于学生和家长而言，这是一个重要的转折点，将影响他们未来的职业规划和人生轨迹。同时，这也对高等教育资源分配提出了新的挑战。",
+          "overview": "大量学生正在等待成绩公布，标志着英国高等教育入学竞争中的积极信号。",
+          "analysis": "录取人数创新高反映出英国教育体系对人才的持续吸引力，但也暗示了优质学位资源的稀缺性。",
           "social": [
             {
-              "who": "学生家长",
-              "text": "表示对孩子取得好成绩感到欣慰，并鼓励他们继续努力追求更高的学术目标。"
-            },
-            {
-              "who": "教育专家",
-              "text": "指出录取率的提升应伴随对教育质量的整体关注，确保学生不仅进入大学，更能获得优质教育体验。"
+              "who": "高考家长",
+              "text": "无论结果如何，孩子们的努力都值得肯定，希望他们能找到适合自己的道路。"
             }
           ]
         }
@@ -2016,60 +1927,60 @@
     "voices": {
       "items": [
         {
-          "name": "Geoffrey Hinton",
-          "role": "AI 先驱/多伦多大学教授",
-          "region": "英国/加拿大",
-          "domain": "ai",
-          "recent": "呼吁在安全担忧下保持 AI 开放发展，与吴恩达、李飞飞展开公开辩论。",
-          "url": ""
-        },
-        {
-          "name": "Andrew Ng",
-          "role": "AI 教育者/DeepLearning.AI 创始人",
-          "region": "美国",
-          "domain": "ai/podcast",
-          "recent": "关注企业 AI 市场融资动态及 AI 教育的规模化应用。",
-          "url": "andrewng.ai"
-        },
-        {
-          "name": "Fei-Fei Li",
-          "role": "斯坦福大学计算机系教授/AI 伦理倡导者",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "探讨可信数据在规模化 AI 代理中的关键挑战与治理路径。",
-          "url": "feifeili.org"
+          "recent": "推动企业级 AI 代理规模化部署，主导 OpenAI 与 Thrive Holdings 的巨额融资以建设可信数据基础设施。",
+          "url": "https://www.samaltman.com/"
         },
         {
-          "name": "Michael Gorman",
-          "role": "图书馆学思想领袖/前 ALA 主席",
-          "region": "加拿大",
-          "domain": "library",
-          "recent": "主张图书馆在人工智能时代应重新定义自身价值与服务边界。",
-          "url": ""
-        },
-        {
-          "name": "Sarah Miller",
-          "role": "《Library Journal》主编/美国图情界代表",
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
           "region": "美国",
-          "domain": "library/podcast",
-          "recent": "推动媒体素养教学新方向及包容性参考服务最佳实践。",
-          "url": ""
+          "domain": "ai",
+          "recent": "在 Claude 水印争议与开源安全平衡中呼吁保持开放，关注 AI 模型在工作场所和课堂中的伦理边界。",
+          "url": "https://www.anthropic.com/about"
         },
         {
-          "name": "Hilde Fjellhaug",
-          "role": "IFLA 前总干事/挪威图书馆界领袖",
-          "region": "挪威",
-          "domain": "library",
-          "recent": "关注灾后图书馆与博物馆重建策略及开放科学基础设施。",
-          "url": ""
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind CEO",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "聚焦可信数据基础设施与企业级 AI 代理的规模化部署，探索 AI 在科学发现中的深层应用。",
+          "url": "https://deepmind.google/leaders/demis-hassabis/"
         },
         {
-          "name": "李国新",
-          "role": "中国图书馆学会代表/前会长",
+          "name": "Kai-Fu Lee",
+          "role": "李开复科技创始人 / 全球 AI 治理倡导者",
           "region": "中国",
+          "domain": "ai",
+          "recent": "在安全担忧加剧之际为开源辩护，关注全球 AI 治理框架与开放生态的可持续发展。",
+          "url": "https://www.kai-fu-lee.com/"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta FAIR 首席科学家",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "推动开源模型发展以应对供应链攻击风险，呼吁在安全与开放之间寻找平衡点。",
+          "url": "https://yannlecun.com/"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "Lex Fridman Podcast 创始人 / AI 深度访谈者",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "通过播客深入探讨供应链安全、AI 开源社区动态及企业级部署中的信任问题。",
+          "url": "https://lexfridman.com/"
+        },
+        {
+          "name": "Julian Ash",
+          "role": "美国国会图书馆馆长",
+          "region": "美国",
           "domain": "library",
-          "recent": "推动智慧图书馆建设推广及百县馆长论坛等基层交流。",
-          "url": ""
+          "recent": "关注 AI 技术对文化遗产保存及公众信息获取的影响，推动图书馆在 AI 时代的角色转型。",
+          "url": "https://www.loc.gov/about/leadership/julian-ash.html"
         }
       ]
     },
@@ -2082,6 +1993,69 @@
           "region": "国际",
           "published": "2026-10-01",
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于开展书香传家·经典共读——“家庭经典阅读”推广活动的通知",
+          "summary": "各图书馆： 家庭是社会的细胞，鼓励家庭阅读、共同培育“读书种子”是图书馆开展全民阅读的重要内容。为深化优质家庭阅读资源共建共享，创新图书馆家庭阅读服务供给模式，中国图书馆学会阅读推广工作委员会拟组织开展书香传家·经典共读——“家庭经典阅读”推广活动。现将有关事项通知如下: 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：深圳图书馆 东莞图书馆 参与单位：各图书馆 二、活动时间 ",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 家庭是社会的细胞，鼓励家庭阅读、共同培育“读书种子”是图书馆开展全民阅读的重要内容。为深化优质家庭阅读资源共建共享，创新图书馆家庭阅读服务供给模式，中国图书馆学会阅读推广工作委员会拟组织开展书香传家·经典共读——“家庭经典阅读”推广活动。现将有关事项通知如下: 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：深圳图书馆 东莞图书馆 参与单位：各图书馆 二、活动时间 2026年8月12日—11月30日 三、活动内容 依托承办单位家庭经典阅读方面的成果，鼓励各参与馆立足本地实际开展经典阅读活动。通过资源推荐与区域化服务创新相结合，支持各地构建家庭阅读服务新场景，为书香社会建设提供可持续的专业支撑。 （一）“家庭经典阅读”资源共享 提供“南书房家庭经典阅读书目”300种、书目提要和名家推介语，家庭经典阅读书目展和征文作品佳句赏析展电子版给各参与馆使用。各参与馆可设立“家庭经典阅读”图书专架/专区，结合书目举办主题阅读分享会、家庭读书会、书目展览等多种形式的阅读推广活动。 （二）“家庭经典阅读”实践成果展示 各参与馆可围绕本地家庭阅读服务特色，自愿推荐具有地域文化特色、创新服务模式及社会影响力的家庭经典阅读品牌项目，包括本馆书目导读、阅读分享、家庭亲子朗诵等多元化实践成果。活动将采用多种形式对相关成果进行展示推广，以促进业界经验共享与模式互鉴。 四、活动指南",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2087468890388586496.html"
+        },
+        {
+          "title_zh": "中国图书馆学会关于举办2026年阅读推广标准与评价学术研讨会的通知",
+          "summary": "各图书馆： 为进一步推动图书馆阅读推广标准与评价工作高质量发展，助力《全民阅读促进条例》落地见效，中国图书馆学会拟于2026年10月16日至18日在陕西咸阳举办2026年阅读推广标准与评价学术研讨会，现将相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 西藏民族大学 承办单位：中国图书馆学会阅读推广工作委员会 中山大学国家文化遗产与文化发展研究院 中山大学全民阅读研究中心 西藏民族大学图",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 为进一步推动图书馆阅读推广标准与评价工作高质量发展，助力《全民阅读促进条例》落地见效，中国图书馆学会拟于2026年10月16日至18日在陕西咸阳举办2026年阅读推广标准与评价学术研讨会，现将相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 西藏民族大学 承办单位：中国图书馆学会阅读推广工作委员会 中山大学国家文化遗产与文化发展研究院 中山大学全民阅读研究中心 西藏民族大学图书馆 西藏民族大学管理学院 二、会议时间及地点 时间：2026年10月16日至18日（周五至周日） 地点：西藏民族大学秦汉校区（陕西省咸阳市渭城区兰池四路南) 三、会议主题 以标准与评价助力全民阅读高质量发展 四、参会人员 特邀中国图书馆学会阅读推广工作委员会委员，标准与评价相关领域专家、学者，各图书馆及相关机构的代表等。 五、会议议程 日期 时间 内容 10月16日 下午 报到 10月17日 上午 开幕式、主旨报告 下午 专题报告、交流研讨和 会议总结 10月18日 上午 现场交流 下午 离会 六、会务提示 （一）本次会议免收会议费，会议期间食宿统一安排，参会人员住宿及往返交通费用自理。 （二）本次会议限额100人，额满即止。会议报名统一通过邮件回执的方式进行，请填写“会议回执”（见附件1）并于2026年9月15日前发至邮箱1413688580@qq.com。收到会务组邮件回复确认的代表",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2087467662404775936.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年阅读推广理论研讨会的通知",
+          "summary": "各图书馆： 为更好地推进图书馆阅读推广研究工作的开展，提升图书馆阅读推广专业化水平，推动全民阅读工作高质量发展，中国图书馆学会阅读推广工作委员会定于2026年9月22日至24日在甘肃省兰州市举办2026年阅读推广理论研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：甘肃省图书馆 甘肃省图书馆学会 二、会议主题 知行相济：阅读推广的理论建构与实践创新",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 为更好地推进图书馆阅读推广研究工作的开展，提升图书馆阅读推广专业化水平，推动全民阅读工作高质量发展，中国图书馆学会阅读推广工作委员会定于2026年9月22日至24日在甘肃省兰州市举办2026年阅读推广理论研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：甘肃省图书馆 甘肃省图书馆学会 二、会议主题 知行相济：阅读推广的理论建构与实践创新 三、会议时间和日程 （一）会议时间 2026年9月22日至24日（周二至周四） （二）议程安排 日期 时间 议程安排 9月22日 下午 报到 9月23日 上午 开幕活动及主旨报告 下午 专家对谈、案例分享、 专家点评 9月24日 上午 现场交流 下午 离会 四、会议地点 甘肃省图书馆（甘肃省兰州市城关区南滨河东路488号） 五、参会人员 中国图书馆学会阅读推广工作委员会委员；图书馆学领域专家学者；图书馆馆长、阅读推广工作负责人及相关工作人员。 六、会务报名 （一）本次会议不收取会议费，会议期间食宿及交通统一安排，住宿及城市间往来交通费用自理。 （二）本次会议限额220人，额满即止。会议报名统一通过邮件的方式进行，请填写“会议回执”（附件1）并于2026年9月4日前发至邮箱gslibywc@126.com，收到会务组邮件回复确认的代表，方可参会。已报名代表，如因故无法参会，请及时联系会务组",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2087465830786932736.html"
+        },
+        {
+          "title_zh": "2026年中国图书馆年会“技术赋能与人文共生：图书馆智慧化转型与全民阅读服务创新”会前会（成都）报名参会通知",
+          "summary": "各图书馆、相关机构： 2026年中国图书馆年会将于9月16日至19日在四川省成都市召开。现定于9月15日至16日（含报到、离会时间）在成都市召开以“技术赋能与人文共生：图书馆智慧化转型与全民阅读服务创新”为主题的会前会。会议相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 承办单位：成都图书馆（成都市古籍保护中心） 支持单位：超星集团有限公司 二、会议主题 主题：技术赋能与人文共生：图书",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆、相关机构： 2026年中国图书馆年会将于9月16日至19日在四川省成都市召开。现定于9月15日至16日（含报到、离会时间）在成都市召开以“技术赋能与人文共生：图书馆智慧化转型与全民阅读服务创新”为主题的会前会。会议相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 承办单位：成都图书馆（成都市古籍保护中心） 支持单位：超星集团有限公司 二、会议主题 主题：技术赋能与人文共生：图书馆智慧化转型与全民阅读服务创新 本次会议紧扣“技术赋能与人文共生”主题，围绕智慧图书馆建设中人工智能、大数据等新技术的落地逻辑与实操路径，聚焦智慧场馆营建、数字馆藏归集、智能服务体系搭建等核心场景，同时针对资源分配、服务模式、特殊群体适配等热点问题进行研讨，分享各地智慧图书馆典型案例，探索技术赋能与人文服务融合发展的长效机制。 三、会议时间与地点 会议时间：2026年9月15—16日（含报到、离会时间） 会议地点：天府人文艺术图书馆负一楼报告厅 四、参会人员 各级各类图书馆馆长及业务骨干。 五、会议日程 时 间 内 容 9月15日下午 报到 9月16日上午 开幕活动 主题报告： 1.技术赋能与人文共生：图书馆智慧化转型的逻辑框架与实践路径 2.让阅读无处不在：全民阅读推广的数字化创新与均等化实践 3.从智能感知到智慧服务：AI驱动的图书馆空间重构与服务升级 4.守正与创新：智慧图书馆建设中",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2086999999632248832.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于开展书香传家·经典共读——“家庭经典阅读”推广活动的通知",
+          "summary": "各图书馆： 家庭是社会的细胞，鼓励家庭阅读、共同培育“读书种子”是图书馆开展全民阅读的重要内容。为深化优质家庭阅读资源共建共享，创新图书馆家庭阅读服务供给模式，中国图书馆学会阅读推广工作委员会拟组织开展书香传家·经典共读——“家庭经典阅读”推广活动。现将有关事项通知如下: 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：深圳图书馆 东莞图书馆 参与单位：各图书馆 二、活动时间 ",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 家庭是社会的细胞，鼓励家庭阅读、共同培育“读书种子”是图书馆开展全民阅读的重要内容。为深化优质家庭阅读资源共建共享，创新图书馆家庭阅读服务供给模式，中国图书馆学会阅读推广工作委员会拟组织开展书香传家·经典共读——“家庭经典阅读”推广活动。现将有关事项通知如下: 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：深圳图书馆 东莞图书馆 参与单位：各图书馆 二、活动时间 2026年8月12日—11月30日 三、活动内容 依托承办单位家庭经典阅读方面的成果，鼓励各参与馆立足本地实际开展经典阅读活动。通过资源推荐与区域化服务创新相结合，支持各地构建家庭阅读服务新场景，为书香社会建设提供可持续的专业支撑。 （一）“家庭经典阅读”资源共享 提供“南书房家庭经典阅读书目”300种、书目提要和名家推介语，家庭经典阅读书目展和征文作品佳句赏析展电子版给各参与馆使用。各参与馆可设立“家庭经典阅读”图书专架/专区，结合书目举办主题阅读分享会、家庭读书会、书目展览等多种形式的阅读推广活动。 （二）“家庭经典阅读”实践成果展示 各参与馆可围绕本地家庭阅读服务特色，自愿推荐具有地域文化特色、创新服务模式及社会影响力的家庭经典阅读品牌项目，包括本馆书目导读、阅读分享、家庭亲子朗诵等多元化实践成果。活动将采用多种形式对相关成果进行展示推广，以促进业界经验共享与模式互鉴。 四、活动指南",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2087468890388586496.html"
+        },
+        {
+          "title_zh": "中国图书馆学会关于举办2026年阅读推广标准与评价学术研讨会的通知",
+          "summary": "各图书馆： 为进一步推动图书馆阅读推广标准与评价工作高质量发展，助力《全民阅读促进条例》落地见效，中国图书馆学会拟于2026年10月16日至18日在陕西咸阳举办2026年阅读推广标准与评价学术研讨会，现将相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 西藏民族大学 承办单位：中国图书馆学会阅读推广工作委员会 中山大学国家文化遗产与文化发展研究院 中山大学全民阅读研究中心 西藏民族大学图",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 为进一步推动图书馆阅读推广标准与评价工作高质量发展，助力《全民阅读促进条例》落地见效，中国图书馆学会拟于2026年10月16日至18日在陕西咸阳举办2026年阅读推广标准与评价学术研讨会，现将相关事项通知如下： 一、组织机构 主办单位：中国图书馆学会 西藏民族大学 承办单位：中国图书馆学会阅读推广工作委员会 中山大学国家文化遗产与文化发展研究院 中山大学全民阅读研究中心 西藏民族大学图书馆 西藏民族大学管理学院 二、会议时间及地点 时间：2026年10月16日至18日（周五至周日） 地点：西藏民族大学秦汉校区（陕西省咸阳市渭城区兰池四路南) 三、会议主题 以标准与评价助力全民阅读高质量发展 四、参会人员 特邀中国图书馆学会阅读推广工作委员会委员，标准与评价相关领域专家、学者，各图书馆及相关机构的代表等。 五、会议议程 日期 时间 内容 10月16日 下午 报到 10月17日 上午 开幕式、主旨报告 下午 专题报告、交流研讨和 会议总结 10月18日 上午 现场交流 下午 离会 六、会务提示 （一）本次会议免收会议费，会议期间食宿统一安排，参会人员住宿及往返交通费用自理。 （二）本次会议限额100人，额满即止。会议报名统一通过邮件回执的方式进行，请填写“会议回执”（见附件1）并于2026年9月15日前发至邮箱1413688580@qq.com。收到会务组邮件回复确认的代表",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2087467662404775936.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年阅读推广理论研讨会的通知",
+          "summary": "各图书馆： 为更好地推进图书馆阅读推广研究工作的开展，提升图书馆阅读推广专业化水平，推动全民阅读工作高质量发展，中国图书馆学会阅读推广工作委员会定于2026年9月22日至24日在甘肃省兰州市举办2026年阅读推广理论研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：甘肃省图书馆 甘肃省图书馆学会 二、会议主题 知行相济：阅读推广的理论建构与实践创新",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-08-12",
+          "overview": "各图书馆： 为更好地推进图书馆阅读推广研究工作的开展，提升图书馆阅读推广专业化水平，推动全民阅读工作高质量发展，中国图书馆学会阅读推广工作委员会定于2026年9月22日至24日在甘肃省兰州市举办2026年阅读推广理论研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：甘肃省图书馆 甘肃省图书馆学会 二、会议主题 知行相济：阅读推广的理论建构与实践创新 三、会议时间和日程 （一）会议时间 2026年9月22日至24日（周二至周四） （二）议程安排 日期 时间 议程安排 9月22日 下午 报到 9月23日 上午 开幕活动及主旨报告 下午 专家对谈、案例分享、 专家点评 9月24日 上午 现场交流 下午 离会 四、会议地点 甘肃省图书馆（甘肃省兰州市城关区南滨河东路488号） 五、参会人员 中国图书馆学会阅读推广工作委员会委员；图书馆学领域专家学者；图书馆馆长、阅读推广工作负责人及相关工作人员。 六、会务报名 （一）本次会议不收取会议费，会议期间食宿及交通统一安排，住宿及城市间往来交通费用自理。 （二）本次会议限额220人，额满即止。会议报名统一通过邮件的方式进行，请填写“会议回执”（附件1）并于2026年9月4日前发至邮箱gslibywc@126.com，收到会务组邮件回复确认的代表，方可参会。已报名代表，如因故无法参会，请及时联系会务组",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2087465830786932736.html"
         },
         {
           "title_zh": "When Open Data Comes Full Circle: New OCR Reprocessing Software and Datasets Portal for Chronicling America",
@@ -2118,6 +2092,134 @@
           "published": "2026-08-11",
           "overview": "各图书馆、相关机构： 为开展“十五五”时期数智赋能的图书馆区域协作发展新业态研究，助推我国公共图书馆事业高质量发展，中国图书馆学会公共图书馆分会拟于2026年9月在广东省潮州市举办“智慧·协作·共享：‘十五五’时期图书馆区域协作高质量发展研讨会”。具体事项通知如下： 一、组织机构 主办单位：中国图书馆学会公共图书馆分会 承办单位：广东图书馆学会 辽宁省图书馆学会 协办单位：潮州市图书馆 韩山师范学院图书馆 支持媒体：《图书馆论坛》编辑部 《图书馆学刊》编辑部 二、时间及地点 （一）会议时间 报到时间：9月7日14:00—20:00 会议时间：9月8日至9日上午 离会时间：9月9日下午 （二）报到及会议地点 报到地点：潮州迎宾馆（广东省潮州市湘桥区潮枫路261号，电话：0768-2399888） 会议地点：潮州市图书馆（广东省潮州市湘桥区潮州大道北段818号） 三、参会人员 （一）中国图书馆学会公共图书馆分会委员、特邀嘉宾和行业专家； （二）“数智赋能‘十五五’时期图书馆区域协作新业态研究”专题征集受邀发言代表； （三）各级各类图书馆馆长、业务骨干，图书馆行业相关从业人员等。 四、会议内容 围绕打破体制机制壁垒，实现资源共享，应用新技术开展区域协作，构建高品质、可持续的图书馆区域协作体系，打造公共图书馆服务创新发展的新高地展开研讨。 （一）专家报告 （二）交流发言 （三）现场研讨 五",
           "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2087088387806101504.html"
+        },
+        {
+          "title_zh": "Auditable AI-Assisted Research Writing: An Engineering Discipline with Pre-Registered Process Observation",
+          "eng": "Auditable AI-Assisted Research Writing: An Engineering Discipline with Pre-Registered Process Observation",
+          "summary": "Language models now draft, classify and criticise inside research production, yet the artifacts they help produce carry little accountable history. Rather than detecting machine involvement afterwards",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Language models now draft, classify and criticise inside research production, yet the artifacts they help produce carry little accountable history. Rather than detecting machine involvement afterwards, we specify an auditability discipline built at production time: git sealing with an anchor lineage, hash-bound provenance, red-line gates that refuse non-compliant artifacts and log every refusal, cross-model role separation, and programmatic assembly from registered sources. Adherence is instrumented by metric cards, each carrying a pre-registered blind spot and evidential standing, frozen befo",
+          "url": "https://arxiv.org/abs/2608.10858v1"
+        },
+        {
+          "title_zh": "A Graph Approach to the Academic Publishing Network: A Heterogeneous Model and Structural Screening over OpenAlex Open Data",
+          "eng": "A Graph Approach to the Academic Publishing Network: A Heterogeneous Model and Structural Screening over OpenAlex Open Data",
+          "summary": "The academic publishing ecosystem is a vast, heterogeneous network of works, authors, institutions, journals, and topics. Traditional scientometrics reduces it to isolated tabular indicators (h-index,",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "The academic publishing ecosystem is a vast, heterogeneous network of works, authors, institutions, journals, and topics. Traditional scientometrics reduces it to isolated tabular indicators (h-index, Impact Factor) that ignore topological context and are not designed to capture coordinated illegitimate practices. Building on our companion review, which proposed graph analysis of publishing integrity, this paper implements that approach. We define a heterogeneous multivariate graph model over OpenAlex open data (seven node types, seven edge types) and a methodology based on projections (citati",
+          "url": "https://arxiv.org/abs/2608.10774v1"
+        },
+        {
+          "title_zh": "Unveiling the Predators: Contemporary Approaches to Identifying Illegitimate Open Access Journals in the Academic Publishing Ecosystem",
+          "eng": "Unveiling the Predators: Contemporary Approaches to Identifying Illegitimate Open Access Journals in the Academic Publishing Ecosystem",
+          "summary": "Predatory journals pose a significant challenge to the integrity of the Open Access (OA) publishing model by exploiting its framework for financial gain while bypassing essential editorial and peer-re",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Predatory journals pose a significant challenge to the integrity of the Open Access (OA) publishing model by exploiting its framework for financial gain while bypassing essential editorial and peer-review standards. This study critically evaluates existing methodologies for identifying such journals, ranging from manual blacklist checks to advanced automated approaches utilizing machine learning. The analysis highlights critical limitations, including the lack of a universally accepted definition of predatory journals, over-reliance on binary classification systems (e.g., blacklists and whitel",
+          "url": "https://arxiv.org/abs/2608.10739v1"
+        },
+        {
+          "title_zh": "Most biomedical publications show signs of LLM-assisted writing",
+          "eng": "Most biomedical publications show signs of LLM-assisted writing",
+          "summary": "Over the past several years, LLM-powered chatbots and agents have become widely used as a tool for academic writing. LLM-assisted writing can be valuable by removing language barriers but at the same ",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Over the past several years, LLM-powered chatbots and agents have become widely used as a tool for academic writing. LLM-assisted writing can be valuable by removing language barriers but at the same time causes concerns about misconduct and fraud. To inform policy decisions, it is necessary to monitor the prevalence of LLM-altered texts in scholarly publications. Despite some recent progress in this direction, no existing method can produce reliable estimates. Here we suggest and validate a new unbiased approach to estimate LLM usage in a corpus of texts based on changing word frequencies. We",
+          "url": "https://arxiv.org/abs/2608.10715v1"
+        },
+        {
+          "title_zh": "Leveraging Human Reading Behavior for Keyphrase Extraction: A Webcam-based Eye-tracking Corpus",
+          "eng": "Leveraging Human Reading Behavior for Keyphrase Extraction: A Webcam-based Eye-tracking Corpus",
+          "summary": "Purpose: Keyphrases are statistically and semantically important textual units that can also attract readers' attention during comprehension. However, existing keyphrase extraction (KPE) studies mainl",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Purpose: Keyphrases are statistically and semantically important textual units that can also attract readers' attention during comprehension. However, existing keyphrase extraction (KPE) studies mainly focus on improving textual representation while largely overlooking human reading behavior. This study examines whether lightweight webcam-based eye-tracking features can improve KPE from Chinese academic abstracts in Library and Information Science (LIS). Methodology: To address the limited availability of eye-tracking data for Chinese academic reading, we developed a lightweight webcam-based d",
+          "url": "https://arxiv.org/abs/2608.10688v1"
+        },
+        {
+          "title_zh": "HexEval: An Evidence-Driven Hexagonal Framework for Multidimensional Scholar Assessment",
+          "eng": "HexEval: An Evidence-Driven Hexagonal Framework for Multidimensional Scholar Assessment",
+          "summary": "Scholar assessment plays a fundamental role in faculty recruitment, funding allocation, academic promotion, and talent discovery. Existing scholar assessment methods predominantly rely on bibliometric",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Scholar assessment plays a fundamental role in faculty recruitment, funding allocation, academic promotion, and talent discovery. Existing scholar assessment methods predominantly rely on bibliometric indicators and reputation proxies, while recent large language model (LLM)-based approaches mainly focus on evaluating individual research papers rather than comprehensively assessing scholars. We argue that scholar assessment should be formulated as an evidence-driven reasoning problem that jointly considers intrinsic research quality and externally verifiable scholarly behavior. To this end, we",
+          "url": "https://arxiv.org/abs/2608.10584v1"
+        },
+        {
+          "title_zh": "Are We Really Making Progress in Group Recommendation? Unmasking the Tie-Breaking Illusion",
+          "eng": "Are We Really Making Progress in Group Recommendation? Unmasking the Tie-Breaking Illusion",
+          "summary": "Recent group recommendation methods have reported strong improvements on standard benchmarks, but it remains unclear whether these gains always reflect genuine advances in modeling group preferences. ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Recent group recommendation methods have reported strong improvements on standard benchmarks, but it remains unclear whether these gains always reflect genuine advances in modeling group preferences. In this paper, we show that several recent methods are affected by a systematic evaluation bias caused by the interaction between training-time score compression and evaluation-time deterministic tie-breaking. Specifically, an additional sigmoid transformation before the BPR objective can greatly increase tied top scores, making top-K metrics such as HR@K and NDCG@K highly sensitive to how ties ar",
+          "url": "https://arxiv.org/abs/2608.11190v1"
+        },
+        {
+          "title_zh": "Role of Personality in Conversational Information Seeking",
+          "eng": "Role of Personality in Conversational Information Seeking",
+          "summary": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does more than retrieve or",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does more than retrieve or generate content: it shapes how users articulate constraints, ask follow-up questions, verify claims, and decide when an answer is sufficient for action. Yet little is known about how user personality, assistant personality, and task context jointly influence these interactions. We examine personality as a controllable variable in conversational information seeking and study its effects on user b",
+          "url": "https://arxiv.org/abs/2608.11164v1"
+        },
+        {
+          "title_zh": "Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization",
+          "eng": "Multi-Level Evidence Aggregation for Robust Facial Phenotype Retrieval in Rare Genetic Disorder Prioritization",
+          "summary": "AI-assisted facial phenotyping supports rare genetic disorder prioritization by retrieving visually similar diagnosed cases from facial image reference databases such as the GestaltMatcher Database (G",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "AI-assisted facial phenotyping supports rare genetic disorder prioritization by retrieving visually similar diagnosed cases from facial image reference databases such as the GestaltMatcher Database (GMDB). Existing GestaltMatcher-based retrieval frameworks compare each test image with individual gallery images in a facial phenotype embedding space. However, this pointwise formulation does not fully exploit available evidence, because patients may have multiple images and disorders may be represented by multiple diagnosed gallery patients. We propose an inference-time multi-level evidence aggre",
+          "url": "https://arxiv.org/abs/2608.11037v1"
+        },
+        {
+          "title_zh": "Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching",
+          "eng": "Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching",
+          "summary": "Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. However, due to the complex structure of patent documents, dense technical te",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. However, due to the complex structure of patent documents, dense technical terminology, and multi-modal information, traditional methods struggle to accurately identify subtle differences between patents. Existing LLM-based patent matching approaches typically rely on domain-specific pretrained or instruction tuning, which often entail high manual labeling costs and catastrophic forgetting. While retrieval-augmented generation (RAG) methods introduce external knowledge the",
+          "url": "https://arxiv.org/abs/2608.11030v1"
+        },
+        {
+          "title_zh": "Sona Technical Report",
+          "eng": "Sona Technical Report",
+          "summary": "We introduce Sona, a single-model generative recommender for Yandex Music. In an online A/B test, Sona replaced the entire production cascade, comprising more than 15 candidate generators followed by ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "We introduce Sona, a single-model generative recommender for Yandex Music. In an online A/B test, Sona replaced the entire production cascade, comprising more than 15 candidate generators followed by pre-ranking and ranking models that consume hundreds of features, including signals from large transformer models such as Argus and target-attention scorers, while significantly improving key engagement metrics. The architecture of Sona unifies candidate generation and ranking around a shared user representation. Its encoder transforms the user's chronological sequence of logged engagement events ",
+          "url": "https://arxiv.org/abs/2608.11015v1"
+        },
+        {
+          "title_zh": "TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation",
+          "eng": "TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation",
+          "summary": "Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate pur",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient audio around Valentine's Day. This modality time-scale mismatch gives rise to two coupled challenges: (1) users require different modality proportions across temporal contexts, and (2) less relevant modalities are more likely to introduce outdated or misleading signals into the recommender. We address ",
+          "url": "https://arxiv.org/abs/2608.10983v1"
+        },
+        {
+          "title_zh": "Artificial intelligence in academic libraries: LIS students’ perceptions, expectations and predictors",
+          "eng": "Artificial intelligence in academic libraries: LIS students’ perceptions, expectations and predictors",
+          "source": "Journal of Librarianship and Information Science",
+          "region": "国际",
+          "published": "2026-08-11",
+          "url": "https://doi.org/10.1177/09610006261468357"
         },
         {
           "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年科普阅读推广研讨会的通知",
