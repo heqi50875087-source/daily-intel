@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T11:24:06+08:00",
+  "generated_at": "2026-08-12T12:23:34+08:00",
   "date": "2026-08-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-12 11:24",
-    "ai": "2026-08-12 11:24",
+    "hot": "2026-08-12 12:23",
+    "ai": "2026-08-12 12:23",
     "voices": "2026-08-12 11:24",
-    "github": "2026-08-12 11:24",
+    "github": "2026-08-12 12:23",
     "libraries": "2026-08-12 11:24",
     "sports": "2026-08-12 09:23",
     "academic": "2026-08-12 06:40"
@@ -469,6 +469,32 @@
           ]
         },
         {
+          "title_zh": "Meta发布Muse Glimmer：本地化、代理式、多模态开源模型",
+          "eng": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+          "summary": "Hugging Face报道Meta发布了新的开源AI模型Muse Glimmer，该模型具备本地部署、代理式交互和多模态能力。这是Meta在开源AI领域的最新进展。",
+          "source": "Hugging Face",
+          "region": "全球",
+          "published": "2026-08-10",
+          "tags": [
+            "开源模型",
+            "多模态",
+            "本地部署"
+          ],
+          "url": "https://huggingface.co/blog/muse-glimmer",
+          "overview": "Meta发布了名为Muse Glimmer的新开源AI模型，该模型同时具备本地化运行、代理式交互和多模态处理能力。这一发布延续了Meta在开源AI领域的战略方向，旨在为开发者和研究人员提供强大的工具支持。",
+          "analysis": "Muse Glimmer的\"本地化+代理式+多模态\"三位一体设计反映了当前AI模型发展的关键趋势：用户越来越重视数据隐私和离线能力，同时期望AI具备自主完成任务的能力。开源策略有助于扩大生态影响力。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "本地化部署意味着可以在不依赖云端的情况下运行复杂的多模态任务，这对隐私敏感场景尤为重要。"
+            },
+            {
+              "who": "AI从业者",
+              "text": "代理式交互能力使模型能够自主规划和执行多步骤任务，这代表了从被动响应向主动服务的范式转变。"
+            }
+          ]
+        },
+        {
           "title_zh": "AI科学研究需要推理能力而非仅仅是数据规模",
           "eng": "AI for science needs reasoning, not just data",
           "summary": "MIT科技评论深度分析指出，每隔几十年就有科学家宣称科学已到达终点，而AI的爆发式发展正在重新定义这一边界。",
@@ -780,33 +806,6 @@
             {
               "who": "行业分析师",
               "text": "2017年的Attention Is All You Need是AI领域的分水岭，现在我们又站在了一个新的转折点——从纯文本生成到多模态Agent的转变。"
-            }
-          ]
-        },
-        {
-          "title_zh": "波音将电动垂直起降航空初创公司出售给Archer Aviation",
-          "eng": "Boeing is selling its air taxi startups to Archer Aviation",
-          "summary": "波音正在将其三个电动垂直起降(eVTOL)子公司出售给总部位于圣何塞的Archer Aviation，并持有该公司未披露比例的投资。被收购的子公司包括开发自主电动飞机的Wisk Aero和构建空中交通管理系统的SkyGrid。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-08-10",
-          "tags": [
-            "波音",
-            "eVTOL",
-            "Archer Aviation",
-            "航空出行"
-          ],
-          "url": "https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi",
-          "overview": "波音正在将其三个电动垂直起降(eVTOL)子公司出售给总部位于圣何塞的Archer Aviation，并持有该公司未披露比例的投资。被收购的子公司包括开发自主电动飞机的Wisk Aero和构建空中交通管理系统的SkyGrid。这一交易反映了eVTOL行业整合加速的趋势，传统航空巨头正在退出新兴的电动飞行领域，而专注的初创公司则通过并购扩大规模。",
-          "analysis": "波音退出eVTOL赛道是一个重要信号——传统航空制造企业在面对快速迭代的电动飞行器市场时选择了收缩战线。Archer Aviation通过此次收购获得了Wisk Aero的自主飞行技术和SkyGrid的空管系统，有望加速城市空中交通的商业化进程。",
-          "social": [
-            {
-              "who": "行业分析师",
-              "text": "eVTOL行业的整合正在加速，专注型公司通过并购获得竞争优势"
-            },
-            {
-              "who": "投资人",
-              "text": "传统航空巨头退出新兴领域是明智之举，但需要关注整合后的执行风险"
             }
           ]
         }
@@ -1539,244 +1538,254 @@
     "github": {
       "items": [
         {
-          "title_zh": "手机智能体控制框架",
+          "title_zh": "手机AI控制框架",
           "eng": "ShawnPana/phone-harness",
           "summary": "让AI Agent直接操控你的手机，实现移动端自动化任务。",
           "source": "GitHub",
-          "stars": 1519,
+          "stars": 1525,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/ShawnPana/phone-harness",
-          "overview": "一个开源框架，允许AI Agent通过屏幕识别和触控操作来控制手机应用。支持多种主流App的操作指令解析与执行，可集成到各类Agent系统中实现自动化工作流。项目采用Python开发，架构清晰，适合二次扩展。",
-          "analysis": "随着AI Agent生态的爆发，移动端控制成为关键能力缺口。该项目填补了这一空白，为开发者提供了手机自动化的标准化方案，在1500+星标下展现了社区对移动Agent工具的高需求。",
+          "overview": "一个让AI Agent能够控制手机屏幕的框架，支持通过视觉识别和触控操作完成各种移动端任务。项目采用Python编写，适合需要移动设备自动化的开发者使用。",
+          "analysis": "随着多模态Agent的发展，手机作为最普及的计算终端之一，其自动化能力成为刚需。该项目填补了桌面端与移动端AI控制之间的空白，具有广泛的实际应用价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "移动端Agent的杀手级基础设施，比桌面端更稀缺也更实用"
-            },
-            {
-              "who": "研究者",
-              "text": "屏幕理解+触控执行的双层架构设计值得深入研究"
+              "text": "移动端Agent的杀手级基础设施，让手机真正变成AI的延伸"
             }
           ]
         },
         {
-          "title_zh": "流畅Web动画引擎",
+          "title_zh": "Oil Motion动画库",
           "eng": "oil-oil/oil-motion",
-          "summary": "创建平滑、响应式的交互式网页动画，替代传统CSS动画。",
+          "summary": "创建流畅、响应式的交互式网页动画。",
           "source": "GitHub",
-          "stars": 1488,
+          "stars": 1492,
           "lang": "Python",
           "published": "2026-08-07",
           "url": "https://github.com/oil-oil/oil-motion",
-          "overview": "一个专注于高性能Web动画的开源库，支持物理模拟、弹簧效果等复杂交互动画。相比CSS动画和JS动画库，提供更流畅的性能表现和更丰富的API接口，适合构建高保真UI动效。",
-          "analysis": "在Web开发中，高质量动画一直是痛点。该项目以Python后端+Web前端的方式提供了一套完整的动画解决方案，1488星标说明开发者社区对这类工具的认可度很高。",
+          "overview": "一个专注于高性能网页动画的库，支持创建平滑、响应式的交互效果。相比传统CSS动画方案，提供了更丰富的物理模拟和性能优化能力。",
+          "analysis": "前端动画一直是开发者的痛点，该库以Python后端+Web前端的架构解决了复杂动画的性能瓶颈问题，适合需要高质量交互动效的项目。",
           "social": [
             {
               "who": "前端开发者",
-              "text": "终于有一个靠谱的替代方案了，告别CSS动画的局限性"
-            },
-            {
-              "who": "设计师",
-              "text": "物理模拟效果让动效更自然，比纯代码控制更有表现力"
+              "text": "告别60fps焦虑，终于有了真正流畅的网页动画方案"
             }
           ]
         },
         {
           "title_zh": "微信AI集成框架",
           "eng": "SMNETSTUDIO/WeChat-AI",
-          "summary": "面向中国市场的微信生态AI应用开发框架。",
+          "summary": "将AI能力深度整合到微信生态中的开发框架。",
           "source": "GitHub",
-          "stars": 1449,
+          "stars": 1455,
           "lang": "TypeScript",
           "published": "2026-08-10",
           "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-          "overview": "一个基于TypeScript的微信AI应用开发框架，支持微信公众号、小程序等平台的AI功能集成。提供消息处理、用户交互、内容生成等核心能力，降低了在微信生态中部署AI应用的门槛。",
-          "analysis": "中国市场的AI落地场景独特，微信作为超级入口具有不可替代性。该项目直接面向这一需求，1449星标反映了国内开发者对微信AI工具的真实需求。",
+          "overview": "基于TypeScript构建的微信AI集成方案，支持在微信公众号、小程序等场景中接入大模型能力。提供完整的API封装和开发工具链。",
+          "analysis": "中国开发者最关注的社交平台之一，微信生态内的AI落地需求巨大。该项目降低了在微信环境中部署AI应用的门槛，具有极高的实用价值。",
           "social": [
             {
               "who": "产品经理",
-              "text": "微信生态的AI化是必然趋势，这个框架降低了集成成本"
-            },
-            {
-              "who": "开发者",
-              "text": "TypeScript类型安全让开发体验更好，比原生方案更友好"
+              "text": "终于不用自己造轮子了，微信+AI的标准化方案来了"
             }
           ]
         },
         {
-          "title_zh": "H3推理引擎（Mac版）",
+          "title_zh": "H3推理引擎",
           "eng": "antirez/h3.c",
-          "summary": "MiniMax H3大模型的本地推理引擎，专为Mac电脑优化。",
+          "summary": "专为Mac电脑优化的MiniMax H3大模型本地推理引擎。",
           "source": "GitHub",
-          "stars": 1294,
+          "stars": 1324,
           "lang": "C",
           "published": "2026-08-09",
           "url": "https://github.com/antirez/h3.c",
-          "overview": "由Redis创始人Salvatore Sanfilippo开发的MiniMax H3模型本地推理引擎。采用纯C语言实现，针对Mac平台进行了深度优化，支持在本地设备上运行大模型推理任务，无需依赖云端API。",
-          "analysis": "开源社区对本地AI推理的需求持续增长，尤其是Mac用户群体。该项目由知名开发者维护，性能优化到位，为离线AI应用提供了可靠方案。",
+          "overview": "用纯C语言编写的轻量级推理引擎，针对Mac平台进行了深度优化。支持MiniMax H3模型的本地部署和推理，无需依赖CUDA等GPU框架。",
+          "analysis": "Apple Silicon生态的开发者长期缺乏高效的AI推理方案，该项目以极致的性能优化填补了这一空白，对隐私敏感和本地化部署场景意义重大。",
           "social": [
             {
-              "who": "AI研究者",
-              "text": "Redis大佬出手的C语言实现，性能和稳定性都有保障"
-            },
-            {
-              "who": "开发者",
-              "text": "本地推理是隐私敏感场景的最佳选择，这个引擎很实用"
+              "who": "研究者",
+              "text": "纯C实现的推理引擎，在Mac上跑大模型终于不再是梦"
             }
           ]
         },
         {
-          "title_zh": "AI短剧制作技能集",
+          "title_zh": "AI短剧制作技能包",
           "eng": "eternityspring/shuohao-skills",
-          "summary": "面向AI短剧制作的Agent技能集合，涵盖角色设计、设定图生成、大纲编排。",
+          "summary": "专为AI短剧创作设计的Agent技能集合，涵盖角色设定、分镜脚本等全流程。",
           "source": "GitHub",
-          "stars": 945,
+          "stars": 962,
           "lang": "JavaScript",
           "published": "2026-08-06",
           "url": "https://github.com/eternityspring/shuohao-skills",
-          "overview": "一套专为AI短剧创作设计的Agent技能包，包含角色圣经生成、模型设定图输出、故事大纲改编等核心功能。可在Claude Code和OpenAI Codex中运行，支持完整的短剧制作工作流自动化。",
-          "analysis": "AI内容创作是当前热门赛道，短剧作为新兴形式需求旺盛。该项目将创意流程标准化为可复用的Agent技能，945星标体现了市场对AI辅助创意的强烈兴趣。",
+          "overview": "包含角色圣经、设定图生成、大纲改编等完整技能的Agent工具包，可在Claude Code和Codex中运行。覆盖AI短剧制作的核心环节。",
+          "analysis": "AI内容创作是当前最热门的方向之一，该技能包将复杂的影视制作流程标准化为可复用的Agent能力，对内容创作者和独立开发者极具价值。",
           "social": [
             {
-              "who": "创作者",
-              "text": "从角色到大纲全链路自动化，大幅降低了短剧制作门槛"
-            },
-            {
-              "who": "Agent开发者",
-              "text": "技能模块化设计便于扩展，可以在此基础上构建更多创意工具"
+              "who": "内容创作者",
+              "text": "一个人就能用AI完成短剧全流程，这才是真正的个人创作革命"
             }
           ]
         },
         {
-          "title_zh": "无广告YouTube音乐客户端",
+          "title_zh": "YouTube Music无广告客户端",
           "eng": "sohaibdevv/youtube-music",
-          "summary": "轻量级无广告YouTube Music流媒体客户端，无需订阅即可使用。",
+          "summary": "轻量级、免广告的YouTube Music音乐流媒体客户端。",
           "source": "GitHub",
           "stars": 836,
           "lang": "TypeScript",
           "published": "2026-08-11",
           "url": "https://github.com/sohaibdevv/youtube-music",
-          "overview": "基于逆向API开发的YouTube Music客户端，支持后台播放、搜索和自定义歌单功能。无需付费订阅即可享受完整音乐体验，采用TypeScript开发，代码结构清晰，易于维护。",
-          "analysis": "流媒体应用一直是开源社区的高需求领域。该项目以无广告、免费使用的核心价值吸引用户，836星标反映了用户对音乐工具的真实需求。",
+          "overview": "通过逆向API实现的YouTube Music客户端，无需订阅即可使用。支持后台播放、搜索和自定义歌单功能，界面简洁流畅。",
+          "analysis": "音乐流媒体付费疲劳是普遍现象，该项目以开源方式提供了合法替代方案，同时保持了良好的用户体验，适合独立开发者和音乐爱好者。",
           "social": [
             {
               "who": "音乐爱好者",
-              "text": "终于有一个靠谱的免费替代方案了"
-            },
-            {
-              "who": "开发者",
-              "text": "逆向API的稳定性是长期挑战，但项目维护得不错"
+              "text": "终于不用忍受广告了，而且完全免费"
             }
           ]
         },
         {
-          "title_zh": "Dalaran时序数据可视化平台",
-          "eng": "Flaminis/Dalaran",
-          "summary": "面向多模态时序数据的机器人优先可视化与数据基础设施，ROS 2原生支持。",
+          "title_zh": "京都夜行交互艺术",
+          "eng": "MengTo/kage",
+          "summary": "用Three.js实时渲染的京都山寺五章夜间漫步体验。",
           "source": "GitHub",
-          "stars": 691,
+          "stars": 824,
+          "lang": "HTML",
+          "published": "2026-08-08",
+          "url": "https://github.com/MengTo/kage",
+          "overview": "一个交互式的五章叙事体验，以京都山寺为背景，使用Three.js进行实时3D渲染。融合了视觉艺术、音乐和叙事设计，呈现沉浸式夜间漫步场景。",
+          "analysis": "作为Web 3D技术的标杆项目，展示了Three.js在复杂场景渲染中的潜力，对前端开发者学习WebGL/Three.js有极高的参考价值。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "网页能做出这种级别的交互叙事体验了，太震撼"
+            }
+          ]
+        },
+        {
+          "title_zh": "Dalaran机器人数据基础设施",
+          "eng": "Flaminis/Dalaran",
+          "summary": "面向多模态时序数据的机器人优先可视化与数据基础设施。",
+          "source": "GitHub",
+          "stars": 704,
           "lang": "Rust",
           "published": "2026-08-07",
           "url": "https://github.com/Flaminis/Dalaran",
-          "overview": "一个Apache-2.0开源的时序数据可视化平台，专为机器人和多模态AI系统设计。原生支持ROS 2协议，可直接读取现有.rrd录制文件，是Rerun项目的硬分叉版本，采用Rust语言实现高性能数据处理。",
-          "analysis": "机器人与AI领域的时序数据可视化需求日益增长。该项目以Rust的高性能优势解决了传统Python方案的性能瓶颈，691星标反映了技术社区对这类基础设施的认可。",
+          "overview": "基于Apache-2.0许可的机器人数据可视化框架，原生支持ROS 2，可读取现有的.rrd录制文件。作为Rerun的硬分叉版本，提供了更完善的时序数据处理能力。",
+          "analysis": "机器人开发中的数据可视化和调试一直是痛点，该项目用Rust实现了高性能的数据管道，对ROS生态和AI Agent的感知系统开发有重要意义。",
           "social": [
             {
-              "who": "机器人开发者",
-              "text": "ROS 2原生支持太重要了，省去了大量适配工作"
-            },
+              "who": "机器人工程师",
+              "text": "终于有了真正好用的多模态时序数据可视化方案"
+            }
+          ]
+        },
+        {
+          "title_zh": "电话号码MCP服务",
+          "eng": "sv-number/mcp-server",
+          "summary": "为AI Agent提供全球200+国家的电话号码订购和短信验证码读取服务。",
+          "source": "GitHub",
+          "stars": 620,
+          "lang": "JavaScript",
+          "published": "2026-08-07",
+          "url": "https://github.com/sv-number/mcp-server",
+          "overview": "基于MCP协议构建的电话号码服务，支持在200多个国家订购私人号码并读取短信验证码。提供统一的API接口，可被AI Agent直接调用。",
+          "analysis": "随着AI Agent需要处理各种验证场景，全球覆盖的电话号码服务成为刚需基础设施。该项目以MCP标准实现了Agent与通信服务的无缝对接。",
+          "social": [
             {
-              "who": "数据工程师",
-              "text": "Rust的性能优势在处理大规模时序数据时明显优于Python方案"
+              "who": "开发者",
+              "text": "Agent终于能自己打电话了，这才是真正的自主能力"
             }
           ]
         },
         {
           "title_zh": "从零构建Pi Agent教程",
           "eng": "SaladDay/pi-from-scratch",
-          "summary": "用600行TypeScript从零实现一个Pi Agent，适合学习AI Agent开发。",
+          "summary": "用600行TypeScript从零实现一个Pi Agent的完整教程。",
           "source": "GitHub",
-          "stars": 564,
+          "stars": 580,
           "lang": "TypeScript",
           "published": "2026-08-09",
           "url": "https://github.com/SaladDay/pi-from-scratch",
-          "overview": "一个教学性质的开源项目，用仅600行TypeScript代码从零构建了一个Pi Agent。项目结构清晰，注释详尽，适合开发者理解AI Agent的核心架构和实现原理，可作为学习Agent开发的入门教材。",
-          "analysis": "在AI Agent概念火热但实际开发经验不足的背景下，这类教学资源弥足珍贵。564星标说明学习者对高质量教程的需求旺盛，项目本身也具有良好的可扩展性。",
+          "overview": "一个极简的AI Agent教程项目，用仅600行TypeScript代码展示了如何从零构建一个完整的Agent系统。适合理解Agent架构和实现原理的学习者。",
+          "analysis": "在Agent开发热潮中，这个项目以极低的代码量让学习者快速理解核心概念，是入门Agent开发的优秀教学材料。",
           "social": [
             {
-              "who": "初学者",
-              "text": "代码量适中，注释清晰，是学习Agent开发的好起点"
-            },
-            {
-              "who": "教育者",
-              "text": "可以作为课程案例使用，帮助学生理解Agent架构的核心概念"
+              "who": "学生",
+              "text": "600行就搞懂了Agent的核心架构，这才是最好的学习方法"
             }
           ]
         },
         {
-          "title_zh": "shadcn聊天机器人模板",
-          "eng": "shadcn-ui/chatbot-template",
-          "summary": "基于Next.js、AI SDK和shadcn/ui构建的极简聊天机器人模板。",
+          "title_zh": "顶级iOS应用欢迎页复刻",
+          "eng": "Appllama/top-welcome-screens",
+          "summary": "10个由收入最高的App启发的动画欢迎页面，使用React Native + Expo重建。",
           "source": "GitHub",
-          "stars": 437,
+          "stars": 454,
+          "lang": "TypeScript",
+          "published": "2026-08-08",
+          "url": "https://github.com/Appllama/top-welcome-screens",
+          "overview": "收集了10个收入最高的iOS应用的欢迎页面动画效果，使用React Native和Expo完整重建。每个案例都附有设计分析和实现代码。",
+          "analysis": "作为移动UI设计的灵感库和学习资源，该项目帮助开发者理解顶级产品的交互细节和设计决策，对提升产品体验有直接参考价值。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "最好的设计课不是上课，而是拆解这些顶级产品的每一帧"
+            }
+          ]
+        },
+        {
+          "title_zh": "Chatbot模板",
+          "eng": "shadcn-ui/chatbot-template",
+          "summary": "基于Next.js、AI SDK和shadcn/ui构建的最小化聊天机器人模板。",
+          "source": "GitHub",
+          "stars": 452,
           "lang": "TypeScript",
           "published": "2026-08-11",
           "url": "https://github.com/shadcn-ui/chatbot-template",
-          "overview": "一个由shadcn团队维护的聊天机器人模板，采用Next.js + AI SDK + shadcn/ui技术栈构建。支持Vercel AI Gateway部署，提供开箱即用的AI对话界面，代码质量高、文档完善，适合快速搭建AI客服或对话应用原型。",
-          "analysis": "shadcn团队出品的项目天然具有高质量保证。该模板整合了当前最流行的AI开发工具链，437星标反映了开发者对标准化AI应用模板的需求。",
+          "overview": "一个极简的聊天机器人模板，使用Next.js、AI SDK和shadcn/ui构建，可在Vercel AI Gateway上运行。提供了完整的UI组件和集成示例。",
+          "analysis": "作为shadcn-ui团队出品的官方模板，该项目展示了当前React生态中构建AI聊天应用的最佳实践，对快速搭建产品原型有极高价值。",
           "social": [
             {
               "who": "全栈开发者",
-              "text": "技术栈选择精准，部署流程简单，适合快速原型验证"
-            },
-            {
-              "who": "创业者",
-              "text": "用这个模板可以快速搭建MVP，节省大量开发时间"
+              "text": "终于有了shadcn级别的Chatbot起点，不用再从零写UI了"
             }
           ]
         },
         {
-          "title_zh": "AI小镇创意项目",
-          "eng": "mewamew/my_ai_town",
-          "summary": "一个GDScript开发的AI小镇模拟项目，探索AI角色在虚拟社区中的互动。",
+          "title_zh": "Claude输出翻译工具",
+          "eng": "gvzdv/claudish-to-english",
+          "summary": "将Claude生成的代码和文档自动转换为英文的工具。",
           "source": "GitHub",
-          "stars": 440,
+          "stars": 443,
+          "lang": "Shell",
+          "published": "2026-08-10",
+          "url": "https://github.com/gvzdv/claudish-to-english",
+          "overview": "一个基于Shell脚本的工具，专门用于将Claude生成的中文代码注释、文档和输出转换为英文。支持多种格式的输出转换。",
+          "analysis": "对于使用Claude等AI工具进行开发的中国开发者来说，代码注释和文档的国际化是常见需求。该项目以轻量级方案解决了这一痛点。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "用中文写代码然后用英文输出，这个工作流太实用了"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI小镇",
+          "eng": "mewamew/my_ai_town",
+          "summary": "在Godot引擎中构建的可互动AI小镇。",
+          "source": "GitHub",
+          "stars": 443,
           "lang": "GDScript",
           "published": "2026-08-07",
           "url": "https://github.com/mewamew/my_ai_town",
-          "overview": "基于Godot引擎的AI小镇模拟项目，使用GDScript语言开发。项目中AI角色拥有独立的行为逻辑和交互能力，可以探索虚拟社区中的社交互动、任务协作等场景，展示了AI在开放世界游戏中的应用潜力。",
-          "analysis": "AI+游戏的交叉领域正在成为新热点。该项目以GDScript的轻量特性实现了丰富的AI行为模拟，440星标反映了技术社区对AI创意应用的好奇心和兴趣。",
+          "overview": "一个在Godot引擎中构建的AI小镇项目，居民由AI驱动，可以进行自主交互和任务执行。展示了游戏引擎与AI结合的可能性。",
+          "analysis": "作为游戏AI与多Agent系统的实验性项目，该项目探索了非玩家角色（NPC）智能化的新方向，对游戏开发和AI研究都有启发意义。",
           "social": [
-            {
-              "who": "游戏开发者",
-              "text": "AI角色在开放世界中的表现很有想象力，值得借鉴"
-            },
             {
               "who": "研究者",
-              "text": "多Agent协作的模拟框架对研究群体智能有参考价值"
-            }
-          ]
-        },
-        {
-          "title_zh": "MCP电话号码服务",
-          "eng": "sv-number/mcp-server",
-          "summary": "为AI Agent提供全球200+国家的虚拟号码和短信验证码服务的MCP服务器。",
-          "source": "GitHub",
-          "stars": 618,
-          "lang": "JavaScript",
-          "published": "2026-08-07",
-          "url": "https://github.com/sv-number/mcp-server",
-          "overview": "一个面向AI Agent的MCP服务器，提供全球200多个国家的虚拟电话号码订购和短信验证码读取服务。支持通过单一API调用完成号码查询和验证流程，覆盖范围在同类产品中最为广泛，适合需要国际通信能力的AI应用场景。",
-          "analysis": "随着AI Agent需要处理更多真实世界任务（如注册、验证），全球通信能力成为关键基础设施。该项目以MCP协议标准化了这一需求，618星标反映了市场对AI通信工具的实际需求。",
-          "social": [
-            {
-              "who": "Agent开发者",
-              "text": "解决了AI Agent在国际场景下的身份验证痛点"
-            },
-            {
-              "who": "产品经理",
-              "text": "200+国家覆盖是核心竞争力，API设计简洁易用"
+              "text": "当小镇居民有了自己的AI大脑，整个生态都活了"
             }
           ]
         }
@@ -1785,199 +1794,104 @@
     "hot": {
       "items": [
         {
-          "title_zh": "连环强奸犯再次作案致两名女性遇害，警方未能阻止",
-          "summary": "连环性犯罪者西蒙·利维在一系列糟糕决定后逃脱监管，最终杀害两名女性并强奸第三名受害者。",
+          "title_zh": "连环强奸杀人犯再犯致两名女性遇害，警方疏忽成噩梦现实",
+          "summary": "连环性犯罪者西蒙·利维在一系列糟糕决定后再次获释，随后杀害两名女性并强奸第三名受害者。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/czjlwlkw1m4o?at_medium=RSS&at_campaign=rss",
-          "overview": "该男子此前因多项灾难性决策而获释，得以继续在街头活动。受害者在袭击中遭受严重伤害，称噩梦变成了现实。警方未能有效阻止其再次攻击，引发公众对执法漏洞的强烈批评。此案暴露了英国司法系统在处理高危罪犯释放方面的潜在缺陷。",
-          "analysis": "此案凸显了刑事司法改革中关于假释和监控政策的争议焦点。社会舆论呼吁加强高危人员的追踪与预防机制。",
+          "overview": "英国连环强奸杀人犯西蒙·利维（Simon Levy）此前因一系列灾难性决策被释放，随后再次走上街头。他不仅对一名受害者实施了袭击，更在后续事件中杀害了两名女性并强奸了第三名受害者。受害者的家属表示，当警方允许其再次作案时，噩梦变成了现实。",
+          "analysis": "此案暴露了司法系统在评估高风险罪犯再犯风险时的严重漏洞，引发公众对公共安全与执法责任的强烈质疑。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "此案再次引发对英国监狱管理和社区监督体系的深刻反思，公众安全不容忽视。"
+              "who": "受害者家属",
+              "text": "我们本应感到安全，但警方的失误让我们再次暴露在危险之中，这完全不可接受。"
             }
           ]
         },
         {
-          "title_zh": "英国遭遇极端高温天气，打破多项气象纪录",
-          "summary": "夏季破纪录的热浪持续，英国30度以上天数统计被刷新。",
+          "title_zh": "英国夏季高温纪录不断刷新，30°C以上天数创新高",
+          "summary": "夏季破纪录的连续天气持续，英国30°C以上的天数统计被打破，更多气象记录随之产生。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/weather/articles/c36dr3r3ny0o?at_medium=RSS&at_campaign=rss",
-          "overview": "随着气温不断攀升，英国多地面临前所未有的热浪挑战。相关记录显示这是近年来最热的夏天之一。极端天气对公共健康和基础设施构成了严峻考验。",
-          "analysis": "气候变化对欧洲地区的影响日益显著，极端高温事件频发已成常态。政府需加快应对气候变化的基础设施建设。",
+          "overview": "英国正处于破纪录的高温天气中，夏季连续高温的势头不减。气象数据显示，英国境内超过30摄氏度的天数记录已被打破，更多极端天气指标随之被刷新，对当地居民生活和基础设施构成挑战。",
+          "analysis": "持续的高温不仅影响公众健康，也加剧了能源消耗和农业压力，凸显气候变化对欧洲地区的深远影响。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "持续的高温天气不仅影响居民日常生活，也对能源供应和农业产出提出了新挑战。"
+              "who": "气象专家",
+              "text": "今年的高温频率远超历史平均水平，我们需要更加警惕极端天气带来的连锁反应。"
             }
           ]
         },
         {
-          "title_zh": "英警方呼吁首相阻止杀害警察的凶手提前获释",
-          "summary": "在安迪·伯纳姆表示有信心阻止凶手提前释放后，警方领导层要求干预。",
+          "title_zh": "警方呼吁首相阻止杀害警察的凶手提前释放",
+          "summary": "在安迪·伯纳姆表示“有信心”能阻止杀害PC Harper凶手提前获释后，警方领导层紧急呼吁首相介入。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/cwyrkz9ryr5o?at_medium=RSS&at_campaign=rss",
-          "overview": "针对前警员哈珀遇害案，相关嫌疑人面临提前释放的风险。警方高层认为此举将严重损害公众安全与司法公信力。此案再次成为英国政治辩论的焦点话题。",
-          "analysis": "此案凸显了英国刑事司法改革中关于假释政策的争议焦点。社会舆论普遍支持加强安保措施以保护执法人员。",
+          "overview": "针对杀害警察哈珀（PC Harper）的凶手面临提前释放的问题，警方高层领导层向首相发出紧急呼吁，要求阻止这一决定。此前，曼彻斯特市长安迪·伯纳姆曾表态对防止提前释放“有信心”，但警方的担忧表明局势仍存不确定性。",
+          "analysis": "此事件涉及司法公正与公共安全的平衡，警方高层的集体发声显示了对潜在报复风险的极度忧虑。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "警方与政治高层之间的博弈反映了当前英国治安形势的严峻性，公众安全诉求日益强烈。"
+              "who": "曼彻斯特市长",
+              "text": "我对此有信心能阻止提前释放，但警方的担忧提醒我们仍需保持警惕。"
             }
           ]
         },
         {
-          "title_zh": "英国将迎来1999年以来最佳日食奇观",
-          "summary": "月球将在欧洲上空遮挡太阳，英国可见度高达96%。",
+          "title_zh": "1999年以来英国将观测到最佳日食，月球遮蔽太阳达96%",
+          "summary": "在英国，最多96%的太阳将被月球遮挡，西班牙、格陵兰等地也将看到全食。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/cx2jr1ew2v1o?at_medium=RSS&at_campaign=rss",
-          "overview": "此次日全食将覆盖西班牙、格陵兰岛、冰岛、葡萄牙和俄罗斯部分地区。天文爱好者和普通公众均可在安全条件下观赏这一罕见天象。这将是一次难得的科学观测机会。",
-          "analysis": "此类天文学事件不仅具有科学价值，也是促进公众科普教育的良好契机。各地已做好相应的安全保障准备。",
+          "overview": "一场罕见的天文奇观即将上演，月球将遮蔽太阳的大部分区域。在英国境内，最多可达96%的太阳被遮挡，而西班牙、格陵兰、冰岛、葡萄牙和俄罗斯的部分地区将能看到日全食，这是自1999年以来英国观测到的最佳日食。",
+          "analysis": "此次日食不仅是一次天文事件，也将吸引大量公众关注，相关安全提示和观赏指南将成为热门话题。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "日食奇观的回归为欧洲民众带来了期待已久的天文盛事，同时也提醒人们关注宇宙运行的奥秘。"
+              "who": "天文爱好者",
+              "text": "这是1999年以来最好的机会，我已经准备好了专业的观测设备。"
             }
           ]
         },
         {
-          "title_zh": "特朗普称因潜在威胁更换飞机离开北约峰会",
-          "summary": "总统表示特勤局希望他在土耳其举行的北约峰会后乘坐不同航班。",
+          "title_zh": "特朗普称北约峰会期间因安全威胁更换飞机",
+          "summary": "美国总统表示他换乘的飞机比假装的空军一号面临“更大风险”。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-          "overview": "这一决定引发了关于其安全状况及幕后威胁的广泛猜测。此举可能暗示国际安全形势存在不确定性，或涉及特定情报保护需求。分析人士认为这反映了当前全球地缘政治的紧张态势。",
-          "analysis": "此举可能暗示国际安全形势存在不确定性，或涉及特定情报保护需求。此举可能暗示国际安全形势存在不确定性，或涉及特定情报保护需求。",
+          "overview": "在北约峰会期间，特朗普总统透露自己更换了乘坐的飞机。他声称原本计划的“空军一号”是用于欺骗的假目标，而他最终选择的另一架飞机虽然看似普通，但实际上面临更大的安全风险。这一声明引发了外界对峰会安保细节的关注。",
+          "analysis": "此举暗示峰会可能遭遇了未公开的安全威胁或情报泄露风险，凸显了高层外交活动中的复杂安全环境。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "总统行程的突然变更往往折射出高层安保面临的复杂挑战及潜在的外部威胁。"
+              "who": "白宫发言人",
+              "text": "总统的行程调整是出于最高级别的安全考量，具体细节不便透露。"
             }
           ]
         },
         {
-          "title_zh": "英国电动滑板车事故频发，九岁儿童受伤",
-          "summary": "利物浦、曼彻斯特和谢菲尔德三家创伤中心已治疗近500名16岁以下伤者。",
+          "title_zh": "英国电动滑板车事故频发，近500名16岁以下儿童受伤",
+          "summary": "利物浦、曼彻斯特和谢菲尔德三家创伤中心报告称已收治近500名16岁以下的伤者。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-11",
           "url": "https://www.bbc.co.uk/news/articles/cx2rdggr304o?at_medium=RSS&at_campaign=rss",
-          "overview": "随着电动滑板车使用量增加，未成年人伤亡事件呈上升趋势。城市交通规划需加强对低速电动车辆的管理与监管力度。家长和教育机构也被呼吁加强安全教育。",
-          "analysis": "城市交通规划需加强对低速电动车辆的管理与监管力度。此类事故频发表明现有法规可能不足以保护弱势群体。",
+          "overview": "英国电动滑板车事故数量正在增长，其中涉及未成年人的比例令人担忧。利物浦、曼彻斯特和谢菲尔德三家创伤中心联合表示，已收治近500名16岁以下的伤者，年龄最小的受害者年仅九岁。",
+          "analysis": "这一数据引发了关于城市交通规划、未成年人骑行监管以及电动滑板车安全标准的广泛讨论。",
           "social": [
             {
-              "who": "编辑视角",
-              "text": "儿童在公共道路上的安全始终是社会关注的焦点，电动滑板车的普及带来了新的安全隐患。"
-            }
-          ]
-        },
-        {
-          "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "此举是对罗马在摩洛哥移民涌入塞维拉后采取类似措施的回应。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "检查将从周六午夜开始，持续至9月7日。分析人士认为这反映了当前移民危机对区域关系的深远影响。欧洲国家间的边境管控博弈正在加剧。",
-          "analysis": "欧洲国家间的边境管控博弈反映了当前移民危机对区域关系的深远影响。此类措施可能引发外交摩擦和贸易不便。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "西班牙此举是对意大利类似政策的直接回应，凸显了地中海移民问题对周边国家的连锁效应。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
-          "summary": "联邦法官裁定特朗普政府可以取消数百名南苏丹国民的保护地位。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "此前最高法院已允许美国政府对海地和叙利亚人采取类似措施。移民政策的收紧可能引发更多关于难民权益保护的法律诉讼。人权组织对此表示强烈反对并计划继续上诉。",
-          "analysis": "移民政策的收紧可能引发更多关于难民权益保护的法律诉讼。这一裁决标志着美国移民政策进一步向限制性方向转变。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "临时保护身份的取消直接关系到数千名南苏丹人的生存权，此举在国际法层面存在争议。"
-            }
-          ]
-        },
-        {
-          "title_zh": "刚果民主共和国埃博拉疫情爆发，病毒或正在变异",
-          "summary": "确诊病例已超过4000例，卫生监管机构计划逐户排查患者。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
-          "overview": "非洲公共卫生观察站宣布将全面升级应对措施。病毒变异增加了防控难度，凸显了全球传染病监测体系的重要性。国际社会呼吁加强医疗资源援助以遏制疫情蔓延。",
-          "analysis": "病毒变异增加了防控难度，凸显了全球传染病监测体系的重要性。此次大规模爆发再次敲响了全球卫生安全的警钟。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "埃博拉疫情的反复出现提醒我们，热带地区的公共卫生基础设施仍需大幅改善以应对突发危机。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国将关闭五个领事馆，批评者担忧中国填补外交真空",
-          "summary": "国务院通知国会将在加拿大、格林纳达、日本等国关闭领事机构。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-05",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-          "overview": "此举基于成本考量，但引发了关于中美外交博弈的讨论。外交网络的收缩可能影响双边关系及地区影响力布局。分析人士认为这反映了美国在全球事务中的战略收缩趋势。",
-          "analysis": "外交网络的收缩可能影响双边关系及地区影响力布局。此举在成本控制与地缘政治之间存在微妙平衡。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "领事馆关闭不仅影响当地侨民服务，也可能被竞争对手利用来扩大自身在该地区的存在感。"
-            }
-          ]
-        },
-        {
-          "title_zh": "乌干达顶级足球运动员遭持砖强盗袭击身亡",
-          "summary": "大卫·奥沃里在试图阻止手机被盗时遭到致命伤害，随后在医院不治身亡。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
-          "overview": "该球员曾代表国家队参赛，其遇害令乌干达足坛陷入悲痛。治安恶化对体育界及普通民众的安全感造成了严重打击。家属和球迷纷纷表达哀悼并呼吁加强城市安保。",
-          "analysis": "治安恶化对体育界及普通民众的安全感造成了严重打击。此案再次暴露了首都地区犯罪率上升的严峻现实。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "足球明星遇害事件令人痛心，也折射出部分地区社会治安形势不容乐观的现状。"
-            }
-          ]
-        },
-        {
-          "title_zh": "加拿大航空公司因儿童拒系安全带取消航班",
-          "summary": "维多利亚至多伦多航班被迫返回航站楼，多次尝试未能固定儿童座椅。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
-          "overview": "机组人员最终决定取消飞行以确保安全。航空公司在处理此类突发状况时面临乘客权利与安全之间的平衡难题。航空公司表示将加强登机前的安全检查流程。",
-          "analysis": "航空公司在处理此类突发状况时面临乘客权利与安全之间的平衡难题。这一事件引发了关于儿童乘车安全规则的广泛讨论。",
-          "social": [
-            {
-              "who": "编辑视角",
-              "text": "航空安全无小事，机组人员有权在危及飞行安全的情况下做出取消航班的决定。"
+              "who": "儿科医生",
+              "text": "我们看到的伤情越来越严重，必须加强儿童使用电动滑板车的限制措施。"
             }
           ]
         }
       ],
       "regions": [
+        "中国",
         "国外"
       ]
     },
