@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-12T13:40:40+08:00",
+  "generated_at": "2026-08-12T14:40:27+08:00",
   "date": "2026-08-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-12 13:40",
-    "ai": "2026-08-12 13:40",
-    "voices": "2026-08-12 11:24",
+    "hot": "2026-08-12 14:40",
+    "ai": "2026-08-12 14:40",
+    "voices": "2026-08-12 14:40",
     "github": "2026-08-12 13:40",
-    "libraries": "2026-08-12 11:24",
-    "sports": "2026-08-12 13:40",
+    "libraries": "2026-08-12 14:40",
+    "sports": "2026-08-12 14:40",
     "academic": "2026-08-12 06:40"
   },
   "modules": {
@@ -41,6 +41,32 @@
             {
               "who": "航空业人士",
               "text": "航班上的网络安全威胁正在增加，航空公司需要加强乘客的网络安全教育。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Google医疗AI系统AMIE实现实时临床视频咨询",
+          "eng": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+          "summary": "Google Research发布了名为AMIE的医疗AI系统，在开创性研究中展示了实时临床视频咨询能力。这是AI在医疗领域的重要突破，标志着从文本交互向多模态临床辅助的转变。",
+          "source": "Google Blog AI",
+          "region": "美国",
+          "published": "2026-08-11",
+          "tags": [
+            "医疗AI",
+            "Google Research",
+            "视频咨询"
+          ],
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+          "overview": "AMIE是Google Research开发的医疗AI系统，能够在实时临床视频中提供辅助诊断和咨询建议。这项研究首次展示了AI在视频交互场景下的临床应用潜力——医生可以与患者进行视频通话，同时AI系统实时分析视觉信息并提供医学参考。这代表了从文本驱动的医疗AI向多模态、实时交互方向的重要演进。",
+          "analysis": "AMIE的突破在于将AI能力从'阅读病历'扩展到'观看临床场景'，这意味着AI可以辅助医生识别面部表情变化、伤口状况等非结构化视觉信息。如果临床试验验证其有效性，可能彻底改变远程医疗和基层医疗的可及性。",
+          "social": [
+            {
+              "who": "医学研究者",
+              "text": "视频交互中的非语言线索（如患者表情）对诊断至关重要——AMIE如果能准确捕捉这些信息，将远超纯文本系统。"
+            },
+            {
+              "who": "投资人",
+              "text": "医疗AI的监管审批周期长但壁垒高，一旦通过FDA认证，商业化空间巨大且竞争者有限。"
             }
           ]
         },
@@ -782,32 +808,6 @@
               "text": "Linux生态的成熟度正在提升，但游戏和AI应用对GPU算力的需求使得SteamOS的实际体验仍有差距。"
             }
           ]
-        },
-        {
-          "title_zh": "追踪LLM下一个重大突破的创业公司",
-          "eng": "These startups are chasing the next big thing in LLMs",
-          "summary": "MIT Technology Review的What's Next系列报道了多家正在追逐大语言模型下一代技术突破的创业公司。自2017年Google发布'Attention Is All You Need'论文以来，LLM领域经历了爆炸式发展。",
-          "source": "MIT Technology Review",
-          "region": "美国",
-          "published": "2026-08-10",
-          "tags": [
-            "LLM",
-            "创业公司",
-            "技术趋势"
-          ],
-          "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-          "overview": "文章通过MIT Technology Review的What's Next系列，系统梳理了当前LLM领域最具潜力的创业公司和前沿技术方向。从2017年Transformer架构的诞生到如今的AI Agent浪潮，这些公司正在探索模型效率、推理能力、多模态理解等关键突破点。",
-          "analysis": "这篇报道的价值在于它不是简单罗列产品功能，而是从技术演进脉络出发，帮助读者理解LLM领域的底层逻辑变化。在开源模型和闭源模型竞争加剧的背景下，创业公司的差异化策略值得关注。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "关注这些公司的技术路线比关注融资轮次更有意义。真正能推动LLM范式转变的往往是那些解决基础架构问题的团队。"
-            },
-            {
-              "who": "行业分析师",
-              "text": "2017年的Attention Is All You Need是AI领域的分水岭，现在我们又站在了一个新的转折点——从纯文本生成到多模态Agent的转变。"
-            }
-          ]
         }
       ]
     },
@@ -1241,91 +1241,270 @@
     "sports": {
       "items": [
         {
-          "title_zh": "欧足联等三大洲足联联合构建新框架，挑战国际足联治理体系",
+          "title_zh": "FIFA 治理危机：欧足联等联合构建新框架",
           "eng": "Infantino's opponents developing new framework for running world football",
-          "summary": "欧足联、中北美及加勒比足联和亚足联正联手制定一套新的世界足球管理体系，旨在取代他们认为自因凡蒂诺上任以来形成的“庇护”体制。国际足联已无视各方呼吁进行独立审查的要求。",
+          "summary": "欧足联、中北美及亚足联正联合推进一套新的世界足球管理体系，试图取代 FIFA 在因凡蒂诺领导下被视为庇护式的治理体系。",
           "source": "Guardian Football",
           "published": "2026-08-11",
           "url": "https://www.theguardian.com/football/2026/aug/11/gianni-infantino-opponents-world-football-fifa-uefa",
-          "overview": "欧足联、中北美及加勒比足联和亚足联正联手制定一套新的世界足球管理体系，旨在取代他们认为自因凡蒂诺上任以来形成的“庇护”体制。国际足联已无视各方呼吁进行独立审查的要求。",
-          "analysis": "三大洲足联的联合行动标志着对国际足联治理模式的根本性挑战，若新框架成型，可能影响未来世界杯的组织架构和决策权分配。",
+          "overview": "因凡蒂诺上任十年来，FIFA 的治理模式遭到欧足联、中北美及亚足联的反复批评，但独立审查请求被忽视。三大洲足联正联手制定新框架以替代现有体系，标志着国际足球权力格局可能面临重大调整。",
+          "analysis": "这一动向表明 FIFA 内部的改革阻力正在转化为外部压力，若新框架成型，因凡蒂诺的任期将面临前所未有的挑战。",
+          "social": [
+            {
+              "who": "国际足联观察员",
+              "text": "欧足联、中北美及亚足联正联合构建新框架，试图取代 Fifa 长期以来的庇护式治理体系，这标志着国际足球权力格局可能面临重大调整。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "阿斯顿维拉主帅埃梅里信心满满备战超级杯，尽管夏窗多名球员离队",
-          "eng": "Emery positive about Aston Villa's outlook despite summer exits as PSG await",
-          "summary": "尽管经历了夏季转会窗口的变动，阿斯顿维拉主帅乌奈·埃梅里在红牛竞技场面对巴黎圣日耳曼的超级杯赛前显得非常放松和自信。他暗示球队将能够消化一系列重要球员的流失。",
-          "source": "Guardian Football",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/emery-vows-to-keep-aston-villa-moving-forward-as-they-take-on-psg",
-          "overview": "尽管经历了夏季转会窗口的变动，阿斯顿维拉主帅乌奈·埃梅里在红牛竞技场面对巴黎圣日耳曼的超级杯赛前显得非常放松和自信。他暗示球队将能够消化一系列重要球员的流失。",
-          "analysis": "埃梅里上任后面临阵容大换血，但他对球队重建方向保持乐观，这场超级杯将是检验新体系磨合程度的关键首秀。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "英格兰后卫斯彭斯接近离开热刺，国际米兰就2560万英镑转会展开谈判",
-          "eng": "Djed Spence nears Tottenham exit with Inter in talks over £25.6m move",
-          "summary": "热刺准备放行英格兰国脚杰德·斯彭斯加盟国际米兰，转会费预计约为3000万欧元。斯彭斯在世界杯上出场四场后，因利物浦球员安迪·罗伯逊的加入而进一步跌出首发阵容。",
-          "source": "Guardian Football",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/djed-spence-nears-tottenham-exit-inter-in-talks-over-move",
-          "overview": "热刺准备放行英格兰国脚杰德·斯彭斯加盟国际米兰，转会费预计约为3000万欧元。斯彭斯在世界杯上出场四场后，因利物浦球员安迪·罗伯逊的加入而进一步跌出首发阵容。",
-          "analysis": "斯彭斯的世界杯表现本应巩固其地位，但英超竞争加剧导致他成为交易筹码，这笔转会若成行将改变热刺右后卫线的人员配置。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "新帅贾伊斯勒在纽卡斯尔揭幕仪式上展现沉稳一面，面对英超裁判风格感到担忧",
-          "eng": "'I am quite optimistic': Newcastle's Jaissle on leading club after turbulent summer",
-          "summary": "马蒂亚斯·贾伊斯勒正式亮相纽卡斯尔联主教练职位，在圣詹姆斯公园的媒体发布会中表现得比外界预期的更为审慎。他坦言对英超裁判充满情感色彩的边线执法风格感到有些“害怕”。",
-          "source": "Guardian Football",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/football/2026/aug/11/matthias-jaissle-eddie-howe-newcastle-united-manager-unveiling-st-james-park",
-          "overview": "马蒂亚斯·贾伊斯勒正式亮相纽卡斯尔联主教练职位，在圣詹姆斯公园的媒体发布会中表现得比外界预期的更为审慎。他坦言对英超裁判充满情感色彩的边线执法风格感到有些“害怕”。",
-          "analysis": "贾伊斯勒接替埃迪·豪后面临三名关键球员离队的真空期，他的务实态度暗示球队将采取稳健策略应对新赛季挑战。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "哈默长期合同回归考文垂城，从谢菲尔德联转会",
-          "eng": "Hamer rejoins Coventry City on 'long-term' deal",
-          "summary": "考文垂城以未公开的费用从谢菲尔德联重新签下了中场球员古斯塔沃·哈默，双方达成了“长期”合约。",
+          "title_zh": "埃梅里追逐首座超级杯——但这重要吗？",
+          "eng": "Emery chases first Super Cup - but does it matter?",
+          "summary": "阿斯顿维拉自 1982 年以来首次参加超级杯，主帅埃梅里在赛前展现出对球队前景的乐观态度。",
           "source": "BBC Football",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c629lp48ykwo?at_medium=RSS&at_campaign=rss",
-          "overview": "考文垂城以未公开的费用从谢菲尔德联重新签下了中场球员古斯塔沃·哈默，双方达成了“长期”合约。",
-          "analysis": "哈默的回归对考文垂城的中场深度是重要补充，这笔交易显示了俱乐部在转会市场上积极运作的能力。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "谢菲尔德联租借曼城球员菲利普斯一个赛季",
-          "eng": "Sheff Utd re-sign Man City's Phillips on loan",
-          "summary": "谢菲尔德联从曼城租借中场球员卡尔文·菲利普斯一个赛季，这是一笔为期一整年的租借交易。",
-          "source": "BBC Football",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c0m7j79j873o?at_medium=RSS&at_campaign=rss",
-          "overview": "谢菲尔德联从曼城租借中场球员卡尔文·菲利普斯一个赛季，这是一笔为期一整年的租借交易。",
-          "analysis": "菲利普斯的到来为谢菲联提供了即战力，同时也反映了曼城在清理阵容的同时愿意通过租借释放年轻球员的经验。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "「生命线」乒乓球场馆临时重新开放",
-          "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一座被称为用户「精神家园」的乒乓球场所「Lifeline」已暂时恢复运营，使用者对此表示欣慰。",
-          "source": "BBC Table Tennis",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "据BBC报道，名为「Lifeline」的乒乓球场馆经过一段时间后暂时重新开放。有使用者表示这就像他们的精神家园被归还了一样，反映了该场所对社区成员的重要意义。",
-          "analysis": "对于依赖特定场地进行社交和锻炼的业余爱好者而言，场地的稳定性至关重要。此次重开不仅解决了实际使用需求，也体现了体育设施在维护社区凝聚力方面的独特价值。",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq6dj2jn277o?at_medium=RSS&at_campaign=rss",
+          "overview": "阿斯顿维拉将在超级杯对阵巴黎圣日耳曼，这是自 1982 年以来俱乐部首次参加该项赛事。主帅埃梅里在赛前新闻发布会上显得异常轻松，似乎对阵容变动后的球队充满信心，并调侃了约翰·麦金尼的英语进步。",
+          "analysis": "尽管夏季有多名球员离队，埃梅里的乐观态度暗示他已准备好应对挑战，但超级杯对于维拉来说更多是赛季前的热身与信心展示。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "能重新回到这里打球的感觉真好，这种归属感是其他地方给不了的。"
-            },
+              "text": "埃梅里在赛前新闻发布会上显得异常轻松，似乎对阵容变动后的球队充满信心，这让人期待他在红牛竞技场的首秀表现。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "纽卡主帅贾伊斯勒：经历动荡夏天后对俱乐部前景“相当乐观”",
+          "eng": "'I am quite optimistic': Newcastle's Jaissle on leading club after turbulent summer",
+          "summary": "新任纽卡斯尔联主帅贾伊斯勒在圣詹姆斯公园亮相，承认夏季出售三名关键球员留下的真空，但对未来保持乐观。",
+          "source": "Guardian Football",
+          "published": "2026-08-11",
+          "url": "https://www.theguardian.com/football/2026/aug/11/matthias-jaissle-eddie-howe-newcastle-united-manager-unveiling-st-james-park",
+          "overview": "38 岁的德国人贾伊斯勒在圣詹姆斯公园的亮相揭示了其保守务实的一面，与外界预期的“摇滚明星”形象有所不同。他承认夏季出售三名关键球员后留下的真空，但表示对俱乐部前景相当乐观。",
+          "analysis": "贾伊斯勒被沙特所有者选中接替埃迪·豪，他的到来标志着纽卡进入了一个新的管理时代，但核心球员的流失将是赛季初的最大考验。",
+          "social": [
             {
-              "who": "社区观察者",
-              "text": "乒乓球馆往往承载着超越运动本身的情感连接，临时重开对当地居民来说是个好消息。"
+              "who": "英超分析师",
+              "text": "贾伊斯勒在圣詹姆斯公园的亮相揭示了其保守务实的一面，但球队核心球员流失留下的真空仍需填补，这对新帅的首个赛季是严峻考验。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "贝佐斯入局与 FSG 获利——这笔交易对利物浦意味着什么？",
+          "eng": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
+          "summary": "分析显示，包括杰夫·贝佐斯在内的投资集团入股并未显著提升利物浦的竞技投入空间，且可能引发球迷不满。",
+          "source": "BBC Football",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
+          "overview": "利物浦的新投资方案由包括杰夫·贝佐斯在内的集团主导，虽然 FSG 从中获利，但分析认为这不会显著改变俱乐部的支出能力。此外，这一交易结构可能让球迷感到不安，因为所有权变更的复杂性增加了不确定性。",
+          "analysis": "这笔交易更多是商业层面的胜利，对于利物浦竞技实力的提升作用有限，球迷对管理层变动和财务透明度的担忧将持续存在。",
+          "social": [
+            {
+              "who": "利物浦老球迷",
+              "text": "虽然贝佐斯的投资让 FSG 获利，但这未必能显著提升俱乐部的竞技投入空间，且可能引发球迷不满，毕竟所有权变更的复杂性增加了不确定性。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "谢菲联租借曼城球员菲利普斯一个赛季",
+          "eng": "Sheff Utd re-sign Man City's Phillips on loan",
+          "summary": "谢菲尔德联队从曼城租借中场球员卡尔文·菲利普斯，签约为期一个赛季。",
+          "source": "BBC Football",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c0m7j79j873o?at_medium=RSS&at_campaign=rss",
+          "overview": "谢菲尔德联队正式宣布从曼城租借中场球员卡尔文·菲利普斯，签约为期一个赛季。这笔交易显示了英冠球队对英超中游球员的需求，同时也为菲利普斯提供了在顶级联赛之外的比赛机会。",
+          "analysis": "对于谢菲联而言，菲利普斯的到来将显著增强中场实力；对于曼城来说，这是一次合理的短期租借安排，有助于球员保持竞技状态。",
+          "social": [
+            {
+              "who": "英冠记者",
+              "text": "谢菲联从曼城租借菲利普斯一个赛季，这笔交易显示了英冠球队对英超中游球员的需求，同时也为菲利普斯提供了在顶级联赛之外的比赛机会。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "PSG 能否实现三连冠并赢得六座奖杯？",
+          "eng": "Can PSG do a three-peat and win six trophies this season?",
+          "summary": "巴黎圣日耳曼新赛季目标明确，希望以赢得欧洲奖杯的方式开启并结束这个赛季。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwylxdngg8yo?at_medium=RSS&at_campaign=rss",
+          "overview": "巴黎圣日耳曼在新赛季开始前便确立了雄心勃勃的目标，希望以赢得欧洲奖杯的方式开启并结束这个赛季。球队正试图延续前几个赛季的成功势头，实现三连冠的壮举。",
+          "analysis": "PSG 在夏季转会窗口的运作将直接影响其能否实现这一目标，而超级杯对阵阿斯顿维拉将是检验球队状态的早期试金石。",
+          "social": [
+            {
+              "who": "巴黎球迷",
+              "text": "PSG 新赛季目标明确，希望以赢得欧洲奖杯的方式开启并结束这个赛季，实现三连冠梦想，这将是对球队实力的终极考验。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "“生命线”乒乓球场地临时重新开放",
+          "eng": "'Lifeline' ping pong venue temporarily re-opened",
+          "summary": "一处名为“生命线”的社区乒乓球场地暂时恢复运营，使用者表示这仿佛将精神家园归还给了我们。",
+          "source": "BBC Table Tennis",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
+          "overview": "该场地此前曾关闭，现暂时重新开放供公众使用。对于依赖该设施进行社交和锻炼的乒乓球爱好者而言，这一消息被视为重要的社区支持信号。使用者对场地回归表达了强烈的归属感与感激之情。",
+          "analysis": "社区体育设施的临时恢复反映了基层乒乓球运动在资源受限环境下的韧性，也凸显了场地对参与者心理健康的重要性。此类“生命线”项目对于维持社区凝聚力具有不可替代的作用。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "场地重新开放意味着大家终于又能聚到一起打球了，这种归属感很难替代。"
             }
           ],
           "region": "乒乓球"
+        },
+        {
+          "title_zh": "FIFA治理危机：欧足联等联合构建新框架挑战国际足联权威",
+          "eng": "Infantino's opponents developing new framework for running world football",
+          "summary": "欧足联、中北美及加勒比足联和亚足联正联手制定一套新的世界足球管理体系，旨在取代国际足联自2016年上任以来所采用的被指为“庇护制”的现行体系。尽管各方多次呼吁独立审查，但国际足联主席因凡蒂诺对此予以忽视。",
+          "source": "Guardian Sport",
+          "published": "2026-08-11",
+          "url": "https://www.theguardian.com/football/2026/aug/11/gianni-infantino-opponents-world-football-fifa-uefa",
+          "overview": "三大洲足联（UEFA、Concacaf、AFC）正协同合作，试图推出一套全新的世界足球治理框架，以替代他们认为自因凡蒂诺取代布拉特担任主席十年来所固化的“庇护体系”。此前，来自欧足联、中北美及亚足联的多次独立审查呼吁均被因凡蒂诺无视。",
+          "analysis": "这一动向标志着国际足联内部权力格局的重大分裂，三大洲足联的联合施压可能迫使FIFA进行实质性的制度改革，否则将面临更广泛的合法性危机。",
+          "social": [
+            {
+              "who": "资深足球评论员",
+              "text": "三大洲足联联手是前所未有的信号，因凡蒂诺的忽视策略恐难以为继。"
+            },
+            {
+              "who": "球迷代表",
+              "text": "如果FIFA不改革，足球世界的信任基础正在崩塌。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英国选手在欧洲田径锦标赛百米决赛包揽冠亚军",
+          "eng": "GB's Glave and Azu claim European 100m one-two",
+          "summary": "在伯明翰举行的欧洲田径锦标赛上，英国选手罗梅尔·格拉夫和杰里迈亚·阿祖为东道主夺得了令人震惊的百米比赛一二名。",
+          "source": "BBC Sport",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/cvg70y30x5go?at_medium=RSS&at_campaign=rss",
+          "overview": "2026年欧洲田径锦标赛在伯明翰举行，英国短跑名将罗梅尔·格拉夫（Romell Glave）与杰里迈亚·阿祖（Jeremiah Azu）在男子100米决赛中为东道主英国队包揽了冠亚军，创造了令人瞩目的成绩。",
+          "analysis": "这一结果展示了英国田径在短距离项目上的强劲复苏势头，对于即将举行的世界锦标赛而言，这是一个极具分量的预演信号。",
+          "social": [
+            {
+              "who": "田径解说员",
+              "text": "英国队在百米项目上包揽金银，这是近年来欧洲赛场最亮眼的成绩之一。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "格拉夫和阿祖的爆发力令人印象深刻，伯明翰的主场优势功不可没。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "贝佐斯入主利物浦：对财政实力影响有限且可能引发球迷不满",
+          "eng": "A coup for Bezos and a windfall for FSG - where does deal leave Liverpool?",
+          "summary": "分析指出，包括杰夫·贝佐斯在内的投资集团入股利物浦并不会显著改变其支出能力，且这一安排可能与球迷的情感产生冲突。",
+          "source": "BBC Sport",
+          "published": "2026-08-11",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvgx311g1zko?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC Sport报道分析了利物浦足球俱乐部引入由杰夫·贝佐斯（Jeff Bezos）等组成的投资集团的交易细节，指出这笔投资对利物浦的财政实力提升作用有限，同时这种所有权结构可能会让部分球迷感到不安。",
+          "analysis": "尽管资本注入是英超俱乐部的常态，但贝佐斯的个人品牌与利物浦深厚的社区文化之间的张力，将是未来赛季中不可忽视的潜在风险因素。",
+          "social": [
+            {
+              "who": "利物浦老球迷",
+              "text": "贝佐斯的名字出现在安菲尔德总是让人警惕，足球不仅仅是生意。"
+            },
+            {
+              "who": "体育记者",
+              "text": "这笔交易的核心问题在于它能否真正解决俱乐部的长期财务可持续性。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "纽约喷气机队角卫练习中晕倒送医",
+          "eng": "New York Jets' Qwan'tez Stiggers in hospital after collapsing during practice",
+          "summary": "纽约喷气机队 cornerback Qwan'tez Stiggers在与坦帕湾海盗队的联合训练中短暂失去意识后被救护车送往医院，目前教练表示他恢复良好。",
+          "source": "Guardian Sport",
+          "published": "2026-08-11",
+          "url": "https://www.theguardian.com/sport/2026/aug/11/new-york-jets-qwantez-stiggers-in-hospital-after-collapsing-during-practice",
+          "overview": "2026年8月11日，纽约喷气机队（New York Jets）角卫Qwan'tez Stiggers在与坦帕湾海盗队（Tampa Bay Buccaneers）的联合训练中突然晕倒，随后被抬上担架送医。主教练亚伦·格伦表示球员在倒下前意识清醒并能交流，目前暂无更多病情细节。",
+          "analysis": "NFL训练中的突发健康事件再次引发了对职业运动员身体负荷和赛场安全标准的关注，尤其是年轻球员的恢复情况将成为后续焦点。",
+          "social": [
+            {
+              "who": "NFL球迷",
+              "text": "训练中晕倒是个警钟，希望Stiggers能尽快康复回归赛场。"
+            },
+            {
+              "who": "体育记者",
+              "text": "联合训练中的意外虽然罕见，但提醒我们职业运动员的健康风险无处不在。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "巴黎圣日耳曼能否实现三连冠并赢得六座奖杯？",
+          "eng": "Can PSG do a three-peat and win six trophies this season?",
+          "summary": "巴黎圣日耳曼希望以赢得欧洲冠军的方式开启新赛季，同时延续其赛季末的辉煌战绩。",
+          "source": "BBC Sport",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwylxdngg8yo?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC Sport分析了巴黎圣日耳曼（PSG）在新赛季初的雄心壮志，球队目标是在赛季开始时即赢得一座欧洲奖杯，从而有望实现三连冠并赢得六座不同赛事的冠军。",
+          "analysis": "PSG能否在赛季初就确立统治地位取决于其阵容深度和战术执行力，若开局顺利，这将是俱乐部历史上最具挑战性的卫冕之路之一。",
+          "social": [
+            {
+              "who": "足球分析师",
+              "text": "PSG想在赛季初就拿欧冠，这需要极强的状态和运气，难度不小。"
+            },
+            {
+              "who": "巴黎球迷",
+              "text": "三连冠的野心很大，但只要阵容在，我们就敢赌一把。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "CBS体育总裁称对Tony Romo未来“没有时间表”",
+          "eng": "CBS Sports chief says 'no timetable' on Tony Romo's future after OWI arrest",
+          "summary": "CBS体育总裁David Berson表示目前没有关于NFL首席分析师Tony Romo未来的决定时间线，Romo因上月在威斯康星州被逮捕而停职。",
+          "source": "Guardian Sport",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/sport/2026/aug/11/tony-romo-cbs-future-owi-arrest-david-berson-jj-watt",
+          "overview": "CBS Sports总裁大卫·伯森（David Berson）于8月12日表示，对于网络首席NFL分析师托尼·罗莫（Tony Romo）的未来尚无时间表做出决定。罗莫因涉嫌在威斯康星州酒后驾车被捕后已处于无限期休假状态，同时JJ·瓦特将加入吉姆·南斯担任主要广播团队。",
+          "analysis": "这一人事变动不仅影响CBS的NFL转播阵容稳定性，也反映了体育媒体行业对涉及法律问题的知名分析师的处理困境。",
+          "social": [
+            {
+              "who": "NFL球迷",
+              "text": "罗莫被捕后停职是意料之中，但CBS何时能找到替代者还是个问题。"
+            },
+            {
+              "who": "体育记者",
+              "text": "JJ·瓦特的加入是一个积极的信号，希望能稳定转播团队。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "WNBA爆发跨性别争议：印第安纳 Fever 队球员呼吁禁止跨性别女性参赛",
+          "eng": "The transgender controversy surrounding the WNBA",
+          "summary": "印第安纳 Fever 队后卫索菲·坎宁安称禁止跨性别女性参加女子体育是“常识”，此举在WNBA引发了轩然大波，前NBA球员表示资格规则允许他们进入2027年选秀。",
+          "source": "BBC Basketball",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/ckg3enx6rj6o?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC Basketball报道了WNBA内部爆发的跨性别争议，印第安纳 Fever 队后卫索菲·坎宁安（Sophie Cunningham）公开主张禁止跨性别女性参加女子体育比赛是“常识”，这一言论引发了广泛讨论，同时有前NBA球员指出相关资格规则的变化可能允许他们进入2027年选秀。",
+          "analysis": "这场争议触及了职业体育中关于公平竞赛与包容性的核心议题，坎宁安的立场虽然激进但反映了部分群体的真实担忧，而规则的变动则可能引发连锁反应。",
+          "social": [
+            {
+              "who": "WNBA球迷",
+              "text": "跨性别话题在女子篮球中的讨论确实需要更加谨慎和尊重各方观点。"
+            },
+            {
+              "who": "前NBA球员",
+              "text": "资格规则的变化对职业运动员的职业生涯有着深远影响，我们需要理性看待。"
+            }
+          ],
+          "region": "综合"
         }
       ],
       "regions": [
@@ -1558,242 +1737,18 @@
     "hot": {
       "items": [
         {
-          "title_zh": "连环强奸犯再袭受害者后被判无罪，警方称噩梦成真",
-          "summary": "英国连环性犯罪者西蒙·利维在一系列糟糕决定后再次袭击受害者并杀害两名女子。受害者表示当警察允许他再次攻击时，噩梦变成了现实。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/czjlwlkw1m4o?at_medium=RSS&at_campaign=rss",
-          "overview": "连环性犯罪者西蒙·利维在多次灾难性决定后再次走上街头，最终导致两名女性遇害及第三名女性遭强奸。受害者表示当警方允许他再次攻击时，噩梦变成了现实。此案引发了公众对英国司法系统在处理高危罪犯释放问题上的严重质疑。",
-          "analysis": "此案暴露了英国司法系统在评估和管控高危性犯罪者时的重大漏洞。社会舆论强烈要求改革相关法律，以防止类似悲剧再次发生。",
-          "social": [
-            {
-              "who": "受害者家属",
-              "text": "我们经历了从希望到绝望的过程，法律本应保护我们免受此类侵害。"
-            },
-            {
-              "who": "法律评论员",
-              "text": "此案表明风险评估机制存在严重缺陷，必须立即进行司法改革。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国气温屡破纪录，夏季热浪持续升级",
-          "summary": "英国夏季创纪录的连续高温天气仍在继续，超过30摄氏度的天数记录被打破。随着更多气象记录被打破，英国正面临新一轮极端高温天气的威胁。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/weather/articles/c36dr3r3ny0o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国夏季的破纪录高温连续不断，超过30摄氏度的天数记录再次被刷新。气象部门警告称极端天气事件可能更加频繁和强烈。这一趋势对英国的能源供应、农业生产和公众健康构成了严峻挑战。",
-          "analysis": "气候变化正以前所未有的速度改变欧洲的天气模式。各国政府需要采取更积极的减排措施以应对日益加剧的热浪威胁。",
-          "social": [
-            {
-              "who": "气象学家",
-              "text": "我们正处于一个关键的转折点，极端天气的频率和强度都在显著增加。"
-            },
-            {
-              "who": "普通市民",
-              "text": "高温天已经严重影响日常生活，尤其是户外工作者面临巨大健康风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "警方呼吁阻止凶手提前释放，首相表示有信心",
-          "summary": "警方负责人要求首相阻止杀害警察哈珀的凶手被提前释放。在安迪·伯纳姆表示“有信心”能阻止这一情况后，警方仍发出紧急呼吁。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/cwyrkz9ryr5o?at_medium=RSS&at_campaign=rss",
-          "overview": "杀害警察哈珀的凶手面临被提前释放的风险，警方负责人紧急呼吁首相介入阻止。尽管首相安迪·伯纳姆表示有信心能防止这一情况发生，但公众和执法机构的担忧依然强烈。",
-          "analysis": "此案凸显了英国监狱系统中假释机制面临的争议。社会对司法公正和受害者正义的呼声正在推动政治层面的改革讨论。",
-          "social": [
-            {
-              "who": "警方发言人",
-              "text": "我们必须确保公共安全，任何可能威胁社会的决定都必须经过严格审查。"
-            },
-            {
-              "who": "人权组织",
-              "text": "我们需要平衡惩罚与康复，但安全永远是第一位的。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国将迎来1999年以来最佳日食，欧洲多地可见全食",
-          "summary": "月球将遮蔽太阳，英国部分地区最多可遮挡96%的太阳。西班牙、格陵兰、冰岛、葡萄牙和俄罗斯的部分地区也将目睹日全食。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/cx2jr1ew2v1o?at_medium=RSS&at_campaign=rss",
-          "overview": "即将到来的日食将是自1999年以来英国可见的最佳天文现象，部分地区太阳将被遮挡高达96%。西班牙、格陵兰、冰岛、葡萄牙和俄罗斯的部分地区将经历日全食。这一罕见的天文事件预计将吸引大量公众和科学家的关注。",
-          "analysis": "此次日食为公众提供了难得的科学观测机会，同时也提醒人们珍惜自然奇观。各国政府可能需要协调交通管制以确保安全。",
-          "social": [
-            {
-              "who": "天文爱好者",
-              "text": "这是多年来最激动人心的天文事件之一，我已经准备了多年的观测设备。"
-            },
-            {
-              "who": "旅游专家",
-              "text": "预计相关地区的旅游业将因此迎来一波热潮，需要提前做好准备。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普称北约峰会期间因潜在威胁更换飞机",
-          "summary": "美国总统表示他换乘的飞机比伪装成空军一号的诱饵机风险更大。尽管具体细节未完全披露，但这一声明引发了关于总统出行安全措施的广泛讨论。",
+          "title_zh": "英国缓刑主管警告：提前释放方案可能引发更严重犯罪",
+          "summary": "英格兰和威尔士缓刑总检查员向BBC表示，缓刑服务已面临\"前所未有的压力\"。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-          "overview": "特朗普总统在北约峰会期间更换了飞机，声称新飞机面临更大的风险。这一声明引发了关于总统出行安全策略调整的广泛讨论。尽管具体威胁细节未公开，但此举凸显了国际政治活动中的安全风险。",
-          "analysis": "领导层的安保决策往往在透明度和安全性之间权衡。此事件可能影响未来大型国际会议的安全规划标准。",
+          "url": "https://www.bbc.co.uk/news/articles/c39e3y1y2zjo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国缓刑主管警告称，政府推行的提前释放方案存在风险，可能导致更严重的犯罪活动。该官员表示，当前缓刑服务体系已承受前所未有的压力，需要紧急关注与应对。",
+          "analysis": "这一警告反映出英国刑事司法体系中保释制度的争议性。在公众安全与服务效率之间寻找平衡点，是当前政策面临的核心挑战。",
           "social": [
             {
-              "who": "安全分析师",
-              "text": "总统的安保措施需要不断适应新的威胁环境，这一决定反映了当前的风险评估。"
-            },
-            {
-              "who": "公众评论员",
-              "text": "领导人的安全至关重要，但我们也希望看到更透明的沟通方式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国电动滑板车事故频发，九岁儿童受伤",
-          "summary": "利物浦、曼彻斯特和谢菲尔德三家创伤中心已收治近500名16岁以下伤者。越来越多的青少年在电动滑板车事故中受伤，引发了对城市交通安全的担忧。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rdggr304o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国多家创伤中心报告称，近500名16岁以下儿童因电动滑板车事故受伤，其中最小的仅九岁。这一趋势引发了对共享出行工具在城市中安全管理的广泛关注。随着电动滑板车的普及，如何平衡便利性与安全性成为城市管理的新课题。",
-          "analysis": "城市交通规划需要重新审视非机动车道的设计和管理。家长和教育机构也应加强对青少年的安全教育。",
-          "social": [
-            {
-              "who": "医疗工作者",
-              "text": "这些孩子的伤势令人痛心，我们需要更严格的监管来保护他们。"
-            },
-            {
-              "who": "城市规划师",
-              "text": "现有的道路设计可能不适合当前的出行方式，需要更新以适应新技术。"
-            }
-          ]
-        },
-        {
-          "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "此举是对罗马在摩洛哥人涌入塞维拉后采取类似措施的回应。检查将于周六午夜开始，持续到9月7日，旨在应对持续的非法移民压力。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙宣布将对来自意大利的访客实施临时边境检查，以应对持续的非法移民压力。这一措施是对罗马在摩洛哥人涌入塞维拉后采取类似措施的回应。检查将于周六午夜开始，持续到9月7日。此举反映了欧洲国家之间在处理移民问题上的紧张关系。",
-          "analysis": "边境管控升级可能影响欧盟内部的自由流动原则。各国需要在安全与人权之间找到平衡点。",
-          "social": [
-            {
-              "who": "欧盟官员",
-              "text": "我们需要在保护成员国安全和维护公民权利之间取得平衡。"
-            },
-            {
-              "who": "移民权益倡导者",
-              "text": "临时检查不应成为歧视的工具，必须确保合法旅客的权益不受侵犯。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护地位的努力",
-          "summary": "联邦法官裁定特朗普政府可以继续剥夺数百名南苏丹国民在美国的保护地位。此前最高法院已允许美国政府对海地和叙利亚人采取类似措施，移民权利组织试图阻止但失败。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "美国联邦法官裁定特朗普政府可以继续终止南苏丹国民的临时保护地位。此前最高法院已允许对海地和叙利亚人采取类似措施，移民权利组织试图阻止但未能成功。这一裁决可能引发更多国家的公民面临类似的签证和居留风险，加剧全球移民危机。",
-          "analysis": "此裁决反映了美国移民政策的收紧趋势及其对国际关系的影响。受影响群体需要寻找新的法律途径来维护自身权益。",
-          "social": [
-            {
-              "who": "移民律师",
-              "text": "这一裁决将严重影响许多家庭的未来，我们需要更多的法律援助资源。"
-            },
-            {
-              "who": "社区领袖",
-              "text": "保护弱势群体是社会的责任，我们不能让政策成为驱逐的工具。"
-            }
-          ]
-        },
-        {
-          "title_zh": "刚果（金）埃博拉疫情爆发规模巨大，病毒或正在变异",
-          "summary": "确诊病例已超过4000例，非洲公共卫生监管机构计划全面升级应对措施。官员们担心病毒可能正在发生变异，并宣布将逐户寻找患者以遏制传播。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
-          "overview": "刚果民主共和国的埃博拉疫情爆发规模巨大，确诊病例已超过4000例。非洲公共卫生监管机构宣布将全面升级应对措施，并计划逐户寻找患者。官员们担心病毒可能正在发生变异，这增加了防控的难度。此次疫情的严重性表明非洲公共卫生系统仍面临重大挑战，国际合作至关重要。",
-          "analysis": "埃博拉病毒的变异风险需要全球科学界的密切关注和快速响应。加强地区卫生基础设施建设是防止未来疫情的关键。",
-          "social": [
-            {
-              "who": "世界卫生组织代表",
-              "text": "我们必须团结起来，共同应对这一公共卫生危机，保护受影响社区的健康。"
-            },
-            {
-              "who": "当地居民",
-              "text": "疫情给我们的日常生活带来了巨大影响，我们需要更多的支持和资源来恢复。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国将关闭五个领事馆，批评者担忧中国填补外交真空",
-          "summary": "国务院通知国会将在加拿大、格林纳达、日本、印度尼西亚和喀麦隆关闭领事机构。这一决定基于成本考量，但引发了关于中美外交博弈的广泛讨论。此举可能削弱美国在关键地区的影响力，同时为中国扩大外交存在提供了机会。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures",
-          "overview": "美国国务院通知国会将在加拿大、格林纳达、日本、印度尼西亚和喀麦隆关闭五个领事馆。这一决定基于成本考量，但引发了关于中美外交博弈的广泛讨论。批评者担忧中国可能填补由此产生的外交真空。此举可能削弱美国在关键地区的影响力，同时为中国扩大外交存在提供了机会。",
-          "analysis": "外交机构的调整反映了美国对全球战略优先级的重新评估。这一变化可能对相关国家的外交关系产生深远影响。",
-          "social": [
-            {
-              "who": "外交政策专家",
-              "text": "关闭领事馆是重大战略决策，需要仔细权衡成本与地缘政治风险。"
-            },
-            {
-              "who": "当地华侨",
-              "text": "领事馆的关闭将直接影响我们的日常生活和权益保障，令人担忧。"
-            }
-          ]
-        },
-        {
-          "title_zh": "乌干达顶级足球运动员被持砖头抢劫者杀害",
-          "summary": "大卫·奥沃里在医院不治身亡，他在试图阻止抢劫时遭到袭击。乌干达全国哀悼这位曾代表国家队出场的球员之死。这一事件再次凸显了城市犯罪问题对体育界和公众安全的威胁。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-06",
-          "url": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala",
-          "overview": "乌干达顶级足球运动员大卫·奥沃里在首都坎帕拉被持砖头抢劫者杀害，他在试图阻止抢劫时遭到袭击。乌干达全国哀悼这位曾代表国家队出场的球员之死。这一事件再次凸显了城市犯罪问题对体育界和公众安全的威胁。",
-          "analysis": "运动员的遇害引发了社会对治安问题的深刻反思。政府需要采取更有效的措施来打击暴力犯罪，保护公民安全。",
-          "social": [
-            {
-              "who": "足球协会主席",
-              "text": "奥沃里是我们的骄傲，他的牺牲让我们更加坚定了维护安全的决心。"
-            },
-            {
-              "who": "社区居民",
-              "text": "这样的悲剧不应该发生在我们身边，我们需要共同努力改善治安环境。"
-            }
-          ]
-        },
-        {
-          "title_zh": "加拿大航空公司因儿童拒绝系安全带取消航班",
-          "summary": "维多利亚至多伦多航班被迫返回航站楼，多次尝试固定儿童均失败。机组人员最终决定返回机场以确保安全，事件引发了对航空安全规定的讨论。虽然看似小事，但反映了航空公司在面对乘客不合作时的安全底线和决策困境。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-11",
-          "url": "https://www.theguardian.com/business/2026/aug/11/canadian-airline-cancels-flight-after-child-refuses-to-wear-seatbelt",
-          "overview": "加拿大波特航空公司因一名儿童拒绝系安全带而取消了维多利亚至多伦多的航班。机组人员多次尝试固定儿童均失败，最终决定返回航站楼以确保安全。事件引发了对航空安全规定和乘客配合度的讨论。虽然看似小事，但反映了航空公司在面对乘客不合作时的安全底线和决策困境。",
-          "analysis": "航空安全是绝对优先事项，任何妥协都可能带来严重后果。航空公司需要在安全和乘客体验之间做出艰难抉择。",
-          "social": [
-            {
-              "who": "航空安全专家",
-              "text": "取消航班是正确的决定，安全第一永远是航空公司的首要责任。"
-            },
-            {
-              "who": "家长代表",
-              "text": "我们理解安全措施的重要性，但也希望航空公司能提供更灵活的解决方案。"
+              "who": "BBC记者",
+              "text": "报道指出缓刑系统正面临系统性危机"
             }
           ]
         }
@@ -1805,60 +1760,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
+          "name": "吴恩达 (Andrew Ng)",
+          "role": "AI 教育者与研究者",
+          "region": "美国/中国",
+          "domain": "ai",
+          "recent": "关注 AI 推理能力在科学研究中的必要性，主张超越单纯数据驱动的研究范式。",
+          "url": "https://www.andrewng.org"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI 伦理学家与活动家",
           "region": "美国",
           "domain": "ai",
-          "recent": "近期关注 ChatGPT 与 Gemini 用户规模突破及 Linux 桌面版发布，推动 AI 产品生态扩展。",
-          "url": "https://openai.com"
+          "recent": "推动 AI 研究治理改革，关注学术界面对 AI 技术发展的新现实与责任边界。",
+          "url": "https://timnitgebru.com"
         },
         {
-          "name": "吴建中",
-          "role": "国家图书馆馆长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "近期关注智慧图书馆转型方向，强调智慧化并非数字化的简单翻版。",
-          "url": "https://www.nlc.cn"
-        },
-        {
-          "name": "Mike Gorman",
-          "role": "IFLA 总干事",
-          "region": "国际（英国）",
-          "domain": "library",
-          "recent": "近期关注灾后重建中图书馆与博物馆的恢复故事及学术委员会相关议题。",
-          "url": "https://ifla.org"
-        },
-        {
-          "name": "Brad Lightcap",
-          "role": "前 OpenAI COO",
-          "region": "美国",
+          "name": "李开复 (Kai-Fu Lee)",
+          "role": "人工智能产业领袖",
+          "region": "中国/美国",
           "domain": "ai",
-          "recent": "近期关注离开 OpenAI 后在 AI 基础设施领域的创业方向。",
-          "url": ""
-        },
-        {
-          "name": "Sundar Pichai",
-          "role": "Google CEO",
-          "region": "印度/美国",
-          "domain": "ai",
-          "recent": "近期关注搜索框重新设计，引领 AI 驱动对话式搜索时代到来。",
-          "url": "https://about.google"
+          "recent": "探讨 AI 对社会结构及未来工作的深层影响，聚焦中美科技竞争下的行业趋势。",
+          "url": "https://www.kaifulee.com"
         },
         {
           "name": "Lex Fridman",
-          "role": "AI 播客主持人",
+          "role": "播客主理人与 AI 对话者",
           "region": "美国",
           "domain": "podcast",
-          "recent": "近期关注 AI 科研中的推理能力与数据范式的转变等深度议题。",
+          "recent": "主持深度对话节目，探讨 AI 能力边界、人类与机器关系的哲学及伦理问题。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "Sam Harris",
-          "role": "哲学家/播客主理人",
+          "name": "Peter Suber",
+          "role": "开放获取运动领袖与图书馆学者",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "近期关注媒体素养教学新方向及在个性化热潮中理解生成式人工智能的普及路径。",
-          "url": "https://samharris.substack.com"
+          "domain": "library",
+          "recent": "倡导开放获取原则与包容性参考服务，推动学术资源公平共享的最佳实践。",
+          "url": "https://peter-suber.org"
+        },
+        {
+          "name": "吴军 (Wu Jun)",
+          "role": "科技作家与 AI 研究者",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "分析人工智能技术演进趋势，关注图书馆在知识管理中的转型与智慧化方向。",
+          "url": ""
+        },
+        {
+          "name": "李国新",
+          "role": "中国图书馆学会负责人",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动京津冀智慧图书馆建设及全民阅读服务推广，强调智慧图书馆区别于传统数字图书馆的定位。",
+          "url": ""
         }
       ]
     },
