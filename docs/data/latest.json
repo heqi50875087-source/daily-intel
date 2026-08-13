@@ -13,7 +13,7 @@
     "github": "2026-08-13 23:41",
     "libraries": "2026-08-13 23:41",
     "sports": "2026-08-13 23:41",
-    "academic": "2026-08-13 06:40"
+    "academic": "2026-08-14 06:40"
   },
   "modules": {
     "ai": {
@@ -1819,6 +1819,76 @@
           "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2087465830786932736.html"
         },
         {
+          "title_zh": "When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation",
+          "eng": "When the Knowledge Base Becomes the Gold Standard: Measuring Resource-Shared Evaluation Loops in Entity-Level Machine Translation",
+          "summary": "The Seungjeongwon Ilgi, a UNESCO Memory of the World record, is only 37.4% translated, and the most conspicuous failure mode in automatic translation is the person name -- a misread name corrupts the ",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "The Seungjeongwon Ilgi, a UNESCO Memory of the World record, is only 37.4% translated, and the most conspicuous failure mode in automatic translation is the person name -- a misread name corrupts the historical fact rather than merely the surface. Low-resource historical domains have no expert gold standard for entity translation, so practitioners substitute a knowledge base (KB) for the gold. That KB is the same resource injected into the system: scoring becomes self-referential and the metric measures instruction compliance rather than translation quality. We measure this loop. Using expert ",
+          "url": "https://arxiv.org/abs/2608.11843v1"
+        },
+        {
+          "title_zh": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
+          "eng": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
+          "summary": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in user-item interactions, which are crucial for personalized recommendation. Existing methods either inject collaborative representations produced by external recommenders or model only intra-sequence dependencies, limiting their ability to exploit global collaborative patterns. To address this limitation, we propose GALLM, a graph-aware LLM framework for sequential recommendation. GALLM constructs ",
+          "url": "https://arxiv.org/abs/2608.12184v1"
+        },
+        {
+          "title_zh": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
+          "eng": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
+          "summary": "General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems an",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "General-purpose large language models (LLMs) have recently been reported to match or exceed specialized clinical AI tools on medical benchmarks, but such comparisons draw on a narrow set of systems and on benchmarks developed largely in high-income settings. We evaluate VITA, a retrieval-augmented generation (RAG) system purpose-built for contextual knowledge retrieval in India and other low- and middle-income (LMIC) settings. VITA retrieves from a curated corpus of disease-specific guidelines, India-specific antimicrobial resistance data, national formulary constraints, and resource-limited c",
+          "url": "https://arxiv.org/abs/2608.12138v1"
+        },
+        {
+          "title_zh": "Token-Level Credit Assignment Optimization for Generative Document Retrieval",
+          "eng": "Token-Level Credit Assignment Optimization for Generative Document Retrieval",
+          "summary": "Generative retrieval models perform document retrieval by autoregressively generating document identifiers (DocIDs). This process naturally forms a sequential decision problem, where each decoding ste",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "Generative retrieval models perform document retrieval by autoregressively generating document identifiers (DocIDs). This process naturally forms a sequential decision problem, where each decoding step selects a DocID token and the complete token sequence determines the retrieved document. However, retrieval effectiveness is typically evaluated only after the full DocID is generated, creating a mismatch between token-level generation and document-level relevance supervision. As a result, existing reinforcement learning methods for generative retrieval mostly rely on sequence-level rewards, whe",
+          "url": "https://arxiv.org/abs/2608.12049v1"
+        },
+        {
+          "title_zh": "HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs",
+          "eng": "HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs",
+          "summary": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enab",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enables a unified generation interface for item IDs, histories, and item text, but it also creates a structured optimization bottleneck during reward-based post-training: when an early semantic token enters the wrong branch of the item-token space, finite rollout groups rarely reach the ground-truth item, so group-relative optimization receives identical zero rewards and produces no useful advantage. ",
+          "url": "https://arxiv.org/abs/2608.11980v1"
+        },
+        {
+          "title_zh": "Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarizatio",
+          "eng": "Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarizatio",
+          "summary": "The rapid growth of scientific publications makes it increasingly difficult for researchers to identify relevant new studies and effectively comprehend them. Existing academic discovery platforms typi",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "The rapid growth of scientific publications makes it increasingly difficult for researchers to identify relevant new studies and effectively comprehend them. Existing academic discovery platforms typically rely on static topic subscriptions or embedding-based similarity and provide only abstracts or short summaries, offering limited support for nuanced intent modeling and in-depth paper summarization. We present Sci-Surf, an intent-centric knowledge discovery system that integrates feedback-driven personalized recommendation with multi-modal blog-style paper digestion. Our approach refines use",
+          "url": "https://arxiv.org/abs/2608.11973v1"
+        },
+        {
+          "title_zh": "LODESTAR: Trustworthy Entropy Is Navigated, Not Merely Measured -- Reinforced Polarizer Keeps a Frozen LLM from Being Confidently Misled by the Wrong Evidence",
+          "eng": "LODESTAR: Trustworthy Entropy Is Navigated, Not Merely Measured -- Reinforced Polarizer Keeps a Frozen LLM from Being Confidently Misled by the Wrong Evidence",
+          "summary": "Predictive-distribution entropy makes a strong selection rule in retrieval-augmented question answering: across five QA benchmarks, keeping the candidate answer that a frozen respondent LLM produces w",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-12",
+          "overview": "Predictive-distribution entropy makes a strong selection rule in retrieval-augmented question answering: across five QA benchmarks, keeping the candidate answer that a frozen respondent LLM produces with the lowest answer-token entropy lifts mean answer $F_1$ from 0.4769 to 0.5148 over the retriever's top-ranked passage, with no gold answers. Yet this lowest-entropy rule, which prior entropy-based selectors adopt, fails in a specific and consequential way: a misleading passage makes the respondent confidently wrong, driving its entropy down precisely where the signal looks most trustworthy. We",
+          "url": "https://arxiv.org/abs/2608.11922v1"
+        },
+        {
           "title_zh": "When Open Data Comes Full Circle: New OCR Reprocessing Software and Datasets Portal for Chronicling America",
           "eng": "When Open Data Comes Full Circle: New OCR Reprocessing Software and Datasets Portal for Chronicling America",
           "summary": "Learn about our new software release on GitHub that is transforming text quality across the Chronicling America Historic Newspapers collection, and how researchers and data enthusiasts can now pull bu",
@@ -1981,6 +2051,26 @@
           "region": "国际",
           "published": "2026-08-11",
           "url": "https://doi.org/10.1177/09610006261468357"
+        },
+        {
+          "title_zh": "Patterns of Research Funding Across Research Subjects: The Case of NSERC",
+          "eng": "Patterns of Research Funding Across Research Subjects: The Case of NSERC",
+          "summary": "Funding agencies aim to maximize scientific output from the resources they allocate, a goal that may inadvertently reinforce cumulative advantage within funding systems. Focusing on research areas wit",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "Funding agencies aim to maximize scientific output from the resources they allocate, a goal that may inadvertently reinforce cumulative advantage within funding systems. Focusing on research areas within Natural Sciences and Engineering (NSE), this study examines the distribution of Canadian research funding over time, with particular attention to the extent to which certain subjects gain prominence as emerging or high-growth fields, while others experience relative stagnation or decline. The results indicate that many research subject groups receiving decreased funding in recent years are con",
+          "url": "https://arxiv.org/abs/2608.11484v1"
+        },
+        {
+          "title_zh": "Characterizing Peace Through Scientific Keywords",
+          "eng": "Characterizing Peace Through Scientific Keywords",
+          "summary": "This study aims to show that peace, as reflected in scientific research, is not a neutral or uniform concept but is constructed differently across disciplines and geopolitical contexts. To do this, th",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-11",
+          "overview": "This study aims to show that peace, as reflected in scientific research, is not a neutral or uniform concept but is constructed differently across disciplines and geopolitical contexts. To do this, this study analyzes differences in the use of keywords among scholarly publications aligned with SDG 16 across various disciplinary, societal, and national contexts, and identifies which keywords are most strongly associated with countries exhibiting higher versus lower levels of societal peace. Results show that while peace-related research is strongly centered on violence, it is interpreted throug",
+          "url": "https://arxiv.org/abs/2608.11478v1"
         },
         {
           "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年科普阅读推广研讨会的通知",
@@ -3730,5 +3820,6 @@
         "国内"
       ]
     }
-  }
+  },
+  "merged_at": "2026-08-14T06:40:24+08:00"
 }
