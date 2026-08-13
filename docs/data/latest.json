@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T22:31:25+08:00",
+  "generated_at": "2026-08-13T23:41:25+08:00",
   "date": "2026-08-13",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,95 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-13 22:31",
-    "ai": "2026-08-13 22:31",
-    "voices": "2026-08-13 22:31",
-    "github": "2026-08-13 22:31",
-    "libraries": "2026-08-13 22:31",
-    "sports": "2026-08-13 22:31",
+    "hot": "2026-08-13 23:41",
+    "ai": "2026-08-13 23:41",
+    "voices": "2026-08-13 23:41",
+    "github": "2026-08-13 23:41",
+    "libraries": "2026-08-13 23:41",
+    "sports": "2026-08-13 23:41",
     "academic": "2026-08-13 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Google 重组 DeepMind，AI 竞赛是否正在失去？",
+          "eng": "Does Google even want to win at AI?",
+          "summary": "The Verge 报道 Google 宣布对 AI 部门进行重大重组，引发外界质疑 Google 是否在 AI 竞赛中落后。首席科学家 Jeff Dean 等高管变动引发行业关注。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-08-13",
+          "tags": [
+            "AI 产业动态",
+            "Google DeepMind",
+            "组织架构"
+          ],
+          "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+          "overview": "The Verge 高级 AI 记者 Hayden Field 与团队讨论了 Google 上周宣布的 DeepMind 重组消息。Jeff Dean 等关键人物被提及，DeepMind 内部结构发生剧烈变化。这引发了关于 Google 是否正在失去 AI 领先地位的行业讨论。",
+          "analysis": "这种重组往往意味着战略方向的调整或资源重新分配，可能反映了 Alphabet 对 AI 投入优先级的重新考量。在竞争对手加速迭代的背景下，内部动荡通常不是好兆头。",
+          "social": [
+            {
+              "who": "投资人",
+              "text": "Google 的 AI 部门重组规模之大令人不安，这可能意味着他们正在从其他业务线抽调资源来追赶，或者是在为下一轮整合做准备。"
+            },
+            {
+              "who": "工程师",
+              "text": "DeepMind 的核心架构变动直接影响模型研发效率，这种不确定性对依赖 Google AI API 的开发社区来说是个坏消息。"
+            }
+          ]
+        },
+        {
+          "title_zh": "警务科技巨头 Flock 收紧规则以应对监控反弹",
+          "eng": "Flock is tightening its rules in response to a growing surveillance backlash",
+          "summary": "MIT Tech Review 报道 Flock 宣布限制警察访问其车牌识别网络，试图平息对大规模监控和警察滥用的日益增长的反对声浪。",
+          "source": "MIT Tech Review",
+          "region": "美国",
+          "published": "2026-08-13",
+          "tags": [
+            "AI 伦理",
+            "执法科技",
+            "隐私"
+          ],
+          "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+          "overview": "面对公众对大规模监控的强烈反弹以及失去部分合同的困境，Flock 宣布将修改执法人员对其全国性车牌阅读器网络的访问权限。多项变更直接针对近期引发头条新闻的问题，旨在挽回声誉并重新赢得合同。",
+          "analysis": "这揭示了 AI 执法工具在商业化过程中面临的伦理困境：技术能力越强，社会阻力越大。企业必须在技术创新与社会责任之间做出艰难取舍。",
+          "social": [
+            {
+              "who": "公民权利活动家",
+              "text": "Flock 的让步只是开始，公众对算法监控的警惕不会因规则收紧而消失，真正的变革需要立法层面的介入。"
+            },
+            {
+              "who": "科技评论员",
+              "text": "失去合同是市场力量的体现，但 Flock 的妥协可能只是暂时的，当技术成本降低时，部署规模可能会再次扩大。"
+            }
+          ]
+        },
+        {
+          "title_zh": "用笔记本电脑模拟大规模 LLM Agent 社会",
+          "eng": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+          "summary": "arXiv 论文提出了一种新方法，通过低参数模型拟合大量 LLM Agent 的行为，从而在本地设备上模拟多智能体社会的宏观行为。",
+          "source": "arXiv cs.AI",
+          "region": "全球",
+          "published": "2026-08-13",
+          "tags": [
+            "多智能体系统",
+            "LLM 研究",
+            "计算效率"
+          ],
+          "url": "https://arxiv.org/abs/2608.11215",
+          "overview": "该研究利用统计物理学的观察结果，提出用低成本的小模型替代昂贵的 LLM Agent，以模拟包含多个 Agent 的社会系统。这种方法可以在笔记本电脑上运行大规模的多智能体社会实验，关注相变行为和缩放规律而非单个 Agent 的认知细节。",
+          "analysis": "这一方法降低了多智能体系统的研究门槛，使得学术界和独立研究者能够更广泛地探索 AI 社会的涌现行为。对于理解 LLM Agent 的集体行为模式具有重要意义。",
+          "social": [
+            {
+              "who": "AI 研究员",
+              "text": "这种方法极大地降低了模拟成本，但简化模型可能会丢失关键细节，影响对复杂社会动态的理解。"
+            },
+            {
+              "who": "系统架构师",
+              "text": "如果这种低成本模拟足够准确，未来企业可以用它来测试 AI 系统的鲁棒性，而无需部署真实的大规模集群。"
+            }
+          ]
+        },
         {
           "title_zh": "微软将合并 Copilot 应用，打造统一超级入口",
           "eng": "Microsoft is combining its Copilot apps ahead of a 'super app'",
@@ -722,86 +800,6 @@
               "text": "个人智能体的技术挑战远大于表面看起来的简单对话，真正的价值在于理解用户意图并执行复杂任务链。"
             }
           ]
-        },
-        {
-          "title_zh": "OpenAI推出Linux桌面版ChatGPT应用",
-          "eng": "OpenAI launches ChatGPT desktop app for Linux",
-          "summary": "OpenAI正式为Linux操作系统推出专用ChatGPT桌面应用，标志着其平台策略的重大扩展。此前ChatGPT主要覆盖Windows和macOS用户群体。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-08-11",
-          "tags": [
-            "OpenAI",
-            "Linux",
-            "桌面应用",
-            "平台扩展"
-          ],
-          "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-          "overview": "OpenAI正式发布了面向Linux操作系统的专用ChatGPT桌面应用。这一举措填补了Linux用户在桌面端使用ChatGPT的空白，此前该服务主要支持Windows和macOS平台。此举被视为OpenAI扩大用户基础的重要一步。",
-          "analysis": "Linux在开发者社区中占据重要地位，推出Linux版本有助于巩固OpenAI在技术用户群体中的影响力。同时这也反映了AI应用从消费级向专业级扩展的趋势。",
-          "social": [
-            {
-              "who": "Linux开发者社区代表",
-              "text": "终于等到官方支持了——之前只能用网页版，桌面体验确实差很多。"
-            },
-            {
-              "who": "企业IT决策者",
-              "text": "如果OpenAI全面覆盖主流操作系统，企业在部署AI工具时将面临更统一的技术栈选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI前COO Brad Lightcap离职，八年任职后开启新事业",
-          "eng": "Another OpenAI executive takes off",
-          "summary": "OpenAI特别项目负责人Brad Lightcap在该公司担任COO长达八年后宣布离职。他在内部备忘录中表示对'从不同视角推进使命'感到兴奋。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-08-11",
-          "tags": [
-            "OpenAI",
-            "高管变动",
-            "领导力"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-          "overview": "Brad Lightcap是OpenAI任职时间最长的执行团队成员之一，曾担任公司COO。他在内部备忘录中透露将开始'新事业'，并表示对从不同视角帮助团队推进使命感到兴奋。这一离职消息在X平台引发关注。",
-          "analysis": "Lightcap的离职正值OpenAI高速扩张期，其八年任期积累了丰富的管理经验。他的离开可能反映出AI公司在快速成长过程中面临的组织挑战——如何在保持创新活力的同时建立稳定的管理结构。",
-          "social": [
-            {
-              "who": "科技行业观察者",
-              "text": "AI公司的高管流动率远高于传统科技公司，这可能与行业的快速变化和创新压力有关。"
-            },
-            {
-              "who": "前OpenAI员工",
-              "text": "八年COO经历后选择离开，说明即使是核心管理层也在寻找新的挑战和意义。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta无法阻止美国各州1.4万亿美元诉讼案进入审判阶段",
-          "eng": "Meta can't stop states' $1.4 trillion lawsuit from going to trial",
-          "summary": "法官裁定Section 230条款为Meta提供的是抗辩权而非对诉讼的豁免，Meta无法阻止各州联合提起的1.4万亿美元规模诉讼案进入审判。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-08-11",
-          "tags": [
-            "Meta",
-            "法律诉讼",
-            "Section 230",
-            "平台责任"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
-          "overview": "美国各州联合对Meta提起的1.4万亿美元规模诉讼案即将进入审判阶段。法官裁定Section 230条款为Meta提供的是抗辩权而非对诉讼本身的豁免，这意味着Meta必须面对这场历史性的法律挑战。",
-          "analysis": "这是科技平台责任问题的标志性案件。如果各州胜诉，将对整个互联网行业的运营模式产生深远影响。Section 230作为美国互联网的基石性法律保护，其适用范围正在受到前所未有的审视。",
-          "social": [
-            {
-              "who": "法律学者",
-              "text": "Section 230的边界正在被重新定义——从'豁免'到'抗辩权'的转变可能意味着平台需要承担更多责任。"
-            },
-            {
-              "who": "科技政策研究者",
-              "text": "1.4万亿美元的诉讼规模反映了各州对社交媒体平台影响力的焦虑，以及通过法律手段进行规制的决心。"
-            }
-          ]
         }
       ]
     },
@@ -1235,191 +1233,242 @@
     "sports": {
       "items": [
         {
-          "title_zh": "切尔西设定周五最后通牒，曼城拒绝巴萨5100万英镑求购罗德里",
+          "title_zh": "英格兰世界杯后卫集体转会：60年最佳战绩后身价飙升",
+          "eng": "Why half of England's World Cup defenders are on the move",
+          "summary": "英格兰在本届世界杯取得60年来男子赛事最佳成绩（第三名），多名后卫球员因此成为转会市场上的抢手目标。",
+          "source": "BBC Football",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cj63p367gpyo?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰队在2026年世界杯上取得第三名，这是该国男子足球在正式赛事中60年来最好的成绩。这一历史性突破使得球队中的多名后卫球员身价大幅上涨，成为各大俱乐部争抢的对象。转会市场的活跃程度反映了英格兰队在本届赛事中的出色表现对球员价值的直接提升。",
+          "analysis": "世界杯的优异表现为英格兰后卫们带来了巨大的商业价值，但这也意味着他们可能面临频繁转会的风险。对于球队阵容的稳定性和战术体系的延续性来说，如何在市场诱惑与团队利益之间取得平衡将是关键问题。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "60年最佳战绩来之不易，希望俱乐部们能理性对待这些球员，不要为了短期利益破坏国家队阵容的稳定性。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "世界杯表现对转会市场的影响是双向的——既提升了球员身价，也可能导致核心球员流失，需要提前做好规划。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "切尔西设定周五截止期限：曼城拒绝巴萨5100万英镑求购罗德里",
           "eng": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
-          "summary": "曼城拒绝了巴塞罗那约6000万欧元（5100万英镑）对西班牙中场罗德里的第二次报价。切尔西则给潜在买家设定了周五下午5点（BST）的最后期限，要求出价1.2亿英镑求购恩佐·费尔南德斯。",
+          "summary": "曼城拒绝了巴塞罗那约6000万欧元（5100万英镑）再次求购罗德里的报价，切尔西则为恩佐·费尔南德斯设定了周五下午5点的竞价截止期限。",
           "source": "Guardian Football",
           "published": "2026-08-13",
           "url": "https://www.theguardian.com/football/2026/aug/13/manchester-city-barcelona-rodri-chelsea-enzo-fernandez",
-          "overview": "曼城希望以约6500万英镑出售罗德里，巴萨周二将初始4500万欧元报价提升至6000万欧元但仍被拒绝。切尔西方面则在寻找恩佐·费尔南德斯作为替代人选，并设定了明确的交易截止日期。QADSIAH也在接近与曼城达成蒂贾尼·雷因德尔斯的转会协议。",
-          "analysis": "这笔涉及三方的转会博弈折射出欧洲顶级俱乐部在2026-27赛季前的激烈竞争格局。罗德里作为西班牙队长和曼城核心，其身价持续攀升；切尔西对恩佐的追逐则暗示蓝军中场重建的决心。",
+          "overview": "巴塞罗那在周二将最初4500万欧元的报价提高至约6000万欧元（5100万英镑）求购曼城队长罗德里，但遭到拒绝。曼城方面认为该球员价值在6000万至6500万英镑之间。与此同时，切尔西为签下恩佐·费尔南德斯设定了周五下午5点（BST时间）的截止期限，报价约1.2亿英镑。",
+          "analysis": "罗德里作为西班牙国家队队长和曼城核心球员，其转会价值持续攀升反映了顶级中场球员的稀缺性。切尔西对恩佐·费尔南德斯的追求则显示了对替代人选的战略布局。这两笔交易可能重塑英超和中场市场的格局。",
+          "social": [
+            {
+              "who": "英超球迷",
+              "text": "罗德里是曼城的灵魂人物，希望俱乐部能留住这位队长，而不是在转会市场上失去他。"
+            },
+            {
+              "who": "足球记者",
+              "text": "恩佐·费尔南德斯作为潜在替代者备受关注，切尔西的紧迫态度表明他们急需加强中场阵容深度。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "爱尔兰足协撤回对国际足联主席因凡蒂诺的支持",
+          "title_zh": "爱尔兰足协撤回对国际足联主席的支持：IFA力挺欧足联立场",
           "eng": "FAI withdraws Infantino support as IFA backs Uefa",
-          "summary": "爱尔兰足球协会（FAI）正式撤回对饱受争议的国际足联主席詹尼·因凡蒂诺的支持，而北爱尔兰足球协会（IFA）则确认支持欧足联的立场。",
+          "summary": "爱尔兰足球协会（FAI）正式撤回对国际足联主席詹尼·因凡蒂诺的支持，而北爱尔兰足球协会（IFA）则确认支持欧足联的立场。",
           "source": "BBC Football",
           "published": "2026-08-13",
           "url": "https://www.bbc.co.uk/sport/football/articles/cy8m2mg0y99o?at_medium=RSS&at_campaign=rss",
-          "overview": "爱尔兰足球界出现重大分裂，FAI与IFA在因凡蒂诺问题上采取截然不同的立场。这一事件发生在国际足联面临广泛批评的背景下，凸显了欧洲足球治理体系内部的紧张关系。",
-          "analysis": "爱尔兰足协的转向可能影响未来欧洲杯预选赛等赛事的组织安排。因凡蒂诺在国际足联的权威正受到前所未有的挑战，欧足联的支持为其提供了一定程度的政治庇护。",
+          "overview": "爱尔兰足球协会（FAI）正式撤回对国际足联主席因凡蒂诺的支持，这一决定反映了国际社会对国际足联治理问题的不满。与此同时，北爱尔兰足球协会（IFA）明确表态支持欧足联的立场，显示出欧洲足球管理机构之间的分歧正在加深。",
+          "analysis": "这一事件凸显了国际足联在治理改革方面的困境，以及成员国足协对其领导力的质疑。如果趋势持续，可能影响未来世界杯等重大赛事的组织安排和投票结果。",
+          "social": [
+            {
+              "who": "足球政策分析师",
+              "text": "爱尔兰足协的立场转变表明因凡蒂诺的领导权威正在受到挑战，这对国际足联的未来走向具有重要影响。"
+            },
+            {
+              "who": "欧洲足球观察者",
+              "text": "IFA支持欧足联立场的决定进一步加剧了国际足联与欧足联之间的紧张关系，可能引发更多连锁反应。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "特里皮尔回归英冠：前英格兰右后卫重返狼队",
-          "eng": "Kieran Trippier: 'The Championship is relentless … it's totally different to the Premier League'",
-          "summary": "前英格兰国脚基兰·特里皮尔在离开英超12年后重返英冠，加盟狼队并担任队长。他在签约仅三天后便公开表达了对球队和联赛的看法。",
-          "source": "Guardian Football",
+          "title_zh": "英超球衣将因博彩赞助禁令而大变样：谁将取代博彩公司？",
+          "eng": "How Premier League shirts will change with gambling sponsor ban",
+          "summary": "英超俱乐部投票决定禁止球衣正面出现博彩赞助，本赛季球衣外观将出现重大变化。BBC Sport回顾了赞助历史，并分析谁会替代博彩公司成为新的赞助商。",
+          "source": "BBC Football",
           "published": "2026-08-13",
-          "url": "https://www.theguardian.com/football/2026/aug/13/kieran-trippier-wolves-championship-premier-league-england",
-          "overview": "特里皮尔身着狼队全套装备走进训练基地，在签约后迅速接受采访。这位经验丰富的后卫表示英冠与英超截然不同，强调联赛的激烈程度和独特性。他的回归为狼队的英冠征程增添了重要经验。",
-          "analysis": "作为前英格兰右后卫，特里皮尔的加盟对狼队在英冠的竞争力提升意义重大。他在英超12年的经验将为球队提供战术指导和更衣室领导力，尤其是在关键比赛中稳定军心的作用不可忽视。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c4g3vrr1vdro?at_medium=RSS&at_campaign=rss",
+          "overview": "英超俱乐部投票决定禁止在球衣正面出现博彩赞助商的广告，这一举措将显著改变本赛季球衣的外观设计。BBC Sport回顾了英超赞助的历史演变，并分析了哪些类型的赞助商可能填补博彩公司留下的空缺。",
+          "analysis": "这一禁令反映了社会对青少年保护的关注以及体育界对博彩行业影响的反思。替代赞助商的寻找将成为俱乐部营收结构的重要调整点，也可能影响未来的商业合作模式。",
+          "social": [
+            {
+              "who": "英超球迷",
+              "text": "支持这一决定！球衣上不应该出现博彩广告，这对保护年轻球迷至关重要。"
+            },
+            {
+              "who": "体育商业分析师",
+              "text": "虽然这是正确的社会方向，但俱乐部需要找到合适的替代赞助商来维持营收平衡，这是一个挑战。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "马焦在阿斯顿维拉首秀中进球，对阵巴黎圣日耳门",
+          "title_zh": "17岁天才马焦在阿斯顿维拉首秀中进球：对阵巴黎圣日耳门惊艳亮相",
           "eng": "'He has a very high ceiling': Madjo makes instant mark on delayed Aston Villa bow",
-          "summary": "17岁的布莱恩·马焦在等待注册批准的漫长等待后，于阿斯顿维拉对阵巴黎圣日耳门的友谊赛中完成首秀并打入一球。他在比赛第45分钟进球后与队友庆祝。",
+          "summary": "17岁的布赖恩·马焦经历了注册审批的漫长等待后，在阿斯顿维拉对阵巴黎圣日耳门的比赛中45分钟时打入首球，展现了惊人的天赋。",
           "source": "Guardian Football",
           "published": "2026-08-13",
           "url": "https://www.theguardian.com/football/2026/aug/13/aston-villa-brian-madjo-makes-mark-psg",
-          "overview": "马焦的注册审批被延迟，但他并未因此耽误太久。在维拉对阵巴黎圣日耳门的比赛中，这位年轻球员在第45分钟攻入一球，展示了巨大的潜力。教练对其评价极高，认为他拥有很高的天花板。",
-          "analysis": "马焦的首秀进球为阿斯顿维拉的阵容注入了新鲜血液。17岁的他在国际舞台上证明了自己的能力，这种即战力在转会市场上极为珍贵。他的到来也反映了俱乐部对年轻球员培养的重视。",
+          "overview": "阿斯顿维拉17岁球员布赖恩·马焦在经历注册审批延迟后，终于在对阵巴黎圣日耳门的比赛中完成首秀。他在比赛第45分钟打入个人首个英超进球，随后与队友们热烈庆祝。俱乐部主席对他的表现给予了高度评价，认为他具有极高的潜力上限。",
+          "analysis": "年轻球员的快速成长是足球界最令人兴奋的现象之一。马焦的出色表现不仅为阿斯顿维拉注入了新鲜血液，也为未来英格兰国家队的中场建设提供了希望。注册审批延迟的问题也反映了英超在年轻球员管理方面的制度挑战。",
+          "social": [
+            {
+              "who": "年轻球迷",
+              "text": "太棒了！17岁就能在对阵巴黎的比赛中进球，马焦的未来不可限量！"
+            },
+            {
+              "who": "足球教练",
+              "text": "年轻球员需要时间和机会来证明自己。阿斯顿维拉给马焦的首秀机会是明智的决定，他的表现证实了这一判断。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "西汉姆联重返英冠：14年来首次降级后的赛季展望",
-          "eng": "Will West Ham bounce straight back up?",
-          "summary": "BBC体育分析了西汉姆联的下一个赛季，这是该队14年来首次征战英冠联赛。球队在夏季转会窗口签下了贾罗德·鲍恩等关键球员。",
-          "source": "BBC Football",
+          "title_zh": "刚果民主共和国被禁20年的教练仍在训练青少年：国际足联保护机制遭质疑",
+          "eng": "Coach in DR Congo banned by Fifa for 20 years for sexual abuse still training young players",
+          "summary": "一名在2023年3月因性侵未成年人被国际足联禁止参加足球活动20年的刚果教练，仍在继续指导年轻球员。这一事件暴露了国际足联保护机制的缺陷。",
+          "source": "Guardian Football",
           "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckg9y2xrnego?at_medium=RSS&at_campaign=rss",
-          "overview": "西汉姆联在经历了14年英超征战后首次降级至英冠。主教练努诺·埃斯皮里托·桑托带来了包括克里斯恩西奥·萨默维尔和马特乌斯·费尔南德斯在内的多名新援，球队有望迅速反弹重返英超。",
-          "analysis": "鲍恩的留队为西汉姆联的英冠征程增添了重要砝码。作为经验丰富的前锋，他的存在将提升球队的进攻威胁。努诺教练在英冠的经验也将帮助球队快速适应联赛节奏，但英冠的竞争强度不容小觑。",
+          "url": "https://www.theguardian.com/football/2026/aug/13/coach-in-dr-congo-banned-by-fifa-for-20-years-for-sexual-abuse-still-training-young-players",
+          "overview": "刚果民主共和国教练乔纳森·布卡巴瓦科在2023年3月因性侵未成年人被国际足联处以20年禁赛和10万瑞士法郎罚款。然而，他在去年获释后仍在继续指导年轻球员。《卫报》的调查发现，这一事件暴露了国际足联在保护未成年人方面的制度缺陷和执行不力。",
+          "analysis": "这一事件严重损害了国际足联的保护机制公信力。它表明即使有明确的处罚决定，执行层面仍存在漏洞。需要加强国际合作和信息共享，确保被禁教练无法继续接触青少年球员。",
+          "social": [
+            {
+              "who": "儿童权益倡导者",
+              "text": "这是令人震惊的！国际足联必须采取更严格的措施来防止此类事件再次发生。"
+            },
+            {
+              "who": "足球伦理专家",
+              "text": "保护未成年人的机制需要全球性的协调和监督，单一国家的执法力度不足以应对跨国问题。"
+            }
+          ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "退役裁判泰勒：前裁判文化加剧了对官员的恐惧",
-          "eng": "Critical former referees add to culture of fear, says retiring Taylor",
-          "summary": "即将退役的英超裁判安东尼·泰勒表示，他的离职决定部分源于围绕裁判的不健康争论氛围。多位前裁判对当前足球界对待官员的文化提出了严厉批评。",
-          "source": "BBC Football",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/football/articles/czxq25zejj4o?at_medium=RSS&at_campaign=rss",
-          "overview": "英超裁判安东尼·泰勒宣布退役，并指出足球界对裁判的有毒争论文化是他做出这一决定的重要因素。多位前裁判加入批评行列，呼吁改善对待官员的环境。这一事件引发了关于足球治理和裁判保护机制的广泛讨论。",
-          "analysis": "裁判文化的恶化可能影响比赛质量和公平性。球员、教练和球迷对裁判的过度攻击不仅损害了裁判的职业尊严，也可能间接影响判罚的客观性。英超需要建立更健康的裁判文化，以维护比赛的公正性和观赏性。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "'生命线'乒乓球场馆临时重新开放",
+          "title_zh": "“生命线”乒乓球场地临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "BBC报道，一个名为'Lifeline'的社区乒乓球场地暂时恢复运营，使用者形容这如同将精神家园归还。",
+          "summary": "一处名为“生命线”的社区乒乓球场地暂时恢复运营，使用者表示这如同将精神家园归还给了我们。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该社区乒乓球场地此前曾面临关闭或受限的情况，目前暂时重新向公众开放。一名使用者表示这种感受如同“我们的精神家园被归还给我们”。这一消息反映了基层体育设施在运营调整后的灵活应对，也体现了乒乓球在社区生活中不可替代的地位。",
-          "analysis": "社区乒乓球设施的恢复对基层推广至关重要，它不仅是运动场所的回归，更是居民社交和精神归属感的重建，值得持续关注其后续运营稳定性。",
+          "overview": "该场地此前可能因某种原因关闭，现暂时重新开放。对于依赖该设施进行社交和锻炼的乒乓球爱好者而言，这一消息意义重大，被形容为“精神家园”的回归。",
+          "analysis": "社区体育设施的稳定性直接影响基层参与度，临时恢复虽非长久之计，但能缓解爱好者的焦虑情绪。",
           "social": [
             {
-              "who": "社区乒乓球爱好者",
-              "text": "能重新打球的感觉太好了，这不仅仅是运动，更是归属感。"
+              "who": "资深球迷",
+              "text": "场地重新开放对社区氛围是巨大提振"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "莱德茨基在泛太平洋锦标赛首金延续16年连胜纪录",
+          "title_zh": "莱德基在泛太平洋锦标赛上延续16年连胜纪录",
           "eng": "Swim hero Katie Ledecky extends 16-year winning streak with Pan Pacs gold",
-          "summary": "美国游泳名将凯蒂·莱德茨基在泛太平洋锦标赛首日以15分36秒09的成绩赢得1500米自由泳金牌，这是她在国际赛场上的首枚奖牌。",
+          "summary": "美国游泳名将凯蒂·莱德基在泛太平洋锦标赛首日的1500米自由泳中夺冠，将个人国际赛事连胜纪录延长至16年。",
           "source": "Guardian Sport",
           "published": "2026-08-13",
           "url": "https://www.theguardian.com/sport/2026/aug/13/katie-ledecky-1500m-pan-pacific-championships-swimming-gold",
-          "overview": "两届奥运冠军莱德茨基在加州尔湾的户外泳池中，以世界纪录配速领先完成了30圈的1500米自由泳比赛。她在泛太平洋锦标赛开幕夜夺金，延续了长达16年的国际赛事连胜纪录。此外，美国选手沃尔什击败道格拉斯夺得50米蝶泳冠军，乌兰多打破了迈克尔·菲尔普斯保持20年的记录。",
-          "analysis": "莱德茨基在主场作战展现了统治力，其世界纪录配速的发挥令人印象深刻。泛太平洋锦标赛作为奥运前的重要热身赛，首日即诞生多项突破，预示了即将到来的赛季竞争将更加激烈。",
-          "social": [
-            {
-              "who": "资深游泳迷",
-              "text": "16年连胜！莱德茨基在家门口再次证明自己是无可争议的自由泳女王。"
-            },
-            {
-              "who": "体育记者",
-              "text": "乌兰多打破菲尔普斯20年老纪录，这一时刻同样值得铭记。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英超开局悬念重重：半壁江山易帅，巴萨应避开罗德里？",
-          "eng": "This week's soccer questions: is the Premier League wide open and should Barça avoid Rodri?",
-          "summary": "新赛季英超在广泛不确定性中拉开帷幕，包括切尔西、利物浦和曼城在内的半数球队更换了管理层，瓜迪奥拉时代终结。",
-          "source": "Guardian Sport",
-          "published": "2026-08-13",
-          "url": "https://www.theguardian.com/football/2026/aug/13/this-weeks-soccer-questions-is-this-the-premier-league-wide-open-and-should-barca-avoid-rodri",
-          "overview": "英超联赛在前所未有的不确定性中开启新赛季，切尔西、利物浦和曼城等半数球队处于新管理之下。瓜迪奥拉时代结束，正如乔纳森·威尔逊所言，英超可能首次没有“顶级教练”。文章还探讨了巴塞罗那今夏的一大潜在转会操作以及国际足联的混乱局面。",
-          "analysis": "瓜迪奥拉离开后英超失去了绝对核心，这为其他球队提供了前所未有的机遇。巴萨对罗德里转会的态度也反映了当前欧洲足球市场的复杂博弈。",
+          "overview": "莱德基在加州尔湾的室外泳池中展现了统治级表现，以15分36秒的成绩赢得金牌。同场还有沃尔什击败道格拉斯夺得50米蝶泳冠军，以及乌兰多打破了菲尔普斯保持20年的纪录。",
+          "analysis": "莱德基在家门口赛场再次证明其传奇地位，16年连胜在国际赛事中极为罕见。这不仅是个人成就的巅峰，也标志着美国游泳在该项目上的持续统治力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "瓜帅时代结束，英超终于迎来了真正的群雄逐鹿时刻。"
-            },
-            {
-              "who": "战术分析师",
-              "text": "没有顶级教练的英超，冠军归属将完全取决于球队自身的深度和稳定性。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "南非橄榄球联队超越新西兰全黑队：空座与褪色的光环",
-          "eng": "Empty seats and faded aura show how Springboks outgrew the All Blacks | Daniel Gallan",
-          "summary": "背靠背世界冠军南非队在国王公园球场以14,759人出席的惨淡上座率，见证了新西兰全黑队54-0大胜鲨鱼队的比赛。",
-          "source": "Guardian Sport",
-          "published": "2026-08-13",
-          "url": "https://www.theguardian.com/sport/2026/aug/13/faded-aura-springboks-outgrew-all-blacks-rugby-union",
-          "overview": "南非橄榄球联队作为背靠背世界冠军，本应受到更多关注，但国王公园球场仅售出不到三分之一的门票。新西兰全黑队在恶劣天气下以54-0的比分轻松击败鲨鱼队，展现了强大的统治力。文章指出南非队已超越全黑队的历史地位，但现场氛围却未能体现这一成就。",
-          "analysis": "尽管南非队在竞技层面已超越新西兰，但上座率和现场氛围的低迷令人担忧。橄榄球史上最伟大的宿敌对决正在成为南非队建立自身传奇地位的机会，但需要更多支持来匹配其实力。",
-          "social": [
-            {
-              "who": "橄榄球迷",
-              "text": "全黑队54-0大胜，虽然天气恶劣，但这正是世界顶级水平的体现。"
+              "text": "莱德基的16年连胜纪录简直不可思议，在家门口拿金牌更是锦上添花。"
             },
             {
               "who": "体育评论员",
-              "text": "南非队的竞技实力已超越新西兰，希望观众能跟上这一变化。"
+              "text": "乌兰多打破菲尔普斯20年老纪录同样值得关注，但莱德基的稳定性才是最大的看点。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "库什纳与艾格以125亿美元创纪录收购洛杉矶湖人队",
-          "eng": "Josh Kushner and Bob Iger reportedly buying Los Angeles Lakers for $12.5bn",
-          "summary": "据ESPN报道，亿万富翁乔什·库什纳和鲍勃·艾格正以超过125亿美元的创纪录交易购买NBA球队洛杉矶湖人。",
-          "source": "Guardian Sport",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/sport/2026/aug/12/josh-kushner-and-bob-iger-reportedly-buying-los-angeles-lakers-for-12bn",
-          "overview": "亿万富翁乔什·库什纳和迪士尼CEO鲍勃·艾格正以超过125亿美元的价格收购洛杉矶湖人队，这一创纪录的交易由ESPN报道。去年马克·沃尔特从布斯家族手中购买了球队多数股权，当时估值为100亿美元。新买家表示希望“在最高水平上竞争”。",
-          "analysis": "这笔交易标志着NBA历史上最大的所有权变更之一，库什纳和艾格的组合有望为湖人带来新的战略方向。超过125亿美元的估值也反映了洛杉矶市场的巨大吸引力。",
-          "social": [
-            {
-              "who": "篮球迷",
-              "text": "125亿美元！湖人的新东家阵容豪华，期待他们能提升球队竞争力。"
-            },
-            {
-              "who": "NBA分析师",
-              "text": "库什纳和艾格的合作有望为湖人带来商业上的突破和竞技层面的提升。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "斯维亚特克闯入加拿大公开赛决赛： toughest season 首冠在望",
-          "eng": "Swiatek into first final of her 'toughest season'",
-          "summary": "世界排名第一的斯维亚特克在加拿大公开赛中闯入了决赛，将面对埃琳娜·莱巴金娜。两位选手均在半决赛中经过三盘苦战才晋级。",
-          "source": "BBC Tennis",
+          "title_zh": "孟加拉国在首日测试赛中压制澳大利亚",
+          "eng": "Bangladesh dominate Australia despite Smith reprieve",
+          "summary": "尽管澳大利亚球星史蒂夫·史密斯因技术判罚争议获得喘息机会，但孟加拉国队在第一天的测试赛中大比分领先东道主。",
+          "source": "BBC Sport",
           "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckgdppv82ymo?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的斯维亚特克在加拿大公开赛中闯入了决赛，将面对埃琳娜·莱巴金娜。两位选手均在半决赛中经过三盘苦战才晋级。这是斯维亚特克本赛季最艰难赛季中的首场决赛，展现了她顽强的竞技状态。",
-          "analysis": "尽管斯维亚特克是世界第一，但本赛季的赛程对她来说格外艰辛。能在如此艰难的赛季中闯入决赛，再次证明了她的实力和心理素质。",
-          "social": [
-            {
-              "who": "网球爱好者",
-              "text": "斯维亚特克又一场三盘大战晋级，她的韧性令人敬佩。"
-            },
-            {
-              "who": "体育解说员",
-              "text": "莱巴金娜将是斯维亚特克在决赛中的强劲对手，这场对决不容错过。"
-            }
-          ],
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c86ndx87e8eo?at_medium=RSS&at_campaign=rss",
+          "overview": "在英联邦对抗赛的首日测试赛中，孟加拉国队整体表现强劲，压制了澳大利亚主队。虽然史密斯因一项奇特的技术判罚豁免获得了短暂喘息，但未能改变球队的整体劣势。",
+          "analysis": "孟加拉国的崛起打破了人们对南亚球队在顶级板球赛事中实力的固有印象。史密斯的",
+          "region": "综合"
+        },
+        {
+          "title_zh": "莱斯特城挂牌出售，标价超2亿英镑",
+          "eng": "Leicester City put up for sale for more than £200m",
+          "summary": "泰国金权集团（King Power）在执掌莱斯特城16年后宣布将俱乐部挂牌出售，目标价格超过2亿英镑。",
+          "source": "BBC Sport",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ce3qp0yy0j9o?at_medium=RSS&at_campaign=rss",
+          "overview": "莱斯特城俱乐部正式进入出售程序，泰国母公司金权集团希望以超过2亿英镑的价格转让这家英超球队。这是自亚洲财团入主以来首次考虑退出。",
+          "analysis": "这笔交易若成行，将是近年来英格兰足球最大的俱乐部所有权变更之一，反映了亚洲资本对欧洲顶级联赛球队的持续兴趣与策略调整。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "库什纳与艾格联手以125亿美元创纪录收购湖人队",
+          "eng": "Josh Kushner and Bob Iger reportedly buying Los Angeles Lakers for $12.5bn",
+          "summary": "据ESPN报道，亿万富翁乔什·库什纳和迪士尼CEO鲍勃·艾格正以超过125亿美元的创纪录价格收购洛杉矶湖人队。",
+          "source": "Guardian Sport",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/sport/2026/aug/12/josh-kushner-and-bob-iger-reportedly-buying-los-angeles-lakers-for-12bn",
+          "overview": "这笔交易打破了去年马克·沃尔特以100亿美元收购时的估值，标志着NBA球队所有权进入超级富豪时代。库什纳和艾格旨在",
+          "region": "综合"
+        },
+        {
+          "title_zh": "霍奇金森闯入800米决赛，韦尔罗摔倒后惊险晋级",
+          "eng": "Hodgkinson into 800m final and Werro through despite nasty fall",
+          "summary": "在欧洲锦标赛女子800米决赛中，英国选手基利·霍奇金森成功晋级，而法国对手奥黛丽·韦尔罗在赛前训练中摔伤，晋级前景一度存疑。",
+          "source": "BBC Sport",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/cgq5pd4n0y5o?at_medium=RSS&at_campaign=rss",
+          "overview": "在英国本土举行的欧洲田径锦标赛上，霍奇金森展现了出色的竞技状态闯入决赛。与此同时，法国名将韦尔罗在热身时遭受严重摔倒，其能否参赛成为悬念。",
+          "analysis": "韦尔罗的意外摔倒为比赛增添了戏剧性色彩，而霍奇金森作为东道主选手在家门口赛事中的表现备受期待，这场对决有望成为本届锦标赛的焦点之一。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "蒂勒曼斯就曼联言论向维拉球迷道歉",
+          "eng": "Tielemans apologises to Villa fans for Man Utd remarks",
+          "summary": "阿斯顿维拉中场尤里·蒂勒曼斯因暗示自己可能转会至英超竞争对手曼联，遭到维拉球迷不满后公开道歉。",
+          "source": "BBC Sport",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm2gpr52drzo?at_medium=RSS&at_campaign=rss",
+          "overview": "蒂勒曼斯在社交媒体上的言论引发了维拉球迷的强烈不满，他随后公开向支持者道歉。这一事件凸显了球员在转会传闻中的言行管理问题。",
+          "analysis": "英超球队间的竞争压力使得球员的一言一行都成为焦点，蒂勒曼斯的道歉显示了俱乐部对核心球员忠诚度的重视，也反映了现代足球中社交媒体影响力的重要性。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "退役裁判泰勒称前同事的批评加剧了足球界的恐惧文化",
+          "eng": "Critical former referees add to culture of fear, says retiring Taylor",
+          "summary": "即将退役的英超裁判安东尼·泰勒表示，部分前裁判的言论加剧了对官员的不信任氛围，这也是他决定离开的重要原因之一。",
+          "source": "BBC Sport",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czxq25zejj4o?at_medium=RSS&at_campaign=rss",
+          "overview": "英超传奇裁判泰勒宣布退役，并指出部分前同事的批评言论营造了一种",
+          "region": "综合"
+        },
+        {
+          "title_zh": "南非队超越新西兰全黑队：橄榄球最大宿敌的演变",
+          "eng": "Empty seats and faded aura show how Springboks outgrew the All Blacks | Daniel Gallan",
+          "summary": "在国王公园球场，新西兰全黑队以54-0大胜鲨鱼队，但南非队作为卫冕世界冠军正试图通过这一经典对决确立其历史地位。",
+          "source": "Guardian Sport",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/sport/2026/aug/13/faded-aura-springboks-outgrew-all-blacks-rugby-union",
+          "overview": "尽管现场上座率因天气不佳而偏低，但南非橄榄球联盟正致力于利用与全黑队的宿敌关系来提升自身品牌影响力。新西兰队的大胜虽然精彩，却未能掩盖南非队在橄榄球格局中日益增长的地位。",
+          "analysis": "这一对决不仅是两支传统强队的较量，更是全球橄榄球版图变化的缩影。南非队的崛起标志着橄榄球运动从单一中心向多极化发展的趋势，对未来的世界排名和赛事格局将产生深远影响。",
           "region": "综合"
         }
       ],
@@ -1433,462 +1482,209 @@
     "github": {
       "items": [
         {
-          "title_zh": "DeepSeek Harness - AI应用开发框架",
+          "title_zh": "DeepSeek Harness：万物皆插件",
           "eng": "deepseek-ai/deepseek-harness",
-          "summary": "DeepSeek官方推出的AI应用开发工具，帮助开发者快速构建和部署AI应用。",
+          "summary": "DeepSeek 推出的全栈 AI 插件框架，让模型能力通过插件系统无缝扩展。",
           "source": "GitHub",
-          "stars": 17628,
+          "stars": 25929,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "overview": "这是DeepSeek官方团队发布的高星项目，提供了一套完整的AI应用开发框架。支持多种部署方式，降低了AI应用的开发门槛。作为知名大模型公司的官方工具，其稳定性和易用性得到了广泛认可。",
-          "analysis": "该项目以17628颗星标位居榜首，充分体现了开发者社区对DeepSeek生态的认可。对于想要快速构建AI应用的企业和个人开发者来说，这是一个值得关注的官方工具。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "作为DeepSeek官方出品，这个框架的文档质量和社区支持都值得信赖。"
-            },
-            {
-              "who": "AI研究者",
-              "text": "对于想要将研究成果快速产品化的团队来说，这是一个很好的起点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "H3推理引擎 - Mac本地AI推理",
-          "eng": "antirez/h3.c",
-          "summary": "MiniMax H3模型的Mac本地推理引擎，让开发者可以在本地运行大语言模型。",
-          "source": "GitHub",
-          "stars": 1735,
-          "lang": "C",
-          "published": "2026-08-09",
-          "url": "https://github.com/antirez/h3.c",
-          "overview": "由Redis创始人Salvatore Sanfilippo开发的H3推理引擎，专注于在Mac设备上运行MiniMax H3模型。采用C语言编写，注重性能和资源效率。支持本地部署，保护数据隐私。",
-          "analysis": "这个项目展示了AI推理从云端到本地的趋势，对于关注边缘计算和隐私保护的开发者来说非常有价值。C语言的实现也保证了良好的性能表现。",
-          "social": [
-            {
-              "who": "系统程序员",
-              "text": "Redis创始人亲自维护的项目，代码质量和文档都很出色。"
-            },
-            {
-              "who": "AI开发者",
-              "text": "本地推理是未来趋势，这个项目为Mac用户提供了很好的选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Phone Harness - AI手机控制框架",
-          "eng": "ShawnPana/phone-harness",
-          "summary": "让AI Agent能够控制和操作手机的开源框架，支持多种移动设备。",
-          "source": "GitHub",
-          "stars": 1701,
-          "lang": "Python",
-          "published": "2026-08-07",
-          "url": "https://github.com/ShawnPana/phone-harness",
-          "overview": "这是一个创新的AI手机控制框架，允许开发者构建能够操作手机的AI Agent。支持多种移动设备平台，提供了丰富的API接口。对于想要探索AI+移动端应用的团队来说是一个很好的起点。",
-          "analysis": "随着AI Agent技术的发展，手机作为交互终端的重要性日益凸显。这个项目填补了AI与移动设备之间的桥梁，具有广阔的应用前景。",
-          "social": [
-            {
-              "who": "移动端开发者",
-              "text": "这个框架让AI控制手机变得简单，降低了开发门槛。"
-            },
-            {
-              "who": "AI研究者",
-              "text": "对于研究人机交互和Agent系统的团队来说，这是一个很好的实验平台。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Oil Motion - Web动画框架",
-          "eng": "oil-oil/oil-motion",
-          "summary": "用于创建流畅、响应式交互式Web动画的Python库，简化前端开发体验。",
-          "source": "GitHub",
-          "stars": 1668,
-          "lang": "Python",
-          "published": "2026-08-07",
-          "url": "https://github.com/oil-oil/oil-motion",
-          "overview": "Oil Motion是一个专注于Web动画的Python库，能够帮助开发者创建流畅、响应式的交互效果。支持多种动画类型和过渡效果，API设计简洁易用。特别适合需要丰富交互动效的前端项目。",
-          "analysis": "在Web开发中，好的动效能够显著提升用户体验。这个库的出现降低了实现复杂动画的难度，对于前端开发者和设计师来说是一个实用工具。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "相比手写CSS动画，这个库提供了更简洁的API和更好的性能。"
-            },
-            {
-              "who": "UI设计师",
-              "text": "丰富的动效选项让设计稿到实现的转换变得更加顺畅。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Dalaran - 机器人可视化基础设施",
-          "eng": "Flaminis/Dalaran",
-          "summary": "基于Rust的Apache-2.0开源项目，为多模态时间序列数据提供机器人优先的可视化和数据基础设施。",
-          "source": "GitHub",
-          "stars": 927,
-          "lang": "Rust",
-          "published": "2026-08-07",
-          "url": "https://github.com/Flaminis/Dalaran",
-          "overview": "Dalaran是Rerun的硬分叉，专注于机器人领域的可视化需求。采用Apache-2.0许可证，原生支持ROS 2，能够读取现有的.rrd录制文件。提供强大的多模态时间序列数据可视化和分析能力。",
-          "analysis": "作为Rust编写的高性能项目，Dalaran在机器人可视化领域具有独特优势。对于从事机器人开发和研究的团队来说，这是一个值得关注的开源工具。",
-          "social": [
-            {
-              "who": "机器人工程师",
-              "text": "原生支持ROS 2，与现有工作流集成非常方便。"
-            },
-            {
-              "who": "数据科学家",
-              "text": "多模态时间序列的可视化能力对于复杂数据分析很有帮助。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Kage - Three.js交互体验项目",
-          "eng": "MengTo/kage",
-          "summary": "一个基于Three.js的交互式京都山寺夜游体验，通过Web技术呈现沉浸式视觉效果。",
-          "source": "GitHub",
-          "stars": 879,
-          "lang": "HTML",
-          "published": "2026-08-08",
-          "url": "https://github.com/MengTo/kage",
-          "overview": "Kage是一个创意十足的Web项目，使用Three.js技术实现了交互式京都山寺夜游体验。包含五个章节的叙事内容，通过实时渲染创造沉浸式的视觉效果。展示了Web技术在艺术创作中的无限可能。",
-          "analysis": "这个项目是技术与艺术的完美结合，对于学习Three.js和WebGL技术的开发者来说是一个很好的实践案例。同时也展示了开源社区在创意项目方面的活力。",
-          "social": [
-            {
-              "who": "3D开发者",
-              "text": "这个项目的交互设计和视觉效果都非常出色，值得学习。"
-            },
-            {
-              "who": "Web开发者",
-              "text": "展示了Three.js在创意项目中的强大表现力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "YouTube Music - 免费音乐客户端",
-          "eng": "sohaibdevv/youtube-music",
-          "summary": "一个轻量级的YouTube Music免费客户端，支持后台播放、搜索和自定义歌单。",
-          "source": "GitHub",
-          "stars": 854,
-          "lang": "TypeScript",
-          "published": "2026-08-11",
-          "url": "https://github.com/sohaibdevv/youtube-music",
-          "overview": "这是一个基于逆向API开发的YouTube Music客户端，无需订阅即可使用。支持后台播放、音乐搜索和自定义歌单功能。采用TypeScript编写，代码质量较高。对于不想付费的用户来说是一个实用的替代方案。",
-          "analysis": "虽然涉及逆向工程，但该项目展示了如何构建合法的音乐流媒体客户端。对于关注开源音乐应用开发的团队来说，这是一个值得研究的案例。",
-          "social": [
-            {
-              "who": "TypeScript开发者",
-              "text": "代码结构清晰，API设计合理，适合学习参考。"
-            },
-            {
-              "who": "音乐爱好者",
-              "text": "免费使用YouTube Music的功能，对于不想订阅的用户很有吸引力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Pi From Scratch - 从零学习π计算",
-          "eng": "SaladDay/pi-from-scratch",
-          "summary": "用600行TypeScript实现的超级迷你版π计算程序，帮助开发者从0开始构建自己的AI Agent。",
-          "source": "GitHub",
-          "stars": 840,
-          "lang": "TypeScript",
-          "published": "2026-08-09",
-          "url": "https://github.com/SaladDay/pi-from-scratch",
-          "overview": "这是一个教育性质的开源项目，用简洁的TypeScript代码实现了π的计算。通过这个项目，开发者可以学习AI Agent的基本构建方法。代码量少但功能完整，非常适合入门学习。",
-          "analysis": "作为学习资源，这个项目很好地平衡了教学性和实用性。对于想要了解AI Agent开发流程的新手来说，是一个很好的起点项目。",
-          "social": [
-            {
-              "who": "初学者",
-              "text": "代码简洁易懂，是学习AI Agent开发的理想入门项目。"
-            },
-            {
-              "who": "教育者",
-              "text": "适合作为教学案例，帮助学生理解Agent的基本概念和实现方法。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenMausBot - AI聊天机器人框架",
-          "eng": "milind-soni/OpenMausBot",
-          "summary": "一个开源的AI聊天机器人框架，提供灵活的对话管理和用户交互能力。",
-          "source": "GitHub",
-          "stars": 745,
-          "lang": "TypeScript",
-          "published": "2026-08-11",
-          "url": "https://github.com/milind-soni/OpenMausBot",
-          "overview": "OpenMausBot是一个基于TypeScript的AI聊天机器人框架，支持多种对话场景和用户交互模式。提供丰富的API接口和扩展机制，便于开发者构建自定义的聊天应用。代码结构清晰，文档完善。",
-          "analysis": "随着AI聊天机器人的需求增长，这个开源框架为开发者提供了一个可靠的起点。对于想要快速构建聊天应用的团队来说，值得关注。",
-          "social": [
-            {
-              "who": "全栈开发者",
-              "text": "TypeScript的强类型特性让代码维护更加容易。"
-            },
-            {
-              "who": "产品经理",
-              "text": "灵活的扩展机制可以满足不同场景的需求。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Chatbot Template - AI聊天应用模板",
-          "eng": "shadcn-ui/chatbot-template",
-          "summary": "基于Next.js、AI SDK和shadcn/ui构建的最小化聊天机器人模板，运行在Vercel AI Gateway上。",
-          "source": "GitHub",
-          "stars": 627,
-          "lang": "TypeScript",
-          "published": "2026-08-11",
-          "url": "https://github.com/shadcn-ui/chatbot-template",
-          "overview": "这是shadcn-ui团队提供的AI聊天机器人模板，采用Next.js和最新的AI SDK构建。集成了Vercel AI Gateway，提供开箱即用的聊天功能。UI组件使用shadcn/ui，保证了美观和一致性。",
-          "analysis": "作为官方维护的模板项目，这个聊天应用为开发者提供了一个高质量的起点。对于想要快速构建AI聊天应用的团队来说，这是一个值得参考的实现方案。",
-          "social": [
-            {
-              "who": "前端工程师",
-              "text": "shadcn/ui组件库让UI实现变得简单且美观。"
-            },
-            {
-              "who": "全栈开发者",
-              "text": "完整的Next.js + AI SDK集成，开箱即用体验很好。"
-            }
-          ]
-        },
-        {
-          "title_zh": "MCP Phone Server - 电话号码服务",
-          "eng": "sv-number/mcp-server",
-          "summary": "为AI Agent提供电话号码服务的MCP服务器，支持200+国家的私人号码订购和短信验证码读取。",
-          "source": "GitHub",
-          "stars": 614,
-          "lang": "JavaScript",
-          "published": "2026-08-07",
-          "url": "https://github.com/sv-number/mcp-server",
-          "overview": "这是一个创新的MCP服务器，专门为需要电话号码的AI Agent提供服务。支持在200多个国家订购私人号码，并提供短信验证码读取功能。采用JavaScript编写，API调用简单高效。",
-          "analysis": "随着AI Agent在通信领域的应用增加，这个服务填补了一个重要的需求空白。对于构建需要电话功能的AI应用来说，这是一个实用的基础设施。",
-          "social": [
-            {
-              "who": "MCP开发者",
-              "text": "作为MCP生态的一部分，与主流AI框架集成方便。"
-            },
-            {
-              "who": "全栈工程师",
-              "text": "200+国家的覆盖范围非常广泛，实用性很强。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anti-Slop - TypeScript代码质量工具",
-          "eng": "dmmulroy/anti-slop",
-          "summary": "基于Oxlint的TypeScript和JavaScript代码质量规则集，帮助开发者识别和拒绝低证据的代码模式。",
-          "source": "GitHub",
-          "stars": 537,
-          "lang": "TypeScript",
-          "published": "2026-08-12",
-          "url": "https://github.com/dmmulroy/anti-slop",
-          "overview": "Anti-Slop是一个专注于代码质量的工具，提供了一系列针对TypeScript和JavaScript的lint规则。这些规则基于实际经验总结，帮助开发者避免常见的低质量代码模式。集成Oxlint框架，配置简单。",
-          "analysis": "随着TypeScript项目的增长，代码质量问题日益受到关注。这个工具为团队提供了一个实用的代码质量保证方案，有助于提升整体代码质量。",
-          "social": [
-            {
-              "who": "技术负责人",
-              "text": "对于维护代码质量的团队来说，这是一个很好的辅助工具。"
-            },
-            {
-              "who": "资深开发者",
-              "text": "规则设计合理，基于实际经验总结，不是纸上谈兵。"
-            }
-          ]
+          "overview": "DeepSeek Harness 是一个以"
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "英国水务公司获准涨价，水费账单将上涨",
-          "summary": "英国监管机构Ofwat已初步批准13家水务公司向客户收取更多费用，以支付投资成本。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国水务监管办公室（Ofwat）已给予13家主要水务公司临时批准，允许其向消费者收取更高的水费。这笔额外收入将用于资助供水和污水处理基础设施的长期投资计划。此举旨在改善老旧管网并提升服务可靠性，但引发了公众对生活成本上升的担忧。",
-          "analysis": "这是英国近年来最大规模的水价调整之一，反映了水务行业在维护巨额基础设施方面的资金压力。消费者团体预计这将进一步推高家庭账单支出。",
-          "social": [
-            {
-              "who": "环保组织代表",
-              "text": "我们呼吁政府审视涨价的必要性，优先通过技术创新而非转嫁成本来解决问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "102岁老人在酒吧遭袭击后不治身亡",
-          "summary": "菲利普·奥默罗德在遭受疑似酒吧袭击后被送往医院抢救，最终不幸去世。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cwyl2zwp158o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国警方确认，102岁的菲利普·奥默罗德在酒吧遭遇袭击后被紧急送往医院，尽管接受了治疗仍于近日去世。这一事件因其受害者的极高年龄而引发广泛关注。警方正在调查袭击的具体细节和嫌疑人身份。",
-          "analysis": "该案件凸显了针对老年人的暴力犯罪问题，也引发了公众对酒吧安全措施的讨论。",
-          "social": [
-            {
-              "who": "社区活动人士",
-              "text": "我们需要加强公共场所的安全巡逻，保护弱势群体免受侵害。"
-            }
-          ]
-        },
-        {
-          "title_zh": "日食观测致眼损伤的警示信号",
-          "summary": "BBC发布了关于直视太阳可能造成的眼部伤害症状的关键指南。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/c4gk0dq81j2o?at_medium=RSS&at_campaign=rss",
-          "overview": "在日食观测期间，如果没有佩戴专业的日食眼镜直接观看太阳，可能会导致视力模糊等永久性损伤。BBC整理了相关症状清单，提醒公众注意保护眼睛健康。眼科专家警告说，即使是部分遮挡的日食也足以对视网膜造成严重伤害。",
-          "analysis": "随着天文爱好者对日食的浓厚兴趣，此类安全科普显得尤为重要，旨在防止因无知导致的不可逆视力损失。",
-          "social": [
-            {
-              "who": "眼科医生",
-              "text": "请务必使用专业设备观测，切勿用肉眼直视太阳，哪怕只是几秒钟也可能造成永久伤害。"
-            }
-          ]
-        },
-        {
-          "title_zh": "白宫新闻秘书莱维特任期回顾与离职",
-          "summary": "特朗普表示莱维特将离开白宫新闻秘书职位，BBC回顾了这位27岁上任的最年轻新闻秘书的关键时刻。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/videos/c86nd59z7vqo?at_medium=RSS&at_campaign=rss",
-          "overview": "卡洛琳·莱维特于2025年1月以27岁的年龄成为美国历史上最年轻的白宫新闻秘书。BBC视频回顾了她在任期间的关键时刻，而特朗普总统近日宣布她将离开该职位。这一人事变动标志着特朗普政府内部的一次重要调整。",
-          "analysis": "莱维特的短暂任期和离职引发了外界对其政策影响力的讨论，同时也反映了白宫高层人员流动的不稳定性。",
-          "social": [
-            {
-              "who": "政治评论员",
-              "text": "年轻新闻秘书的更迭往往预示着政府沟通策略的重大变化。"
-            }
-          ]
-        },
-        {
-          "title_zh": "哈维尼科尔斯百货被运动品牌集团收购",
-          "summary": "曾由《荒唐阿姨》情景喜剧闻名的百货公司Harvey Nichols已被Sports Direct的所有者收购。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国知名百货公司Harvey Nichols已被运动品牌零售商Sports Direct的所有者收购。此前，该公司曾警告将停止营业。此次收购旨在挽救这一具有文化标志性的零售品牌，并注入新的商业活力。交易完成后，该品牌的未来运营策略将成为市场焦点。",
-          "analysis": "这标志着英国零售业在电商冲击下的一次典型整合，传统百货公司正寻求通过并购来维持生存。",
-          "social": [
-            {
-              "who": "零售行业分析师",
-              "text": "收购能否成功取决于新东家能否扭转其长期亏损的局面并重塑品牌形象。"
-            }
-          ]
-        },
-        {
-          "title_zh": "极端高温致英国急诊室创纪录繁忙",
-          "summary": "过去三个月内，英格兰A&E（急诊）访问量超过240万次，工会警告条件不人道。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/crrvp45gxzpo?at_medium=RSS&at_campaign=rss",
-          "overview": "受极端高温天气影响，英格兰的A&E急诊室迎来了有史以来最繁忙的时期。过去三个月中，每月访问量均超过240万次。工会警告称，医护人员面临不人道的劳动条件，患者等待时间过长。这一数据凸显了气候变化对公共医疗系统的巨大压力。",
-          "analysis": "极端天气事件频发正在考验英国医疗体系的极限，长期来看需要更完善的应对机制和基础设施升级。",
-          "social": [
-            {
-              "who": "医护人员工会代表",
-              "text": "我们要求政府提供足够的资源来保护一线工作人员的健康，并改善急诊环境。"
-            }
-          ]
-        },
-        {
-          "title_zh": "赞比亚大选笼罩在宿敌阴影之下",
-          "summary": "现任总统希奇莱马寻求连任，但其与前总统卢恩古家族之间的恩怨持续影响着选举氛围。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
-          "overview": "赞比亚总统希奇莱马正在竞选第二个任期，但前总统卢恩古（已于2025年去世）的家族阴影依然笼罩着选举。尽管希奇莱马在2021年以压倒性优势获胜，但他与卢恩古家族之间的长期政治斗争仍在持续。周四举行的投票将决定该国的未来走向。",
-          "analysis": "这种“幽灵般的”政治遗产可能影响选民的判断和国家的稳定，是非洲民主进程中的一个独特挑战。",
-          "social": [
-            {
-              "who": "国际观察员",
-              "text": "个人恩怨不应凌驾于国家利益之上，希望选民能做出理性选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "津巴布韦卡拉湖渡船倾覆至少44人死亡",
-          "summary": "一艘超载渡船在卡拉湖翻覆，警方确认至少44人遇难，救援行动正在进行中。",
+          "title_zh": "津巴布韦卡拉湖渡船严重超载倾覆致至少44人死亡",
+          "summary": "一艘载有114名成人乘客及多名儿童的渡船在卡拉湖因波浪翻覆，远超其90人载客量。警方确认至少44人遇难，救援行动仍在进行中以寻找失踪者。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
-          "overview": "津巴布韦卡拉湖发生了一起严重的渡船事故，一艘载有114名成人乘客和多名儿童的船只因波浪翻覆。该船的核定容量为90人，严重超载。目前至少44人已确认死亡，仍有数十人失踪，救援行动正在紧张进行中。",
-          "analysis": "这起悲剧再次暴露了非洲内陆水域交通的安全隐患和管理缺失问题，急需加强监管和执法力度。",
+          "overview": "一艘载有114名成人乘客及多名儿童的渡船在卡拉湖因波浪翻覆，远超其90人载客量。警方确认至少44人遇难，救援行动仍在进行中以寻找失踪者。这是非洲最大人工湖泊上发生的重大安全事故。事件暴露了当地水上交通安全监管的严重缺失，超载运营直接导致了惨剧发生。国际社会关注灾后救援及后续调查进展。",
+          "analysis": "事件暴露了当地水上交通安全监管的严重缺失，超载运营直接导致了惨剧发生。国际社会关注灾后救援及后续调查进展，呼吁加强非洲内陆水域的安全标准。",
           "social": [
             {
-              "who": "人道主义组织",
-              "text": "我们必须关注受灾民众的基本生存需求，并提供必要的医疗和心理援助。"
+              "who": "津巴布韦民事保护局",
+              "text": "确认渡船载客量远超额定标准，呼吁加强安全监管。"
             }
           ]
         },
         {
-          "title_zh": "南非科学家发现真菌可治非洲军蝗虫",
-          "summary": "一项突破性研究显示土壤中的天然真菌可用于对抗破坏性作物害虫非洲军蝗虫。",
-          "source": "Guardian World",
+          "title_zh": "极端高温来袭英格兰急诊室迎来史上最繁忙时期",
+          "summary": "过去三个月内英格兰急诊室访问量均超过240万人次，创历史新高。工会警告称医护人员面临不人道的工作条件，呼吁改善工作环境。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
-          "overview": "南非科学家发现了一种天然存在的土壤真菌，能够杀死对东非和南部非洲农民极具破坏性的非洲军蝗虫。这一发现为应对粮食危机提供了新的希望。研究人员正在进一步研究如何将这种真菌转化为实用的农业解决方案。",
-          "analysis": "这标志着生物防治技术在抗击害虫方面的重大突破，有望减少对化学农药的依赖并保护生态环境。",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/crrvp45gxzpo?at_medium=RSS&at_campaign=rss",
+          "overview": "过去三个月内英格兰急诊室访问量均超过240万人次，创历史新高。工会警告称医护人员面临不人道的工作条件，呼吁改善工作环境。持续的高温天气不仅加剧了医疗系统的压力，也引发了公众对公共基础设施应对极端气候能力的质疑。",
+          "analysis": "持续的高温天气不仅加剧了医疗系统的压力，也引发了公众对公共基础设施应对极端气候能力的质疑。工会的警告凸显了公共服务系统在极端条件下的脆弱性。",
           "social": [
             {
-              "who": "农业专家",
-              "text": "这项技术如果成功推广，将极大地提高非洲地区的粮食安全和农民收入。"
+              "who": "英国工会",
+              "text": "发出警告称当前急诊室工作条件已属不人道，敦促政府采取紧急措施保障医护人员权益。"
             }
           ]
         },
         {
-          "title_zh": "西班牙对意大利访客实施临时边境检查",
-          "summary": "为回应罗马在摩洛哥人涌入塞乌塔后实施的类似措施，西班牙宣布将从周六午夜开始对来自意大利的旅客进行临时边境检查。",
+          "title_zh": "西班牙宣布对意大利访客实施临时边境检查",
+          "summary": "面对摩洛哥人涌入塞维塔的移民潮以及罗马随后采取的类似措施，西班牙决定从周六午夜起对来自意大利的旅客进行临时检查。该措施将持续至9月7日。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙内政部宣布，由于意大利面临持续的非法移民压力以及罗马对摩洛哥人涌入塞乌塔采取的措施，西班牙将从8月31日午夜开始对来自意大利的访客实施临时边境检查。这些措施将持续到9月7日。此举旨在加强两国之间的边境管控合作。",
-          "analysis": "这反映了欧洲南部国家在面对非法移民问题时的紧张局势和相互影响，可能进一步加剧地区间的政治摩擦。",
+          "overview": "面对摩洛哥人涌入塞维塔的移民潮以及罗马随后采取的类似措施，西班牙决定从周六午夜起对来自意大利的旅客进行临时检查。该措施将持续至9月7日。此举标志着欧洲南部边境管控进一步收紧，反映了地中海移民危机在地缘政治层面的复杂博弈。",
+          "analysis": "此举标志着欧洲南部边境管控进一步收紧，反映了地中海移民危机在地缘政治层面的复杂博弈。西班牙与意大利之间的互相限制措施可能加剧两国关系紧张。",
           "social": [
             {
-              "who": "欧盟政策分析师",
-              "text": "临时检查措施虽然能短期缓解压力，但长期解决方案仍需依赖更广泛的国际合作。"
+              "who": "西班牙内政部",
+              "text": "声明称在持续的非法移民压力下采取此临时措施以维护边境安全。"
             }
           ]
         },
         {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
-          "summary": "联邦法官裁定特朗普政府可以取消数百名在南苏丹人美国的临时保护身份（TPS）。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "美国马萨诸塞州联邦法官帕蒂·萨里斯裁定，特朗普政府可以推进取消数百名南苏丹国民在美国临时保护身份（TPS）的计划。这一决定是在最高法院允许政府剥夺海地和叙利亚人类似保护之后做出的。移民权利组织对此表示强烈反对并试图阻止该计划。",
-          "analysis": "此举可能使数千名在南苏丹人面临遣返风险，凸显了美国移民政策在政治博弈中的不确定性。",
-          "social": [
-            {
-              "who": "移民权益律师",
-              "text": "这一裁决严重威胁到这些家庭的未来，我们需要继续通过法律途径保护他们的权利。"
-            }
-          ]
-        },
-        {
-          "title_zh": "墨西哥前州长因43名学生失踪案被起诉",
-          "summary": "墨西哥格雷罗州前州长安吉尔·阿吉雷因涉嫌下令销毁监控录像而被正式指控，该案已成为该国暴力犯罪的象征。",
+          "title_zh": "墨西哥前州长因2014年43名学生失踪案被正式起诉",
+          "summary": "前格雷罗州州长Ángel Aguirre因涉嫌下令销毁监控录像及强迫学生失踪，被正式指控妨碍司法公正。此案已成为该国暴力犯罪和政府有罪不罚现象的象征。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
-          "overview": "墨西哥格雷罗州前州长安吉尔·阿吉雷上周被捕，并被正式起诉涉嫌在2014年43名学生失踪案中犯有强迫失踪和妨碍司法公正罪。他当时被指控下令销毁监控录像以掩盖真相。此案已成为墨西哥卡特尔暴力和政府包庇行为的象征性事件。",
-          "analysis": "对前官员的追责标志着墨西哥在打击有组织犯罪和政府腐败方面迈出了重要一步，但距离实现真正的正义仍有漫长道路。",
+          "overview": "前格雷罗州州长Ángel Aguirre因涉嫌下令销毁监控录像及强迫学生失踪，被正式指控妨碍司法公正。此案已成为该国暴力犯罪和政府有罪不罚现象的象征。这一里程碑式的法律行动表明墨西哥在打击有组织犯罪和追究政治责任方面迈出了重要一步。",
+          "analysis": "这一里程碑式的法律行动表明墨西哥在打击有组织犯罪和追究政治责任方面迈出了重要一步。人权组织对此表示欢迎，认为这是正义的曙光。",
           "social": [
             {
-              "who": "社会活动家",
-              "text": "43名学生的失踪至今未解，我们要求真相和正义，不能让施暴者逍遥法外。"
+              "who": "人权组织",
+              "text": "长期呼吁对43名学生失踪案进行彻底调查，此次起诉被视为正义的曙光。"
+            }
+          ]
+        },
+        {
+          "title_zh": "赞比亚大选笼罩在现任总统宿敌亡者阴影之下",
+          "summary": "64岁的希奇莱马正寻求连任第二任期，但其与前总统卢恩古家族之间的恩怨仍在持续。尽管2021年以压倒性优势获胜，政治对立情绪依然浓厚。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+          "overview": "64岁的希奇莱马正寻求连任第二任期，但其与前总统卢恩古家族之间的恩怨仍在持续。尽管2021年以压倒性优势获胜，政治对立情绪依然浓厚。选举期间的前任总统遗孀及家属的介入可能影响选民的判断，成为本届大选的一大看点。",
+          "analysis": "选举期间的前任总统遗孀及家属的介入可能影响选民的判断，成为本届大选的一大看点。国际观察员担忧政治家族间的宿怨可能干扰正常的民主选举进程和结果公正性。",
+          "social": [
+            {
+              "who": "国际观察员",
+              "text": "担忧政治家族间的宿怨可能干扰正常的民主选举进程和结果公正性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "法国驻中非共和国大使因接待多名女性被调查",
+          "summary": "法国对驻中非共和国大使布鲁诺·富歇展开纪律程序，指控其将数十名女性带入官方住所。此举正值巴黎试图修复与中非关系的敏感时期。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+          "overview": "法国对驻中非共和国大使布鲁诺·富歇展开纪律程序，指控其将数十名女性带入官方住所。此举正值巴黎试图修复与中非关系的敏感时期。事件引发了关于外交官行为准则及驻外安全标准的广泛讨论，可能影响法非关系走向。",
+          "analysis": "事件引发了关于外交官行为准则及驻外安全标准的广泛讨论，可能影响法非关系走向。法国政府强调维护外交机构声誉的重要性，同时寻求修复与中非共和国的关系。",
+          "social": [
+            {
+              "who": "法国政府",
+              "text": "启动纪律程序以回应安全关切，强调维护外交机构声誉的重要性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "伦敦警察厅负责人承认西蒙·利维案失误但为调查辩护",
+          "summary": "警方高层承认在调查西蒙·利维连环杀人案中存在的错误，包括忽视其犯下的第一起谋杀。批评者指责警方包庇凶手。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cp30pppgxyeo?at_medium=RSS&at_campaign=rss",
+          "overview": "警方高层承认在调查西蒙·利维连环杀人案中存在的错误，包括忽视其犯下的第一起谋杀。批评者指责警方包庇凶手。这一表态虽部分回应了公众质疑，但未能完全平息关于执法透明度的争议。",
+          "analysis": "这一表态虽部分回应了公众质疑，但未能完全平息关于执法透明度的争议。工党议员等批评者继续呼吁彻查利维案中的系统性失误。",
+          "social": [
+            {
+              "who": "工党议员杰西·菲利普斯",
+              "text": "严厉批评警方在利维案初期调查中的疏忽和对受害者家属的冷漠态度。"
+            }
+          ]
+        },
+        {
+          "title_zh": "哈维尼克斯百货被运动品牌巨头母公司收购",
+          "summary": "曾宣布将停止营业的著名百货公司哈维尼克斯，已被Sports Direct的所有者收购。这一交易标志着英国零售业格局的重大变化。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+          "overview": "曾宣布将停止营业的著名百货公司哈维尼克斯，已被Sports Direct的所有者收购。这一交易标志着英国零售业格局的重大变化。此次收购显示了大型零售集团在行业整合中的扩张野心，同时也为陷入困境的传统百货提供了新的生存机遇。",
+          "analysis": "此次收购显示了大型零售集团在行业整合中的扩张野心，同时也为陷入困境的传统百货提供了新的生存机遇。商业分析师认为此举将重塑英国高端零售市场结构。",
+          "social": [
+            {
+              "who": "商业分析师",
+              "text": "认为此举将重塑英国高端零售市场结构，消费者需关注后续品牌定位调整。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国水务公司获准增加资金后水费将上涨",
+          "summary": "监管机构Ofwat已初步批准13家水务公司向客户收取更多费用，以支付投资所需资金。此举旨在提升基础设施水平。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
+          "overview": "监管机构Ofwat已初步批准13家水务公司向客户收取更多费用，以支付投资所需资金。此举旨在提升基础设施水平。在通胀高企的背景下，水费的进一步上涨可能加剧普通家庭的财务压力，引发公众不满。",
+          "analysis": "在通胀高企的背景下，水费的进一步上涨可能加剧普通家庭的财务压力，引发公众不满。消费者呼吁监管机构考虑更公平的定价方案以平衡投资需求与民生负担。",
+          "social": [
+            {
+              "who": "英国消费者",
+              "text": "对即将面临的水费上涨表示担忧，呼吁监管机构考虑更公平的定价方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "直视日食可能导致视力损伤的关键信号",
+          "summary": "未经专业防护眼镜直接观看太阳后，可能出现视力模糊等症状。专家提醒公众在日食期间务必采取正确的防护措施。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/c4gk0dq81j2o?at_medium=RSS&at_campaign=rss",
+          "overview": "未经专业防护眼镜直接观看太阳后，可能出现视力模糊等症状。专家提醒公众在日食期间务必采取正确的防护措施。随着日食季节的到来，此类健康警示对于保护公众视力安全至关重要。",
+          "analysis": "随着日食季节的到来，此类健康警示对于保护公众视力安全至关重要。眼科医生强调使用专业日食眼镜的重要性，警告未经防护直视太阳可能造成的永久性伤害。",
+          "social": [
+            {
+              "who": "眼科医生",
+              "text": "强调使用专业日食眼镜的重要性，警告未经防护直视太阳可能造成的永久性伤害。"
+            }
+          ]
+        },
+        {
+          "title_zh": "非洲军蚁幼虫天敌真菌为农民带来希望",
+          "summary": "南非科学家发现一种天然存在的土壤真菌能有效杀灭破坏力极强的非洲军蚁幼虫。这一突破性的研究成果为东非和南部非洲的农业带来了新的希望。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+          "overview": "南非科学家发现一种天然存在的土壤真菌能有效杀灭破坏力极强的非洲军蚁幼虫。这一突破性的研究成果为东非和南部非洲的农业带来了新的希望。利用自然生物防治替代化学农药，有望解决长期困扰当地农民的作物虫害问题。",
+          "analysis": "利用自然生物防治替代化学农药，有望解决长期困扰当地农民的作物虫害问题。科学家呼吁将这一研究成果推广至更多受灾农田，以保护粮食安全。",
+          "social": [
+            {
+              "who": "南非科学家",
+              "text": "发现真菌能自然杀灭害虫幼虫，呼吁将这一研究成果推广至更多受灾农田。"
+            }
+          ]
+        },
+        {
+          "title_zh": "儿子为在酒吧遭袭身亡的102岁父亲致哀",
+          "summary": "102岁的菲利普·奥默罗德在被警方指控袭击后送往医院，最终不治身亡。其子发表声明向公众讲述父亲的遭遇并致以深切悼念。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cwyl2zwp158o?at_medium=RSS&at_campaign=rss",
+          "overview": "102岁的菲利普·奥默罗德在被警方指控袭击后送往医院，最终不治身亡。其子发表声明向公众讲述父亲的遭遇并致以深切悼念。事件再次引发社会对老年人权益保护及暴力犯罪后果的深刻反思。",
+          "analysis": "事件再次引发社会对老年人权益保护及暴力犯罪后果的深刻反思。家属的公开致哀呼吁社会关注弱势群体安全，促使公众重新审视此类案件的法律责任认定。",
+          "social": [
+            {
+              "who": "菲利普·奥默罗德的儿子",
+              "text": "公开表达对父亲被袭身亡的心痛，呼吁社会关注弱势群体安全。"
             }
           ]
         }
@@ -1900,60 +1696,52 @@
     "voices": {
       "items": [
         {
-          "name": "萨提亚·纳德拉 (Satya Nadella)",
-          "role": "微软首席执行官",
-          "region": "北美（美国）",
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
+          "region": "美国",
           "domain": "ai",
-          "recent": "推动 Copilot 统一入口战略，强调 AI 与企业级可信数据基础及规模化部署的关键路径。",
-          "url": "https://www.microsoft.com/en-us/leadership/satya-nadella"
+          "recent": "关注 AI 安全与 Claude 水印技术，探讨不可见标记对内容真实性的影响。",
+          "url": "https://www.anthropic.com"
         },
         {
-          "name": "达里奥·阿莫迪 (Dario Amodei)",
-          "role": "Anthropic 首席执行官",
-          "region": "北美（美国）",
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind CEO",
+          "region": "英国",
           "domain": "ai",
-          "recent": "关注生成式 AI 安全机制（如水印系统）的争议与责任边界，推动企业级 AI Agent 的可信部署。",
-          "url": "https://x.com/darioamodei"
+          "recent": "聚焦 DeepMind 重组后的战略方向及全球 AI 竞赛格局演变。",
+          "url": "https://deepmind.google"
         },
         {
-          "name": "杰弗里·辛顿 (Geoffrey Hinton)",
-          "role": "AI 先驱/图灵奖得主",
-          "region": "欧洲（英国）/北美",
-          "domain": "ai",
-          "recent": "呼吁在 AI 安全关切中保持开放态度，反思深度学习的未来方向及对社会的影响。",
-          "url": "https://x.com/geoffreyhinton"
-        },
-        {
-          "name": "莱克斯·弗里德曼 (Lex Fridman)",
-          "role": "播客主持人/AI 研究者",
-          "region": "北美（美国）",
-          "domain": "podcast/ai",
-          "recent": "持续对话 AI 领域先驱与科学家，探讨 AGI 发展路径、安全议题及人机协作的未来。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "萨拉·米勒 (Sarah Miller)",
-          "role": "华盛顿大学图书馆馆长/研究学者",
-          "region": "北美（美国）",
-          "domain": "library/ai",
-          "recent": "聚焦媒体素养教学新方向及图书馆在生成式 AI 热潮中的角色定位，倡导包容性参考服务。",
-          "url": "https://www.uw.edu/library"
-        },
-        {
-          "name": "许佳 (Xu Jia)",
-          "role": "上海图书馆原馆长/智慧图书馆推动者",
-          "region": "中国（上海）",
+          "name": "Jane Poynter",
+          "role": "IFLA 主席",
+          "region": "全球（总部美国）",
           "domain": "library",
-          "recent": "主导上海首个“智慧图书馆”建设，探索公共文化服务智能化升级及馆社共荐优质书目等全民阅读实践。",
+          "recent": "推动灾后图书馆重建叙事，并倡导学术科研图书馆在 AI 时代的开放科学策略。",
+          "url": "https://ifla.org"
+        },
+        {
+          "name": "David Lankes",
+          "role": "People Powered Libraries 创始人",
+          "region": "美国",
+          "domain": "podcast/library",
+          "recent": "强调媒体素养教学新方向，引导读者在生成式人工智能的炒作与个性化之间建立理解。",
+          "url": "https://peoplepoweredlibraries.com"
+        },
+        {
+          "name": "Rafael Reif",
+          "role": "哈佛大学图书馆馆长",
+          "region": "美国",
+          "domain": "ai/library",
+          "recent": "致力于机构层面应对 AI 与开放科学时代挑战，关注馆员技能提升与数字基础设施建设。",
+          "url": "https://library.harvard.edu"
+        },
+        {
+          "name": "李国新",
+          "role": "中国图书馆学会代表",
+          "region": "中国",
+          "domain": "library",
+          "recent": "聚焦全民阅读推广、基层图书馆管理论坛及志愿服务行动等行业发展方向。",
           "url": ""
-        },
-        {
-          "name": "琳达·图伊瓦伊-史密斯 (Linda Tuhiwai Smith)",
-          "role": "毛利学者/图书馆学与知识研究先驱",
-          "region": "大洋洲（新西兰）",
-          "domain": "library",
-          "recent": "关注毛利知识与图书馆学的交叉地带，探讨包容性参考服务、文化主权及学术管理者的倦怠应对。",
-          "url": "https://lindatuhiwaismith.com"
         }
       ]
     },
