@@ -1,23 +1,52 @@
 {
-  "generated_at": "2026-08-13T20:28:14+08:00",
+  "generated_at": "2026-08-13T21:26:42+08:00",
   "date": "2026-08-13",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
-  "empty_sources": [],
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "empty_sources": [
+    "github"
+  ],
   "module_updated": {
-    "hot": "2026-08-13 20:28",
-    "ai": "2026-08-13 20:28",
+    "hot": "2026-08-13 21:26",
+    "ai": "2026-08-13 21:26",
     "voices": "2026-08-13 20:28",
     "github": "2026-08-13 19:35",
     "libraries": "2026-08-13 20:28",
-    "sports": "2026-08-13 20:28",
+    "sports": "2026-08-13 21:26",
     "academic": "2026-08-13 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Anthropic为Claude推出隐形水印系统，标记所有AI处理内容",
+          "eng": "Claude's new Scarlet Letter watermark is invisible — for now",
+          "summary": "Anthropic推出了新的'红字'水印技术，可以识别任何经过Claude处理的文本，即使人类编辑过。该水印目前不可见，但引发了关于AI透明度和版权的广泛讨论。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-08-13",
+          "tags": [
+            "AI水印",
+            "Anthropic",
+            "Claude",
+            "透明度"
+          ],
+          "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+          "overview": "Anthropic为其Claude AI系统推出了新的'红字'水印技术，能够标记任何经过Claude处理的文本内容。即使人类对AI生成的内容进行编辑修改，水印仍然可以识别原始AI处理痕迹。目前该水印对用户不可见，但这一举措引发了关于AI透明度、版权保护以及学术诚信的广泛讨论。",
+          "analysis": "这项隐形水印技术的推出标志着AI公司在内容溯源方面的重大进展，但也引发了隐私和自由度的争议。对于学术界和职场来说，这意味着使用AI辅助创作将面临更严格的追踪机制。从监管角度看，这为未来可能的AI内容标识法规提供了技术基础。",
+          "social": [
+            {
+              "who": "政策研究者",
+              "text": "隐形水印可能成为AI监管的重要工具，但需要平衡透明度与用户隐私"
+            },
+            {
+              "who": "开发者",
+              "text": "这对自由使用AI辅助创作的用户来说是一个重大限制"
+            }
+          ]
+        },
         {
           "title_zh": "多LLM代理系统的动态治理：实现协作对话成果的新方法",
           "eng": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
@@ -776,32 +805,6 @@
               "text": "政府应该打击恶意虚假信息，但不应建立系统性的审查机制——这两者之间的界限需要清晰界定。"
             }
           ]
-        },
-        {
-          "title_zh": "Zoom重大安全漏洞：不到20个AI提示词即可入侵设备",
-          "eng": "'Zoomsday' hack uncovered using fewer than 20 AI prompts",
-          "summary": "研究人员利用公开可用的AI模型，仅用不到20条提示词就发现了Zoom的重大安全漏洞。该漏洞涉及Zoom的注释功能，攻击者可在会议期间劫持任何用户的设备。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-08-11",
-          "tags": [
-            "AI安全",
-            "Zoom",
-            "漏洞利用"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
-          "overview": "A Security公司的研究人员发现，攻击者可以利用公开可用的AI模型生成提示词来触发Zoom的注释功能漏洞。该漏洞允许攻击者在会议期间劫持参会者的设备控制权。Zoom已发布补丁修复此问题。这一事件凸显了AI工具在安全研究中的双重角色——既是防御利器也是攻击武器。",
-          "analysis": "这一发现表明，AI模型正在改变网络安全威胁的面貌。传统上需要大量手动测试的安全漏洞，现在可能通过精心设计的AI提示词快速发现。这对企业安全团队提出了新挑战：不仅要修补已知漏洞，还要防范由AI辅助发现的未知漏洞。",
-          "social": [
-            {
-              "who": "安全研究员",
-              "text": "这提醒我们，AI在安全领域是一把双刃剑——它加速了漏洞的发现，也意味着攻击面可能比想象中更大。"
-            },
-            {
-              "who": "工程师",
-              "text": "企业需要重新评估其AI工具的使用策略，特别是在涉及敏感通信和会议的场景中。"
-            }
-          ]
         }
       ]
     },
@@ -1235,306 +1238,312 @@
     "sports": {
       "items": [
         {
-          "title_zh": "梅西在父亲去世后果断替补登场为迈阿密国际出战",
-          "eng": "Messi plays for Inter Miami after father's death",
-          "summary": "莱昂内尔·梅西在经历父亲去世的悲痛后，于周三替补出场代表迈阿密国际完成比赛，同时暗示自己可能即将退役。",
-          "source": "BBC Football",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cz9722y1ee7o?at_medium=RSS&at_campaign=rss",
-          "overview": "莱昂内尔·梅西在经历父亲去世的悲痛后，于周三替补出场代表迈阿密国际完成比赛。他在赛后暗示自己可能即将退役，这一举动令球迷和媒体广泛关注，展现了球星个人生活与职业选择之间的复杂关系。",
-          "analysis": "梅西在情感低谷期的表现令人动容，他的未来去向将成为足球界关注的焦点。对于迈阿密国际而言，失去这位核心球员将是巨大的损失。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "看到他在父亲去世后的比赛，既心疼又敬佩。"
-            },
-            {
-              "who": "体育记者",
-              "text": "暗示退役的消息让很多球迷感到意外和不舍。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "17岁天才马德乔首秀破门，维拉欧超杯不敌巴黎圣日耳曼",
-          "eng": "Fearless Madjo, 17, ends eight-month wait with eye-catching Villa debut",
-          "summary": "17岁的阿斯顿维拉前锋布莱恩·马德乔在欧足联超级杯中替补登场并进球，结束了长达八个月的等待。",
-          "source": "BBC Football",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cg4dp23z5z7o?at_medium=RSS&at_campaign=rss",
-          "overview": "在欧足联超级杯对阵巴黎圣日耳曼的比赛中，年仅17岁的布莱恩·马德乔完成了个人首秀并打入一球，终结了他此前连续八个月无法参加正式比赛的困境。尽管维拉最终2-1不敌巴黎，但这位年轻球员的表现令人瞩目。",
-          "analysis": "马德乔的天赋和早熟在顶级赛事中展现无遗，他的出现为阿斯顿维拉的年轻化战略注入了信心。这种大场面表现对于一名青少年球员来说极为罕见。",
-          "social": [
-            {
-              "who": "解说员",
-              "text": "17岁就在超级杯进球，这孩子的未来不可限量。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "八个月的等待终于结束了，看到他在大场面表现很欣慰。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
           "title_zh": "爱尔兰足协撤回对因凡蒂诺的支持，北爱足协力挺欧足联",
           "eng": "FAI withdraws Infantino support as IFA backs Uefa",
-          "summary": "爱尔兰足球协会正式撤回对国际足联主席因凡蒂诺的支持，而北爱尔兰足协则确认支持欧足联的立场。",
+          "summary": "爱尔兰足球协会（FAI）正式撤回对国际足联主席因凡蒂诺的支持，与此同时，北爱尔兰足球协会（IFA）确认支持欧足联的立场。",
           "source": "BBC Football",
           "published": "2026-08-13",
           "url": "https://www.bbc.co.uk/sport/football/articles/cy8m2mg0y99o?at_medium=RSS&at_campaign=rss",
-          "overview": "爱尔兰足球协会（FAI）已正式撤回对处于争议中心的国际足联主席詹尼·因凡蒂诺的支持，与此同时，北爱尔兰足球协会（IFA）也明确表态支持欧足联的立场。这一分裂反映了足球界内部在治理方向上的深刻分歧。",
-          "analysis": "爱尔兰足协与北爱足协的分歧可能进一步加剧国际足联与欧足联之间的权力博弈，对全球足球治理格局产生深远影响。这标志着因凡蒂诺面临的孤立局面正在扩大。",
+          "overview": "爱尔兰足球界出现罕见分裂。FAI 官方宣布不再支持因凡蒂诺，这一决定发生在国际足联主席面临广泛批评的背景下。与此同时，北爱尔兰足协（IFA）明确表态站在欧足联一边，显示出两国足球管理机构在治理问题上的立场分歧。",
+          "analysis": "这一事件凸显了国际足联与欧足联之间紧张关系的升级，以及爱尔兰岛内足球政治的复杂性。若分裂持续，可能对爱尔兰国家队在欧洲赛事中的资格或利益分配产生长远影响。",
           "social": [
             {
-              "who": "体育记者",
-              "text": "爱尔兰内部的分裂说明因凡蒂诺的处境确实岌岌可危。"
+              "who": "资深球迷",
+              "text": "爱尔兰足协的转向说明因凡蒂诺的信任危机已蔓延至成员国层面，这不仅仅是政治站队问题，更关乎足球治理的未来方向。"
             },
             {
-              "who": "资深球迷",
-              "text": "足协支持谁不重要，重要的是比赛公平进行。"
+              "who": "体育评论员",
+              "text": "IFA 与 FAI 分道扬镳是近年来国际足联面临的最大分裂之一，欧足联的立场获得部分国家支持意味着改革阻力可能加大。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "曼城拒巴萨6000万欧报价求购罗德里，切尔西设定恩佐·费尔南德斯截止日",
-          "eng": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
-          "summary": "曼城拒绝了巴塞罗那第二次约6000万欧元的罗德里报价，切尔西则为本周五设定了1.2亿英镑的费尔南德斯报价截止期限。",
-          "source": "Guardian Football",
+          "title_zh": "17岁天才马乔在维拉首秀中进球终结八个月等待",
+          "eng": "Fearless Madjo, 17, ends eight-month wait with eye-catching Villa debut",
+          "summary": "17岁的年轻前锋布莱恩·马乔在阿斯顿维拉的欧超杯对阵巴黎圣日耳曼的比赛中攻入一球，结束了长达八个月的无比赛等待。",
+          "source": "BBC Football",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cg4dp23z5z7o?at_medium=RSS&at_campaign=rss",
+          "overview": "尽管注册审批经历了漫长的拖延，马乔终于在欧超杯赛场上迎来首秀。他在比赛第 45 分钟打入了个人维拉生涯第一球，展现了惊人的天赋和冷静。虽然最终维拉不敌巴黎圣日耳曼，但这位少年的表现令人印象深刻。",
+          "analysis": "马乔的进球证明了英超俱乐部在发掘年轻球员方面的眼光，但也暴露了注册流程中的官僚主义问题。对于球迷而言，看到 17 岁球员在大舞台上的首秀进球是极具吸引力的看点。",
+          "social": [
+            {
+              "who": "年轻球迷",
+              "text": "八个月的等待终于值了！看到 17 岁的马乔在欧超杯上进球，感觉维拉的未来充满了希望。"
+            },
+            {
+              "who": "英超观察者",
+              "text": "注册审批的延误是俱乐部运营中的老问题，但马乔用进球回应了所有质疑，这将是维拉青训体系的新标杆。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "刚果（金）被禁赛教练仍在执教青少年球员",
+          "eng": "Coach in DR Congo banned by Fifa for sexual abuse still training young players",
+          "summary": "一名因性侵未成年人被国际足联终身禁赛的刚果（金）教练，在出狱后仍继续带领年轻球员训练，暴露了国际足联保护机制的漏洞。",
+          "source": "The Guardian Football",
           "published": "2026-08-13",
-          "url": "https://www.theguardian.com/football/2026/aug/13/manchester-city-barcelona-rodri-chelsea-enzo-fernandez",
-          "overview": "曼城已拒绝巴塞罗那第二次提交的约6000万欧元（4500万欧）求购西班牙中场罗德里的报价，俱乐部希望获得6000万至6500万英镑的价格。与此同时，切尔西为本周五下午设定了1.2亿英镑的截止期限，以寻找罗德里潜在的替代者恩佐·费尔南德斯。",
-          "analysis": "顶级中场的争夺白热化，曼城的高价策略与切尔西的紧迫时间窗口将决定这笔重磅交易走向何方。巴萨在两次报价被拒后可能需要重新评估策略。",
+          "url": "https://www.theguardian.com/football/2026/aug/13/coach-in-dr-congo-banned-by-fifa-for-sexual-abuse-still-training-young-players",
+          "overview": "国际足联于 2023 年 3 月对刚果（金）教练布卡巴瓦发出终身禁赛令并处罚金，但该教练去年出狱后仍被发现在执教青少年球队。这一事件揭示了国际足联在球员保护方面的执行力和监管存在严重缺陷。",
+          "analysis": "此案不仅是个人丑闻，更是对国际足联 safeguarding 体系的严厉拷问。如果禁令无法有效阻止违规者重返岗位，受害者的信任将难以重建，这可能引发更多诉讼和改革呼声。",
           "social": [
             {
-              "who": "转会专家",
-              "text": "6500万英镑的标价确实让巴萨望而却步，切尔西的时间压力很大。"
+              "who": "人权组织代表",
+              "text": "终身禁赛形同虚设是最大的讽刺，受害者及其家庭需要看到实质性的行动而非仅仅是纸面上的惩罚。"
             },
             {
-              "who": "资深球迷",
-              "text": "罗德里是曼城的核心，这个价格很合理。"
+              "who": "国际足联关注者",
+              "text": "保护未成年人是足球运动的底线，如果连最基本的执行都无法保证，整个体系的公信力将受到根本性动摇。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "退役裁判泰勒：有毒的争议文化迫使我离开",
+          "title_zh": "退役裁判泰勒：有毒的争议文化促成了我的离开",
           "eng": "Critical former referees add to culture of fear, says retiring Taylor",
-          "summary": "英超退役主裁安东尼·泰勒宣布离职，部分原因是足球界围绕裁判的有毒辩论环境。",
+          "summary": "即将退役的英超裁判安东尼·泰勒表示，他对裁判工作的决定部分源于围绕官员的有毒辩论氛围。",
           "source": "BBC Football",
           "published": "2026-08-13",
           "url": "https://www.bbc.co.uk/sport/football/articles/czxq25zejj4o?at_medium=RSS&at_campaign=rss",
-          "overview": "即将退役的英超裁判安东尼·泰勒表示，他做出离开的决定部分归因于外界对裁判工作的毒性讨论氛围。多位前裁判也加入了批评行列，进一步加剧了这种恐惧文化。",
-          "analysis": "裁判群体的离职潮可能预示着足球治理在职业化与人性化之间面临新的平衡挑战。这反映了公众对裁判判罚的过度关注正在损害从业者的心理健康。",
+          "overview": "英超资深裁判安东尼·泰勒宣布退役，并公开批评了足球界围绕裁判的负面舆论环境。他认为这种充满敌意的讨论氛围加剧了对官员的压力，是促使他做出离开决定的重要因素之一。",
+          "analysis": "泰勒的言论反映了裁判群体长期面临的心理健康危机。当公众和媒体对判罚的争议演变为对个人的攻击时，裁判的独立性和公正性可能受到侵蚀，这对联赛质量构成潜在威胁。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "裁判的处境越来越难，这确实是个需要正视的问题。"
+              "who": "体育评论员",
+              "text": "裁判是比赛的核心执行者，如果连他们自己都感到恐惧和压力，那么比赛的公平性就无从谈起。"
             },
             {
-              "who": "前裁判",
-              "text": "这种环境让很多人不敢发声，最终选择离开。"
+              "who": "资深球迷",
+              "text": "希望俱乐部和联赛能正视这个问题，减少无端的指责，给裁判一个更健康的职业环境。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "特里皮尔重返英冠执教狼队，称英冠与英超截然不同",
+          "title_zh": "特里皮尔重返英冠：12年后回归狼队希望带队突围",
           "eng": "Kieran Trippier: 'The Championship is relentless … it's totally different to the Premier League'",
-          "summary": "前英格兰后卫凯兰·特里皮尔在离开英超12年后回归英冠，希望带领狼队升级。",
-          "source": "Guardian Football",
+          "summary": "前英格兰后卫基兰·特里皮尔在离开英超 12 年后回到英冠联赛，加盟狼队并担任队长角色，希望带领球队重返顶级联赛。",
+          "source": "The Guardian Football",
           "published": "2026-08-13",
           "url": "https://www.theguardian.com/football/2026/aug/13/kieran-trippier-wolves-championship-premier-league-england",
-          "overview": "前英格兰右后卫凯兰·特里皮尔在离开英超12年后重返英冠联赛，加盟狼队并担任重要角色。他表示英冠的激烈程度与英超完全不同，并在签约三天后便引发了球迷和外界的广泛关注。",
-          "analysis": "从英超豪门回归英冠执教，特里皮尔的职业生涯选择令人意外，他将面临巨大的挑战来证明自己的价值。这种“降维”转型需要极大的勇气和适应能力。",
+          "overview": "特里皮尔在签约三天后便公开表达了对球队和教练组的信心，尽管外界对此有所质疑。他身穿狼队全套装备出现在训练基地，显示出对重返英冠的适应能力和决心。他的回归被视为狼队提升竞争力的重要信号。",
+          "analysis": "从英超到英冠的降维打击对于特里皮尔这样的顶级后卫来说既是挑战也是机遇。他的经验和领导力可能成为狼队冲击升级的关键因素，但英冠的竞争强度不容小觑。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "12年后回到英冠，这个决定很勇敢也很冒险。"
+              "who": "狼队支持者",
+              "text": "12 年后的回归让人感慨万千，希望特里皮尔能像以前一样带领我们走向成功。"
             },
             {
-              "who": "教练",
-              "text": "英冠的节奏确实很快，需要适应不同的比赛风格。"
+              "who": "英冠观察员",
+              "text": "特里皮尔的加盟提升了狼队的整体实力，但能否在英冠站稳脚跟并升级，还需要看他在高强度比赛中的表现。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "“生命线”乒乓球场馆临时重新开放",
+          "title_zh": "切尔西设定恩佐·费尔南德斯竞价截止日，曼城拒斥巴萨 5100 万英镑报价",
+          "eng": "Chelsea set Friday deadline for Fernández suitors as City reject new £51m Barça bid for Rodri",
+          "summary": "切尔西为引进中场球员恩佐·费尔南德斯设定了周五下午的竞价截止日，而曼城拒绝了巴塞罗那约 6000 万欧元（5100 万英镑）的第二轮报价。",
+          "source": "The Guardian Football",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/football/2026/aug/13/manchester-city-barcelona-rodri-chelsea-enzo-fernandez",
+          "overview": "转会市场出现重大动态。曼城拒绝了巴塞罗那对罗德里约 5100 万英镑的第二轮报价，而切尔西则向潜在买家发出了周五下午的竞价截止通知，目标球员为恩佐·费尔南德斯。曼城方面认为罗德里的价值在 6000 万至 6500 万英镑之间。",
+          "analysis": "这笔交易涉及英超和西甲顶级俱乐部之间的激烈博弈。切尔西的紧迫态度与曼城的坚守高价形成鲜明对比，预示着未来几周转会市场将充满变数。",
+          "social": [
+            {
+              "who": "足球经纪人",
+              "text": "切尔西的截止日策略通常是为了制造紧迫感，但曼城的高价立场表明他们并不急于出手，这可能会让交易陷入僵局。"
+            },
+            {
+              "who": "转会市场分析师",
+              "text": "罗德里和恩佐·费尔南德斯都是当今足坛最抢手的中场球员之一，这场竞价大战将直接影响两支俱乐部的阵容规划。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "\"生命线\"乒乓球场地临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "被称为用户“精神家园”的“Lifeline”乒乓球场地近日宣布暂时恢复运营，使用者对此表示欣慰。",
+          "summary": "BBC报道，名为'Lifeline'的社区乒乓球场地已暂时恢复运营。一位使用者表示这感觉像是“精神家园”被归还了。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "“Lifeline”乒乓球场地此前曾暂停开放，近日宣布暂时恢复运营。有使用者表示这就像“精神家园被归还给我们”，反映出该场馆在社区中的情感价值。",
-          "analysis": "社区体育设施的临时重启往往能提振当地运动热情，但后续能否长期维持运营仍需关注。",
+          "overview": "该场地此前可能因某种原因关闭，现暂时重新开放。这对于依赖该设施进行社交和锻炼的社区成员来说是一个重要消息。",
+          "analysis": "社区体育设施的恢复运营体现了乒乓球运动在基层推广中的韧性，也反映了公众对公共空间回归的迫切需求。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "社区场馆的回归对基层乒乓球生态至关重要。"
+            }
+          ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "莱德茨基延续16年连胜，泛太平洋锦标赛夺金",
-          "eng": "Swim hero Katie Ledecky extends 16-year winning streak with Pan Pacs gold",
-          "summary": "美国游泳名将凯蒂·莱德茨基在泛太平洋锦标赛上以破世界纪录的速度赢得1500米自由泳金牌，延续其长达16年的连胜纪录。",
-          "source": "Guardian Sport",
+          "title_zh": "霍奇金森戏剧性晋级800米决赛，对手韦尔罗摔倒",
+          "eng": "Hodgkinson into 800m final after dramatic Werro fall",
+          "summary": "英国选手基利·霍奇金森在欧洲锦标赛女子800米半决赛中表现出色，成功晋级决赛。她的竞争对手法国选手奥黛丽·韦尔罗在赛前训练中意外摔倒，其参赛资格一度存疑。",
+          "source": "BBC Sport",
           "published": "2026-08-13",
-          "url": "https://www.theguardian.com/sport/2026/aug/13/katie-ledecky-1500m-pan-pacific-championships-swimming-gold",
-          "overview": "莱德茨基在加州尔湾的户外泳池中，以世界纪录级别的速度完成1500米自由泳比赛，赢得泛太平洋锦标赛首枚国际奖牌。 Walsh 击败 Douglass 夺得50米蝶泳冠军，Urlando 打破了迈克尔·菲尔普斯保持20年的记录。",
-          "analysis": "莱德茨基在主场作战展现了统治级表现，16年连胜纪录进一步巩固了她作为游泳界传奇的地位。泛太平洋锦标赛的激烈竞争也预示着即将到来的奥运会选拔将更加残酷。",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/cgq5pd4n0y5o?at_medium=RSS&at_campaign=rss",
+          "overview": "在欧洲田径锦标赛女子800米半决赛中，英国名将霍奇金森以强势表现率先冲过终点线，成功晋级决赛。与此同时，法国选手韦尔罗在赛前训练中遭遇意外摔倒，其能否参赛引发关注。荷兰选手布洛德斯-波尔也随霍奇金森一同晋级决赛。",
+          "analysis": "霍奇金森作为800米项目世界顶级选手，此次晋级展现了她的统治力。韦尔罗的意外摔倒为比赛增添戏剧性色彩，但可能影响法国在该项目上的竞争力。决赛将是一场高水平的较量。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "莱德茨基在家门口拿下金牌，这种统治力令人惊叹，16年连胜在游泳史上都极为罕见。"
+              "who": "资深田径迷",
+              "text": "霍奇金森再次证明自己是800米项目的绝对王者，韦尔罗的意外更是让这场比赛充满悬念。"
             },
             {
-              "who": "体育评论员",
-              "text": "菲尔普斯20年的记录被打破，标志着女子游泳进入了一个新的时代。"
+              "who": "赛事解说员",
+              "text": "半决赛的精彩表现加上决赛前的戏剧性事件，使得这场800米比赛成为本届欧锦赛的焦点之一。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "斯维亚特克挺进加拿大公开赛决赛",
+          "title_zh": "斯瓦泰克挺进加拿大公开赛决赛，迎来'最艰难赛季'",
           "eng": "Swiatek into first final of her 'toughest season'",
-          "summary": "世界排名第一的伊加·斯维亚特克在加拿大公开赛半决赛中三盘苦战晋级，将迎战莱巴金娜。",
+          "summary": "波兰网球名将伊加·斯瓦泰克在加拿大公开赛中击败对手，成功晋级决赛。这是她本赛季的首个决赛席位，也是她在'最艰难赛季'中的重要突破。",
           "source": "BBC Tennis",
           "published": "2026-08-13",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/ckgdppv82ymo?at_medium=RSS&at_campaign=rss",
-          "overview": "斯维亚特克在职业生涯最艰难的一个赛季中，于加拿大公开赛半决赛中经过三盘激战成功晋级决赛。她的对手是同样在三盘苦战中胜出的莱巴金娜，两人将在决赛中争夺冠军。",
-          "analysis": "斯维亚特克本赛季面临诸多挑战，但她在关键比赛中的韧性令人印象深刻。这场决赛将是两位顶尖选手的直接对话，看点十足。",
+          "overview": "在加拿大公开赛半决赛中，斯瓦泰克经过三盘苦战成功晋级决赛。她的对手是哈萨克斯坦选手叶莲娜·莱巴金娜，同样在三盘中胜出。这是斯瓦泰克本赛季的首个决赛席位，标志着她在'最艰难赛季'中的重要进展。",
+          "analysis": "斯瓦泰克作为世界排名第一的选手，在加拿大硬地赛场上的表现备受关注。莱巴金娜的强势崛起使得这场决赛成为焦点之战。两位选手的对决将检验她们在关键比赛中的心理素质和技术水平。",
           "social": [
             {
               "who": "网球爱好者",
-              "text": "斯维亚特克的三盘苦战再次证明了她作为世界第一的实力和斗志。"
-            },
-            {
-              "who": "体育记者",
-              "text": "莱巴金娜的崛起让这场决赛更加引人注目，两位选手的对决将是今年网坛最精彩的比赛之一。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "爱尔兰足总撤回对因凡蒂诺的支持",
-          "eng": "Football Association of Ireland withdraws Infantino support",
-          "summary": "爱尔兰足球协会（FAI）正式撤回对国际足联主席因凡蒂诺的支持，而北爱尔兰足总则确认支持欧足联立场。",
-          "source": "BBC Sport",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cy8m2mg0y99o?at_medium=RSS&at_campaign=rss",
-          "overview": "FAI 正式撤回对因凡蒂诺的支持，这一决定在国际足联内部引发了广泛关注。与此同时，北爱尔兰足总（IFA）确认支持欧足联的立场，显示出国际足球界在治理问题上的分歧日益加深。",
-          "analysis": "这一事件标志着国际足联面临前所未有的信任危机，各国足协的态度分化可能影响未来的改革进程。因凡蒂诺的领导地位正受到严峻考验。",
-          "social": [
-            {
-              "who": "足球评论员",
-              "text": "FAI 的决定反映了国际社会对因凡蒂诺领导能力的不满，这一事件可能成为国际足联改革的转折点。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "北爱尔兰足总的立场表明，欧足联的支持者仍在努力维护现有的治理结构。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "退役裁判泰勒：有毒舆论环境促其辞职",
-          "eng": "Critical former referees add to culture of fear, says retiring Taylor",
-          "summary": "即将退役的英超裁判安东尼·泰勒表示，其辞职部分原因是出于对裁判群体有毒舆论环境的担忧。",
-          "source": "BBC Sport",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/football/articles/czxq25zejj4o?at_medium=RSS&at_campaign=rss",
-          "overview": "泰勒在退役前公开批评了围绕裁判的有毒辩论文化，认为这种环境对裁判群体造成了巨大的心理压力。他的发言引发了关于足球界如何改善裁判待遇和公众形象的广泛讨论。",
-          "analysis": "这一事件凸显了足球界在裁判管理和舆论引导方面的不足。未来需要更多努力来营造尊重裁判的体育文化。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "泰勒的辞职令人惋惜，希望足球界能正视这一问题，改善裁判的工作环境。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这一事件反映了足球界在裁判管理方面的长期问题，需要系统性改革。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "霍奇金森领跑布罗德斯-波尔晋级800米决赛",
-          "eng": "Hodgkinson leads home Broeders-Bol to qualify for 800m final",
-          "summary": "英国选手基利·霍奇金森在泛太平洋锦标赛800米半决赛中领跑荷兰选手布罗德斯-波尔晋级决赛。",
-          "source": "BBC Sport",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/sport/athletics/videos/c07r2lz4ne0o?at_medium=RSS&at_campaign=rss",
-          "overview": "霍奇金森在泛太平洋锦标赛800米半决赛中表现出色，成功领跑荷兰选手布罗德斯-波尔晋级决赛。这场比赛展示了英国田径在国际赛场上的竞争力。",
-          "analysis": "霍奇金森的出色表现为英国田径赢得了荣誉，她的表现也预示着在未来的国际大赛中，英国选手有望继续取得佳绩。",
-          "social": [
-            {
-              "who": "田径爱好者",
-              "text": "霍奇金森的表现令人振奋，她为英国田径赢得了宝贵的荣誉。"
+              "text": "斯瓦泰克再次展现了她的坚韧和实力，莱巴金娜的进步也令人印象深刻。"
             },
             {
               "who": "体育评论员",
-              "text": "这场比赛展示了英国田径在国际赛场上的竞争力，值得期待未来的表现。"
+              "text": "这场决赛将是两位顶尖选手的直接对话，无论谁获胜都将对世界排名产生重要影响。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "库什纳与伊格尔以125亿美元收购湖人队创纪录",
+          "title_zh": "莱德基延续16年连胜纪录，获泛太平洋锦标赛金牌",
+          "eng": "Swim hero Katie Ledecky extends 16-year winning streak with Pan Pacs gold",
+          "summary": "美国游泳名将凯蒂·莱德基在泛太平洋锦标赛女子1500米自由泳项目中夺冠，延续了她长达16年的连胜纪录。她在比赛中以世界纪录级别的配速完成了比赛。",
+          "source": "Guardian Sport",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/sport/2026/aug/13/katie-ledecky-1500m-pan-pacific-championships-swimming-gold",
+          "overview": "在加利福尼亚州尔湾举行的泛太平洋锦标赛开幕式上，莱德基以15分36秒09的成绩赢得女子1500米自由泳金牌。这是她职业生涯中首个在国际赛事上获得的奖牌。她在比赛初期就展现了世界纪录级别的配速，最终成功夺冠。",
+          "analysis": "莱德基的这次胜利不仅巩固了她作为游泳界传奇的地位，也展示了美国游泳队的实力。她的连胜纪录和出色表现将继续激励年轻一代运动员。",
+          "social": [
+            {
+              "who": "游泳粉丝",
+              "text": "莱德基再次证明了她是女子长距离自由泳项目的无冕之王。"
+            },
+            {
+              "who": "体育记者",
+              "text": "这次比赛是莱德基职业生涯的重要里程碑，她在国际赛场上的表现令人瞩目。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "库什纳与艾格 reportedly 以125亿美元收购洛杉矶湖人队",
           "eng": "Josh Kushner and Bob Iger reportedly buying Los Angeles Lakers for $12.5bn",
-          "summary": "据 ESPN 报道，亿万富翁库什纳和迪士尼 CEO 伊格尔正以创纪录的 125 亿美元收购洛杉矶湖人队。",
+          "summary": "据ESPN报道，亿万富翁乔什·库什纳和迪士尼CEO鲍勃·艾格正以创纪录的125亿美元收购洛杉矶湖人队。这笔交易发生在去年马克·沃尔特以100亿美元购入多数股权不到一年后。",
           "source": "Guardian Sport",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/sport/2026/aug/12/josh-kushner-and-bob-iger-reportedly-buying-los-angeles-lakers-for-12bn",
-          "overview": "库什纳和伊格尔以 125 亿美元的价格收购湖人队，这一交易打破了 NBA 球队的历史纪录。此前，沃尔特去年以 100 亿美元购入多数股权，此次交易进一步提升了湖人队的商业价值。",
-          "analysis": "这笔创纪录的交易反映了 NBA 球队的巨大商业潜力，也预示着未来 NBA 市场的竞争将更加激烈。库什纳和伊格尔的加入将为湖人队带来新的资源和视野。",
+          "overview": "据报道，库什纳和艾格正以超过125亿美元的价格收购洛杉矶湖人队，这是NBA历史上最大的交易之一。去年马克·沃尔特从巴斯家族手中购入了湖人的多数股权，当时估值为100亿美元。这笔新交易旨在让球队'在最顶级水平竞争'。",
+          "analysis": "这笔创纪录的交易反映了NBA作为体育联盟的商业价值不断攀升。库什纳和艾格的加入将为湖人队带来新的资源和战略方向，但也可能引发关于球队所有权变化的讨论。",
           "social": [
             {
-              "who": "NBA 球迷",
-              "text": "这笔交易令人震惊，125 亿美元的天价反映了湖人队的巨大商业价值。"
+              "who": "NBA球迷",
+              "text": "湖人的新东家阵容强大，希望能为球队带来更多竞争力。"
             },
             {
               "who": "体育分析师",
-              "text": "库什纳和伊格尔的加入将为湖人队带来新的资源和视野，值得期待未来的表现。"
+              "text": "这笔交易标志着NBA进入了一个新的商业时代，球队价值持续攀升。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "马乔上演维拉首秀并进球，结束八个月等待",
-          "eng": "Fearless Madjo, 17, ends eight-month wait with eye-catching Villa debut",
-          "summary": "17 岁前锋布莱恩·马乔在阿斯顿维拉对阵巴黎圣日耳曼的欧超杯比赛中上演首秀并进球，结束了长达八个月的无比赛等待。",
+          "title_zh": "爱尔兰足协撤回对国际足联主席因凡蒂诺的支持",
+          "eng": "Football Association of Ireland withdraws Infantino support",
+          "summary": "爱尔兰足球协会（FAI）正式撤回对国际足联主席詹尼·因凡蒂诺的支持，而北爱尔兰足球协会（IFA）则确认支持欧足联的立场。这一决定反映了国际社会对因凡蒂诺领导力的质疑。",
           "source": "BBC Sport",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cg4dp23z5z7o?at_medium=RSS&at_campaign=rss",
-          "overview": "马乔在阿斯顿维拉对阵巴黎圣日耳曼的欧超杯比赛中上演首秀并进球，这一表现令人印象深刻。他的出色发挥结束了长达八个月的无比赛等待，为未来的职业生涯奠定了良好基础。",
-          "analysis": "马乔的首秀和进球展示了年轻球员的巨大潜力，他的表现也预示着阿斯顿维拉在未来的竞争中可能取得佳绩。",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cy8m2mg0y99o?at_medium=RSS&at_campaign=rss",
+          "overview": "爱尔兰足球协会（FAI）正式宣布撤回对国际足联主席因凡蒂诺的支持，这一决定在国际足坛引起广泛关注。与此同时，北爱尔兰足球协会（IFA）确认支持欧足联的立场。这一系列事件反映了国际社会对因凡蒂诺领导力的持续质疑和不满。",
+          "analysis": "爱尔兰足协的决定可能影响因凡蒂诺在国际足联的地位和权威。这一事件也凸显了国际体育治理中的复杂性和挑战，各国足协在重大决策上的分歧日益明显。",
           "social": [
             {
-              "who": "足球爱好者",
-              "text": "马乔的首秀令人兴奋，17 岁就能在欧超杯中进球，这种天赋令人惊叹。"
+              "who": "足球政治观察员",
+              "text": "爱尔兰足协的决定是国际社会对因凡蒂诺不满的又一例证，可能影响国际足联的未来走向。"
             },
             {
               "who": "体育记者",
-              "text": "这一表现展示了年轻球员的巨大潜力，值得期待未来的发展。"
+              "text": "这一事件反映了国际体育治理中的复杂性和挑战，各国足协在重大决策上的分歧日益明显。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "全黑队 54-0 大胜鲨鱼队，南非橄榄球联盟处境尴尬",
-          "eng": "Empty seats and faded aura show how Springboks outgrew the All Blacks",
-          "summary": "新西兰全黑队以 54-0 大胜鲨鱼队，空荡的球场和恶劣天气凸显了南非橄榄球联盟在“世界最大宿敌”中的尴尬处境。",
-          "source": "Guardian Sport",
+          "title_zh": "退役裁判泰勒称前裁判的批评加剧了'恐惧文化'",
+          "eng": "Critical former referees add to culture of fear, says retiring Taylor",
+          "summary": "即将退役的英超裁判安东尼·泰勒表示，他的离职部分原因是由于围绕裁判的不健康辩论。他认为前裁判的批评加剧了足球界对裁判的'恐惧文化'。",
+          "source": "BBC Sport",
           "published": "2026-08-13",
-          "url": "https://www.theguardian.com/sport/2026/aug/13/faded-aura-springboks-outgrew-all-blacks-rugby-union",
-          "overview": "在新西兰全黑队以 54-0 大胜鲨鱼队的比赛中，空荡的球场和恶劣天气凸显了南非橄榄球联盟在“世界最大宿敌”中的尴尬处境。这一事件引发了关于南非橄榄球联盟未来发展的广泛讨论。",
-          "analysis": "这场比赛的结果反映了新西兰橄榄球的强大实力，也凸显了南非橄榄球联盟面临的挑战。未来需要更多努力来提升南非橄榄球的竞争力和吸引力。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czxq25zejj4o?at_medium=RSS&at_campaign=rss",
+          "overview": "即将退役的英超裁判安东尼·泰勒表示，他的离职部分原因是由于围绕裁判的不健康辩论。他认为前裁判的批评加剧了足球界对裁判的'恐惧文化'。这一言论引发了关于裁判职业环境和心理健康问题的广泛讨论。",
+          "analysis": "泰勒的言论揭示了足球界在裁判问题上存在的深层问题。前裁判的批评可能对现任裁判造成心理压力，影响比赛的公正性和裁判的职业发展。这一问题需要各方共同努力来解决。",
           "social": [
             {
-              "who": "橄榄球爱好者",
-              "text": "全黑队的胜利令人振奋，但空荡的球场确实令人担忧。"
+              "who": "资深球迷",
+              "text": "裁判的压力确实很大，希望这个问题能够得到改善。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "泰勒的离职是一个信号，表明裁判职业环境需要根本性的改变。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "桑德兰能否再次挑战降级命运？英超赛季展望",
+          "eng": "Fourth favourites for relegation - will Sunderland defy odds again?",
+          "summary": "桑德兰是2025-26赛季英超的亮点之一，但本赛季他们能否再次创造奇迹？在增加了欧洲赛事 commitments 的情况下，他们的表现将备受关注。",
+          "source": "BBC Sport",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cn8ndw25yjeo?at_medium=RSS&at_campaign=rss",
+          "overview": "桑德兰是本赛季英超降级热门之一，但他们在2025-26赛季的表现令人印象深刻。本赛季他们增加了欧洲赛事的 commitments，这将为他们的表现带来额外挑战。分析人士认为，桑德兰能否再次创造奇迹将是本赛季的一大看点。",
+          "analysis": "桑德兰在本赛季的表现证明了他们的实力和韧性。在增加欧洲赛事的情况下，他们的表现将更加考验球队的整体实力和管理层的决策能力。这一赛季的英超竞争将更加激烈和不确定。",
+          "social": [
+            {
+              "who": "英超球迷",
+              "text": "桑德兰一直是英超的惊喜制造者，希望他们能再次创造奇迹。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "桑德兰的表现证明了他们的实力，但欧洲赛事将增加额外的挑战。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "NBA球员克拉克因药物影响去世",
+          "eng": "NBA forward Clarke's death due to effects of drugs",
+          "summary": "洛杉矶医学当局确认，孟菲斯灰熊队前锋布兰登·克拉克的死亡是由于海洛因和可卡因的影响。这一消息在NBA界引发了广泛关注和讨论。",
+          "source": "BBC Basketball",
+          "published": "2026-08-08",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+          "overview": "洛杉矶医学当局确认，孟菲斯灰熊队前锋布兰登·克拉克的死亡是由于海洛因和可卡因的影响。这一消息在NBA界引发了广泛关注和讨论。克拉克的去世再次凸显了职业运动员面临的药物滥用问题及其严重后果。",
+          "analysis": "克拉克的去世是一个悲剧性的事件，反映了职业体育中药物滥用的严重性。这一问题需要联盟、球队和社会各界共同努力来解决，以保护运动员的健康和生命安全。",
+          "social": [
+            {
+              "who": "NBA球迷",
+              "text": "这是一个令人痛心的消息，希望这个问题能够得到重视和改善。"
             },
             {
               "who": "体育评论员",
-              "text": "这场比赛的结果反映了新西兰橄榄球的强大实力，也凸显了南非橄榄球联盟面临的挑战。"
+              "text": "克拉克的去世再次提醒我们，职业运动员的健康和安全至关重要。"
             }
           ],
           "region": "综合"
@@ -1818,242 +1827,194 @@
     "hot": {
       "items": [
         {
-          "title_zh": "伦敦警察厅负责人承认西蒙·利维案调查失误但为谋杀案调查辩护",
-          "summary": "伦敦警察厅负责人承认在调查西蒙·利维犯下的首起谋杀案时存在疏忽，但坚称对后续谋杀案的调查是正当的。批评者包括工党议员杰斯·菲利普斯，指责警方忽视了最初的罪行。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cp30pppgxyeo?at_medium=RSS&at_campaign=rss",
-          "overview": "伦敦大都会警察厅（Met）负责人公开承认在调查连环杀手西蒙·利维的首起谋杀案时犯了错误，但强调对后续案件的调查工作依然合法且必要。这一表态引发了广泛争议，反对者认为警方长期以来未能有效保护公众安全。此次事件再次凸显了英国执法机构在处理高知名度案件时的公信力危机。",
-          "analysis": "警方承认失误可能影响公众信任，而辩护调查的立场则试图平衡法律程序正义与舆论压力。未来需关注独立审查结果对警队改革的实际推动作用。",
-          "social": [
-            {
-              "who": "伦敦市民",
-              "text": "希望警方能彻底调查所有案件，给受害者家属一个交代。"
-            },
-            {
-              "who": "法律评论员",
-              "text": "承认错误是进步的第一步，但关键在于后续如何落实改革措施。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国为扣押普京威胁下的影子船队油轮辩护",
-          "summary": "英国政府表示正在依法“干扰和阻止”影子船队的船只。此举是在俄罗斯总统普京发出威胁的背景下进行的，旨在维护国际法律秩序。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
-          "overview": "面对俄罗斯总统普京的强硬警告，英国政府坚持其扣押影子船队油轮的行动完全符合法律规定。这一举措被视为对俄罗斯通过非正规渠道获取石油供应行为的直接打击，同时也加剧了英俄之间的外交紧张局势。国际社会对此举的反应不一，部分国家表示支持维护航行自由。",
-          "analysis": "此举不仅是军事行动，更是地缘政治博弈的一部分。英国需要在国际法框架内平衡制裁效果与避免冲突升级的风险。",
-          "social": [
-            {
-              "who": "能源分析师",
-              "text": "影子船队是俄罗斯规避制裁的漏洞，英国的拦截有助于削弱其经济韧性。"
-            },
-            {
-              "who": "国际法专家",
-              "text": "在公海执法需要谨慎，希望各方能通过外交途径解决分歧而非诉诸武力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "百年一遇日全食在英国及欧洲引发轰动",
-          "summary": "超过95%的太阳被月球遮挡，英国康沃尔和西班牙部分地区观测到了壮观的全食景象。数百万民众涌向各地观看这一罕见的天文奇观。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/articles/ckgdp4923rdo?at_medium=RSS&at_campaign=rss",
-          "overview": "一次罕见的日全食席卷了英国和欧洲部分地区，康沃尔地区的太阳被遮挡超过95%，西班牙也体验到了全食的魔力。这一天文事件吸引了大量民众前往观测点，成为近年来欧洲最大的公众科学活动之一。天文学家借此机会向公众普及了关于日食的科学知识。",
-          "analysis": "此类天文奇观对促进公众科学兴趣具有重要意义。未来需关注极端天气对观测安全的影响以及交通管理措施的有效性。",
-          "social": [
-            {
-              "who": "天文爱好者",
-              "text": "亲眼看到全食的那一刻真是太震撼了，值得用一辈子去等待一次。"
-            },
-            {
-              "who": "旅游博主",
-              "text": "康沃尔的日食之旅非常值得一试，但建议提前预订住宿以免拥挤。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普宣布卡洛琳·莱维特将离开白宫新闻秘书职位",
-          "summary": "年仅27岁就担任白宫最年轻新闻秘书的莱维特，其任期即将结束。视频回顾了她在任期间的关键时刻，标志着特朗普政府人事变动的又一节点。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-12",
-          "url": "https://www.bbc.co.uk/news/videos/c86nd59z7vqo?at_medium=RSS&at_campaign=rss",
-          "overview": "白宫新闻秘书卡洛琳·莱维特宣布将离开其职位，特朗普总统确认了这一消息。作为美国历史上最年轻的新闻秘书，她于2025年1月就任，其任期内的表现备受关注。视频展示了她在任期间的关键时刻，反映了白宫内部权力结构的动态变化。",
-          "analysis": "莱维特的离任可能影响白宫与媒体之间的沟通方式。未来需关注继任者人选及其对政策传播策略的调整。",
-          "social": [
-            {
-              "who": "政治记者",
-              "text": "年轻新闻秘书的更替往往预示着白宫内部战略方向的转变。"
-            },
-            {
-              "who": "普通观众",
-              "text": "期待看到新的新闻秘书带来不同的沟通风格。"
-            }
-          ]
-        },
-        {
-          "title_zh": "科学家发明“世界上最环保”的派对气球",
-          "summary": "伦敦帝国理工学院专家称标准派对气球需要数年才能降解，新研发的环保气球有望解决这一问题。这项创新旨在减少塑料污染对环境的长期影响。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/c78gqw3w6v5o?at_medium=RSS&at_campaign=rss",
-          "overview": "伦敦帝国理工学院的科学家成功研发出一种“世界上最环保”的派对气球，旨在解决传统乳胶气球难以降解的问题。研究表明，标准派对气球在自然环境中可能需要数年时间才能完全分解。这项新技术有望显著减少派对活动产生的塑料垃圾对环境的长期负面影响。",
-          "analysis": "环保材料的创新应用是应对全球塑料污染的重要一步。未来需关注其生产成本和大规模推广的可行性。",
-          "social": [
-            {
-              "who": "环保主义者",
-              "text": "这种气球终于来了，希望更多人能接受并使用它来减少垃圾。"
-            },
-            {
-              "who": "活动策划师",
-              "text": "如果价格合适，这将是绿色派对的理想选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "以色列定居者围困的约旦河西岸村庄将增派部队",
-          "summary": "两名巴勒斯坦家庭自周日起被困在库斯拉村，水电供应被切断。以色列计划向该地区增派更多军队以应对局势升级。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-          "overview": "以色列定居者对约旦河西岸库斯拉村实施了围困，导致两名巴勒斯坦家庭被困家中，水电供应被切断。面对这一人道主义危机，以色列政府决定向该地区增派更多部队以应对日益紧张的局势。国际社会对此表示强烈谴责，呼吁立即停止暴力行为并保障平民安全。",
-          "analysis": "此类事件加剧了巴以冲突的复杂性，可能引发更广泛的地区动荡。未来需关注国际调解 efforts 及人道主义援助通道的开放情况。",
-          "social": [
-            {
-              "who": "人权组织成员",
-              "text": "平民不应成为政治博弈的牺牲品，国际社会必须采取行动保护他们。"
-            },
-            {
-              "who": "当地居民",
-              "text": "我们只是希望过上平静的生活，却被困在恐惧之中。"
-            }
-          ]
-        },
-        {
-          "title_zh": "赞比亚大选笼罩着前总统宿敌的阴影",
-          "summary": "现任总统希奇莱马寻求连任，但他与前总统伦古家族之间的恩怨仍在持续。尽管2021年以压倒性优势获胜，政治遗产问题依然困扰着此次选举。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-13",
-          "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
-          "overview": "赞比亚现任总统希奇莱马正在竞选连任，但与前总统伦古家族之间的长期恩怨为此次选举蒙上了阴影。尽管他在2021年以压倒性优势击败伦古上台，但政治对立并未消解。随着选民走向投票站，前总统的幽灵依然笼罩着这场充满不确定性的选举。",
-          "analysis": "历史恩怨可能影响选民的判断，导致选举结果偏离预期。未来需关注选举期间的暴力风险及司法公正性问题。",
-          "social": [
-            {
-              "who": "政治评论员",
-              "text": "赞比亚的政治格局正在重塑，但过去的创伤仍在影响未来的走向。"
-            },
-            {
-              "who": "普通选民",
-              "text": "我希望这次选举能带来真正的和平与稳定。"
-            }
-          ]
-        },
-        {
-          "title_zh": "津巴布韦卡拉湖渡船翻覆至少44人死亡",
-          "summary": "一艘载有114名成年乘客的超载渡轮在世界上最大的水坝湖泊上倾覆。救援行动正在进行中，仍有数十人失踪。",
+          "title_zh": "津巴布韦卡拉湖渡船倾覆至少44人死亡",
+          "summary": "一艘严重超载的渡船在津巴布韦卡拉湖翻覆，导致至少44人遇难。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
           "url": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize",
-          "overview": "津巴布韦卡拉湖发生了一起严重的渡船翻覆事故，至少44人死亡。涉事船只的额定载客量为90人，但实际搭载了114名成年乘客、5名船员及未知数量的儿童。救援行动正在紧张进行中，仍有数十人下落不明。这一悲剧再次凸显了非洲地区水上交通安全管理的严峻挑战。",
-          "analysis": "超载和安全管理缺失是此类事故的主要原因。未来需关注当地政府对渡船运营标准的执法力度及公众安全意识教育。",
+          "overview": "津巴布韦警方确认，一艘在卡拉湖翻覆的渡船已造成至少44人死亡。该船额定载客90人，但实际搭载了114名成年乘客、5名船员及若干儿童。目前救援行动正在进行中，仍有数十人失踪。这是世界最大人工湖泊上发生的严重安全事故之一。",
+          "analysis": "此次事故暴露了渡运安全管理的重大漏洞，超载问题直接导致了灾难性后果。卡拉湖作为重要交通通道，此类事件可能引发当地民众对水上交通安全的广泛担忧。",
           "social": [
             {
-              "who": "救援志愿者",
-              "text": "我们正在全力搜救失踪者，希望他们能平安归来。"
-            },
-            {
-              "who": "遇难者家属",
-              "text": "我们失去了太多亲人，恳请政府加强安全措施防止类似悲剧再次发生。"
+              "who": "编辑观察",
+              "text": "非洲内陆水域运输安全问题再次成为焦点，需加强监管以防止类似悲剧重演。"
             }
           ]
         },
         {
-          "title_zh": "科学家发现天然真菌有望遏制非洲军蝗虫蔓延",
-          "summary": "南非科学家的突破性研究显示土壤中的天然真菌可用来对抗毁灭性的农作物害虫。这一发现为东非和南部非洲农民提供了应对严重虫害的新希望。",
+          "title_zh": "赞比亚大选笼罩在前总统宿敌的阴影下",
+          "summary": "现任总统希奇莱马寻求连任，但与前总统卢恩古家族的恩怨持续发酵。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+          "overview": "赞比亚现任总统希奇莱马正在竞选第二个任期，但与前任总统卢恩古家族的长期争斗仍在影响选举氛围。卢恩古于2025年去世，其家族对权力的觊觎使本届大选充满不确定性。选民将在周四前往投票站决定国家走向。",
+          "analysis": "政治遗产的纠缠往往能深刻影响非洲国家的民主进程，此次选举结果将直接关系到赞比亚未来的政治稳定与经济发展方向。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "历史恩怨如何影响新兴民主国家的选举公正性是一个值得深入探讨的话题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国热浪致急诊就诊量创历史新高",
+          "summary": "连续三个月每月急诊访问量超过240万人次，工会警告条件不人道。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/crrvp45gxzpo?at_medium=RSS&at_campaign=rss",
+          "overview": "受持续热浪影响，英国急诊部门（A&E）的访问量在过去三个月中均创下历史新高。工会组织警告称，医护人员在极端高温下工作条件已接近不人道水平。这一数据反映了气候变化对公共医疗系统的巨大压力。",
+          "analysis": "极端天气事件频发正在考验欧洲国家的公共卫生基础设施韧性，长期来看可能需要重新规划医疗资源的配置与应急响应机制。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "气候危机对公共服务的冲击不容忽视，各国需加快适应策略的制定。"
+            }
+          ]
+        },
+        {
+          "title_zh": "哈维尼可尔斯百货被运动品牌零售商收购",
+          "summary": "拥有Sports Direct的零售商收购了这家成立于1831年的高端百货公司。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国高端百货公司哈维尼可尔斯（Harvey Nichols）已被运动品牌零售商集团收购。该公司曾于2026年6月任命了行政接管人，此前已陷入经营困境。此次收购标志着零售行业格局的重大变化。",
+          "analysis": "传统奢侈品零售与大众运动品牌的跨界整合反映了当前消费市场融合的趋势，同时也暗示了高端百货业面临的生存挑战。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "零售业并购潮持续升温，消费者需关注品牌定位变化带来的购物体验差异。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国水务公司获准涨价以筹集额外资金",
+          "summary": "监管机构Ofwat批准13家水务公司向客户收取更多费用用于投资。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国水务监管办公室（Ofwat）已初步批准13家水务公司向客户收取更高费用，以资助必要的投资。这一决定引发了关于公用事业定价与消费者负担的讨论。相关措施旨在确保供水基础设施的长期维护与升级。",
+          "analysis": "公用事业的提价往往在保障服务质量与维护公众利益之间寻求平衡，此次审批结果将直接影响数百万英国家庭的月度账单支出。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "基础设施投资与民生成本的博弈是各国政府面临的共同难题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "法官批准特朗普终止南苏丹临时保护身份",
+          "summary": "联邦法官裁定特朗普政府可以取消数百名南苏丹国民的临时保护状态。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-07",
+          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
+          "overview": "美国联邦法官裁定，特朗普政府可以推进取消数百名南苏丹国民临时保护身份（TPS）的计划。此前最高法院曾允许政府剥夺海地和叙利亚人的类似保护。移民权利组织对此表示强烈反对并试图阻止该决定。",
+          "analysis": "移民政策的法律博弈仍在持续，此类裁决可能引发更多关于难民权益保护的法律诉讼与社会争议。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "移民政策的变化直接关系到无数家庭的命运，国际社会的关注将持续升温。"
+            }
+          ]
+        },
+        {
+          "title_zh": "墨西哥前州长因2014年43名学生失踪案被起诉",
+          "summary": "前格雷罗州州长因涉嫌下令销毁监控录像而被正式指控。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
-          "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
-          "overview": "南非科学家发现了一种天然真菌，能够有效杀死非洲军蝗虫这一毁灭性农作物害虫。研究人员观察到田野中大量被白色物质包裹的死亡毛毛虫，确认了这种自然现象的存在。这一突破性研究为东非和南部非洲农民提供了应对严重虫害的新希望，有望减少对化学农药的依赖。",
-          "analysis": "生物防治是可持续农业的重要方向。未来需关注该真菌的大规模应用成本及对环境生态系统的潜在影响。",
+          "url": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
+          "overview": "墨西哥前格雷罗州州长因被指控涉嫌参与2014年43名学生失踪案而被正式起诉。该案件已成为该国贩毒集团暴力和政府有罪不罚现象的象征。检方指控其下令销毁了关键监控录像以掩盖真相。",
+          "analysis": "此案进展标志着墨西哥在打击有组织犯罪和追究政治责任方面迈出了重要一步，但也凸显了司法独立面临的巨大挑战。",
           "social": [
             {
-              "who": "农业专家",
-              "text": "这是非洲农业的一大突破，有望挽救数百万公顷的农田。"
-            },
+              "who": "编辑观察",
+              "text": "正义的迟到往往比缺席更令人痛心，此案牵动无数家庭的心弦。"
+            }
+          ]
+        },
+        {
+          "title_zh": "特朗普宣布白宫新闻秘书莱维特将离任",
+          "summary": "年仅27岁上任的莱维特成为美国历史上最年轻的白宫新闻秘书。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-12",
+          "url": "https://www.bbc.co.uk/news/videos/c86nd59z7vqo?at_medium=RSS&at_campaign=rss",
+          "overview": "特朗普总统宣布白宫新闻秘书卡罗琳·莱维特将离开该职位，视频回顾了她在任期间的关键时刻。莱维特于2025年1月以27岁之龄上任，成为该国历史上最年轻的新闻秘书。她的任期标志着白宫沟通策略的一个阶段。",
+          "analysis": "高层人事变动往往预示着政策方向的调整或政治氛围的变化，新任新闻秘书的任命将影响未来的信息传播方式。",
+          "social": [
             {
-              "who": "农民代表",
-              "text": "如果这种真菌能大规模推广，我们的收成将不再受虫害威胁。"
+              "who": "编辑观察",
+              "text": "年轻政治人物的崛起与去留反映了当代美国政治生态的新特征。"
             }
           ]
         },
         {
           "title_zh": "西班牙将对意大利访客实施临时边境检查",
-          "summary": "此举是对罗马在摩洛哥人涌入塞乌塔后采取类似措施的回应。西班牙内政部宣布从周六午夜开始至9月7日执行临时检查，以应对持续的非法移民压力。",
+          "summary": "此举旨在回应罗马在摩洛哥人涌入塞维塔后实施的类似措施。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-07",
           "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
-          "overview": "西班牙宣布将对来自意大利的访客实施临时边境检查，这是对罗马在摩洛哥人涌入塞乌塔后采取类似措施的回应。西班牙内政部表示，此举旨在应对持续的非法移民压力，检查将从周六午夜开始并持续至9月7日。这一决定引发了关于欧洲内部边界管理和移民政策的广泛讨论。",
-          "analysis": "此类措施可能加剧欧盟成员国之间的紧张关系。未来需关注国际法框架下边境管控的合法性及人道主义影响。",
+          "overview": "西班牙宣布将对来自意大利的访客实施临时边境检查，以回应罗马在摩洛哥人涌入塞维塔后采取的类似措施。这些检查将在周六午夜开始，持续至9月7日。此举旨在应对意大利面临的持续非正规移民压力。",
+          "analysis": "欧洲国家之间的边境管控博弈日益复杂，此类临时措施的频繁出台反映了难民危机对欧盟内部团结的考验。",
           "social": [
             {
-              "who": "旅行博主",
-              "text": "这对计划从意大利前往西班牙的游客来说是个坏消息，需要提前规划行程。"
-            },
-            {
-              "who": "移民权益倡导者",
-              "text": "边境检查不应成为阻碍合法旅行者的人权障碍。"
+              "who": "编辑观察",
+              "text": "邻国间的信任与合作在移民问题上正面临前所未有的挑战。"
             }
           ]
         },
         {
-          "title_zh": "法官批准特朗普终止南苏丹临时保护身份的努力",
-          "summary": "联邦法官裁定特朗普政府可以取消数百名南苏丹国民在美国的临时保护身份。这一决定紧随最高法院允许政府剥夺海地和叙利亚人保护的裁决之后。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-07",
-          "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-          "overview": "美国联邦法官裁定特朗普政府可以终止对数百名南苏丹国民的临时保护身份（TPS）。这一裁决紧随最高法院允许政府剥夺海地和叙利亚人类似保护的先例之后。移民权利组织对此表示强烈反对，认为此举将迫使大量难民面临被遣返的风险。",
-          "analysis": "此类政策变动可能引发国际人权组织的批评及外交摩擦。未来需关注受影响群体的法律救济途径及人道主义安置方案。",
-          "social": [
-            {
-              "who": "移民律师",
-              "text": "这一裁决对许多依赖TPS保护的难民来说是一个巨大的打击，我们需要继续为他们争取权益。"
-            },
-            {
-              "who": "普通公民",
-              "text": "希望政府能考虑到这些人对美国社会的贡献和他们的困境。"
-            }
-          ]
-        },
-        {
-          "title_zh": "前墨西哥州长因2014年43名学生失踪案被正式起诉",
-          "summary": "前格雷罗州州长安吉尔·阿吉雷因涉嫌下令销毁监控录像而被指控。此案已成为该国残酷贩毒集团暴力和政府有罪不罚的象征。",
+          "title_zh": "科学家发现天然真菌可防治非洲军队虫灾害",
+          "summary": "南非科学家的突破性研究显示土壤真菌可用于对抗毁灭性的作物害虫。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-12",
-          "url": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
-          "overview": "前墨西哥格雷罗州州长安吉尔·阿吉雷因涉及2014年43名学生失踪案被正式起诉。他被指控下令销毁监控录像以掩盖真相，此案已成为该国贩毒集团暴力和政府有罪不罚的象征。这一进展标志着正义之路的漫长旅程中迈出了重要一步，但受害者家属仍渴望得到更明确的交代。",
-          "analysis": "此类案件的突破有助于推动墨西哥司法改革和打击有组织犯罪。未来需关注审判过程的公正性及对类似案件的影响。",
+          "url": "https://www.theguardian.com/global-development/2026/aug/12/african-armyworm-crop-pest-discovery-fungus-science-hope-farmers",
+          "overview": "南非科学家发现了一种天然真菌，能够有效消灭非洲军队虫这种对东非和南部非洲农民极具破坏力的害虫。研究人员在田间发现了被白色物质包裹的死亡毛虫，证实了该真菌的自然杀灭作用。这一发现为农业可持续发展带来了新的希望。",
+          "analysis": "利用自然生物防治手段替代化学农药是解决全球粮食安全问题的关键方向之一，该技术若推广将显著提升非洲农业产量。",
           "social": [
             {
-              "who": "失踪学生家属",
-              "text": "我们等待了太久，终于看到了一丝希望，但真相必须完全大白。"
-            },
+              "who": "编辑观察",
+              "text": "科学创新正在为发展中国家带来切实可行的解决方案，值得持续关注与投入。"
+            }
+          ]
+        },
+        {
+          "title_zh": "直视日食可能损伤眼睛的关键信号",
+          "summary": "未佩戴专业眼镜观看太阳可能导致视力模糊等症状。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/c4gk0dq81j2o?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC发布了关于直视日食可能损伤眼睛的关键信号指南。症状包括视力模糊等，提醒公众在观看日食时必须采取适当的防护措施。这一信息对于即将到来的天文观测活动至关重要。",
+          "analysis": "公众对天文现象的兴趣日益浓厚，但缺乏科学防护知识可能导致不可逆的健康损害，科普教育显得尤为重要。",
+          "social": [
             {
-              "who": "社会活动家",
-              "text": "这是对正义的肯定，也是对墨西哥政府问责制的推动。"
+              "who": "编辑观察",
+              "text": "好奇心虽可贵，但在面对自然力量时仍需保持敬畏与谨慎。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国102岁老人遭酒吧袭击后死亡",
+          "summary": "菲利普·奥默罗德在遭受袭击后被送往医院，最终不治身亡。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.bbc.co.uk/news/articles/cwyl2zwp158o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国警方确认，102岁的菲利普·奥默罗德在酒吧遭到袭击后被送往医院，因伤势过重不治身亡。这一事件引发了社会对老年人安全及公共场所暴力行为的广泛关注与讨论。",
+          "analysis": "针对老年人的暴力犯罪不仅是个案悲剧，更折射出社会治安中保护弱势群体的紧迫需求，呼吁加强立法与社会关怀。",
+          "social": [
+            {
+              "who": "编辑观察",
+              "text": "每一个生命都值得尊重与保护，尤其是社会中最脆弱的老年群体。"
             }
           ]
         }
