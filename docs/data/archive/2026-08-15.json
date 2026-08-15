@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-15T09:15:32+08:00",
+  "generated_at": "2026-08-15T10:04:01+08:00",
   "date": "2026-08-15",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-15 08:18",
     "ai": "2026-08-15 06:33",
     "voices": "2026-08-15 06:33",
-    "github": "2026-08-15 09:15",
+    "github": "2026-08-15 10:04",
     "libraries": "2026-08-15 06:33",
     "sports": "2026-08-15 09:15",
     "academic": "2026-08-15 06:40"
@@ -1416,222 +1416,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "DeepSeek Harness — AI Agent 万能插件框架",
+          "title_zh": "DeepSeek Harness：一切皆插件的AI框架",
           "eng": "deepseek-ai/deepseek-harness",
-          "summary": "一个将一切能力封装为插件的 AI Agent 运行框架，支持任务编排、工具调用和自定义扩展。",
+          "summary": "DeepSeek推出的开源AI应用框架，支持将任何功能封装为插件，构建可扩展的智能助手生态。",
           "source": "GitHub",
-          "stars": 95934,
+          "stars": 97011,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "overview": "DeepSeek Harness 是一个开源的 AI Agent 运行框架，核心理念是'一切皆插件'。它提供任务看板、Git 图谱、远程移动端 UI、实时 token 统计等丰富功能，并支持自定义皮肤和插件扩展。作为 DeepSeek 团队出品的项目，它在 AI 开发工具链中占据重要位置。",
-          "analysis": "9.5万星的高关注度表明社区对其高度认可。该框架为开发者提供了构建和定制 AI Agent 的标准化基础设施，降低了 AI 应用开发的门槛，是 AI 开发工具领域的重要里程碑项目。",
+          "overview": "DeepSeek Harness是一个面向AI应用的开源框架，核心理念是'一切皆插件'——开发者可以将工具、技能、界面等任何组件封装为标准化插件。它提供了丰富的生态扩展能力，支持桌面端和Web端的多种UI形态，并正在快速构建一个围绕DSH的插件市场与社区生态。",
+          "analysis": "作为DeepSeek官方出品的AI框架，9.7万星证明了其巨大的开发者关注度。'一切皆插件'的设计哲学降低了AI应用开发门槛，有望成为类似VS Code扩展商店的AI领域生态平台。",
           "social": [
             {
-              "who": "AI 开发者",
-              "text": "插件化设计让 AI Agent 生态变得极其灵活，可以按需组合不同能力模块。"
+              "who": "开发者",
+              "text": "插件化架构让AI工具链变得极其灵活，每个功能都可以独立开发和分发"
             },
             {
-              "who": "技术研究者",
-              "text": "作为 DeepSeek 团队的开源项目，其架构思路对理解下一代 AI 工具链很有参考价值。"
+              "who": "研究者",
+              "text": "这是OpenAI ChatGPT生态之外最有潜力的开源AI应用框架之一"
             }
           ]
         },
         {
-          "title_zh": "DSH Web UI — DeepSeek Harness 可视化界面集合",
-          "eng": "zhu1090093659/dsh-web-ui",
-          "summary": "为 DeepSeek Harness 提供任务看板、Git 图谱、远程移动端 UI、宠物装饰和实时 token 统计等 Web 插件。",
-          "source": "GitHub",
-          "stars": 1950,
-          "lang": "TypeScript",
-          "published": "2026-08-12",
-          "url": "https://github.com/zhu1090093659/dsh-web-ui",
-          "overview": "这是一个面向 DeepSeek Harness 生态的 Web UI 插件集合，包含任务看板、Git 图谱可视化、右侧面板、远程移动端界面、宠物装饰和皮肤中心等功能模块。所有组件均基于 TypeScript 构建，与 DSH 框架深度集成。",
-          "analysis": "作为 DSH 生态的重要补充，该仓库展示了社区对 AI Agent 可视化管理的强烈需求。丰富的插件功能让开发者可以自定义工作流展示方式，提升了 AI 工具的日常使用体验。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "TypeScript 构建的 UI 组件与 DSH 生态无缝集成，扩展性很好。"
-            },
-            {
-              "who": "AI 工具用户",
-              "text": "任务看板和 Git 图谱功能让 AI Agent 的工作流程一目了然。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH Desktop — DeepSeek Harness 桌面端应用",
+          "title_zh": "DeepSeek Harness桌面端体验",
           "eng": "anywhere-labs/deepseek-harness-desktop",
-          "summary": "为 DeepSeek Harness 生态打造的现代化桌面端体验，提供本地化 AI Agent 操作界面。",
+          "summary": "为DSH生态打造的现代化桌面端界面，提供流畅的本地AI交互体验。",
           "source": "GitHub",
-          "stars": 1943,
+          "stars": 2113,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-          "overview": "该桌面应用为 DeepSeek Harness 提供了原生桌面端体验，支持本地化运行和图形界面交互。采用 TypeScript 技术栈构建，与 DSH 生态保持兼容。",
-          "analysis": "桌面端的出现标志着 AI Agent 工具从命令行向 GUI 的演进趋势。对于不习惯终端操作的普通用户来说，桌面应用大大降低了使用门槛。",
+          "overview": "该项目为DeepSeek Harness生态构建了一个现代化的桌面端应用界面，支持本地运行和插件扩展。它提供了比浏览器更流畅的交互体验，适合需要长时间使用AI助手的开发者和研究人员。",
+          "analysis": "桌面端是AI工具的重要场景，特别是对于需要处理大量代码或文档的专业用户。该项目填补了DSH在桌面端的空白，且基于TypeScript构建，与DSH生态高度兼容。",
           "social": [
             {
-              "who": "桌面应用开发者",
-              "text": "TypeScript 技术栈让跨平台开发变得更容易，维护成本较低。"
+              "who": "开发者",
+              "text": "桌面端体验比浏览器更稳定，适合重度AI使用场景"
             },
             {
-              "who": "AI 工具爱好者",
-              "text": "有了桌面端后，日常使用 AI Agent 变得更加便捷直观。"
+              "who": "用户",
+              "text": "终于有了DSH的本地桌面版本，不再依赖浏览器"
             }
           ]
         },
         {
-          "title_zh": "H3 — MiniMax H3 推理引擎（Mac）",
-          "eng": "antirez/h3.c",
-          "summary": "基于 C 语言实现的 MiniMax H3 模型本地推理引擎，专为 Mac 电脑优化。",
+          "title_zh": "DeepSeek Harness Web UI插件集合",
+          "eng": "zhu1090093659/dsh-web-ui",
+          "summary": "为DSH Web UI提供丰富的任务看板、Git图谱、右侧面板等插件和皮肤。",
           "source": "GitHub",
-          "stars": 1851,
+          "stars": 1980,
+          "lang": "TypeScript",
+          "published": "2026-08-12",
+          "url": "https://github.com/zhu1090093659/dsh-web-ui",
+          "overview": "这是一个为DeepSeek Harness Web UI精心设计的插件和皮肤集合，包含任务看板、Git图谱可视化、右侧面板扩展、远程移动端UI、宠物动画、实时Token统计和皮肤中心等功能模块。",
+          "analysis": "作为DSH生态的Web UI增强方案，该项目展示了社区对AI工具个性化需求的旺盛。丰富的插件类型覆盖了开发工作流的多个环节，体现了'一切皆插件'理念的落地实践。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "任务看板和Git图谱让AI辅助开发的工作流更加可视化"
+            },
+            {
+              "who": "用户",
+              "text": "皮肤中心让界面个性化变得非常容易，这是DSH生态的一大亮点"
+            }
+          ]
+        },
+        {
+          "title_zh": "MiniMax H3推理引擎（Mac版）",
+          "eng": "antirez/h3.c",
+          "summary": "由Redis之父Salvatore Sanfilippo开发的MiniMax H3模型本地推理引擎，专为Mac电脑优化。",
+          "source": "GitHub",
+          "stars": 1853,
           "lang": "C",
           "published": "2026-08-09",
           "url": "https://github.com/antirez/h3.c",
-          "overview": "这是一个用 C 语言编写的 MiniMax H3 模型本地推理引擎，针对 Mac 平台进行了优化。由 Redis 创始人 Salvatore Sanfilippo（antirez）维护，体现了他对 AI 基础设施的持续关注。项目采用纯 C 实现，追求极致性能。",
-          "analysis": "C 语言实现的推理引擎在性能和资源占用方面具有天然优势，特别适合本地部署场景。知名开发者的参与也为项目的稳定性和可靠性提供了保障。",
+          "overview": "这个项目实现了MiniMax H3模型的本地推理能力，使用纯C语言编写，专为Mac平台优化。作为Redis创始人参与的项目，它展示了将大模型部署到个人设备的技术路径，支持在本地运行AI推理任务。",
+          "analysis": "由Salvatore Sanfilippo（Redis之父）亲自参与开发，技术可信度高。纯C实现保证了性能和跨平台兼容性，为Mac用户提供了无需云服务的本地AI方案，是边缘AI的重要实践。",
           "social": [
             {
-              "who": "系统开发者",
-              "text": "C 语言实现保证了极致的性能表现，适合对延迟敏感的场景。"
+              "who": "开发者",
+              "text": "Redis之父亲自操刀，代码质量和性能优化值得期待"
             },
             {
-              "who": "AI 基础设施研究者",
-              "text": "antirez 亲自维护说明了对项目质量的严格把控，值得信任。"
+              "who": "研究者",
+              "text": "本地推理是大模型落地的关键方向，这个项目提供了很好的参考实现"
             }
           ]
         },
         {
-          "title_zh": "WeChat AI — 微信 AI 集成工具",
+          "title_zh": "微信AI助手",
           "eng": "SMNETSTUDIO/WeChat-AI",
-          "summary": "将 AI 能力接入微信生态的开源项目，让 AI 助手可以在微信中直接使用。",
+          "summary": "基于TypeScript构建的微信AI集成项目，将大模型能力接入微信生态。",
           "source": "GitHub",
-          "stars": 1710,
+          "stars": 1712,
           "lang": "TypeScript",
           "published": "2026-08-10",
           "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-          "overview": "该项目致力于将 AI 能力集成到微信生态中，使用 TypeScript 构建。通过桥接 AI 模型与微信接口，用户可以在熟悉的聊天环境中直接使用 AI 功能。",
-          "analysis": "微信作为中国最大的即时通讯平台，其 AI 集成具有巨大的市场潜力。该项目的开源实现为开发者提供了参考方案，有助于推动 AI 在日常沟通中的普及。",
+          "overview": "该项目将AI大模型能力接入微信生态，使用TypeScript构建。它让开发者能够在微信这个拥有巨大用户基础的平台上提供智能对话、内容生成等AI服务，是AI应用落地的一个重要场景探索。",
+          "analysis": "微信作为中国最大的社交平台之一，其AI集成具有巨大的市场潜力。该项目展示了将大模型能力与微信生态结合的技术路径，对于想在中国市场落地AI应用的开发者有参考价值。",
           "social": [
             {
-              "who": "产品经理",
-              "text": "在微信中使用 AI 大大降低了用户的学习成本，推广效果会更好。"
+              "who": "开发者",
+              "text": "微信生态的AI入口价值巨大，这个项目提供了技术参考"
             },
             {
-              "who": "开发者",
-              "text": "TypeScript 技术栈让项目易于维护和扩展，社区贡献门槛较低。"
+              "who": "用户",
+              "text": "在微信里就能用AI了，使用门槛大大降低"
             }
           ]
         },
         {
-          "title_zh": "Awesome DSH Plugin — DeepSeek Harness 插件精选列表",
+          "title_zh": "DeepSeek Harness插件精选列表",
           "eng": "awesome-dsh-plugin/awesome-dsh-plugin",
-          "summary": "精心整理的 DeepSeek Harness 插件资源列表，帮助开发者快速发现和选择适合的插件。",
+          "summary": "精心策划的DSH插件推荐清单，帮助开发者快速发现和选择优质插件。",
           "source": "GitHub",
-          "stars": 1136,
+          "stars": 1203,
           "lang": "Python",
           "published": "2026-08-13",
           "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-          "overview": "这是一个为 DeepSeek Harness 生态维护的插件精选列表，收录了各类高质量插件。采用 Python 编写，遵循 Awesome 系列仓库的标准格式，方便社区成员贡献和发现新插件。",
-          "analysis": "作为 DSH 生态的导航工具，该仓库帮助开发者快速了解可用的插件资源，降低了探索成本。Awesome 系列的标准化格式也便于后续维护和扩展。",
+          "overview": "这是一个为DeepSeek Harness生态精心策划的插件推荐列表，涵盖了各类功能插件和工具。它帮助开发者快速发现和选择适合自身需求的DSH扩展，是DSH生态社区建设的重要组成部分。",
+          "analysis": "作为awesome系列的延续，该项目降低了DSH插件的发现和使用门槛。在开源生态中，好的发现机制与代码本身同等重要，这个列表有助于加速DSH生态的成熟。",
           "social": [
             {
-              "who": "AI Agent 开发者",
-              "text": "精选列表大大节省了搜索时间，可以直接找到适合自己的插件。"
+              "who": "开发者",
+              "text": "不用自己翻遍所有仓库，精选列表让插件选择变得高效"
             },
             {
-              "who": "社区贡献者",
-              "text": "标准化的 Awesome 格式让贡献和维护变得更加规范有序。"
+              "who": "社区建设者",
+              "text": "awesome系列是开源生态的标配，DSH也需要这样的发现机制"
             }
           ]
         },
         {
-          "title_zh": "Book to Skill — 将技术书籍转为 Claude Code 技能",
-          "eng": "Leutenegger/book-to-skill",
-          "summary": "将任何技术书籍 PDF 转换为 Claude Code 可使用的技能，支持学习、引用和工作时参考。",
+          "title_zh": "Claude Code转英文工具",
+          "eng": "gvzdv/claudish-to-english",
+          "summary": "将Claude Code生成的代码注释和文档自动转换为英文的Shell脚本工具。",
           "source": "GitHub",
-          "stars": 1072,
+          "stars": 1104,
+          "lang": "Shell",
+          "published": "2026-08-10",
+          "url": "https://github.com/gvzdv/claudish-to-english",
+          "overview": "这是一个实用的CLI工具，专门用于将Claude Code生成的代码注释和文档从中文转换为英文。它解决了AI辅助开发中语言转换的痛点，帮助开发者在国际化项目中保持代码文档的一致性。",
+          "analysis": "随着AI编程工具的普及，代码注释和文档的语言问题日益突出。这个轻量级Shell脚本工具精准地解决了一个实际工作流中的小痛点，体现了'小而美'的工具设计理念。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "AI生成的中文注释在国际化项目中确实是个麻烦，这个小工具很实用"
+            },
+            {
+              "who": "用户",
+              "text": "Shell脚本实现，零依赖安装，非常轻量"
+            }
+          ]
+        },
+        {
+          "title_zh": "PDF技术书籍转Claude Code技能",
+          "eng": "Leutenegger/book-to-skill",
+          "summary": "将任何技术书籍的PDF转换为可被Claude Code直接使用的技能，支持学习和参考。",
+          "source": "GitHub",
+          "stars": 1073,
           "lang": "Python",
           "published": "2026-08-13",
           "url": "https://github.com/Leutenegger/book-to-skill",
-          "overview": "该项目可以将技术书籍的 PDF 文件转换为 Claude Code 技能，使 AI 助手能够理解并引用书中的内容。支持在学习、参考和工作场景中直接使用转换后的知识。采用 Python 实现，易于集成到现有工作流中。",
-          "analysis": "将静态知识转化为动态 AI 技能的思路很有创意，解决了技术书籍难以被 AI 直接利用的痛点。对于持续学习的开发者来说，这是一个实用的知识管理工具。",
+          "overview": "这个项目可以将任何技术书籍的PDF文件转换为Claude Code可以直接调用的技能（Skill），让开发者在工作时随时参考和学习书中的内容。它打通了'阅读→学习→应用'的知识获取链路，是AI辅助学习的创新实践。",
+          "analysis": "将静态知识转化为动态可调用的AI技能，这是一个很有前景的方向。对于需要持续学习的开发者来说，这比传统的学习方式更加高效和便捷，体现了AI工具在学习场景中的独特价值。",
           "social": [
             {
-              "who": "终身学习者",
-              "text": "把书变成 AI 技能后，随时可以调用书中的知识点，学习效率大幅提升。"
+              "who": "学习者",
+              "text": "把书变成AI技能后，随时可以调用书中的知识来解决问题"
             },
             {
-              "who": "AI 应用开发者",
-              "text": "Python 实现便于与现有工具链集成，扩展性很好。"
+              "who": "开发者",
+              "text": "这是将传统学习资源与AI工具结合的优秀案例"
             }
           ]
         },
         {
-          "title_zh": "Pi from Scratch — TypeScript 从零实现 Pi Agent",
+          "title_zh": "从零手写Pi Agent（TypeScript）",
           "eng": "SaladDay/pi-from-scratch",
-          "summary": "用 600 行 TypeScript 实现的迷你版 pi，让你轻松从 0 写出属于自己的 AI Agent。",
+          "summary": "用600行TypeScript实现的迷你版AI智能体，让你轻松从0构建属于自己的pi-agent。",
           "source": "GitHub",
-          "stars": 979,
+          "stars": 982,
           "lang": "TypeScript",
           "published": "2026-08-09",
           "url": "https://github.com/SaladDay/pi-from-scratch",
-          "overview": "这是一个用 600 行 TypeScript 代码实现的 AI Agent 入门项目，旨在帮助开发者从零开始理解并构建自己的 pi-agent。项目结构清晰，适合学习和参考。",
-          "analysis": "作为学习资源，该项目以极简的代码量展示了 AI Agent 的核心架构，非常适合初学者快速上手。600 行的篇幅让读者能够深入理解每一行代码的作用。",
+          "overview": "这是一个教育性质的项目，用仅600行TypeScript代码实现了一个完整的AI智能体（Pi Agent），帮助开发者从零开始理解AI Agent的构建原理。它降低了学习门槛，让初学者能够快速上手并定制自己的Agent。",
+          "analysis": "作为学习资源类项目，它的核心价值在于极低的入门门槛——600行代码就能理解一个完整Agent的工作机制。对于想进入AI开发领域的学习者来说，这是一个很好的起点。",
           "social": [
             {
-              "who": "编程学习者",
-              "text": "600 行就能跑起来，学习曲线非常平缓，适合入门。"
+              "who": "学习者",
+              "text": "600行就搞懂了一个完整的AI Agent，学习曲线非常友好"
             },
             {
-              "who": "TypeScript 开发者",
-              "text": "用 TypeScript 实现让代码更现代、更易维护，也方便后续扩展。"
+              "who": "开发者",
+              "text": "适合入门级项目，但核心架构设计值得深入研究"
             }
           ]
         },
         {
-          "title_zh": "DSH TUI — DeepSeek Harness 终端交互界面",
+          "title_zh": "DeepSeek Harness终端TUI插件",
           "eng": "ccch1mneyyy/dsh-TUI",
-          "summary": "为偏爱 CLI 的极客打造的 Claude Code 风格全屏交互终端插件，支持像素鲸鱼顶栏、实时工作状态行和思考流式展开等功能。",
+          "summary": "为CLI爱好者打造的DSH终端交互界面，提供Claude Code风格的全屏交互体验。",
           "source": "GitHub",
-          "stars": 903,
+          "stars": 916,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-          "overview": "这是一个为 DeepSeek Harness 设计的终端 TUI 插件，提供 Claude Code 风格的全屏交互体验。功能包括像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条和 TPS 仪表等。支持 npm 一键安装。",
-          "analysis": "TUI 界面满足了命令行用户的特殊需求，为 AI Agent 提供了更沉浸式的交互体验。丰富的功能细节体现了开发者对终端用户体验的深入理解。",
+          "overview": "这是一个为DeepSeek Harness打造的终端TUI（文本用户界面）插件，专为偏爱命令行工具的开发者设计。它提供了像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击Esc回滚、上下文进度条和TPS仪表等功能，npm一键安装即可使用。",
+          "analysis": "在AI工具普遍走向图形化的趋势下，这个TUI方案保留了CLI的简洁高效优势。对于习惯终端工作的开发者来说，它提供了更好的交互体验，同时保持了DSH生态的兼容性。",
           "social": [
             {
-              "who": "终端用户",
-              "text": "终于有了 DSH 的 TUI 支持，再也不用在浏览器里操作了。"
+              "who": "开发者",
+              "text": "终于有了DSH的终端版本，不用在浏览器和IDE之间切换了"
             },
             {
-              "who": "前端开发者",
-              "text": "npm 一键安装降低了使用门槛，功能设计也很用心。"
+              "who": "用户",
+              "text": "像素鲸鱼顶栏的设计很有创意，TPS仪表让工作流可视化很直观"
             }
           ]
         },
         {
-          "title_zh": "YouTube Music — 无广告 YouTube Music 客户端",
+          "title_zh": "YouTube Music无广告客户端",
           "eng": "sohaibdevv/youtube-music",
-          "summary": "一个轻量级的无广告 YouTube Music 流媒体客户端，无需订阅即可使用，支持后台播放、搜索和自定义播放列表。",
+          "summary": "轻量级、无广告的YouTube Music音乐流媒体客户端，无需订阅即可使用。",
           "source": "GitHub",
           "stars": 857,
           "lang": "TypeScript",
           "published": "2026-08-11",
           "url": "https://github.com/sohaibdevv/youtube-music",
-          "overview": "该项目是一个通过逆向 API 实现的 YouTube Music 客户端，无需订阅即可免费使用。支持后台播放、搜索功能和自定义播放列表创建。采用 TypeScript 构建，界面简洁流畅。",
-          "analysis": "虽然涉及逆向 API，但作为开源音乐客户端工具，它为用户提供了合法替代方案。TypeScript 技术栈保证了代码质量和可维护性，适合社区贡献和扩展。",
+          "overview": "这是一个基于逆向API构建的YouTube Music客户端，支持无广告音乐流媒体播放、后台播放、搜索和自定义歌单等功能。它无需订阅即可使用，为不想付费的用户提供了合法的音乐收听方案。",
+          "analysis": "作为TypeScript构建的桌面/移动端应用，该项目展示了利用公开API构建替代方案的开发思路。虽然涉及逆向工程，但它主要服务于音乐消费场景，属于合法的开源工具范畴。",
           "social": [
             {
-              "who": "音乐爱好者",
-              "text": "免费无广告的体验非常好，后台播放功能很实用。"
+              "who": "用户",
+              "text": "不用订阅就能听YouTube Music，而且没有广告，体验很好"
             },
             {
-              "who": "开源开发者",
-              "text": "TypeScript 构建让项目易于维护和扩展，社区贡献门槛较低。"
+              "who": "开发者",
+              "text": "TypeScript构建，代码质量不错，支持后台播放是个亮点"
             }
           ]
         }
