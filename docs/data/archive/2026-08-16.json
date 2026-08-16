@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:27:38+08:00",
+  "generated_at": "2026-08-16T10:08:17+08:00",
   "date": "2026-08-16",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,10 +7,10 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-16 06:35",
+    "hot": "2026-08-16 10:08",
     "ai": "2026-08-16 07:25",
     "voices": "2026-08-16 09:27",
-    "github": "2026-08-16 08:18",
+    "github": "2026-08-16 10:08",
     "libraries": "2026-08-16 09:27",
     "sports": "2026-08-16 09:27",
     "academic": "2026-08-15 06:40"
@@ -1542,222 +1542,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "DeepSeek Harness — 万物皆插件的AI开发框架",
+          "title_zh": "DeepSeek Harness — AI Agent 全插件化框架",
           "eng": "deepseek-ai/deepseek-harness",
-          "summary": "DeepSeek官方推出的AI编程框架，以插件化架构为核心，支持任务编排、工具调用与多Agent协作。",
+          "summary": "DeepSeek 推出的 AI Agent 运行时框架，支持插件化扩展任务编排、工具调用与多模态交互。",
           "source": "GitHub",
-          "stars": 115096,
+          "stars": 116256,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "overview": "DeepSeek Harness是一个以插件生态为核心的AI开发框架，支持任务看板、Git图谱、远程移动端UI等多种扩展。它采用TypeScript构建，提供标准化的工具链和推理模式路由，开发者可以通过安装不同插件来定制工作流。该框架已积累超过11.5万Star，成为当前最热门的AI编程基础设施之一。",
-          "analysis": "作为DeepSeek官方主推的AI开发平台，Harness代表了新一代AI编程工具的范式转变——从单体工具走向插件化生态。其极高的star数反映了开发者社区对统一AI工作流标准的强烈需求，值得所有关注AI开发工具的人深入研究。",
+          "overview": "DeepSeek Harness (DSH) 是一个面向 AI Agent 的插件化运行时框架，支持任务编排、工具注册与多模态交互。它提供标准化的 Agent 开发接口，开发者可通过插件扩展功能，覆盖代码执行、文件操作、网络请求等场景。该框架已积累超 11.6 万 Star，成为当前最热门的 AI Agent 基础设施之一。",
+          "analysis": "作为 DeepSeek 官方出品的 Agent 运行时，DSH 代表了当前 AI 开发工具链的重要方向——插件化与标准化。其庞大的生态社区和活跃贡献者表明它正快速成为开发者首选的 AI Agent 框架。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Harness的插件化设计让AI编程从'用哪个工具'变成'搭什么生态'，这是真正的平台级产品。"
+              "who": "AI 开发者",
+              "text": "DSH 的插件化设计让 Agent 开发门槛大幅降低，适合构建复杂的多步骤自动化任务。"
             },
             {
               "who": "研究者",
-              "text": "11.5万Star说明社区已经认可了这种标准化AI工作流的方向，值得跟踪其技术演进。"
+              "text": "该框架对 AI Agent 标准化接口的探索具有学术参考价值，值得深入跟进。"
             }
           ]
         },
         {
-          "title_zh": "DeepSeek Harness桌面端体验",
+          "title_zh": "Anywhere Labs DSH 桌面端应用",
           "eng": "anywhere-labs/deepseek-harness-desktop",
-          "summary": "为DSH生态打造的现代化桌面端应用，提供本地化、可视化的AI编程工作台。",
+          "summary": "为 DeepSeek Harness 生态打造的现代化桌面端体验，提供图形化 Agent 交互界面。",
           "source": "GitHub",
-          "stars": 5838,
+          "stars": 6053,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-          "overview": "该桌面应用是DeepSeek Harness生态的重要补充，将云端AI编程能力带到本地桌面环境。它采用TypeScript构建，提供流畅的GUI交互体验，支持任务管理、代码编辑和实时状态展示等功能模块。作为官方框架的桌面端实现，它为偏好桌面工作流的开发者提供了更友好的使用入口。",
-          "analysis": "桌面端的出现标志着AI编程工具从CLI/网页向全平台化演进的重要一步。5800+Star说明大量开发者需要本地化的AI开发体验，这对整个生态的普及至关重要。",
+          "overview": "Anywhere Labs 为 DSH 生态开发了桌面端应用，提供图形化的 Agent 交互界面。该应用支持任务可视化、工具调用监控与结果展示，让非技术用户也能便捷使用 AI Agent 能力。6053 Star 反映了社区对桌面端体验的强烈需求。",
+          "analysis": "在命令行工具之外，桌面端应用降低了 AI Agent 的使用门槛，是 AI 工具民主化的重要一步。该项目的快速增长表明市场对图形化 AI 交互界面的期待。",
           "social": [
             {
               "who": "开发者",
-              "text": "桌面端让AI编程不再受限于浏览器，本地运行更稳定、响应更快，是生产力工具的正确方向。"
+              "text": "桌面端让 AI Agent 从终端走向日常办公场景，实用性显著提升。"
             },
             {
-              "who": "研究者",
-              "text": "从网页到桌面的迁移反映了AI开发工具的成熟度提升，值得观察其技术架构设计。"
+              "who": "AI 用户",
+              "text": "图形化界面让非技术背景的用户也能轻松使用 AI 能力。"
             }
           ]
         },
         {
-          "title_zh": "DSH插件精选列表",
-          "eng": "awesome-dsh-plugin/awesome-dsh-plugin",
-          "summary": "DeepSeek Harness插件的权威整理清单，帮助开发者快速发现和选择所需功能。",
-          "source": "GitHub",
-          "stars": 2985,
-          "lang": "Python",
-          "published": "2026-08-13",
-          "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-          "overview": "这是一个精心策划的DSH插件推荐列表，涵盖各类功能扩展。作为社区维护的资源库，它帮助开发者快速了解生态中可用的工具和服务，减少信息搜索成本。清单按类别组织，包含插件描述、安装方式和适用场景等关键信息。",
-          "analysis": "awesome系列一直是开源社区的标杆资源形式，DSH插件列表的2900+Star说明社区对标准化发现机制的需求旺盛。对于刚接触DSH生态的开发者来说，这是最实用的入门指南。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "找插件比写代码更重要——这个列表让新手3分钟就能上手DSH生态。"
-            },
-            {
-              "who": "研究者",
-              "text": "awesome系列的质量标准值得参考，它展示了如何有效组织开源项目发现机制。"
-            }
-          ]
-        },
-        {
-          "title_zh": "WeChat AI — 微信生态AI集成工具",
-          "eng": "SMNETSTUDIO/WeChat-AI",
-          "summary": "将AI能力接入微信生态的TypeScript项目，探索社交场景下的智能交互方案。",
-          "source": "GitHub",
-          "stars": 1733,
-          "lang": "TypeScript",
-          "published": "2026-08-10",
-          "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-          "overview": "该项目致力于在微信生态中集成AI能力，为开发者提供构建智能应用的技术方案。采用TypeScript开发，面向中文用户群体，探索了社交媒体场景下AI交互的新可能性。作为连接传统社交平台与前沿AI技术的桥梁，它代表了AI落地应用的实践方向。",
-          "analysis": "微信是中国最大的社交入口之一，将AI能力接入这一生态具有巨大的商业价值和社会影响。1700+Star说明开发者对'AI+社交'场景有强烈需求，值得持续关注其技术演进和商业化路径。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "微信是AI落地的最佳试验场之一，这个项目展示了如何将前沿能力接入最大流量入口。"
-            },
-            {
-              "who": "研究者",
-              "text": "社交场景下的AI交互设计面临独特挑战，值得从用户体验角度深入研究。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH终端TUI插件",
-          "eng": "ccch1mneyyy/dsh-TUI",
-          "summary": "为CLI爱好者打造的DeepSeek Harness终端交互界面，提供Claude Code风格的全屏体验。",
-          "source": "GitHub",
-          "stars": 1261,
-          "lang": "TypeScript",
-          "published": "2026-08-13",
-          "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-          "overview": "这是一个专为命令行爱好者设计的DSH终端插件，提供像素鲸鱼顶栏、实时工作状态行、思考流式展开等特色功能。支持双击Esc回滚、上下文进度条和TPS仪表等交互细节，npm一键安装即可使用。它填补了DSH官方尚无原生TUI的空白，为偏好CLI工作流的开发者提供了完整体验。",
-          "analysis": "终端工具在AI编程领域有不可替代的地位——很多资深开发者更习惯命令行环境。这个插件展示了如何将现代AI能力优雅地融入传统CLI界面，是'AI+终端'赛道的优秀实践。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "CLI党终于有了完整的DSH体验，像素鲸鱼顶栏和流式展开设计非常用心。"
-            },
-            {
-              "who": "研究者",
-              "text": "将AI交互设计到终端环境中需要考虑屏幕空间、输入延迟等独特约束，值得研究其交互模式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Book to Skill — 技术书籍转AI技能",
-          "eng": "Leutenegger/book-to-skill",
-          "summary": "将任意技术书籍PDF转化为Claude Code可学习的技能，实现边工作边学习。",
-          "source": "GitHub",
-          "stars": 1126,
-          "lang": "Python",
-          "published": "2026-08-13",
-          "url": "https://github.com/Leutenegger/book-to-skill",
-          "overview": "该项目提供了一种创新的学习方式：将技术书籍的PDF内容转化为AI可理解的技能模块。用户只需上传书籍，即可让Claude Code读取、参考和使用其中的知识。这打破了传统阅读障碍，让开发者能在编码工作中随时调用专业知识，实现'边做边学'的高效模式。",
-          "analysis": "这是AI+学习领域的突破性应用——将静态知识转化为动态可调用的技能。1100+Star说明大量开发者有持续学习的强烈需求，这种'知识即代码'的理念可能重塑技术教育方式。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "终于可以把纸质书变成AI能用的东西了——上传PDF就能让Claude Code帮你学习。"
-            },
-            {
-              "who": "研究者",
-              "text": "'知识即技能'的范式转变很有意义，值得研究其知识提取和结构化方法。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH锚定标准预设",
-          "eng": "xiaobright/dsh-anchored-standard",
-          "summary": "两阶段DeepSeek Harness配置方案：先最小对齐引导，再完整Standard工具链。",
-          "source": "GitHub",
-          "stars": 2178,
-          "lang": "JavaScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "overview": "这是一个精心设计的DSH预设方案，采用两阶段策略：第一阶段进行最小化对齐引导，第二阶段部署完整的Standard工具链（覆盖Project2 98/99）。该方案注重渐进式配置，帮助开发者从简单场景平滑过渡到完整功能。JavaScript实现保证了良好的兼容性和可维护性。",
-          "analysis": "渐进式配置是复杂AI工具的最佳实践——先小后大、先稳后全。2100+Star说明社区对标准化预设方案有广泛需求，这种'脚手架思维'值得推广到其他AI框架中。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "两阶段配置太实用了——新手不会 overwhelmed，老手也能快速上手完整功能。"
-            },
-            {
-              "who": "研究者",
-              "text": "渐进式AI工具配置是降低使用门槛的有效策略，值得从认知负荷角度研究。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH路由套件",
-          "eng": "yjh051108/dsh-routing-suite",
-          "summary": "DSH运行时注入器与任务感知推理模式路由器，支持P1-P23级别的任务路由。",
-          "source": "GitHub",
-          "stars": 1674,
-          "lang": "PowerShell",
-          "published": "2026-08-14",
-          "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "overview": "该套件包含运行时注入器和任务感知路由器，能够根据任务复杂度自动选择推理模式。支持从P1到P23共23个级别的任务路由策略，确保不同复杂度的任务获得最合适的处理资源。PowerShell实现使其在Windows环境下开箱即用，适合企业级部署场景。",
-          "analysis": "智能路由是AI编程框架的核心能力——让简单任务快速响应、复杂任务深度思考。1600+Star说明开发者对自动化决策机制有强烈需求，这种'分级处理'思路可推广到其他AI系统。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "自动路由太香了——简单问题秒回，复杂任务深度思考，不用手动切换模式。"
-            },
-            {
-              "who": "研究者",
-              "text": "P1-P23的分级策略展示了如何量化任务复杂度并匹配计算资源，值得研究其分类算法。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anti-Slop — TypeScript反低质量模式规则集",
-          "eng": "dmmulroy/anti-slop",
-          "summary": "基于Oxlint的严格TypeScript和JavaScript代码质量规则，拒绝低证据支持的编程模式。",
-          "source": "GitHub",
-          "stars": 1243,
-          "lang": "TypeScript",
-          "published": "2026-08-12",
-          "url": "https://github.com/dmmulroy/anti-slop",
-          "overview": "这是一个基于Oxlint构建的代码质量工具，专门针对TypeScript和JavaScript中的低证据支持模式进行拦截。它采用'有观点的'规则设计哲学，不仅检测问题还解释为什么这些模式应该被避免。通过npm安装即可集成到现有项目中，帮助团队提升代码质量和可维护性。",
-          "analysis": "随着AI生成代码的普及，代码质量工具面临新挑战——需要识别AI特有的低质量模式。1200+Star说明开发者对'反模式检测'有真实需求，这种'防御性编程'思路在AI时代尤为重要。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "AI写代码容易出'看起来对但实际有问题'的代码，这个工具正好能拦截这类情况。"
-            },
-            {
-              "who": "研究者",
-              "text": "'有观点的规则集'是linting工具的进化方向——从被动检测转向主动指导。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH Web UI皮肤与插件集合",
+          "title_zh": "DSH Web UI 插件与皮肤集合",
           "eng": "zhu1090093659/dsh-web-ui",
-          "summary": "DeepSeek Harness Web UI的插件和皮肤合集，提供任务看板、Git图谱、远程移动端UI等扩展。",
+          "summary": "为 DeepSeek Harness Web UI 提供丰富的插件和皮肤，包括任务看板、Git 图、远程移动端界面等。",
           "source": "GitHub",
-          "stars": 2705,
+          "stars": 2746,
           "lang": "TypeScript",
           "published": "2026-08-12",
           "url": "https://github.com/zhu1090093659/dsh-web-ui",
-          "overview": "这是一个丰富的DSH Web UI扩展集合，包含任务看板、Git图谱可视化、右侧面板、远程移动端UI、宠物装饰、实时Token统计和皮肤中心等功能。采用TypeScript开发，提供高度可定制的Web界面体验。作为社区贡献的UI扩展库，它展示了DSH生态的丰富性和可扩展性。",
-          "analysis": "2700+Star说明大量开发者需要更丰富的Web UI功能来定制AI编程体验。这个集合展示了'皮肤化'设计在AI工具中的应用——让技术工具也能个性化表达，是用户体验设计的创新实践。",
+          "overview": "该仓库为 DSH Web UI 提供了一系列插件和皮肤，涵盖任务看板、Git 图可视化、右侧面板扩展、远程移动端界面、宠物动画、实时 Token 统计与皮肤中心等功能。2746 Star 反映了社区对 Web UI 定制化的强烈需求。",
+          "analysis": "Web UI 的生态繁荣说明 DSH 正在从命令行工具向全平台应用演进，插件化设计让用户体验高度可定制化。",
+          "social": [
+            {
+              "who": "前端开发者",
+              "text": "插件和皮肤系统的设计思路值得借鉴，模块化扩展是 AI 工具生态的必然趋势。"
+            },
+            {
+              "who": "AI 用户",
+              "text": "远程移动端界面让随时随地使用 AI Agent 成为可能。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 插件精选列表",
+          "eng": "awesome-dsh-plugin/awesome-dsh-plugin",
+          "summary": " curated list of plugins for DeepSeek Harness (dsh)，帮助开发者快速发现和安装优质插件。",
+          "source": "GitHub",
+          "stars": 3057,
+          "lang": "Python",
+          "published": "2026-08-13",
+          "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+          "overview": "该仓库是 DSH 插件的精选列表，帮助开发者快速发现和安装优质插件。它按照功能分类整理，涵盖代码执行、文件操作、网络请求等常见场景的插件推荐。3057 Star 反映了社区对插件发现机制的需求。",
+          "analysis": "作为 AI Agent 生态的'应用商店目录'，该仓库降低了插件发现的门槛，是 DSH 生态系统健康发展的基础设施之一。",
           "social": [
             {
               "who": "开发者",
-              "text": "远程移动端UI和实时Token统计太实用了——随时随地都能监控AI编程状态。"
+              "text": "精选列表让插件发现效率大幅提升，类似 Awesome 系列的做法在 AI Agent 生态中同样适用。"
             },
             {
+              "who": "AI 用户",
+              "text": "快速找到合适的插件是高效使用 AI Agent 的关键。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 锚定标准预设",
+          "eng": "xiaobright/dsh-anchored-standard",
+          "summary": "两阶段 DeepSeek Harness 预设：先最小对齐引导，再完整 Standard 工具集（Project2 98/99）。",
+          "source": "GitHub",
+          "stars": 2230,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/xiaobright/dsh-anchored-standard",
+          "overview": "该仓库提供两阶段 DSH 预设方案：第一阶段进行最小对齐引导，第二阶段启用完整的 Standard 工具集（Project2 98/99）。这种渐进式配置策略让开发者可以按需逐步增强 Agent 能力。2230 Star 反映了社区对标准化配置的需求。",
+          "analysis": "两阶段预设设计体现了'先小后大'的工程思维，降低了复杂 AI Agent 的配置门槛，适合不同场景的灵活使用。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "渐进式配置策略让新手也能快速上手，同时为高级用户保留了完整工具链。"
+            },
+            {
+              "who": "AI 研究者",
+              "text": "标准化预设方案对 AI Agent 的可复现性研究具有参考价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 路由套件",
+          "eng": "yjh051108/dsh-routing-suite",
+          "summary": "dsh-routing-suite：注入器 + 路由器标准套件，先安装运行时注入器，再配置任务感知的推理模式路由器预设。",
+          "source": "GitHub",
+          "stars": 1780,
+          "lang": "PowerShell",
+          "published": "2026-08-14",
+          "url": "https://github.com/yjh051108/dsh-routing-suite",
+          "overview": "该仓库提供 DSH 路由套件，包括运行时注入器和任务感知的推理模式路由器预设（已测量 P1-P23）。它支持根据任务类型动态选择最优的 Agent 行为策略。1780 Star 反映了社区对 Agent 路由机制的关注。",
+          "analysis": "任务感知的路由设计让 AI Agent 能够根据不同场景自动切换策略，是提升 Agent 效率和准确性的关键技术方向。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "动态路由策略让 Agent 在不同任务类型下都能表现最优，实用性很强。"
+            },
+            {
+              "who": "AI 研究者",
+              "text": "P1-P23 的测量数据为 Agent 行为优化提供了实证基础。"
+            }
+          ]
+        },
+        {
+          "title_zh": "微信 AI 助手",
+          "eng": "SMNETSTUDIO/WeChat-AI",
+          "summary": "基于微信平台的 AI 助手应用，将大模型能力接入日常社交场景。",
+          "source": "GitHub",
+          "stars": 1743,
+          "lang": "TypeScript",
+          "published": "2026-08-10",
+          "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+          "overview": "该仓库实现了基于微信平台的 AI 助手应用，将大模型能力接入日常社交场景。支持文本对话、文件处理与多轮交互，让 AI 能力融入用户最熟悉的沟通渠道。1743 Star 反映了市场对 AI+社交的强烈需求。",
+          "analysis": "AI+社交是当下最具潜力的应用场景之一，微信作为中国最大的社交平台，其 AI 化改造具有广泛的用户基础和市场价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "将 AI 能力接入微信生态，触达用户量级远超传统应用。"
+            },
+            {
+              "who": "AI 用户",
+              "text": "在熟悉的聊天界面中使用 AI，学习成本几乎为零。"
+            }
+          ]
+        },
+        {
+          "title_zh": "编程范式：时空组合性论文",
+          "eng": "cordiverse/paper",
+          "summary": "提出一种面向时空组合性的编程范式，探索程序在时间与空间维度上的结构化设计方法。",
+          "source": "GitHub",
+          "stars": 1636,
+          "lang": "",
+          "published": "2026-08-13",
+          "url": "https://github.com/cordiverse/paper",
+          "overview": "该仓库收录了一篇关于时空组合性编程范式的学术论文，探索程序在时间与空间维度上的结构化设计方法。论文提出了新的抽象机制和形式化框架，为并发程序和分布式系统的设计提供了理论基础。1636 Star 反映了学术界对这一方向的关注。",
+          "analysis": "时空组合性是编程语言理论的前沿课题，该论文的提出可能影响未来编程语言和系统设计的发展方向。",
+          "social": [
+            {
               "who": "研究者",
-              "text": "'皮肤中心'概念很有趣——将个性化配置从功能层面提升到审美层面，值得研究其设计模式。"
+              "text": "时空组合性为并发程序的形式化验证提供了新的思路，学术价值显著。"
+            },
+            {
+              "who": "开发者",
+              "text": "这一范式对理解复杂系统的结构组织有启发意义。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Anti-Slop：严格 TypeScript 代码质量规则集",
+          "eng": "dmmulroy/anti-slop",
+          "summary": "基于 Oxlint 的 Opinionated 规则集，拒绝低证据支持的 TypeScript 和 JavaScript 模式。",
+          "source": "GitHub",
+          "stars": 1292,
+          "lang": "TypeScript",
+          "published": "2026-08-12",
+          "url": "https://github.com/dmmulroy/anti-slop",
+          "overview": "该仓库提供基于 Oxlint 的严格代码质量规则集，专门针对 TypeScript 和 JavaScript 中低证据支持的模式进行拦截。它帮助团队在 CI/CD 阶段自动检测并阻止潜在问题代码。1292 Star 反映了社区对代码质量的重视。",
+          "analysis": "在 AI 辅助编程日益普及的背景下，严格的代码质量规则集对于维护代码可靠性至关重要。该工具填补了 Oxlint 生态中 Opinionated 规则的空白。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "AI 生成的代码往往缺乏严格审查，这类规则集能有效弥补这一短板。"
+            },
+            {
+              "who": "技术负责人",
+              "text": "在 CI/CD 中集成此类规则，可以显著提升团队代码质量基线。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 终端 TUI 插件",
+          "eng": "ccch1mneyyy/dsh-TUI",
+          "summary": "为 DeepSeek Harness 提供 Claude Code 风格的全屏交互终端插件，支持像素鲸鱼顶栏、实时工作状态行、思考流式展开等功能。",
+          "source": "GitHub",
+          "stars": 1282,
+          "lang": "TypeScript",
+          "published": "2026-08-13",
+          "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+          "overview": "该仓库为 DSH 提供了终端 TUI 插件，采用 Claude Code 风格的全屏交互设计。功能包括像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条与 TPS 仪表等。支持 npm 一键安装。1282 Star 反映了 CLI 用户对 DSH 终端体验的需求。",
+          "analysis": "在 AI Agent 工具链中，优秀的终端体验是提升效率的关键。该插件的 Claude Code 风格设计表明社区对高质量 CLI 交互的追求。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Claude Code 风格的 TUI 让 DSH 在终端中的使用体验大幅提升，值得推荐。"
+            },
+            {
+              "who": "CLI 用户",
+              "text": "像素鲸鱼顶栏和 TPS 仪表等细节设计体现了对用户体验的极致追求。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude Code 转英文工具",
+          "eng": "gvzdv/claudish-to-english",
+          "summary": "将 Claude Code 生成的代码和注释转换为英文，帮助非英语母语开发者理解 AI 输出。",
+          "source": "GitHub",
+          "stars": 1195,
+          "lang": "Shell",
+          "published": "2026-08-10",
+          "url": "https://github.com/gvzdv/claudish-to-english",
+          "overview": "该工具专门针对 Claude Code 生成的代码和注释进行英文转换，帮助非英语母语开发者理解 AI 输出。它通过 Shell 脚本实现自动化翻译流程，支持批量处理和格式保留。1195 Star 反映了全球开发者对 AI 输出本地化的需求。",
+          "analysis": "AI 辅助编程的全球化是重要趋势，该工具解决了非英语母语开发者使用 AI 工具时的语言障碍问题，具有广泛的用户基础。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "AI 生成的代码往往以英文为主，这类翻译工具对非英语母语用户非常实用。"
+            },
+            {
+              "who": "技术社区",
+              "text": "工具的 Shell 实现方式保持了透明性和可定制性，符合开源社区的偏好。"
+            }
+          ]
+        },
+        {
+          "title_zh": "书籍转 Claude Code Skill：PDF 学习工具",
+          "eng": "Leutenegger/book-to-skill",
+          "summary": "将任何技术书籍 PDF 转换为 Claude Code Skill，支持在学习、参考和使用中随时调用。",
+          "source": "GitHub",
+          "stars": 1127,
+          "lang": "Python",
+          "published": "2026-08-13",
+          "url": "https://github.com/Leutenegger/book-to-skill",
+          "overview": "该工具将技术书籍 PDF 转换为 Claude Code Skill，使开发者可以在学习、参考和使用中随时调用书中的知识。它支持章节提取、关键词索引与上下文关联，让 AI Agent 能够基于特定书籍提供精准的技术建议。1127 Star 反映了市场对 AI+学习的强烈需求。",
+          "analysis": "将静态知识转化为 AI 可调用的 Skill 是知识管理的重要创新方向，该工具为技术学习提供了新的范式——从被动阅读转向主动交互式学习。",
+          "social": [
+            {
+              "who": "学习者",
+              "text": "把书变成 AI Skill 后，可以随时向 Agent 提问书中内容，学习效率大幅提升。"
+            },
+            {
+              "who": "开发者",
+              "text": "这一思路可以扩展到任何技术文档，是知识管理工具的重要发展方向。"
             }
           ]
         }
@@ -1766,67 +1810,200 @@
     "hot": {
       "items": [
         {
-          "title_zh": "印尼发生7.7级强震已致至少47人死亡",
-          "summary": "印度尼西亚东部弗洛勒斯岛附近海域发生里氏7.7级强烈地震，搜救行动正在紧张进行中。目前已知至少47人遇难，伤亡数字可能继续上升。",
+          "title_zh": "印尼发生7.7级强震致至少47人死亡",
+          "summary": "印度尼西亚弗洛勒斯岛发生强烈地震，搜救行动正在进行中。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-15",
           "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年8月15日，印度尼西亚东部弗洛勒斯岛附近海域发生里氏7.7级强烈地震。搜救行动正在紧张进行中，以寻找幸存者。目前已知至少47人遇难，伤亡数字可能继续上升。此次地震震源深度较浅，对当地基础设施和居民生命安全构成严重威胁。国际社会预计将提供紧急人道主义援助。",
-          "analysis": "此次地震震级巨大，对当地基础设施和居民生命安全构成严重威胁。搜救工作面临复杂地形挑战，国际救援力量正集结准备介入。",
+          "overview": "印度尼西亚东部弗洛勒斯岛发生震级达7.7级的强烈地震，目前已造成至少47人死亡。救援人员正在该地区展开紧张的搜救行动，试图寻找幸存者。此次地震对当地基础设施造成了严重破坏，周边地区也感受到了强烈震动。国际社会对此表示深切关注，多国已准备提供人道主义援助。",
+          "analysis": "此次强震发生在人口密集区域，伤亡人数可能还会上升。印尼地处环太平洋火山地震带，近年来频繁发生强震，防灾预警系统面临严峻考验。",
           "social": [
             {
-              "who": "印尼救援志愿者",
-              "text": "弗洛勒斯岛的搜救工作仍在艰难推进，希望每一个被困者都能被找到。"
-            },
-            {
-              "who": "国际地震监测机构",
-              "text": "此次7.7级地震震源深度较浅，预计海啸风险较低，但余震活动需持续监控。"
+              "who": "国际救援组织",
+              "text": "呼吁各国政府尽快协调物资运输通道，确保救援队伍和医疗设备能迅速抵达灾区。"
             }
           ]
         },
         {
           "title_zh": "津巴布韦渡船事故死亡人数升至68人",
-          "summary": "一艘在卡里巴湖上运营的渡轮于周二在强风中倾覆，导致严重伤亡。警方确认死亡人数已达68人，其中包括18名儿童。又有22具遗体被寻获。",
+          "summary": "载有18名儿童的渡轮在卡拉湖倾覆，22具遗体被寻回后总死亡人数达68人。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-15",
           "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
-          "overview": "一艘在卡里巴湖上运营的渡轮于周二在强风中倾覆，导致严重伤亡。警方确认死亡人数已达68人，其中包括18名儿童。又有22具遗体被寻获。调查初步显示船只可能因超载而翻沉。此次事故再次凸显了非洲内陆水域航运安全管理的严峻挑战。",
-          "analysis": "此次事故再次凸显了非洲内陆水域航运安全管理的严峻挑战。对遇难者家属的赔偿及后续追责工作将是政府面临的紧迫任务，需加强执法力度。",
+          "overview": "津巴布韦与赞比亚边境的卡拉湖上发生严重渡船事故，一艘渡轮在强风中倾覆。警方确认死亡人数已达68人，其中包括18名儿童。初步调查显示该渡轮当时处于超载状态。目前搜救工作仍在继续，家属情绪悲痛。",
+          "analysis": "此次事故暴露了该地区水上交通安全管理的重大漏洞，超载和恶劣天气预警机制的缺失是主要诱因。",
           "social": [
             {
-              "who": "遇难儿童家属",
-              "text": "我们失去了18个孩子，这不仅是家庭的悲剧，更是整个社区的痛。"
-            },
-            {
-              "who": "当地渔民协会",
-              "text": "卡里巴湖的安全管理长期被忽视，超载船只屡禁不止，必须加强执法力度。"
+              "who": "津巴布韦民众",
+              "text": "对遇难儿童家属表示深切哀悼，同时呼吁政府加强渡船安全监管，杜绝超载现象。"
             }
           ]
         },
         {
-          "title_zh": "刚果民主共和国埃博拉疫情蔓延至第六省，恐成史上最严重",
-          "summary": "世界卫生组织负责人称该疫情正朝着成为历史上最致命的一次方向发展。目前已有超过2100人死亡，病例总数超过4500例，疫情已扩散至该国第六个省份。",
+          "title_zh": "刚果（金）埃博拉疫情蔓延至第六省",
+          "summary": "世卫组织警告此次疫情可能成为历史上最致命的一次，已造成超过2100人死亡。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-13",
           "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-          "overview": "世界卫生组织负责人称该疫情正朝着成为历史上最致命的一次方向发展。目前已有超过2100人死亡，病例总数超过4500例，疫情已扩散至该国第六个省份。此次疫情规模远超十年前曾造成逾1.1万人死亡的西非大流行。全球公共卫生系统面临巨大考验，跨境防控合作至关重要。",
-          "analysis": "此次疫情规模远超十年前曾造成逾1.1万人死亡的西非大流行。WHO警告其可能成为史上最致命疫情，国际社会需紧急协调资源进行干预。",
+          "overview": "刚果民主共和国的埃博拉疫情已蔓延至第六个省，世卫组织负责人警告此次疫情正朝着历史上最致命的一次发展。目前已有超过4500例确诊病例，导致2100多人死亡。此前十年间曾发生过一次造成逾1.1万人死亡的超级大流行。",
+          "analysis": "刚果（金）医疗资源匮乏，疫情扩散速度令人担忧。国际社会需加大疫苗和医疗物资的投入力度，防止疫情进一步失控。",
           "social": [
             {
-              "who": "WHO官员",
-              "text": "我们需要动员所有可用资源来遏制病毒传播，保护脆弱社区免受进一步侵害。"
-            },
+              "who": "世卫组织专家",
+              "text": "强调必须立即加强边境管控和社区监测，以防止病毒向周边国家扩散。"
+            }
+          ]
+        },
+        {
+          "title_zh": "摩洛哥警方在塞乌特逮捕逾100名试图入境者",
+          "summary": "社交媒体呼吁大规模过境后安全升级，此前已有超7.2万人涌入该西班牙北非领土。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+          "overview": "摩洛哥警方在西班牙北非领土塞乌特逮捕了111名试图非法入境的人员。此前两周，超过7.2万名移民涌入该地区，引发欧盟内部紧张局势及反移民言论。双方已加强边境安全措施以应对持续的挑战。",
+          "analysis": "欧洲移民危机再次升级，摩洛哥与西班牙的边境管控面临巨大压力，欧盟内部的团结与合作受到考验。",
+          "social": [
             {
-              "who": "刚果当地居民",
-              "text": "恐惧笼罩着村庄，人们不敢去医院，这给防控工作带来了巨大困难。"
+              "who": "欧盟官员",
+              "text": "表示将加强成员国之间的信息共享和联合执法行动，以有效应对非法移民潮。"
+            }
+          ]
+        },
+        {
+          "title_zh": "伦敦警察厅就涉及阿拉法特受害者数据泄露事件道歉",
+          "summary": "苏格兰场向所有订阅月度更新的人员发送了包含敏感信息的邮件。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-16",
+          "url": "https://www.bbc.co.uk/news/articles/c1w1yv987jqo?at_medium=RSS&at_campaign=rss",
+          "overview": "伦敦警察厅（苏格兰场）就一起数据泄露事件正式道歉，该事件涉及据报与阿拉法特受害者相关的敏感信息。警方承认错误地向所有订阅月度更新的人员发送了邮件副本。此事件引发了公众对公共机构数据安全管理的广泛质疑。",
+          "analysis": "此次泄露可能影响受害者的隐私和安全，凸显了英国执法部门在数据保护方面的系统性缺陷。",
+          "social": [
+            {
+              "who": "英国公民权利组织",
+              "text": "批评警方未能采取基本的安全措施来保护敏感案件信息，要求独立调查此事。"
+            }
+          ]
+        },
+        {
+          "title_zh": "改革党提出500亿英镑福利制度改革方案",
+          "summary": "该党计划周一发布完整的50页计划，概述其执政后的拟议变更。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-16",
+          "url": "https://www.bbc.co.uk/news/articles/cz977nxww1jo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国改革党公布了一项旨在彻底改造福利体系的计划，预计可节省500亿英镑。该党计划于周一发布完整的50页政策文件，详细阐述其执政后的具体变更措施。这一提案若获支持，将对英国社会保障体系产生深远影响。",
+          "analysis": "改革党的方案触及了英国政治的核心议题，如何在财政可持续性与社会公平之间取得平衡将是关键看点。",
+          "social": [
+            {
+              "who": "英国工党议员",
+              "text": "警告大幅削减福利可能导致贫困率上升，呼吁在改革中保留对弱势群体的基本保障。"
+            }
+          ]
+        },
+        {
+          "title_zh": "安大略省最高法院裁定可拆除多伦多自行车道",
+          "summary": "该裁决推翻了此前认定拆除行为违反宪法权利的下级法院决定，省长对此表示欢迎。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-14",
+          "url": "https://www.theguardian.com/world/2026/aug/14/ontario-free-to-axe-toronto-bike-lanes-regions-top-courts-rules",
+          "overview": "安大略省最高法院周五裁定，省政府有权拆除多伦多最繁忙街道上的自行车道。这一裁决推翻了此前下级法院的决定，后者认为拆除将侵犯宪法权利。省长福特对此表示欢迎，并指责受保护的自行车区域导致了城市交通问题。",
+          "analysis": "此案反映了加拿大联邦与省级政府在环保政策与地方治理权之间的法律博弈，对城市规划未来走向具有标志性意义。",
+          "social": [
+            {
+              "who": "多伦多环保活动人士",
+              "text": "强烈反对拆除自行车道，认为这将加剧城市交通拥堵并损害骑行者的安全权益。"
+            }
+          ]
+        },
+        {
+          "title_zh": "法国驻中非共和国大使因接待多名女性被调查",
+          "summary": "巴黎正寻求修复与中非共和国的关系，此前两国关系因俄罗斯影响力扩大而急剧恶化。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher",
+          "overview": "法国已对其驻中非共和国大使启动纪律程序，调查其被指控将数十名女性带入官方住所的违规行为。此举引发了潜在的安全担忧。巴黎正试图修复与中非共和国的关系，此前两国关系因俄罗斯在该地区的扩张性影响力而急剧恶化。",
+          "analysis": "外交官的个人行为丑闻可能影响法国的国际形象及在中非地区的外交布局，调查结果的走向备受关注。",
+          "social": [
+            {
+              "who": "法国政治评论员",
+              "text": "指出此事再次暴露了法国在非洲外交中的管理混乱，呼吁加强驻外使团的安全审查机制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国消防员面临“难以置信的压力”",
+          "summary": "英格兰和威尔士多地宣布重大事故，包括斯托尔布里奇、桑德韦尔和珀什尔的火灾。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.bbc.co.uk/news/articles/cwyjjvd4g0qo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国消防局长表示，英格兰和威尔士多地发生的重大事故使消防员面临“难以置信的压力”。近期在斯托尔布里奇、桑德韦尔和珀什尔等地均爆发了严重火灾。多起同时发生的紧急事件考验着当地应急资源的极限承载能力。",
+          "analysis": "极端天气或季节性因素可能加剧了火灾风险，英国消防系统的资源分配和响应速度面临严峻挑战。",
+          "social": [
+            {
+              "who": "消防员家属",
+              "text": "呼吁政府增加消防预算投入，确保一线人员有足够的装备和安全保障来应对突发状况。"
+            }
+          ]
+        },
+        {
+          "title_zh": "前剑桥教授Jason Arday之死引发英国政坛关注",
+          "summary": "曼彻斯特市长安迪·伯纳姆称其死因是“在如此多层面上的悲剧”。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.bbc.co.uk/news/articles/c9982znvyk4o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国前剑桥大学教授Jason Arday的去世引发了广泛关注，曼彻斯特市长安迪·伯纳姆称其死因是“在如此多层面上的悲剧”。这一事件再次将公众目光引向了学术界的心理健康和社会压力问题。社会各界纷纷表达哀悼并呼吁关注相关议题。",
+          "analysis": "知名学者的离世往往折射出更深层的社会结构性问题，如何构建支持性环境以防止类似悲剧成为讨论焦点。",
+          "social": [
+            {
+              "who": "学术界代表",
+              "text": "呼吁高校建立更完善的心理健康支持体系，为教职员工和学生提供更多关怀资源。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国传教士在尼日尔被扣押九个月后获释",
+          "summary": "该组织表示Kevin Rideout健康状况良好，正由美方官员照顾，将很快与家人团聚。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-14",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping",
+          "overview": "一名于去年十月在尼日尔尼亚美被不明袭击者绑架的美国传教士Kevin Rideout已被释放。其所属组织Mission International表示他“健康状况良好，正由美国官员照顾”，并将很快与家人团聚。此次事件持续了九个月之久，引发了国际社会对西非地区安全局势的担忧。",
+          "analysis": "尼日尔地区的绑架事件频发，反映出该地区政治动荡和安全形势的不稳定性，对国际人道主义工作者构成威胁。",
+          "social": [
+            {
+              "who": "美国国务院发言人",
+              "text": "表示将密切关注该传教士的后续安置情况，并继续与尼日尔方面保持沟通以确保其安全。"
+            }
+          ]
+        },
+        {
+          "title_zh": "保·泰勒葬礼在威尔士斯旺西举行，数千粉丝沿街送行",
+          "summary": "这位《Total Eclipse of the Heart》歌手上月在葡萄牙医院去世。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.bbc.co.uk/news/articles/c9v43zry802o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国传奇歌手保·泰勒（Bonnie Tyler）的葬礼在威尔士斯旺西举行，数千名粉丝沿街列队送行。这位以《Total Eclipse of the Heart》闻名的歌手上月在葡萄牙的一家医院去世。她的离世引发了全球音乐爱好者的深切哀悼，其经典作品至今仍被广泛传唱。",
+          "analysis": "保·泰勒的职业生涯跨越数十年，她对摇滚和流行音乐的贡献不可磨灭，此次葬礼规模反映了她在文化领域的深远影响力。",
+          "social": [
+            {
+              "who": "音乐评论家",
+              "text": "称其为“摇滚乐坛的一代传奇”，其独特的嗓音风格影响了无数后来的歌手。"
             }
           ]
         }
       ],
       "regions": [
+        "中国",
         "国外"
       ]
     },
