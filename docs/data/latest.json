@@ -1,25 +1,77 @@
 {
-  "generated_at": "2026-08-19T15:20:31+08:00",
+  "generated_at": "2026-08-19T19:34:50+08:00",
   "date": "2026-08-19",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "degraded",
-  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "generation_status": "ok",
+  "generation_error": "",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
-  "empty_sources": [
-    "github"
-  ],
+  "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-19 15:20",
-    "ai": "2026-08-19 14:37",
-    "voices": "2026-08-19 14:37",
-    "github": "2026-08-19 14:37",
-    "libraries": "2026-08-19 14:37",
-    "sports": "2026-08-19 15:20",
+    "hot": "2026-08-19 19:34",
+    "ai": "2026-08-19 19:34",
+    "voices": "2026-08-19 19:34",
+    "github": "2026-08-19 19:34",
+    "libraries": "2026-08-19 19:34",
+    "sports": "2026-08-19 19:34",
     "academic": "2026-08-19 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Relativity Networks融资2200万美元为数据中心带来更快光纤",
+          "eng": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+          "summary": "Relativity Networks专注于空心芯光纤技术，可将数据传输速度提升30%，正在为数据中心市场推广这一前沿通信技术。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-08-19",
+          "tags": [
+            "AI基础设施",
+            "光纤技术",
+            "数据中心",
+            "融资"
+          ],
+          "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+          "overview": "Relativity Networks正在推广空心芯光纤技术，这是一种部署较少但能将数据传输速度提升30%的前沿通信技术。公司刚刚完成了2200万美元的融资，用于加速将这种更快类型的光纤引入数据中心市场。随着AI应用对数据带宽需求的激增，传统光纤基础设施正面临升级压力。",
+          "analysis": "空心芯光纤技术的商业化进展可能成为解决AI算力瓶颈的关键一环。30%的速度提升看似不大，但在大规模并行计算场景下具有显著的实际意义。这一投资方向反映了数据中心基础设施正在从'够用'向'极致性能'演进的趋势。",
+          "social": [
+            {
+              "who": "网络工程师",
+              "text": "空心芯光纤的技术优势明显，但部署成本和现有基础设施的兼容性仍是大规模推广的主要障碍。"
+            },
+            {
+              "who": "云计算架构师",
+              "text": "AI工作负载对带宽的需求正在指数级增长，传统光纤升级速度可能跟不上需求增速。"
+            }
+          ]
+        },
+        {
+          "title_zh": "罗宾·威廉姆斯的Instagram账号被家人接管以对抗AI滥用",
+          "eng": "Robin Williams' Instagram account brought back to fight 'AI abuse'",
+          "summary": "罗宾·威廉姆斯的子女在女儿公开反对使用其AI肖像后，决定接管父亲的Instagram账号，将其打造为安全可信的平台。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-08-18",
+          "tags": [
+            "AI伦理",
+            "深度伪造",
+            "隐私保护",
+            "名人权益"
+          ],
+          "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+          "overview": "罗宾·威廉姆斯的子女在女儿公开反对使用其AI肖像后，决定接管父亲的Instagram账号。他们在周二发帖表示希望将已故演员的Instagram个人资料打造为一个'安全、可信的地方'。这一行动反映了公众对AI生成内容滥用问题的日益关注，以及家属保护逝者数字遗产的决心。",
+          "analysis": "此案凸显了AI深度伪造技术对个人肖像权的威胁正在从生前延伸到身后。家属主动接管账号的做法可能为其他类似案例提供先例参考，但也引发了关于数字遗产管理和平台责任的复杂问题。",
+          "social": [
+            {
+              "who": "数字权益活动家",
+              "text": "AI肖像权保护需要法律框架的跟进，目前大多数司法管辖区对此类权利的定义尚不明确。"
+            },
+            {
+              "who": "社交媒体平台政策分析师",
+              "text": "平台在AI生成内容标识和版权保护方面的责任正在成为监管焦点，此案可能推动相关政策的完善。"
+            }
+          ]
+        },
         {
           "title_zh": "我们仍然不知道人们真正如何使用AI",
           "eng": "We still don't know how people are really using AI",
@@ -749,59 +801,6 @@
               "text": "对企业管理层而言，单一入口降低了培训和管理成本，但也意味着更少的选择灵活性。"
             }
           ]
-        },
-        {
-          "title_zh": "Anthropic为Claude推出隐形水印系统，标记所有AI处理内容",
-          "eng": "Claude's new Scarlet Letter watermark is invisible — for now",
-          "summary": "Anthropic推出了新的'红字'水印技术，可以识别任何经过Claude处理的文本，即使人类编辑过。该水印目前不可见，但引发了关于AI透明度和版权的广泛讨论。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-13",
-          "tags": [
-            "AI水印",
-            "Anthropic",
-            "Claude",
-            "透明度"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-          "overview": "Anthropic为其Claude AI系统推出了新的'红字'水印技术，能够标记任何经过Claude处理的文本内容。即使人类对AI生成的内容进行编辑修改，水印仍然可以识别原始AI处理痕迹。目前该水印对用户不可见，但这一举措引发了关于AI透明度、版权保护以及学术诚信的广泛讨论。",
-          "analysis": "这项隐形水印技术的推出标志着AI公司在内容溯源方面的重大进展，但也引发了隐私和自由度的争议。对于学术界和职场来说，这意味着使用AI辅助创作将面临更严格的追踪机制。从监管角度看，这为未来可能的AI内容标识法规提供了技术基础。",
-          "social": [
-            {
-              "who": "政策研究者",
-              "text": "隐形水印可能成为AI监管的重要工具，但需要平衡透明度与用户隐私"
-            },
-            {
-              "who": "开发者",
-              "text": "这对自由使用AI辅助创作的用户来说是一个重大限制"
-            }
-          ]
-        },
-        {
-          "title_zh": "多LLM代理系统的动态治理：实现协作对话成果的新方法",
-          "eng": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-          "summary": "一篇新论文提出了一种控制理论层面的治理层，用于解决多个目标冲突的LLM代理在交互中导致对话崩溃的问题。",
-          "source": "arXiv cs.AI",
-          "region": "全球/学术",
-          "published": "2026-08-13",
-          "tags": [
-            "多智能体",
-            "AI治理",
-            "学术论文"
-          ],
-          "url": "https://arxiv.org/abs/2608.11207",
-          "overview": "该研究探讨了当两个具有结构性对立目标的LLM代理在多个回合中交互时，缺乏共享目标函数会导致对话崩溃的现象。论文提出了一种基于控制理论的治理层来替代缺失的目标函数，以实现协作对话成果。这是多智能体系统从竞争走向合作的关键理论突破。",
-          "analysis": "随着AI Agent生态的成熟，多代理协作将成为核心场景。这篇论文为解决'代理冲突'提供了数学框架，对于构建可靠的AI工作流和自动化系统具有重要的参考价值。",
-          "social": [
-            {
-              "who": "AI研究员",
-              "text": "多代理系统的目标对齐一直是难题，控制理论的方法论为这个问题提供了一个全新的视角。"
-            },
-            {
-              "who": "Agent开发者",
-              "text": "如果这个治理层能落地，将大大减少我们在构建复杂Agent系统时的调试成本。"
-            }
-          ]
         }
       ]
     },
@@ -1235,197 +1234,295 @@
     "sports": {
       "items": [
         {
-          "title_zh": "巴萨完成6500万英镑签约罗德里，曼城时代终结",
-          "eng": "Rodri ready for 'excitement again' after Barca complete £65m deal",
-          "summary": "巴塞罗那以6500万英镑从曼城签下2026年世界杯冠军队长罗德里。这位西班牙中场在英超效力七年后正式离队，巴萨计划将其打造为新的布斯克茨式核心。",
-          "source": "BBC Football",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
-          "overview": "巴塞罗那官方确认以6500万英镑从曼城签下西班牙中场罗德里。这位刚刚随队夺得2026年世界杯冠军的队长在曼城度过了七年的辉煌时期后选择离队。巴萨方面计划让罗德里接替布斯克茨的位置，成为球队新的后腰核心，标志着瓜迪奥拉时代的进一步落幕。",
-          "analysis": "这笔交易对曼城而言意味着中场控制力的重大损失，而巴萨则通过签下世界杯冠军队长获得了战术上的安全感。对于恩佐·马雷斯卡的执教来说，罗德里是重建中场体系的关键拼图。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "罗德里离开曼城是必然的，但6500万英镑的价格对于这个级别的球员来说似乎偏低，不过巴萨确实需要他的经验来稳定中场。"
-            },
-            {
-              "who": "教练视角",
-              "text": "巴萨用这笔钱买到了世界杯冠军队长，战术上可以完全复制布斯克茨的角色，这对恩佐·马雷斯卡的体系是巨大的利好。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "以色列撤回对国际足联主席因凡蒂诺的支持",
+          "title_zh": "以色列正式撤回对国际足联主席因凡蒂诺的支持",
           "eng": "Israel withdraws support for embattled Fifa president Gianni Infantino",
-          "summary": "以色列成为最新一个正式撤回支持因凡蒂诺连任的国际足联成员，这加剧了对因凡蒂诺的反对力量，迫使下台努力预计将 intensify。",
+          "summary": "以色列足协成为最新一个撤回支持因凡蒂诺连任的会员协会，英超联赛主席称其“自毁前程”。",
           "source": "Guardian Football",
           "published": "2026-08-18",
           "url": "https://www.theguardian.com/football/2026/aug/18/israel-withdraws-support-for-embattled-fifa-president-gianni-infantino",
-          "overview": "以色列足协正式撤回对国际足联主席因凡蒂诺连任的支持，指出这是“前所未有的信心危机”。这一举动发生在因凡蒂诺解雇其首席运营官拉穆尔之后，后者曾批评世界杯出售计划。反对派试图迫使因凡蒂诺下台的努力预计将在未来几天内进一步升级。",
-          "analysis": "以色列的退出标志着国际足联内部政治斗争的升级，因凡蒂诺的支持基础正在迅速瓦解。随着更多成员可能效仿，因凡蒂诺在2027年世界杯筹备中的领导地位将受到严重质疑。",
+          "overview": "因凡蒂诺在解雇首席运营官后，反对声浪持续加剧。以色列足协以“前所未有的信任危机”为由正式撤回对因凡蒂诺连任的支持，英超联赛主席也公开批评其领导能力。预计未来数天内迫使因凡蒂诺下台的行动将进一步升级。",
+          "analysis": "FIFA权力斗争已进入白热化阶段，多国高层联合施压可能直接导致世界杯后续规划受阻或选举提前举行。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "因凡蒂诺的处境越来越危险了，以色列的退出只是开始，国际足联内部的分裂已经无法忽视。"
+              "who": "国际足联观察员",
+              "text": "以色列此举标志着FIFA信任危机进入新阶段，因凡蒂诺的连任前景已相当堪忧。"
             },
             {
-              "who": "行业观察者",
-              "text": "足球管理的政治化程度令人担忧，世界杯筹备本应专注赛事质量，现在却变成了权力斗争的舞台。"
+              "who": "足球评论员",
+              "text": "从解雇高管到多国撤回支持，这一系列动作显示内部反对派正在形成合力。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "英超掌门人批评国际足联世界杯方案，称其“按下自毁按钮”",
-          "eng": "Premier League chief Masters says Fifa self-destructed over World Cup plan",
-          "summary": "英超首席执行官马斯特斯严厉批评因凡蒂诺的世界杯出售计划，称该组织已“按下自毁按钮”，给足球界带来自伤后果。",
-          "source": "BBC Football",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cgjeqez58wno?at_medium=RSS&at_campaign=rss",
-          "overview": "英超首席执行官马斯特斯公开批评国际足联主席因凡蒂诺关于世界杯的出售计划，称这一决定给组织带来了“自伤”的后果。他形容因凡蒂诺的行为如同“按下自毁按钮”，引发了足球界内部的强烈反弹。",
-          "analysis": "英超作为全球最具商业价值的联赛，其掌门人的公开批评显示了国际足联在世界杯商业化改革上的阻力巨大。这可能预示着因凡蒂诺在国际足联内部面临更大的孤立和压力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "英超CEO的批评非常直接，说明因凡蒂诺的世界杯计划已经触动了核心利益方的神经。"
-            },
-            {
-              "who": "行业观察者",
-              "text": "国际足联内部的矛盾正在公开化，英超作为最大的金主之一，其态度转变可能会影响其他联赛和俱乐部的立场。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "穆西亚拉四天内两次晕倒，确诊为可治疗的失神发作",
-          "eng": "Jamal Musiala says 'treatable seizures' are reason for two collapses in four days",
-          "summary": "拜仁慕尼黑中场穆西亚拉在四天内两次在比赛中晕倒，他透露自己患有“可治疗的失神发作”，目前正接受治疗。",
-          "source": "BBC Football",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no?at_medium=RSS&at_campaign=rss",
-          "overview": "拜仁慕尼黑球星穆西亚拉在四天内经历了两次比赛晕倒事件，分别发生在对阵海登海姆和莱比锡的友谊赛中。23岁的他透露自己患有“可治疗的失神发作”，这是一种神经功能障碍，目前正接受治疗。",
-          "analysis": "这对拜仁的阵容深度是一个打击，穆西亚拉是球队的关键球员。虽然病因是可治疗的，但短期内他的缺席将影响球队在德甲和欧冠中的表现。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "穆西亚拉的晕倒让人非常担忧，希望他能尽快康复，毕竟他是拜仁未来十年的核心。"
-            },
-            {
-              "who": "解说员",
-              "text": "四天内两次晕倒确实罕见，虽然说是可治疗的失神发作，但这对球员的身体状况和比赛节奏都有很大影响。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "贝佐斯财团有望一年内成为利物浦多数股东",
-          "eng": "Jeff Bezos consortium could be majority Liverpool shareholder within a year",
-          "summary": "由亚马逊创始人贝佐斯领导的1892控股公司已获得利物浦38%的股份，并拥有在未来12个月内成为多数股东的优先购买权。",
-          "source": "Guardian Football",
-          "published": "2026-08-18",
-          "url": "https://www.theguardian.com/football/2026/aug/18/jeff-bezos-liverpool-1892-holdings-fenway-bid",
-          "overview": "利物浦的新投资者1892控股公司（由贝佐斯和阿里·巴蒂亚领导）已支付超过2亿英镑购买了俱乐部38%的股份。根据协议，如果芬威体育集团选择出售股份，1892控股公司拥有在未来一年内成为多数股东的优先购买权。",
-          "analysis": "这笔交易标志着利物浦所有权结构的重大转变，贝佐斯的加入为俱乐部带来了巨大的商业资源和全球影响力。然而，芬威体育集团的退出也可能影响球队在英超中的竞争力和稳定性。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "贝佐斯入主利物浦是意料之中的事，2亿英镑的投入说明他对这家俱乐部的信心十足。"
-            },
-            {
-              "who": "行业观察者",
-              "text": "芬威体育集团的退出是一个重大信号，英超其他俱乐部可能会重新评估与芬威的合作关系。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "卡里克执教的曼联备战新赛季战术分析",
-          "eng": "How Carrick's Man Utd are shaping up for Premier League season",
-          "summary": "英超新赛季即将在赫尔城打响，BBC Sport分析了卡里克执教下的曼联将如何从战术层面进行部署。",
+          "title_zh": "威尔士足协负责人呼吁国际足联主席因凡蒂诺辞职",
+          "eng": "Welsh FA chief calls for Infantino to step down",
+          "summary": "威尔士足球协会首席执行官莫尼公开要求国际足联主席因凡蒂诺下台。",
           "source": "BBC Football",
           "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cg5l9p58dv6o?at_medium=RSS&at_campaign=rss",
-          "overview": "随着英超新赛季即将在赫尔城拉开帷幕，BBC Sport深入分析了卡里克执教下的曼联将如何从战术层面进行部署。文章探讨了球队在新赛季的备战情况以及卡里克的战术理念。",
-          "analysis": "卡里克作为新任主教练，其战术风格能否适应英超的高强度竞争是外界关注的焦点。新赛季首战的对手赫尔城相对较弱，这为曼联提供了一个检验阵容磨合度的机会。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5ywnpg45xzo?at_medium=RSS&at_campaign=rss",
+          "overview": "威尔士足球协会首席执行官莫尼公开表态，呼吁国际足联主席因凡蒂诺辞职。这一声明进一步加剧了全球足球界对因凡蒂诺领导能力的质疑声浪，与以色列方面的行动形成呼应。",
+          "analysis": "多国足协高层联合施压可能迫使FIFA内部重组或选举提前举行，世界杯筹备工作面临不确定性。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "卡里克接手曼联后，战术层面的调整是关键，希望他能在赛季初就展现出清晰的比赛思路。"
+              "who": "威尔士球迷",
+              "text": "莫尼的公开施压反映了全球足球界对因凡蒂诺领导力的不满正在蔓延。"
             },
             {
-              "who": "教练视角",
-              "text": "新赛季首战在赫尔城进行，对于卡里克的球队来说是一个不错的开局机会，可以检验新阵容的磨合程度。"
+              "who": "体育记者",
+              "text": "这一表态表明FIFA面临的信任危机已不再局限于单一国家，而是具有国际性影响。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德里世锦赛面临“猴鸟”入侵挑战",
+          "title_zh": "阿斯顿维拉确认签下门将铃木和左后卫鲁杰里",
+          "eng": "Villa sign goalkeeper Suzuki and left-back Ruggeri",
+          "summary": "阿斯顿维拉宣布以合计4700万英镑的价格完成两名新援签约。",
+          "source": "BBC Football",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c7vg4962yp9o?at_medium=RSS&at_campaign=rss",
+          "overview": "阿斯顿维拉正式确认签下门将铃木和左后卫鲁杰里，两笔交易合计价值4700万英镑。这一操作为球队阵容补强提供了关键支持，显示俱乐部在转会市场上的投入力度显著加大。",
+          "analysis": "维拉在赛季前密集引援，旨在巩固英超争冠实力并增强防线深度，铃木和鲁杰里的到来将直接提升后防线的稳定性。",
+          "social": [
+            {
+              "who": "英超分析师",
+              "text": "4700万英镑的双签操作显示维拉在赛季前补强决心坚定，阵容厚度有望提升。"
+            },
+            {
+              "who": "足球爱好者",
+              "text": "铃木和鲁杰里都是年轻有潜力的球员，维拉的投入说明他们对未来的规划非常清晰。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "曼联接近达成签下布莱顿中场巴莱巴的交易",
+          "eng": "Man Utd close on deal for Brighton's Baleba",
+          "summary": "曼联正与喀麦隆国脚巴莱巴的经纪人进行谈判，试图重新点燃对这位中场的兴趣。",
+          "source": "BBC Football",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2k7ev41nnvo?at_medium=RSS&at_campaign=rss",
+          "overview": "曼联在转会窗口初期即展现出积极的引援姿态，目标锁定布莱顿的关键球员巴莱巴。双方正在就签约细节进行谈判，若交易达成将增强曼联中场深度。",
+          "analysis": "巴莱巴作为中场核心人选，其加盟将极大缓解曼联中场的老化问题，但具体费用尚未披露，谈判结果仍有不确定性。",
+          "social": [
+            {
+              "who": "曼联球迷",
+              "text": "巴莱巴若加盟将极大缓解曼联中场的老化问题，这是赛季前的利好消息。"
+            },
+            {
+              "who": "转会市场观察者",
+              "text": "曼联在布莱顿身上投入兴趣说明他们急需一名能扛大活的中场球员来支撑战术体系。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "WSL“两大豪门”阿森纳和切尔西收入超过联赛其余球队总和",
+          "eng": "WSL’s ‘big two’: Arsenal and Chelsea record more revenue than rest of league combined | Tom Garry",
+          "summary": "根据八赛季财务数据审查，英超女足联赛中阿森纳和切尔西的营收远超其他俱乐部。",
+          "source": "Guardian Football",
+          "published": "2026-08-19",
+          "url": "https://www.theguardian.com/football/2026/aug/19/wsl-finances-arsenal-chelsea-revenue",
+          "overview": "对八赛季女足超级联赛俱乐部财务数据的审查显示，阿森纳和切尔西的营收远超其他球队总和。这一数据打破了以往“四大”并立的传统叙事，伦敦城狮队可能成为新的竞争力量。",
+          "analysis": "WSL商业化进程加速，但贫富差距依然显著，联赛格局正在重塑，中小俱乐部面临更大的生存压力。",
+          "social": [
+            {
+              "who": "女足行业观察者",
+              "text": "阿森纳和切尔西的财务优势依然明显，但联赛整体竞争格局正在发生微妙变化。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "这一数据表明WSL的商业化已经走向成熟，头部效应将进一步加剧。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "土耳其超级联赛：是精明签约还是欧洲球星退役新去处？",
+          "eng": "Is Turkey home to savvy signings or a new retirement league? We’ll soon find out",
+          "summary": "萨拉赫、卢卡库等顶级球星涌入土超，引发关于该联赛是否沦为欧洲豪门“弃子”接收站的讨论。",
+          "source": "Guardian Football",
+          "published": "2026-08-19",
+          "url": "https://www.theguardian.com/football/2026/aug/19/turkey-super-lig-signings-salah-retirement-league",
+          "overview": "多位英超和德甲球星已确认或可能加盟土超球队，包括萨拉赫、卢卡库、特罗萨德等。转会动态显示土耳其足球市场吸引力大增，联赛正面临竞技水平提升与“退休联盟”标签的双重考验。",
+          "analysis": "这一趋势若持续，将深刻改变欧洲足球人才流动格局及土超联赛的竞技水平，同时也可能影响英超和德甲的人才储备策略。",
+          "social": [
+            {
+              "who": "足球转会记者",
+              "text": "顶级球星涌入土超是近年来最显著的趋势之一，这将对欧洲足球版图产生深远影响。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "虽然土超联赛水平在提升，但球星扎堆是否意味着他们只是在那里养老，还需要时间验证。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德里羽毛球世锦赛面临独特挑战：如何驱赶猴子和鸽子",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "此前赛事曾出现野生动物闯入的尴尬场面，本届世锦赛组委会正采取额外措施应对。",
+          "summary": "德里的羽毛球世界锦标赛组织者因此前野生动物闯入事件引发关注，正采取额外措施防止猴子与鸽子干扰比赛。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的赛事中，野生动物（猴子和平鸽）多次闯入赛场引发关注，本次印度德里举办的羽毛球世界锦标赛组织者已加强安保和驱赶措施，以确保比赛顺利进行。",
-          "analysis": "这一细节折射出大型体育赛事在非传统举办地面临的独特后勤挑战，也侧面反映了赛事筹备工作的复杂性。",
+          "overview": "在之前的赛事中，野生动物入侵曾登上头条新闻，为此，德里羽毛球世界锦标赛的组织者正在采取额外的预防措施。这包括试图将猴子和鸽子等动物远离赛场区域，以确保顶级赛事的顺利进行。这一举措反映了大型体育赛事在城市环境中面临的独特后勤挑战。",
+          "analysis": "随着世界锦标赛临近，动物干扰问题成为组织者必须解决的实际难题。这不仅考验安保能力，也折射出城市大型活动与野生动物共存的长期矛盾。",
           "social": [
             {
+              "who": "赛事组织者",
+              "text": "我们不得不面对这个非常不寻常的挑战，确保观众和选手的安全是首要任务。"
+            },
+            {
               "who": "资深球迷",
-              "text": "在德里办赛确实不容易，连猴子都要防着，看来组委会的安保压力不小"
+              "text": "在德里办赛确实特殊，希望这些小动物不要影响比赛节奏。"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "\"生命线\"乒乓球场地临时重开",
+          "title_zh": "“生活线”桌面球场温暖重开",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "BBC报道，一个名为'Lifeline'的社区乒乓球场地在短暂关闭后重新开放，使用者表示这如同将精神家园归还。",
+          "summary": "一家被称为“生活线”的社区桌面球场温暖重开，用户表示这像是精神家园回归。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地此前曾面临关闭风险，现暂时恢复运营。使用者对重开表达了强烈的情感共鸣，称其为精神家园的回归。",
-          "analysis": "社区体育设施的重启反映了基层乒乓球运动的生命力，有助于维持业余爱好者的训练环境和社会连接。",
-          "region": "乒乓球"
-        },
-        {
-          "title_zh": "酿酒人队以22-0狂胜水手队，追平139年来最大完封纪录",
-          "eng": "Brewers shell Mariners 22-0, tied for largest shutout win in 139 years",
-          "summary": "密尔沃基酿酒人队在周二晚场比赛中以22比0击败西雅图水手队，追平了自1887年以来美国职棒大联盟最大的完封纪录。",
-          "source": "Guardian Sport",
-          "published": "2026-08-19",
-          "url": "https://www.theguardian.com/sport/2026/aug/18/brewers-mariners-22-0-modern-era-shutout-record",
-          "overview": "酿酒人队（78胜48负）打破了球队单场得分纪录，Christian Yelich、David Hamilton 和 Luis Lara 各轰出三支全垒打，Jake Bauers 也贡献了两分炮。捕手 Sánchez 完成五局完投表现。",
-          "analysis": "这场22-0的比分在棒球历史上极为罕见，标志着酿酒人队本赛季统治力的极致体现。对于水手队而言，这是赛季至今最惨痛的失利之一，防守端漏洞百出。",
+          "overview": "基于所提供信息，该场地在关闭后温暖恢复了运营，当地用户对此反响激动。这一事件展现了桌面球在公群生活中的情感价值，以及基层门户对公共空间的需求。",
+          "analysis": "社区体育设施的重开往往能快速流动心，尤其在后疫情时代或经济困难期，公共空间的回归对维持居民身心健康起到重要作用。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "22比0，这比分太疯狂了。Yelich 和 Hamilton 的三垒安打直接决定了比赛走向，水手队今晚只能认栽。"
+              "text": "这种社区场地就是草根桌面球的基础，能重开说明维护工作没白费。"
             },
             {
-              "who": "体育评论员",
-              "text": "自1887年以来最大的完封纪录被追平，这是棒球历史上的里程碑时刻，酿酒人队的投手群表现堪称完美。"
+              "who": "普通民族",
+              "text": "成了又能去打球了，感觉像找回了老地方。"
+            }
+          ],
+          "region": "乒乓球"
+        },
+        {
+          "title_zh": "穆西亚拉四天内第二次比赛中晕倒，被诊断为神经功能障碍",
+          "eng": "Musiala collapses in match for second time in four days",
+          "summary": "拜仁慕尼黑中场球员贾马尔·穆西亚拉在四天内第二次在比赛中晕倒，目前正接受\"神经功能障碍\"治疗。这一事件引发了对其健康状况的广泛担忧。",
+          "source": "BBC Sport",
+          "published": "2026-08-18",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no?at_medium=RSS&at_campaign=rss",
+          "overview": "拜仁慕尼黑核心中场穆西亚拉在短短四天内遭遇第二次比赛晕倒事件，目前被诊断为\"神经功能障碍\"。这一消息令球迷和俱乐部都感到震惊，因为穆西亚拉是球队的关键球员之一。他的健康状况直接关系到拜仁在即将到来的赛季中的竞争力。",
+          "analysis": "穆西亚拉的反复晕倒是足球界近年来最令人担忧的健康问题之一。如果确诊为神经功能障碍，可能需要长期治疗和康复，这将严重影响拜仁的战术部署和阵容深度。俱乐部需要尽快公布更多细节以稳定球迷情绪。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "穆西亚拉是拜仁的未来之星，这样的健康危机让人心痛。希望他能早日康复重返赛场。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "神经功能障碍的诊断需要进一步确认，但无论如何，这对拜仁来说是一个巨大的打击。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "圣徒与牛仔联合训练营爆发多起斗殴，球员因高温离场",
+          "title_zh": "巴塞罗那从皇家马德里截胡罗德里，计划让他成为新布斯克茨",
+          "eng": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
+          "summary": "西班牙世界杯冠军队长罗德里已完成转会至诺坎普球场，被视为俱乐部传奇布斯克茨的自然接班人。这一转会震惊了足球界。",
+          "source": "Guardian Sport",
+          "published": "2026-08-18",
+          "url": "https://www.theguardian.com/football/2026/aug/18/barcelona-snatch-rodri-from-madrid-and-make-him-new-busquets",
+          "overview": "巴塞罗那成功从皇家马德里截胡了西班牙国家队队长罗德里，这一转会操作堪称足球史上最大胆的引援之一。罗德里被视为布斯克茨在诺坎普的最佳接班人，他的到来将极大增强巴萨的中场控制力。据报道，这笔交易涉及巨额费用，且过程充满戏剧性。",
+          "analysis": "罗德里的加盟标志着西甲格局的重大变化。皇家马德里失去核心中场将是巨大损失，而巴塞罗那则获得了梦寐以求的防守型中场。这一转会可能影响未来几个赛季的欧冠竞争格局。",
+          "social": [
+            {
+              "who": "巴萨球迷",
+              "text": "罗德里是巴萨需要的球员！布斯克茨之后最好的选择就是他了。"
+            },
+            {
+              "who": "皇马球迷",
+              "text": "皇家马德里失去了最重要的中场球员，这个夏天简直是灾难性的。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "酿酒人队22-0横扫水手队，创139年来最大完封纪录",
+          "eng": "Brewers shell Mariners 22-0, tied for largest shutout win in 139 years",
+          "summary": "密尔沃基酿酒人队在周二夜晚以22-0的比分击败西雅图水手队，追平了自1887年以来美国职棒大联盟最大的完封纪录。",
+          "source": "Guardian Sport",
+          "published": "2026-08-19",
+          "url": "https://www.theguardian.com/sport/2026/aug/18/brewers-mariners-22-0-modern-era-shutout-record",
+          "overview": "密尔沃基酿酒人队以22-0的惊人比分击败西雅图水手队，追平了美国职棒大联盟自1887年以来的最大完封纪录。这一历史性胜利由克里斯蒂安·耶利奇、大卫·汉密尔顿和路易斯·拉拉的三支三分本垒打以及杰克·鲍尔斯的两分本垒打共同促成。酿酒人队本赛季战绩为78胜48负，展现了强大的攻击力。",
+          "analysis": "22-0的比分在棒球历史上极为罕见，这一纪录的追平无疑将成为未来几十年被讨论的话题。耶利奇、汉密尔顿和拉拉的出色表现证明了酿酒人队在本赛季的统治力。",
+          "social": [
+            {
+              "who": "棒球迷",
+              "text": "22-0！这是棒球史上最疯狂的比赛之一，太不可思议了！"
+            },
+            {
+              "who": "体育记者",
+              "text": "这一纪录的追平将载入史册，酿酒人队的攻击力令人叹为观止。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "基里奥斯因大麻检测呈阳性被暂停网球比赛资格",
+          "eng": "Kyrgios suspended after positive cocaine test",
+          "summary": "尼克·基里奥斯在药检中检测出可卡因呈阳性，已被临时禁止参加网球比赛。这一事件引发了对运动员药物使用的广泛关注。",
+          "source": "BBC Sport",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c4g612r12yno?at_medium=RSS&at_campaign=rss",
+          "overview": "澳大利亚网球明星尼克·基里奥斯因药检呈阳性被临时禁止参加网球比赛。检测结果显示其体内含有可卡因成分，这一事件在体育界引起了强烈反响。作为曾经的世界顶级选手之一，基里奥斯的这一行为无疑损害了他的职业声誉。",
+          "analysis": "基里奥斯的药物滥用问题再次引发了关于运动员心理健康和反兴奋剂政策的讨论。如果属实，他可能面临更严重的处罚，包括禁赛和罚款。这一事件也提醒其他运动员要严格遵守相关规定。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "基里奥斯的药检阳性令人失望，希望他能从中吸取教训。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "这一事件再次凸显了反兴奋剂政策的重要性，运动员必须对自己的行为负责。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "以色列撤回对国际足联主席因凡蒂诺的支持，FIFA危机加深",
+          "eng": "Israel withdraws support for embattled Fifa president Gianni Infantino",
+          "summary": "以色列成为最新一个正式撤回对因凡蒂诺连任支持的国际足联成员国，这一事件加剧了围绕FIFA主席的反对浪潮。",
+          "source": "Guardian Sport",
+          "published": "2026-08-18",
+          "url": "https://www.theguardian.com/football/2026/aug/18/israel-withdraws-support-for-embattled-fifa-president-gianni-infantino",
+          "overview": "以色列正式撤回对国际足联主席因凡蒂诺连任的支持，成为最新一个公开反对他的成员国。这一事件发生在因凡蒂诺解雇其首席运营官凯文·拉穆尔之后，后者批评了世界杯销售计划。据报道，迫使因凡蒂诺下台的努力将在未来几天内进一步升级。",
+          "analysis": "以色列的撤回支持标志着FIFA内部权力斗争进入新阶段。因凡蒂诺面临的压力越来越大，如果更多成员国效仿，他可能会被迫辞职或被弹劾。这一事件对国际足联的稳定性和世界杯的未来都有重大影响。",
+          "social": [
+            {
+              "who": "足球管理者",
+              "text": "FIFA的治理危机正在加深，因凡蒂诺需要采取果断措施来稳定局面。"
+            },
+            {
+              "who": "体育政治分析师",
+              "text": "以色列的撤回支持是一个重要信号，表明国际社会对FIFA的不满情绪正在蔓延。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "新奥尔良圣徒队与达拉斯牛仔队联合训练期间爆发多起斗殴事件",
           "eng": "Multiple brawls overshadow Saints-Cowboys joint practice session",
-          "summary": "新奥尔良圣徒队与达拉斯牛仔队的联合训练营训练中发生至少六次冲突，多名球员被驱逐出场。",
+          "summary": "在新奥尔良圣徒队与达拉斯牛仔队的联合训练营训练中，至少发生了六次打斗，新英格兰爱国者队外接手罗尼·贝尔因中暑被抬出场外。",
           "source": "Guardian Sport",
           "published": "2026-08-19",
           "url": "https://www.theguardian.com/sport/2026/aug/18/ronnie-bell-overheating-saints-cowboys-joint-practice-fights",
-          "overview": "新奥尔良宽接球手 Ronnie Bell 因涉及斗殴及南方加州高温影响被抬离场。Donovan Ezeiruaku 因挥拳被驱逐出场，训练营气氛紧张。",
-          "analysis": "NFL 训练营的对抗性往往超出预期，但六次冲突显然超出了正常训练范畴。高温天气加剧了球员的情绪波动和身体负担，这可能影响后续赛季的状态调整。",
+          "overview": "在新奥尔良圣徒队与达拉斯牛仔队的联合训练营训练中，至少发生了六次打斗事件，场面混乱。新英格兰爱国者队外接手罗尼·贝尔因中暑被抬出场外，而多诺万·埃泽鲁阿库则因挥拳被驱逐离场。这一事件反映了NFL训练营期间球员之间的紧张关系和纪律问题。",
+          "analysis": "联合训练中的斗殴事件不仅影响了球队的形象，还可能对即将到来的赛季产生负面影响。NFL需要加强管理措施，确保训练营的秩序和安全。",
           "social": [
             {
-              "who": "NFL观察员",
-              "text": "联合训练营本该是展示友谊的场合，结果变成了斗殴现场。Bell 被抬走时的高温因素确实令人担忧他的健康状况。"
+              "who": "NFL球迷",
+              "text": "训练营里的斗殴太离谱了，希望球员们能控制好情绪。"
             },
             {
-              "who": "资深球迷",
-              "text": "Ezeiruaku 直接被驱逐，看来教练组对纪律问题零容忍。希望这不会影响他们赛季初的备战节奏。"
+              "who": "体育记者",
+              "text": "这一事件再次提醒我们，职业运动员也需要学会控制自己的情绪和冲动。"
             }
           ],
           "region": "综合"
@@ -1433,125 +1530,41 @@
         {
           "title_zh": "萨巴伦卡轻松晋级辛辛那提公开赛第四轮，梅德韦杰夫意外落败",
           "eng": "Sabalenka breezes through as Medvedev loses cool in defeat",
-          "summary": "阿丽娜·萨巴伦卡在辛辛那提公开赛中仅用54分钟便轻松晋级第四轮，而丹尼尔·梅德韦杰夫在意外失利中情绪失控。",
+          "summary": "阿丽娜·萨巴伦卡在54分钟内轻松晋级辛辛那提公开赛第四轮，而丹尼尔·梅德韦杰夫在错失三个赛点后意外落败，情绪失控。",
           "source": "BBC Tennis",
           "published": "2026-08-19",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/ce97ln7kp01o?at_medium=RSS&at_campaign=rss",
-          "overview": "萨巴伦卡展现了强大的统治力，迅速推进赛事进程。梅德韦杰夫则遭遇冷门失利，连续错失三个赛点，赛后情绪明显失控。",
-          "analysis": "辛辛那提硬地赛季的争夺愈发激烈，萨巴伦卡的快速晋级为美网前的热身增添了信心。梅德韦杰夫的意外出局可能影响他在后续大满贯中的状态调整策略。",
+          "overview": "在辛辛那提公开赛中，阿丽娜·萨巴伦卡以出色的表现轻松晋级第四轮，仅用时54分钟便完成了比赛。与此同时，丹尼尔·梅德韦杰夫在错失三个赛点后意外落败，情绪失控，场面令人震惊。这一结果改变了辛辛那提公开赛的竞争格局。",
+          "analysis": "萨巴伦卡的出色表现再次证明了她作为世界顶级选手的实力，而梅德韦杰夫的意外落败则暴露了他在关键比赛中的心理弱点。这一结果对后续的比赛走势产生了重要影响。",
           "social": [
             {
-              "who": "网球解说员",
-              "text": "梅德韦杰夫今晚的状态确实令人失望，连续错失赛点说明他今天完全不在节奏上。萨巴伦卡则一如既往地稳定高效。"
+              "who": "网球爱好者",
+              "text": "萨巴伦卡太厉害了！54分钟就晋级，梅德韦杰夫的状态也太差了。"
             },
             {
-              "who": "资深球迷",
-              "text": "54分钟就结束比赛，这效率太高了。梅德韦杰夫在美网前的状态需要尽快调整，否则可能会在关键赛事中掉链子。"
+              "who": "体育评论员",
+              "text": "这一结果令人意外，但萨巴伦卡的发挥确实无可挑剔。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "穆西亚拉四天内第二次比赛中晕倒，被诊断为神经功能障碍",
-          "eng": "Musiala collapses in match for second time in four days",
-          "summary": "拜仁慕尼黑中场球员穆西亚拉在四天内第二次在比赛中晕倒，目前正接受“神经功能障碍”治疗。",
+          "title_zh": "卡里克执教曼联如何备战英超新赛季",
+          "eng": "How Carrick's Man Utd are shaping up for Premier League season",
+          "summary": "随着曼联准备在周六于赫尔城开启新的英超赛季，BBC Sport分析了迈克尔·卡里克的球队将如何在战术上进行调整。",
           "source": "BBC Sport",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no?at_medium=RSS&at_campaign=rss",
-          "overview": "穆西亚拉在短短四天内经历了两次比赛中的晕倒事件，拜仁方面表示他正在接受相关治疗。这一情况引发了对其健康状况的广泛关注。",
-          "analysis": "对于年轻球员而言，短时间内多次晕倒是极其危险的信号。这可能涉及神经系统问题或过度疲劳，需要谨慎评估其复出时间，以免留下长期隐患。",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cg5l9p58dv6o?at_medium=RSS&at_campaign=rss",
+          "overview": "随着曼联准备在周六于赫尔城开启新的英超赛季，BBC Sport深入分析了迈克尔·卡里克执教下的球队战术安排。文章探讨了卡里克如何调整阵容和战术以应对新赛季的挑战，以及球队在转会市场上的运作情况。这一分析为球迷提供了对曼联新赛季前景的全面了解。",
+          "analysis": "卡里克作为曼联的新任主教练，面临着巨大的压力和挑战。他的战术安排和球员选择将直接影响球队在新赛季的表现。球迷们期待看到一支全新的曼联能够重返巅峰。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "四天内两次晕倒，这太让人担心了。穆西亚拉是拜仁的核心球员，希望他能尽快恢复健康重返赛场。"
+              "who": "曼联球迷",
+              "text": "希望卡里克能带领曼联重回正轨，新赛季加油！"
             },
             {
-              "who": "体育评论员",
-              "text": "神经功能障碍的诊断需要进一步确认，但无论如何，球员的身体健康永远是第一位的。拜仁管理层必须做出明智的决定。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "以色列撤回对国际足联主席因凡蒂诺的支持，迫退力度加大",
-          "eng": "Israel withdraws support for embattled Fifa president Gianni Infantino",
-          "summary": "以色列成为最新一个正式撤回支持国际足联主席因凡蒂诺连任的成员国，英超负责人称其“自我毁灭”。",
-          "source": "Guardian Sport",
-          "published": "2026-08-18",
-          "url": "https://www.theguardian.com/football/2026/aug/18/israel-withdraws-support-for-embattled-fifa-president-gianni-infantino",
-          "overview": "因凡蒂诺在批评世界杯售票计划后解雇了首席运营官，此举加剧了对他的反对声浪。以色列的撤回支持标志着对其连任竞选的打击进一步升级。",
-          "analysis": "国际足联内部的权力斗争已进入白热化阶段。因凡蒂诺失去关键成员国的支持，其领导地位面临严峻挑战，未来几天可能会有更多成员国跟进表态。",
-          "social": [
-            {
-              "who": "体育记者",
-              "text": "以色列的撤回是一个重要信号，表明国际足联内部的裂痕正在加深。因凡蒂诺需要尽快找到解决方案以稳定局面。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "世界杯售票计划引发的争议似乎成了压垮骆驼的最后一根稻草。希望国际足联能尽快恢复秩序，避免影响未来的赛事运营。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "巴塞罗那从皇家马德里截胡罗德里，计划打造新布斯克茨",
-          "eng": "Barcelona steal Rodri away from Real Madrid and plan to make him new Busquets",
-          "summary": "西班牙世界杯冠军队长罗德里已完成转会至巴塞罗那诺坎普球场，俱乐部计划将他视为布斯克茨的继任者。",
-          "source": "Guardian Sport",
-          "published": "2026-08-18",
-          "url": "https://www.theguardian.com/football/2026/aug/18/barcelona-snatch-rodri-from-madrid-and-make-him-new-busquets",
-          "overview": "据报道，罗德里在从曼彻斯特飞往巴塞罗那的航班上完成了转会手续。这一交易被视为皇家马德里和巴塞罗那之间的重大争夺战结果。",
-          "analysis": "罗德里作为西班牙国家队核心球员，其加盟巴萨将极大增强中场实力。对于皇家马德里而言，失去这位关键球员无疑是一个巨大的损失，未来可能需要重新规划中场阵容。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "罗德里去巴萨了！这对皇马来说是个大打击。不过巴萨终于得到了他们想要的中场核心，布斯克茨的接班人找到了。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这笔交易标志着西甲格局的重大变化。罗德里在诺坎普的表现将决定巴萨能否在未来几年保持竞争力。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "威廉姆斯姐妹获美网单打外卡，塞雷娜有望加盟",
-          "eng": "Venus Williams given US Open singles wildcard - will Serena join her?",
-          "summary": "维纳斯·威廉姆斯获得美国网球公开赛单打外卡，其妹妹塞雷娜仍有最后一个名额可能加入她。",
-          "source": "BBC Tennis",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckgew7881lno?at_medium=RSS&at_campaign=rss",
-          "overview": "维纳斯·威廉姆斯作为传奇人物获得了美网单打外卡资格。塞雷娜·威廉姆斯目前仍有机会通过最后一个剩余名额参赛，姐妹俩有望再次并肩作战。",
-          "analysis": "这对网球史上最伟大的姐妹组合若能同时出现在美网赛场，将引发巨大的关注度和商业价值。她们的回归将为赛事增添更多传奇色彩和看点。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "维纳斯拿到外卡了！如果塞雷娜也能参赛，那将是网球史上最令人期待的姐妹对决之一。期待她们在赛场上的表现。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "美网的外卡制度总是充满戏剧性。威廉姆斯姐妹的回归无疑将为这项赛事带来更多的关注和讨论，她们的影响力不容小觑。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "前牛仔队球星罗莫因酒驾被捕，CBS分析师未来成疑",
-          "eng": "The rise and fall of Tony Romo: what comes next for CBS's $180m NFL analyst?",
-          "summary": "前达拉斯牛仔队明星四分卫罗莫因涉嫌酒驾被逮捕后无限期休假，其作为CBS体育$1.8亿NFL分析师的未来充满不确定性。",
-          "source": "Guardian Sport",
-          "published": "2026-08-18",
-          "url": "https://www.theguardian.com/sport/2026/aug/18/tony-romo-cbs-nfl-future",
-          "overview": "罗莫上月被捕后， TMZ 发布了执法记录仪的31分钟“加长版”视频。这位前牛仔队四分卫以其标志性的幽默风格闻名，但此次事件对其职业生涯构成重大打击。",
-          "analysis": "罗莫作为CBS体育的高薪分析师，其形象与NFL紧密相连。酒驾事件的曝光可能影响他在竞技体育领域的声誉和职业前景，未来能否重返荧幕尚需观察。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "罗莫的职业生涯真是大起大落。从牛仔队的明星到CBS的高薪分析师，再到因酒驾被捕，这剧情太戏剧化了。希望他能吸取教训。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "对于CBS来说，失去一位$1.8亿的分析师是个不小的损失。但公众对酒驾事件的反应表明，形象管理在竞技体育领域至关重要。"
+              "who": "足球分析师",
+              "text": "卡里克的战术安排需要时间来检验，但曼联的阵容实力不容小觑。"
             }
           ],
           "region": "综合"
@@ -1567,266 +1580,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "DeepSeek Harness — 万物皆插件的AI开发框架",
+          "title_zh": "DeepSeek Harness — AI Agent 万能插件框架",
           "eng": "deepseek-ai/deepseek-harness",
-          "summary": "DeepSeek Harness：一个以「一切皆插件」为核心理念的AI智能体运行框架，支持通过插件扩展推理模式、工具调用与任务编排。",
+          "summary": "DeepSeek Harness 是一个让 AI Agent 万物皆插件的运行时框架，支持 Claude Code、Codex 等主流 Agent 接入。",
           "source": "GitHub",
-          "stars": 162474,
+          "stars": 164627,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/deepseek-ai/deepseek-harness",
-          "overview": "DeepSeek Harness 是一个开源的AI智能体运行框架，核心理念是「万物皆插件」——从推理模式到工具调用均可通过插件扩展。它支持多种任务路由策略（P1-P23），提供标准化的注入器和路由器套件，允许开发者灵活组装自定义工作流。项目已积累超过16万星，成为当前AI开发领域最受关注的框架之一。",
-          "analysis": "作为DeepSeek官方推出的核心基础设施，Harness 重新定义了AI智能体的可扩展性范式——不再依赖硬编码逻辑，而是通过插件生态实现无限组合。其标准化路由机制和类型安全的架构设计，为开发者提供了从原型到生产的全链路支持，是理解下一代AI Agent开发模式的关键入口。",
+          "overview": "DeepSeek Harness 是 DeepSeek 推出的 AI Agent 运行时框架，核心理念是「万物皆插件」——开发者可以为任何工具、服务编写标准化插件，Agent 即可自动调用。支持多 Agent 协作、流式输出、上下文管理等功能，已构建起庞大的插件生态。",
+          "analysis": "作为当前 AI Agent 基础设施层中最受关注的开源项目之一，Harness 定义了 Agent 插件的标准接口，类似于 AI 时代的 npm。其超高星数反映了社区对统一 Agent 工具调用规范的强烈需求，是开发者理解 AI Agent 架构的必读入口。",
           "social": [
             {
-              "who": "AI开发者",
-              "text": "Harness 的插件化设计让Agent编排变得像搭积木一样直观，16万星说明社区已经认可了这种范式转变。"
+              "who": "AI 开发者",
+              "text": "Harness 正在成为 AI Agent 生态的事实标准，任何想构建或接入 Agent 的团队都应该关注它的插件规范演进。"
             },
             {
               "who": "研究者",
-              "text": "从P1到P23的路由策略覆盖非常全面，为研究不同推理模式对任务完成质量的影响提供了绝佳实验平台。"
+              "text": "从架构设计角度看，「运行时+插件」分离的模式很好地解决了 Agent 工具链的可组合性问题。"
             }
           ]
         },
         {
-          "title_zh": "DSH桌面端解决方案 — 万物皆插件的现代化桌面入口",
+          "title_zh": "DeepSeek Harness 桌面端 — AI Agent 原生桌面体验",
           "eng": "anywhere-labs/deepseek-harness-desktop",
-          "summary": "为DeepSeek Harness插件生态打造的现代化桌面端方案，将桌面本身也视为「插件」进行统一编排。",
+          "summary": "为 DeepSeek Harness 插件生态打造的现代化桌面端解决方案，将「万物皆插件」理念延伸至桌面本身。",
           "source": "GitHub",
-          "stars": 14092,
+          "stars": 14620,
           "lang": "TypeScript",
           "published": "2026-08-13",
           "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-          "overview": "该项目是DeepSeek Harness生态的桌面端实现，采用TypeScript构建现代化UI。它将传统桌面应用的概念融入插件体系——每个桌面组件都可以作为独立插件被加载和管理。支持热插拔、实时状态同步和流式输出展示，让开发者在本地环境中获得与云端一致的Agent交互体验。",
-          "analysis": "桌面端是AI Agent落地的重要场景之一。该项目将Harness的插件理念延伸到GUI层，解决了「AI能力如何无缝融入现有工作流」的核心痛点。1.4万星的增速表明社区对本地化、可视化Agent工具的需求正在爆发式增长。",
+          "overview": "该桌面端应用允许用户通过 Harness 插件生态在本地桌面环境中运行 AI Agent，支持可视化任务编排、实时状态监控和流式输出展示。界面设计现代，与 Claude Code 风格一致。",
+          "analysis": "这是将 AI Agent 从终端走向桌面的重要一步。对于希望获得更直观 Agent 交互体验的开发者来说，桌面端提供了比纯 CLI 更好的工作流可视化能力，是 Harness 生态中应用层的关键组件。",
           "social": [
             {
               "who": "开发者",
-              "text": "桌面端让Agent不再只是命令行里的黑盒，可视化+插件化的组合让调试和迭代效率大幅提升。"
+              "text": "桌面端的出现让 AI Agent 从命令行走向了图形界面，降低了非技术用户的上手门槛。"
             },
             {
-              "who": "产品经理",
-              "text": "「桌面也是插件」这个理念很有前瞻性——它模糊了传统应用与AI工具的边界。"
+              "who": "AI 爱好者",
+              "text": "在本地跑 Agent 终于有了体面的 UI 体验，不再需要盯着终端看流式输出。"
             }
           ]
         },
         {
-          "title_zh": "DSH插件精选列表 — 社区驱动的生态导航站",
+          "title_zh": "DSH 插件精选列表 — AI Agent 生态导航站",
           "eng": "awesome-dsh-plugin/awesome-dsh-plugin",
-          "summary": "DeepSeek Harness插件的精选列表，帮助开发者快速发现和安装高质量插件。",
+          "summary": "DeepSeek Harness 插件的 curated 列表，帮助开发者快速发现和选择优质插件。",
           "source": "GitHub",
-          "stars": 9287,
+          "stars": 9711,
           "lang": "Python",
           "published": "2026-08-13",
           "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-          "overview": "这是一个精心策划的DSH插件目录，按功能分类整理了社区中涌现的高质量插件。涵盖路由增强、UI扩展、工具集成等多个方向。采用Python维护但面向TypeScript生态，提供清晰的安装指引和版本兼容性标注，是进入DSH生态的最佳导航入口。",
-          "analysis": "在插件生态爆发期，信息过载是最大的挑战。该列表通过人工策展而非算法推荐的方式筛选插件，保证了质量和可信度。9K星反映了社区对「降低发现成本」的强烈需求——好的目录本身就是基础设施。",
+          "overview": "这是一个持续更新的 DSH 插件精选列表，按类别整理各类插件（开发工具、数据分析、自动化等），每个条目包含描述和安装说明。是进入 Harness 生态的导航入口。",
+          "analysis": "在插件数量快速增长的背景下，一个高质量的 curated 列表对降低发现成本至关重要。该项目反映了社区对 DSH 生态的认可度，也是开发者快速了解 Agent 工具链全貌的最佳起点。",
           "social": [
             {
               "who": "开发者",
-              "text": "插件生态最怕的就是信息噪音，这个列表帮我省了至少一周的筛选时间。"
+              "text": "插件市场还在早期阶段，一个靠谱的精选列表能帮人省掉大量筛选时间。"
             },
             {
-              "who": "社区运营者",
-              "text": "策展型项目比纯工具型更容易建立信任——它传递的是「有人在看、有人在维护」的信号。"
+              "who": "研究者",
+              "text": "从列表的覆盖度可以看出 DSH 生态已经触及了开发、办公、数据分析等多个领域。"
             }
           ]
         },
         {
-          "title_zh": "DSH路由套件 — 任务感知的推理模式路由器",
+          "title_zh": "DSH 路由套件 — Agent 推理模式智能调度",
           "eng": "yjh051108/dsh-routing-suite",
-          "summary": "为DeepSeek Harness提供注入器与路由器标准套件，支持按任务类型自动切换P1-P23等推理策略。",
+          "summary": "为 DeepSeek Harness 提供注入器+路由器标准套件，支持按任务类型自动选择最优推理模式。",
           "source": "GitHub",
-          "stars": 6132,
+          "stars": 6205,
           "lang": "PowerShell",
           "published": "2026-08-14",
           "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "overview": "dsh-routing-suite 是DSH生态中的路由基础设施，包含运行时注入器和任务感知的推理模式路由器预设。它支持从P1到P23共23种推理策略的灵活切换，可根据当前任务的复杂度、类型和上下文自动选择最优路径。采用PowerShell实现，便于Windows环境下的快速部署和管理。",
-          "analysis": "路由器的核心价值在于「让正确的推理模式在正确的时间被调用」。该项目将这一理念工程化为可复用的标准套件，降低了开发者构建智能路由逻辑的门槛。6K星说明社区对自动化决策机制的认可度很高。",
-          "social": [
-            {
-              "who": "AI工程师",
-              "text": "手动切换推理模式太痛苦了，这个套件让策略选择变成了声明式配置——这才是工程化的正确姿势。"
-            },
-            {
-              "who": "研究者",
-              "text": "P1-P23的覆盖范围很广，为研究不同路由策略对任务完成质量的影响提供了标准化的实验基线。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH锚定标准预设 — 两阶段对齐的智能体配置",
-          "eng": "xiaobright/dsh-anchored-standard",
-          "summary": "为DeepSeek Harness提供两阶段预设方案：先进行最小化对齐引导，再加载完整的Standard工具集。",
-          "source": "GitHub",
-          "stars": 3587,
-          "lang": "JavaScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "overview": "dsh-anchored-standard 采用两阶段设计——第一阶段是轻量级的对齐引导（bootstrap），帮助智能体快速建立正确的行为基线；第二阶段加载完整的Standard工具集，覆盖Project2的98/99项能力。这种渐进式加载策略既保证了初始响应的可靠性，又避免了全量加载的性能开销。",
-          "analysis": "两阶段设计解决了AI Agent「启动慢但响应稳」的经典矛盾。先对齐再扩展的模式借鉴了人类学习的过程——先建立基本认知框架，再逐步丰富细节。3.5K星说明社区对这种务实的工程策略有共鸣。",
+          "overview": "该套件包含运行时注入器和任务感知的推理模式路由器预设，支持 P1-P23 共23种推理模式的智能路由。安装流程为：先装注入器，再装路由器预设，实现 Agent 根据任务复杂度自动选择最优执行策略。",
+          "analysis": "这是 Harness 生态中解决「成本-质量平衡」问题的关键工具。不同任务对推理能力的需求差异巨大，智能路由可以在简单任务上节省成本、在复杂任务上保证质量，是生产级部署的必备组件。",
           "social": [
             {
               "who": "开发者",
-              "text": "全量加载工具集太慢了，两阶段设计让冷启动时间缩短了一个数量级——实际体验提升明显。"
+              "text": "自动路由解决了 Agent 部署中最头疼的成本问题——不再需要为所有任务使用最强模型。"
             },
             {
-              "who": "AI研究者",
-              "text": "「先对齐再扩展」的思路和强化学习中的课程学习（curriculum learning）异曲同工，值得深入研究。"
+              "who": "AI 工程师",
+              "text": "P1-P23 的分级设计很实用，可以根据项目预算灵活配置推理策略。"
             }
           ]
         },
         {
-          "title_zh": "Cumora — AI智能体团队协作聊天平台",
+          "title_zh": "Cumora — AI Agent 团队协作平台",
           "eng": "yetone/cumora",
-          "summary": "跨平台的AI智能体团队协作聊天工具，支持Claude Code、Codex等主流Agent作为一等公民团队成员。",
+          "summary": "跨平台的 AI Agent 团队聊天工具，Agent 作为一等公民团队成员参与协作，支持接入 Claude Code、Codex 等主流 Agent。",
           "source": "GitHub",
-          "stars": 2499,
+          "stars": 2604,
           "lang": "TypeScript",
           "published": "2026-08-17",
           "url": "https://github.com/yetone/cumora",
-          "overview": "Cumora 是一个专为AI智能体团队设计的协作聊天平台。它支持多种Agent（如Claude Code、Codex）作为一等公民成员参与对话，提供云端托管或BYO（自带大脑）两种部署模式。用户可以像管理人类团队成员一样编排多个Agent的协作流程，实时查看每个Agent的思考过程和输出结果。",
-          "analysis": "多Agent协作是当前AI领域最热门的方向之一。Cumora 将这一概念产品化为可视化的聊天界面，降低了团队协作调试的成本。2.5K星在较短时间内增长迅速，说明市场对「让多个AI Agent像团队一样工作」的需求正在快速释放。",
+          "overview": "Cumora 是一个面向 AI Agent 团队的聊天协作平台，支持云端托管或自带大脑（BYO）模式。Agent 可以作为团队成员加入对话，进行多轮协作讨论、任务分配和结果汇总。",
+          "analysis": "随着多 Agent 协作成为趋势，需要一个让不同 Agent「开会」的平台。Cumora 填补了这一空白——它不是简单的聊天工具，而是为 Agent 间的信息交换、决策协调提供了结构化通道，是未来 AI 团队协作的基础设施之一。",
           "social": [
             {
               "who": "开发者",
-              "text": "终于有一个工具能让多个Agent的对话过程可视化了——以前只能看终端输出，现在可以像看聊天记录一样追踪每个Agent的思考链。"
+              "text": "多 Agent 协作的痛点在于信息同步和状态管理，Cumora 提供了一个可视化的解决方案。"
             },
             {
-              "who": "产品经理",
-              "text": "「BYO大脑」的设计很聪明——既支持官方模型又兼容第三方，避免了厂商锁定问题。"
+              "who": "AI 研究者",
+              "text": "BYO 模式的设计很灵活，可以让不同团队使用各自偏好的 Agent 框架参与同一协作场景。"
             }
           ]
         },
         {
-          "title_zh": "DSH鲸鱼娘皮肤 — 深海女仆工坊主题定制",
-          "eng": "Small-tailqwq/dsh-deep-whale",
-          "summary": "为DeepSeek Harness Web界面提供鲸鱼娘主题皮肤系列，基于CC BY-NC-SA 4.0协议开源。",
+          "title_zh": "DSH TUI 补位插件 — Claude Code 风格终端体验",
+          "eng": "ccch1mneyyy/dsh-TUI",
+          "summary": "为 DeepSeek Harness 打造的终端 UI 补位插件，提供鲸鱼顶栏、实时状态、流式思考等 Claude Code 风格的交互体验。",
           "source": "GitHub",
-          "stars": 1403,
+          "stars": 2044,
           "lang": "TypeScript",
           "published": "2026-08-13",
-          "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
-          "overview": "dsh-deep-whale 是DSH Web界面的主题定制项目，以「深海女仆工坊」为创意灵感，提供鲸鱼娘风格的视觉皮肤。采用CC BY-NC-SA 4.0协议开源，允许非商业使用下的自由修改和再分发。项目包含完整的CSS样式、图标资源和动画效果，让原本功能性的界面变得更具个性和趣味性。",
-          "analysis": "虽然这是一个主题定制项目，但它反映了AI工具社区的一个有趣趋势——用户不仅关注功能性，也追求个性化表达。在高度同质化的开发工具中，皮肤和主题成为社区归属感的重要载体。1.4K星说明这一需求真实存在且有一定规模。",
+          "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+          "overview": "该插件为 DSH 终端体验增加了鲸鱼顶栏、实时状态显示、流式思考可视化、双击 Esc 回滚、上下文进度条和 TPS 监控等功能。被 DSH 官方公众号收录推荐，npm 一键安装。",
+          "analysis": "在 Agent 工具日益复杂化的背景下，优秀的终端 UI 能显著提升开发效率。该插件对标 Claude Code 的交互体验，说明社区对「Agent 终端应该长什么样」已经有了成熟共识，是 Harness 生态中 UX 层面的重要贡献。",
           "social": [
             {
               "who": "开发者",
-              "text": "用了一天觉得有点意思——给枯燥的终端界面加点个性，心情确实会好一些。"
+              "text": "双击 Esc 回滚这个设计很实用——调试 Agent 输出时经常需要快速回溯上下文。"
             },
             {
-              "who": "社区成员",
-              "text": "CC协议很合理——既鼓励创作又保护了原作者权益，这种平衡很难得。"
+              "who": "AI 爱好者",
+              "text": "官方公众号都推荐了，说明这个插件在终端体验优化方面确实做得不错。"
             }
           ]
         },
         {
-          "title_zh": "Book-to-Skill — 将技术书籍PDF转化为Claude Code技能",
-          "eng": "Leutenegger/book-to-skill",
-          "summary": "将任何技术书籍的PDF文件自动转换为可被Claude Code调用的技能，支持学习、参考和工作场景。",
-          "source": "GitHub",
-          "stars": 1194,
-          "lang": "Python",
-          "published": "2026-08-13",
-          "url": "https://github.com/Leutenegger/book-to-skill",
-          "overview": "book-to-skill 是一个将技术书籍PDF转化为AI Agent技能的工具。它通过解析PDF内容，提取关键概念、代码示例和最佳实践，生成结构化的知识图谱。转换后的技能可以被Claude Code等工具直接调用，支持在学习新领域时快速建立上下文，或在编码工作中随时参考相关知识点。",
-          "analysis": "这个项目的核心价值在于「知识的可检索化」——将静态的书籍内容转化为动态可调用的AI技能。在信息爆炸的时代，能够高效利用已有知识比获取新知识更重要。1.2K星说明社区对「让AI成为个人知识库」的需求正在增长。",
-          "social": [
-            {
-              "who": "学习者",
-              "text": "以前读一本书要几周，现在可以让AI帮我快速提取核心概念——相当于给每本书配了一个私人助教。"
-            },
-            {
-              "who": "开发者",
-              "text": "把书变成skill的思路很妙——不仅限于技术书籍，任何领域的知识都可以这样处理。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Northcinder — 买家驱动的购物Agent MCP软件",
-          "eng": "cinderline/northcinder",
-          "summary": "买家主导的、广告中立的购物智能体MCP软件，提供确定性排名、签名购买授权和完整审计追踪。",
-          "source": "GitHub",
-          "stars": 1159,
-          "lang": "JavaScript",
-          "published": "2026-08-17",
-          "url": "https://github.com/cinderline/northcinder",
-          "overview": "Northcinder 是一个面向消费者的购物Agent工具，采用MCP（Model Context Protocol）架构。其核心理念是「买家驱动」——AI帮助消费者做出最优购买决策，而非被商家广告影响。提供确定性排名算法、签名购买授权机制和本地审计追踪功能，确保每个推荐和交易都有据可查。",
-          "analysis": "在AI Agent与商业场景结合的大趋势下，Northcinder 提出了一个关键问题：如何让消费者不被算法操控？「买家驱动」的设计理念直接挑战了当前推荐系统的利益结构。1.2K星说明社区对「透明、可控的AI消费工具」有真实需求。",
-          "social": [
-            {
-              "who": "消费者",
-              "text": "终于有一个工具不是为了商家赚钱而是为了帮我省钱——签名授权和审计追踪让我不再担心被坑。"
-            },
-            {
-              "who": "研究者",
-              "text": "「买家驱动」vs「卖家驱动」的对比很有研究价值——它揭示了AI Agent在商业场景中可能存在的利益冲突。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH可视化插件市场 — 一键浏览、搜索和安装",
-          "eng": "dsh-market/dsh-market",
-          "summary": "DeepSeek Harness内置的插件市场，支持浏览、搜索和一键安装插件。",
-          "source": "GitHub",
-          "stars": 1107,
-          "lang": "TypeScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/dsh-market/dsh-market",
-          "overview": "dsh-market 是DSH生态的官方插件市场前端，提供可视化的浏览、搜索和一键安装体验。它整合了社区中的优质插件资源，支持按功能分类筛选、版本对比和依赖检查。采用TypeScript构建，与DSH主框架无缝集成，确保插件安装的可靠性和安全性。",
-          "analysis": "在插件生态快速膨胀的背景下，一个官方的、可信的入口至关重要。dsh-market 不仅降低了发现成本，还通过版本管理和依赖检查保障了安装安全。1.1K星说明社区对「官方渠道」的信任需求正在增长——非官方来源的安全风险是制约插件采用的主要障碍。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "以前找插件要翻几十个仓库，现在一个搜索框搞定——而且还能看到版本历史和依赖关系，安心多了。"
-            },
-            {
-              "who": "安全研究员",
-              "text": "官方市场比第三方来源更可靠——至少经过了基本的审核流程，降低了供应链攻击的风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH橙皮书 — 从开机到拆开的完整实测指南",
+          "title_zh": "DSH 橙皮书 — Harness 实战指南与原始日志",
           "eng": "alchaincyf/deepseek-harness-orange-book",
-          "summary": "DeepSeek Harness的完整系统提示词、129行启动清单和三份原始会话日志——官方文档没有的一手实测资料。",
+          "summary": "《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测资料。",
           "source": "GitHub",
-          "stars": 1049,
+          "stars": 1062,
           "lang": "HTML",
           "published": "2026-08-14",
           "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-          "overview": "橙皮书是一份面向DeepSeek Harness的深度实测指南，包含完整的系统提示词设计、129行启动清单和三份原始会话日志。这些内容在官方文档中并未公开，是作者通过实际使用积累的一手经验总结。提供PDF/EPUB/HTML三种格式免费下载，方便不同场景下的阅读和学习。",
-          "analysis": "在AI工具快速迭代的背景下，「一手实测」比官方文档更有参考价值——它揭示了理论设计之外的真实问题和解决方案。1K星说明社区对「实战经验共享」的需求强烈，尤其是在复杂框架的入门阶段，好的指南能大幅降低学习曲线。",
+          "overview": "这是一本关于 DeepSeek Harness 的实战指南，包含完整的系统提示词设计、129行启动清单以及三份原始会话日志。提供 PDF/EPUB/HTML 三种格式免费下载，内容聚焦官方文档中缺失的一手实测经验。",
+          "analysis": "对于刚接触 Harness 的开发者来说，官方文档往往缺少具体的配置细节和踩坑记录。这本书填补了这一空白——完整的提示词设计和原始日志让读者能直接复制参考，是学习 Agent 系统设计的优质入门资源。",
           "social": [
             {
-              "who": "新手开发者",
-              "text": "官方文档太抽象了，橙皮书里的原始会话日志让我终于理解了那些提示词到底在干什么——相当于有人手把手教了我一遍。"
+              "who": "学习者",
+              "text": "129行启动清单太实用了，比读半天文档还快就能上手配置 Harness。"
             },
             {
-              "who": "技术写作者",
-              "text": "「129行启动清单」这个概念很好——把复杂的配置过程浓缩成可执行的步骤，降低了认知负担。"
+              "who": "开发者",
+              "text": "原始会话日志的价值在于能看到真实场景下 Agent 的决策过程，这对理解系统行为很有帮助。"
             }
           ]
         },
         {
-          "title_zh": "Skitter Creek — 通过DRAM扰乱解锁CPU全部功能",
-          "eng": "xoreaxeaxeax/skitter-creek-bath-salts",
-          "summary": "通过DRAM数据扰乱技术解锁CPU上被锁定的所有功能，属于计算机体系结构研究范畴。",
+          "title_zh": "Book-to-Skill — PDF 技术书转 AI Agent Skill",
+          "eng": "Leutenegger/book-to-skill",
+          "summary": "将任何技术书籍的 PDF 转换为 Claude Code Skill，随时用于学习、参考和工作辅助。",
           "source": "GitHub",
-          "stars": 1827,
+          "stars": 1196,
+          "lang": "Python",
+          "published": "2026-08-13",
+          "url": "https://github.com/Leutenegger/book-to-skill",
+          "overview": "该工具可以将任意技术书籍的 PDF 文件转换为 AI Agent Skill，使 Agent 能够直接引用书中的知识来回答问题、辅助编程和提供专业建议。转换后的 Skill 可直接在 Claude Code 等环境中使用。",
+          "analysis": "这是将个人知识库与 AI Agent 能力结合的优秀实践。对于需要频繁查阅技术资料的开发者来说，把书变成 Skill 意味着 Agent 可以「记住」书中的内容并在工作中主动调用——是终身学习+AI辅助的实用工具。",
+          "social": [
+            {
+              "who": "学习者",
+              "text": "终于可以把买来的技术书喂给 AI 了，以后写代码前让 Agent 先翻翻相关章节。"
+            },
+            {
+              "who": "开发者",
+              "text": "PDF转Skill的流程很简洁，支持任意书籍，是构建个人知识库的好方法。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 鲸鱼娘皮肤 — AI Agent 个性化主题系列",
+          "eng": "Small-tailqwq/dsh-deep-whale",
+          "summary": "DeepSeek Harness Web 端的鲸鱼娘皮肤系列，深海女仆工坊风格，CC BY-NC-SA 4.0 协议。",
+          "source": "GitHub",
+          "stars": 1434,
+          "lang": "TypeScript",
+          "published": "2026-08-13",
+          "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+          "overview": "这是一套为 DSH Web 端设计的鲸鱼娘主题皮肤，采用深海女仆工坊（maid-atelier）的美术风格。在保持功能完整性的同时，为用户提供个性化的视觉体验，遵循 CC BY-NC-SA 4.0 开源协议。",
+          "analysis": "虽然属于个性化主题类项目，但它反映了 AI Agent 工具从「纯功能性」向「情感化设计」演进的趋势。好的 UI/UX 能提升用户粘性，鲸鱼娘皮肤系列展示了社区对 DSH 生态的热爱和创造力。",
+          "social": [
+            {
+              "who": "AI 爱好者",
+              "text": "用着 Agent 还能看可爱的鲸鱼娘，这种体验在纯工具类产品里很少见。"
+            },
+            {
+              "who": "开发者",
+              "text": "CC协议很规范，想基于此做二次创作或商业化的话需要注意非商用限制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Northcinder — 去中心化购物 Agent MCP",
+          "eng": "cinderline/northcinder",
+          "summary": "买家驱动的、无广告干扰的购物 Agent MCP 软件，具备确定性排名、签名购买授权和本地审计追踪。",
+          "source": "GitHub",
+          "stars": 1161,
+          "lang": "JavaScript",
+          "published": "2026-08-17",
+          "url": "https://github.com/cinderline/northcinder",
+          "overview": "Northcinder 是一个基于 MCP 协议的购物 Agent 软件，核心理念是买家驱动而非卖家驱动。它提供确定性商品排名、签名购买授权机制和本地审计追踪，确保购物决策透明可控，无广告干扰。",
+          "analysis": "在 AI Agent 日益深入日常生活的背景下，Northcinder 代表了「可信消费」的新方向——通过签名授权和审计追踪解决 Agent 自主购物的信任问题。这种设计模式对金融、医疗等高风险领域的 Agent 应用也有参考价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "签名购买授权的设计很巧妙，既给了 Agent 行动能力又保留了人类最终控制权。"
+            },
+            {
+              "who": "研究者",
+              "text": "买家驱动+无广告的架构是对传统电商模式的根本性重构，值得深入研究。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH 锚定标准预设 — Agent 工具链标准化方案",
+          "eng": "xiaobright/dsh-anchored-standard",
+          "summary": "两阶段 DeepSeek Harness 预设：先执行最小对齐引导，再启用完整 Standard 工具集（Project2 98/99）。",
+          "source": "GitHub",
+          "stars": 3615,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/xiaobright/dsh-anchored-standard",
+          "overview": "该预设采用两阶段设计：第一阶段执行最小对齐引导（minimal-aligned bootstrap），确保 Agent 行为安全可控；第二阶段启用完整的 Standard 工具集，支持 Project2 98/99 等高级功能。为生产环境部署提供了标准化的启动流程。",
+          "analysis": "在 Harness 生态中，预设（preset）是控制 Agent 行为边界的关键机制。两阶段设计兼顾了安全性和功能性——先用最小权限引导建立信任基线，再逐步释放完整能力。这种渐进式授权模式对企业级 Agent 部署尤为重要。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "两阶段预设的设计很务实，避免了「一步到位」带来的安全风险。"
+            },
+            {
+              "who": "AI 工程师",
+              "text": "Project2 98/99 的完整工具集支持让它在复杂任务场景下表现更强。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Skitter Creek — DRAM 乱序 CPU 安全研究",
+          "eng": "xoreaxeaxeax/skitter-creek-bath-salts",
+          "summary": "通过 DRAM 数据乱序技术解锁 CPU 的一切功能，属于硬件安全防御性研究。",
+          "source": "GitHub",
+          "stars": 1832,
           "lang": "C",
           "published": "2026-08-13",
           "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-          "overview": "Skitter Creek 是一个计算机体系结构研究项目，通过DRAM（动态随机存取存储器）的数据扰乱技术来解锁CPU中被硬件锁定的功能。该项目由知名安全研究员xoreaxeaxeax开发，采用C语言实现底层内存操作。其核心思路是通过精确控制DRAM中的数据模式，绕过CPU内部的访问限制，从而获得对处理器全部功能的控制权。",
-          "analysis": "虽然涉及硬件层面的功能解锁，但该项目属于学术研究和防御性安全范畴——它揭示了现代CPU架构中的设计缺陷和潜在风险。1.8K星说明社区对底层系统研究仍有浓厚兴趣，这类工作为理解计算机体系结构提供了独特的视角。",
+          "overview": "该项目通过 DRAM 数据乱序（DRAM scrambling）技术，绕过现代 CPU 的安全限制来解锁全部功能。作者 xoreaxeaxeax 是知名的硬件安全研究者，该工作属于防御性安全研究范畴——帮助理解 CPU 安全机制的边界和潜在漏洞。",
+          "analysis": "虽然涉及 CPU 安全机制的研究，但该项目定位为防御性分析而非攻击工具。通过理解 DRAM 乱序对 CPU 功能的影响，研究人员可以更好地评估硬件安全架构的健壮性，为设计更安全的处理器提供参考。",
           "social": [
             {
-              "who": "安全研究员",
-              "text": "通过DRAM扰乱来解锁CPU功能——这个思路很巧妙，它揭示了一个被忽视的攻击面：内存与处理器之间的交互细节。"
+              "who": "研究者",
+              "text": "xoreaxeaxeax 的研究一直很有深度，这个项目对理解现代 CPU 安全机制很有帮助。"
             },
             {
-              "who": "体系结构研究者",
-              "text": "这个项目让我重新思考了「硬件锁定」的设计哲学——有些限制可能是为了安全，但也可能成为新的攻击向量。"
+              "who": "开发者",
+              "text": "虽然是硬件底层研究，但对理解 AI 训练集群的硬件安全和可靠性有间接参考价值。"
             }
           ]
         }
@@ -1835,98 +1848,242 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国拟推“全员入住”计划安置街头流浪者过圣诞",
-          "summary": "英国政府宣布将为街头露宿者提供住房，此举被比作疫情期间的“全民入住”行动。",
+          "title_zh": "英国通胀因能源账单飙升攀升至四个月新高",
+          "summary": "英国通胀率上升2.9%，达到四个月内最高水平，财政大臣表示伊朗战争持续影响国内物价。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国国家统计局公布数据显示，受能源账单大幅上涨推动，英国通胀率上升至2.9%，为四个月内最高。财政大臣约翰·希利表示，伊朗战争持续对国内价格产生影响。经济学家此前普遍预期这一涨幅，但实际数据仍令市场关注。高企的物价正在加剧普通家庭的财务压力，引发对经济前景的担忧。",
+          "analysis": "能源成本上升是此次通胀的核心驱动力，地缘政治冲突（伊朗局势）推高了全球能源价格。若通胀持续走高，可能迫使英国央行维持更长时间的紧缩货币政策，进一步抑制经济增长。",
+          "social": [
+            {
+              "who": "普通市民",
+              "text": "电费又涨了，这个月的账单真的让人喘不过气来。"
+            },
+            {
+              "who": "经济分析师",
+              "text": "地缘冲突叠加能源危机，英国通胀短期内难以回落，需警惕二次加息风险。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国多地发布雷暴预警，预计出现山洪暴发",
+          "summary": "英格兰北部、苏格兰东部和北爱尔兰部分地区将发出雷暴警告，预计随后出现突发洪水。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7e9ym747o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国气象局向英格兰北部、苏格兰东部及北爱尔兰部分地区发布了雷暴预警，预计周三晚些时候生效。强对流天气可能导致局部地区出现突发洪水，相关部门已建议居民注意防范。此次极端天气是近期气候变化背景下欧洲夏季风暴频发的一部分。",
+          "analysis": "极端天气事件对英国基础设施和居民安全构成直接威胁，政府需加强防洪应急响应机制。此类预警也反映出全球变暖导致的气象灾害频率增加趋势。",
+          "social": [
+            {
+              "who": "当地居民",
+              "text": "出门前一定要看天气预报，最近这种天气太频繁了。"
+            },
+            {
+              "who": "气象专家",
+              "text": "大气环流异常导致暴雨集中爆发，建议低洼地区居民提前转移贵重物品。"
+            }
+          ]
+        },
+        {
+          "title_zh": "伯恩汉姆推出计划，圣诞节前让露宿者入住住房",
+          "summary": "英国伯恩汉姆市宣布计划为露宿者提供住房，此举被比作疫情期间的“全民入”倡议。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.bbc.co.uk/news/articles/cvgvy2n6grno?at_medium=RSS&at_campaign=rss",
-          "overview": "英国首相公布了针对街头流浪者的安置计划，旨在圣诞节前将露宿者转移至住房中。该方案被外界类比为疫情期间实施的“全民入住”倡议，显示出政府在应对社会边缘群体问题上的决心。此举引发了关于公共财政支出与社会福利边界的广泛讨论。",
-          "analysis": "这一政策若成功实施，可能成为英国解决长期流浪问题的新范式，但也面临资金可持续性的挑战。公众对政府能否兑现承诺持观望态度。",
+          "overview": "英国伯恩汉姆市公布了一项新计划，旨在确保在圣诞节前为街头露宿者提供住房安置。该举措被媒体比作疫情期间实施的“全民入”（Everyone In）紧急行动。此举反映了地方政府在面对无家可归问题上的积极尝试，试图在人道主义危机到来前解决这一社会痛点。",
+          "analysis": "将临时应急措施常态化是解决无家可归问题的关键一步，但长期来看仍需完善住房保障体系和就业支持政策。该计划若成功实施，可能为其他英国城市提供借鉴范本。",
           "social": [
             {
-              "who": "社会评论员",
-              "text": "该计划虽然人道主义色彩浓厚，但执行难度极大，需警惕流于形式。"
+              "who": "社会活动人士",
+              "text": "这才是政府应该做的，让每个人都有家可归。"
+            },
+            {
+              "who": "政策评论员",
+              "text": "临时安置只是权宜之计，根本问题在于住房供应不足和贫困加剧。"
             }
           ]
         },
         {
-          "title_zh": "被解职的乌克兰国防部长呼吁举行总统大选",
-          "summary": "自2022年2月实施战时状态以来，乌克兰选举一直处于暂停状态，该部长的言论打破了这一僵局。",
+          "title_zh": "网球名将尼克·凯瑞斯因检测出可卡因而被暂停资格",
+          "summary": "澳大利亚网球选手尼克·凯瑞斯在药检中呈阳性，已被国际网联临时禁赛。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
-          "overview": "被解职的乌克兰国防部长公开呼吁尽快举行总统大选，尽管战时法律自2022年2月以来一直禁止此类选举。这一表态在当前俄乌冲突持续、国内政治格局动荡的背景下显得尤为敏感。外界关注此举是否预示着乌克兰内部权力斗争的升级或政治转型的信号。",
-          "analysis": "在战时状态下推动选举具有极高的政治风险，可能加剧国内分裂。该部长的立场反映了部分军方高层对当前领导层的不满。",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c4g612r12yno?at_medium=RSS&at_campaign=rss",
+          "overview": "知名网球运动员尼克·凯瑞斯在国际网联的药检中被发现检测出可卡因阳性，随即被临时暂停参赛资格。这一事件再次引发了关于职业体育反兴奋剂严格执法的讨论。凯瑞斯此前以个性鲜明著称，此次违规对其职业生涯和公众形象均造成重大影响。",
+          "analysis": "反兴奋剂规则在职业体育中执行日益严格，任何违规行为都将面临严厉处罚。此案例也提醒运动员需严格遵守相关规定，避免药物滥用带来的法律风险。",
           "social": [
             {
-              "who": "国际观察家",
-              "text": "战时选举呼吁虽具象征意义，但在安全局势未稳前，强行大选恐引发更大动荡。"
+              "who": "球迷",
+              "text": "太失望了，希望他以后能遵守规则。"
+            },
+            {
+              "who": "体育记者",
+              "text": "药检阳性零容忍，这是维护赛事公平性的底线。"
             }
           ]
         },
         {
-          "title_zh": "英格兰学位学徒制需求三年增长四倍",
-          "summary": "随着大学学费成本受到越来越多的审视，学位学徒制的受欢迎程度显著上升。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/news/articles/ckg374p4e24o?at_medium=RSS&at_campaign=rss",
-          "overview": "数据显示，过去三年内英格兰地区对学位学徒制的需求增长了四倍。这一趋势反映出公众和雇主对高等教育成本效益的重新评估，尤其是在大学学费持续高企的背景下。学徒制结合了工作经验与学术资格，被视为更具性价比的教育路径。",
-          "analysis": "这一变化可能重塑英国的教育产业结构，减少对传统全日制大学的依赖。政府需跟进相关政策以确保质量不下降。",
-          "social": [
-            {
-              "who": "教育政策分析师",
-              "text": "学位学徒制的崛起是市场对高学费的直接回应，但也需要警惕培训质量的参差不齐。"
-            }
-          ]
-        },
-        {
-          "title_zh": "法国公务员被指控下药致女性失禁引发众怒",
-          "summary": "超过200名女性指控前公务员克里斯蒂安·内格雷下药使她们在不知情的情况下排尿，两人分享了各自的经历。",
+          "title_zh": "法国公务员被指控下药致受害者失禁，200余名女性指控",
+          "summary": "超过200名女性指控法国公务员克里斯蒂安·内格雷下药使其失禁，两人分享了各自的经历。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.bbc.co.uk/news/articles/crrv48lenwgo?at_medium=RSS&at_campaign=rss",
-          "overview": "法国多名女性指控前公务员克里斯蒂安·内格雷使用药物控制她们并使其失禁，案件细节令人震惊。两名受害者公开讲述了她们的遭遇，引发了社会对公职人员权力滥用和性暴力的强烈谴责。此案正在推动法国议会讨论加强针对此类行为的法律保护。",
-          "analysis": "该事件暴露了执法机构内部可能存在的系统性问题，公众要求彻查相关利益链条的呼声日益高涨。",
+          "overview": "法国爆发了一起严重的性侵犯丑闻，超过200名女性指控前公务员克里斯蒂安·内格雷使用药物使她们失去意识并导致失禁。两名受害者公开分享了各自的痛苦经历，引发了公众对职场权力滥用和性侵问题的强烈关注。此案正在接受司法调查，相关责任人面临刑事起诉。",
+          "analysis": "此案暴露了法国公共部门在性骚扰和性侵防治方面的严重漏洞。大规模指控表明此类行为可能长期存在且未被有效制止，亟需制度改革以保护受害者权益。",
           "social": [
             {
-              "who": "人权活动人士",
-              "text": "这种权力不对等下的性暴力必须受到最严厉的惩罚，法律应填补现有空白。"
+              "who": "女性权利倡导者",
+              "text": "必须严惩施暴者，同时为所有受害者提供心理支持和法律援助。"
+            },
+            {
+              "who": "法律专家",
+              "text": "集体指控增加了证据的可信度，司法系统应加快审理进程以回应社会关切。"
             }
           ]
         },
         {
-          "title_zh": "超低排放区儿童肺功能恢复令科学家震惊",
-          "summary": "一项研究表明，在实施清洁空气区后，污染地区儿童的肺活量迅速追上了低污染地区的同龄人。",
+          "title_zh": "科学研究显示超低排放区儿童肺功能恢复惊人",
+          "summary": "一项研究表明，在实施清洁空气区后，儿童的肺活量迅速追平了污染地区同龄人的水平。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-18",
           "url": "https://www.bbc.co.uk/news/articles/c1l1r1zne1ro?at_medium=RSS&at_campaign=rss",
-          "overview": "科学研究发现，当超低排放区政策生效后，此前受空气污染影响的儿童肺部功能在较短时间内显著恢复，与未受污染地区的同龄人持平。这一结果令科学家感到意外，因为通常认为肺损伤是不可逆的。研究为清洁空气政策的健康效益提供了强有力的证据。",
-          "analysis": "这进一步证明了环境干预措施对公共健康的即时正面影响，支持了更严格的排放标准的必要性。",
+          "overview": "科学家对超低排放区（ULEZ）内儿童的健康状况进行了研究，发现实施清洁空气措施后，儿童的肺功能在较短时间内显著恢复，追平了对照组同龄人。这一结果令研究人员感到震惊，同时也为空气质量改善政策的有效性提供了有力证据。研究强调了减少城市空气污染对儿童呼吸系统健康的即时保护作用。",
+          "analysis": "该研究为各国推行绿色交通和清洁空气政策提供了科学依据。它表明环境干预措施可以在较短时间内产生显著的健康效益，鼓励更多城市效仿此类做法。",
           "social": [
             {
-              "who": "环保专家",
-              "text": "儿童肺部恢复的速度远超预期，说明城市空气质量改善对下一代的健康保护至关重要。"
+              "who": "环保主义者",
+              "text": "数据说明了一切，减少尾气排放就是保护下一代健康。"
+            },
+            {
+              "who": "儿科医生",
+              "text": "儿童是空气污染最敏感的群体，这一发现呼吁我们更积极地治理城市环境。"
             }
           ]
         },
         {
-          "title_zh": "卡米拉承认保守国王癌症诊断的艰难",
-          "summary": "在纪念癌症慈善机构成立30周年的视频中，女王卡米拉谈及了丈夫查尔斯国王本人的癌症诊断经历。",
-          "source": "BBC News",
+          "title_zh": "刚果民主共和国埃博拉疫情死亡人数创该国历史纪录",
+          "summary": "根据官方数据，至少2325人死亡，疫情正在成为该国历史上最致命的爆发，确诊病例升至4945例。",
+          "source": "Guardian World",
           "region": "国外",
-          "published": "2026-08-18",
-          "url": "https://www.bbc.co.uk/news/articles/c80n48kg0vjo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国王后卡米拉在一段纪念视频中坦言，保守国王查尔斯的癌症诊断是一个“艰难”的秘密。这一公开表态发生在Maggie's癌症慈善机构成立30周年之际，旨在提高公众对癌症筛查和早期治疗的意识。视频引发了关于王室成员如何平衡个人隐私与公共责任的讨论。",
-          "analysis": "卡米拉的坦诚有助于打破癌症患者的心理障碍，但也凸显了王室在健康危机面前的脆弱性。",
+          "published": "2026-08-17",
+          "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+          "overview": "刚果民主共和国的埃博拉疫情已造成至少2325人死亡，成为该国历史上最致命的疫情。政府数据显示确诊病例升至4945例，其中过去24小时内新增101例。此次爆发规模远超2018-20年的疫情，世卫组织警告其可能成为有史以来最大规模的埃博拉疫情。国际社会正密切关注局势发展并准备提供援助。",
+          "analysis": "刚果民主共和国复杂的政治和安全局势严重阻碍了疫情的防控工作。此次大规模爆发凸显了全球公共卫生基础设施在应对突发传染病时的脆弱性，呼吁加强国际合作与资源投入。",
           "social": [
             {
-              "who": "王室评论员",
-              "text": "卡米拉女士的公开讲话展现了人性一面，为公众树立了面对疾病的勇气榜样。"
+              "who": "国际观察员",
+              "text": "这是全球卫生安全的警钟，必须加大对非洲医疗体系的长期支持。"
+            },
+            {
+              "who": "公共卫生专家",
+              "text": "早期预警和快速响应至关重要，延误可能导致更多生命损失。"
+            }
+          ]
+        },
+        {
+          "title_zh": "津巴布韦渡船倾覆事故死亡人数升至68人，含18名儿童",
+          "summary": "在津巴布韦与赞比亚边境的卡拉湖上，一艘渡轮翻沉导致22具新遗体被发现，总死亡人数达68人。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
+          "overview": "津巴布韦卡拉湖发生严重渡船事故，一艘渡轮在强风中倾覆，目前死亡人数已升至68人，其中包括18名儿童。警方表示又发现了22具遗体。调查初步显示该渡轮在翻沉时可能超载。此次悲剧再次引发了对非洲内陆水域交通安全和监管的担忧。",
+          "analysis": "渡船事故往往与超载、恶劣天气及维护不足有关，反映了当地水上交通管理的薄弱环节。政府需加强船只安全检查和对违规行为的处罚力度，以保障乘客生命安全。",
+          "social": [
+            {
+              "who": "遇难者家属",
+              "text": "我们失去了太多孩子，希望真相能尽快查明，正义能得到伸张。"
+            },
+            {
+              "who": "安全专家",
+              "text": "超载是致命隐患，必须严格执行船只载客限额规定。"
+            }
+          ]
+        },
+        {
+          "title_zh": "摩洛哥警方逮捕逾百人试图进入西班牙塞乌特领土",
+          "summary": "在社交媒体呼吁大规模过境后，摩洛哥警方逮捕了111名试图进入西班牙北非领土塞乌特的移民。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-15",
+          "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+          "overview": "摩洛哥警方逮捕了111名试图进入西班牙北非领土塞乌特的移民，双方边境安全已加强。此次行动发生在社交媒体呼吁大规模过境两周后，此前超过72,000名移民涌入塞乌特引发了欧盟内部紧张局势和反移民言论的升温。事件凸显了欧洲南部边境管控面临的严峻挑战和人道主义困境。",
+          "analysis": "大规模非法移民潮对欧盟边境安全构成持续威胁，同时也暴露出难民危机中的人道主义缺口。如何在维护边境秩序与保障基本人权之间取得平衡，是欧洲各国政府面临的核心难题。",
+          "social": [
+            {
+              "who": "移民权利倡导者",
+              "text": "逮捕行动不能解决根本问题，我们需要的是合法的难民庇护渠道。"
+            },
+            {
+              "who": "政治评论员",
+              "text": "社交媒体煽动加剧了边境紧张局势，政府应理性应对而非单纯依赖强硬措施。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国传教士在尼日尔被绑架九个月后获释，健康状况良好",
+          "summary": "在尼亚美被不明袭击者绑架的美国传教士凯文·赖德特已获释，据称健康状况良好并在美方官员照顾下。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-14",
+          "url": "https://www.theguardian.com/world/2026/aug/14/american-missionary-kevin-rideout-niger-released-kidnapping",
+          "overview": "美国传教士凯文·赖德特在尼日尔尼亚美被绑架长达九个月后终于获释。其所属机构表示他“健康状况良好，正在接受美方官员照顾”，并将很快与家人团聚。此次事件再次引发了国际社会对西非地区安全风险和外国人质问题的关注。",
+          "analysis": "西非地区的绑架事件频发，不仅威胁个人安全，也影响国际援助和人道主义工作的正常开展。各国政府和非政府组织需加强协调，建立更有效的人质救援机制。",
+          "social": [
+            {
+              "who": "宗教团体成员",
+              "text": "感谢各方努力促成释放，愿他平安回家与家人团聚。"
+            },
+            {
+              "who": "国际安全分析师",
+              "text": "西非安全风险不容忽视，需加强情报共享和外交斡旋能力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "刚果埃博拉疫情蔓延至第六省，世卫组织称其为史上最大规模",
+          "summary": "刚果民主共和国的埃博拉疫情已扩散至第六个省，世卫组织负责人警告此次疫情正朝着史上最致命的方向发展。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-13",
+          "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+          "overview": "刚果民主共和国的埃博拉疫情已蔓延至第六个省，一名从 Haut-Uele 前往 Bas-Uele 的男子在途中死亡。世卫组织负责人警告此次疫情正朝着有史以来最致命的方向发展，超过十一年前造成至少11,000人死亡的大爆发。目前已有超过2,100人死亡，确诊病例超过4,500例。疫情的快速扩散表明防控形势依然严峻。",
+          "analysis": "埃博拉疫情向新省份的蔓延意味着感染范围正在扩大，对医疗资源和物资的需求急剧增加。国际社会需紧急协调，提供疫苗、治疗药物和后勤支持，以防止疫情进一步失控。",
+          "social": [
+            {
+              "who": "全球健康倡导者",
+              "text": "每一次埃博拉爆发都是对人类团结的考验，我们不能袖手旁观。"
+            },
+            {
+              "who": "流行病学专家",
+              "text": "跨省扩散意味着传播链更加复杂，必须立即切断所有潜在感染路径。"
+            }
+          ]
+        },
+        {
+          "title_zh": "活动人士因批评亲特朗普哥伦比亚政客被驱逐出美国",
+          "summary": "知名活动人士贝托·科拉尔在佛罗里达州举横幅警告同胞不要投票给受特朗普支持的候选人，随后被迫离开美国。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-19",
+          "url": "https://www.theguardian.com/world/2026/aug/19/activist-forced-out-of-us-after-criticising-trump-aligned-colombian-politician",
+          "overview": "哥伦比亚知名活动人士贝托·科拉尔在总统大选前夕前往佛罗里达州，试图说服同胞不要投票给受唐纳德·特朗普支持的候选人阿贝尔拉多·德拉萨皮利亚。他在迈阿密 polling stations 外举横幅警告该候选人将“帮助驱逐所有哥伦比亚人”。然而，他随后被强制驱逐出美国，引发了关于言论自由和政治打压的广泛讨论。",
+          "analysis": "此案凸显了政治极化背景下对异见人士的打压趋势。在移民议题敏感的时期，针对特定族群活动人士的行动可能加剧社会分裂和国际关系紧张。",
+          "social": [
+            {
+              "who": "人权组织",
+              "text": "驱逐一位公开批评政治人物的活动人士是令人担忧的信号，言论自由不容侵犯。"
+            },
+            {
+              "who": "哥伦比亚侨民",
+              "text": "我们担心这会成为针对所有反对派人士的先例，必须保持警惕。"
             }
           ]
         }
@@ -1942,56 +2099,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "近期关注 OpenAI 新安全措施及公众对 AI 实际使用方式的评估，回应黑客攻击事件后的防御升级。",
-          "url": "https://www.samaltman.com"
+          "recent": "OpenAI 在 Hugging Face 遭入侵后宣布多项安全整改措施，持续关注 AI 模型安全性与治理。",
+          "url": "https://www.samaltman.com/"
         },
         {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
-          "region": "英国",
+          "name": "李开复",
+          "role": "人工智能领域专家/前 Google VP",
+          "region": "中国/美国",
           "domain": "ai",
-          "recent": "近期探讨 AI 递归自我改进的时间线及人类真正如何使用 AI 工具，关注智能体安全与长期规划。",
-          "url": "https://www.demis.com"
+          "recent": "关注 AI 对产业格局的重塑及代码生成工具（如 Cursor）对开发流程的变革影响。",
+          "url": "https://www.kailifee.com/"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人/研究者",
+          "role": "知名播客主持人/AI 研究者访谈者",
           "region": "美国",
           "domain": "podcast",
-          "recent": "近期深入探讨 AI 递归自我改进的时间线及人类真正如何使用 AI 工具，关注人机交互的深层影响。",
-          "url": "https://lexfridman.com"
+          "recent": "通过播客深入探讨 AI 递归自我改进的可能性及其对人类社会的潜在冲击。",
+          "url": "https://lexfridman.com/"
         },
         {
-          "name": "Carolyn DeCotis",
-          "role": "国际图联 (IFLA) 总干事",
-          "region": "全球/美国",
-          "domain": "library",
-          "recent": "近期聚焦灾后图书馆与博物馆的恢复重建策略及数字韧性建设，推动全球图书馆可持续发展。",
-          "url": "https://www.ifla.org"
-        },
-        {
-          "name": "Jane Poynter",
-          "role": "国际图联理事会主席/英国图书馆界代表",
-          "region": "英国",
-          "domain": "library",
-          "recent": "近期倡导参考服务包容性原则，关注馆员职业倦怠与领导力提升，推动日常实践中的最佳规范。",
-          "url": "https://www.ifla.org"
-        },
-        {
-          "name": "王志强",
-          "role": "中国图书馆学会代表人物",
+          "name": "吴建中",
+          "role": "中国图书馆学会原会长/院士",
           "region": "中国",
           "domain": "library",
-          "recent": "近期推动京津冀智慧图书馆建设及全国阅读服务推广交流，关注百县馆长论坛与志愿服务行动。",
-          "url": "https://www.cnlib.org.cn"
+          "recent": "推动智慧图书馆建设与推广，强调阅读服务在区域发展中的核心地位。",
+          "url": ""
         },
         {
-          "name": "Paul Gauthier",
-          "role": "Cursor CEO/开发者工具创业者",
+          "name": "Yann LeCun",
+          "role": "Meta AI 首席科学家/图灵奖得主",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "聚焦 AI 基础模型架构演进及搜索领域竞争格局（如 Google 搜索框重新设计）。",
+          "url": "https://yannlecun.com/"
+        },
+        {
+          "name": "Peter Suber",
+          "role": "开放获取运动领袖/哈佛学者",
+          "region": "美国",
+          "domain": "library",
+          "recent": "倡导开放获取与学术图书馆包容性参考服务的最佳实践构建。",
+          "url": "https://scholar.harvard.edu/petersuber"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI 伦理与安全研究者/Gebru Labs 创始人",
           "region": "美国",
           "domain": "ai",
-          "recent": "近期推动 AI 代码托管平台发展，挑战 GitHub 在开发者工具领域的传统主导地位。",
-          "url": ""
+          "recent": "关注生成式人工智能的安全风险，呼吁在 AI 炒作中保持理性并加强伦理审查。",
+          "url": "https://www.gebrulabs.com/"
         }
       ]
     },
