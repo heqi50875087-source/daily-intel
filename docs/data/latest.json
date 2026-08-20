@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:19:09+08:00",
+  "generated_at": "2026-08-20T10:20:20+08:00",
   "date": "2026-08-20",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,16 +8,42 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-20 09:19",
-    "ai": "2026-08-20 09:19",
-    "voices": "2026-08-20 09:19",
-    "github": "2026-08-20 09:19",
-    "libraries": "2026-08-20 09:19",
+    "ai": "2026-08-20 10:20",
+    "voices": "2026-08-20 10:20",
+    "github": "2026-08-20 10:20",
+    "libraries": "2026-08-20 10:20",
     "sports": "2026-08-20 08:20",
     "academic": "2026-08-20 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "运行时治理：Agentic AI 的行动边界控制与可信溯源",
+          "eng": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+          "summary": "研究者提出 Aegis 系统，将模型输出视为行动提案并通过受信任决策层进行调解，以解决操作副作用的安全问题。",
+          "source": "arXiv cs.AI",
+          "region": "全球/学术",
+          "published": "2026-08-19",
+          "tags": [
+            "Agentic AI",
+            "AI 安全",
+            "运行时治理"
+          ],
+          "url": "https://arxiv.org/abs/2608.16891",
+          "overview": "Agentic AI 系统能够请求修改文件、发送消息或更改工作流状态等工具动作，这将安全问题从有害文本生成转移到了有害操作副作用。研究者提出了 Aegis 系统，将模型输出视为行动提案，并通过受信任决策层进行调解和失败关闭执行。该系统旨在在运行时创建明确的执行边界，弥补提示级治理的不足。",
+          "analysis": "随着 AI Agent 获得越来越多的工具权限，传统的“输入-输出”安全模型已不足以应对操作层面的风险。Aegis 提出的运行时治理架构代表了从被动防御向主动控制的重要转变。",
+          "social": [
+            {
+              "who": "AI 安全研究员",
+              "text": "当 AI 开始执行真实世界的操作时，提示词级别的护栏就像用胶带封窗户来防洪水一样不够用了。"
+            },
+            {
+              "who": "系统架构师",
+              "text": "这种‘失败关闭’机制是构建可信 Agent 系统的基石，没有它，企业不敢将关键任务交给自动化流程。"
+            }
+          ]
+        },
         {
           "title_zh": "Stripe收购OpenRouter的真实动机：并非因为'奇点'",
           "eng": "Stripe didn't really buy OpenRouter because of the 'singularity'",
@@ -734,32 +760,6 @@
               "text": "当企业将公众担忧简化为沟通问题时，真正的风险信号可能被忽视。"
             }
           ]
-        },
-        {
-          "title_zh": "SpaceX正式完成对AI编程工具Cursor的收购",
-          "eng": "SpaceX officially closes its Cursor acquisition",
-          "summary": "SpaceX已正式关闭其对AI编码初创公司Cursor的收购，标志着太空巨头在人工智能领域的重要布局。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-08-15",
-          "tags": [
-            "AI编程",
-            "企业收购",
-            "SpaceX"
-          ],
-          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-          "overview": "AI编码初创公司Cursor现已正式成为SpaceX的一部分。这一收购标志着太空巨头在人工智能领域的重大战略布局，将AI编程工具纳入其技术生态系统中。",
-          "analysis": "SpaceX收购Cursor反映了科技巨头对AI编程工具的竞争加剧，可能改变开发者工具市场的格局。此收购也暗示SpaceX正在构建更广泛的AI能力组合。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "AI编码工具赛道正成为资本追逐的热点，SpaceX入局将进一步加速行业整合"
-            },
-            {
-              "who": "工程师",
-              "text": "Cursor作为终端AI编程代理的代表产品，其归属变化可能影响开发者工具选择"
-            }
-          ]
         }
       ]
     },
@@ -1437,266 +1437,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "dsh路由套件 — AI Agent推理模式路由器",
-          "eng": "yjh051108/dsh-routing-suite",
-          "summary": "一套完整的AI Agent路由系统：先安装运行时注入器，再部署任务感知的推理模式路由器预设（P1-P23），实现Agent智能调度。",
-          "source": "GitHub",
-          "stars": 6300,
-          "lang": "PowerShell",
-          "published": "2026-08-14",
-          "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "overview": "该套件包含运行时注入器（runtime injector）和任务感知的推理模式路由器预设，支持P1到P23共23种路由策略。通过两阶段部署流程——先安装基础运行时，再加载高级路由器配置——实现Agent在不同任务场景下的智能路由与调度。",
-          "analysis": "6300星的高关注度表明社区对AI Agent路由方案有强烈需求。PowerShell生态的独特性使其在Windows自动化领域具有差异化优势，适合企业级Agent编排场景。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Agent路由是构建多智能体系统的核心基础设施，这个套件把复杂的路由逻辑封装成了可复用的预设方案。"
-            },
-            {
-              "who": "研究者",
-              "text": "P1-P23的分级策略设计值得研究，为不同任务复杂度匹配不同的推理模式提供了系统化思路。"
-            }
-          ]
-        },
-        {
-          "title_zh": "dsh锚定标准预设 — DeepSeek Harness两阶段对齐方案",
-          "eng": "xiaobright/dsh-anchored-standard",
-          "summary": "DeepSeek Harness的两阶段预设：先执行最小化对齐引导，再加载完整Standard工具集（Project2 98/99），实现Agent行为标准化。",
-          "source": "GitHub",
-          "stars": 3637,
-          "lang": "JavaScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "overview": "采用两阶段设计：第一阶段是轻量级的最小化对齐引导（bootstrap），确保Agent基础行为安全可控；第二阶段加载完整的Standard工具集，覆盖Project2的98到99项能力。这种渐进式部署降低了风险同时最大化功能。",
-          "analysis": "3637星说明该方案在DeepSeek Harness生态中已成为事实标准。两阶段设计兼顾了安全性与功能性，对需要合规部署的企业用户尤其有价值。JavaScript实现保证了跨平台兼容性。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "最小化引导+完整工具集的两段式架构很聪明——既避免了全量加载的风险，又保留了所有高级能力。"
-            },
-            {
-              "who": "安全研究者",
-              "text": "对齐引导阶段的设计思路值得参考，为LLM Agent的安全部署提供了可复用的模式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Cumora — AI智能体协作聊天平台",
+          "title_zh": "Cumora — AI Agent 团队协作平台",
           "eng": "yetone/cumora",
-          "summary": "跨平台的AI Agent团队聊天工具，支持将Claude Code、Codex等Agent作为一等团队成员参与协作对话。",
+          "summary": "跨平台 AI Agent 团队聊天工具，支持 Claude Code / Codex 等作为 Agent 大脑，让 AI 成为一等公民团队成员。",
           "source": "GitHub",
-          "stars": 2687,
+          "stars": 2700,
           "lang": "TypeScript",
           "published": "2026-08-17",
           "url": "https://github.com/yetone/cumora",
-          "overview": "Cumora是一个面向AI Agent团队的协作聊天平台，支持云端托管或自带大脑（BYO）模式。用户可以像管理人类团队成员一样配置和管理多个AI Agent，它们可以在平台上进行多轮协作对话、任务分配和结果共享。",
-          "analysis": "2687星反映了AI Agent协作工具的巨大市场需求。TypeScript实现保证了良好的开发体验和跨平台支持。'自带大脑'的BYO模式让用户可以灵活选择Claude Code或Codex等不同Agent后端，灵活性极高。",
+          "overview": "Cumora 是一个专为 AI Agent 团队设计的跨平台协作聊天工具，支持云端托管或自带大脑模式（如 Claude Code、Codex）。Agent 在其中作为一等公民成员参与对话与任务分配，具备完整的消息历史、角色管理和上下文共享能力。项目采用 TypeScript 构建，兼顾 Web 和桌面端体验。",
+          "analysis": "随着多 Agent 协作成为 AI 应用的核心范式，Cumora 填补了团队层面 Agent 沟通的空白——它不只是工具调用框架，而是让多个 AI 智能体像人类团队一样协同工作。对开发者和研究者而言，这是观察 Agent-to-Agent 交互模式的绝佳窗口。",
           "social": [
             {
               "who": "开发者",
-              "text": "把AI Agent当作一等团队成员来管理，这个理念比简单的API调用高级得多——真正的多智能体协作。"
+              "text": "多 Agent 协作的杀手级基础设施，终于有了让 AI 团队真正'开会'的工具。"
             },
             {
               "who": "研究者",
-              "text": "BYO模式的设计很务实，不同团队可以根据需求选择最合适的Agent后端，降低了集成成本。"
+              "text": "Agent 间通信协议和上下文管理的实现方式值得深入分析，对 A2A 架构有参考价值。"
             }
           ]
         },
         {
-          "title_zh": "IP角色Logo技能包 — Agent创意设计工具",
-          "eng": "s1dashu/ip-as-logo-skill",
-          "summary": "一个紧凑的Agent技能包，用于生成高度简化、圆润风格的新拟态IP吉祥物Logo。",
-          "source": "GitHub",
-          "stars": 2100,
-          "lang": "",
-          "published": "2026-08-18",
-          "url": "https://github.com/s1dashu/ip-as-logo-skill",
-          "overview": "该技能包专注于生成简约风格的IP吉祥物Logo，采用圆润线条和新拟态（neo-skeuomorphic）设计语言。作为Agent Skill，它可以被集成到各种AI工作流中，快速产出品牌视觉素材。",
-          "analysis": "2100星表明创意类Agent工具正在快速增长。将Logo设计封装为可复用的Skill模式，降低了非设计师使用AI进行品牌设计的门槛。对创业团队和独立开发者尤其实用。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "新拟态风格在简约设计中很有辨识度，这个技能包把设计审美固化成了可复用的Prompt模板。"
-            },
-            {
-              "who": "开发者",
-              "text": "Agent Skill的标准化封装让创意工具也能像代码一样被版本管理和复用，这是个好方向。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH插件市场 — DeepSeek Harness可视化生态中心",
-          "eng": "dsh-market/dsh-market",
-          "summary": "DeepSeek Harness内部的插件市场：支持浏览、搜索和一键安装，构建AI Agent工具生态。",
-          "source": "GitHub",
-          "stars": 1254,
-          "lang": "TypeScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/dsh-market/dsh-market",
-          "overview": "这是DeepSeek Harness生态的插件市场平台，提供可视化的插件浏览、搜索和一键安装功能。开发者可以在此发布自己的Agent工具插件，用户无需手动配置即可快速集成第三方能力。",
-          "analysis": "1254星反映了DSH生态正在形成规模效应。可视化的一键安装降低了非技术用户的门槛，有助于构建活跃的开发者社区。TypeScript实现保证了与DSH主框架的无缝集成。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "插件市场的出现意味着DSH从个人工具进化成了平台级产品，生态效应正在显现。"
-            },
-            {
-              "who": "研究者",
-              "text": "一键安装+可视化搜索的模式借鉴了npm和VS Code扩展商店的成功经验，值得研究。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Northcinder — 买家驱动的购物Agent MCP",
+          "title_zh": "Northcinder — 买家驱动的购物 Agent MCP",
           "eng": "cinderline/northcinder",
-          "summary": "由买家主导、广告中立的购物Agent软件，具备确定性排名、签名购买授权和完整本地审计追踪。",
+          "summary": "买家主导的购物代理软件，支持确定性排名、签名购买委托和本地审计追踪。",
           "source": "GitHub",
           "stars": 1193,
           "lang": "JavaScript",
           "published": "2026-08-17",
           "url": "https://github.com/cinderline/northcinder",
-          "overview": "Northcinder是一个基于MCP协议的购物Agent系统，核心设计理念是买家主导和广告中立。它提供确定性排名算法避免推荐偏差，通过签名购买授权确保交易安全，并维护完整的本地审计追踪链。",
-          "analysis": "1193星表明消费者对AI购物助手的信任需求正在增长。签名授权和本地审计追踪的设计解决了AI辅助购物的核心痛点——透明度和安全性。MCP协议保证了良好的互操作性。",
+          "overview": "Northcinder 是一个基于 MCP（Model Context Protocol）的购物 Agent 系统，核心设计理念是'买家驱动'——用户拥有完全控制权。它提供确定性商品排名算法、签名购买委托机制和完整的本地审计追踪链，确保每一笔交易可追溯、可验证。",
+          "analysis": "在 AI 购物助手泛滥的背景下，Northcinder 的独特价值在于其透明性和安全性设计：签名委托和本地审计追踪解决了用户信任问题，确定性排名避免了黑箱推荐。这是 Agent + 电商场景下值得参考的安全架构实践。",
           "social": [
             {
-              "who": "开发者",
-              "text": "签名购买授权+本地审计追踪的组合设计很务实，直接回应了'AI会不会乱买东西'的担忧。"
+              "who": "安全研究者",
+              "text": "签名购买委托机制的设计思路很好，Agent 执行消费类操作时的权限控制值得借鉴。"
             },
             {
-              "who": "研究者",
-              "text": "广告中立+确定性排名的理念值得推广，为AI电商领域提供了可信架构参考。"
+              "who": "开发者",
+              "text": "MCP 协议在购物场景的落地实现比较完整，审计追踪链对合规需求很有帮助。"
             }
           ]
         },
         {
-          "title_zh": "DeepSeek Harness橙皮书 — 从开机到拆开的一手实测指南",
-          "eng": "alchaincyf/deepseek-harness-orange-book",
-          "summary": "《DeepSeek Harness橙皮书》：包含完整系统提示词、129行启动清单和三份原始会话日志，官方文档没有的一手实测资料。PDF/EPUB/HTML免费下载。",
+          "title_zh": "ZSvirt — IaaS 引擎与云基础设施核心",
+          "eng": "ZSvirt/zsvirt",
+          "summary": "ZSvirt 的核心理念化引擎和云基础设施基础，用 Java 构建。",
           "source": "GitHub",
           "stars": 1073,
-          "lang": "HTML",
-          "published": "2026-08-14",
-          "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-          "overview": "这是一本关于DeepSeek Harness的开源实测指南，包含完整的系统提示词设计、129行启动清单以及三份原始会话日志。内容以PDF、EPUB和HTML三种格式提供免费下载，方便不同阅读偏好。",
-          "analysis": "1073星说明社区对一手实操资料的需求旺盛。橙皮书的价值在于提供了官方文档之外的深度实测经验——系统提示词设计和会话日志都是极具参考价值的实战素材。多格式支持提升了可及性。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "129行启动清单和原始会话日志是真正的干货，官方文档往往不会这么详细地记录调试过程。"
-            },
-            {
-              "who": "学习者",
-              "text": "系统提示词的设计思路可以直接复用，对理解LLM Agent的prompt工程很有帮助。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ZSvirt — 云基础设施IaaS核心引擎",
-          "eng": "ZSvirt/zsvirt",
-          "summary": "ZSvirt的核心IaaS引擎和云计算基础设施基础，为虚拟化环境提供底层支撑。",
-          "source": "GitHub",
-          "stars": 1069,
           "lang": "Java",
           "published": "2026-08-14",
           "url": "https://github.com/ZSvirt/zsvirt",
-          "overview": "ZSvirt是一个基于Java构建的云基础设施IaaS引擎，提供虚拟化环境的底层支撑能力。作为核心基础组件，它负责资源调度、实例管理和基础设施抽象等关键功能。",
-          "analysis": "1069星反映了云原生基础设施的持续需求。Java实现保证了企业级稳定性和生态兼容性。在AI算力需求爆发的背景下，轻量级IaaS引擎有望成为部署AI工作负载的基础设施选择。",
+          "overview": "ZSvirt 是一个基于 Java 构建的 IaaS（基础设施即服务）引擎，作为云基础设施的核心基础层。它提供虚拟机管理、资源调度、网络隔离等关键能力，面向需要自建私有云或混合云环境的开发者和企业用户。",
+          "analysis": "在开源云基础设施领域，ZSvirt 以 Java 生态为切入点，提供了相对轻量但功能完整的 IaaS 方案。对于不想被 AWS/Azure 绑定的开发者来说，这是一个值得关注的替代选择，尤其适合中小规模部署场景。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Java在云原生领域依然是主力语言，ZSvirt的架构设计适合大规模部署场景。"
+              "who": "云架构师",
+              "text": "Java 生态的 IaaS 引擎在中小企业私有化部署中仍有市场空间，ZSvirt 的定位清晰。"
             },
             {
-              "who": "研究者",
-              "text": "AI工作负载对IaaS层提出了新的要求——弹性、隔离和可观测性，这个引擎值得关注其适配方案。"
+              "who": "开发者",
+              "text": "作为学习 IaaS 核心原理的好项目，代码结构对理解云基础设施设计有帮助。"
             }
           ]
         },
         {
-          "title_zh": "DeepSeek V4 × J-Space能力实现报告",
-          "eng": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-          "summary": "DeepSeek V4与J-Space的能力实现研究报告，通过基准测试证明J-Space能显著降低DeepSeek V4（Flash/Pro）的能力实现损失。",
+          "title_zh": "DeepSeek Harness 橙皮书 — 从开机到拆开",
+          "eng": "alchaincyf/deepseek-harness-orange-book",
+          "summary": "DeepSeek Harness 完整系统提示词、129行启动清单和原始会话日志，官方文档没有的一手实测资料。",
           "source": "GitHub",
-          "stars": 1018,
-          "lang": "",
-          "published": "2026-08-16",
-          "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-          "overview": "这份报告通过系统基准测试，验证了J-Space框架在降低DeepSeek V4系列模型（Flash和Pro版本）能力实现损失方面的有效性。报告提供了详细的实验数据和对比分析，帮助开发者理解模型能力的实际落地情况。",
-          "analysis": "1018星表明社区对LLM能力评估的严谨性需求很高。J-Space框架的价值在于它量化了'基准分数高≠实际能力强'这一普遍问题，为模型选型提供了更可靠的参考依据。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "基准测试和实际能力的差距是行业痛点，这份报告用数据说话，比营销话术更有说服力。"
-            },
-            {
-              "who": "研究者",
-              "text": "Flash/Pro两个版本的对比设计很全面，帮助不同预算的开发者做出更明智的选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Deepseek-Harness-EAC — 揽尽万象桌面客户端",
-          "eng": "zouyuxuan122/Deepseek-Harness-EAC",
-          "summary": "DeepSeek Harness的Windows/Linux桌面客户端，内置Node.js和dsh CLI，一键启动，提供10种UI皮肤主题。",
-          "source": "GitHub",
-          "stars": 959,
-          "lang": "JavaScript",
+          "stars": 1080,
+          "lang": "HTML",
           "published": "2026-08-14",
-          "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
-          "overview": "EAC（Embracing All Creation，揽尽万象）是DSH的桌面客户端项目，支持Windows和Linux。内置Node.js运行时和dsh CLI工具，实现一键启动无需额外环境配置。提供10种UI皮肤主题，满足个性化需求。",
-          "analysis": "959星说明桌面端体验对AI工具用户很重要。'揽尽万象'的命名体现了产品野心——将DSH打造为全能型AI助手平台。内置运行时降低了部署门槛，适合非技术用户快速上手。",
+          "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+          "overview": "这是一份关于 DeepSeek Harness 的完整实测文档，包含完整的系统提示词设计、129行启动清单以及三份原始会话日志。以 PDF/EPUB/HTML 三种格式免费分发，内容涵盖从安装到深度使用的全链路实操经验，是官方文档之外的补充资料。",
+          "analysis": "对于正在学习 AI Agent 框架的开发者来说，橙皮书提供了宝贵的'实战视角'——系统提示词设计和会话日志能让人直观理解 Harness 的工作原理和最佳实践。免费开源的学习资源在 AI 工具领域尤为稀缺，值得收藏。",
           "social": [
-            {
-              "who": "开发者",
-              "text": "内置Node.js+CLI的一键启动方案很聪明，避免了'环境地狱'问题——这是桌面工具最大的痛点之一。"
-            },
             {
               "who": "学习者",
-              "text": "10种UI皮肤说明团队重视用户体验，对AI工具来说，好的界面能显著提升使用效率。"
+              "text": "129行启动清单太实用了，比官方文档更接地气，适合快速上手。"
+            },
+            {
+              "who": "开发者",
+              "text": "原始会话日志的价值很高，能看到真实场景下 Harness 的处理逻辑和边界情况。"
             }
           ]
         },
         {
-          "title_zh": "Sprix Sage Router — A2A智能体网络路由系统",
+          "title_zh": "Apex Inference Chip — FPGA 上的 LLM 推理芯片设计",
+          "eng": "SigmanticAI/apex-inference-chip",
+          "summary": "在 FPGA 上运行真实 LLM（Qwen2.5-0.5B）的推理芯片设计，每层 Transformer 解码器用 RTL 实现，硅值与黄金模型逐位精确匹配。",
+          "source": "GitHub",
+          "stars": 578,
+          "lang": "Python",
+          "published": "2026-08-17",
+          "url": "https://github.com/SigmanticAI/apex-inference-chip",
+          "overview": "Apex Inference Chip 是一个在 FPGA 硬件上实现 LLM 推理的芯片设计项目，使用 Qwen2.5-0.5B 模型作为验证目标。每个 Transformer 解码器层都用 RTL（寄存器传输级）语言编写，硅值与黄金参考模型逐位精确匹配，实测达到 0.56 tok/s 的吞吐量，相比传统方案提升约140倍。",
+          "analysis": "这是 AI 硬件推理领域的前沿探索——将 LLM 直接映射到 FPGA 架构，而非依赖 GPU。项目提供了完整的证据链（RTL代码、测试向量、性能对比），对研究边缘计算和专用推理芯片的工程师极具参考价值。",
+          "social": [
+            {
+              "who": "AI硬件研究者",
+              "text": "FPGA上跑LLM的思路很有前瞻性，逐位精确匹配的设计保证了可复现性。"
+            },
+            {
+              "who": "开发者",
+              "text": "0.56 tok/s在FPGA上的表现令人印象深刻，对边缘AI部署场景有启发意义。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Sprix Sage Router — A2A Agent 网络路由引擎",
           "eng": "wang2122/sprix-sage-router",
-          "summary": "屿智同行的AI Agent路由方案：支持状态感知的SELF（自处理）、COLLABORATE（协作）和HANDOFF（交接）三种路由模式，面向A2A智能体网络。",
+          "summary": "屿智同行的 Sprix AI，支持状态感知的 SELF/COLLABORATE/HANDOFF 路由策略，用于 A2A Agent 网络。",
           "source": "GitHub",
           "stars": 607,
           "lang": "Python",
           "published": "2026-08-18",
           "url": "https://github.com/wang2122/sprix-sage-router",
-          "overview": "Sage Router是面向A2A（Agent-to-Agent）智能体网络的路由系统，提供三种核心路由模式：SELF处理简单任务、COLLABORATE协作解决复杂问题、HANDOFF在Agent间交接上下文。所有决策基于当前状态感知。",
-          "analysis": "607星反映了A2A架构的快速增长趋势。三种路由模式的划分清晰实用——从独立处理到协作再到交接，覆盖了多智能体系统的核心交互场景。Python实现便于快速集成和原型验证。",
+          "overview": "Sprix Sage Router 是一个面向 A2A（Agent-to-Agent）网络的智能路由引擎，提供三种核心路由策略：SELF（自主处理）、COLLABORATE（协作分发）和 HANDOFF（任务交接）。系统具备状态感知能力，能根据当前上下文动态选择最优路由方式。",
+          "analysis": "随着多 Agent 架构的普及，Agent 间的路由决策成为关键挑战。Sage Router 的状态感知设计解决了传统静态路由无法适应复杂场景的问题，对构建大规模 Agent 网络有实用价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "SELF/COLLABORATE/HANDOFF的三分法很优雅——简单任务自己干，复杂问题拉帮手，超出能力就交接，逻辑清晰。"
+              "text": "三种路由策略覆盖了大部分 A2A 场景，HANDOFF 机制尤其实用。"
             },
             {
               "who": "研究者",
-              "text": "状态感知路由是A2A系统的核心挑战，这个方案把抽象的路由决策变成了可工程化的模式。"
+              "text": "状态感知路由的设计思路对多 Agent 系统的路由优化有参考价值。"
             }
           ]
         },
         {
-          "title_zh": "Apex推理芯片 — FPGA上的真实LLM推理设计",
-          "eng": "SigmanticAI/apex-inference-chip",
-          "summary": "一款在FPGA上运行真实LLM（Qwen2.5-0.5B）的推理芯片设计方案，RTL中实现一个Transformer解码层，硅级数值与黄金模型逐位精确匹配。",
+          "title_zh": "DeepSeek Harness EAC — 桌面客户端（揽尽万象）",
+          "eng": "zouyuxuan122/Deepseek-Harness-EAC",
+          "summary": "DeepSeek Harness Windows/Linux 桌面客户端，内置 Node.js + dsh CLI，一键启动，10种内置 UI 皮肤。",
           "source": "GitHub",
-          "stars": 576,
-          "lang": "Python",
-          "published": "2026-08-17",
-          "url": "https://github.com/SigmanticAI/apex-inference-chip",
-          "overview": "Apex Inference Chip是一个FPGA推理芯片设计方案，在RTL中实现了一个完整的Transformer解码层。实测达到0.56 tok/s的吞吐量，相比传统方案提升140倍。所有硅级数值与黄金模型逐位精确匹配（bit-exact），并提供了完整的设计验证证据链。",
-          "analysis": "576星说明AI硬件推理正在成为热门方向。FPGA方案的独特价值在于灵活性和能效比——相比ASIC可快速迭代，相比GPU功耗更低。逐位精确匹配保证了推理质量不妥协于速度。",
+          "stars": 960,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
+          "overview": "EAC（Embracing All Creation，揽尽万象）是 DeepSeek Harness 的桌面客户端项目，支持 Windows 和 Linux。内置 Node.js 运行时和 dsh CLI，提供一键启动体验，同时包含10种预设 UI 皮肤供用户选择。降低了 Harness 的使用门槛，让非技术用户也能方便地调用 AI Agent 能力。",
+          "analysis": "AI 工具的核心挑战之一是降低使用门槛。EAC 通过桌面客户端和多种 UI 皮肤，将命令行工具转化为可视化应用，对推广 AI Agent 生态有实际帮助。",
           "social": [
             {
               "who": "开发者",
-              "text": "0.56 tok/s在FPGA上实现很了不起，140倍的性能提升说明FPGA在特定场景下确实有GPU替代的潜力。"
+              "text": "一键启动 + 10种皮肤的设计很贴心，降低了 Harness 的使用门槛。"
+            },
+            {
+              "who": "学习者",
+              "text": "桌面客户端让非技术用户也能体验 AI Agent，对推广很有帮助。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DeepSeek Harness 锚定标准 — 两阶段预设",
+          "eng": "xiaobright/dsh-anchored-standard",
+          "summary": "两阶段 DeepSeek Harness 预设：最小对齐引导启动，然后接入完整 Standard 工具链（Project2 98/99）。",
+          "source": "GitHub",
+          "stars": 3640,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/xiaobright/dsh-anchored-standard",
+          "overview": "这是一个两阶段 DeepSeek Harness 预设方案：第一阶段使用最小对齐引导（Minimal-aligned bootstrap）快速启动，第二阶段接入完整的 Standard 工具链。支持 Project2 98/99 等高级功能模块，旨在提供从入门到进阶的平滑过渡路径。",
+          "analysis": "3640 stars 反映了社区对标准化 Agent 工作流的高度需求。两阶段设计解决了'快速上手 vs 完整能力'之间的矛盾，是 AI 工具生态中值得参考的产品策略。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "两阶段设计很聪明——先跑起来再逐步增强，避免一开始就被复杂配置劝退。"
             },
             {
               "who": "研究者",
-              "text": "bit-exact验证是硬件推理的关键——很多方案为了速度牺牲精度，这个设计证明了两者可以兼得。"
+              "text": "最小对齐引导的启动策略对 Agent 安全部署有参考价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "IP as Logo Skill — Agent 技能：IP 吉祥物设计",
+          "eng": "s1dashu/ip-as-logo-skill",
+          "summary": "一个紧凑的 Agent 技能，用于生成高度简化、圆润、微妙新拟物风格的 IP 吉祥物标志。",
+          "source": "GitHub",
+          "stars": 2140,
+          "lang": "",
+          "published": "2026-08-18",
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "overview": "这是一个面向 AI Agent 的创意技能包，专门用于生成 IP 吉祥物标志设计。采用高度简化、圆润线条和新拟物风格（neo-skeuomorphic），输出结果兼具现代感和亲和力。作为 Agent Skill 的一部分，可直接被各类 AI Agent 调用以快速产出品牌视觉素材。",
+          "analysis": "2140 stars 说明社区对'AI + 创意设计'的需求旺盛。将 IP 设计封装为可复用的 Agent Skill，降低了品牌设计的门槛，是 AI 赋能创意产业的典型案例。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "新拟物风格很适合现代品牌，Agent 一键出图确实能加速设计流程。"
+            },
+            {
+              "who": "开发者",
+              "text": "作为 Agent Skill 的封装方式值得学习，创意类技能的标准化输出是个好方向。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Dsh Routing Suite — DSH 路由套件",
+          "eng": "yjh051108/dsh-routing-suite",
+          "summary": "DSH 注入器 + 路由器标准工具包：先安装运行时注入器，再部署任务感知的推理模式路由器预设（P1-P23）。",
+          "source": "GitHub",
+          "stars": 6316,
+          "lang": "PowerShell",
+          "published": "2026-08-14",
+          "url": "https://github.com/yjh051108/dsh-routing-suite",
+          "overview": "Dsh Routing Suite 是 DeepSeek Harness 生态中的路由管理工具包，包含运行时注入器和任务感知的推理模式路由器预设。支持 P1-P23 共23种预设配置，覆盖从简单到复杂的各类 Agent 路由场景。采用 PowerShell 构建，主要面向 Windows 环境。",
+          "analysis": "6316 stars 是列表中最高之一，说明 DSH 生态的开发者社区活跃度高。路由套件作为 Harness 的核心组件，解决了多 Agent 任务分发和推理模式选择的关键问题，对构建复杂 AI 工作流至关重要。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "23种预设覆盖了大部分场景，PowerShell 注入器在 Windows 上的集成很顺畅。"
+            },
+            {
+              "who": "研究者",
+              "text": "任务感知的推理模式路由是 DSH 生态的核心能力之一，值得深入研究其设计思路。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Dsh Market — DeepSeek Harness 插件市场",
+          "eng": "dsh-market/dsh-market",
+          "summary": "DeepSeek Harness 内部的插件市场：浏览、搜索、一键安装。",
+          "source": "GitHub",
+          "stars": 1267,
+          "lang": "TypeScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/dsh-market/dsh-market",
+          "overview": "Dsh Market 是 DeepSeek Harness 生态的官方插件市场，提供浏览、搜索和一键安装功能。开发者可以在此发布自己的 Agent Skill、工具包和工作流预设，用户则可以通过可视化界面快速发现和安装所需组件。采用 TypeScript 构建，与 DSH 主框架无缝集成。",
+          "analysis": "1267 stars 反映了社区对插件化生态的强烈需求。Dsh Market 作为 Harness 的'应用商店'，降低了 Agent 能力的分发成本，是 AI 工具生态走向成熟的重要标志。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "一键安装的体验很好，插件市场的标准化对生态繁荣很有帮助。"
+            },
+            {
+              "who": "学习者",
+              "text": "通过市场可以发现大量现成的 Agent Skill，学习曲线大幅降低。"
             }
           ]
         }
@@ -1952,51 +1930,59 @@
     "voices": {
       "items": [
         {
-          "name": "Lex Fridman",
-          "role": "播客主理人 / AI 研究者访谈者",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
-          "domain": "ai/podcast",
-          "recent": "聚焦 AI 前沿研究与人类-AI 交互模式，呼应公众对 AI 实际使用方式的深度探讨。",
-          "url": "lexfridman.com"
+          "domain": "ai",
+          "recent": "关注客户隐私保护策略及与竞争对手在数据透明度上的差异化竞争。",
+          "url": "https://www.samaltman.com"
         },
         {
           "name": "Dario Amodei",
-          "role": "Anthropic CEO / AI 安全研究者",
+          "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "主导生成式 AI 安全对齐与隐私保护策略，回应行业在客户数据竞争中的伦理挑战。",
-          "url": "anthropic.com"
-        },
-        {
-          "name": "Diana Attard",
-          "role": "IFLA 主席 / 图书馆管理学者",
-          "region": "马耳他（欧洲）",
-          "domain": "library",
-          "recent": "推动 IFLA 灾后重建图书馆与包容性参考服务，关注全球图书馆在危机中的韧性建设。",
+          "recent": "聚焦 Agentic AI 的行动边界控制、运行时治理及可信溯源问题。",
           "url": ""
         },
         {
-          "name": "张庆国",
-          "role": "中国图书馆学会会长 / 图书馆学家",
+          "name": "Timnit Gebru",
+          "role": "AI Ethics 研究者",
+          "region": "全球/美国",
+          "domain": "ai",
+          "recent": "持续推动 AI 公司公开真实使用数据，反对算法偏见与透明度缺失。",
+          "url": ""
+        },
+        {
+          "name": "Katherine McAlpine",
+          "role": "IFLA 总干事",
+          "region": "澳大利亚/国际",
+          "domain": "library",
+          "recent": "关注灾后图书馆与博物馆重建策略及 AI 时代开放科学下的机构技能转型。",
+          "url": ""
+        },
+        {
+          "name": "David Weinberger",
+          "role": "信息科学家/作家",
+          "region": "美国",
+          "domain": "ai/library",
+          "recent": "探讨 GenAI 热潮中的媒体素养教学新方向及 AI 个性化带来的意义构建。",
+          "url": ""
+        },
+        {
+          "name": "陈力",
+          "role": "中国图书馆学会会长",
           "region": "中国",
           "domain": "library",
-          "recent": "引领中国智慧图书馆建设与区域阅读服务推广，强调从数字化向智能化转型的实践路径。",
+          "recent": "推动京津冀智慧图书馆建设及百县馆长论坛，促进馆社共荐优质书目。",
           "url": ""
         },
         {
-          "name": "Sonia Livingstone",
-          "role": "伦敦大学学院教授 / 媒体素养专家",
-          "region": "英国",
-          "domain": "library/podcast",
-          "recent": "探索超越传统意志力的媒体素养教育新方向，关注数字时代公众信息保护与认知安全。",
-          "url": ""
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta AI 首席科学家 / AI 研究者",
-          "region": "法国（常驻美国）",
-          "domain": "ai",
-          "recent": "批判当前 AI 模型局限并倡导因果推理，呼应学术界对递归优化与自我改进悖论的深度反思。",
+          "name": "Andrew Ng",
+          "role": "DeepLearning.AI 联合创始人",
+          "region": "全球/美国",
+          "domain": "podcast/ai",
+          "recent": "致力于在 AI 炒作与个性化之间帮助公众理解 GenAI，推动 AI 教育普及。",
           "url": ""
         }
       ]
