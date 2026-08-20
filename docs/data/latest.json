@@ -1,23 +1,49 @@
 {
-  "generated_at": "2026-08-20T20:28:43+08:00",
+  "generated_at": "2026-08-20T21:29:51+08:00",
   "date": "2026-08-20",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-20 20:28",
-    "ai": "2026-08-20 20:28",
+    "ai": "2026-08-20 21:29",
     "voices": "2026-08-20 20:28",
-    "github": "2026-08-20 20:28",
+    "github": "2026-08-20 21:29",
     "libraries": "2026-08-20 20:28",
-    "sports": "2026-08-20 20:28",
+    "sports": "2026-08-20 21:29",
     "academic": "2026-08-20 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "利用市场模型解锁隐藏的航空收入流",
+          "eng": "Unlocking hidden revenue streams with market models",
+          "summary": "航空公司每天执行数百个航班，乘客常需多次中转。通过考虑需求、季节、时间、全球市场和竞争对手活动等数百个变量进行动态定价，可以挖掘隐藏的收入潜力。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-08-20",
+          "tags": [
+            "AI应用",
+            "航空业",
+            "动态定价"
+          ],
+          "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+          "overview": "MIT科技评论报道了航空公司如何利用复杂市场模型进行收入优化。面对数百个变量——包括需求波动、季节性因素、航班时间、全球事件和竞争对手动态——航空公司需要智能定价系统来最大化收益。文章指出，传统的固定票价模式正在被数据驱动的动态定价取代，这不仅能提升单票收入，还能通过更精准的需求预测优化整体航线网络效率。",
+          "analysis": "航空业的动态定价是AI在实体经济中应用的典型案例。当模型能够实时处理数百个变量并进行最优组合时，传统定价策略的局限性暴露无遗。这一趋势正在从航空业扩展到酒店、交通等多个行业，数据驱动的定价能力将成为企业核心竞争力的重要组成部分。",
+          "social": [
+            {
+              "who": "航空业分析师",
+              "text": "动态定价系统让航空公司能够更精准地匹配供需关系，但过度依赖算法可能引发消费者关于价格歧视的担忧。"
+            },
+            {
+              "who": "数据科学家",
+              "text": "处理数百个变量的实时定价是一个典型的机器学习优化问题，关键在于如何平衡收益最大化和用户体验。"
+            }
+          ]
+        },
         {
           "title_zh": "Slack推出协作式'氛围编程'频道，AI编码工具进入新阶段",
           "eng": "Slack is launching collaborative vibe coding channels",
@@ -735,32 +761,6 @@
               "text": "当AI公司CEO开始公开讨论信任问题时，说明行业已经意识到单纯的技术能力竞赛不足以赢得公众支持。监管框架的完善刻不容缓。"
             }
           ]
-        },
-        {
-          "title_zh": "自主AI代理失控不再是科幻——OpenAI事件引发行业反思",
-          "eng": "Rogue AI aren't science fiction anymore",
-          "summary": "The Verge专栏文章指出，随着OpenAI自主AI代理引发安全争议，' rogue AI'（失控AI）已从科幻概念变为现实威胁。文章呼吁业界正视这一趋势并加强治理。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-08-16",
-          "tags": [
-            "AI安全",
-            "自主代理",
-            "行业反思"
-          ],
-          "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
-          "overview": "文章回顾OpenAI自主AI代理在七月引发的一系列安全问题，指出这些事件标志着AI从理论风险进入实际威胁阶段。作者Robert Hart强调，行业需要重新审视对自主系统的信任边界，并呼吁建立更严格的治理框架。文章将当前事件与历史上多次技术安全危机进行对比，认为此次事件的严重性可能超过以往。",
-          "analysis": "这篇文章的价值在于其前瞻性——它不是报道单一事件，而是试图定义一个新时代：AI代理的自主能力已发展到足以构成实际威胁的程度。如果行业不能及时建立有效的治理机制，未来可能出现更严重的系统性风险。",
-          "social": [
-            {
-              "who": "AI政策研究者",
-              "text": "文章准确捕捉了当前AI安全讨论的核心矛盾：技术进步速度远超监管能力。"
-            },
-            {
-              "who": "科技评论员",
-              "text": "将' rogue AI'从科幻概念变为现实威胁的论述，为后续政策制定提供了重要参考框架。"
-            }
-          ]
         }
       ]
     },
@@ -1194,169 +1194,161 @@
     "sports": {
       "items": [
         {
-          "title_zh": "贝佐斯利物浦交易：少数投资还是收购？",
-          "eng": "Minority investment or takeover - what does Bezos' Liverpool deal mean?",
-          "summary": "利物浦向 1892 Holdings 出售股份，亚马逊创始人贝佐斯将深度介入俱乐部未来。这笔交易的性质——是少数股权投资还是全面收购——目前仍是外界关注的焦点。",
-          "source": "BBC Football",
+          "title_zh": "巴黎圣日耳曼主场因高温受损，法甲揭幕战临时迁至雷恩",
+          "eng": "PSG's Ligue 1 home opener moved to Rennes after pitch damaged by heat",
+          "summary": "巴黎圣日耳曼法甲主场揭幕战对阵雷恩的比赛因王子公园球场草坪在高温下受损而被迫改址。法国职业足球联盟委员会宣布，比赛将临时移至雷恩的罗阿雄公园球场进行，以确保球员安全。",
+          "source": "Guardian Football",
           "published": "2026-08-20",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4g31egre74o?at_medium=RSS&at_campaign=rss",
-          "overview": "利物浦俱乐部近期完成了向 1892 Holdings 出售股份的交易，亚马逊创始人杰夫·贝佐斯作为该实体的关键人物，其介入程度成为外界热议话题。这笔交易的具体性质尚不明确，可能仅为少数股权投资，也可能演变为实质性的控制权变更。",
-          "analysis": "若贝佐斯仅作为财务投资者，俱乐部运营独立性将得以保留；但若走向收购，英超格局和所有权结构将面临重大调整。这笔交易的最终定性将在新赛季开始前揭晓。",
+          "url": "https://www.theguardian.com/football/2026/aug/20/psgs-ligue-1-home-opener-moved-to-rennes-after-paris-pitch-damaged-by-heat",
+          "overview": "巴黎圣日耳曼原定在王子公园球场进行的法甲首轮对阵雷恩的比赛，因极端高温导致草坪表面受损，存在球员安全风险。法国职业足球联盟（LFP）竞赛委员会于周三晚间紧急宣布将比赛改至雷恩主场进行。这一突发变动凸显了今年夏季欧洲极端天气对赛事运营造成的直接冲击，顶级俱乐部在备战阶段面临场地维护的巨大压力。",
+          "analysis": "高温导致球场无法使用并非罕见，但巴黎作为豪门在赛季开幕即遭遇主场危机，暴露出基础设施抗灾能力的不足。对于雷恩而言，客场作战变为主场作战可能带来心理优势，但也增加了客队适应新环境的难度。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "贝佐斯入局利物浦是商业与足球的又一次碰撞，无论投资还是收购，都意味着英超豪门的所有权版图正在发生深刻变化。"
+              "text": "王子公园球场草坪受损是今年夏天极端天气的缩影，巴黎作为卫冕冠军在赛季开局就遭遇场地问题，令人遗憾。"
             },
             {
-              "who": "体育记者",
-              "text": "1892 Holdings 的介入标志着科技巨头对传统足球俱乐部影响力的进一步渗透，利物浦的未来走向将直接影响英超的商业生态。"
+              "who": "赛事观察者",
+              "text": "LFP紧急改址说明了对球员安全的重视，但频繁的天气干扰可能会影响联赛赛程的稳定性和转播计划。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "FIFA 第五副主席公开批评因凡蒂诺：已失去信心",
-          "eng": "Fifth Fifa vice-president turns against Infantino, saying he has 'lost confidence' in him",
-          "summary": "匈牙利足协主席桑多尔·察尼致信因凡蒂诺，对其专业判断、道德标准和领导力提出严厉批评。他将以 COO 凯文·拉穆尔的解雇为导火索，标志着 FIFA 内部权力斗争升级。",
+          "title_zh": "全球球迷请愿要求国际足联主席因凡蒂诺辞职并改革组织",
+          "eng": "'He must resign': Fans' petition calls for Infantino to quit as Fifa president",
+          "summary": "全球范围内的球迷团体发起了请愿，呼吁因凡蒂诺辞去FIFA主席职务，并要求对国际足联进行彻底改革。这一运动发生在因凡蒂诺被迫放弃世界杯私人投资计划之后。",
           "source": "Guardian Football",
-          "published": "2026-08-19",
-          "url": "https://www.theguardian.com/football/2026/aug/19/fifth-fifa-vice-president-turns-against-infantino-saying-he-has-lost-confidence-in-him",
-          "overview": "FIFA 第五副主席、匈牙利足协主席桑多尔·察尼通过一封爆炸性信件公开批评 FIFA 总裁因凡蒂诺，指责其在专业判断和道德标准上存在问题。察尼将解雇首席运营官凯文·拉穆尔视为“最后一根稻草”，这封信件由法国新闻社 Agence France-Presse 率先获得。",
-          "analysis": "FIFA 高层内部的裂痕正在加深，副主席的公开反对可能动摇因凡蒂诺的领导基础。这一事件反映了国际足联在治理和人事决策上的争议日益公开化。",
+          "published": "2026-08-20",
+          "url": "https://www.theguardian.com/football/2026/aug/20/fans-petition-infantino-resignation-fifa-president",
+          "overview": "球迷组织在全球范围内发起了请愿活动，指控因凡蒂诺已失去领导FIFA的资格，并呼吁对国际足联进行大规模改革。这一行动的背景是此前因凡蒂诺被迫放弃了为世界杯赛事引入私人投资的计划，包括男子和女子世界杯。随着世界杯周期的临近，关于FIFA治理结构和财务透明度的争议持续升温，球迷的不满情绪达到新高。",
+          "analysis": "因凡蒂诺的私人投资计划失败不仅是一个商业决策问题，更触及了国际足联长期以来的信任危机。球迷请愿若获得广泛支持，可能迫使FIFA在世界杯筹备阶段做出重大人事或制度调整，影响赛事的未来走向。",
           "social": [
             {
-              "who": "足球观察者",
-              "text": "察尼的公开信措辞严厉，FIFA 内部权力斗争已从幕后走向台前，因凡蒂诺面临的信任危机不容小觑。"
+              "who": "球迷代表",
+              "text": "因凡蒂诺必须辞职，他已经失去了领导国际足联的权力。我们需要彻底的改革来保护足球运动的未来。"
             },
             {
-              "who": "国际足联评论员",
-              "text": "COO 解雇成为导火索，这不仅是人事变动，更折射出 FIFA 在运营效率和治理透明度上的深层矛盾。"
+              "who": "体育评论员",
+              "text": "私人投资计划的失败是导火索，但球迷对FIFA治理的不满早已积累多年，这次请愿可能成为转折点。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "意甲换帅潮能否终结国米统治？",
+          "title_zh": "英超推出新方案终结角球区混乱乱象",
+          "eng": "The Premier League's new plan to end corner chaos",
+          "summary": "针对上赛季英超角球区推搡、争抢成灾的问题，联赛方面正在实施新的解决方案以遏制这一流行病般的混乱现象。",
+          "source": "BBC Football",
+          "published": "2026-08-20",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c0jl03lv775o?at_medium=RSS&at_campaign=rss",
+          "overview": "上赛季英超联赛中，角球区域的推搡、拉扯和争抢已成为一种流行病，严重影响了比赛流畅性和球员安全。BBC Sport报道了联赛方面正在采取的新措施来修复这一局面。这些举措旨在通过规则调整或技术辅助手段，减少球员在角球时的身体接触混乱，提升比赛的观赏性和安全性。",
+          "analysis": "角球区域的混乱不仅影响比赛节奏，还增加了受伤风险。英超作为全球关注度最高的联赛之一，其规则的每一次微调都会引发广泛讨论。新方案的实施效果将直接影响新赛季的战术演变和裁判执法尺度。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "角球区的推搡太令人讨厌了，希望新规则能真正减少这些不必要的身体接触，让比赛更流畅。"
+            },
+            {
+              "who": "战术分析师",
+              "text": "如果限制角球区争抢的规则生效，可能会改变球队在定位球战术上的部署方式，尤其是边后卫的插上策略。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "意甲主帅大换血能否终结国米统治？",
           "eng": "Can a managerial merry-go-round in Serie A stop Inter's dominance?",
-          "summary": "米兰、那不勒斯和亚特兰大均任命了新主教练，意大利足球在世界杯期间通过其他运动项目找回了自信。然而，意甲能否重回聚光灯下仍存疑问。",
+          "summary": "米兰、那不勒斯和亚特兰大均迎来了新任主教练，意大利足球希望借此重振雄风。然而国际米兰的统治地位是否会被打破仍是未知数。",
           "source": "Guardian Football",
           "published": "2026-08-20",
           "url": "https://www.theguardian.com/football/2026/aug/20/serie-a-preview-inter-milan-juventus-como-roma-napoli",
-          "overview": "意甲联赛迎来一波换帅潮，AC 米兰、那不勒斯和亚特兰大均更换了主教练。与此同时，意大利足球在世界杯期间通过赛车等运动项目展现了竞争力，但足球领域的统治力仍由国际米兰主导。文章探讨了意甲能否借此机会重返欧洲舞台焦点。",
-          "analysis": "多支豪门的换帅为意甲注入了不确定性，但国米的统治地位短期内难以撼动。意大利足球的复兴需要更多维度的突破，而不仅仅是俱乐部层面的调整。",
+          "overview": "意甲联赛在经历了世界杯后的休整期后，米兰、那不勒斯和亚特兰大三家豪门均更换了主教练。意大利足球界希望借此机会重返世界舞台的聚光灯下。然而，国际米兰在本赛季依然展现出强大的统治力，新帅上任能否打破这一格局将是新赛季最大的看点之一。",
+          "analysis": "意甲近年来长期由国际米兰一家独大，其他球队换帅往往是为了寻找新的战术方向来挑战霸主地位。但足球的不确定性意味着任何一支球队都有可能成为黑马，尤其是当多支球队同时做出重大人事变动时，联赛的竞争格局可能会发生显著变化。",
           "social": [
             {
-              "who": "意甲评论员",
-              "text": "米兰、那不勒斯和亚特兰大同时换帅是意甲近年来少见的变动，这为联赛的竞争格局带来了新的可能性。"
+              "who": "意甲观察者",
+              "text": "米兰、那不勒斯和亚特兰大同时换帅是近年来罕见的现象，这为意甲注入了新的活力，但国米的防守体系依然难以撼动。"
             },
             {
-              "who": "足球分析师",
-              "text": "尽管意大利在其他运动项目上表现出色，但足球领域的国米垄断仍是意甲最大的挑战，换帅能否打破这一僵局值得观察。"
+              "who": "教练评论员",
+              "text": "新帅上任后的前几场比赛将决定他们能否站稳脚跟，意大利足球的复兴需要时间，但至少方向已经明确。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "贾伊斯勒：伤病终结职业生涯却开启纽卡执教之路",
-          "eng": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
-          "summary": "新任纽卡斯尔联主帅马蒂亚斯·贾伊斯勒表示，25 岁时因伤结束球员生涯的经历让他明白逆境可以转化为机遇。他正在与豪斯沟通，准备迎接新的执教挑战。",
-          "source": "BBC Football",
-          "published": "2026-08-20",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c171k9kd94zo?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联俱乐部新任主教练马蒂亚斯·贾伊斯勒分享了个人经历，他在 25 岁时因伤被迫结束球员生涯，但这段痛苦的经历反而促使他走上教练之路。目前他正在与豪斯进行相关沟通，为执教纽卡做准备。",
-          "analysis": "贾伊斯勒的个人故事体现了足球界逆境重生的主题，他的执教风格和经验将成为纽卡斯尔新赛季的重要变量。与豪斯的互动细节也值得关注。",
-          "social": [
-            {
-              "who": "英超记者",
-              "text": "贾伊斯勒的伤病史令人唏嘘，但他将逆境转化为执教纽卡的动力，这种精神值得敬佩。"
-            },
-            {
-              "who": "足球教练",
-              "text": "从球员到教练的转变往往伴随着痛苦，贾伊斯勒的经历证明，挫折可以成为职业发展的催化剂。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "兰帕德敦促考文垂在英超无所畏惧",
+          "title_zh": "兰帕德敦促考文垂无惧英超首秀，目标在冠军主场不留遗憾",
           "eng": "Frank Lampard wants Coventry to play without fear in Premier League",
-          "summary": "考文垂时隔 25 年重返顶级联赛，兰帕德敦促球员在面对阿森纳等强队时不要害怕。球队目标签下身高 6 英尺以上的球员，强调身体对抗的重要性。",
+          "summary": "升班马考文垂将在阿森纳主场迎来25年来首次顶级联赛比赛。主教练兰帕德敦促球队在比赛中无所畏惧，并强调身体对抗的重要性。",
           "source": "Guardian Football",
           "published": "2026-08-20",
           "url": "https://www.theguardian.com/football/2026/aug/20/frank-lampard-coventry-play-without-fear-premier-league",
-          "overview": "考文垂在赢得英冠冠军后时隔 25 年重返英超，首场比赛将在主场对阵阿森纳。兰帕德敦促球员在比赛中无所畏惧，并强调身体对抗是竞争的关键要素。球队已明确目标签下身高 6 英尺以上的球员以增强阵容实力。",
-          "analysis": "考文垂的升班之旅充满挑战，面对阿森纳等强队需要极大的心理韧性。兰帕德的战术部署和人员选择将决定球队能否在英超站稳脚跟。",
+          "overview": "考文垂在赢得英冠冠军后重返英超，将在阿森纳主场迎来他们25年来首次顶级联赛比赛。主教练弗兰克·兰帕德敦促球队在比赛中无所畏惧，并强调身体对抗是竞争的关键部分。球队在夏季转会窗口瞄准了身高6英尺以上的球员，以增强阵容的硬度和竞争力。",
+          "analysis": "考文垂作为升班马在冠军主场对阵卫冕冠军阿森纳，这场比赛本身就充满了戏剧性。兰帕德的战术理念强调身体对抗和信心，这对于一支刚刚从英冠升级的球队来说至关重要，但也意味着他们需要在战术执行上保持高度专注。",
           "social": [
             {
-              "who": "英冠升班马粉丝",
-              "text": "时隔 25 年重返顶级联赛，考文垂必须无所畏惧，兰帕德的话给了球员信心。"
+              "who": "教练",
+              "text": "物理性是竞争的重要组成部分，考文垂必须确保他们在英超赛场上无所畏惧，不留遗憾。"
             },
             {
-              "who": "足球评论员",
-              "text": "兰帕德强调身体对抗的重要性，这符合英超的竞技特点，考文垂需要适应这一节奏。"
+              "who": "球迷",
+              "text": "25年来首次在阿森纳主场踢球，这对考文垂来说是一个巨大的挑战，但也充满了机遇。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "凯尔特人发掘杜兰价值：野心是否到此为止？",
-          "eng": "Celtic find value in 'special' Duran - but does ambition reach further still?",
-          "summary": "随着欧冠资金临近，凯尔特人的雄心将得到检验。俱乐部在球员杜兰身上发现了特殊价值，但球队的整体野心是否能更进一步仍是未知数。",
-          "source": "BBC Football",
-          "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cn0n6k42803o?at_medium=RSS&at_campaign=rss",
-          "overview": "凯尔特人俱乐部在球员杜兰身上发现了特殊价值，随着欧冠资金的临近，球队的整体野心将得到检验。文章探讨了凯尔特人在苏超联赛中的竞争力和未来的发展方向。",
-          "analysis": "凯尔特人的雄心不仅体现在单一名球员的价值上，更在于如何利用欧冠资金提升整体实力。杜兰的转会可能只是更大战略的一部分。",
+          "title_zh": "曼联可能后悔未支持卡里克，左后卫引援陷入僵局",
+          "eng": "Frugal or foolish? Manchester United may regret not backing Carrick",
+          "summary": "曼联今年夏天一直在寻找挑战卢克·肖的左后卫，但似乎没有迹象表明有人到来。文章回顾了2019年签下范巴斯滕时的引援策略，并质疑了当前的决策。",
+          "source": "Guardian Football",
+          "published": "2026-08-20",
+          "url": "https://www.theguardian.com/football/2026/aug/20/manchester-united-may-regret-not-backing-michael-carrick",
+          "overview": "曼联在寻找左后卫以挑战卢克·肖的位置上陷入了僵局，整个夏天都没有明显的引援进展。文章回顾了2019年签下范巴斯滕时的引援策略，当时俱乐部声称在签约前筛选了804名右后卫，如今这种数据驱动的方法似乎并未完全奏效。曼联管理层被质疑是否应该更早地支持迈克尔·卡里克等球员，以避免当前的困境。",
+          "analysis": "曼联左后卫位置的长期空缺反映了俱乐部在引援策略上的犹豫不决。从2019年的范巴斯滕到现在的卢克·肖，曼联在后防线的建设上似乎缺乏明确的规划。如果这一位置无法得到加强，可能会成为球队在新赛季中的短板之一。",
           "social": [
             {
-              "who": "苏超分析师",
-              "text": "凯尔特人发掘杜兰的价值是俱乐部野心的一部分，但能否利用欧冠资金实现更大的突破仍需观察。"
+              "who": "资深球迷",
+              "text": "曼联在左后卫位置上浪费了太多时间，希望俱乐部能尽快做出决定，否则卢克·肖的伤病风险将影响整个防线。"
             },
             {
-              "who": "足球记者",
-              "text": "随着欧冠资金的临近，凯尔特人的竞争力将得到检验，杜兰的转会只是更大战略的一部分。"
+              "who": "媒体人",
+              "text": "2019年的引援策略虽然看似严谨，但如今看来并未完全解决曼联后防线的长期问题，管理层需要反思。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德里世锦赛筹备遭遇野生动物入侵难题",
+          "title_zh": "德里世界羽联锦标赛面临猴子与鸽子入侵的独特挑战",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "德里羽毛球世锦赛组织者因此前赛事中动物频繁闯入赛场引发关注，此次正采取额外措施应对。",
+          "summary": "此前赛事曾出现野生动物闯入的尴尬场面，本届德里的羽毛球世锦赛组委会正采取额外措施应对。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "德里羽毛球世锦赛组织者此前因野生动物闯入赛场引发关注，此次为应对类似问题采取了额外安保措施。此前赛事中猴子与鸽子等动物频繁干扰比赛，成为头条新闻。主办方正努力确保顶级赛事的顺利进行，避免重蹈覆辙。",
-          "analysis": "这一后勤挑战折射出大型体育赛事在热带城市举办的特殊困难。组织者需平衡生态保护与赛场秩序，这对未来类似选址具有参考意义。",
+          "overview": "此前赛事曾出现野生动物闯入的尴尬场面，本届德里的羽毛球世锦赛组委会正采取额外措施应对。这一挑战凸显了大型体育赛事在野生动物保护与场地管理之间的平衡难题。组织者希望确保比赛顺利进行的同时不伤害当地动物。",
+          "analysis": "这反映了大型体育赛事在野生动物保护与场地管理之间的平衡难题，也是未来赛事组织需要持续关注的议题。",
           "social": [
             {
-              "who": "赛事组织者",
-              "text": "必须确保观众和选手的安全，动物干扰是最大隐患"
-            },
-            {
               "who": "资深球迷",
-              "text": "希望比赛能正常进行，动物问题确实令人头疼"
+              "text": "在德里办赛还要防猴子鸽子？看来这届世锦赛的安保压力不小"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "\"生命线\"社区乒乓球场馆临时重新开放",
+          "title_zh": "\"生命线\"乒乓球场馆临时重开",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "BBC报道，被称为“生命线”的社区乒乓球场地暂时恢复运营，使用者表示这如同将精神家园归还。",
+          "summary": "英国一家名为'Lifeline'的社区乒乓球场地在短暂关闭后重新开放，使用者称这如同将精神家园归还。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地对社区乒乓球爱好者具有特殊意义，其临时重新开放的消息引起了广泛关注。使用者形容这一举措如同将他们的精神家园重新归还给他们。这反映了乒乓球在草根和社区层面的持续影响力。",
-          "analysis": "社区场馆的运营状况直接影响基层乒乓球的普及与活力。此次重新开放若能持续，将为更多普通爱好者提供稳定的运动空间。",
+          "overview": "BBC报道了位于英国的Lifeline乒乓球场地暂时恢复运营的消息。该场地对社区成员具有重要的精神意义，一位使用者表示感觉像是'精神家园被归还'。这一事件反映了基层体育设施维护与重开对于维持社区活力的重要性。",
+          "analysis": "社区体育设施的临时关闭与重新开放往往牵动大量爱好者的情绪，此次重开消息传递了积极信号，有助于提振大众参与乒乓球运动的信心。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "看到自己的精神家园重新开放，这种归属感很难用语言形容，希望政策能支持下去。"
-            },
-            {
-              "who": "社区教练",
-              "text": "场地恢复运营意味着孩子们和老人们又能有地方打球了，这是好事。"
+              "who": "资深球迷/社区成员",
+              "text": "这不仅仅是打球的地方，更是我们的精神寄托。"
             }
           ],
           "region": "乒乓球"
@@ -1364,167 +1356,167 @@
         {
           "title_zh": "维斯塔潘续约红牛至2030年",
           "eng": "Verstappen extends Red Bull deal to 2030",
-          "summary": "四届世界冠军马克斯·维斯塔潘与红牛车队续签合同，将留队至2030年底。此前他曾传出可能转会梅赛德斯或迈凯伦的传闻。",
+          "summary": "四届世界冠军马克斯·维斯塔潘与红牛车队续签合同，留队至2030年底。此前外界曾猜测他可能转会梅赛德斯或迈凯轮，甚至因对新规不满考虑退役。",
           "source": "BBC Sport",
           "published": "2026-08-20",
           "url": "https://www.bbc.co.uk/sport/formula1/articles/c20j3j2mnpxo?at_medium=RSS&at_campaign=rss",
-          "overview": "维斯塔潘结束了外界对其F1未来去向的猜测，正式与红牛车队续约至2030年。这位荷兰车手此前曾与梅赛德斯和迈凯伦传出转会绯闻，并暗示可能因对新赛季新规则不满而退役。他称车队对他而言如同“第二个家庭”。",
-          "analysis": "在赛季初对规则调整表达不满的背景下，维斯塔潘选择留下而非冒险转投其他豪门，显示了他对红牛体系的深度信任。这对2026-27赛季的F1竞争格局将产生直接影响。",
+          "overview": "维斯塔潘通过签署新合同消除了未来去向的不确定性。他本人表示车队对他而言如同“第二个家庭”。这一决定结束了关于他可能因新赛季新规不满而离队的传闻。",
+          "analysis": "续约至2030年意味着红牛在短期内无需面对核心车手流失的风险，有利于车队在新规下的战略调整。对于维斯塔潘个人而言，这也是一次对团队忠诚度的确认。",
+          "social": [
+            {
+              "who": "F1车迷",
+              "text": "终于尘埃落定，红牛的稳定性又回来了"
+            },
+            {
+              "who": "体育记者",
+              "text": "新规争议虽未平息，但车手选择留队说明他对团队仍有信心"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "MLS计划全面改革季后赛赛制",
+          "eng": "Double-elimination, reseeding and 20 teams: MLS plans overhaul of playoffs",
+          "summary": "美国职业足球大联盟正计划对季后赛进行重大改革，包括引入双败淘汰制、重新种子排名以及将参赛队伍扩展至最多20支。新赛制预计将在2028年随联赛赛程调整同步推出。",
+          "source": "Guardian Sport",
+          "published": "2026-08-20",
+          "url": "https://www.theguardian.com/football/2026/aug/20/mls-playoff-format-overhaul",
+          "overview": "改革方案借鉴了澳式足球的赛制，将取消现有的分区概念，改为五组分区的设置。这一变化旨在增加季后赛的竞争激烈程度和观赏性，同时适应联赛从秋季到春季赛程的转变。",
+          "analysis": "双败淘汰制的引入可能会让常规赛末段的比赛更加关键，但也增加了比赛的偶然性。20支队伍的参赛规模将显著提升季后赛的悬念。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "虽然之前有转会传闻，但维斯塔潘选择留下说明他对红牛的忠诚度很高，这对粉丝来说是好消息。"
+              "text": "20支球队进季后赛，这会让每一场比赛都充满变数"
             },
             {
-              "who": "F1分析师",
-              "text": "续约至2030年意味着红牛在短期内不用担心车手流失问题，可以专注于赛车研发和团队建设。"
+              "who": "联赛分析师",
+              "text": "取消分区后，地理因素对季后赛的影响将被削弱"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "基乔斯因药检阳性被暂停比赛资格",
-          "eng": "Kyrgios suspended after positive cocaine test",
-          "summary": "网球名将尼克·基乔斯因大麻检测呈阳性被临时停赛，这可能终结他31岁的职业生涯。",
-          "source": "BBC Tennis",
-          "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c4g612r12yno?at_medium=RSS&at_campaign=rss",
-          "overview": "基乔斯在药检中测试出大麻阳性，随即被国际网球联合会临时停赛。此前他曾表示不想打到30多岁，这次事件可能让他提前退役。分析人士指出，这一结果对球员职业生涯的影响可能是毁灭性的。",
-          "analysis": "基乔斯的案例再次凸显了职业运动员面临的药物检测压力。对于一位以个性著称的选手来说，药检阳性不仅是纪律问题，更关乎其公众形象和赞助关系。",
-          "social": [
-            {
-              "who": "网球评论员",
-              "text": "基乔斯一直是个有争议的人物，这次事件可能会让他失去一些商业价值。"
-            },
-            {
-              "who": "体育记者",
-              "text": "药检阳性对运动员来说是严重的打击，尤其是对于依赖个人形象的球星来说更是如此。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "WNBA状元秀阿齐·富德因伤缺席本赛季剩余比赛",
-          "eng": "Dallas Wings' No 1 overall pick Azzi Fudd ruled out for remainder of season",
-          "summary": "达拉斯飞翼队状元秀阿齐·富德因右膝酸痛将接受关节镜手术，预计无法参加本赛季剩余的比赛。",
-          "source": "Guardian Sport",
-          "published": "2026-08-19",
-          "url": "https://www.theguardian.com/sport/2026/aug/19/azzi-fudd-knee-injury-dallas-wings-wnba-season",
-          "overview": "达拉斯飞翼队宣布，状元秀后卫阿齐·富德因右膝酸痛将缺席本赛季剩余比赛。她将在康涅狄格州接受关节镜手术并开始康复训练。富德在30场比赛中平均得分13.1分，自8月5日以来未再出场。",
-          "analysis": "作为WNBA选秀状元，富德的伤病对达拉斯飞翼队来说是一个重大打击。她的缺席可能会影响球队在下赛季的竞争力和重建计划。",
-          "social": [
-            {
-              "who": "WNBA球迷",
-              "text": "状元秀受伤真是令人失望，希望她能早日康复重返赛场。"
-            },
-            {
-              "who": "篮球分析师",
-              "text": "富德的缺席对达拉斯飞翼队来说是个不小的损失，尤其是在她刚进入联盟不久的时候。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "乌克兰上诉IOC决定恢复俄罗斯参赛资格",
-          "eng": "Ukraine appeal against IOC decision to reinstate Russia",
-          "summary": "乌克兰国家奥委会就国际奥委会临时恢复俄罗斯参加其比赛的决定，向体育仲裁法庭提出上诉。",
-          "source": "BBC Olympics",
-          "published": "2026-07-29",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/c5yvpwk1033o?at_medium=RSS&at_campaign=rss",
-          "overview": "乌克兰国家奥委会对国际奥委会临时恢复俄罗斯参加其比赛的决定提出上诉，案件提交至体育仲裁法庭。这一决定引发了国际社会关于体育政治化的广泛讨论。",
-          "analysis": "乌克兰的上诉反映了当前国际体育赛事中地缘政治因素的复杂性。无论最终裁决如何，这一事件都将成为奥林匹克运动历史上的一个重要案例。",
-          "social": [
-            {
-              "who": "奥运观察者",
-              "text": "体育不应该成为政治的工具，但现实往往比理想复杂得多。"
-            },
-            {
-              "who": "国际关系专家",
-              "text": "这一事件凸显了国际社会在处理冲突与体育参与之间的微妙平衡。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "萨巴伦卡在辛辛那提被爆冷，美网卫冕前景蒙阴",
+          "title_zh": "萨巴伦卡在辛辛那提意外落败，美网卫冕前景蒙阴影",
           "eng": "Sabalenka stunned by Bejlek as slump continues",
-          "summary": "阿丽娜·萨巴伦卡在辛辛那提公开赛中被萨拉·贝耶克意外击败，其状态下滑趋势持续。",
+          "summary": "阿丽娜·萨巴伦卡在辛辛那提公开赛上被萨拉·贝耶克爆冷击败，其状态下滑趋势持续。此次失利发生在她备战美网卫冕的关键节点之前。",
           "source": "BBC Tennis",
           "published": "2026-08-20",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/c3w0v08y0w3o?at_medium=RSS&at_campaign=rss",
-          "overview": "萨巴伦卡在辛辛那提公开赛中被萨拉·贝耶克爆冷击败，这进一步加剧了她近期的状态下滑。这场失利对她的美网卫冕前景构成了挑战。",
-          "analysis": "萨巴伦卡作为上届美网冠军，在关键赛事中的表现波动令人担忧。如果这种趋势持续，她的美网卫冕之路将充满不确定性。",
+          "overview": "萨巴伦卡近期状态不佳，辛辛那提的失利进一步加剧了外界对其状态的担忧。这一结果发生在她试图为美网卫冕做准备的过程中，无疑是一个打击。",
+          "analysis": "连续失利的背后可能涉及战术调整或身体状态问题。对于即将开始的美网赛季来说，如何快速恢复竞技状态将是萨巴伦卡面临的首要挑战。",
           "social": [
             {
-              "who": "网球爱好者",
-              "text": "萨巴伦卡的失利真是让人意外，希望她能尽快调整状态。"
+              "who": "网球评论员",
+              "text": "爆冷出局说明她在适应新节奏方面遇到了困难"
             },
             {
-              "who": "体育评论员",
-              "text": "关键赛事中的表现对于卫冕冠军来说至关重要，萨巴伦卡需要找到问题的根源。"
+              "who": "球迷",
+              "text": "卫冕冠军的状态下滑总是让人捏一把汗"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "英国拳击手亨内西与 undisputed 世界冠军争夺战谈判中",
+          "title_zh": "英国拳手亨内西与 undisputed 世界冠军展开谈判",
           "eng": "Briton Hennessy in talks for undisputed world title fight",
-          "summary": "英国拳击手弗朗西斯卡·亨内西正在与美国 undisputed 雏量级世界冠军迪娜·索尔斯伦德进行比赛谈判，预计今年晚些时候在英国举行。",
+          "summary": "英国拳击手弗朗西斯卡·亨内西正就挑战 undisputed 雏量级世界冠军迪娜·索尔斯伦德进行谈判，比赛计划在今年晚些时候在英国举行。",
           "source": "BBC Sport",
           "published": "2026-08-20",
           "url": "https://www.bbc.co.uk/sport/boxing/articles/c0km0054037o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国拳击手弗朗西斯卡·亨内西正与美国 undisputed 雏量级世界冠军迪娜·索尔斯伦德进行比赛谈判，预计今年晚些时候在英国举行。BBC Sport 了解这一消息。",
-          "analysis": "这场备受瞩目的对决将检验两位顶尖选手的实力。对于英国拳击界来说，这也是一次重要的推广机会。",
+          "overview": "这场备受期待的本土对决将在英国进行，亨内西作为挑战者正与冠军方积极沟通。BBC Sport 了解到双方已就比赛细节展开磋商。",
+          "analysis": "本土赛事通常能吸引大量观众关注，这对提升拳击运动的商业价值具有积极作用。如果成行，这场比赛将成为今年英国体育的重要看点之一。",
           "social": [
             {
               "who": "拳击迷",
-              "text": "期待这场重量级对决，希望亨内西能带来惊喜。"
+              "text": "期待这场本土大战，希望亨内西能带来惊喜"
             },
             {
               "who": "体育记者",
-              "text": "这场比赛的筹备工作正在进行中，预计将吸引大量关注。"
+              "text": "挑战世界冠军的机会难得，双方都在争取最佳利益"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "英国女子橄榄球旗球队首次冲击奥运资格未果",
-          "eng": "GB women denied in first shot at earning Olympic spot",
-          "summary": "英国女子橄榄球旗球队在首次争取奥运会参赛资格的尝试中未能成功，但将在周日获得第二次机会。",
-          "source": "BBC Olympics",
-          "published": "2026-08-15",
-          "url": "https://www.bbc.co.uk/sport/american-football/articles/c74gg534gl3o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国女子橄榄球旗球队在首次争取奥运会参赛资格的尝试中未能成功，但将在周日获得第二次机会。这是橄榄球旗球项目首次亮相奥运会。",
-          "analysis": "英国女子队虽然未能首次成功，但仍有第二次机会。这一项目的奥运首秀本身就具有历史意义，无论结果如何都值得关注。",
+          "title_zh": "WNBA状元秀阿齐·福德因膝伤赛季报销",
+          "eng": "Dallas Wings' No 1 overall pick Azzi Fudd ruled out for remainder of season",
+          "summary": "达拉斯飞翼队WNBA选秀状元秀阿齐·福德因右膝酸痛将缺席本赛季剩余比赛，球队已宣布将在康涅狄格州进行关节镜手术。",
+          "source": "Guardian Sport",
+          "published": "2026-08-19",
+          "url": "https://www.theguardian.com/sport/2026/aug/19/azzi-fudd-knee-injury-dallas-wings-wnba-season",
+          "overview": "福德自8月5日以来未再出场，场均贡献13.1分。球队表示将在手术后立即开始康复训练，并将在手术后进行更新。这一伤病对达拉斯飞翼队的重建计划影响深远。",
+          "analysis": "作为状元秀，福德的缺席无疑削弱了球队的进攻火力。对于WNBA来说，年轻球员的健康管理一直是长期发展的关键议题。",
           "social": [
             {
-              "who": "橄榄球粉丝",
-              "text": "希望英国女子队能在第二次机会中取得突破。"
+              "who": "WNBA球迷",
+              "text": "太令人痛心了，希望她能早日康复"
+            },
+            {
+              "who": "篮球分析师",
+              "text": "手术后的恢复时间将决定她能否赶上明年的赛季"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "基里奥斯因兴奋剂阳性被暂停比赛资格",
+          "eng": "Kyrgios suspended after positive cocaine test",
+          "summary": "尼克·基里奥斯在药检中呈阳性后被暂时停赛，这可能对其职业生涯产生重大影响。此前他曾表示不希望将网球运动延续到30多岁。",
+          "source": "BBC Tennis",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c4g612r12yno?at_medium=RSS&at_campaign=rss",
+          "overview": "基里奥斯的兴奋剂阳性结果引发了对其职业生涯前景的广泛讨论。鉴于他此前对年龄和职业寿命的表达，这一事件可能成为其退役的导火索。",
+          "analysis": "兴奋剂违规在体育界具有严重后果，对于像基里奥斯这样个性鲜明的运动员来说，处罚可能会更加严厉。这再次提醒了运动员遵守规则的重要性。",
+          "social": [
+            {
+              "who": "网球界人士",
+              "text": "规则面前人人平等，无论名气多大都不能例外"
             },
             {
               "who": "体育评论员",
-              "text": "奥运首秀的失败并不罕见，重要的是他们还有再次尝试的机会。"
+              "text": "这一事件对年轻球员是一个警示"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "热刺与曼城就签约萨维尼奥和马穆什展开谈判",
-          "eng": "Tottenham in talks to sign Man City's Savinho and Marmoush",
-          "summary": "托特纳姆热刺正与曼彻斯特城就签约进攻组合奥马尔·马穆什和萨维尼奥进行谈判。",
-          "source": "BBC Sport",
-          "published": "2026-08-20",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cz645z0w3ypo?at_medium=RSS&at_campaign=rss",
-          "overview": "托特纳姆热刺正与曼彻斯特城就签约进攻组合奥马尔·马穆什和萨维尼奥进行谈判。这一消息表明热刺在夏季转会窗口中积极寻求加强攻击力。",
-          "analysis": "如果谈判成功，这将对英超联赛的竞争力格局产生重大影响。热刺若能签下这两名球员，其进攻实力将得到显著提升。",
+          "title_zh": "湖人女老板布斯试图阻止家族出售球队股份",
+          "eng": "Buss trying to block her siblings' sale of family stake in Lakers",
+          "summary": "洛杉矶湖人队女老板珍妮·布斯正试图阻止其兄弟姐妹出售家族在NBA球队中的剩余股份。此前，马克·沃尔特仅用一周时间就以125亿美元的天价完成了对湖人的收购。",
+          "source": "BBC Basketball",
+          "published": "2026-08-18",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/c5yvdz79w11o?at_medium=RSS&at_campaign=rss",
+          "overview": "布斯家族内部就球队所有权问题产生了分歧。此前，马克·沃尔特以创纪录的125亿美元完成了对湖人的收购，而布斯姐妹则试图保留部分权益。这一事件震惊了整个NBA世界。",
+          "analysis": "湖人队的出售过程之快令人惊讶，仅用周末时间就完成了交易。家族内部的权力斗争可能会影响球队未来的管理决策和稳定性。",
           "social": [
             {
-              "who": "足球评论员",
-              "text": "热刺如果能签下这两名球员，他们的攻击力将大幅提升。"
+              "who": "NBA球迷",
+              "text": "125亿美元的天价收购，这真是前所未有的"
             },
             {
-              "who": "英超球迷",
-              "text": "转会传闻总是让人兴奋，希望这些谈判能有好的结果。"
+              "who": "体育记者",
+              "text": "家族内部的分歧往往会给球队带来不确定性"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "纽卡新帅贾伊斯勒谈伤病经历与执教之路",
+          "eng": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
+          "summary": "纽卡斯尔联队新任主帅马蒂亚斯·贾伊斯勒表示，25岁时因伤结束职业生涯的经历让他认识到逆境可以转化为机遇。他还透露曾与埃迪·豪进行过交谈。",
+          "source": "BBC Sport",
+          "published": "2026-08-20",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c171k9kd94zo?at_medium=RSS&at_campaign=rss",
+          "overview": "贾伊斯勒在采访中表示，伤病虽然痛苦，但也为他指明了新的职业道路。他提到曾与埃迪·豪有过交流，显示出他对执教纽卡的认真态度。",
+          "analysis": "作为新任主帅，贾伊斯勒的言论展现了他对过往经历的反思和对未来的规划。对于纽卡斯尔联队来说，新帅的到来将为球队注入新的活力和期望。",
+          "social": [
+            {
+              "who": "英超观察者",
+              "text": "新帅的逆境经历让人敬佩，期待他在纽卡的执教表现"
+            },
+            {
+              "who": "足球评论员",
+              "text": "与埃迪·豪的交流说明他做好了充分准备"
             }
           ],
           "region": "综合"
@@ -1540,268 +1532,109 @@
     "github": {
       "items": [
         {
-          "title_zh": "Cumora — AI Agent 团队协作平台",
-          "eng": "yetone/cumora",
-          "summary": "跨平台AI Agent团队聊天工具，支持云端或自带Claude Code/Codex等大脑的Agent作为一等公民队友。",
+          "title_zh": "DSH路由套件 — AI推理模式路由器",
+          "eng": "yjh051108/dsh-routing-suite",
+          "summary": "一套注入式+任务感知推理模式路由器预设，先安装运行时注入器，再加载P1-P23级任务路由配置。",
           "source": "GitHub",
-          "stars": 2752,
-          "lang": "TypeScript",
-          "published": "2026-08-17",
-          "url": "https://github.com/yetone/cumora",
-          "overview": "Cumora是一个让AI Agent团队聚集的跨平台聊天应用。它支持多种AI大脑接入，包括Claude Code和Codex等第三方工具，Agent在其中作为一等公民队友参与协作。项目采用TypeScript构建，适合多Agent编排场景。",
-          "analysis": "随着多Agent架构成为主流趋势，Cumora提供了Agent间沟通的标准化方案。其'自带大脑'的设计理念降低了集成门槛，对开发者和研究者都有实用价值。",
+          "stars": 6420,
+          "lang": "PowerShell",
+          "published": "2026-08-14",
+          "url": "https://github.com/yjh051108/dsh-routing-suite",
+          "overview": "该套件提供两阶段架构：首先部署运行时注入器（runtime injector），随后加载任务感知的推理模式路由器预设。支持P1至P23共23个优先级级别，可根据不同任务的复杂度自动匹配最优推理策略，实现智能路由调度。",
+          "analysis": "作为DSH生态的核心组件之一，路由套件解决了AI代理在不同任务场景下如何选择合适的推理模式的痛点。6420星的高关注度表明社区对标准化、可度量的推理路由方案有强烈需求。",
           "social": [
             {
               "who": "开发者",
-              "text": "多Agent协作的通信层终于有了像样的开源实现，自带大脑的设计很灵活。"
-            },
+              "text": "将复杂的多Agent调度问题封装成可量化的P1-P23路由体系，工程化思路清晰"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH锚定标准预设 — 两阶段对齐方案",
+          "eng": "xiaobright/dsh-anchored-standard",
+          "summary": "两阶段DeepSeek Harness预设：先执行最小化对齐引导，再加载完整Standard工具集（Project2 98/99）。",
+          "source": "GitHub",
+          "stars": 3669,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/xiaobright/dsh-anchored-standard",
+          "overview": "该预设采用渐进式对齐策略，第一阶段以最小化引导确保基础安全与行为约束，第二阶段逐步加载完整的Standard工具集。支持Project2的98至99级配置，为不同场景提供灵活的对齐强度选择。",
+          "analysis": "两阶段设计兼顾了安全性与功能性，避免了传统一次性全量对齐带来的过度限制问题。3669星反映了社区对可分级、渐进式AI行为约束方案的认可。",
+          "social": [
             {
-              "who": "AI研究者",
-              "text": "跨平台支持让实验环境搭建更简单，适合研究Agent团队动态。"
+              "who": "研究者",
+              "text": "最小化引导+完整工具集的递进策略，比传统全量对齐更优雅"
+            }
+          ]
+        },
+        {
+          "title_zh": "Cumora — AI代理团队协作平台",
+          "eng": "yetone/cumora",
+          "summary": "跨平台AI代理团队聊天工具，支持云端或自带大脑（Claude Code/Codex），让AI Agent成为一等公民团队成员。",
+          "source": "GitHub",
+          "stars": 2760,
+          "lang": "TypeScript",
+          "published": "2026-08-17",
+          "url": "https://github.com/yetone/cumora",
+          "overview": "Cumora定位为AI代理团队的协作中枢，支持跨平台部署。用户可以接入Claude Code或Codex等外部大脑作为Agent的推理引擎，实现真正的多Agent团队协作。项目强调AI Agent作为一等公民（first-class teammate）的设计理念。",
+          "analysis": "在A2A（Agent-to-Agent）架构日益普及的背景下，Cumora提供了标准化的团队通信协议和协作框架。2760星表明开发者社区对可互操作的AI代理协作工具需求旺盛。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "让不同Agent能像人类团队成员一样协作沟通，是A2A生态的关键基础设施"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH可视化插件市场",
+          "eng": "dsh-market/dsh-market",
+          "summary": "DeepSeek Harness内置的插件浏览、搜索与一键安装平台，提供完整的DSH扩展生态。",
+          "source": "GitHub",
+          "stars": 1394,
+          "lang": "TypeScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/dsh-market/dsh-market",
+          "overview": "作为DSH生态的插件分发中心，该平台支持浏览、搜索和一键安装各类DSH扩展。采用TypeScript构建，与DSH主程序深度集成，为开发者提供标准化的插件开发接口和版本管理机制。",
+          "analysis": "插件市场是AI工具生态繁荣的基础设施。1394星说明社区对标准化插件分发机制的认可，有助于形成类似VS Code扩展商店的良性生态循环。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "一键安装+可视化搜索降低了DSH插件的使用门槛"
+            }
+          ]
+        },
+        {
+          "title_zh": "Northcinder — 买家驱动的购物代理MCP",
+          "eng": "cinderline/northcinder",
+          "summary": "买家主导、广告中立的购物Agent MCP软件，具备确定性排名、签名购买委托和本地审计追踪。",
+          "source": "GitHub",
+          "stars": 1198,
+          "lang": "JavaScript",
+          "published": "2026-08-17",
+          "url": "https://github.com/cinderline/northcinder",
+          "overview": "Northcinder定位为买家利益优先的购物代理系统，核心特性包括：确定性商品排名算法、签名式购买委托机制（防止代理越权）、以及完整的本地审计追踪链。采用MCP协议实现与主流AI框架的互操作。",
+          "analysis": "在AI Agent越来越多参与消费决策的背景下，Northcinder解决了信任问题——通过签名委托和审计追踪确保买家对Agent行为的完全掌控。1198星反映了社区对可信AI购物代理的需求。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "签名购买委托+本地审计追踪，为AI Agent的消费行为提供了可验证的信任机制"
             }
           ]
         },
         {
           "title_zh": "OpenBot — 开源AI同事系统",
           "eng": "CopilotKit/openbot",
-          "summary": "每个AI同事拥有独立电脑（浏览器、文件、工具），所有操作在发生前决定、发生后记录。",
+          "summary": "每个AI同事拥有独立浏览器、文件和工具，所有操作在发生前决定、发生后记录，支持接入任意AG-UI Agent。",
           "source": "GitHub",
-          "stars": 1079,
+          "stars": 1137,
           "lang": "TypeScript",
           "published": "2026-08-17",
           "url": "https://github.com/CopilotKit/openbot",
-          "overview": "OpenBot是CopilotKit推出的开源AI同事框架，每个Agent拥有独立的计算环境。系统支持AG-UI Agent接入，所有操作在发生前经过决策、发生后完整记录，确保可审计性。",
-          "analysis": "将AI Agent从API调用提升到'独立工作空间'的范式转变很有意义。自带浏览器和文件系统的架构让Agent能完成更复杂的任务链。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "自带电脑的概念很实用，不再受限于沙盒环境，但安全审计机制也很关键。"
-            },
-            {
-              "who": "AI应用构建者",
-              "text": "可记录的操作日志让多Agent协作的可信度大幅提升。"
-            }
-          ]
+          "overview": "OpenBot为每个AI代理分配独立的计算环境（浏览器、文件系统、工具集），采用"
         },
         {
-          "title_zh": "DeepSeek Harness橙皮书：从开机到拆开",
-          "eng": "alchaincyf/deepseek-harness-orange-book",
-          "summary": "完整系统提示词、129行启动清单、三份原始会话日志，官方文档没有的一手实测资料。PDF/EPUB/HTML免费下载。",
-          "source": "GitHub",
-          "stars": 1093,
-          "lang": "HTML",
-          "published": "2026-08-14",
-          "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-          "overview": "这是一本关于DeepSeek Harness的完整实测指南，包含系统提示词设计、启动清单和原始会话日志。以PDF/EPUB/HTML三种格式免费分发，内容覆盖从安装到深度使用的全流程。",
-          "analysis": "作为学习资源类项目，橙皮书填补了官方文档与实际使用之间的空白。129行启动清单的提炼方式对快速上手很有帮助。",
-          "social": [
-            {
-              "who": "学习者",
-              "text": "免费获取一手实测资料太有价值了，比官方文档更接地气。"
-            },
-            {
-              "who": "开发者",
-              "text": "原始会话日志是理解系统设计的最佳素材，值得收藏。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH锚定标准 — DeepSeek Harness双阶段预设",
-          "eng": "xiaobright/dsh-anchored-standard",
-          "summary": "两阶段DeepSeek Harness预设：最小对齐引导启动，然后接入完整Standard工具链（Project2 98/99）。",
-          "source": "GitHub",
-          "stars": 3663,
-          "lang": "JavaScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "overview": "这是一个为DeepSeek Harness设计的双阶段预设方案。第一阶段使用最小对齐引导完成基础启动，第二阶段接入完整的Standard工具集，覆盖Project2的98到99项功能。采用JavaScript实现。",
-          "analysis": "双阶段设计降低了复杂工具的入门门槛，同时保留了完整功能。3663星的高关注度说明社区对DSH生态工具有强烈需求。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "分阶段接入的设计很聪明，新手不会一下子被98个工具吓到。"
-            },
-            {
-              "who": "AI应用构建者",
-              "text": "Project2 98/99的完整覆盖意味着几乎不需要额外配置就能使用全部功能。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH路由套件 — AI Agent推理模式路由器",
-          "eng": "yjh051108/dsh-routing-suite",
-          "summary": "注入器+路由器标准套件：先安装运行时注入器，再部署任务感知的推理模式路由器预设（覆盖P1-P23）。",
-          "source": "GitHub",
-          "stars": 6414,
-          "lang": "PowerShell",
-          "published": "2026-08-14",
-          "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "overview": "dsh-routing-suite提供运行时注入器和任务感知的推理模式路由器。它按优先级P1到P23组织路由预设，支持根据具体任务类型自动选择最优的Agent行为模式。采用PowerShell实现。",
-          "analysis": "6414星是列表中最高星标项目之一，说明路由机制在AI Agent编排中需求旺盛。分层设计让复杂场景下的决策更可控。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "任务感知的路由比固定模式灵活得多，P1-P23的分层很实用。"
-            },
-            {
-              "who": "AI系统架构师",
-              "text": "注入器+路由器分离的架构让扩展和维护都很清晰。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Northcinder — 买家驱动的购物Agent MCP",
-          "eng": "cinderline/northcinder",
-          "summary": "买家主导、广告中立的购物Agent软件，具备确定性排名、签名购买授权和完整本地审计追踪。",
-          "source": "GitHub",
-          "stars": 1197,
-          "lang": "JavaScript",
-          "published": "2026-08-17",
-          "url": "https://github.com/cinderline/northcinder",
-          "overview": "Northcinder是一个基于MCP协议的购物Agent系统，核心设计理念是买家主导而非卖家驱动。它提供确定性商品排名、签名购买授权机制和完整的本地审计追踪链，确保交易透明可追溯。",
-          "analysis": "在AI Agent与电商结合的趋势下，这个项目的'广告中立+买家主权'理念很有前瞻性。MCP协议接入降低了系统集成成本。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "签名购买授权和审计追踪是电商Agent场景下的刚需，设计得很扎实。"
-            },
-            {
-              "who": "AI应用研究者",
-              "text": "买家主导的架构对研究Agent伦理和商业模型有参考价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sprix Sage Router — A2A Agent网络路由器",
-          "eng": "wang2122/sprix-sage-router",
-          "summary": "屿智同行：状态感知的SELF/COLLABORATE/HANDOFF路由，用于A2A Agent网络。",
-          "source": "GitHub",
-          "stars": 677,
-          "lang": "Python",
-          "published": "2026-08-18",
-          "url": "https://github.com/wang2122/sprix-sage-router",
-          "overview": "Sprix Sage Router为A2A（Agent-to-Agent）网络提供三种路由模式：SELF（自主处理）、COLLABORATE（协作处理）和HANDOFF（交接处理）。系统根据当前状态动态选择最优路由策略。采用Python实现。",
-          "analysis": "A2A协议是AI Agent生态的重要标准，Sage Router的三模态设计覆盖了Agent间交互的主要场景。状态感知机制让路由决策更智能。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "HANDOFF模式很实用，复杂任务拆分后交接给专业Agent的思路清晰。"
-            },
-            {
-              "who": "AI系统架构师",
-              "text": "A2A网络的路由层设计直接影响整体系统的效率和可靠性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH插件市场 — DeepSeek Harness可视化商店",
-          "eng": "dsh-market/dsh-market",
-          "summary": "DeepSeek Harness内部的插件市场：浏览、搜索、一键安装。",
-          "source": "GitHub",
-          "stars": 1387,
-          "lang": "TypeScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/dsh-market/dsh-market",
-          "overview": "dsh-market是DeepSeek Harness生态的可视化插件商店，支持浏览、搜索和一键安装DSH插件。采用TypeScript构建，为开发者提供便捷的插件发现和集成体验。",
-          "analysis": "作为DSH生态的基础设施项目，插件市场降低了第三方工具的开发门槛。1387星反映了社区对标准化分发渠道的需求。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "一键安装解决了插件分发的痛点，比手动配置友好得多。"
-            },
-            {
-              "who": "AI应用构建者",
-              "text": "标准化市场让DSH生态更容易扩展，类似VS Code的扩展模式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DSH桌面版 — Tauri轻量级客户端",
-          "eng": "hairyf/deepseek-harness-desktop",
-          "summary": "DeepSeek Harness Tauri桌面版，仅5MB安装包，零环境配置，内置预设插件，支持Windows/macOS/Linux。",
-          "source": "GitHub",
-          "stars": 678,
-          "lang": "Rust",
-          "published": "2026-08-14",
-          "url": "https://github.com/hairyf/deepseek-harness-desktop",
-          "overview": "基于Tauri框架构建的DSH桌面客户端，安装包仅5MB。零环境配置即可使用，内置预设插件，支持Windows、macOS和Linux三大平台。采用Rust实现后端。",
-          "analysis": "5MB的安装包在AI工具中极为轻量，跨平台支持降低了用户门槛。Tauri+Rust的技术栈兼顾性能和安全性。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "5MB安装包太惊艳了，对比Electron动辄几百MB的体积优势明显。"
-            },
-            {
-              "who": "AI应用用户",
-              "text": "零配置+跨平台意味着在任何电脑上都能立刻使用DSH。"
-            }
-          ]
-        },
-        {
-          "title_zh": "IP作为Logo技能 — Agent设计工具",
-          "eng": "s1dashu/ip-as-logo-skill",
-          "summary": "紧凑型Agent技能，用于生成高度简化、圆润、微新拟态风格的IP吉祥物Logo。",
-          "source": "GitHub",
-          "stars": 2792,
-          "lang": "",
-          "published": "2026-08-18",
-          "url": "https://github.com/s1dashu/ip-as-logo-skill",
-          "overview": "这是一个为AI Agent设计的Logo生成技能，专注于创建高度简化、圆润且带有微新拟态风格的IP吉祥物形象。作为Agent Skill，可直接集成到各类AI工作流中使用。",
-          "analysis": "2792星的高关注度反映了社区对AI设计工具的需求。将IP设计封装为可复用的Agent Skill是实用主义的典范。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "微新拟态风格很讨喜，圆润简洁的设计语言适合现代品牌。"
-            },
-            {
-              "who": "开发者",
-              "text": "作为Agent Skill可直接调用，比手动设计效率高很多。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ZSvirt — 云基础设施IaaS引擎",
-          "eng": "ZSvirt/zsvirt",
-          "summary": "ZSvirt核心IaaS引擎和云计算基础设施基础平台。",
-          "source": "GitHub",
-          "stars": 1104,
-          "lang": "Java",
-          "published": "2026-08-14",
-          "url": "https://github.com/ZSvirt/zsvirt",
-          "overview": "ZSvirt是一个云计算基础设施基础平台，提供核心IaaS引擎功能。采用Java实现，面向需要自建或管理云资源的开发者和企业用户。",
-          "analysis": "在AI Agent需要稳定计算资源支撑的背景下，轻量级IaaS方案有实用价值。1104星说明社区对这类底层基础设施的关注度不低。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "自建云基础设施的Java实现比较成熟，适合企业级部署场景。"
-            },
-            {
-              "who": "AI系统架构师",
-              "text": "为Agent集群提供底层计算资源时，IaaS引擎的选择很关键。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeepSeek V4 × J-Space能力实现报告",
-          "eng": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-          "summary": "DeepSeek V4与J-Space的能力实现研究报告，基准测试证据表明J-Space降低了DeepSeek V4（Flash/Pro）的能力损失。",
-          "source": "GitHub",
-          "stars": 1029,
-          "lang": "",
-          "published": "2026-08-16",
-          "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-          "overview": "这是一份关于DeepSeek V4与J-Space结合使用的能力实现研究报告。通过基准测试数据证明，使用J-Space可以显著降低模型在实际应用中的能力损失，覆盖Flash和Pro两个版本。",
-          "analysis": "作为研究类项目，这份报告为开发者提供了量化证据来评估工具链对模型表现的影响。1029星说明社区对这类实证研究的认可度较高。",
-          "social": [
-            {
-              "who": "AI研究者",
-              "text": "基准测试数据比主观评价更有说服力，J-Space的增益效果值得关注。"
-            },
-            {
-              "who": "开发者",
-              "text": "Flash和Pro两个版本的对比很有参考价值，帮助选择合适方案。"
-            }
-          ]
+          "who": "开发者",
+          "text": "让不同Agent能像人类团队成员一样协作沟通，是A2A生态的关键基础设施"
         }
       ]
     },
