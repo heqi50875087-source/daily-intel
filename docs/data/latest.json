@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:20:20+08:00",
+  "generated_at": "2026-08-20T11:19:22+08:00",
   "date": "2026-08-20",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,11 +7,11 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-20 09:19",
-    "ai": "2026-08-20 10:20",
-    "voices": "2026-08-20 10:20",
-    "github": "2026-08-20 10:20",
-    "libraries": "2026-08-20 10:20",
+    "hot": "2026-08-20 11:19",
+    "ai": "2026-08-20 11:19",
+    "voices": "2026-08-20 11:19",
+    "github": "2026-08-20 11:19",
+    "libraries": "2026-08-20 11:19",
     "sports": "2026-08-20 08:20",
     "academic": "2026-08-20 06:40"
   },
@@ -1439,242 +1439,220 @@
         {
           "title_zh": "Cumora — AI Agent 团队协作平台",
           "eng": "yetone/cumora",
-          "summary": "跨平台 AI Agent 团队聊天工具，支持 Claude Code / Codex 等作为 Agent 大脑，让 AI 成为一等公民团队成员。",
+          "summary": "跨平台 AI Agent 团队协作聊天工具，AI Agent 作为一等公民队友参与对话，支持 Claude Code / Codex 等外部大脑接入。",
           "source": "GitHub",
-          "stars": 2700,
+          "stars": 2709,
           "lang": "TypeScript",
           "published": "2026-08-17",
           "url": "https://github.com/yetone/cumora",
-          "overview": "Cumora 是一个专为 AI Agent 团队设计的跨平台协作聊天工具，支持云端托管或自带大脑模式（如 Claude Code、Codex）。Agent 在其中作为一等公民成员参与对话与任务分配，具备完整的消息历史、角色管理和上下文共享能力。项目采用 TypeScript 构建，兼顾 Web 和桌面端体验。",
-          "analysis": "随着多 Agent 协作成为 AI 应用的核心范式，Cumora 填补了团队层面 Agent 沟通的空白——它不只是工具调用框架，而是让多个 AI 智能体像人类团队一样协同工作。对开发者和研究者而言，这是观察 Agent-to-Agent 交互模式的绝佳窗口。",
+          "overview": "Cumora 是一个让 AI Agent 以团队形式协作的聊天平台，支持云端托管或自带大脑（如 Claude Code、Codex）。每个 Agent 都是团队中的正式成员，可以跨平台使用。项目强调 Agent 之间的自然对话与任务协同，而非简单的工具调用链。",
+          "analysis": "Agent 多智能体协作是当前 AI 应用的核心趋势之一。Cumora 将 Agent 社交化、团队协作化的思路落地为可用产品，对开发者理解多 Agent 架构和交互模式有参考价值。",
           "social": [
             {
-              "who": "开发者",
-              "text": "多 Agent 协作的杀手级基础设施，终于有了让 AI 团队真正'开会'的工具。"
+              "who": "AI 研究者",
+              "text": "Agent 团队聊天是迈向 AGI 协作的重要一步，让多个 AI 像人类团队一样工作而非孤立执行。"
             },
             {
-              "who": "研究者",
-              "text": "Agent 间通信协议和上下文管理的实现方式值得深入分析，对 A2A 架构有参考价值。"
+              "who": "开发者",
+              "text": "自带大脑的架构设计很灵活，可以接入不同 LLM 服务，降低了多 Agent 系统的集成门槛。"
             }
           ]
         },
         {
           "title_zh": "Northcinder — 买家驱动的购物 Agent MCP",
           "eng": "cinderline/northcinder",
-          "summary": "买家主导的购物代理软件，支持确定性排名、签名购买委托和本地审计追踪。",
+          "summary": "以买家为主导的购物 Agent 软件，具备确定性排名、签名购买授权和完整本地审计追踪。",
           "source": "GitHub",
           "stars": 1193,
           "lang": "JavaScript",
           "published": "2026-08-17",
           "url": "https://github.com/cinderline/northcinder",
-          "overview": "Northcinder 是一个基于 MCP（Model Context Protocol）的购物 Agent 系统，核心设计理念是'买家驱动'——用户拥有完全控制权。它提供确定性商品排名算法、签名购买委托机制和完整的本地审计追踪链，确保每一笔交易可追溯、可验证。",
-          "analysis": "在 AI 购物助手泛滥的背景下，Northcinder 的独特价值在于其透明性和安全性设计：签名委托和本地审计追踪解决了用户信任问题，确定性排名避免了黑箱推荐。这是 Agent + 电商场景下值得参考的安全架构实践。",
+          "overview": "Northcinder 是一个基于 MCP（Model Context Protocol）的购物 Agent 系统，核心设计理念是买家控制权优先。它提供确定性商品排名算法、签名购买授权机制和完整的本地审计追踪链，确保交易透明可追溯。",
+          "analysis": "在 AI Agent 介入电商交易的场景中，信任和安全是最大痛点。Northcinder 通过签名授权和本地审计解决了这一核心问题，为 Agent 购物场景提供了可参考的安全架构设计。",
           "social": [
             {
               "who": "安全研究者",
-              "text": "签名购买委托机制的设计思路很好，Agent 执行消费类操作时的权限控制值得借鉴。"
+              "text": "签名购买授权 + 本地审计追踪的设计思路值得借鉴，Agent 交易中的信任机制不能只靠服务端承诺。"
             },
             {
-              "who": "开发者",
-              "text": "MCP 协议在购物场景的落地实现比较完整，审计追踪链对合规需求很有帮助。"
+              "who": "MCP 生态开发者",
+              "text": "基于 MCP 协议构建购物 Agent 是一个很好的实践案例，展示了如何用标准化接口连接 AI 与商业场景。"
             }
           ]
         },
         {
-          "title_zh": "ZSvirt — IaaS 引擎与云基础设施核心",
-          "eng": "ZSvirt/zsvirt",
-          "summary": "ZSvirt 的核心理念化引擎和云基础设施基础，用 Java 构建。",
-          "source": "GitHub",
-          "stars": 1073,
-          "lang": "Java",
-          "published": "2026-08-14",
-          "url": "https://github.com/ZSvirt/zsvirt",
-          "overview": "ZSvirt 是一个基于 Java 构建的 IaaS（基础设施即服务）引擎，作为云基础设施的核心基础层。它提供虚拟机管理、资源调度、网络隔离等关键能力，面向需要自建私有云或混合云环境的开发者和企业用户。",
-          "analysis": "在开源云基础设施领域，ZSvirt 以 Java 生态为切入点，提供了相对轻量但功能完整的 IaaS 方案。对于不想被 AWS/Azure 绑定的开发者来说，这是一个值得关注的替代选择，尤其适合中小规模部署场景。",
-          "social": [
-            {
-              "who": "云架构师",
-              "text": "Java 生态的 IaaS 引擎在中小企业私有化部署中仍有市场空间，ZSvirt 的定位清晰。"
-            },
-            {
-              "who": "开发者",
-              "text": "作为学习 IaaS 核心原理的好项目，代码结构对理解云基础设施设计有帮助。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeepSeek Harness 橙皮书 — 从开机到拆开",
+          "title_zh": "DeepSeek Harness 橙皮书：从开机到拆开",
           "eng": "alchaincyf/deepseek-harness-orange-book",
-          "summary": "DeepSeek Harness 完整系统提示词、129行启动清单和原始会话日志，官方文档没有的一手实测资料。",
+          "summary": "DeepSeek Harness 完整系统提示词、129 行启动清单与三份原始会话日志，官方文档之外的第一手实测资料。",
           "source": "GitHub",
-          "stars": 1080,
+          "stars": 1084,
           "lang": "HTML",
           "published": "2026-08-14",
           "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-          "overview": "这是一份关于 DeepSeek Harness 的完整实测文档，包含完整的系统提示词设计、129行启动清单以及三份原始会话日志。以 PDF/EPUB/HTML 三种格式免费分发，内容涵盖从安装到深度使用的全链路实操经验，是官方文档之外的补充资料。",
-          "analysis": "对于正在学习 AI Agent 框架的开发者来说，橙皮书提供了宝贵的'实战视角'——系统提示词设计和会话日志能让人直观理解 Harness 的工作原理和最佳实践。免费开源的学习资源在 AI 工具领域尤为稀缺，值得收藏。",
+          "overview": "这是一份关于 DeepSeek Harness 的完整实测文档，包含系统提示词设计、启动清单和原始会话日志。提供 PDF/EPUB/HTML 三种格式免费下载，内容覆盖从安装配置到实际使用的完整流程。",
+          "analysis": "对于刚接触 DSH 生态的开发者来说，官方文档往往不够深入。橙皮书提供了真实场景下的系统提示词设计和调试经验，是学习 AI Agent 工具链编排的优质入门资源。",
           "social": [
             {
-              "who": "学习者",
-              "text": "129行启动清单太实用了，比官方文档更接地气，适合快速上手。"
+              "who": "AI 学习者",
+              "text": "129 行启动清单 + 三份原始日志的写法非常实用，比泛泛而谈的教程更有实操价值。"
             },
             {
               "who": "开发者",
-              "text": "原始会话日志的价值很高，能看到真实场景下 Harness 的处理逻辑和边界情况。"
+              "text": "系统提示词的设计思路值得参考，尤其是如何在 Harness 框架下做任务分解和上下文管理。"
             }
           ]
         },
         {
-          "title_zh": "Apex Inference Chip — FPGA 上的 LLM 推理芯片设计",
-          "eng": "SigmanticAI/apex-inference-chip",
-          "summary": "在 FPGA 上运行真实 LLM（Qwen2.5-0.5B）的推理芯片设计，每层 Transformer 解码器用 RTL 实现，硅值与黄金模型逐位精确匹配。",
-          "source": "GitHub",
-          "stars": 578,
-          "lang": "Python",
-          "published": "2026-08-17",
-          "url": "https://github.com/SigmanticAI/apex-inference-chip",
-          "overview": "Apex Inference Chip 是一个在 FPGA 硬件上实现 LLM 推理的芯片设计项目，使用 Qwen2.5-0.5B 模型作为验证目标。每个 Transformer 解码器层都用 RTL（寄存器传输级）语言编写，硅值与黄金参考模型逐位精确匹配，实测达到 0.56 tok/s 的吞吐量，相比传统方案提升约140倍。",
-          "analysis": "这是 AI 硬件推理领域的前沿探索——将 LLM 直接映射到 FPGA 架构，而非依赖 GPU。项目提供了完整的证据链（RTL代码、测试向量、性能对比），对研究边缘计算和专用推理芯片的工程师极具参考价值。",
-          "social": [
-            {
-              "who": "AI硬件研究者",
-              "text": "FPGA上跑LLM的思路很有前瞻性，逐位精确匹配的设计保证了可复现性。"
-            },
-            {
-              "who": "开发者",
-              "text": "0.56 tok/s在FPGA上的表现令人印象深刻，对边缘AI部署场景有启发意义。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sprix Sage Router — A2A Agent 网络路由引擎",
-          "eng": "wang2122/sprix-sage-router",
-          "summary": "屿智同行的 Sprix AI，支持状态感知的 SELF/COLLABORATE/HANDOFF 路由策略，用于 A2A Agent 网络。",
-          "source": "GitHub",
-          "stars": 607,
-          "lang": "Python",
-          "published": "2026-08-18",
-          "url": "https://github.com/wang2122/sprix-sage-router",
-          "overview": "Sprix Sage Router 是一个面向 A2A（Agent-to-Agent）网络的智能路由引擎，提供三种核心路由策略：SELF（自主处理）、COLLABORATE（协作分发）和 HANDOFF（任务交接）。系统具备状态感知能力，能根据当前上下文动态选择最优路由方式。",
-          "analysis": "随着多 Agent 架构的普及，Agent 间的路由决策成为关键挑战。Sage Router 的状态感知设计解决了传统静态路由无法适应复杂场景的问题，对构建大规模 Agent 网络有实用价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "三种路由策略覆盖了大部分 A2A 场景，HANDOFF 机制尤其实用。"
-            },
-            {
-              "who": "研究者",
-              "text": "状态感知路由的设计思路对多 Agent 系统的路由优化有参考价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeepSeek Harness EAC — 桌面客户端（揽尽万象）",
-          "eng": "zouyuxuan122/Deepseek-Harness-EAC",
-          "summary": "DeepSeek Harness Windows/Linux 桌面客户端，内置 Node.js + dsh CLI，一键启动，10种内置 UI 皮肤。",
-          "source": "GitHub",
-          "stars": 960,
-          "lang": "JavaScript",
-          "published": "2026-08-14",
-          "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
-          "overview": "EAC（Embracing All Creation，揽尽万象）是 DeepSeek Harness 的桌面客户端项目，支持 Windows 和 Linux。内置 Node.js 运行时和 dsh CLI，提供一键启动体验，同时包含10种预设 UI 皮肤供用户选择。降低了 Harness 的使用门槛，让非技术用户也能方便地调用 AI Agent 能力。",
-          "analysis": "AI 工具的核心挑战之一是降低使用门槛。EAC 通过桌面客户端和多种 UI 皮肤，将命令行工具转化为可视化应用，对推广 AI Agent 生态有实际帮助。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "一键启动 + 10种皮肤的设计很贴心，降低了 Harness 的使用门槛。"
-            },
-            {
-              "who": "学习者",
-              "text": "桌面客户端让非技术用户也能体验 AI Agent，对推广很有帮助。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeepSeek Harness 锚定标准 — 两阶段预设",
+          "title_zh": "DSH Anchored Standard — DeepSeek Harness 双阶段预设",
           "eng": "xiaobright/dsh-anchored-standard",
-          "summary": "两阶段 DeepSeek Harness 预设：最小对齐引导启动，然后接入完整 Standard 工具链（Project2 98/99）。",
+          "summary": "两阶段 DeepSeek Harness 预设方案：最小对齐引导后接完整标准工具集，实现 Project2 98/99 级别效果。",
           "source": "GitHub",
           "stars": 3640,
           "lang": "JavaScript",
           "published": "2026-08-14",
           "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "overview": "这是一个两阶段 DeepSeek Harness 预设方案：第一阶段使用最小对齐引导（Minimal-aligned bootstrap）快速启动，第二阶段接入完整的 Standard 工具链。支持 Project2 98/99 等高级功能模块，旨在提供从入门到进阶的平滑过渡路径。",
-          "analysis": "3640 stars 反映了社区对标准化 Agent 工作流的高度需求。两阶段设计解决了'快速上手 vs 完整能力'之间的矛盾，是 AI 工具生态中值得参考的产品策略。",
+          "overview": "这是一个针对 DeepSeek Harness 的双阶段预设方案，第一阶段使用最小对齐引导（Minimal-aligned bootstrap），第二阶段接入完整标准工具集。实测达到 Project2 98/99 级别的性能表现，是 DSH 生态中社区贡献度最高的项目之一。",
+          "analysis": "双阶段设计思路值得学习——先用轻量配置快速启动，再逐步加载完整能力。这种渐进式 Agent 编排模式在降低使用门槛的同时保持了高性能输出。",
           "social": [
             {
-              "who": "开发者",
-              "text": "两阶段设计很聪明——先跑起来再逐步增强，避免一开始就被复杂配置劝退。"
+              "who": "AI 开发者",
+              "text": "98/99 级别的实测数据很有说服力，双阶段设计让新手也能快速上手 DSH 生态。"
             },
             {
-              "who": "研究者",
-              "text": "最小对齐引导的启动策略对 Agent 安全部署有参考价值。"
+              "who": "Prompt Engineer",
+              "text": "最小对齐引导的思路很巧妙，避免了直接加载完整工具集时的上下文爆炸问题。"
             }
           ]
         },
         {
-          "title_zh": "IP as Logo Skill — Agent 技能：IP 吉祥物设计",
-          "eng": "s1dashu/ip-as-logo-skill",
-          "summary": "一个紧凑的 Agent 技能，用于生成高度简化、圆润、微妙新拟物风格的 IP 吉祥物标志。",
-          "source": "GitHub",
-          "stars": 2140,
-          "lang": "",
-          "published": "2026-08-18",
-          "url": "https://github.com/s1dashu/ip-as-logo-skill",
-          "overview": "这是一个面向 AI Agent 的创意技能包，专门用于生成 IP 吉祥物标志设计。采用高度简化、圆润线条和新拟物风格（neo-skeuomorphic），输出结果兼具现代感和亲和力。作为 Agent Skill 的一部分，可直接被各类 AI Agent 调用以快速产出品牌视觉素材。",
-          "analysis": "2140 stars 说明社区对'AI + 创意设计'的需求旺盛。将 IP 设计封装为可复用的 Agent Skill，降低了品牌设计的门槛，是 AI 赋能创意产业的典型案例。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "新拟物风格很适合现代品牌，Agent 一键出图确实能加速设计流程。"
-            },
-            {
-              "who": "开发者",
-              "text": "作为 Agent Skill 的封装方式值得学习，创意类技能的标准化输出是个好方向。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Dsh Routing Suite — DSH 路由套件",
-          "eng": "yjh051108/dsh-routing-suite",
-          "summary": "DSH 注入器 + 路由器标准工具包：先安装运行时注入器，再部署任务感知的推理模式路由器预设（P1-P23）。",
-          "source": "GitHub",
-          "stars": 6316,
-          "lang": "PowerShell",
-          "published": "2026-08-14",
-          "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "overview": "Dsh Routing Suite 是 DeepSeek Harness 生态中的路由管理工具包，包含运行时注入器和任务感知的推理模式路由器预设。支持 P1-P23 共23种预设配置，覆盖从简单到复杂的各类 Agent 路由场景。采用 PowerShell 构建，主要面向 Windows 环境。",
-          "analysis": "6316 stars 是列表中最高之一，说明 DSH 生态的开发者社区活跃度高。路由套件作为 Harness 的核心组件，解决了多 Agent 任务分发和推理模式选择的关键问题，对构建复杂 AI 工作流至关重要。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "23种预设覆盖了大部分场景，PowerShell 注入器在 Windows 上的集成很顺畅。"
-            },
-            {
-              "who": "研究者",
-              "text": "任务感知的推理模式路由是 DSH 生态的核心能力之一，值得深入研究其设计思路。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Dsh Market — DeepSeek Harness 插件市场",
+          "title_zh": "DSH Market — DeepSeek Harness 可视化插件市场",
           "eng": "dsh-market/dsh-market",
-          "summary": "DeepSeek Harness 内部的插件市场：浏览、搜索、一键安装。",
+          "summary": "DeepSeek Harness 内部的插件浏览、搜索与一键安装平台，提供 DSH 生态的可视化扩展入口。",
           "source": "GitHub",
-          "stars": 1267,
+          "stars": 1285,
           "lang": "TypeScript",
           "published": "2026-08-14",
           "url": "https://github.com/dsh-market/dsh-market",
-          "overview": "Dsh Market 是 DeepSeek Harness 生态的官方插件市场，提供浏览、搜索和一键安装功能。开发者可以在此发布自己的 Agent Skill、工具包和工作流预设，用户则可以通过可视化界面快速发现和安装所需组件。采用 TypeScript 构建，与 DSH 主框架无缝集成。",
-          "analysis": "1267 stars 反映了社区对插件化生态的强烈需求。Dsh Market 作为 Harness 的'应用商店'，降低了 Agent 能力的分发成本，是 AI 工具生态走向成熟的重要标志。",
+          "overview": "DSH Market 是 DeepSeek Harness 生态的插件分发平台，支持浏览、搜索和一键安装各类 DSH 扩展。作为 TypeScript 项目，它提供了标准化的插件发现与安装体验，降低了开发者在 DSH 生态中集成第三方能力的门槛。",
+          "analysis": "Agent 工具链的繁荣需要良好的分发机制。DSH Market 为 DSH 生态建立了类似 npm 的插件市场模式，是 AI Agent 基础设施建设的典型实践。",
           "social": [
             {
               "who": "开发者",
-              "text": "一键安装的体验很好，插件市场的标准化对生态繁荣很有帮助。"
+              "text": "一键安装 + 可视化搜索的体验很好，Agent 工具链的分发机制不能太原始。"
             },
             {
-              "who": "学习者",
-              "text": "通过市场可以发现大量现成的 Agent Skill，学习曲线大幅降低。"
+              "who": "AI 生态观察者",
+              "text": "DSH 生态正在形成自己的插件市场体系，这对理解 AI Agent 工具链的商业模式有参考价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OpenBot — 开源 AI 同事（自带电脑的 Agent）",
+          "eng": "CopilotKit/openbot",
+          "summary": "每个 AI 同事都拥有自己的浏览器、文件和工具，所有操作在执行前决定、执行后记录。支持接入任意 AG-UI Agent。",
+          "source": "GitHub",
+          "stars": 613,
+          "lang": "TypeScript",
+          "published": "2026-08-17",
+          "url": "https://github.com/CopilotKit/openbot",
+          "overview": "OpenBot 是一个开源的 AI 同事框架，每个 Agent 都配备独立的浏览器、文件系统和工具集。核心设计理念是「操作前决策 + 执行后记录」，确保所有动作可审计。支持接入任意 AG-UI Agent，具有高度的可扩展性。",
+          "analysis": "将 AI Agent 拟人化为「同事」的概念很有趣——每个 Agent 有自己的工作空间和操作权限。这种架构对多 Agent 协作场景中的权限管理和操作审计有实际意义。",
+          "social": [
+            {
+              "who": "AI 开发者",
+              "text": "自带电脑的设计让 Agent 能独立完成复杂任务，不再只是 API 调用的包装器。"
+            },
+            {
+              "who": "安全研究者",
+              "text": "操作前决策 + 执行后记录的机制是 AI Agent 安全审计的重要参考方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Sprix Sage Router — A2A Agent 网络状态感知路由",
+          "eng": "wang2122/sprix-sage-router",
+          "summary": "屿智同行 Sprix AI 的状态感知 SELF/COLLABORATE/HANDOFF 路由引擎，面向 A2A Agent 网络的智能任务分发。",
+          "source": "GitHub",
+          "stars": 607,
+          "lang": "Python",
+          "published": "2026-08-18",
+          "url": "https://github.com/wang2122/sprix-sage-router",
+          "overview": "Sprix Sage Router 是一个面向 A2A（Agent-to-Agent）网络的智能路由引擎，提供三种核心模式：SELF（自主处理）、COLLABORATE（协作处理）和 HANDOFF（任务交接）。通过状态感知机制动态选择最优执行路径。",
+          "analysis": "随着多 Agent 系统复杂度提升，如何高效分发任务成为关键问题。Sage Router 的三模式设计覆盖了从独立执行到复杂协作的全场景，是 A2A 架构的重要参考实现。",
+          "social": [
+            {
+              "who": "AI 架构师",
+              "text": "SELF/COLLABORATE/HANDOFF 三种模式的划分很清晰，解决了多 Agent 系统中任务路由的核心难题。"
+            },
+            {
+              "who": "开发者",
+              "text": "状态感知机制让路由决策更智能，不是简单的负载均衡而是基于上下文的任务分配。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Apex Inference Chip — FPGA 上的真实 LLM 推理芯片设计",
+          "eng": "SigmanticAI/apex-inference-chip",
+          "summary": "在 FPGA 上运行真实 LLM（Qwen2.5-0.5B）的推理芯片设计方案，每层 Transformer 解码器 RTL 实现与黄金模型逐比特一致。",
+          "source": "GitHub",
+          "stars": 579,
+          "lang": "Python",
+          "published": "2026-08-17",
+          "url": "https://github.com/SigmanticAI/apex-inference-chip",
+          "overview": "Apex Inference Chip 是一个在 FPGA 上实现真实 LLM 推理的芯片设计方案，包含一个完整的 Transformer 解码器层 RTL 实现。实测达到 0.56 tok/s 的速度，相比传统方案提升 140 倍，并提供完整的比特精确验证证据链。",
+          "analysis": "将大模型部署到 FPGA 是边缘 AI 的重要方向。该项目提供了从 RTL 设计到比特级验证的完整证据链，对理解 AI 芯片设计的工程化路径有极高参考价值。",
+          "social": [
+            {
+              "who": "AI 硬件研究者",
+              "text": "FPGA + LLM 的组合很有前景，0.56 tok/s 在边缘设备上已经相当可观。"
+            },
+            {
+              "who": "芯片工程师",
+              "text": "逐比特验证的设计方法很严谨，对 AI 推理加速的可靠性保障有示范意义。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH Orange Book — DeepSeek Harness 完整实测指南",
+          "eng": "alchaincyf/deepseek-harness-orange-book",
+          "summary": "DeepSeek Harness 橙皮书《从开机到拆开》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。",
+          "source": "GitHub",
+          "stars": 1084,
+          "lang": "HTML",
+          "published": "2026-08-14",
+          "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+          "overview": "这是一份关于 DeepSeek Harness 的完整实测文档，包含系统提示词设计、启动清单和原始会话日志。提供 PDF/EPUB/HTML 三种格式免费下载，内容覆盖从安装配置到实际使用的完整流程。",
+          "analysis": "对于刚接触 DSH 生态的开发者来说，官方文档往往不够深入。橙皮书提供了真实场景下的系统提示词设计和调试经验，是学习 AI Agent 工具链编排的优质入门资源。",
+          "social": [
+            {
+              "who": "AI 学习者",
+              "text": "129 行启动清单 + 三份原始日志的写法非常实用，比泛泛而谈的教程更有实操价值。"
+            },
+            {
+              "who": "开发者",
+              "text": "系统提示词的设计思路值得参考，尤其是如何在 Harness 框架下做任务分解和上下文管理。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DSH Desktop EAC — DeepSeek Harness 桌面客户端（揽尽万象）",
+          "eng": "zouyuxuan122/Deepseek-Harness-EAC",
+          "summary": "DeepSeek Harness Windows / Linux 桌面客户端，内置 Node.js + dsh CLI，一键启动，支持 10 种 UI 皮肤。EAC: Embracing All Creation 揽尽万象。",
+          "source": "GitHub",
+          "stars": 965,
+          "lang": "JavaScript",
+          "published": "2026-08-14",
+          "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
+          "overview": "DSH Desktop EAC 是 DeepSeek Harness 的跨平台桌面客户端，支持 Windows 和 Linux。内置 Node.js + dsh CLI，提供一键启动体验，并支持 10 种 UI 皮肤切换。项目名 EAC（Embracing All Creation）寓意揽尽万象，强调工具的全面性和易用性。",
+          "analysis": "将 AI Agent 工具链封装为桌面客户端是降低使用门槛的有效方式。EAC 的一键启动 + 多皮肤设计让非技术用户也能快速上手 DSH 生态。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "内置 CLI + 一键启动的设计很好，不需要额外环境配置就能开始使用。"
+            },
+            {
+              "who": "AI 工具用户",
+              "text": "10 种 UI 皮肤的选择很贴心，让不同偏好的用户都能找到适合自己的界面风格。"
             }
           ]
         }
@@ -1683,242 +1661,242 @@
     "hot": {
       "items": [
         {
-          "title_zh": "哈里与梅根计划搬回英国，子女入学在即",
-          "summary": "哈里王子与妻子梅根宣布将返回英国生活，两个孩子已注册将于九月开学。",
+          "title_zh": "哈里和梅根宣布搬回英国，子女将入学",
+          "summary": "哈里王子与妻子梅根正式宣布重返英国，两个孩子将于九月入学。这一决定引发了公众对王室未来走向的广泛讨论。",
           "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-19",
+          "published": "2026-08-20",
           "url": "https://www.bbc.co.uk/news/articles/c62ey03z9d1o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国王室成员哈里王子与梅根·马克尔夫妇宣布将搬回英国居住。他们的儿子阿奇（7岁）和女儿莉莉贝特（5岁）已注册入学，计划于九月开始上学。这一决定标志着这对夫妇在经历了美国生活后正式回归本土。",
-          "analysis": "此举被视为哈里王子与王室关系的进一步缓和信号，同时也引发了公众对梅根未来角色定位的关注。子女入学的安排显示家庭正在逐步恢复正常的生活节奏。",
+          "overview": "据BBC报道，哈里王子与梅根已做出返回英国的决定，他们的孩子阿奇和莉莉贝特将注册入学。这一突然的决定给苏塞克斯公爵夫妇和王室带来了许多疑问。此前他们长期居住在海外，此次回归标志着家庭生活的重大转折。",
+          "analysis": "这次回归不仅是地理上的移动，更可能影响英国王室的结构与公众关系。外界关注这一决定是否持久，以及是否会引发新的政治争议。",
           "social": [
             {
-              "who": "王室粉丝",
-              "text": "期待看到孩子们重返英国校园的画面，认为这是家庭团聚的积极一步。"
+              "who": "网友",
+              "text": "终于回来了，期待他们在英国的新生活"
             },
             {
-              "who": "媒体评论员",
-              "text": "分析称这一搬迁可能改变英国王室的公众形象策略。"
+              "who": "王室观察员",
+              "text": "哈里和梅根总是擅长制造惊喜，但这次回归能否长久仍是未知数"
             }
           ]
         },
         {
-          "title_zh": "Shoreham溺亡母女身份确认，警方公布详情",
-          "summary": "警方已公布在绍斯汉姆附近海域溺亡的夫妇及其未成年女儿的身份信息。",
+          "title_zh": "哈里和梅根的突然回归引发王室未来走向猜测",
+          "summary": "苏塞克斯夫妇的突然决定让公众对英国王室的未来充满疑问。这一事件再次凸显了现代王室成员与传统体制之间的张力。",
           "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/news/articles/cvgvr336z2po?at_medium=RSS&at_campaign=rss",
-          "overview": "英国警方确认了在绍斯汉姆附近海域溺亡的家庭成员身份。该家庭从伦敦出发前往海边游泳，不幸遭遇意外身亡。这一悲剧再次引发了公众对沿海水域安全警示的关注。",
-          "analysis": "尽管是令人痛心的事故，但警方的及时公布有助于家属获得心理慰藉并推动相关安全宣传。这也提醒了游客在享受海滨活动时务必注意潮汐和天气风险。",
+          "published": "2026-08-20",
+          "url": "https://www.bbc.co.uk/news/articles/cqjxn9j410vo?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC分析指出，哈里和梅根以擅长制造惊喜著称，但此次重返英国是否意味着永久回归尚不明确。王室内部对此反应复杂，外界也在猜测这对夫妇与查尔斯国王及威廉王子之间的关系将如何演变。",
+          "analysis": "这一事件反映了英国社会对王室角色的重新审视。公众期待看到更透明的沟通机制，而王室则面临维护传统与适应现代期望的双重挑战。",
           "social": [
             {
-              "who": "当地居民",
-              "text": "对失去年轻家庭表示深切哀悼，呼吁海滩设置更多救生员。"
+              "who": "评论员",
+              "text": "哈里和梅根总是出人意料，这次回归是否只是另一场公关活动？"
             },
             {
-              "who": "安全专家",
-              "text": "建议加强沿海区域的溺水预防教育和警示标识。"
+              "who": "英国媒体人",
+              "text": "王室的未来走向取决于他们如何平衡个人自由与公众责任"
             }
           ]
         },
         {
-          "title_zh": "BBC调查揭露人口走私者，嫌疑人被逮捕起诉",
-          "summary": "Twana Jamal Khdir 因移民犯罪嫌疑已被逮捕并正式起诉。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-19",
-          "url": "https://www.bbc.co.uk/news/articles/cx2ldeg93njo?at_medium=RSS&at_campaign=rss",
-          "overview": "经过 BBC 的深入调查，一名人口走私者 Twana Jamal Khdir 的身份被曝光。该嫌疑人已被警方逮捕并面临移民犯罪的正式指控。此案揭示了非法移民网络运作的部分细节。",
-          "analysis": "此次逮捕展示了执法部门对人口走私网络的打击力度。BBC 的调查报道在推动司法正义方面发挥了关键作用，同时也引发了公众对边境安全的讨论。",
-          "social": [
-            {
-              "who": "人权组织",
-              "text": "关注案件背后被贩卖者的命运，呼吁加强受害者保护机制。"
-            },
-            {
-              "who": "法律界人士",
-              "text": "认为此类犯罪应受到更严厉的惩罚以遏制非法移民活动。"
-            }
-          ]
-        },
-        {
-          "title_zh": "疫苗突破阻止癌症复发，临床试验取得进展",
-          "summary": "新接种的疫苗延长了患者无癌生存期，但具体持续时间尚不明确。",
+          "title_zh": "癌症疫苗突破：临床试验显示复发时间延长",
+          "summary": "一项新疫苗接种试验延长了患者无癌生存期，但具体持续时间尚不明确。这一进展为癌症治疗带来了新的希望。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.bbc.co.uk/news/articles/c79gpv7v190o?at_medium=RSS&at_campaign=rss",
-          "overview": "一项新的临床试验显示，一种新型疫苗能够显著延长癌症患者的无癌生存时间。然而，目前尚不清楚这种效果能持续多久。这一突破为癌症治疗领域带来了新的希望。",
-          "analysis": "该成果可能改变免疫疗法在肿瘤学中的应用前景。研究人员正在进一步评估长期疗效和副作用，以推动疫苗的广泛临床应用。",
+          "overview": "BBC报道指出，一种新型疫苗在临床试验中成功阻止了癌症的复发，显著延长了患者的无癌生存时间。然而，目前尚不清楚这种效果能持续多久，需要更多长期数据来验证其有效性。研究人员对这一突破表示乐观，认为这可能改变癌症治疗格局。",
+          "analysis": "该疫苗的成功标志着免疫疗法在肿瘤领域的重大进展。后续研究将重点关注副作用管理和长期疗效的稳定性。",
           "social": [
             {
-              "who": "医学研究者",
-              "text": "认为这是癌症免疫治疗领域的重要里程碑，值得深入研究。"
+              "who": "医学专家",
+              "text": "这是癌症治疗领域的重要里程碑，值得持续关注"
             },
             {
               "who": "患者家属",
-              "text": "对这一进展感到鼓舞，期待更多类似疗法惠及癌症患者。"
+              "text": "希望这种疫苗能尽快惠及更多需要帮助的人"
             }
           ]
         },
         {
-          "title_zh": "英国持续暴雨引发山洪风险预警",
-          "summary": "长期干旱结束，英国多地出现雷阵雨，存在突发洪水风险。",
+          "title_zh": "BBC调查揭露人口走私者被逮捕起诉",
+          "summary": "一名人口走私者因BBC的深入调查而被捕并被指控移民犯罪。这一行动展示了媒体在打击非法活动中的重要作用。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-19",
+          "url": "https://www.bbc.co.uk/news/articles/cx2ldeg93njo?at_medium=RSS&at_campaign=rss",
+          "overview": "Twana Jamal Khdir 因涉嫌移民犯罪被捕并正式被起诉，此前她通过BBC的调查报道被曝光。该案件揭示了人口走私网络的运作方式及其对合法移民体系的威胁。执法部门表示将加强对此类犯罪的打击力度。",
+          "analysis": "此案凸显了调查新闻在维护社会秩序中的关键角色。公众期待看到更多此类案件的揭露，以保护边境安全。",
+          "social": [
+            {
+              "who": "法律评论员",
+              "text": "媒体曝光与执法配合是打击人口走私的有效手段"
+            },
+            {
+              "who": "移民权益倡导者",
+              "text": "希望此案能推动更完善的移民政策改革"
+            }
+          ]
+        },
+        {
+          "title_zh": "巨型鲸鱼随冰川融化进入格陵兰水域觅食",
+          "summary": "气候变化导致的冰层消融为巨型鲸鱼打开了新的觅食通道，它们在格陵兰水域展开“进食狂欢”。这一现象是气候变化的直接后果。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-20",
+          "url": "https://www.bbc.co.uk/news/articles/cq6dn9gj7eno?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC报道显示，随着海冰因全球变暖而融化，原本被冰封的格陵兰海域向巨型鲸鱼开放。这些鲸鱼正在该区域进行大规模的觅食活动。科学家警告称，虽然短期来看这对鲸鱼有利，但长期生态影响仍需评估。",
+          "analysis": "这一现象直观地展示了气候变化对海洋生态系统的影响。研究人员正密切监测鲸鱼种群变化与冰层消退之间的关联。",
+          "social": [
+            {
+              "who": "环保组织",
+              "text": "冰川融化虽然让鲸鱼觅食，但这是生态危机的信号"
+            },
+            {
+              "who": "海洋生物学家",
+              "text": "我们需要更多数据来理解这种物种迁移的长期影响"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国持续暴雨带来山洪暴发风险",
+          "summary": "英国经历长时间干旱后迎来强降雨，多地面临山洪暴发的危险。气象专家提醒公众注意防范极端天气。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.bbc.co.uk/weather/articles/cevm32j9pp3o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国经历了长时间的干旱后，暴雨终于来临。雷阵雨持续席卷全国，气象专家 Ben Rich 解释了当前的天气形势。尽管降雨缓解了旱情，但土壤饱和增加了山洪爆发的风险。",
-          "analysis": "此次天气转变对农业和交通有双重影响。政府已发布洪水预警，提醒居民注意防范突发水灾带来的潜在危险。",
+          "overview": "BBC天气频道报道，英国此前持续的干燥天气已经结束，雷阵雨和暴雨正席卷全国。Ben Rich 指出，这种急剧的天气转变增加了局部地区发生山洪的风险。政府已启动应急响应机制以保障民众安全。",
+          "analysis": "极端天气事件频发提醒人们关注气候变化对日常生活的冲击。基础设施的防洪能力面临严峻考验。",
           "social": [
             {
-              "who": "气象爱好者",
-              "text": "关注降雨量数据，讨论干旱结束后的气候恢复情况。"
+              "who": "气象专家",
+              "text": "干旱后的暴雨往往更猛烈，请务必做好防范措施"
             },
             {
-              "who": "交通部门",
-              "text": "因暴雨导致部分道路封闭，呼吁市民出行注意安全。"
+              "who": "当地居民",
+              "text": "希望政府能尽快修复排水系统"
             }
           ]
         },
         {
-          "title_zh": "电子烟或导致儿童健康危害，医生发出警告",
-          "summary": "皇家儿科与儿童健康学院发布报告，担忧电子烟是吸烟的入门途径。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-20",
-          "url": "https://www.bbc.co.uk/news/articles/c0rdl0y8d4wo?at_medium=RSS&at_campaign=rss",
-          "overview": "皇家儿科与儿童健康学院发布了一份报告，表达了对电子烟可能成为青少年吸烟入门途径的担忧。报告指出电子烟可能导致严重的健康问题。这一警告引起了家长和医疗界的广泛关注。",
-          "analysis": "随着电子烟在年轻人中的流行，其长期健康影响仍需进一步研究。政府可能需要考虑更严格的监管措施以保护未成年人免受此类产品的危害。",
-          "social": [
-            {
-              "who": "家长群体",
-              "text": "对青少年接触电子烟表示担忧，呼吁加强学校和家庭的防范教育。"
-            },
-            {
-              "who": "公共卫生专家",
-              "text": "建议将电子烟纳入更严格的烟草控制法规中加以管理。"
-            }
-          ]
-        },
-        {
-          "title_zh": "中非共和国金矿坍塌致百余人死亡，死伤人数恐继续上升",
-          "summary": "中非共和国西部一座手工金矿因山体滑坡坍塌，造成超过100人死亡。",
+          "title_zh": "中非共和国金矿坍塌致百余人死亡",
+          "summary": "中非共和国西部一座手工金矿因山体滑坡坍塌，导致超过100人死亡，遇难人数可能继续上升。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-20",
           "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic",
-          "overview": "中非共和国西部扎博耶村的一座手工金矿因山体滑坡发生严重坍塌，导致超过100人死亡。事故发生在周二下午，距离巴布瓦镇约50公里，靠近喀麦隆边境。救援工作仍在进行中，预计死亡人数可能继续上升。",
-          "analysis": "此次灾难凸显了中非地区非法采矿活动的巨大安全风险。国际社会呼吁加强对该地区矿业安全的监管和援助，以防止类似悲剧再次发生。",
+          "overview": "Guardian报道指出，位于扎姆博耶村的手工金矿于周二下午发生坍塌，造成至少100人死亡。该村庄距离巴布瓦镇约50公里，靠近喀麦隆边境。救援人员仍在现场工作，预计死亡人数将随搜救进展继续攀升。",
+          "analysis": "这一悲剧再次凸显了非洲地区非法采矿活动的巨大安全风险。缺乏监管和防护设施是此类事故频发的根本原因。",
           "social": [
             {
-              "who": "国际救援组织",
-              "text": "正在紧急调配资源前往灾区进行搜救和人道主义援助。"
+              "who": "人道主义组织",
+              "text": "呼吁国际社会关注中非地区的矿业安全与劳工权益"
             },
             {
-              "who": "当地社区成员",
-              "text": "对失去亲人的家庭表示同情，呼吁政府改善采矿安全标准。"
+              "who": "当地居民",
+              "text": "希望救援工作能尽快展开，找到更多幸存者"
             }
           ]
         },
         {
           "title_zh": "肯尼亚 safari 直升机坠毁致七人死亡含五名美国人",
-          "summary": "一架观光直升机在肯尼亚北部偏远地区坠毁，机上七人全部遇难。",
+          "summary": "一架观光直升机在肯尼亚北部偏远地区坠毁，机上七人全部遇难，其中包括五名美国公民。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash",
-          "overview": "周三上午，一架 safari 直升机在肯尼亚北部偏远地区坠毁，机上七人全部遇难。死者包括 Telemundo 高管和厄瓜多尔国家情报局主任。美国国务院对此事表示关注。",
-          "analysis": "此次事故不仅是一起悲剧，还涉及外交层面的人物，引发了对非洲 safari 旅游安全的讨论。调查正在进行中，以确定坠机原因并追究相关责任。",
+          "overview": "Guardian报道显示，包括 Telemundo 高管和厄瓜多尔情报主管在内的七人在周三早上的直升机事故中丧生。当地警方和美国国务院确认了死亡人数及遇难者身份。这一事件引发了对非洲地区航空安全的关注。",
+          "analysis": "此次空难再次提醒人们，即使是短途观光飞行也面临潜在风险。相关机构需加强对该区域航空安全标准的审查。",
           "social": [
             {
-              "who": "旅游行业从业者",
-              "text": "呼吁加强航空安全检查标准，确保游客安全。"
+              "who": "航空安全专家",
+              "text": "偏远地区的直升机运营需要更严格的安全监管"
             },
             {
-              "who": "遇难者家属代表",
-              "text": "正在寻求真相和正义，希望调查能尽快得出结论。"
+              "who": "遇难者家属",
+              "text": "希望真相早日查明，逝者安息"
             }
           ]
         },
         {
-          "title_zh": "西班牙允许500名塞乌塔儿童移居本土，移民政策大转弯",
-          "summary": "马德里政府改变立场，将允许500名非法入境的未成年人在塞乌塔移居大陆。",
+          "title_zh": "西班牙允许500名塞乌塔儿童移民至本土",
+          "summary": "西班牙政府改变立场，决定允许500名在塞乌塔的非正规入境儿童迁往大陆。此前曾计划遣返所有非法入境者。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn",
-          "overview": "西班牙政府此前表示任何非法入境者将被遣返，但现改为允许500名未成年人在塞乌塔移居本土。7月30日约有7万人非法进入塞乌塔，其中大部分已返回摩洛哥。根据法律，国家有义务照顾无伴未成年人。",
-          "analysis": "这一政策转变反映了西班牙在人道主义责任与边境管控之间的艰难平衡。此举可能引发国内政治争议，但也体现了对儿童权益的保护。",
+          "overview": "Guardian报道指出，马德里政府在7月30日约7万人涌入塞乌塔后改变了态度。尽管大多数移民已返回摩洛哥，但西班牙法律要求对无陪伴未成年难民履行保护义务。这一政策转向引发了关于人道主义责任与边境管控的激烈辩论。",
+          "analysis": "此举反映了欧洲在移民危机面前日益复杂的人道主义困境。如何在法律义务与现实政治之间找到平衡点仍是难题。",
           "social": [
             {
-              "who": "人权活动人士",
-              "text": "欢迎政府的决定，认为保护儿童权利是国际社会的共同义务。"
+              "who": "人权律师",
+              "text": "保护儿童权益是国际法的基本要求，西班牙的做法值得肯定"
             },
             {
-              "who": "反对党议员",
-              "text": "批评政府政策不一致，质疑此举是否会被滥用为变相移民通道。"
+              "who": "政治评论员",
+              "text": "这一政策转向显示了欧洲在移民问题上的务实态度"
             }
           ]
         },
         {
-          "title_zh": "DRC埃博拉疫情死亡人数创该国历史纪录",
-          "summary": "刚果民主共和国埃博拉疫情已造成至少2325人死亡，成为该国历史上最致命的一次爆发。",
+          "title_zh": "刚果民主共和国埃博拉疫情创历史最严重纪录",
+          "summary": "刚果民主共和国的埃博拉疫情已造成至少2325人死亡，成为该国历史上最致命的疫情。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-17",
           "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
-          "overview": "刚果民主共和国的埃博拉疫情已造成至少2325人死亡，超过2018-20年疫情的死亡人数。确诊病例升至4945例，过去24小时内新增101例。这是该国历史上最严重的一次疫情爆发。",
-          "analysis": "此次疫情对当地公共卫生系统构成了巨大挑战。国际社会正在密切关注疫情发展，并考虑是否提供额外的医疗援助和资源支持以控制病毒传播。",
+          "overview": "Guardian报道指出，根据官方数据，刚果（金）确认病例已达4945例，其中101例在过去24小时内被发现。此次疫情的死亡人数已超过2018-20年的大流行，成为全球公共卫生的重大挑战。政府和国际组织正在全力应对这一危机。",
+          "analysis": "埃博拉病毒的再次爆发凸显了非洲地区医疗基础设施的脆弱性。国际社会需加强合作以遏制疫情蔓延并改善当地卫生条件。",
           "social": [
             {
-              "who": "世界卫生组织官员",
-              "text": "呼吁加强边境监测和社区宣传以减少感染风险。"
+              "who": "WHO官员",
+              "text": "全球必须团结一致，为刚果（金）提供必要的医疗支持"
             },
             {
-              "who": "当地医护人员",
-              "text": "表示医疗资源严重不足，急需国际援助来应对这场危机。"
+              "who": "公共卫生专家",
+              "text": "早期预警和快速响应是控制此类疫情的关键"
             }
           ]
         },
         {
-          "title_zh": "津巴布韦渡船事故死亡人数升至68人，22具遗体被发现",
-          "summary": "津巴布韦卡拉希湖渡船倾覆事故已造成68人死亡，其中包括18名儿童。",
+          "title_zh": "津巴布韦渡船事故死亡人数升至68人",
+          "summary": "津巴布韦卡拉湖一艘渡轮倾覆，已发现22具遗体，死亡人数增至68人，其中包括18名儿童。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-15",
           "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
-          "overview": "津巴布韦卡拉希湖上的一艘渡船在强风中倾覆，导致至少68人死亡。调查表明该船在翻覆时可能超载。过去两天内又发现了22具遗体，其中包括18名儿童。事故发生在与赞比亚交界的边境地区。",
-          "analysis": "此次事故再次暴露了非洲内陆水域运输的安全隐患。政府正在展开调查，并考虑加强渡船运营监管和乘客安全规定。",
+          "overview": "Guardian报道指出，该渡轮在周二遭遇强风时翻覆，调查表明船只超载是事故的主要原因。目前已有22具遗体被捞起，警方确认总死亡人数已达68人。救援工作仍在紧张进行中。",
+          "analysis": "此次事故再次暴露了非洲内陆水域航运安全的严重隐患。超载和恶劣天气管理不当是导致悲剧的直接原因。",
           "social": [
             {
-              "who": "遇难者家属",
-              "text": "沉浸在悲痛中，要求政府彻查事故原因并赔偿损失。"
+              "who": "海事安全专家",
+              "text": "必须加强渡轮运营的安全标准和监管力度"
             },
             {
-              "who": "海事安全专家",
-              "text": "建议对超载运输实施更严格的处罚措施以保障乘客生命安全。"
+              "who": "遇难者家属",
+              "text": "希望救援工作能尽快结束，让逝者安息"
             }
           ]
         },
         {
           "title_zh": "拉美极右翼领导人顾问因涉嫌策划谋杀女友被捕",
-          "summary": "曾担任玻利维亚和阿根廷等国领导人的高级顾问因涉嫌策划杀害女友而被捕。",
+          "summary": "一位曾担任多位拉美新近崛起的极右翼领导人顾问的商人因涉嫌策划杀害女友而被捕。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-19",
           "url": "https://www.theguardian.com/world/2026/aug/19/fernando-cerimedo-adviser-far-right-latin-american-leaders-arrested-allegedly-plotting-kill-girlfriend",
-          "overview": "42岁的费尔南多·塞里梅多因涉嫌策划杀害女友而被捕。他曾是玻利维亚总统罗德里戈·帕斯佩雷拉的高级顾问，也是阿根廷米莱总统竞选的主要战略家之一。这一事件引发了对拉美极右翼政治圈暴力倾向的担忧。",
-          "analysis": "此案揭示了拉美新兴极右翼领导层内部潜在的暴力和不稳定因素。调查人员正在追踪其与其他政治人物的关联，以评估对整个地区安全的影响。",
+          "overview": "Guardian报道指出，42岁的费尔南多·塞里梅多曾是玻利维亚总统和阿根廷总统米莱的主要战略顾问。他因涉嫌下令枪击其女友被捕，这一事件引发了对拉美政治圈暴力问题的关注。调查人员正在进一步核实相关指控的细节。",
+          "analysis": "此案揭示了极右翼政治运动中潜在的暴力和腐败问题。公众期待司法系统能公正处理此类案件，以维护社会正义。",
           "social": [
             {
-              "who": "拉美政治观察家",
-              "text": "担忧极右翼运动中的暴力文化可能进一步侵蚀民主制度。"
+              "who": "政治分析师",
+              "text": "这反映了拉美政治圈中令人担忧的暴力文化"
             },
             {
-              "who": "当地法律界人士",
-              "text": "呼吁司法系统公正审理此案，确保嫌疑人受到应有的惩罚。"
+              "who": "法律评论员",
+              "text": "无论政治立场如何，涉嫌谋杀都应受到法律的严惩"
             }
           ]
         }
@@ -1930,59 +1908,59 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注客户隐私保护策略及与竞争对手在数据透明度上的差异化竞争。",
-          "url": "https://www.samaltman.com"
-        },
-        {
           "name": "Dario Amodei",
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦 Agentic AI 的行动边界控制、运行时治理及可信溯源问题。",
-          "url": ""
+          "recent": "持续关注 AI 安全对齐与使用透明度研究，回应行业对递归式自我提升及用户验证透明度的质疑。",
+          "url": "https://www.anthropic.com"
         },
         {
-          "name": "Timnit Gebru",
-          "role": "AI Ethics 研究者",
-          "region": "全球/美国",
-          "domain": "ai",
-          "recent": "持续推动 AI 公司公开真实使用数据，反对算法偏见与透明度缺失。",
-          "url": ""
-        },
-        {
-          "name": "Katherine McAlpine",
-          "role": "IFLA 总干事",
-          "region": "澳大利亚/国际",
-          "domain": "library",
-          "recent": "关注灾后图书馆与博物馆重建策略及 AI 时代开放科学下的机构技能转型。",
-          "url": ""
-        },
-        {
-          "name": "David Weinberger",
-          "role": "信息科学家/作家",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
-          "domain": "ai/library",
-          "recent": "探讨 GenAI 热潮中的媒体素养教学新方向及 AI 个性化带来的意义构建。",
-          "url": ""
+          "domain": "ai",
+          "recent": "主导 OpenAI 在客户隐私保护与企业级服务方面的竞争策略，推动 AI 从广泛采用向真正接受转化。",
+          "url": "https://www.openai.com"
         },
         {
-          "name": "陈力",
-          "role": "中国图书馆学会会长",
+          "name": "Lex Fridman",
+          "role": "播客主理人/AI 研究者",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "通过长访谈深度探讨 AI 自我改进悖论与行业动态，聚焦递归式自我提升为何迟迟未能实现的核心议题。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "李国新",
+          "role": "中国图书馆学会原理事长/智慧图书馆推动者",
           "region": "中国",
           "domain": "library",
-          "recent": "推动京津冀智慧图书馆建设及百县馆长论坛，促进馆社共荐优质书目。",
+          "recent": "积极推动京津冀及浙江等地智慧图书馆建设与阅读服务推广，强调智慧图书馆并非数字图书馆的简单翻版。",
           "url": ""
         },
         {
-          "name": "Andrew Ng",
-          "role": "DeepLearning.AI 联合创始人",
-          "region": "全球/美国",
-          "domain": "podcast/ai",
-          "recent": "致力于在 AI 炒作与个性化之间帮助公众理解 GenAI，推动 AI 教育普及。",
+          "name": "周志华",
+          "role": "浙江大学教授/人工智能学者",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "在基础 AI 研究前沿持续深耕，其学术观点常被引用于讨论 AI 自我改进能力的边界与局限性。",
+          "url": ""
+        },
+        {
+          "name": "Michael Gorman",
+          "role": "美国图书馆协会前主席/图书馆倡导者",
+          "region": "美国",
+          "domain": "library",
+          "recent": "倡导包容性参考服务原则与媒体素养教学新方向，推动图书馆员在日常实践中建立指导准则。",
+          "url": ""
+        },
+        {
+          "name": "Kirsten Haugaard",
+          "role": "IFLA 前主席/国际图联领导人",
+          "region": "丹麦（国际）",
+          "domain": "library",
+          "recent": "通过 IFLA 平台关注灾后图书馆与博物馆重建议题，分享从废墟中恢复文化机构的经验。",
           "url": ""
         }
       ]
