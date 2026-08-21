@@ -13,7 +13,7 @@
     "github": "2026-08-20 23:29",
     "libraries": "2026-08-20 22:36",
     "sports": "2026-08-20 23:29",
-    "academic": "2026-08-21 06:40"
+    "academic": "2026-08-22 06:40"
   },
   "modules": {
     "ai": {
@@ -1672,6 +1672,94 @@
           "region": "国际",
           "published": "2026-10-01",
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
+        },
+        {
+          "title_zh": "A large-scale dataset of sub-institution name disambiguation and hierarchical structures from OpenAlex",
+          "eng": "A large-scale dataset of sub-institution name disambiguation and hierarchical structures from OpenAlex",
+          "summary": "Accurate attribution of scholarly work to specific sub-institutional units, such as schools or departments of a university, is crucial for granular research assessment and policymaking. While robust i",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Accurate attribution of scholarly work to specific sub-institutional units, such as schools or departments of a university, is crucial for granular research assessment and policymaking. While robust identifiers exist for top-level institutions, standardized data for sub-level units remains scarce due to the linguistic and structural variability of affiliation strings. In this study, we introduce OpenSubAffil, a large-scale dataset mapping raw affiliation strings from OpenAlex to disambiguated sub-institutional entities and their hierarchical structures. We developed a pipeline integrating name",
+          "url": "https://arxiv.org/abs/2608.20035v1"
+        },
+        {
+          "title_zh": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+          "eng": "Qualified Cross-References as a Verification Method: The Normative Environment of the EU AI Act",
+          "summary": "Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Legal cross-references are commonly represented as links between instruments or provisions. For a curated legal knowledge base, the existence of a link is only the beginning of the claim: it must also state the legal character of the interaction, identify the provisions supporting it, preserve its conditions, and remain consistent when reached from either instrument. This paper presents a provision-level model and a construction protocol for qualified cross-references, developed through a bilingual corpus of fourteen instruments surrounding Regulation (EU) 2024/1689 (the AI Act). The model dis",
+          "url": "https://arxiv.org/abs/2608.19194v2"
+        },
+        {
+          "title_zh": "Projecting BrowseComp-Plus onto ClimbMix: Toward More Realistic Corpora for Agentic Search",
+          "eng": "Projecting BrowseComp-Plus onto ClimbMix: Toward More Realistic Corpora for Agentic Search",
+          "summary": "The BrowseComp-Plus benchmark disentangled the evaluation of agentic search by replacing opaque web search with a fixed corpus, so that an agent's role can be separated from the retriever's. That corp",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "The BrowseComp-Plus benchmark disentangled the evaluation of agentic search by replacing opaque web search with a fixed corpus, so that an agent's role can be separated from the retriever's. That corpus, however, holds only about 100K documents and was assembled from the supporting documents of the benchmark's own queries plus mined hard negatives, so the evidence and the distractors were both selected per query. We introduce $\\text{BrowseComp-Plus}_{\\text{CM}}$, which keeps the BrowseComp-Plus questions but relocates their evidence to ClimbMix, a 400B-token, 553M-document mixture of web text ",
+          "url": "https://arxiv.org/abs/2608.20317v1"
+        },
+        {
+          "title_zh": "What Makes a Good Fiqh Retriever? Answer Retrieval for Arabic Islamic Jurisprudence",
+          "eng": "What Makes a Good Fiqh Retriever? Answer Retrieval for Arabic Islamic Jurisprudence",
+          "summary": "Retrieval-Augmented Generation is used for Islamic question answering, but most systems are evaluated end-to-end, making retrieval failures difficult to isolate from generation failures. We study answ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Retrieval-Augmented Generation is used for Islamic question answering, but most systems are evaluated end-to-end, making retrieval failures difficult to isolate from generation failures. We study answer-bearing retrieval for Arabic fiqh, where a passage is relevant only if it states the ruling required by the question. We build a retrieval test collection for Arabic fiqh and use it to evaluate dense, lexical, hybrid, fine-tuned, and madhhab-aware retrieval strategies. The best retriever achieves 0.524 MRR@5, while fine-tuning improves performance to 0.553. Hybrid retrieval provides limited gai",
+          "url": "https://arxiv.org/abs/2608.20246v1"
+        },
+        {
+          "title_zh": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+          "eng": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+          "summary": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18 blocks. The other 12 use short convolutions whose memory is two timesteps wide no matter how long the conversation gets, so two thirds of the network never re-reads a growing cache. Trained from scratch on 59.9B tokens, the model scores 47.31 on a five-task benchmark against a bar of 42.20 that was fixe",
+          "url": "https://arxiv.org/abs/2608.20210v1"
+        },
+        {
+          "title_zh": "SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation",
+          "eng": "SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation",
+          "summary": "Recommendation systems increasingly adopt a two-stage pipeline, where an ID-based retriever retrieves candidates and an LLM-based reranker refines their rankings. To improve retrieval quality, reranke",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Recommendation systems increasingly adopt a two-stage pipeline, where an ID-based retriever retrieves candidates and an LLM-based reranker refines their rankings. To improve retrieval quality, reranker-to-retriever distillation is commonly used to transfer the reranker's knowledge to the retriever. For practical deployment, however, this pipeline must continually adapt to evolving interests and incoming interactions. A naive solution is to repeatedly update the LLM reranker and distill its latest knowledge, but this incurs prohibitive costs. Updating the retriever alone is cheaper, but its lim",
+          "url": "https://arxiv.org/abs/2608.19998v1"
+        },
+        {
+          "title_zh": "Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?",
+          "eng": "Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?",
+          "summary": "Sequential recommenders increasingly use language-model architectures designed to capture complex, context-dependent interactions. Yet it remains unclear whether widely used benchmarks actually requir",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Sequential recommenders increasingly use language-model architectures designed to capture complex, context-dependent interactions. Yet it remains unclear whether widely used benchmarks actually require this modelling capacity. We investigate this question using two simple, recency-weighted pairwise probes that do not learn higher-order sequence representations: Sequential Rules (SeqRules) and our Probabilistic Collaborative Transition Model (PCTM). Using the evaluation protocol of eSASRec, at least one probe exceeds our eSASRec reproduction by 15-38% on three Amazon datasets and by 4.4% on Mov",
+          "url": "https://arxiv.org/abs/2608.19833v1"
+        },
+        {
+          "title_zh": "Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals",
+          "eng": "Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals",
+          "summary": "Large language models (LLMs) have shown promise for training-free recommendation, but LLM-generated user interests are often too broad for fine-grained item retrieval. Existing methods incorporate col",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "overview": "Large language models (LLMs) have shown promise for training-free recommendation, but LLM-generated user interests are often too broad for fine-grained item retrieval. Existing methods incorporate collaborative filtering (CF) signals in a pre-LLM manner through candidate reranking or prompt augmentation, yielding limited gains. We propose CoRRe, a training-free recommendation framework with a post-LLM paradigm that injects CF signals into LLM-generated item representations, which are later matched with LLM-generated user interests for ranking. Specifically, CoRRe refines the directions of item",
+          "url": "https://arxiv.org/abs/2608.19665v1"
+        },
+        {
+          "title_zh": "Preschool teachers’ perspectives on sharenting: A phenomenological inquiry",
+          "eng": "Preschool teachers’ perspectives on sharenting: A phenomenological inquiry",
+          "source": "Journal of Early Childhood Literacy（儿童早期读写）",
+          "region": "国际",
+          "published": "2026-08-20",
+          "url": "https://doi.org/10.1177/14687984261479418"
         },
         {
           "title_zh": "中国图书馆学会阅读推广工作委员会关于举办数智背景下新型阅读空间与环境建设研讨会的通知",
@@ -4190,5 +4278,6 @@
         "国内"
       ]
     }
-  }
+  },
+  "merged_at": "2026-08-22T06:40:36+08:00"
 }
