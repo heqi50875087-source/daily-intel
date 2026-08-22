@@ -3,7 +3,7 @@
   "date": "2026-08-22",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "degraded",
-  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 网络不可达(SSLError)",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
@@ -13,7 +13,7 @@
     "github": "2026-08-20 23:29",
     "libraries": "2026-08-20 22:36",
     "sports": "2026-08-20 23:29",
-    "academic": "2026-08-22 06:40"
+    "academic": "2026-08-23 06:40"
   },
   "modules": {
     "ai": {
@@ -1680,6 +1680,14 @@
           "region": "国际",
           "published": "2026-10-01",
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
+        },
+        {
+          "title_zh": "The academic library as co-producer of transdisciplinary engagement: A social exchange framework for resource mobilization and outreach",
+          "eng": "The academic library as co-producer of transdisciplinary engagement: A social exchange framework for resource mobilization and outreach",
+          "source": "Journal of Librarianship and Information Science",
+          "region": "国际",
+          "published": "2026-08-22",
+          "url": "https://doi.org/10.1177/09610006261477125"
         },
         {
           "title_zh": "A large-scale dataset of sub-institution name disambiguation and hierarchical structures from OpenAlex",
@@ -4286,5 +4294,6 @@
         "国内"
       ]
     }
-  }
+  },
+  "merged_at": "2026-08-23T06:40:51+08:00"
 }
