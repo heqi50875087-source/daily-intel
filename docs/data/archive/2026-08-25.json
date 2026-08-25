@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T22:34:23+08:00",
+  "generated_at": "2026-08-25T23:27:58+08:00",
   "date": "2026-08-25",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 网络不可达(SSLError)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 网络不可达(SSLError)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-08-25 22:34",
-    "ai": "2026-08-25 22:34",
+    "ai": "2026-08-25 23:27",
     "voices": "2026-08-25 22:34",
     "github": "2026-08-25 22:34",
     "libraries": "2026-08-25 22:34",
@@ -18,6 +18,32 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "OpenAI发布Jalapeño自研芯片，推理速度超越竞品",
+          "eng": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+          "summary": "OpenAI宣布其新推出的Jalapeño专用AI芯片在延迟和吞吐量方面均优于现有系统。该芯片专为大规模快速推理设计，已在SemiAnalysis的InferenceX基准测试中取得领先成绩。",
+          "source": "The Verge / TechCrunch",
+          "region": "美国",
+          "published": "2026-08-25",
+          "tags": [
+            "AI芯片",
+            "推理加速",
+            "OpenAI"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+          "overview": "OpenAI硬件副总裁Richard Ho在记者简报会上宣布，Jalapeño芯片实现了低延迟与高吞吐量的双重优势。该芯片专为大规模推理场景优化设计，在SemiAnalysis的InferenceX基准测试中，每用户token数和每千瓦吞吐量均超过当前最先进的系统。这一发布标志着OpenAI从依赖外部GPU向自研专用硬件的战略转型加速。",
+          "analysis": "Jalapeño芯片的成功意味着大模型公司正在摆脱对NVIDIA等第三方供应商的依赖，构建垂直整合的AI基础设施。如果推理效率持续提升，可能重塑云计算市场的竞争格局，尤其是对AWS和Azure形成差异化压力。但自研芯片的生态兼容性和开发者工具链成熟度仍是关键挑战。",
+          "social": [
+            {
+              "who": "硬件工程师",
+              "text": "专用AI芯片在推理场景的效率优势是确定的，但训练阶段的灵活性损失需要权衡。Jalapeño如果能在保持推理性能的同时提供足够的编程接口抽象层，将是一个重大突破。"
+            },
+            {
+              "who": "投资人",
+              "text": "OpenAI的硬件自研路线正在形成闭环——从模型到芯片再到部署全栈控制。这比纯软件公司具有更深的护城河，但也意味着更高的资本投入风险。"
+            }
+          ]
+        },
         {
           "title_zh": "苹果新芯片 M6 与 Mac Studio 专为本地 AI 推理打造",
           "eng": "Apple's new desktop computers are designed specifically for local AI development",
@@ -747,32 +773,6 @@
             {
               "who": "用户体验研究员",
               "text": "语音交互在桌面场景中的实用性仍有待验证，特别是在多任务并行处理的复杂工作流中"
-            }
-          ]
-        },
-        {
-          "title_zh": "利用市场模型解锁隐藏的航空收入流",
-          "eng": "Unlocking hidden revenue streams with market models",
-          "summary": "航空公司每天执行数百个航班，乘客常需多次中转。通过考虑需求、季节、时间、全球市场和竞争对手活动等数百个变量进行动态定价，可以挖掘隐藏的收入潜力。",
-          "source": "MIT Tech Review",
-          "region": "美国/全球",
-          "published": "2026-08-20",
-          "tags": [
-            "AI应用",
-            "航空业",
-            "动态定价"
-          ],
-          "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-          "overview": "MIT科技评论报道了航空公司如何利用复杂市场模型进行收入优化。面对数百个变量——包括需求波动、季节性因素、航班时间、全球事件和竞争对手动态——航空公司需要智能定价系统来最大化收益。文章指出，传统的固定票价模式正在被数据驱动的动态定价取代，这不仅能提升单票收入，还能通过更精准的需求预测优化整体航线网络效率。",
-          "analysis": "航空业的动态定价是AI在实体经济中应用的典型案例。当模型能够实时处理数百个变量并进行最优组合时，传统定价策略的局限性暴露无遗。这一趋势正在从航空业扩展到酒店、交通等多个行业，数据驱动的定价能力将成为企业核心竞争力的重要组成部分。",
-          "social": [
-            {
-              "who": "航空业分析师",
-              "text": "动态定价系统让航空公司能够更精准地匹配供需关系，但过度依赖算法可能引发消费者关于价格歧视的担忧。"
-            },
-            {
-              "who": "数据科学家",
-              "text": "处理数百个变量的实时定价是一个典型的机器学习优化问题，关键在于如何平衡收益最大化和用户体验。"
             }
           ]
         }
