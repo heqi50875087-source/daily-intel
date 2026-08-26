@@ -13,7 +13,7 @@
     "github": "2026-08-26 21:47",
     "libraries": "2026-08-26 23:35",
     "sports": "2026-08-26 23:35",
-    "academic": "2026-08-26 06:40"
+    "academic": "2026-08-27 06:40"
   },
   "modules": {
     "ai": {
@@ -1777,6 +1777,84 @@
           "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2090277450939404288.html"
         },
         {
+          "title_zh": "COCI: Conference Organisers and Content Identifier",
+          "eng": "COCI: Conference Organisers and Content Identifier",
+          "summary": "Despite the critical role of grey literature in scholarly communication, artefacts such as Calls for Papers (CfPs) remain largely isolated from modern Scholarly Knowledge Graphs. The unstructured and ",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Despite the critical role of grey literature in scholarly communication, artefacts such as Calls for Papers (CfPs) remain largely isolated from modern Scholarly Knowledge Graphs. The unstructured and highly heterogeneous nature of these documents has traditionally hindered their large-scale processing. In this demo paper, we present the Conference Organisers and Content Identifier (COCI), an AI-based framework designed to extract fine-grained, structured metadata from raw CfP texts. COCI employs a multi-stage pipeline that combines Large Language Models (LLMs) with semantic mapping techniques ",
+          "url": "https://arxiv.org/abs/2608.24559v1"
+        },
+        {
+          "title_zh": "Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation",
+          "eng": "Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation",
+          "summary": "Offline return-to-go (RTG) sweeps can test whether a recommender conditioned on return is controllable, but the intervention is rarely audited. Rewriting every historical RTG token creates an increasi",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Offline return-to-go (RTG) sweeps can test whether a recommender conditioned on return is controllable, but the intervention is rarely audited. Rewriting every historical RTG token creates an increasingly synthetic context, while rewriting only the current token is more local. We test this distinction in an offline setting with a fixed window. On MovieLens 25M and MyAnimeList 2020 (MAL), we evaluate a Decision Transformer using an RTG locality ladder, a control without RTG, a logged match and score reward check, and a within-trajectory shuffled RTG ablation. On MovieLens, a $K=20$ intervention",
+          "url": "https://arxiv.org/abs/2608.24815v1"
+        },
+        {
+          "title_zh": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+          "eng": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+          "summary": "We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers with a recency-aware random walk. This makes the candidate set, the reason each paper is kept, and the stopping condition explicit and fixed before inference. On LitSearch and one further benchmarks over a 500K-paper arXiv corpus, Crase outperforms deep researc",
+          "url": "https://arxiv.org/abs/2608.24809v1"
+        },
+        {
+          "title_zh": "EviGraph: Towards Verifiable Evidence Construction for Information-Seeking Agents",
+          "eng": "EviGraph: Towards Verifiable Evidence Construction for Information-Seeking Agents",
+          "summary": "Agentic Web search can retrieve relevant information without establishing that the retrieved content actually supports the claims used in an answer. Existing agents typically keep search and evidence ",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Agentic Web search can retrieve relevant information without establishing that the retrieved content actually supports the claims used in an answer. Existing agents typically keep search and evidence recording in a linear interaction trace and optimize primarily for final-answer correctness, providing limited supervision for intermediate grounding. We present EviGraph, a deep-search framework that separates search execution from evidence recording while using a shared policy for the trainable roles. An executor plans concise queries, a frozen evidence verifier inspects source pages and returns",
+          "url": "https://arxiv.org/abs/2608.24667v1"
+        },
+        {
+          "title_zh": "Rethinking Semantic Alignment in LLM-Enhanced Collaborative Filtering: A Spectral Decoupling Approach",
+          "eng": "Rethinking Semantic Alignment in LLM-Enhanced Collaborative Filtering: A Spectral Decoupling Approach",
+          "summary": "Recent advances in LLM-enhanced recommendation commonly align semantic representations with collaborative embeddings in a shared space, yet how alignment affects LLM-encoded information remains unclea",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Recent advances in LLM-enhanced recommendation commonly align semantic representations with collaborative embeddings in a shared space, yet how alignment affects LLM-encoded information remains unclear. In this work, we revisit LLM-enhanced recommendation from a spectral perspective and show that collaborative and semantic signals benefit from different spectral parts. While collaborative representations are dominated by smooth low-frequency components due to user-item homophily, semantic embeddings contain useful non-principal singular components. Through component-wise evaluation and trainin",
+          "url": "https://arxiv.org/abs/2608.24363v1"
+        },
+        {
+          "title_zh": "RecGPT-Mobile-V2 Technical Report",
+          "eng": "RecGPT-Mobile-V2 Technical Report",
+          "summary": "Personalized Query prediction maps implicit behavioral signals---clicks, favorites, purchases, and post-purchase exploration---to explicit retrieval intent. On-device deployment makes this task partic",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Personalized Query prediction maps implicit behavioral signals---clicks, favorites, purchases, and post-purchase exploration---to explicit retrieval intent. On-device deployment makes this task particularly challenging: behavioral trajectories are noisy and multi-scale, multiple Queries may be valid for a single trajectory, and a uniform reasoning policy either expends unnecessary computation on simple instances or allocates insufficient capacity to complex ones. We introduce RecGPT-Mobile-V2, an end-to-end framework that treats intent quality and execution efficiency as coupled objectives wit",
+          "url": "https://arxiv.org/abs/2608.24295v1"
+        },
+        {
+          "title_zh": "Matched Excess-Outranker Regularization for Candidate-Set Interference in Continual Knowledge Graph Embedding",
+          "eng": "Matched Excess-Outranker Regularization for Candidate-Set Interference in Continual Knowledge Graph Embedding",
+          "summary": "Continual knowledge graph embedding updates entity and relation representations as a graph grows. Existing methods primarily address catastrophic forgetting, but entity admission also changes the cand",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-25",
+          "overview": "Continual knowledge graph embedding updates entity and relation representations as a graph grows. Existing methods primarily address catastrophic forgetting, but entity admission also changes the candidate universe of every compatible query. A historical answer can therefore lose rank even when its score and its ordering among old entities are preserved. We formalize this effect as candidate-set interference and introduce Matched Excess-Outranker Regularization (MEOR), a host-level objective that compares smooth answer-relative newcomer pressure with score-blind, structurally matched old refer",
+          "url": "https://arxiv.org/abs/2608.24273v1"
+        },
+        {
+          "title_zh": "Serious leisure, information practices, and social support in active aging: Evidence from Taiwan’s senior fitness clubs",
+          "eng": "Serious leisure, information practices, and social support in active aging: Evidence from Taiwan’s senior fitness clubs",
+          "source": "Journal of Librarianship and Information Science",
+          "region": "国际",
+          "published": "2026-08-25",
+          "url": "https://doi.org/10.1177/09610006261476332"
+        },
+        {
           "title_zh": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
           "eng": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
           "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possible, to produce a fully machine-actionable graph in which ev",
@@ -1855,6 +1933,16 @@
           "published": "2026-08-24",
           "overview": "As Retrieval-Augmented Generation (RAG) shifts toward diverse portfolio generation, it is stymied by two critical bottlenecks: flawed measurement of evidence utilization, and suboptimal context budget allocation. We resolve both sequentially. To resolve measurement, we expose a pervasive ``diagnostic illusion'': standard relevance proxies fail catastrophically on hard negatives. We replace them with an efficient causal leave-one-out probe that accurately isolates generative reliance and formally calibrates the structural dilution of LLM attention. To resolve allocation, we deploy this causal p",
           "url": "https://arxiv.org/abs/2608.23252v1"
+        },
+        {
+          "title_zh": "Towards a Definition of the Computational Architecture of Open Scholarly Infrastructures",
+          "eng": "Towards a Definition of the Computational Architecture of Open Scholarly Infrastructures",
+          "summary": "This paper proposes a layered framework for defining the architecture of the computational unit of an Open Scholarly Infrastructure (OSI) and presents a concrete implementation possibility through the",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-24",
+          "overview": "This paper proposes a layered framework for defining the architecture of the computational unit of an Open Scholarly Infrastructure (OSI) and presents a concrete implementation possibility through the introduction of OpenCitations, an OSI dedicated to publishing citation data and bibliographic metadata. Grounded in the Principles of Open Scholarly Infrastructure (POSI), the study focuses on the technical dimensions of openness, sustainability, interoperability, and reproducibility that are required for a robust OSI. The proposed approach first identifies the core principles and technical featu",
+          "url": "https://arxiv.org/abs/2608.23760v1"
         },
         {
           "title_zh": "Digging with/in the spectacular: Child-dirt storied worlds",
@@ -4585,5 +4673,6 @@
         "国内"
       ]
     }
-  }
+  },
+  "merged_at": "2026-08-27T06:40:26+08:00"
 }
