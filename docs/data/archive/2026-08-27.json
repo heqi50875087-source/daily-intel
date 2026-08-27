@@ -1,23 +1,77 @@
 {
-  "generated_at": "2026-08-27T22:32:57+08:00",
+  "generated_at": "2026-08-27T23:34:27+08:00",
   "date": "2026-08-27",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-27 22:32",
-    "ai": "2026-08-27 22:32",
-    "voices": "2026-08-27 22:32",
+    "hot": "2026-08-27 23:34",
+    "ai": "2026-08-27 23:34",
+    "voices": "2026-08-27 23:34",
     "github": "2026-08-27 21:35",
-    "libraries": "2026-08-27 22:32",
-    "sports": "2026-08-27 22:32",
+    "libraries": "2026-08-27 23:34",
+    "sports": "2026-08-27 23:34",
     "academic": "2026-08-27 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "企业 AI 的真正风险并非自主智能体，而是它们之间的复杂性",
+          "eng": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+          "summary": "VentureBeat 指出，企业部署的不是单一智能体，而是互相调用 API 和彼此协作的智能体舰队，这种不可见的复杂系统才是当前最大的治理盲区。",
+          "source": "VentureBeat AI",
+          "region": "美国/全球",
+          "published": "2026-08-27",
+          "tags": [
+            "企业AI",
+            "智能体编排",
+            "架构风险",
+            "治理"
+          ],
+          "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+          "overview": "文章指出，当前企业的 AI 部署模式并非运行单一自主代理，而是部署了庞大的智能体舰队。这些智能体之间互相调用 API、彼此协作，并深入访问从未为机器决策者设计的传统应用程序。这种“看不见”的复杂系统构成了难以治理的巨大风险。",
+          "analysis": "随着多智能体架构（Multi-Agent Systems）成为主流，系统的可解释性和可控性正在急剧下降。企业需要建立新的监控和治理框架，否则 AI 系统的故障将像“黑天鹅”一样难以预测和修复。",
+          "social": [
+            {
+              "who": "CTO",
+              "text": "我们部署的 Agent 数量越多，系统就越像一个无法理解的有机体，可观测性（Observability）是当务之急。"
+            },
+            {
+              "who": "架构师",
+              "text": "传统微服务治理的经验在这里不够用，我们需要重新定义‘故障域’的概念来应对智能体间的级联失效。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 内存危机正在逼近安卓应用：数据中心硬件短缺导致手机内存缩减",
+          "eng": "AI's memory crunch is coming for Android apps",
+          "summary": "Google 正为安卓应用设定新的内存使用限制，因为 AI 数据中心的硬件需求加剧了芯片短缺，可能导致低成本手机的内存进一步减少。",
+          "source": "TechCrunch AI",
+          "region": "全球/美国",
+          "published": "2026-08-27",
+          "tags": [
+            "AI基础设施",
+            "安卓",
+            "硬件短缺",
+            "Google"
+          ],
+          "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+          "overview": "Google 正在为 Android 应用设定新的内存使用限制，原因是 AI 数据中心的建设加剧了全球半导体供应链的紧张局势。随着对高带宽内存的需求激增，用于消费级设备的芯片资源受到挤压，可能导致低端手机可用内存进一步缩减。",
+          "analysis": "这揭示了 AI 发展背后的隐性成本：算力扩张正在以牺牲终端用户体验为代价。对于依赖大量本地内存运行的安卓应用来说，这是一个不容忽视的生态变化。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Google 收紧内存限制意味着我们需要重新优化应用架构，在有限的本地资源下运行 AI 功能变得更加困难。"
+            },
+            {
+              "who": "硬件分析师",
+              "text": "AI 数据中心和消费电子之间的内存竞争是零和博弈，这将长期影响中低端手机的性能上限。"
+            }
+          ]
+        },
         {
           "title_zh": "AI智能体自主行动时代的数据层治理挑战",
           "eng": "When agents act on their own, governance has to live in the data layer",
@@ -750,58 +804,6 @@
               "text": "OpenAI的硬件自研路线正在形成闭环——从模型到芯片再到部署全栈控制。这比纯软件公司具有更深的护城河，但也意味着更高的资本投入风险。"
             }
           ]
-        },
-        {
-          "title_zh": "苹果新芯片 M6 与 Mac Studio 专为本地 AI 推理打造",
-          "eng": "Apple's new desktop computers are designed specifically for local AI development",
-          "summary": "苹果宣布推出首款 2nm 制程的 M6 芯片及最强 M5 Ultra，Mac Mini 和 Mac Studio 均针对本地 AI 模型运行进行了深度优化。新设备旨在支持用户在不依赖云端的情况下进行前沿 AI 模型的部署与开发。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-08-25",
-          "tags": [
-            "AI 硬件",
-            "Apple",
-            "本地推理"
-          ],
-          "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-          "overview": "苹果正式发布了面向 Mac 的 M6 芯片以及被称为“史上最强”的 M5 Ultra，这两款芯片均采用了先进的 2nm 制程工艺。新发布的 Mac Mini（起价 $899）和 Mac Studio 在设计上明确优先考虑了本地 AI 推理能力，允许用户直接在终端运行前沿大模型。这一策略标志着苹果正试图减少对云服务提供商的依赖，将 AI 算力深度整合进消费级硬件生态中。",
-          "analysis": "从云端到本地的范式转移正在加速，苹果的举动表明消费级设备已具备承载复杂 AI 任务的能力。这对依赖云 API 的开发者构成了潜在威胁，同时也为隐私敏感型用户提供了新的选择。",
-          "social": [
-            {
-              "who": "硬件工程师",
-              "text": "2nm 制程配合本地推理优化意味着终端设备的算力瓶颈正在被打破，这对边缘计算场景是重大利好。"
-            },
-            {
-              "who": "AI 投资人",
-              "text": "苹果押注本地 AI 可能重塑开发者生态，减少对 API 调用的依赖将改变云厂商的商业模式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "上海人形机器人嘉年华：中国AI具身智能战略落地现场",
-          "eng": "I spent a day at a robot 'carnival' in Shanghai. Here's what I saw.",
-          "summary": "MIT科技评论记者在上海体验了人形机器人嘉年华，展示了中国在具身AI领域的领先地位和产业化进程。",
-          "source": "MIT Tech Review",
-          "region": "中国/全球",
-          "published": "2026-08-25",
-          "tags": [
-            "具身智能",
-            "人形机器人",
-            "中国AI"
-          ],
-          "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-          "overview": "记者在上海参加了一场人形机器人嘉年华活动，近距离观察了多家中国公司在具身AI领域的最新进展。文章指出，将人工智能嵌入物理系统（即具身AI）是中国最新五年规划的关键方向，而中国在 humanoid 机器人领域已处于全球领先地位，近90%的相关企业来自该地区。",
-          "analysis": "上海的活动展示了中国在人形机器人产业化方面的快速推进，这不仅是技术竞争，更是国家战略层面的布局。与欧美相比，中国的优势在于供应链完整性和应用场景丰富度，但核心算法和基础模型方面仍有差距需要弥补。",
-          "social": [
-            {
-              "who": "产业分析师",
-              "text": "中国在人形机器人领域的投入力度令人印象深刻，商业化路径可能领先全球"
-            },
-            {
-              "who": "研究者",
-              "text": "具身AI是下一个十年的关键赛道，但当前技术成熟度距离真正实用仍有距离"
-            }
-          ]
         }
       ]
     },
@@ -1257,155 +1259,277 @@
     "sports": {
       "items": [
         {
-          "title_zh": "利物浦与巴黎圣日耳曼就巴尔科拉达成约1.2亿英镑协议",
+          "title_zh": "欧足联准备就世界杯出售计划对因凡蒂诺提起刑事指控",
+          "eng": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
+          "summary": "欧足联正准备在瑞士对国际足联主席因凡蒂诺提起刑事投诉，指控其在“足球前进企业”（Fifa Forward Enterprise）计划失败中存在“刑事管理不当”。同时已向美国申请获取相关文件。",
+          "source": "Guardian Football",
+          "published": "2026-08-27",
+          "url": "https://www.theguardian.com/football/2026/aug/27/uefa-preparing-to-bring-criminal-claims-against-gianni-infantino-over-world-cup-sale",
+          "overview": "欧足联升级了对国际足联的攻势，正式准备就其世界杯商业计划中的所谓“刑事管理不当”行为对因凡蒂诺提出刑事指控，并在瑞士和美国分别提交了相关申请以获取文件。这标志着足球管理机构之间冲突的重大升级，不再局限于行政施压。",
+          "analysis": "此举表明欧足联直接寻求法律途径解决与FIFA的权力之争，世界杯商业权益的归属将成为焦点。若成功，这将是对因凡蒂诺个人职业生涯的重大打击，也可能重塑国际足联的未来架构。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "欧足联终于不再忍了，直接走刑事路线，这比任何制裁都狠。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "因凡蒂诺的世界杯商业化野心可能成为他职业生涯的终点站。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "利物浦与巴黎圣日耳曼就巴尔科拉达成1.2亿英镑协议",
           "eng": "Liverpool agree £120m deal for Bradley Barcola after breakthrough talks with PSG",
-          "summary": "利物浦在夏季转会窗口中与巴黎圣日耳曼就法国边锋巴尔科拉的转会费达成妥协，总价约为1.0亿英镑加2000万英镑附加条款。这被视为利物浦寻找萨拉赫替代者的核心目标。",
+          "summary": "利物浦在转会谈判中取得突破，同意向巴黎圣日耳曼支付约1.05亿英镑加附加条款的报价以签下法国边锋巴尔科拉。此前PSG的要价高达1.45亿英镑。",
           "source": "Guardian Football",
           "published": "2026-08-27",
           "url": "https://www.theguardian.com/football/2026/aug/27/liverpool-bradley-barcola-psg-transfer-window",
-          "overview": "利物浦在夏季转会窗口中与巴黎圣日耳曼就法国边锋巴尔科拉的转会费达成妥协，总价约为1.0亿英镑加2000万英镑附加条款。此前巴黎的估值高达1.45亿英镑构成障碍，但周四晚间的谈判取得了突破。利物浦急需一名右翼球员来填补萨拉赫离队后的空缺，巴尔科拉因此成为今夏最大的引援目标之一。",
-          "analysis": "这笔交易若成行，将标志着利物浦在萨拉赫时代后重建进攻线的关键一步，同时也反映了英超俱乐部对法国年轻天才的持续追逐。对于巴黎而言，出售核心球员虽带来收入，但也意味着阵容深度的削弱。",
+          "overview": "利物浦已就布拉德利·巴尔科拉的转会与巴黎圣日耳曼达成初步协议，总价约为1.2亿英镑（含附加条款）。巴尔科拉一直是利物浦今夏的主要引援目标，旨在替代萨拉赫的右翼位置，此前PSG的1.45亿英镑估值曾被视为重大障碍。",
+          "analysis": "这笔交易若成行，将标志着利物浦在夏季转会窗口的重大动作，同时也可能引发对加克波未来的更多质疑。巴尔科拉从左边锋改踢右边锋的能力将是关键看点。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "萨拉赫离开后的右路空缺一直是利物浦最大的心病，巴尔科拉如果能适应英超节奏，确实是个不错的选择。"
+              "text": "1.2亿拿下巴尔科拉，利物浦这手笔够大，右路终于有救了。"
             },
             {
-              "who": "转会观察员",
-              "text": "1.2亿英镑的总价对于一名法国边锋来说不算离谱，但巴黎的1.45亿估值说明他们并不急于出手。"
+              "who": "转会记者",
+              "text": "PSG的1.45亿要价被砍到1.05亿加附加条款，谈判技巧值得学习。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "利亚姆·德尔阿普以创纪录身价加盟诺丁汉森林",
-          "eng": "'I can't wait': Liam Delap seals £45m Nottingham Forest move from Chelsea",
-          "summary": "切尔西前锋德尔阿普以4500万英镑的俱乐部创纪录转会费正式签约诺丁汉森林，签下五年合同。他在切尔西被主帅阿尔瓦雷斯排除在计划之外后迅速离队。",
-          "source": "Guardian Football",
-          "published": "2026-08-27",
-          "url": "https://www.theguardian.com/football/2026/aug/27/liam-delap-signs-nottingham-forest-chelsea-transfer-latest",
-          "overview": "诺丁汉森林以创纪录的4500万英镑完成了切尔西前锋利亚姆·德尔阿普的签约，他签下了一份为期五年的合同。这位23岁的球员在加盟切尔西花费了3000万英镑后，因未被主帅阿尔瓦雷斯纳入计划而陷入冷板凳，最终被森林新帅格拉斯纳视为优先引援目标。德尔阿普表示迫不及待想要开始新的征程。",
-          "analysis": "这笔交易展示了英超中游球队利用高价转会填补阵容空档的策略，同时也反映了切尔西在战术调整期清理冗余球员的决心。德尔阿普能否在诺丁汉证明自己的价值，将决定这笔创纪录投入的成败。",
-          "social": [
-            {
-              "who": "英超评论员",
-              "text": "4500万英镑买一个被冷落的球员，风险不小，但格拉斯纳显然看到了他的潜力。"
-            },
-            {
-              "who": "森林球迷",
-              "text": "终于来了！德尔阿普在切尔西吃了太多苦头，希望新环境能让他重新找回状态。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "多特蒙德领跑德甲其余球队，拜仁慕尼黑仍是夺冠最大热门",
-          "eng": "Dortmund best of the rest as Bundesliga clubs grasp at Bayern Munich's coattails | Andy Brassell",
-          "summary": "分析人士认为多特蒙德和勒沃库森正在追赶拜仁慕尼黑的步伐，但冠军争夺战依然充满悬念。德国超级杯为赛季揭幕增添了更多本土对抗的紧张感。",
-          "source": "Guardian Football",
-          "published": "2026-08-27",
-          "url": "https://www.theguardian.com/football/2026/aug/27/bundesliga-preview-bayern-munich-borussia-dortmund",
-          "overview": "随着德甲新赛季即将拉开帷幕，多特蒙德展现出重燃的斗志，勒沃库森也实现了阵容稳定，但拜仁慕尼黑依然是冠军争夺中的最大热门。德国超级杯在主场进行，赋予了比赛比欧洲其他类似赛事更多的本土对抗紧张感。德国球迷绝不允许比赛在外国土地上举行，这进一步提升了比赛的关注度。",
-          "analysis": "德甲的竞争格局正在变得更加多元，多特蒙德和勒沃库森的崛起使得拜仁的统治力面临前所未有的挑战。赛季揭幕战的选择也体现了德国足球文化中对主场荣誉的重视。",
-          "social": [
-            {
-              "who": "德甲老球迷",
-              "text": "多特蒙德回来了！看到他们重新振作，感觉德甲的竞争又精彩了。"
-            },
-            {
-              "who": "战术分析师",
-              "text": "拜仁的统治力依然不容小觑，但多特的反击和勒沃库森的稳定性确实让人不敢掉以轻心。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "莫耶斯与埃弗顿管理层是否在一条船上？",
-          "eng": "Are Moyes and Everton's owners on same page?",
-          "summary": "大卫·莫耶斯对埃弗顿管理层将去年错失欧洲赛事视为“失败”表示惊讶，引发外界对其双方立场是否一致的质疑。",
+          "title_zh": "热刺租借签下曼城前锋马尔穆什至赛季末",
+          "eng": "Tottenham sign Man City's Marmoush on loan",
+          "summary": "托特纳姆热刺以租借方式签下了曼彻斯特城前锋奥马尔·马尔穆什，租期至本赛季结束，并附带下赛季6000万英镑的强制买断条款。",
           "source": "BBC Football",
           "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cx2zk7lg622o?at_medium=RSS&at_campaign=rss",
-          "overview": "埃弗顿主帅大卫·莫耶斯表示，他对俱乐部管理层将上赛季未能参加欧洲赛事视为“失败”感到意外。BBC记者菲尔·麦克纳尔蒂对此提出疑问，探讨双方是否在战略方向上达成共识。这一分歧可能影响球队未来的引援和战术规划。",
-          "analysis": "主教练与所有者之间的理念冲突是足球管理中常见的问题，尤其是在俱乐部处于重建期时。如果管理层坚持将欧洲赛事作为核心目标，而教练组有不同的优先级，可能会导致内部摩擦加剧。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyj50j91xgo?at_medium=RSS&at_campaign=rss",
+          "overview": "热刺正式宣布签下曼城前锋马尔穆什，这是一笔为期一个赛季的租借交易，包含价值6000万英镑的下赛季强制买断义务。这一操作发生在萨维奥转会至热刺之后不久，旨在增强恩佐·马雷斯卡的攻击线选项。",
+          "analysis": "租借加强制买断的模式既降低了风险又保留了长期利益，热刺在夏季窗口展现了积极的补强态度。马尔穆什的加盟将为热刺锋线注入新的活力。",
           "social": [
             {
-              "who": "英超观察者",
-              "text": "主帅和管理层的分歧如果不解决，球队很难在短期内走出低谷。"
+              "who": "英超球迷",
+              "text": "曼城放人热刺收人，马雷斯卡终于能凑齐攻击三叉戟了。"
             },
             {
-              "who": "埃弗顿球迷",
-              "text": "希望莫耶斯能坚持自己的战术理念，不要被外界压力左右。"
+              "who": "足球分析师",
+              "text": "6000万买断条款意味着热刺对马尔穆什的长期价值充满信心。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "博格巴、桑乔等人的困境是卡里克重建曼联的警示",
-          "eng": "Plight of Pogba, Sancho and others is cautionary tale for any Carrick rebuild",
-          "summary": "布鲁诺·费尔南德斯是索尔斯克亚2021年试图缩小与竞争对手差距时唯一幸存的攻击手，其余球员如博格巴和桑乔均未能延续职业生涯。",
-          "source": "Guardian Football",
-          "published": "2026-08-27",
-          "url": "https://www.theguardian.com/football/2026/aug/27/manchester-united-michael-carrick-paul-pogba-jadon-sancho-cautionary-tale",
-          "overview": "回顾曼联2021年的夏天，索尔斯克亚的统治被视为其执教生涯的转折点。尽管当时围绕老特拉福德充满了乐观情绪，但除了布鲁诺·费尔南德斯外，包括博格巴和桑乔在内的多名攻击手最终未能延续职业生涯。这一历史教训对于任何试图重建的球队都具有警示意义。",
-          "analysis": "曼联过去的引援失败表明，仅仅依靠高价签约无法保证成功，球队需要更清晰的长期规划。卡里克若接手，必须吸取这些教训，避免重蹈覆辙。",
-          "social": [
-            {
-              "who": "老特拉福德球迷",
-              "text": "2021年的夏天确实是个转折点，希望新管理层能真正改变俱乐部的文化。"
-            },
-            {
-              "who": "足球历史学家",
-              "text": "曼联的引援历史充满了教训，博格巴和桑乔的案例尤其令人唏嘘。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "前利物浦球员兼评论员卡勒格面临破产诉讼",
-          "eng": "Carragher facing bankruptcy petition over unpaid tax claim",
-          "summary": "前利物浦及英格兰国脚、现足球评论员杰米·卡勒格因未缴纳税款账单而面临被宣布破产的风险。",
+          "title_zh": "阿尔瓦雷斯因转会传闻缺席马竞训练，巴萨退出成唯一选项",
+          "eng": "Arsenal only likely exit for Alvarez as striker skips training",
+          "summary": "胡利安·阿尔瓦雷斯在被私下告知马德里竞技不会将其出售给巴塞罗那后，自那以来一直未参加球队训练。目前阿森纳被视为其最可能的下家。",
           "source": "BBC Football",
           "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cr4vl0lw4qwo?at_medium=RSS&at_campaign=rss",
-          "overview": "前利物浦球员及英格兰国脚、现足球评论员杰米·卡勒格因未缴纳税款账单而面临被宣布破产的风险。这一消息在足球界引起了广泛关注，因为卡勒格长期以来是英超赛事中备受尊敬的解说嘉宾。",
-          "analysis": "尽管卡勒格的职业生涯充满荣誉，但个人财务问题提醒人们即使是顶级运动员和评论员也面临经济压力。这一事件可能对他在体育媒体中的地位产生一定影响。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c980e1d2vpgo?at_medium=RSS&at_campaign=rss",
+          "overview": "马德里竞技前锋阿尔瓦雷斯因转会谈判受挫而缺席了球队的日常训练。据报道，俱乐部已私下告知球员马竞不会将其卖给巴塞罗那，导致巴萨的引援计划落空。目前阿森纳被认为是唯一可能买断他的球队。",
+          "analysis": "球员因转会消息缺席训练反映了当前转会窗口的紧张氛围，阿尔瓦雷斯的高身价和竞技状态使其成为顶级俱乐部争夺的焦点。这一事件也凸显了马竞在出售核心球员时的困境。",
           "social": [
             {
-              "who": "足球记者",
-              "text": "令人意外，卡勒格一直是英超解说中的常客，没想到会面临这样的困境。"
+              "who": "资深球迷",
+              "text": "阿尔瓦雷斯这态度有点过了，但谁让他是转会市场上的香饽饽呢。"
             },
             {
-              "who": "球迷社区",
-              "text": "希望他能尽快解决财务问题，毕竟他在球场上的贡献是不可替代的。"
+              "who": "足球评论员",
+              "text": "巴萨的引援计划再次受挫，阿森纳的攻势越来越猛了。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德里世锦赛面临奇特挑战：驱赶猴子和鸽子",
+          "title_zh": "德里世锦赛面临猴子与鸽子入侵挑战",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "德里羽毛球世界锦标赛组织者正采取额外措施，以应对此前野生动物闯入赛事引发的头条新闻。",
+          "summary": "此前野生动物闯入曾引发头条，本届世锦赛组织者正采取额外措施防止类似情况干扰比赛。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的赛事中，野生动物闯入曾引发媒体关注，此次德里羽毛球世界锦标赛的组织者对此保持高度警惕。他们正在实施一系列额外措施来防止猴子和鸽子干扰比赛进程，确保顶级赛事的顺利进行。这一独特的后勤挑战反映了大型体育赛事在城市环境中面临的非传统安全难题。",
-          "analysis": "这种野生动物干扰虽然看似荒诞，却真实考验着赛事组织者的应变能力。对于观众而言，这为紧张的比赛增添了一丝趣味话题，但也提醒了未来城市赛事规划需考虑生态因素。",
+          "overview": "印度德里正在筹备羽毛球世界锦标赛，但组织者面临一个独特的后勤难题：如何防止猴子与鸽子等野生动物进入赛场。此前曾有野生动物闯入赛事引发媒体关注，本届赛事组委会已升级安保措施以应对这一情况。",
+          "analysis": "大型体育赛事在热带或半开放场馆举办时，动物管理往往是容易被忽视的隐患，此次事件凸显了赛事组织在全球化背景下面临的非传统挑战。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "在德里看球本来就很刺激，没想到连猴子都来凑热闹，希望不影响选手发挥。"
+              "text": "这种场面确实罕见但也能增加看点，希望不影响选手发挥。"
             },
             {
-              "who": "赛事观察者",
-              "text": "顶级赛事在城市举办确实面临更多变数，野生动物管控是容易被忽视的环节。"
+              "who": "赛事组织者视角",
+              "text": "安保升级是必要的，毕竟顶级赛事不容许任何意外干扰。"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "",
-          "region": "乒乓球"
+          "title_zh": "欧足联对因凡蒂诺及国际足联展开刑事法律行动",
+          "eng": "Uefa pursuing criminal legal action against Infantino and Fifa",
+          "summary": "欧足联正就世界杯股权出售计划失败一事，对国际足联及其主席因凡蒂诺提起刑事诉讼。",
+          "source": "BBC Sport",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx2zl5kwlxjo?at_medium=RSS&at_campaign=rss",
+          "overview": "欧足联宣布正对国际足联及其主席詹尼·因凡蒂诺展开刑事法律程序，起因是世界杯股权出售计划的失败。这一举措标志着足球治理领域内部矛盾的公开化和升级化。此举可能对未来世界杯商业模式的走向产生深远影响，并引发关于体育组织透明度的广泛讨论。",
+          "analysis": "欧足联与FIFA之间的法律对抗不仅是商业纠纷，更触及了国际足球权力结构的根本问题。如果刑事程序推进，可能会动摇因凡蒂诺的权威，重塑全球足球的商业格局。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "这标志着足球治理领域的重大冲突升级，可能影响未来世界杯商业模式的走向。"
+            },
+            {
+              "who": "体育记者",
+              "text": "欧足联此举显示了其维护自身利益的决心，但也可能引发国际足联的强烈反击。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "热刺租借曼城前锋马尔穆什至赛季结束",
+          "eng": "Tottenham sign Man City's Marmoush on loan",
+          "summary": "托特纳姆热刺以租借形式签下曼城前锋奥马尔·马尔穆什，租期至本赛季末，下赛季有6000万英镑的强制买断条款。",
+          "source": "BBC Sport",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyj50j91xgo?at_medium=RSS&at_campaign=rss",
+          "overview": "托特纳姆热刺在夏窗期间完成了对曼城前锋奥马尔·马尔穆什的租借签约，合同覆盖本赛季剩余时间。协议中包含下赛季6000万英镑的强制买断条款，表明双方对球员价值的认可。这笔交易反映了热刺在锋线位置的补强需求以及英超球队间的激烈竞争。",
+          "analysis": "这笔交易显示了热刺在夏窗补强锋线的决心，同时也反映了曼城对球员价值的认可。对于马尔穆什而言，租借经历将有助于他在顶级联赛站稳脚跟。",
+          "social": [
+            {
+              "who": "英超观察者",
+              "text": "这笔交易显示了热刺在夏窗补强锋线的决心，同时也反映了曼城对球员价值的认可。"
+            },
+            {
+              "who": "转会分析师",
+              "text": "6000万英镑的强制买断条款意味着热刺对马尔穆什的未来持积极态度，但也给曼城留了后路。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "同性恋世界杯球星加盟沙特俱乐部引发球迷反弹",
+          "eng": "Fan backlash as gay World Cup star joins Saudi club",
+          "summary": "西班牙前锋埃斯特·冈萨雷斯签约沙特女子超级联赛球队阿尔卡迪西亚后，因其性取向遭受了来自部分球迷的强烈反对。",
+          "source": "BBC Sport",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cvgyl2dvvv0o?at_medium=RSS&at_campaign=rss",
+          "overview": "西班牙前锋埃斯特·冈萨雷斯在签约沙特女子超级联赛球队阿尔卡迪西亚后，因其公开的同性恋身份引发了部分球迷的强烈反弹。这一事件发生在世界杯之后，凸显了足球界在LGBTQ+包容性与地区文化保守势力之间的持续张力。",
+          "analysis": "这一事件凸显了足球界在LGBTQ+包容性与地区文化保守势力之间的持续张力。冈萨雷斯的签约不仅是个人职业选择，更是对体育界多元文化的挑战。",
+          "social": [
+            {
+              "who": "女足支持者",
+              "text": "冈萨雷斯的签约不仅是个人职业选择，更是对体育界多元文化的挑战。"
+            },
+            {
+              "who": "媒体评论员",
+              "text": "这一事件发生在世界杯之后，凸显了足球界在LGBTQ+包容性与地区文化保守势力之间的持续张力。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "门西克与穆霍娃赢得美网混双冠军",
+          "eng": "Mensik & Muchova win US Open mixed doubles title",
+          "summary": "卡罗利娜·穆霍娃和雅库布·门西克在美网混双决赛中挽救了两个赛点，最终夺冠并收获100万美元奖金。",
+          "source": "BBC Tennis",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c8xken9v4xno?at_medium=RSS&at_campaign=rss",
+          "overview": "卡罗利娜·穆霍娃和雅库布·门西克在美网混双决赛中展现了出色的韧性，在关键时刻挽救了两个赛点并最终夺冠。他们获得了100万美元的奖金，这一胜利巩固了他们在网球界的地位。这对组合的表现证明了他们在高压环境下的心理素质和竞技水平。",
+          "analysis": "这对组合展现了出色的韧性，在关键时刻的逆转能力令人印象深刻。他们的胜利也为美网混双赛事增添了更多的看点。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "这对组合展现了出色的韧性，在关键时刻的逆转能力令人印象深刻。"
+            },
+            {
+              "who": "赛事解说",
+              "text": "他们的胜利也为美网混双赛事增添了更多的看点，为观众带来了精彩的比赛体验。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "瓦林卡获美网迟来外卡作生涯告别战",
+          "eng": "Wawrinka given late wildcard for US Open farewell",
+          "summary": "斯坦·瓦林卡在最初未获得外卡的情况下，最终被给予一张迟来的外卡，将在美网进行其职业生涯的最后一场大满贯比赛。",
+          "source": "BBC Tennis",
+          "published": "2026-08-26",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvgye2w5x20o?at_medium=RSS&at_campaign=rss",
+          "overview": "斯坦·瓦林卡在最初未获得外卡的情况下，最终被给予一张迟来的外卡，将在美网进行其职业生涯的最后一场大满贯比赛。这一决定体现了网球界对这位传奇选手的尊重和认可。瓦林卡的告别之旅注定充满情感色彩，这对外卡制度的灵活性也提出了新的讨论。",
+          "analysis": "作为一位传奇选手，瓦林卡的告别之旅注定充满情感色彩，这对外卡制度的灵活性也提出了新的讨论。这一决定体现了网球界对这位传奇选手的尊重和认可。",
+          "social": [
+            {
+              "who": "瓦林卡粉丝",
+              "text": "作为一位传奇选手，瓦林卡的告别之旅注定充满情感色彩，这对外卡制度的灵活性也提出了新的讨论。"
+            },
+            {
+              "who": "大满贯老球迷",
+              "text": "这一决定体现了网球界对这位传奇选手的尊重和认可，也为美网增添了一份特殊的意义。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "威廉姆斯姐妹获美网双打外卡",
+          "eng": "Williams sisters given US Open doubles wildcard",
+          "summary": "塞雷娜和维纳斯·威廉姆斯将在美网搭档参加双打比赛，这是她们四年来的首次大满贯组合亮相。",
+          "source": "BBC Tennis",
+          "published": "2026-08-26",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c1l1r7p1ggeo?at_medium=RSS&at_campaign=rss",
+          "overview": "塞雷娜和维纳斯·威廉姆斯将在美网搭档参加双打比赛，这是她们四年来的首次大满贯组合亮相。这一消息无疑将吸引大量关注，两位传奇选手的回归为网球界注入了新的活力。她们的经验对年轻选手也是宝贵的激励。",
+          "analysis": "这对传奇姐妹花重返赛场无疑将吸引大量关注，她们的经验对年轻选手也是宝贵的激励。这一合作展示了她们深厚的友谊和竞技实力。",
+          "social": [
+            {
+              "who": "网坛怀旧者",
+              "text": "这对传奇姐妹花重返赛场无疑将吸引大量关注，她们的经验对年轻选手也是宝贵的激励。"
+            },
+            {
+              "who": "双打专家",
+              "text": "这一合作展示了她们深厚的友谊和竞技实力，为美网双打赛事增添了更多的看点。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "卡拉格面临因欠税被申请破产的诉讼",
+          "eng": "Carragher facing bankruptcy petition over unpaid tax claim",
+          "summary": "前利物浦及英格兰球员、现足球评论员杰米·卡拉格正面临因未缴纳税款而被申请破产的法律程序。",
+          "source": "BBC Sport",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cr4vl0lw4qwo?at_medium=RSS&at_campaign=rss",
+          "overview": "前利物浦及英格兰球员、现足球评论员杰米·卡拉格正面临因未缴纳税款而被申请破产的法律程序。这一事件引发了公众对体育名人财务责任及税务合规问题的关注，也对其个人声誉造成了影响。",
+          "analysis": "这一事件引发了公众对体育名人财务责任及税务合规问题的关注，也对其个人声誉造成了影响。这提醒了所有公众人物在享受特权的同時，也应承担相应的法律责任。",
+          "social": [
+            {
+              "who": "利物浦球迷",
+              "text": "这一事件引发了公众对体育名人财务责任及税务合规问题的关注，也对其个人声誉造成了影响。"
+            },
+            {
+              "who": "足球评论观众",
+              "text": "这提醒了所有公众人物在享受特权的同時，也应承担相应的法律责任。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英国篮协签下NBA球员助力欧锦赛预选赛",
+          "eng": "NBA recruits boost GB bid for EuroBasket success",
+          "summary": "英国篮协在近期成功招募了三名现役、前或未来的NBA球员，以备战本周的欧锦赛资格赛双头赛。",
+          "source": "BBC Basketball",
+          "published": "2026-08-26",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/cy7z6nnm4mdo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国篮协在近期成功招募了三名现役、前或未来的NBA球员，以备战本周的欧锦赛资格赛双头赛。这一举措旨在提升英国队在欧洲篮球赛场上的竞争力，为即将到来的大赛增添更多希望。拥有NBA级别的球员阵容将极大增强球队的整体实力。",
+          "analysis": "拥有NBA级别的球员阵容将极大提升英国队的竞争力，有望为即将到来的大赛增添更多希望。这显示了英国篮协在人才培养和引进方面的战略眼光。",
+          "social": [
+            {
+              "who": "篮球迷",
+              "text": "拥有NBA级别的球员阵容将极大提升英国队的竞争力，有望为即将到来的大赛增添更多希望。"
+            },
+            {
+              "who": "欧锦赛关注者",
+              "text": "这显示了英国篮协在人才培养和引进方面的战略眼光，也为欧洲篮球格局带来了新的变数。"
+            }
+          ],
+          "region": "综合"
         }
       ],
       "regions": [
@@ -1665,226 +1789,103 @@
       "items": [
         {
           "title_zh": "冰川崩塌引发特大洪水，至少270人死亡",
-          "summary": "一次大规模冰川崩塌引发的突发洪水已造成至少270人死亡，另有超过800人失踪。幸存者描述了家人被洪水卷走的恐怖经历。",
+          "summary": "大规模山洪导致严重灾害，已造成至少270人死亡，另有800余人失踪。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-27",
           "url": "https://www.bbc.co.uk/news/videos/ckgxnrg8j19o?at_medium=RSS&at_campaign=rss",
-          "overview": "一次罕见的冰川崩塌事件引发了灾难性的突发洪水，造成至少270人死亡、超过800人失踪。BBC报道了视频画面和幸存者证词，一名女性描述亲眼目睹父亲、母亲、姐妹及外甥被洪水卷走的全过程。这场灾害的破坏力令人震惊，凸显了气候变化对极端天气事件的加剧影响。",
-          "analysis": "此次冰川崩塌洪水是近年来最严重的自然灾害之一，死亡人数和失踪人数均创纪录。事件背后折射出全球变暖导致冰川加速融化的严峻现实，对高海拔地区居民的生命安全构成持续威胁。",
+          "overview": "视频报道显示冰川崩塌引发了毁灭性的山洪灾害。目前已知至少270人在此次灾难中丧生，另有超过800人下落不明。救援工作仍在紧张进行中。",
+          "analysis": "此次冰川崩塌的破坏力令人震惊，凸显了气候变化对极端天气事件的潜在影响。失踪人数众多意味着实际伤亡可能远超当前统计。",
           "social": [
             {
               "who": "BBC记者",
-              "text": "视频画面清晰记录了洪水冲击的惨烈场景，令人触目惊心"
-            },
-            {
-              "who": "幸存者家属",
-              "text": "我们亲眼目睹家人被洪水卷走，至今无法接受这个事实"
+              "text": "视频画面清晰记录了洪水冲击的瞬间，场面触目惊心。"
             }
           ]
         },
         {
-          "title_zh": "英国沙门氏菌疫情逼近500例，鸡蛋溯源调查持续",
-          "summary": "英国当局报告称近500人感染与进口鸡蛋相关的沙门氏菌，正在调查更多病例聚集点。",
+          "title_zh": "欧足联对国际足联主席因凡蒂诺提起刑事诉讼",
+          "summary": "欧足联正就世界杯股权出售失败计划，对国际足联及其主席因凡蒂诺展开刑事法律行动。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/news/articles/cn8ej0zvppxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国卫生当局报告称，与进口鸡蛋相关的沙门氏菌感染病例已接近500例，且正在调查更多病例聚集点。这一疫情规模远超往年同期水平，引发公众对食品安全的广泛关注。英国政府正全力追查污染源和传播途径，以遏制疫情进一步扩散。",
-          "analysis": "此次沙门氏菌疫情的规模和速度令人担忧，进口鸡蛋成为主要传播媒介引发了国际贸易食品安全监管的讨论。若溯源失败可能导致大规模食品召回，影响英国消费者信心。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cx2zl5kwlxjo?at_medium=RSS&at_campaign=rss",
+          "overview": "欧足联宣布将对国际足联及现任主席因凡蒂诺提起刑事诉讼，起因是世界杯股权出售计划的失败。这一举措标志着两大足球管理机构之间的法律冲突升级。",
+          "analysis": "此举可能引发国际足联内部的权力动荡，对即将到来的世界杯赛事组织产生不确定性影响。",
           "social": [
             {
-              "who": "公共卫生专家",
-              "text": "500例感染数字异常偏高，需要立即采取更严格的进口食品检测措施"
-            },
-            {
-              "who": "普通市民",
-              "text": "日常食用的鸡蛋安全吗？这让我们对食品安全产生了严重担忧"
+              "who": "体育评论员",
+              "text": "这是足球界近年来最严重的法律纠纷之一，后果难以预料。"
             }
           ]
         },
         {
-          "title_zh": "前BBC主持人Jenni Murray车祸后八天去世，验尸官听证会披露细节",
-          "summary": "前BBC Radio 4《Woman's Hour》节目主持人Jenni Murray在一年前的车祸中受伤，八天后不治身亡。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/news/articles/cm27y2dx7pwo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国知名广播主持人Jenni Murray在验尸官听证会上被披露于一年前遭遇车祸，受伤后八天去世。她曾是BBC Radio 4《Woman's Hour》节目的长期主持人，在英国广播界具有重要影响力。此次事件引发了公众对交通事故后续医疗救治和名人健康权益的关注讨论。",
-          "analysis": "Jenni Murray的离世不仅是一位媒体人的损失，也引发了关于严重车祸后急救和后续治疗标准的讨论。她的去世时间距离事故仅八天，凸显了创伤医学领域的挑战。",
-          "social": [
-            {
-              "who": "BBC广播界人士",
-              "text": "Jenni Murray是英国广播界的标志性人物，她的离世令人痛惜"
-            },
-            {
-              "who": "听众代表",
-              "text": "她主持的节目陪伴了无数人的日常生活，失去了一位亲切的声音"
-            }
-          ]
-        },
-        {
-          "title_zh": "日本艺术家草间弥生去世，享年97岁",
-          "summary": "以创造沉浸式艺术世界闻名的日本传奇艺术家草间弥生于2026年8月27日去世，享年97岁。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/news/articles/cjdv57kvnk0o?at_medium=RSS&at_campaign=rss",
-          "overview": "日本当代艺术大师草间弥生于2026年8月27日去世，享年97岁。她以创造令人惊叹的沉浸式艺术世界而闻名全球，吸引了数百万游客参观其展览。BBC以图片专题形式回顾了她充满个性的艺术生涯和创作历程。",
-          "analysis": "草间弥生是当代最具影响力的艺术家之一，她的波点、无限镜屋等作品已成为流行文化符号。她的去世标志着一个时代的结束，全球艺术界将举行各种纪念活动。",
-          "social": [
-            {
-              "who": "艺术评论家",
-              "text": "草间弥生用一生诠释了艺术的纯粹力量，她是当之无愧的传奇"
-            },
-            {
-              "who": "展览参观者",
-              "text": "她的无限镜屋曾让我感受到宇宙的浩瀚与个人的渺小，这种体验无可替代"
-            }
-          ]
-        },
-        {
-          "title_zh": "前南斯拉夫战争罪犯姆拉迪奇去世，享年84岁",
-          "summary": "被判处终身监禁的前波斯尼亚塞族战争罪犯拉多万·姆拉迪奇于2026年8月27日去世，享年84岁。",
+          "title_zh": "前南斯拉夫战犯姆拉迪奇在狱中去世，享年84岁",
+          "summary": "被判处终身监禁的前南斯拉夫战争罪犯姆拉迪奇去世，此前因种族灭绝等罪行入狱。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-27",
           "url": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
-          "overview": "前南斯拉夫战争罪犯拉多万·姆拉迪奇于2026年8月27日去世，享年84岁。他因在1992-1995年前南斯拉夫内战期间犯下种族灭绝罪、战争罪和反人类罪，于2017年被判处终身监禁。BBC报道了这一消息，回顾了他作为战争罪犯的审判历程和历史影响。",
-          "analysis": "姆拉迪奇的去世再次引发了国际社会对前南斯拉夫战争罪行追责和人道主义后果的讨论。尽管他已入狱服刑，但其行为造成的创伤和影响至今仍在波黑等地区持续显现。",
+          "overview": "前南斯拉夫战争罪嫌疑人、被判处终身监禁的姆拉迪奇在监狱中去世，享年84岁。他因1992年至1995年间在前南斯拉夫战争中犯下的种族灭绝和反人类罪被判刑。",
+          "analysis": "作为二战后欧洲最臭名昭著战犯之一，其死亡再次引发国际社会对战争罪行追责机制的讨论。",
           "social": [
             {
-              "who": "国际法学者",
-              "text": "姆拉迪奇的审判是国际刑事司法的重要里程碑，他的死不应成为遗忘的借口"
-            },
-            {
-              "who": "前南地区居民",
-              "text": "那段战争岁月给无数家庭带来了无法愈合的伤痛，历史教训必须被铭记"
+              "who": "历史学者",
+              "text": "正义虽迟但到，他的死结束了长达数十年的法律追诉历程。"
             }
           ]
         },
         {
-          "title_zh": "英国呼吁协助释放因姐姐 activism 在开罗被捕的英裔埃及女性",
-          "summary": "律师声称伯明翰居民Eman el-Shazly在访问埃及期间被捕，目的是压制其从事政治活动的妹妹。英国外交部被要求介入。",
-          "source": "Guardian World",
+          "title_zh": "英国名主持人珍妮·默里车祸后数日去世",
+          "summary": "前BBC Radio 4《女性之声》主持人珍妮·默里在发生车祸八天后不幸离世。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-08-27",
-          "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
-          "overview": "英国伯明翰居民Eman el-Shazly在访问埃及期间于8月16日被捕，律师声称这是为了压制其妹妹Mona的政治活动。Mona是埃及塞西政权批评者。英国外交部已被要求介入以确保该女性的获释。这一事件引发了国际社会对政治迫害和人权保护的广泛关注。",
-          "analysis": "此案凸显了跨国政治迫害的复杂性，涉及外交干预、人权保护和言论自由等多重议题。英国政府是否愿意介入将影响其国际形象和外交政策走向。",
+          "url": "https://www.bbc.co.uk/news/articles/cm27y2dx7pwo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国家喻户晓的广播主持人珍妮·默里在今年早些时候因车祸去世，距事故发生仅八天。验尸听证会确认了死讯。",
+          "analysis": "默里是英国广播界的重要人物，她的离世令众多听众和同行深感悲痛。",
           "social": [
             {
-              "who": "人权活动人士",
-              "text": "因家人政治立场而被捕是典型的政治迫害行为，国际社会必须发声"
-            },
-            {
-              "who": "英国公民",
-              "text": "希望英国政府能尽快采取行动保护本国公民在海外的人权"
+              "who": "BBC粉丝",
+              "text": "一位伟大的声音离开了我们，愿她安息。"
             }
           ]
         },
         {
-          "title_zh": "猴痘疫情蔓延至新国家，儿童成主要受影响群体",
-          "summary": "几内亚比绍出现该国首例猴痘病例，全球已有近19万例实验室确认病例分布在145个国家。",
-          "source": "Guardian World",
+          "title_zh": "英国沙门氏菌病例逼近500例，鸡蛋调查持续",
+          "summary": "近500人因食用进口鸡蛋感染沙门氏菌而生病，英方正在调查更多聚集性病例。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
-          "overview": "几内亚比绍出现该国首例猴痘病例，标志着这一病毒正式进入新国家。自2022年以来，全球已有近19万例实验室确认的猴痘病例分布在145个国家。与以往相比，此次疫情中儿童成为特别易感的群体，引发了公共卫生界的紧急关注。",
-          "analysis": "猴痘疫情的持续蔓延和地理扩展表明病毒传播模式正在发生变化，儿童感染率上升尤其令人担忧。国际社会需要加强监测、疫苗接种和跨境防控合作以遏制疫情进一步扩散。",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/news/articles/cn8ej0zvppxo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国当局报告称，与进口鸡蛋相关的沙门氏菌感染病例已接近500例，目前正在对更多聚集性疫情进行调查。",
+          "analysis": "食品安全问题再次成为公众关注的焦点，进口食品监管漏洞亟待修补。",
           "social": [
             {
               "who": "公共卫生专家",
-              "text": "儿童成为主要受影响群体是前所未有的变化，需要针对性制定防护策略"
-            },
-            {
-              "who": "家长代表",
-              "text": "担心孩子在学校环境中感染猴痘，希望政府加强校园防疫措施"
+              "text": "需要尽快追踪源头并公布受影响批次，保障消费者安全。"
             }
           ]
         },
         {
-          "title_zh": "特朗普贸易战：加拿大以威胁冰球棍反击美国关税要求",
-          "summary": "美国总统此前期望渥太华屈服于关税要求，但加拿大正予以回击，这可能给美国人带来代价。",
-          "source": "Guardian World",
+          "title_zh": "《Top Gear》确认四年后回归电视荧屏",
+          "summary": "节目在2022年安德鲁·弗林托夫拍摄事故受伤后被暂停，现确认将重返电视。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/us-news/2026/aug/26/trump-canada-trade-war",
-          "overview": "美国总统此前期望加拿大屈服于关税要求，但加拿大正以威胁冰球棍等标志性商品的方式予以回击。这一贸易争端可能给美国消费者带来额外成本。文章指出，尽管民调显示加拿大是全球最受欢迎的国家之一，但在贸易谈判中双方立场强硬。",
-          "analysis": "美加贸易战升级反映了当前全球贸易保护主义抬头的大趋势。冰球棍作为加拿大国旗象征被用作谈判筹码，凸显了这场贸易争端的文化维度。最终结果将影响两国经济关系和北美自由贸易格局。",
+          "published": "2026-08-27",
+          "url": "https://www.bbc.co.uk/news/articles/clym7yrdk29o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国经典汽车节目《Top Gear》宣布将在停播四年后回归电视荧屏，此前因主持人安德鲁·弗林托夫在拍摄中受伤而暂停制作。",
+          "analysis": "该节目的回归标志着BBC娱乐板块的重要时刻，观众期待新阵容带来的变化。",
           "social": [
             {
-              "who": "贸易分析师",
-              "text": "双方都在试探底线，这场贸易战可能持续数月甚至更长时间"
-            },
-            {
-              "who": "普通消费者",
-              "text": "关税战最终买单的是老百姓，希望政府能以和平方式解决争端"
-            }
-          ]
-        },
-        {
-          "title_zh": "哈里王子辞去野生动物慈善机构董事会职务",
-          "summary": "苏塞克斯公爵的发言人确认他不再担任非洲公园组织的受托人，该组织去年承认其护林员在刚果共和国犯下人权侵犯行为。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-24",
-          "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
-          "overview": "哈里王子已辞去非洲公园组织（African Parks）董事会职务，该组织去年承认其护林员在刚果共和国犯下人权侵犯行为。苏塞克斯公爵发言人确认他不再担任受托人，但表示仍是该组织使命的'积极和热切支持者'。这一事件引发了公众对名人参与慈善机构治理责任的讨论。",
-          "analysis": "哈里王子辞去职务反映了公众对名人慈善参与透明度和问责制的日益关注。非洲公园组织的人权问题暴露了野生动物保护与社区权益之间的复杂平衡，需要更完善的监督机制。",
-          "social": [
-            {
-              "who": "环保活动人士",
-              "text": "名人应该为所参与的机构负责到底，不能在人权争议后选择退出"
-            },
-            {
-              "who": "普通公众",
-              "text": "希望名人参与慈善时能更加透明和负责任，避免损害受助社区利益"
-            }
-          ]
-        },
-        {
-          "title_zh": "南非警方逮捕两名泰国男子涉嫌走私鹦鹉蛋",
-          "summary": "两名泰国国民在约翰内斯堡机场被逮捕，携带50枚鸟类蛋的自制孵化器试图将濒危鹦鹉蛋偷运出境。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
-          "overview": "南非警方在约翰内斯堡奥利弗·坦博国际机场逮捕了两名泰国国民，他们涉嫌试图将濒危鹦鹉蛋偷运出境。一名50岁泰国男子于8月20日被捕，携带50枚鸟类蛋的自制孵化器放在手提行李中。这是南非当局打击野生动物走私行动的一部分。",
-          "analysis": "此案凸显了国际野生动物走私网络的复杂性和隐蔽性。自制孵化器的使用表明走私者试图规避检测，反映出野生动物贸易监管面临的持续挑战。",
-          "social": [
-            {
-              "who": "野生动物保护专家",
-              "text": "鹦鹉蛋走私对濒危物种种群恢复造成严重威胁，需要加强国际合作"
-            },
-            {
-              "who": "机场安检人员",
-              "text": "自制孵化器伪装成普通行李，检测难度很大，需要更先进的识别技术"
-            }
-          ]
-        },
-        {
-          "title_zh": "加纳年轻人掀起本土食品运动，用木薯串和辣木拿铁夺回饮食权力",
-          "summary": "在加纳，一场草根运动正在倡导营养丰富的本土农产品，而非西方进口食品。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/global-development/2026/aug/26/moringa-lattes-and-tigernut-kebabs-the-young-ghanaians-taking-back-the-power-of-their-food",
-          "overview": "在加纳，一场草根运动正在倡导营养丰富的本土农产品，而非西方进口食品。32岁的Abiro Wisdom在阿克拉完成了三年烹饪学校学习后，决定不走传统国际酒店路线，而是专注于推广辣木拿铁、虎坚果串等本土健康食品。这一运动反映了年轻一代对气候韧性和文化认同的追求。",
-          "analysis": "加纳本土食品运动的兴起代表了发展中国家饮食文化的觉醒和自信回归。在全球化背景下，这种'夺回饮食权力'的趋势可能影响更多国家的农业政策和消费选择。",
-          "social": [
-            {
-              "who": "年轻创业者",
-              "text": "我们吃的是自己土地上生长的食物，这才是真正的健康和可持续"
-            },
-            {
-              "who": "食品行业观察者",
-              "text": "这种本土化趋势可能改变整个非洲餐饮业的格局和供应链结构"
+              "who": "汽车爱好者",
+              "text": "等了四年终于回来了！希望新团队能延续经典风格。"
             }
           ]
         }
       ],
       "regions": [
+        "中国",
         "国外"
       ]
     },
@@ -1893,58 +1894,58 @@
         {
           "name": "Sam Altman",
           "role": "OpenAI CEO",
-          "region": "美国",
+          "region": "美国/全球",
           "domain": "ai",
-          "recent": "关注 OpenAI 智能体安全事件及在印度市场的商业化广告策略调整。",
-          "url": "https://openai.com"
+          "recent": "聚焦智能体安全治理与企业 AI 复杂性风险，同时推进全球市场广告商业化策略。",
+          "url": "https://samaltman.com"
         },
         {
           "name": "Yann LeCun",
-          "role": "Meta AI 首席科学家",
-          "region": "法国/全球",
+          "role": "AI 研究者 (原 Meta AI 首席科学家)",
+          "region": "法国/美国",
           "domain": "ai",
-          "recent": "回应 Meta 在儿童安全诉讼和解及放弃用智能体替代员工的争议性决策。",
-          "url": "https://www.facebook.com/yann.lecun"
-        },
-        {
-          "name": "Bill Gates",
-          "role": "盖茨基金会联合主席",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "公开揭示对 AI 技术快速演进带来的社会风险与深层担忧。",
-          "url": "https://www.gatesnotes.com"
-        },
-        {
-          "name": "Clément Delangue",
-          "role": "Hugging Face CEO",
-          "region": "美国/法国",
-          "domain": "ai",
-          "recent": "面临英伟达 129 亿美元收购要约，聚焦开源 AI 社区生态与数据治理。",
-          "url": "https://huggingface.co"
+          "recent": "关注自主智能体的可靠性问题及开源模型对商业 AI 替代路径的潜在影响。",
+          "url": "https://yannlecun.com"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人 / AI 研究者",
+          "role": "播客主理人 / 技术思想家",
           "region": "美国/全球",
           "domain": "podcast",
-          "recent": "持续深度访谈 AI 领域关键人物，探讨智能体自主行动与数据伦理议题。",
+          "recent": "通过深度访谈持续探讨 AGI 进展及其对社会结构、就业与人类未来的深远影响。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "杜丰平",
-          "role": "中国图书馆学会会长",
-          "region": "中国",
+          "name": "Sarah Miller",
+          "role": "《American Libraries》主编",
+          "region": "美国",
           "domain": "library",
-          "recent": "推动中俄图书馆合作论坛及全国馆社共荐优质书目等全民阅读服务平台建设。",
-          "url": "https://www.clsc.org.cn"
+          "recent": "致力于图书馆数字资源经费保障（E-Rate）及全民阅读社区服务创新与书目推荐。",
+          "url": ""
         },
         {
-          "name": "Tim Berners-Lee",
-          "role": "万维网发明者 / Solid 基金会创始人",
-          "region": "英国",
-          "domain": "ai/library",
-          "recent": "关注 AI 智能体时代的数据主权治理，倡导图书馆与网络档案在数据层的新角色。",
-          "url": "https://www.w3.org"
+          "name": "李国新",
+          "role": "中国图书馆学会负责人",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动智慧图书馆在县域及乡村的落地建设，并促进中俄等跨国图书馆交流与服务。",
+          "url": ""
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI 安全与治理倡导者 (DAIR 创始人)",
+          "region": "全球/美国",
+          "domain": "ai",
+          "recent": "倡导 AI 治理必须扎根数据层，警惕企业 AI 系统间复杂性带来的系统性风险。",
+          "url": ""
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "AI 教育先驱 / DeepLearning.AI CEO",
+          "region": "美国/全球",
+          "domain": "ai",
+          "recent": "探索人工智能在教育公平与普惠发展中的应用路径，推动 AI 赋能社会基础设施。",
+          "url": "https://www.andrewng.org"
         }
       ]
     },
