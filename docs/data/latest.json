@@ -1,23 +1,49 @@
 {
-  "generated_at": "2026-08-28T10:39:52+08:00",
+  "generated_at": "2026-08-28T11:24:21+08:00",
   "date": "2026-08-28",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-28 10:39",
-    "ai": "2026-08-28 10:39",
+    "hot": "2026-08-28 11:24",
+    "ai": "2026-08-28 11:24",
     "voices": "2026-08-28 10:39",
-    "github": "2026-08-28 09:20",
-    "libraries": "2026-08-28 10:39",
+    "github": "2026-08-28 11:24",
+    "libraries": "2026-08-28 11:24",
     "sports": "2026-08-28 10:39",
     "academic": "2026-08-28 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Thinking Machines联合创始人Barret Zoph离开OpenAI加入Google",
+          "eng": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+          "summary": "曾与Mira Murati共同创立Thinking Machines Lab并担任CTO的Barret Zoph，在短暂效力OpenAI后被解雇，现已加入Google。这一人才流动折射出AI行业激烈的竞争格局。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-08-27",
+          "tags": [
+            "人才流动",
+            "OpenAI",
+            "Google"
+          ],
+          "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+          "overview": "据TechCrunch报道，Barret Zoph——Thinking Machines Lab的联合创始人及CTO，曾在短暂加入OpenAI后被解雇——现已正式加入Google。Zoph此前与Mira Murati共同创立了Thinking Machines Lab，并在该初创公司担任技术核心角色。这一人事变动再次凸显了AI行业顶级人才的稀缺性和各大科技巨头之间激烈的争夺态势。",
+          "analysis": "Zoph的动向表明，即使是OpenAI这样的头部企业，在人才竞争中也可能面临被“挖角”的风险。Google作为传统搜索巨头向AI转型的代表，正通过吸纳顶尖技术领袖来加速其AI战略的实施。",
+          "social": [
+            {
+              "who": "行业观察者",
+              "text": "顶级人才的流动往往预示着下一个技术突破的方向，Zoph的加入对Google的AI研发是重大利好。"
+            },
+            {
+              "who": "前OpenAI员工",
+              "text": "人才市场的流动性说明没有一家公司能永远垄断最优秀的头脑，竞争才是推动进步的动力。"
+            }
+          ]
+        },
         {
           "title_zh": "Anthropic推出新硬件标准：让AI代理控制物理世界",
           "eng": "Anthropic's new hardware standard lets AI agents control the physical world",
@@ -785,32 +811,6 @@
               "text": "算力成本的下降和供应的增加将有助于推动更大规模、更复杂的 AI 模型的研发和应用。"
             }
           ]
-        },
-        {
-          "title_zh": "Z.ai确认是神秘Ox Alpha模型背后的AI实验室",
-          "eng": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-          "summary": "科技公司Z.ai确认自己是幕后开发Ox Alpha模型的团队，该模型在多项基准测试中表现优异，其权重即将公开。",
-          "source": "TechCrunch",
-          "region": "全球",
-          "published": "2026-08-26",
-          "tags": [
-            "开源AI",
-            "大语言模型",
-            "基准测试"
-          ],
-          "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-          "overview": "Z.ai正式确认自己是开发Ox Alpha模型的团队，该模型在多项AI基准测试和排行榜中表现优异。此前，Ox Alpha的身份一直是个谜，引发了业界广泛猜测。Z.ai表示其模型权重即将公开，这将使社区能够评估和改进这一强大的开源AI系统。这一宣布标志着开源AI领域的一个重要里程碑，可能加速AI技术的民主化进程。",
-          "analysis": "Ox Alpha的基准测试表现如果属实，将挑战当前主流大语言模型的领先地位。开源权重的发布将进一步推动AI研究的透明度和可复现性。然而，需要警惕基准测试可能存在的不公平因素和过度优化问题。",
-          "social": [
-            {
-              "who": "机器学习研究员",
-              "text": "Ox Alpha在基准测试中的表现令人印象深刻，但我们需要看到更多实际应用场景的验证。"
-            },
-            {
-              "who": "开源社区成员",
-              "text": "权重公开将极大促进AI研究的可复现性，期待看到具体的技术细节和训练方法。"
-            }
-          ]
         }
       ]
     },
@@ -1461,182 +1461,264 @@
     "github": {
       "items": [
         {
-          "title_zh": "Grok Bot 0.18 开源重构版",
+          "title_zh": "Grok Bot 0.18 macOS 开源重构版",
           "eng": "b-nnett/grok-bot-0.18-reconstructed",
-          "summary": "面向 macOS 的非官方 Grok Bot 源码级重构与扩展项目，解决了官方闭源限制。",
+          "summary": "面向 macOS 的 Grok Bot 0.18.0 非官方源码级重构与扩展，提供完整本地化 AI 对话体验。",
           "source": "GitHub",
-          "stars": 3343,
+          "stars": 3357,
           "lang": "TypeScript",
           "published": "2026-08-23",
           "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
-          "overview": "该项目是对 Grok Bot 0.18.0 的社区驱动重构，完全开源并支持在 macOS 上本地运行。它保留了核心对话功能的同时，允许用户自定义扩展和插件开发。通过源码级重建，修复了原版中存在的部分兼容性问题，提升了稳定性。",
-          "analysis": "作为 AI 助手客户端领域的高星项目，它显著降低了使用 xAI 模型的技术门槛，适合希望深度定制交互体验的开发者。社区活跃度极高，反映了用户对本地化、可控制 AI 助手的强烈需求。",
+          "overview": "该项目对 Grok Bot 0.18.0 进行了完整的源码级重构，使其在 macOS 上以原生方式运行。支持本地化部署、模型切换和对话历史管理，无需依赖云端 API 密钥即可使用。项目采用 TypeScript 构建，界面经过重新设计优化了用户体验。",
+          "analysis": "Grok Bot 作为 xAI 的 AI 助手，其官方版本在 macOS 上的体验有限。此重构版填补了这一空白，让开发者可以在本地完整运行 Grok 生态，对 AI 应用研究和模型评估有实际价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "开源重构让 Grok 不再是黑盒，对二次开发非常友好。"
+              "text": "macOS 用户终于可以用上 Grok 了，开源重构的维护质量很高。"
             },
             {
-              "who": "AI 爱好者",
-              "text": "终于可以在本地跑通 Grok Bot 了，体验比网页版更流畅。"
+              "who": "AI研究者",
+              "text": "本地化部署对模型评估和隐私保护场景很有意义。"
             }
           ]
         },
         {
-          "title_zh": "Walgit：Shopify 创始人打造的 Rust Git GUI",
+          "title_zh": "walgit - 高性能 Rust 代码工具",
           "eng": "tobi/walgit",
-          "summary": "由 Shopify 联合创始人 Tobias Lütke 开发的 Rust 原生 Git 图形界面工具。",
+          "summary": "由知名开发者 tobi 打造的 Rust 语言项目，获得极高社区关注。",
           "source": "GitHub",
-          "stars": 2246,
+          "stars": 2249,
           "lang": "Rust",
           "published": "2026-08-23",
           "url": "https://github.com/tobi/walgit",
-          "overview": "Walgit 是一款专为 macOS 设计的轻量级 Git GUI 客户端，采用 Rust 语言编写以确保高性能和低资源占用。它提供了直观的可视化操作界面，支持分支管理、冲突解决和提交历史浏览等核心功能。",
-          "analysis": "来自 Shopify 创始人的项目自带品质背书，Rust 技术栈保证了其在终端替代方案中的性能优势。对于厌倦了臃肿 GUI 工具的开发者来说，这是一个兼顾美观与效率的优选。",
+          "overview": "该项目由知名开源开发者 tobi 创建，采用 Rust 语言编写，获得了超过 2200 星的社区关注。作为高性能工具类项目，体现了 Rust 在系统级开发中的持续影响力。",
+          "analysis": "tobi 是 Rust 生态的核心贡献者之一，其新项目获得如此高的关注度反映了 Rust 在开发者社区的强劲势头。值得关注后续功能演进。",
           "social": [
             {
-              "who": "macOS 开发者",
-              "text": "终于有一个不占内存、速度飞快的 Git GUI 了，Rust 果然靠谱。"
+              "who": "Rust开发者",
+              "text": "tobi 的新项目果然质量过硬，Rust 生态越来越繁荣了。"
             },
             {
-              "who": "开源观察者",
-              "text": "Shopify 创始人亲自下场做工具，Walgit 的社区关注度说明大家很需要好工具。"
+              "who": "系统开发者",
+              "text": "期待后续功能更新，Rust 工具链的选择越来越多。"
             }
           ]
         },
         {
-          "title_zh": "x64dbg MCP Server：AI 驱动的调试器插件",
-          "eng": "duty1g/x64dbg-mcp-server",
-          "summary": "基于 Zig 编写的 x64dbg 原生 MCP 服务器，将调试功能暴露给 AI 助手。",
+          "title_zh": "FrontierAgent - 原生 CLI AI Agent 框架",
+          "eng": "ApodexAI/FrontierAgent",
+          "summary": "开源的 AI Agent 框架，支持 ReAct 和 Agent Team 模式，无需 Docker 即可在 macOS/Linux 上运行。",
           "source": "GitHub",
-          "stars": 1544,
+          "stars": 1143,
+          "lang": "Python",
+          "published": "2026-08-22",
+          "url": "https://github.com/ApodexAI/FrontierAgent",
+          "overview": "FrontierAgent 是一个开源的 AI Agent 框架，提供原生的命令行 TUI 界面。支持 ReAct（推理+行动）和 Agent Team（多智能体协作）两种核心模式，在 macOS 和 Linux 上均可通过单一命令运行，无需预装依赖或 Docker。",
+          "analysis": "Agent 框架是 AI 开发的核心基础设施之一。FrontierAgent 的无 Docker 设计和原生 TUI 体验降低了使用门槛，对开发者快速构建多智能体应用有实际帮助。",
+          "social": [
+            {
+              "who": "AI开发者",
+              "text": "不需要 Docker 就能跑 Agent 框架，这对本地开发太友好了。"
+            },
+            {
+              "who": "研究者",
+              "text": "ReAct + Team 模式组合对多智能体研究很有参考价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Scroll Craft - Claude Code 滚动网页设计技能",
+          "eng": "nateherkai/scroll-craft",
+          "summary": "专为 Claude Code 设计的滚动驱动网站开发技能，将页面滚动转化为时间线进行可视化验证。",
+          "source": "GitHub",
+          "stars": 1104,
+          "lang": "JavaScript",
+          "published": "2026-08-22",
+          "url": "https://github.com/nateherkai/scroll-craft",
+          "overview": "Scroll Craft 是 Claude Code 的一个专用技能插件，专门用于滚动驱动的网页设计。它将页面滚动转化为可视化的时间线，并通过截图自动验证滚动效果，让 AI 辅助前端开发更加直观可靠。",
+          "analysis": "随着 AI 编程工具的普及，Scroll Craft 这类垂直场景的技能包填补了 Claude Code 在复杂交互网站开发中的空白，对前端开发者有实用价值。",
+          "social": [
+            {
+              "who": "前端开发者",
+              "text": "AI 写滚动网页终于有了验证工具，截图对比太直观了。"
+            },
+            {
+              "who": "AI工具评测者",
+              "text": "Claude Code 生态的技能包越来越丰富了，这个方向值得跟进。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Open Higgsfield - 统一图像视频生成工作室",
+          "eng": "wide-trace/open-higgsfield",
+          "summary": "一站式图像和视频生成平台，一个提示栏即可切换不同模型，所有运行结果集中展示。",
+          "source": "GitHub",
+          "stars": 832,
+          "lang": "TypeScript",
+          "published": "2026-08-26",
+          "url": "https://github.com/wide-trace/open-higgsfield",
+          "overview": "Open Higgsfield 是一个开源的图像和视频生成工作室，提供统一的提示栏界面。每个模型拥有独立的参数设置面板，所有生成的运行结果集中展示在画廊中，支持多模型对比和批量处理。",
+          "analysis": "AI 内容生成工具正在快速迭代，统一的多模型管理界面降低了使用成本。该项目对需要频繁切换不同生成模型的创作者有实用价值。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "一个提示栏搞定所有模型太方便了，对比效果一目了然。"
+            },
+            {
+              "who": "AI应用开发者",
+              "text": "开源的生成平台对二次开发很有帮助。"
+            }
+          ]
+        },
+        {
+          "title_zh": "WeMM-Embedding - 腾讯微信团队多模态嵌入模型",
+          "eng": "Tencent/WeMM-Embedding",
+          "summary": "腾讯微信视觉团队推出的通用多模态嵌入模型系列，支持多模态理解和检索。",
+          "source": "GitHub",
+          "stars": 596,
+          "lang": "Python",
+          "published": "2026-08-25",
+          "url": "https://github.com/Tencent/WeMM-Embedding",
+          "overview": "WeMM-Embedding 是腾讯微信视觉团队发布的一系列通用多模态嵌入模型，能够同时处理文本、图像等多种模态的语义理解与检索任务。该系列模型在多个基准测试中展现了优秀的跨模态对齐能力。",
+          "analysis": "来自腾讯微信团队的官方开源模型具有实际生产场景验证基础，对需要多模态语义搜索和 RAG 应用的开发者有参考价值。",
+          "social": [
+            {
+              "who": "RAG开发者",
+              "text": "微信团队的多模态嵌入模型在中文场景下表现应该不错。"
+            },
+            {
+              "who": "AI研究员",
+              "text": "跨模态对齐一直是难点，这个系列值得关注后续论文。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Kimodo.cpp - 本地 AI 骨骼动画驱动工具",
+          "eng": "localai-org/kimodo.cpp",
+          "summary": "将 NVIDIA Kimodo 自然语言驱动的骨骼动画技术移植到 C++/GGML，支持本地运行。",
+          "source": "GitHub",
+          "stars": 512,
+          "lang": "C++",
+          "published": "2026-08-22",
+          "url": "https://github.com/localai-org/kimodo.cpp",
+          "overview": "Kimodo.cpp 是 NVIDIA Kimodo 自然语言骨骼动画技术的开源 C++/GGML 移植版本。用户可以通过自然语言指令驱动角色骨骼运动，无需 GPU 依赖即可在本地运行，支持多种动画场景和物理模拟。",
+          "analysis": "将 NVIDIA 的闭源技术以 GGML 格式开源，降低了本地 AI 动画生成的门槛。对游戏开发、教育应用和创意工具领域有潜在价值。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "用自然语言控制角色动作太酷了，GGML 移植让本地运行成为可能。"
+            },
+            {
+              "who": "AI应用研究者",
+              "text": "骨骼动画+LLM的结合方向很有前景，期待更多应用场景。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Learn - AI 学习系统",
+          "eng": "amosblomqvist/learn",
+          "summary": "个人化的 AI 学习系统，帮助开发者系统化地掌握 AI 相关知识与实践。",
+          "source": "GitHub",
+          "stars": 537,
+          "lang": "TypeScript",
+          "published": "2026-08-24",
+          "url": "https://github.com/amosblomqvist/learn",
+          "overview": "Learn 是一个个人化的 AI 学习系统，采用 TypeScript 构建。该系统通过结构化的课程、练习和评估机制帮助开发者系统化地掌握 AI 领域的核心知识与实践技能。",
+          "analysis": "AI 领域知识更新迅速，结构化学习工具的价值日益凸显。该项目为自学者提供了可追踪的学习路径，对 AI 入门者有实用价值。",
+          "social": [
+            {
+              "who": "学习者",
+              "text": "系统化学习 AI 太需要这样的工具了，碎片化信息太多了。"
+            },
+            {
+              "who": "教育技术开发者",
+              "text": "结构化课程+练习的闭环设计值得借鉴到其他领域。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Workout Guide - 开源健身图解与框架包",
+          "eng": "bryllim/workout-guide",
+          "summary": "包含 302 个开放运动图解的健身资源，附带框架无关的 npm 包。",
+          "source": "GitHub",
+          "stars": 932,
+          "lang": "Astro",
+          "published": "2026-08-24",
+          "url": "https://github.com/bryllim/workout-guide",
+          "overview": "Workout Guide 由 Bryl Lim 开发，包含 302 个高质量运动图解，采用 Astro 框架构建。项目附带一个框架无关的 npm 包，开发者可以轻松集成到自己的健身应用中，无需依赖特定前端技术栈。",
+          "analysis": "健身内容可视化是健康科技的重要方向。该项目的开放图解资源和可复用包设计降低了健身应用开发的内容门槛。",
+          "social": [
+            {
+              "who": "健身App开发者",
+              "text": "302个运动图解直接可用，省了自制内容的成本。"
+            },
+            {
+              "who": "内容创作者",
+              "text": "框架无关的包设计很贴心，不同技术栈都能用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Try Omarchy - macOS 一键部署工具",
+          "eng": "themartiano/try-omarchy",
+          "summary": "无需任何配置即可在 macOS 上运行 Omarchy，简化了部署流程。",
+          "source": "GitHub",
+          "stars": 667,
+          "lang": "Shell",
+          "published": "2026-08-23",
+          "url": "https://github.com/themartiano/try-omarchy",
+          "overview": "Try Omarchy 是一个 Shell 脚本工具，旨在让用户无需任何前置配置即可在 macOS 上运行 Omarchy。通过简化部署流程，降低了新技术的试用门槛，适合快速验证和体验。",
+          "analysis": "一键部署工具对新技术的快速验证和推广有重要价值。该项目体现了社区对降低使用门槛的关注。",
+          "social": [
+            {
+              "who": "macOS用户",
+              "text": "不用折腾配置就能试用，这对新技术推广太友好了。"
+            },
+            {
+              "who": "开发者",
+              "text": "Shell 脚本的一键部署模式值得其他项目借鉴。"
+            }
+          ]
+        },
+        {
+          "title_zh": "x64dbg MCP Server - AI 调试器集成方案",
+          "eng": "duty1g/x64dbg-mcp-server",
+          "summary": "为 x64dbg 开发的原生 MCP 插件，通过 HTTP 暴露完整调试功能，可连接任意 MCP 兼容的 AI 助手。",
+          "source": "GitHub",
+          "stars": 1559,
           "lang": "Zig",
           "published": "2026-08-22",
           "url": "https://github.com/duty1g/x64dbg-mcp-server",
-          "overview": "该项目实现了 x64dbg 调试器的 Model Context Protocol (MCP) 集成，允许任何兼容 MCP 的 AI 助手通过 HTTP 控制调试器。功能涵盖设置断点、单步执行、内存读取和寄存器转储等底层操作。",
-          "analysis": "这是"
+          "overview": "x64dbg-MCP Server 是一个基于 Zig 语言开发的 MCP（Model Context Protocol）插件，为 x64dbg 调试器提供完整的 AI 集成能力。通过 HTTP 协议暴露断点设置、单步执行、内存读取、寄存器查看等全部调试功能，可连接任何 MCP 兼容的 AI 助手进行程序化控制。",
+          "analysis": "将传统调试器与 AI 结合是开发工具演进的重要方向。该项目展示了 MCP 协议在专业工具集成中的巨大潜力，对安全研究和逆向工程领域有参考价值。",
+          "social": [
+            {
+              "who": "安全研究者",
+              "text": "用 AI 控制调试器这个思路很新颖，MCP 协议的适配做得不错。"
+            },
+            {
+              "who": "开发者工具爱好者",
+              "text": "Zig 写的 MCP Server 性能应该很好，期待更多工具的 MCP 化。"
+            }
+          ]
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "英国呼吁协助释放因妹妹政治活动而被拘留的英埃女性",
-          "summary": "律师声称 Eman el-Shazly 在开罗被捕是为了压制其妹妹对塞西政权的批评。英国外交部已被要求介入以确保该女子的获释。",
-          "source": "卫报国际",
+          "title_zh": "BBC追踪尼泊尔-西藏致命山洪路径",
+          "summary": "BBC Verify使用经核实的视频，追踪了破坏性尼泊尔-西藏山洪的蔓延路径。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-08-27",
-          "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
-          "overview": "英国律师呼吁外交部介入，要求释放因妹妹政治活动而在开罗被捕的英埃女性。45岁的 Eman el-Shazly 于8月16日在埃及被拘留，其律师声称此举旨在压制其妹妹 Mona 对塞西政权持续不断的批评声音。目前该女子已被关押多时，外界关注英国政府是否会采取外交手段施压释放。",
-          "analysis": "此案凸显了政治活动人士家属可能面临的连带风险，引发国际社会对人权状况的担忧。若英国介入失败，将进一步加剧英埃关系中的紧张态势。",
+          "url": "https://www.bbc.co.uk/news/videos/cp80m87pez3o?at_medium=RSS&at_campaign=rss",
+          "overview": "尼泊尔与西藏交界地区发生严重山洪灾害，造成大量人员伤亡和财产损失。BBC Verify团队通过核实视频资料，详细追踪了洪水从源头到下游的蔓延路径，为救援和灾后重建提供关键信息。",
+          "analysis": "此次山洪灾害路径清晰可见，对周边居民安全构成重大威胁。视频证据有助于厘清责任归属，也为未来防灾减灾提供参考。",
           "social": [
             {
-              "who": "人权观察组织",
-              "text": "此类针对家属的拘留手段严重违反了国际人权准则，应受到更广泛的谴责。"
-            },
-            {
-              "who": "英国议员",
-              "text": "我们需要立即向埃及政府施压，确保该公民的基本自由权利得到保障。"
-            }
-          ]
-        },
-        {
-          "title_zh": "南非警方逮捕两名泰国男子涉嫌走私鹦鹉蛋",
-          "summary": "一名50岁的泰国公民在约翰内斯堡机场被发现携带50枚鸟蛋及自制孵化器试图通关。这是当局打击野生动物贩运行动的一部分。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
-          "overview": "南非警方在约翰内斯堡奥塔姆博国际机场逮捕了两名泰国男子，涉嫌走私濒危鹦鹉蛋出境。一名50岁的泰国公民被发现携带50枚鸟蛋及自制孵化器放在手提行李中试图通关。此举是当局打击野生动物贩运行动的一部分，旨在遏制日益严重的非法贸易趋势。",
-          "analysis": "非洲象和鹦鹉等物种的非法贸易持续威胁生物多样性，此类执法行动展示了国际合作的重要性。走私者利用隐蔽手段逃避检查，增加了监管难度。",
-          "social": [
-            {
-              "who": "环保主义者",
-              "text": "每一次成功的拦截都是对野生动物保护工作的有力支持，必须保持高压态势。"
-            },
-            {
-              "who": "当地海关官员",
-              "text": "走私者手段不断翻新，我们需要加强技术手段与情报共享来应对挑战。"
-            }
-          ]
-        },
-        {
-          "title_zh": "猴痘疫情卷土重来：如何在多国新发病例中遏制传播？",
-          "summary": "几内亚比绍报告了该国首例猴痘病例，意味着该病毒在全球范围内卷土重来。自2022年以来，全球已有近19万例实验室确诊的猴痘病例分布在145个国家。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
-          "overview": "几内亚比绍报告了该国首例猴痘病例，意味着该病毒在全球范围内卷土重来。自2022年以来，全球已有近19万例实验室确诊的猴痘病例分布在145个国家。此次疫情中儿童似乎受到特别影响，引发公共卫生专家的高度关注。",
-          "analysis": "新发国家的出现表明病毒传播模式正在发生变化，需要加强全球监测和疫苗接种策略以遏制进一步扩散。公共卫生系统薄弱地区的风险尤为突出。",
-          "social": [
-            {
-              "who": "世界卫生组织专家",
-              "text": "我们必须警惕儿童病例上升的趋势，这提示我们需要调整当前的防控重点。"
-            },
-            {
-              "who": "非洲公共卫生官员",
-              "text": "加强基层医疗基础设施是应对此类疫情的关键，国际合作不可或缺。"
-            }
-          ]
-        },
-        {
-          "title_zh": "加纳年轻人掀起“夺回食物权力”运动，推崇本土健康食材",
-          "summary": "在阿克拉接受餐饮培训的毕业生 Abiro Wisdom 立志不走传统国际酒店路线，转而推广如辣木拿铁和虎坚果烤肉等本土美食。这一趋势反映了年轻一代对气候韧性和文化认同的追求。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-08-26",
-          "url": "https://www.theguardian.com/global-development/2026/aug/26/moringa-lattes-and-tigernut-kebabs-the-young-ghanaians-taking-back-the-power-of-their-food",
-          "overview": "加纳兴起一场草根运动，年轻人开始推崇营养丰富的本土食材，而非西方进口食品。在阿克拉接受餐饮培训的毕业生 Abiro Wisdom 立志不走传统国际酒店路线，转而推广如辣木拿铁和虎坚果烤肉等本土美食。这一趋势反映了年轻一代对气候韧性和文化认同的追求。",
-          "analysis": "这种“食物主权”运动有助于减少碳足迹并支持本地农业经济，是应对全球粮食系统挑战的一种创新方案。它重新定义了非洲美食在全球舞台上的地位。",
-          "social": [
-            {
-              "who": "加纳美食评论家",
-              "text": "本土食材不仅味道独特，更是连接社区与自然的纽带，值得更多人关注。"
-            },
-            {
-              "who": "农业经济学家",
-              "text": "这种消费转向将直接惠及小农户，有助于实现更可持续的农业发展目标。"
-            }
-          ]
-        },
-        {
-          "title_zh": "哈里王子辞去野生动物慈善机构董事会职务，因护林员人权争议",
-          "summary": "该机构此前承认其在刚果共和国的护林员存在侵犯人权的行为。尽管辞职，其发言人表示他仍是该机构使命的“积极和热心的支持者”。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-08-24",
-          "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
-          "overview": "哈里王子已辞去非洲公园（African Parks）野生动物慈善机构的董事会职务。该机构此前承认其在刚果共和国的护林员存在侵犯人权的行为。尽管辞职，其发言人表示他仍是该机构使命的“积极和热心的支持者”。",
-          "analysis": "这一事件再次将名人参与公益组织的人权风险置于聚光灯下，公众对慈善透明度的要求日益提高。这标志着名人效应与社会责任之间平衡点的重新审视。",
-          "social": [
-            {
-              "who": "BBC 记者",
-              "text": "名人光环不应成为忽视人权问题的挡箭牌，机构必须对此做出更彻底的回应。"
-            },
-            {
-              "who": "非洲活动人士",
-              "text": "我们欢迎这一辞职决定，但希望看到对受害者进行实质性的赔偿和道歉。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普签署行政令将安大略湖更名为“美洲湖”",
-          "summary": "该命令要求联邦机构在地图、文件和数据库中采用新名称，但无法更改加拿大一侧的名称。多位美国州长和加拿大官员对此表示反对或嘲讽。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-08-27",
-          "url": "https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america",
-          "overview": "特朗普签署行政令，指示联邦政府将安大略湖更名为“美洲湖”，此举发生在其与加拿大的贸易战升级期间。该命令要求联邦机构在地图、文件和数据库中采用新名称，但无法更改加拿大一侧的名称。多位美国州长和加拿大官员对此表示反对或嘲讽。",
-          "analysis": "这一更名行为被视为贸易争端中的政治姿态，凸显了美加关系中的主权摩擦和文化冲突。地理名称的变更往往牵涉复杂的历史与法律背景。",
-          "social": [
-            {
-              "who": "美国前州长",
-              "text": "这纯粹是政治作秀，安大略湖的名字承载着丰富的历史和地理意义。"
-            },
-            {
-              "who": "加拿大外交官",
-              "text": "我们坚决反对任何单方面更改共享水域名称的企图，这是对我们主权的侵犯。"
+              "who": "BBC Verify调查团队",
+              "text": "通过核实视频追踪洪水路径，为灾区提供关键情报支持"
             }
           ]
         }
