@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T07:25:40+08:00",
+  "generated_at": "2026-08-29T08:31:44+08:00",
   "date": "2026-08-29",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,69 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-29 07:25",
-    "ai": "2026-08-29 07:25",
-    "voices": "2026-08-29 07:25",
+    "hot": "2026-08-29 08:31",
+    "ai": "2026-08-29 08:31",
+    "voices": "2026-08-29 08:31",
     "github": "2026-08-29 06:38",
-    "libraries": "2026-08-29 07:25",
-    "sports": "2026-08-29 07:25",
+    "libraries": "2026-08-29 08:31",
+    "sports": "2026-08-29 08:31",
     "academic": "2026-08-29 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "DLSS 5 泄露：Modder 将 NVIDIA AI 效果应用于各类游戏",
+          "eng": "DLSS 5 leaked and modders are putting Nvidia's AI effects on everything",
+          "summary": "NVIDIA DLSS 5 的源代码在 NBA 2K27 测试版中意外出现，玩家社区已开始将其修改器应用到多款经典游戏中。",
+          "source": "The Verge",
+          "region": "全球",
+          "published": "2026-08-28",
+          "tags": [
+            "AI 渲染",
+            "NVIDIA",
+            "游戏技术"
+          ],
+          "url": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+          "overview": "在 NBA 2K27 的抢先体验版本中，NVIDIA DLSS 5 的相关代码被泄露。Discord 上的 RenoDX 模组频道成员成功提取了“神经渲染”技术代码，并尝试将其应用于《上古卷轴》、《赛博朋克 2077》等游戏。这展示了 AI 图像增强技术在开源社区中的快速传播和再利用能力。",
+          "analysis": "DLSS 5 的泄露表明 NVIDIA 的 AI 渲染管线已趋于成熟且可被逆向工程。对于独立开发者和模组作者而言，这意味着可以在没有官方支持的情况下获得次世代画质体验，同时也暴露了商业闭源技术的安全隐患。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "开源社区的逆向能力令人印象深刻，AI 技术壁垒在玩家手中可能比想象中更脆弱。"
+            },
+            {
+              "who": "硬件评测员",
+              "text": "DLSS 5 的神经渲染效果如果正式落地，将对显卡性能需求产生显著影响，未来游戏画质将不再受限于帧率。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Google 进一步用 AI 摘要淹没搜索结果页面",
+          "eng": "Google further buries search results under AI mode",
+          "summary": "Google 正在自动扩展其 AI 搜索摘要，将传统链接列表推至结果页底部，引发对搜索引擎格局变化的讨论。",
+          "source": "The Verge",
+          "region": "全球",
+          "published": "2026-08-28",
+          "tags": [
+            "Google Search",
+            "AI 搜索",
+            "产品更新"
+          ],
+          "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+          "overview": "Google 正在逐步扩大其在搜索结果顶部的 AI Overview（AI 摘要）显示范围，导致传统的蓝色链接列表被挤到更靠下的位置。这一变化意味着用户获取信息的路径正从“点击链接”转向“阅读 AI 生成的综合回答”，搜索引擎的角色正在从索引器向生成式助手转变。",
+          "analysis": "这对 SEO 行业和传统搜索广告模式构成直接威胁。Google 正在通过 AI 摘要巩固其作为唯一入口的地位，但也可能因内容准确性问题而面临信任危机。长期来看，这可能导致用户减少对第三方网站的访问频率。",
+          "social": [
+            {
+              "who": "SEO 从业者",
+              "text": "当 AI 摘要占据顶部时，传统的排名优化策略将彻底失效，我们需要重新思考如何在生成式搜索时代获得可见性。"
+            },
+            {
+              "who": "数字营销专家",
+              "text": "Google 正在重塑信息分发渠道，企业必须适应从“被搜索”到“被推荐”的新逻辑。"
+            }
+          ]
+        },
         {
           "title_zh": "联邦法官裁定特朗普政府非法封锁 Anthropic",
           "eng": "Trump blacklisting of 'woke' Anthropic deemed illegal by federal judge",
@@ -741,58 +793,6 @@
               "text": "129 亿美元的收购价反映了市场对 Nvidia 在 AI 全栈布局中的信心，但也引发了对开源社区独立性的担忧。"
             }
           ]
-        },
-        {
-          "title_zh": "病毒式传播的 AI 初创公司 Instinct 以 25 亿美元估值融资 3.5 亿美元，引发隐私争议",
-          "eng": "Viral AI startup Instinct has raised $350 million at a $2.5 billion valuation",
-          "summary": "年仅一年的 AI 初创公司 Instinct 凭借病毒式增长迅速获得 3.5 亿美元融资和 25 亿美元估值。然而，其商业模式也引发了关于用户隐私的严重担忧。",
-          "source": "TechCrunch",
-          "region": "美国/全球",
-          "published": "2026-08-27",
-          "tags": [
-            "AI创业",
-            "Instinct",
-            "融资"
-          ],
-          "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-          "overview": "Instinct 是一家仅成立一年的 AI 初创公司，凭借病毒式增长迅速获得了 3.5 亿美元的融资和 25 亿美元的高估值。然而，其商业模式也引发了关于用户隐私的严重担忧，这为 AI 行业的快速发展敲响了警钟。",
-          "analysis": "Instinct 的成功反映了市场对 AI 应用的巨大需求，但也暴露了行业在快速扩张过程中对隐私保护的忽视。如何在创新与合规之间找到平衡，将是未来 AI 公司面临的重要课题。",
-          "social": [
-            {
-              "who": "隐私倡导者",
-              "text": "Instinct 的崛起提醒我们，AI 行业的快速增长不应以牺牲用户隐私为代价，监管措施需要跟上技术发展的步伐。"
-            },
-            {
-              "who": "科技记者",
-              "text": "这家公司的案例展示了 AI 创业公司在短时间内获得巨大关注和资金的能力，但也引发了对数据安全和伦理问题的广泛讨论。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Bill Gates揭示其对AI的担忧",
-          "eng": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
-          "summary": "全球多国开始禁止儿童使用科技产品，比尔·盖茨公开表达了对人工智能发展的担忧。",
-          "source": "MIT Tech Review",
-          "region": "美国",
-          "published": "2026-08-26",
-          "tags": [
-            "AI安全",
-            "政策",
-            "名人观点"
-          ],
-          "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
-          "overview": "MIT Technology Review发布了儿童专题，报道全球多国开始禁止儿童使用科技产品。同时，比尔·盖茨公开表达了对人工智能发展的担忧。这一时期，限制儿童使用技术的愿望已从暗流变为洪流，各国纷纷出台相关禁令和监管措施。",
-          "analysis": "比尔·盖茨作为AI领域的重量级人物公开表达对AI的担忧，这一表态具有重要的象征意义。全球范围内对儿童科技使用的限制趋势表明，社会对技术影响的认知正在发生根本性转变。从个人设备到AI系统，技术的渗透范围越来越广，对其潜在风险的警惕也越来越强烈。",
-          "social": [
-            {
-              "who": "政策制定者",
-              "text": "多国禁止儿童使用科技的趋势反映了社会对技术影响认知的根本性转变。"
-            },
-            {
-              "who": "教育研究者",
-              "text": "在数字原住民时代，如何保护儿童的心理健康和隐私是一个全球性的紧迫议题。"
-            }
-          ]
         }
       ]
     },
@@ -1288,306 +1288,312 @@
     "sports": {
       "items": [
         {
-          "title_zh": "哈兰德与切尔基双双建功，曼城客场大胜水晶宫",
+          "title_zh": "切尔基与哈兰德双双建功，曼城大胜水晶宫",
           "eng": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
-          "summary": "英超联赛中，曼城在客场以压倒性优势击败水晶宫，切尔基与哈兰德各入一球，切尔基的创造力成为球队进攻核心。",
+          "summary": "马雷斯卡放手让切尔基自由发挥创造力，他在英超第二年迎来高光时刻，与哈兰德共同为曼城锁定胜局。",
           "source": "Guardian Football",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/football/2026/aug/28/crystal-palace-manchester-city-premier-league-match-report",
-          "overview": "曼彻斯特城在英超客场对阵水晶宫的比赛中轻松取胜，切尔基与哈兰德各入一球。马雷斯卡给予切尔基充分的自由发挥空间，后者在英超第二年展现出极高的创造力，水晶宫在上半场一度占据主动但被曼城在下半场的进攻节奏彻底压制。",
-          "analysis": "切尔基的表现证明了他作为曼城的创造性球员已完全融入体系，马雷斯卡对位置控制的执念并未限制他的即兴发挥。哈兰德的进球进一步巩固了球队锋线火力，这场胜利展示了曼城在攻防转换中的统治力。",
+          "overview": "曼城在主场轻松击败水晶宫，切尔基与哈兰德双双进球。马雷斯卡以精准的战术控制著称，他给予切尔基充分的自由度，后者在对阵水晶宫的比赛中展现了极佳的创造力。水晶宫在下半场失去了控球主导权，最终未能抵挡住曼城的攻势。",
+          "analysis": "切尔基在英超第二年的表现证明了他作为顶级攻击手的潜力，马雷斯卡的体系非常适合他的发挥风格。曼城的中场控制力依然强大，但如何持续保持对对手的压制将是赛季的关键。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "切尔基的英超第二年开局太惊艳了，马雷斯卡终于找到了让他自由发挥的方式。"
+              "text": "切尔基在英超第二年就展现出如此高的创造力，确实令人惊喜，曼城的进攻核心越来越全面了。"
             },
             {
-              "who": "媒体评论员",
-              "text": "曼城在下半场彻底掌控比赛节奏，水晶宫在上半场的努力被完全瓦解。"
+              "who": "战术分析师",
+              "text": "马雷斯卡的控球哲学让切尔基如鱼得水，这种信任关系是球队化学反应的关键所在。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "阿斯顿维拉斥资近亿英镑重塑锋线，杰克逊与姆巴佩即将加盟",
-          "eng": "Aston Villa close on Jackson and Mbaye as Emery clears air with departing Watkins",
-          "summary": "阿斯顿维拉宣布开启新章节，切尔西的尼古拉斯·杰克逊和巴黎圣日耳曼的易卜拉欣·姆巴佩即将签约，同时沃特金斯将转会沙特。",
-          "source": "Guardian Football",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/football/2026/aug/28/nicolas-jackson-nears-aston-villa-move-unai-emery-ollie-watkins",
-          "overview": "埃梅里准备以近1亿英镑的价格引进切尔西的杰克逊（首付款4750万）和巴黎圣日耳曼的姆巴佩，同时奥利·沃特金斯即将转会沙特阿拉伯。埃梅里在与离队球员沟通后宣布球队开启新计划，杰克逊有望在本周一主场对阵阿森纳时完成首秀。",
-          "analysis": "维拉的锋线大换血标志着俱乐部战略方向的重大转变，埃梅里需要在新援融入前迅速调整战术体系。沃特金斯转投沙特也反映了英超球员流向中东的趋势加剧。",
-          "social": [
-            {
-              "who": "足球记者",
-              "text": "维拉近1亿英镑的投入令人瞩目，但埃梅里需要证明这笔交易能立即提升球队竞争力。"
-            },
-            {
-              "who": "英超球迷",
-              "text": "杰克逊和姆巴佩的组合听起来很豪华，希望他们能在阿森纳主场首秀中证明自己。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "利物浦主帅伊劳拉要求前锋“耗尽自己”备战安菲尔德首秀",
-          "eng": "Andoni Iraola tells Liverpool's forwards to 'exhaust themselves'",
-          "summary": "新帅伊劳拉在赛前表示，让利物浦前锋们先消耗体力比坚持90分钟更重要，并期待引援巴尔科拉的加入。",
+          "title_zh": "伊拉奥拉要求利物浦前锋“耗尽自己”以备战安菲尔德首秀",
+          "eng": "Andoni Iraola tells Liverpool’s forwards to ‘exhaust themselves’",
+          "summary": "利物浦主帅伊拉奥拉在安菲尔德执教首场比赛前表示，希望前锋们在90分钟内全力消耗对手而非单纯追求表现。",
           "source": "Guardian Football",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/football/2026/aug/28/andoni-iraola-tells-liverpools-forwards-to-exhaust-themselves",
-          "overview": "利物浦主帅伊劳拉将在安菲尔德迎来英超首秀，他告诉前锋们不需要坚持90分钟，而是应该先消耗自己。他希望巴尔德斯·巴尔科拉等引援能改善进攻选择，转会窗口即将在周二关闭。",
-          "analysis": "伊劳拉的务实态度暗示球队可能面临体能挑战，但他对战术效率的追求表明他更看重前场的跑动和压迫而非单纯的个人表现。巴尔科拉的加盟将为球队带来新的变化。",
-          "social": [
-            {
-              "who": "教练分析师",
-              "text": "伊劳拉的策略很聪明，让前锋先消耗体力可以打乱对手的节奏。"
-            },
-            {
-              "who": "利物浦球迷",
-              "text": "安菲尔德首秀至关重要，希望新援能尽快融入球队体系。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德泽尔比在转会截止日前力推最后一笔签约",
-          "eng": "De Zerbi wants one more signing for Tottenham before transfer deadline",
-          "summary": "热刺主帅德泽尔比与俱乐部管理层共进晚餐，讨论在转会窗口关闭前完成最后一笔引援。",
-          "source": "Guardian Football",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/football/2026/aug/28/tottenham-roberto-de-zerbi-premier-league-transfer-deadline-window",
-          "overview": "德泽尔比希望补强特定位置，同时球队也可能出售球员以腾出空间。此前他已从曼城签下马穆什，并与俱乐部所有者及高管进行了晚餐讨论，对转会窗口的进展表示满意。",
-          "analysis": "截止日前的最后冲刺显示了热刺对阵容深度的重视，德泽尔比与所有者的直接沟通表明他对球队未来有清晰的规划。出售球员的可能性也增加了操作的灵活性。",
-          "social": [
-            {
-              "who": "转会市场专家",
-              "text": "德泽尔比在截止日前仍有操作空间，热刺的引援策略显得非常务实。"
-            },
-            {
-              "who": "热刺球迷",
-              "text": "希望德泽尔比能尽快完成最后一笔签约，让球队在赛季初就拥有最强阵容。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "莫耶斯对曼城关注伊姆兰·恩迪亚耶感到不安",
-          "eng": "Premier League news: David Moyes unsettled by Manchester City's interest in Iliman Ndiaye",
-          "summary": "桑德兰主帅莫耶斯表示，曼城的兴趣令他对球队的未来阵容安排产生疑虑。",
-          "source": "Guardian Football",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/football/2026/aug/28/prremier-league-news-sunderland-newcastle-manchester-united-everton",
-          "overview": "桑德兰主帅莫耶斯对曼城关注伊姆兰·恩迪亚耶感到不安，同时桑德兰将在欧联杯中客场挑战国际米兰。卡洛斯·巴莱巴则需等待曼联首秀的到来。",
-          "analysis": "曼城的兴趣可能影响恩迪亚耶的未来去向，莫耶斯的反应反映了小球队在转会市场上的被动地位。桑德兰的欧联杯征程也将考验球队的阵容深度。",
+          "overview": "伊拉奥拉即将在安菲尔德迎来执教利物浦的首场主场英超比赛，他透露对前锋的要求是“耗尽自己”而非维持90分钟的高强度表现。此外，他期待巴科拉从巴黎圣日耳曼的加盟以及另一名边锋的到来能改善进攻选择，转会截止日前的引援仍在进行中。",
+          "analysis": "伊拉奥拉的战术理念强调身体对抗和消耗战，这对利物浦的前场球员提出了极高的体能要求。新援的加入将增加战术灵活性，但如何在高强度比赛中保持效率仍是挑战。",
           "social": [
             {
               "who": "英超评论员",
-              "text": "曼城对年轻球员的兴趣总是令人头疼，莫耶斯需要尽快做出决定。"
+              "text": "伊拉奥拉对前锋的要求非常务实，在安菲尔德首秀前调整心态和体能策略是明智之举。"
             },
             {
-              "who": "桑德兰球迷",
-              "text": "希望俱乐部能留住恩迪亚耶，欧联杯的征程也需要他的支持。"
+              "who": "利物浦球迷",
+              "text": "巴科拉的加盟值得期待，但能否适应伊拉奥拉的战术体系还需要时间检验。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "麦金尼斯自信将带领流浪者队重返成功巅峰",
-          "eng": "McInnes backs himself to deliver Rangers success",
-          "summary": "流浪者主帅麦金尼斯表示球队距离理想状态仍有差距，但相信自己能带来成功。",
-          "source": "BBC Football",
+          "title_zh": "莫耶斯对曼城关注恩迪亚耶感到不安，桑德兰将征战欧联杯",
+          "eng": "Premier League news: David Moyes unsettled by Manchester City’s interest in Iliman Ndiaye",
+          "summary": "桑德兰将在欧联杯中客场挑战国际米兰，而卡洛斯·巴莱巴则需等待曼联首秀；莫耶斯对曼城对恩迪亚耶的兴趣感到担忧。",
+          "source": "Guardian Football",
           "published": "2026-08-28",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cjw5056v9v7o?at_medium=RSS&at_campaign=rss",
-          "overview": "流浪者主帅麦金尼斯表示球队距离理想状态仍有差距，但相信自己能带来成功。他在伊布罗克斯球场表达了对未来的信心，尽管目前球队仍处于重建阶段。",
-          "analysis": "麦金尼斯的自信表明他对球队的重建计划有清晰的愿景，但需要时间来实现目标。流浪者队需要在赛季中逐步提升竞争力，以重新赢得球迷的信任。",
+          "url": "https://www.theguardian.com/football/2026/aug/28/prremier-league-news-sunderland-newcastle-manchester-united-everton",
+          "overview": "英超新闻涵盖了多支球队动态，其中莫耶斯对曼城关注恩迪亚耶表示不安。桑德兰将在欧联杯中客场对阵国际米兰，而卡洛斯·巴莱巴则需等待在曼联的首秀机会。",
+          "analysis": "莫耶斯的担忧反映了低级别球队面对顶级俱乐部挖角时的无力感。同时，桑德兰的欧联杯之旅和巴莱巴的等待也体现了赛季初各队阵容调整的节奏差异。",
           "social": [
             {
-              "who": "苏格兰足球记者",
-              "text": "麦金尼斯的言论显示了他对球队的承诺，希望他能在伊布罗克斯创造奇迹。"
+              "who": "英超记者",
+              "text": "莫耶斯面对曼城这样的豪门挖角确实压力山大，但留住核心球员对球队稳定至关重要。"
             },
             {
-              "who": "流浪者球迷",
-              "text": "我们需要看到实际行动，而不仅仅是信心。希望麦金尼斯能兑现承诺。"
+              "who": "欧联杯观察者",
+              "text": "桑德兰客场挑战国际米兰是一场硬仗，能否在欧战中找到突破口值得期待。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "\"生命线\"乒乓球场地临时重新开放",
-          "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一座具有特殊意义的乒乓球场地在短暂关闭后重新向公众开放，使用者形容这如同精神家园被归还。",
-          "source": "BBC Table Tennis",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地此前因某种原因暂时关闭，如今已重新开放运营。使用者对这一变化表达了强烈的情感共鸣，将其比作精神家园的回归。BBC Table Tennis 对此进行了专题报道，关注乒乓球社区在设施恢复后如何重建归属感。",
-          "analysis": "乒乓球场地不仅是运动场所，往往承载着社区记忆与情感联结。临时关闭后的重新开放反映出体育基础设施维护的重要性，也凸显了乒乓球在英国基层推广中的人文价值。",
-          "region": "乒乓球"
+          "title_zh": "科尔·帕尔默被比作独角兽，他是英格兰足球中纯粹的创造力化身",
+          "eng": "Cartoon alpaca Cole Palmer is a unicorn in this world inventing moments of pure pleasure | Barney Ronay",
+          "summary": "切尔西前锋帕尔默被视为英格兰足坛最具创造力的球员之一，其场外影响力也在与音乐人合作中持续扩大。",
+          "source": "Guardian Football",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/football/2026/aug/28/cole-palmer-chelsea-central-cee-england-football",
+          "overview": "足球评论员巴尼·罗内伊将帕尔默比作独角兽，认为他是目前英格兰足坛唯一真正的创造力球员。文章还提到音乐人 Central Cee 推出了与可口可乐合作的英超歌曲，引发了关于商业营销与足球文化融合的讨论。",
+          "analysis": "帕尔默在球场上的表现确实独树一帜，他的创造力为切尔西带来了新的战术维度。场外合作虽然引发争议，但也反映了现代足球运动员影响力的多元化趋势。",
+          "social": [
+            {
+              "who": "足球文化评论者",
+              "text": "帕尔默不仅是球场上的天才，他在商业和文化领域的跨界合作也展示了新一代球员的影响力。"
+            },
+            {
+              "who": "英超观察者",
+              "text": "Central Cee 与可口可乐的合作虽然有些商业化，但确实反映了英超联赛在年轻文化中的渗透力。"
+            }
+          ],
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "切尔基与哈兰德双双建功，曼城大胜水晶宫",
+          "title_zh": "德泽尔比希望在转会截止日前再签一人，热刺可能出售球员",
+          "eng": "De Zerbi wants one more signing for Tottenham before transfer deadline",
+          "summary": "热刺主帅德泽尔比与俱乐部管理层共进晚餐讨论引援计划，他希望在周二截止日前完成最后一笔签约并考虑出售球员。",
+          "source": "Guardian Football",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/football/2026/aug/28/tottenham-roberto-de-zerbi-premier-league-transfer-deadline-window",
+          "overview": "德泽尔比与热刺所有者及高管共进晚餐，讨论了在转会窗口关闭前的最后冲刺。他明确表示希望再签一名球员以补强特定位置，同时俱乐部也在考虑出售球员。马尔穆什周四正式加盟热刺，但引援并未结束。",
+          "analysis": "德泽尔比的引援策略显示出他对球队阵容深度的追求，截止日前的最后一搏往往能带来意外惊喜。热刺在繁忙的转会窗口中保持灵活性是关键。",
+          "social": [
+            {
+              "who": "转会市场分析师",
+              "text": "德泽尔比与所有者的直接沟通显示了俱乐部对战术需求的重视，最后几小时的引援操作充满不确定性。"
+            },
+            {
+              "who": "热刺球迷",
+              "text": "马尔穆什的加盟是个好消息，但能否在截止日前再补一人将决定这个窗口的最终成果。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "阿斯顿维拉接近签下杰克逊和姆巴耶，埃梅里与离队的沃特金斯和解",
+          "eng": "Aston Villa close on Jackson and Mbaye as Emery clears air with departing Watkins",
+          "summary": "维拉正以近1亿英镑的价格打造新锋线，切尔西的杰克逊和巴黎圣日耳曼的姆巴耶即将加盟，而沃特金斯为拒绝出场向俱乐部道歉。",
+          "source": "Guardian Football",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/football/2026/aug/28/nicolas-jackson-nears-aston-villa-move-unai-emery-ollie-watkins",
+          "overview": "埃梅里宣布阿斯顿维拉即将开启“新篇章”，切尔西的尼古拉斯·杰克逊和巴黎圣日耳曼的易卜拉希马·姆巴耶预计将加盟，总花费接近1亿英镑。杰克逊的首秀将在对阵阿森纳的主场比赛中亮相，而沃特金斯则因拒绝出场向俱乐部道歉后离队。",
+          "analysis": "埃梅里的锋线改造计划雄心勃勃，近1亿的投入显示了维拉对进攻端的重视。沃特金斯的离队和道歉虽然令人意外，但也为球队的新篇章扫清了障碍。",
+          "social": [
+            {
+              "who": "英超转会观察员",
+              "text": "杰克逊和姆巴耶的加盟将彻底改变维拉的锋线配置，埃梅里的战术空间将大幅增加。"
+            },
+            {
+              "who": "维拉球迷",
+              "text": "近1亿的投入打造新锋线令人振奋，但沃特金斯的离队方式确实让人感到意外。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德里世锦赛面临独特挑战：驱赶猴子和鸽子",
+          "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
+          "summary": "组织者因此前赛事野生动物闯入事件，在世锦赛期间采取额外措施防止动物干扰比赛。",
+          "source": "BBC Badminton",
+          "published": "2026-08-14",
+          "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
+          "overview": "在之前的锦标赛中，野生动物闯入曾引发头条新闻，因此组织者正在为即将到来的羽毛球世界锦标赛采取特别预防措施，以应对猴子和平鸽的侵扰问题。",
+          "analysis": "这一挑战反映了大型赛事在野生动物栖息地附近举办的特殊困难，安保和场地管理面临新考验。",
+          "social": [
+            {
+              "who": "赛事组织方",
+              "text": "不得不投入额外资源来保护比赛免受动物干扰"
+            }
+          ],
+          "region": "羽毛球"
+        },
+        {
+          "title_zh": "切尔基与哈兰德双响，曼城客场大胜水晶宫",
           "eng": "Cherki and Haaland double up in Manchester City cruise at Crystal Palace",
-          "summary": "曼市名帅马雷斯卡放手让前里昂天才切尔基自由发挥，后者在英超首秀赛季第二年表现惊艳。",
+          "summary": "英超联赛中，曼彻斯特城客场对阵水晶宫，切尔基和哈兰德各入一球帮助球队轻松取胜。这是切尔基在英格兰的第二个赛季的出色开局，他展现了出色的创造力。",
           "source": "Guardian Sport",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/football/2026/aug/28/crystal-palace-manchester-city-premier-league-match-report",
-          "overview": "曼城在英超客场大胜水晶宫，哈兰德与切尔基双双梅开二度。马雷斯卡以其对位置控制的执念著称，但面对切尔基时选择给予充分自由，后者展现了极佳的创造力。水晶宫在上半场一度占据主动，但在下半场被曼城的进攻节奏彻底压制。这是切尔基在英超第二个赛季的出色开端。",
-          "analysis": "马雷斯卡的战术哲学通常强调纪律，但他对切尔基的信任体现了他对球员个体能力的尊重。切尔基的爆发证明了曼城在攻击端拥有足够的深度和创造力来应对不同对手。",
+          "overview": "在英超联赛的一场比赛中，曼彻斯特城客场挑战水晶宫。前里昂球员切尔基迎来了他在英格兰的第二个赛季的出色表现，与哈兰德双双取得进球。曼城在比赛中展现了强大的创造力，最终轻松击败对手。",
+          "analysis": "切尔基的表现证明了他作为曼城关键创造者的价值，他的自由发挥是球队获胜的关键因素。这场比赛也展示了曼城的整体实力和控制力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "切尔基在英超的表现越来越令人期待，他的自由度和创造力是曼城的宝贵财富。"
+              "text": "切尔基在英超的第二个赛季就展现出如此出色的创造力，未来可期。"
             },
             {
               "who": "教练视角",
-              "text": "马雷斯卡敢于给天才球员空间，这本身就是他执教风格中独特的一部分。"
+              "text": "恩佐·马雷斯卡对球员位置控制的要求很高，但切尔基的表现说明了他需要自由发挥的空间。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "MLB 因年龄造假阴谋暂停多米尼加新秀资格",
-          "eng": "MLB suspends Dominican prospect after age-fraud plot involving fake grave",
-          "summary": "一名来自多米尼加的新秀被指控参与涉及伪造坟墓和记录的复杂年龄欺诈计划，其价值 280 万美元的合约已被取消。",
-          "source": "Guardian Sport",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/sport/2026/aug/28/mlb-dominican-prospect-age-fraud-david-severino-guardians",
-          "overview": "美国职业棒球大联盟（MLB）在调查后暂停了一名多米尼加籍新秀的资格，该球员被指试图将自己年龄虚报近两岁。其经纪人涉嫌策划了包括伪造学校记录和假坟墓在内的极端手段。此前与守护者队达成的价值 280 万美元的协议已被取消。",
-          "analysis": "这一事件再次引发了对棒球界年龄造假问题的关注，尤其是在加勒比地区球员进入大联盟的过程中。MLB 对此类行为的零容忍态度值得肯定，但也反映出行业监管的漏洞。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "年龄造假在棒球界并非罕见，但伪造坟墓这种手段确实令人震惊。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这不仅是个人诚信问题，更暴露了选秀体系中身份核查机制的不足。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "法官批准听证会审议重述 Jerry Sandusky 性侵指控",
-          "eng": "Judge grants hearing over bid to recant Jerry Sandusky sexual abuse allegations",
-          "summary": "一名男子声称自己曾受当局指导而做出虚假陈述，试图撤回对 Penn State 助理教练 Jerry Sandusky 的性侵指控。",
-          "source": "Guardian Sport",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/sport/2026/aug/28/jerry-sandusky-penn-state-abuse-recantation-hearing",
-          "overview": "宾夕法尼亚州法官批准了一场听证会，以审议一名男子试图撤回对 Jerry Sandusky 性侵指控的声明。Sandusky 自 2012 年被判犯有 45 项性侵罪以来一直在服刑。该男子声称自己曾受到当局的广泛指导才做出指控，但宾州方面认为这一撤回“高度可疑”。",
-          "analysis": "尽管 Sandusky 已入狱多年，但围绕其案件的争议仍在持续。听证会的召开表明法律程序仍在审视历史遗留问题，但这引发了关于受害者权益与程序正义之间平衡的讨论。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "Penn State 性侵丑闻一直是美国体育界的痛，任何试图淡化此事的行为都难以被接受。"
-            },
-            {
-              "who": "法律观察者",
-              "text": "在受害者证词面前，所谓的‘撤回’往往缺乏可信度，听证会结果值得期待。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "状态不稳的萨巴伦卡与男子签表为美网增添戏剧性",
+          "title_zh": "萨巴伦卡状态不稳，美网男子签表开放，戏剧性对决在即",
           "eng": "Shaky Sabalenka and wide-open men's draw set stage for US Open drama",
-          "summary": "卫冕冠军萨巴伦卡在辛辛那提站第三轮意外出局，以不佳状态抵达美网赛场。",
+          "summary": "卫冕冠军萨巴伦卡在辛辛那提公开赛上表现不佳，而美网男子签表则非常开放。多位挑战者有望取代她的位置，比赛充满悬念。",
           "source": "Guardian Sport",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/sport/2026/aug/28/vulnerable-sabalenka-and-wide-open-mens-draw-set-stage-for-us-open-drama",
-          "overview": "世界排名第一的萨巴伦卡在辛辛那提站第三轮意外负于不被看好的对手，带着不佳状态进入美网。与此同时，男子签表呈现出开放态势，多名挑战者有望冲击冠军。这为即将到来的美网增添了更多不确定性。",
-          "analysis": "萨巴伦卡的失利打破了其卫冕之路的连贯性，但也为其他选手提供了机会。男子签表的开放性意味着任何冷门都可能发生，美网的悬念将进一步升级。",
+          "overview": "卫冕冠军萨巴伦卡在辛辛那提公开赛上表现不佳，她在比赛中出现了大量非受迫性失误和犹豫不决。而在美网男子签表中，多位挑战者有望取代她的位置，比赛充满悬念。",
+          "analysis": "萨巴伦卡的状态波动是本届美网的焦点之一，而男子签表的开放性也为比赛增添了更多看点。观众可以期待一场精彩的对决。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "萨巴伦卡的状态起伏总是让人揪心，但美网的大场面往往能激发她的斗志。"
+              "who": "网球解说员",
+              "text": "萨巴伦卡的失误令人意外，但她的实力仍然不容小觑。"
             },
             {
-              "who": "网球评论员",
-              "text": "男子签表的开放性是今年美网的一大看点，任何种子选手都可能成为黑马。"
+              "who": "资深球迷",
+              "text": "美网男子签表的开放性让比赛更加精彩，期待看到更多惊喜。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "大学橄榄球蓬勃发展，混乱且比以往更加扑朔迷离",
+          "title_zh": "鲍尔特：我学到了穆雷的教训，不会重蹈覆辙",
+          "eng": "'I learned from Murray' - Boulter won't make wedding ring mistake",
+          "summary": "英国网球选手凯蒂·鲍尔特在准备参加美网时，表示她不会像安迪·穆雷那样在比赛中丢失婚戒。",
+          "source": "BBC Sport",
+          "published": "2026-08-28",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c20v7y3vy2do?at_medium=RSS&at_campaign=rss",
+          "overview": "英国网球选手凯蒂·鲍尔特在准备参加美网时，表示她不会像安迪·穆雷那样在比赛中丢失婚戒。穆雷一直是英国网球的指导人物，但鲍尔特将采取不同的策略来保护自己的重要物品。",
+          "analysis": "鲍尔特的表态显示了她对比赛细节的重视，也反映了新一代球员与前辈之间的差异。美网的激烈竞争将是对她准备工作的考验。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "鲍尔特从穆雷身上学到了教训，希望她能成功保护好自己的婚戒。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "美网的竞争非常激烈，选手们的准备工作至关重要。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "MLB因年龄造假阴谋暂停多米尼加球员资格",
+          "eng": "MLB suspends Dominican prospect after age-fraud plot involving fake grave",
+          "summary": "一名来自多米尼加共和国的球员因涉嫌参与复杂的年龄造假计划而被美国职业棒球大联盟暂停。该计划包括伪造学校记录和墓地等极端手段。",
+          "source": "Guardian Sport",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/sport/2026/aug/28/mlb-dominican-prospect-age-fraud-david-severino-guardians",
+          "overview": "一名来自多米尼加共和国的球员因涉嫌参与复杂的年龄造假计划而被美国职业棒球大联盟暂停。该计划包括伪造学校记录和墓地等极端手段，球员试图让自己看起来比实际年轻近两岁。",
+          "analysis": "这一事件揭示了棒球界存在的系统性问题，年龄造假不仅影响球员的职业生涯，还可能破坏比赛的公平性。MLB的处罚措施旨在维护联赛的诚信。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "年龄造假是体育界的顽疾，希望MLB能彻底解决这个问题。"
+            },
+            {
+              "who": "教练视角",
+              "text": "这一事件提醒我们，球员的背景调查和年龄验证至关重要。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "大学橄榄球蓬勃发展，混乱且比以往更加复杂",
           "eng": "College football is booming, chaotic and more confusing than ever",
-          "summary": "美国第二大体育狂热本周回归，伴随着行军乐队、十万座体育场和日益复杂的运营模式。",
+          "summary": "美国第二大体育项目——大学橄榄球在本周末回归，带来了行军乐队、10万座体育场和古老的 rivalry。然而，这项运动的运营模式正在被实时发明中。",
           "source": "Guardian Sport",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/sport/2026/aug/28/college-football-2026-season-preview-indiana-nil-transfer-portal",
-          "overview": "美国大学橄榄球赛季即将开始，这项运动正经历前所未有的增长和混乱。电视转播权的争夺、转会门户的开放以及运营模式的变革使得这项运动的未来充满不确定性。尽管面临诸多挑战，其文化影响力和商业价值仍在持续上升。",
-          "analysis": "大学橄榄球的商业化进程正在加速，但这是否以牺牲体育精神为代价尚存争议。随着竞争加剧，这项运动的未来走向将取决于各方利益的平衡。",
+          "overview": "美国第二大体育项目——大学橄榄球在本周末回归，带来了行军乐队、10万座体育场和古老的 rivalry。然而，这项运动的运营模式正在被实时发明中，电视转播和商业化的影响日益加深。",
+          "analysis": "大学橄榄球的蓬勃发展反映了其巨大的商业价值和文化影响力，但混乱的运营模式和不断变化的规则也引发了争议。观众可以期待一场精彩的赛季。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "大学橄榄球的文化魅力无可替代，但商业化的确让比赛变得更加复杂。"
+              "text": "大学橄榄球的文化氛围令人着迷，但规则的频繁变化确实让人困惑。"
             },
             {
-              "who": "体育分析师",
-              "text": "转会门户的开放改变了球员流动的规则，这对传统强队来说既是机遇也是挑战。"
+              "who": "教练视角",
+              "text": "这项运动的商业化进程需要平衡商业利益和传统价值。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "伤病不确定性导致阿尔卡拉斯出现“侵入性思维”",
-          "eng": "Injury uncertainty led to 'intrusive thoughts' for Alcaraz",
-          "summary": "七次大满贯冠军阿尔卡拉斯表示，不知道何时能重返赛场是他长期缺阵期间最具挑战性的部分。",
-          "source": "BBC Tennis",
+          "title_zh": "埃斯特·冈萨雷斯转会沙特阿拉伯，引发意外争议",
+          "eng": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "summary": "世界杯冠军埃斯特·冈萨雷斯宣布退出足球运动后，却签约了沙特阿拉伯的阿尔卡迪西亚俱乐部。这一转会引发了关于职业精神和LGBTQ+粉丝担忧的问题。",
+          "source": "Guardian Sport",
           "published": "2026-08-28",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c3rexy3jllyo?at_medium=RSS&at_campaign=rss",
-          "overview": "七次大满贯冠军阿尔卡拉斯在长期缺阵后表示，伤病恢复期间的不确定性对他造成了极大的心理影响。他坦言不知道何时能重返赛场是最具挑战性的部分，这种“侵入性思维”困扰着他。目前他正准备在美网进行首次正式检验。",
-          "analysis": "对于顶级运动员而言，伤病的恢复不仅仅是身体上的修复，更是心理上的重建。阿尔卡拉斯的坦诚有助于公众理解职业体育中伤病问题的严重性。",
+          "url": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
+          "overview": "世界杯冠军埃斯特·冈萨雷斯宣布退出足球运动后，却签约了沙特阿拉伯的阿尔卡迪西亚俱乐部。这一转会引发了关于职业精神和LGBTQ+粉丝担忧的问题，同时也展示了她在沙特联赛中的出色表现。",
+          "analysis": "冈萨雷斯的转会选择反映了球员在职业生涯中的复杂决策过程，也引发了对沙特足球发展水平的讨论。她的成功证明了沙特联赛的吸引力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "阿尔卡拉斯的复出之路总是牵动人心，希望他能尽快以最佳状态回归赛场。"
+              "text": "冈萨雷斯的转会令人意外，但她在沙特的表现确实出色。"
             },
             {
-              "who": "运动医学专家",
-              "text": "心理因素在伤病恢复中同样重要，运动员需要时间来适应重返赛场的节奏。"
+              "who": "教练视角",
+              "text": "这一事件反映了球员在职业选择上的多样性，也引发了对沙特足球发展的思考。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "门西克与穆霍娃赢得美网混双冠军",
-          "eng": "Mensik & Muchova win US Open mixed doubles title",
-          "summary": "卡洛琳娜·穆霍娃和雅库布·门西克在赢得美网混双冠军的过程中挽救了两个赛点，并获得了 100 万美元的奖金。",
-          "source": "BBC Tennis",
-          "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c8xken9v4xno?at_medium=RSS&at_campaign=rss",
-          "overview": "捷克组合穆霍娃和门西克在美网混双决赛中展现了顽强的斗志，最终在挽救两个赛点后夺冠。他们不仅捧起了冠军奖杯，还获得了 100 万美元的奖金。这一胜利标志着他们在职业生涯中的重要突破。",
-          "analysis": "穆霍娃作为单打名将，在混双项目上的表现同样出色。门西克与她的搭档默契十足，两人的组合展现了极高的竞技水平。",
+          "title_zh": "更多英国运动员因巴蒂斯特案被判有罪",
+          "eng": "More British athletes convicted in connection with Baptiste case",
+          "summary": "BBC Sport报道，威尔·沙尔曼、理查德·沙尔曼和拉明·迪恩也在导致莱昂·巴蒂斯特入狱的案件中被判有罪。",
+          "source": "BBC Sport",
+          "published": "2026-08-28",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/c5yenn85dqgo?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC Sport报道，威尔·沙尔曼、理查德·沙尔曼和拉明·迪恩也在导致莱昂·巴蒂斯特入狱的案件中被判有罪。这一案件涉及英国田径界的兴奋剂问题，引发了对运动员诚信的广泛关注。",
+          "analysis": "这一判决进一步揭示了英国田径界存在的系统性问题，也提醒我们关注运动员的健康和职业生涯。司法系统的介入有助于维护体育的公平性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "穆霍娃在混双中的表现令人印象深刻，她与门西克的配合堪称完美。"
+              "text": "兴奋剂问题是体育界的顽疾，希望这些判决能起到警示作用。"
             },
             {
-              "who": "网球评论员",
-              "text": "挽救赛点夺冠是经典剧本，这对组合的韧性值得称赞。"
+              "who": "教练视角",
+              "text": "这一事件提醒我们，运动员的健康和诚信至关重要。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "埃布奥姆万表现出色，英国队大胜瑞士队",
-          "eng": "Evbuomwan impresses as GB cruise past Switzerland",
-          "summary": "英国队在 2029 年欧洲杯预选赛资格赛中以压倒性优势战胜瑞士队。",
-          "source": "BBC Basketball",
-          "published": "2026-08-27",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/cr4vlr51g5eo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国队在备战 2029 年欧洲杯的资格赛预赛中表现出色，以压倒性优势战胜瑞士队。埃布奥姆万在比赛中给观众留下了深刻印象，展现了出色的个人能力。这场胜利为英国队的奥运资格之路增添了信心。",
-          "analysis": "英国篮球近年来在人才储备上有所提升，年轻球员如埃布奥姆万的崛起是球队未来的希望所在。欧洲杯预选赛的成功将为他们在更高水平赛事中的表现奠定基础。",
+          "title_zh": "英格兰如何构建攻击阵容以困扰澳大利亚",
+          "eng": "How England are building an attack to trouble Australia",
+          "summary": "前英格兰队长迈克尔·沃恩预测，英格兰的新速度四重奏将给澳大利亚带来麻烦。那么他们是如何在对阵巴基斯坦时取得成效的？",
+          "source": "BBC Sport",
+          "published": "2026-08-28",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cvgy0zdex14o?at_medium=RSS&at_campaign=rss",
+          "overview": "前英格兰队长迈克尔·沃恩预测，英格兰的新速度四重奏将给澳大利亚带来麻烦。那么他们是如何在对阵巴基斯坦时取得成效的？这一分析展示了英格兰板球队在战术上的创新和发展。",
+          "analysis": "英格兰队在新速度球员方面的投入显示了他们对提升竞争力的决心。面对澳大利亚这样的强敌，他们的攻击阵容将成为关键因素。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "埃布奥姆万的表现令人眼前一亮，她是英国队未来的核心力量之一。"
+              "text": "英格兰的新速度四重奏令人期待，希望他们能在对阵澳大利亚时表现出色。"
             },
             {
-              "who": "篮球分析师",
-              "text": "英国队在资格赛中的表现证明了他们的实力，接下来的比赛将更加关键。"
+              "who": "教练视角",
+              "text": "这一战术创新反映了现代板球的发展趋势，值得其他队伍借鉴。"
             }
           ],
           "region": "综合"
@@ -1849,18 +1855,102 @@
     "hot": {
       "items": [
         {
-          "title_zh": "尼泊尔洪灾：97岁老人被挖掘机救出，被称为'战士'",
-          "summary": "97岁的古纳·玛雅·博哈拉在尼泊尔山洪暴发中幸存，救援人员使用挖掘机将其从废墟中救出。",
+          "title_zh": "97岁尼泊尔老妇在洪水中获救，被称为“战士”",
+          "summary": "97岁的古纳·玛雅·博哈拉在尼泊尔突发山洪中幸存，救援人员使用挖掘机将其救出。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-08-28",
           "url": "https://www.bbc.co.uk/news/videos/cj64kgrpgjdo?at_medium=RSS&at_campaign=rss",
-          "overview": "尼泊尔近期遭遇严重山洪灾害，一名97岁高龄的妇女在灾难中奇迹般存活。救援人员冒着危险使用挖掘机将其从被洪水冲毁的建筑废墟中救出。当地居民对这位老人的坚韧精神表示敬佩，称她像'战士'一样勇敢面对灾难。",
-          "analysis": "此次尼泊尔洪灾已造成大量人员伤亡和失踪，97岁老人幸存凸显了灾害的极端危险性。救援行动展示了当地应急体系的运作能力，同时也引发国际社会对南亚地区气候灾害频发的关注。",
+          "overview": "尼泊尔近期遭遇严重山洪灾害，一名97岁高龄的女性在危急时刻展现出惊人的求生意志。当地居民和救援队描述她像一位“战士”般顽强地抵抗洪水。最终，一台挖掘机成功将她从危险中救出，这一事件引发了广泛关注。她的幸存故事成为了这场自然灾害中最令人动容的画面之一。",
+          "analysis": "极端天气下的高龄幸存者往往能折射出人类在灾难面前的韧性。此次救援行动也凸显了尼泊尔在地形复杂地区开展紧急搜救的难度与重要性。",
           "social": [
             {
-              "who": "BBC记者",
-              "text": "现场报道显示救援过程惊险，挖掘机在湍急水流中作业"
+              "who": "BBC中文",
+              "text": "97岁奶奶的求生故事太震撼，挖掘机救人的画面让人泪目。"
+            },
+            {
+              "who": "微博用户",
+              "text": "这就是生命的奇迹，向这位老人致敬！"
+            }
+          ]
+        },
+        {
+          "title_zh": "尼泊尔洪灾致33名英国公民失踪，含两名未成年人",
+          "summary": "在尼泊尔致命洪水事件中，共有33名英国国民报告失踪，其中包括一名13岁女孩和一名14岁男孩。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-28",
+          "url": "https://www.bbc.co.uk/news/articles/c93v70w79gxo?at_medium=RSS&at_campaign=rss",
+          "overview": "尼泊尔洪灾造成大量人员伤亡，其中涉及多名英国公民的失踪事件尤为牵动人心。据报道，失踪名单中包括两名未成年人，这增加了搜救工作的紧迫性和情感压力。英国方面已紧急启动相关外交和领事援助程序。此次灾难再次引发了国际社会对南亚地区自然灾害应对能力的讨论。",
+          "analysis": "未成年人的卷入使得这场人道主义危机更加复杂，跨国救援协调面临诸多挑战。家属的焦急等待与官方信息的滞后形成了鲜明对比。",
+          "social": [
+            {
+              "who": "推特用户",
+              "text": "希望孩子们平安无事，祈祷搜救成功！"
+            },
+            {
+              "who": "英国领事馆发言人",
+              "text": "我们正全力协助寻找失踪公民的下落。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美委达成“历史性”石油协议，美国将掌控650亿桶委内瑞拉石油储备",
+          "summary": "特朗普宣布与美国代理总统罗德里格斯达成的新协议，美方将获得超过650亿桶已证实委内瑞拉石油储备的大多数控制权。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
+          "overview": "美国总统特朗普周五宣布与委内瑞拉达成一项新的石油协议，称美国将拥有该国650亿桶石油储备的“多数”控制权。该协议据称由国务卿鲁比奥和国防部长通过私人商业伙伴关系促成。具体条款尚未完全公开，但这一消息标志着两国关系在能源领域的重大突破。",
+          "analysis": "此举可能重塑全球能源格局，对国际油价产生深远影响。委内瑞拉作为石油大国，其资源控制权的转移将引发多方博弈。",
+          "social": [
+            {
+              "who": "财经博主",
+              "text": "650亿桶石油！这协议一旦落地，全球能源市场要地震了。"
+            },
+            {
+              "who": "国际观察员",
+              "text": "美国在拉美能源版图上又迈出了关键一步。"
+            }
+          ]
+        },
+        {
+          "title_zh": "挪威国王哈拉尔去世，其子哈康继位为新王",
+          "summary": "挪威民众周五上午为已故国王哈拉尔致以敬意，随后其子哈康正式登上王座。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-08-28",
+          "url": "https://www.bbc.co.uk/news/videos/c05rzd115y5o?at_medium=RSS&at_campaign=rss",
+          "overview": "挪威“祖父”国王哈拉尔去世，举国哀悼。民众纷纷前往表达敬意，随后其子哈康王子正式继承王位成为新君。这一权力交接标志着挪威王室历史的新篇章。作为欧洲现存最古老的君主制之一，挪威王室的稳定传承始终受到国民重视。",
+          "analysis": "哈拉尔国王在任期间的贡献将被铭记，新王的继位也意味着政策方向的潜在调整。",
+          "social": [
+            {
+              "who": "BBC国际",
+              "text": "一个时代的结束与另一个的开始，向哈拉尔国王致敬。"
+            },
+            {
+              "who": "挪威民众",
+              "text": "愿陛下安息，祝福哈康王子。"
+            }
+          ]
+        },
+        {
+          "title_zh": "埃及女王673颗钻石项链在维也纳博物馆遭抢",
+          "summary": "两名嫌疑人被警方追捕，这条曾属于埃及皇室的200克拉白金钻石项链在奥地利博物馆开放时间内被盗。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
+          "overview": "一条珍贵的673颗钻石镶嵌的200克拉白金项链，曾在维也纳应用艺术博物馆展出时遭人抢夺。该项链曾属于埃及皇室，此次盗窃发生在博物馆开放时间内，手段极为大胆。警方已发布嫌疑人照片并展开追捕行动。这一事件正值奥地利近期发生多起类似暴力抢劫案之际。",
+          "analysis": "高价值文物在公共场合被盗凸显了博物馆安保面临的严峻挑战。跨国追赃和文物归还问题也将成为后续焦点。",
+          "social": [
+            {
+              "who": "艺术评论家",
+              "text": "673颗钻石的项链被抢，简直是艺术品界的噩梦。"
+            },
+            {
+              "who": "维也纳市民",
+              "text": "希望警方尽快破案，别让犯罪分子逍遥法外。"
             }
           ]
         }
@@ -1872,60 +1962,60 @@
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国/全球",
-          "domain": "ai",
-          "recent": "近期关注自我改进型 AI 模型的能力边界及联邦层面的监管合规问题。",
-          "url": "linkedin.com/in/dario-amodei"
-        },
-        {
           "name": "Sam Altman",
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动 OpenAI Agent 生态发展，并整合开源权重 AI 公司的技术资源。",
-          "url": "openai.com/about/sam-altman"
+          "recent": "聚焦 AI Agent 智能体生态发展及企业 AI 复杂性的治理挑战。",
+          "url": "samaltman.com"
         },
         {
-          "name": "Timnit Gebru",
-          "role": "DAIR Institute 创始人 / AI 安全研究员",
-          "region": "全球（常驻美国）",
+          "name": "Yann LeCun",
+          "role": "Meta AI Chief Scientist",
+          "region": "法国/美国",
           "domain": "ai",
-          "recent": "持续倡导开源权重 AI 的公平治理及隐私保护政策。",
-          "url": "dair-institute.org"
+          "recent": "关注人工智能安全对齐及应对政府监管法律争议等政策议题。",
+          "url": "yannlecun.com"
         },
         {
-          "name": "Bryan Alexander",
-          "role": "教授 / \"The Information Society Podcast\" 主持人",
-          "region": "加拿大/美国",
-          "domain": "podcast",
-          "recent": "探讨数字图书馆在信息社会中的转型路径与人工智能对知识传播的影响。",
-          "url": "bryanalexander.ca"
+          "name": "Michael Burton",
+          "role": "美国图书馆协会(ALA)CEO",
+          "region": "美国",
+          "domain": "library",
+          "recent": "致力于图书馆技术变革与社区服务新挑战的应对策略及数字资源获取保护。",
+          "url": "ala.org"
+        },
+        {
+          "name": "王军",
+          "role": "中国国家图书馆馆长",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动智慧图书馆建设与推广及全民阅读服务新模式发展。",
+          "url": ""
         },
         {
           "name": "Lex Fridman",
-          "role": "AI 播客创作者 / YouTuber",
+          "role": "AI 播客主持人/研究者",
           "region": "美国",
           "domain": "podcast",
-          "recent": "通过深度访谈持续追踪前沿 AI 技术的安全风险与伦理议题。",
+          "recent": "通过深度访谈推动 AI 前沿技术与人类认知之间的对话与知识传播。",
           "url": "lexfridman.com"
         },
         {
-          "name": "Sarah Igloria",
-          "role": "\"American Libraries\" 杂志主编",
+          "name": "Fei-Fei Li",
+          "role": "斯坦福大学 AI 教授/播客创作者",
           "region": "美国",
-          "domain": "library",
-          "recent": "聚焦公共图书馆系统的文化创新服务及社区合作模式推广。",
-          "url": "americanlibrariesmagazine.org"
+          "domain": "ai",
+          "recent": "倡导 AI 伦理与包容性设计，关注技术对社会的广泛影响及教育公平。",
+          "url": "feifeili.ai"
         },
         {
-          "name": "王正",
-          "role": "中国图书馆学会原秘书长/负责人",
-          "region": "中国",
-          "domain": "library",
-          "recent": "推动全民阅读服务平台建设，促进馆际交流与国际论坛合作。",
-          "url": "cnlibrary.org.cn"
+          "name": "Timnit Gebru",
+          "role": "AI 伦理研究者/DAIR Institute 联合创始人",
+          "region": "全球(美国)",
+          "domain": "ai",
+          "recent": "关注数据中心环境影响及 AI 数据获取的公平性与安全议题。",
+          "url": "timnit.gebu"
         }
       ]
     },
