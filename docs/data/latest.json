@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:31:05+08:00",
+  "generated_at": "2026-08-31T12:16:48+08:00",
   "date": "2026-08-31",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,11 +7,11 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-08-31 10:35",
+    "hot": "2026-08-31 12:16",
     "ai": "2026-08-31 11:31",
-    "voices": "2026-08-31 11:31",
-    "github": "2026-08-31 06:30",
-    "libraries": "2026-08-31 11:31",
+    "voices": "2026-08-31 12:16",
+    "github": "2026-08-31 12:16",
+    "libraries": "2026-08-31 12:16",
     "sports": "2026-08-31 11:31",
     "academic": "2026-08-31 06:40"
   },
@@ -1627,242 +1627,264 @@
         {
           "title_zh": "PRAXIST：自主可执行研究系统",
           "eng": "sapientinc/PRAXIST",
-          "summary": "一套能自动规划、执行并验证计算机可运行研究的AI系统，将人类研究流程自动化。",
+          "summary": "一个能自动规划、执行并验证计算机可运行研究的AI系统，将科研流程自动化。",
           "source": "GitHub",
-          "stars": 4521,
+          "stars": 4537,
           "lang": "Python",
           "published": "2026-08-27",
           "url": "https://github.com/sapientinc/PRAXIST",
-          "overview": "PRAXIST是一个自主研究系统，能够自动将人类的研究问题转化为可执行的计算机程序，并在真实环境中运行验证。它支持从假设生成、实验设计到结果分析的全流程自动化，目标是让AI真正参与科学研究而非仅做辅助。",
-          "analysis": "该项目代表了AI从'对话式助手'向'自主研究代理'演进的重要方向，4500+星标说明社区对其高度认可。对于科研工作者和AI研究者来说，这是值得深入探索的前沿工具。",
+          "overview": "PRAXIST是一个自主研究系统，能够自动规划研究任务、执行代码实验并验证结果。它支持可测量的计算机可执行研究流程，将传统科研中重复性高的人工操作自动化，适用于科学计算和数据分析领域。",
+          "analysis": "该项目代表了AI驱动科研的前沿方向——让机器不仅辅助思考，还能自主完成从假设到验证的完整研究闭环。4500+星标说明社区对其高度认可，对科研人员和技术爱好者都有重要参考价值。",
           "social": [
             {
-              "who": "开发者",
-              "text": "将科学研究流程代码化是AI落地的关键一步，PRAXIST的架构设计很有参考价值。"
+              "who": "研究者",
+              "text": "这是AI科研自动化的里程碑级项目，让机器真正能独立跑完一个实验周期。"
             },
             {
-              "who": "研究者",
-              "text": "如果能真正实现可复现的自动化研究，对学术效率的提升将是革命性的。"
+              "who": "开发者",
+              "text": "Python生态的自主研究框架，值得在自动化测试和科学计算中探索使用。"
             }
           ]
         },
         {
-          "title_zh": "Codex+ChatGPT：双引擎编程架构",
-          "eng": "XiaoDuoYa/codex-with-chatgpt",
-          "summary": "用ChatGPT做规划大脑，Codex负责执行代码——让AI编程更智能更高效。",
+          "title_zh": "my-girlfriend-jingtian-latex：精美LaTeX模板合集",
+          "eng": "HEJustinSun/my-girlfriend-jingtian-latex",
+          "summary": "一套精心设计的中文LaTeX模板，涵盖简历、论文、报告等多种学术与职场文档场景。",
           "source": "GitHub",
-          "stars": 1349,
+          "stars": 4160,
+          "lang": "TeX",
+          "published": "2026-08-27",
+          "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+          "overview": "该仓库提供多套高质量中文LaTeX模板，包括学术论文、个人简历、项目报告等常用文档类型。模板设计精美，排版规范，特别适合需要快速产出专业文档的中文用户群体。",
+          "analysis": "4000+星标在LaTeX生态中极为罕见，说明中文学术写作工具需求巨大。对于正在学习或需要撰写论文、简历的中文学生和专业人士来说，这是最实用的资源之一。",
+          "social": [
+            {
+              "who": "研究生",
+              "text": "终于不用自己折腾LaTeX排版了，这些模板直接套用就能出专业级文档。"
+            },
+            {
+              "who": "职场新人",
+              "text": "简历模板部分非常实用，比网上零散的模板规范得多。"
+            }
+          ]
+        },
+        {
+          "title_zh": "codex-with-chatgpt：ChatGPT规划+Codex执行",
+          "eng": "XiaoDuoYa/codex-with-chatgpt",
+          "summary": "用ChatGPT作为规划大脑，配合Codex代码执行能力，实现AI辅助编程的最佳组合。",
+          "source": "GitHub",
+          "stars": 1481,
           "lang": "TypeScript",
           "published": "2026-08-28",
           "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-          "overview": "该项目将ChatGPT的规划能力与Codex的执行能力结合，形成'思考+执行'的双引擎架构。ChatGPT负责理解需求、拆解任务、制定方案，而Codex则专注于实际代码编写和调试，两者协同工作。",
-          "analysis": "这种分工模式解决了当前AI编程工具的核心痛点——规划能力弱和执行能力强之间的矛盾。1300+星标表明开发者群体对此类架构有强烈需求。",
+          "overview": "该项目将ChatGPT的规划推理能力与Codex的代码执行能力结合，让AI先理解需求、制定方案，再由Codex自动编写和运行代码。支持TypeScript项目，是当前AI编程工作流的重要实践。",
+          "analysis": "在AI编程工具快速迭代的背景下，这个组合方案解决了'规划vs执行'的核心痛点。1400+星标验证了其实际价值，对想提升开发效率的程序员极具参考意义。",
           "social": [
             {
-              "who": "开发者",
-              "text": "ChatGPT擅长理解复杂需求，Codex擅长写代码，这个组合思路很巧妙。"
+              "who": "全栈开发者",
+              "text": "ChatGPT出方案、Codex写代码的模式终于落地了，效率翻倍。"
             },
             {
               "who": "AI研究者",
-              "text": "多Agent协作模式在编程场景的落地，值得更多实践验证。"
+              "text": "这是一个很好的'规划-执行'分离架构案例，值得深入研究其交互设计。"
             }
           ]
         },
         {
-          "title_zh": "Open Higgsfield：开源图像视频生成工作室",
+          "title_zh": "open-higgsfield：开源图像视频生成工作室",
           "eng": "wide-trace/open-higgsfield",
-          "summary": "一个统一的AI创作平台，支持多种图像和视频模型，一条提示词即可启动。",
+          "summary": "一个统一的AI图像和视频生成平台，支持多模型、统一提示词栏和画廊展示。",
           "source": "GitHub",
-          "stars": 1077,
+          "stars": 1091,
           "lang": "TypeScript",
           "published": "2026-08-26",
           "url": "https://github.com/wide-trace/open-higgsfield",
-          "overview": "Open Higgsfield是一个开源的AI创作工作室，提供统一的提示词输入界面，同时支持多个图像和视频生成模型。每个模型可独立配置参数，所有生成的作品集中展示在画廊中，方便管理和分享。",
-          "analysis": "随着多模态生成模型的爆发式增长，需要一个统一的管理平台来整合不同工具。该项目降低了AI创作工具的切换成本，对内容创作者和设计师有实用价值。",
+          "overview": "open-higgsfield是一个开源的AI创作工作室，提供统一的提示词输入界面，支持多个图像和视频生成模型。所有生成的作品自动汇集到画廊中，方便管理和分享。",
+          "analysis": "随着多模态AI工具的爆发，需要一个统一的管理平台来整合不同模型的输出。该项目解决了'工具碎片化'问题，对内容创作者和设计师有实用价值。",
           "social": [
             {
               "who": "设计师",
-              "text": "终于有一个能同时跑多个模型的平台了，不用来回切换太方便了。"
+              "text": "终于不用在十几个AI工具间来回切换了，一个界面搞定所有模型。"
             },
             {
               "who": "开发者",
-              "text": "开源意味着可以自定义集成更多模型，扩展性很好。"
+              "text": "TypeScript构建的开源方案，API设计清晰，适合二次开发集成到自己的产品中。"
             }
           ]
         },
         {
-          "title_zh": "WeMM-Embedding：腾讯多模态嵌入模型",
-          "eng": "Tencent/WeMM-Embedding",
-          "summary": "微信团队出品，支持文本、图像等多模态理解的通用嵌入模型。",
-          "source": "GitHub",
-          "stars": 930,
-          "lang": "Python",
-          "published": "2026-08-25",
-          "url": "https://github.com/Tencent/WeMM-Embedding",
-          "overview": "WeMM-Embedding是腾讯微信视觉团队开发的多模态嵌入模型系列，能够同时处理文本和图像信息，生成统一的向量表示。支持多种下游任务如检索、分类和内容理解，为多模态应用提供底层能力支撑。",
-          "analysis": "来自大厂的多模态嵌入模型具有工程化成熟的优势，900+星标反映了社区对高质量预训练模型的持续需求。对于需要处理图文混合数据的开发者来说是很好的选择。",
-          "social": [
-            {
-              "who": "AI工程师",
-              "text": "腾讯在多模态领域的投入越来越深，这个模型的质量值得期待。"
-            },
-            {
-              "who": "研究者",
-              "text": "统一的多模态嵌入对跨模态检索任务很有帮助，论文和代码都很完整。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sepia：AI写作去痕迹工具",
+          "title_zh": "sepia：AI写作去味化工具",
           "eng": "Nanako0129/sepia",
-          "summary": "为Claude Code、Codex等AI编程工具提供'叙事架构修复'，让AI生成的内容更自然。",
+          "summary": "为Claude Code、Codex等AI编程工具提供'去AI味'的写作修复能力，让代码注释和文档更自然。",
           "source": "GitHub",
-          "stars": 887,
+          "stars": 953,
           "lang": "",
           "published": "2026-08-28",
           "url": "https://github.com/Nanako0129/sepia",
-          "overview": "Sepia是一个专门针对AI生成内容进行'去AI化'处理的项目，基于StoryScope理论框架。它能检测并修复Claude Code、Codex等工具生成的文本中的叙事断裂和结构问题，使输出更接近人类自然写作风格。",
-          "analysis": "随着AI生成内容的普及，如何让产出更自然成为关键挑战。该项目从架构层面解决AI写作的结构性缺陷，而非仅做表面润色，思路独特且实用。",
+          "overview": "Sepia基于StoryScope论文，专注于修复AI生成的代码注释和文档中的'机器味'。它提供叙事架构修复和专业文风匹配规则，让AI辅助写出的内容更接近人类自然表达。",
+          "analysis": "随着AI编程工具普及，大量低质量AI生成文本涌入项目。Sepia直击这个痛点——不是阻止使用AI，而是提升AI输出质量。对追求代码可读性的团队很有价值。",
           "social": [
             {
-              "who": "内容创作者",
-              "text": "用AI辅助写作后最怕的就是痕迹太重，这个工具正好解决这个问题。"
-            },
-            {
-              "who": "研究者",
-              "text": "基于StoryScope理论的方法论比简单的风格迁移更有学术价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "WolfCut：开源CapCut替代品",
-          "eng": "jub0t/WolfCut",
-          "summary": "免费开源的视频剪辑工具，对标剪映/CapCut，支持多平台运行。",
-          "source": "GitHub",
-          "stars": 692,
-          "lang": "TypeScript",
-          "published": "2026-08-25",
-          "url": "https://github.com/jub0t/WolfCut",
-          "overview": "WolfCut是一个免费开源的视频剪辑应用，功能对标CapCut（剪映），支持多平台部署。提供丰富的视频编辑、特效和模板功能，旨在为内容创作者提供一个无需付费的替代方案。",
-          "analysis": "在AI视频生成工具泛滥的背景下，传统视频剪辑工具的开源化趋势值得关注。600+星标说明市场对免费高质量剪辑工具的需求旺盛。",
-          "social": [
-            {
-              "who": "自媒体人",
-              "text": "剪映太贵了，有个免费的替代品真的很实用。"
+              "who": "技术写作者",
+              "text": "终于有工具能修掉那些'首先、其次、最后'的AI味了，文档质量提升明显。"
             },
             {
               "who": "开发者",
-              "text": "开源意味着可以二次开发，集成自己的功能模块很灵活。"
+              "text": "基于arXiv论文的严谨方案，不是简单的正则替换，而是真正的叙事架构修复。"
             }
           ]
         },
         {
-          "title_zh": "darwin-vm：iOS/macOS虚拟机方案",
-          "eng": "jprx/darwin-vm",
-          "summary": "基于Qemu运行iOS和macOS，支持iPhone 12-17及M1-M5 Mac的虚拟化。",
+          "title_zh": "WeMM-Embedding：腾讯微信团队多模态嵌入模型",
+          "eng": "Tencent/WeMM-Embedding",
+          "summary": "腾讯微信视觉团队出品的通用多模态嵌入模型，支持图文音视频的统一理解与检索。",
           "source": "GitHub",
-          "stars": 617,
+          "stars": 945,
+          "lang": "Python",
+          "published": "2026-08-25",
+          "url": "https://github.com/Tencent/WeMM-Embedding",
+          "overview": "WeMM-Embedding是腾讯微信团队开发的多模态嵌入模型系列，能够同时理解文本、图像、音频和视频内容。支持跨模态检索和语义相似度计算，适用于推荐系统、搜索和内容理解等场景。",
+          "analysis": "来自大厂团队的开源多模态模型，在中文场景下的表现值得期待。900+星标说明社区对其关注度很高，对需要构建多模态AI应用的研究者和开发者是重要参考。",
+          "social": [
+            {
+              "who": "AI研究员",
+              "text": "腾讯出品，中文理解能力应该不错，适合做跨模态检索的基线模型。"
+            },
+            {
+              "who": "应用开发者",
+              "text": "Python接口友好，可以直接集成到推荐系统或搜索产品中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "WolfCut：免费开源的CapCut替代品",
+          "eng": "jub0t/WolfCut",
+          "summary": "一款免费的开源视频编辑工具，对标剪映(CapCut)，支持多平台使用。",
+          "source": "GitHub",
+          "stars": 735,
+          "lang": "TypeScript",
+          "published": "2026-08-25",
+          "url": "https://github.com/jub0t/WolfCut",
+          "overview": "WolfCut是一款开源的视频编辑应用，功能对标剪映(CapCut)，支持视频剪辑、特效添加和字幕生成。采用TypeScript构建，可在Linux、macOS和Windows上运行，无需付费订阅即可使用全部核心功能。",
+          "analysis": "在AI视频工具泛滥的时代，一个真正免费开源的替代品很有意义。700+星标说明用户对'去广告化'视频编辑工具有强烈需求，对内容创作者是好消息。",
+          "social": [
+            {
+              "who": "自媒体人",
+              "text": "终于不用给剪映交会员费了，功能够用且完全免费开源。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript构建的桌面应用，代码结构清晰，适合学习Electron/TAURI开发模式。"
+            }
+          ]
+        },
+        {
+          "title_zh": "headcount：Claude Code企业级Agent组织框架",
+          "eng": "cbrock84/headcount",
+          "summary": "将Claude Code的Agent组织成公司架构，包含15+部门、125+技能模块，每个可独立安装。",
+          "source": "GitHub",
+          "stars": 727,
+          "lang": "Markdown",
+          "published": "2026-08-28",
+          "url": "https://github.com/cbrock84/headcount",
+          "overview": "Headcount是一个创新的Agent组织方案，将Claude Code的AI助手按公司部门结构组织。包含15个以上虚拟部门、125+可独立安装的技能模块，覆盖开发、测试、文档、设计等多种工作场景。",
+          "analysis": "这个'公司化'的Agent架构思路非常巧妙——通过模块化技能让AI团队各司其职。700+星标说明这种组织方式得到了社区认可，对构建复杂AI工作流有启发意义。",
+          "social": [
+            {
+              "who": "技术管理者",
+              "text": "把AI Agent当员工管理的方式太妙了，每个部门专注一件事，协作效率很高。"
+            },
+            {
+              "who": "开发者",
+              "text": "Markdown格式的知识库设计很清晰，每个技能模块独立可装，扩展性极强。"
+            }
+          ]
+        },
+        {
+          "title_zh": "darwin-vm：Qemu运行iOS/macOS虚拟机",
+          "eng": "jprx/darwin-vm",
+          "summary": "通过Qemu在PC上运行iPhone和Mac，支持从iPhone 12到iPhone 17及M系列芯片。",
+          "source": "GitHub",
+          "stars": 633,
           "lang": "Python",
           "published": "2026-08-27",
           "url": "https://github.com/jprx/darwin-vm",
-          "overview": "darwin-vm是一个利用Qemu技术实现iOS和macOS虚拟化的项目，支持从iPhone 12到iPhone 17以及M1到M5芯片的Mac机型。开发者可以在同一台机器上同时运行多个Apple生态设备，便于测试和开发。",
-          "analysis": "随着跨平台开发需求增加，能够在本地模拟完整Apple生态变得愈发重要。该项目降低了iOS/macOS开发的硬件门槛，对移动开发者和安全研究者有实用价值。",
+          "overview": "darwin-vm是一个基于Qemu的虚拟机方案，能在PC上运行完整的iOS和macOS系统。支持从iPhone 12到最新的iPhone 17以及M5-M1系列Mac芯片，可用于开发测试、逆向分析和兼容性验证等场景。",
+          "analysis": "在Apple设备越来越封闭的背景下，这个开源虚拟化方案为开发者提供了宝贵的调试工具。600+星标说明需求真实存在，对iOS/macOS开发和测试人员是重要资源。",
           "social": [
             {
-              "who": "移动端开发者",
-              "text": "不用买多台设备就能测试不同iPhone版本，太方便了。"
+              "who": "iOS开发者",
+              "text": "终于不用买一堆不同型号的iPhone来测试了，一台PC搞定所有机型。"
             },
             {
               "who": "安全研究员",
-              "text": "在隔离环境中运行iOS系统对漏洞研究很有帮助。"
+              "text": "在隔离环境中运行macOS/iOS，做逆向和漏洞分析更安全可控。"
             }
           ]
         },
         {
-          "title_zh": "Boop：开发者自托管通知收件箱",
+          "title_zh": "boop：开发者自托管通知收件箱",
           "eng": "chrisgreg/boop",
-          "summary": "一个极简的自托管应用通知服务，当你的App有事件时通过手机推送提醒。",
+          "summary": "一个轻量级的自托管应用通知服务，当你的App有事件发生时，通过手机推送提醒你。",
           "source": "GitHub",
-          "stars": 598,
+          "stars": 618,
           "lang": "Go",
           "published": "2026-08-28",
           "url": "https://github.com/chrisgreg/boop",
-          "overview": "Boop是一个轻量级的开发者通知工具，采用自托管架构部署在自己的服务器上。当监控的应用产生重要事件时，通过手机推送即时提醒开发者，支持多种通知渠道和自定义规则配置。",
-          "analysis": "在微服务和多应用并行的开发环境中，及时获取关键告警至关重要。Boop的极简设计和自托管特性满足了独立开发者和小型团队的需求。",
+          "overview": "Boop是一个极简的开发者通知工具，以自托管方式运行。当你的应用或服务器发生重要事件时，它会自动推送手机通知。采用Go语言构建，部署简单、资源占用低，适合个人开发者和小型团队使用。",
+          "analysis": "在AI Agent和自动化脚本越来越多的今天，如何有效接收通知是个实际问题。Boop的极简设计理念——只做一件事且做好——值得学习。600+星标说明这种'小而美'的工具需求旺盛。",
           "social": [
             {
               "who": "独立开发者",
-              "text": "不想用第三方监控服务，自己部署一个很安心。"
+              "text": "终于有个靠谱的通知工具了，不再依赖各种第三方服务，数据自己掌控。"
             },
             {
               "who": "运维工程师",
-              "text": "Go语言写的性能不错，轻量部署对服务器资源友好。"
+              "text": "Go写的，部署一条命令搞定，比那些臃肿的监控平台轻量太多。"
             }
           ]
         },
         {
-          "title_zh": "Life IPO：个人数据操作系统",
-          "eng": "gtlhuyidan-sketch/life-ipo",
-          "summary": "统一财务、健康、知识、人脉和AI决策的个人生活管理平台。",
-          "source": "GitHub",
-          "stars": 538,
-          "lang": "TypeScript",
-          "published": "2026-08-25",
-          "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
-          "overview": "Life IPO是一个将个人生活数据整合管理的操作系统，覆盖财务、健康、知识积累、人脉关系和AI辅助决策等多个维度。通过统一的数据平台实现跨领域的生活优化，支持团队协作执行。",
-          "analysis": "随着AI技术渗透到日常生活，如何系统化管理个人数据并做出更优决策成为新需求。该项目从'人生IPO'的视角出发，将生活视为可优化的投资组合，概念新颖。",
-          "social": [
-            {
-              "who": "效率爱好者",
-              "text": "把生活当成投资来管理这个思路很独特，值得尝试。"
-            },
-            {
-              "who": "产品经理",
-              "text": "个人数据操作系统是一个很有前景的方向，但需要解决隐私和信任问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "FastPotify：Rust版Spotify客户端",
+          "title_zh": "fastpotify：Rust原生Spotify客户端",
           "eng": "crmne/fastpotify",
-          "summary": "用Rust编写的轻量级Spotify替代品，支持本地播放和Spotify Connect。",
+          "summary": "用Rust构建的轻量级Spotify客户端，支持本地播放和Spotify Connect，跨平台运行。",
           "source": "GitHub",
-          "stars": 553,
+          "stars": 582,
           "lang": "Rust",
           "published": "2026-08-27",
           "url": "https://github.com/crmne/fastpotify",
-          "overview": "FastPotify是一个用Rust语言开发的Spotify客户端替代品，支持Linux、macOS和Windows三大平台。提供完整的本地音乐库管理、流媒体播放和Spotify Connect功能，主打轻量快速的特点。",
-          "analysis": "在AI音乐生成工具日益普及的背景下，传统音乐播放器的开源化需求依然存在。Rust语言的高性能特性使其成为替代方案的有力竞争者。",
+          "overview": "fastpotify是一款用Rust编写的Spotify客户端应用，支持Linux、macOS和Windows三大平台。它提供本地音乐库播放功能，同时通过Spotify Connect协议与云端同步。轻量快速，无需臃肿的官方客户端即可享受完整体验。",
+          "analysis": "在Spotify官方客户端越来越臃肿的背景下，Rust原生方案提供了更好的性能和更小的资源占用。500+星标说明用户对'干净、快速'的音乐播放工具有真实需求，对Rust桌面应用开发也是好案例。",
           "social": [
             {
               "who": "音乐爱好者",
-              "text": "不想被Spotify绑定，有个免费的本地播放器很实用。"
+              "text": "终于有个不占内存的Spotify客户端了，Rust的速度确实快。"
             },
             {
               "who": "Rust开发者",
-              "text": "用Rust写桌面应用体验很好，编译快、内存占用低。"
+              "text": "跨平台桌面应用的好案例，Tauri/Rust生态的实用落地参考。"
             }
           ]
         },
         {
-          "title_zh": "数据科学丛书：Python学习资源",
-          "eng": "tradecatlabs/shulihuazixuecongshu",
-          "summary": "系统化的数据科学学习教程，涵盖从基础到进阶的完整知识体系。",
+          "title_zh": "life-ipo：个人数据操作系统",
+          "eng": "gtlhuyidan-sketch/life-ipo",
+          "summary": "统一财务、健康、知识、人脉、AI决策与团队执行的个人数据管理框架。",
           "source": "GitHub",
-          "stars": 776,
-          "lang": "Python",
-          "published": "2026-08-27",
-          "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
-          "overview": "这是一套系统化的数据科学学习丛书，以中文编写，涵盖统计学基础、机器学习算法、深度学习实践等核心内容。采用循序渐进的教学方式，配有大量代码示例和实战项目，适合从入门到进阶的学习者。",
-          "analysis": "在AI和数据科学人才需求持续增长的背景下，优质的中文学习资料弥足珍贵。700+星标说明社区对系统化学习资源有稳定需求，特别适合非英语母语的学习者。",
+          "stars": 567,
+          "lang": "TypeScript",
+          "published": "2026-08-25",
+          "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
+          "overview": "Life-IPO是一个个人数据操作系统，将财务、健康、知识管理、人脉关系、AI辅助决策和团队执行整合到统一框架中。采用TypeScript构建，支持跨平台使用，旨在成为个人生活的'中央数据库'。",
+          "analysis": "随着个人数据量爆炸式增长，需要一个统一的组织框架。Life-IPO的'人生IPO'概念很有创意——像公司管理一样管理自己的人生资产。500+星标说明这种'个人操作系统'的理念正在获得关注。",
           "social": [
             {
-              "who": "学生",
-              "text": "英文资料太多看不下去，中文系统教程太需要了。"
+              "who": "效率爱好者",
+              "text": "把人生当公司来管理的思路很新颖，终于不用在十几个app间切换了。"
             },
             {
-              "who": "教育者",
-              "text": "作为教学参考材料很合适，结构清晰、循序渐进。"
+              "who": "开发者",
+              "text": "TypeScript构建的跨平台方案，API设计清晰，适合做个人数据管理的基础设施。"
             }
           ]
         }
@@ -1871,307 +1893,156 @@
     "hot": {
       "items": [
         {
-          "title_zh": "美国首次打击伊朗拉腊克岛导弹发射器",
-          "summary": "美军对伊朗拉腊克岛实施打击，系自7月底以来首次已知攻击。伊朗称袭击造成平民伤亡并誓言报复。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-30",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-          "overview": "美国对伊朗拉腊克岛上的导弹发射器发动了打击，这是自今年7月底以来已知的首次美军空袭行动。伊朗方面表示此次袭击导致部分平民伤亡，并指责美方行为升级地区紧张局势。分析人士指出，此举可能标志着美伊冲突进入新的对抗阶段，双方军事对峙风险显著上升。",
-          "analysis": "该事件是近期中东局势的重大转折点，可能引发更广泛的军事回应或外交博弈，需密切关注后续国际反应及伊朗的报复措施。",
-          "social": [
-            {
-              "who": "军事分析专家",
-              "text": "此次打击表明美方对伊政策正从制裁转向直接军事行动，区域安全格局面临重塑。"
-            },
-            {
-              "who": "国际观察家",
-              "text": "平民伤亡事件可能加剧伊朗国内反美情绪，增加冲突外溢风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "苏丹内战难民在避难城市面临严峻人道主义危机",
-          "summary": "流离失所平民涌入埃尔奥贝德，条件急剧恶化。联合国称自7月中旬以来已有超过1.5万个家庭抵达。",
+          "title_zh": "苏丹内战难民涌入埃尔奥贝德，人道主义危机加剧",
+          "summary": "苏丹武装部队与快速支援部队的战斗导致更多平民涌入埃尔奥贝德及其周边难民营，条件日益恶化。联合国称自七月中旬以来已有超过15000个家庭抵达该市。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-30",
           "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
-          "overview": "苏丹武装部队与快速支援部队（RSF）之间的战斗持续升级，大量平民被迫逃离家园涌入埃尔奥贝德及其周边营地。地面人员报告称避难城市严重超员，人道主义状况正在急剧恶化，联合国已发出紧急警告。国际社会面临巨大的救援压力，急需增加物资和医疗资源的投入以缓解危机。",
-          "analysis": "苏丹内战的人道主义后果日益严峻，若不及时干预，可能导致更大规模的流离失所和人道灾难，成为地区稳定的重大隐患。",
+          "overview": "地面人员报告称苏丹城市埃尔奥贝德及周边的两个营地人道主义状况严峻且不断恶化。随着苏丹武装力量与快速支援部队（RSF）民兵之间的战斗持续，越来越多的平民从周围农村涌入。自七月中旬以来已有超过15000个家庭抵达该市，难民营严重过度拥挤。",
+          "analysis": "这场人道主义危机凸显了苏丹冲突的长期影响，国际社会面临巨大压力。随着更多受创伤平民每日到达，救援资源捉襟见肘。",
           "social": [
             {
-              "who": "联合国人道主义官员",
-              "text": "埃尔奥贝德已无法承载涌入的难民数量，基础设施面临崩溃风险。"
-            },
-            {
-              "who": "当地援助工作者",
-              "text": "物资极度匮乏，许多家庭缺乏基本食物和饮用水，儿童健康受到严重威胁。"
+              "who": "联合国难民署",
+              "text": "警告称埃尔奥贝德收容能力已接近极限，急需国际援助支持基本生存物资供应。"
             }
           ]
         },
         {
-          "title_zh": "加拿大竖起巨型安大略湖标志对抗特朗普改名风波",
-          "summary": "安大略省省长竖起“安大略湖，现在和永远”标志，特朗普则推倒并换上“美国湖”标志。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-30",
-          "url": "https://www.theguardian.com/us-news/2026/aug/30/canada-trump-lake-ontario-name",
-          "overview": "加拿大安大略省省长为回应美国政府对安大略湖的行政更名，竖立了巨型“安大略湖”标志。特朗普随后发布视频推倒该标志并换上“美国湖”，引发两国在社交媒体上的激烈交锋。这一事件凸显了美加关系中的主权争议和文化冲突，成为近期国际舆论焦点。",
-          "analysis": "虽然看似是名称之争，但背后涉及国家主权和领土标识的敏感问题，可能影响两国民间外交及贸易氛围。",
-          "social": [
-            {
-              "who": "安大略省省长",
-              "text": "安大略湖属于加拿大，任何更名企图都是对国家主权的侵犯。"
-            },
-            {
-              "who": "政治评论员",
-              "text": "特朗普此举意在通过争议性话题转移国内注意力，但加剧了邻国紧张关系。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta美国和解案或将引发全球法律连锁反应",
-          "summary": "其他政府可能寻求类似让步，肯尼亚至荷兰均有待决诉讼。此前Facebook算法曾推广针对一名教授的暗杀帖文。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-28",
-          "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
-          "overview": "Meta在美国达成和解后，全球范围内针对该公司的法律行动可能加速推进。此前在埃塞俄比亚内战期间，Facebook算法曾主动推广呼吁杀害一名化学教授的帖文，导致其死亡。这一案例揭示了科技巨头在内容审核和算法推荐中的责任问题，引发国际社会对平台治理的广泛关注。",
-          "analysis": "Meta的和解协议可能成为其他国家效仿的先例，推动全球范围内对社交媒体平台的监管趋严。",
-          "social": [
-            {
-              "who": "科技法律专家",
-              "text": "此次和解将迫使Meta在全球范围内重新审视其算法推荐机制的责任边界。"
-            },
-            {
-              "who": "人权活动家",
-              "text": "平台对仇恨言论的纵容必须受到更严格的法律约束，以保护用户安全。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国宣布调整提前释放方案，连环杀手将留在狱中",
-          "summary": "首相安迪·伯纳姆宣布变更10月启动的提前释放计划，哈珀案凶手将不再获释。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-30",
-          "url": "https://www.bbc.co.uk/news/articles/c14dlm5e22ko?at_medium=RSS&at_campaign=rss",
-          "overview": "英国首相安迪·伯纳姆于周日宣布对即将在10月启动的提前释放方案进行重大调整。此次变更意味着此前因该案引发广泛关注的连环杀手将不会被提前释放，回应了公众对司法公正的强烈诉求。这一决定反映了英国政府在公共安全与刑事政策之间的平衡考量。",
-          "analysis": "该政策调整可能影响未来数年的监狱管理和犯罪预防策略，同时也为其他国家的类似改革提供参考。",
-          "social": [
-            {
-              "who": "政治评论员",
-              "text": "伯纳姆此举旨在平息公众愤怒，但需警惕对提前释放制度的长期负面影响。"
-            },
-            {
-              "who": "法律学者",
-              "text": "政策变更应基于证据和风险评估，而非单纯的政治压力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "帕特森将被取代，图根德哈特出任影子外交大臣",
-          "summary": "凯米·巴登诺赫预计将对其前排团队进行更广泛重组。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-31",
-          "url": "https://www.bbc.co.uk/news/articles/cn5d7ry053eo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国保守党领袖凯米·巴登诺赫预计将对影子内阁团队进行更广泛的重组，帕特森将被图根德哈特取代出任影子外交大臣。这一人事变动发生在多名高级成员离职的背景下，显示出党内对领导层调整的需求。此次重组可能影响英国在即将到来的选举中的外交政策定位和竞选策略。",
-          "analysis": "巴登诺赫的重组计划旨在巩固其领导地位，但频繁的人事变动也可能引发党内不稳定因素。",
-          "social": [
-            {
-              "who": "英国政坛观察家",
-              "text": "此次人事调整反映了保守党内部对当前外交政策方向的重新审视。"
-            },
-            {
-              "who": "政治分析师",
-              "text": "图根德哈特的上任可能带来新的外交策略，但需时间适应党内角色。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国就一名在约旦河西岸被定居者拘留的英国活动人士向以色列提出申诉",
-          "summary": "22岁学生活动人士芬恩·乔金在被捕后引发关注，英方介入调查。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-08-30",
-          "url": "https://www.bbc.co.uk/news/articles/c3d7xgge7vgo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国政府就一名在约旦河西岸被以色列定居者拘留的22岁英国学生活动人士芬恩·乔金一事向以色列提出申诉。该学生在巴勒斯坦村庄乌姆阿尔凯尔被捕，事件引发了国际社会对西岸安全局势及公民权利保护的广泛关注。英方的介入表明了对海外公民安全的重视以及对巴以冲突中人道主义问题的关注。",
-          "analysis": "此类事件频发凸显了约旦河西岸的安全风险，也考验着英国在外交和人权保护方面的行动力。",
-          "social": [
-            {
-              "who": "人权组织代表",
-              "text": "西岸定居者对平民的暴力行为必须受到国际法约束，以维护基本人权。"
-            },
-            {
-              "who": "外交官",
-              "text": "英方将密切关注事态发展，确保该学生的安全并推动公正处理。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英方敦促协助释放因姐姐政治活动家在开罗被捕的英国-埃及女性",
-          "summary": "律师称 Eman el-Shazly 被拘留是为了压制其妹妹的政治影响力，英国外交部已介入。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-08-27",
-          "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
-          "overview": "英国政府被要求协助释放一名在开罗被捕的英国-埃及女性 Eman el-Shazly。律师声称其被拘留是为了压制其妹妹 Mona 作为反对西塞政权批评者的政治活动。Eman 于8月16日访问埃及时被捕，事件引发了对埃及司法独立性和政治迫害问题的国际讨论。",
-          "analysis": "此案涉及跨国公民权利保护，可能推动英埃两国在人权领域的对话与合作。",
-          "social": [
-            {
-              "who": "律师",
-              "text": "Eman 的拘留缺乏合法依据，应尽快释放以确保其基本人权。"
-            },
-            {
-              "who": "国际观察家",
-              "text": "埃及当局对政治异见者的打压行为需受到国际社会更多关注。"
-            }
-          ]
-        },
-        {
-          "title_zh": "埃及女王673颗钻石项链在维也纳遭砸抢盗窃",
-          "summary": "两名嫌疑人被搜捕，该200克拉铂金项链曾属于埃及皇室，正值博物馆开放期间被盗。",
+          "title_zh": "埃及女王673颗钻石项链在维也纳遭抢",
+          "summary": "两名嫌疑人被搜捕，这条曾属于埃及皇室的历史性200克拉铂金项链在博物馆营业期间被盗。奥地利警方正在追捕涉嫌从维也纳应用艺术博物馆窃取项链的两名男子。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
-          "overview": "奥地利警方正在追捕两名涉嫌在维也纳应用艺术博物馆（MAK）盗窃的嫌疑人。被盗物品为一条镶嵌673颗钻石的200克拉铂金项链，曾属于埃及皇室。此次盗窃发生在博物馆开放期间，正值一系列壮观的砸抢盗窃案频发之际，引发了对博物馆安保措施的质疑。",
-          "analysis": "高价值文物的失窃不仅造成巨大经济损失，也暴露了公共博物馆在安全防护方面的漏洞。",
+          "overview": "这条镶嵌673颗钻石的铂金项链在维也纳应用艺术博物馆（MAK）展出时遭遇“砸窗式”抢劫。警方已公布监控画面中的两名嫌疑人照片，案件发生在博物馆营业时间内。此类博物馆盗窃案频发引发安全担忧。",
+          "analysis": "珍贵文物面临前所未有的风险，安保措施需升级以应对日益猖獗的珠宝盗窃犯罪。",
           "social": [
             {
-              "who": "博物馆安保专家",
-              "text": "此次事件凸显了大型博物馆在人流高峰期加强安保的必要性。"
-            },
-            {
-              "who": "珠宝鉴定师",
-              "text": "该项链的历史价值远超其市场价值，追回工作至关重要。"
+              "who": "维也纳警方",
+              "text": "呼吁公众提供线索协助追捕嫌疑人，并加强博物馆夜间及营业期间的安防巡逻。"
             }
           ]
         },
         {
-          "title_zh": "曾被诊断为阿尔茨海默症演员伦敦上演单人剧",
-          "summary": "Peter Marinker 独自演绎贝克特经典剧目，挑战自我极限。",
-          "source": "BBC News",
+          "title_zh": "Meta美国和解协议对全球的影响及后续诉讼",
+          "summary": "其他政府可能寻求类似让步，肯尼亚至荷兰等地均有独立法律行动 pending。2021年一名埃塞俄比亚学者被枪杀前，Facebook算法曾推广呼吁其死亡的帖子。",
+          "source": "Guardian World",
           "region": "国外",
-          "published": "2026-08-31",
-          "url": "https://www.bbc.co.uk/news/articles/c4g3nwwjd8go?at_medium=RSS&at_campaign=rss",
-          "overview": "演员 Peter Marinker 在曾被诊断患有阿尔茨海默症后，选择在伦敦舞台上独自演绎贝克特最著名的剧目之一。这一壮举不仅展现了其个人勇气和艺术追求，也为公众提供了关于神经退行性疾病与艺术创作关系的深刻思考。该剧目的上演引发了戏剧界和医学界的广泛关注。",
-          "analysis": "Marinker 的故事激励了无数患者，证明了即使在疾病面前，人类精神的力量依然不可估量。",
+          "published": "2026-08-28",
+          "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+          "overview": "Meta与美国达成和解后，其他国家面临效仿压力。非营利组织Foxglove指出算法曾主动推广针对学者的暴力内容。这一事件引发了关于科技巨头法律责任边界的全球讨论。",
+          "analysis": "科技巨头的法律责任边界正在重新定义，全球多国可能跟进起诉以维护公民权益。",
           "social": [
             {
-              "who": "戏剧评论家",
-              "text": "这一表演是对贝克特作品精神的深刻诠释，也是对生命力的颂歌。"
-            },
-            {
-              "who": "患者家属",
-              "text": "Marinker 的勇气给了我们希望，让我们相信即使在困境中也能找到意义。"
+              "who": "非营利组织Foxglove",
+              "text": "强调算法推荐机制在暴力事件中的潜在危害，呼吁平台承担更严格的审查义务。"
             }
           ]
         },
         {
-          "title_zh": "为何许多黑人英国人仍不会游泳？BBC深入调查",
-          "summary": "数十年来黑人群体游泳能力较低，记者追问其背后的历史与社会原因。",
-          "source": "BBC News",
+          "title_zh": "英国敦促释放因姐妹活动家身份在开罗被捕的英埃女性",
+          "summary": "律师称 Eman el-Shazly 被拘留是为了压制其妹妹对塞西政权批评的声音。这位居住在伯明翰的45岁女性在8月16日访问埃及时被捕。",
+          "source": "Guardian World",
           "region": "国外",
-          "published": "2026-08-31",
-          "url": "https://www.bbc.co.uk/news/articles/cx27vxkpdz1o?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC 记者深入调查了为何黑人群体的游泳能力在数十年间一直较低。文章探讨了历史遗留问题、社区资源分配不均以及文化因素对这一现象的影响。这一话题引发了公众对种族平等和社会融合的广泛讨论，呼吁社会各界关注并解决这一问题。",
-          "analysis": "该调查揭示了深层的社会结构性不平等，为政策制定者提供了改进公共健康服务的参考依据。",
+          "published": "2026-08-27",
+          "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
+          "overview": "律师声称 Eman el-Shazly 的妹妹 Mona 是塞西政权的批评者，此次逮捕被视为报复性打压。英国外交部已被要求介入以确保其获释。此案涉及外交干预和人权保护议题。",
+          "analysis": "此案引发国际社会对埃及司法独立性的关注，政治迫害行为可能损害两国关系。",
           "social": [
             {
-              "who": "体育科学家",
-              "text": "游泳能力的差异与早期社区缺乏游泳池和培训资源密切相关。"
-            },
-            {
-              "who": "社区领袖",
-              "text": "我们需要更多的投资来确保所有儿童，无论种族背景，都能获得平等的运动机会。"
+              "who": "Eman el-Shazly 律师团队",
+              "text": "向英国政府提交请愿书，要求立即干预并保障当事人的人身自由与合法权益。"
             }
           ]
         },
         {
           "title_zh": "南非警方逮捕两名泰国男子涉嫌走私鹦鹉蛋",
-          "summary": "在约翰内斯堡机场查获自制孵化器的鸟蛋，官员试图遏制野生动物贩运。",
+          "summary": "在约翰内斯堡机场拦截的鸟蛋装在自制孵化器中，官员试图遏制野生动物贩运。一名50岁泰国国民于8月20日在奥兰多塔姆博国际机场被捕。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-26",
-          "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-egs",
-          "overview": "南非警方在约翰内斯堡奥塔姆博国际机场逮捕了两名泰国国籍男子，涉嫌试图将濒危鹦鹉蛋走私出境。一名50岁男子携带50个鸟蛋和自制孵化器被查获。此次行动是南非当局打击野生动物贩运努力的一部分，旨在保护当地生物多样性并遏制非法贸易。",
-          "analysis": "野生动物走私是一个全球性问题，需要各国加强合作以有效打击这一犯罪网络。",
+          "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
+          "overview": "两名泰国国民因试图将濒危鹦鹉蛋运出南非而被捕。鸟蛋被装在手提行李的自制孵化器中，手段隐蔽但难逃海关检查。此举旨在打击日益猖獗的野生动物贩运活动。",
+          "analysis": "尽管走私手段不断翻新，但海关执法力度加强有效遏制了此类犯罪链条。",
           "social": [
             {
-              "who": "野生动物保护专家",
-              "text": "鹦鹉蛋的走私对野生种群构成严重威胁，必须加大执法力度。"
-            },
+              "who": "南非野生动物保护组织",
+              "text": "表示此类案件数量上升令人担忧，呼吁加强国际合作以切断非法贸易网络。"
+            }
+          ]
+        },
+        {
+          "title_zh": "加拿大竖起巨型“安大略湖”标志对抗特朗普更名争议",
+          "summary": "特朗普踢倒标志并换上“美国湖”，双方围绕湖泊命名展开口舌之争。安大略省省长竖立了写着“安大略湖，现在和永远”的巨大标志。",
+          "source": "Guardian US News",
+          "region": "国外",
+          "published": "2026-08-30",
+          "url": "https://www.theguardian.com/us-news/2026/aug/30/canada-trump-lake-ontario-name",
+          "overview": "美国总统特朗普拍摄视频踢倒安大略湖标志并竖起替代牌“美国湖”，引发外交口水战。加拿大安大略省省长随即竖立巨型标志回应，强调湖泊名称的归属权。双方围绕命名问题持续升级言辞对抗。",
+          "analysis": "这一事件反映了美加关系中的文化摩擦，行政更名行为引发广泛争议与关注。",
+          "social": [
             {
-              "who": "海关官员",
-              "text": "机场是拦截非法物品的重要关口，我们将继续加强检查以阻止此类犯罪。"
+              "who": "安大略省省长",
+              "text": "坚定表示湖泊名称属于加拿大历史遗产，不容美方单方面更改。"
             }
           ]
         }
       ],
       "regions": [
+        "中国",
         "国外"
       ]
     },
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注企业 AI 代理的复杂性风险与知识产权争议，主导 Anthropic 在生成式 AI 安全治理及法律合规方面的战略方向。",
-          "url": "https://www.anthropic.com/team"
-        },
-        {
-          "name": "Sharon L. Davis",
-          "role": "美国图书馆协会(ALA)主席",
-          "region": "美国",
-          "domain": "library",
-          "recent": "聚焦保护公共数字资源访问权（如 E-Rate 项目）、推动生成式 AI 在图书馆服务中的角色定位及信息素养教育。",
-          "url": "https://www.ala.org/aboutala/leadership/presidents"
-        },
-        {
-          "name": "Danah Boyd",
-          "role": "AI 伦理与隐私研究者、播客嘉宾",
-          "region": "加拿大/美国",
-          "domain": "ai/podcast/library",
-          "recent": "关注 AI 监控技术引发的公众反弹（如 Flock AI）、青少年数据隐私保护及图书馆在开放数据倡导中的角色。",
-          "url": "https://www.danahboyd.net"
-        },
-        {
-          "name": "张强",
-          "role": "中国图书馆学会领导/智慧图书馆推动者",
+          "name": "吴建中",
+          "role": "国家图书馆原馆长/智慧图书馆研究专家",
           "region": "中国",
           "domain": "library",
-          "recent": "主导京津冀智慧图书馆建设、全国阅读服务推广及中俄图书馆论坛等区域合作与数字化转型战略。",
+          "recent": "推动智慧图书馆建设与推广，关注图书馆数字化转型与服务创新",
           "url": ""
         },
         {
-          "name": "Sherry Turkle",
-          "role": "MIT 教授/社会学家",
+          "name": "Michael Gorman",
+          "role": "前纽约公共图书馆馆长/图书馆界知名人物",
           "region": "美国",
-          "domain": "ai/podcast/library",
-          "recent": "探讨生成式人工智能对人类学习方式的深层影响，为图书馆媒体素养教学提供新方向与策略反思。",
-          "url": "https://www.sherysturkle.com"
+          "domain": "library",
+          "recent": "关注图书馆在AI时代的服务转型与包容性参考服务实践",
+          "url": ""
         },
         {
-          "name": "Fei-Fei Li",
-          "role": "斯坦福 HAI 主任/AI 伦理倡导者",
-          "region": "美国",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO/全球AI领域领袖",
+          "region": "美国/全球",
           "domain": "ai",
-          "recent": "强调企业 AI 的真正风险在于系统复杂性而非自主代理，推动负责任的 AI 开发与跨领域社会应用。",
-          "url": "https://www.hai.stanford.edu/feifei-li"
+          "recent": "引领大语言模型与通用人工智能发展，推动AI技术商业化应用",
+          "url": ""
         },
         {
-          "name": "Timnit Gebru",
-          "role": "AI 安全研究者/开源社区倡导者",
-          "region": "埃塞俄比亚/美国",
-          "domain": "ai/podcast/library",
-          "recent": "揭露 AI 代理对开源平台（如 Hugging Face）的潜在入侵风险，呼吁关注算法偏见与图书馆数据隐私安全问题。",
-          "url": "https://www.timnitgebru.com"
+          "name": "Lex Fridman",
+          "role": "知名播客主持人/AI领域评论者",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "主持深度对话播客，聚焦AI技术发展与人类未来影响讨论",
+          "url": ""
+        },
+        {
+          "name": "Demis Hassabis",
+          "role": "DeepMind创始人/图灵奖得主",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "推动AI科学研究与游戏、药物发现等应用，关注AGI发展路径",
+          "url": ""
+        },
+        {
+          "name": "刘炜",
+          "role": "中国图书馆学会活动组织者/图书馆界代表",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动百县馆长论坛与全民阅读服务，关注基层图书馆建设与服务推广",
+          "url": ""
         }
       ]
     },
