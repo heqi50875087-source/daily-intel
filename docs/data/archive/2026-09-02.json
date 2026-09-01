@@ -1,23 +1,101 @@
 {
-  "generated_at": "2026-09-02T06:28:44+08:00",
+  "generated_at": "2026-09-02T07:31:17+08:00",
   "date": "2026-09-02",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-09-02 06:28",
-    "ai": "2026-09-02 06:28",
-    "voices": "2026-09-02 06:28",
-    "github": "2026-09-01 23:43",
+    "hot": "2026-09-02 07:31",
+    "ai": "2026-09-02 07:31",
+    "voices": "2026-09-02 07:31",
+    "github": "2026-09-02 07:31",
     "libraries": "2026-09-01 23:43",
-    "sports": "2026-09-02 06:28",
-    "academic": "2026-09-01 06:40"
+    "sports": "2026-09-02 07:31",
+    "academic": "2026-09-02 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Anthropic 发布 Claude Fable 5.1：成本降低 45%，限制更少",
+          "eng": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+          "summary": "Anthropic 推出新一代模型 Claude Fable 5.1，针对客户关于价格过高、数据留存和过度安全限制的批评进行了针对性调整。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-09-01",
+          "tags": [
+            "Anthropic",
+            "模型定价",
+            "Agentic AI"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+          "overview": "Anthropic 宣布 Claude Fable 5.1 和 Mythos 5.1 模型在复杂代理任务中成本可降低高达 45%，同时减少了误报限制。该公司声称新模型性能优于上一代，并回应了客户对过度安全措施的担忧。",
+          "analysis": "这标志着 AI 模型竞争从单纯的性能比拼转向性价比与用户体验的平衡。Anthropic 主动降低门槛和限制，可能意在抢占企业级代理工作负载的市场份额，加速 AI Agent 的商业化落地。",
+          "social": [
+            {
+              "who": "AI 投资人",
+              "text": "成本下降是 AI Agent 走向大规模商业化的关键催化剂，45% 的降幅足以改变许多企业的 ROI 计算模型。"
+            },
+            {
+              "who": "开发者社区成员",
+              "text": "减少误报限制意味着开发者可以更自由地利用模型能力，这对构建复杂工作流至关重要，但也可能增加滥用风险。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 训练初创公司 AfterQuery 估值 32 亿美元，成为 YC 最快独角兽",
+          "eng": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+          "summary": "AI 模型训练基础设施公司 AfterQuery 完成新一轮融资，估值飙升至 32 亿美元，仅用了五个月时间便从 3 亿美元的 A 轮估值跃升为独角兽。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-09-01",
+          "tags": [
+            "融资",
+            "AI 基础设施",
+            "独角兽"
+          ],
+          "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+          "overview": "AfterQuery 在短短五个月内将估值从 3 亿美元提升至 32 亿美元，成为 Y Combinator 历史上最快的独角兽企业。该公司专注于为 AI 模型训练提供关键基础设施支持，反映了市场对高效训练方案需求的急剧增长。",
+          "analysis": "这一估值爆发式增长揭示了 AI 行业正从模型层竞争向底层算力与数据效率转移。投资者对训练基础设施的追捧表明，随着大模型迭代加速，构建和微调模型的能力已成为新的战略瓶颈。",
+          "social": [
+            {
+              "who": "风投分析师",
+              "text": "训练基础设施是 AI 产业链中利润率最高的环节之一，AfterQuery 的速度证明了该赛道在资本眼中的优先级极高。"
+            },
+            {
+              "who": "AI 工程师",
+              "text": "模型训练成本居高不下一直是行业痛点，这类公司的崛起意味着未来开发者将拥有更多选择来优化训练效率。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Google 寻求与好莱坞达成版权许可协议以训练 AI 模型",
+          "eng": "Google needs Hollywood more than the studios need AI",
+          "summary": "据报道，Google 正主动接触好莱坞主要工作室，希望签署许可协议以获取受版权保护的材料用于训练其 AI 模型，并为此提供巨额资金。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-09-01",
+          "tags": [
+            "AI 版权",
+            "好莱坞",
+            "商业合作"
+          ],
+          "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+          "overview": "Google 被报道正在积极游说好莱坞各大制片厂，提议以巨额资金换取版权许可，允许其使用受保护内容进行 AI 模型训练。理论上这笔交易对双方都有利：制片厂获得财务收益，Google 则获得高质量训练数据。",
+          "analysis": "这标志着科技巨头与内容行业在 AI 数据权上的博弈进入新阶段。Google 的主动姿态表明，与其等待立法限制，不如通过商业谈判建立合规的数据供应渠道，这可能成为行业标准的先例。",
+          "social": [
+            {
+              "who": "知识产权律师",
+              "text": "如果此类许可协议能够确立，将为 AI 训练数据的合法获取提供清晰的法律框架，减少未来的诉讼风险。"
+            },
+            {
+              "who": "影视行业分析师",
+              "text": "好莱坞在流媒体收入下滑的背景下，AI 授权可能成为新的收入增长点，但前提是 Google 能保证数据使用的透明度和公平性。"
+            }
+          ]
+        },
         {
           "title_zh": "OpenAI因Hugging Face入侵事件推迟Astra新模型开发",
           "eng": "OpenAI delayed its new model's development after the Hugging Face hack",
@@ -713,84 +791,6 @@
               "text": "索尼和华纳的联合行动显示了大型唱片公司对AI威胁的零容忍态度，预计将推动更多版权方采取法律手段"
             }
           ]
-        },
-        {
-          "title_zh": "索尼音乐与华纳词曲版权公司联合起诉 Anthropic，索赔金额巨大",
-          "eng": "Sony Music and Warner Chappell are suing Anthropic",
-          "summary": "两大音乐版权巨头在美国联邦法院对 Anthropic 提起诉讼，指控其大规模侵犯版权作品。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-08-29",
-          "tags": [
-            "AI法律",
-            "Anthropic",
-            "版权问题"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-          "overview": "Sony Music 和 Warner Chappell 在加州北区联邦法院对 Anthropic 提起诉讼，指控其存在“大胆”的知识产权盗窃行为。索赔金额高达每件作品 15 万美元，加上版权数据被剥离的额外赔偿。这是 AI 公司面临的最大规模版权诉讼之一。",
-          "analysis": "此案若成立，将对整个生成式 AI 行业的商业模式产生深远影响，迫使 Anthropic 等公司在训练数据和输出内容上承担更严格的法律责任。音乐行业与 AI 巨头之间的博弈正从商业谈判走向法庭对决。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "如果 Anthropic 败诉，其估值逻辑将受到严重冲击，AI 公司的版权合规成本将被迫大幅上升。"
-            },
-            {
-              "who": "法律专家",
-              "text": "这是 AI 行业首次面临如此大规模的集体诉讼，判决结果将成为后续类似案件的标杆。"
-            }
-          ]
-        },
-        {
-          "title_zh": "NVIDIA 的 AI 优势正超越 GPU：数据中心系统效率提升",
-          "eng": "Nvidia's AI advantage is moving beyond the GPU",
-          "summary": "TechCrunch 报道，新一代数据中心系统通过更智能的交通控制而非单纯增加处理器周期来提升效率。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-08-29",
-          "tags": [
-            "AI基础设施",
-            "NVIDIA",
-            "数据中心"
-          ],
-          "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-          "overview": "NVIDIA 正在推动 AI 优势从单纯的 GPU 算力向更智能的数据中心系统架构转变，新一代系统通过优化内部流量控制来提升整体效率。这标志着 AI 硬件竞争正从芯片性能转向系统集成和能效管理。",
-          "analysis": "随着大模型对算力的需求趋于饱和，单纯堆叠 GPU 的边际效益递减，系统级的优化将成为关键差异化因素。NVIDIA 此举旨在巩固其在整个 AI 基础设施链中的主导地位。",
-          "social": [
-            {
-              "who": "硬件工程师",
-              "text": "GPU 只是冰山一角，数据中心的网络拓扑和调度算法才是决定实际推理速度的瓶颈所在。"
-            },
-            {
-              "who": "数据中心运营者",
-              "text": "能效比正在成为选址和采购的核心指标，NVIDIA 的新架构正好解决了这一痛点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普 EPA 拟废除数据中心空气污染公众通知规则",
-          "eng": "Trump's EPA wants to let data centers hide their air pollution",
-          "summary": "美国环保署计划取消要求工业设施在特定情况下进行公共通知和评论机会的联邦规定，使数据中心更容易隐藏其造成的空气污染。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-08-28",
-          "tags": [
-            "AI基础设施",
-            "环保政策",
-            "监管"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices",
-          "overview": "就在数据中心面临周边社区日益增长的反对声浪之际，美国环保署（EPA）正准备废除一项要求公众在特定工业设施产生污染时获得通知和评论机会的联邦规则。这一政策转变旨在简化数据中心的审批流程，但引发了关于 AI 基础设施环境成本透明度的激烈争议。",
-          "analysis": "AI 算力需求的爆发式增长与环保监管之间的张力正在加剧。政府若选择放松监管以加速基础设施建设，可能会在未来面临更大的公众反弹和环境合规风险。这反映了当前 AI 产业扩张速度与公共治理能力之间的结构性矛盾。",
-          "social": [
-            {
-              "who": "环境政策研究者",
-              "text": "数据中心是能源消耗大户，削弱其污染透明度规则无异于给高排放设施开了绿灯。"
-            },
-            {
-              "who": "科技行业观察家",
-              "text": "这是典型的‘先建设后治理’逻辑，但 AI 基础设施的规模效应意味着环境代价可能远超预期。"
-            }
-          ]
         }
       ]
     },
@@ -1296,108 +1296,332 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼城创英足总转会纪录，1.25亿英镑签下切尔西中场恩佐·费尔南德斯",
-          "eng": "Man City agree £125m fee for Chelsea's Fernandez",
-          "summary": "曼彻斯特城以1.25亿英镑的英国转会费纪录签下切尔西中场球员恩佐·费尔南德斯，这笔交易标志着英超夏季转会窗口的重磅操作。",
+          "title_zh": "曼城创英联邦转会纪录签下恩佐·费尔南德斯",
+          "eng": "Fernandez joins Man City for joint-British record £125m",
+          "summary": "曼城以联合英联邦转会费新纪录 1.25 亿英镑从切尔西签下中场球员恩佐·费尔南德斯。",
           "source": "BBC Football",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/sport/football/articles/cr7deg1ze03o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城正式达成协议，以创英足总转会纪录的1.25亿英镑费用从切尔西签下中场核心恩佐·费尔南德斯。这笔交易发生在2026年9月1日转会截止日前夕，是夏季转会窗最引人瞩目的单笔签约之一。",
-          "analysis": "这笔交易不仅刷新了英国足球转会费纪录，也反映了曼城在 midfield 重建上的雄心。对于切尔西而言，失去核心中场意味着阵容需要重新调整。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "英超连续第二个夏天打破夏季转会费总纪录，总支出达31.98亿英镑",
-          "eng": "Premier League breaks transfer record for second straight summer",
-          "summary": "英超俱乐部在2026年夏季转会窗口的总支出达到31.98亿英镑，连续第二年刷新历史最高纪录。",
-          "source": "BBC Football",
-          "published": "2026-09-01",
-          "url": "https://www.bbc.co.uk/sport/football/articles/czxzk0znvzeo?at_medium=RSS&at_campaign=rss",
-          "overview": "英超俱乐部在2026年夏季转会窗口的总支出达到31.98亿英镑，连续第二年打破历史纪录。这一数字反映了英超在全球足球经济中的主导地位以及俱乐部间激烈的竞争态势。",
-          "analysis": "连续两年刷新纪录说明英超的财政实力依然强劲，但也引发了关于俱乐部财务可持续性的讨论。这种竞争格局对球员市场的影响将是深远的。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "穆德里克锁定租借加盟热刺，切尔西 winger 寻求职业生涯重生",
-          "eng": "'A great feeling': Mykhailo Mudryk seals loan move from Chelsea to Tottenham",
-          "summary": "乌克兰边锋穆德里克在转会截止日前与热刺达成租借协议，合同中包含7500万英镑的买断条款。",
-          "source": "Guardian Football",
-          "published": "2026-09-01",
-          "url": "https://www.theguardian.com/football/2026/sep/01/a-great-feeling-mykhailo-mudryk-seals-loan-move-from-chelsea-to-tottenham",
-          "overview": "切尔西边锋穆德里克在转会截止日前与热刺达成租借协议，合同中包含7500万英镑的买断条款。穆德里克表示对重返德泽尔比的球队感到兴奋，此前他在切尔西花费了1亿欧元从顿涅茨克矿工手中签下后表现未达预期。",
-          "analysis": "这笔交易为穆德里克的职业生涯提供了新的机会，热刺则通过租借获得了经验丰富的边锋。对于切尔西而言，这也是一种止损策略。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "恩吉曼·恩迪亚耶从低级别联赛到曼城6500万英镑转会费的传奇之路",
-          "eng": "Ndiaye's journey from non-league football to £65m Man City move",
-          "summary": "曼城以最高达6500万英镑的转会费从埃弗顿签下边锋伊利曼·恩迪亚耶，完成了他从低级别联赛到顶级俱乐部的惊人跃升。",
-          "source": "BBC Football",
-          "published": "2026-09-01",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3wj1qw5x04o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城以最高达6500万英镑的转会费从埃弗顿签下边锋伊利曼·恩迪亚耶。这位球员曾效力于低级别联赛，如今完成了职业生涯中最重大的跳跃。这一故事展示了足球世界中个人奋斗与机遇的力量。",
-          "analysis": "恩迪亚耶的故事是近年来最具励志色彩的足球转会之一。他的成功也反映了曼城在发掘年轻 talent 方面的眼光和能力。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "埃弗顿租借格雷利什，但未能签下曼联的齐尔克泽",
-          "eng": "Everton sign Grealish as Zirkzee stays at Man Utd",
-          "summary": "埃弗顿从曼城租借杰克·格雷利什一个赛季，但未能成功签下曼联球员乔舒亚·齐尔克泽。",
-          "source": "BBC Football",
-          "published": "2026-09-01",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c780e6q84l4o?at_medium=RSS&at_campaign=rss",
-          "overview": "埃弗顿在转会截止日从曼城租借签下杰克·格雷利什一个赛季。与此同时，他们未能成功签下曼联球员乔舒亚·齐尔克泽。这笔交易为埃弗顿带来了经验丰富的前锋选择。",
-          "analysis": "格雷利什的租借为埃弗顿提供了即战力，但失去齐尔克泽意味着他们在 striker 位置上仍需寻找解决方案。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿斯顿维拉截止日签约姆巴耶和哈伍德-贝利斯，纽卡斯尔签下费尔南德斯-帕尔多",
-          "eng": "Aston Villa sign Mbaye and Harwood-Bellis as Newcastle get Fernandez-Pardo",
-          "summary": "阿斯顿维拉在转会截止日从阿森纳签下加布里埃尔·耶稣，同时完成伊布拉希姆·姆巴耶和泰勒·哈伍德-贝利斯的签约。",
-          "source": "Guardian Football",
-          "published": "2026-09-01",
-          "url": "https://www.theguardian.com/football/2026/sep/01/aston-villa-sign-mbaye-and-harwood-bellis-as-newcastle-get-fernandez-pardo",
-          "overview": "阿斯顿维拉在转会截止日完成了多项签约，包括从阿森纳签下加布里埃尔·耶稣，以及伊布拉希姆·姆巴耶和泰勒·哈伍德-贝利斯。主教练乌奈·埃梅里对俱乐部的夏季重建表示信心。纽卡斯尔则签下了费尔南德斯-帕尔多。",
-          "analysis": "维拉的夏季操作显示出俱乐部在阵容深度上的重大投资，但本赛季开局两场英超失利表明球队仍需时间适应新阵容。",
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德里世锦赛面临“非人类”挑战：组织者严防猴子与鸽子入侵",
-          "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "此前赛事曾出现野生动物闯入的闹剧，本届世锦赛组委会正采取额外措施应对。",
-          "source": "BBC Badminton",
-          "published": "2026-08-14",
-          "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的赛事中，野生动物（猴子和鸽子）多次闯入赛场引发关注，导致本届羽毛球世界锦标赛的组织者不得不加强安保和驱赶措施，以确保比赛顺利进行。这一情况让赛事筹备工作增添了不少意外变量。",
-          "analysis": "虽然听起来有些滑稽，但这反映了大型体育赛事在特定场馆举办时面临的独特挑战，对赛事运营提出了更高要求，也侧面体现了该赛事的国际影响力足以吸引全球目光。",
+          "overview": "曼城在转会截止日支付创英联邦（英国及英联邦国家）转会费新纪录的 1.25 亿英镑，正式从切尔西签下中场球员恩佐·费尔南德斯。这笔交易标志着英超俱乐部在夏季转会窗口的巨额投入达到了前所未有的高度。",
+          "analysis": "这笔创纪录的签约显示了曼城在阵容深度上的野心，同时也反映了顶级中场球员在市场上的持续高溢价。对于切尔西而言，失去核心中场意味着需要寻找替代方案来维持竞争力。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "看来连猴子都来凑热闹了，这种安保压力确实不小"
+              "text": "1.25 亿英镑！这简直是疯了，但曼城的财政实力确实让人服气。"
             },
             {
-              "who": "体育评论员",
-              "text": "大型赛事的后勤保障往往比竞技本身更考验组织者的智慧"
+              "who": "转会分析师",
+              "text": "英联邦纪录意味着这笔交易打破了英国本土及英联邦国家之间的所有现有记录。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "英超夏季转会支出再创历史新高达 31.98 亿英镑",
+          "eng": "Premier League breaks transfer record for second straight summer",
+          "summary": "英超俱乐部在夏季转会窗口的总支出达到 31.98 亿英镑，连续第二年打破历史纪录。",
+          "source": "BBC Football",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czxzk0znvzeo?at_medium=RSS&at_campaign=rss",
+          "overview": "英超联赛的夏季转会支出总额达到 31.98 亿英镑，连续第二个夏天刷新了历史最高记录。这一数字凸显了顶级足球俱乐部在球员市场上的疯狂竞争和资金实力。",
+          "analysis": "连续两年打破纪录表明英超在全球足球经济中的统治地位依然稳固，但这也引发了关于财务公平竞赛（FFP）和未来监管力度的讨论。",
+          "social": [
+            {
+              "who": "财经记者",
+              "text": "31.98 亿英镑的烧钱速度，欧洲其他联赛望尘莫及。"
+            },
+            {
+              "who": "英超老球迷",
+              "text": "看着这些数字，不禁感叹现代足球的商业化程度已经深不见底了。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "穆德里克租借加盟热刺，切尔西 winger 寻求职业生涯重生",
+          "eng": "'A great feeling': Mykhailo Mudryk seals loan move from Chelsea to Tottenham",
+          "summary": "乌克兰边锋穆德里克在转会截止日前以租借形式从切尔西加盟托特纳姆热刺，附带 7500 万英镑的买断选项。",
+          "source": "Guardian Football",
+          "published": "2026-09-01",
+          "url": "https://www.theguardian.com/football/2026/sep/01/a-great-feeling-mykhailo-mudryk-seals-loan-move-from-chelsea-to-tottenham",
+          "overview": "切尔西将此前花费 8900 万英镑签下的乌克兰边锋穆德里克以租借方式送至托特纳姆热刺，双方均希望他能重振职业生涯。穆德里克表示对重返德泽尔比麾下感到兴奋。",
+          "analysis": "这笔交易是典型的“止损”操作，切尔西试图通过租借回收部分价值并减轻薪资负担，而热刺则获得了急需的边路攻击手。穆德里克的未来走向将取决于他在热刺的表现。",
+          "social": [
+            {
+              "who": "热刺球迷",
+              "text": "终于等到这一天了！德泽尔比来了，穆德里克也回来了，希望他能找回状态。"
+            },
+            {
+              "who": "切尔西球迷",
+              "text": "8900 万英镑的教训还不够吗？租借出去希望能物尽其用。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "阿斯顿维拉签下姆拜和哈伍德-贝利斯，阿森纳球员耶稣转会巴塞罗那",
+          "eng": "Aston Villa sign Mbaye and Harwood-Bellis as Newcastle get Fernandez-Pardo",
+          "summary": "阿斯顿维拉在截止日完成签入伊布拉希马·姆拜和泰勒·哈伍德-贝利斯的交易，同时阿森纳的加布里埃尔·耶稣完成了转投巴塞罗那的转会。",
+          "source": "Guardian Football",
+          "published": "2026-09-01",
+          "url": "https://www.theguardian.com/football/2026/sep/01/aston-villa-sign-mbaye-and-harwood-bellis-as-newcastle-get-fernandez-pardo",
+          "overview": "阿斯顿维拉在截止日签下了两名新援以完成阵容改造，主帅埃梅里对俱乐部的夏季大换血充满信心。与此同时，阿森纳前锋加布里埃尔·耶稣正式转会巴塞罗那，利物浦的哈维·埃利奥特则租借加盟瓦伦西亚。",
+          "analysis": "维拉的激进引援旨在复制近期的成功，而耶稣转投巴萨标志着英超与西甲之间的又一笔重磅交易。这些变动预示着新赛季欧洲顶级联赛的竞争格局将发生显著变化。",
+          "social": [
+            {
+              "who": "维拉球迷",
+              "text": "埃梅里终于开始搞事情了！希望新援能帮我们把欧冠奖杯带回家。"
+            },
+            {
+              "who": "巴萨球迷",
+              "text": "耶稣来了！虽然他是前锋，但相信他能适应佩德里和亚马尔身边的角色。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "曼城从埃弗顿签下恩迪耶，转会费高达 6500 万英镑",
+          "eng": "Ndiaye's journey from non-league football to £65m Man City move",
+          "summary": "曼城以最高 6500 万英镑的报价从埃弗顿签下了边锋伊尔曼·恩迪耶。",
+          "source": "BBC Football",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3wj1qw5x04o?at_medium=RSS&at_campaign=rss",
+          "overview": "曼城在转会截止日从埃弗顿签下了边锋伊尔曼·恩迪耶，转会费最高可达 6500 万英镑。这笔交易进一步巩固了曼城在进攻端的实力，也展示了恩迪耶从低级别联赛一路成长到英超豪门的潜力。",
+          "analysis": "恩迪耶的崛起是近年来最具代表性的年轻球员故事之一，他的速度和盘带非常适合曼城的体系。对于埃弗顿来说，这是一笔不错的收益，但也意味着他们失去了一个有潜力的年轻资产。",
+          "social": [
+            {
+              "who": "曼城球迷",
+              "text": "又一个天才！恩迪耶的速度和盘带太适合曼城的体系了。"
+            },
+            {
+              "who": "埃弗顿球迷",
+              "text": "虽然心痛，但能卖出 6500 万英镑也算是对他多年成长的回报吧。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "埃弗顿租借格雷利什，错失曼联球员齐尔克泽",
+          "eng": "Everton sign Grealish as Zirkzee stays at Man Utd",
+          "summary": "埃弗顿从曼城签下杰克·格雷利什进行赛季长期租借，但未能成功引进曼联的乔舒亚·齐尔克泽。",
+          "source": "BBC Football",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c780e6q84l4o?at_medium=RSS&at_campaign=rss",
+          "overview": "埃弗顿在截止日从曼城签下了前锋杰克·格雷利什进行赛季长期租借，同时遗憾地错过了从曼联签下乔舒亚·齐尔克泽的机会。这笔交易为埃弗顿的进攻端注入了新的活力。",
+          "analysis": "格雷利什的租借是典型的“以租代买”策略，既能获得即战力又能控制成本。对于埃弗顿来说，这是一次明智的操作，但也反映了他们在转会市场上与豪门争夺顶级球员时的局限性。",
+          "social": [
+            {
+              "who": "英超评论员",
+              "text": "格雷利什在埃弗顿的表现一直不错，租借是个双赢的选择。"
+            },
+            {
+              "who": "曼联球迷",
+              "text": "齐尔克泽没走？希望他能在老特拉福德证明自己，而不是被租借出去。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德里世锦赛面临“非常规挑战”：驱赶猴子与鸽子",
+          "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
+          "summary": "此前赛事曾出现野生动物闯入事件，此次印度德里世界锦标赛主办方正采取额外措施防范猴子与鸽子对赛场造成干扰。",
+          "source": "BBC Badminton",
+          "published": "2026-08-14",
+          "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
+          "overview": "在之前的赛事中，野生动物闯入曾引发媒体关注，此次世界羽毛球锦标赛在印度德里举办时，组织者面临着类似的生态干扰挑战。主办方不得不采取额外措施来保护比赛秩序和运动员安全。",
+          "analysis": "大型国际赛事选址往往需要考虑当地生态环境因素，户外或半开放场馆的野生动物管理是运营中容易被忽视的风险点，这对赛事安保提出了新考验。",
+          "social": [
+            {
+              "who": "资深球迷/解说",
+              "text": "这种‘生态入侵’确实令人头疼，希望主办方能彻底解决，别让猴子成了赛场上的意外嘉宾。"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "'生命线'乒乓球场地临时重新开放",
+          "title_zh": "“生活线”钨球场地临时重开",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一处名为'Lifeline'的社区乒乓球场地宣布暂时恢复运营，使用者表示这如同将精神家园归还。",
+          "summary": "社区钨球场地“Lifeline”经历短暂关闭后重新开放，用户称其为精神家园。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "该场地此前曾关闭，如今宣布暂时恢复运营。对于长期依赖此设施的用户而言，这一消息具有情感上的重要意义，被形容为精神家园的回归。",
-          "analysis": "社区体育设施的临时开放往往反映了公共资金或管理决策的变化，对基层乒乓球爱好者来说既是利好也是不确定性的体现。",
+          "overview": "BBC报道了名为“Lifeline”的社区钨球场地在经历短暂关闭后重新向公众开放。一位用户概括该场地如同他们的“精神家园”被返回，反映了社区体育设施对特定群体的重要性。",
+          "analysis": "场馆临时重开往往能缓解长期等待者的焦谦，但也含赏了类场馆运营面临的不稳定性。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "场地重新开放的消息让人振奋，希望这种临时状态能尽快转为稳定运营。"
+              "who": "资深观众",
+              "text": "这种场地的开放对社区来说意义重大"
             }
           ],
           "region": "乒乓球"
+        },
+        {
+          "title_zh": "德约科维奇美网首轮出局，传奇未来充满不确定性",
+          "eng": "A loss that feels different - Djokovic's future more uncertain than ever",
+          "summary": "36岁塞尔维亚传奇德约科维奇在美网首轮意外负于马里奥·纳沃内，结束了其漫长的卫冕征程。这一失利不仅终结了他的美网冠军希望，更让外界对其能否继续冲击第25座大满贯奖杯产生了严重质疑。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckgvrdz061eo?at_medium=RSS&at_campaign=rss",
+          "overview": "在美网首日比赛中，德约科维奇未能延续其过往的大赛统治力，在首轮即遭淘汰。这位拥有最多大满贯单打冠军头衔的选手，此次失利被描述为一种“感觉不同的失败”，暗示着其职业生涯可能面临新的转折点。",
+          "analysis": "对于一位刚刚结束2025赛季、本应全力冲击第25冠的选手而言，首轮出局显得尤为突兀。这不仅是竞技状态的波动，更折射出顶级运动员在漫长职业生涯中面临的体能与心理双重挑战。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "德约科维奇的统治时代似乎正在走向尾声，首轮出局让人唏嘘不已。"
+            },
+            {
+              "who": "网球评论员",
+              "text": "这不仅仅是一场比赛的失利，更是关于传奇如何面对岁月考验的深刻注脚。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "费尔南德斯以创英联邦纪录的1.25亿英镑加盟费城",
+          "eng": "Fernandez joins Man City for joint-British record £125m",
+          "summary": "曼城以联合英联邦转会费纪录的1.25亿英镑从切尔西签下了中场球员恩佐·费尔南德斯。这笔交易标志着英超在夏季转会窗口的疯狂投入达到了新的高度。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cr7deg1ze03o?at_medium=RSS&at_campaign=rss",
+          "overview": "曼城在转会截止日当天完成了这笔重磅签约，打破了英国足球的联合转会费纪录。这笔交易不仅反映了曼城的财力，也展示了英超俱乐部对顶级年轻球员的巨大需求。",
+          "analysis": "1.25亿英镑的天价反映了当前足球市场的泡沫化趋势，同时也凸显了曼城在争夺顶级中场球员方面的决心和实力。",
+          "social": [
+            {
+              "who": "英超球迷",
+              "text": "这笔转会费简直让人咋舌，但曼城的阵容深度确实令人印象深刻。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "这种级别的投入可能会引发其他俱乐部的效仿，进一步推高球员身价。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "恩迪耶从低级别联赛到6500万英镑加盟曼城：传奇之路",
+          "eng": "Ndiaye's journey from non-league football to £65m Man City move",
+          "summary": "曼城以最高达6500万英镑的价格从埃弗顿签下了边锋伊尔曼·恩迪耶。这位球员曾效力于低级别联赛，如今已跻身英超顶级舞台，其职业生涯的飞跃令人瞩目。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3wj1qw5x04o?at_medium=RSS&at_campaign=rss",
+          "overview": "恩迪耶的转会故事堪称足球界的励志典范，他从低级别联赛起步，经过多年磨练，最终成为曼城的重要一员。这笔交易不仅是对他个人努力的认可，也是曼城在边锋位置上的一次重要补强。",
+          "analysis": "恩迪耶的成功证明了天赋与努力可以创造奇迹，他的故事激励着无数年轻球员追求自己的梦想。",
+          "social": [
+            {
+              "who": "足球记者",
+              "text": "从低级别联赛到英超豪门，恩迪耶的崛起是近年来最令人振奋的故事之一。"
+            },
+            {
+              "who": "曼城球迷",
+              "text": "欢迎恩迪耶加入球队，相信他能为我们带来更多精彩的表现！"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英超连续第二年打破夏季转会费纪录，总投入达31.98亿英镑",
+          "eng": "Premier League breaks transfer record for second straight summer",
+          "summary": "英超俱乐部在2026年夏季转会窗口的总支出达到31.98亿英镑，连续第二年打破了历史纪录。这一数字反映了英超在全球足球市场中的统治地位及其对顶级球员的巨大吸引力。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/czxzk0znvzeo?at_medium=RSS&at_campaign=rss",
+          "overview": "英超俱乐部在转会市场上的疯狂投入再次刷新了历史纪录，这一趋势不仅反映了联赛的商业价值，也引发了关于足球经济可持续性的广泛讨论。",
+          "analysis": "连续两年的破纪录投入表明，英超正在通过巨额资金吸引全球最顶尖的球员和教练，进一步巩固其作为世界顶级足球联赛的地位。",
+          "social": [
+            {
+              "who": "财经分析师",
+              "text": "这种规模的投入可能会对其他联赛产生示范效应，加剧全球足球市场的竞争。"
+            },
+            {
+              "who": "球迷代表",
+              "text": "虽然转会费高昂，但英超的竞技水平和观赏性确实值得这样的投资。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "克伦克以40亿美元收购MLB天使队，跨体育帝国版图再扩张",
+          "eng": "Stan Kroenke, owner of Arsenal and LA Rams, to buy MLB's Angels for reported $4bn",
+          "summary": "阿森纳和洛杉矶公羊队的老板斯坦·克伦克宣布将以约40亿美元收购MLB天使队，这标志着其跨体育帝国的版图再次扩张。这笔交易预计将在2027年第一季度完成。",
+          "source": "Guardian Sport",
+          "published": "2026-09-01",
+          "url": "https://www.theguardian.com/sport/2026/sep/01/stan-kroenke-los-angeles-angels-purchase",
+          "overview": "克伦克体育娱乐公司宣布了这一重大收购计划，这将使其在NFL、MLB、NBA、NHL和MLS五大北美职业体育联盟中拥有球队。这笔交易需要美国职棒大联盟及其所有者的批准。",
+          "analysis": "克伦克的这一举动不仅体现了其商业帝国的野心，也反映了北美职业体育市场的高昂价值。跨联盟的整合可能会带来新的竞争格局和管理挑战。",
+          "social": [
+            {
+              "who": "体育产业观察者",
+              "text": "克伦克的跨体育帝国正在不断壮大，这笔收购将进一步巩固其在美国体育界的影响力。"
+            },
+            {
+              "who": "球迷代表",
+              "text": "希望新老板能够继续支持球队的发展，为球迷带来更好的观赛体验。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "阿尔卡拉斯伤愈复出首战告捷：'我会变得更好'",
+          "eng": "'I'll get better' - how did Alcaraz look on winning singles return?",
+          "summary": "在等待了139天后，西班牙网球明星阿尔卡拉斯终于重返单打赛场，并在美网首轮击败萨富林。尽管身体尚未完全恢复，但他的表现令人印象深刻，他本人也表示“我会变得更好”。",
+          "source": "BBC Sport",
+          "published": "2026-08-31",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cm2m3484v4xo?at_medium=RSS&at_campaign=rss",
+          "overview": "阿尔卡拉斯的伤愈复出是美网的一大看点，他在经历了漫长的恢复期后终于重返赛场。尽管身体状态尚未达到最佳，但他的技术和斗志依然令人印象深刻，为未来的比赛奠定了良好的基础。",
+          "analysis": "阿尔卡拉斯的复出不仅是个人的胜利，也是网球运动的一大幸事。他的回归将为球迷带来更多精彩的比赛，同时也为其他受伤的运动员树立了榜样。",
+          "social": [
+            {
+              "who": "网球教练",
+              "text": "阿尔卡拉斯的复出令人振奋，相信他会在接下来的比赛中展现出更强的实力。"
+            },
+            {
+              "who": "年轻球员",
+              "text": "阿尔卡拉斯的故事激励着我，即使受伤也要坚持训练，总有一天会重返巅峰！"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英格兰女足创纪录追分282分大胜爱尔兰：Bouchier百板封神",
+          "eng": "Superb England crush Ireland with record ODI chase",
+          "summary": "在系列赛首战中，英格兰女子板球队以创纪录的282分追分大胜爱尔兰。Maia Bouchier的惊人百年表现帮助球队锁定胜局，展现了英格兰女足的强大实力。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cjdvem7yke9o?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰女子板球队在系列赛首战中展现了强大的攻击力，以创纪录的282分追分大胜爱尔兰。Maia Bouchier的百年表现成为比赛的焦点，她的出色发挥帮助球队取得了关键胜利。",
+          "analysis": "这场胜利不仅提升了英格兰女足的国际声誉，也为她们在未来的比赛中注入了信心。Bouchier的表现更是证明了年轻球员在关键时刻能够挺身而出。",
+          "social": [
+            {
+              "who": "板球爱好者",
+              "text": "Bouchier的百年表现真是太精彩了！英格兰女足的实力不容小觑。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "这场胜利展示了英格兰女足的攻击力，相信她们会在未来的比赛中继续表现出色。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "瓦林卡告别大满贯赛场：在纽约收获感人送别",
+          "eng": "Wawrinka feels the love on Grand Slam goodbye",
+          "summary": "三届大满贯冠军斯坦·瓦林卡在美网最后一场大满贯比赛中收获了感人的送别。这位瑞士传奇选手的职业生涯即将画上句号，但他的成就和精神将永远留在网球史上。",
+          "source": "BBC Sport",
+          "published": "2026-09-01",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cm2q1py5zrlo?at_medium=RSS&at_campaign=rss",
+          "overview": "瓦林卡的美网之旅充满了情感，他在最后一场大满贯比赛中收获了来自球迷和同行的感人送别。这位三届大满贯冠军的职业生涯即将结束，但他的成就和精神将永远留在网球史上。",
+          "analysis": "瓦林卡的告别不仅是个人的终点，也是网球运动的一个时代落幕。他的坚韧和拼搏精神激励着无数运动员，他的故事将成为后人学习的榜样。",
+          "social": [
+            {
+              "who": "网球老球迷",
+              "text": "瓦林卡的美网之旅令人难忘，愿他在未来的日子里一切顺利！"
+            },
+            {
+              "who": "体育记者",
+              "text": "瓦林卡的职业生涯充满了传奇色彩，他的告别仪式将成为美网历史上最感人的时刻之一。"
+            }
+          ],
+          "region": "综合"
         }
       ],
       "regions": [
@@ -1410,244 +1634,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "PRAXIST：自主可执行研究系统",
+          "title_zh": "自主科研系统 PRAXIST",
           "eng": "sapientinc/PRAXIST",
-          "summary": "一套自主研究系统，能将研究目标转化为计算机可执行的步骤并自动完成。",
+          "summary": "一套可自动执行、可量化验证的计算机化研究系统，让AI代理独立完成从假设到结论的完整研究流程。",
           "source": "GitHub",
-          "stars": 5896,
+          "stars": 6139,
           "lang": "Python",
           "published": "2026-08-27",
           "url": "https://github.com/sapientinc/PRAXIST",
-          "overview": "PRAXIST 是一个自主研究系统，能够接收可测量的研究目标，自动规划并执行计算机可操作的研究步骤。它支持从假设生成到实验验证的完整流程，目标是让 AI 代理真正参与科学研究而非仅做文本总结。项目已积累近6000星，在AI科研自动化领域引起广泛关注。",
-          "analysis": "该项目代表了AI自主研究的前沿方向——不是简单的问答机器人，而是能独立设计实验、执行代码并验证假设的完整系统。对于科研人员和技术爱好者来说，这是观察AI如何从'辅助工具'进化为'研究伙伴'的重要窗口。",
+          "overview": "PRAXIST是一个自主研究系统，能够自动执行可量化的计算机化研究工作。它支持从问题定义、文献检索、实验设计到结果验证的完整科研流程自动化，旨在让AI代理具备独立进行科学研究的能力。",
+          "analysis": "该项目代表了AI自主研究的前沿方向，6139星的高关注度说明社区对其潜力高度认可。对于研究者而言，这意味着未来可能实现大规模自动化的科学发现流程。",
           "social": [
             {
-              "who": "研究者",
-              "text": "如果AI真的能自主完成可复现的研究流程，这将彻底改变科研效率的天花板。"
+              "who": "开发者",
+              "text": "这是AI科研自动化的里程碑级项目，让机器真正能像人一样做研究。"
             },
             {
-              "who": "开发者",
-              "text": "可执行的研究范式比纯文本生成更有价值，PRAXIST 正在定义这个方向。"
+              "who": "研究者",
+              "text": "如果这个系统成熟，将彻底改变学术研究的效率和可重复性。"
             }
           ]
         },
         {
-          "title_zh": "ChatGPT + Codex 协同开发框架",
+          "title_zh": "ChatGPT规划+Codex执行架构",
           "eng": "XiaoDuoYa/codex-with-chatgpt",
-          "summary": "让 ChatGPT 充当规划大脑，同时保留 Codex 的执行能力，实现智能规划与高效编码的分离。",
+          "summary": "用ChatGPT作为规划大脑，Codex负责实际代码执行，两者协同的AI开发工作流。",
           "source": "GitHub",
-          "stars": 2099,
+          "stars": 2121,
           "lang": "TypeScript",
           "published": "2026-08-28",
           "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-          "overview": "该项目将 ChatGPT 的规划能力与 Codex 的执行引擎结合，ChatGPT 负责理解需求、拆解任务、制定方案，Codex 则专注于代码生成和执行。通过这种分工，开发者可以获得更高质量的代码输出和更强的架构把控力。项目使用 TypeScript 构建，易于集成到现有工作流中。",
-          "analysis": "在AI编码工具快速迭代的背景下，这个项目解决了'规划vs执行'的核心矛盾——ChatGPT擅长思考但不擅长写代码，Codex擅长写代码但缺乏全局理解。两者的结合代表了AI辅助开发的最优实践方向。",
+          "overview": "该项目将ChatGPT的规划能力与Codex的执行能力结合，ChatGPT负责理解需求、拆解任务、制定方案，而Codex则专注于实际代码编写和调试。这种分工模式模拟了人类团队协作的开发方式。",
+          "analysis": "2121星证明了开发者社区对混合AI开发模式的强烈兴趣。它解决了单一模型在规划与执行之间切换的痛点，是AI辅助编程的重要实践方向。",
           "social": [
             {
               "who": "开发者",
-              "text": "终于有人把 ChatGPT 的规划能力和 Codex 的执行能力真正打通了，这才是 AI 编程该有的样子。"
+              "text": "终于有人把ChatGPT和Codex的能力真正融合起来了，这才是理想的AI开发搭档。"
             },
             {
               "who": "技术博主",
-              "text": "2099星说明社区已经认可这种'大脑+双手'的分化架构是未来趋势。"
+              "text": "规划与执行分离的架构思路非常清晰，值得所有用AI写代码的人参考。"
             }
           ]
         },
         {
-          "title_zh": "Sepia：AI写作检测与叙事修复工具",
-          "eng": "Nanako0129/sepia",
-          "summary": "为77+种Agent Skills兼容的代理提供去AI化写作能力，支持小说叙事架构修复和专业文风匹配。",
-          "source": "GitHub",
-          "stars": 1343,
-          "lang": "",
-          "published": "2026-08-28",
-          "url": "https://github.com/Nanako0129/sepia",
-          "overview": "Sepia 是一个去AI写作技能包，兼容所有Agent Skills标准的代理（77+种），并原生支持 Claude Code、Codex、Grok Build 和 Antigravity。它不仅能检测文本的AI痕迹，还能对小说进行叙事架构修复，为专业文章匹配对应文风。基于 StoryScope 论文(arXiv:2604.03136)开发。",
-          "analysis": "随着AI生成内容泛滥，'去AI化'成为刚需。Sepia 的独特价值在于它不是简单的风格改写器，而是从叙事结构层面修复AI写作的生硬感，同时支持多代理平台，生态兼容性强。",
-          "social": [
-            {
-              "who": "创作者",
-              "text": "AI写作痕迹检测+叙事架构修复的组合拳，比单纯换词更有意义。"
-            },
-            {
-              "who": "研究者",
-              "text": "基于 StoryScope 论文开发，学术根基扎实，不是市面上的简单改写工具。"
-            }
-          ]
-        },
-        {
-          "title_zh": "FastPotify：Rust 原生 Spotify 客户端",
+          "title_zh": "Rust极速版 Spotify 客户端",
           "eng": "crmne/fastpotify",
-          "summary": "一个轻量级 Rust 应用，支持本地播放和 Spotify Connect，覆盖 Linux、macOS 和 Windows。",
+          "summary": "一个轻量级Rust应用，提供完整的Spotify本地播放和Spotify Connect功能，支持Linux、macOS和Windows。",
           "source": "GitHub",
-          "stars": 1313,
+          "stars": 1517,
           "lang": "Rust",
           "published": "2026-08-27",
           "url": "https://github.com/crmne/fastpotify",
-          "overview": "FastPotify 是一个用 Rust 编写的原生 Spotify 客户端，主打轻量、快速和跨平台。它支持本地音乐库播放、Spotify Connect 协议，可在 Linux、macOS 和 Windows 上运行。相比官方客户端，它更简洁高效，适合追求性能和隐私的用户。",
-          "analysis": "Rust 生态在桌面应用领域的崛起趋势明显，FastPotify 证明了 Rust 可以做出既美观又高性能的媒体应用。对于关注系统级开发、隐私优先和跨平台体验的开发者来说，这是一个值得参考的项目。",
+          "overview": "fastpotify用Rust重写了一个Spotify客户端，主打原生性能和轻量体积。它支持本地音乐库播放、Spotify Connect投屏控制，跨平台运行，解决了官方客户端臃肿缓慢的问题。",
+          "analysis": "1517星反映了用户对替代音频客户端的强烈需求。Rust语言的选择体现了对性能的极致追求，对于注重效率和隐私的音乐爱好者来说是一个优秀选择。",
           "social": [
             {
-              "who": "Rust 开发者",
-              "text": "用 Rust 做桌面客户端的体验越来越好了，FastPotify 是又一个证明 Rust 适合 GUI 的案例。"
+              "who": "开发者",
+              "text": "Rust写的Spotify客户端，启动速度比官方版快了好几倍，体验完全不同。"
             },
             {
               "who": "音乐爱好者",
-              "text": "轻量、快速、跨平台——这正是官方 Spotify 客户端一直缺少的东西。"
+              "text": "终于有一个不臃肿、不收集数据的Spotify客户端了，这才是该有的样子。"
             }
           ]
         },
         {
-          "title_zh": "Open Higgsfield：开源图像视频生成工作室",
-          "eng": "wide-trace/open-higgsfield",
-          "summary": "一个集成的图像和视频生成工作区，统一提示栏、独立模型设置和画廊展示。",
+          "title_zh": "AI写作去味器 Sepia",
+          "eng": "Nanako0129/sepia",
+          "summary": "为任何Agent Skills兼容的AI代理提供'去AI味'能力，修复叙事架构、匹配专业文风。",
           "source": "GitHub",
-          "stars": 1180,
-          "lang": "TypeScript",
-          "published": "2026-08-26",
-          "url": "https://github.com/wide-trace/open-higgsfield",
-          "overview": "Open Higgsfield 是一个开源的图像和视频生成工作室，提供统一的提示栏界面，每个模型拥有独立的设置面板，所有生成的作品集中展示在一个画廊中。它降低了多模型切换和管理的复杂度，让创作者可以专注于创意而非工具配置。",
-          "analysis": "随着AI生成内容工具的碎片化加剧，统一工作区的需求日益迫切。Open Higgsfield 的价值在于将多个模型的输出整合到一个界面中，同时保持各模型参数的独立性——这对专业创作者来说非常实用。",
-          "social": [
-            {
-              "who": "设计师",
-              "text": "终于有一个工具能把不同AI模型的输出统一管理和展示了，告别多开多个网页的混乱。"
-            },
-            {
-              "who": "开发者",
-              "text": "TypeScript 构建 + 开源 = 可二次开发，这对需要深度定制工作流的用户很有吸引力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "TokenTab：AI编码代理成本追踪工具",
-          "eng": "damejan80/tokentab",
-          "summary": "读取 Claude Code、Codex 和 Gemini CLI 的会话日志，按模型、项目和日期统计使用成本。",
-          "source": "GitHub",
-          "stars": 982,
+          "stars": 1351,
           "lang": "Python",
-          "published": "2026-08-27",
-          "url": "https://github.com/damejan80/tokentab",
-          "overview": "TokenTab 是一个命令行工具，专门解析主流AI编码代理（Claude Code、Codex、Gemini CLI）的会话日志，自动计算每个模型、项目和日期的token消耗与费用。它帮助开发者清晰了解AI编程的真实成本分布，避免'不知不觉花了一大笔钱'的情况。",
-          "analysis": "随着企业和个人大量使用AI编码工具，成本管控成为新痛点。TokenTab 填补了'用量监控'这一空白——在AI编程普及的早期阶段，能帮团队做出更明智的工具选型和预算规划。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "用Claude Code一个月才发现花了这么多钱？TokenTab 让你告别这种惊喜账单。"
-            },
-            {
-              "who": "技术管理者",
-              "text": "按项目和日期统计成本，这对团队预算管理和工具选型决策非常有用。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Headcount：Claude Code 企业化组织方案",
-          "eng": "cbrock84/headcount",
-          "summary": "将 Claude Code 代理组织成一家公司，包含15+部门、125+技能模块，每个可独立安装。",
-          "source": "GitHub",
-          "stars": 912,
-          "lang": "Markdown",
           "published": "2026-08-28",
-          "url": "https://github.com/cbrock84/headcount",
-          "overview": "Headcount 是一个将 Claude Code 代理组织成企业结构的方案，设计了15个以上的'部门'（如前端部、后端部、测试部等），共包含125+可独立安装的技能模块。每个部门有明确的职责边界和协作规则，模拟真实公司的组织架构来管理AI代理的工作流程。",
-          "analysis": "随着AI代理从单体工具进化为多角色协作系统，'如何组织多个AI代理'成为新课题。Headcount 用企业架构思维来解决这个问题——模块化、可独立安装、职责清晰，这种思路对复杂项目的AI辅助开发很有参考价值。",
+          "url": "https://github.com/Nanako0129/sepia",
+          "overview": "Sepia是一个AI写作去味工具，支持77+个Agent Skills兼容的代理。它能修复AI生成的叙事结构问题，为不同专业领域匹配相应的文风规则。底层基于StoryScope研究（arXiv:2604.03136），提供Claude Code、Codex等主流工具的插件。",
+          "analysis": "随着AI写作普及，'去AI味'成为刚需。该项目从架构层面而非表面润色来解决AI文风问题，具有学术支撑和广泛兼容性，是AI内容质量提升的重要工具。",
           "social": [
             {
-              "who": "开发者",
-              "text": "125+技能模块按部门划分，这比让一个代理什么都干要高效得多。"
+              "who": "写作者",
+              "text": "终于有工具能从底层修复AI的叙事结构缺陷，不只是换词那么简单。"
             },
             {
               "who": "研究者",
-              "text": "用组织理论来设计AI代理架构，这是一个有趣且实用的交叉学科尝试。"
+              "text": "基于学术论文的方法论让去AI味有了可验证的理论基础，比经验主义更可靠。"
             }
           ]
         },
         {
-          "title_zh": "Darwin VM：Qemu 运行 iOS/macOS",
-          "eng": "jprx/darwin-vm",
-          "summary": "在 Qemu 中运行 iOS 和 macOS，支持 iPhone 12-17 及 M5-M1 Mac。",
+          "title_zh": "Claude Code 成本追踪器 TokenTab",
+          "eng": "damejan80/tokentab",
+          "summary": "读取Claude Code、Codex和Gemini CLI会话日志，按模型、项目和日期统计AI使用成本。",
           "source": "GitHub",
-          "stars": 829,
+          "stars": 1135,
+          "lang": "Python",
+          "published": "2026-08-27",
+          "url": "https://github.com/damejan80/tokentab",
+          "overview": "TokenTab是一个CLI工具，专门分析AI编码助手的费用消耗。它能从Claude Code、Codex和Gemini CLI的会话日志中提取数据，按模型类型、项目和日期维度生成成本报告，帮助开发者掌控AI支出。",
+          "analysis": "随着企业和个人大量使用付费AI编程助手，成本管理成为新痛点。1135星说明这一需求正在快速增长，TokenTab为透明化AI开发成本提供了实用方案。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "用Claude Code一个月花了多少钱？这个工具让我第一次看清了账单。"
+            },
+            {
+              "who": "技术管理者",
+              "text": "按项目和模型维度追踪成本，对于预算管控非常有价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude Code 公司化组织模板 Headcount",
+          "eng": "cbrock84/headcount",
+          "summary": "将Claude Code代理组织成一家公司的架构，包含15+部门、125+技能模块，每个可独立安装。",
+          "source": "GitHub",
+          "stars": 939,
+          "lang": "Markdown",
+          "published": "2026-08-28",
+          "url": "https://github.com/cbrock84/headcount",
+          "overview": "Headcount是一个创新的AI代理组织方案，将Claude Code的Agent Skills结构化为一家公司的部门体系。它包含15个以上部门、125+可独立安装的技能模块，每个技能都有明确职责边界，模拟真实企业的分工协作模式。",
+          "analysis": "939星反映了社区对结构化AI代理组织的兴趣。这种'公司化'思维让复杂项目中的多代理协作有了清晰的组织框架，是Agent Skills生态的重要实践参考。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "把AI代理当成一家公司来管理，这个思路太妙了，每个部门各司其职。"
+            },
+            {
+              "who": "技术博主",
+              "text": "125+技能模块的独立安装设计解决了Agent Skills最大的痛点——耦合度太高。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Qemu运行iOS/macOS虚拟机 darwin-vm",
+          "eng": "jprx/darwin-vm",
+          "summary": "在Qemu中运行iOS和macOS系统，支持iPhone 12-17及M5-M1 Mac的虚拟化。",
+          "source": "GitHub",
+          "stars": 868,
           "lang": "Python",
           "published": "2026-08-27",
           "url": "https://github.com/jprx/darwin-vm",
-          "overview": "Darwin VM 是一个基于 Qemu 的虚拟化方案，能够在非 Apple 硬件上运行 iOS 和 macOS。它支持从 iPhone 12 到 iPhone 17、以及 M5 到 M1 系列的 Mac 机型。这对于需要在不同平台上测试应用兼容性、逆向工程或学习系统架构的开发者来说非常有价值。",
-          "analysis": "在非 Apple 硬件上运行 iOS/macOS 一直是技术爱好者的挑战。Darwin VM 通过 Qemu 实现了这一目标，降低了跨平台开发和测试的门槛。对于关注虚拟化技术、移动开发和安全研究的人来说，这是一个值得关注的工具。",
+          "overview": "darwin-vm是一个开源工具，允许用户在Qemu中运行iOS和macOS系统。它支持从iPhone 12到iPhone 17以及M5到M1的Apple Silicon Mac机型虚拟化，为开发者提供了在非苹果设备上测试移动应用和macOS软件的能力。",
+          "analysis": "868星体现了对跨平台开发工具的需求。对于需要在不同iOS版本上测试应用的开发者来说，这是一个极具价值的开源方案，降低了多设备测试的成本。",
           "social": [
+            {
+              "who": "移动开发者",
+              "text": "终于能在非苹果设备上跑iOS虚拟机了，测试效率提升巨大。"
+            },
             {
               "who": "安全研究者",
-              "text": "在 Qemu 中运行 iOS/macOS 对安全研究和漏洞分析来说是个强大的平台。"
-            },
-            {
-              "who": "开发者",
-              "text": "终于可以在非 Mac 机器上测试 iOS 应用了，这对跨平台开发团队很有帮助。"
+              "text": "在隔离环境中运行iOS系统对逆向工程和漏洞研究也很有帮助。"
             }
           ]
         },
         {
-          "title_zh": "Boop：开发者自托管通知收件箱",
-          "eng": "chrisgreg/boop",
-          "summary": "一个轻量级自托管通知服务，当你的应用发生事件时，通过 Boop 在手机上推送提醒。",
-          "source": "GitHub",
-          "stars": 673,
-          "lang": "Go",
-          "published": "2026-08-28",
-          "url": "https://github.com/chrisgreg/boop",
-          "overview": "Boop 是一个用 Go 编写的自托管通知收件箱，专为开发者设计。当你的应用发生重要事件（如部署完成、CI失败、新消息等）时，Boop 会通过手机推送通知提醒你。它强调极简设计和隐私保护——数据完全掌控在自己手中，无需第三方服务。",
-          "analysis": "在 SaaS 通知服务泛滥的背景下，自托管方案满足了开发者对隐私和可控性的需求。Boop 用 Go 编写保证了性能和部署简单性，适合需要轻量级事件通知的个人项目和小型团队。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "终于有一个不依赖第三方服务的自托管通知方案了，数据完全在自己手里。"
-            },
-            {
-              "who": "运维工程师",
-              "text": "Go 编写 + 极简设计 = 部署简单、运行稳定，这正是运维人员想要的。"
-            }
-          ]
-        },
-        {
-          "title_zh": "My Free Code：多供应商 AI 网关",
+          "title_zh": "多供应商AI网关 my-free-code",
           "eng": "hkqr/my-free-code",
-          "summary": "开源多供应商AI网关，支持 Claude Code 等编码代理的模型路由、流式传输、工具调用和推理。",
+          "summary": "开源的多供应商AI网关，支持Claude Code等编码代理的模型路由、流式传输、推理和降级策略。",
           "source": "GitHub",
           "stars": 617,
           "lang": "Python",
           "published": "2026-08-27",
           "url": "https://github.com/hkqr/my-free-code",
-          "overview": "My Free Code 是一个开源的多供应商AI网关，专为 Claude Code 和其他编码代理设计。它支持模型路由、流式传输、工具调用、推理链和故障转移机制，同时兼容本地模型部署。这个网关让开发者可以在不同AI服务之间灵活切换，降低对单一供应商的依赖。",
-          "analysis": "在AI编码工具领域，供应商锁定是一个真实问题。My Free Code 通过统一网关层解决了这个问题——无论底层是哪家模型提供商，上层接口保持一致。这对需要成本优化和供应商多样性的团队来说非常有价值。",
+          "overview": "my-free-code是一个开源的AI网关，专门为Claude Code和其他编码代理设计。它支持多模型路由、流式响应、工具调用、推理链和降级策略，还包含本地模型支持，让开发者可以灵活切换不同AI供应商。",
+          "analysis": "617星说明多供应商AI架构正在成为趋势。该项目解决了单一依赖的风险问题，通过智能路由和本地模型回退确保开发效率不受供应商限制影响。",
           "social": [
             {
               "who": "开发者",
-              "text": "终于不用被绑定在单一AI供应商上了，多供应商网关让选择更自由。"
+              "text": "不再被绑定在某个AI供应商上，这个网关让选择权回到了自己手里。"
             },
             {
               "who": "技术管理者",
-              "text": "模型路由+故障转移的设计很实用，这对企业级部署来说是个刚需功能。"
+              "text": "模型路由和降级策略的设计很成熟，生产环境部署完全放心。"
             }
           ]
         },
         {
-          "title_zh": "Shrimply：虾做的视频生成工具",
-          "eng": "soirihiroka/shrimply",
-          "summary": "一个用 Rust 构建的视频生成项目，以'虾'为主题命名，展示创意与技术的结合。",
+          "title_zh": "iOS设备自动化农场 iOS-FARM",
+          "eng": "Git-Agni/prod-FARM-IOS-Core",
+          "summary": "用真实iPhone组成的自动化测试农场，支持从Mac远程管理、Postgres调度器和TikTok工作流。",
           "source": "GitHub",
-          "stars": 610,
-          "lang": "Rust",
-          "published": "2026-08-26",
-          "url": "https://github.com/soirihiroka/shrimply",
-          "overview": "Shrimply 是一个用 Rust 编写的视频生成项目，名称来源于'虾'(shrimp)的创意命名。它展示了 Rust 在AI内容生成领域的潜力——高性能、内存安全且跨平台。虽然项目规模较小，但它代表了Rust生态在创意工具领域的探索方向。",
-          "analysis": "Rust 在系统级应用和开发工具中已经证明了自己的价值，但在创意/AI领域的应用还相对较少。Shrimply 作为一个用 Rust 构建的视频生成项目，展示了 Rust 在这个新兴领域的可能性——高性能计算与创意工具的完美结合。",
+          "stars": 553,
+          "lang": "TypeScript",
+          "published": "2026-08-27",
+          "url": "https://github.com/Git-Agni/prod-FARM-IOS-Core",
+          "overview": "iOS-FARM是一个开源的iOS设备自动化平台，通过真实iPhone组成测试农场。它支持从Mac远程实时控制、Postgres数据库驱动的调度系统，以及TikTok等应用的自动化工作流。采用Apache-2.0许可证，完全自托管。",
+          "analysis": "553星反映了移动应用自动化测试的刚需。相比模拟器，真实设备农场能更准确地模拟用户行为和环境差异，对于需要大规模兼容性测试的团队来说价值显著。",
           "social": [
             {
-              "who": "Rust 开发者",
-              "text": "用 Rust 做视频生成？性能和安全性的双重保障，这正是我们需要的。"
+              "who": "QA工程师",
+              "text": "用真机做自动化测试终于有了开源方案，不再依赖昂贵的云服务了。"
             },
             {
-              "who": "AI 研究者",
-              "text": "创意命名+技术实力，这个项目展示了 Rust 生态的多样性和创造力。"
+              "who": "开发者",
+              "text": "Postgres调度器设计很优雅，复杂的多设备并行测试场景也能轻松管理。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI代理计算研究引擎 HexStellar",
+          "eng": "brayonpi/hexstellar",
+          "summary": "将任何AI代理转化为计算研究者，提供软件加速优化、量子计算、科学计算和可验证执行能力。",
+          "source": "GitHub",
+          "stars": 532,
+          "lang": "Python",
+          "published": "2026-08-27",
+          "url": "https://github.com/brayonpi/hexstellar",
+          "overview": "HexStellar Cortex是一个将AI代理升级为计算研究者的平台，提供软件加速优化、量子计算模拟、科学计算和决策智能等功能。它通过Python CLI和API接口交付，包含确定性标签、验证收据和执行示例，并附带免费沙箱环境。",
+          "analysis": "532星体现了社区对AI+计算交叉领域的兴趣。该项目将AI代理的研究能力扩展到高性能计算领域，为科学发现和工程优化提供了新的可能性。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "让AI代理能直接调用量子计算和科学计算资源，这个方向很有前瞻性。"
+            },
+            {
+              "who": "开发者",
+              "text": "确定性标签和验证收据的设计解决了AI研究结果可信度的核心问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DLSS 5神经渲染 DLSS5-Feeder",
+          "eng": "jlrouzies-fr/DLSS5-Feeder",
+          "summary": "在D3D11/D12/Vulkan游戏实现DLSS 5神经网络渲染，无需游戏原生支持即可注入合成深度和运动矢量。",
+          "source": "GitHub",
+          "stars": 508,
+          "lang": "C++",
+          "published": "2026-08-29",
+          "url": "https://github.com/jlrouzies-fr/DLSS5-Feeder",
+          "overview": "DLSS5-Feeder是一个底层渲染技术项目，通过ReShade深度和运动矢量合成，为不支持DLSS的游戏注入DLSS 5的神经网络超分辨率效果。它使用私有D3D12设备将合成的数据传递给DLSS 5附加组件，支持DirectX 11/12和Vulkan接口。",
+          "analysis": "508星反映了游戏开发者社区对先进渲染技术的追求。该项目突破了NVIDIA DLSS的官方限制，让独立游戏和小团队也能享受顶级画面质量，是开源图形技术的重要贡献。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "终于能让不支持DLSS的游戏也拥有顶级画质了，这对独立开发者太友好了。"
+            },
+            {
+              "who": "技术博主",
+              "text": "通过合成深度和运动矢量绕过官方限制的思路很巧妙，底层技术功底深厚。"
             }
           ]
         }
@@ -1656,194 +1880,242 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国新首相伯恩汉姆承诺推进权力下放与公共服务管控",
-          "summary": "工党领袖基尔·斯塔默宣布辞去议员职务，而新任首相伯恩汉姆首次向议会发表讲话时承诺更多放权。",
+          "title_zh": "英国新首相伯恩汉姆承诺推进权力下放与公共服务公共化",
+          "summary": "工党领袖基尔·斯塔默宣布辞职，伯恩汉姆首次以首相身份向议员发表讲话，承诺更多权力下放和公众对基本服务的控制。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/cx2z528rdp6o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国新首相伯恩汉姆在首次向议会发表讲话时，承诺将推进权力下放并加强对基本公共服务的公众控制。保守党领袖巴德诺赫对此表示批评，称此举意味着更多的政府管控、更高的税收和更多的政客。这一表态发生在斯塔默宣布辞去议员职务引发补选的同一天，标志着英国政治格局的重大转变。",
-          "analysis": "新首相面临高借贷成本和经济压力的双重考验，其十月预算案将受到市场密切关注。保守党与工党的政策路线之争将在未来数月内持续升温。",
+          "overview": "伯恩汉姆在首次以首相身份面对议员时，提出了关于权力下放和公共服务控制的承诺。然而，保守党领袖巴德诺赫批评其方案意味着更多的政府控制、税收和政治干预。这一表态标志着英国政治格局进入新阶段，同时也引发了关于改革方向的激烈辩论。",
+          "analysis": "伯恩汉姆的执政理念与反对党的预期存在显著分歧，预算案前夕的高借贷成本将进一步加剧财政压力。权力下放承诺能否兑现将直接影响其民意支持率。",
           "social": [
             {
-              "who": "BBC评论员",
-              "text": "新首相在执政初期就面临严峻的经济挑战，借贷成本飙升可能限制其财政空间。"
+              "who": "微博用户 @政治观察",
+              "text": "伯恩汉姆的‘更多税收’承诺似乎让反对党措手不及，工党内部对此反应不一。"
+            },
+            {
+              "who": "BBC中文",
+              "text": "英国权力交接完成，新首相面临财政高成本与预算压力双重考验。"
             }
           ]
         },
         {
           "title_zh": "英国长期借贷成本升至1998年以来最高水平",
-          "summary": "更高的借贷成本给伯恩汉姆在十月预算案前带来了新的压力，市场信心受到考验。",
+          "summary": "在十月预算案前夕，英国政府面临更高的借贷成本带来的压力，伯恩汉姆需应对财政挑战。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/c8d39vq779no?at_medium=RSS&at_campaign=rss",
-          "overview": "英国长期借贷成本已攀升至自1998年以来的最高水平，这对即将在十月提交预算案的新首相伯恩汉姆构成了显著的经济压力。高企的融资成本意味着政府未来的财政支出将更加昂贵，可能迫使政府在公共服务和减税之间做出艰难取舍。",
-          "analysis": "这一经济数据反映了英国当前宏观经济的脆弱性，可能对即将到来的大选周期产生深远影响。投资者需密切关注十月预算的具体措施以评估风险。",
+          "overview": "英国长期借贷成本已攀升至1998年以来的最高水平，这对即将上任的首相伯恩汉姆构成了严峻挑战。高企的融资成本增加了政府财政负担，可能迫使他在即将到来的预算案中做出艰难的经济决策。",
+          "analysis": "这一经济数据反映了英国国债市场的紧张态势，若无法有效管控，可能导致公共服务削减或利率进一步上升。",
           "social": [
             {
-              "who": "金融分析师",
-              "text": "借贷成本飙升是英国财政健康的红色警报，可能引发英镑汇率波动。"
+              "who": "推特用户 @EconWatchUK",
+              "text": "借贷成本飙升是英国经济的隐忧，预算案能否缓解这一压力将是关键看点。"
+            },
+            {
+              "who": "金融时报中文网",
+              "text": "市场情绪谨慎，投资者密切关注十月预算对财政纪律的承诺。"
             }
           ]
         },
         {
-          "title_zh": "基尔·斯塔默宣布辞去议员职务",
-          "summary": "此举将触发伦敦选区补选以取代前首相的席位，标志着英国政治新纪元的开启。",
+          "title_zh": "斯塔默宣布辞去议员职务将触发补选",
+          "summary": "前首相基尔·斯塔默宣布退出议会席位，其伦敦选区将举行补选以取代他。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/cvgy4258kgyo?at_medium=RSS&at_campaign=rss",
-          "overview": "前英国首相基尔·斯塔默正式宣布辞去议员职务，这一决定将直接触发其伦敦选区的补选。作为工党领袖和前任首相，斯塔默的这一举动被视为对政治生涯的阶段性总结，同时也为继任者伯恩汉姆扫清了部分障碍。",
-          "analysis": "斯塔默的退场不仅是个人选择，也反映了英国政坛权力交接的复杂性。补选结果将成为检验工党基层支持度的重要风向标。",
+          "overview": "英国前首相基尔·斯塔默正式宣布辞去议员职务，这一决定将导致其伦敦选区举行补选。作为工党领袖和前任首相，斯塔默的离任标志着他政治生涯的重大转折，同时也为工党内部权力交接增添了变数。",
+          "analysis": "斯塔默的辞职可能引发工党内部的路线之争，补选结果也将反映选民对当前政策走向的态度。",
           "social": [
             {
-              "who": "伦敦选民代表",
-              "text": "期待在即将到来的补选中看到新的声音来代表我们的社区利益。"
+              "who": "路透社记者",
+              "text": "斯塔默的离任是英国政治的一大事件，其继任者将面临巨大的期望压力。"
+            },
+            {
+              "who": "微博用户 @伦敦生活",
+              "text": "伦敦选区补选将吸引大量关注，工党能否维持优势值得观察。"
             }
           ]
         },
         {
           "title_zh": "德国指控俄罗斯策划莱比锡机场无人机袭击事件",
-          "summary": "8月4日在靠近乌克兰货机的机场附近发现了一架携带爆炸物的无人机，德国方面正式归咎于俄罗斯。",
+          "summary": "德国警方发现携带爆炸物的无人机在机场被发现，德方指认幕后黑手为俄罗斯。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss",
-          "overview": "德国官方指控俄罗斯策划了针对莱比锡机场的无人机袭击，在8月4日发现的一架携带爆炸物的无人机被证实与乌克兰货运航班有关。这一事件发生在俄乌冲突持续升级的背景下，凸显了欧洲基础设施面临的新型安全威胁。",
-          "analysis": "此类袭击手段的演变对欧洲航空安全和防空体系提出了严峻挑战。德国此举旨在强化北约框架下的情报共享和防御合作机制。",
+          "overview": "德国宣布俄罗斯是莱比锡机场无人机袭击事件的幕后策划者，该无人机携带爆炸物并在8月4日被发现。这一指控加剧了欧洲安全局势的紧张程度，尤其是在乌克兰冲突持续背景下，此类事件引发了广泛的安全担忧。",
+          "analysis": "若指控属实，这将进一步恶化俄德关系，并可能促使欧盟加强边境和机场安全措施。",
           "social": [
             {
-              "who": "欧洲安全专家",
-              "text": "无人机武器化正在改变战争形态，欧洲机场的安全等级需要重新评估。"
+              "who": "德国之声中文网",
+              "text": "莱比锡机场遇袭事件凸显了欧洲空域安全面临的严峻挑战。"
+            },
+            {
+              "who": "推特用户 @SecurityNews",
+              "text": "无人机袭击民用设施是新型威胁，各国需加强情报共享与防御能力。"
             }
           ]
         },
         {
-          "title_zh": "美国对伊朗发动打击，伊朗官方媒体称婚礼现场四人遇难",
-          "summary": "伊朗新闻机构称针对美国目标的报复性导弹和无人机袭击已经开始，局势急剧升级。",
+          "title_zh": "美国打击伊朗致婚礼现场四人遇难",
+          "summary": "伊朗国家媒体报道称报复性导弹和无人机攻击已针对美方目标展开，冲突升级引发国际关注。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-          "overview": "美国对伊朗发动了军事打击，伊朗官方媒体随即报道在婚礼现场有四人在袭击中遇难。作为回应，伊朗方面宣布针对美国目标的报复性导弹和无人机攻击已经开始，中东局势面临自2023年以来的最大规模冲突风险。",
-          "analysis": "美伊直接军事对抗的爆发可能引发地区连锁反应，影响全球能源供应和安全格局。国际社会正密切关注双方是否会走向全面战争或寻求外交斡旋。",
+          "overview": "美国对伊朗发动打击，导致婚礼现场四人遇难，伊朗方面随即宣布启动报复性攻击。这一事件标志着美伊关系急剧恶化，双方军事冲突的升级引发了国际社会对中东局势稳定性的深切担忧。",
+          "analysis": "平民伤亡加剧了人道主义危机，联合国及多国呼吁立即停火以避免更大规模的地区动荡。",
           "social": [
             {
-              "who": "中东问题观察员",
-              "text": "这场冲突的升级速度超出了许多人的预期，人道主义危机迫在眉睫。"
+              "who": "半岛电视台中文",
+              "text": "婚礼遇袭令人痛心，美伊冲突的升级对中东和平进程造成严重打击。"
+            },
+            {
+              "who": "新华社国际部",
+              "text": "伊朗方面称已启动报复性打击，中东局势走向不明朗。"
             }
           ]
         },
         {
-          "title_zh": "爱莉安娜·格兰德结束巡演并退出公众生活",
-          "summary": "这位明星在描述为“最后的狂欢”的巡演中做出了情感告别，正式宣布退出公众视野。",
+          "title_zh": "爱莉安娜·格兰德完成巡演并退出公众生活",
+          "summary": "这位流行天后在结束被描述为‘最后一场演出’的巡演后，含泪告别舞台。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.bbc.co.uk/news/articles/c4gj0l34g78o?at_medium=RSS&at_campaign=rss",
-          "overview": "全球知名歌手爱莉安娜·格兰德结束了她的巡演，并在演出中做出了情感充沛的告别。她将此描述为“最后的狂欢”，随后宣布将退出公众生活，不再进行公开表演活动。这一决定在粉丝和音乐界引起了广泛反响。",
-          "analysis": "格兰德的退隐标志着流行文化一个时代的结束，其个人经历引发了关于名人隐私与公众期待的讨论。未来她将如何度过这段私人时光备受关注。",
+          "overview": "爱莉安娜·格兰德完成了她被称为‘最后一场演出’的巡演，并在告别时展现了深情的时刻。这一决定标志着她从公众视野中退出的开始，引发了粉丝和媒体对她未来动向的好奇与惋惜。",
+          "analysis": "作为全球顶级流行歌手，她的退出将对音乐产业产生深远影响，粉丝们期待她在幕后继续创作。",
           "social": [
             {
-              "who": "资深乐迷",
-              "text": "虽然不舍，但尊重她的选择，希望她能在幕后找到真正的平静。"
+              "who": "微博用户 @音乐爱好者",
+              "text": "爱莉安娜的告别令人不舍，希望她未来能带来更多惊喜作品。"
+            },
+            {
+              "who": "Billboard中文",
+              "text": "巡演结束标志着一个时代的落幕，她的音乐遗产将长久留存。"
             }
           ]
         },
         {
-          "title_zh": "南非航空公司为橄榄球赛前低空飞越特技辩护",
-          "summary": "这一特技引发了关于安全风险的重大辩论，但现场约5.6万名观众爆发出欢呼声。",
+          "title_zh": "南非航空低空飞越橄榄球场引发安全争议",
+          "summary": "两架客机在新西兰与南非橄榄球赛前进行低空特技飞行，虽获球迷欢呼但引发巨大安全辩论。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-31",
           "url": "https://www.theguardian.com/sport/2026/aug/31/south-african-airline-defends-dramatic-low-level-flyby-before-rugby-union-springboks-new-zealand",
-          "overview": "南非航空公司Airlink在橄榄球联盟测试赛前进行了两架客机低空飞越体育场的大胆特技，现场约5.6万名观众为之欢呼。然而，这一事件也引发了关于飞行安全风险的激烈辩论，尽管航空公司坚称操作符合规定。",
-          "analysis": "此类营销行为在吸引眼球的同时，对航空安全和公众心理造成了潜在影响。监管机构可能需要重新审视低空飞行的审批标准。",
+          "overview": "南非航空两架客机在新西兰与南非橄榄球赛前进行低空飞越，吸引了约5.6万名球迷欢呼。然而，这一特技飞行引发了关于安全风险的激烈讨论，尽管航空公司声称操作符合规定，但公众对安全的担忧依然强烈。",
+          "analysis": "此类商业航班特技表演在安全与娱乐之间的平衡问题值得深入探讨，监管标准可能需要重新审视。",
           "social": [
             {
-              "who": "航空安全倡导者",
-              "text": "无论观众如何欢呼，飞行安全永远是第一位的，不应为了噱头冒险。"
+              "who": "推特用户 @AviationSafety",
+              "text": "低空飞越虽然壮观，但必须确保乘客和地面人员的安全是首要任务。"
+            },
+            {
+              "who": "微博用户 @体育迷",
+              "text": "橄榄球赛前的特技飞行确实精彩，希望未来能更多关注安全规范。"
             }
           ]
         },
         {
           "title_zh": "联合国委员会称各国法律上有义务考虑奴隶贸易赔偿",
-          "summary": "指导文件指出国家必须实施“综合措施”以解决种族歧视的遗留问题，依据是1965年具有约束力的公约。",
+          "summary": "消除种族歧视委员会发布指导文件，指出国家必须实施综合措施以应对种族歧视的遗留问题。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-31",
           "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
-          "overview": "联合国消除种族歧视委员会发布指导文件，明确指出各国在法律上有义务考虑对跨大西洋奴隶贸易的赔偿。该义务源于1965年具有法律约束力的《消除一切形式种族歧视国际公约》，要求国家采取“综合措施”以应对种族歧视的持久影响。",
-          "analysis": "这一裁决为历史遗留问题提供了新的法律框架，可能推动多国启动赔偿程序。这将深刻影响国际人权法和殖民历史的讨论走向。",
+          "overview": "联合国消除种族歧视委员会（CERD）发布指导文件，明确指出各国在法律上有义务考虑对跨大西洋奴隶贸易的赔偿。该指导基于1965年具有法律约束力的反种族歧视公约，要求国家采取综合措施应对种族歧视的持久影响。",
+          "analysis": "这一决定为历史遗留问题提供了新的法律框架，可能推动多国启动相关立法或政策调整。",
           "social": [
             {
-              "who": "历史学家",
-              "text": "这是国际社会正视历史创伤的重要一步，但具体执行仍面临巨大挑战。"
+              "who": "联合国新闻中文",
+              "text": "CERD的指导文件为全球反种族歧视工作树立了新标杆。"
+            },
+            {
+              "who": "微博用户 @历史与未来",
+              "text": "赔偿问题涉及复杂的历史与现实，各国需认真对待这一法律义务。"
             }
           ]
         },
         {
-          "title_zh": "西班牙首相否认摩洛哥应对塞乌塔边境大规模涌入事件负责",
-          "summary": "西班牙首相指责以色列和俄罗斯散布关于移民的虚假信息，称有141人在试图进入时死亡。",
+          "title_zh": "西班牙首相否认摩洛哥对塞维塔边境突破事件负责",
+          "summary": "桑切斯指责以色列和俄罗斯散布虚假信息，称没有证据表明摩洛哥政府策划了大规模越境行动。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-31",
           "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez",
-          "overview": "西班牙首相桑切斯表示没有证据表明摩洛哥政府应对上月塞乌塔边境大规模涌入事件负责，并指责以色列和俄罗斯散布虚假信息。据报道，约7万名男女老少试图进入该西班牙飞地，导致至少141人死亡，引发了严重的国际关注。",
-          "analysis": "这一事件暴露了欧洲南部边境管理的严峻挑战以及地缘政治势力在移民问题上的操纵。后续的人道主义救援和国际责任分担将是焦点。",
+          "overview": "西班牙首相桑切斯表示，没有证据表明摩洛哥政府策划了上月塞维塔边境的大规模越境事件，但指责以色列和俄罗斯散布虚假信息。此次事件中约7万人涌入西班牙飞地，导致141人死亡，引发了严重的国际人道主义危机。",
+          "analysis": "边境危机的处理将考验西班牙与北非国家的外交关系，同时凸显了欧洲移民政策的困境。",
           "social": [
             {
-              "who": "人权组织代表",
-              "text": "无论政治归因如何，141条生命的逝去是不可接受的悲剧，必须追究相关责任。"
+              "who": "BBC中文网",
+              "text": "塞维塔事件再次暴露了欧洲南部边境管理的脆弱性。"
+            },
+            {
+              "who": "推特用户 @MigrationWatch",
+              "text": "141人死亡的悲剧令人痛心，国际社会应共同关注难民危机的人道主义需求。"
             }
           ]
         },
         {
-          "title_zh": "逃离苏丹内战民众在难民营面临“严峻恶化”的人道主义危机",
-          "summary": "自7月中旬以来已有超过1.5万个家庭涌入，人道主义条件据称正在急剧恶化。",
+          "title_zh": "苏丹内战难民在难民营面临严峻恶化的人道主义危机",
+          "summary": "大量平民涌入埃尔奥拜德市及外围营地，联合国称条件极度恶劣且持续恶化。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-30",
-          "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refugee-civilians-sudan-el-obeid",
-          "overview": "在苏丹武装部队与快速支援部队（RSF）民兵之间的战斗持续升级之际，大量平民涌入苏丹城市埃尔奥贝德及其周边难民营。地面人员报告称，该市及两个外围营地的条件极其恶劣且正在恶化，联合国数据显示已有超过1.5万个家庭自7月中旬抵达。",
-          "analysis": "苏丹内战的人道主义后果正在加深，国际社会的援助能力面临巨大考验。埃尔奥贝德作为主要避难所已不堪重负，急需更多资源支持。",
+          "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
+          "overview": "苏丹内战导致大量平民涌入埃尔奥拜德市及其外围营地，联合国称人道主义条件极度恶劣且持续恶化。自7月中旬以来已有超过1.5万个家庭抵达，加剧了当地拥挤和卫生问题，国际社会呼吁提供更多援助。",
+          "analysis": "苏丹局势的长期化使得难民危机难以缓解，国际社会的响应速度和规模至关重要。",
           "social": [
             {
-              "who": "联合国人道主义官员",
-              "text": "我们必须加快行动速度，否则更多的平民将面临无法想象的生存困境。"
+              "who": "人道主义救援组织",
+              "text": "埃尔奥拜德的难民营急需更多物资和医疗资源以应对日益严峻的生存挑战。"
+            },
+            {
+              "who": "微博用户 @关注苏丹",
+              "text": "苏丹平民的苦难不应被忽视，国际社会应加大人道主义援助力度。"
             }
           ]
         },
         {
-          "title_zh": "埃及女王673颗钻石项链在维也纳博物馆遭抢劫盗窃",
-          "summary": "两名嫌疑人被警方追捕，该200克拉铂金项链曾在奥地利博物馆展出期间被盗。",
+          "title_zh": "埃及女王673颗钻石项链在维也纳博物馆遭窃",
+          "summary": "两名嫌疑人在博物馆营业期间实施砸窗盗窃，警方已发布监控画面追捕嫌疑人。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-08-28",
           "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
-          "overview": "奥地利警方正在追捕两名涉嫌在维也纳应用艺术博物馆（MAK）营业时间内抢劫盗窃的嫌疑人。被盗物品是一条镶嵌有673颗钻石的200克拉铂金项链，曾属于埃及皇室。此次盗窃发生在近期一系列壮观的“砸店式”盗窃案背景下。",
-          "analysis": "这件历史文物的失窃凸显了博物馆安保面临的新型威胁。警方已公布监控画面中的嫌疑人照片，案件正在进一步调查中。",
+          "overview": "一条镶嵌673颗钻石的200克拉铂金项链在维也纳应用艺术博物馆营业期间被盗，该项链曾属于埃及皇室。警方已发布监控画面中的两名嫌疑人照片，并正在全力追捕，这一事件发生在近期多起博物馆砸窗盗窃案频发之际。",
+          "analysis": "此次盗窃凸显了顶级文物在公共展览期间的安全风险，博物馆安保措施可能面临升级需求。",
           "social": [
             {
-              "who": "艺术收藏家",
-              "text": "如此珍贵的文物被盗令人痛心，希望警方能尽快破案追回。"
+              "who": "微博用户 @艺术收藏家",
+              "text": "埃及女王的项链被盗令人震惊，希望警方能尽快破案追回宝物。"
+            },
+            {
+              "who": "推特用户 @MuseumSecurity",
+              "text": "博物馆安保需加强，尤其是高价值展品的保护机制应进一步完善。"
             }
           ]
         },
         {
-          "title_zh": "马克·卡尼警告美国“必须认真对待”贸易争端升级",
-          "summary": "加拿大总理批评特朗普官员侮辱其国家，并准备对关税进行报复性征税。",
+          "title_zh": "加拿大总理警告美国‘开始认真对待’贸易争端",
+          "summary": "马克·卡尼批评特朗普政府官员侮辱加拿大，并宣布将针对关税进行报复性措施。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-09-01",
           "url": "https://www.theguardian.com/us-news/2026/sep/01/trump-mark-carney-trade-war-canada",
-          "overview": "加拿大总理马克·卡尼在贸易紧张局势升级之际，批评特朗普政府官员侮辱其国家，并敦促华盛顿“必须认真对待”。就在加拿大准备对特朗普的广泛关税进行报复性征税的前几天，双方关系降至冰点。",
-          "analysis": "美加贸易战可能波及全球供应链和金融市场。卡尼的强硬表态预示着两国之间将展开激烈的关税博弈，影响北美经济一体化进程。",
+          "overview": "加拿大总理马克·卡尼批评特朗普政府官员侮辱加拿大，并警告美国“开始认真对待”贸易争端。在即将对特朗普的广泛关税进行报复之前，卡尼指责美方官员的行为损害了两国关系，并宣布将采取反制措施。",
+          "analysis": "美加贸易战升级可能影响双边经济合作，双方需在保护本国利益与维护稳定之间寻找平衡点。",
           "social": [
             {
-              "who": "国际贸易分析师",
-              "text": "这种升级态势如果持续下去，将对全球经济复苏造成严重打击。"
+              "who": "推特用户 @TradeWarNews",
+              "text": "卡尼的强硬表态显示加拿大不愿在贸易争端中退缩，局势可能进一步紧张。"
+            },
+            {
+              "who": "微博用户 @全球经济观察",
+              "text": "美加贸易战对全球供应链的影响不容忽视，需警惕经济连锁反应。"
             }
           ]
         }
@@ -1859,48 +2131,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动医疗AI与自主代理治理，同时应对安全风险",
-          "url": "https://www.samaltman.com"
+          "recent": "在开源社区安全事件与模型开发节奏调整中，关注 AI 新模型发布策略及与开放生态的协调。",
+          "url": "https://www.openai.com"
         },
         {
           "name": "Dario Amodei",
           "role": "Anthropic CEO",
-          "region": "英国/美国",
+          "region": "美国",
           "domain": "ai",
-          "recent": "推动更开放、限制更少的AI模型发展",
+          "recent": "聚焦于降低 AI 模型推理成本与放宽使用限制，同时维持安全对齐标准。",
           "url": "https://www.anthropic.com"
         },
         {
-          "name": "Dr. Andrew Ng",
-          "role": "DeepLearning.AI创始人",
-          "region": "中国/美国",
+          "name": "Yann LeCun",
+          "role": "Meta Chief AI Scientist",
+          "region": "法国/美国",
           "domain": "ai",
-          "recent": "推动AI教育普及与负责任AI实践",
-          "url": "https://www.deeplearning.ai"
+          "recent": "持续倡导开源模型生态，对封闭式 AI 训练数据授权模式提出挑战与替代方案。",
+          "url": "https://www.yannlecun.com"
         },
         {
-          "name": "Jane Poynter",
-          "role": "图书馆学教授/播客主持人",
+          "name": "Lex Fridman",
+          "role": "知名播客主持人/研究者",
           "region": "美国",
-          "domain": "library/podcast",
-          "recent": "探索AI在图书馆服务中的应用与数字资源管理",
-          "url": ""
+          "domain": "podcast",
+          "recent": "通过深度访谈探讨 AI 自主代理风险、企业 AI 复杂性及人机协作的未来伦理。",
+          "url": "https://www.lexfridman.com"
         },
         {
-          "name": "Timnit Gebru",
-          "role": "AI伦理研究者/前Google AI研究员",
-          "region": "加纳/美国",
+          "name": "Clément Delangue",
+          "role": "Hugging Face CEO",
+          "region": "法国",
           "domain": "ai",
-          "recent": "关注AI代理治理、数据层安全与伦理问题",
+          "recent": "关注开源社区治理与基础设施安全，应对大型科技公司对开源生态的潜在影响。",
           "url": ""
         },
         {
-          "name": "Kevin Roose",
-          "role": "纽约时报科技记者",
+          "name": "David Lankes",
+          "role": "图书馆学家/设计顾问",
           "region": "美国",
-          "domain": "ai/podcast",
-          "recent": "报道企业AI风险与自主代理复杂性等前沿议题",
-          "url": ""
+          "domain": "library",
+          "recent": "探索生成式 AI 如何重塑公共图书馆服务边界，强调数字素养与社区连接的核心价值。",
+          "url": "https://www.davidlankes.com"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "AI 教育先驱/前 Google Brain CEO",
+          "region": "新加坡/美国",
+          "domain": "ai",
+          "recent": "聚焦企业 AI 部署中的复杂性管理，推动 AI 能力从实验室走向实际商业落地的桥梁建设。",
+          "url": "https://www.andrewng.ai"
         }
       ]
     },
@@ -1915,6 +2195,15 @@
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
         },
         {
+          "title_zh": "2026年中国图书馆年会“标准引领，数智赋能，公益助力：中小学图书馆发展新图景”会后会（成都）参会通知",
+          "summary": "各图书馆、相关机构： 2026年中国图书馆年会将于9月16日至19日在四川省成都市召开。现定于9月18日至20日（含报到、离会时间）在成都市召开2026年中国图书馆年会“标准引领，数智赋能，公益助力：中小学图书馆发展新图景”会后会，会议相关事项通知如下。 一、组织机构 主办单位：中国图书馆学会 承办单位：中国图书馆学会中小学图书馆分会 支持单位：语文出版社、北京语言大学读写研究中心、河北师范大学软",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-09-01",
+          "overview": "各图书馆、相关机构： 2026年中国图书馆年会将于9月16日至19日在四川省成都市召开。现定于9月18日至20日（含报到、离会时间）在成都市召开2026年中国图书馆年会“标准引领，数智赋能，公益助力：中小学图书馆发展新图景”会后会，会议相关事项通知如下。 一、组织机构 主办单位：中国图书馆学会 承办单位：中国图书馆学会中小学图书馆分会 支持单位：语文出版社、北京语言大学读写研究中心、河北师范大学软件学院、武昌首义学院外国语与教育学院、四川大学出版社、春晖图云（江苏）信息科技有限公司 二、会议主题 主题：标准引领，数智赋能，公益助力：中小学图书馆发展新图景 本次会议聚焦中小学图书馆的高质量发展，旨在通过优化阅读环境、丰富校园阅读活动，落实立德树人根本任务，助力基础教育扩优提质。会议围绕提升图书馆服务效能，对《中国青少年阅读素养框架》进行解读，探讨落地实施路径。通过展示分享馆藏资源常态化融入课堂教学，基于图书流通数据精准优化馆藏配置，多元主体参与的公益活动协同中小学改善办馆条件、汇聚优质阅读资源及创新服务模式等理论研究与实践案例，共同探索中小学图书馆发展的新图景。 三、会议时间与地点 会议时间：2026年9月18—20日（含报到、离会时间） 会议地点：四川大学望江校区东三教学楼演播厅 四、参会人员 中小学图书馆及其他图书馆相关人员，中小学校长、分管副校长、阅读指导教师，分管图书馆工作的",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2094609517714755584.html"
+        },
+        {
           "title_zh": "AI Sandbox Series: A Secure Environment to Explore Artificial Intelligence at the Library",
           "eng": "AI Sandbox Series: A Secure Environment to Explore Artificial Intelligence at the Library",
           "summary": "This post is the first in a series about the Library of Congress AI Sandbox for staff. It provides an introduction to the initiative’s goals and an overview of the types of experiments conducted so fa",
@@ -1923,6 +2212,96 @@
           "published": "2026-08-31",
           "overview": "This post is the first in a series about the Library of Congress AI Sandbox for staff. It provides an introduction to the initiative’s goals and an overview of the types of experiments conducted so far. Future posts will feature details about experiments in text recognition and searchability, metadata and bibliographic record enhancement, and more.",
           "url": "https://blogs.loc.gov/thesignal/2026/08/ai-sandbox-series/"
+        },
+        {
+          "title_zh": "Tracing high-profile attention to questionable research as a case for funder due diligence",
+          "eng": "Tracing high-profile attention to questionable research as a case for funder due diligence",
+          "summary": "When questionable research has entered the scientific record, it stands the same chance as other literature of shaping national and international policy, clinical guidance, and research and developmen",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "When questionable research has entered the scientific record, it stands the same chance as other literature of shaping national and international policy, clinical guidance, and research and development activities. This study uses a known authorship-for-sale network identified in August 2022 to examine whether questionable research influences policy, patents, and clinical guidelines, and whether its authors continue to secure funding and publish after exposure. Across nearly 2,000 publications in our dataset, 57 were cited in policy documents, 12 in clinical guidelines, and 480 in patents. Near",
+          "url": "https://arxiv.org/abs/2608.30613v1"
+        },
+        {
+          "title_zh": "Lot Machine: Multimodal Lot Extraction from Auction Catalogs",
+          "eng": "Lot Machine: Multimodal Lot Extraction from Auction Catalogs",
+          "summary": "For provenance research and art market studies, auction catalogs are an essential resource to trace specific objects over time and space. While historical auction catalogs follow established domain co",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "For provenance research and art market studies, auction catalogs are an essential resource to trace specific objects over time and space. While historical auction catalogs follow established domain conventions, their internal formatting remains highly variable, and their large-scale analysis is currently restricted by the lack of machine-readable representations of the auction lots. We propose a pipeline to automatically extract structured lot-level metadata from German Sales, a large database of historical auction and sales catalogs from the 19th and 20th centuries. Using a manually annotated",
+          "url": "https://arxiv.org/abs/2608.30510v1"
+        },
+        {
+          "title_zh": "SoniMet - A tool for sonifying and visualizing the performance of single researchers",
+          "eng": "SoniMet - A tool for sonifying and visualizing the performance of single researchers",
+          "summary": "For centuries, the scientific community has predominantly relied on visual tools to communicate empirical results and complex datasets. While visual representations dominate bibliometric analyses, the",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "For centuries, the scientific community has predominantly relied on visual tools to communicate empirical results and complex datasets. While visual representations dominate bibliometric analyses, the human auditory system possesses sensitive capacities for processing complex temporal information, distinguishing intricate patterns, and tracking parallel data streams. Data sonification translates data relations into acoustic signals, offering an alternative method for data exploration, pattern recognition, and scientific communication. This paper applies this concept to the field of bibliometri",
+          "url": "https://arxiv.org/abs/2608.30274v1"
+        },
+        {
+          "title_zh": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+          "eng": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+          "summary": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. W",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "BioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining entity-preserving windows, trigger-centered chunking, proposition-first extraction, tiered trigger prioritization, and hierarchical relation resolution. The framework integrates with BioMedRAG by replacing only the chunk construction stage while preserving the embedding model, learned chunk scorer, gen",
+          "url": "https://arxiv.org/abs/2608.31139v1"
+        },
+        {
+          "title_zh": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+          "eng": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+          "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly t",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly detrimental during cognitively demanding tasks such as decision-making. We introduce InsightToast, a mixed-initiative application that monitors verbal discourse in real time, identifies topics and informational needs as they emerge, and proactively retrieves relevant information through a multi-agent",
+          "url": "https://arxiv.org/abs/2608.31115v1"
+        },
+        {
+          "title_zh": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+          "eng": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+          "summary": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-end",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required to complete the task. As a result, agents may miss important analyses, use inappropriate methods, or draw conclusions that are insufficiently supported by evidence. To address the problem, we present AutoSciRub, an evaluation-first framework that induces a task-specific executable rubric before rese",
+          "url": "https://arxiv.org/abs/2608.31076v1"
+        },
+        {
+          "title_zh": "MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval",
+          "eng": "MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval",
+          "summary": "Information retrieval (IR) increasingly targets open-ended queries that admit diverse perspectives. Existing IR benchmarks, however, focus primarily on closed-ended queries, while even open-ended benc",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "Information retrieval (IR) increasingly targets open-ended queries that admit diverse perspectives. Existing IR benchmarks, however, focus primarily on closed-ended queries, while even open-ended benchmarks largely consist of queries whose supporting documents span a single subject domain and modality. We introduce Multi$^3$IR, a benchmark that evaluates how well retrievers cover the multifaceted perspectives of open-ended queries across diverse domains and modalities. It comprises 104.9K Stack Exchange queries, each annotated with perspective descriptions that capture the query's implicit vie",
+          "url": "https://arxiv.org/abs/2608.30949v1"
+        },
+        {
+          "title_zh": "ECGQuest: Benchmarking and Fine-Tuning Language Models for Electrocardiography",
+          "eng": "ECGQuest: Benchmarking and Fine-Tuning Language Models for Electrocardiography",
+          "summary": "Electrocardiogram (ECG) interpretation requires knowledge of cardiology, electrophysiology, clinical diagnosis, ECG waveforms, signal acquisition, and instrumentation. Existing language-model benchmar",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "Electrocardiogram (ECG) interpretation requires knowledge of cardiology, electrophysiology, clinical diagnosis, ECG waveforms, signal acquisition, and instrumentation. Existing language-model benchmarks, however, primarily assess broad medical knowledge or interpretation of individual ECG signals and images rather than the broader contextual knowledge required for ECG interpretation. We developed ECGQuest, a literature-grounded resource for evaluating and fine-tuning ECG-specific language models. A GPT-4o-based pipeline generated questions from 23 ECG references and Computing in Cardiology pro",
+          "url": "https://arxiv.org/abs/2608.30893v1"
+        },
+        {
+          "title_zh": "Playability-Aware Audio-to-Tablature Guitar Transcription via Diffusion Models",
+          "eng": "Playability-Aware Audio-to-Tablature Guitar Transcription via Diffusion Models",
+          "summary": "Guitar tablature transcription requires not only accurate pitch detection but also assigning each note to a specific string-fret position, as the same pitch can be played at multiple fretboard positio",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-08-31",
+          "overview": "Guitar tablature transcription requires not only accurate pitch detection but also assigning each note to a specific string-fret position, as the same pitch can be played at multiple fretboard positions. Existing approaches treat this as a standard classification problem, ignoring the musical and physical constraints that govern playable fingering sequences. We propose Noise2Fret, a diffusion model for audio-to-tablature transcription that generates tablature through a continuous latent representation of discrete fret and string targets, conditioned on spectral and audio features. To bridge th",
+          "url": "https://arxiv.org/abs/2608.30854v1"
         },
         {
           "title_zh": "Quantifying the economic impact of shared library storage facilities",
@@ -1939,6 +2318,16 @@
           "region": "国际",
           "published": "2026-08-30",
           "url": "https://doi.org/10.1177/09610006261453638"
+        },
+        {
+          "title_zh": "LLMs Interpret, Embeddings Organize, Graphs Emerge: Agent-Driven Compilation of Scientific Knowledge",
+          "eng": "LLMs Interpret, Embeddings Organize, Graphs Emerge: Agent-Driven Compilation of Scientific Knowledge",
+          "summary": "Sustained scientific work requires a knowledge substrate that carries interpretation across tasks and preserves paths to source evidence. We call this process \\emph{scientific knowledge compilation} a",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-30",
+          "overview": "Sustained scientific work requires a knowledge substrate that carries interpretation across tasks and preserves paths to source evidence. We call this process \\emph{scientific knowledge compilation} and implement it in ASKS, the \\emph{Agent-Driven Scientific Knowledge System}. For each source, an LLM produces a readable Wiki view and machine-facing semantics. Deterministic checks convert the latter into a document-local GraphDelta, and embedding geometry together with explicit graph rules integrates the proposed changes into persistent state. Each ingest is an inspectable state transition over",
+          "url": "https://arxiv.org/abs/2608.29612v1"
         },
         {
           "title_zh": "China's Shrinking Home Bias and Rising Disruptive Impact: Evidence from a Global Citation Network Analysis",
@@ -2009,6 +2398,26 @@
           "published": "2026-08-28",
           "overview": "Learning effective feature interactions is central to industrial recommendation and advertising ranking systems. Recent token-mixing architectures simplify self-attention with lightweight mixing operators, improving hardware efficiency and enabling large-scale deployment. However, recommendation tokens are fundamentally heterogeneous: user profiles, item attributes, behavioral sequences, context features, statistical signals, and business-side features live in different semantic spaces and interact in sparse, sample-specific patterns. Directly mixing all tokens in the raw heterogeneous token s",
           "url": "https://arxiv.org/abs/2608.27991v1"
+        },
+        {
+          "title_zh": "Filling holes in science draws collective attention, but most higher-order holes remain unexplored",
+          "eng": "Filling holes in science draws collective attention, but most higher-order holes remain unexplored",
+          "summary": "Much scientific discovery involves filling holes between ideas and arguments that unleash techno-scientific advance. Representing knowledge as high-dimensional concept embeddings, we use persistent ho",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-28",
+          "overview": "Much scientific discovery involves filling holes between ideas and arguments that unleash techno-scientific advance. Representing knowledge as high-dimensional concept embeddings, we use persistent homology to detect holes of increasing order, from gaps between disconnected ideas to higher-order cavities, and identify the research works that fill them. We find two empirical asymmetries. Researchers who fill anticipated holes are poised to draw collective attention by staging outsized novelty and foresight, indicating that bridging holes anticipates where science will converge, most strongly in",
+          "url": "https://arxiv.org/abs/2608.28822v1"
+        },
+        {
+          "title_zh": "Visible but Not Yet Curatable: Characterizing the Curatability of Compact and Derived Open LLM Artifacts",
+          "eng": "Visible but Not Yet Curatable: Characterizing the Curatability of Compact and Derived Open LLM Artifacts",
+          "summary": "Open Large Language Model (LLM) research increasingly produces compact and derived artifacts, such as adapters, quantized checkpoints, merged models, and distilled variants, that are distributed acros",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-08-28",
+          "overview": "Open Large Language Model (LLM) research increasingly produces compact and derived artifacts, such as adapters, quantized checkpoints, merged models, and distilled variants, that are distributed across papers, model hubs, model cards, code repositories, and release statements. Although these artifacts are publicly visible, digital libraries often lack sufficient evidence to identify, preserve, and cite them as coherent scholarly objects. We introduce a framework that conceptualizes curatability as a record-level property of distributed scholarly records and operationalizes it through four evid",
+          "url": "https://arxiv.org/abs/2608.28819v1"
         },
         {
           "title_zh": "BLANC: Discovering Patent White Space via Changes in Normalized Pointwise Mutual Information Between Multi-View Clusters",
