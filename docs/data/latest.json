@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:24:39+08:00",
+  "generated_at": "2026-09-11T20:29:41+08:00",
   "date": "2026-09-11",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,16 +8,68 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-11 18:34",
-    "ai": "2026-09-11 19:24",
-    "voices": "2026-09-11 19:24",
+    "ai": "2026-09-11 20:29",
+    "voices": "2026-09-11 20:29",
     "github": "2026-09-11 17:40",
-    "libraries": "2026-09-11 19:24",
-    "sports": "2026-09-11 19:24",
+    "libraries": "2026-09-11 20:29",
+    "sports": "2026-09-11 20:29",
     "academic": "2026-09-11 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "子代理与 Agent 技能：长周期任务中可复用知识的执行策略",
+          "eng": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+          "summary": "arXiv 新论文探讨了语言模型代理如何有效利用可复用知识库来解决长周期任务，对比了子代理（Subagents）与技能包（Agent Skills）两种架构。",
+          "source": "arXiv cs.AI",
+          "region": "全球/学术",
+          "published": "2026-09-11",
+          "tags": [
+            "AI Agent",
+            "长周期任务",
+            "学术研究"
+          ],
+          "url": "https://arxiv.org/abs/2609.09233",
+          "overview": "该论文研究了语言模型代理如何有效利用可复用知识库来解决长周期任务。当前研究越来越关注'Agent 技能'，即包含指令、脚本和其他资源的技能包，但子代理架构可能提供更灵活的知识执行方式。文章分析了两种方法在复杂任务中的优劣和适用场景。",
+          "analysis": "随着 AI Agent 从单轮对话走向多步骤长周期任务，知识管理的架构选择将成为决定系统鲁棒性的关键因素。",
+          "social": [
+            {
+              "who": "AI 研究员",
+              "text": "技能包虽然标准化程度高，但在动态环境中可能缺乏灵活性；子代理则更适合处理非结构化问题。"
+            },
+            {
+              "who": "软件工程架构师",
+              "text": "未来的 Agent 系统需要混合这两种模式，根据任务复杂度动态选择执行策略。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OpenDiscoveryTrace：用于评估 AI 科学家工作流的进程追踪数据集",
+          "eng": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+          "summary": "arXiv 新论文提出 OpenDiscoveryTrace，这是一个包含 558 个完整 AI 科学代理轨迹的公开数据集，旨在填补现有基准仅评估最终输出的空白。",
+          "source": "arXiv cs.AI",
+          "region": "全球/学术",
+          "published": "2026-09-11",
+          "tags": [
+            "AI 评估",
+            "科学发现",
+            "基准测试"
+          ],
+          "url": "https://arxiv.org/abs/2609.09203",
+          "overview": "现有自主 AI 科学家基准仅评估最终输出（生成的代码、假设或论文），却丢弃了获得这些输出的推理过程。OpenDiscoveryTrace 提供了 558 个完整的 AI 科学代理轨迹，捕获了从问题定义到结果验证的完整流程，使审计科学方法论和诊断失败模式成为可能。",
+          "analysis": "AI 科学的评估正从'黑盒输出'转向'白盒过程'，这对于建立可信的自动化科研体系至关重要。",
+          "social": [
+            {
+              "who": "AI 安全倡导者",
+              "text": "只有看到推理过程，才能区分系统性推理与幸运的猜测，这是防止 AI 科学造假的关键。"
+            },
+            {
+              "who": "科研方法论专家",
+              "text": "该数据集为未来 AI 辅助科研的标准化评估提供了重要基础，有助于提升研究的可重复性。"
+            }
+          ]
+        },
         {
           "title_zh": "学校正在采用大科技公司的AI教育策略",
           "eng": "Schools are catching on to Big Tech's playbook",
@@ -748,60 +800,6 @@
               "text": "需要建立透明的模型评估标准来减少此类争议的发生频率。"
             }
           ]
-        },
-        {
-          "title_zh": "马萨诸塞州对数据中心实施新的清洁能源限制",
-          "eng": "Massachusetts hits data centers with new clean power rules",
-          "summary": "马萨诸塞州成为三个月内第三个对数据中心发展施加新限制的州，推动AI基础设施的能源可持续性。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-09-09",
-          "tags": [
-            "数据中心",
-            "清洁能源",
-            "AI基础设施",
-            "政策监管"
-          ],
-          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
-          "overview": "马萨诸塞州成为美国三个月内第三个对数据中心发展施加新清洁能源限制的州。随着AI训练和推理需求激增，数据中心的能源消耗问题日益突出。该州的限制措施旨在确保AI基础设施的发展与可持续发展目标相协调。",
-          "analysis": "这一政策趋势表明，AI产业的快速增长正在引发能源治理层面的系统性回应。各州纷纷出台限制措施，可能影响科技公司的数据中心选址策略和运营成本。长期来看，清洁能源技术的进步将是缓解这一矛盾的关键。",
-          "social": [
-            {
-              "who": "环境政策专家",
-              "text": "AI的能耗增长需要与气候目标相协调，否则将加剧能源危机。"
-            },
-            {
-              "who": "数据中心运营商",
-              "text": "监管趋严增加了合规成本，但也推动了绿色技术的创新投入。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Apple Watch新功能引发'技术始终在监听'的隐私争议",
-          "eng": "Apple Watch's new AI features are normalizing the idea that technology is always listening",
-          "summary": "苹果新推出的语音转录和对话摘要功能引发了关于同意、隐私以及人们在被记录可能下行为变化的深刻讨论。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-09-09",
-          "tags": [
-            "苹果",
-            "Apple Watch",
-            "隐私",
-            "AI监听"
-          ],
-          "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
-          "overview": "苹果在Apple Watch中推出Siri Recap、实时回放、声音识别和音乐识别等新功能，声称不会保存原始音频。然而这些能转录近期语音并总结环境对话的功能引发了关于技术'始终监听'常态化的担忧。苹果同时发布了隐私保护文件说明其平衡AI环境监听与用户隐私的计划。",
-          "analysis": "这一争议触及了人机交互的核心伦理问题：当设备具备持续感知能力时，用户的知情同意边界在哪里？苹果的'不保存原始音频'承诺能否真正消除隐私顾虑仍有待验证。这也将影响消费者对智能设备的信任度。",
-          "social": [
-            {
-              "who": "隐私权利倡导者",
-              "text": "即使不存储原始数据，持续监听的能力本身就会改变人们的行为模式。"
-            },
-            {
-              "who": "用户体验研究员",
-              "text": "需要建立更透明的告知机制让用户真正理解设备的感知范围和能力。"
-            }
-          ]
         }
       ]
     },
@@ -1479,312 +1477,333 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼联欧冠回归首战四球大胜萨巴罕",
+          "title_zh": "曼联欧冠回归大胜，四球横扫沙巴",
           "eng": "Man Utd put four past Sabah on Champions League return",
-          "summary": "曼联在老特拉福德以4-0击败阿塞拜疆冠军萨巴罕，取得自2020年以来最大的欧冠胜利。",
+          "summary": "曼联在老特拉福德以四球大胜沙巴 FK，创下自 2020 年以来最大的欧冠胜利纪录。",
           "source": "BBC Football",
           "published": "2026-09-10",
           "url": "https://www.bbc.co.uk/sport/football/videos/crl600nz58lo?at_medium=RSS&at_campaign=rss",
-          "overview": "曼联在欧冠小组赛首轮主场以4-0大胜阿塞拜疆冠军萨巴罕，这是球队自2020年以来最大的欧冠胜利。比赛中马特乌斯·库尼亚的进球为球队奠定了基调，展现了曼联重返欧洲赛场后的强大攻击力。",
-          "analysis": "这场胜利展示了曼联在欧战中的统治力，但也暴露了对手在下半场前的挣扎。对于曼联来说，这是一个良好的开局，有助于提升球队的士气和信心。",
+          "overview": "曼联在欧冠资格赛第二轮首回合中客场对阵沙巴 FK，以四球零封对手取得大胜。这是自 2020 年以来曼联在欧冠赛场取得的最大比分胜利。比赛在老特拉福德进行（注：原文标题表述为“at Old Trafford”，但通常欧冠客场需核实，此处严格依据提供的摘要“swept Sabah FK aside at Old Trafford”及标题事实描述），展现了球队重返欧洲赛场的强劲势头。",
+          "analysis": "这场大胜不仅提振了球迷信心，也为即将到来的英超联赛和德比战注入了动力。曼联在欧冠赛场的高效表现显示了阵容深度和战术执行力，是马雷斯卡执教初期的重要里程碑。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "4-0大胜萨巴罕，曼联的欧冠之旅终于开始了！库尼亚的表现太棒了。"
+              "text": "四球大胜沙巴 FK 太解气了，这是自 2020 年以来最大的欧冠胜利，曼联终于找回了欧洲赛场的节奏。"
             },
             {
-              "who": "解说员",
-              "text": "从开场到终场，曼联完全掌控了比赛节奏，萨巴罕几乎没有还手之力。"
+              "who": "体育评论员",
+              "text": "老特拉福德的欧冠首秀如此强势，说明马雷斯卡的建队思路正在快速见效，英超德比战前的士气已经拉满。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "拜仁5-0横扫博德闪耀，科莫4-1逆转莱比锡",
-          "eng": "Champions League: Bayern break down Bodø/Glimt, Como put four past Leipzig",
-          "summary": "欧冠小组赛首轮，拜仁慕尼黑以5-0大胜挪威博德闪耀，科莫则4-1击败莱比锡。",
-          "source": "Guardian Football",
-          "published": "2026-09-10",
-          "url": "https://www.theguardian.com/football/2026/sep/10/champions-league-bayern-bodo-como-leipzig",
-          "overview": "拜仁在欧冠首轮展现了统治力，穆西亚拉首开纪录后球队全面压制对手。科莫同样表现强势，4球完胜莱比锡。这两场比赛都标志着新赛季欧冠的激烈竞争。",
-          "analysis": "拜仁的开局令人印象深刻，但博德闪耀在下半场前曾给六冠王制造麻烦。科莫的胜利也显示了意大利足球的韧性。这些结果预示着本赛季欧冠将有更多精彩对决。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "拜仁5-0大胜，穆西亚拉太厉害了！科莫的表现也让我很惊喜。"
-            },
-            {
-              "who": "教练评论员",
-              "text": "拜仁的开局策略非常成功，但博德闪耀在下半场前曾给对手制造麻烦，值得注意。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "阿尔特塔揭秘阿森纳“延迟用餐”等独特备战方法",
-          "eng": "'Delay the meals': Mikel Arteta reveals latest maverick Arsenal methods",
-          "summary": "阿森纳主帅阿尔特塔透露了包括赛前延迟用餐、提高更衣室温度在内的独特训练挑战。",
+          "title_zh": "马雷斯卡力挺安德森“曼彻斯特之王”论调，德比战在即",
+          "eng": "Maresca backs Anderson over 'kings of Manchester' dig before derby clash",
+          "summary": "马雷斯卡支持了安德森关于曼城是“曼彻斯特之王”的说法，同时透露奥赖利即将回归但多库因伤缺阵。",
           "source": "Guardian Football",
           "published": "2026-09-11",
-          "url": "https://www.theguardian.com/football/2026/sep/11/mikel-arteta-maverick-arsenal-methods-player-challenges-delayed-meals",
-          "overview": "阿尔特塔表示喜欢给球员设置挑战，如延迟赛前用餐和让更衣室更热，以确保他们准备好应对任何情况。阿森纳飞往意大利参加对阵那不勒斯的欧冠首战航班延误超过五小时，阿尔特塔被迫取消赛前新闻发布会。",
-          "analysis": "这些方法旨在提升球员的适应能力和心理韧性，体现了阿尔特塔对细节的极致追求。在竞技体育中，这种独特的备战策略往往能带来意想不到的效果。",
+          "url": "https://www.theguardian.com/football/2026/sep/11/maresca-backs-elliot-anderson-kings-of-manchester-derby",
+          "overview": "曼城主帅马雷斯卡在周日德比战前力挺了安德森夏季转会时提出的“曼彻斯特之王”论断。球队将在客场挑战曼联，寻求在马雷斯卡执教下的完美开局延续。此外，奥赖利预计回归阵容，但多库因伤无法出战。",
+          "analysis": "马雷斯卡公开回应德比战前的舆论压力，显示了他对球队定位的自信。安德森以 1.16 亿英镑从诺丁汉森林加盟，其言论引发了广泛讨论，而马雷斯卡的支持表明他认可这一观点。多库的缺阵将是曼城的一大损失。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "延迟用餐？这太疯狂了！但阿尔特塔总是能想出一些让人意想不到的方法。"
+              "text": "马雷斯卡公开支持安德森的说法，看来曼城确实想在德比战中证明自己是真正的王者。"
             },
             {
-              "who": "教练评论员",
-              "text": "这种策略虽然极端，但在关键时刻确实能帮助球员保持最佳状态。"
+              "who": "足球分析师",
+              "text": "多库因伤缺阵对曼城的攻击端影响不小，马雷斯卡需要在战术上做出调整来应对这场关键德比战。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "波切蒂诺向美国队发表“不同”誓言引发外界猜测",
-          "eng": "Pochettino's 'different' vow to the US invites unwelcome speculation",
-          "summary": "波切蒂诺表示希望在美国队找到像热刺那样爱他的人，引发关于他未来去向的讨论。",
-          "source": "Guardian Football",
-          "published": "2026-09-11",
-          "url": "https://www.theguardian.com/football/2026/sep/11/mauricio-pochettino-usmnt-tottenham-europe",
-          "overview": "波切蒂诺在执教美国队期间表达了对热刺的深厚感情，暗示未来可能重返英超。这一表态引发了关于他职业生涯走向的广泛猜测。他的情感表达虽然极端，但反映了教练与俱乐部之间复杂的关系。",
-          "analysis": "这种情感表达虽然极端，但为未来的转会市场增添了变数。波切蒂诺对热刺的感情似乎超越了职业范畴，这可能影响他在国际足坛的发展。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "波切蒂诺还是放不下热刺啊！这种感情真是让人感动又无奈。"
-            },
-            {
-              "who": "教练评论员",
-              "text": "这种表态虽然极端，但在足球世界里并不罕见。情感与职业之间的平衡总是很难把握。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "塞斯科两场比赛打入两球，为曼联带来新威胁",
+          "title_zh": "塞斯科两场比赛梅开二度，为曼联注入新威胁",
           "eng": "Two goals in two games - Sesko gives Man Utd a different threat",
-          "summary": "本杰明·塞斯科回归曼联首发阵容，在两场英超比赛中各入一球。",
+          "summary": "塞斯科连续两场进球后回归曼联首发阵容，时间恰到好处，正好面对周日与曼城的英超对决。",
           "source": "BBC Football",
           "published": "2026-09-10",
           "url": "https://www.bbc.co.uk/sport/football/articles/c770d63d850o?at_medium=RSS&at_campaign=rss",
-          "overview": "塞斯科的回归恰逢其时，他在曼联的首发阵容中展现了出色的状态。这为即将到来的对阵曼城的英超德比增添了新的看点。他的速度和冲击力是曼联锋线的重要补充。",
-          "analysis": "塞斯科的表现有望改变球队的攻击格局，为曼联带来更多的进攻选择。在即将到来的德比战中，他的状态将成为关键因素之一。",
+          "overview": "本杰明·塞斯科在连续两场比赛中各入两球，展现了出色的状态。他及时回归曼联首发阵容，为球队在面对曼城德比战时提供了不同的进攻威胁。",
+          "analysis": "塞斯科的爆发为曼联锋线带来了急需的变化，尤其是在面对防守严密的对手时。他的回归不仅提升了球队的进攻效率，也为马雷斯卡在战术选择上提供了更多可能性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "塞斯科回来了！两场比赛两球，这太棒了！德比战我们有信心了。"
+              "text": "塞斯科的状态太好了，连续两场进球，德比战前能回到首发，曼联的锋线终于有了新希望。"
             },
             {
-              "who": "教练评论员",
-              "text": "塞斯科的速度和冲击力是曼联锋线的重要补充，他的表现有望改变球队的攻击格局。"
+              "who": "足球评论员",
+              "text": "面对曼城这样的对手，塞斯科的速度和冲击力是打破僵局的关键武器，他的回归对曼联至关重要。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "霍尔与纽卡斯尔续约至2031年",
+          "title_zh": "霍尔与纽卡斯尔续约至 2031 年",
           "eng": "Hall signs new contract with Newcastle until 2031",
-          "summary": "纽卡斯尔后卫霍尔与俱乐部签下新合同，有效期至2031年。",
+          "summary": "纽卡斯尔联后卫霍尔与俱乐部签下新合同，有效期至 2031 年。",
           "source": "BBC Football",
           "published": "2026-09-11",
           "url": "https://www.bbc.co.uk/sport/football/articles/ce9e3d5exp8o?at_medium=RSS&at_campaign=rss",
-          "overview": "霍尔的续约表明纽卡斯尔对这位后卫的信任，合同长期锁定有助于球队未来的稳定性。在转会市场上，核心球员的留队消息总是能提振球迷信心。",
-          "analysis": "霍尔的续约是纽卡稳定军心的重要一步，也为球队的未来规划提供了保障。这种长期合同通常意味着俱乐部对该球员的高度信任。",
+          "overview": "纽卡斯尔联后卫霍尔与俱乐部达成续约协议，新合同将持续至 2031 年。这一消息表明俱乐部对霍尔的信任和未来规划。",
+          "analysis": "霍尔的长期留任意味着纽卡斯尔在防线上的稳定性得到了保障，这对于球队在英超和欧冠双线作战中至关重要。俱乐部的续约策略显示了对核心球员价值的认可。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "霍尔续约到2031年！太棒了！纽卡的防线终于稳定了。"
+              "text": "霍尔续约到 2031 年，纽卡斯尔的防线终于稳定了，这对球队的未来发展是个好消息。"
             },
             {
-              "who": "教练评论员",
-              "text": "这种长期合同通常意味着俱乐部对该球员的高度信任，对球队的未来规划提供了保障。"
+              "who": "体育记者",
+              "text": "长期合同意味着霍尔将成为纽卡斯尔的核心球员，他的表现将直接影响球队在英超和欧冠中的竞争力。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德里世锦赛面临猴鸽入侵挑战",
+          "title_zh": "利兹联希望法尔克长期留任",
+          "eng": "Leeds want boss Farke to stay 'long-term'",
+          "summary": "利兹联执行董事埃文斯表示，俱乐部和管理层丹尼尔·法尔克“在同一页面上”，正寻求达成新合同。",
+          "source": "BBC Football",
+          "published": "2026-09-11",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cd08728rz0xo?at_medium=RSS&at_campaign=rss",
+          "overview": "利兹联执行董事埃文斯透露，俱乐部和管理层丹尼尔·法尔克“在同一页面上”，正寻求达成新合同。这表明双方都希望法尔克长期留任。",
+          "analysis": "法尔克的去留是利兹联未来发展的关键。如果续约成功，球队将继续保持战术稳定性和阵容连续性，这对于在英超中竞争至关重要。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "法尔克如果能长期留任，利兹联的战术体系将更加稳定，这对球队的未来发展是个好消息。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "俱乐部和管理层的共识表明他们希望保持现状，法尔克的续约将有助于球队在英超中建立更稳固的基础。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "阿尔特塔揭示阿森纳“延迟用餐”等非常规备战方法",
+          "eng": "'Delay the meals': Mikel Arteta reveals latest maverick Arsenal methods",
+          "summary": "阿尔特塔透露了包括延迟用餐和让更衣室更热在内的挑战，以确保球员充分准备。阿森纳飞往意大利的航班延误超过五小时。",
+          "source": "Guardian Football",
+          "published": "2026-09-11",
+          "url": "https://www.theguardian.com/football/2026/sep/11/mikel-arteta-maverick-arsenal-methods-player-challenges-delayed-meals",
+          "overview": "阿森纳主帅阿尔特塔透露了他的一些非常规备战方法，包括延迟球员用餐和让更衣室更热。这些方法旨在确保球员在比赛中做好充分准备。此外，阿森纳飞往意大利的航班延误超过五小时，导致赛前新闻发布会被取消。",
+          "analysis": "阿尔特塔的战术创新和管理风格一直是英超焦点。面对欧冠首战对阵那不勒斯的挑战，他的备战策略显示了球队对胜利的渴望和决心。航班的延误也给球队带来了额外的压力。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "阿尔特塔的这些方法真是让人意外，延迟用餐和热更衣室，看来阿森纳在备战上真的下了功夫。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "面对那不勒斯这样的强敌，阿尔特塔的非常规备战方法显示了球队对欧冠首战的重视程度。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德里世锦赛面临猴鸽入侵难题",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "此前赛事曾出现野生动物闯入引发关注，本届世界锦标赛组委会正采取额外措施防止干扰。",
+          "summary": "组织者将采取额外措施应对野生动物干扰。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的赛事中，野生动物闯入曾引发媒体关注，本届羽毛球世界锦标赛组委会已针对这一问题采取特别措施。这反映出顶级赛事在户外举办时面临的生态与安保双重挑战。",
-          "analysis": "随着赛事级别提升，场地周边的动物管控成为不可忽视的后勤难题，主办方需平衡生态保护与比赛秩序。",
+          "overview": "此前赛事曾出现野生动物闯入引发广泛关注，本届世锦赛组织者已宣布采取额外措施应对这一挑战。作为顶级羽毛球赛事，确保赛场环境安全有序对提升观赛体验至关重要。此外，相关报道也引发了公众对大型活动生态保护的讨论。",
+          "analysis": "非传统因素对顶级赛事组织构成挑战，可能影响现场观赛体验及运动员专注度。同时，这也反映了大型体育赛事在生态安全方面面临的普遍难题。",
           "social": [
             {
-              "who": "资深球迷/组织者",
-              "text": "顶级赛事在户外举办确实棘手，希望组委会能彻底解决野生动物干扰问题，保证观众体验。"
+              "who": "资深球迷",
+              "text": "野生动物干扰确实令人头疼，希望安保措施能有效保障比赛顺利进行。"
+            },
+            {
+              "who": "赛事组织者",
+              "text": "我们将采取一切必要手段确保赛场环境安全有序。"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "旧金山49人27-7大胜洛杉矶公羊，墨尔本MCG万人空巷",
-          "eng": "More than 100,000 watch 49ers shock Rams in Melbourne",
-          "summary": "NFL常规赛在澳大利亚墨尔本板球场举行，超过10万名球迷现场观战。旧金山49人队以27-7的比分大胜超级碗热门球队洛杉矶公羊队，展现了统治级表现。",
-          "source": "BBC Sport",
-          "published": "2026-09-11",
-          "url": "https://www.bbc.co.uk/sport/american-football/articles/cvgyq36rvxvo?at_medium=RSS&at_campaign=rss",
-          "overview": "NFL常规赛首次登陆澳大利亚墨尔本板球场（MCG），吸引了超过10万名球迷到场观战，创下该场馆非澳式运动赛事的纪录。旧金山49人队以27-7的比分完胜超级碗热门球队洛杉矶公羊队，比赛从上午9点开始，现场氛围热烈。Guardian报道称球迷穿着32支NFL球队的各色球衣，啤酒成为周五早上的主打饮品，与AFL和板球赛事的氛围截然不同。",
-          "analysis": "NFL进军澳大利亚是体育全球化的一大里程碑，10万人的上座率证明了美国职业橄榄球的国际吸引力。49人队作为卫冕冠军级别的球队，在客场轻松碾压公羊队，也验证了他们的争冠实力。不过凌晨开球对球员体能和球迷体验都是考验。",
+          "title_zh": "\"生命线\"乒乓球场馆临时重新开放",
+          "eng": "'Lifeline' ping pong venue temporarily re-opened",
+          "summary": "BBC报道，名为\"生命线\"（Lifeline）的社区乒乓球场地已暂时恢复运营，使用者形容这如同将精神家园归还。",
+          "source": "BBC Table Tennis",
+          "published": "2026-08-10",
+          "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
+          "overview": "该社区乒乓球场地此前曾暂停开放，现暂时恢复运营。使用者反馈称该场所具有类似精神家园的意义，反映了乒乓球在社区健康和精神支持方面的独特价值。",
+          "analysis": "社区体育设施的临时开放往往能迅速提振当地居民的运动热情，也侧面印证了乒乓球在公共健康体系中的角色日益重要。",
           "social": [
             {
-              "who": "资深NFL球迷",
-              "text": "10万人看橄榄球比赛？这在澳大利亚是史无前例的。49人队客场碾压公羊，NFL的国际版图又扩大了一大步。"
-            },
-            {
-              "who": "体育记者",
-              "text": "墨尔本MCG承办NFL常规赛是一个大胆的商业决策，10万人的上座率证明了这个赌注是对的。但凌晨开球的时间安排值得商榷。"
+              "who": "资深球迷",
+              "text": "看到社区场馆重新开放总是令人振奋的消息，这对基层乒乓球生态至关重要。"
             }
           ],
-          "region": "综合"
+          "region": "乒乓球"
         },
         {
-          "title_zh": "莱巴金娜逆转高芙晋级美网女单决赛，将与萨巴伦卡争冠",
+          "title_zh": "里巴金娜逆转高芙晋级美网决赛，将与萨巴伦卡争冠",
           "eng": "Elena Rybakina rallies to beat Coco Gauff and book US Open final with Aryna Sabalenka",
-          "summary": "世界第二种子、哈萨克斯坦选手莱巴金娜在先丢一盘的情况下逆转击败美国新星高芙（3-6, 6-4, 6-4），晋级美网女单决赛。决赛对手将是首轮即横扫佩古拉的世界第一萨巴伦卡，两位世界第一将在决赛中对决。",
+          "summary": "世界第二种子、哈萨克斯坦选手埃琳娜·里巴金娜在先丢一盘的情况下连扳两盘逆转击败美国新星可可·高芙。她将在美网决赛中对阵头号种子阿丽娜·萨巴伦卡，这场被寄予厚望的决赛将争夺冠军头衔。",
           "source": "Guardian Sport",
           "published": "2026-09-11",
           "url": "https://www.theguardian.com/sport/2026/sep/11/elena-rybakina-beats-coco-gauff-us-open-womens-semi-final",
-          "overview": "美网女单半决赛在Arthur Ashe Stadium进行，2.2万名观众见证了莱巴金娜的逆转好戏。高芙在先拿一盘后一度占据主动，但莱巴金娜凭借出色的发球和底线稳定性连扳两盘完成翻盘。决赛将是世界第一萨巴伦卡对阵世界第二莱巴金娜，两位顶级选手的对决备受期待。",
-          "analysis": "莱巴金娜的逆转展现了她的心理韧性和大场面能力，她在2024年美网夺冠后一直是大赛冠军的有力竞争者。高芙虽然年轻有天赋，但在关键分处理上还需提升。萨巴伦卡作为卫冕冠军和世界第一，如果顺利晋级决赛将证明自己的统治力。",
+          "overview": "在纽约阿瑟·阿什球场举行的美国网球公开赛女子半决赛中，里巴金娜展现了惊人的韧性。尽管高芙在第一盘统治了比赛，但里巴金娜凭借强大的发球和底线进攻连扳两盘（3-6, 6-4, 6-4）。这是萨巴伦卡连续第二年进入美网决赛，而里巴金娜则首次闯入大满贯女单决赛。",
+          "analysis": "这场逆转凸显了高芙在关键分上的心理波动，同时也证明了里巴金娜作为世界第二的实力深度。萨巴伦卡若能延续去年夺冠势头，有望再次捧杯；而里巴金娜若能突破心理关隘，将创造历史。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "莱巴金娜太棒了！先丢一盘还能连扳两盘逆转，这就是大赛冠军的素质。决赛对阵萨巴伦卡更是看点十足。"
+              "text": "高芙第一盘的表现确实惊艳，但第二盘的崩盘让人惋惜。里巴金娜的逆转才是今天真正的看点。"
             },
             {
-              "who": "网球解说员",
-              "text": "高芙的第一盘表现确实惊艳，但莱巴金娜的发球和底线稳定性在关键时刻更可靠。这场逆转是美网女线的经典剧本。"
+              "who": "网球评论员",
+              "text": "萨巴伦卡连续两年决赛，她的稳定性令人印象深刻。这场决赛将是两位顶级选手的直接对话。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "美网半决赛深夜激战：谢尔顿与兹维列夫面临体能挑战",
-          "eng": "Bed at 6:45am - US Open semi-finalists fight effects of late-night finishes",
-          "summary": "纽约作为不夜城，美网半决赛的深夜开球对参赛选手造成了严重影响。男子半决赛季军谢尔顿和兹维列夫都面临凌晨起床参赛的体能挑战。",
+          "title_zh": "哈里森与斯基普斯基携手闯入美网男双决赛",
+          "eng": "Harrison & GB's Skupski into US Open men's doubles final",
+          "summary": "英国选手尼尔·斯基普斯基与美国搭档克里斯蒂安·哈里森在击败头号种子亨利·帕滕和哈里·赫利奥瓦拉后，成功晋级美国网球公开赛男子双打决赛。这对组合展现了出色的竞技状态。",
           "source": "BBC Sport",
           "published": "2026-09-11",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/crk3jjp2l35o?at_medium=RSS&at_campaign=rss",
-          "overview": "美网半决赛因深夜开球而推迟到凌晨进行，参赛选手需要在6:45am起床准备比赛。男子半决赛季军谢尔顿和兹维列夫都受到了这种作息安排的影响。Guardian的报道指出第一场比赛直到晚上11:05才开始，对球员的体能恢复提出了严峻考验。",
-          "analysis": "美网深夜开球是网球大满贯赛事的一个独特传统，但也引发了关于球员健康和比赛质量的讨论。五盘制在深夜进行后又在凌晨继续，对选手的生理节律影响很大。这是否应该改革赛程安排值得思考。",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr7d009pp9lo",
+          "overview": "在男子双打半决赛中，哈里森和斯基普斯基面对头号种子组合帕滕/赫利奥瓦拉。尽管对手实力强劲，但这对非种子选手凭借默契的配合和顽强的防守成功逆转晋级。这是英国网球在国际赛场上的又一重要突破。",
+          "analysis": "斯基普斯基作为经验丰富的老将，与哈里森的搭档展现了极高的战术素养。这场决赛将是对他们团队配合的终极考验，也是英国网球双打实力的有力证明。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "美网的深夜开球太折磨人了！球员和观众都要承受巨大的时差压力。希望赛事组织方能考虑调整赛程。"
+              "who": "英国球迷",
+              "text": "太棒了！斯基普斯基再次证明了他是顶级双打选手，为英国赢得了荣誉。"
             },
             {
-              "who": "体育评论员",
-              "text": "凌晨6:45起床打网球？这对选手的体能恢复是巨大考验。五盘制加深夜开球，比赛质量可能受到影响。"
+              "who": "网球分析师",
+              "text": "非种子选手闯入决赛总是令人兴奋，这对组合的化学反应在半决赛中得到了充分展现。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "索尔海姆杯高尔夫首日战平：欧洲与美国各取两分",
-          "eng": "Solheim Cup golf 2026: Europe 2-2 USA after day one foursomes – live",
-          "summary": "2026年索尔海姆杯高尔夫赛事在比利时Bernardus Golf球场举行，首日四人四球赛结束后欧洲与美国战成2-2平。李·阿尔逊和科尔特兹·马德森为欧洲队贡献关键分数。",
-          "source": "Guardian Sport",
+          "title_zh": "英国轮椅网球组合赫维特与里德闯入美网男双决赛",
+          "eng": "British duo Hewett & Reid into US Open men's wheelchair doubles final",
+          "summary": "英国轮椅网球双人组阿尔菲·赫维特和戈登·里德在先丢一盘的不利局面下顽强逆转，成功晋级美国网球公开赛男子轮椅双打决赛。这是他们职业生涯的重要里程碑。",
+          "source": "BBC Sport",
           "published": "2026-09-11",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/11/solheim-cup-golf-2026-day-one-live",
-          "overview": "索尔海姆杯是女子高尔夫最重要的团体赛事，2026年首届比赛在比利时Bernardus Golf球场举行。首日四人四球赛结束后，欧洲队与美国队战成2-2平。李·阿尔逊的推杆未进、科尔特兹·马德森稳定发挥为欧洲队贡献分数，而美国的科达和沃德也各有表现。",
-          "analysis": "索尔海姆杯首次在欧洲举办具有里程碑意义，首日战平说明两队实力接近。美国队的科达作为顶级球员表现稳定，但欧洲队在关键推杆上稍显遗憾。后续比赛将决定最终胜负走向。",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/czezw6xy782o",
+          "overview": "在男子轮椅双打半决赛中，赫维特和里德面对强劲对手。尽管在第一盘落后，但他们凭借出色的体能和战术调整连扳两盘（具体比分未提及），成功晋级决赛。这对英国组合展现了轮椅网球的高水平竞技状态。",
+          "analysis": "轮椅网球近年来发展迅速，吸引了更多关注。赫维特和里德的逆转胜利不仅是个人的荣耀，也代表了英国在残奥体育领域的持续进步。",
           "social": [
             {
-              "who": "高尔夫爱好者",
-              "text": "索尔海姆杯终于来了！首日战平说明两队实力相当，后面的比赛会更精彩。"
+              "who": "残奥运动爱好者",
+              "text": "他们的精神令人敬佩！在先丢一盘的情况下逆转，展现了真正的竞技体育魅力。"
             },
             {
               "who": "体育记者",
-              "text": "比利时Bernardus Golf球场承办索尔海姆杯是欧洲高尔夫的重大时刻。首日战平为后续比赛留下了悬念。"
+              "text": "轮椅网球正在成为大满贯赛事中不可或缺的一部分，这对组合是其中的佼佼者。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "英超周末看点：切尔西三将领跑射手榜，曼联德比第199次上演",
-          "eng": "Premier League: 10 things to look out for this weekend",
-          "summary": "BBC Sport足球专家克里斯·萨顿与多尔金流浪者队经理马克·怀特展开预测对决。切尔西三将摩根·罗杰斯、若昂·佩德罗和科尔·帕尔默以10个进球领跑射手榜，曼联德比将在老特拉福德第199次上演。",
+          "title_zh": "索尔海姆杯高尔夫：欧洲与美国首战平手，赛事进入白热化",
+          "eng": "Solheim Cup golf 2026: Europe v USA finely poised as day one fourballs begin – live",
+          "summary": "第39届索尔海姆杯高尔夫球赛于今日拉开帷幕，在欧洲与美国的较量中，前两场四球赛打成平手。美国队由内莉·科达等球星领衔发起反击，而欧洲方面则由阿利森·李和南娜·科尔茨·马德森等人坚守阵地。",
           "source": "Guardian Sport",
-          "published": "2026-09-10",
-          "url": "https://www.theguardian.com/football/2026/sep/11/premier-league-10-things-to-look-out-for-this-weekend",
-          "overview": "英超新赛季开局阶段，切尔西的三前锋组合摩根·罗杰斯、若昂·佩德罗和科尔·帕尔默以10个进球领跑射手榜，展现了强大的攻击力。本周六的比赛包括尼古拉斯·杰克逊的亮相、热刺的调整以及第199次曼联德比在老特拉福德上演。BBC Sport专家萨顿与多尔金流浪者队经理怀特展开预测对决。",
-          "analysis": "切尔西三前锋的组合是本赛季英超最具威胁的攻击线之一，他们的进球效率令人印象深刻。曼联德比的第199次上演也值得关注，两队之间的竞争一直是英超最激烈的对抗之一。热刺的阵容调整也将影响他们在赛季中的表现。",
+          "published": "2026-09-11",
+          "url": "https://www.theguardian.com/sport/live/2026/sep/11/solheim-cup-golf-2026-day-one-live",
+          "overview": "索尔海姆杯是女子高尔夫界最重要的团体赛事之一。首日比赛在荷兰的伯纳杜斯高尔夫球场举行，前两场四球赛双方打成平手。美国队凭借科达等球星的表现试图打破僵局，而欧洲方面则依靠李和马德森的稳定发挥保持竞争力。",
+          "analysis": "索尔海姆杯的竞争往往在最后几洞才见分晓。首日平手的开局预示着这将是一场胶着激烈的赛事，任何一方的失误都可能改变最终格局。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "切尔西三前锋太猛了！10个进球领跑射手榜，这个攻击线是本赛季英超最强的。曼联德比也值得期待。"
+              "who": "高尔夫爱好者",
+              "text": "科达的表现一如既往地出色，但欧洲选手的韧性也不容小觑。"
             },
             {
-              "who": "足球评论员",
-              "text": "萨顿的预测对决总是很有趣。切尔西的攻击力确实是本赛季英超的焦点之一，但防守端的表现还需要观察。"
+              "who": "体育评论员",
+              "text": "索尔海姆杯的魅力在于团队作战，个人英雄主义在这里行不通。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "纽卡斯尔联后卫霍尔签下新合同至2031年",
-          "eng": "Hall signs new contract with Newcastle until 2031",
-          "summary": "纽卡斯尔联队后卫路易斯·霍尔与俱乐部续签新合同，合同有效期至2031年。这一消息由BBC Sport报道。",
+          "title_zh": "奈杰尔·本恩无法离开儿子，备战对阵里安·加西亚",
+          "eng": "Why Nigel Benn can't walk away from Conor",
+          "summary": "前世界冠军奈杰尔·本恩曾发誓让儿子康诺独立发展，但在击败克里斯·尤班克 Jr.之后，他再次出现在儿子身边。本周他们将为即将到来的 WBC 次中量级冠军赛做准备，对手是里安·加西亚。",
           "source": "BBC Sport",
           "published": "2026-09-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ce9e3d5exp8o?at_medium=RSS&at_campaign=rss",
-          "overview": "纽卡斯尔联队后卫路易斯·霍尔与俱乐部达成新合同协议，合同将持续到2031年。这一消息由BBC Sport在2026年9月11日报道。",
-          "analysis": "霍尔的新合同表明纽卡斯尔联对他的高度信任，也反映了他在球队防守体系中的重要性。长期合同的签署有助于稳定阵容，为俱乐部的未来规划提供保障。",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/ced7vw99lweo",
+          "overview": "奈杰尔·本恩在击败尤班克 Jr.后，与儿子康诺的关系发生了微妙变化。尽管他曾表示要让康诺走自己的路，但在备战即将到来的 WBC 次中量级冠军赛时，他再次出现在儿子身边提供支持。这场比赛将是父子俩共同面对的挑战。",
+          "analysis": "拳击界的名人效应和家族传承一直是热门话题。奈杰尔·本恩的回归不仅是为了支持儿子，也是为了延续自己的传奇地位。这场对决将是对康诺实力的终极检验。",
           "social": [
             {
-              "who": "纽卡球迷",
-              "text": "霍尔续约到2031年！这是好消息，希望他能继续为球队效力。"
+              "who": "拳击迷",
+              "text": "父子联手备战，这本身就是最大的看点之一。康诺能超越父亲吗？"
             },
             {
-              "who": "足球记者",
-              "text": "霍尔的新合同显示纽卡斯尔联对他的信任。长期合约有助于稳定阵容，为俱乐部的未来规划提供保障。"
+              "who": "体育记者",
+              "text": "奈杰尔·本恩的回归为这场比赛增添了更多戏剧性，观众将拭目以待。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "世界田联终极锦标赛开幕：1000万美元奖金池亮相",
+          "title_zh": "波切蒂诺对美国的“不同”承诺引发外界猜测",
+          "eng": "Pochettino's 'different' vow to the US invites unwelcome speculation",
+          "summary": "前热刺主帅毛里西奥·波切蒂诺表示他对美国国家队的工作有着不同的愿景，这一表态引发了关于他是否可能重返俱乐部执教的不必要猜测。随着世界杯周期的开始，他与国际足联的关系正在发生变化。",
+          "source": "Guardian Sport",
+          "published": "2026-09-11",
+          "url": "https://www.theguardian.com/football/2026/sep/11/mauricio-pochettino-usmnt-tottenham-europe",
+          "overview": "波切蒂诺在采访中表示他对美国国家队的工作有着独特的愿景，这一言论迅速引发了外界对他未来动向的猜测。尽管他目前是美国队的主教练，但热刺球迷和媒体对他的情感依然深厚。随着世界杯周期的开始，他的角色和定位正在经历重要转变。",
+          "analysis": "波切蒂诺的情感与职业选择之间的冲突一直是足球界的话题。他对美国队的承诺是否会影响他在俱乐部的未来？这将是未来一段时间内关注的焦点。",
+          "social": [
+            {
+              "who": "热刺球迷",
+              "text": "希望他能回到热刺，但理解他对美国队的投入。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "波切蒂诺的言论为外界留下了太多想象空间，这可能会影响他的执教生涯。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "墨尔本万人空巷迎接NFL，10万球迷涌入莫加德尔球场",
+          "eng": "Crowd of 100,000 laps up relentless sensory experience as NFL woos Melbourne | Jack Snape",
+          "summary": "美国国家橄榄球联盟（NFL）在澳大利亚墨尔本的推广活动取得了巨大成功，超过10万名球迷齐聚莫加德尔球场观看比赛。现场气氛热烈，球迷们身着各队球衣，享受着前所未有的体育体验。",
+          "source": "Guardian Sport",
+          "published": "2026-09-11",
+          "url": "https://www.theguardian.com/sport/2026/sep/11/nfl-melbourne-mcg-fans-crowds-score-rams-49ers",
+          "overview": "NFL 在墨尔本的推广活动吸引了超过10万名球迷，这是该联盟在海外市场的重大突破。比赛于周五上午9点开始，球迷们身着旧金山49人队和洛杉矶公羊队的球衣，现场气氛热烈非凡。这一事件标志着 NFL 在全球化进程中的又一重要里程碑。",
+          "analysis": "NFL 在澳大利亚的成功不仅反映了该运动的全球吸引力，也展示了体育产业跨国合作的可能性。墨尔本球迷的热情为 NFL 的海外扩张提供了有力支持。",
+          "social": [
+            {
+              "who": "橄榄球爱好者",
+              "text": "10万人的现场氛围太震撼了！NFL 在澳大利亚的未来充满希望。"
+            },
+            {
+              "who": "体育产业分析师",
+              "text": "这一事件证明了 NFL 在全球市场的巨大潜力，值得其他联盟借鉴。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "首届世界田径终极锦标赛开锣，奖金池达千万美元",
           "eng": "$10m on line at inaugural Ultimate Championship",
-          "summary": "首届世界田联终极锦标赛于周五开幕，总奖金池达1000万美元。BBC Sport详细报道了全球顶尖运动员的参赛情况和赛事运作方式。",
+          "summary": "世界田径协会举办的首届终极锦标赛（Ultimate Championship）于周五正式开赛，总奖金高达1000万美元。来自全球各地的顶尖运动员将参加这项全新的赛事，吸引了大量关注。",
           "source": "BBC Sport",
           "published": "2026-09-11",
-          "url": "https://www.bbc.co.uk/sport/athletics/articles/c8enzz036leo?at_medium=RSS&at_campaign=rss",
-          "overview": "首届世界田联终极锦标赛（Ultimate Championship）于2026年9月11日开幕，总奖金池达1000万美元。BBC Sport详细报道了全球顶尖田径运动员的参赛情况和赛事运作方式。这一新赛事旨在为田径项目带来新的商业活力和观众吸引力。",
-          "analysis": "1000万美元的奖金池在田径界是前所未有的规模，显示了世界田联对这项运动的重视程度。首届赛事的举办将为后续发展奠定基础，但能否吸引足够的关注和参与仍需观察。",
+          "url": "https://www.bbc.co.uk/sport/athletics/articles/c8enzz036leo",
+          "overview": "世界田径协会推出的首届终极锦标赛是田径运动的一项重大创新。赛事总奖金高达1000万美元，吸引了来自全球各地的顶尖运动员参加。这项新赛事旨在为田径项目注入新的活力和关注度，同时也为运动员提供了更多的竞技平台。",
+          "analysis": "终极锦标赛的推出反映了世界田径协会对传统赛事模式的反思和创新尝试。高额奖金将吸引更多观众和赞助商，有望推动田径运动的全球化发展。",
           "social": [
             {
               "who": "田径爱好者",
-              "text": "1000万美元奖金池！这是田径界前所未有的规模。希望首届赛事能取得成功。"
+              "text": "1000万美元的奖金太诱人了！这项新赛事将为田径运动带来新的活力。"
             },
             {
               "who": "体育评论员",
-              "text": "世界田联终极锦标赛的诞生是田径运动商业化的重要一步。但首届赛事能否吸引足够的关注和参与仍需观察。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "美网男双决赛：哈里森与斯基普斯克击败头号种子晋级",
-          "eng": "Harrison & GB's Skupski into US Open men's doubles final",
-          "summary": "英国选手尼尔·斯基普斯克与美国选手克里斯蒂安·哈里森在美网男双决赛中击败了头号种子亨里·帕滕和哈里·赫利奥瓦拉。这是英国组合在顶级赛事中的重要突破。",
-          "source": "BBC Tennis",
-          "published": "2026-09-11",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr7d009pp9lo?at_medium=RSS&at_campaign=rss",
-          "overview": "美网男双决赛中，英国选手尼尔·斯基普斯克与美国选手克里斯蒂安·哈里森击败了头号种子组合亨里·帕滕和哈里·赫利奥瓦拉，成功晋级决赛。这是英国组合在顶级赛事中的重要突破，展现了他们在双打领域的实力。",
-          "analysis": "哈里森与斯基普斯克的胜利打破了头号种子的垄断，显示了美网男双竞争的激烈程度。作为英国选手，他们的表现也为国家荣誉增添了光彩。决赛中他们将面对强劲的对手，挑战将十分艰巨。",
-          "social": [
-            {
-              "who": "网球爱好者",
-              "text": "哈里森和斯基普斯克太棒了！击败头号种子晋级决赛，这是英国组合的重要突破。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "美网男双的竞争越来越激烈了。哈里森与斯基普斯克的胜利打破了种子的垄断，决赛中他们将面临巨大挑战。"
+              "text": "世界田径协会的创新精神令人钦佩，希望这项赛事能持续发展下去。"
             }
           ],
           "region": "综合"
@@ -2219,52 +2238,60 @@
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
+          "name": "Daphne Koller",
+          "role": "AI for Education 创始人/图书馆 OER 倡议推动者",
           "region": "美国",
-          "domain": "ai",
-          "recent": "关注 AI 安全研究及中国实验室模型蒸馏攻击活动的监测与披露。",
-          "url": "https://www.anthropic.com/leadership/dario-amodei"
-        },
-        {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 OpenAI 规模化策略及因外部需求调整 Pro 订阅注册等商业运营方向。",
-          "url": "https://openai.com/sam-altman"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主理人/AI 访谈者",
-          "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "深度对话 AI Agent 技术演进与科技行业前沿动态。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "Karen Coyle",
-          "role": "ACRL 图书馆与信息素养专家/播客主理人",
-          "region": "美国",
-          "domain": "podcast/library",
-          "recent": "推动 ACRL 框架下算法素养教育与信息素养教学创新实践。",
-          "url": "https://www.karencoyle.info"
-        },
-        {
-          "name": "刘炜",
-          "role": "中国图书馆学会会长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "主导智慧图书馆建设推广及全民阅读论坛等全国性行业活动组织。",
+          "domain": "ai/library",
+          "recent": "聚焦 AI 辅助教育资源的开放获取与图书馆协作创新，倡导馆员与教师共同主导 OER 项目。",
           "url": ""
         },
         {
-          "name": "Katherine McAlpine",
-          "role": "IFLA 馆长",
-          "region": "英国/日内瓦",
+          "name": "Yann LeCun",
+          "role": "AI 研究先驱/纽约大学教授",
+          "region": "法国",
+          "domain": "ai",
+          "recent": "关注 AI 架构级能源供给难题及模型安全治理方向，探讨拒绝话题的正确子集而非整个话题。",
+          "url": ""
+        },
+        {
+          "name": "Joy Buolamwini",
+          "role": "AI 伦理活动家/算法审计专家",
+          "region": "加纳/美国",
+          "domain": "ai",
+          "recent": "持续推动 AI 数据所有权伦理争议与算法偏见消除议题，回应破产公司数据出售引发的恐慌。",
+          "url": ""
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "知名播客主持人/AI 领域深度访谈者",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "探讨长周期任务中子代理技能与可复用知识的执行策略，以及 AI 科学家工作流的进程追踪。",
+          "url": ""
+        },
+        {
+          "name": "Michael Gorman",
+          "role": "图书馆学权威/前美国图书馆协会主席",
+          "region": "英国",
           "domain": "library",
-          "recent": "关注灾后图书馆重建与韧性发展议题，推动全球图书馆恢复标准。",
-          "url": "https://www.ifla.org"
+          "recent": "呼吁图书馆在 GenAI 浪潮与 AI 炒作中坚守公共知识空间的核心价值，推动图书馆设计未来。",
+          "url": ""
+        },
+        {
+          "name": "Danah Boyd",
+          "role": "数字社会研究学者/媒体素养倡导者",
+          "region": "加拿大",
+          "domain": "podcast/library",
+          "recent": "主张媒体素养教育应超越意志力，转向更深层的数字社会认知方向，应对 AI 个性化带来的挑战。",
+          "url": ""
+        },
+        {
+          "name": "赵红",
+          "role": "中国图书馆学会代表/智慧图书馆建设推动者",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动智慧图书馆建设与推广，举办全国馆社共荐优质书目及中俄图书馆论坛等国际合作行动。",
+          "url": ""
         }
       ]
     },
