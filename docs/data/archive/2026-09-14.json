@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-14T11:17:02+08:00",
+  "generated_at": "2026-09-14T12:32:44+08:00",
   "date": "2026-09-14",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-14 10:43",
     "ai": "2026-09-14 08:22",
     "voices": "2026-09-14 09:14",
-    "github": "2026-09-14 11:17",
-    "libraries": "2026-09-14 11:17",
+    "github": "2026-09-14 12:32",
+    "libraries": "2026-09-14 12:32",
     "sports": "2026-09-14 10:43",
     "academic": "2026-09-14 06:40"
   },
@@ -1761,244 +1761,222 @@
     "github": {
       "items": [
         {
-          "title_zh": "OpenAI 用 Lean 形式化证明纳维-斯托克斯方程",
+          "title_zh": "Navier-Stokes与Euler方程形式化证明",
           "eng": "openai/NavierStokesAndEuler",
-          "summary": "OpenAI 使用 Lean 定理证明器完成了流体力学中纳维-斯托克斯和欧拉方程的关键结果的形式化验证。",
+          "summary": "OpenAI用Lean定理证明器完成流体力学核心方程的形式化数学证明。",
           "source": "GitHub",
-          "stars": 1859,
+          "stars": 1861,
           "lang": "Lean",
           "published": "2026-09-08",
           "url": "https://github.com/openai/NavierStokesAndEuler",
-          "overview": "该项目由 OpenAI 团队主导，利用 Lean 证明助手完成了流体力学核心方程的形式化证明。这是 AI 辅助数学研究的重要里程碑，展示了大模型在复杂定理验证中的潜力。证书文件可直接被数学社区引用和审查。",
-          "analysis": "标志着 AI 从代码生成向形式化数学证明的跨越，对学术界和 AI 安全领域均有深远影响。Lean 语言的严谨性确保了结果的可靠性。",
+          "overview": "该项目使用Lean定理证明器对纳维-斯托克斯方程和欧拉方程的关键数学结果进行了形式化验证，附带完整的Lean证书。这是OpenAI在数学基础研究领域的里程碑式尝试，展示了AI辅助数学证明的可行性。",
+          "analysis": "作为OpenAI官方项目且星标近2000，代表了AI+基础科学交叉领域的前沿探索。对数学家、物理学家和定理证明研究者具有重要参考价值。",
           "social": [
-            {
-              "who": "数学家/研究者",
-              "text": "形式化验证是数学界的圣杯，OpenAI 用 Lean 做到了这一点令人振奋。"
-            },
             {
               "who": "开发者",
-              "text": "Lean 生态的 AI 集成正在改变我们证明定理的方式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Edge0 AI 框架",
-          "eng": "Edge0-AI/Edge0",
-          "summary": "Edge0 是一个新兴的 AI 项目，旨在提供高效的边缘计算或推理能力。",
-          "source": "GitHub",
-          "stars": 1612,
-          "lang": "Python",
-          "published": "2026-09-08",
-          "url": "https://github.com/Edge0-AI/Edge0",
-          "overview": "该项目由 Edge0-AI 组织维护，使用 Python 编写。作为高星新项目，它可能涉及边缘 AI 推理、模型部署或特定领域的自动化任务处理。社区关注度极高，表明其在开发者中有广泛需求。",
-          "analysis": "在 AI 框架竞争激烈的市场中，Edge0 的高星数暗示了其在特定垂直领域（如边缘计算）的差异化优势。值得持续跟踪其技术演进。",
-          "social": [
-            {
-              "who": "AI 工程师",
-              "text": "Python 生态下的新 AI 框架总是值得关注，尤其是高星项目。"
+              "text": "Lean生态的重大突破，证明了AI可以参与最严格的数学验证工作。"
             },
             {
               "who": "研究者",
-              "text": "Edge0 的架构设计似乎解决了当前边缘部署的一些痛点。"
+              "text": "流体力学领域首次出现大规模形式化证明，学术价值极高。"
             }
           ]
         },
         {
-          "title_zh": "Anything2Explainer：话题转动画解说视频",
-          "eng": "Vincentwei1021/anything2explainer",
-          "summary": "输入任意主题，自动生成带 TTS 配音、字幕和进度条的黑板风格动画解说视频。",
+          "title_zh": "Edge0 AI框架",
+          "eng": "Edge0-AI/Edge0",
+          "summary": "Edge0组织推出的AI项目，高关注度开源工具。",
           "source": "GitHub",
-          "stars": 1188,
-          "lang": "TypeScript",
-          "published": "2026-09-08",
-          "url": "https://github.com/Vincentwei1021/anything2explainer",
-          "overview": "这是一个基于 Claude Code / Codex 的 AI 技能，利用 Remotion 框架将任何话题转化为黑底动画视频。支持中英文输出，每帧由代码绘制，包含 TTS 语音和字幕。解决了内容创作者制作高质量解说视频的痛点。",
-          "analysis": "将 AI 生成能力与 Remotion 的代码化渲染结合，确保了视频的可控性和一致性。对于教育、科普和内容营销领域极具价值。",
-          "social": [
-            {
-              "who": "内容创作者",
-              "text": "终于可以用代码控制每一帧的动画了，这比纯生成式工具可控得多。"
-            },
-            {
-              "who": "开发者",
-              "text": "Remotion + AI 的组合是视频生成的未来方向。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ItsGiving：会议表情包表达器",
-          "eng": "gazijarin/itsgiving",
-          "summary": "一款在会议中通过发送表情包来幽默表达情绪的工具，让沟通更有趣。",
-          "source": "GitHub",
-          "stars": 816,
+          "stars": 1618,
           "lang": "Python",
           "published": "2026-09-08",
-          "url": "https://github.com/gazijarin/itsgiving",
-          "overview": "该项目旨在解决远程会议中表情传达不足的问题，允许用户通过预设或自定义的 meme 表情包来即时表达感受。Python 实现轻量级，易于集成到各种会议工具中。",
-          "analysis": "虽然看似娱乐向，但反映了远程办公中非语言沟通缺失的真实痛点。作为开源小工具，其设计理念值得推广。",
+          "url": "https://github.com/Edge0-AI/Edge0",
+          "overview": "由Edge0团队开发的高星标Python AI项目，具体功能需查看仓库详情。作为知名AI组织的新项目，社区关注度很高。",
+          "analysis": "Edge0在AI领域有一定影响力，该项目获得1600+星标说明技术方向有市场潜力。适合关注前沿AI工具开发的开发者追踪。",
           "social": [
             {
-              "who": "远程办公者",
-              "text": "开会时终于不用尴尬地打字说‘我无语了’了。"
+              "who": "开发者",
+              "text": "Edge0团队出品，值得关注其后续迭代方向。"
             },
             {
-              "who": "开发者",
-              "text": "轻量级 Python 项目，适合作为会议插件开发灵感。"
+              "who": "研究者",
+              "text": "Python生态的AI新项目，社区讨论热度高。"
             }
           ]
         },
         {
-          "title_zh": "Mac-Duo：MacBook 双屏效果工具",
-          "eng": "sumimakito/Mac-Duo",
-          "summary": "将 iPhone Duo（双屏显示）效果移植到 MacBook，实现分屏展示。",
+          "title_zh": "任意话题生成解说视频",
+          "eng": "Vincentwei1021/anything2explainer",
+          "summary": "将任何主题自动转化为带TTS配音、字幕和章节条的运动图形解说视频。",
           "source": "GitHub",
-          "stars": 802,
+          "stars": 1196,
+          "lang": "TypeScript",
+          "published": "2026-09-08",
+          "url": "https://github.com/github.com/Vincentwei1021/anything2explainer",
+          "overview": "这是一个Claude Code/Codex技能，能将任意话题自动生成为黑底运动图形解说视频，支持中英文配音和字幕。每帧均由代码通过Remotion绘制，无需设计基础。",
+          "analysis": "内容创作者的利器——从文字到完整视频的自动化流程极大降低了制作门槛。开源且可本地运行，适合教育、科普和个人品牌场景。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Remotion+TTS的组合非常巧妙，每帧代码绘制的理念很酷。"
+            },
+            {
+              "who": "内容创作者",
+              "text": "终于有了AI解说视频的一站式方案，中文支持是加分项。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Mac版Duo双屏效果",
+          "eng": "sumimakito/Mac-Duo",
+          "summary": "将iPhone Duo双屏效果移植到MacBook上的本地工具。",
+          "source": "GitHub",
+          "stars": 804,
           "lang": "Swift",
           "published": "2026-09-10",
           "url": "https://github.com/sumimakito/Mac-Duo",
-          "overview": "利用 Swift 开发，该项目让 MacBook 用户能够体验类似 iPhone Duo 的双屏显示效果。这对于需要同时查看两个界面的开发者或演示者非常实用。",
-          "analysis": "苹果生态内的创意工具往往能解决特定场景下的效率问题。Swift 原生实现保证了性能和兼容性。",
+          "overview": "利用macOS原生功能实现类似iPhone Duo的双屏效果，无需额外硬件或云服务。纯本地运行，保护隐私。",
+          "analysis": "Mac用户日常效率工具，Swift实现说明对Apple生态开发者有参考价值。双屏工作流是远程办公的刚需场景。",
           "social": [
             {
-              "who": "Mac 用户",
-              "text": "终于不用买两台显示器了，Duo 效果在 Mac 上也能用。"
+              "who": "开发者",
+              "text": "Swift利用macOS原生API实现，比第三方方案更稳定安全。"
             },
             {
-              "who": "设计师",
-              "text": "演示时双屏展示素材和代码，体验很好。"
+              "who": "研究者",
+              "text": "本地化设计值得肯定，不依赖云端服务保护隐私。"
             }
           ]
         },
         {
-          "title_zh": "Short Video Generator AI：长转短视频工具",
-          "eng": "Colafornia/short-video-generator-AI",
-          "summary": "开源项目，将 YouTube 长视频自动转化为病毒式传播的短视频，包含亮点检测、字幕和配音。",
+          "title_zh": "AI文本人性化改写工具",
+          "eng": "SpaceDudem/text-humanizer",
+          "summary": "将AI生成的文本转换为更像人类撰写的版本，可绕过Turnitin等检测器。",
           "source": "GitHub",
-          "stars": 721,
+          "stars": 735,
+          "lang": "Python",
+          "published": "2026-09-08",
+          "url": "https://github.com/SpaceDudem/text-humanizer",
+          "overview": "开源的AI文本改写项目，旨在将机器生成内容转化为自然人类风格。声称可绕过Turnitin和GPTZero等主流检测工具。",
+          "analysis": "争议性话题但技术实现有参考价值。对需要处理AI辅助写作场景的内容创作者、教育者和学术工作者都有实际意义。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "文本改写是NLP经典问题，开源方案便于二次开发。"
+            },
+            {
+              "who": "研究者",
+              "text": "绕过检测器的思路涉及语言风格迁移，值得深入研究。"
+            }
+          ]
+        },
+        {
+          "title_zh": "YouTube视频转短视频生成器",
+          "eng": "Colafornia/short-video-generator-AI",
+          "summary": "免费开源的YouTube长视频自动提取精华片段并生成病毒式短视频的工具。",
+          "source": "GitHub",
+          "stars": 722,
           "lang": "Python",
           "published": "2026-09-08",
           "url": "https://github.com/Colafornia/short-video-generator-AI",
-          "overview": "该项目集成了亮点检测、自动字幕生成、翻译和语音旁白功能，一站式将长视频转化为适合社交媒体传播的短视频。完全开源免费，降低了内容二次创作的门槛。",
-          "analysis": "在短视频红利期，自动化处理长视频的能力极具商业价值。全栈 Python 实现便于开发者进一步定制。",
+          "overview": "一站式将YouTube视频转换为适合社交媒体的短片段，包含亮点检测、字幕生成、翻译和配音功能。全开源免费使用。",
+          "analysis": "短视频内容创作需求旺盛，该工具自动化了最耗时的环节。对自媒体运营者和内容创作者有直接商业价值。",
           "social": [
             {
-              "who": "自媒体运营者",
-              "text": "这个工具能帮我自动从长视频中提取精华片段，效率提升巨大。"
+              "who": "开发者",
+              "text": "亮点检测和自动剪辑是视频处理领域的难点，这个方案很实用。"
             },
             {
-              "who": "AI 爱好者",
-              "text": "亮点检测 + TTS 的组合是目前短视频自动化最好的开源方案之一。"
+              "who": "内容创作者",
+              "text": "从长视频到短内容的完整流水线，省去了大量手动工作。"
             }
           ]
         },
         {
-          "title_zh": "Viserys Agent：AI Agent 项目",
-          "eng": "rizqinrr/viserys-agent",
-          "summary": "一个名为 Viserys 的 AI Agent 项目，使用 JavaScript 构建。",
-          "source": "GitHub",
-          "stars": 628,
-          "lang": "JavaScript",
-          "published": "2026-09-12",
-          "url": "https://github.com/rizqinrr/viserys-agent",
-          "overview": "该项目以 JavaScript 为核心，构建了一个名为 Viserys 的 AI Agent。虽然具体功能描述较少，但高星数和 Agent 命名表明其在自动化任务执行或智能代理领域有潜力。",
-          "analysis": "在 JavaScript 生态中开发 AI Agent 是一个值得关注的趋势，可能涉及浏览器端自动化或全栈智能应用。建议关注其后续更新以了解核心架构。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "JS 写 Agent 越来越流行了，这个项目值得关注。"
-            },
-            {
-              "who": "AI 研究者",
-              "text": "Agent 框架的多样性很重要，Viserys 可能是个新选择。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Truanayangi：本地化午餐推荐应用",
+          "title_zh": "Truanayangi本地美食推荐",
           "eng": "truanayangi-com/truanayangi",
-          "summary": "“今天中午吃什么”的本地运行应用，无需登录、后端或云服务。",
+          "summary": "「今天中午吃什么」——纯本地运行的自动Cookie存储美食推荐应用。",
           "source": "GitHub",
           "stars": 595,
           "lang": "TypeScript",
           "published": "2026-09-08",
           "url": "https://github.com/truanayangi-com/truanayangi",
-          "overview": "基于 pnpm 本地运行，具备自动 Cookie 存储功能。该应用专注于解决日常生活中的决策问题（午餐选择），强调隐私保护，无需联网即可使用。",
-          "analysis": "在数据隐私日益受重视的背景下，这种完全本地的生活方式工具具有独特的吸引力。TypeScript 实现保证了跨平台兼容性。",
+          "overview": "无需登录、后端或云服务的美食推荐工具，使用pnpm本地运行。自动管理Cookie存储，保护用户隐私。",
+          "analysis": "极简设计但解决了真实痛点——每天吃什么的选择困难症。纯本地运行+无云依赖的理念值得推广。",
           "social": [
             {
-              "who": "隐私倡导者",
-              "text": "不需要登录和后端，这才是真正的本地应用。"
+              "who": "开发者",
+              "text": "TypeScript+pnpm的现代化前端栈，零后端架构很优雅。"
             },
             {
-              "who": "开发者",
-              "text": "自动 Cookie 存储是个不错的功能设计细节。"
+              "who": "研究者",
+              "text": "自动Cookie管理的设计思路可以借鉴到其他隐私优先应用中。"
             }
           ]
         },
         {
-          "title_zh": "公文排版 Skill：GB/T 9704-2012 标准生成器",
+          "title_zh": "中文公文GB/T 9704排版Skill",
           "eng": "mizzlelover/gongwen-gbt9704-skill",
-          "summary": "中文公文排版 AI Skill，按 GB/T 9704-2012 标准生成可编辑 DOCX 文件。",
+          "summary": "按国家标准GB/T 9704-2012生成可编辑DOCX的中文公文排版AI技能。",
           "source": "GitHub",
-          "stars": 582,
+          "stars": 585,
           "lang": "JavaScript",
           "published": "2026-09-09",
           "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
-          "overview": "这是一个专为大模型设计的 Skill，能够严格按照中国国家标准 GB/T 9704-2012 生成可编辑的 DOCX 公文。配套 CEB 工具支持企业内网部署，确保信息安全。",
-          "analysis": "解决了 AI 生成中文公文格式不规范的问题，对政府、国企等需要严格遵循公文格式的机构极具实用价值。",
+          "overview": "专为中文公文写作设计的AI Skill，严格按照GB/T 9704-2012国家标准生成可编辑的DOCX文件。支持本地或企业内网部署大模型后使用。配套CEB工具。",
+          "analysis": "面向中国公务员和企事业单位的专业工具，解决了公文格式合规的核心痛点。国内部署+隐私保护的设计理念非常实用。",
           "social": [
             {
-              "who": "行政人员",
-              "text": "终于有工具能按国标排版公文了，以前手动调格式太痛苦。"
+              "who": "开发者",
+              "text": "GB/T 9704标准实现到位，对中文办公自动化有实际价值。"
             },
             {
-              "who": "AI 开发者",
-              "text": "Skill 形式的部署方式非常适合企业私有化场景。"
+              "who": "研究者",
+              "text": "企业内网部署模式适合敏感文档场景，值得推广。"
             }
           ]
         },
         {
-          "title_zh": "Recurrent Looped Transformer (RLT)",
+          "title_zh": "Recurrent Looped Transformer研究",
           "eng": "yifanzhang-pro/recurrent-looped-tranformer",
-          "summary": "Recurrent Looped Transformer 的官方项目页面，探索循环结构在 Transformer 中的应用。",
+          "summary": "循环回环Transformer(RLT)的官方项目页面，新型序列建模架构。",
           "source": "GitHub",
-          "stars": 556,
+          "stars": 570,
           "lang": "HTML",
           "published": "2026-09-12",
           "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
-          "overview": "该项目展示了 Recurrent Looped Transformer (RLT) 的研究成果。通过引入循环结构，旨在解决传统 Transformer 在处理长序列时的局限性问题。项目页面提供了详细的技术文档和演示。",
-          "analysis": "Transformer 架构的改进一直是 AI 研究热点。RLT 的循环设计可能为长文本处理和时序建模提供新的思路。",
+          "overview": "展示Recurrent Looped Transformer(RLT)的研究项目页面，这是一种创新的Transformer变体架构。RLT结合了循环结构和注意力机制，探索新的序列建模范式。",
+          "analysis": "学术前沿项目，对NLP和深度学习研究者有参考价值。新型架构可能为长序列处理提供新思路。",
           "social": [
             {
-              "who": "AI 研究员",
-              "text": "循环结构融入 Transformer 是一个有趣的方向，值得深入研究。"
+              "who": "开发者",
+              "text": "循环+注意力的混合架构值得关注，可能解决长文本瓶颈。"
             },
             {
-              "who": "学生",
-              "text": "项目页面做得很好，适合学习 Transformer 变体架构。"
+              "who": "研究者",
+              "text": "RLT的官方页面整理得不错，方便后续复现研究。"
             }
           ]
         },
         {
-          "title_zh": "Lunel：Python AI 工具/框架",
-          "eng": "ArasTey/lunel",
-          "summary": "一个名为 Lunel 的 Python 项目，具体功能待进一步探索。",
+          "title_zh": "AI视频学习工具集",
+          "eng": "eternityspring/reelbench-skills",
+          "summary": "AI视频领域的学习笔记与工具技能集合。",
           "source": "GitHub",
-          "stars": 567,
-          "lang": "Python",
-          "published": "2026-09-09",
-          "url": "https://github.com/ArasTey/lunel",
-          "overview": "该项目由 ArasTey 维护，使用 Python 编写。虽然当前摘要信息较少，但高星数表明其在社区中有一定影响力。可能是某个特定领域的 AI 工具或数据处理框架。",
-          "analysis": "作为新兴的 Python 项目，Lunel 的高关注度值得开发者留意。建议关注其后续更新以了解核心功能和适用场景。",
+          "stars": 570,
+          "lang": "HTML",
+          "published": "2026-09-11",
+          "url": "https://github.com/eternityspring/reelbench-skills",
+          "overview": "系统整理AI视频相关学习路径和实用工具的技能集，涵盖从基础概念到高级应用的完整知识体系。以HTML形式呈现便于阅读和分享。",
+          "analysis": "AI视频是当前热门赛道，该技能集为入行者提供了结构化学习路线。对内容创作者和技术学习者都有参考价值。",
           "social": [
             {
-              "who": "Python 开发者",
-              "text": "新出的 Python 项目总是值得关注，看看能不能解决我的问题。"
+              "who": "开发者",
+              "text": "AI视频工具链整理得很系统，适合快速上手。"
             },
             {
-              "who": "技术博主",
-              "text": "Lunel 的潜力很大，期待更多细节披露。"
+              "who": "研究者",
+              "text": "从学习笔记到工具技能的完整覆盖，实用性强。"
             }
           ]
         }
