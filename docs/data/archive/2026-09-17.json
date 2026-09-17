@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:26:27+08:00",
+  "generated_at": "2026-09-17T09:03:13+08:00",
   "date": "2026-09-17",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -10,7 +10,7 @@
     "hot": "2026-09-17 08:26",
     "ai": "2026-09-17 08:26",
     "voices": "2026-09-17 08:26",
-    "github": "2026-09-17 08:26",
+    "github": "2026-09-17 09:03",
     "libraries": "2026-09-17 08:26",
     "sports": "2026-09-17 08:26",
     "academic": "2026-09-17 06:40"
@@ -1829,16 +1829,224 @@
     "github": {
       "items": [
         {
-          "title_zh": "AI 编程助手对话历史提取器",
+          "title_zh": "AI编程助手对话历史提取器",
           "eng": "kruzovic7/ai-data-extractor",
-          "summary": "免费开源的 AI 编码助手聊天历史提取工具，支持 Claude Code、Cursor、Windsurf、Aider 等主流工具。",
+          "summary": "免费开源的AI编码助手聊天历史提取工具，支持Claude Code、Cursor、Windsurf等多个主流平台。",
           "source": "GitHub",
           "stars": 826,
           "lang": "Python",
           "published": "2026-09-11",
           "url": "https://github.com/kruzovic7/ai-data-extractor",
-          "overview": "该工具能从多种 AI 编程助手的对话历史中提取结构化数据，支持 Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code 等多个平台。作为开源项目，它帮助开发者将 AI 辅助编码过程中产生的知识沉淀为可分析的数据集，便于回顾、统计和二次利用。",
-          "analysis": "随着 AI 编程助手在开发流程中占比越来越大，对话历史中的代码模式、调试思路和最佳实践具有极高的复用价值。该工具填补了从"
+          "overview": "该工具能从AI编程助手的对话历史中提取结构化数据，兼容Claude Code、Cursor、Windsurf、Aider、Cline/Roo Code等主流AI编码助手。支持多种输出格式，方便开发者将AI辅助的编码过程进行归档和分析。",
+          "analysis": "随着AI编码助手在开发流程中占比越来越大，提取和整理这些对话历史的需求日益增长。该工具覆盖主流平台，对知识管理和代码审计场景有实际价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "AI编程助手的黑盒数据终于有了开源出口，对复盘和团队知识沉淀很有帮助。"
+            },
+            {
+              "who": "研究者",
+              "text": "多平台支持意味着可以统一分析不同工具的编码模式差异。"
+            }
+          ]
+        },
+        {
+          "title_zh": "个人AI Agent云操作系统",
+          "eng": "agentverse-os/AgentVerse-OS",
+          "summary": "为开发者打造的个人云端操作系统，在单台服务器上运行VS Code、Claude Code等工具及944个自托管应用。",
+          "source": "GitHub",
+          "stars": 680,
+          "lang": "Rust",
+          "published": "2026-09-12",
+          "url": "https://github.com/agentverse-os/AgentVerse-OS",
+          "overview": "基于Rust构建的个人云操作系统，支持一键安装到Ubuntu服务器，提供浏览器端的窗口化桌面环境。内置隔离工作区、VS Code、Claude Code和Codex等开发工具，以及944个自托管应用商店，仅通过Tailscale访问确保安全。",
+          "analysis": "将个人开发环境和AI Agent整合到一个自托管系统中，是本地优先（local-first）理念的典型实践。对注重隐私和数据安全的独立开发者极具吸引力。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "终于可以在自己的服务器上跑全套AI开发工具了，数据完全可控。"
+            },
+            {
+              "who": "安全研究者",
+              "text": "Tailscale隔离+自托管架构很好地解决了远程开发的安全痛点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Recurrent Looped Transformer（RLT）",
+          "eng": "yifanzhang-pro/recurrent-looped-tranformer",
+          "summary": "官方项目页面，介绍循环循环Transformer模型——一种新型AI架构。",
+          "source": "GitHub",
+          "stars": 859,
+          "lang": "HTML",
+          "published": "2026-09-12",
+          "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+          "overview": "RLT是一种创新的Transformer变体，通过循环结构增强模型的长程依赖捕捉能力。项目页面包含技术论文、架构图和实验结果，展示了该模型在序列建模任务上的性能表现。",
+          "analysis": "传统Transformer在处理超长序列时存在瓶颈，RLT的循环设计可能为这一难题提供新解法。高星数表明社区对该方向的高度关注。",
+          "social": [
+            {
+              "who": "AI研究者",
+              "text": "循环结构+注意力机制的组合值得深入研究，对长文本和代码生成场景可能有突破。"
+            },
+            {
+              "who": "开发者",
+              "text": "如果RLT能降低推理成本同时提升序列理解能力，将改变LLM部署格局。"
+            }
+          ]
+        },
+        {
+          "title_zh": "GPT-6 Astra 具身AI与机器人资源汇总",
+          "eng": "zjwzcx/Awesome-Astra-Embodied-AI",
+          "summary": "面向具身智能和机器人的GPT-6级别Astra模型资源合集，涵盖最新研究进展。",
+          "source": "GitHub",
+          "stars": 765,
+          "lang": "",
+          "published": "2026-09-12",
+          "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+          "overview": "该仓库整理了GPT-6级别的Astra模型在具身AI和机器人领域的最新进展，包括相关论文、开源项目和实验数据。旨在为研究者和开发者提供一站式资源入口。",
+          "analysis": "具身智能是当前AI领域最热门的方向之一，Astra作为新一代基础模型在该场景的应用前景广阔。该汇总仓库降低了入门门槛。",
+          "social": [
+            {
+              "who": "机器人研究者",
+              "text": "具身AI的资源碎片化严重，这种分类整理对快速了解前沿进展很有价值。"
+            },
+            {
+              "who": "开发者",
+              "text": "从代码到物理世界的桥梁正在被打通，这类资源合集是必备参考。"
+            }
+          ]
+        },
+        {
+          "title_zh": "LLM全栈学习路线与中文教程",
+          "eng": "youngyangyang04/llm-master",
+          "summary": "覆盖Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署等主题的大模型全栈学习指南。",
+          "source": "GitHub",
+          "stars": 561,
+          "lang": "",
+          "published": "2026-09-12",
+          "url": "https://github.com/youngyangyang04/llm-master",
+          "overview": "面向中文开发者的LLM全栈学习路线，涵盖Prompt Engineering、RAG检索增强生成、AI Agent构建、MCP协议、模型微调、部署以及大厂面试准备等完整知识体系。从入门到生产实践，内容全面且系统化。",
+          "analysis": "大模型技术迭代迅速，中文社区缺乏系统化的学习资源。该教程覆盖从理论到实践的完整链路，对中文开发者极具实用价值。",
+          "social": [
+            {
+              "who": "学习者",
+              "text": "终于有了从Prompt Engineering到模型部署的完整中文路线图，面试也能用。"
+            },
+            {
+              "who": "教育者",
+              "text": "内容结构清晰，适合高校课程和企业内训参考使用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI视频生成多平台异步客户端",
+          "eng": "letorig/video-generator-client",
+          "summary": "支持Seedance、Kling、MiniMax和Wan等主流视频生成平台的异步Python封装库。",
+          "source": "GitHub",
+          "stars": 520,
+          "lang": "Python",
+          "published": "2026-09-14",
+          "url": "https://github.com/letorig/video-generator-client",
+          "overview": "该工具为多个AI视频生成平台（Seedance、Kling、MiniMax、Wan）提供统一的异步Python API封装，同时支持CLI命令行和本地Web UI两种使用方式。开发者可以方便地批量调用不同平台的视频生成功能。",
+          "analysis": "多平台统一接口降低了开发者的集成成本，异步设计提升了大规模任务的处理效率。随着AI视频生成需求爆发，这类工具库将快速增长。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "一个API搞定多个视频生成平台，省去了逐个对接的麻烦。"
+            },
+            {
+              "who": "创作者",
+              "text": "Web UI支持让非技术背景的用户也能批量生成视频内容。"
+            }
+          ]
+        },
+        {
+          "title_zh": "语言学习对话伴侣Mural",
+          "eng": "Chuloo/mural",
+          "summary": "通过对话练习的语言学习iPhone应用，一个你最终会删除但过程很有趣的工具。",
+          "source": "GitHub",
+          "stars": 1256,
+          "lang": "Kotlin",
+          "published": "2026-09-12",
+          "url": "https://github.com/Chuloo/mural",
+          "overview": "Mural是一款基于对话的语言学习iPhone应用，采用原生开发（Kotlin），通过自然对话的方式帮助用户练习外语。设计理念是让用户在享受过程中不知不觉提升语言能力，虽然最终可能因为过于沉浸而忘记安装初衷。",
+          "analysis": "1256星说明用户对其交互体验的高度认可。将AI对话能力与语言学习结合的产品模式正在验证其市场潜力。",
+          "social": [
+            {
+              "who": "语言学习者",
+              "text": "终于有一个不枯燥的语言练习工具了，对话式学习确实比背单词有效得多。"
+            },
+            {
+              "who": "产品研究者",
+              "text": "'最终会删除'这个定位很诚实——用户不是来学语言的，是来享受过程的。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI视频学习与工具技能笔记",
+          "eng": "eternityspring/reelbench-skills",
+          "summary": "AI视频领域的学习笔记与工具使用技巧合集，帮助从业者快速上手各类视频生成工具。",
+          "source": "GitHub",
+          "stars": 708,
+          "lang": "HTML",
+          "published": "2026-09-11",
+          "url": "https://github.com/eternityspring/reelbench-skills",
+          "overview": "该仓库整理了AI视频创作领域的学习笔记和实用技能，涵盖主流视频生成工具的参数调优、工作流搭建以及创意技巧。以HTML格式呈现，便于阅读和分享。",
+          "analysis": "AI视频赛道工具迭代极快，系统化的学习资源稀缺。该笔记合集为从业者提供了快速上手的参考路径。",
+          "social": [
+            {
+              "who": "视频创作者",
+              "text": "各平台参数差异大，这种对比整理比官方文档实用多了。"
+            },
+            {
+              "who": "学习者",
+              "text": "从入门到进阶的工具链梳理很清晰，适合想转行AI视频的开发者。"
+            }
+          ]
+        },
+        {
+          "title_zh": "果蝇连接组学项目资源汇总",
+          "eng": "cobanov/awesome-fly",
+          "summary": "精选的果蝇神经连接组学研究项目列表，涵盖MaleCNS、FlyWire等数据集及脑模拟工具。",
+          "source": "GitHub",
+          "stars": 400,
+          "lang": "",
+          "published": "2026-09-12",
+          "url": "https://github.com/cobanov/awesome-fly",
+          "overview": "该仓库整理了果蝇神经连接组学领域的核心研究项目，包括MaleCNS、FlyWire等大规模脑图谱数据集，以及相关的脑模拟和具身模型工具。为计算神经科学研究者提供了一站式资源入口。",
+          "analysis": "果蝇作为模式生物在AI与生物学交叉研究中占据重要地位，该汇总降低了进入这一细分领域的门槛。",
+          "social": [
+            {
+              "who": "计算神经科学家",
+              "text": "连接组学数据分散在各实验室，这种分类整理对跨团队合作很有帮助。"
+            },
+            {
+              "who": "研究者",
+              "text": "从数据集到模拟工具的完整链路梳理，省去了大量文献检索时间。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI视频生成异步Python客户端",
+          "eng": "letorig/video-generator-client",
+          "summary": "支持Seedance、Kling、MiniMax和Wan等主流视频生成平台的异步Python封装库，提供CLI和本地Web UI。",
+          "source": "GitHub",
+          "stars": 520,
+          "lang": "Python",
+          "published": "2026-09-14",
+          "url": "https://github.com/letorig/video-generator-client",
+          "overview": "该工具为多个AI视频生成平台（Seedance、Kling、MiniMax、Wan）提供统一的异步Python API封装，同时支持CLI命令行和本地Web UI两种使用方式。开发者可以方便地批量调用不同平台的视频生成功能。",
+          "analysis": "多平台统一接口降低了开发者的集成成本，异步设计提升了大规模任务的处理效率。随着AI视频生成需求爆发，这类工具库将快速增长。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "一个API搞定多个视频生成平台，省去了逐个对接的麻烦。"
+            },
+            {
+              "who": "创作者",
+              "text": "Web UI支持让非技术背景的用户也能批量生成视频内容。"
+            }
+          ]
         }
       ]
     },
