@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-18T09:35:51+08:00",
+  "generated_at": "2026-09-18T10:16:26+08:00",
   "date": "2026-09-18",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-18 09:35",
     "ai": "2026-09-18 09:35",
     "voices": "2026-09-18 09:35",
-    "github": "2026-09-18 09:35",
-    "libraries": "2026-09-18 08:30",
+    "github": "2026-09-18 10:16",
+    "libraries": "2026-09-18 10:16",
     "sports": "2026-09-18 09:35",
     "academic": "2026-09-18 06:40"
   },
@@ -1901,22 +1901,207 @@
     "github": {
       "items": [
         {
-          "title_zh": "极速浏览器自动化引擎",
+          "title_zh": "极速浏览器自动化代理框架",
           "eng": "browser-use/jev-ultrafast",
-          "summary": "基于浏览器的 AI Agent 执行框架，支持复杂网页交互与高速操作。",
+          "summary": "一款专注于高效执行网页任务的极速浏览器自动化代理框架。",
           "source": "GitHub",
-          "stars": 2121,
+          "stars": 2313,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/browser-use/jev-ultrafast",
-          "overview": "该项目是一个专注于浏览器自动化的高性能引擎，旨在让 AI Agent 能够像人类一样在网页上进行快速、精确的操作。它解决了传统自动化工具速度慢、交互能力弱的问题，支持复杂的动态网页场景。",
-          "analysis": "以超过 2000 星的成绩成为近期高星项目榜首，代表了浏览器自动化领域的新范式。对于需要大规模网页数据采集或 AI Agent 执行任务的开发者来说极具实用价值。",
+          "overview": "该项目旨在解决传统浏览器自动化速度慢、资源占用高的痛点，通过优化执行引擎实现极速的网页交互。它支持复杂的 Web 任务编排，适合需要高频次、低延迟自动化的场景。社区反响热烈，是目前 GitHub 上高星 AI Agent 工具的代表作之一。",
+          "analysis": "作为当前浏览器自动化赛道的头部项目，其极高的 Star 数反映了开发者对高效 Agent 基础设施的强烈需求。开源生态的完善程度将决定其在企业级应用中的落地速度。",
           "social": [
             {
-              "who": "开发者",
-              "text": "浏览器自动化的速度瓶颈终于被突破了，这对 Agent 落地是重大利好。"
+              "who": "AI 开发者",
+              "text": "Jev-ultrafast 重新定义了浏览器 Agent 的性能基线，值得所有做 RPA 的人关注。"
+            },
+            {
+              "who": "研究者",
+              "text": "其底层架构对理解现代 LLM 驱动的工具调用模式很有参考价值。"
             }
           ]
+        },
+        {
+          "title_zh": "对话式语言学习 iPhone 伴侣",
+          "eng": "Chuloo/mural",
+          "summary": "一款通过对话练习学习的原生 iPhone 语言学习应用，最终会被用户删除。",
+          "source": "GitHub",
+          "stars": 1319,
+          "lang": "Kotlin",
+          "published": "2026-09-12",
+          "url": "https://github.com/Chuloo/mural",
+          "overview": "Mural 是一款专注于口语练习的 iPhone 原生应用，利用 AI 对话技术帮助用户沉浸式学习语言。其设计理念独特，强调‘最终会被删除’的使用体验，暗示用户在学习完成后会自然放下工具。代码开源展示了其 iOS 端架构设计思路。",
+          "analysis": "在 AI 教育赛道中，Mural 证明了垂直场景下原生应用仍有巨大潜力。其 Kotlin 实现为跨平台语言学习工具提供了高质量的参考案例。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "‘最终会被删除’这个定位非常精准，直击用户痛点，产品设计很有哲学感。"
+            },
+            {
+              "who": "教育技术从业者",
+              "text": "对话式学习是 AI 落地的最佳场景之一，Mural 的交互设计值得借鉴。"
+            }
+          ]
+        },
+        {
+          "title_zh": "循环 Transformer (RLT) 架构研究",
+          "eng": "yifanzhang-pro/recurrent-looped-tranformer",
+          "summary": "循环 Transformer（RLT）架构的官方项目页，探索新型序列建模方法。",
+          "source": "GitHub",
+          "stars": 871,
+          "lang": "HTML",
+          "published": "2026-09-12",
+          "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+          "overview": "该项目展示了 Recurrent Looped Transformer 的官方页面，旨在结合循环神经网络与 Transformer 的优势。它提供了一种新的序列处理范式，可能解决长文本建模中的效率问题。项目页设计精美，便于学术传播。",
+          "analysis": "Transformer 架构仍在快速演进，RLT 代表了学术界对混合架构的持续探索。对于关注底层模型创新的开发者而言，这是一个重要的信号。",
+          "social": [
+            {
+              "who": "AI 研究员",
+              "text": "循环与 Transformer 的结合是解决长序列问题的有效思路，值得深入阅读论文。"
+            },
+            {
+              "who": "模型工程师",
+              "text": "如果 RLT 在推理效率上有突破，将直接影响大模型的部署成本。"
+            }
+          ]
+        },
+        {
+          "title_zh": "消费级显卡上的 Jev Agent 开源版",
+          "eng": "TheoLeeCJ/openjev",
+          "summary": "社区尝试在消费级显卡（如 RTX 3090）上运行类似 Jev 的 AI Agent。",
+          "source": "GitHub",
+          "stars": 841,
+          "lang": "Python",
+          "published": "2026-09-16",
+          "url": "https://github.com/TheoLeeCJ/openjev",
+          "overview": "该项目致力于将高性能 AI Agent 工具开源化，使其能在普通消费级硬件上运行。它降低了个人开发者使用高级浏览器自动化技术的门槛，推动了 AI 工具的民主化进程。",
+          "analysis": "开源社区对 Jev 生态的响应非常积极，openjev 的出现意味着该领域的技术栈正在快速扩散。对于预算有限的开发者来说，这是一个重要的替代方案。",
+          "social": [
+            {
+              "who": "个人开发者",
+              "text": "终于可以在自己的 3090 上跑 Agent 了，不再依赖云服务，成本大幅降低。"
+            },
+            {
+              "who": "开源倡导者",
+              "text": "Jev 生态的开源化是好事，有助于形成更健康的竞争环境。"
+            }
+          ]
+        },
+        {
+          "title_zh": "具身智能与机器人领域精选资源库",
+          "eng": "zjwzcx/Awesome-Astra-Embodied-AI",
+          "summary": "GPT-6 Astra 用于具身智能和机器人领域的精选资源合集。",
+          "source": "GitHub",
+          "stars": 825,
+          "lang": "",
+          "published": "2026-09-12",
+          "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+          "overview": "这是一个专注于具身智能（Embodied AI）和机器人技术的 Awesome 列表，整合了 GPT-6 Astra 相关的最新研究成果和项目。它帮助研究者快速找到该领域的关键工具和论文。",
+          "analysis": "随着大模型向物理世界延伸，具身智能成为热门方向。此资源库为进入该领域的开发者提供了高效的导航入口，具有极高的实用价值。",
+          "social": [
+            {
+              "who": "机器人工程师",
+              "text": "整理得非常好，涵盖了从仿真到部署的全链路工具，省去了大量搜索时间。"
+            },
+            {
+              "who": "AI 学生",
+              "text": "入门具身智能的最佳起点，列表持续更新中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "开发者与 AI Agent 的云端操作系统",
+          "eng": "agentverse-os/AgentVerse-OS",
+          "summary": "为开发者和 AI Agent 打造的个人云端操作系统，基于 Rust 实现一键部署。",
+          "source": "GitHub",
+          "stars": 750,
+          "lang": "Rust",
+          "published": "2026-09-12",
+          "url": "https://github.com/agentverse-os/AgentVerse-OS",
+          "overview": "AgentVerse-OS 是一个运行在单台服务器上的个人云操作系统，专为开发者及其 AI Agent 设计。它提供窗口化桌面、隔离工作区（集成 VS Code、Claude Code）、944 款自托管应用商店以及备份更新功能。仅通过 Tailscale 访问，确保安全性。",
+          "analysis": "该项目代表了‘AI Native OS’的愿景，将开发环境和 Agent 管理整合到一个统一平台中。Rust 语言的选择保证了系统的性能和安全性，是 DevOps 与 AI 结合的典型案例。",
+          "social": [
+            {
+              "who": "DevOps 工程师",
+              "text": "自托管 OS + Agent 工作区这个概念太棒了，彻底解决了多环境隔离的痛点。"
+            },
+            {
+              "who": "安全研究员",
+              "text": "Tailscale 访问控制加上 Rust 内核，安全性设计值得学习。"
+            }
+          ]
+        },
+        {
+          "title_zh": "大模型全栈学习路线与中文教程",
+          "eng": "youngyangyang04/llm-master",
+          "summary": "覆盖 Prompt Engineering、RAG、AI Agent 等主题的大模型全栈中文学习指南。",
+          "source": "GitHub",
+          "stars": 688,
+          "lang": "",
+          "published": "2026-09-12",
+          "url": "https://github.com/youngyangyang04/llm-master",
+          "overview": "这是一份系统化的中文大模型学习教程，涵盖从 Prompt Engineering 到模型部署的完整链路。内容包括 Transformer 原理、AI 编程、大厂面试准备等实用主题，适合从入门到生产实践的全阶段学习者。",
+          "analysis": "在 AI 技术快速迭代的背景下，高质量的中文系统性教程弥足珍贵。该项目不仅降低了学习门槛，还紧跟行业趋势（如 MCP、微调），是中文社区的重要知识资产。",
+          "social": [
+            {
+              "who": "初学者",
+              "text": "从入门到生产实践的路径非常清晰，比碎片化文章有用得多。"
+            },
+            {
+              "who": "面试官",
+              "text": "面试准备部分很实用，涵盖了当前大厂关注的核心知识点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "类 Jev 浏览器自动化工具",
+          "eng": "vinnylarouge/jevlike",
+          "summary": "社区开发的类 Jev 浏览器自动化工具，提供另一种实现路径。",
+          "source": "GitHub",
+          "stars": 684,
+          "lang": "Python",
+          "published": "2026-09-16",
+          "url": "https://github.com/vinnylarouge/jevlike",
+          "overview": "该项目是 Jev 生态的社区分支，旨在提供另一种浏览器自动化解决方案。它展示了开源社区围绕热门 AI Agent 框架的活跃创新，丰富了技术选型的可能性。",
+          "analysis": "Jev-like 项目的出现表明该领域的关注度极高，社区正在形成多极化的竞争格局。对于希望尝试不同实现方式的开发者来说，这是一个有价值的参考。",
+          "social": [
+            {
+              "who": "Python 开发者",
+              "text": "作为 Jev 的替代方案，它的 API 设计更加符合 Pythonic 风格。"
+            },
+            {
+              "who": "技术博主",
+              "text": "Jev 生态正在爆发，jevlike 等衍生项目证明了其底层技术的通用性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Viserys Agent 框架",
+          "eng": "rizqinrr/viserys-agent",
+          "summary": "基于 JavaScript 的通用 AI Agent 框架，支持多平台任务执行。",
+          "source": "GitHub",
+          "stars": 662,
+          "lang": "JavaScript",
+          "published": "2026-09-12",
+          "url": "https://github.com/rizqinrr/viserys-agent",
+          "overview": "Viserys Agent 是一个面向 Web 生态的 AI Agent 框架，使用 JavaScript 编写。它允许开发者快速构建能够执行复杂任务的智能代理，特别适合前端开发者转型 AI 应用开发。",
+          "analysis": "JavaScript 在 AI Agent 领域的布局正在加速，Viserys Agent 填补了该语言生态中的空白。对于庞大的 Web 开发者群体来说，这降低了使用 AI Agent 技术的门槛。",
+          "social": [
+            {
+              "who": "前端开发者",
+              "text": "终于可以用 JS 写 Agent 了，不需要再学 Python，上手很快。"
+            },
+            {
+              "who": "全栈工程师",
+              "text": "Agent 框架的标准化有助于跨语言协作，Viserys 的设计思路很清晰。"
+            }
+          ]
+        },
+        {
+          "title_zh": "通过进化世界实现递归自我改进研究",
+          "eng": "zhengkid/Dream-RSI",
+          "summary": ""
         }
       ]
     },
