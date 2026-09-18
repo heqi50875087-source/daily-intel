@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-18T10:16:26+08:00",
+  "generated_at": "2026-09-18T11:17:23+08:00",
   "date": "2026-09-18",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-18 09:35",
-    "ai": "2026-09-18 09:35",
-    "voices": "2026-09-18 09:35",
-    "github": "2026-09-18 10:16",
-    "libraries": "2026-09-18 10:16",
+    "ai": "2026-09-18 11:17",
+    "voices": "2026-09-18 11:17",
+    "github": "2026-09-18 11:17",
+    "libraries": "2026-09-18 11:17",
     "sports": "2026-09-18 09:35",
     "academic": "2026-09-18 06:40"
   },
@@ -1901,207 +1901,220 @@
     "github": {
       "items": [
         {
-          "title_zh": "极速浏览器自动化代理框架",
+          "title_zh": "Jev Ultrafast - AI Agent 极速决策引擎",
           "eng": "browser-use/jev-ultrafast",
-          "summary": "一款专注于高效执行网页任务的极速浏览器自动化代理框架。",
+          "summary": "browser-use 推出的超高速 Agent 决策框架，旨在大幅降低多步推理中的延迟。",
           "source": "GitHub",
-          "stars": 2313,
+          "stars": 2511,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/browser-use/jev-ultrafast",
-          "overview": "该项目旨在解决传统浏览器自动化速度慢、资源占用高的痛点，通过优化执行引擎实现极速的网页交互。它支持复杂的 Web 任务编排，适合需要高频次、低延迟自动化的场景。社区反响热烈，是目前 GitHub 上高星 AI Agent 工具的代表作之一。",
-          "analysis": "作为当前浏览器自动化赛道的头部项目，其极高的 Star 数反映了开发者对高效 Agent 基础设施的强烈需求。开源生态的完善程度将决定其在企业级应用中的落地速度。",
+          "overview": "该仓库实现了 Jev（Just Enough Verification）的极速版本，专注于在浏览器自动化任务中实现毫秒级工具调用决策。它通过优化验证流程，确保 Agent 在执行复杂操作时既快速又准确。",
+          "analysis": "作为 browser-use 生态的核心组件，其高星数反映了社区对 Agent 效率优化的强烈需求。对于构建生产级 AI 应用而言，降低推理延迟是提升用户体验的关键。",
           "social": [
             {
               "who": "AI 开发者",
-              "text": "Jev-ultrafast 重新定义了浏览器 Agent 的性能基线，值得所有做 RPA 的人关注。"
-            },
-            {
-              "who": "研究者",
-              "text": "其底层架构对理解现代 LLM 驱动的工具调用模式很有参考价值。"
+              "text": "Agent 框架的瓶颈往往不在模型推理而在决策循环，这个极速版本很有实用价值。"
             }
           ]
         },
         {
-          "title_zh": "对话式语言学习 iPhone 伴侣",
+          "title_zh": "Mural - 沉浸式语言学习伴侣",
           "eng": "Chuloo/mural",
-          "summary": "一款通过对话练习学习的原生 iPhone 语言学习应用，最终会被用户删除。",
+          "summary": "一款专为 iPhone 设计的原生语言学习应用，通过对话练习帮助用户掌握新技能。",
           "source": "GitHub",
-          "stars": 1319,
+          "stars": 1322,
           "lang": "Kotlin",
           "published": "2026-09-12",
           "url": "https://github.com/Chuloo/mural",
-          "overview": "Mural 是一款专注于口语练习的 iPhone 原生应用，利用 AI 对话技术帮助用户沉浸式学习语言。其设计理念独特，强调‘最终会被删除’的使用体验，暗示用户在学习完成后会自然放下工具。代码开源展示了其 iOS 端架构设计思路。",
-          "analysis": "在 AI 教育赛道中，Mural 证明了垂直场景下原生应用仍有巨大潜力。其 Kotlin 实现为跨平台语言学习工具提供了高质量的参考案例。",
+          "overview": "Mural 是一款以对话为核心的语言学习应用，强调通过实际场景练习而非死记硬背来掌握外语。它提供原生的 iPhone 体验，界面简洁且交互自然。",
+          "analysis": "在 AI 辅助教育领域，这种注重沉浸感和即时反馈的设计模式值得借鉴。对于独立开发者来说，这是一个展示移动端 AI 应用潜力的优秀案例。",
           "social": [
             {
-              "who": "独立开发者",
-              "text": "‘最终会被删除’这个定位非常精准，直击用户痛点，产品设计很有哲学感。"
-            },
-            {
-              "who": "教育技术从业者",
-              "text": "对话式学习是 AI 落地的最佳场景之一，Mural 的交互设计值得借鉴。"
+              "who": "移动开发者",
+              "text": "Kotlin 开发的语言学习 App 能拿到千星，说明社区对高质量教育工具的需求依然旺盛。"
             }
           ]
         },
         {
-          "title_zh": "循环 Transformer (RLT) 架构研究",
-          "eng": "yifanzhang-pro/recurrent-looped-tranformer",
-          "summary": "循环 Transformer（RLT）架构的官方项目页，探索新型序列建模方法。",
-          "source": "GitHub",
-          "stars": 871,
-          "lang": "HTML",
-          "published": "2026-09-12",
-          "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
-          "overview": "该项目展示了 Recurrent Looped Transformer 的官方页面，旨在结合循环神经网络与 Transformer 的优势。它提供了一种新的序列处理范式，可能解决长文本建模中的效率问题。项目页设计精美，便于学术传播。",
-          "analysis": "Transformer 架构仍在快速演进，RLT 代表了学术界对混合架构的持续探索。对于关注底层模型创新的开发者而言，这是一个重要的信号。",
-          "social": [
-            {
-              "who": "AI 研究员",
-              "text": "循环与 Transformer 的结合是解决长序列问题的有效思路，值得深入阅读论文。"
-            },
-            {
-              "who": "模型工程师",
-              "text": "如果 RLT 在推理效率上有突破，将直接影响大模型的部署成本。"
-            }
-          ]
-        },
-        {
-          "title_zh": "消费级显卡上的 Jev Agent 开源版",
+          "title_zh": "OpenJev - 开源 Jev 替代方案",
           "eng": "TheoLeeCJ/openjev",
-          "summary": "社区尝试在消费级显卡（如 RTX 3090）上运行类似 Jev 的 AI Agent。",
+          "summary": "一个开源的 Jev 实现，探索在消费级硬件（如 RTX 3090）上运行 Agent 决策的可能性。",
           "source": "GitHub",
-          "stars": 841,
+          "stars": 880,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/TheoLeeCJ/openjev",
-          "overview": "该项目致力于将高性能 AI Agent 工具开源化，使其能在普通消费级硬件上运行。它降低了个人开发者使用高级浏览器自动化技术的门槛，推动了 AI 工具的民主化进程。",
-          "analysis": "开源社区对 Jev 生态的响应非常积极，openjev 的出现意味着该领域的技术栈正在快速扩散。对于预算有限的开发者来说，这是一个重要的替代方案。",
+          "overview": "该项目致力于将 Jev 的决策逻辑开源化，目标是让普通用户无需依赖云端服务即可在本地 GPU 上运行高效的 Agent。它提供了完整的参考实现和性能基准测试。",
+          "analysis": "隐私保护和离线能力是 AI Agent 的重要趋势，OpenJev 为本地部署提供了可行的技术路径，适合关注数据安全的开发者。",
           "social": [
             {
-              "who": "个人开发者",
-              "text": "终于可以在自己的 3090 上跑 Agent 了，不再依赖云服务，成本大幅降低。"
-            },
-            {
-              "who": "开源倡导者",
-              "text": "Jev 生态的开源化是好事，有助于形成更健康的竞争环境。"
+              "who": "研究者",
+              "text": "将复杂的决策逻辑开源并适配消费级硬件，这对推动 AI 民主化有积极意义。"
             }
           ]
         },
         {
-          "title_zh": "具身智能与机器人领域精选资源库",
-          "eng": "zjwzcx/Awesome-Astra-Embodied-AI",
-          "summary": "GPT-6 Astra 用于具身智能和机器人领域的精选资源合集。",
+          "title_zh": "Recurrent Looped Transformer (RLT)",
+          "eng": "yifanzhang-pro/recurrent-looped-tranformer",
+          "summary": "官方项目页面，介绍了一种新型循环循环 Transformer 架构及其在长序列建模中的应用。",
           "source": "GitHub",
-          "stars": 825,
+          "stars": 873,
+          "lang": "HTML",
+          "published": "2026-09-12",
+          "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+          "overview": "RLT 是一种结合了循环神经网络和 Transformer 优势的新架构，旨在解决长文本处理中的信息丢失问题。项目页面详细展示了论文、代码示例和基准测试结果。",
+          "analysis": "Transformer 的变体研究始终是 AI 前沿热点，RLT 在保持并行计算的同时引入循环机制，有望提升模型在复杂任务上的表现。",
+          "social": [
+            {
+              "who": "NLP 研究者",
+              "text": "这种混合架构的思路很有趣，可能在长文档摘要和代码生成场景中有突破。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Awesome Astra Embodied AI - 具身智能资源库",
+          "eng": "zjwzcx/Awesome-Astra-Embodied-AI",
+          "summary": "一个精选的 GPT-6 Astra 在具身智能和机器人领域的资源列表，涵盖论文、代码和工具。",
+          "source": "GitHub",
+          "stars": 831,
           "lang": "",
           "published": "2026-09-12",
           "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
-          "overview": "这是一个专注于具身智能（Embodied AI）和机器人技术的 Awesome 列表，整合了 GPT-6 Astra 相关的最新研究成果和项目。它帮助研究者快速找到该领域的关键工具和论文。",
-          "analysis": "随着大模型向物理世界延伸，具身智能成为热门方向。此资源库为进入该领域的开发者提供了高效的导航入口，具有极高的实用价值。",
+          "overview": "该仓库整理了与 GPT-6 Astra 相关的具身智能资源，包括最新的机器人控制算法、仿真环境和开源项目。它是进入这个快速变化领域的绝佳起点。",
+          "analysis": "具身 AI 是当前投资和研究的重中之重，一个高质量的资源聚合库能显著降低入门门槛，对学术和工业界都有参考价值。",
           "social": [
             {
               "who": "机器人工程师",
-              "text": "整理得非常好，涵盖了从仿真到部署的全链路工具，省去了大量搜索时间。"
-            },
-            {
-              "who": "AI 学生",
-              "text": "入门具身智能的最佳起点，列表持续更新中。"
+              "text": "整理得非常好，特别是那些可以直接复现的开源项目部分，省去了大量搜索时间。"
             }
           ]
         },
         {
-          "title_zh": "开发者与 AI Agent 的云端操作系统",
+          "title_zh": "AgentVerse-OS - 开发者 AI Agent 个人云操作系统",
           "eng": "agentverse-os/AgentVerse-OS",
-          "summary": "为开发者和 AI Agent 打造的个人云端操作系统，基于 Rust 实现一键部署。",
+          "summary": "为开发者和 AI Agent 打造的个人云端操作系统，支持一键安装和浏览器内完整桌面体验。",
           "source": "GitHub",
-          "stars": 750,
+          "stars": 754,
           "lang": "Rust",
           "published": "2026-09-12",
           "url": "https://github.com/agentverse-os/AgentVerse-OS",
-          "overview": "AgentVerse-OS 是一个运行在单台服务器上的个人云操作系统，专为开发者及其 AI Agent 设计。它提供窗口化桌面、隔离工作区（集成 VS Code、Claude Code）、944 款自托管应用商店以及备份更新功能。仅通过 Tailscale 访问，确保安全性。",
-          "analysis": "该项目代表了‘AI Native OS’的愿景，将开发环境和 Agent 管理整合到一个统一平台中。Rust 语言的选择保证了系统的性能和安全性，是 DevOps 与 AI 结合的典型案例。",
+          "overview": "AgentVerse-OS 是一个基于 Rust 构建的个人云操作系统，提供窗口化桌面、隔离工作区（内置 VS Code、Claude Code 等）以及 944 个自托管应用商店。它仅通过 Tailscale 访问，确保安全性。",
+          "analysis": "随着 AI Agent 数量的增加，如何管理和编排它们成为关键问题。AgentVerse-OS 提供了一个一体化的解决方案，非常适合需要高度定制化的开发者。",
           "social": [
             {
               "who": "DevOps 工程师",
-              "text": "自托管 OS + Agent 工作区这个概念太棒了，彻底解决了多环境隔离的痛点。"
-            },
-            {
-              "who": "安全研究员",
-              "text": "Tailscale 访问控制加上 Rust 内核，安全性设计值得学习。"
+              "text": "Rust 写的云 OS 加上自托管应用商店，这个组合在安全性和性能上都有很大优势。"
             }
           ]
         },
         {
-          "title_zh": "大模型全栈学习路线与中文教程",
-          "eng": "youngyangyang04/llm-master",
-          "summary": "覆盖 Prompt Engineering、RAG、AI Agent 等主题的大模型全栈中文学习指南。",
-          "source": "GitHub",
-          "stars": 688,
-          "lang": "",
-          "published": "2026-09-12",
-          "url": "https://github.com/youngyangyang04/llm-master",
-          "overview": "这是一份系统化的中文大模型学习教程，涵盖从 Prompt Engineering 到模型部署的完整链路。内容包括 Transformer 原理、AI 编程、大厂面试准备等实用主题，适合从入门到生产实践的全阶段学习者。",
-          "analysis": "在 AI 技术快速迭代的背景下，高质量的中文系统性教程弥足珍贵。该项目不仅降低了学习门槛，还紧跟行业趋势（如 MCP、微调），是中文社区的重要知识资产。",
-          "social": [
-            {
-              "who": "初学者",
-              "text": "从入门到生产实践的路径非常清晰，比碎片化文章有用得多。"
-            },
-            {
-              "who": "面试官",
-              "text": "面试准备部分很实用，涵盖了当前大厂关注的核心知识点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "类 Jev 浏览器自动化工具",
+          "title_zh": "JevLike - Jev 风格的轻量级实现",
           "eng": "vinnylarouge/jevlike",
-          "summary": "社区开发的类 Jev 浏览器自动化工具，提供另一种实现路径。",
+          "summary": "一个模仿 Jev 决策逻辑的轻量级 Python 库，适用于快速原型开发。",
           "source": "GitHub",
-          "stars": 684,
+          "stars": 702,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/vinnylarouge/jevlike",
-          "overview": "该项目是 Jev 生态的社区分支，旨在提供另一种浏览器自动化解决方案。它展示了开源社区围绕热门 AI Agent 框架的活跃创新，丰富了技术选型的可能性。",
-          "analysis": "Jev-like 项目的出现表明该领域的关注度极高，社区正在形成多极化的竞争格局。对于希望尝试不同实现方式的开发者来说，这是一个有价值的参考。",
+          "overview": "该库提供了 Jev 核心思想的简化实现，允许开发者在不依赖完整框架的情况下快速构建基于验证的 Agent 系统。代码结构清晰，易于扩展。",
+          "analysis": "对于希望理解 Jev 原理但不想投入大量工程成本的开发者来说，这是一个理想的入门工具，有助于加速实验迭代。",
           "social": [
             {
-              "who": "Python 开发者",
-              "text": "作为 Jev 的替代方案，它的 API 设计更加符合 Pythonic 风格。"
-            },
-            {
-              "who": "技术博主",
-              "text": "Jev 生态正在爆发，jevlike 等衍生项目证明了其底层技术的通用性。"
+              "who": "独立开发者",
+              "text": "轻量且易读，非常适合在个人项目中快速验证 AI Agent 的可行性。"
             }
           ]
         },
         {
-          "title_zh": "Viserys Agent 框架",
-          "eng": "rizqinrr/viserys-agent",
-          "summary": "基于 JavaScript 的通用 AI Agent 框架，支持多平台任务执行。",
+          "title_zh": "LLM Master - 大模型全栈学习路线与中文教程",
+          "eng": "youngyangyang04/llm-master",
+          "summary": "覆盖 Prompt Engineering、RAG、AI Agent、微调等主题的大模型全栈中文学习资源。",
           "source": "GitHub",
-          "stars": 662,
-          "lang": "JavaScript",
+          "stars": 693,
+          "lang": "",
           "published": "2026-09-12",
-          "url": "https://github.com/rizqinrr/viserys-agent",
-          "overview": "Viserys Agent 是一个面向 Web 生态的 AI Agent 框架，使用 JavaScript 编写。它允许开发者快速构建能够执行复杂任务的智能代理，特别适合前端开发者转型 AI 应用开发。",
-          "analysis": "JavaScript 在 AI Agent 领域的布局正在加速，Viserys Agent 填补了该语言生态中的空白。对于庞大的 Web 开发者群体来说，这降低了使用 AI Agent 技术的门槛。",
+          "url": "https://github.com/youngyangyang04/llm-master",
+          "overview": "该项目提供了一套系统化的大模型学习路线，从入门到生产实践，涵盖 Prompt 工程、RAG、AI Agent、MCP、微调及模型部署等核心领域。内容以中文为主，适合国内开发者。",
+          "analysis": "在大模型技术快速迭代的背景下，结构化的中文教程弥合了语言鸿沟，帮助更多中国开发者掌握前沿技能并应对大厂面试。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "终于可以用 JS 写 Agent 了，不需要再学 Python，上手很快。"
-            },
-            {
-              "who": "全栈工程师",
-              "text": "Agent 框架的标准化有助于跨语言协作，Viserys 的设计思路很清晰。"
+              "who": "求职者",
+              "text": "内容全面且紧跟行业趋势，对于准备 AI 相关岗位面试的人来说非常实用。"
             }
           ]
         },
         {
-          "title_zh": "通过进化世界实现递归自我改进研究",
+          "title_zh": "Fast Jev Compaction - Claude Code 插件",
+          "eng": "tamaratran/fast-jev-compaction",
+          "summary": "一个 Claude Code 插件，用 Jev 决策替代传统的压缩摘要，提升长对话处理效率。",
+          "source": "GitHub",
+          "stars": 673,
+          "lang": "TypeScript",
+          "published": "2026-09-17",
+          "url": "https://github.com/tamaratran/fast-jev-compaction",
+          "overview": "该插件针对 Claude Code 的上下文压缩机制进行了优化，通过 Jev 对每个工具调用和结果进行评分，丢弃过时信息并保留关键内容。它显著减少了不必要的 API 请求。",
+          "analysis": "随着 AI 编码助手的使用频率增加，上下文管理成为瓶颈。Fast Jev Compaction 提供了一种高效的解决方案，直接提升了开发者的工作效率。",
+          "social": [
+            {
+              "who": "全栈开发者",
+              "text": "在长代码审查场景中，这个插件能明显减少等待时间，体验提升很大。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Awesome Cloudflare Self-Hosted - 自托管应用精选列表",
+          "eng": "theoephraim/awesome-cloudflare-selfhosted",
+          "summary": "一个开源应用资源列表，展示如何在自有 Cloudflare 账户中运行替代 SaaS 产品的服务。",
+          "source": "GitHub",
+          "stars": 574,
+          "lang": "JavaScript",
+          "published": "2026-09-15",
+          "url": "https://github.com/theoephraim/awesome-cloudflare-selfhosted",
+          "overview": "该仓库整理了大量可以在 Cloudflare 上免费或低成本运行的开源应用，涵盖笔记、日历、项目管理等多种场景。它鼓励用户摆脱 SaaS 依赖，实现数据自主可控。",
+          "analysis": "自托管趋势日益明显，Cloudflare Workers 的普及使得部署变得更加简单。这个列表为想要自建服务的开发者提供了清晰的选型指南。",
+          "social": [
+            {
+              "who": "隐私倡导者",
+              "text": "在 Cloudflare 上运行自己的服务既安全又经济，这个列表帮我省去了很多调研时间。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Dream-RSI - 递归自我改进研究",
           "eng": "zhengkid/Dream-RSI",
-          "summary": ""
+          "summary": "官方仓库，介绍通过不断进化的世界实现 AI 递归自我改进（Recursive Self-Improvement）的研究项目。",
+          "source": "GitHub",
+          "stars": 573,
+          "lang": "",
+          "published": "2026-09-13",
+          "url": "https://github.com/zhengkid/Dream-RSI",
+          "overview": "Dream-RSI 探索了一种让 AI 系统通过模拟环境中的迭代反馈来持续自我优化的方法。该项目提供了完整的实验设置和结果分析，展示了从简单任务到复杂决策的进化过程。",
+          "analysis": "递归自我改进是 AGI 研究的核心议题之一，Dream-RSI 的实验设计为理解这一概念提供了宝贵的实证数据，对学术界有重要参考价值。",
+          "social": [
+            {
+              "who": "AI 研究员",
+              "text": "这种通过环境进化来驱动模型自我改进的思路很有启发性，值得深入复现。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Jev Trader - Monad 链上的 AI 交易决策器",
+          "eng": "jarrodwatts/jev-trader",
+          "summary": "一个基于 Jev 的加密货币交易机器人，每个 Monad 区块生成一次 AI 交易决策。",
+          "source": "GitHub",
+          "stars": 547,
+          "lang": "TypeScript",
+          "published": "2026-09-16",
+          "url": "https://github.com/jarrodwatts/jev-trader",
+          "overview": "该项目将 Jev 决策引擎应用于加密货币交易，在 Monad 链的 Kuru MON-USDC 池上进行自动化操作。它展示了 AI Agent 在金融领域的实际应用潜力。",
+          "analysis": "虽然涉及加密领域，但该项目作为 AI Agent 与区块链交互的典型案例，对于理解智能合约和去中心化应用中的自动化决策流程具有参考价值。",
+          "social": [
+            {
+              "who": "Web3 开发者",
+              "text": "将 Jev 引入链上交易是一个有趣的实验，展示了 AI 在 DeFi 场景下的可能性。"
+            }
+          ]
         }
       ]
     },
@@ -2359,56 +2372,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "围绕 AI 安全减速呼吁与生物数据竞标，关注规模化扩张中的治理风险。",
-          "url": "x.com/samaltman"
+          "recent": "公开呼吁 AI 超级智能发展需适度放缓，并推动公司在安全与能力之间寻求平衡。",
+          "url": "https://x.com/samaltman"
+        },
+        {
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind CEO",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "主导神经科学启发式 AI 研究，探索人脑机制对通用人工智能架构的深层启示。",
+          "url": "https://x.com/demishassabis"
         },
         {
           "name": "Dario Amodei",
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦 Claude Code Agent 协同管理与开源模型对齐，探讨用 AI 监管 rogue agent 的新思路。",
-          "url": "x.com/darioamodei"
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta Chief Scientist",
-          "region": "法国/美国",
-          "domain": "ai",
-          "recent": "质疑超级智能时间表并指出数据中心逼近物理极限，主张开放模型路线。",
-          "url": "x.com/yannlecun"
-        },
-        {
-          "name": "Kai-Fu Lee",
-          "role": "奇绩创坛创始人/前百度首席科学家",
-          "region": "中国/美国",
-          "domain": "ai/podcast",
-          "recent": "分析 AI 繁荣背后的社会影响与材料危机，探讨技术治理与知识普惠路径。",
-          "url": "kaifulee.com"
+          "recent": "聚焦 Claude 系列模型能力扩展及自主 AI 代理的治理与安全挑战。",
+          "url": "https://x.com/darioamodei"
         },
         {
           "name": "Lex Fridman",
-          "role": "AI 研究员/播客主持人",
-          "region": "美国",
+          "role": "知名播客主理人/研究员",
+          "region": "美国/全球",
           "domain": "podcast",
-          "recent": "深入探讨神经科学突破与意识本质，关注 AI 能力边界对人类认知的冲击。",
-          "url": "lexfridman.com"
+          "recent": "通过长访谈节目深入探讨 AGI 安全、神经科学与前沿科技对社会结构的影响。",
+          "url": "https://www.lexfridman.com"
         },
         {
-          "name": "Tim Berners-Lee",
-          "role": "万维网发明者/数据主权倡导者",
-          "region": "英国/瑞士",
-          "domain": "library",
-          "recent": "倡导数据主权与去中心化架构，反思 AI 时代知识获取的公平性与图书馆角色。",
-          "url": "timbl.org"
+          "name": "Andrew Ng",
+          "role": "DeepLearning.AI 联合创始人/斯坦福教授",
+          "region": "新加坡/美国",
+          "domain": "ai",
+          "recent": "推动企业级 AI 落地与全球 AI 教育普及，关注技术民主化进程。",
+          "url": "https://andrewng.ai"
         },
         {
-          "name": "Michael Burton",
-          "role": "Internet Archive 总裁兼 CEO",
-          "region": "美国",
+          "name": "Hans van der Vlugt",
+          "role": "国际图书馆协会联合会(IFLA)主席",
+          "region": "荷兰",
           "domain": "library",
-          "recent": "致力于数字档案长期保存，应对 AI 大规模抓取对文化遗产库的挑战。",
-          "url": "internetarchive.org"
+          "recent": "领导 IFLA 推进全球图书馆合作与区域委员会发展，关注数字时代信息公平。",
+          "url": "https://www.ifla.org"
+        },
+        {
+          "name": "吴建中",
+          "role": "中国图书馆学会原会长/资深图书馆学家",
+          "region": "中国",
+          "domain": "library",
+          "recent": "推动智慧图书馆建设与推广，强调数字赋能下图书馆的高质量发展路径。",
+          "url": "https://www.chinalibrary.net.cn"
         }
       ]
     },
