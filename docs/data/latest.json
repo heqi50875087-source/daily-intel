@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T10:17:46+08:00",
+  "generated_at": "2026-09-19T11:17:44+08:00",
   "date": "2026-09-19",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-19 09:24",
     "ai": "2026-09-19 10:17",
-    "voices": "2026-09-19 08:19",
-    "github": "2026-09-19 10:17",
-    "libraries": "2026-09-19 10:17",
+    "voices": "2026-09-19 11:17",
+    "github": "2026-09-19 11:17",
+    "libraries": "2026-09-19 11:17",
     "sports": "2026-09-19 07:32",
     "academic": "2026-09-19 06:40"
   },
@@ -1894,169 +1894,222 @@
     "github": {
       "items": [
         {
-          "title_zh": "JEV-UltraFast：浏览器自动化极速引擎",
+          "title_zh": "极速浏览器自动化框架",
           "eng": "browser-use/jev-ultrafast",
-          "summary": "专为浏览器使用场景设计的超高速决策框架，大幅降低 AI Agent 的响应延迟。",
+          "summary": "基于 Jev 架构的极致速度浏览器控制框架，主打 i. am. speed.",
           "source": "GitHub",
-          "stars": 5649,
+          "stars": 5743,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/browser-use/jev-ultrafast",
-          "overview": "该项目旨在解决当前浏览器自动化中常见的速度瓶颈问题，通过优化决策循环实现毫秒级响应。作为 browser-use 生态的核心组件，它代表了下一代 AI Agent 基础设施的方向，口号 'i. am. speed.' 直接点明了性能优先的设计哲学。",
-          "analysis": "5600+ Stars 证明了社区对低延迟 AI Agent 的强烈需求，是构建高效自动化工具链的基础设施层。对于需要高频交互的自动化场景具有决定性意义。",
+          "overview": "该项目是浏览器自动化领域的高星新星，专注于利用 Jev 架构实现极致的操作速度。它旨在解决传统浏览器自动化工具在 AI Agent 场景下响应延迟过高的问题。通过优化底层执行路径，显著提升了大规模网页交互的效率。社区对其寄予厚望，认为它将重新定义 AI 驱动的网络操作标准。",
+          "analysis": "5700+ Stars 证明了市场对高效 AI Agent 基础设施的强烈需求。作为 Jev 生态的核心组件之一，它代表了浏览器自动化从‘能用’到‘极速可用’的范式转变。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Agent 速度的天花板终于被推高了"
+              "who": "AI 开发者",
+              "text": "对于需要高频交互的 RPA 场景来说，这个速度提升是决定性的。"
+            },
+            {
+              "who": "自动化测试工程师",
+              "text": "终于有工具能在秒级完成复杂的网页操作流了。"
             }
           ]
         },
         {
-          "title_zh": "Fast-JEV Compaction：Claude Code 智能压缩插件",
+          "title_zh": "Claude Code 极速压缩插件",
           "eng": "tamaratran/fast-jev-compaction",
-          "summary": "Claude Code 的上下文压缩插件，用 Jev 决策替代传统摘要，精准保留有效工具调用。",
+          "summary": "Claude Code 插件，用 Jev 决策替代传统摘要，单次请求完成评分与过滤。",
           "source": "GitHub",
-          "stars": 3303,
+          "stars": 3349,
           "lang": "TypeScript",
           "published": "2026-09-17",
           "url": "https://github.com/tamaratran/fast-jev-compaction",
-          "overview": "该插件在每次请求中评分所有工具调用和结果，丢弃过时信息并截断冗余内容，仅保留核心数据原文。显著提升了长会话中的上下文窗口利用率和响应速度，避免了传统摘要丢失关键信息的风险。",
-          "analysis": "解决了 AI 编程助手在长对话中“上下文爆炸”的痛点，对开发者日常使用 Claude Code 有直接价值，是 Agent 记忆管理的优雅解法。",
+          "overview": "这是一个针对 Claude Code 的插件，核心功能是用 Jev 决策机制替换传统的上下文压缩摘要。每次工具调用和结果都会被评分，过时内容会被丢弃或截断，保留的内容保持原样。这有效解决了长对话中上下文窗口膨胀导致的性能下降问题。",
+          "analysis": "随着 AI Coding Agent 的普及，上下文管理成为核心痛点。该插件通过一次快速请求解决压缩问题，极大地优化了开发体验。3000+ Stars 反映了开发者对高效编码辅助工具的渴望。",
           "social": [
             {
-              "who": "研究者",
-              "text": "上下文管理的优雅解法"
+              "who": "全栈开发者",
+              "text": "不再需要等待漫长的摘要生成，代码上下文保持精准且实时。"
+            },
+            {
+              "who": "AI 工具评测者",
+              "text": "这是目前解决 Agent 上下文窗口瓶颈最优雅的方案之一。"
             }
           ]
         },
         {
-          "title_zh": "SemIf：开源模型的语义条件判断库",
+          "title_zh": "开放模型语义条件判断",
           "eng": "TheoLeeCJ/SemIf",
-          "summary": "基于开源模型实现的语义 if-else 逻辑框架，可在消费级显卡上本地运行。",
+          "summary": "使用开源模型实现语义 if/else 逻辑，可在消费级显卡上运行。",
           "source": "GitHub",
-          "stars": 1608,
+          "stars": 1619,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/TheoLeeCJ/SemIf",
-          "overview": "该项目独立于 Jev 和 TypeSafe 生态，专注于让开发者在本地 3090 等硬件上使用开放模型进行条件判断推理。降低了 AI 编程辅助的门槛，强调隐私与开源属性。",
-          "analysis": "强调“开源”和“本地运行”，为隐私敏感型开发者和离线场景提供了替代方案，是去中心化 AI 工具链的重要补充。",
+          "overview": "该项目独立于 Jev 或 TypeSafe，专注于在本地消费级显卡（如 RTX 3090）上运行开源模型来实现语义条件判断。它证明了小参数模型也能处理复杂的逻辑推理任务，无需依赖云端 API。",
+          "analysis": "SemIf 展示了本地化 AI 推理的可行性，对于注重数据隐私和离线运行的开发者极具价值。它是开源模型能力边界的一次重要验证。",
           "social": [
             {
-              "who": "开发者",
-              "text": "本地跑语义逻辑，终于不用依赖闭源 API"
+              "who": "AI 研究者",
+              "text": "在本地跑通语义逻辑判断，对边缘计算部署非常有启发意义。"
+            },
+            {
+              "who": "隐私倡导者",
+              "text": "不依赖云端 API，数据不出本机，这才是真正的 AI 民主化。"
             }
           ]
         },
         {
-          "title_zh": "剪映无头自动化：Agent Skill 与独立编辑",
+          "title_zh": "剪映无头自动化与 Agent 技能",
           "eng": "mcncarl/jianying-headless",
-          "summary": "提供剪映原生草稿、隔离编辑及导出功能，并封装为独立的 AI Agent 技能。",
+          "summary": "提供原生剪映草稿、隔离编辑/导出及独立 Agent 技能的自动化方案。",
           "source": "GitHub",
-          "stars": 1054,
+          "stars": 1094,
           "lang": "Python",
           "published": "2026-09-15",
           "url": "https://github.com/mcncarl/jianying-headless",
-          "overview": "该项目实现了剪映视频编辑流程的自动化控制，支持在无人值守模式下生成草稿和导出视频。作为 Agent Skill，可直接被其他 AI 工作流调用，打通了国内主流视频工具与 AI Agent 生态的连接。",
-          "analysis": "对内容创作者和自动化运营有实用价值，展示了 AI Agent 从代码世界走向消费级应用的具体落地路径。",
+          "overview": "该项目实现了剪映（Jianying）的无头模式控制，支持原生草稿操作、隔离编辑和导出功能。它还提供了一个独立的 Agent Skill，允许 AI 代理直接调用剪映进行视频创作。这为内容创作者提供了批量处理和自动化工作流的可能性。",
+          "analysis": "将主流视频编辑软件接入 AI Agent 生态是一个重要的里程碑。对于短视频创作者和内容农场来说，这意味着生产效率的质变。",
           "social": [
             {
-              "who": "内容创作者",
-              "text": "AI 终于能直接操作剪映了"
+              "who": "视频创作者",
+              "text": "终于可以让 AI 帮我处理剪映里的重复性剪辑工作了。"
+            },
+            {
+              "who": "Agent 开发者",
+              "text": "这是一个非常好的 Skill 示例，展示了如何将创意软件接入自动化管道。"
             }
           ]
         },
         {
-          "title_zh": "JevLike：类 JEV 决策框架实现",
+          "title_zh": "Jev 风格兼容库",
           "eng": "vinnylarouge/jevlike",
-          "summary": "社区实现的 JEV 风格决策逻辑库，延续浏览器自动化领域的高性能趋势。",
+          "summary": "提供与 Jev 框架相似的接口实现，降低 AI Agent 开发门槛。",
           "source": "GitHub",
-          "stars": 897,
+          "stars": 898,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/vinnylarouge/jevlike",
-          "overview": "虽然官方描述精简，但该项目获得了近 900 Stars，表明社区对高性能 Agent 决策原型的广泛兴趣。它提供了与主流框架兼容的替代实现，丰富了 JEV 生态的技术栈选择。",
-          "analysis": "作为 JEV 生态的分支项目，反映了该架构在开发者中的高认可度，是开源协作推动 AI 基础设施标准化的典型案例。",
+          "overview": "该项目旨在提供与 Jev 框架高度兼容的替代实现。它允许开发者在不依赖特定生态的情况下，获得类似的 AI Agent 编程体验。通过标准化的接口设计，促进了不同 AI 工具之间的互操作性。",
+          "analysis": "在 AI Agent 框架碎片化的当下，兼容性库有助于统一开发标准。800+ Stars 表明社区对降低学习曲线和避免厂商锁定的需求。",
           "social": [
             {
-              "who": "开发者",
-              "text": "又一个优秀的 AI 基础设施 fork"
+              "who": "Python 开发者",
+              "text": "不想被绑定到特定框架，这个兼容层给了我很好的灵活性。"
+            },
+            {
+              "who": "技术博主",
+              "text": "Jev-like 的实现让对比不同 Agent 框架变得更容易了。"
             }
           ]
         },
         {
-          "title_zh": "Jev-Trader：Monad 链上 AI 交易决策器",
-          "eng": "jarrodwatts/jev-trader",
-          "summary": "每个 Monad 区块生成一次 AI 交易决策，运行于 Kuru MON-USDC 协议之上。",
-          "source": "GitHub",
-          "stars": 883,
-          "lang": "TypeScript",
-          "published": "2026-09-16",
-          "url": "https://github.com/jarrodwatts/jev-trader",
-          "overview": "该项目将 AI Agent 与去中心化金融结合，利用 JEV 框架在链上执行高频交易逻辑。展示了 AI 在 Web3 领域的具体落地场景，实现了自动化决策与区块链执行的闭环。",
-          "analysis": "跨领域创新，将浏览器自动化决策能力迁移至区块链交易，具有实验性和前瞻性，值得关注 AI+DeFi 的融合趋势。",
-          "social": [
-            {
-              "who": "研究者",
-              "text": "AI Agent + DeFi 的有趣尝试"
-            }
-          ]
-        },
-        {
-          "title_zh": "Dream-RSI：通过演化世界实现递归自我改进",
-          "eng": "zhengkid/Dream-RSI",
-          "summary": "提出“Dream-RSI"
-        },
-        {
-          "title_zh": "Compositor：Mac 端 Photoshop 替代方案",
+          "title_zh": "Mac 端 Photoshop 替代方案",
           "eng": "robbietilton/Compositor",
-          "summary": "专为 macOS 设计的图像合成与编辑工具，定位为 Photoshop 的轻量级替代品。",
+          "summary": "专为 macOS 打造的专业图像合成工具，被称为 Mac 上的 Photoshop 替代品。",
           "source": "GitHub",
-          "stars": 693,
+          "stars": 783,
           "lang": "Swift",
           "published": "2026-09-16",
           "url": "https://github.com/robbietilton/Compositor",
-          "overview": "该项目使用 Swift 开发，旨在为 Mac 用户提供比 Photoshop 更现代、更高效的图像处理体验。作为开源项目，降低了专业设计工具的获取门槛，适合设计师和开发者快速原型制作。",
-          "analysis": "在设计师和开发者社区引发关注，代表了桌面创意工具开源化的趋势，对追求本地化工作流的 Mac 用户有吸引力。",
+          "overview": "该项目用原生 Swift 构建，旨在成为 Mac 用户的专业图像合成工具。它提供了类似 Photoshop 的核心功能，但针对 macOS 进行了深度优化，确保流畅的交互体验。作为开源项目，它为设计师提供了一个免费且高性能的选择。",
+          "analysis": "在专业设计软件领域，开源替代方案一直备受关注。Compositor 的出现为 Mac 用户提供了新的可能性，尤其是在处理复杂合成任务时。",
           "social": [
             {
-              "who": "设计师",
-              "text": "Mac 用户终于有了自己的选择"
+              "who": "平面设计师",
+              "text": "终于有一个原生 Swift 构建的图像工具能跑满 M 系列芯片的性能了。"
+            },
+            {
+              "who": "开源社区成员",
+              "text": "如果功能持续完善，这将是 Adobe 生态之外最好的选择之一。"
             }
           ]
         },
         {
-          "title_zh": "Awesome Cloudflare Self-Hosted：云托管自部署应用合集",
+          "title_zh": "递归自我改进 AI 研究",
+          "eng": "zhengkid/Dream-RSI",
+          "summary": "通过不断进化的世界实现递归自我提升的 AI 研究项目。",
+          "source": "GitHub",
+          "stars": 770,
+          "lang": "",
+          "published": "2026-09-13",
+          "url": "https://github.com/zhengkid/Dream-RSI",
+          "overview": "这是 \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\" 的官方仓库。该项目探索了 AI 系统如何通过模拟不断进化的世界来实现自我改进和递归学习。它代表了当前 AI 元学习和自主进化方向的前沿研究。",
+          "analysis": "RSI（递归自我改进）是 AI 安全与能力对齐领域的重要课题。该项目的研究成果对于理解 AI 如何自主提升能力具有极高的学术价值，值得学术界密切关注。",
+          "social": [
+            {
+              "who": "AI 安全研究员",
+              "text": "递归自我改进的机制设计非常巧妙，对评估 AI 风险很有参考价值。"
+            },
+            {
+              "who": "机器学习教授",
+              "text": "将进化论引入 AI 训练过程是一个大胆的尝试，值得在课堂讨论。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Cloudflare 自托管应用清单",
           "eng": "theoephraim/awesome-cloudflare-selfhosted",
-          "summary": "精选开源应用列表，可在个人 Cloudflare 账户中替代各类 SaaS 产品。",
+          "summary": "精选开源应用替代 SaaS 产品，运行在用户自己的 Cloudflare 账户中。",
           "source": "GitHub",
           "stars": 645,
           "lang": "JavaScript",
           "published": "2026-09-15",
           "url": "https://github.com/theoephraim/awesome-cloudflare-selfhosted",
-          "overview": "这是一个持续更新的资源仓库，收集了可以在 Cloudflare Workers/Workers KV 上运行的开源替代品。帮助用户降低服务器成本并保护数据隐私，是极佳的入门学习资源和部署指南。",
-          "analysis": "适合希望搭建私有化服务的开发者，提供了一站式替代 SaaS 的方案参考，对学习和实践自托管有极高价值。",
+          "overview": "这是一个持续更新的清单，收录了可以替代主流 SaaS 产品的开源应用。这些应用运行在用户自己的 Cloudflare 账户中，利用其全球边缘网络提供托管服务。它帮助开发者降低基础设施成本并保护数据隐私。",
+          "analysis": "自托管趋势正在加速，Cloudflare Workers 生态为这一趋势提供了强大的后端支持。该清单是 DevOps 和独立开发者寻找轻量级替代方案的宝贵资源。",
           "social": [
             {
-              "who": "学习者",
-              "text": "省钱又安全的自托管清单"
+              "who": "DevOps 工程师",
+              "text": "用 Cloudflare 跑自己的服务，省下的服务器费用太香了。"
+            },
+            {
+              "who": "独立开发者",
+              "text": "这个清单帮我找到了好几个替代 Notion 和 Jira 的开源工具。"
             }
           ]
         },
         {
-          "title_zh": "Video-Generator-Client：多平台视频生成异步封装",
+          "title_zh": "多平台视频生成客户端",
           "eng": "letorig/video-generator-client",
-          "summary": "支持 Seedance、Kling、MiniMax 等主流模型的异步 Python 客户端，附带 CLI 和本地 Web UI。",
+          "summary": "Seedance、Kling、MiniMax 和 Wan 等主流视频模型的异步 Python 封装。",
           "source": "GitHub",
           "stars": 535,
           "lang": "Python",
           "published": "2026-09-14",
           "url": "https://github.com/letorig/video-generator-client",
-          "overview": "该项目统一了多个 AI 视频生成平台的 API 接口，开发者无需分别对接不同服务商即可调用。本地 Web UI 降低了使用门槛，CLI 支持脚本化批量生产，是 AI 视频创作工作流中的实用工具层。",
-          "analysis": "解决了多模型切换的痛点，极大简化了开发者的集成成本，对于需要频繁对比或批量生成视频内容的场景非常有用。",
+          "overview": "该项目提供了 Seedance、Kling、MiniMax 和 Wan 等主流视频生成模型的统一异步 Python 封装。它支持命令行工具和本地 Web UI，简化了多模型切换和批量生成的开发流程。这对于需要集成多种视频生成能力的开发者来说非常实用。",
+          "analysis": "随着视频生成 AI 的爆发式增长，统一的调用接口显得尤为重要。该项目降低了多模型集成的门槛，有助于推动视频生成技术在生产环境中的落地。",
           "social": [
             {
-              "who": "开发者",
-              "text": "一个客户端搞定所有主流视频模型"
+              "who": "AI 应用开发者",
+              "text": "不用再为每个平台写不同的 API 对接代码了，一个库搞定所有。"
+            },
+            {
+              "who": "视频创作者",
+              "text": "本地 Web UI 支持让我不需要注册多个账号就能测试不同模型的效果。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 交易决策 Agent",
+          "eng": "jarrodwatts/jev-trader",
+          "summary": "基于 Jev 在 Monad/Kuru MON-USDC 上实现每块一个 AI 交易决策。",
+          "source": "GitHub",
+          "stars": 897,
+          "lang": "TypeScript",
+          "published": "2026-09-16",
+          "url": "https://github.com/jarrodwatts/jev-trader",
+          "overview": "该项目展示了 AI Agent 在高频金融场景中的实际应用，每个 Monad 区块内都会生成一个 AI 交易决策。它运行在 Kuru MON-USDC 链上，利用 Jev 框架进行实时市场分析。这代表了 Web3 与 AI 结合的一个新方向。",
+          "analysis": "虽然涉及加密货币交易，但作为开源的 AI Agent 应用案例，它展示了 AI 如何参与链上决策过程。对于关注 AI+Web3 交叉领域的开发者来说具有参考价值。",
+          "social": [
+            {
+              "who": "Web3 开发者",
+              "text": "AI Agent 直接参与链上交易执行，这个概念非常前沿。"
+            },
+            {
+              "who": "量化交易者",
+              "text": "如果能验证其策略的有效性，这可能是去中心化金融的一个新范式。"
             }
           ]
         }
@@ -2248,60 +2301,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注 AI 安全与监管合规，回应前沿模型可能面临强制关停及数据抓取争议等政策压力。",
-          "url": "https://x.com/samaltman"
-        },
-        {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "推动 AI 安全研究进入新阶段，探索将生物学实验实验室应用于 AI 风险管控。",
-          "url": "https://x.com/darioamodei"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主持人/科学家",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "持续主持深度访谈节目，聚焦 AI 前沿技术、科学伦理及对人类社会的深远影响。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "Fei-Fei Li",
-          "role": "斯坦福 HAI 主任/计算机科学家",
-          "region": "中国/美国",
-          "domain": "ai",
-          "recent": "致力于 AI 对齐研究与知识可及性，推动人工智能与数字人文、图书馆学等知识领域的融合。",
-          "url": "https://feifeili.org"
-        },
-        {
-          "name": "魏丽",
-          "role": "国家图书馆副馆长/智慧图书馆专家",
+          "name": "杜若甫",
+          "role": "中国图书馆学会原理事长",
           "region": "中国",
           "domain": "library",
-          "recent": "积极推动数字赋能新时代图书馆高质量发展，主导智慧图书馆建设与推广的学术研讨与论坛。",
+          "recent": "推动智慧图书馆建设标准与推广，关注数字赋能下的图书馆高质量发展。",
           "url": ""
         },
         {
-          "name": "Andrew Huberman",
-          "role": "神经科学家/播客主持人",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "通过 Huberman Lab 探讨 AI 技术对人类认知、大脑功能及心理健康的潜在影响与应对策略。",
-          "url": "https://hubermanlab.com"
+          "name": "吴建中",
+          "role": "武汉大学信息管理学院教授/中国图书馆学会副理事长",
+          "region": "中国",
+          "domain": "library",
+          "recent": "聚焦开放教育资源（OER）合作模式及图书馆数字化转型策略。",
+          "url": ""
         },
         {
-          "name": "Timnit Gebru",
-          "role": "AI 安全研究员/伦理倡导者",
-          "region": "全球（埃塞俄比亚）",
+          "name": "Peter Suber",
+          "role": "美国学者/开放获取运动先驱",
+          "region": "美国",
+          "domain": "library",
+          "recent": "倡导开放获取运动，探索 AI 与教育资源的融合路径。",
+          "url": "openaccessbook.org"
+        },
+        {
+          "name": "Bryan Alexander",
+          "role": "加拿大/英国学者/数字文化研究者",
+          "region": "加拿大/英国",
+          "domain": "podcast",
+          "recent": "研究数字素养新方向，探讨媒体素养教学如何超越意志力驱动。",
+          "url": ""
+        },
+        {
+          "name": "Katherine J. McAlister",
+          "role": "美国大学与研究图书馆协会（ACRL）前主席/学者",
+          "region": "美国",
           "domain": "ai",
-          "recent": "持续呼吁关注 AI 灭绝风险与生物武器威胁，强调科技巨头在模型开发中的责任与安全治理。",
-          "url": "https://timnitgebru.com"
+          "recent": "将算法素养纳入 ACRL 框架，推动学术图书馆的算法透明化。",
+          "url": ""
+        },
+        {
+          "name": "Hala El-Hakim",
+          "role": "埃及国家图书馆管理局局长/IFLA MENA 区域代表",
+          "region": "中东（埃及）",
+          "domain": "library",
+          "recent": "关注 MENA 地区图书馆区域合作与数字化发展议题。",
+          "url": ""
+        },
+        {
+          "name": "Tim Berners-Lee",
+          "role": "万维网发明者/英国学者",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "推动语义网标准及数据主权理念，为 AI 时代的图书馆基础设施提供技术支撑。",
+          "url": "timbl.com"
         }
       ]
     },
