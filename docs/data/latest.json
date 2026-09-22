@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T10:34:52+08:00",
+  "generated_at": "2026-09-22T11:10:16+08:00",
   "date": "2026-09-22",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,9 +8,9 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-22 10:34",
-    "ai": "2026-09-22 10:34",
-    "voices": "2026-09-22 10:34",
-    "github": "2026-09-22 10:34",
+    "ai": "2026-09-22 11:10",
+    "voices": "2026-09-22 11:10",
+    "github": "2026-09-22 11:10",
     "libraries": "2026-09-22 10:34",
     "sports": "2026-09-22 10:34",
     "academic": "2026-09-22 06:40"
@@ -1926,266 +1926,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "Jev Ultrafast — 最快最便宜的网页智能体",
+          "title_zh": "JEV UltraFast — 最快最便宜的网页智能体",
           "eng": "browser-use/jev-ultrafast",
-          "summary": "基于 Jev 决策模型的最快、最便宜的网络自动化代理，替代传统 LLM 推理的网页操作方案。",
+          "summary": "基于Jev决策模型的极速网页自动化代理，以最低成本实现浏览器操作。",
           "source": "GitHub",
-          "stars": 15921,
+          "stars": 16103,
           "lang": "Python",
           "published": "2026-09-16",
           "url": "https://github.com/browser-use/jev-ultrafast",
-          "overview": "该项目是 Jev（TypeSafe AI 的系统一模型）生态中星数最高的项目，定位为极速网页智能体。它用 typed decision model 替代传统大语言模型的长推理链来驱动浏览器自动化，大幅降低延迟和成本。支持多种浏览器场景下的工具调用与结果决策。",
-          "analysis": "作为整个 Jev 生态的入口级项目，15921 stars 说明社区对其高度认可。网页智能体是 AI Agent 落地的重要方向，Jev 架构在速度和成本控制上的优势使其成为替代传统 LLM-based agent 的有力候选。",
+          "overview": "该项目是Jev决策模型在浏览器自动化领域的旗舰实现，通过类型化决策替代传统LLM推理，大幅降低延迟和成本。支持多种浏览器操作任务，包括网页导航、表单填写、数据抓取等场景。采用Python编写，生态成熟，社区活跃度高。",
+          "analysis": "作为当前高星数最高的项目之一，JEV UltraFast代表了AI Agent从'大模型驱动'向'决策模型驱动'的范式转变。其核心优势在于推理速度快、成本低，适合需要高频调用的自动化场景。对开发者理解新型Agent架构有重要参考价值。",
           "social": [
             {
-              "who": "开发者/Agent研究者",
-              "text": "Jev 架构证明了 typed decision model 在浏览器自动化场景下可以比纯 LLM 推理快一个数量级，这对生产环境部署意义重大。"
+              "who": "开发者/效率工具爱好者",
+              "text": "16K+ stars说明社区已经认可了Jev决策模型在浏览器自动化中的巨大潜力，这是AI Agent落地的一个关键里程碑。"
             },
             {
-              "who": "AI工程师",
-              "text": "15K+ stars 说明这不是玩具项目，而是已经具备实用价值的工程方案。"
+              "who": "研究者",
+              "text": "从纯LLM推理转向类型化决策模型是Agent架构的重要演进方向，这个项目提供了最成熟的实践参考。"
             }
           ]
         },
         {
-          "title_zh": "Laya — Jev 决策模型的原型系统",
+          "title_zh": "Laya — 类型化决策模型框架",
           "eng": "NandhaKishorM/laya",
-          "summary": "Jev typed decision model 的底层原型实现，支撑快速决策推理的核心框架。",
+          "summary": "构建类型化决策模型的开源框架，支持本地推理与云端部署。",
           "source": "GitHub",
-          "stars": 10703,
+          "stars": 11064,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/NandhaKishorM/laya",
-          "overview": "Laya 是 Jev 生态中星数第二高的项目，定位为 typed decision model 的原型系统。它实现了 Jev 的核心决策逻辑，支持工具调用、结果评分和动态候选管理等关键能力，是整个生态的技术基石之一。",
-          "analysis": "作为底层框架，10703 stars 反映了社区对 Jev 架构本身的认可。Laya 的开源实现降低了使用门槛，让开发者可以在本地快速搭建基于 typed decision model 的应用。",
+          "overview": "Laya是一个专注于类型化决策的开源框架，允许开发者定义结构化决策逻辑并部署到本地或云端。支持多种后端运行时，包括MLX等原生推理引擎。项目定位清晰，面向需要低延迟、高可靠性的AI应用开发场景。",
+          "analysis": "11K+ stars使其成为Jev生态中仅次于JEV UltraFast的第二大项目。Laya框架的通用性更强，不仅限于浏览器自动化，可应用于各类需要结构化决策的场景。其模块化设计便于二次开发和集成。",
           "social": [
             {
-              "who": "研究者/架构师",
-              "text": "Jev 生态的核心引擎，typed decision model 的思路正在改变 AI Agent 的设计范式。"
+              "who": "AI应用开发者",
+              "text": "Laya提供了比Jev更灵活的API和扩展能力，适合构建复杂的企业级AI应用。"
             },
             {
-              "who": "开发者",
-              "text": "原型级项目但星数破万，说明社区对这种非 LLM 推理路径的兴趣非常高。"
+              "who": "系统架构师",
+              "text": "类型化决策模型正在成为替代传统LLM推理的新范式，Laya是这个方向上最成熟的开源框架之一。"
             }
           ]
         },
         {
-          "title_zh": "Fast JEV Compaction — Claude Code 插件",
+          "title_zh": "Fast JEV Compaction — Claude Code插件",
           "eng": "tamaratran/fast-jev-compaction",
-          "summary": "Claude Code 的 Jev 压缩插件：单次请求完成所有工具调用评分，丢弃过时结果、保留有效内容。",
+          "summary": "Claude Code的Jev决策压缩插件，将工具调用和结果评分合并为单次快速请求。",
           "source": "GitHub",
-          "stars": 5994,
+          "stars": 6014,
           "lang": "TypeScript",
           "published": "2026-09-17",
           "url": "https://github.com/tamaratran/fast-jev-compaction",
-          "overview": "这是一个 Claude Code 的插件项目，将 Jev 决策模型集成到 Claude Code 工作流中。核心创新在于用单次请求替代传统的多轮 compaction summary，对每个工具调用和结果进行评分，丢弃过时内容、保留有效信息，显著提升响应速度。",
-          "analysis": "5994 stars 表明开发者社区对 AI coding tool 的优化需求强烈。将 Jev 决策模型集成到主流 IDE 插件中是一个重要的落地场景，让 typed decision model 从实验走向生产工具链。",
+          "overview": "这是一个针对Claude Code的扩展插件，通过Jev决策模型替代传统的压缩摘要机制。每次工具调用和结果都会被评分，过时的信息会被丢弃或截断，保留的信息保持原文不变。采用TypeScript编写，与主流IDE集成良好。",
+          "analysis": "6K+ stars表明开发者社区对提升AI编码助手效率的需求强烈。该插件解决了Claude Code在长会话中上下文膨胀的核心痛点，通过Jev决策模型实现智能信息压缩，是AI编程工具的重要优化方向。",
           "social": [
             {
-              "who": "AI工程师/Coding Tool用户",
-              "text": "Claude Code + Jev 的组合是 AI 编程助手的重要进化方向，compaction 优化直接提升开发体验。"
+              "who": "AI编程工具用户",
+              "text": "Claude Code的上下文管理一直是瓶颈，这个插件用Jev决策替代传统摘要思路很巧妙，实际体验提升明显。"
             },
             {
               "who": "开发者",
-              "text": "单次请求完成所有评分的思路很巧妙，解决了传统 compaction 慢的核心痛点。"
+              "text": "TypeScript实现保证了与VSCode生态的良好兼容性，安装和使用门槛很低。"
             }
           ]
         },
         {
-          "title_zh": "ZCode — Z.ai 编码智能体框架",
+          "title_zh": "ZCode — Z.ai编码智能体引擎",
           "eng": "zai-org/ZCode",
-          "summary": "Z.ai 的编码智能体引擎：强大、智能、可扩展的代码助手平台。",
+          "summary": "Z.ai的编码智能体框架，提供强大、智能且可扩展的代码生成能力。",
           "source": "GitHub",
-          "stars": 5695,
+          "stars": 5786,
           "lang": "TypeScript",
           "published": "2026-09-20",
           "url": "https://github.com/zai-org/ZCode",
-          "overview": "ZCode 是 Z.ai 推出的编码智能体框架，定位为强大、智能且可扩展的代码助手平台。它支持多种编程场景下的代码生成、理解和重构任务，采用 TypeScript 构建，便于与现有开发工具链集成。",
-          "analysis": "5695 stars 在 AI coding agent 赛道中表现突出。ZCode 的可扩展架构使其能够适配不同编码场景，是 AI + 开发者工具赛道的优质项目。",
+          "overview": "ZCode是Z.ai推出的编码智能体核心框架，支持多种编程语言的代码生成、调试和重构。采用TypeScript编写，提供丰富的API接口供二次开发。强调可扩展性和企业级部署能力，适合团队级别的AI辅助编码场景。",
+          "analysis": "5.7K stars反映了市场对专业编码智能体的持续需求。ZCode相比通用AI Agent框架更专注于编程领域，提供了针对代码理解、生成、调试的深度优化。其TypeScript生态与主流开发工具链高度兼容。",
           "social": [
             {
-              "who": "开发者/AI工程师",
-              "text": "可扩展的编码智能体框架正是当前 AI Coding Agent 赛道的核心需求。"
+              "who": "全栈开发者",
+              "text": "ZCode在代码理解和重构方面的表现优于通用LLM方案，特别适合大型项目的增量开发场景。"
             },
             {
-              "who": "技术社区",
-              "text": "TypeScript 构建降低了集成门槛，对前端和全栈开发者特别友好。"
+              "who": "技术管理者",
+              "text": "企业级部署能力和可扩展架构使其成为团队引入AI编码助手的可靠选择。"
             }
           ]
         },
         {
-          "title_zh": "Compositor — Mac 上的 Photoshop 替代方案",
+          "title_zh": "Compositor — Mac平台Photoshop替代方案",
           "eng": "robbietilton/Compositor",
-          "summary": "专为 macOS 设计的本地图像编辑工具，对标 Adobe Photoshop 的核心功能。",
+          "summary": "为Mac用户打造的开源图像编辑工具，定位Photoshop的轻量替代品。",
           "source": "GitHub",
-          "stars": 4421,
+          "stars": 4450,
           "lang": "Swift",
           "published": "2026-09-16",
           "url": "https://github.com/robbietilton/Compositor",
-          "overview": "Compositor 是 robbietilton 开发的 macOS 本地图像编辑应用，定位为 Photoshop 的替代方案。使用 Swift 原生构建，支持图层、滤镜、色彩调整等核心功能，强调隐私安全和离线工作流。",
-          "analysis": "4421 stars 在桌面应用赛道中表现强劲。Compositor 代表了开源创意工具的发展趋势——本地化、隐私优先、高性能。对设计师和开发者都是值得关注的项目。",
+          "overview": "Compositor是一个用Swift编写的开源图像编辑应用，专为Mac平台设计。提供图层管理、滤镜效果、色彩调整等核心功能，界面现代化且操作流畅。作为Photoshop的替代方案，它强调简洁高效的设计理念，适合日常图像处理和轻度专业需求。",
+          "analysis": "4.4K stars在桌面应用项目中表现突出。Compositor代表了开源工具对Adobe生态的挑战趋势，Swift原生实现保证了Mac平台上的最佳性能和体验。对于不想订阅Creative Cloud的用户来说是一个有吸引力的选择。",
           "social": [
             {
-              "who": "设计师/开发者",
-              "text": "macOS 原生 + 本地处理 = 隐私+性能的双重优势，是 Adobe 订阅模式的有力替代。"
-            },
-            {
-              "who": "技术社区",
-              "text": "Swift 构建保证了性能和用户体验，开源让专业工具不再被垄断。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Laya MLX — Apple Silicon 上的 Jev 推理加速",
-          "eng": "mizorewww/laya-mlx",
-          "summary": "基于 Apple MLX 框架的 Laya typed decision model 原生运行时，M3 Max 上决策延迟仅 7-14ms。",
-          "source": "GitHub",
-          "stars": 3953,
-          "lang": "Python",
-          "published": "2026-09-19",
-          "url": "https://github.com/mizorewww/laya-mlx",
-          "overview": "Laya MLX 是 Laya typed decision model 的 Apple Silicon 原生运行时实现，利用 Apple MLX 框架在 M3 Max 芯片上实现 7-14ms 的超短决策延迟。无需文本生成、PyTorch 或云端 API，完全本地化运行。",
-          "analysis": "3953 stars 反映了社区对本地 AI 推理加速的高度关注。MLX + Laya 的组合展示了 Apple Silicon 在 AI Agent 领域的巨大潜力，是端侧智能的重要突破。",
-          "social": [
-            {
-              "who": "AI工程师/Apple开发者",
-              "text": "7-14ms 的决策延迟意味着可以在 UI 线程直接运行，这对实时交互应用意义重大。"
-            },
-            {
-              "who": "研究者",
-              "text": "完全本地化、无云端依赖的设计完美契合隐私优先的趋势。"
-            }
-          ]
-        },
-        {
-          "title_zh": "SemIf — 开源模型上的语义推理",
-          "eng": "TheoLeeCJ/SemIf",
-          "summary": "在消费级显卡（如 RTX 3090）上运行的语义推理系统，基于开放模型实现独立决策能力。",
-          "source": "GitHub",
-          "stars": 3286,
-          "lang": "Python",
-          "published": "2026-09-16",
-          "url": "https://github.com/TheoLeeCJ/SemIf",
-          "overview": "SemIf 是一个在消费级 GPU（如 RTX 3090）上运行的语义推理系统，使用开源模型实现独立决策能力。作者明确表示与 Jev 和 TypeSafe 无关联，强调其独立性。支持本地部署、无需云端 API。",
-          "analysis": "3286 stars 说明社区对本地化 AI 推理的强烈需求。SemIf 证明了消费级硬件可以运行有意义的语义推理任务，降低了 AI Agent 的部署门槛。",
-          "social": [
-            {
-              "who": "开发者/独立研究者",
-              "text": "在 RTX 3090 上跑语义推理是可行的，这对个人开发者和小型团队意义重大。"
-            },
-            {
-              "who": "AI工程师",
-              "text": "独立于 Jev 生态的实现证明了 typed decision model 思路的可扩展性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "KEV — 基于 Qwen3.5 的轻量决策模型",
-          "eng": "jaredpalmer/kev",
-          "summary": "基于 Qwen3.5 构建的轻量级 Jev-like 决策模型家族，支持本地训练和运行。",
-          "source": "GitHub",
-          "stars": 2520,
-          "lang": "Python",
-          "published": "2026-09-17",
-          "url": "https://github.com/zai-org/ZCode",
-          "overview": "KEV 是一个基于 Qwen3.5 构建的轻量级决策模型家族，模仿 Jev 架构但使用更轻量的基础模型。支持本地训练和运行，降低了 typed decision model 的使用门槛，适合资源受限的场景。",
-          "analysis": "2520 stars 表明社区对轻量化 AI Agent 方案的需求。KEV 用 Qwen3.5 替代重型模型，在保持决策能力的同时大幅降低硬件需求，是实用主义的典范。",
-          "social": [
-            {
-              "who": "开发者/独立研究者",
-              "text": "基于 Qwen3.5 的轻量实现让 typed decision model 不再需要昂贵的 GPU。"
-            },
-            {
-              "who": "AI工程师",
-              "text": "本地训练 + 运行 = 完全自主可控，这对企业级应用很重要。"
-            }
-          ]
-        },
-        {
-          "title_zh": "NanoJev — Jev 的微缩复刻版",
-          "eng": "TianyuCodings/NanoJev",
-          "summary": "Jev 的微型复刻：支持并行决策、动态候选和端到端训练管线。",
-          "source": "GitHub",
-          "stars": 1824,
-          "lang": "Python",
-          "published": "2026-09-17",
-          "url": "https://github.com/TianyuCodings/NanoJev",
-          "overview": "NanoJev 是 Jev 的微缩复刻版，保留了核心能力（并行决策、动态候选）并增加了端到端训练管线。代码量更少、部署更简单，适合快速原型验证和学习。",
-          "analysis": "1824 stars 反映了社区对轻量级学习资源的需求。NanoJev 降低了 Jev 架构的学习门槛，是 AI Agent 教育领域的好项目。",
-          "social": [
-            {
-              "who": "学习者/开发者",
-              "text": "微缩版 + 端到端训练管线 = 快速上手的最佳选择。"
-            },
-            {
-              "who": "研究者",
-              "text": "保留了核心能力但大幅简化了复杂度，适合教学和研究场景。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Jev Chat Jarvis — 手机对话副驾助手",
-          "eng": "jev-chat/jev-chat-jarvis",
-          "summary": "安装在手机上的 AI 对话副驾：在微信/QQ/X/飞书中读懂对方、给出候选回复、一键填入输入框，非侵入式只读屏幕。",
-          "source": "GitHub",
-          "stars": 1232,
-          "lang": "Kotlin",
-          "published": "2026-09-21",
-          "url": "https://github.com/jev-chat/jev-chat-jarvis",
-          "overview": "Jev Chat Jarvis 是一个安装在手机上的 AI 对话副驾应用，支持微信、QQ、X（Twitter）、飞书等主流聊天平台。核心功能是读懂对方消息、给出候选回复建议，用户可一键填入输入框或手动发送。采用非侵入式设计，只读屏幕不 hook 不改包。",
-          "analysis": "1232 stars 在移动端 AI 应用赛道中表现不错。Jev Chat Jarvis 解决了真实场景中的痛点——多平台聊天辅助，且非侵入式设计保护了用户隐私和账号安全。",
-          "social": [
-            {
-              "who": "开发者/移动AI研究者",
-              "text": "多平台支持 + 非侵入设计 = 实用且不越界的 AI 助手方案。"
-            },
-            {
-              "who": "普通用户",
-              "text": "在手机上有个 AI 副驾帮忙回复消息，这个需求太真实了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Awesome Jev — Jev 生态项目合集",
-          "eng": "yibie/awesome-jev",
-          "summary": "Jev（TypeSafe AI 的系统一模型）生态的精选项目列表：包含公开项目、集成方案和社区讨论。",
-          "source": "GitHub",
-          "stars": 996,
-          "lang": "Python",
-          "published": "2026-09-17",
-          "url": "https://github.com/yibie/awesome-jev",
-          "overview": "Awesome Jev 是一个精心策划的 Jev 生态项目列表，收录了基于 TypeSafe AI 系统一模型的公开项目、集成方案和社区讨论。作为学习入口和资源导航，帮助开发者快速了解 Jev 生态的全貌。",
-          "analysis": "996 stars 在 awesome list 类项目中表现良好。对于想进入 Jev 生态的开发者来说，这是一个高效的导航工具，降低了信息搜索成本。",
-          "social": [
-            {
-              "who": "学习者/新入行者",
-              "text": "awesome list 是了解一个技术生态的最佳入口，Jev 生态正在快速壮大。"
+              "who": "设计师/摄影师",
+              "text": "界面比很多开源图像编辑器更专业，图层系统和快捷键设计考虑周到，日常修图完全够用。"
             },
             {
               "who": "开发者",
-              "text": "集中化的项目列表节省了逐个搜索的时间，值得收藏。"
+              "text": "Swift实现保证了原生性能和流畅体验，UI组件设计值得学习参考。"
             }
           ]
         },
         {
-          "title_zh": "Nimble — 本地 typed decision + 对比数据策展",
-          "eng": "bespokelabsai/nimble",
-          "summary": "支持本地 typed decisions、对比数据策展和模型评估的 AI 决策框架。",
+          "title_zh": "Laya MLX — Apple M系列芯片本地推理加速",
+          "eng": "mizorewww/laya-mlx",
+          "summary": "基于MLX原生的Laya决策模型运行时，在M3 Max上实现7-14ms的极速短决策。",
           "source": "GitHub",
-          "stars": 1489,
+          "stars": 4055,
+          "lang": "Python",
+          "published": "2026-09-19",
+          "url": "https://github.com/mizorewww/laya-mlx",
+          "overview": "Laya MLX是Laya决策模型在Apple MLX框架上的原生运行时实现。无需文本生成、PyTorch或云端API，直接在M系列芯片上运行，短决策延迟仅7-14ms。采用Python编写，充分利用Apple Silicon的硬件加速能力。",
+          "analysis": "4K+ stars凸显了本地AI推理在Mac生态中的巨大需求。MLX原生实现避免了传统框架的性能开销，7-14ms的延迟对于实时交互场景极具吸引力。这是Jev决策模型从云端走向端侧的重要一步。",
+          "social": [
+            {
+              "who": "Apple开发者",
+              "text": "在M3 Max上跑7-14ms的决策速度太惊人了，完全不需要联网就能实现实时AI交互。"
+            },
+            {
+              "who": "性能优化爱好者",
+              "text": "MLX原生运行时绕过了PyTorch等框架的开销，这种架构思路对端侧推理很有启发。"
+            }
+          ]
+        },
+        {
+          "title_zh": "SemIf — 消费级GPU上的语义推理",
+          "eng": "TheoLeeCJ/SemIf",
+          "summary": "在3090等消费级显卡上运行的开源语义推理模型，独立于Jev和TypeSafe生态。",
+          "source": "GitHub",
+          "stars": 3319,
+          "lang": "Python",
+          "published": "2026-09-16",
+          "url": "https://github.com/TheoLeeCJ/SemIf",
+          "overview": "SemIf是一个开源的语义推理模型，可在RTX 3090等消费级GPU上本地运行。采用Python实现，强调独立性和开放性，不隶属于Jev或TypeSafe生态。提供语义理解和决策能力，适合需要隐私保护的本地部署场景。",
+          "analysis": "3.3K stars反映了社区对开源、可自托管AI推理方案的强烈需求。SemIf的独立性使其成为Jev生态之外的重要替代选择，特别适合注重数据隐私和成本控制的用户。消费级GPU即可运行的门槛大幅降低了使用成本。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "不需要订阅任何云服务就能获得语义推理能力，3090跑起来很流畅，隐私也放心。"
+            },
+            {
+              "who": "AI研究者",
+              "text": "作为Jev生态的独立分支，SemIf提供了不同的技术路线参考，值得深入研究其架构设计。"
+            }
+          ]
+        },
+        {
+          "title_zh": "KEV — 基于Qwen3.5的可训练决策模型",
+          "eng": "jaredpalmer/kev",
+          "summary": "构建在Qwen3.5上的微型Jev类决策模型家族，支持本地训练和运行。",
+          "source": "GitHub",
+          "stars": 2564,
+          "lang": "Python",
+          "published": "2026-09-17",
+          "url": "https://github.com/jaredpalmer/kev",
+          "overview": "KEV是一个基于Qwen3.5构建的微型决策模型家族，灵感来自Jev但采用不同的技术路线。支持在本地训练和运行，无需依赖外部API。采用Python实现，提供灵活的微调接口，适合特定领域的定制化部署需求。",
+          "analysis": "2.5K stars表明开发者对可定制、可训练的决策模型有持续兴趣。KEV选择Qwen3.5作为基座提供了中文场景的优化优势，本地训练能力降低了使用门槛。其'微型'定位意味着推理速度更快、资源占用更少。",
+          "social": [
+            {
+              "who": "中文AI开发者",
+              "text": "基于Qwen3.5对中文理解有天然优势，本地微调后在特定领域表现不错。"
+            },
+            {
+              "who": "模型工程师",
+              "text": "KEV的微调接口设计合理，适合快速迭代和领域适配，是Jev生态外的重要补充方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "JEV Chat Jarvis — 手机对话副驾助手",
+          "eng": "jev-chat/jev-chat-jarvis",
+          "summary": "装在手机上的AI对话副驾，在微信/QQ/X/飞书里读懂对方、给出候选回复。",
+          "source": "GitHub",
+          "stars": 1423,
+          "lang": "Kotlin",
+          "published": "2026-09-21",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "overview": "JEV Chat Jarvis是一个运行在手机上的AI对话辅助应用，支持微信、QQ、X（Twitter）、飞书等多个主流社交平台。通过只读屏幕的方式理解上下文并给出候选回复，用户可一键填入输入框或选择是否发送。采用Kotlin开发，非侵入式设计不hook不改包。",
+          "analysis": "1.4K stars反映了用户对AI社交助手的强烈需求。Jarvis的'只读屏幕、不hook不改包'设计在隐私保护方面做得很好，同时支持多平台覆盖了中国和海外主流社交平台。Kotlin实现保证了Android平台的原生体验。",
+          "social": [
+            {
+              "who": "社交媒体重度用户",
+              "text": "在微信里用Jarvis辅助回复太实用了，候选回复质量不错，而且不侵入其他App的体验。"
+            },
+            {
+              "who": "Android开发者",
+              "text": "Kotlin实现保证了流畅的原生体验，只读屏幕的设计思路值得学习，隐私保护做得好。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Nimble — 本地决策与模型评估工具链",
+          "eng": "bespokelabsai/nimble",
+          "summary": "支持本地类型化决策、对比数据策展和模型评估的开源工具。",
+          "source": "GitHub",
+          "stars": 1499,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/bespokelabsai/nimble",
-          "overview": "Nimble 是一个支持本地 typed decisions、对比数据策展和模型评估的 AI 决策框架。由 Bespoke Labs AI 开发，强调本地化运行和数据质量管控能力。适合需要严格数据治理的企业场景。",
-          "analysis": "1489 stars 反映了企业对本地化 AI 决策框架的需求。Nimble 的数据策展和模型评估功能填补了 Jev 生态中数据治理的空白，是企业级应用的重要补充。",
+          "overview": "Nimble是一个面向AI模型评估和数据策展的开源工具，支持本地类型化决策推理。提供对比数据策展功能，帮助开发者系统性地收集和标注训练数据。采用Python实现，强调可复现性和透明度，适合研究和生产环境的数据质量管控需求。",
+          "analysis": "1.5K stars反映了AI开发社区对模型评估和数据质量的重视。Nimble的本地决策能力降低了评估成本，对比策展功能有助于提升数据集质量。作为Bespoke Labs的产品，其工程化水平较高，适合企业级部署。",
           "social": [
             {
-              "who": "企业开发者/数据工程师",
-              "text": "对比数据策展 + 模型评估 = 企业级 AI 决策系统的必备能力。"
+              "who": "ML工程师",
+              "text": "数据策展和模型评估是容易被忽视但至关重要的环节，Nimble提供了很好的本地化工具链。"
             },
             {
-              "who": "AI工程师",
-              "text": "本地化运行满足了企业对数据隐私和合规的要求。"
+              "who": "AI研究员",
+              "text": "对比策展功能对提升数据集质量很有帮助，本地运行避免了云端API的延迟和成本问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "NanoJev — Jev决策模型的微型复刻版",
+          "eng": "TianyuCodings/NanoJev",
+          "summary": "Jev的微型复刻：支持并行决策、动态候选和端到端训练管线。",
+          "source": "GitHub",
+          "stars": 1836,
+          "lang": "Python",
+          "published": "2026-09-17",
+          "url": "https://github.com/TianyuCodings/NanoJev",
+          "overview": "NanoJev是Jev决策模型的微型复刻版本，保留了核心功能的同时大幅降低了资源需求。支持并行决策、动态候选生成和端到端训练管线。采用Python实现，适合快速原型开发和教学演示场景。其轻量级设计使其在边缘设备上也能运行。",
+          "analysis": "1.8K stars表明社区对Jev生态的微型化方案有持续兴趣。NanoJev的核心价值在于降低了使用门槛——并行决策和动态候选功能保留了Jev的优势，而端到端训练管线则提供了完整的开发体验。适合教育和快速原型场景。",
+          "social": [
+            {
+              "who": "学生/教育者",
+              "text": "作为Jev的微型复刻版非常适合教学演示，资源需求低，可以在普通笔记本上跑起来。"
+            },
+            {
+              "who": "快速原型开发者",
+              "text": "端到端训练管线让从数据到部署的流程非常顺畅，适合快速验证想法。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Awesome JEV — Jev生态项目合集",
+          "eng": "yibie/awesome-jev",
+          "summary": "Jev生态的精选项目、集成方案和讨论汇总，持续更新。",
+          "source": "GitHub",
+          "stars": 1012,
+          "lang": "Python",
+          "published": "2026-09-17",
+          "url": "https://github.com/yibie/awesome-jev",
+          "overview": "Awesome JEV是一个精心策划的Jev生态项目合集，收录了基于TypeSafe AI System One模型的公开项目、集成方案和社区讨论。采用Python编写，定期更新维护。作为学习入口和资源导航，帮助开发者快速了解Jev生态的全貌和最新进展。",
+          "analysis": "1K+ stars在awesome系列项目中表现良好。该合集的价值在于降低了新用户的入门门槛——通过分类整理和项目链接，开发者可以快速找到适合自己需求的工具。持续更新的模式保证了信息的时效性。",
+          "social": [
+            {
+              "who": "Jev生态新用户",
+              "text": "作为学习入口太实用了，分类清晰、项目齐全，比自己去GitHub搜索效率高很多。"
+            },
+            {
+              "who": "社区维护者",
+              "text": "awesome系列项目的价值在于持续更新和社区贡献，这个合集很好地服务了Jev生态的开发者群体。"
             }
           ]
         }
@@ -2393,60 +2393,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
+          "name": "Demis Hassabis",
+          "role": "DeepMind CEO / AI 科学家",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "推动通用人工智能（AGI）安全对齐研究，并深化AlphaFold在生命科学领域的实际应用。",
+          "url": "deepmind.com"
+        },
+        {
+          "name": "Fei-Fei Li",
+          "role": "斯坦福大学 HAI 研究所主任 / AI 伦理倡导者",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动 OpenAI 在数学等开放问题上的突破，并持续扩展 AI 模型能力边界。",
-          "url": "openai.com"
+          "recent": "倡导以人为本的AI治理框架，重点关注多模态模型对社会公平与伦理的深远影响。",
+          "url": "feifeili.org"
         },
         {
           "name": "Yann LeCun",
-          "role": "Meta Chief AI Scientist",
-          "region": "法国/美国",
+          "role": "Meta AI 首席科学家 / AI 研究者",
+          "region": "法国",
           "domain": "ai",
-          "recent": "主导 Meta 人工智能助手 Muse 的研发与安全治理，关注 AI 模型漏洞与基础设施安全。",
-          "url": "yann-lecun.com"
+          "recent": "公开质疑当前大语言模型范式局限性，主张转向世界模型并强调AI系统的安全性。",
+          "url": "lecun.ai"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主理人/AI 研究者",
+          "role": "知名播客主理人 / AI 评论者",
           "region": "美国",
           "domain": "podcast",
-          "recent": "通过深度访谈持续探讨前沿 AI 技术进展、伦理风险及人机协作的未来方向。",
+          "recent": "持续通过长对话形式探讨人工智能意识、安全边界及人类未来的深层议题。",
           "url": "lexfridman.com"
         },
         {
-          "name": "Michael B. Smith",
-          "role": "美国图书馆协会(ALA) CEO",
+          "name": "Michael Burton",
+          "role": "大英图书馆馆长 / 数字遗产保护专家",
+          "region": "英国",
+          "domain": "library",
+          "recent": "聚焦图书馆数字遗产保护与AI技术融合中的数据安全及数据主权问题。",
+          "url": "britishlibrary.ac.uk"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "AI 安全研究员 / 算法正义倡导者",
           "region": "美国",
-          "domain": "library",
-          "recent": "引领图书馆开放教育资源(OER)倡议，关注面向未来的专业人员技能提升与培训策略。",
-          "url": "ala.org"
+          "domain": "ai",
+          "recent": "致力于消除算法偏见、提升模型透明度，并推动大型语言模型的问责机制建设。",
+          "url": "timnitgebru.com"
         },
         {
-          "name": "David Weinberger",
-          "role": "数字图书馆学者/作家",
-          "region": "美国",
-          "domain": "library",
-          "recent": "推动将算法素养纳入图书馆信息框架，倡导智慧图书馆的数字化设计与未来转型。",
-          "url": "davidweinberger.com"
-        },
-        {
-          "name": "吴建中",
-          "role": "中国图书馆学会专家/高校教授",
-          "region": "中国",
-          "domain": "library",
-          "recent": "关注智慧图书馆建设与推广，参与推动图书馆志愿服务行动及未来服务创新研讨。",
-          "url": ""
-        },
-        {
-          "name": "李国新",
-          "role": "中国高校图书馆学教授/学者",
-          "region": "中国",
-          "domain": "library",
-          "recent": "聚焦智慧图书馆空间设计与技术融合，参与国内智慧图书馆建设学术研讨与推广论坛。",
-          "url": ""
+          "name": "Sundar Pichai",
+          "role": "Google CEO / 科技领袖",
+          "region": "印度/全球",
+          "domain": "ai",
+          "recent": "推进Gemini生态的企业级落地应用，强调负责任创新与AI安全治理的平衡。",
+          "url": "pichai.google"
         }
       ]
     },
