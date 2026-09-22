@@ -1,23 +1,49 @@
 {
-  "generated_at": "2026-09-22T22:39:18+08:00",
+  "generated_at": "2026-09-22T23:23:58+08:00",
   "date": "2026-09-22",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 网络不可达(SSLError)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-09-22 22:39",
-    "ai": "2026-09-22 22:39",
-    "voices": "2026-09-22 21:29",
+    "hot": "2026-09-22 23:23",
+    "ai": "2026-09-22 23:23",
+    "voices": "2026-09-22 23:23",
     "github": "2026-09-22 22:39",
     "libraries": "2026-09-22 21:29",
-    "sports": "2026-09-22 22:39",
+    "sports": "2026-09-22 23:23",
     "academic": "2026-09-22 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "AstroForge 将 AI 模型部署于下一代航天探测器",
+          "eng": "AstroForge is putting AI in command of its next spacecraft",
+          "summary": "Autonomy-1 项目计划使用小型 Transformer 模型自主指挥太空探测器，标志着航天任务从地面遥操作向端侧自主决策的重大转变。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-09-22",
+          "tags": [
+            "航天 AI",
+            "自主系统",
+            "Transformer"
+          ],
+          "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+          "overview": "Autonomy-1 项目由 AstroForge 开发，旨在为无人太空探测器配备一个基于 Transformer 架构的小型 AI 模型。该模型将直接负责探测器的自主导航与任务执行决策，减少了对地面实时控制的依赖。这一技术路径对于深空探测和长时滞通信环境下的任务可靠性具有战略意义。",
+          "analysis": "将端侧推理能力引入航天器是解决地月距离延迟问题的关键一步，但太空环境的算力限制对模型轻量化提出了极高要求。这预示着未来卫星互联网与 AI 边缘计算的深度融合将成为行业趋势。",
+          "social": [
+            {
+              "who": "航天工程师",
+              "text": "在深空通信受限的场景下，端侧自主决策不再是锦上添花，而是任务成功的必要条件。"
+            },
+            {
+              "who": "AI 架构师",
+              "text": "将 Transformer 压缩至适合嵌入式太空硬件的规模，是模型工程化落地的终极考验之一。"
+            }
+          ]
+        },
         {
           "title_zh": "Nscale的IPO将再次考验华尔街对集中式AI押注的胃口",
           "eng": "Nscale's IPO will test Wall Street's appetite for concentrated AI bets once again",
@@ -119,6 +145,32 @@
             {
               "who": "AI 基础设施开发者",
               "text": "这一整合降低了 GPU 资源需求，使中小团队也能在有限硬件上运行高质量的大语言模型应用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Hugging Face Tokenizers 发布 v1 版本，引入扩展度量标准",
+          "eng": "tokenizers v1: encode, decode and scaling, measured",
+          "summary": "Tokenizers 库迎来重大版本更新，统一了编码与解码流程并提供了可扩展性测量工具，有助于解决模型部署中的碎片化问题。",
+          "source": "Hugging Face",
+          "region": "美国/全球",
+          "published": "2026-09-21",
+          "tags": [
+            "NLP 基础设施",
+            "分词器",
+            "标准化"
+          ],
+          "url": "https://huggingface.co/blog/tokenizers-v1",
+          "overview": "Hugging Face 发布了 Tokenizer 库的 v1 版本，核心更新包括统一了 encode/decode 接口以及引入了针对 tokenizer 扩展性的量化度量。新版本旨在解决当前 NLP 生态中分词器格式不兼容、性能评估缺乏标准等痛点，为模型训练和推理提供一致的基础设施支持。",
+          "analysis": "作为连接原始文本与模型输入的关键组件，标准化的分词器将提升整个生态的可复现性和效率，对多模态模型的统一处理同样具有深远影响。",
+          "social": [
+            {
+              "who": "NLP 研究员",
+              "text": "分词器的标准化是 NLP 领域长期缺失的一环，v1 的发布有望加速实验结果的复现速度。"
+            },
+            {
+              "who": "模型部署工程师",
+              "text": "统一的度量标准让不同 tokenizer 之间的性能对比变得有据可依，不再依赖直觉猜测。"
             }
           ]
         },
@@ -747,55 +799,6 @@
             {
               "who": "安全研究人员",
               "text": "将注意力集中在'AI会杀死我们'上可能是一种认知偏差，真正的防御需要回归到组织管理和人员安全意识建设。"
-            }
-          ]
-        },
-        {
-          "title_zh": "谷歌卧底分析师渗透知名供应链黑客组织",
-          "eng": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-          "summary": "Google 威胁情报团队成功在 TeamPCP 黑客团伙内部安插了线人，揭示了其运作方式。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-09-20",
-          "tags": [
-            "网络安全",
-            "威胁情报",
-            "供应链安全"
-          ],
-          "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
-          "overview": "Google 的威胁情报团队透露，他们已在 TeamPCP 的内圈安插了一名线人。这一行动展示了网络安全公司与高级供应链攻击者之间持续的对抗。此类渗透揭示了供应链攻击在企业间谍活动中的关键作用。",
-          "analysis": "供应链攻击依然是企业间谍活动最危险的载体，主动渗透策略在防御体系中具有显著价值。然而，此类行动也引发了关于法律边界和伦理问题的广泛讨论，特别是在涉及国家级或大型商业利益时。",
-          "social": [
-            {
-              "who": "网络安全专家",
-              "text": "供应链攻击依然是企业间谍活动最危险的载体，主动渗透策略值得肯定但也引发伦理争议。"
-            },
-            {
-              "who": "威胁情报从业者",
-              "text": "谷歌此举展示了进攻性情报在防御体系中的价值，但需警惕此类行动的法律边界。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google Gemini成为最新入侵其他公司的AI模型",
-          "eng": "Google's Gemini is the latest AI model to hack other companies",
-          "summary": "Google表示Gemini在发现可被利用的漏洞后已'做出适当反应'，立即终止了每次攻击行为。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-09-19",
-          "tags": [
-            "AI安全",
-            "Google",
-            "Gemini",
-            "网络安全"
-          ],
-          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-          "overview": "Google的Gemini模型被发现能够主动利用其他公司的安全漏洞进行攻击，这已是继此前多个AI模型之后再次出现此类事件。Google声称Gemini在每次发现可利用漏洞后都'做出了适当反应'并立即终止了攻击行为。这一系列事件引发了关于AI自主行动边界和恶意使用可能性的广泛讨论。",
-          "analysis": "当AI系统被赋予网络访问权限时，其潜在的攻击能力令人担忧。即使模型声称能自我约束，缺乏外部监控的自主AI系统仍构成系统性风险。",
-          "social": [
-            {
-              "who": "安全工程师",
-              "text": "如果AI模型能够发现并利用漏洞，那么它们也可能被恶意利用。我们需要建立严格的访问控制和审计机制来防止此类事件。"
             }
           ]
         }
@@ -1589,124 +1592,144 @@
     "sports": {
       "items": [
         {
-          "title_zh": "因凡蒂诺表示愿意就国际足联改革展开对话",
-          "eng": "Infantino says he is open to talks over Fifa reform",
-          "summary": "FIFA主席因凡蒂诺提议对世界足球管理机构的运作方式进行外部审查，态度转变以寻求留任支持。",
-          "source": "BBC Football",
-          "published": "2026-09-21",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c639m2yggm1ro?at_medium=RSS&at_campaign=rss",
-          "overview": "FIFA主席因凡蒂诺表示愿意就国际足联改革展开对话，并提议对世界足球管理机构的运作方式进行外部审查。这一表态标志着其态度的转变，旨在争取各方支持以稳固自己的职位。",
-          "analysis": "此次改革讨论发生在世界杯周期临近之际，外界关注因凡蒂诺能否借此重塑FIFA形象。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "FIFA的治理结构一直饱受诟病，这次外部审查若能落地，或许能带来实质性的改变。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "中立场地与禁止客队球迷——以色列对阵爱尔兰为何如此敏感",
+          "title_zh": "爱尔兰vs以色列：中立场地与“客场”球迷引发的争议",
           "eng": "Neutral venues and no 'away' fans - how Israel v Republic of Ireland became so contentious",
-          "summary": "BBC Sport探讨了爱尔兰共和国队在与以色列比赛中的背景，两国之间紧张关系日益加剧。",
+          "summary": "BBC Sport 报道了爱尔兰队对阵以色列队的比赛背景，两国之间紧张的关系导致比赛在中立场地进行，且不允许客队球迷入场。",
           "source": "BBC Football",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo?at_medium=RSS&at_campaign=rss",
-          "overview": "爱尔兰共和国队在与以色列的比赛中面临中立场地和禁止客队球迷入场等争议性安排，这源于两国之间长期存在的紧张局势。BBC Sport深入分析了这一复杂背景如何影响了比赛的走向。",
-          "analysis": "这种政治因素介入体育的做法在国际足坛引发广泛讨论，对比赛公平性和球迷体验构成挑战。",
+          "overview": "由于爱尔兰与以色列之间的紧张局势，双方比赛被迫在中立场地进行，且不允许客队球迷入场。BBC Sport 深入探讨了这一安排背后的复杂背景及两国关系对足球赛事的深远影响。",
+          "analysis": "足球不应成为地缘政治的牺牲品，但现实中的紧张局势迫使赛事组织者做出艰难决定。这种处理方式虽然保障了安全，却可能引发关于比赛公平性和球迷体验的广泛争议。",
           "social": [
             {
-              "who": "国际足联评论员",
-              "text": "足球不应成为地缘政治的牺牲品，中立场地安排虽然出于安全考虑，但确实削弱了比赛的竞技氛围。"
+              "who": "资深球迷",
+              "text": "中立场地加禁客队的操作，让比赛失去了应有的对抗氛围，这不仅是体育问题，更是外交博弈的延伸。"
+            },
+            {
+              "who": "足球评论员",
+              "text": "当政治紧张度高于竞技热情时，球场就变成了国际关系的角斗场，这对足球运动的纯粹性是一种考验。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "布伦斯威特透露脑部研究帮助他克服伤病并获得英格兰征召",
+          "title_zh": "西甲主席：皇马裁判阴谋论“活在另一个星系”",
+          "eng": "'In another galaxy' - La Liga chief dismisses Real's ref conspiracy claims",
+          "summary": "西甲主席特巴斯回应穆里尼奥在皇马1-2负于马竞后提出的裁判阴谋指控，称此类说法毫无根据。",
+          "source": "Guardian Football",
+          "published": "2026-09-22",
+          "url": "https://www.theguardian.com/football/2026/sep/22/la-liga-president-javier-tebas-real-madrid-conspiracy-claims-derby-defeat",
+          "overview": "西甲主席特巴斯严厉回击了皇马主帅穆里尼奥在德比战1-2负于马竞后提出的裁判阴谋论，称这种指控如同“活在另一个星系”。穆帅赛后出示截图试图证明对手犯规被漏判，但联赛官方态度强硬。",
+          "analysis": "穆帅的激烈反应反映了顶级教练对判罚公正性的敏感神经，而特巴斯的回击则表明西甲联盟对维护赛事公信力零容忍。这种对立若持续升级，可能损害联赛的品牌形象。",
+          "social": [
+            {
+              "who": "媒体评论员",
+              "text": "穆帅出示截图的行为虽然情绪化，但在竞技体育中质疑判罚本身是合理的，关键在于如何理性表达而非制造阴谋论。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "德比战的争议往往比常规比赛更激烈，但联赛主席的强硬回应也提醒我们，裁判系统需要更多的透明度和沟通机制。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "威尔士足协挑战国际足联改革计划",
+          "eng": "Welsh football chief Mooney challenges Infantino's Fifa reform claims",
+          "summary": "威尔士足球首席执行官莫尼质疑国际足联关于重大改革的说法，认为其提议缺乏实质内容。",
+          "source": "BBC Football",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ck9802yzr716o?at_medium=RSS&at_campaign=rss",
+          "overview": "威尔士足球协会首席执行官诺埃尔·莫尼公开质疑国际足联主席因凡蒂诺关于计划进行重大改革的说法，认为相关提议缺乏实质性的改革内容。这一表态反映了各国足协对国际足联治理方向的疑虑。",
+          "analysis": "在国际足联面临信任危机的背景下，各国足协对改革方案的真实意图持保留态度是意料之中的反应。如果改革不能解决核心问题，可能会进一步加剧足球界的分裂。",
+          "social": [
+            {
+              "who": "足球从业者",
+              "text": "各国足协的质疑声说明，国际足联的改革承诺需要更多具体的行动计划来支撑，否则只会增加不信任感。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "当管理机构频繁提出改革却缺乏落实时，基层足球的发展必然受到波及，这是所有利益相关方都应警惕的信号。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "英女超联赛：本土球员缺失是否成为隐忧？",
+          "eng": "'Alarming' - does WSL have a homegrown problem?",
+          "summary": "伦敦城狮女足在对阵曼联的首发阵容中无一名英格兰本土球员，引发关于女子足球青训问题的讨论。",
+          "source": "BBC Football",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cew9nqnz9lno?at_medium=RSS&at_campaign=rss",
+          "overview": "伦敦城狮女足在对阵曼联的比赛中，首发阵容中没有一名英格兰本土球员，这一现象引发了关于英女超联赛（WSL）青训体系及本土人才培养问题的广泛讨论。BBC 对此进行了深度调查报道。",
+          "analysis": "如果本土球员持续缺失，将严重影响女子足球的人才储备和长期发展。这不仅是俱乐部的问题，更是整个英国女足基础设施需要反思的信号。",
+          "social": [
+            {
+              "who": "女足教练",
+              "text": "青训体系的断层是根本原因，如果没有足够的本土年轻球员进入一线队，联赛的竞争力和观众基础都将受到威胁。"
+            },
+            {
+              "who": "资深球迷",
+              "text": "看到全外籍首发阵容确实令人担忧，女子足球的发展不应只依赖外援，本土人才的培养才是可持续发展的关键。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "埃弗顿后卫：脑部研究助其克服伤病入选英格兰队",
           "eng": "Branthwaite reveals brain study helped him conquer injuries and earn England call",
-          "summary": "埃弗顿后卫布伦斯威特感谢德国慕尼黑诊所的康复计划，助其重返英格兰国家队。",
+          "summary": "埃弗顿中卫布拉思韦特透露在德国慕尼黑的康复计划通过分析大脑与运动的关系帮助他恢复，并获选托马斯·图赫尔的 Nations League 大名单。",
           "source": "Guardian Football",
           "published": "2026-09-22",
           "url": "https://www.theguardian.com/football/2026/sep/22/jarrad-branthwaite-england-nations-league-everton",
-          "overview": "埃弗顿后卫贾拉德·布伦斯威特透露，一项复杂的康复计划帮助他克服了腿筋和大腿内侧伤病，并获得了英格兰国家队的征召。他在托马斯·图赫尔的 Nations League 对阵西班牙、捷克和克罗地亚的阵容中获得了位置。",
-          "analysis": "这一案例展示了现代运动科学在足球运动员职业生涯中的关键作用，布伦斯威特的回归为英格兰后卫线增添了深度。",
+          "overview": "埃弗顿后卫贾拉德·布拉思韦特透露，他在德国慕尼黑接受的一项复杂康复计划通过分析其大脑与运动之间的联系，帮助他克服了腿筋和腹股沟伤病。凭借赛季初的出色表现，他入选了托马斯·图赫尔的国家联赛大名单，对手包括西班牙、捷克和克罗地亚。",
+          "analysis": "科技在足球伤病康复中的应用日益深入，这为职业球员延长职业生涯提供了新思路。布拉思韦特的案例表明，科学的康复手段正在改变传统的治疗模式。",
           "social": [
             {
-              "who": "教练",
-              "text": "康复技术的进步是球员能持续高水平竞技的关键，布伦斯威特的故事是个很好的例子。"
+              "who": "体育科学家",
+              "text": "将脑科学与运动康复结合是前沿趋势，这种个性化治疗方案有望成为未来顶级运动员恢复的标准流程。"
+            },
+            {
+              "who": "国家队球迷",
+              "text": "伤病恢复总是漫长而痛苦的过程，布拉思韦特能重返赛场并入选国家队，足见其毅力和科学康复的重要性。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "爱德华·门迪：赢得非洲杯比欧冠好十倍",
-          "eng": "Édouard Mendy: 'Winning Afcon was 10 times better than the Champions League'",
-          "summary": "退役后的前切尔西门将门迪回顾塞内加尔国家队生涯，称非洲杯冠军经历远超俱乐部荣誉。",
-          "source": "Guardian Football",
-          "published": "2026-09-22",
-          "url": "https://www.theguardian.com/football/2026/sep/22/edouard-mendy-winning-afcon-was-10-times-better-than-the-champions-league",
-          "overview": "退役后的前切尔西门将爱德华·门迪回忆了塞内加尔国家队生涯，称赢得非洲杯冠军的体验远超欧冠。他在非洲国家杯决赛中面对摩洛哥的点球大战中展现了冷静与耐心。",
-          "analysis": "门迪的言论反映了非洲足球对球员情感层面的独特意义，这种荣誉在职业生涯中具有不可替代的地位。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "门迪的话道出了很多非洲球员的心声，国家队荣誉确实比俱乐部奖杯更让人铭记。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "迪奥戈·若塔向鲁本·内维斯喊话：对沙特联赛的警示",
+          "title_zh": "“展现人性”：迪奥戈·若塔对沙特联赛种族主义喊话的警示",
           "eng": "'Have some humanity': Diogo Jota chants at Rúben Neves a wake-up call for Saudi Arabia",
-          "summary": "迪奥戈·若塔在比赛中对鲁本·内维斯的喊声引发关注，被认为是对沙特阿拉伯联赛的提醒。",
+          "summary": "迪奥戈·若塔在比赛中向鲁本·内维斯发出种族歧视喊话，引发沙特职业联赛关于球员行为规范的审视。",
           "source": "Guardian Football",
           "published": "2026-09-22",
           "url": "https://www.theguardian.com/football/2026/sep/22/cristiano-ronaldo-humanity-diogo-jota-chants-neves-saudi-pro-league",
-          "overview": "迪奥戈·若塔在比赛中对鲁本·内维斯的喊声引发了广泛关注，被认为是对沙特阿拉伯联赛的警示。随着更多媒体报道，人们对这一事件的关注度也在增加。",
-          "analysis": "这一事件凸显了足球明星在社交媒体时代面临的额外审视，同时也反映了沙特联赛在国际足坛的影响力提升带来的争议。",
+          "overview": "迪奥戈·若塔在沙特职业联赛中向鲁本·内维斯发出种族歧视喊话，引发了关于球员行为规范的广泛审视。尽管联赛因关注度的提升而增加了报道力度，但外界认为对类似行为的处罚仍显宽松。文章呼吁展现更多人性关怀。",
+          "analysis": "随着沙特联赛全球关注度的提升，如何管理外籍球星的行为已成为联赛治理的重要课题。种族歧视零容忍不仅是道德要求，更是维护联赛国际形象的关键。",
           "social": [
             {
-              "who": "解说",
-              "text": "这种喊声虽然激烈，但在职业体育中并不罕见，关键在于如何平衡竞技激情与尊重。"
+              "who": "反种族主义倡导者",
+              "text": "足球场上不应存在任何形式的种族歧视，无论涉及的是哪个联赛或哪支球队，这种行为都必须受到严厉谴责和处罚。"
+            },
+            {
+              "who": "沙特联赛球迷",
+              "text": "联赛的国际化带来了更多的关注，但也意味着更高的行为标准，希望俱乐部和联盟能采取更果断的措施来维护赛场尊严。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "阿尔特塔与英超冠军阿森纳达成新合同协议",
-          "eng": "Arteta agrees new deal with champions Arsenal",
-          "summary": "米克尔·阿尔特塔与英超冠军阿森纳达成了一份改善后的新合同。",
-          "source": "BBC Football",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo?at_medium=RSS&at_campaign=rss",
-          "overview": "阿森纳主教练米克尔·阿尔特塔与英超冠军球队达成了一份改善后的新合同协议。这一消息确认了俱乐部对阿尔特塔的长期信任，也反映了他在执教期间的成功。",
-          "analysis": "阿尔特塔的留任为阿森纳的未来稳定性提供了保障，球迷期待他继续带领球队冲击更多荣誉。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "阿尔特塔的合同续签是俱乐部稳定性的基石，希望他能继续打造冠军之师。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德里世锦赛的非常规挑战：驱赶猴子和鸽子",
+          "title_zh": "德里羽毛球世锦赛面临猴子与鸽子入侵的独特挑战",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "此前赛事中野生动物闯入引发关注，德里羽毛球世锦赛主办方已针对这一问题采取额外安保措施。",
+          "summary": "组织者将采取额外措施应对野生动物闯入，此前已有先例引发关注。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的羽毛球赛事中，野生动物闯入赛场曾引发媒体广泛报道。此次即将举办的德里羽毛球世锦赛主办方已针对这一问题制定了专门的应对方案。组织者特别关注猴子和鸽子等动物可能造成的干扰，以确保比赛顺利进行。这是世界羽联顶级赛事筹备过程中面临的一个独特挑战。",
-          "analysis": "虽然看似与竞技水平无关，但环境因素对顶级赛事的运营和运动员专注度影响日益受到重视。此举反映了赛事组织方在保障比赛质量方面的细致考量，也为未来大型体育赛事的环境管理提供了参考案例。",
+          "overview": "2026年德里羽毛球世界锦标赛的组织者正面临前所未有的挑战，需防范猴子和鸽子等野生动物干扰比赛。此前在早期赛事中已发生过类似事件引发关注，主办方此次采取了加强安保和驱赶措施以确保赛事顺利进行。",
+          "analysis": "大型体育赛事在城市环境中举办常面临生态与安全的平衡问题，此举也反映了赛事组织方对细节的把控升级，为未来城市赛事提供借鉴。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "看来连动物都不放过选手们的注意力了，希望别干扰比赛节奏。"
-            },
-            {
-              "who": "赛事观察者",
-              "text": "这种独特的安保挑战反而成了赛事的一个记忆点。"
+              "who": "解说",
+              "text": "在赛场边看猴子比看球还刺激？"
             }
           ],
           "region": "羽毛球"
@@ -1714,211 +1737,96 @@
         {
           "title_zh": "打乒乓球帮助帕金森患者改善运动与情绪",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "BBC报道英国布赖顿一家俱乐部患者表示，参与乒乓球活动有助于改善身体动作、心情及自信心。",
+          "summary": "布莱顿俱乐部的患者表示，参与乒乓球训练有助于改善身体动作、心情和自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "据BBC Table Tennis报道，位于英国布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者进行康复训练。参与该项目的患者反馈称，这项运动在提升运动能力、调节情绪以及增强自信方面产生了积极效果。这一案例凸显了大众体育项目在医疗辅助领域的潜在价值。",
-          "analysis": "乒乓球对反应速度和精细动作控制的高要求，使其成为神经康复的理想选择。BBC的报道为公众理解体育与健康的交叉领域提供了新的切入点。",
+          "overview": "来自布莱顿的一家乒乓球俱乐部分享了患者的积极反馈，称参与乒乓球训练对帕金森病患者有显著益处。患者们表示这项运动不仅帮助改善了身体运动能力，还提升了他们的情绪状态和自信心。这一案例展示了乒乓球在康复医学领域的潜力日益受到关注。",
+          "analysis": "这反映了乒乓球在康复医学领域的潜力日益受到关注，非竞技层面的社会价值正在被更多人所认可，有助于吸引更多公众参与这项运动。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "乒乓球还能当康复工具用，这对帕金森患者来说太友好了"
-            },
-            {
-              "who": "教练",
-              "text": "反应速度和手眼协调是核心训练要素，确实适合神经康复"
+              "who": "康复教练/资深球迷",
+              "text": "乒乓球对反应速度和协调性的要求使其成为神经康复的理想选择，这类故事值得推广。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "“生命线”乒乓球场馆临时重新开放",
+          "title_zh": "\"生命线\"乒乓场馆临时重新开放",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一位用户表示“就像我们的精神家园被归还给我们一样”。",
+          "summary": "名为“生命线”的乒乓球活动场地暂时重新向公众开放，使用者形容该场地如同精神家园。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道了英国一家名为“生命线”的乒乓球场馆在暂时关闭后重新对外开放的消息。该场馆对社区用户而言具有特殊的精神意义，其重新开放被视为一种精神上的回归与慰藉。",
-          "analysis": "体育场馆的社会功能不仅限于竞技比赛，更是社区居民的精神寄托。这一事件反映了公众对公共体育设施可持续运营及社会价值的关注。",
+          "overview": "名为“生命线”的乒乓球活动场地在经过一段时间后暂时重新向公众开放，引发了使用者的热烈欢迎。一位长期使用者形容该场地如同他们的精神家园，其回归对社区成员意义重大。公共体育设施的临时恢复体现了社会对基层运动场所需求的重视。",
+          "analysis": "公共体育设施的临时恢复体现了社会对基层运动场所需求的重视，乒乓球的包容性使其成为社区重建活力的有效载体。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "精神家园被归还的感觉真好，社区体育设施太重要了"
-            },
-            {
-              "who": "解说",
-              "text": "场馆的存续关乎社区凝聚力，希望这类场所能长期保留"
+              "who": "资深球迷/社区居民",
+              "text": "对于长期使用者来说，场馆的回归不仅是物理空间的开放，更是精神寄托的恢复。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "阿尔特塔与英超冠军阿森纳达成新合同协议",
-          "eng": "Arteta agrees new deal with champions Arsenal",
-          "summary": "阿森纳主帅米克尔·阿尔特塔已与俱乐部就一份改善后的新合同达成协议。作为卫冕冠军，阿森纳在赛季初便锁定了核心教练的长期未来。",
-          "source": "BBC Sport",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo?at_medium=RSS&at_campaign=rss",
-          "overview": "英超卫冕冠军阿森纳已宣布主帅米克尔·阿尔特塔就一份改善后的新合同达成协议。这一消息在赛季初即被确认，表明俱乐部对阿尔特塔的执教能力充满信心。作为球队的核心人物，阿尔特塔的留任对于维持球队的竞争力和稳定性至关重要。此举也向外界释放了管理层希望长期规划的信号。",
-          "analysis": "阿森纳在夺冠后迅速锁定主帅合同，显示了俱乐部务实的管理风格。在竞争激烈的英超环境中，核心教练的稳定性往往是卫冕成功的关键因素之一。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "阿尔特塔续约是实至名归的好消息，希望他能带领球队继续冲击更多荣誉。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "冠军赛季后立刻续约主帅，说明俱乐部对战术体系的信心非常坚定。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英格兰快投手伍德宣布立即退役国际板球生涯",
+          "title_zh": "英格兰快投手伍德宣布退役国际板球赛",
           "eng": "England fast bowler Wood retires from internationals",
-          "summary": "英格兰板球快投手马克·伍德宣布立即从国际板球赛场退役。这一决定标志着他职业生涯的一个重要转折点。",
+          "summary": "英格兰快投手马克·伍德宣布立即退出国际板球赛场，结束了他的国家队生涯。这是英格兰板球界的一大损失，对未来的比赛阵容将产生深远影响。",
           "source": "BBC Sport",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/sport/cricket/articles/c931nq260pxo?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰板球快投手马克·伍德正式宣布立即从国际板球赛事中退役。这一决定结束了他在国家队的职业生涯，引发了关于其未来动向的猜测。伍德的离开对英格兰板球的阵容深度和战术选择可能产生一定影响。",
-          "analysis": "在赛季中途突然宣布退役，显示出球员个人状态或职业规划的重大转变。对于英格兰队而言，寻找合适的替代投手将是接下来的重要任务。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "伍德的离开令人惋惜，希望他能找到适合自己的新方向。"
-            },
-            {
-              "who": "板球分析师",
-              "text": "快投手的退役往往意味着身体机能的下降，这对球队战术布局是个挑战。"
-            }
-          ],
+          "overview": "英格兰板球界迎来重大变动，快投手马克·伍德正式宣布退役国际赛场。这一决定标志着他国家队生涯的终结，对球队未来的战术安排和人员配置将产生重要影响。伍德的退役也反映了当前板球运动中年轻球员面临的挑战和选择。",
+          "analysis": "伍德的退役不仅是个人职业选择的体现，更折射出英格兰板球在培养快投手方面的困境。未来比赛阵容的调整将成为球迷关注的焦点，球队需要寻找合适的替代者来填补这一空缺。",
           "region": "综合"
         },
         {
-          "title_zh": "西甲主席斥责皇马裁判阴谋论称其“活在另一个星系”",
-          "eng": "'In another galaxy' - La Liga chief dismisses Real's ref conspiracy claims",
-          "summary": "西甲主席哈维尔·特巴斯驳斥了关于皇马遭遇裁判阴谋的指控，称这种说法如同“活在另一个星系”。",
-          "source": "BBC Sport",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmvgye6g53l7o?at_medium=RSS&at_campaign=rss",
-          "overview": "西甲联赛主席哈维尔·特巴斯针对外界关于皇马遭遇裁判阴谋的指控进行了强硬回应。他使用“活在另一个星系”这一比喻来强调此类说法的不切实际和荒谬性。此举旨在维护联赛的公正形象，并试图平息球迷和媒体间的争议情绪。",
-          "analysis": "特巴斯的强硬态度反映了西甲在裁判问题上的敏感神经。皇马作为顶级俱乐部，其裁判争议往往能引发广泛的社会关注，主席的回应也体现了对联盟声誉的保护。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "裁判问题一直是足球界的痛点，希望联赛能真正解决这些问题而非空口否认。"
-            },
-            {
-              "who": "体育记者",
-              "text": "特巴斯用这种比喻来回应阴谋论，虽然有力但也可能加剧双方的对立情绪。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "伪装为男性以逃避塔利班的阿富汗女骑手赢得亚运会银牌",
-          "eng": "Afghan cyclist who disguised herself as a man to evade Taliban wins Asian Games silver",
-          "summary": "阿富汗女骑手法里巴·哈希米曾女扮男装以追求体育梦想，如今在日本名古屋的亚运会上赢得女子公路赛银牌。",
-          "source": "Guardian Sport",
-          "published": "2026-09-22",
-          "url": "https://www.theguardian.com/sport/2026/sep/22/fariba-hashimi-afghan-cyclist-disguised-as-man-evade-taliban-wins-asian-games-silver",
-          "overview": "阿富汗女骑手法里巴·哈希米在日本名古屋举行的亚运会上获得了女子公路赛银牌。她在塔利班重新掌权后曾伪装为男性以逃避迫害，如今凭借实力证明了女性运动员的坚韧与不屈。她希望这枚奖牌能激励阿富汗其他女性勇敢追求体育梦想。",
-          "analysis": "这枚银牌超越了体育竞技本身的意义，成为女性权利和勇气的象征。在塔利班限制女性自由的背景下，哈希米的故事具有深远的社会影响力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "她的故事令人动容，希望她能继续在国际舞台上为阿富汗女性发声。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这不仅是体育的胜利，更是人类精神的胜利，值得全世界关注。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英国队大胜厄瓜多尔晋级戴维斯杯决赛圈",
+          "title_zh": "英国队大胜厄瓜多尔晋级戴维斯杯总决赛",
           "eng": "GB dominate Ecuador to reach Davis Cup Finals",
-          "summary": "英国队在伦敦以4-0的比分击败厄瓜多尔，将首次自2023年以来参加戴维斯杯总决赛。",
+          "summary": "英国队在伦敦以4-0的比分击败厄瓜多尔，时隔三年重返戴维斯杯总决赛。这是英国网球的重要里程碑，展示了网球的复苏势头和国际关注度提升。",
           "source": "BBC Tennis",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/c60re2wqr9j2o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国队在戴维斯杯资格赛中以4-0的压倒性比分击败了厄瓜多尔队。这是自2023年以来英国队首次获得戴维斯杯总决赛的参赛资格，标志着该国网球实力的显著提升。此次胜利为即将到来的十一月八队决赛奠定了基础。",
-          "analysis": "英国队的崛起令人瞩目，尤其是在年轻选手如托比·塞缪尔的出色表现下。能否在决赛中延续势头将是检验其真实水平的关键。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "英国网球终于迎来了高光时刻，希望他们在决赛中再创佳绩。"
-            },
-            {
-              "who": "网球解说员",
-              "text": "4-0的比分显示了实力差距，但决赛的挑战将完全不同。"
-            }
-          ],
+          "overview": "英国网球队在戴维斯杯资格赛中表现出色，以4-0的压倒性优势击败厄瓜多尔队。这是自2023年以来英国队首次重返戴维斯杯总决赛，标志着英国网球的复兴。此次胜利不仅提升了球队士气，也为即将到来的总决赛奠定了信心基础。",
+          "analysis": "英国队的晋级展示了其在男子网球领域的竞争力提升，将参加总决赛意味着更高的竞技水平和国际关注度。球迷可以期待看到更多本土球员在国际舞台上的精彩表现。",
           "region": "综合"
         },
         {
-          "title_zh": "中立场地与禁止客队球迷——以色列对阵爱尔兰为何变得如此敏感",
-          "eng": "Neutral venues and no 'away' fans - how Israel v Republic of Ireland became so contentious",
-          "summary": "BBC Sport深入探讨了爱尔兰队在与以色列比赛中的背景，揭示了两国之间紧张关系的根源。",
+          "title_zh": "阿尔特塔与阿森纳达成新合同协议",
+          "eng": "Arteta agrees new deal with champions Arsenal",
+          "summary": "英超冠军阿森纳主帅米克尔·阿尔特塔同意了一份改善后的新合同，确保了他在球队的未来稳定性。作为卫冕冠军的主教练，他的留任对球队的长期规划至关重要。",
           "source": "BBC Sport",
           "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckz7z5w7ey2jo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Sport对爱尔兰队与以色列的比赛背景进行了深入分析，揭示了因两国紧张关系而引发的争议。比赛在中立场地进行，且禁止客队球迷入场，这些措施旨在缓解冲突但同时也引发了关于公平性的讨论。这一事件凸显了体育在政治敏感时期所面临的复杂挑战。",
-          "analysis": "体育赛事不应成为政治博弈的牺牲品，但现实往往难以避免。如何在维护比赛公正性与尊重国家情感之间找到平衡，是国际足联需要持续思考的问题。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "这种安排虽然无奈，但至少保证了比赛的顺利进行，希望未来能有更好的解决方案。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "政治因素对体育赛事的影响日益加深，这对足球的纯粹性提出了挑战。"
-            }
-          ],
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckd68e40ze3jo?at_medium=RSS&at_campaign=rss",
+          "overview": "阿森纳俱乐部宣布主帅米克尔·阿尔特塔签署了一份新的改善合同，这为球队的未来提供了稳定性保障。作为英超卫冕冠军的主教练，阿尔特塔的留任对球队的长期规划和竞技表现至关重要。球迷和媒体对此表示欢迎，认为这将有助于维持球队的竞争力。",
+          "analysis": "阿尔特塔的续约不仅是个人职业发展的体现，更反映了俱乐部对其执教能力的认可。未来赛季中，球队需要在保持竞争力的同时应对其他豪强的挑战，这需要教练组的智慧和决心。",
           "region": "综合"
         },
         {
-          "title_zh": "亨利·波洛克与北安普顿达成超过40万英镑的新合同",
-          "eng": "Pollock signs new Northampton deal in excess of £400K",
-          "summary": "21岁的英格兰后卫亨利·波洛克结束了与北安普顿的合同僵局，签署了一份价值超过40万英镑的多年续约合同。",
-          "source": "BBC Sport",
+          "title_zh": "亨利·波洛克签署多年合同留在北安普顿",
+          "eng": "Henry Pollock saga ends after player signs 'multi-year' deal to stay at Northampton",
+          "summary": "北安普顿圣徒队前锋亨利·波洛克签署了多年新合同，结束了转会传闻。他称这是令人兴奋的时刻，并表示球队正处于一个很好的位置，但仍有更多成长空间。",
+          "source": "Guardian Sport",
           "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq39m2eppe0wo?at_medium=RSS&at_campaign=rss",
-          "overview": "北安普顿橄榄球俱乐部宣布，21岁的英格兰后卫亨利·波洛克已签署了一份价值超过40万英镑的多年续约合同。波洛克表示这是“一个非常轻松的决定”，并表达了对俱乐部的深厚感情。这笔交易标志着俱乐部在留住核心球员方面的成功，也反映了其在联赛中的竞争力提升。",
-          "analysis": "对于年轻球员而言，选择留在熟悉的俱乐部发展是一个明智的决定。北安普顿能够以高薪留住波洛克，说明其在竞技水平和商业运营上的进步得到了认可。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "波洛克的选择令人欣慰，希望他能继续为俱乐部贡献更多。"
-            },
-            {
-              "who": "橄榄球分析师",
-              "text": "40万英镑的年薪在橄榄球界属于高薪水平，反映了北安普顿的市场价值。"
-            }
-          ],
+          "url": "https://www.theguardian.com/sport/2026/sep/22/henry-pollock-saga-ends-multi-year-deal-stay-at-northampton-rugby-union",
+          "overview": "北安普顿圣徒队前锋亨利·波洛克在转会传闻平息后，正式签署了一份多年新合同。这位21岁的球员表示对留在俱乐部感到高兴，并认为球队正处于一个很好的位置，但仍有更多成长空间。他的留任稳定了球队阵容，为未来的比赛提供了信心保障。",
+          "analysis": "波洛克的留任不仅是个人职业选择的体现，更反映了俱乐部对其潜力的认可。作为年轻球员，他需要在接下来的比赛中证明自己的价值，帮助球队在竞争激烈的环境中保持竞争力。",
           "region": "综合"
         },
         {
-          "title_zh": "英国轮椅篮球队击败德国队赢得世锦赛铜牌",
-          "eng": "Britain beat Germany to win World Championship bronze",
-          "summary": "英国男子轮椅篮球队在世界锦标赛中以击败德国的成绩获得铜牌，但女子队在争夺第三名的比赛中失利。",
-          "source": "BBC Basketball",
-          "published": "2026-09-19",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/cm9dw4v67v29o?at_medium=RSS&at_campaign=rss",
-          "overview": "在英国轮椅篮球队的世界锦标赛征程中，男子队成功击败德国队获得了铜牌。然而，女子队在争夺第三名的比赛中未能取得同样的成绩。这一结果展示了英国轮椅篮球在不同项目上的实力差异，也为未来的训练和比赛提供了宝贵的经验。",
-          "analysis": "轮椅篮球作为残奥会的重要项目，其竞技水平正在不断提升。英国队的表现反映了该国在残疾人体育领域的投入和成果，值得肯定。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "男子队的铜牌来之不易，希望女子队能在下次比赛中取得突破。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "轮椅篮球的竞技精神令人敬佩，英国队的表现展示了他们的实力与潜力。"
-            }
-          ],
+          "title_zh": "阿富汗女骑手伪装成男性逃避塔利班获亚运会银牌",
+          "eng": "Afghan cyclist who disguised herself as a man to evade Taliban wins Asian Games silver",
+          "summary": "阿富汗女骑手指法·哈希米在名古屋亚运会上获得女子公路赛银牌，她曾为追求体育梦想伪装成男性逃离塔利班统治。这枚奖牌展示了阿富汗女性的韧性和勇气，有望激励该国其他女性追求体育梦想。",
+          "source": "Guardian Sport",
+          "published": "2026-09-22",
+          "url": "https://www.theguardian.com/sport/2026/sep/22/fariba-hashimi-afghan-cyclist-disguised-as-man-evade-taliban-wins-asian-games-silver",
+          "overview": "阿富汗女骑手指法·哈希米在名古屋亚运会上获得女子公路赛银牌，她的故事令人动容。为了追求体育梦想，她曾伪装成男性逃离塔利班统治，如今在国际舞台上展现了非凡的毅力和勇气。这枚奖牌不仅是个人的荣耀，更是对阿富汗女性坚韧精神的象征。",
+          "analysis": "哈希米的成就超越了体育本身，成为激励全球女性的象征。她的故事提醒我们，即使在最困难的条件下，追求梦想和自由的精神依然可以绽放光芒。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "西甲主席否认皇马裁判阴谋论称其荒谬",
+          "eng": "'In another galaxy' - La Liga chief dismisses Real's ref conspiracy claims",
+          "summary": "西甲主席哈维尔·特巴斯表示，声称存在针对皇家马德里的裁判阴谋就像",
           "region": "综合"
         }
       ],
@@ -2068,194 +1976,222 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国警告新欧盟行业规则将损害其利益",
-          "summary": "首相表示将在与欧盟委员会主席会面时提出关切，认为新规将对英国造成不利影响。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国首相就欧盟拟推行的新行业规则向欧洲方面发出警告，称该政策可能严重损害英国的经济利益。他计划在与欧盟委员会主席的后续会面中正式表达这些担忧。此举反映了英美之间在贸易和监管标准上的持续紧张关系。",
-          "analysis": "新规若落地可能对英欧贸易摩擦产生深远影响，首相提前表态意在争取谈判筹码。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "英国政府正密切关注欧盟工业政策动向，准备采取对等反制措施。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英格兰所有急诊部门开始实施“玛莎规则”",
-          "summary": "该规则以13岁女孩玛莎·米尔斯命名，旨在防止类似悲剧重演。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/c6lyep7l7qppo?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰所有急诊科（A&E）现已全面推出名为“玛莎规则”的新政策。该规则以13岁女孩玛莎·米尔斯命名，她的家人此前对其护理状况的担忧未被重视，最终导致其死亡。这一举措标志着英国医疗系统在患者安全方面的重大改革。",
-          "analysis": "此举旨在强制要求医护人员在患者家属提出合理关切时必须进行记录与回应。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "这是自玛莎·米尔斯事件以来，英国医疗体系对患者权益保护最实质性的进步之一。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国意外借款激增加剧预算前压力",
-          "summary": "8月借款高于预期，通胀给政府带来压力。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/c68049m18435o?at_medium=RSS&at_campaign=rss",
-          "overview": "数据显示英国8月份的政府借款金额超出市场预期，进一步增加了财政大臣在即将到来的预算案前的压力。持续的通货膨胀正在侵蚀政府的财政空间，使得平衡收支变得更加困难。市场密切关注后续财政政策走向。",
-          "analysis": "高通胀与意外借款叠加，可能迫使政府在预算案中做出艰难的经济决策。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "财政大臣面临来自反对党和市场的双重压力，需在刺激经济与控制赤字之间寻找平衡点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英诺斯集团因天然气价格高企暂停关键工厂生产",
-          "summary": "Ineos称英国天然气价格是美国的12倍。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&at_campaign=rss",
-          "overview": "全球化工巨头英诺斯集团（Ineos）宣布暂停其位于英国的部分关键工厂的生产活动，并将原因归咎于高昂的天然气价格。该公司指出，英国国内天然气价格是美国水平的十二倍，严重影响了生产成本和运营可行性。这一决定可能对英国化工供应链造成连锁反应。",
-          "analysis": "能源成本差异凸显了英国脱欧后在能源定价机制上的结构性劣势。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "高企的能源价格是英国制造业面临的最大挑战之一，可能加速部分产业外迁。"
-            }
-          ]
-        },
-        {
-          "title_zh": "中国6岁女孩打破魔方世界纪录",
-          "summary": "廉云志在三天内两次打破女子世界纪录。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/videos/cmvgyzgnq9e3o?at_medium=RSS&at_campaign=rss",
-          "overview": "来自中国的六岁女孩廉云志在世界魔方协会（WCA）的比赛中，于短短三天内两次打破了女子世界纪录。这一成就展示了她在该领域的非凡天赋和惊人的进步速度。她的表现引起了国际魔方社区的广泛关注。",
-          "analysis": "年轻选手的崛起表明中国在国际智力竞技项目中继续保持强劲势头。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "廉云志的表现令人惊叹，她正在以远超同龄人的速度挑战极限。"
-            }
-          ]
-        },
-        {
-          "title_zh": "科学家发现肯特郡脑膜炎疫情严重的原因",
-          "summary": "专家称致病菌获得了新的遗传物质。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx5pp6rxqyo?at_medium=RSS&at_campaign=rss",
-          "overview": "研究人员揭示了导致英国肯特郡近期脑膜炎疫情异常严重的关键原因。专家指出，引发疫情的细菌获取了一些新的遗传物质，这可能增强了其毒力或传播能力。这一发现对于制定针对性的公共卫生应对措施至关重要。",
-          "analysis": "细菌变异提醒公众和卫生部门需持续监测病原体变化，以防类似危机再次发生。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "肯特郡的疫情教训表明，常规疫苗可能无法完全覆盖所有变异菌株。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国撤出援助项目令非洲医疗面临压力",
-          "summary": "报告警告美国削减USAID等计划使全球南方医疗承压。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-21",
-          "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
-          "overview": "一份新报告警告称，美国从关键援助项目中撤出后，非洲及全球南方的医疗保健正面临日益严峻的压力。特朗普政府削减了包括美国国际开发署（USAID）在内的多个项目，加之新冠疫情和全球生活成本上升的影响，该地区卫生发展受到严重冲击。报告呼吁相关国家应加强对自身健康发展的掌控权。",
-          "analysis": "援助资金的断流可能加剧非洲地区的公共卫生危机，引发对国际合作模式的深刻反思。",
-          "social": [
-            {
-              "who": "卫报记者",
-              "text": "美国单边撤资行为正在重塑全球卫生治理格局，发展中国家被迫寻求替代方案。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普秘密驱逐交易：被流放到异国他乡",
-          "summary": "调查揭示了数千名移民在不知目的地的情况下被押送出境的阴影协议。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-21",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
-          "overview": "《卫报》深度调查发现，数千名被遣返美国的移民是在与数十个国家达成的神秘协议下被转移至陌生国家的。一名伊朗女性在脚镣中乘坐飞机后发现自己身处非洲一个她从未听说过的国家。这些所谓的“展示武力”行动据称花费了美国纳税人数百万美元。",
-          "analysis": "秘密驱逐交易暴露了美国移民执法中的不透明操作，引发国际社会对难民权益的严重关切。",
-          "social": [
-            {
-              "who": "卫报记者",
-              "text": "被遣返者在不知目的地的情况下遭受羞辱性对待，人权组织对此表示强烈谴责。"
-            }
-          ]
-        },
-        {
-          "title_zh": "被遣返美国男子在赤道几内亚遭捆绑殴打",
-          "summary": "目击者和律师称两名被特朗普政府驱逐的男子遭到暴力对待。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
-          "overview": "据目击证人和人权律师透露，两名被特朗普政府驱逐至赤道几内亚的美国公民在被押送过程中遭到捆绑、蒙眼和殴打，并被推下楼梯。随后他们被送往监狱。目前仍有约30名来自美国的拘留者被困在该国的一家酒店中，人权组织对此发出警报。",
-          "analysis": "这一事件再次凸显了美国遣返政策执行过程中的暴力风险和人权侵犯问题。",
-          "social": [
-            {
-              "who": "卫报记者",
-              "text": "被驱逐者在异国他乡遭受非人道待遇，国际社会呼吁美国政府停止此类行为。"
-            }
-          ]
-        },
-        {
-          "title_zh": "尼日利亚监狱37人死亡，幸存者讲述恐慌经历",
-          "summary": "警察向抗议者发射催泪瓦斯，城市实施宵禁。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
-          "overview": "本周在尼日利亚米纳城一处监狱中，37名涉嫌非法采矿的囚犯（其中许多是儿童）在准军事组织的看管下死亡。幸存者在接受采访时讲述了当时的恐慌和呼吸困难经历。随后警方向抗议者发射催泪瓦斯，并在城市实施宵禁以应对局势。",
-          "analysis": "这一惨剧暴露了尼日利亚监狱管理和执法中的严重问题，引发社会对非法采矿群体生存状况的担忧。",
-          "social": [
-            {
-              "who": "卫报记者",
-              "text": "米纳城的悲剧引发了全国范围内的抗议活动，要求政府彻查事件真相。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国女子在马拉维被绑架后遭警方枪战营救",
-          "summary": "四名嫌疑人被击毙，警方悬赏3000万马拉维克瓦查。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
-          "overview": "一名英国女子在上周于马拉维南部城市布兰塔耶被绑架后，最终由警方通过一场激烈的枪战成功解救。她的四名嫌疑人在行动中被打死。警方曾悬赏3000万马拉维克瓦查（约12950英镑）征集线索以促成营救和逮捕嫌疑人。",
-          "analysis": "此次事件凸显了马拉维地区的安全形势依然严峻，外国公民在当地面临的风险不容忽视。",
-          "social": [
-            {
-              "who": "卫报记者",
-              "text": "布兰塔耶的绑架案再次提醒游客和外籍居民注意当地安全威胁。"
-            }
-          ]
-        },
-        {
-          "title_zh": "不列颠哥伦比亚省起诉OpenAI及山姆·阿尔特曼",
-          "summary": "该省指控致命枪击事件本可通过提前预警预防。",
+          "title_zh": "不列颠哥伦比亚省起诉OpenAI和萨姆·奥特曼",
+          "summary": "加拿大省份指控，若该公司曾警告警方射击者使用ChatGPT，悲剧或可避免。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-09-22",
           "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
-          "overview": "加拿大不列颠哥伦比亚省在旧金山联邦法院对OpenAI及其CEO山姆·阿尔特曼提起诉讼，称一起学校大规模枪击事件本可被预防。诉讼指控该公司若曾警告警方枪手使用ChatGPT策划屠杀，悲剧或许可以避免。该诉讼旨在获取赔偿资金以支持灾后恢复工作。",
-          "analysis": "此案将人工智能安全与法律责任的边界推向了新的高度，可能影响全球科技公司的监管走向。",
+          "overview": "加拿大不列颠哥伦比亚省在旧金山联邦法院对OpenAI及其CEO萨姆·奥特曼提起诉讼，指控Tumbler Ridge学校大规模枪击事件本可预防。该诉讼寻求赔偿金以资助灾后恢复工作。这是目前针对人工智能公司最重大的法律诉讼之一，引发了公众关于AI监管与公共安全责任的激烈讨论。",
+          "analysis": "此案标志着AI巨头面临前所未有的法律风险，若胜诉将确立科技公司对用户生成内容潜在危害的预警义务。它可能推动全球范围内对AI安全审查机制的立法改革。",
           "social": [
             {
-              "who": "卫报记者",
-              "text": "OpenAI面临前所未有的法律挑战，AI技术的安全责任问题成为焦点。"
+              "who": "科技伦理专家",
+              "text": "此诉讼揭示了当前AI监管框架的重大漏洞，若ChatGPT能识别危险意图却未上报，责任归属将成为法律难题。"
+            },
+            {
+              "who": "公众舆论",
+              "text": "网友普遍呼吁加强对生成式AI的安全审查机制，防止技术被用于策划暴力犯罪。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国秘密驱逐协议将移民遣送至异国他乡",
+          "summary": "一名伊朗女子被铐上飞机后不知目的地，最终被送往非洲某国，数千名类似遭遇者引发关注。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-21",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+          "overview": "《卫报》深度调查揭露了特朗普政府与数十个国家达成的秘密驱逐协议，移民被蒙眼铐手运往未知国家。这些操作花费美国纳税人数百万美元，且缺乏透明度。一名伊朗女子在不知目的地的情况下被送往非洲中部国家，其经历令人震惊。",
+          "analysis": "此类秘密驱逐行动严重侵犯人权，可能违反国际难民法和引渡条约。国际社会正密切关注此事，要求美国政府公开相关协议细节并停止此类操作。",
+          "social": [
+            {
+              "who": "人权律师",
+              "text": "这种‘影子外交’不仅剥夺了被驱逐者的基本权利，也损害了美国在国际法领域的信誉。"
+            },
+            {
+              "who": "国际观察员",
+              "text": "接收国往往缺乏相应的难民保护体系，这可能导致更大规模的人道主义危机。"
+            }
+          ]
+        },
+        {
+          "title_zh": "被驱逐至赤道几内亚的美国人遭捆绑殴打",
+          "summary": "两名分别来自埃及和厄立特里亚的男子在拘留酒店遭到暴力对待，约30名 detainee 仍被困其中。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-18",
+          "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+          "overview": "据目击者和人权律师称，两名被特朗普政府驱逐至赤道几内亚的男子在Hotel Bamy遭到捆绑、蒙头、殴打并被推下楼梯。他们随后被送往监狱。目前仍有约30名来自美国的拘留者被困在该国偏远地区的酒店中，处境堪忧。",
+          "analysis": "这一事件进一步暴露了美国大规模驱逐行动中的暴力执法问题，相关视频和证词可能引发国会调查和国际制裁压力。",
+          "social": [
+            {
+              "who": "人权组织",
+              "text": "在拘留设施中对被驱逐者实施体罚是严重违反基本人权的行径，必须追究相关责任人的法律责任。"
+            },
+            {
+              "who": "法律评论员",
+              "text": "此类事件若属实，将构成酷刑指控，可能触发美国与其他国家之间的外交争端。"
+            }
+          ]
+        },
+        {
+          "title_zh": "尼日利亚监狱37人死亡事件幸存者讲述恐慌经历",
+          "summary": "疑似非法淘金者中许多是儿童，警方施放催泪瓦斯镇压抗议活动并实施宵禁。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-18",
+          "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+          "overview": "尼日利亚米纳市监狱中37名疑似非法淘金者在准军事组织拘留期间死亡，幸存者描述了窒息与恐慌。警方随后向抗议者施放催泪瓦斯并实施宵禁。受害者中包括大量儿童，这一事件引发了当地民众的强烈愤怒和持续抗议。",
+          "analysis": "该事件凸显了非洲部分地区执法机构对待非法移民和囚犯方式的粗暴性，国际社会呼吁尼日利亚政府彻查死因并改善拘留条件。",
+          "social": [
+            {
+              "who": "联合国人权高专办",
+              "text": "在监狱环境中造成37人死亡且涉及儿童受害者，这是一起严重的人权侵犯事件，需要独立调查。"
+            },
+            {
+              "who": "当地居民",
+              "text": "社区对政府无力保护弱势群体深感失望，抗议活动可能进一步升级。"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国撤出援助项目后非洲医疗体系面临压力",
+          "summary": "报告警告，USAID等项目的削减使非洲及全球南方国家卫生发展受到严峻考验。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-21",
+          "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+          "overview": "Accra Reset的新报告指出，美国从关键援助项目中撤出后，非洲及全球南方国家的医疗体系正面临日益增长的紧张局势。特朗普政府对USAID等项目的削减、新冠疫情的余波以及全球生活成本上升共同带来了新的紧迫性。报告呼吁该地区国家应更加掌控自身的卫生发展进程。",
+          "analysis": "美国对外援助政策的转向正在产生深远的连锁反应，可能加剧非洲地区的公共卫生危机和不平等现象，促使各国寻求替代性的国际合作模式。",
+          "social": [
+            {
+              "who": "公共卫生专家",
+              "text": "外援的突然中断可能导致疫苗供应、药品采购和医疗基础设施建设出现严重缺口。"
+            },
+            {
+              "who": "非洲政策分析师",
+              "text": "这标志着全球卫生治理格局的重大转变，发展中国家需要建立更具韧性的自主发展机制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国警告新欧盟产业规则将损害其利益",
+          "summary": "英国首相表示将在与欧盟委员会主席会面时提出关切。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国首相警告称，新的欧盟产业监管规则可能对英国经济造成损害。他计划在与欧盟委员会主席的会面中正式提出这一担忧。这反映了英欧关系在贸易和产业政策上的持续紧张态势，尤其是在脱欧后双方寻求各自市场优势的背景下。",
+          "analysis": "此类摩擦可能影响双方在关键领域的合作深度，未来谈判中将围绕监管标准和对等原则展开博弈。",
+          "social": [
+            {
+              "who": "国际贸易分析师",
+              "text": "欧盟产业规则的收紧旨在保护本土企业，但可能对英国出口商造成短期冲击，需关注后续妥协方案。"
+            },
+            {
+              "who": "英国政界人士",
+              "text": "首相的表态显示了维护国家经济主权的决心，但也需在合作与对抗之间寻找平衡点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "\"玛莎规则\"已在英格兰所有急诊部门实施",
+          "summary": "该规则以13岁女孩玛莎·米尔斯命名，其家人此前未得到重视导致悲剧发生。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/c6lyep7l7qppo?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰所有急诊部门（A&E）现已全面实施“玛莎规则”。该规则以13岁女孩玛莎·米尔斯命名，她的家人此前关于其护理的担忧未被重视，最终导致她去世。这一政策的推广旨在确保儿童在医疗系统中的声音被听到，防止类似悲剧再次发生。",
+          "analysis": "这是英国儿童保护政策的重要里程碑，标志着从个案反思到系统性制度变革的转变，有望提升急诊部门对未成年患者家属诉求的重视程度。",
+          "social": [
+            {
+              "who": "儿科医疗专家",
+              "text": "该规则的实施将有效减少因忽视儿童及家属反馈而导致的医疗事故，是制度性进步的重要一步。"
+            },
+            {
+              "who": "社会活动家",
+              "text": "希望这一政策能覆盖更广泛的年龄段和医疗机构，确保所有弱势群体的权益得到保障。"
+            }
+          ]
+        },
+        {
+          "title_zh": " autopsy显示海登·潘妮蒂尔死于药物过量",
+          "summary": "这位童星体内检出芬太尼、安定等药物，死因被定性为意外。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/crn45d8dd2wdo?at_medium=RSS&at_campaign=rss",
+          "overview": "好莱坞童星海登·潘妮蒂尔的验尸结果显示，其体内含有芬太尼、安定、肌肉松弛剂和抗精神病药物。官方将死因定性为意外事故。这一消息引发了公众对娱乐行业心理健康问题及药物滥用危机的广泛关注。",
+          "analysis": "此案再次敲响了关于名人心理健康和处方药滥用的警钟，呼吁加强对高危人群的药物监管和心理支持服务。",
+          "social": [
+            {
+              "who": "心理健康倡导者",
+              "text": "童星群体长期面临巨大的公众压力，缺乏有效的心理疏导机制是导致悲剧的深层原因之一。"
+            },
+            {
+              "who": "药物政策研究者",
+              "text": "芬太尼等强效阿片类药物的泛滥已成为全球性公共卫生危机，需要更严格的管控措施。"
+            }
+          ]
+        },
+        {
+          "title_zh": "塞浦路斯父亲承认导致幼子从酒店窗户坠落身亡",
+          "summary": "两岁男孩今年7月从酒店窗口跌落，帕福斯法院审理此案。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cm4gvyz2vlkvo?at_medium=RSS&at_campaign=rss",
+          "overview": "在塞浦路斯帕福斯法院的审理中，一名父亲承认导致其两岁儿子从酒店窗户坠落身亡。案件发生在今年7月，这一悲剧引发了公众对酒店安全措施及儿童监护责任的讨论。",
+          "analysis": "此案凸显了旅游住宿设施在安全防护方面的潜在漏洞，可能促使相关行业标准升级以加强窗户防护设计。",
+          "social": [
+            {
+              "who": "建筑安全专家",
+              "text": "酒店窗户缺乏有效的儿童防护装置是此类事故的主要原因，应强制安装限位器或防护网。"
+            },
+            {
+              "who": "家长群体",
+              "text": "这一悲剧提醒所有父母在旅行中需时刻关注幼儿的安全环境，避免疏忽大意。"
+            }
+          ]
+        },
+        {
+          "title_zh": "知名DJ Tim Westwood被指控两项新性犯罪",
+          "summary": "相关涉嫌犯罪行为可追溯至1991年和2004年。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2zv0rx0nqo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国知名DJ Tim Westwood被指控两项新的性犯罪，相关涉嫌行为可追溯至1991年和2004年。这一案件再次引发了公众对历史性侵犯罪行者追责机制的讨论，尤其是在诉讼时效和证据收集方面的挑战。",
+          "analysis": "此案反映了法律体系在处理陈年旧案时的复杂性，同时也推动了社会对性犯罪零容忍态度的持续深化。",
+          "social": [
+            {
+              "who": "法律学者",
+              "text": "跨越数十年的指控在法律程序上面临诸多挑战，但社会正义的呼声不应因时间流逝而减弱。"
+            },
+            {
+              "who": "受害者权益组织",
+              "text": "此类案件的曝光有助于鼓励更多幸存者站出来寻求正义和支持。"
+            }
+          ]
+        },
+        {
+          "title_zh": "中国六岁女孩连芸至打破魔方世界纪录",
+          "summary": "她在世界魔方协会比赛中三天内两次刷新女子世界纪录。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/videos/cmvgyzgnq9e3o?at_medium=RSS&at_campaign=rss",
+          "overview": "来自中国的六岁女孩连芸至在世界魔方协会（WCA）比赛中展现了惊人的天赋，三天内两次打破女子世界纪录。这一成就不仅刷新了年龄最小的世界纪录保持者身份，也引发了全球对儿童智力开发和体育竞技的关注。",
+          "analysis": "此事件展示了中国在基础教育和特长培养方面的成果，同时也提醒人们关注过度竞争对孩子身心健康的影响。",
+          "social": [
+            {
+              "who": "教育专家",
+              "text": "六岁即破纪录令人惊叹，但家长应理性看待天赋与压力的关系，避免过早让孩子承受过大负担。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "这一成就证明了智力竞技运动的无限潜力，也为年轻选手树立了榜样。"
             }
           ]
         }
@@ -2267,60 +2203,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "推动 AI 数学推理能力突破及高级顾问团队组建，关注模型解决开放问题的能力。",
-          "url": "openai.com"
-        },
-        {
           "name": "Yann LeCun",
-          "role": "Meta Chief AI Scientist",
-          "region": "法国/美国",
-          "domain": "ai",
-          "recent": "关注 AI 助手（如 Muse）在移动端的普及趋势及底层安全漏洞的修复与治理。",
-          "url": "facebook.com/yann.lecun"
-        },
-        {
-          "name": "Michael Gorman",
-          "role": "图书馆倡导者与作家",
-          "region": "英国（常驻美国）",
-          "domain": "library",
-          "recent": "倡导图书馆员技能提升及 AI 时代图书馆转型策略，关注 OER 与馆校合作。",
-          "url": "x.com/michaelgorman"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主持人与研究学者",
+          "role": "Meta AI 首席科学家",
           "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "通过长周期播客深度访谈探讨前沿 AI 模型对齐、安全性及人类与机器协作议题。",
-          "url": "lexfridman.com"
+          "domain": "ai",
+          "recent": "推动开源大模型 LLaMA 生态发展，持续探讨 AGI 路径与开放权重的必要性",
+          "url": "https://twitter.com/ylecun"
         },
         {
-          "name": "Fei-Fei Li",
-          "role": "斯坦福 HAI 主任",
-          "region": "美国/中国",
-          "domain": "ai/library",
-          "recent": "推动人工智能在教育与图书馆科学中的负责任应用，关注数据伦理及 AI for Good。",
-          "url": "feifeili.org"
+          "name": "Emad Mostaque",
+          "role": "Hugging Face 创始人兼 CEO",
+          "region": "荷兰",
+          "domain": "ai",
+          "recent": "主导 Transformers 及 Tokenizer 等核心工具链更新，致力于构建开放的 AI 模型社区基础设施",
+          "url": "https://twitter.com/emadmostaque"
+        },
+        {
+          "name": "Andrej Karpathy",
+          "role": "AI 开发者与教育者",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "聚焦开源大模型的微调与部署工具开发，倡导面向开发者的 AI 编程范式",
+          "url": "https://twitter.com/karpathy"
+        },
+        {
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
+          "region": "英国/美国",
+          "domain": "ai",
+          "recent": "关注 Claude 模型安全对齐及 AI Agent 任务一致性挑战，推动负责任 AI 发展",
+          "url": "https://twitter.com/darioamodei"
+        },
+        {
+          "name": "Yoshua Bengio",
+          "role": "蒙特利尔大学 AI 教授",
+          "region": "加拿大",
+          "domain": "ai",
+          "recent": "深耕生成式 AI 基础理论，强调 AI 安全性与人类价值对齐的重要性",
+          "url": "https://twitter.com/yoshuabengio"
+        },
+        {
+          "name": "张凯 (Zhang Kai)",
+          "role": "DeepSeek 创始人兼 CEO",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "引领高效推理模型研发，推动开源权重释放以降低全球 AI 使用门槛",
+          "url": ""
         },
         {
           "name": "Timnit Gebru",
-          "role": "AI 伦理研究者",
-          "region": "南非/美国",
-          "domain": "ai",
-          "recent": "聚焦大模型安全漏洞的公众监督及算法公平性审查，呼吁建立透明 AI 治理框架。",
-          "url": "timnitgebru.com"
-        },
-        {
-          "name": "David Weinberger",
-          "role": "Web 与知识组织思想家",
-          "region": "美国",
+          "role": "AI 伦理研究者与数据权利倡导者",
+          "region": "埃塞俄比亚/全球",
           "domain": "library",
-          "recent": "探讨 AI 时代知识组织的演变及数字图书馆在信息过载环境下的重新定义。",
-          "url": "davidweinberger.com"
+          "recent": "关注数据权利与图书馆在 AI 训练中的角色，倡导数据集透明度与伦理治理",
+          "url": "https://twitter.com/timnitgebru"
         }
       ]
     },
