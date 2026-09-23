@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:25:39+08:00",
+  "generated_at": "2026-09-23T08:22:34+08:00",
   "date": "2026-09-23",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,11 +7,11 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-09-23 06:29",
-    "ai": "2026-09-23 07:25",
-    "voices": "2026-09-23 07:25",
-    "github": "2026-09-23 06:29",
-    "libraries": "2026-09-23 07:25",
+    "hot": "2026-09-23 08:22",
+    "ai": "2026-09-23 08:22",
+    "voices": "2026-09-23 08:22",
+    "github": "2026-09-23 08:22",
+    "libraries": "2026-09-23 08:22",
     "sports": "2026-09-23 07:25",
     "academic": "2026-09-23 06:40"
   },
@@ -1893,286 +1893,314 @@
     "github": {
       "items": [
         {
-          "title_zh": "Laya：本地化类型决策模型框架",
+          "title_zh": "Laya — 类型化决策模型框架",
           "eng": "NandhaKishorM/laya",
-          "summary": "TypeSafe AI 推出的 Laya 框架，专注于在本地运行类型化的决策模型，无需文本生成或云端 API。",
+          "summary": "TypeSafe AI 推出的 Laya 类型化决策模型，支持本地推理和云端部署。",
           "source": "GitHub",
-          "stars": 16259,
+          "stars": 16466,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/NandhaKishorM/laya",
-          "overview": "Laya 是一个开源框架，旨在将 AI 决策模型本地化运行。它支持类型化的决策流程，能够在不依赖大语言模型的文本生成能力的情况下完成复杂的推理任务。该框架强调低延迟和高效率，适合需要实时响应的场景。社区对其高度关注，表明本地化 AI 基础设施正在成为热门方向。",
-          "analysis": "作为该项目生态的核心框架，Laya 解决了云端 API 成本高、隐私泄露的风险问题。其高星数反映了开发者对本地可控 AI 决策的强烈需求，是理解当前 AI Agent 架构演进的关键项目。",
-          "social": [
-            {
-              "who": "AI 基础设施研究者",
-              "text": "Laya 证明了在端侧运行复杂决策模型完全可行，这对企业数据隐私保护意义重大。"
-            },
-            {
-              "who": "独立开发者",
-              "text": "终于有了不依赖 OpenAI/Anthropic API 的本地决策方案，部署成本大幅降低。"
-            }
-          ]
+          "overview": "Laya 是一个面向 AI Agent 的类型化决策模型框架，将工具调用和结果转化为结构化决策而非自由文本生成。支持本地运行、云端 API 部署，具备可扩展的插件生态。已在多个高星项目中被集成使用，社区活跃度高。",
+          "analysis": "作为当前 Jev/类型化决策领域的核心框架，laya 拥有最高星标数，代表了该方向的主流技术路线。其设计哲学——用结构化决策替代文本生成——对降低 Token 成本、提升 Agent 可靠性有重要意义。适合 AI Agent 开发者和研究者关注。"
         },
         {
-          "title_zh": "Fast-Jev-Compaction：Claude Code 智能压缩插件",
+          "title_zh": "fast-jev-compaction — Claude Code Jev 压缩插件",
           "eng": "tamaratran/fast-jev-compaction",
-          "summary": "一个 Claude Code 插件，用 Jev 决策替代传统的上下文压缩摘要，在单次请求中评分并保留有效工具调用。",
+          "summary": "Claude Code 的 Jev 决策压缩插件，单次请求完成所有工具调用的评分与裁剪。",
           "source": "GitHub",
-          "stars": 6295,
+          "stars": 6304,
           "lang": "TypeScript",
           "published": "2026-09-17",
           "url": "https://github.com/tamaratran/fast-jev-compaction",
-          "overview": "该插件针对 Claude Code 的上下文管理痛点进行了优化。它不再使用传统的文本摘要来压缩对话历史，而是通过 Jev 决策模型对每个工具调用和结果进行评分。过时或冗余的内容会被直接丢弃或截断，保留的内容保持原样，从而显著提升 Agent 的响应速度和准确性。",
-          "analysis": "这是 AI 开发工具链中极具实用价值的插件，直接解决了开发者使用 Claude Code 时上下文窗口浪费的问题。它展示了 Jev 架构在实际编码辅助场景中的落地能力。",
-          "social": [
-            {
-              "who": "全栈工程师",
-              "text": "终于不再需要手动清理上下文了，这个插件让长对话下的代码生成质量明显提升。"
-            },
-            {
-              "who": "AI 工具评测者",
-              "text": "将 Jev 决策引入 IDE 插件是一个聪明的工程化思路，比纯文本压缩更高效。"
-            }
-          ]
+          "overview": "该插件将 Claude Code 的 compaction summary 替换为 Jev 决策机制，每次工具调用和结果都在一次快速请求中评分。过时内容被丢弃或截断，保留的内容保持原文不变。显著提升了 Agent 在长对话中的响应效率和准确性。",
+          "analysis": "直接面向开发者日常使用的 Claude Code 生态，解决了 AI Coding Agent 在高并发场景下的性能瓶颈问题。对使用 Claude Code 进行开发工作的工程师有实用价值。"
         },
         {
-          "title_zh": "ZCode：Z.ai 智能编码 Agent 引擎",
+          "title_zh": "ZCode — Z.ai 编码智能体框架",
           "eng": "zai-org/ZCode",
-          "summary": "Z.ai 推出的强大、智能且可扩展的编码代理（Coding Agent）核心框架。",
+          "summary": "Z.ai 的编码智能体运行框架，强大、智能且可扩展。",
           "source": "GitHub",
-          "stars": 6267,
+          "stars": 6287,
           "lang": "TypeScript",
           "published": "2026-09-20",
           "url": "https://github.com/zai-org/ZCode",
-          "overview": "ZCode 是 Z.ai 生态中的核心编码代理引擎，旨在为开发者提供智能化的代码生成、审查和重构能力。它强调可扩展性，允许用户自定义工作流和插件。作为 TypeScript 编写的项目，它与现代前端开发工具链高度兼容，适合构建企业级 AI 辅助编程平台。",
-          "analysis": "在编码 Agent 竞争激烈的市场中，ZCode 的高星数表明其架构设计得到了广泛认可。对于希望构建或集成 AI 编程助手的企业来说，这是一个值得关注的底层引擎选择。",
-          "social": [
-            {
-              "who": "CTO / 技术决策者",
-              "text": "可扩展的 Agent 框架比封闭的 API 更适合内部工具开发，ZCode 提供了很好的基座。"
-            },
-            {
-              "who": "开源社区贡献者",
-              "text": "TypeScript 生态下的编码 Agent 越来越多了，ZCode 的扩展性设计很符合我们的需求。"
-            }
-          ]
+          "overview": "ZCode 是 Z.ai 推出的编码 Agent 核心框架，提供强大的代码理解、生成和调试能力。支持多种编程语言的智能体编排，具备高度可扩展的插件架构。面向开发者日常编码工作流优化。",
+          "analysis": "作为独立 AI Coding Agent 产品的基础设施层，ZCode 在编码智能体赛道中占据重要位置。其 TypeScript 实现便于与前端工具链集成，适合关注 AI 辅助开发工具的开发者。"
         },
         {
-          "title_zh": "Laya-MLX：Apple MLX 本地推理运行时",
+          "title_zh": "laya-mlx — Apple MLX 本地推理运行时",
           "eng": "mizorewww/laya-mlx",
-          "summary": "为 Laya 类型决策模型提供原生 MLX 运行时，在 M3 Max 上实现 7-14ms 的极速短决策。",
+          "summary": "基于 Apple MLX 的 Laya 原生推理运行时，M3 Max 上短决策仅需 7-14ms。",
           "source": "GitHub",
-          "stars": 5387,
+          "stars": 5425,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-mlx",
-          "overview": "该项目实现了 Laya 决策模型在 Apple MLX 框架上的原生运行。它完全避免了文本生成、PyTorch 或云端 API 的依赖，直接在本地硬件上完成推理。实测显示在 M3 Max 芯片上，短决策仅需 7-14 毫秒，性能表现优异且功耗极低。",
-          "analysis": "这是 Laya 生态中针对 Apple Silicon 平台的关键优化项目。它证明了复杂 AI 决策可以在消费级笔记本上以接近实时的速度运行，极大地拓展了本地 AI 的应用边界。",
-          "social": [
-            {
-              "who": "Apple 开发者",
-              "text": "在 Mac 上跑 Laya 终于不需要折腾 PyTorch 了，MLX 原生支持让部署简单了很多。"
-            },
-            {
-              "who": "性能优化工程师",
-              "text": "14ms 的决策延迟对于实时交互应用来说已经非常可观，这对端侧 AI 是重大突破。"
-            }
-          ]
+          "overview": "为 Laya 类型化决策模型提供 Apple MLX 原生推理支持，无需 PyTorch 或云端 API。在 M3 Max 芯片上实现毫秒级短决策响应，完全本地运行。不依赖文本生成，专注于结构化决策的高效执行。",
+          "analysis": "将 AI Agent 的决策能力推向端侧设备的重要尝试，对注重隐私和离线能力的开发者极具吸引力。MLX 生态与 Apple Silicon 的深度整合使其在 Mac 用户中拥有独特优势。"
         },
         {
-          "title_zh": "KEV：基于 Qwen3.5 的可训练 Jev 模型家族",
+          "title_zh": "kev — Qwen3.5 上的轻量级 Jev 模型",
           "eng": "jaredpalmer/kev",
-          "summary": "由 Jared Palmer 构建的微型 Jev 类决策模型家族，基于 Qwen3.5，支持用户自行训练和运行。",
+          "summary": "基于 Qwen3.5 构建的轻量级 Jev 类决策模型，可本地训练和运行。",
           "source": "GitHub",
-          "stars": 4080,
+          "stars": 4200,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/jaredpalmer/kev",
-          "overview": "KEV 是 Jev 架构的一个轻量级开源实现，底层基于 Qwen3.5 大模型。它允许开发者根据自己的特定领域数据训练决策模型，并完全在本地运行。该项目降低了使用 Jev 类型决策系统的门槛，使得非专业团队也能构建定制化的 AI 决策流程。",
-          "analysis": "KEV 填补了开源社区对可训练、可部署的 Jev 模型的空白。它展示了如何将闭源架构思想转化为开发者友好的开源工具，对于推动本地化 AI 民主化有重要意义。",
-          "social": [
-            {
-              "who": "数据科学家",
-              "text": "终于可以在自己的 Qwen3.5 实例上训练决策模型了，不再被锁定在特定平台。"
-            },
-            {
-              "who": "AI 架构师",
-              "text": "KEV 的模块化设计让集成到现有系统中变得非常容易，是一个很好的起点。"
-            }
-          ]
+          "overview": "kev 是 Jared Palmer 构建的 Jev 类决策模型家族，底层基于 Qwen3.5。支持本地训练和推理，无需依赖云端 API。提供轻量级的类型化决策能力，适合资源受限环境下的 AI Agent 部署。",
+          "analysis": "将 Jev 决策范式与开源大模型结合的代表性项目，降低了本地部署的门槛。对希望在不依赖商业 API 的情况下运行 AI Agent 的研究者和开发者有参考价值。"
         },
         {
-          "title_zh": "Jev-Jarvis：手机上的 AI 对话副驾助手",
+          "title_zh": "jev-chat-jarvis — 手机端对话副驾助手",
           "eng": "jev-chat/jev-chat-jarvis",
-          "summary": "一款安装在手机上的 AI 对话辅助应用，能在微信/QQ/X/飞书等应用中实时读懂对方并给出候选回复。",
+          "summary": "手机上的对话副驾：在微信/QQ/X/飞书中读懂对方、给出候选回复，一键填入输入框。",
           "source": "GitHub",
-          "stars": 3660,
+          "stars": 3724,
           "lang": "Kotlin",
           "published": "2026-09-21",
           "url": "https://github.com/jev-chat/jev-chat-jarvis",
-          "overview": "Jev-Jarvis 是一款运行在移动端的 AI 对话副驾应用。它通过非侵入式屏幕读取技术，理解用户在微信、QQ、X、飞书等主流社交和办公应用中的上下文，并生成候选回复供用户一键填入输入框。该应用不 hook 不改包，仅作为辅助工具存在，保护了用户的隐私和安全。",
-          "analysis": "该项目将 AI 决策模型从开发环境扩展到了日常社交场景，展示了 Jev 架构在消费级应用中的巨大潜力。其非侵入式设计也解决了用户对隐私的顾虑，具有极高的市场关注度。",
-          "social": [
-            {
-              "who": "产品经理",
-              "text": "这种非侵入式的 AI 辅助回复思路非常巧妙，既提升了效率又不会打扰用户。"
-            },
-            {
-              "who": "移动端开发者",
-              "text": "Kotlin 实现加上屏幕读取技术，在 Android 生态中落地效果很好，值得借鉴。"
-            }
-          ]
+          "overview": "一款安装在手机上的对话辅助应用，支持微信、QQ、X、飞书等多个主流聊天平台。通过只读屏幕的方式理解上下文，给出候选回复建议，用户可一键填入输入框或手动发送。非侵入式设计，不 hook 不改包。",
+          "analysis": "将 AI Agent 能力带入日常社交场景的创新尝试，解决了多平台消息处理的碎片化问题。对关注 AI 在移动端应用落地的开发者有参考价值，Kotlin 实现也便于 Android 生态集成。"
         },
         {
-          "title_zh": "NanoJev：轻量级 Jev 决策模型复刻版",
+          "title_zh": "NanoJev — Jev 微型复刻版",
           "eng": "TianyuCodings/NanoJev",
-          "summary": "一个 Jev 的微型复刻版本，支持并行决策、动态候选生成及端到端训练管线。",
+          "summary": "Jev 的纳米级复刻：并行决策、动态候选和端到端训练管线。",
           "source": "GitHub",
-          "stars": 1988,
+          "stars": 1997,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/TianyuCodings/NanoJev",
-          "overview": "NanoJev 是 Jev 架构的一个精简实现，旨在降低使用门槛。它保留了核心功能如并行决策和动态候选生成，并提供了完整的端到端训练管线。对于想要快速上手或进行二次开发的开发者来说，这是一个非常理想的入门项目和学习资源。",
-          "analysis": "作为 Jev 生态中的轻量级替代品，NanoJev 降低了技术采用成本。它的存在有助于社区知识的传播，让更多开发者能够理解和复现类型决策模型的核心逻辑。",
-          "social": [
-            {
-              "who": "学生 / 初学者",
-              "text": "想学 Jev 但觉得原版太重了，NanoJev 的代码量适中，非常适合做课程项目。"
-            },
-            {
-              "who": "研究员",
-              "text": "并行决策和动态候选的实现细节很有参考价值，适合做对比实验。"
-            }
-          ]
+          "overview": "NanoJev 是 Jev 决策模型的微型复刻版本，支持并行决策生成、动态候选管理以及端到端训练管线。相比完整 Laya 框架更轻量，适合快速原型验证和教学场景。保留了 Jev 的核心设计理念。",
+          "analysis": "作为 Jev 生态的轻量替代方案，NanoJev 降低了学习和实验门槛。对想深入理解类型化决策模型原理的研究者和学生有教育价值，也便于在资源受限环境中进行技术探索。"
         },
         {
-          "title_zh": "Nimble：本地决策与数据策展工具",
+          "title_zh": "nimble — 本地决策与数据策展平台",
           "eng": "bespokelabsai/nimble",
-          "summary": "提供本地类型化决策、对比式数据策展和模型评估的一站式工具集。",
+          "summary": "本地类型化决策、对比数据策展和模型评估工具集。",
           "source": "GitHub",
-          "stars": 1618,
+          "stars": 1625,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/bespokelabsai/nimble",
-          "overview": "Nimble 是一套专注于本地化 AI 决策和数据处理的专业工具。它支持对比式数据策展，帮助开发者高效地筛选和优化训练数据。同时提供模型评估功能，确保决策模型在部署前的质量达标。该项目适合需要严格数据质量和模型可控性的企业用户。",
-          "analysis": "Nimble 解决了本地化 AI 落地中的两个关键痛点：数据策展和模型评估。对于希望构建高质量私有 AI 系统的团队来说，这是一个不可或缺的辅助工具。",
-          "social": [
-            {
-              "who": "AI 工程负责人",
-              "text": "数据策展是本地模型训练中最耗时的环节，Nimble 的对比式策展功能确实能节省大量时间。"
-            },
-            {
-              "who": "安全研究员",
-              "text": "在本地运行决策前进行严格的评估，这种流程设计非常符合企业合规要求。"
-            }
-          ]
+          "overview": "nimble 提供本地类型化决策能力、对比数据策展流程和模型评估工具。专注于 AI Agent 开发中的数据处理和模型优化环节，支持在本地完成从数据采集到模型部署的全流程。面向企业级 AI 应用开发者。",
+          "analysis": "填补了 Jev/Agent 生态中数据策展和模型评估的工具空白，对构建生产级 AI Agent 有实用价值。适合关注 AI 工程化和模型优化的团队参考使用。"
         },
         {
-          "title_zh": "Awesome-Jev：Jev 生态项目精选列表",
+          "title_zh": "awesome-jev — Jev 项目精选列表",
           "eng": "yibie/awesome-jev",
-          "summary": "一份精心策划的 Jev 生态系统公开项目、集成和讨论资源的汇总列表。",
+          "summary": "Jev 生态系统的项目、集成和讨论的 curated 清单。",
           "source": "GitHub",
-          "stars": 1294,
+          "stars": 1301,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/yibie/awesome-jev",
-          "overview": "Awesome-Jev 是 Jev（TypeSafe AI 的 System One 模型）生态系统的权威资源导航。它收录了所有相关的开源项目、第三方集成以及社区讨论链接。对于想要全面了解 Jev 技术栈、寻找合适工具或参与社区贡献的人来说，这是首选的入门指南。",
-          "analysis": "作为生态索引，Awesome-Jev 极大地降低了新用户的探索成本。它的持续更新反映了 Jev 社区的活跃度和项目成熟度，是评估该技术领域发展态势的重要参考。",
-          "social": [
-            {
-              "who": "技术布道师",
-              "text": "整理一份清晰的 Awesome List 对推广新技术至关重要，感谢维护者的贡献。"
-            },
-            {
-              "who": "新入行者",
-              "text": "刚接触 Jev 不知道从哪里开始，这个列表帮我快速定位了所有相关工具。"
-            }
-          ]
+          "overview": "一份精心整理的 Jev 生态项目列表，涵盖公开项目、集成方案和社区讨论。帮助开发者快速了解 Jev 类型化决策模型的技术栈和可用资源。持续更新维护中。",
+          "analysis": "作为 Jev 生态的导航入口，对新手入门和开发者选型有重要参考价值。在信息爆炸的时代，这类 curated list 能显著降低技术探索成本。"
         },
         {
-          "title_zh": "Laya-CoreML：Apple Core ML 本地决策移植版",
+          "title_zh": "laya-coreml — Apple Core ML 本地推理",
           "eng": "mizorewww/laya-coreml",
-          "summary": "将 Laya 类型决策模型移植到 Apple Core ML 和 Neural Engine，提供可复现的速度与能耗基准测试。",
+          "summary": "基于 Apple Core ML 的 Laya 本地决策运行，M3 Max 上短决策约 5ms，含可复现的速度和能耗基准。",
           "source": "GitHub",
-          "stars": 1272,
+          "stars": 1282,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-coreml",
-          "overview": "该项目实现了 Laya 决策模型在 Apple Core ML 框架上的验证性移植。它在 M3 Max 芯片上实现了约 5ms 的短决策速度，并提供了可复现的性能和能耗基准数据。与 laya-mlx 类似，它强调了本地运行的低延迟和高能效，但更侧重于 Core ML 生态的深度集成。",
-          "analysis": "Laya-CoreML 进一步巩固了 Laya 在 Apple 平台上的统治地位。其提供的基准测试数据为其他开发者优化模型提供了可靠的参考标准，有助于推动整个生态的性能提升。",
-          "social": [
-            {
-              "who": "性能工程师",
-              "text": "5ms 的决策速度加上能耗基准，这对电池续航敏感的设备来说非常有吸引力。"
-            },
-            {
-              "who": "Core ML 开发者",
-              "text": "验证过的端口意味着更少的踩坑时间，可以直接用于生产环境。"
-            }
-          ]
+          "overview": "为 Laya 类型化决策模型提供 Apple Core ML 和 Neural Engine 的原生推理支持。已验证的端口实现，在 M3 Max 上短决策仅需约 5ms。提供了可复现的速度基准和能耗对比数据，便于开发者评估性能。",
+          "analysis": "laya-mlx 的 Core ML 补充方案，进一步巩固了 Laya 在 Apple Silicon 生态中的地位。可复现的性能基准对工程化部署有实际帮助，适合关注端侧 AI 推理优化的开发者。"
         },
         {
-          "title_zh": "Open-Glean：开源知识工作 AI 平台",
+          "title_zh": "open-glean — 开源 AI 知识工作平台",
           "eng": "hydra-db/open-glean",
-          "summary": "一个开源的 AI 知识工作平台，连接你的应用、查找答案并完成任务。",
+          "summary": "面向知识工作的开源 AI 平台：连接应用、查找答案、高效完成工作。",
           "source": "GitHub",
           "stars": 842,
           "lang": "TypeScript",
           "published": "2026-09-17",
           "url": "https://github.com/hydra-db/open-glean",
-          "overview": "Open-Glean 是一个旨在重新定义知识工作的开源 AI 平台。它允许用户连接各种应用程序，利用 AI 能力快速查找信息、回答问题并执行任务。该项目强调开放性和集成性，适合希望将 AI 融入日常办公流程的团队和个人使用。",
-          "analysis": "在 AI 工具碎片化的背景下，Open-Glean 提供了一个统一的入口来整合知识工作流。其开源特性鼓励了社区的广泛参与和定制化开发，有望成为企业级 AI 办公的标杆项目。",
-          "social": [
-            {
-              "who": "效率工具爱好者",
-              "text": "终于有一个能真正连接多个应用并自动处理任务的开源平台了，期待更多集成。"
-            },
-            {
-              "who": "企业 IT 管理员",
-              "text": "开源意味着我们可以完全控制数据流向，这在合规要求严格的行业非常重要。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Unreal-Agent：异步优先的 Agent 框架",
-          "eng": "unreallabsai/unreal-agent",
-          "summary": "由 Unreal Labs 推出的以异步处理为核心的 AI Agent 运行框架。",
-          "source": "GitHub",
-          "stars": 744,
-          "lang": "Go",
-          "published": "2026-09-21",
-          "url": "https://github.com/unreallabsai/unreal-agent",
-          "overview": "Unreal-Agent 是一个专注于异步处理的 AI Agent 框架，使用 Go 语言编写。它旨在解决传统同步 Agent 在处理复杂任务时的性能瓶颈，支持高并发的任务调度和执行。对于需要构建大规模、高性能 AI 工作流的开发者来说，这是一个值得关注的底层基础设施项目。",
-          "analysis": "Go 语言的并发特性使其非常适合构建 Agent 框架。Unreal-Agent 的出现表明 AI Agent 领域正在从简单的对话转向复杂的多步骤异步任务处理，这对生产级部署至关重要。",
-          "social": [
-            {
-              "who": "后端架构师",
-              "text": "Go 的并发模型天然适合 Agent 框架，Unreal-Agent 的设计思路很清晰。"
-            },
-            {
-              "who": "AI 运维工程师",
-              "text": "异步优先意味着更好的资源利用率和更低的延迟，这对大规模部署很有帮助。"
-            }
-          ]
+          "overview": "open-glean 是一个开源的 AI 知识工作平台，支持连接各类应用、智能查找答案并辅助完成工作任务。采用 TypeScript 技术栈，便于与现有 Web 工具链集成。面向企业和个人知识工作者。",
+          "analysis": "在 AI Agent 赛道中，open-glean 聚焦于知识管理和工作效率提升这一垂直场景。对关注 AI 在企业办公和知识管理领域应用的开发者有参考价值，TypeScript 实现也利于前端生态集成。"
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "特朗普称可与伯恩汉姆做生意但批评查戈斯协议",
-          "summary": "美英首脑在纽约首次会面，特朗普表示愿意与伯恩汉姆合作，但严厉批评了英国提出的查戈斯群岛移交方案。",
+          "title_zh": "特朗普称可与伯恩汉姆做生意但批评'糟糕'的查戈斯协议",
+          "summary": "美英首脑在纽约首次会面，特朗普表示愿意与曼彻斯特市长伯恩汉姆合作，但对英国提出的将查戈斯群岛移交毛里求斯的方案表示不满。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/news/articles/cq2dwye3r7k4o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国提议将查戈斯群岛移交给毛里求斯，并支付费用租回重要的军事基地。特朗普在首次面对面会面中表达了合作意愿，但对该交易方案表示不满。这一议题涉及英国海外领土主权争议及英美军事同盟关系。",
-          "analysis": "查戈斯群岛归属问题长期悬而未决，此次高层互动显示外交博弈的复杂性。美国对英国糟糕交易的批评折射出两国在战略利益上的微妙分歧。",
+          "overview": "美国总统特朗普与曼彻斯特市长安迪·伯恩汉姆在纽约举行了首次面对面会面。尽管双方建立了初步联系，特朗普对英国政府提出的将查戈斯群岛主权移交给毛里求斯并支付租金租回迪戈加西亚军事基地的协议表示强烈批评，称其为'糟糕的交易'。",
+          "analysis": "该事件凸显了英美在印度洋军事战略利益上的分歧。查戈斯群岛涉及重要的美军监听站，其主权归属问题一直是国际争议焦点，特朗普的态度可能影响后续谈判走向。",
           "social": [
             {
-              "who": "国际观察人士",
-              "text": "这一协议若达成将改变印度洋地缘政治格局，但美国的反对增加了谈判难度。"
+              "who": "BBC",
+              "text": "特朗普首次与伯恩汉姆会面，但查戈斯协议成最大障碍"
+            }
+          ]
+        },
+        {
+          "title_zh": "针对曼彻斯特犹太社区的袭击阴谋被警方挫败",
+          "summary": "反恐警察在曼彻斯特逮捕了两名男子，称已挫败一起针对当地犹太社区的攻击计划。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cq07ly8xzvn4o?at_medium=RSS&at_campaign=rss",
+          "overview": "英国警方反恐部门宣布在曼彻斯特逮捕了两名嫌疑人，称已成功阻止了一起针对该市犹太社区的恐怖袭击阴谋。这一事件发生在周日，具体作案细节尚未完全披露，但警方的迅速行动表明情报工作发挥了关键作用。",
+          "analysis": "近期欧洲多起反犹事件引发关注，此次阴谋的挫败再次提醒公众保持警惕。曼彻斯特作为英国主要城市之一，其社区安全状况受到高度关注。",
+          "social": [
+            {
+              "who": "BBC",
+              "text": "反恐警察在曼彻斯特逮捕两名嫌疑人"
+            }
+          ]
+        },
+        {
+          "title_zh": "'毒贩'向女儿出售致命药物，受害者家属怒斥",
+          "summary": "路易斯·南恩的女儿从加拿大商人肯尼斯·劳购买毒品，该男子在网上销售有毒化学物质。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/c9j3dgxl8j58o?at_medium=RSS&at_campaign=rss",
+          "overview": "受害者家属路易斯·南恩公开控诉一名加拿大毒贩肯尼斯·劳，称其女儿购买了该男子在网上销售的有毒化学物质。南恩表示希望该毒贩在狱中受苦，案件引发了对在线化学品交易监管的讨论。",
+          "analysis": "此案揭示了网络非法化学品交易的隐蔽性和危险性。随着互联网购药渠道的泛滥，如何有效监管和打击此类跨国犯罪成为执法难题。",
+          "social": [
+            {
+              "who": "BBC",
+              "text": "家属怒斥毒贩应在地狱腐烂"
+            }
+          ]
+        },
+        {
+          "title_zh": "IMF敦促发达经济体降低债务水平以应对借贷成本上升",
+          "summary": "IMF总裁格奥尔基耶娃表示经济冲击已将债务水平推高，警告各国需采取行动。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
+          "overview": "国际货币基金组织（IMF）总裁克里斯塔利娜·格奥尔基耶娃在接受BBC采访时警告，经济冲击已将发达经济体的债务水平推高至危险程度。她形象地比喻债务增长如同'通往天堂的阶梯'般不断攀升，呼吁各国政府采取措施降低债务负担。",
+          "analysis": "在全球利率上升和经济不确定性增加的背景下，IMF的警告具有深远影响。高企的公共债务可能限制各国应对未来危机的财政空间，引发市场对主权信用风险的担忧。",
+          "social": [
+            {
+              "who": "BBC",
+              "text": "IMF总裁：债务水平如阶梯般攀升"
+            }
+          ]
+        },
+        {
+          "title_zh": "布克奖评委公布入围小说名单",
+          "summary": "往届获奖者马龙·詹姆斯和多格拉斯·斯图尔特等入选今年奖项候选人。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cqzjz8dk4wddo?at_medium=RSS&at_campaign=rss",
+          "overview": "布克奖评委在经历了一番激烈的讨论后，正式公布了今年的入围小说名单。往届获奖者马龙·詹姆斯和多格拉斯·斯图尔特均出现在候选人之列，标志着该文学奖项继续吸引具有影响力的作家参与竞争。",
+          "analysis": "布克奖作为英语世界最重要的文学奖项之一，其评选过程往往充满争议与惊喜。入围名单的公布将引发文学界和读者的广泛讨论，关注点可能集中在作品主题及评委选择标准上。",
+          "social": [
+            {
+              "who": "BBC",
+              "text": "往届获奖者马龙·詹姆斯入选布克奖"
+            }
+          ]
+        },
+        {
+          "title_zh": "美国退出援助项目后非洲医疗面临'日益增长的紧张局势'",
+          "summary": "Accra Reset报告警告，美国削减USAID等项目及新冠疫情等因素给非洲和全球南方国家的医疗发展带来压力。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-21",
+          "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+          "overview": "一份由Accra Reset发布的报告警告称，美国退出关键援助项目（如USAID）后，非洲及全球南方国家的医疗体系正面临'日益增长的紧张局势'。报告指出，特朗普政府削减国际发展资金、新冠疫情余波以及全球生活成本上升共同加剧了这一危机。",
+          "analysis": "美国对外援助政策的转向对非洲公共卫生安全构成重大挑战。报告呼吁该地区国家加强自主健康治理能力，减少对单一外部资金来源的依赖，以确保医疗系统的可持续性。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "美国退出USAID后非洲医疗面临压力"
+            }
+          ]
+        },
+        {
+          "title_zh": "流放到异域：特朗普的秘密驱逐协议调查",
+          "summary": "一名伊朗女子被铐上飞机后运往非洲未知国家，深度调查揭示了数十个国家间的秘密驱逐交易。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-21",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+          "overview": "《卫报》深度调查发现，特朗普政府与数十个国家达成了隐秘的移民驱逐协议，将数千名被拘留者秘密运往他们未知的国家。一名伊朗女子在脚镣中经历了漫长的飞行后发现自己身处非洲一个她从未听说过的国家，整个过程充满了欺骗和羞辱。",
+          "analysis": "此次调查揭示了美国移民执法中的黑暗面，即通过'展示武力'的方式规避国内法律程序和国际监督。此举不仅耗费纳税人巨额资金，还引发了关于人权侵犯的严重质疑。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "被铐上飞机的伊朗女子流放到非洲"
+            }
+          ]
+        },
+        {
+          "title_zh": "从美国驱逐的男子在赤道几内亚拘留酒店遭捆绑和殴打",
+          "summary": "两名被特朗普政府驱逐到赤道几内亚的嫌疑人遭到捆绑、蒙头并推下楼梯，人权律师发出警告。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-18",
+          "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+          "overview": "据目击者和人权律师称，两名被特朗普政府驱逐到赤道几内亚的男子在拘留酒店遭到严重虐待。他们被捆绑、蒙上头套并被推下楼梯，随后被送往监狱。目前仍有约30名美国遣返人员被困在该国一家偏远酒店的拘留设施中。",
+          "analysis": "这一事件进一步暴露了美国秘密驱逐协议执行过程中的暴力风险。接收国的拘留条件恶劣且缺乏监管，严重违反了国际人权标准，可能引发外交争端和人权诉讼。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "遣返男子在赤道几内亚遭暴力对待"
+            }
+          ]
+        },
+        {
+          "title_zh": "尼日利亚监狱37人死亡幸存者回忆恐慌与窒息挣扎",
+          "summary": "警方在米纳市向抗议者发射催泪瓦斯，死者多为涉嫌非法淘金的儿童。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-18",
+          "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+          "overview": "尼日利亚米纳市一所监狱中37名疑似非法淘金者在准军事组织拘留期间死亡，幸存者讲述了当时的恐慌和窒息经历。警方随后向抗议者发射催泪瓦斯并实施宵禁，死者中许多是儿童，引发社会强烈愤慨。",
+          "analysis": "此次事件凸显了尼日利亚执法机构在处理非法采矿问题时的暴力倾向以及对人权的漠视。大量未成年人受害更是加剧了公众愤怒，可能推动相关立法改革或国际调查介入。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "37名死者中许多是儿童"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国女子在马拉维被绑架后遭警方枪战营救",
+          "summary": "四名嫌疑人被捕，其中四人在救援行动中被击毙。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-18",
+          "url": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
+          "overview": "一名英国女子在马拉维南部城市布兰塔耶被绑架后，警方通过枪战将其成功营救。四名嫌疑人中有四人在行动中被打死。警方此前悬赏3000万马拉维克瓦查（约1.3万英镑）以获取线索并逮捕罪犯。",
+          "analysis": "此案反映了非洲部分地区日益严峻的安全形势，尤其是针对外国公民的绑架犯罪频发。警方的果断行动虽然成功解救人质，但也凸显了当地执法力量在应对此类危机时的风险与代价。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "英国女子在马拉维遭枪战营救"
+            }
+          ]
+        },
+        {
+          "title_zh": "飓风波罗受强厄尔尼诺影响迅速增强，逼近墨西哥海岸",
+          "summary": "该热带风暴在不到24小时内升级为5级超级飓风，持续风速达165英里/小时。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-22",
+          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
+          "overview": "受太平洋异常强厄尔尼诺天气模式影响，墨西哥西南海岸附近的热带风暴波罗在不到24小时内升级为5级超级飓风。其最大持续风速达到165英里/小时（约266公里/小时），目前位于沿海城市齐瓦塔内霍以南约215英里处，预计不会直接登陆墨西哥。",
+          "analysis": "此次飓风的快速增强再次印证了气候变化对极端天气事件的加剧作用。尽管目前路径显示不会直接袭击墨西哥本土，但外围风圈仍可能对周边海域航运和渔业造成严重影响。",
+          "social": [
+            {
+              "who": "Guardian",
+              "text": "飓风波罗24小时内升级为5级"
             }
           ]
         }
@@ -2188,47 +2216,55 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "近期关注 GPT-6 发布带来的成本降低与安全合规挑战，推动 AI 模型效率提升。",
-          "url": "x.com/samaltman"
+          "recent": "OpenAI 发布 GPT-6，聚焦更低成本与更少错误的模型优化。",
+          "url": "https://www.samaltman.com"
         },
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
+          "name": "Mark Zuckerberg",
+          "role": "Meta CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "近期关注 Opus 5.5 级性能优化及宪法式 AI（Constitutional AI）安全研究。",
-          "url": "x.com/darioamodei"
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta 首席 AI 科学家",
-          "region": "法国/美国",
-          "domain": "ai",
-          "recent": "近期关注开源 AI 模型发展路线及 Meta Muse 等智能助手的技术架构。",
-          "url": "x.com/ylecun"
+          "recent": "Meta 承认 AI 助手 Muse 与竞品相似性，推动 AI 助手生态发展。",
+          "url": "https://x.com/zuck"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人",
-          "region": "美国",
+          "role": "播客主持人/研究员",
+          "region": "全球（美籍）",
           "domain": "podcast",
-          "recent": "近期关注 AGI 进展深度访谈，探讨人工智能意识与人类认知的边界。",
-          "url": "lexfridman.com"
+          "recent": "持续通过播客深度探讨 AI 前沿技术与行业炒作现象。",
+          "url": "https://lexfridman.com"
         },
         {
-          "name": "Andrew Huberman",
-          "role": "神经科学播客主理人",
+          "name": "Satya Nadella",
+          "role": "Microsoft CEO",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "近期关注 AI 对大脑认知功能的影响，以及数字健康与科技伦理的交叉领域。",
-          "url": "hubermanlab.com"
+          "domain": "ai",
+          "recent": "微软打击 AI 辅助平台安全漏洞，强化企业级 AI 治理。",
+          "url": "https://x.com/satyanadella"
         },
         {
-          "name": "刘炜",
-          "role": "中国国家图书馆馆长",
+          "name": "David Lankes",
+          "role": "图书馆创新思想家",
+          "region": "全球（美籍）",
+          "domain": "library",
+          "recent": "关注图书馆未来改造愿景及馆员技能提升策略。",
+          "url": "https://davidlankes.com"
+        },
+        {
+          "name": "张国华",
+          "role": "中国图书馆学会原理事长",
           "region": "中国",
           "domain": "library",
-          "recent": "近期关注智慧图书馆建设、数字赋能新时代图书馆高质量发展及全民阅读服务推广。",
+          "recent": "推动智慧图书馆建设论坛、志愿服务行动及中俄国际交流。",
+          "url": ""
+        },
+        {
+          "name": "Indra Rajaraman",
+          "role": "Snorkel AI CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "AI 训练数据需求激增背景下，公司估值翻三倍至 35 亿美元。",
           "url": ""
         }
       ]
