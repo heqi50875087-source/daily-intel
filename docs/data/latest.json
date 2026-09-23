@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:33:28+08:00",
+  "generated_at": "2026-09-23T11:09:11+08:00",
   "date": "2026-09-23",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,10 +7,10 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-09-23 10:33",
+    "hot": "2026-09-23 11:09",
     "ai": "2026-09-23 09:25",
     "voices": "2026-09-23 10:33",
-    "github": "2026-09-23 10:33",
+    "github": "2026-09-23 11:09",
     "libraries": "2026-09-23 10:33",
     "sports": "2026-09-23 10:33",
     "academic": "2026-09-23 06:40"
@@ -1977,266 +1977,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "Laya — AI决策模型框架",
+          "title_zh": "Laya — 类型化决策模型框架",
           "eng": "NandhaKishorM/laya",
-          "summary": "一个用于构建AI决策模型的Python框架，支持类型安全的推理与执行。",
+          "summary": "一个轻量级的类型化决策模型框架，支持在本地设备上以极低延迟运行结构化推理。",
           "source": "GitHub",
-          "stars": 16825,
+          "stars": 17067,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/NandhaKishorM/laya",
-          "overview": "Laya是一个面向AI决策模型的开源框架，支持类型安全的推理、执行和评估。它不依赖文本生成或云端API，可在本地快速完成结构化决策任务。社区生态活跃，衍生出多个运行时适配器和工具集。",
-          "analysis": "作为Jev生态的核心框架，laya以16825星成为近期增长最快的AI项目之一。其'类型安全决策模型'的设计理念区别于传统LLM对话范式，适合需要确定性输出的场景（如代码审查、数据标注等）。",
+          "overview": "Laya 是 TypeSafe AI 推出的系统一决策模型框架，核心思想是用类型化的结构化推理替代传统文本生成。它支持在本地设备上以毫秒级延迟完成短决策任务，无需调用云端 API，也不需要 PyTorch 等重型依赖。该框架已衍生出多个生态项目，包括 MLX、CoreML 和 Qwen3.5 的适配版本。",
+          "analysis": "Laya 代表了 AI 推理范式的重要转变——从生成式转向决策式。17000+ stars 说明社区对其高度认可。其核心价值在于让本地设备能够进行结构化推理，这对隐私敏感场景和边缘计算意义重大。",
           "social": [
             {
               "who": "开发者",
-              "text": "Laya的本地推理能力让AI决策不再依赖云端，这对企业级应用和隐私敏感场景非常有价值。"
+              "text": "Laya 的架构设计非常优雅，类型化决策的思路比传统 LLM 调用更可靠、更可预测。"
             },
             {
               "who": "研究者",
-              "text": "类型安全+结构化输出的组合为AI Agent提供了新的范式，值得深入跟进。"
+              "text": "从生成到决策的转变是 AI Agent 领域的关键突破，Laya 提供了最完整的开源实现。"
             }
           ]
         },
         {
-          "title_zh": "fast-jev-compaction — Claude Code插件",
-          "eng": "tamaratran/fast-jev-compaction",
-          "summary": "Claude Code的Jev决策压缩插件，将工具调用结果评分后丢弃冗余信息。",
-          "source": "GitHub",
-          "stars": 6322,
-          "lang": "TypeScript",
-          "published": "2026-09-17",
-          "url": "https://github.com/tamaratran/fast-jev-compaction",
-          "overview": "该插件为Claude Code引入了Jev决策机制，对每次工具调用的结果进行评分，将过时或冗余的信息截断或删除，保留关键内容。通过单次快速请求完成所有评分，显著提升响应速度。",
-          "analysis": "这是AI编码助手领域的实用创新——用结构化决策替代传统LLM摘要压缩，既保留了信息完整性又大幅降低了token消耗。对开发者日常使用Claude Code等工具具有直接价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "每次代码审查或调试时都能感受到响应速度的提升，不再被冗长的上下文拖慢节奏。"
-            },
-            {
-              "who": "AI研究者",
-              "text": "将Jev决策模型集成到主流编码工具中是一个很好的落地案例。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ZCode — Z.ai编程Agent框架",
+          "title_zh": "ZCode — Z.ai 编程智能体框架",
           "eng": "zai-org/ZCode",
-          "summary": "Z.ai的编程智能体框架，强大、智能且可扩展。",
+          "summary": "Z.ai 的编码智能体运行时，强大、智能且可扩展的代码生成与调试工具。",
           "source": "GitHub",
-          "stars": 6321,
+          "stars": 6345,
           "lang": "TypeScript",
           "published": "2026-09-20",
           "url": "https://github.com/zai-org/ZCode",
-          "overview": "ZCode是Z.ai推出的编程智能体框架，旨在提供强大的代码生成、理解和调试能力。支持高度可扩展的插件体系，可接入多种开发工具和语言环境。",
-          "analysis": "作为新兴AI编码平台的Agent层基础设施，ZCode代表了从单一模型调用向多步骤编排的智能体架构演进方向。其TypeScript实现便于开发者快速集成和二次开发。",
+          "overview": "ZCode 是 Z.ai 推出的编码智能体框架，专注于提升开发者的代码编写效率。它支持多种编程语言的代码生成、调试和重构，具备强大的上下文理解能力。作为 TypeScript 实现，与前端生态高度兼容，适合现代 Web 开发工作流。",
+          "analysis": "6300+ stars 表明 Z.ai 在 AI 编程工具领域已建立显著影响力。ZCode 的可扩展架构使其既能作为独立工具使用，也能嵌入现有 IDE 和 CI/CD 流程中。",
           "social": [
             {
               "who": "开发者",
-              "text": "可扩展的插件体系让它可以适配各种IDE和工作流，非常灵活。"
+              "text": "ZCode 的上下文理解能力远超同类工具，生成的代码质量明显更高。"
             },
             {
-              "who": "技术观察者",
-              "text": "Z.ai在Agent框架上的投入表明AI编程助手正从'对话式'向'工程化'转变。"
+              "who": "技术博主",
+              "text": "Z.ai 正在成为 AI 编程领域的有力竞争者，ZCode 是他们的核心基础设施。"
             }
           ]
         },
         {
-          "title_zh": "laya-mlx — Apple Silicon本地推理",
-          "eng": "mizorewww/laya-mlx",
-          "summary": "为Laya决策模型提供原生MLX运行时，在M3 Max上实现7-14ms的超快响应。",
+          "title_zh": "fast-jev-compaction — Claude Code Jev 压缩插件",
+          "eng": "tamaratran/fast-jev-compaction",
+          "summary": "Claude Code 的 Jev 决策压缩插件，将工具调用和结果评分合并为一次快速请求。",
           "source": "GitHub",
-          "stars": 5491,
+          "stars": 6339,
+          "lang": "TypeScript",
+          "published": "2026-09-17",
+          "url": "https://github.com/tamaratran/fast-jev-compaction",
+          "overview": "该插件为 Claude Code 实现了 Jev 决策压缩机制，将原本需要多次调用的工具调用评分和结果摘要合并为单次请求。过时的决策会被丢弃或截断，保留的决策保持原文不变。这显著提升了 Claude Code 在长上下文任务中的响应速度和准确性。",
+          "analysis": "6300+ stars 说明开发者对 AI Agent 性能优化的强烈需求。该插件直接解决了 Claude Code 在实际使用中遇到的延迟和冗余问题，是 Jev 生态中最实用的应用之一。",
+          "social": [
+            {
+              "who": "AI 工程师",
+              "text": "这个插件让 Claude Code 的长任务处理快了数倍，压缩逻辑设计得很巧妙。"
+            },
+            {
+              "who": "开发者",
+              "text": "Jev 决策压缩是 Agent 效率的关键瓶颈，这个实现既简单又有效。"
+            }
+          ]
+        },
+        {
+          "title_zh": "laya-mlx — Apple MLX 本地推理运行时",
+          "eng": "mizorewww/laya-mlx",
+          "summary": "基于 Apple MLX 框架的 Laya 原生运行时，在 M3 Max 上实现 7-14ms 短决策。",
+          "source": "GitHub",
+          "stars": 5527,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-mlx",
-          "overview": "该仓库为Laya类型决策模型提供了基于Apple MLX框架的原生运行时，无需PyTorch或云端API。在M3 Max芯片上可实现7到14毫秒的短决策响应时间，完全本地运行。",
-          "analysis": "将AI决策模型从云端拉回本地设备是重要趋势，laya-mlx证明了MLX生态对结构化推理任务的支持能力。这对Mac用户和注重隐私的企业场景意义重大。",
+          "overview": "laya-mlx 是 Laya 框架在 Apple MLX 上的原生实现，专为 macOS 和 iOS 设备优化。它利用 Apple Silicon 的 Neural Engine 实现本地推理，无需调用云端 API、不需要 PyTorch，决策延迟低至 7-14ms。该项目的目标是让 AI 决策能力完全运行在用户设备上。",
+          "analysis": "5500+ stars 反映了开发者对本地 AI 推理的强烈需求。laya-mlx 填补了 Laya 框架在 Apple 生态中的空白，其性能指标（7-14ms）极具竞争力，是边缘 AI 的重要实践。",
           "social": [
             {
-              "who": "开发者",
-              "text": "7ms的响应速度意味着可以在实时应用中集成AI决策，比如智能代码补全或即时翻译。"
+              "who": "Apple 开发者",
+              "text": "终于有了完整的本地 Laya 实现，MLX 的优化让 M3 Max 上的推理速度令人印象深刻。"
             },
             {
-              "who": "研究者",
-              "text": "MLX原生支持让Apple Silicon成为本地AI推理的理想平台之一。"
+              "who": "AI 研究者",
+              "text": "7-14ms 的决策延迟意味着可以在手机端实时运行复杂推理任务，这是重大突破。"
             }
           ]
         },
         {
-          "title_zh": "kev — 轻量级Jev决策模型",
+          "title_zh": "kev — Qwen3.5 本地可训练决策模型",
           "eng": "jaredpalmer/kev",
-          "summary": "基于Qwen3.5构建的微型Jev决策模型，可本地训练和运行。",
+          "summary": "基于 Qwen3.5 的轻量级 Jev 类决策模型，支持用户自行训练和本地运行。",
           "source": "GitHub",
-          "stars": 4354,
+          "stars": 4444,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/jaredpalmer/kev",
-          "overview": "kev是一个轻量级的Jev决策模型实现，基于Qwen3.5构建。它支持本地训练和运行，无需依赖大型云端基础设施，适合资源受限的环境和个人开发者使用。",
-          "analysis": "将Jev决策模型小型化并适配开源基座模型是降低AI应用门槛的关键一步。kev让个人开发者也能在自己的设备上运行结构化决策系统。",
+          "overview": "kev 是 Jared Palmer 基于 Qwen3.5 构建的 Jev 类决策模型系列，核心优势在于用户可以在自己的设备上训练和运行。它提供了完整的训练管道，支持自定义数据集微调，同时保持轻量级架构。这使得非专业用户也能参与 AI 决策模型的定制开发。",
+          "analysis": "4400+ stars 表明社区对可训练的本地 AI 模型有强烈需求。kev 降低了 Jev 决策模型的门槛，让普通开发者也能构建自己的专用推理系统，是开源 AI 民主化的重要一步。",
           "social": [
             {
-              "who": "开发者",
-              "text": "基于Qwen3.5意味着可以用更低的成本获得Jev能力，对预算有限的团队很友好。"
+              "who": "独立开发者",
+              "text": "终于可以在自己电脑上训练决策模型了，不需要 GPU 集群也能做微调。"
             },
             {
-              "who": "AI爱好者",
-              "text": "本地训练+运行让数据隐私不再是问题，适合处理敏感业务逻辑。"
+              "who": "AI 爱好者",
+              "text": "kev 的设计思路很好——用 Qwen3.5 作为基础模型，保持轻量同时获得强大的推理能力。"
             }
           ]
         },
         {
-          "title_zh": "jev-chat-jarvis — 手机AI对话副驾",
+          "title_zh": "jev-chat-jarvis — 手机端 AI 对话副驾",
           "eng": "jev-chat/jev-chat-jarvis",
-          "summary": "安装在手机上的AI对话助手，可在微信/QQ/X/飞书中读懂对方并给出候选回复。",
+          "summary": "手机上的 AI 对话助手，在微信/QQ/X/飞书中实时理解对方并给出候选回复。",
           "source": "GitHub",
-          "stars": 3939,
+          "stars": 4102,
           "lang": "Kotlin",
           "published": "2026-09-21",
           "url": "https://github.com/jev-chat/jev-chat-jarvis",
-          "overview": "这是一款手机端的AI对话副驾应用，支持在微信、QQ、X、飞书等主流聊天应用中实时读取对方消息并生成候选回复。采用非侵入式设计，仅读屏幕不hook不改包，用户自主决定是否发送。",
-          "analysis": "将Jev决策模型应用于日常社交场景是一个大胆的创新方向。非侵入式设计和用户控制权体现了对隐私的尊重，在AI助手越来越普及的今天具有重要的产品意义。",
+          "overview": "jev-chat-jarvis 是一款运行在手机上的 AI 对话副驾应用，支持微信、QQ、X（Twitter）、飞书等多个主流社交平台。它能实时读取屏幕内容理解对方消息，给出候选回复供用户选择，一键填入输入框。采用非侵入式设计，只读屏幕不 hook 不改包，完全由用户决定是否发送。",
+          "analysis": "4100+ stars 反映了用户对 AI 社交助手的巨大需求。该项目的核心价值在于多平台支持和隐私保护设计——只读不改、发不发由你决定，这在当前 AI 应用中极为罕见。",
           "social": [
             {
-              "who": "开发者",
-              "text": "Kotlin实现+非侵入式设计让它在Android生态中具有很好的兼容性和安全性。"
+              "who": "移动端开发者",
+              "text": "Kotlin + Jev 决策模型的组合很巧妙，非侵入式设计让用户放心使用。"
             },
             {
-              "who": "用户",
-              "text": "发不发由我决定，这种'辅助而非替代'的设计让人用起来很放心。"
+              "who": "AI 产品用户",
+              "text": "终于有了真正好用的 AI 社交助手，不改变原有聊天体验但能提供实时建议。"
             }
           ]
         },
         {
-          "title_zh": "NanoJev — Jev微型复刻版",
+          "title_zh": "NanoJev — Jev 微型决策模型复刻版",
           "eng": "TianyuCodings/NanoJev",
-          "summary": "Jev的微型复刻：支持并行决策、动态候选和端到端训练管线。",
+          "summary": "Jev 的轻量级复刻版本，支持并行决策、动态候选和端到端训练管道。",
           "source": "GitHub",
-          "stars": 2009,
+          "stars": 2018,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/TianyuCodings/NanoJev",
-          "overview": "NanoJev是Jev决策模型的微型复刻版本，保留了并行决策、动态候选生成等核心特性。同时提供了端到端的训练管线，方便开发者快速构建自己的决策模型。",
-          "analysis": "作为Jev生态的轻量级替代方案，NanoJev降低了学习和使用门槛，特别适合教育和研究场景。其端到端训练管线让非专家也能参与模型定制。",
+          "overview": "NanoJev 是 Jev 框架的微型复刻版本，核心特性包括并行决策能力、动态候选生成和完整的端到端训练管道。它旨在以更小的资源开销实现类似 Laya 的决策推理效果，适合在资源受限的设备上运行。该项目的 Python 实现便于快速原型开发和实验验证。",
+          "analysis": "2000+ stars 说明社区对轻量级 AI 决策模型的需求旺盛。NanoJev 的价值在于降低了 Jev 的使用门槛，让开发者可以用更少的资源构建实用的推理系统。",
           "social": [
             {
-              "who": "研究者",
-              "text": "并行决策+动态候选的组合在保持精度的同时显著提升了效率。"
+              "who": "AI 工程师",
+              "text": "NanoJev 的并行决策设计很实用，在资源受限环境下也能保持不错的性能。"
             },
             {
-              "who": "学生",
-              "text": "端到端训练管线让学习AI决策模型变得更容易，适合课程项目使用。"
+              "who": "开发者",
+              "text": "作为 Jev 的轻量版，它让快速原型开发变得更容易，训练管道也很完整。"
             }
           ]
         },
         {
           "title_zh": "nimble — 本地决策与数据策展平台",
           "eng": "bespokelabsai/nimble",
-          "summary": "支持本地类型化决策、对比式数据策展和模型评估的AI平台。",
+          "summary": "支持本地类型化决策、对比式数据策展和模型评估的 AI 工具。",
           "source": "GitHub",
-          "stars": 1632,
+          "stars": 1637,
           "lang": "Python",
           "published": "2026-09-18",
           "url": "https://github.com/bespokelabsai/nimble",
-          "overview": "nimble是一个面向本地部署的AI决策平台，提供类型化决策推理、对比式数据策展和模型评估功能。它强调数据的对比分析和质量提升，适合需要高质量训练数据的场景。",
-          "analysis": "在AI模型越来越依赖高质量数据的背景下，nimble的数据策展能力填补了重要空白。本地部署特性使其适用于对数据安全有严格要求的企业环境。",
+          "overview": "nimble 是 Bespoke Labs AI 推出的本地化决策工具，核心功能包括类型化决策推理、对比式数据策展和模型评估。它专注于让开发者在本地环境中构建和管理高质量的训练数据集，同时支持对决策模型的持续评估和优化。该项目的 Python 实现便于与现有 ML 工作流集成。",
+          "analysis": "1600+ stars 反映了社区对 AI 数据质量和模型评估工具的需求。nimble 的独特价值在于将数据策展和模型评估整合到本地环境中，减少了对外部服务的依赖。",
           "social": [
             {
-              "who": "数据工程师",
-              "text": "对比式数据策展让训练数据质量有了可量化的提升手段。"
+              "who": "ML 工程师",
+              "text": "对比式数据策展是提升模型质量的关键环节，nimble 把这个流程做得很完整。"
             },
             {
-              "who": "企业技术负责人",
-              "text": "本地部署+类型化决策的组合满足了合规和性能的双重需求。"
+              "who": "AI 研究者",
+              "text": "本地化的决策评估工具很有价值，特别是在需要严格隐私控制的场景下。"
             }
           ]
         },
         {
-          "title_zh": "awesome-jev — Jev生态项目合集",
+          "title_zh": "awesome-jev — Jev 生态项目合集",
           "eng": "yibie/awesome-jev",
-          "summary": "Jev生态的精选项目、集成方案和讨论汇总，是了解该领域的最佳入口。",
+          "summary": "Jev 生态系统的项目、集成和讨论的精选列表，帮助开发者快速了解整个生态。",
           "source": "GitHub",
-          "stars": 1321,
+          "stars": 1330,
           "lang": "Python",
           "published": "2026-09-17",
           "url": "https://github.com/yibie/awesome-jev",
-          "overview": "这是一个精心策划的Jev生态项目列表，涵盖了公开项目、集成方案和社区讨论。作为TypeSafe AI的System One模型——类型化决策系统的资源中心，帮助开发者快速找到相关工具和最佳实践。",
-          "analysis": "在AI领域涌现大量新工具时，awesome列表是降低认知成本的关键基础设施。awesome-jev为Jev生态提供了清晰的导航地图，对新入行者特别有价值。",
+          "overview": "awesome-jev 是 Jev 生态系统的精选项目列表，涵盖了 TypeSafe AI 的系统一决策模型相关的公开项目、第三方集成和社区讨论。它按照功能分类整理，包括核心框架、插件、移动端应用和工具链等，帮助开发者快速找到适合自己的 Jev 相关资源。",
+          "analysis": "1300+ stars 说明社区对 Jev 生态系统的关注度很高。awesome-jev 的价值在于降低了新用户的入门门槛，让开发者能快速了解这个快速增长的 AI 决策模型生态。",
           "social": [
             {
               "who": "新手开发者",
-              "text": "面对这么多Jev相关项目，这个合集帮我快速找到了最适合自己的工具。"
+              "text": "Jev 生态发展太快了，这个合集帮我快速理清了各个项目的关系和用途。"
             },
             {
-              "who": "社区维护者",
-              "text": "持续更新的awesome列表是开源生态健康度的重要指标。"
+              "who": "技术博主",
+              "text": "awesome-jev 是了解 Jev 生态的最佳入口，分类清晰、更新及时。"
             }
           ]
         },
         {
-          "title_zh": "laya-coreml — Apple Core ML本地推理",
+          "title_zh": "laya-coreml — Apple Core ML/Neural Engine 本地推理",
           "eng": "mizorewww/laya-coreml",
-          "summary": "在Apple Core ML和Neural Engine上运行Laya类型化决策，M3 Max上约5ms响应。",
+          "summary": "基于 Apple Core ML 和 Neural Engine 的 Laya 本地决策实现，在 M3 Max 上验证约 5ms 短决策。",
           "source": "GitHub",
-          "stars": 1295,
+          "stars": 1303,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-coreml",
-          "overview": "该仓库将Laya类型化决策模型移植到Apple Core ML和Neural Engine上，在M3 Max芯片上实现约5毫秒的短决策响应。提供了可复现的速度和能耗基准测试数据，确保结果的一致性。",
-          "analysis": "laya-mlx与laya-coreml共同构成了Laya在Apple生态中的完整本地推理方案。Core ML版本更强调能效比和可复现性，适合对功耗敏感的移动设备场景。",
+          "overview": "laya-coreml 是 Laya 框架在 Apple Core ML 和 Neural Engine 上的本地实现，专注于在 macOS 设备上实现超低延迟的决策推理。它在 M3 Max 上验证了约 5ms 的短决策速度，并提供了可复现的速度和能耗基准测试。该项目的目标是让 AI 决策能力完全运行在用户设备上，无需任何云端依赖。",
+          "analysis": "1300+ stars 反映了开发者对 Apple 生态本地 AI 推理的需求。laya-coreml 与 laya-mlx 形成互补，分别覆盖 MLX 和 CoreML 两个技术栈，为 macOS/iOS 开发者提供了完整的本地决策方案。",
           "social": [
             {
-              "who": "移动端开发者",
-              "text": "5ms响应+能耗基准让它在iOS应用中集成AI决策变得可行且可控。"
+              "who": "Apple 开发者",
+              "text": "Core ML + Neural Engine 的组合让 Laya 在 Apple 设备上达到了极致性能，5ms 的决策速度令人惊叹。"
             },
             {
-              "who": "研究者",
-              "text": "可复现的基准测试数据为模型性能比较提供了可靠依据。"
+              "who": "AI 工程师",
+              "text": "可复现的速度和能耗基准测试很有价值，方便在不同设备上进行横向对比。"
             }
           ]
         },
         {
-          "title_zh": "unreal-agent — 异步优先Agent框架",
+          "title_zh": "unreal-agent — 异步优先的 Agent 框架",
           "eng": "unreallabsai/unreal-agent",
-          "summary": "以异步为核心的智能体运行框架，适合构建高并发AI Agent系统。",
+          "summary": "以异步为核心的 AI Agent 运行时框架，支持高并发任务处理和事件驱动架构。",
           "source": "GitHub",
-          "stars": 1001,
+          "stars": 1047,
           "lang": "Go",
           "published": "2026-09-21",
           "url": "https://github.com/unreallabsai/unreal-agent",
-          "overview": "unreal-agent是一个以异步优先设计的智能体运行框架，使用Go语言实现。它专注于高并发场景下的Agent编排和任务调度，适合构建需要处理大量并行请求的AI系统。",
-          "analysis": "在AI Agent从单用户走向多租户、高并发的趋势下，unreal-agent的异步架构设计提供了良好的扩展基础。Go语言的运行时性能使其适合生产级部署。",
+          "overview": "unreal-agent 是 Unreal Labs AI 推出的异步优先 Agent 框架，使用 Go 语言实现。它专注于高并发任务处理和事件驱动架构，支持多个 Agent 实例的并行运行和复杂工作流的编排。该项目的核心优势在于 Go 语言的运行时性能和原生并发能力，适合构建大规模 AI Agent 系统。",
+          "analysis": "1000+ stars 表明开发者对高性能 Agent 框架的需求在增长。unreal-agent 使用 Go 语言实现，在并发处理和资源效率方面具有天然优势，适合需要处理大量并行任务的场景。",
           "social": [
             {
               "who": "后端工程师",
-              "text": "Go的并发模型+Agent编排的组合让它在处理大规模AI请求时表现稳定。"
+              "text": "Go + 异步架构的组合让 Agent 系统的可扩展性远超 Python 方案，性能表现很出色。"
             },
             {
-              "who": "架构师",
-              "text": "异步优先的设计避免了传统同步框架在高负载下的瓶颈问题。"
-            }
-          ]
-        },
-        {
-          "title_zh": "open-glean — 开源AI知识工作平台",
-          "eng": "hydra-db/open-glean",
-          "summary": "面向知识工作的开源AI平台，连接你的应用、查找答案并完成任务。",
-          "source": "GitHub",
-          "stars": 843,
-          "lang": "TypeScript",
-          "published": "2026-09-17",
-          "url": "https://github.com/hydra-db/open-glean",
-          "overview": "open-glean是一个开源的AI知识工作平台，旨在连接各类应用程序、帮助用户快速找到答案并高效完成工作任务。它强调跨应用的知识整合和智能检索能力。",
-          "analysis": "在信息过载的时代，将AI与现有工具链深度集成是提升工作效率的关键路径。open-glean的TypeScript实现便于与企业现有的Web应用生态无缝对接。",
-          "social": [
-            {
-              "who": "知识工作者",
-              "text": "连接多个应用后终于能在一个地方找到所有需要的信息，效率提升明显。"
-            },
-            {
-              "who": "产品经理",
-              "text": "开源平台意味着可以根据团队需求定制功能，比SaaS方案更灵活。"
+              "who": "AI 系统架构师",
+              "text": "unreal-agent 的事件驱动设计非常适合构建复杂的多 Agent 协作系统。"
             }
           ]
         }
@@ -2245,222 +2223,98 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国首相伯恩哈姆在联合国首秀：打击虚假信息，推动AI新标准",
-          "summary": "英国首相伯恩哈姆在联合国大会发表首次演讲，强调英国愿在全球挑战中充当“诚实中间人”。",
+          "title_zh": "英国首相在联合国呼吁打击俄罗斯虚假信息并推动全球AI标准",
+          "summary": "英国首相伯恩哈姆在联合国发表首次演讲，强调英国愿作为'诚实中间人'应对AI等全球挑战。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-23",
           "url": "https://www.bbc.co.uk/news/articles/c6rerlq99w30o?at_medium=RSS&at_campaign=rss",
-          "overview": "伯恩哈姆在演讲中重点指出了俄罗斯虚假信息带来的风险，并呼吁建立新的全球人工智能标准。他提出英国可以在AI等关键领域发挥调解作用，为国际社会提供公正的解决方案。这一表态被视为新政府在国际舞台上确立外交基调的重要信号。",
-          "analysis": "此举反映了英国试图在美俄之间寻找平衡点的战略意图，同时展示了其在全球科技治理中争取话语权的野心。俄罗斯虚假信息问题在当前地缘政治紧张局势下尤为敏感，英国的立场可能影响后续国际安全合作走向。",
+          "overview": "在英国首相伯恩哈姆的任期内，他于联合国大会发表了首次公开演讲，重点阐述了俄罗斯虚假信息对国际安全的威胁。他提出英国可以在人工智能治理等全球性议题上发挥'诚实中间人'的作用，并呼吁制定新的全球AI标准。此次发言被视为新政府在国际舞台上的重要亮相，旨在重塑英国的外交影响力。",
+          "analysis": "此举反映了西方国家对信息战和AI监管的日益重视，同时也凸显了英国试图在美中博弈中保持独立立场的战略意图。",
           "social": [
             {
               "who": "国际观察家",
-              "text": "分析认为英国正试图利用AI标准制定权重塑全球数字秩序"
-            },
-            {
-              "who": "公众舆论",
-              "text": "多数民众支持政府打击虚假信息以维护国家安全"
+              "text": "英国作为传统英语国家，在AI标准制定上拥有独特话语权，这一表态值得持续关注。"
             }
           ]
         },
         {
-          "title_zh": "特朗普批评查戈斯群岛协议，称可与伯恩哈姆合作但斥交易“糟糕”",
-          "summary": "美国前总统特朗普表示愿意与英国首相伯恩哈姆开展合作，但严厉批评了英国提出的查戈斯群岛移交方案。",
+          "title_zh": "BBC视频：伯恩哈姆首次联合国演讲关键时刻回顾",
+          "summary": "在英国首相伯恩哈姆的任期内，他在联合国大会发表了首次公开演讲，重点阐述了俄罗斯虚假信息对国际安全的威胁。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-23",
+          "url": "https://www.bbc.co.uk/news/videos/cq5y4zpn655ko?at_medium=RSS&at_campaign=rss",
+          "overview": "视频记录了英国首相伯恩哈姆在联合国大会上的首次演讲关键时刻。他在讲话中不仅强调了俄罗斯虚假信息对国际安全的威胁，还展示了新政府在外交政策上的坚定立场。这一视觉记录为国际社会提供了更直观地了解英国新任领导人施政方向的机会。",
+          "analysis": "视频形式的报道补充了文字摘要的细节，有助于公众更全面地理解伯恩哈姆的演讲内容和现场氛围。",
+          "social": [
+            {
+              "who": "媒体评论员",
+              "text": "视觉化呈现外交演讲有助于增强信息的传播力，让普通观众更容易捕捉到关键政策信号。"
+            }
+          ]
+        },
+        {
+          "title_zh": "特朗普批评查戈斯群岛协议，称可与新首相合作但反对'糟糕'交易",
+          "summary": "特朗普表示愿意与新任英国首相开展业务往来，但严厉批评了关于查戈斯群岛的移交方案。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/news/articles/cq2dwye3r7k4o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国提议将查戈斯群岛移交给毛里求斯，并支付费用租回重要的军事基地。特朗普对此表示不满，称该交易“糟糕”，但同时也暗示双方仍有合作空间。这一事件凸显了英美两国在印度洋战略利益上的潜在分歧。",
-          "analysis": "查戈斯群岛涉及英国海外领土主权与美军基地使用权的核心矛盾，特朗普的批评可能影响美英在该地区的军事部署协调。毛里求斯的诉求若得到支持，将改变该区域的国际法格局。",
+          "overview": "英国政府提出将查戈斯群岛主权移交给毛里求斯，并支付费用租回重要的军事基地。美国总统特朗普对此表示不满，批评该交易为'糟糕'的决定，但同时表示愿意与新首相伯恩哈姆保持合作关系。这一争议凸显了英美两国在印太地区军事利益与外交关系之间的微妙平衡。",
+          "analysis": "查戈斯群岛问题涉及英国海外领土主权和美军战略部署，特朗普的反对态度可能影响两国后续的外交谈判走向。",
           "social": [
             {
-              "who": "外交评论员",
-              "text": "认为这是英美在印太战略利益上出现裂痕的信号"
-            },
-            {
-              "who": "印度洋地区民众",
-              "text": "对主权回归表示欢迎，但担忧军事基地带来的安全风险"
+              "who": "地缘政治分析师",
+              "text": "该协议若通过，将是英联邦历史上最大的主权让步之一，对印度洋军事格局影响深远。"
             }
           ]
         },
         {
-          "title_zh": "曼彻斯特针对犹太社区的袭击阴谋被警方挫败，两名男子被捕",
-          "summary": "英国反恐怖主义警察宣布在曼彻斯特挫败了一起针对当地犹太社区的攻击阴谋，并逮捕了两名嫌疑人。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/news/articles/cq07ly8xzvn4o?at_medium=RSS&at_campaign=rss",
-          "overview": "警方在周日逮捕了两名男子，调查人员表示该阴谋具有针对性。此举发生在近期欧洲多起反犹太事件频发的背景下，引发了当地社区对安全局势的担忧。",
-          "analysis": "针对特定宗教少数群体的恐怖威胁在欧洲持续升温，此次挫败行动展示了英国反恐情报系统的有效性，但也提醒公众仇恨犯罪风险依然严峻。",
-          "social": [
-            {
-              "who": "曼彻斯特居民",
-              "text": "希望警方能加强社区巡逻以保障犹太家庭的安全"
-            },
-            {
-              "who": "安全专家",
-              "text": "指出此类针对性阴谋往往具有高度隐蔽性，需持续警惕"
-            }
-          ]
-        },
-        {
-          "title_zh": "\"毒贩\"出售致命药物致人死亡，家属怒斥其应下地狱",
-          "summary": "加拿大毒贩肯尼斯·劳向英国女子女儿出售含有有毒化学物质的毒品，受害者家属发出强烈谴责。",
+          "title_zh": "'毒贩'向女儿出售致命药物被判刑，受害者家属怒斥其应下地狱",
+          "summary": "加拿大男子肯尼斯·劳因在网上销售有毒化学品导致一名女子死亡，其女儿家属发出强烈谴责。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/news/articles/c9j3dgxl8j58o?at_medium=RSS&at_campaign=rss",
-          "overview": "受害者家属路易丝·南恩公开控诉，其女儿从在线渠道购买了由肯尼斯·劳出售的致命药物。该案件引发了公众对跨境网络毒品交易监管缺失的讨论。",
-          "analysis": "此案揭示了互联网上非法化学品交易的隐蔽性和危险性，跨国执法合作在打击此类新型犯罪方面仍面临巨大挑战。",
+          "overview": "受害者路易丝·南恩的女儿从加拿大人肯尼斯·劳手中购买了毒品，该男子被指控在网上销售有毒化学品。南恩女士愤怒地表示希望此人'在地狱腐烂'。案件揭示了网络非法药物交易对家庭造成的毁灭性打击，也引发了公众对在线化学品监管的讨论。",
+          "analysis": "此案反映了日益猖獗的网络毒贩活动对个人安全的威胁，凸显了跨境执法和平台监管的紧迫性。",
           "social": [
             {
-              "who": "受害者家属",
-              "text": "呼吁加强对在线有毒化学品销售的监控和处罚力度"
-            },
-            {
-              "who": "法律界人士",
-              "text": "认为现行跨境毒品交易法律框架需要进一步完善"
+              "who": "法律评论员",
+              "text": "网络售毒链条的隐蔽性使得受害者往往在不知情的情况下摄入致命物质，监管漏洞亟待修补。"
             }
           ]
         },
         {
-          "title_zh": "IMF警告发达经济体需“降低债务”，借贷成本上升引发担忧",
-          "summary": "IMF总裁格奥尔基耶娃在接受BBC采访时警告，经济冲击已将债务水平推高至危险境地。",
+          "title_zh": "IMF警告发达经济体需降低债务水平以应对借贷成本上升",
+          "summary": "IMF总裁格奥尔基耶娃在接受BBC采访时指出，经济冲击已将债务水平推高至危险境地。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
-          "overview": "IMF总裁格奥尔基耶娃形容债务增长如同“通往天堂的楼梯”，呼吁各国采取措施降低负债率。她指出经济冲击已导致先进经济体债务水平急剧上升，必须尽快应对。",
-          "analysis": "在全球利率上升和经济不确定性增加的背景下，IMF的警告对发达经济体财政空间构成了严峻考验，可能影响未来的公共投资能力和经济增长潜力。",
+          "overview": "国际货币基金组织（IMF）总裁格奥尔基耶娃在采访中表示，全球经济冲击已导致各国'像爬楼梯一样'不断攀升债务水平。她警告发达经济体必须采取行动降低负债率，因为借贷成本的上升正在加剧金融系统的脆弱性。这一表态为当前全球财政紧缩政策敲响了警钟。",
+          "analysis": "在高利率环境下，主权债务风险可能引发新一轮金融危机，IMF的警告旨在推动各国提前进行债务重组或削减开支。",
           "social": [
             {
               "who": "经济学家",
-              "text": "指出高债务水平将限制政府应对未来危机的灵活性"
-            },
-            {
-              "who": "普通纳税人",
-              "text": "担忧税收增加或公共服务削减以偿还巨额债务"
+              "text": "如果各国继续借贷而不加控制，未来几年可能会面临严重的偿债危机，影响全球经济增长。"
             }
           ]
         },
         {
-          "title_zh": "美国撤出援助项目后，非洲及全球南方医疗体系面临巨大压力",
-          "summary": "Accra Reset的报告警告，美国从USAID等关键援助项目中撤出后，非洲及全球南方的医疗体系正承受日益增长的压力。",
-          "source": "Guardian World",
+          "title_zh": "警方挫败针对曼彻斯特犹太社区的袭击阴谋，逮捕两名男子",
+          "summary": "英国反恐警察在曼彻斯特破获一起针对犹太社区的恐怖袭击图谋，并逮捕了两名嫌疑人。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-09-21",
-          "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
-          "overview": "报告指出，特朗普政府削减USAID等关键援助项目，叠加新冠疫情和全球生活成本上升，给非洲及全球南方的医疗带来了“新的紧迫性”。受影响国家被呼吁加强自主健康治理能力。",
-          "analysis": "这一趋势凸显了对外部援助的过度依赖风险，若缺乏替代方案，可能导致发展中国家公共卫生危机加剧，影响全球疾病防控能力。",
+          "published": "2026-09-22",
+          "url": "https://www.bbc.co.uk/news/articles/cq07ly8xzvn4o?at_medium=RSS&at_campaign=rss",
+          "overview": "周日，英国反恐警察在曼彻斯特成功干扰了一起针对当地犹太社区的攻击计划，并逮捕了两名男子。警方表示该行动有效阻止了潜在的伤害事件发生。这一事件发生在当前全球反犹情绪上升的背景下，引发了社会对社区安全和反恐力度的关注。",
+          "analysis": "针对特定宗教社区的恐怖威胁日益增多，英国警方的快速反应展示了其在预防性反恐方面的能力。",
           "social": [
             {
-              "who": "非洲卫生官员",
-              "text": "强调必须建立不依赖单一国家的多元化医疗融资机制"
-            },
-            {
-              "who": "国际NGO代表",
-              "text": "批评美国政策变动对全球公共卫生安全的负面影响"
-            }
-          ]
-        },
-        {
-          "title_zh": "调查揭露特朗普秘密驱逐协议：被锁链押送至陌生国家的移民遭遇",
-          "summary": "深度调查揭示了特朗普政府与数十个国家达成的秘密驱逐协议，移民在不知目的地的情况下被锁链押送。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-21",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
-          "overview": "调查报道显示，被驱逐者在不知目的地的情况下遭到嘲讽和羞辱。这一“武力展示”行动耗资巨大，引发了对程序正义的广泛质疑和人权组织的强烈谴责。",
-          "analysis": "此类秘密外交操作缺乏透明度，可能违反国际人权法中的正当程序原则，相关协议的合法性正面临法律挑战和国际舆论压力。",
-          "social": [
-            {
-              "who": "人权律师",
-              "text": "认为这种不透明操作严重侵犯了被驱逐者的基本权利"
-            },
-            {
-              "who": "移民权益倡导者",
-              "text": "呼吁国会审查并终止此类秘密驱逐协议"
-            }
-          ]
-        },
-        {
-          "title_zh": "被美国遣返至赤道几内亚的男性遭捆绑殴打，律师发出人权警报",
-          "summary": "据目击者和人权律师称，两名被特朗普政府遣返至赤道几内亚的男性在途中遭捆绑、蒙眼并被殴打。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
-          "overview": "约30名滞留酒店的美国遣返人员处境令人担忧。目击者描述了他们在途中遭受的暴力对待，律师警告称拘留条件恶劣且存在严重人权侵犯行为。",
-          "analysis": "该事件暴露了美国移民执法过程中的暴力问题以及接收国拘留条件的恶劣程度，可能引发国际诉讼和人权组织的强烈抗议及外交摩擦。",
-          "social": [
-            {
-              "who": "人权组织",
-              "text": "呼吁立即调查遣返途中的暴力行为并追究责任"
-            },
-            {
-              "who": "关注此事的公众",
-              "text": "对政府将公民置于危险境地表示愤怒"
-            }
-          ]
-        },
-        {
-          "title_zh": "尼日利亚监狱37人遇难幸存者讲述恐慌经历，抗议者要求真相",
-          "summary": "尼日利亚米纳市一所监狱中37名疑似非法淘金者死亡后，幸存者讲述了在准军事组织拘留期间的恐慌和窒息经历。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
-          "overview": "遇难者中许多是儿童，他们在准军事组织的拘留期间死亡。幸存者描述了极度恐慌和呼吸困难的情景，警方随后向抗议人群发射催泪瓦斯并实施宵禁。",
-          "analysis": "事件涉及未成年人死亡，引发了对当地执法机构对待非法移民及弱势群体方式的严重质疑，人权状况令人堪忧且可能引发国际关注。",
-          "social": [
-            {
-              "who": "遇难者家属",
-              "text": "要求政府公布死因调查的完整结果"
-            },
-            {
-              "who": "当地居民",
-              "text": "担忧监狱条件和执法暴力问题将持续恶化"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国女子在马拉维遭绑架后遭警方枪战营救，四名嫌疑人被击毙",
-          "summary": "英国女子努斯拉特·奥斯曼在马拉维南部城市布兰塔雷被绑架，警方随后展开行动将其救出，并在交火中击毙四名嫌疑人。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-18",
-          "url": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
-          "overview": "警方曾悬赏3000万马拉维克瓦查（约1.29万英镑）征集线索。此案反映了南部非洲地区日益严峻的绑架犯罪形势，同时也展示了当地执法部门的快速反应能力。",
-          "analysis": "针对外国人的绑架事件频发可能影响该地区的旅游业和外资信心，同时凸显了跨国警务合作在应对此类案件中的重要性。",
-          "social": [
-            {
-              "who": "受害者家属",
-              "text": "对警方迅速行动表示感谢，呼吁加强社区安全巡逻"
-            },
-            {
-              "who": "马拉维民众",
-              "text": "担忧针对外国人的绑架事件可能影响旅游业和外资信心"
-            }
-          ]
-        },
-        {
-          "title_zh": "查尔斯国王将牙买加奴隶赔偿请愿书提交枢密院咨询，被视为重大突破",
-          "summary": "牙买加文化部长宣布，查尔斯国王已将一项具有里程碑意义的奴隶赔偿请愿书提交给英国高级上诉法院寻求法律建议。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-23",
-          "url": "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council",
-          "overview": "牙买加议员称此举为“真正的大事”。这一决定可能开启前殖民地对历史赔偿进行法律追索的新篇章，对英联邦国家的历史遗留问题处理具有深远影响。",
-          "analysis": "枢密院咨询意见若支持赔偿诉求，将先例性地承认奴隶制的经济后果应由相关方承担，可能引发更多前殖民地国家的效仿和法律诉讼。",
-          "social": [
-            {
-              "who": "加勒比地区活动人士",
-              "text": "认为这是争取历史正义的重要一步"
-            },
-            {
-              "who": "英国法律界",
-              "text": "关注枢密院咨询意见可能带来的法律先例效应"
+              "who": "社区领袖",
+              "text": "此类袭击未遂事件提醒我们，仇恨犯罪和极端主义威胁并未远离我们的日常生活。"
             }
           ]
         }
