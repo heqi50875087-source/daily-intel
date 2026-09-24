@@ -1,17 +1,22 @@
 {
-  "generated_at": "2026-09-25T00:01:36+08:00",
+  "generated_at": "2026-09-25T06:12:33+08:00",
   "date": "2026-09-25",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
-  "empty_sources": [],
+  "empty_sources": [
+    "ai",
+    "sports",
+    "github",
+    "hot"
+  ],
   "module_updated": {
     "hot": "2026-09-25 00:01",
     "ai": "2026-09-25 00:01",
-    "voices": "2026-09-25 00:01",
+    "voices": "2026-09-25 06:12",
     "github": "2026-09-25 00:01",
-    "libraries": "2026-09-25 00:01",
+    "libraries": "2026-09-25 06:12",
     "sports": "2026-09-25 00:01",
     "academic": "2026-09-23 06:40"
   },
@@ -2429,60 +2434,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 AI 模型安全治理，回应多次系统入侵事件并推动负责任 AI 发展。",
-          "url": "https://www.samaltman.com"
-        },
-        {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
-          "region": "英国/全球",
-          "domain": "ai",
-          "recent": "确认下一代 Gemini 模型即将发布，强调 AI 在科学研究领域的深度整合。",
-          "url": "https://demishassabis.com"
-        },
-        {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注前沿模型在生物实验室等敏感场景的负责任部署与安全性研究。",
-          "url": "https://www.anthropic.com/team/dario-amodei"
+          "name": "魏立军",
+          "role": "国家图书馆馆长",
+          "region": "中国·北京",
+          "domain": "library",
+          "recent": "近期关注全民阅读推广与数字图书馆建设，推动公共文化服务均等化及智慧图书馆发展。",
+          "url": "https://www.nlc.cn"
         },
         {
           "name": "李国新",
-          "role": "中国图书馆学会核心推动者/行业代表",
-          "region": "中国",
+          "role": "中国图书馆学会原会长/图书馆教育专家",
+          "region": "中国·上海/浙江",
           "domain": "library",
-          "recent": "推动智慧图书馆建设与推广，促进全国馆社共荐优质书目及志愿服务行动。",
-          "url": ""
+          "recent": "近期聚焦基层图书馆服务创新与志愿服务体系建设，强调县域及社区图书馆发展路径。",
+          "url": "https://www.cls.org.cn"
+        },
+        {
+          "name": "李开复",
+          "role": "人工智能科学家/创新工场创始人",
+          "region": "中国·北京/美国·硅谷",
+          "domain": "ai",
+          "recent": "近期关注人工智能在教育领域的应用及知识普惠，推动 AI 赋能学习与社会公益。",
+          "url": "https://www.kailifee.com"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名 AI 播客主持人",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "深度探讨 AI Agent 能力边界与安全性，关注技术对社会结构的长期影响。",
+          "role": "播客主持人/AI研究者",
+          "region": "美国·纽约",
+          "domain": "podcast/ai",
+          "recent": "近期持续对话全球顶尖科学家与 AI 研究者，深入探讨 AGI 发展与安全性议题。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "Karen Blumenthal",
-          "role": "美国图书馆协会 (ALA) CEO",
-          "region": "美国",
-          "domain": "library",
-          "recent": "引领面向未来的图书馆空间焕新策略，推动社区参与和开放教育资源合作。",
-          "url": "https://www.ala.org"
+          "name": "吴恩达 (Andrew Ng)",
+          "role": "人工智能教育先驱/DeepLearning.AI 创始人",
+          "region": "全球/美国·旧金山",
+          "domain": "ai",
+          "recent": "近期致力于 AI 教育普及与社会公益项目，倡导技术向善及 AI 对知识获取的变革。",
+          "url": "https://www.deeplearning.ai"
         },
         {
-          "name": "吴恩达 (Andrew Ng)",
-          "role": "AI 教育先驱/斯坦福教授",
-          "region": "全球（中国/美国）",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
+          "region": "美国·旧金山",
           "domain": "ai",
-          "recent": "关注 AI 与开放教育资源结合，推动图书馆员与教师合作引领知识共享项目。",
-          "url": "https://www.andrewng.ai"
+          "recent": "近期主导 OpenAI 大模型研发进展及人工智能安全治理策略讨论，推动通用人工智能落地。",
+          "url": "https://www.openai.com"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta AI 首席科学家/图灵奖得主",
+          "region": "法国·巴黎/美国·纽约",
+          "domain": "ai",
+          "recent": "近期关注开源大语言模型生态与基础 AI 推理能力研究，倡导开放科学理念。",
+          "url": "https://yannlecun.com"
         }
       ]
     },
