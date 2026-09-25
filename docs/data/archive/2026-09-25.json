@@ -1,25 +1,49 @@
 {
-  "generated_at": "2026-09-25T10:24:42+08:00",
+  "generated_at": "2026-09-25T12:08:44+08:00",
   "date": "2026-09-25",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "degraded",
-  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | openai:OpenAI 额度不足(HTTP 429)",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
-  "empty_sources": [
-    "hot"
-  ],
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
+  "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-25 00:01",
-    "ai": "2026-09-25 10:24",
+    "ai": "2026-09-25 12:08",
     "voices": "2026-09-25 06:12",
-    "github": "2026-09-25 00:01",
-    "libraries": "2026-09-25 10:24",
-    "sports": "2026-09-25 00:01",
+    "github": "2026-09-25 12:08",
+    "libraries": "2026-09-25 12:08",
+    "sports": "2026-09-25 12:08",
     "academic": "2026-09-25 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "微软正式放弃Copilot Plus PC品牌",
+          "eng": "Microsoft is killing off the 'Copilot Plus PC' brand",
+          "summary": "微软和高通似乎承认了Copilot Plus PC品牌已经名存实亡。这一决策标志着AI PC市场从概念推广阶段进入务实调整期，反映了消费者对内置AI功能实际价值的重新评估。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-09-25",
+          "tags": [
+            "微软",
+            "AI PC",
+            "高通"
+          ],
+          "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
+          "overview": "两年半前微软大力推广的Copilot Plus PC品牌正在被逐步淘汰。Windows Central记者Zac Bowden报道，微软和高通似乎承认该品牌已经名存实亡。这一决策反映了市场对AI PC实际价值的重新评估——消费者并未如预期般为内置AI功能买单，制造商也在调整策略以应对竞争压力。",
+          "analysis": "Copilot Plus品牌的消亡揭示了AI PC市场的一个关键矛盾：技术能力与市场需求之间的脱节。当'AI就绪'成为营销噱头而非实际体验提升时，消费者会用脚投票。这对整个硬件行业提出了警示——AI功能的价值需要通过真实使用场景来证明，而非仅靠规格参数堆砌。",
+          "social": [
+            {
+              "who": "硬件分析师",
+              "text": "品牌消亡不代表技术失败，而是市场教育需要时间。但这也意味着厂商必须重新思考AI功能的差异化策略"
+            },
+            {
+              "who": "消费者观察员",
+              "text": "两年半的时间足以让市场做出判断，Copilot Plus的结局说明消费者更看重实际体验而非营销概念"
+            }
+          ]
+        },
         {
           "title_zh": "AI主导气候周讨论",
           "eng": "AI is dominating the conversation at Climate Week",
@@ -749,32 +773,6 @@
             {
               "who": "数据隐私倡导者",
               "text": "能够精确识别'谁在何时发言'的技术虽然强大，但也意味着对话内容的可追溯性大幅提升，需要建立相应的隐私保护机制防止滥用。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI聘请Patreon高管主导创作者产品战略",
-          "eng": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
-          "summary": "OpenAI从Patreon挖来三位核心高管，包括联合创始人兼CTO Sam Yam、前产品负责人Drew Rowny和前工程负责人Shannon Ma，以领导其创作者订阅平台Creator Product。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-09-23",
-          "tags": [
-            "OpenAI",
-            "创作者经济",
-            "Patreon"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-          "overview": "OpenAI在宣布重大产品战略前，从运营13年的创作者订阅平台Patreon挖走了三位关键高管。联合创始人兼CTO Sam Yam将领导Creator Product部门，同时带来前产品负责人Drew Rowny和前工程负责人Shannon Ma。这一人事变动表明OpenAI正全力布局创作者生态，试图在内容变现领域建立竞争壁垒。",
-          "analysis": "从Patreon挖角而非自建团队，说明OpenAI意识到创作者经济需要成熟的运营经验。Sam Yam作为CTO亲自挂帅，显示这不仅是产品部门而是战略级投入。此举可能改变AI工具与创作者之间的权力关系。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "OpenAI在创作者领域的布局速度令人印象深刻，但能否复制Patreon的成功是另一回事。"
-            },
-            {
-              "who": "内容创作者",
-              "text": "如果OpenAI真的能解决创作者变现问题，可能会重塑整个内容生态。"
             }
           ]
         }
@@ -1590,350 +1588,217 @@
     "sports": {
       "items": [
         {
-          "title_zh": "国际足联理事会要求将世界杯出售计划纳入外部治理审查",
-          "eng": "Infantino under pressure to include abandoned World Cup sell-off plan in external Fifa review",
-          "summary": "国际足联理事会成员施压，要求现任主席因凡蒂诺在提议的外部治理审查中纳入此前被搁置的世界杯商业出售方案以及巴洛贡事件。",
+          "title_zh": "菲利克斯进球助葡萄牙击败威尔士，C罗告别引发全场致敬",
+          "eng": "João Félix strike for Portugal enough to sink Wales but Ronaldo fever falls flat",
+          "summary": "菲利克斯在第67分钟为葡萄牙队打入制胜球，帮助球队战胜威尔士。与此同时，C罗在赛后摘下队长袖标离场，引发球迷的广泛致敬与不舍。",
           "source": "Guardian Football",
           "published": "2026-09-24",
-          "url": "https://www.theguardian.com/football/2026/sep/24/gianni-infantino-under-pressure-abandoned-world-cup-sell-off-fifa-review",
-          "overview": "国际足联理事会成员向因凡蒂诺发出信件，要求其在提议的关于'重大战略举措治理框架'的外部审查中，必须包含此前被搁置的世界杯商业出售计划以及巴洛贡（Balogun）事件。因凡蒂诺表示已收到所有 211 个会员协会的回复，并确认审查信函已被良好接收。",
-          "analysis": "这一要求表明国际足联内部对于治理透明度的呼声正在上升，尤其是在世界杯商业化进程出现重大分歧的背景下。理事会的施压可能迫使因凡蒂诺在即将到来的改革中做出更具实质性的回应。",
+          "url": "https://www.theguardian.com/football/2026/sep/24/portugal-wales-nations-league-match-report",
+          "overview": "在威尔士国家德比的氛围中，葡萄牙队凭借菲利克斯的进球锁定胜局。C罗在第67分钟被替换下场时摘下队长袖标，全场球迷起立致敬，但威尔士支持者对此感到失落。裁判鲁姆斯迅速将其驱逐出场，赛后C罗似乎仍在反思错失的机会。",
+          "analysis": "菲利克斯的进球终结了威尔士的抵抗，而C罗的告别时刻虽然感人，却未能掩盖他在比赛中错失良机的遗憾。这场胜利为葡萄牙队注入了新的动力，但C罗时代的落幕也引发了关于球队未来的讨论。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "世界杯出售计划被搁置本身就是治理混乱的信号，理事会现在要求审查是迟来的正义。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "巴洛贡事件与世界杯商业化的交织，说明国际足联的危机远不止赛场上的胜负。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "图赫尔下课争议暴露英格兰成功最大障碍，但欧国联前仍有希望",
-          "eng": "Anger at Tuchel over World Cup exit exposes biggest obstacle to England success | Barney Ronay",
-          "summary": "专栏作家罗内伊分析认为，球迷对图赫尔的愤怒揭示了英格兰足球系统性的深层弱点，但在备战 2028 欧洲杯之际仍存在乐观理由。",
-          "source": "Guardian Football",
-          "published": "2026-09-24",
-          "url": "https://www.theguardian.com/football/2026/sep/24/the-system-not-tuchel-led-to-world-cup-failure-but-euro-2028-offers-new-hope",
-          "overview": "罗内伊指出，图赫尔未能完成被雇佣的任务，球迷的愤怒源于系统性的失败而非个人责任。文章分析了英格兰足球在世界杯半决赛失利后暴露出的深层问题，同时认为 2028 欧洲杯的备战周期为球队提供了新的希望窗口。",
-          "analysis": "这篇文章超越了单纯的情绪宣泄，试图从制度层面剖析英格兰队的困境。对于球迷而言，理解'系统问题'比指责教练更能看清未来的方向。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "图赫尔不是问题的根源，但他在任期间的表现确实没有达到预期标准。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "2028 欧洲杯是一个新的起点，英格兰队有机会在调整系统后重新证明自己的竞争力。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "克洛普与哈维在国际赛场开启复兴计划，欧国联对决在即",
-          "eng": "Netherlands v Germany: Klopp and Xavi begin revival projects with derby",
-          "summary": "克洛普和哈维在各自经历世界杯失望后接手国家队，将在欧国联的荷兰对阵德国比赛中首次交锋。",
-          "source": "Guardian Football",
-          "published": "2026-09-23",
-          "url": "https://www.theguardian.com/football/2026/sep/23/special-klopp-and-xavi-take-first-steps-on-international-stage-with-revival-in-mind",
-          "overview": "在两国悠久的国际足球 rivalry 即将迎来两位全新主帅的背景下，克洛普表示两人面临完全相同的处境。哈维和克洛普将在周四晚上的欧国联比赛中首次交手，标志着他们各自国家队复兴计划的第一步。",
-          "analysis": "这两位名帅的交接为传统对手之间的比赛增添了新的叙事维度。对于球迷来说，这不仅是战术对决，更是两位教练重建国家足球体系的首次碰撞。",
-          "social": [
-            {
-              "who": "荷兰球迷",
-              "text": "克洛普接手国家队是一个大胆的决定，期待他在欧国联中展现新的战术风格。"
-            },
-            {
-              "who": "德国球迷",
-              "text": "哈维和克洛普的相遇是国际足球的新篇章，这场比赛将决定谁先迈出复兴的第一步。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼城利用 65 万人大数据库完成阵容重建",
-          "eng": "How Man City overhauled their squad from a 650,000-strong database",
-          "summary": "BBC Sport 深入报道了曼城的數據团队，他们在过去 18 个月的阵容重建中发挥了关键作用。",
-          "source": "BBC Football",
-          "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cm1wx51gyly5o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城的数据团队在过去 18 个月中，利用一个拥有 65 万人的数据库完成了球队阵容的重建。BBC Sport 报道了这支数据团队在俱乐部重建过程中的关键角色，展示了现代足球中数据分析如何影响转会决策和战术规划。",
-          "analysis": "曼城的案例表明，顶级俱乐部的竞争力不仅依赖于球星，更在于背后庞大的数据分析和战略执行能力。这种'科技驱动'的建队模式正在成为英超乃至全球足球的新趋势。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "曼城的数据团队是俱乐部成功背后的隐形功臣，他们的分析让转会决策更加精准。"
-            },
-            {
-              "who": "足球记者",
-              "text": "65 万人的数据库是一个惊人的规模，这反映了现代足球在人才挖掘上的深度和广度。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼联以 125 英镑出售老特拉福德草坪方块，同日公布债务超 10 亿英镑",
-          "eng": "Man Utd selling Old Trafford turf cubes for £125",
-          "summary": "曼联宣布以每块 125 英镑的价格出售老特拉福德球场草坪碎片，此举发生在俱乐部报告总债务仍超过 10 亿英镑的同一天。",
-          "source": "BBC Football",
-          "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmwyzjedq51lo?at_medium=RSS&at_campaign=rss",
-          "overview": "曼联宣布了一项独特的筹款活动，以每块 125 英镑的价格出售老特拉福德球场的草坪方块。这一消息与俱乐部同日公布的财务报告一同发布，显示其总债务仍超过 10 亿英镑，凸显了俱乐部的财务压力。",
-          "analysis": "出售球场草坪碎片是一种极具话题性的筹款方式，但也反映了俱乐部在财务困境中的无奈之举。对于球迷来说，这既是情感上的共鸣，也是对俱乐部经济状况的直观反映。",
-          "social": [
-            {
-              "who": "曼联球迷",
-              "text": "125 英镑买一块草坪碎片，虽然价格不低，但这是俱乐部在困境中的尝试，值得支持。"
-            },
-            {
-              "who": "足球财经评论员",
-              "text": "总债务超过 10 亿英镑是一个沉重的数字，出售球场元素只是杯水车薪，俱乐部需要更根本的解决方案。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "戈登：英格兰应停止模仿西班牙，控球并非我们的 DNA",
-          "eng": "England should stop trying to replicate Spain - Gordon",
-          "summary": "安东尼·戈登表示控制比赛不在'英格兰 DNA'中，但如果球队停止试图复制西班牙的风格，仍有机会赢得大赛。",
-          "source": "BBC Football",
-          "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c90kly6kelk1o?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰球员安东尼·戈登在世界杯半决赛失利后接受采访，表示控制比赛不是英格兰足球的基因，但如果球队停止试图复制西班牙的风格，仍然有机会赢得重大赛事。这一观点引发了关于英格兰队战术身份的广泛讨论。",
-          "analysis": "戈登的观点触及了英格兰足球的核心矛盾：如何在保持自身传统的同时适应现代足球的趋势。对于教练和球员来说，找到适合自己的风格比盲目模仿更为重要。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "戈登说得对，英格兰队需要找到自己的身份，而不是照搬西班牙的控球战术。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "停止模仿西班牙并不意味着放弃技术流，而是找到适合自己的平衡点。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德里世锦赛面临独特挑战：驱赶猴子和鸽子",
-          "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "2026年羽毛球世锦赛即将在德里举办，此前该赛事曾因野生动物闯入引发媒体关注。组织者已采取额外措施以应对猴子、鸽子等动物对比赛场地的干扰问题。",
-          "source": "BBC Badminton",
-          "published": "2026-08-14",
-          "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年羽毛球世锦赛即将在德里举办，此前该赛事曾因野生动物闯入引发媒体关注。组织者已采取额外措施以应对猴子、鸽子等动物对比赛场地的干扰问题。这一挑战凸显了大型体育赛事在非传统场馆环境下面临的独特后勤难题。",
-          "analysis": "野生动物干扰若处理不当可能影响运动员专注力和赛事安全。组织者能否有效平衡生态保护与赛事运营，将是本届世锦赛的一大看点。",
-          "region": "羽毛球"
-        },
-        {
-          "title_zh": "乒乓球帮助帕金森患者改善运动与情绪",
-          "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "英国布莱顿一家俱乐部的参与者表示，打乒乓球有助于改善动作、心情和自信。",
-          "source": "BBC Table Tennis",
-          "published": "2026-09-14",
-          "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道指出，位于布莱顿的一家乒乓球俱乐部为帕金森病患者提供了独特的康复环境。参与者反馈称，这项运动在提升身体活动能力、改善情绪状态以及增强自信心方面发挥了积极作用。该案例展示了乒乓球在非竞技领域对公众健康的潜在价值。",
-          "analysis": "这一案例凸显了乒乓球作为康复运动的潜力，对于推广全民健身和特殊群体关怀具有积极意义。",
-          "social": [
-            {
-              "who": "健康倡导者",
-              "text": "这项运动对帕金森患者的帮助远超预期，值得更多关注。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "竞技之外，乒乓球的社交与康复价值同样不可忽视。"
-            }
-          ],
-          "region": "乒乓球"
-        },
-        {
-          "title_zh": "\"生命线\"乒乓场馆临时重新开放",
-          "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一位用户表示，这就像我们的精神家园被归还了一样。",
-          "source": "BBC Table Tennis",
-          "published": "2026-08-10",
-          "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道了名为\"Lifeline\"的乒乓球场馆在经历暂时关闭后重新向公众开放的消息。有使用者形容该场地如同他们的\"精神家园\"，其恢复运营对社区成员而言具有情感上的重要意义。这一事件反映了公共体育设施在维护社区凝聚力方面的角色。",
-          "analysis": "公共体育设施的临时关闭与重开往往牵动社区居民的神经，此次重新开放体现了对公众需求的回应。",
-          "social": [
-            {
-              "who": "社区用户",
-              "text": "场馆回归就像找回了精神寄托，希望不要再次中断。"
-            },
-            {
-              "who": "乒乓球爱好者",
-              "text": "这种情感连接是普通体育设施难以替代的。"
-            }
-          ],
-          "region": "乒乓球"
-        },
-        {
-          "title_zh": "弗利 vs 乔舒亚：12月11日卡迪夫重磅对决",
-          "eng": "Fury v Joshua announced for 11 December in Cardiff",
-          "summary": "英国拳击界两大重量级拳王安东尼·约书亚与泰森·富里将于12月11日在卡迪夫王子体育场展开全英对抗。这场备受瞩目的比赛是两位英国顶级拳手的巅峰对决。",
-          "source": "BBC Sport",
-          "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/boxing/articles/c89n188d53no?at_medium=RSS&at_campaign=rss",
-          "overview": "卡迪夫王子体育场将举办安东尼·约书亚与泰森·富里的全英重量级拳击对决，比赛定于12月11日进行。这是两位英国顶级拳手的巅峰之战，备受关注。",
-          "analysis": "这场全英对决不仅是体育盛事，也是英国拳击文化的体现。两位拳手都是世界顶级水平，他们的交锋将决定谁将成为新的重量级冠军。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "两位英国拳王的对决令人期待，这将是今年最精彩的拳击赛事之一。"
+              "text": "菲利克斯这脚射门太关键了，C罗离场时的画面让人既感动又心疼。"
             },
             {
               "who": "解说员",
-              "text": "卡迪夫王子体育场作为比赛场地非常合适，观众氛围一定很棒。"
+              "text": "威尔士球迷的失落表情与葡萄牙球迷的欢呼形成了鲜明对比。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "英格兰对阵斯里兰卡：第二场ODI比赛进行中",
-          "eng": "England v Sri Lanka: second men's one-day cricket international – live",
-          "summary": "英格兰与斯里兰卡的第二场ODI比赛正在海丁利球场激烈进行，斯里兰卡目前仅得1分，开局不利。",
-          "source": "Guardian Sport",
+          "title_zh": "拉菲尼亚：曾以为离开巴萨，如今成队内最佳前锋并身披队长袖标",
+          "eng": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
+          "summary": "巴西球员拉菲尼亚在采访中透露自己两年前曾以为自己将离开巴塞罗那，但随后拿下两座西甲冠军后，他已成为球队队长和欧洲最强劲的前锋。",
+          "source": "Guardian Football",
           "published": "2026-09-24",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/24/england-v-sri-lanka-second-one-day-cricket-international-live-score-updates",
-          "overview": "英格兰与斯里兰卡的第二场ODI比赛正在海丁利球场进行，斯里兰卡在开局阶段仅得1分。作为通常适合击球的场地，斯里兰卡可能需要300分以上才能取得优势。",
-          "analysis": "这场ODI比赛对双方来说都很重要，尤其是对于斯里兰卡来说，他们需要在海丁利这个传统上有利于击球的场地上表现出色。英格兰的投球手阿切尔在开局阶段表现稳健。",
+          "url": "https://www.theguardian.com/football/2026/sep/24/raphinha-barcelona-interview-la-liga-no9",
+          "overview": "拉菲尼亚在采访中表示，两年前他以为自己即将离开巴塞罗那，但随后球队赢得了两座西甲冠军。如今他不仅身披队长袖标，还被认为是欧洲最强劲的9号球员。他在采访中罕见地放慢了节奏，坦言人们在他身上看到了他自己未曾意识到的领导力。",
+          "analysis": "拉菲尼亚从“想走”到“队长”，其心态转变体现了顶级球员的成长轨迹。在快节奏的足球世界中，他能停下来反思自我价值，这种成熟对于球队凝聚力的提升至关重要。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "海丁利球场是板球圣地，这场比赛一定非常精彩。"
+              "text": "拉菲尼亚的变化太大了，两年前谁也没想到他会成为巴萨的领袖。"
+            },
+            {
+              "who": "教练视角",
+              "text": "一个不知自己是领导者的人最终成为了队长，这本身就是最好的领导力证明。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "荷兰队绝平德国终结克洛普执教首秀，加克波否认完美开局",
+          "eng": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
+          "summary": "克洛普执教德国队的处子战以一场充满戏剧性的比赛告终，最终双方握手言和。荷兰队在最后时刻由加克波绝平比分，打破了外界对克洛普完美的预期。",
+          "source": "Guardian Football",
+          "published": "2026-09-24",
+          "url": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report",
+          "overview": "克洛普执教德国队的处子战被形容为一场充满戏剧性的比赛，双方质量虽有争议但娱乐性十足。荷兰队在最后时刻由加克波打入绝平进球，打破了外界对克洛普开局完美的预期。尽管比赛缺乏传统意义上的高质量对抗，但其紧张程度令人印象深刻。",
+          "analysis": "克洛普的首秀虽然未能带来胜利，但他接受了比赛充满活力的特质。加克波的绝平进球为荷兰队保留了尊严，也让这场备受关注的对决充满了不确定性。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "克洛普的首秀总是让人紧张，但这场平局至少说明德国队不会无聊。"
             },
             {
               "who": "解说员",
-              "text": "斯里兰卡的开局不太理想，他们需要尽快调整状态。"
+              "text": "加克波在最后时刻的进球堪称神来之笔，荷兰队的韧性令人敬佩。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "郡锦标赛冠军争夺战进入白热化阶段",
-          "eng": "Somerset v Surrey, Warwickshire v Leics and more: County Championship title race goes to wire – live",
-          "summary": "郡锦标赛最后一轮比赛正在进行中，多个关键场次将决定冠军归属，沃里克郡表现突出。",
-          "source": "Guardian Sport",
+          "title_zh": "以色列前锋庆祝进球时做出持枪手势遭红牌罚下，球队负于奥地利",
+          "eng": "Israel’s Saied Abu Farchi sent off for gun gesture celebration in defeat by Austria",
+          "summary": "以色列前锋阿布法尔希在对阵奥地利的比赛中头球扳平比分后，利用角旗杆模拟持枪动作庆祝，随后被主裁判直接红牌罚下。最终以色列队以1-3落败。",
+          "source": "Guardian Football",
           "published": "2026-09-24",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/24/somerset-v-surrey-warwickshire-v-leics-and-more-county-championship-cricket-live",
-          "overview": "郡锦标赛最后一轮比赛正在进行中，多个关键场次将决定冠军归属。沃里克郡表现突出，杰克·利奇表现出色，他的英格兰队友罗里·伯恩斯也备受关注。",
-          "analysis": "这场郡锦标赛的冠军争夺战非常激烈，多个球队都有夺冠希望。杰克·利奇的出色表现为他赢得了更多关注，尤其是考虑到明年与孟加拉国的系列赛。",
+          "url": "https://www.theguardian.com/football/2026/sep/24/israel-saied-abu-farchi-sent-off-gun-gesture-celebration-austria-nations-league",
+          "overview": "在奥地利与以色列的国家联赛比赛中，奥地利队通过施密德的点球在上半场率先破门。以色列前锋阿布法尔希在第55分钟头球扳平比分后，利用角旗杆模拟持枪动作庆祝，随后被主裁判直接红牌罚下。最终以色列队以1-3落败。",
+          "analysis": "阿布法尔希的庆祝方式引发了争议，其利用角旗杆模拟持枪的动作被认为具有冒犯性。这一事件不仅影响了比赛结果，也凸显了足球场上庆祝方式的敏感性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "郡锦标赛的最后一轮总是充满悬念，每场比赛都很关键。"
+              "text": "这个庆祝动作确实太过了，难怪裁判直接红牌罚下。"
             },
             {
-              "who": "教练",
-              "text": "沃里克郡的表现令人印象深刻，他们确实进入了状态。"
+              "who": "教练视角",
+              "text": "球员在扳平比分后的庆祝方式需要更加谨慎，尤其是在国际比赛中。"
             }
           ],
-          "region": "综合"
+          "region": "足球·世界杯"
         },
         {
-          "title_zh": "曼城如何从65万人数据库中重建阵容",
-          "eng": "How Man City overhauled their squad from a 650,000-strong database",
-          "summary": "BBC Sport深入报道了曼城的數據团队在过去18个月中在球队重建中的关键作用。",
+          "title_zh": "英格兰召入埃弗顿中场加纳尔，被主帅比作“迷你巴尔瓦德”",
+          "eng": "James Garner keen to live up to ‘mini-Valverde’ tag after late England call",
+          "summary": "埃弗顿中场詹姆斯·加纳尔在最后一刻入选英格兰国家队，渴望在对阵西班牙的友谊赛中证明自己。此前主帅图赫尔曾将其与皇马球星巴尔瓦德相提并论。",
+          "source": "Guardian Football",
+          "published": "2026-09-24",
+          "url": "https://www.theguardian.com/football/2026/sep/24/james-garner-mini-valverde-late-england-call",
+          "overview": "埃弗顿中场詹姆斯·加纳尔在最后一刻入选英格兰国家队，渴望在对阵西班牙的国家联赛比赛中证明自己。此前主帅图赫尔曾将其与皇马球星巴尔瓦德相提并论，称其为“迷你巴尔瓦德”。加纳尔表示这一比较对他来说意义重大，他希望通过比赛证明自己的实力。",
+          "analysis": "加纳尔的入选时机和图赫尔的赞誉引发了外界对其潜力的讨论。在国家队层面获得认可，对于一名年轻球员来说是巨大的激励，同时也为英格兰队提供了新的战术选择。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "加纳尔被比作巴尔瓦德，这个标签对他来说既是动力也是压力。"
+            },
+            {
+              "who": "教练视角",
+              "text": "图赫尔的眼光总是很准，加纳尔的入选说明他在国际赛场上已经展现出了足够的价值。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "前英格兰前锋安迪·卡罗尔自曝2021年遭性侵，施暴者已被定罪",
+          "eng": "Former England player Andy Carroll reveals he was sexually assaulted in 2021",
+          "summary": "37岁的前英格兰国脚安迪·卡罗尔在其回忆录中披露了2021年在纽卡斯尔期间遭受性侵的经历。相关施暴者已被法院判定犯有性犯罪罪名。",
+          "source": "Guardian Football",
+          "published": "2026-09-24",
+          "url": "https://www.theguardian.com/football/2026/sep/24/andy-carroll-sexually-assaulted-2021-football",
+          "overview": "37岁的前英格兰国脚安迪·卡罗尔在其回忆录《Owning It》中披露了2021年在纽卡斯尔期间遭受性侵的经历。作为受害者，卡罗尔自动获得了匿名保护。施暴者是其前队友的朋友，已被法院判定犯有性犯罪罪名。",
+          "analysis": "这一事件揭示了足球界在球员个人安全方面的潜在问题。卡罗尔的勇敢揭露不仅是为了自身正义，也为其他受害者提供了发声的勇气。这一事件对纽卡斯尔俱乐部和相关人员的管理也提出了质疑。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "卡罗尔终于说出了真相，希望施暴者能得到应有的惩罚。"
+            },
+            {
+              "who": "教练视角",
+              "text": "球员在赛场外的安全同样重要，俱乐部需要更加关注球员的心理健康和安全保障。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "贝拉米：威尔士在欧国联失利后仍有潜力可挖",
+          "eng": "Bellamy wants more from Wales after loss to Portugal",
+          "summary": "威尔士主帅贝尔拉米在欧洲国家联赛首战后表示球队还有提升空间。葡萄牙凭借若昂·菲利克斯的进球击败威尔士，C罗虽被换下但未能改变结果。",
           "source": "BBC Sport",
           "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cm1wx51gyly5o?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Sport深入报道了曼城的數據团队在过去18个月中在球队重建中的关键作用。曼城从65万人的数据库中筛选球员，这一过程体现了现代足球对数据分析的重视。",
-          "analysis": "曼城的数据团队在球队重建中发挥了重要作用，这反映了现代足球俱乐部对科技和数据的依赖。这种模式可能成为其他俱乐部的参考。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "曼城的数据驱动策略确实令人印象深刻，这是他们成功的关键因素之一。"
-            },
-            {
-              "who": "教练",
-              "text": "数据分析在球员选拔中的作用越来越重要，曼城是一个很好的例子。"
-            }
-          ],
+          "url": "https://www.bbc.co.uk/sport/football/articles/c63eqkdnvkq8o?at_medium=RSS&at_campaign=rss",
+          "overview": "威尔士在欧洲国家联赛首战中主场不敌葡萄牙，若昂·菲利克斯在第67分钟进球锁定胜局。C罗在赛后被换下离场，引发球迷不满。贝尔拉米主帅对球队表现表示失望但认为未来可期。裁判鲁姆斯斯在比赛中做出了一些争议判罚。",
+          "analysis": "威尔士作为传统强队在本届欧国联开局不利，贝尔拉米的表态显示他不愿过早放弃。葡萄牙方面C罗的状态和角色定位仍是焦点话题，菲利克斯的崛起则标志着葡超新星时代的延续。这场失利对威尔士的世界杯前景构成考验。",
           "region": "综合"
         },
         {
-          "title_zh": "因凡蒂诺面临压力：世界杯出售计划与外部审查",
-          "eng": "Infantino under pressure to include abandoned World Cup sell-off plan in external Fifa review",
-          "summary": "FIFA理事会成员要求因凡蒂诺将废弃的世界杯出售计划和巴洛贡事件纳入外部治理审查范围。",
+          "title_zh": " Buttler伤退英格兰被斯里兰卡扳平ODI系列赛",
+          "eng": "Buttler injury halts England as Sri Lanka level series",
+          "summary": "英格兰队长乔斯·巴特勒在第二场ODI中因腿筋受伤被迫离场，斯里兰卡凭借库萨尔·门迪斯的世纪级表现将系列赛拖入决胜局。",
+          "source": "BBC Sport",
+          "published": "2026-09-24",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cw804nd022elo?at_medium=RSS&at_campaign=rss",
+          "overview": "在英航球场举行的第二场ODI中，英格兰队需要322分才能获胜。本·达克特和汤姆·班顿的143分快速开球让英格兰一度领先，但巴特勒作为守门员在接球时受伤离场。斯里兰卡随后由库萨尔·门迪斯打出世纪级表现完成逆转，将系列赛拖入老特拉福德决胜局。",
+          "analysis": "巴特勒的伤退对英格兰打击巨大，他不仅是队长也是关键防守球员。斯里兰卡的反击展示了ODI cricket中主场优势的重要性——英航球场被形容为",
+          "region": "综合"
+        },
+        {
+          "title_zh": "曼联再借9000万英镑债务突破11亿大关",
+          "eng": "Man Utd borrow another £90m as debt tops £1.1bn",
+          "summary": "曼联确认自6月30日以来又新增9000万英镑借款，总债务已突破11亿英镑。俱乐部财务压力持续引发外界关注。",
+          "source": "BBC Sport",
+          "published": "2026-09-24",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmx2zv4e320do?at_medium=RSS&at_campaign=rss",
+          "overview": "曼联官方确认自2026年6月30日以来又新增约9000万英镑借款，使俱乐部总债务攀升至超过11亿英镑。这一数字在英超俱乐部中属于较高水平，反映出俱乐部持续的财务压力。此前曼联已在转会市场上投入大量资金，但球队竞技表现尚未达到预期。",
+          "analysis": "曼联的债务问题已成为英超最大的财务风险之一。11亿英镑的总债务意味着俱乐部需要持续产生收入来偿还，这对球员薪资结构和未来引援能力构成限制。如果竞技成绩不能改善，球迷和投资者信心可能进一步动摇。",
+          "region": "综合"
+        },
+        {
+          "title_zh": " Fury-Joshua对决确认12月在卡迪夫举行",
+          "eng": "Fury v Joshua fight confirmed for December at Cardiff's Principality Stadium",
+          "summary": "英国拳王泰森·富里与安东尼·约书亚的备受期待的重磅对决已正式敲定于12月11日在威尔士卡迪夫的千禧球场举行。",
+          "source": "BBC Sport",
+          "published": "2026-09-24",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/c65y74pjl0w4o?at_medium=RSS&at_campaign=rss",
+          "overview": "经过长达数年的反复拖延和场馆争议，富里与约书亚的英国拳王之战终于确定将于2026年12月11日在卡迪夫千禧球场举行。这场非头衔全英对决将通过Netflix全球直播。此前双方就比赛地点存在分歧，最终达成妥协。这是两位前世界冠军之间期待已久的对决。",
+          "analysis": "这场比赛是近年来英国拳击界最重要的事件之一。富里和约书亚都是英国国宝级拳手，他们的对决具有巨大的商业价值和民族情感意义。卡迪夫作为举办地也体现了威尔士在体育产业中的地位提升。Netflix的全球直播将进一步扩大影响力。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "欧足联担忧英超支出导致转会市场出现两级分化",
+          "eng": "Uefa fears impact of Premier League spending on transfer market",
+          "summary": "欧足联认为英超俱乐部今夏的大手笔投入正在转会市场上制造'明显的两速体系'，对欧洲足球生态构成威胁。",
+          "source": "BBC Sport",
+          "published": "2026-09-24",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c639merx84jno?at_medium=RSS&at_campaign=rss",
+          "overview": "欧足联表达了对英超俱乐部今夏巨额转会支出的担忧，认为这正在欧洲足球转会市场上制造'明显的两速体系'。英超俱乐部的财力远超其他联赛球队，导致中小俱乐部难以留住优秀球员。这一趋势可能进一步加剧欧洲足球的竞争不平衡。",
+          "analysis": "英超的财务优势正在深刻改变欧洲足球格局。当少数俱乐部拥有远超其他球队的预算时，转会市场自然会出现两极分化。欧足联需要找到平衡竞技公平与财政现实的方法，否则中小联赛球队将越来越难以吸引顶级人才。这不仅是经济问题，更是关乎足球运动多样性的核心议题。",
+          "region": "综合"
+        },
+        {
+          "title_zh": "F1车手拉塞尔誓言在阿塞拜疆站继续争夺世界冠军",
+          "eng": "Russell vows to 'keep fighting' in F1 title race despite Antonelli's advantage",
+          "summary": "梅赛德斯车手乔治·拉塞尔表示将全力争冠，但在阿塞拜疆大奖赛中仅以练习赛最快成绩开局，落后队友安东内利81分。",
           "source": "Guardian Sport",
           "published": "2026-09-24",
-          "url": "https://www.theguardian.com/football/2026/sep/24/gianni-infantino-under-pressure-abandoned-world-cup-sell-off-fifa-review",
-          "overview": "FIFA理事会成员将要求吉亚尼·因凡蒂诺将其提议的FIFA治理外部审查纳入废弃的世界杯出售计划和巴洛贡事件。因凡蒂诺在周一致所有211个FIFA会员协会的信中表示，他将请理事会在其会议上委托对\"FIFA当前重大战略举措的治理框架\"进行审查。",
-          "analysis": "这次治理审查可能对FIFA的未来产生重大影响，尤其是关于世界杯出售计划和巴洛贡事件的调查。理事会成员的压力表明，FIFA需要更加透明和负责任地处理这些问题。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "FIFA的治理问题一直是足球界的痛点，这次审查可能会带来一些积极变化。"
-            },
-            {
-              "who": "教练",
-              "text": "国际足联需要更加透明，否则很难赢得会员协会的信任。"
-            }
-          ],
+          "url": "https://www.theguardian.com/sport/2026/sep/24/george-russell-kimi-antonelli-azerbaijan-grand-prix-formula-one-title-race",
+          "overview": "梅赛德斯车手乔治·拉塞尔在阿塞拜疆大奖赛前表示将全力争夺F1世界冠军，但当前落后队友金米·安东内利81分。拉塞尔在练习赛中跑出最快成绩，为比赛开了个好头。然而冠军悬念仍然很大，因为积分差距意味着拉塞尔需要在剩余比赛中保持极高水准才能追平或反超。",
+          "analysis": "梅赛德斯车队的内部竞争是本赛季F1最大的看点之一。拉塞尔和安东内利的实力接近但性格迥异——拉塞尔更富攻击性，安东内利则更沉稳。81分的差距意味着拉塞尔需要在接下来的比赛中几乎每站都表现出色才能追平。阿塞拜疆站的比赛结果将直接影响冠军走向。",
           "region": "综合"
         },
         {
-          "title_zh": "阿尔卡拉斯谈美网归来：我受苦了，但我享受了",
+          "title_zh": "阿尔卡拉斯在美网失利后凌晨3:34微笑接受采访",
           "eng": "'I suffered, but I enjoyed' - Alcaraz on smiling after defeat at 3:34am",
-          "summary": "卡洛斯·阿尔卡拉斯在凌晨3点34分微笑后讨论了他的美网回归，表示他\"想念\"对手辛纳。",
+          "summary": "西班牙网球名将阿尔卡拉斯在美国公开赛上遭遇失利，赛后在凌晨3:34分接受BBC采访时表示虽然痛苦但享受了比赛。",
           "source": "BBC Tennis",
           "published": "2026-09-24",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/cmvgy73zvwx1o?at_medium=RSS&at_campaign=rss",
-          "overview": "卡洛斯·阿尔卡拉斯在凌晨3点34分微笑后讨论了他的美网回归，表示他\"想念\"对手辛纳，并对今年的拉沃尔杯充满期待。这场胜利发生在深夜，显示了比赛的激烈程度。",
-          "analysis": "阿尔卡拉斯的回归标志着他职业生涯的新篇章，他对辛纳的想念表明了他对顶级对手的尊重。拉沃尔杯将是检验他状态的重要舞台。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "阿尔卡拉斯在凌晨3点34分仍然微笑，这显示了他的坚韧和乐观精神。"
-            },
-            {
-              "who": "解说员",
-              "text": "阿尔卡拉斯与辛纳之间的对决一直是网球界最精彩的比赛之一。"
-            }
-          ],
+          "overview": "西班牙网球名将阿尔卡拉斯在美国公开赛上遭遇失利，赛后在凌晨3:34分接受BBC采访时表示虽然痛苦但享受了比赛。他谈到了对竞争对手辛纳的思念以及对今年拉沃杯的期待。这次失利让阿尔卡拉斯的世界排名和卫冕前景面临考验。",
+          "analysis": "阿尔卡拉斯在美网的失利是一个重要信号——他在大满贯赛场上的统治力正在受到挑战。凌晨3:34分的采访时间本身就说明了比赛的激烈程度。他对辛纳的思念暗示着两人之间的竞争关系依然紧张，这对即将到来的拉沃杯等赛事将产生直接影响。年轻一代球员如辛纳的崛起是网球运动的重要趋势。",
           "region": "综合"
         },
         {
-          "title_zh": "英国队击败厄瓜多尔晋级戴维斯杯总决赛",
+          "title_zh": "英国队首次自2023年以来晋级戴维斯杯总决赛",
           "eng": "GB dominate Ecuador to reach Davis Cup Finals",
-          "summary": "英国队在伦敦以4-0的比分击败厄瓜多尔，将首次自2023年以来参加戴维斯杯总决赛。",
+          "summary": "英国队在伦敦以4-0大胜厄瓜多尔，时隔三年再次晋级戴维斯杯总决赛。",
           "source": "BBC Tennis",
           "published": "2026-09-22",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/c60re2wqr9j2o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国队在伦敦以4-0的比分击败厄瓜多尔，将首次自2023年以来参加戴维斯杯总决赛。这是英国网球的重要成就，展示了他们在团队比赛中的实力。",
-          "analysis": "这次晋级是英国网球的重大突破，他们将在总决赛中面对世界顶级队伍。这对提升英国网球的整体水平具有重要意义。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "英国队时隔三年重返戴维斯杯总决赛，这是令人振奋的消息。"
-            },
-            {
-              "who": "教练",
-              "text": "4-0的比分显示了英国队的整体实力，他们在团队比赛中表现出色。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "被禁赛的摩尔£1500万诉讼被驳回",
-          "eng": "Banned Moore's £15m lawsuit against WTA dismissed",
-          "summary": "英国选手塔拉·摩尔因doping案被禁赛四年后，其索赔£1500万的法律请求被驳回。",
-          "source": "BBC Tennis",
-          "published": "2026-09-22",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c9x2z652v86no?at_medium=RSS&at_campaign=rss",
-          "overview": "英国选手塔拉·摩尔因doping案被禁赛四年后，其索赔£1500万的法律请求被驳回。这一判决对运动员的权益保护提出了挑战。",
-          "analysis": "这个案例凸显了体育界在doping问题上的复杂性，运动员在面临禁赛时可能失去重要的法律保护。这对未来的类似案件可能会产生影响。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "塔拉·摩尔的案件令人同情，但法律判决显示了制度的严肃性。"
-            },
-            {
-              "who": "教练",
-              "text": "这个案例提醒我们，运动员需要更加谨慎地处理doping问题。"
-            }
-          ],
+          "overview": "英国队在伦敦以4-0的比分大胜厄瓜多尔，成功晋级戴维斯杯总决赛。这是自2023年以来英国队首次进入该赛事决赛阶段。比赛在主场进行给了英国选手巨大优势，他们在单打和双打中都表现出色。这一胜利为英国网球注入了新的信心。",
+          "analysis": "英国队在戴维斯杯的表现反映了本土优势的重要性——在伦敦主场作战让选手们能够发挥最佳状态。4-0的比分说明厄瓜多尔队实力有限，但英国队的晋级本身就是一个值得庆祝的成就。总决赛将在更高级别的场地进行，竞争将更加激烈。这对英国网球的发展具有积极意义，也展示了戴维斯杯作为团体赛事的独特魅力。",
           "region": "综合"
         }
       ],
@@ -1947,266 +1812,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "Laya：非自回归 System 1 决策引擎",
-          "eng": "NandhaKishorM/laya",
-          "summary": "支持 100+ 语言的非自回归决策模型，单次前向传播即可完成结构化选择、评分和判断。",
-          "source": "GitHub",
-          "stars": 22087,
-          "lang": "Python",
-          "published": "2026-09-18",
-          "url": "https://github.com/NandhaKishorM/laya",
-          "overview": "Laya 是一种非自回归的 System 1 决策引擎，专为需要快速结构化判断的场景设计。它支持在单次前向传播中处理选择、评分和是/否决策，覆盖 100 多种语言，并内置路由器根据请求自动选择最佳检查点模型。",
-          "analysis": "该项目以 2.2 万星成为近期 GitHub 高星项目榜首，代表了 AI 从生成式（System 2）向判别式（System 1）决策架构的重要范式转移。其多语言支持和本地化部署能力对降低推理成本具有显著意义。",
-          "social": [
-            {
-              "who": "AI 架构研究者",
-              "text": "非自回归的 System 1 思路正在改变我们对 LLM 应用的理解，Laya 证明了结构化决策可以脱离传统生成范式。"
-            },
-            {
-              "who": "全栈开发者",
-              "text": "单次前向传播完成复杂判断对实时性要求极高的场景（如交易、风控）是巨大的技术突破。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ZCode：Z.ai 编程智能体框架",
+          "title_zh": "ZCode - AI编码智能体框架",
           "eng": "zai-org/ZCode",
-          "summary": "Z.ai 推出的强大、智能且可扩展的编码智能体工具集，面向开发者提供高效辅助。",
+          "summary": "Z.ai推出的强大、智能且可扩展的编码智能体运行环境，支持开发者高效构建AI辅助编程工具。",
           "source": "GitHub",
-          "stars": 6663,
+          "stars": 6723,
           "lang": "TypeScript",
           "published": "2026-09-20",
           "url": "https://github.com/zai-org/ZCode",
-          "overview": "ZCode 是 Z.ai 的编码智能体核心框架，旨在为开发者提供深度集成的编程辅助能力。它强调智能化与可扩展性，允许用户自定义工作流和插件生态，适配多种开发环境。",
-          "analysis": "在 TypeScript 生态中迅速获得近 7000 星，表明市场对高质量、可定制的 AI 编码助手需求旺盛。其架构设计注重扩展性，有望成为开发者工具链中的重要一环。",
+          "overview": "ZCode是Z.ai公司推出的编码智能体框架，提供强大的AI辅助编程能力。支持多种编程语言和开发场景，具备高度可扩展性。该框架旨在帮助开发者更高效地编写代码、调试问题和实现功能。",
+          "analysis": "作为高星项目，ZCode在AI编码工具领域具有重要影响力。其TypeScript语言基础便于生态集成，适合构建各类智能编程助手。对独立开发者和企业级应用都有实用价值。",
           "social": [
             {
-              "who": "前端工程师",
-              "text": "ZCode 的扩展机制让插件生态变得可行，这对提升日常开发效率非常实用。"
+              "who": "开发者",
+              "text": "ZCode为AI辅助编程提供了成熟的框架方案，降低了构建编码助手的门槛。"
             },
             {
-              "who": "AI 应用开发者",
-              "text": "作为 Z.ai 的核心产物，它的智能化程度和上下文理解能力在同类编码工具中处于领先地位。"
+              "who": "研究者",
+              "text": "其可扩展架构为研究智能体系统设计提供了良好基础。"
             }
           ]
         },
         {
-          "title_zh": "Laya-MLX：Apple Silicon 上的 Laya 原生运行时",
+          "title_zh": "Laya-MLX - Apple设备本地决策引擎",
           "eng": "mizorewww/laya-mlx",
-          "summary": "基于 MLX 框架的 Laya 本地推理运行时，在 M3 Max 上实现 7-14ms 短决策，无需云端 API。",
+          "summary": "基于Apple MLX的本地化决策模型运行时，在M3 Max芯片上实现7-14ms的快速短决策，无需云端API。",
           "source": "GitHub",
-          "stars": 6139,
+          "stars": 6233,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-mlx",
-          "overview": "该项目为 Laya 决策模型提供了原生 MLX 运行时支持，专为 Apple Silicon 设备优化。它能在本地实现毫秒级短决策，完全不需要 PyTorch、文本生成或云端 API 调用，显著降低了延迟和成本。",
-          "analysis": "6000+ 星反映了社区对端侧 AI 推理的强烈兴趣。MLX 原生支持意味着苹果生态用户可以获得极致的本地化体验，是 Laya 架构落地的重要基础设施。",
+          "overview": "Laya-MLX为Laya类型化决策模型提供原生MLX运行时支持，可在Apple设备上实现本地推理。该方案避免了文本生成、PyTorch和云端API依赖，在M3 Max芯片上达到7-14ms的响应速度。项目包含完整的验证端口和可复现的性能基准测试。",
+          "analysis": "该项目展示了AI决策模型在端侧部署的可能性，对隐私敏感场景有重要意义。MLX生态与Apple硬件的深度整合使其具有独特竞争力。适合需要低延迟本地推理的应用场景。",
           "social": [
             {
-              "who": "Mac 开发者",
-              "text": "在 M3 Max 上跑通决策模型且无需云端，这对隐私敏感和延迟要求高的应用来说太有吸引力了。"
+              "who": "开发者",
+              "text": "无需云端依赖的本地决策能力是重大突破，特别适合隐私敏感应用。"
             },
             {
-              "who": "AI 性能优化师",
-              "text": "7-14ms 的短决策速度配合 MLX 原生支持，证明了端侧 AI 在结构化任务上的巨大潜力。"
+              "who": "研究者",
+              "text": "MLX原生支持为端侧AI推理提供了新的技术路径。"
             }
           ]
         },
         {
-          "title_zh": "Jev Jarvis：手机端 AI 对话副驾助手",
+          "title_zh": "JevChat Jarvis - 手机对话副驾助手",
           "eng": "jev-chat/jev-chat-jarvis",
-          "summary": "手机端的 AI 对话辅助工具，可在微信/QQ/X/飞书等应用中实时读懂对方并给出候选回复。",
+          "summary": "安装在手机上的AI对话辅助应用，支持QQ/X/飞书等平台，可读懂对方消息并给出候选回复建议。",
           "source": "GitHub",
-          "stars": 5697,
+          "stars": 6151,
           "lang": "Kotlin",
           "published": "2026-09-21",
           "url": "https://github.com/jev-chat/jev-chat-jarvis",
-          "overview": "Jev Jarvis 是一款运行在手机上的 AI 对话副驾应用，支持微信、QQ、X、飞书等主流平台。它能实时读取屏幕内容并生成候选回复供用户一键填入，采用非侵入式设计，仅读屏幕不 hook 不改包。",
-          "analysis": "该项目将 AI 能力深度融入日常社交场景，解决了用户在多平台沟通中“不知道如何回复”的痛点。其非侵入式架构降低了安全风险，5000+ 星显示了极高的用户关注度。",
+          "overview": "JevChat Jarvis是一款手机对话副驾应用，可在QQ、X（Twitter）、飞书等主流聊天平台中工作。它通过读取屏幕内容理解对方消息，提供候选回复建议，用户可一键填入输入框或自行决定发送。采用非侵入式设计，仅读屏幕不hook不改包。",
+          "analysis": "该项目代表了AI在即时通讯场景中的创新应用，解决了多平台对话辅助的痛点。Kotlin语言选择适合Android生态开发。其非侵入性设计降低了安全风险，具有较好的用户接受度。",
           "social": [
             {
-              "who": "移动应用开发者",
-              "text": "Kotlin 实现且仅读屏幕不改包的设计思路非常巧妙，平衡了功能强大与系统安全。"
+              "who": "开发者",
+              "text": "跨平台聊天辅助的实现方式很有创意，非侵入设计值得肯定。"
             },
             {
-              "who": "AI 产品经理",
-              "text": "跨平台对话辅助是 AI Agent 落地的典型场景，Jev Jarvis 展示了本地化智能体在移动端的可能性。"
+              "who": "普通用户",
+              "text": "在多个聊天应用中都能获得AI回复建议，实用性很强。"
             }
           ]
         },
         {
-          "title_zh": "Unreal Agent：异步优先的 AI 智能体框架",
+          "title_zh": "Unreal Agent - 异步优先Agent框架",
           "eng": "unreallabsai/unreal-agent",
-          "summary": "基于 Go 语言构建的异步优先 AI 智能体运行框架，强调高并发与低延迟。",
+          "summary": "基于Go语言的异步优先智能体运行框架，为构建高效AI代理提供底层支持。",
           "source": "GitHub",
-          "stars": 1836,
+          "stars": 1882,
           "lang": "Go",
           "published": "2026-09-21",
           "url": "https://github.com/unreallabsai/unreal-agent",
-          "overview": "Unreal Agent 是一个以异步处理为核心的 AI 智能体框架，使用 Go 语言编写。它旨在为需要高并发、低延迟的复杂任务提供高效的执行环境，支持多步骤推理和工具调用编排。",
-          "analysis": "在 Go 生态中引入异步优先的智能体架构，解决了传统同步 Agent 在处理长链任务时的性能瓶颈。1800+ 星表明开发者社区对高性能 Agent 框架的认可度正在提升。",
+          "overview": "Unreal Agent是一个异步优先的Agent运行框架，使用Go语言构建。该框架专注于高效处理AI代理的任务执行和协调工作，适合需要高并发和实时响应的场景。其设计强调异步处理能力，能够充分利用现代计算资源。",
+          "analysis": "在Agent基础设施领域，异步架构是重要趋势。Go语言的并发优势使其成为理想选择。该项目为构建生产级AI代理系统提供了可靠的技术方案，对开发者有实际参考价值。",
           "social": [
             {
-              "who": "后端工程师",
-              "text": "Go 的并发模型天然适合异步 Agent，Unreal Agent 在架构设计上很好地利用了这一优势。"
+              "who": "开发者",
+              "text": "异步优先的设计思路适合处理复杂的多步骤任务执行。"
             },
             {
-              "who": "AI 基础设施研究者",
-              "text": "异步优先的设计让长任务编排更加流畅，是构建生产级 AI Agent 的关键基础组件。"
+              "who": "研究者",
+              "text": "Go语言的并发模型为Agent系统提供了良好的可扩展性基础。"
             }
           ]
         },
         {
-          "title_zh": "Nimble：本地决策与模型评估工具",
-          "eng": "bespokelabsai/nimble",
-          "summary": "支持本地结构化决策、对比数据策展和模型评估的 AI 工具集，强调隐私与可控性。",
-          "source": "GitHub",
-          "stars": 1717,
-          "lang": "Python",
-          "published": "2026-09-18",
-          "url": "https://github.com/bespokelabsai/nimble",
-          "overview": "Nimble 由 Bespoke Labs AI 开发，专注于本地化的结构化决策、对比数据策展以及模型评估。它允许开发者在不依赖云端的情况下完成高质量的 AI 模型训练和验证工作流。",
-          "analysis": "在模型评估和数据策展领域提供本地化方案，契合了当前对数据隐私和模型可控性的需求趋势。1700+ 星表明其在垂直领域的实用价值得到认可。",
-          "social": [
-            {
-              "who": "ML 工程师",
-              "text": "对比数据策展功能对于提升模型质量非常关键，Nimble 将其本地化是一个务实的选择。"
-            },
-            {
-              "who": "隐私合规专家",
-              "text": "完全本地化的决策和评估流程，对于处理敏感数据的场景来说是刚需。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Laya-CoreML：Apple Core ML 上的 Laya 端口",
+          "title_zh": "Laya-CoreML - Apple Neural Engine本地决策",
           "eng": "mizorewww/laya-coreml",
-          "summary": "基于 Apple Core ML 和神经引擎的 Laya 本地推理实现，在 M3 Max 上验证约 5ms 短决策。",
+          "summary": "基于Apple Core ML和Neural Engine的本地化决策模型方案，在M3 Max上实现约5ms的超快速短决策。",
           "source": "GitHub",
-          "stars": 1405,
+          "stars": 1440,
           "lang": "Python",
           "published": "2026-09-19",
           "url": "https://github.com/mizorewww/laya-coreml",
-          "overview": "该项目将 Laya 决策模型移植到 Apple Core ML 和神经引擎上，提供了经过验证的端口。它在 M3 Max 上实现了约 5ms 的短决策速度，并提供了可复现的速度与能耗基准测试数据。",
-          "analysis": "作为 laya-mlx 的补充，CoreML 版本进一步降低了在苹果设备上的推理门槛和功耗。5ms 的延迟使其适用于对实时性要求极高的移动端交互场景。",
+          "overview": "Laya-CoreML为Laya类型化决策模型提供Apple Core ML和Neural Engine的原生支持。该方案在M3 Max芯片上实现约5ms的超快速短决策，具有可复现的速度和能耗基准测试数据。相比MLX版本，CoreML提供了更优化的Apple硬件利用方式。",
+          "analysis": "作为Laya生态的另一重要分支，CoreML版本展示了AI模型在Apple设备上的极致优化潜力。5ms级别的响应速度使其适合对延迟极度敏感的场景。完整的基准测试数据增强了项目的可信度。",
           "social": [
             {
-              "who": "iOS 开发者",
-              "text": "Core ML 原生支持意味着可以无缝集成到 iOS 应用中，无需额外运行时依赖。"
+              "who": "开发者",
+              "text": "5ms的决策速度令人印象深刻，展示了端侧AI的极限性能。"
             },
             {
-              "who": "AI 能效研究员",
-              "text": "可复现的能耗基准测试数据对于评估端侧 AI 的实际成本非常有价值。"
+              "who": "研究者",
+              "text": "Core ML与Neural Engine的深度整合为Apple生态带来了新的可能性。"
             }
           ]
         },
         {
-          "title_zh": "Search：macOS 轻量级 WebKit 浏览器",
+          "title_zh": "Search - macOS轻量级WebKit浏览器",
           "eng": "driceroland/Search",
-          "summary": "由 Office Commun 开发的 macOS 轻量级 WebKit 浏览器，追求速度与简洁体验。",
+          "summary": "由Office Commun开发的macOS专用小型快速WebKit浏览器，注重简洁和性能。",
           "source": "GitHub",
-          "stars": 1021,
+          "stars": 1265,
           "lang": "Swift",
           "published": "2026-09-20",
           "url": "https://github.com/driceroland/Search",
-          "overview": "Search 是一款专为 macOS 设计的轻量级 WebKit 浏览器，由 Office Commun 团队开发。它摒弃了繁重的功能堆砌，专注于提供快速、简洁的网页浏览体验，适合开发者日常使用。",
-          "analysis": "在浏览器同质化严重的当下，一款专注速度和简洁的 macOS 原生浏览器具有差异化价值。Swift 实现保证了与系统的高度集成和性能表现。",
+          "overview": "Search是一款专为macOS设计的轻量级WebKit浏览器，由Office Commun团队开发。该项目注重简洁的设计和快速的性能表现，适合需要高效浏览体验的用户。使用Swift语言构建，充分利用Apple平台的原生能力。",
+          "analysis": "在macOS浏览器生态中，轻量级方案有独特价值。Swift语言的原生优势确保了良好的性能和系统兼容性。对于追求简洁和效率的用户来说，这是一个值得关注的替代选择。",
           "social": [
             {
-              "who": "macOS 用户",
-              "text": "WebKit 原生支持加上 Swift 优化，启动速度和内存占用应该比 Chrome 好很多。"
+              "who": "开发者",
+              "text": "Swift构建的macOS浏览器在性能优化上有天然优势。"
             },
             {
-              "who": "前端开发者",
-              "text": "轻量级浏览器对于需要频繁测试本地服务的开发者来说非常友好。"
+              "who": "普通用户",
+              "text": "轻量级设计让浏览体验更加流畅，适合日常使用。"
             }
           ]
         },
         {
-          "title_zh": "Awesome Jev：Jev 生态开源项目目录",
-          "eng": "heyjunpenn/awesome-jev",
-          "summary": "社区维护的 Jev 框架开源项目验证目录，收录了 896 个基于 Jev 构建的项目。",
-          "source": "GitHub",
-          "stars": 794,
-          "lang": "Astro",
-          "published": "2026-09-19",
-          "url": "https://github.com/heyjunpenn/awesome-jev",
-          "overview": "这是一个经过验证的、社区维护的开源项目目录，专门收录了 896 个使用 Jev 框架构建的项目。它帮助开发者快速发现和评估基于 Jev 生态的工具和应用，降低了技术选型成本。",
-          "analysis": "作为学习资源和生态导航，896 个项目规模的收录展示了 Jev 生态的丰富度。对于想要了解 AI Agent 落地实践的研究者来说，这是极佳的参考入口。",
-          "social": [
-            {
-              "who": "开源社区贡献者",
-              "text": "维护一个经过验证的项目列表比单纯罗列更有价值，这有助于建立社区信任。"
-            },
-            {
-              "who": "技术选型顾问",
-              "text": "896 个项目覆盖的场景足够广泛，能快速帮助团队找到适合 Jev 生态的解决方案。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeepOpen：多语言 System 1 决策引擎",
+          "title_zh": "DeepOpen - System 1决策引擎",
           "eng": "deepopen-com/deepopen",
-          "summary": "专为结构化类型决策场景设计的非自回归 System 1 决策引擎，支持多语言。",
+          "summary": "非自回归System 1决策引擎，专为结构化类型决策场景设计，支持多语言。",
           "source": "GitHub",
-          "stars": 762,
+          "stars": 1006,
           "lang": "Python",
           "published": "2026-09-21",
           "url": "https://github.com/deepopen-com/deepopen",
-          "overview": "DeepOpen 是一款非自回归的 System 1 决策引擎，专为结构化类型决策场景设计。它支持多语言环境下的快速判断，旨在为需要高效、低延迟决策的应用提供底层支撑，是 Laya 架构的中文社区实现。",
-          "analysis": "作为 Laya 生态的中文分支，DeepOpen 降低了中国开发者使用 System 1 决策引擎的技术门槛。700+ 星表明国内市场对这一技术方向有实际需求。",
+          "overview": "DeepOpen是一个非自回归的System 1决策引擎，专为结构化类型决策场景设计。该引擎采用不同于传统大语言模型的推理方式，专注于快速、确定性的决策输出。支持多语言实现，适合需要高效决策的场景。",
+          "analysis": "在AI决策领域，System 1（直觉式）与System 2（分析式）的区分具有重要意义。DeepOpen的非自回归设计提供了不同于LLM的新思路，对结构化决策场景有独特价值。多语言支持增强了其适用范围。",
           "social": [
             {
-              "who": "AI 应用开发者",
-              "text": "多语言支持加上本地化部署能力，让国内团队更容易落地 System 1 架构。"
+              "who": "开发者",
+              "text": "非自回归架构为快速决策提供了新的技术路径。"
             },
             {
-              "who": "系统架构师",
-              "text": "结构化决策场景在金融和风控领域需求巨大，DeepOpen 的专注设计非常契合这些场景。"
+              "who": "研究者",
+              "text": "System 1决策引擎的概念值得深入研究，可能开辟新方向。"
             }
           ]
         },
         {
-          "title_zh": "Local Jev：本地化 Jev 智能体实现",
-          "eng": "githubnext/localjev",
-          "summary": "基于 TypeScript 实现的本地化 Jev 框架，支持离线运行和隐私保护的智能体功能。",
+          "title_zh": "GoLive Skill - Agent产品上线工具",
+          "eng": "mikehasa/golive-skill",
+          "summary": "开源Agent技能+零依赖Node CLI，帮助开发者将AI构建的产品正式上线：托管、数据库、域名、邮件、支付等。",
           "source": "GitHub",
-          "stars": 750,
+          "stars": 886,
           "lang": "TypeScript",
-          "published": "2026-09-18",
-          "url": "https://github.com/githubnext/localjev",
-          "overview": "Local Jev 是 Jev 框架的本地化实现版本，使用 TypeScript 编写。它允许开发者在完全离线和本地环境中运行智能体功能，强调数据隐私和自主控制，无需依赖云端服务。",
-          "analysis": "在 AI Agent 领域，本地化和隐私保护正成为核心卖点。Local Jev 填补了 Jev 生态在端侧部署的空白，适合对数据安全有严格要求的企业用户。",
+          "published": "2026-09-23",
+          "url": "https://github.com/mikehasa/golive-skill",
+          "overview": "GoLive Skill是一个开源的Agent技能工具，配合零依赖Node CLI使用。它帮助开发者将AI构建的产品正式上线，涵盖托管、数据库、域名、邮件和支付等基础设施配置。工作流程包括检测→规划→审批→应用→验证五个步骤，无需GoLive账户或后端服务。",
+          "analysis": "在AI产品开发领域，从原型到上线的最后一公里是重要挑战。GoLive Skill提供了自动化的基础设施部署方案，降低了产品上线门槛。零依赖设计和无遥测特性增强了隐私保护。对独立开发者和小团队有实用价值。",
           "social": [
             {
-              "who": "企业安全官",
-              "text": "完全本地化运行意味着数据不出域，这对于处理敏感业务数据的场景至关重要。"
+              "who": "开发者",
+              "text": "自动化基础设施部署大大简化了AI产品的上线流程。"
             },
             {
-              "who": "TypeScript 开发者",
-              "text": "TypeScript 生态的成熟让本地部署的开发体验更加顺滑，降低了上手门槛。"
+              "who": "研究者",
+              "text": "从Agent构建到产品上线的完整工具链值得关注。"
             }
           ]
         },
         {
-          "title_zh": "Hermes Jev Skills：智能体技能路由与记忆系统",
-          "eng": "kerpopule/hermes-jev-skills",
-          "summary": "为 Hermes 智能体提供基于 Jev 的模型路由、记忆管理、压缩和技能选择功能。",
+          "title_zh": "CLM - 对比学习模型框架",
+          "eng": "Contrastive-LM/CLM",
+          "summary": "基于对比学习的语言模型框架，探索通过对比学习提升语言理解能力的新方法。",
           "source": "GitHub",
-          "stars": 740,
+          "stars": 869,
           "lang": "Python",
-          "published": "2026-09-18",
-          "url": "https://github.com/kerpopule/hermes-jev-skills",
-          "overview": "该项目为 Hermes 智能体提供了基于 Jev 的技能集，包括模型路由、记忆管理、上下文压缩以及计算机和浏览器操作能力。它也兼容 Claude Code 和 Codex 等主流 AI 编码工具，增强了 Agent 的通用性和持久性。",
-          "analysis": "通过集成模型路由和记忆系统，该项目解决了长对话中上下文丢失和技能重复调用的问题。740+ 星表明开发者对增强现有 Agent 框架能力的持续需求。",
+          "published": "2026-09-23",
+          "url": "https://github.com/Contrastive-LM/CLM",
+          "overview": "CLM（Contrastive Language Model）是一个基于对比学习的语言模型框架。该框架通过对比学习的方法提升语言理解能力，探索不同于传统预训练的新范式。项目使用Python实现，适合研究和实验场景。",
+          "analysis": "在语言模型研究领域，对比学习是重要的技术方向。CLM框架为研究者提供了实验平台，有助于探索更高效的预训练方法。虽然知名度相对较低，但其技术思路对AI基础研究有参考价值。",
           "social": [
             {
-              "who": "AI Agent 研究者",
-              "text": "记忆管理和技能路由是构建持久化智能体的关键，Hermes Jev Skills 提供了成熟的实现方案。"
+              "who": "开发者",
+              "text": "对比学习方法在语言模型中的应用值得持续关注。"
             },
             {
-              "who": "全栈开发者",
-              "text": "兼容 Claude Code 和 Codex 意味着可以无缝集成到现有的开发工作流中。"
+              "who": "研究者",
+              "text": "为预训练范式提供了新的实验方向和研究思路。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Awesome Jev - Jev开源项目目录",
+          "eng": "heyjunpenn/awesome-jev",
+          "summary": "社区维护的Jev构建开源项目验证目录，收录916个使用Jev框架的项目。",
+          "source": "GitHub",
+          "stars": 809,
+          "lang": "Astro",
+          "published": "2026-09-19",
+          "url": "https://github.com/heyjunpenn/awesome-jev",
+          "overview": "Awesome Jev是一个社区维护的Jev构建开源项目目录，经过验证收录了916个使用Jev框架的项目。该项目使用Astro语言构建，旨在为开发者提供可靠的Jev生态参考。作为学习资源，帮助开发者了解Jev框架的实际应用案例。",
+          "analysis": "在AI工具生态中，高质量的项目目录是重要的学习资源。Awesome Jev收录了916个项目，展示了Jev框架的广泛应用。Astro语言的选择体现了现代Web开发趋势。对学习和探索Jev生态有实用价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "916个验证项目提供了丰富的学习参考和灵感来源。"
+            },
+            {
+              "who": "研究者",
+              "text": "社区驱动的项目目录有助于了解AI工具的实际落地情况。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Mini-AGI - 8GB显存持续学习模型",
+          "eng": "volotat/mini-AGI",
+          "summary": "在8GB VRAM笔记本上从零训练的持续学习模型，使用batch-1数据流进行训练。",
+          "source": "GitHub",
+          "stars": 756,
+          "lang": "Python",
+          "published": "2026-09-19",
+          "url": "https://github.com/volotat/mini-AGI",
+          "overview": "Mini-AGI是一个在8GB VRAM笔记本上从零训练的持续学习模型。该项目使用batch-1数据流进行训练，展示了在有限硬件条件下实现AI能力的可能性。该方案对资源受限环境有重要意义，降低了AI开发的硬件门槛。",
+          "analysis": "在AI民主化趋势下，低资源训练是重要研究方向。Mini-AGI证明了8GB VRAM即可实现持续学习，这对个人开发者和教育机构有实用价值。batch-1训练方式展示了内存高效的技术路线。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "8GB显存就能训练的模型大大降低了AI入门门槛。"
+            },
+            {
+              "who": "研究者",
+              "text": "持续学习在低资源条件下的实现值得深入研究。"
             }
           ]
         }
