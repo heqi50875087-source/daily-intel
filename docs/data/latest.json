@@ -1,28 +1,139 @@
 {
-  "generated_at": "2026-09-25T06:12:33+08:00",
+  "generated_at": "2026-09-25T10:24:42+08:00",
   "date": "2026-09-25",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [
-    "ai",
-    "sports",
-    "github",
     "hot"
   ],
   "module_updated": {
     "hot": "2026-09-25 00:01",
-    "ai": "2026-09-25 00:01",
+    "ai": "2026-09-25 10:24",
     "voices": "2026-09-25 06:12",
     "github": "2026-09-25 00:01",
-    "libraries": "2026-09-25 06:12",
+    "libraries": "2026-09-25 10:24",
     "sports": "2026-09-25 00:01",
     "academic": "2026-09-25 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "AI主导气候周讨论",
+          "eng": "AI is dominating the conversation at Climate Week",
+          "summary": "联合国气候变化大会期间，人工智能成为各国领导人和投资者热议的核心议题。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-09-24",
+          "tags": [
+            "AI政策",
+            "气候峰会",
+            "联合国"
+          ],
+          "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+          "overview": "本周世界领导人齐聚纽约参加联合国大会，同时也是纽约气候周。投资者、政策制定者、倡导者和记者汇聚一堂，今年不可避免的话题是人工智能。AI在气候议题中的角色引发广泛讨论，成为各方碰撞的核心焦点。",
+          "analysis": "AI从技术话题升级为全球治理层面的核心议题，标志着其影响力已超越科技圈进入国际政治舞台。这反映出各国对AI监管和应用的紧迫性认知正在形成共识。",
+          "social": [
+            {
+              "who": "政策研究者",
+              "text": "气候与AI的交叉讨论表明，技术治理需要跨领域协作框架"
+            }
+          ]
+        },
+        {
+          "title_zh": "Gemini 3.8 Live推出实时虚拟形象功能",
+          "eng": "Gemini 3.8 Live with Live Avatar gives Google's AI a face",
+          "summary": "Google发布Gemini 3.8 Live更新，AI对话时可展示同步唇形和面部表情的动画虚拟形象。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-09-24",
+          "tags": [
+            "Google",
+            "Gemini",
+            "AI对话",
+            "虚拟形象"
+          ],
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "overview": "Google的Gemini 3.8 Live更新允许用户在与模型对话时观看动画AI角色实时响应。虚拟形象会同步唇形并展示不同面部表情，目前仅向Gemini Enterprise客户开放。该功能可在97种不同外观间切换。",
+          "analysis": "这是AI从纯文本/语音交互向具身化、人格化方向的重要演进。企业级用户优先获得暗示Google在商业化策略上的分层布局。",
+          "social": [
+            {
+              "who": "产品设计师",
+              "text": "虚拟形象增强用户体验，但需关注过度拟人化的伦理边界"
+            }
+          ]
+        },
+        {
+          "title_zh": "PrismML将微型LLM部署到高通智能眼镜",
+          "eng": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+          "summary": "开源AI公司PrismML将其轻量级大语言模型适配到高通驱动的Android智能眼镜上。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-09-24",
+          "tags": [
+            "边缘AI",
+            "开源",
+            "智能眼镜",
+            "高通"
+          ],
+          "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+          "overview": "PrismML致力于开发可在设备上运行的开源权重AI模型，充分利用现有计算能力。此次将其小型LLM适配到高通平台的Android智能眼镜上，标志着边缘AI在可穿戴设备上的进一步落地。",
+          "analysis": "开源轻量级模型+专用硬件的组合正在改变AI部署格局。这为隐私敏感场景和离线应用提供了可行方案，减少对云端依赖的趋势加速形成。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "边缘推理能力让本地化AI应用成为现实"
+            }
+          ]
+        },
+        {
+          "title_zh": "Oracle Stargate数据中心发出不可抗力通知",
+          "eng": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+          "summary": "甲骨文就其新墨西哥州Stargate超大规模数据中心向合作伙伴发出不可抗力通知，可能延迟付款。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-09-24",
+          "tags": [
+            "Oracle",
+            "数据中心",
+            "AI基础设施",
+            "Stargate"
+          ],
+          "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+          "overview": "Oracle就其新墨西哥州Stargate数据中心向供应商发出不可抗力通知，若设施未能达到2028年上线目标，可延迟付款。这是AI基础设施大规模建设中的重大风险信号。",
+          "analysis": "超大规模AI数据中心的建设和运营面临前所未有的复杂性和不确定性。这一事件可能影响整个行业的投资节奏和供应链稳定性。",
+          "social": [
+            {
+              "who": "投资人",
+              "text": "基础设施延期风险需要纳入AI行业风险评估模型"
+            }
+          ]
+        },
+        {
+          "title_zh": "Meta员工被要求佩戴'律师-客户特权'帽子抗议",
+          "eng": "Meta employees ordered 'attorney/client privilege' hats while fighting child safety disclosures",
+          "summary": "在涉及青少年安全的诉讼中，Meta律师以律师-客户特权为由试图阻止证据公开，引发外界强烈质疑。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-09-24",
+          "tags": [
+            "Meta",
+            "AI安全",
+            "社交媒体监管",
+            "法律"
+          ],
+          "url": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats",
+          "overview": "Meta在涉及青少年安全和心理健康的诉讼中，律师以律师-客户特权为由要求将某些证据保密。原告方指出该标签被过度广泛使用，并引用近期解封的文件质疑其合理性。员工佩戴象征性帽子表达抗议。",
+          "analysis": "科技公司在AI内容审核和未成年人保护方面的透明度问题持续引发争议。这一事件凸显了平台责任与商业利益之间的深层矛盾。",
+          "social": [
+            {
+              "who": "数字权利倡导者",
+              "text": "平台不应利用法律特权逃避对AI系统影响的问责"
+            }
+          ]
+        },
         {
           "title_zh": "澳大利亚调查 OpenAI 入侵政府健康网站事件",
           "eng": "Australia to investigate if OpenAI hack of government health website broke the law",
@@ -664,137 +775,6 @@
             {
               "who": "内容创作者",
               "text": "如果OpenAI真的能解决创作者变现问题，可能会重塑整个内容生态。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Ema融资7700万美元，AI开始侵蚀企业软件和服务市场",
-          "eng": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "summary": "企业AI平台Ema完成7700万美元融资（累计1.4亿美元），客户包括Google和Microsoft等50余家大型企业。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-09-23",
-          "tags": [
-            "企业AI",
-            "融资",
-            "SaaS"
-          ],
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
-          "overview": "企业级AI平台Ema完成新一轮7700万美元融资，累计融资达1.4亿美元，已服务超过50家企业客户，包括Google和Microsoft。公司正利用AI技术重构传统企业软件和服务的交付方式，标志着AI对SaaS行业的渗透进入加速阶段。",
-          "analysis": "Ema的成功融资表明，企业级AI正在从概念验证转向规模化落地。当Google、Microsoft这样的巨头成为其客户时，说明市场已认可AI原生工具在效率提升方面的价值。这预示着传统SaaS厂商面临前所未有的竞争压力。",
-          "social": [
-            {
-              "who": "企业技术决策者",
-              "text": "AI对企业的价值不在于替代现有系统，而在于重新定义工作流程的效率边界。"
-            },
-            {
-              "who": "SaaS行业分析师",
-              "text": "Ema的增长模式表明，AI原生平台正在蚕食传统软件的市场份额。"
-            }
-          ]
-        },
-        {
-          "title_zh": "智能眼镜已在印度引发混乱：隐私泄露与内容传播失控",
-          "eng": "Smart glasses are already causing havoc in India",
-          "summary": "用户通过Instagram观看数小时前的抗议视频，发现内容涉及数天前的事件，暴露可穿戴设备拍摄内容的隐私问题。",
-          "source": "MIT Tech Review",
-          "region": "全球/印度",
-          "published": "2026-09-23",
-          "tags": [
-            "可穿戴设备",
-            "隐私安全",
-            "社交媒体"
-          ],
-          "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
-          "overview": "一名用户在搬家时收到朋友发送的Instagram视频，该视频仅上传数小时但记录了几天前的德里抗议活动。智能眼镜拍摄的内容被迅速传播，引发对隐私侵犯和内容审核机制失效的担忧。",
-          "analysis": "空间计算设备的普及正在重塑信息传播速度，但也带来了前所未有的隐私挑战，传统新闻审核机制难以应对实时视频流。",
-          "social": [
-            {
-              "who": "记者/媒体人",
-              "text": "实时视频传播让传统新闻审核机制面临巨大压力。"
-            },
-            {
-              "who": "普通用户",
-              "text": "我们何时能真正控制自己的影像数据不被随意传播？"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI 组建精英数学家顾问团，试图挽回声誉危机",
-          "eng": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-          "summary": "在数学研究结果引发声誉危机后，OpenAI 宣布成立独立数学家小组，旨在指导公司与数学研究的互动方式。",
-          "source": "The Verge",
-          "region": "美国",
-          "published": "2026-09-23",
-          "tags": [
-            "AI治理",
-            "OpenAI",
-            "学术伦理"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-          "overview": "OpenAI 因在数学领域的一系列成果引发争议和声誉危机，于周一宣布组建独立数学家顾问小组。该小组将负责指导 OpenAI 及其他 AI 公司与数学研究及更广泛学术社区的互动方式。这一举措表明 OpenAI 正在试图通过引入外部专家来重建其在学术界的可信度，并规范其研究成果的发布流程。",
-          "analysis": "这反映了 AI 公司在基础科学领域的影响力日益增强，同时也带来了‘谁有权决定如何发布数学发现’的伦理问题。OpenAI 此举既是危机公关，也是对其学术影响力的制度化回应。",
-          "social": [
-            {
-              "who": "数学家/研究者",
-              "text": "让 AI 公司参与数学研究的发布决策是一个敏感话题，独立顾问团的存在有助于缓解学术界对利益冲突的担忧。"
-            },
-            {
-              "who": "科技政策观察者",
-              "text": "OpenAI 正在试图将自身从‘技术公司’重新定位为‘科学合作伙伴’，这需要更透明的治理机制来支撑。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国城市集体反对特朗普FCC取消地方宽带监管计划",
-          "eng": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
-          "summary": "全美多个城市联合抵制特朗普政府FCC提出的取消地方宽带许可要求的联邦化方案，认为互联网服务提供商建设速度不足以支撑放松监管。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-09-22",
-          "tags": [
-            "宽带政策",
-            "FCC",
-            "数字基础设施",
-            "地方政府"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
-          "overview": "特朗普政府FCC提出取消地方宽带许可要求的联邦化方案，旨在加速网络建设。但全美多个城市联合反对，认为互联网服务提供商当前建设速度不足以支撑放松监管，且地方层面的监管对保障服务质量至关重要。这一政策分歧反映了联邦与地方政府在数字基础设施发展上的根本性矛盾。",
-          "analysis": "宽带政策的联邦化趋势可能短期内加速基础设施建设，但也可能导致服务质量和价格监管的缺失。地方政府坚持保留许可要求，实际上是在保护消费者利益和确保网络建设的可持续性。这场辩论的核心是：效率优先还是公平优先？",
-          "social": [
-            {
-              "who": "城市规划者",
-              "text": "放松监管听起来很诱人，但如果没有配套的质量标准，最终受害的是普通居民和企业用户。"
-            },
-            {
-              "who": "电信行业分析师",
-              "text": "FCC的联邦化方案可能忽视了地方市场的复杂性。不同城市的地理条件、人口密度和经济状况差异巨大，一刀切的政策难以奏效。"
-            }
-          ]
-        },
-        {
-          "title_zh": "高通发布两款新手机芯片，强调本地AI推理能力",
-          "eng": "Qualcomm launches two new smartphone chips with emphasis on AI",
-          "summary": "高通宣布其旗舰芯片可在手机端本地运行300亿参数的混合专家模型，标志着端侧AI的重大突破。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-09-22",
-          "tags": [
-            "高通",
-            "手机芯片",
-            "端侧AI"
-          ],
-          "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-          "overview": "高通发布两款新智能手机芯片，其中旗舰型号支持在设备本地运行300亿参数的混合专家（MoE）模型。这一能力意味着复杂的AI推理任务无需依赖云端服务器即可完成，对隐私保护和延迟优化具有重要意义。该芯片将搭载于小米18 Pro等即将发布的设备上。",
-          "analysis": "端侧运行30B MoE模型是硬件和软件协同的重大里程碑。这意味着AI应用可以完全离线工作，对医疗、金融等敏感领域具有战略价值。高通此举也在与苹果自研芯片形成竞争态势。",
-          "social": [
-            {
-              "who": "芯片工程师",
-              "text": "30B参数在端侧运行需要极致的能效优化，这代表了移动计算能力的质变。"
-            },
-            {
-              "who": "AI应用开发者",
-              "text": "端侧大模型将彻底改变离线AI应用的开发范式。"
             }
           ]
         }
@@ -7460,6 +7440,5 @@
         "国内"
       ]
     }
-  },
-  "merged_at": "2026-09-25T06:40:43+08:00"
+  }
 }
