@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:44:20+08:00",
+  "generated_at": "2026-09-26T08:50:45+08:00",
   "date": "2026-09-26",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,16 +8,42 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-26 07:44",
-    "ai": "2026-09-26 07:44",
-    "voices": "2026-09-26 07:44",
+    "ai": "2026-09-26 08:50",
+    "voices": "2026-09-26 08:50",
     "github": "2026-09-26 07:44",
-    "libraries": "2026-09-26 06:52",
-    "sports": "2026-09-26 07:44",
+    "libraries": "2026-09-26 08:50",
+    "sports": "2026-09-26 08:50",
     "academic": "2026-09-25 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Meta Muse AI 助手文件系统意外暴露用户数据引发安全争议",
+          "eng": "Meta makes the Muse filesystem even more accessible",
+          "summary": "Meta 的 AI 聊天机器人 Muse 被发现会向好奇用户暴露其内部文件系统，泄露了本不应公开的内部细节和用户隐私信息。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-09-25",
+          "tags": [
+            "AI 安全",
+            "Meta",
+            "隐私"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+          "overview": "Meta 的 AI 助手 Muse 被发现存在文件系统暴露漏洞，用户可以直接访问其内部文件结构，甚至获取到本应保密的系统细节。尽管 Muse 官方声明该功能并非有意设计，但这一事件揭示了大型语言模型在权限隔离方面的潜在风险，尤其是在多租户环境中。",
+          "analysis": "Muse 的文件系统泄露表明，即使是消费级 AI 助手也可能存在严重的权限管理缺陷。随着 AI 应用越来越深入地集成到用户的日常工具中，确保数据隔离和访问控制将成为产品安全的核心议题。Meta 需要尽快修复此漏洞并重新评估其 AI 产品的安全架构。",
+          "social": [
+            {
+              "who": "安全工程师",
+              "text": "AI 助手直接暴露文件系统是严重的设计缺陷，用户应该永远无法看到底层系统文件。"
+            },
+            {
+              "who": "科技评论员",
+              "text": "Meta 在安全事件后迅速修复并开放测试，这种透明度反而有助于建立用户信任。"
+            }
+          ]
+        },
         {
           "title_zh": "OpenAI未授权Agent向互联网泄露53张用户图片",
           "eng": "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge",
@@ -748,32 +774,6 @@
             {
               "who": "科技政策分析师",
               "text": "排除技术专家参与AI安全决策的做法值得警惕。当政策制定脱离技术现实时，其效果往往适得其反。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anthropic生物实验室发现重大成果：Claude仍在人类监督下工作",
-          "eng": "Anthropic says its biology lab has already found something big",
-          "summary": "TechCrunch报道，Anthropic的生物实验室已利用AI取得重要发现，但公司明确表示Claude并未在实验室中自由运行——人类仍然在环内保持监督。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-09-23",
-          "tags": [
-            "AI生物研究",
-            "Anthropic",
-            "AI安全"
-          ],
-          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-          "overview": "Anthropic宣布其内部生物实验室已利用Claude模型取得重大科学发现，但公司强调人类研究人员仍在关键决策环节保持监督。这一案例展示了AI在科学研究领域的实际应用潜力——从文献分析到假设生成再到实验设计辅助，同时表明负责任的企业正在探索如何在高风险领域安全部署AI代理。",
-          "analysis": "这是AI在硬科学领域落地的标志性事件之一。与之前主要在软件工程和内容创作中的应用不同，生物实验室的AI应用涉及更高的失败成本和伦理风险，Anthropic选择保持人类监督的做法为行业树立了标杆。这也暗示AI Agent的安全边界可能因应用场景而异——在受控科研环境中比在开放网络中更容易管理风险。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "AI+生物制药的交叉领域正在成为下一个万亿级赛道，Anthropic的做法既展示了技术实力也传递了安全信号，这对吸引监管友好型投资至关重要。"
-            },
-            {
-              "who": "科学家",
-              "text": "AI在文献综述和假设生成方面已经显著加速研究进程，但实验验证环节仍需人类判断力。人机协作模式才是当前最务实的路径。"
             }
           ]
         }
@@ -1589,338 +1589,346 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼城被判违反英超财务公平竞赛规则",
-          "eng": "Manchester City found guilty of breaking Premier League's financial fair play rules",
-          "summary": "曼城被认定违反了超过百项英超财务规则，面临降级或从联赛彻底除名的可能。俱乐部坚持无罪并预计将提出上诉。",
+          "title_zh": "曼城被认定违反英超财务公平竞赛规则",
+          "eng": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
+          "summary": "曼城在涉及超过百项违规指控的纪律案件中，被裁定违反了英超财务规则的大多数内容。俱乐部坚持声称无罪并预计将提起上诉，目前面临降级或退出联赛的风险。",
           "source": "Guardian Football",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/football/2026/sep/25/manchester-city-found-guilty-of-breaking-premier-leagues-financial-fair-play-rules",
-          "overview": "这是英超历史上最大的纪律案件，曼城被认定违反了超过100项与财务规则相关的指控。俱乐部坚持自己是无辜的，并预计将提起上诉。这一裁决将英格兰足球推入动荡之中，冠军球队现在面临从英超降级甚至被完全驱逐出赛事的风险。",
-          "analysis": "这一判决不仅关乎金钱处罚，更动摇了曼城过去十年辉煌成就的合法性基础。如果上诉失败，整个英超的竞争格局和球迷信任度都将受到深远冲击。",
+          "overview": "曼城在英超历史上最大的纪律案件中，被裁定违反了超过百项财务规则违规指控的大多数内容。俱乐部坚持声称无罪并预计将提起上诉，目前面临被从英超降级甚至完全退出赛事的可能性。这一裁决将改变人们对曼城此前联赛冠军辉煌时代的理解，所有荣誉都已被打上问号。",
+          "analysis": "这是英格兰足球历史上最具争议性的判罚之一，无论最终处罚如何，曼城过往的荣誉都已被打上问号。俱乐部在三年间试图通过法律手段消除指控的努力未能奏效，接下来上诉将是关键博弈点。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "这是英格兰足球历史上最黑暗的一天，我们所有的冠军都蒙上了阴影。"
+              "text": "2008年我们就唱过这首歌，看来预言成真了。"
             },
             {
-              "who": "体育评论员",
-              "text": "无论最终处罚如何，曼城时代的荣耀已经无法洗刷，这是一个分水岭时刻。"
+              "who": "解说员",
+              "text": "无论结果如何，球员不应为所有者的行为买单。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "降级？冠军被剥夺？上诉？曼城接下来怎么办",
+          "title_zh": "降级？冠军被剥夺？上诉？曼城的下一步是什么",
           "eng": "Relegation? Titles stripped? Appeals? What next for Man City",
-          "summary": "针对曼城的115项指控终于有了判决结果，俱乐部面临法律建议及可能的上诉程序。",
+          "summary": "经过超过两年的调查，针对曼城115项指控的裁决终于出炉。英超各俱乐部正在评估是否拥有赔偿索赔权，这一判决引发了关于后续法律程序的广泛讨论。",
           "source": "BBC Football",
           "published": "2026-09-25",
           "url": "https://www.bbc.co.uk/sport/football/articles/cx30540044q0o?at_medium=RSS&at_campaign=rss",
-          "overview": "经过超过两年的等待，针对曼城的115项指控终于有了判决。俱乐部正在寻求法律顾问意见，以评估是否拥有赔偿索赔权以及后续的法律应对策略。这一过程对英超的治理结构提出了严峻考验。",
-          "analysis": "法律程序的走向将决定曼城未来数年的命运。如果上诉失败，剥夺冠军头衔和降级将是不可避免的选项，这将对俱乐部的商业价值和球员士气造成巨大打击。",
-          "social": [
-            {
-              "who": "足球记者",
-              "text": "两年多的等待终于有了结果，但真正的风暴才刚刚开始。"
-            },
-            {
-              "who": "法律专家视角",
-              "text": "俱乐部寻求赔偿索赔权表明他们仍在积极寻找法律途径来减轻损失。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼城球迷直面有罪裁决的现实",
-          "eng": "Man City fans face up to reality of guilty verdict",
-          "summary": "曼城球迷对俱乐部被认定违反财务规则的反应，从2008年的预言到如今的现实。",
-          "source": "BBC Football",
-          "published": "2026-09-25",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cwy7zzdmn4v7o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城球迷正在面对俱乐部被认定违反财务规则的残酷现实。尽管过去三年试图在法律上消除指控，但结果已定。2008年曾有球迷唱起关于城市即将沉没的歌谣，如今预言成真，球迷的恐惧和失望溢于言表。",
-          "analysis": "球迷的情感反应揭示了足球文化中信任的重要性。当俱乐部的财务诚信受到质疑时，球迷的支持也会随之动摇，这对任何顶级俱乐部来说都是致命的。",
+          "overview": "经过超过两年的调查，针对曼城115项指控的裁决终于出炉。英超各俱乐部正在评估是否拥有赔偿索赔权，这一判决引发了关于后续法律程序的广泛讨论。曼城面临降级或退出联赛的风险，冠军头衔也可能被剥夺。",
+          "analysis": "这一裁决标志着对曼城财务违规行为的正式定性，但最终的处罚细节仍有悬念。球迷和球员的反应分化明显，有人呼吁俱乐部正视现实，也有人坚持相信清白。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "我们一直担心这一天会到来，但没想到这么快就成真了。"
+              "text": "2008年的预言终于成真了，我们早就知道会有这一天。"
             },
             {
-              "who": "普通球迷",
-              "text": "失去奖杯和降级是最可怕的事情，但我们必须接受现实。"
+              "who": "教练",
+              "text": "曼城需要信任他们，除非被证明有罪。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "姆巴佩在土耳其进球后受伤，法国1-0击败10人制土耳其",
-          "eng": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
-          "summary": "姆巴佩在对阵土耳其的比赛中进球后疑似膝盖受伤离场。法国以1-0战胜缺少一人的土耳其队，开启齐达内的新纪元。",
-          "source": "Guardian Football",
+          "title_zh": "英超俱乐部就曼城罚款赔偿问题寻求法律咨询",
+          "eng": "Clubs seek legal advice over Man City charges compensation",
+          "summary": "英超各俱乐部正就曼城115项指控案寻求法律建议，以评估他们是否有资格提出赔偿索赔。这一事件正在改变英格兰足球的格局。",
+          "source": "BBC Football",
           "published": "2026-09-25",
-          "url": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium",
-          "overview": "在法国对阵土耳其的 Nations League 比赛中，姆巴佩在第55分钟进球后不久因左膝受伤痛苦倒地。这是齐达内执教法国后的首场比赛，意大利0-2负于比利时，格鲁吉亚1-0击败北爱尔兰。",
-          "analysis": "姆巴佩的伤情令人担忧，他刚刚刷新了为法国队进球的记录。如果无法及时复出，将对法国队在接下来的 Nations League 和世界杯预选赛中的表现产生重大影响。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+          "overview": "英超各俱乐部正就曼城115项指控案寻求法律建议，以评估他们是否有资格提出赔偿索赔。这一事件正在改变英格兰足球的格局。",
+          "analysis": "如果曼城被判有罪，其他俱乐部可能面临巨额赔偿的风险。这不仅是曼城的危机，也是整个英超财务体系的一次重大考验。",
           "social": [
             {
-              "who": "球迷",
-              "text": "姆巴佩的膝盖看起来不太好，希望他能尽快恢复。"
+              "who": "资深球迷",
+              "text": "如果曼城被罚，我们可能需要为他们的错误买单。"
             },
             {
-              "who": "体育记者",
-              "text": "齐达内的首秀虽然赢了，但姆巴佩的受伤给球队的未来蒙上了一层阴影。"
+              "who": "教练",
+              "text": "法律程序还在进行中，最终结果尚不确定。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "图赫尔警告帕尔默“错过太多”英格兰机会",
-          "eng": "Thomas Tuchel warns Cole Palmer about 'missing way too many' England camps",
-          "summary": "图赫尔批评切尔西前锋帕尔默多次缺席英格兰国家队集训，其未来存疑。帕尔默仅14次出场，拒绝参加最新一期大名单。",
+          "title_zh": "图赫尔警告帕尔默“错过太多”英格兰训练营",
+          "eng": "Thomas Tuchel warns Cole Palmer about ‘missing way too many’ England camps",
+          "summary": "英格兰主帅图赫尔对切尔西前锋帕尔默连续退出国家队表示不满，称其错过了太多为国效力的机会。英格兰将在周六对阵西班牙的 Nations League 比赛。",
           "source": "Guardian Football",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/football/2026/sep/25/thomas-tuchel-cole-palmer-england-spain-nations-league",
-          "overview": "英格兰主教练图赫尔对帕尔默的最新缺席表示不满，警告他错过了太多为国效力的机会。帕尔默只有14次出场记录，且决定不加入最新一期国家队大名单。英格兰将在周六对阵西班牙的 Nations League 比赛中。",
-          "analysis": "帕尔默的态度问题可能影响他在国家队的未来。对于一名24岁的顶级球员来说，国际比赛经历至关重要，图赫尔的警告表明俱乐部和国家队之间的平衡正在被打破。",
-          "social": [
-            {
-              "who": "教练视角",
-              "text": "帕尔默需要明白，为国效力是顶级球员的责任，不能总是选择退出。"
-            },
-            {
-              "who": "球迷",
-              "text": "希望帕尔默能重新考虑，毕竟他在俱乐部的表现已经证明了实力。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "罗伯逊称曼城球员“不应为俱乐部行为负责”",
-          "eng": "Andy Robertson says players are 'not to blame' for Manchester City's actions",
-          "summary": "利物浦前后卫安迪·罗伯逊认为曼城获奖球员不应因所有权问题被剥夺成就。他在飞往斯洛文尼亚途中得知消息后发表表态。",
-          "source": "Guardian Football",
-          "published": "2026-09-25",
-          "url": "https://www.theguardian.com/football/2026/sep/25/andy-robertson-says-players-are-not-to-blame-for-manchester-citys-actions",
-          "overview": "利物浦前后卫安迪·罗伯逊在得知曼城被认定违反英超财务规则后，认为获奖球员不应受到牵连。他在从西班牙训练营飞往斯洛文尼亚的途中发表了这一观点，强调球员个人荣誉与俱乐部违规行为应分开看待。",
-          "analysis": "罗伯逊的观点代表了足球界对球员个人成就保护的一种声音。在俱乐部面临巨大争议时，球员如何自处是一个复杂的问题，需要平衡个人名誉和集体责任。",
+          "overview": "英格兰主帅图赫尔对切尔西前锋帕尔默连续退出国家队表示不满，称其错过了太多为国效力的机会。帕尔默目前仅有14次出场记录，他的缺席让英格兰对阵西班牙的 Nations League 比赛蒙上阴影。",
+          "analysis": "帕尔默的缺席可能影响英格兰队的战术部署和士气。图赫尔的警告表明，如果这种情况持续下去，帕尔默的国家队未来将充满不确定性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "罗伯逊说得对，球员在场上拼尽全力赢得奖杯，不应该因为老板的行为而受到惩罚。"
+              "text": "帕尔默需要认真对待自己的国家队责任。"
             },
             {
-              "who": "体育评论员",
-              "text": "这是一个艰难的决定，但保护球员的声誉是必要的。"
+              "who": "教练",
+              "text": "年轻球员应该珍惜每一次代表国家出场的机会。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德里羽毛球世锦赛面临特殊挑战：驱赶猴子和鸽子",
+          "title_zh": "姆巴佩在对阵土耳其时受伤，法国队 Nations League 首胜",
+          "eng": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
+          "summary": "法国队在 Nations League 中击败缺少一名球员的土耳其队 1-0，姆巴佩攻入制胜球后疑似左膝受伤离场。意大利队负于比利时队。",
+          "source": "Guardian Football",
+          "published": "2026-09-25",
+          "url": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium",
+          "overview": "法国队在 Nations League 中击败缺少一名球员的土耳其队 1-0，姆巴佩攻入制胜球后疑似左膝受伤离场。意大利队负于比利时队，格鲁吉亚负于北爱尔兰。",
+          "analysis": "姆巴佩的伤情令人担忧，他刚刚刷新了法国队进球纪录，但膝盖伤势可能影响其后续比赛。Nations League 首轮结果已定，接下来的赛程将更加关键。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "姆巴佩刚破纪录就受伤，真是可惜。"
+            },
+            {
+              "who": "解说员",
+              "text": "土耳其少一人作战，法国队轻松取胜。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "爱尔兰球员公开反对对阵以色列的比赛",
+          "eng": "Israel game should not go ahead - Republic of Ireland’s Knight",
+          "summary": "爱尔兰球员凯恩成为首位公开反对周日对阵以色列比赛的爱尔兰球员，引发了国际足球界的争议。",
+          "source": "BBC Football",
+          "published": "2026-09-25",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm750g0zx9weo?at_medium=RSS&at_campaign=rss",
+          "overview": "爱尔兰球员凯恩成为首位公开反对周日对阵以色列比赛的爱尔兰球员，引发了国际足球界的争议。这一表态在体育与政治交织的复杂背景下显得格外引人注目。",
+          "analysis": "球员公开反对比赛是近年来较为罕见的现象，这反映了足球界在处理地缘政治问题上的新挑战。爱尔兰足协将如何回应这一立场，值得持续关注。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "球员有权表达自己的观点，但这也可能影响球队团结。"
+            },
+            {
+              "who": "教练",
+              "text": "体育不应成为政治的牺牲品，但也需要尊重运动员的声音。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "德里世锦赛面临非常规挑战：驱赶猴子和鸽子",
           "eng": "Delhi's unusual challenge: Keeping monkeys and pigeons away from top badminton event",
-          "summary": "德里羽毛球世锦赛组织者因此前野生动物闯入赛事引发关注，正采取额外措施防止猴子与鸽子干扰比赛。",
+          "summary": "在之前的赛事中野生动物闯入引发关注后，组织者正在为即将到来的羽毛球世锦赛采取额外措施。",
           "source": "BBC Badminton",
           "published": "2026-08-14",
           "url": "https://www.bbc.co.uk/news/articles/cq561z4z6qxo?at_medium=RSS&at_campaign=rss",
-          "overview": "在之前的锦标赛中，野生动物入侵曾登上头条新闻，因此本届德里羽毛球世锦赛的组织者正在采取特别措施来应对这一挑战。这包括防止猴子与鸽子等动物接近比赛场地，以确保赛事顺利进行。作为顶级赛事的后勤保障问题，反映出大型体育赛事在野生动物栖息地面临的普遍困境。",
-          "analysis": "这对赛事组织者的安保和场地管理提出了更高要求，也凸显了城市赛事与自然环境的协调难题。对于即将到来的世锦赛，这一话题将受到广泛关注。",
+          "overview": "随着2026年羽毛球世锦赛即将在德里举行，组织者面临着一个独特的后勤难题——防止野生猴子和大群鸽子干扰比赛场地。此前在另一项赛事中发生的类似事件曾登上头条新闻，促使主办方不得不加强安保和驱赶工作。这成为本届赛事的一大幕后花絮，也考验着赛事运营团队的应变能力。",
+          "analysis": "虽然听起来有些荒诞，但野生动物对顶级体育赛事的干扰在全球范围内并非罕见，德里的热带环境加剧了这一挑战。这对赛事运营团队来说是一个考验，也增加了观众的好奇心。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "希望比赛能顺利进行，别让小动物影响观赛"
-            },
-            {
-              "who": "赛事组织者",
-              "text": "必须确保运动员和观众的体验不受干扰"
+              "text": "德里这届世锦赛怕是要变成‘动物世界’了"
             }
           ],
           "region": "羽毛球"
         },
         {
-          "title_zh": "乒乓球帮助帕金森患者改善运动与情绪",
+          "title_zh": "打乒乓球帮助帕金森患者改善运动与情绪",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "英国布莱顿一家俱乐部的帕金森病患者表示，打乒乓球有助于改善他们的运动能力、心情和自信心。",
+          "summary": "布莱顿一家俱乐部的患者表示，参与乒乓球活动有助于提升他们的行动能力、心情和自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "布莱顿一家乒乓球俱乐部为帕金森病患者提供了运动康复平台，患者反馈称这项运动在改善肢体活动能力、提升情绪状态及增强自信心方面发挥了积极作用。该报道展示了乒乓球在非竞技领域对公众健康的潜在价值。",
-          "analysis": "随着老龄化社会到来，乒乓球因其反应快、节奏灵活的特点，正逐渐被纳入康复训练体系。这一案例为乒乓球的社会功能提供了新的注脚。",
+          "overview": "来自布莱顿的一家乒乓球俱乐部分享了患者的康复故事，参与者反馈称打乒乓球对改善帕金森症状有积极帮助。该活动不仅关注身体运动能力的恢复，还显著提升了参与者的情绪状态和自信心。这一案例展示了乒乓球在医疗康复领域的潜在价值。",
+          "analysis": "这项报道将竞技体育的视角延伸到了大众健康领域，证明了乒乓球作为康复工具的独特优势。对于推广全民健身和特殊人群体育活动具有示范意义。",
+          "social": [
+            {
+              "who": "资深球迷/康复关注者",
+              "text": "乒乓球不仅是竞技项目，更是改善生活质量的良药，这对帕金森患者群体来说是非常温暖的新闻。"
+            }
+          ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "“生命线”乒乓球场馆临时重新开放",
+          "title_zh": "'Lifeline'乒乓场馆临时重开引用户感慨",
           "eng": "'Lifeline' ping pong venue temporarily re-opened",
-          "summary": "一家名为“Lifeline”的乒乓球场馆在短暂关闭后重新开门，使用者形容这里如同他们的精神家园。",
+          "summary": "一家名为'Lifeline'的乒乓球场馆宣布暂时重新开放，使用者形容这如同精神家园回归。",
           "source": "BBC Table Tennis",
           "published": "2026-08-10",
           "url": "https://www.bbc.co.uk/news/articles/czxe3w1qr0no?at_medium=RSS&at_campaign=rss",
-          "overview": "英国一家名为“Lifeline”的乒乓球场地在经历临时关闭后重新向公众开放，使用者对此反应热烈，称这里如同他们的精神家园被归还。这反映了社区体育设施对于特定群体情感连接的重要性。",
-          "analysis": "社区场馆的运营稳定性直接影响着基层乒乓球生态的活力。此次重开虽为临时性质，但折射出公众对公共运动空间回归的迫切需求。",
+          "overview": "此前关闭的'Lifeline'乒乓球场馆在短暂休整后重新向公众开放，消息传出后迅速引发用户共鸣。一位使用者表示这就像精神家园被归还了一样，反映了社区体育设施对居民情感的重要性。该事件凸显了地方体育场所恢复运营的社会意义。",
+          "analysis": "场馆的临时重开不仅是物理空间的回归，更承载了社区居民的情感寄托。这类新闻提醒我们关注基层体育设施的可持续性与社区归属感之间的紧密联系。",
+          "social": [
+            {
+              "who": "体育记者/场馆常客",
+              "text": "对于依赖这些场地的人来说，重新开门意味着生活节奏的恢复，这种情感价值远超比赛本身。"
+            }
+          ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "曼城被裁定违反英超财务公平竞赛规则",
+          "title_zh": "曼城被认定违反英超财务公平竞赛规则，面临降级或除名风险",
           "eng": "Manchester City found guilty of breaking Premier League's financial fair play rules",
-          "summary": "英超史上最大纪律案件尘埃落定，曼城被裁定违反了超过一百项财务规则。俱乐部坚持无罪并预计将提出上诉，面临降级或被逐出联赛的风险。",
+          "summary": "曼城在英超史上最大纪律案件中被认定违反了超过百项财务规则。俱乐部坚持无罪立场并预计将提出上诉，但可能面临从英超降级或被彻底驱逐的严重后果。",
           "source": "Guardian Sport",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/football/2026/sep/25/manchester-city-found-guilty-of-breaking-premier-leagues-financial-fair-play-rules",
-          "overview": "曼城被裁定违反了英超财务公平竞赛规则中的绝大多数超过一百项指控。这是英格兰足球历史上最大的纪律案件，判决结果将引发巨大动荡。俱乐部坚持声称自己无罪，并预计将对裁决提出上诉。球队现在面临从英超降级甚至被完全逐出赛事的可能性。",
-          "analysis": "这一裁决对曼城而言是毁灭性的打击，但考虑到其历史地位和财政实力，上诉几乎是必然的。这将深刻影响未来几个赛季的英超格局和竞争态势。",
+          "overview": "曼城在英超史上最大纪律案件中被认定违反了超过百项财务规则，俱乐部坚持无罪立场并预计将提出上诉。这一裁决可能使球队面临从英超降级或被彻底驱逐的严重后果，引发英格兰足球界的动荡。无论最终处罚如何，曼城过去几个赛季的英超冠军头衔都蒙上了阴影。",
+          "analysis": "这是英超历史上最具争议性的纪律案件之一，其影响远超体育范畴。俱乐部能否成功上诉将决定未来数年的格局，而球迷和球员的反应也值得关注。这一裁决可能重塑英格兰足球的商业生态。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "这是俱乐部历史上最黑暗的时刻之一，但法律战远未结束。"
+              "text": "曼城过去几年的冠军头衔现在都蒙上了阴影，无论最终处罚如何，一切都已被玷污了。"
             },
             {
-              "who": "解说员",
-              "text": "超过一百项违规指控被裁定成立，这足以让任何俱乐部颤抖。"
+              "who": "体育记者",
+              "text": "这是英超历史上最具争议性的纪律案件之一，其影响远超体育范畴。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "降级？剥夺冠军头衔？上诉？曼城接下来怎么办",
-          "eng": "Relegation? Titles stripped? Appeals? What next for Man City",
-          "summary": "经过两年多的等待，针对曼城的115项指控终于有了判决结果。这标志着英超史上最大纪律案件的结束，但后续影响才刚刚开始。",
+          "title_zh": "英超俱乐部就曼城115项指控赔偿问题寻求法律建议",
+          "eng": "Clubs seek legal advice over Man City charges compensation",
+          "summary": "英超各俱乐部正在就曼城115项指控的赔偿问题进行法律咨询，评估是否有权提出索赔。这一事件引发了整个联赛对财务规则执行方式的广泛讨论。",
           "source": "BBC Sport",
           "published": "2026-09-25",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cx30540044q0o?at_medium=RSS&at_campaign=rss",
-          "overview": "针对曼城的115项指控经过两年多的审理终于有了判决结果。这一裁决意味着英超历史上最大的纪律案件已经尘埃落定，但俱乐部面临的后果——包括可能的降级和冠军头衔被剥夺——才刚刚浮出水面。各俱乐部正在寻求法律建议，以评估是否拥有索赔权。",
-          "analysis": "无论上诉结果如何，曼城在短期内将难以维持其统治地位。这一事件也将重塑英超的财务监管环境。",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+          "overview": "英超各俱乐部正在就曼城115项指控的赔偿问题进行法律咨询，评估是否有权提出索赔。这一事件引发了整个联赛对财务规则执行方式的广泛讨论，其他球队也在考虑自身可能面临的风险。",
+          "analysis": "如果其他俱乐部成功获得赔偿，可能会引发连锁反应，迫使更多球队重新审视自己的财务状况。这也将考验英超联盟在执法一致性和公平性方面的能力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "两年多的等待终于有了答案，但接下来的路只会更艰难。"
+              "who": "足球分析师",
+              "text": "这一事件可能引发连锁反应，迫使更多球队重新审视自己的财务状况。"
             },
             {
-              "who": "法律专家视角",
-              "text": "各俱乐部都在评估索赔权，这可能会引发连锁反应。"
+              "who": "联赛观察者",
+              "text": "英超联盟需要在执法一致性和公平性之间找到平衡点。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "图赫尔警告帕尔默“错过太多”英格兰训练营机会",
+          "title_zh": "图赫尔警告帕尔默'错过太多英格兰营'，切尔西前锋英国家族前景堪忧",
           "eng": "Thomas Tuchel warns Cole Palmer about 'missing way too many' England camps",
-          "summary": "切尔西前锋帕尔默再次退出英格兰国家队大名单，主帅图赫尔对其未来发出严重质疑。帕尔默仅拥有14次出场记录，其缺席令英格兰队备战西班牙的 Nations League 比赛蒙上阴影。",
+          "summary": "英格兰主教练图赫尔对切尔西前锋帕尔默连续缺席国家队集训表示不满，称其'错过了太多机会'。帕尔默目前仅有14次出场记录，其英国家族前景因此受到严重质疑。",
           "source": "Guardian Sport",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/football/2026/sep/25/thomas-tuchel-cole-palmer-england-spain-nations-league",
-          "overview": "英格兰主帅图赫尔对帕尔默的最新一次退出国际比赛任务毫不留情，警告这位切尔西攻击手错过了太多为国家队效力的机会。帕尔默仅拥有14次出场记录，其缺席令英格兰队在备战对阵西班牙的 Nations League 比赛时蒙上阴影。这一事件将帕尔默的国家队未来置于重大疑问之中。",
-          "analysis": "图赫尔的直言不讳反映了英格兰足球对核心球员态度的转变。对于帕尔默来说，如何在俱乐部和国家队之间找到平衡将是关键挑战。",
+          "overview": "英格兰主教练图赫尔对切尔西前锋帕尔默连续缺席国家队集训表示不满，称其'错过了太多机会'。帕尔默目前仅有14次出场记录，其英国家族前景因此受到严重质疑。英格兰将于周六对阵西班牙进行 Nations League 比赛。",
+          "analysis": "对于一名年仅24岁的球员来说，这种批评相当严厉。图赫尔的言论可能影响帕尔默的国家队未来，但也反映出他对国家队纪律的重视。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "图赫尔说得直白，但帕尔默的表现确实让人失望。"
+              "who": "切尔西球迷",
+              "text": "图赫尔对帕尔默的批评太过分了，他才24岁。"
             },
             {
-              "who": "教练视角",
-              "text": "国家队需要的是稳定的核心球员，而不是频繁缺席的明星。"
+              "who": "英格兰足球评论员",
+              "text": "对于一名年仅24岁的球员来说，这种批评相当严厉。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "姆巴佩在对土耳其比赛中进球后受伤",
+          "title_zh": "沃灵顿狼队险胜利兹犀牛队晋级超级联赛总决赛",
+          "eng": "Warrington edge past Leeds to reach Grand Final",
+          "summary": "沃灵顿狼队在超级联赛半决赛中险胜利兹犀牛队，八年来首次进入总决赛。这场比赛充满了戏剧性，最终由 Irwin 的绝杀罚分锁定胜局。",
+          "source": "BBC Sport",
+          "published": "2026-09-25",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ck4glyxd4j6no?at_medium=RSS&at_campaign=rss",
+          "overview": "沃灵顿狼队在超级联赛半决赛中险胜利兹犀牛队，八年来首次进入总决赛。这场比赛充满了戏剧性，最终由 Irwin 的绝杀罚分锁定胜局。这是沃灵顿自1955年以来首次距离联赛冠军仅一步之遥。",
+          "analysis": "这场胜利对沃灵顿来说意义重大，他们正在追逐一项长达70年的纪录。比赛中的争议判罚也为赛事增添了不少话题性。",
+          "social": [
+            {
+              "who": "橄榄球联盟粉丝",
+              "text": "这是沃灵顿自1955年以来首次距离联赛冠军仅一步之遥。"
+            },
+            {
+              "who": "体育解说员",
+              "text": "这场比赛充满了戏剧性，最终由 Irwin 的绝杀罚分锁定胜局。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "姆巴佩在对土库曼斯坦比赛中进球后受伤，法国1-0取胜",
           "eng": "Nations League: Kylian Mbappé injured after scoring France winner in Turkey",
-          "summary": "法国队在 Nations League 中击败10人土耳其队，姆巴佩在打入制胜球后疑似膝盖受伤离场。这是齐达内执教时代的开局之战。",
+          "summary": "姆巴佩在法国对阵土库曼斯坦的 Nations League 比赛中打入制胜球后受伤离场。这是齐达内执教法国的首场比赛，法国以1-0获胜。",
           "source": "Guardian Sport",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium",
-          "overview": "法国队在 Nations League 中击败10人土耳其队，姆巴佩在第55分钟打入制胜球后疑似膝盖受伤离场。这是齐达内执教时代的开局之战。意大利0-2负于比利时，格鲁吉亚0-1负于北爱尔兰。姆巴佩的受伤令人担忧，尤其是在他刚刚打破法国国家队进球纪录之后。",
-          "analysis": "姆巴佩的受伤时机不佳，正值齐达内执教法国队的关键时刻。他的缺席可能会影响法国队在接下来的比赛中的表现和战术安排。",
+          "overview": "姆巴佩在法国对阵土库曼斯坦的 Nations League 比赛中打入制胜球后受伤离场。这是齐达内执教法国的首场比赛，法国以1-0获胜。意大利0-2负于比利时，格鲁吉亚0-1负于北爱尔兰。",
+          "analysis": "姆巴佩的伤病发生在齐达内执教的首场比赛中，这对法国队的后续比赛安排可能产生影响。他的67个国家队进球纪录也在此刻被刷新。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "在打破纪录后受伤，这真是令人遗憾。"
+              "who": "法国球迷",
+              "text": "姆巴佩在齐达内执教的首场比赛中受伤离场，令人遗憾。"
             },
             {
-              "who": "解说员",
-              "text": "姆巴佩的膝盖状况需要密切关注，希望他能尽快恢复。"
+              "who": "体育记者",
+              "text": "姆巴佩的67个国家队进球纪录也在此刻被刷新。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "沃灵顿险胜利兹晋级超级联赛总决赛",
-          "eng": "Irwin holds nerve to sink Leeds and send Warrington to Grand Final",
-          "summary": "沃灵顿狼队在老特拉福德通过伊尔文的绝杀罚分击败利兹，时隔八年首次进入超级联赛总决赛。这是自1955年以来他们距离首个联赛冠军最近的一次。",
-          "source": "Guardian Sport",
-          "published": "2026-09-25",
-          "url": "https://www.theguardian.com/sport/2026/sep/25/leeds-warrington-super-league-semi-final-report",
-          "overview": "沃灵顿狼队在老特拉福德通过伊尔文的绝杀罚分击败利兹，时隔八年首次进入超级联赛总决赛。这是自1955年以来他们距离首个联赛冠军最近的一次。比赛充满了戏剧性，甚至有一些争议。4000名沃灵顿球迷在 headington 球场欢呼雀跃。",
-          "analysis": "这场胜利对沃灵顿来说意义重大，打破了长达数十年的冠军荒。伊尔文的绝杀罚分将成为俱乐部历史上的经典时刻。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "伊尔文的绝杀太精彩了，这是沃灵顿等待多年的时刻。"
-            },
-            {
-              "who": "解说员",
-              "text": "老特拉福德的夜晚注定难忘，4000名球迷的欢呼声震耳欲聋。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "辛纳因膝盖伤退出中国网球公开赛",
+          "title_zh": "辛纳因膝伤退出中国网球公开赛",
           "eng": "Sinner ruled out of China Open with knee injury",
-          "summary": "世界排名第一的辛纳将无法卫冕中国网球公开赛冠军，他正在继续从膝盖问题中恢复。这标志着他在亚洲赛季的重大缺席。",
+          "summary": "世界排名第一的辛纳因膝伤问题无法参加中国网球公开赛，将缺席该赛事的卫冕。这对他接下来的赛季安排产生了影响。",
           "source": "BBC Tennis",
           "published": "2026-09-25",
           "url": "https://www.bbc.co.uk/sport/tennis/articles/c38xkkj0q5ggo?at_medium=RSS&at_campaign=rss",
-          "overview": "世界排名第一的辛纳将无法卫冕中国网球公开赛冠军，他正在继续从膝盖问题中恢复。这一缺席对赛事来说是一个重大损失，尤其是在亚洲赛季的关键时刻。辛纳的伤退可能会改变比赛的格局和竞争态势。",
-          "analysis": "辛纳的伤退为中国网球公开赛增添了一丝不确定性。他的缺席可能会让其他选手有机会争夺冠军头衔。",
+          "overview": "世界排名第一的辛纳因膝伤问题无法参加中国网球公开赛，将缺席该赛事的卫冕。这对他接下来的赛季安排产生了影响，同时也为其他选手提供了机会。",
+          "analysis": "作为世界第一，辛纳的缺席对中国网球公开赛的竞技水平有一定影响。他的膝伤恢复情况也将成为未来比赛中的关键因素。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "辛纳的膝盖问题一直是个谜，希望他能尽快恢复。"
+              "who": "网球爱好者",
+              "text": "作为世界第一，辛纳的缺席对中国网球公开赛的竞技水平有一定影响。"
             },
             {
-              "who": "解说员",
-              "text": "失去世界第一的卫冕冠军，这场比赛将更加精彩。"
+              "who": "体育评论员",
+              "text": "他的膝伤恢复情况也将成为未来比赛中的关键因素。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "弗里曼和帕特灵北安普顿首战大胜纽卡斯尔",
+          "title_zh": "奥尼尔对北爱尔兰在格鲁吉亚的 Nations League 比赛中的判罚表示困惑",
+          "eng": "O'Neill left 'baffled' by refereeing in late NI win in Georgia",
+          "summary": "北爱尔兰主教练奥尼尔对周五对阵格鲁吉亚1-0获胜比赛中的部分判罚表示'困惑'。这场比赛是 Nations League 的一部分，最终北爱尔兰取得了胜利。",
+          "source": "BBC Sport",
+          "published": "2026-09-25",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6qxvvw15p0lo?at_medium=RSS&at_campaign=rss",
+          "overview": "北爱尔兰主教练奥尼尔对周五对阵格鲁吉亚1-0获胜比赛中的部分判罚表示'困惑'。这场比赛是 Nations League 的一部分，最终北爱尔兰取得了胜利。格鲁吉亚0-1负于北爱尔兰。",
+          "analysis": "奥尼尔的评论反映了裁判在低级别比赛中面临的挑战。这种争议性判罚可能会影响球队未来的比赛策略和心态。",
+          "social": [
+            {
+              "who": "足球教练",
+              "text": "奥尼尔的评论反映了裁判在低级别比赛中面临的挑战。"
+            },
+            {
+              "who": "体育观察者",
+              "text": "这种争议性判罚可能会影响球队未来的比赛策略和心态。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "弗里曼和帕特激励诺森伯兰队在赛季揭幕战中击败纽卡斯尔队",
           "eng": "Freeman and Pater inspire Northampton to opening win against Newcastle",
-          "summary": "北安普顿在新赛季首场胜利中以59-26大胜纽卡斯尔，两名后卫均完成帽子戏法。这是卫冕冠军的强势开局，向所有对手发出了警告。",
+          "summary": "诺森伯兰队在英超橄榄球联盟赛季揭幕战中以59-26大胜纽卡斯尔红球队。弗里曼和帕特各上演帽子戏法，九次达阵的比赛中展现了出色的进攻表现。",
           "source": "Guardian Sport",
           "published": "2026-09-25",
           "url": "https://www.theguardian.com/sport/2026/sep/25/northampton-newcastle-prem-rugby-union-match-report",
-          "overview": "北安普顿在新赛季首场胜利中以59-26大胜纽卡斯尔，两名后卫均完成帽子戏法。这是卫冕冠军的强势开局，向所有对手发出了警告。比赛充满了精彩的进攻配合，北安普顿的攻击线表现令人印象深刻。",
-          "analysis": "这场胜利为北安普顿奠定了新赛季的基调。他们的攻击性打法将给其他球队带来巨大压力。",
+          "overview": "诺森伯兰队在英超橄榄球联盟赛季揭幕战中以59-26大胜纽卡斯尔红球队。弗里曼和帕特各上演帽子戏法，九次达阵的比赛中展现了出色的进攻表现。这是卫冕冠军在新赛季的首场胜利，向所有对手发出了警告。",
+          "analysis": "诺森伯兰队的表现证明了他们作为卫冕冠军的实力，九次达阵的进攻场面令人印象深刻。这场比赛为整个赛季定下了基调。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "九次达阵的胜利太壮观了，北安普顿的实力不容小觑。"
+              "who": "橄榄球联盟粉丝",
+              "text": "诺森伯兰队的表现证明了他们作为卫冕冠军的实力，九次达阵的进攻场面令人印象深刻。"
             },
             {
-              "who": "解说员",
-              "text": "两名后卫的帽子戏法令人惊叹，这是顶级水平的表现。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "NBA首位MVP佩蒂特去世享年93岁",
-          "eng": "NBA's first MVP Pettit dies aged 93",
-          "summary": "NBA最早的明星之一、首位获得MVP奖项的球员鲍勃·佩蒂特去世，享年93岁。他是篮球历史上的传奇人物，其贡献将被永远铭记。",
-          "source": "BBC Basketball",
-          "published": "2026-09-24",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/c52e0l1lxl4ko?at_medium=RSS&at_campaign=rss",
-          "overview": "NBA最早的明星之一、首位获得MVP奖项的球员鲍勃·佩蒂特去世，享年93岁。他是篮球历史上的传奇人物，其贡献将被永远铭记。佩蒂特的职业生涯充满了辉煌的成就，他的离世让整个篮球界感到悲痛。",
-          "analysis": "佩蒂特的去世是NBA的一大损失。作为首位MVP得主，他对联盟的发展做出了巨大贡献。他的故事将激励未来的球员和球迷。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "佩蒂特是NBA的奠基人之一，他的离去让我们失去了一位伟大的传奇。"
-            },
-            {
-              "who": "解说员",
-              "text": "93岁的高龄去世，佩蒂特的职业生涯堪称完美。"
+              "who": "体育评论员",
+              "text": "这场比赛为整个赛季定下了基调。"
             }
           ],
           "region": "综合"
@@ -2365,60 +2373,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注 AI Agent 安全边界与用户隐私保护，回应未授权数据泄露事件。",
-          "url": "x.com/SamAltman"
-        },
-        {
           "name": "Dario Amodei",
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "推动 AI 基础设施大规模合作及模型安全对齐研究。",
+          "recent": "聚焦 AI 安全与大规模基础设施部署，推动 Anthropic 云计算战略合作。",
           "url": "x.com/DarioAmodei"
         },
         {
-          "name": "Lex Fridman",
-          "role": "知名播客主持人",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
+          "domain": "ai",
+          "recent": "关注 AI Agent 安全性与企业级产品整合，应对模型未经授权泄露风险。",
+          "url": "x.com/samaltman"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta Chief AI Scientist",
+          "region": "法国/全球",
+          "domain": "ai",
+          "recent": "探讨 Meta Muse AI 助手的数据隐私争议及 AI 基础架构创新方向。",
+          "url": "x.com/YannLeCun"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "DAIR Institute 创始人 / AI 安全研究者",
+          "region": "全球",
+          "domain": "ai",
+          "recent": "倡导算法公平性与 AI 安全审计，反对军事化 AI 应用扩张。",
+          "url": "x.com/TimnitGebru"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "播客主持人 / AI 领域意见领袖",
+          "region": "美国/全球",
           "domain": "podcast",
-          "recent": "通过深度访谈探讨前沿 AI 技术与人类认知、伦理的融合。",
+          "recent": "主持深度访谈节目，持续讨论 AI 对人类未来就业与社会结构的影响。",
           "url": "lexfridman.com"
         },
         {
-          "name": "Kate Crawford",
-          "role": "AI 伦理学者与研究员",
-          "region": "英国",
-          "domain": "ai",
-          "recent": "聚焦 AI 治理框架及知识公平性，倡导算法透明与社会影响评估。",
-          "url": "katecrawford.org"
-        },
-        {
-          "name": "Marcia J. Bates",
-          "role": "华盛顿大学信息学院院长",
+          "name": "Karen Blouin",
+          "role": "美国图书馆协会 (ALA) CEO",
           "region": "美国",
           "domain": "library",
-          "recent": "研究人工智能时代图书馆转型路径及信息素养教育的革新。",
-          "url": "u.washington.edu/~bates"
+          "recent": "推动图书馆设计创新与馆员技能提升，强调面向未来的开放教育资源合作。",
+          "url": "x.com/KarenBlouin"
         },
         {
-          "name": "李开复",
-          "role": "AI 科学家与教育创业者",
-          "region": "中国/美国",
-          "domain": "ai",
-          "recent": "探讨 AI 技术对就业市场的实际冲击及教育体系的知识管理变革。",
-          "url": "kaifulee.com"
-        },
-        {
-          "name": "David Weinberger",
-          "role": "互联网先驱与图书馆学者",
-          "region": "美国",
+          "name": "张伯江",
+          "role": "中国国家图书馆馆长",
+          "region": "中国",
           "domain": "library",
-          "recent": "思考 Web 3.0 理念下图书馆与去中心化知识体系的演进方向。",
-          "url": "davidweinberger.com"
+          "recent": "致力于智慧图书馆建设与数字赋能，促进图书馆高质量发展及全民阅读推广。",
+          "url": ""
         }
       ]
     },
