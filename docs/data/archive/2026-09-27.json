@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27T22:21:59+08:00",
+  "generated_at": "2026-09-27T23:29:49+08:00",
   "date": "2026-09-27",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-27 22:21",
-    "ai": "2026-09-27 22:21",
+    "ai": "2026-09-27 23:29",
     "voices": "2026-09-27 22:21",
     "github": "2026-09-27 22:21",
     "libraries": "2026-09-27 22:21",
@@ -41,6 +41,33 @@
             {
               "who": "电商行业分析师",
               "text": "Google 试图用 AI 重塑搜索到购买的链路，这对传统电商平台来说既是机遇也是挑战。"
+            }
+          ]
+        },
+        {
+          "title_zh": "苹果因触觉专利侵权被判赔偿 57 亿美元",
+          "eng": "Apple hit with $5.7 billion in damages over haptic patents",
+          "summary": "联邦陪审团裁定 Taction 公司胜诉，苹果需就两项振动触觉技术专利侵权支付超过 57 亿美元的巨额赔偿。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-09-26",
+          "tags": [
+            "知识产权",
+            "苹果",
+            "专利诉讼",
+            "触觉技术"
+          ],
+          "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
+          "overview": "Taction 公司起诉苹果侵犯其振动式触觉换能器技术专利，联邦陪审团在圣地亚哥作出裁决。涉案专利涉及帮助用户感知振动的触觉反馈技术，赔偿金额高达 57 亿美元，成为科技行业历史上最大的专利侵权判决之一。",
+          "analysis": "这笔巨额赔偿将直接影响苹果的硬件成本结构及未来产品定价策略。它也向整个消费电子行业发出信号：在 AI 交互日益依赖多模态反馈（如触觉）的趋势下，基础技术专利的争夺将更加激烈。",
+          "social": [
+            {
+              "who": "科技法律专家",
+              "text": "57 亿美元的判决金额远超预期，说明陪审团对侵权行为的认定标准可能发生了根本性转变。"
+            },
+            {
+              "who": "硬件产品经理",
+              "text": "触觉反馈是 AI 交互的自然延伸，这场诉讼可能会迫使苹果在下一代产品中重新设计触觉方案以避免类似风险。"
             }
           ]
         },
@@ -739,33 +766,6 @@
             {
               "who": "隐私倡导者",
               "text": "无摄像头是一个明智的妥协，但AI智能眼镜收集的环境数据（如语音、位置）同样构成巨大的隐私风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google DeepMind新负责人称Gemini 4即将就绪",
-          "eng": "Gemini 4 is almost ready, says new Google DeepMind chief",
-          "summary": "Google DeepMind新任主管Koray Kavukcuoglu首次公开露面表示，Gemini 4模型正处于优化阶段，预计很快发布。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-09-24",
-          "tags": [
-            "Google",
-            "Gemini 4",
-            "大模型",
-            "DeepMind"
-          ],
-          "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
-          "overview": "在The Information的采访中，DeepMind新任负责人透露Gemini 4目前处于精炼阶段。此前Google在该旗舰AI模型的发布时间上落后于竞争对手。此次表态暗示Google正加速追赶OpenAI和Anthropic等公司在旗舰模型上的节奏，以挽回市场信心。",
-          "analysis": "Gemini 4的发布将直接影响大模型市场的竞争格局，尤其是多模态能力和推理能力的提升可能改变开发者选型策略。新负责人的亮相也意味着DeepMind内部战略调整进入关键期。",
-          "social": [
-            {
-              "who": "AI行业观察者",
-              "text": "Google在旗舰模型上长期落后后终于加速，Gemini 4能否在推理能力上超越GPT-5将是今年下半年最大的看点之一。"
-            },
-            {
-              "who": "投资人视角",
-              "text": "新管理层上任即释放积极信号，有助于稳定DeepMind团队士气，对Google AI业务的估值修复有正面影响。"
             }
           ]
         }
