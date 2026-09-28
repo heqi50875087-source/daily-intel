@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:21:23+08:00",
+  "generated_at": "2026-09-28T12:10:26+08:00",
   "date": "2026-09-28",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,9 +8,9 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-09-28 10:36",
-    "ai": "2026-09-28 11:21",
-    "voices": "2026-09-28 11:21",
-    "github": "2026-09-28 10:36",
+    "ai": "2026-09-28 12:10",
+    "voices": "2026-09-28 12:10",
+    "github": "2026-09-28 12:10",
     "libraries": "2026-09-28 11:21",
     "sports": "2026-09-28 10:36",
     "academic": "2026-09-28 06:40"
@@ -1951,182 +1951,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "对比语言模型 (CLM)",
+          "title_zh": "CLM：对比语言模型框架",
           "eng": "Contrastive-LM/CLM",
-          "summary": "基于对比学习的语言模型框架，用于提升大模型的推理与理解能力。",
+          "summary": "一个基于对比学习的语言模型训练框架，通过正负样本对比提升模型理解能力。",
           "source": "GitHub",
-          "stars": 1932,
+          "stars": 1972,
           "lang": "Python",
           "published": "2026-09-23",
           "url": "https://github.com/Contrastive-LM/CLM",
-          "overview": "该项目提供了一个基于对比学习（Contrastive Learning）的语言模型实现，旨在通过优化模型在语义空间中的表示来提升自然语言处理任务的性能。作为开源项目，它为研究者提供了可复现的基准和实验环境，适合进行模型架构优化的深度研究。",
-          "analysis": "随着大模型进入微调与对齐阶段，对比学习方法论成为关键研究方向。该项目的高星数表明社区对其技术路线的认可，是关注模型底层逻辑开发者的首选参考资源。",
+          "overview": "CLM采用对比学习范式训练语言模型，通过构造正负样本对来优化模型的语义理解能力。该框架支持多种对比策略和损失函数配置，适用于文本分类、信息检索等下游任务。项目提供完整的训练流程和评估工具链。",
+          "analysis": "对比学习是当前NLP领域的重要研究方向，CLM以近2000星的高关注度证明了社区对其方法论的认可。对于从事预训练模型研究的开发者来说，这是一个值得深入参考的实现方案。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "对比学习在大模型预训练中的潜力巨大，这个开源实现为复现相关论文提供了便利。"
+              "who": "研究者",
+              "text": "对比学习框架在NLP领域的应用越来越广泛，CLM提供了清晰的方法论实现路径。"
+            },
+            {
+              "who": "开发者",
+              "text": "Python生态下的对比学习工具选择有限，这个项目填补了实用框架的空白。"
             }
           ]
         },
         {
-          "title_zh": "DiskTree - 磁盘可视化清理工具",
+          "title_zh": "DiskTree：磁盘空间可视化树形图",
           "eng": "tobi/disktree",
-          "summary": "一款基于 Rust 和 GPUI 构建的树形地图应用，帮助用户直观发现并清理占用磁盘空间的文件。",
+          "summary": "基于Rust和GPUI构建的磁盘空间可视化工具，以树形地图展示文件占用情况。",
           "source": "GitHub",
-          "stars": 1619,
+          "stars": 1656,
           "lang": "Rust",
           "published": "2026-09-24",
           "url": "https://github.com/tobi/disktree",
-          "overview": "该项目由知名开发者 tobi 发起，采用高性能 Rust 语言和自研图形界面引擎 GPUI，生成可视化的磁盘使用率热力图。用户可以直接在界面上点击识别大文件并安全删除，极大简化了系统维护流程。",
-          "analysis": "磁盘空间管理是 macOS/Linux 用户的常见痛点。该项目不仅性能优异（Rust + GPUI），而且交互设计直观，代表了开源工具在用户体验上的新高度。",
+          "overview": "DiskTree采用树形地图（treemap）可视化方式，帮助用户直观发现和清理磁盘空间占用。项目基于Rust编写，结合GPUI框架实现高性能渲染，支持交互式操作定位大文件。专为Omarchy桌面环境设计，但核心功能可独立使用。",
+          "analysis": "tobi作为知名开源贡献者推出的工具自带关注度加成，而磁盘管理确实是开发者日常痛点。Rust语言的选择体现了对性能和安全的重视，树形可视化比传统列表更直观高效。",
           "social": [
             {
               "who": "开发者",
-              "text": "tobi 出品必属精品，GPUI 的渲染速度令人印象深刻，清理磁盘终于不用手动翻文件夹了。"
+              "text": "终于有一个漂亮的磁盘可视化工具了，树形图一眼就能看出哪里占空间。"
+            },
+            {
+              "who": "系统管理员",
+              "text": "Rust性能加上GPUI的渲染能力，这种组合在磁盘管理工具中很少见。"
             }
           ]
         },
         {
-          "title_zh": "Magpie - AI Agent 模型管理面板",
+          "title_zh": "Magpie：AI代理模型统一管理平台",
           "eng": "yetone/magpie",
-          "summary": "一个统一的管理工具，让用户在菜单栏中轻松切换不同 AI Agent（如 Codex、Claude Code）使用的底层模型。",
+          "summary": "一个从菜单栏访问的AI代理模型管理工具，支持Codex、Claude Code等多种模型的统一配置。",
           "source": "GitHub",
-          "stars": 1267,
+          "stars": 1305,
           "lang": "Go",
           "published": "2026-09-23",
           "url": "https://github.com/yetone/magpie",
-          "overview": "Magpie 解决了多 AI Agent 工作流中的模型选择痛点，支持将 Codex 配置为使用 DeepSeek，或让 Claude Code 调用 Kimi 等模型。通过系统菜单栏提供快捷入口，实现一站式管理。",
-          "analysis": "随着 AI 编程工具生态的碎片化，统一模型路由成为刚需。该项目以 Go 语言构建保证了性能与跨平台能力，是开发者提升工作流效率的实用工具。",
+          "overview": "Magpie定位为AI代理的模型管理中枢，用户可以从菜单栏快速切换不同AI模型。支持Codex on DeepSeek、Claude Code on Kimi等多种组合配置，提供统一的菜单入口和便捷的操作体验。项目采用Go语言开发，注重性能和跨平台兼容性。",
+          "analysis": "随着多Agent工作流成为趋势，统一管理平台的需求日益迫切。Magpie解决了开发者在不同AI工具间频繁切换的痛点，Go语言的轻量特性使其适合桌面端应用。1300+星标反映了社区对这类工具的强烈需求。",
           "social": [
             {
-              "who": "AI 工程师",
-              "text": "终于不用在多个终端里切换 API Key 了，一个菜单搞定所有 Agent 的模型配置。"
+              "who": "开发者",
+              "text": "终于不用在多个AI工具之间来回切了，一个菜单搞定所有模型切换。"
+            },
+            {
+              "who": "研究者",
+              "text": "多Agent时代的模型管理基础设施，这个方向值得持续关注。"
             }
           ]
         },
         {
-          "title_zh": "GoLive Skill - Agent 一键发布产品",
+          "title_zh": "GoLive Skill：Agent产品一键上线工具",
           "eng": "mikehasa/golive-skill",
-          "summary": "开源的 AI Agent 技能，支持零依赖 Node CLI，帮助开发者将 Agent 构建的产品直接上线（托管、数据库、域名等）。",
+          "summary": "开源的Agent技能包，帮助开发者将AI构建的产品直接部署上线，无需第三方平台。",
           "source": "GitHub",
-          "stars": 1014,
+          "stars": 1015,
           "lang": "TypeScript",
           "published": "2026-09-23",
           "url": "https://github.com/mikehasa/golive-skill",
-          "overview": "该项目提供了一套完整的 Agent 工作流，涵盖检测问题、制定计划、审批执行到验证部署的全流程。无需 GoLive 账号或后端服务，完全基于用户自有账户完成产品的发布与配置。",
-          "analysis": "AI Agent 从“对话”走向“行动”的关键一步。该技能消除了传统部署的繁琐步骤，让非技术背景的开发者也能借助 Agent 能力快速将想法变为在线产品。",
+          "overview": "GoLive Skill是一个零依赖的Node CLI工具，提供从检测到验证的完整部署流程。支持托管、数据库、域名、邮件和支付等功能的自动配置，完全基于用户自有账户运行，不依赖任何第三方平台或遥测服务。采用检测→规划→审批→应用→验证的五步工作流。",
+          "analysis": "在AI Agent产品化浪潮中，部署环节往往是最大障碍。GoLive Skill解决了这一痛点，零依赖和隐私友好的设计尤其适合注重数据安全的开发者。TypeScript生态的成熟度为这类工具提供了良好的开发基础。",
           "social": [
             {
-              "who": "独立开发者",
-              "text": "把 Agent 直接变成可上线的产品，这个思路非常前沿，零依赖的 CLI 设计也很适合嵌入自己的工具链。"
+              "who": "开发者",
+              "text": "终于有个不需要第三方平台的Agent部署方案了，完全自主可控。"
+            },
+            {
+              "who": "创业者",
+              "text": "五步工作流设计很清晰，从检测到上线一气呵成，降低了产品化门槛。"
             }
           ]
         },
         {
-          "title_zh": "JIZURA - 歌词自动制作文字 MV",
-          "eng": "852wa/JIZURA",
-          "summary": "一款浏览器应用，能够根据输入的歌詞自动组装成文字动态视频（Text PV）。",
-          "source": "GitHub",
-          "stars": 804,
-          "lang": "HTML",
-          "published": "2026-09-23",
-          "url": "https://github.com/852wa/JIZURA",
-          "overview": "该项目利用前端技术实现了歌词到视觉内容的自动化转换，用户只需粘贴歌词即可生成风格化的文字音乐视频。无需复杂的后期剪辑软件，降低了创作门槛。",
-          "analysis": "在短视频和社交媒体内容创作兴起的背景下，自动化工具能显著提升效率。该应用展示了 Web 技术在创意工具领域的潜力，适合音乐创作者和内容运营者使用。",
-          "social": [
-            {
-              "who": "内容创作者",
-              "text": "以前做文字 MV 要剪半天，现在粘贴歌词就能出片，对短视频运营来说太友好了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "JevGrep - AI Agent 代码搜索 CLI",
+          "title_zh": "JevGrep：面向编码Agent的代码搜索CLI工具",
           "eng": "dzhng/jevgrep",
-          "summary": "一个面向编码 Agent 的命令行工具，通过自然语言提问来发现相关文件和源代码上下文。",
+          "summary": "通过自然语言描述功能来查找代码的CLI工具，专为AI编码代理设计。",
           "source": "GitHub",
-          "stars": 789,
+          "stars": 832,
           "lang": "TypeScript",
           "published": "2026-09-26",
           "url": "https://github.com/dzhng/jevgrep",
-          "overview": "传统 grep 依赖关键词匹配，而 JevGrep 引入了语义理解能力（基于 Jev），允许开发者用“它做什么”来搜索代码库。这对于大型项目中快速定位功能逻辑非常有效。",
-          "analysis": "随着 AI Agent 深度介入编码流程，Agent 需要更智能的上下文检索工具。该项目填补了自然语言代码搜索的空白，有助于提升 AI 辅助编程的效率。",
+          "overview": "JevGrep是一个面向AI编码代理的代码搜索工具，使用Jev技术发现相关文件和源代码上下文。用户可以通过自然语言描述代码功能来快速定位目标文件，解决了传统grep命令需要精确关键词匹配的局限性。项目采用TypeScript开发，注重与主流编码工具的集成。",
+          "analysis": "随着AI编码助手普及，如何让Agent高效理解代码库成为关键问题。JevGrep从搜索工具角度切入，为AI代理提供了更智能的代码定位能力。800+星标表明社区对这类辅助工具的认可度很高。",
           "social": [
             {
-              "who": "全栈工程师",
-              "text": "让 AI Agent 也能像人一样理解代码意图去搜文件，比正则匹配高级多了。"
+              "who": "开发者",
+              "text": "用自然语言搜代码终于不是梦了，JevGrep让Agent理解代码库的能力提升了一个档次。"
+            },
+            {
+              "who": "研究者",
+              "text": "从搜索工具到语义理解的演进，这是AI编码助手走向成熟的重要一步。"
             }
           ]
         },
         {
-          "title_zh": "Text Humanizer - AI 文本去机器味化工具",
+          "title_zh": "TextHumanizer：AI文本去痕迹化工具",
           "eng": "asokurasu/text-humanizer",
-          "summary": "一个完全免费的开源项目，通过多语言 LLM 重写管道将 AI 生成的文本转化为更自然的人类风格。",
+          "summary": "完全免费的开源项目，通过多语言LLM重写流水线让AI生成文本更加自然。",
           "source": "GitHub",
-          "stars": 739,
+          "stars": 741,
           "lang": "Python",
           "published": "2026-09-23",
           "url": "https://github.com/asokurasu/text-humanizer",
-          "overview": "该项目针对当前 AI 写作中常见的“机械感”问题，提供了一套基于多语言大模型的改写流程。用户输入 AI 生成的内容，系统会自动调整语气、句式和用词，使其更符合人类表达习惯。",
-          "analysis": "随着企业和个人对 AI 内容的依赖增加，如何让输出更自然成为核心需求。该工具免费开源且支持多语言，是内容创作者和营销人员的实用利器。",
+          "overview": "TextHumanizer是一个多语言LLM驱动的文本重写工具，专门针对AI生成内容的痕迹进行优化。项目提供完整的处理流水线，支持多种语言的文本去AI化处理，保持原文核心语义的同时提升自然度。完全开源免费，适合内容创作者和需要发布高质量文本的用户。",
+          "analysis": "随着AI写作普及，如何区分人机内容是重要议题。TextHumanizer从实用角度提供了解决方案，多语言支持和完全免费的特性使其具有广泛适用性。700+星标反映了市场对这类工具的真实需求。",
           "social": [
             {
-              "who": "文案策划",
-              "text": "AI 写的东西总有一股“塑料味”，这个工具能很好地去除那种感觉，而且完全免费。"
+              "who": "内容创作者",
+              "text": "终于有个免费的多语言去AI化工具了，发布内容前处理一下更放心。"
+            },
+            {
+              "who": "研究者",
+              "text": "文本去痕迹化是一个有争议但实用的方向，这个项目提供了可复现的实现方案。"
             }
           ]
         },
         {
-          "title_zh": "AI 短视频生成流水线",
+          "title_zh": "Short Video Generator AI：AI短视频自动生成流水线",
           "eng": "yukitorido/short-video-generator-AI",
-          "summary": "利用 LLM、Whisper 转录和自动剪辑技术，自动生成竖屏短视频的完整处理管线。",
+          "summary": "基于LLM的垂直短视频生成工具，集成语音识别、高光检测和自动剪辑功能。",
           "source": "GitHub",
-          "stars": 724,
+          "stars": 725,
           "lang": "Python",
           "published": "2026-09-23",
           "url": "https://github.com/yukitorido/short-video-generator-AI",
-          "overview": "该项目整合了自然语言理解（LLM）、语音识别（Whisper）和高光检测算法，实现了从原始素材到竖屏短视频的自动化生产。流程包括智能字幕生成、关键帧提取和自动拼接。",
-          "analysis": "短视频内容需求巨大但制作成本高。该流水线将 AI 能力串联起来，大幅降低了视频制作的门槛，适合自媒体运营者和视频创作者批量生产内容。",
+          "overview": "该项目构建了完整的AI短视频生成流水线，支持从原始素材到垂直格式短视频的全流程自动化。集成Whisper语音识别进行转录、高光检测算法定位精彩片段、以及自动剪辑功能。采用Python生态开发，便于与现有AI工具链整合。",
+          "analysis": "短视频内容创作需求旺盛但制作门槛高，该项目通过LLM+自动化的组合降低了创作成本。700+星标表明市场对这类工具的关注度持续走高，尤其适合自媒体创作者和内容营销团队使用。",
           "social": [
             {
-              "who": "视频博主",
-              "text": "把 LLM 和 Whisper 串起来做自动剪辑，思路很清晰，对于日更党来说能省不少时间。"
+              "who": "自媒体创作者",
+              "text": "从素材到成片的全流程自动化，大大节省了短视频制作时间。"
+            },
+            {
+              "who": "开发者",
+              "text": "Whisper+高光检测的组合很实用，Python生态下这类工具的集成度很高。"
             }
           ]
         },
         {
-          "title_zh": "Shapeshift - 自适应 UI 输入框",
+          "title_zh": "Ollaya：本地决策模型运行框架",
+          "eng": "ollaya-dev/ollaya",
+          "summary": "在本地运行开源决策模型的参考实现，提供TypeSafe兼容API和多种决策组件。",
+          "source": "GitHub",
+          "stars": 712,
+          "lang": "Rust",
+          "published": "2026-09-23",
+          "url": "https://github.com/kryvora-network/kryvora-node",
+          "overview": "Ollaya是一个本地决策模型运行框架，支持Laya、decider、NLI和GLiClass等多种决策组件。通过TypeSafe兼容的API提供服务接口，底层使用Ollama作为推理引擎。采用Rust语言开发，注重性能和安全性，适合需要离线运行的决策场景。",
+          "analysis": "在数据隐私要求日益严格的背景下，本地化AI推理成为重要趋势。Ollaya将决策模型本地化的思路很有价值，TypeSafe API设计降低了集成门槛。700+星标反映了社区对隐私友好型AI工具的关注。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "TypeSafe API设计很优雅，本地运行决策模型终于有了成熟的参考实现。"
+            },
+            {
+              "who": "研究者",
+              "text": "将决策模型从云端迁移到本地的思路很有前瞻性，Rust的性能优势也很突出。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ShapeShift：自适应UI输入框",
           "eng": "anishfn/shapeshift",
-          "summary": "一个根据用户输入内容自动变形为合适界面的文本框，支持离线运行。",
+          "summary": "一个根据用户输入自动变换形态的文本输入框，由TypeSafe Jev驱动，支持离线运行。",
           "source": "GitHub",
           "stars": 709,
           "lang": "TypeScript",
           "published": "2026-09-22",
           "url": "https://github.com/anishfn/shapeshift",
-          "overview": "该项目基于 TypeSafe Jev 技术，实现了“所见即所得”的输入体验。当用户在文本框中输入时，界面会根据上下文动态调整为表格、表单或其他合适的 UI 组件，无需手动切换模式。",
-          "analysis": "传统的固定输入框限制了用户的表达效率。Shapeshift 展示了 AI 驱动的前端交互新范式，对于构建智能表单和对话式应用具有启发意义。",
+          "overview": "ShapeShift是一个创新的UI组件，文本输入框会根据用户输入内容自动变换为最适合的界面形态。基于TypeSafe Jev技术实现语义理解，支持完全离线运行。项目展示了AI与前端交互的新可能性，让用户体验更加自然流畅。",
+          "analysis": "自适应UI是前端开发的前沿方向，ShapeShift通过语义理解实现了输入框的智能变形。700+星标表明社区对这类创新交互组件的兴趣很高，TypeScript生态为Web端应用提供了良好的支持基础。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "输入框自动变形态，这个交互设计太酷了，TypeSafe Jev 的离线能力也解决了隐私顾虑。"
+              "who": "开发者",
+              "text": "输入框自动变形态的设计太酷了，用户体验的提升肉眼可见。"
+            },
+            {
+              "who": "设计师",
+              "text": "AI驱动的自适应UI让设计更加智能，离线运行的特性也很实用。"
             }
           ]
         },
         {
-          "title_zh": "Ollaya - 本地决策模型运行框架",
-          "eng": "ollaya-dev/ollaya",
-          "summary": "支持在本地运行开源决策模型（如 Laya、Decider），提供兼容 TypeSafe 的 API 服务。",
+          "title_zh": "JIZURA：歌词自动PV生成浏览器应用",
+          "eng": "852wa/JIZURA",
+          "summary": "基于歌词自动生成文字动态视频（文字PV）的浏览器应用。",
           "source": "GitHub",
-          "stars": 702,
-          "lang": "Rust",
+          "stars": 829,
+          "lang": "HTML",
           "published": "2026-09-23",
-          "url": "https://github.com/ollaya-dev/ollaya",
-          "overview": "该项目旨在将复杂的决策逻辑模型本地化部署，集成了多种推理引擎并暴露标准 API。开发者可以通过 Ollama 等工具轻松调用这些决策模型，实现隐私保护的智能决策流程。",
-          "analysis": "企业级应用对数据隐私要求日益严格，本地运行决策模型成为趋势。Ollaya 提供了标准化的接口和 Rust 高性能支持，适合需要私有化部署 AI 决策逻辑的场景。",
+          "url": "https://github.com/852wa/JIZURA",
+          "overview": "JIZURA是一个浏览器端的歌词PV自动生成工具，用户输入歌词即可自动组装成动态文字视频。项目采用HTML技术栈开发，无需安装额外软件，直接在浏览器中运行。适合音乐爱好者快速制作歌词可视化内容，降低了文字PV的制作门槛。",
+          "analysis": "文字PV在社交媒体上非常流行但传统制作流程复杂，JIZURA通过浏览器应用大幅简化了这一过程。800+星标反映了用户对这类创意工具的强烈需求，HTML技术栈的零依赖特性使其易于传播和使用。",
           "social": [
             {
-              "who": "架构师",
-              "text": "把决策模型跑在本地而不是云端，这对金融和法律场景太重要了，Rust 的性能也让人放心。"
+              "who": "音乐爱好者",
+              "text": "终于能在浏览器里直接做歌词PV了，再也不用学复杂的视频编辑软件。"
+            },
+            {
+              "who": "开发者",
+              "text": "HTML技术栈的零依赖设计很聪明，分享和传播都非常方便。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Tidewater：AI生成的海岸小镇项目",
+          "eng": "dgreenheck/tidewater",
+          "summary": "使用Claude Opus 5.5 AI模型构建的海岸小镇3D场景项目。",
+          "source": "GitHub",
+          "stars": 837,
+          "lang": "JavaScript",
+          "published": "2026-09-23",
+          "url": "https://github.com/dgreenheck/tidewater",
+          "overview": "Tidewater是一个使用Claude Opus 5.5 AI模型生成的海岸小镇项目，展示了AI在创意内容生成方面的能力。项目采用JavaScript技术栈开发，通过AI驱动的3D场景构建实现了逼真的海滨城镇效果。作为Opus 5.5的演示项目之一，具有重要的参考价值。",
+          "analysis": "虽然属于创意类项目，但Tidewater展示了AI模型在复杂场景生成方面的最新进展。800+星标反映了社区对AI生成内容的好奇心和关注，JavaScript生态为Web端3D展示提供了成熟的技术基础。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "Opus 5.5的创意生成能力令人印象深刻，这个海岸小镇展示了AI建模的新高度。"
+            },
+            {
+              "who": "开发者",
+              "text": "作为AI模型的演示项目很有价值，JavaScript生态下3D场景的表现力不错。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude Opus 5.5 Demo：模型能力展示项目",
+          "eng": "riba2534/claude-opus-5-5-demo",
+          "summary": "Claude Opus 5.5模型的演示项目，展示最新AI模型的核心能力。",
+          "source": "GitHub",
+          "stars": 844,
+          "lang": "JavaScript",
+          "published": "2026-09-23",
+          "url": "https://github.com/riba2534/claude-opus-5-5-demo",
+          "overview": "这是Claude Opus 5.5模型的官方演示项目，旨在展示该模型在文本生成、代码编写和创意写作等方面的核心能力。项目采用JavaScript技术栈开发，提供了直观的交互界面让用户体验最新AI模型的效果。作为模型能力的标杆性展示，具有重要的参考价值。",
+          "analysis": "虽然属于演示类项目，但844+星标反映了社区对Claude Opus 5.5的高度关注。这类项目对于了解前沿AI模型能力边界很有价值，JavaScript生态为Web端交互提供了良好的支持基础。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "Opus 5.5的能力展示很全面，这个演示项目很好地呈现了最新模型的潜力。"
+            },
+            {
+              "who": "开发者",
+              "text": "作为模型能力的基准参考很有价值，JavaScript生态下的交互体验也很流畅。"
             }
           ]
         }
@@ -2242,60 +2326,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 AI Agent 安全治理与规模化应用方向，回应自动化系统对公共基础设施的潜在风险。",
-          "url": "https://www.samaltman.com"
-        },
-        {
-          "name": "Dario Amodei",
+          "name": "达里奥·阿莫迪",
           "role": "Anthropic CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "关注宪法式 AI 安全框架及前沿模型对齐研究，推动负责任的人工智能发展。",
-          "url": "https://x.com/darioamodei"
+          "recent": "近期关注 AI 安全对齐及应对各国政府监管政策，尤其在军事与公共部门应用中的伦理边界。",
+          "url": "https://www.anthropic.com"
         },
         {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
+          "name": "杨立昆",
+          "role": "Meta首席科学家",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "近期主张开源模型路线并挑战闭源大模型的垄断地位，推动 AI 科学向更开放方向发展。",
+          "url": "https://yannlecun.com"
+        },
+        {
+          "name": "蒂姆·伯纳斯-李",
+          "role": "万维网发明者/W3C创始人",
           "region": "英国",
           "domain": "ai",
-          "recent": "主导 Gemini 模型在商业场景（如印度电商）的落地测试与多模态能力拓展。",
-          "url": "https://deepmind.google/leadership/demis-hassabis"
+          "recent": "近期呼吁建立数据主权框架，探讨图书馆与网络基础设施在人工智能时代的角色重塑。",
+          "url": "https://timbl.org"
         },
         {
-          "name": "Michael Gorman",
-          "role": "IFLA 前主席 / 图书馆倡导者",
-          "region": "全球",
-          "domain": "library",
-          "recent": "持续呼吁图书馆在人工智能时代坚守人文信息服务核心价值，反对技术替代。",
+          "name": "列克斯·弗里德曼",
+          "role": "AI播客主持人/研究者",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "近期通过长访谈深入探讨人类意识、AI 交互及科技伦理等跨学科话题，成为 AI 领域最具影响力的访谈平台之一。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "周志华",
+          "role": "浙江大学教授/AI学者",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "近期聚焦中国人工智能人才培养与大型模型伦理治理，推动学术界对 AI 安全性的系统性研究。",
           "url": ""
         },
         {
-          "name": "Kai-Fu Lee",
-          "role": "AI 学者 / 播客主持人",
-          "region": "中国/美国",
-          "domain": "ai/podcast",
-          "recent": "探讨 AI 对社会结构、教育体系及知识管理方式的深远影响与未来趋势。",
-          "url": "https://www.kai-fu-lee.com"
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta AI Chief Scientist",
-          "region": "法国",
-          "domain": "ai",
-          "recent": "主张开源模型与可解释人工智能，回应 Meta 在 AI 信任危机中的技术路线调整。",
-          "url": "https://yann.lecun.com"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "播客主持人 / AI 研究者",
+          "name": "戴维·韦恩伯格",
+          "role": "科技作家/播客人",
           "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "通过深度访谈持续追踪 AI 前沿进展，关注意识、知识系统与人类认知边界的议题。",
-          "url": "https://lexfridman.com"
+          "domain": "library",
+          "recent": "近期关注 Web 文化与图书馆在信息获取中的演变，分析 AI 如何改变知识传播的底层逻辑。",
+          "url": "https://davidweinberger.com"
+        },
+        {
+          "name": "吴恩达",
+          "role": "AI教育先驱/DeepLearning.AI创始人",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "近期致力于全球 AI 教育普及与政策倡导，推动人工智能技术向更广泛的社会群体开放应用。",
+          "url": "https://andrewng.ai"
         }
       ]
     },
