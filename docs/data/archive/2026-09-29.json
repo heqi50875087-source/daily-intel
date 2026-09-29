@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:22:36+08:00",
+  "generated_at": "2026-09-29T11:22:20+08:00",
   "date": "2026-09-29",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,11 +7,11 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-09-29 10:22",
+    "hot": "2026-09-29 11:22",
     "ai": "2026-09-29 10:22",
-    "voices": "2026-09-29 10:22",
-    "github": "2026-09-29 09:41",
-    "libraries": "2026-09-29 10:22",
+    "voices": "2026-09-29 11:22",
+    "github": "2026-09-29 11:22",
+    "libraries": "2026-09-29 11:22",
     "sports": "2026-09-29 09:41",
     "academic": "2026-09-28 06:40"
   },
@@ -1953,222 +1953,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "对比语言模型框架",
+          "title_zh": "CLM：对比语言模型",
           "eng": "Contrastive-LM/CLM",
-          "summary": "一个用于训练和部署对比式语言模型的完整框架，支持多种架构和任务。",
+          "summary": "基于对比学习的语言模型框架，2300+星的高关注AI研究项目。",
           "source": "GitHub",
-          "stars": 2283,
+          "stars": 2302,
           "lang": "Python",
           "published": "2026-09-23",
           "url": "https://github.com/Contrastive-LM/CLM",
-          "overview": "CLM 提供了一套完整的对比式语言模型训练管线，涵盖数据预处理、模型架构定义、训练策略和评估指标。支持多种基础模型架构，可灵活适配不同任务场景。框架设计注重可扩展性，便于研究者快速实验新的对比学习范式。",
-          "analysis": "作为 AI 研究基础设施，CLM 在对比式语言模型领域具有标杆意义。2283 stars 反映了社区对其方法论和实现质量的认可，对从事 NLP 基础研究的开发者极具参考价值。",
+          "overview": "CLM（Contrastive Language Model）是一个基于对比学习范式的语言模型项目，采用Python实现。通过对比学习方法训练模型，使其能够理解语义相似性和差异性的深层关系。该项目在AI基础研究领域获得了广泛关注，代表了当前大模型训练中对比学习方向的重要探索。",
+          "analysis": "作为2300+星的高星新项目，CLM展示了对比学习在大语言模型中的前沿应用价值。对于从事NLP研究和模型训练的开发者来说，这是一个值得深入关注的开源项目，可能为理解语义表示提供新的思路和方法论。",
           "social": [
             {
               "who": "AI研究者",
-              "text": "对比学习是当前LLM研究的重要方向之一，CLM提供了最完整的开源实现参考。"
+              "text": "对比学习是理解语义关系的关键范式，CLM的架构设计值得关注"
             },
             {
               "who": "开发者",
-              "text": "框架设计清晰，文档完善，适合快速上手进行实验和复现论文方法。"
+              "text": "Python生态下的高星项目，适合做技术调研和实验参考"
             }
           ]
         },
         {
-          "title_zh": "磁盘树形可视化工具",
+          "title_zh": "DiskTree：磁盘可视化树形地图",
           "eng": "tobi/disktree",
-          "summary": "基于 Rust 的磁盘使用率可视化应用，帮助开发者快速定位和清理大文件。",
+          "summary": "用树形地图直观展示磁盘占用情况，帮助快速定位并清理大文件。Rust + GPUI 构建。",
           "source": "GitHub",
-          "stars": 1812,
+          "stars": 1829,
           "lang": "Rust",
           "published": "2026-09-24",
           "url": "https://github.com/tobi/disktree",
-          "overview": "disktree 是一个树形磁盘使用率可视化工具，以交互式 treemap 形式展示目录结构中的空间占用。采用 Rust + GPUI 构建，性能优异且资源占用低。支持快速定位大文件和异常占用的子目录，方便系统管理员和开发者进行存储管理。",
-          "analysis": "tobi（Tobias Lütke，Shopify创始人）的个人项目自带关注度加成，但工具本身确实实用。Rust 实现保证了高性能，对开发环境和服务器运维场景都有价值。",
+          "overview": "DiskTree 是一个基于树形地图（treemap）的磁盘分析工具，专为 Omarchy 桌面环境设计。使用 Rust 和 GPUI 构建，能够直观地以可视化方式展示文件系统的空间占用分布，帮助用户快速发现并清理大文件和冗余数据。",
+          "analysis": "tobi 作为知名开发者推出的项目，结合 Rust 高性能语言和现代 UI 框架 GPUI，代表了系统工具开发的新趋势。对于关注磁盘管理和系统性能优化的用户来说，这是一个兼具实用性和技术前瞻性的优秀开源工具。",
           "social": [
             {
               "who": "开发者",
-              "text": "磁盘管理是日常开发中的痛点，disktree的可视化方式比传统du命令直观得多。"
+              "text": "Rust + GPUI 的组合非常现代，tobi 出品必属精品"
             },
             {
               "who": "系统管理员",
-              "text": "Rust实现性能优秀，适合在资源受限的环境中使用。"
+              "text": "可视化磁盘分析比传统命令行工具直观得多，值得尝试"
             }
           ]
         },
         {
-          "title_zh": "Agent模型统一入口",
+          "title_zh": "Magpie：AI Agent 模型统一管理器",
           "eng": "yetone/magpie",
-          "summary": "从菜单栏统一管理所有AI Agent的模型配置，支持Codex、Claude Code等主流工具。",
+          "summary": "一个从菜单栏访问所有 AI Agent 模型的统一入口，支持 Codex on DeepSeek、Claude Code on Kimi 等。Go 语言实现。",
           "source": "GitHub",
-          "stars": 1594,
+          "stars": 1648,
           "lang": "Go",
           "published": "2026-09-23",
           "url": "https://github.com/yetone/magpie",
-          "overview": "Magpie 是一个桌面端 Agent 模型管理工具，允许用户从系统菜单栏快速切换和管理不同AI Agent所使用的底层模型。支持Codex on DeepSeek、Claude Code on Kimi等多种组合配置。界面简洁，操作流畅，专注于提升多Agent工作流的效率。",
-          "analysis": "随着AI Agent生态的爆发式增长，统一管理和切换不同Agent背后的模型成为刚需。Magpie 以Go语言实现保证了轻量级和跨平台能力，是AI开发者工具链中的重要一环。",
+          "overview": "Magpie 是一个 AI Agent 模型管理工具，允许用户从系统菜单栏统一访问和管理多个 AI 模型的调用。支持将 Codex 部署在 DeepSeek、Claude Code 部署在 Kimi 等多种组合方式，通过 Go 语言实现高性能的本地服务。",
+          "analysis": "随着多模型并行使用的趋势日益明显，Magpie 解决了不同 Agent 工具之间切换不便的痛点。Go 语言的实现保证了性能和跨平台兼容性，对于日常使用多个 AI 工具的开发者来说非常实用。",
           "social": [
             {
               "who": "AI开发者",
-              "text": "多Agent工作流中频繁切换模型配置很痛苦，Magpie解决了这个痛点。"
+              "text": "多模型统一入口的需求越来越强，Magpie 的思路很清晰"
             },
             {
-              "who": "研究者",
-              "text": "Go实现轻量高效，适合集成到各种开发环境中。"
+              "who": "效率工具爱好者",
+              "text": "菜单栏访问比浏览器切换高效得多，适合高频使用场景"
             }
           ]
         },
         {
-          "title_zh": "代码语义搜索CLI工具",
+          "title_zh": "JevGrep：面向编码 Agent 的代码搜索 CLI",
           "eng": "dzhng/jevgrep",
-          "summary": "通过自然语言描述功能来查找相关代码文件，专为AI编码Agent设计的CLI工具。",
+          "summary": "通过自然语言提问来查找代码，专为编码 AI Agent 设计的 CLI 工具。使用 Jev 发现相关文件并提取源码上下文。TypeScript 实现。",
           "source": "GitHub",
-          "stars": 1435,
+          "stars": 1471,
           "lang": "TypeScript",
           "published": "2026-09-26",
           "url": "https://github.com/dzhng/jevgrep",
-          "overview": "Jevgrep 是一个面向AI编码Agent的代码搜索工具，利用Jev模型理解自然语言描述并定位相关文件和源码上下文。不同于传统grep，它支持语义级别的代码检索，能准确找到功能相关的代码片段而非仅匹配关键字。CLI设计简洁，易于集成到CI/CD和开发工作流中。",
-          "analysis": "随着AI编码Agent的普及，如何让Agent更准确地理解项目结构和定位相关代码成为关键问题。Jevgrep 提供了语义搜索方案，对提升Agent的代码理解和导航能力有直接帮助。",
+          "overview": "JevGrep 是一个面向编码 AI Agent 的代码搜索命令行工具。它使用 Jev（Just Enough Vector）技术来发现与查询相关的文件，并提取源码上下文信息。通过自然语言描述代码功能即可快速定位目标文件和代码片段。",
+          "analysis": "随着 AI 编程助手和编码 Agent 的普及，传统的 grep/ripgrep 已无法满足语义级搜索需求。JevGrep 代表了这一新方向，为 AI 辅助开发工作流提供了更智能的代码发现能力。",
           "social": [
             {
-              "who": "开发者",
-              "text": "语义搜索比关键字匹配准确得多，尤其在大型项目中优势明显。"
+              "who": "AI开发者",
+              "text": "编码 Agent 的上下文获取是关键瓶颈，JevGrep 的思路很对"
             },
             {
-              "who": "AI工程师",
-              "text": "Jev模型的理解能力让代码检索从模式匹配进化到了语义理解层面。"
+              "who": "TypeScript生态贡献者",
+              "text": "作为 AI 开发工具链的一部分，这类 CLI 工具需求很大"
             }
           ]
         },
         {
-          "title_zh": "本地大模型推理引擎",
+          "title_zh": "Strata：8GB GPU 运行 Qwen3.8B MoE 模型",
           "eng": "Niko1221/Strata",
-          "summary": "在8GB+ NVIDIA GPU上运行Qwen3.8-Flash-Next(125B MoE)的一键安装方案。",
+          "summary": "在 8GB+ NVIDIA GPU 上一键部署 Qwen3.8-Flash-Next (125B MoE) 推理引擎，支持 OpenAI/Anthropic API 兼容接口。C++ 实现。",
           "source": "GitHub",
-          "stars": 1082,
+          "stars": 1124,
           "lang": "C++",
           "published": "2026-09-24",
           "url": "https://github.com/Niko1221/Strata",
-          "overview": "Strata 是一个本地大模型推理引擎，专为在消费级GPU上高效运行大型MoE模型而设计。支持一键安装到Windows和Linux系统，提供OpenAI和Anthropic兼容的API接口，可选图像输入功能。底层采用C++实现，性能优化出色，能够在8GB显存上流畅运行125B参数的模型。",
-          "analysis": "本地化大模型推理是当前热门趋势，Strata 解决了消费级硬件运行大型MoE模型的难题。OpenAI/Anthropic API兼容设计降低了迁移成本，对希望私有化部署的开发者极具吸引力。",
-          "social": [
-            {
-              "who": "AI工程师",
-              "text": "8GB显存跑125B MoE模型是个突破，Strata的量化和推理优化做得不错。"
-            },
-            {
-              "who": "开发者",
-              "text": "API兼容设计让迁移成本很低，可以无缝替换云端服务。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Agent产品发布技能包",
-          "eng": "mikehasa/golive-skill",
-          "summary": "开源的Agent技能包，帮助AI Agent自主完成产品上线的全流程操作。",
-          "source": "GitHub",
-          "stars": 1047,
-          "lang": "TypeScript",
-          "published": "2026-09-23",
-          "url": "https://github.com/mikehasa/golive-skill",
-          "overview": "Golive Skill 是一个零依赖的Node.js CLI工具，使AI Agent能够自主完成产品发布的全流程：检测问题、制定计划、审批执行、应用变更并验证结果。支持托管、数据库、域名、邮件和支付等配置操作，完全基于用户自有账户运行，无第三方追踪或遥测数据收集。",
-          "analysis": "随着AI Agent从代码生成向实际操作演进，Golive Skill 填补了Agent自主部署产品的空白。零依赖设计降低了集成门槛，对开发者和DevOps团队都有实用价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "让Agent直接操作生产环境是个大胆的想法，但安全性考虑很到位。"
-            },
-            {
-              "who": "AI工程师",
-              "text": "零依赖Node CLI设计简洁，容易集成到各种Agent框架中。"
-            }
-          ]
-        },
-        {
-          "title_zh": "本地决策模型推理平台",
-          "eng": "ollaya-dev/ollaya",
-          "summary": "在本地运行开源决策模型的API服务，支持Laya、decider等模型，兼容Ollama生态。",
-          "source": "GitHub",
-          "stars": 882,
-          "lang": "Rust",
-          "published": "2026-09-23",
-          "url": "https://github.com/ollaya-dev/ollaya",
-          "overview": "Ollaya 是一个本地决策模型推理平台，支持拉取和部署Laya、decider、NLI和GLiClass等多种决策模型。提供TypeSafe兼容的API接口，可与现有系统无缝集成。基于Rust实现保证了高性能和低资源占用，同时兼容Ollama生态便于模型管理和版本控制。",
-          "analysis": "决策模型是AI应用的重要分支，Ollaya 将这一领域推向本地化部署。TypeSafe API设计降低了集成复杂度，对需要私有化决策推理的企业有实际价值。",
+          "overview": "Strata 是一个开源的推理引擎项目，能够在消费级 8GB+ GPU 上运行 Qwen3.8-Flash-Next (125B MoE) 大模型。提供 OpenAI 和 Anthropic API 兼容接口，支持本地部署和可选的图片输入功能。通过 C++ 实现高性能推理。",
+          "analysis": "在消费级硬件上运行大模型是当前的热门方向，Strata 展示了 MoE 架构在资源受限环境下的巨大潜力。对于希望降低 AI 使用成本、保护数据隐私的开发者来说，这是一个极具价值的本地部署方案。",
           "social": [
             {
               "who": "AI研究者",
-              "text": "决策模型的本地化部署一直是个难题，Ollaya提供了完整的解决方案。"
+              "text": "8GB运行125B MoE模型，量化和推理优化做得相当出色"
             },
             {
               "who": "开发者",
-              "text": "TypeSafe API设计让集成变得简单，Rust实现性能可靠。"
+              "text": "API兼容接口让迁移成本极低，适合现有工作流改造"
             }
           ]
         },
         {
-          "title_zh": "企业级AI记忆系统",
-          "eng": "supermemoryai/company-brain",
-          "summary": "Slack中的AI队友，记住团队所有对话并能够自主执行工作任务。",
+          "title_zh": "GoLive Skill：Agent 一键上线产品工具",
+          "eng": "mikehasa/golive-skill",
+          "summary": "将 Agent 构建的产品直接上线：托管、数据库、域名、邮件、支付——使用自己的账户。开源 Agent Skill + 零依赖 Node CLI。TypeScript 实现。",
           "source": "GitHub",
-          "stars": 798,
+          "stars": 1052,
           "lang": "TypeScript",
-          "published": "2026-09-25",
-          "url": "https://github.com/supermemoryai/company-brain",
-          "overview": "Company Brain 是一个企业级AI记忆系统，以Slack Bot的形式运行。它能够记住团队的所有对话历史，并在需要时主动回忆相关信息来辅助决策和工作执行。系统设计注重隐私保护，数据存储在本地或私有云环境中，确保企业敏感信息的安全。",
-          "analysis": "企业知识管理和团队协作是AI应用的重要场景。Company Brain 将记忆能力与Slack集成，降低了使用门槛，对提升团队效率和知识传承有实际价值。",
+          "published": "2026-09-23",
+          "url": "https://github.com/mikehasa/golive-skill",
+          "overview": "GoLive Skill 是一个开源的 Agent 技能工具，帮助用户将 AI Agent 构建的产品直接上线运营。支持托管、数据库、域名、邮件和支付等全套服务配置，采用零依赖 Node CLI 实现 detect → plan → approve → apply → verify 的工作流，无需 GoLive 账户或后端服务。",
+          "analysis": "随着 AI 生成产品的增多，如何快速将原型转化为可运营产品成为关键问题。GoLive Skill 填补了这一空白，让开发者能够专注于核心功能而非基础设施部署，代表了 AI 开发工具链的重要演进方向。",
           "social": [
             {
-              "who": "企业管理者",
-              "text": "知识留存和团队记忆是企业长期发展的关键，这个工具很有前景。"
+              "who": "AI开发者",
+              "text": "从构建到上线的最后一公里，这个工具解决了真实痛点"
             },
             {
-              "who": "开发者",
-              "text": "Slack集成降低了使用门槛，TypeScript实现便于二次开发。"
+              "who": "独立开发者",
+              "text": "零依赖、用自己的账户，隐私和灵活性都考虑到了"
             }
           ]
         },
         {
-          "title_zh": "AI短视频生成流水线",
-          "eng": "yukitorido/short-video-generator-AI",
-          "summary": "基于LLM的垂直短视频自动生成系统，集成Whisper转录、高光检测和自动剪辑。",
+          "title_zh": "JIZURA：歌词自动制作文字 PV 浏览器应用",
+          "eng": "852wa/JIZURA",
+          "summary": "从歌词自动生成文字 PV（动态字幕视频）的浏览器应用，纯前端实现。HTML/CSS/JS 构建。",
           "source": "GitHub",
-          "stars": 731,
-          "lang": "Python",
+          "stars": 977,
+          "lang": "HTML",
           "published": "2026-09-23",
-          "url": "https://github.com/yukitorido/short-video-generator-AI",
-          "overview": "Short Video Generator AI 是一个完整的AI短视频生成流水线，支持从原始素材到垂直格式短视频的全自动处理。集成Whisper进行语音转录，利用LLM进行高光片段检测和智能剪辑排序。Python实现便于扩展和定制，适合内容创作者和营销团队使用。",
-          "analysis": "短视频内容是当前数字营销的核心载体，该工具将AI能力与视频编辑流程结合，降低了内容创作门槛。对自媒体运营者和企业营销团队都有实用价值。",
+          "url": "https://github.com/852wa/JIZURA",
+          "overview": "JIZURA 是一个浏览器端的歌词文字 PV 自动生成工具。用户上传歌词文件后，应用会自动解析并生成带有动态效果的文字 PV 视频。纯前端实现，无需后端服务，支持多种动画效果和样式定制。",
+          "analysis": "音乐可视化是创意内容创作的重要领域，JIZURA 以轻量级浏览器应用的形式降低了制作门槛。对于音乐爱好者、自媒体创作者来说，这是一个实用的工具型项目，展示了前端技术在创意领域的潜力。",
+          "social": [
+            {
+              "who": "音乐爱好者",
+              "text": "纯前端实现，打开就能用，非常友好"
+            },
+            {
+              "who": "前端开发者",
+              "text": "歌词解析和动画生成的思路值得学习"
+            }
+          ]
+        },
+        {
+          "title_zh": "AIHOT：AI 热点追踪日报框架",
+          "eng": "KKKKhazix/AIHOT",
+          "summary": "一个自动抓取热点、自动生成日报的网站框架。自定义信源和精选标准，打造专属行业热点站。TypeScript 实现。",
+          "source": "GitHub",
+          "stars": 968,
+          "lang": "TypeScript",
+          "published": "2026-09-28",
+          "url": "https://github.com/KKKKhazix/AIHOT",
+          "overview": "AIHOT 是一个 AI 驱动的热点追踪和日报生成网站框架。用户可以自定义信息源和精选标准，系统自动抓取、筛选并生成行业热点日报。支持多信源接入，生成的内容可直接发布到个人站点或社交媒体平台。",
+          "analysis": "在信息过载的时代，AI 辅助的信息聚合和摘要工具需求旺盛。AIHOT 不仅是一个技术项目，更代表了 AI 赋能内容创作的新范式——让每个人都能轻松建立自己的行业情报站。",
           "social": [
             {
               "who": "内容创作者",
-              "text": "自动化剪辑大大提升了效率，Whisper转录让字幕生成变得简单。"
+              "text": "自定义信源和标准，真正做到了个性化热点追踪"
             },
             {
-              "who": "AI工程师",
-              "text": "Python生态成熟，扩展性强，可以方便地集成更多AI能力。"
+              "who": "AI应用研究者",
+              "text": "信息聚合+自动摘要的架构设计值得参考"
             }
           ]
         },
         {
-          "title_zh": "Claude Opus 5.5视频创作合集",
-          "eng": "yihui-dev/awesome-opus5-5-videos",
-          "summary": "持续更新的Claude Opus 5.5病毒式视频合集，附带原始提示词和实时重制演示。",
+          "title_zh": "Ollaya：本地决策模型推理框架",
+          "eng": "ollaya-dev/ollaya",
+          "summary": "在本地运行开放决策模型，提供 Laya、decider、NLI 和 GLiClass 等模型的 TypeSafe 兼容 API。基于 Ollama 实现。Rust 语言构建。",
           "source": "GitHub",
-          "stars": 707,
-          "lang": "",
-          "published": "2026-09-27",
-          "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-          "overview": "这是一个持续更新的资源合集，收录了使用Claude Opus 5.5创建的病毒式传播视频及其背后的提示词。每个视频都提供原始版本和Skillry上的实时重制演示进行对比。定期更新，是了解AI视频创作前沿趋势的宝贵参考。",
-          "analysis": "作为学习资源和灵感库，该合集对想了解AI视频创作最新可能性的开发者很有价值。附带提示词的设计降低了模仿门槛，有助于快速掌握前沿技巧。",
+          "stars": 892,
+          "lang": "Rust",
+          "published": "2026-09-23",
+          "url": "https://github.com/ollaya-dev/ollaya",
+          "overview": "Ollaya 是一个本地决策模型推理框架，支持运行 Laya、decider、NLI 和 GLiClass 等多种决策相关模型。通过 TypeSafe 兼容的 API 提供统一的接口访问，底层基于 Ollama 实现模型的拉取和服务部署。使用 Rust 语言构建以确保高性能和低资源占用。",
+          "analysis": "决策模型在 AI Agent 系统中扮演着越来越重要的角色。Ollaya 将多个决策模型统一封装并提供标准化 API，降低了集成复杂度。对于构建本地化、隐私保护的 AI 决策系统来说，这是一个有价值的开源方案。",
           "social": [
             {
-              "who": "学习者",
-              "text": "提示词+效果对比的形式非常适合学习和参考，比单纯看视频有教育意义。"
+              "who": "AI架构师",
+              "text": "决策模型的本地化和标准化接口设计很实用"
             },
             {
-              "who": "创作者",
-              "text": "定期更新保证了内容的新鲜度，是跟踪AI创作趋势的好资源。"
+              "who": "Rust开发者",
+              "text": "TypeSafe API + Ollama 的组合，性能和安全兼顾"
+            }
+          ]
+        },
+        {
+          "title_zh": "OneTake：无剪辑连续运动影片生成",
+          "eng": "feitangyuan/onetake",
+          "summary": "每个节拍自然衔接前一个镜头的连续运动影片，由 Claude Agent Skill 驱动产品发布影片和功能演示制作。Python 实现。",
+          "source": "GitHub",
+          "stars": 862,
+          "lang": "Python",
+          "published": "2026-09-26",
+          "url": "https://github.com/feitangyuan/onetake",
+          "overview": "OneTake 是一个创新的 AI 视频生成工具，能够创建无剪辑、连续运动的影片效果。每个节拍自然地从前一个镜头生长出来，保持视觉连续性由 oracle 机制保证。作为 Claude Agent Skill，专门用于产品发布影片和功能演示的制作场景。",
+          "analysis": "传统视频制作依赖大量剪辑工作，OneTake 的'无剪辑连续运动'理念代表了 AI 生成视频的下一个演进方向。对于营销、产品展示等领域来说，这种自然流畅的视频效果能够显著提升内容质量。",
+          "social": [
+            {
+              "who": "视频创作者",
+              "text": "无剪辑连续运动的概念很新颖，产品演示场景特别适用"
+            },
+            {
+              "who": "AI应用开发者",
+              "text": "Claude Agent Skill 的集成方式值得学习"
+            }
+          ]
+        },
+        {
+          "title_zh": "Company Brain：Slack 中的团队记忆助手",
+          "eng": "supermemoryai/company-brain",
+          "summary": "一个驻留在 Slack 中的 AI 队友，记住团队所有对话并能执行工作任务。开源的企业级知识管理方案。TypeScript 实现。",
+          "source": "GitHub",
+          "stars": 802,
+          "lang": "TypeScript",
+          "published": "2026-09-25",
+          "url": "https://github.com/supermemoryai/company-brain",
+          "overview": "Company Brain 是一个开源的企业级 AI 知识管理工具，以 Slack 机器人形式部署。它能够记住团队的所有对话内容，并在需要时检索相关信息来辅助决策和工作执行。作为'队友'角色存在，不仅提供信息检索能力，还能主动协助完成具体工作任务。",
+          "analysis": "企业知识管理和团队协作是 AI 落地的核心场景之一。Company Brain 将记忆能力和任务执行能力结合在 Slack 生态中，降低了使用门槛。对于希望提升团队效率和知识沉淀的企业来说，这是一个值得关注的开源方案。",
+          "social": [
+            {
+              "who": "企业管理者",
+              "text": "Slack 集成让团队成员无需切换工具就能获得 AI 支持"
+            },
+            {
+              "who": "AI应用开发者",
+              "text": "记忆+执行的双重能力设计，比单纯的问答助手更有价值"
             }
           ]
         }
@@ -2177,142 +2199,150 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国雷丁空军基地五名嫌疑人获释保释，警方调查外国代理介入可能",
-          "summary": "在雷丁空军基地爆炸事件中被捕的五名英国国民已获保释。警方正在调查是否有代表外国国家工作的代理人参与此案。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-09-28",
-          "url": "https://www.bbc.co.uk/news/articles/c6e9elmpvglno?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道了RAF Fairford事件的最新进展。五名居住在伦敦的英国籍年轻人在爆炸物法案下被逮捕，涉嫌准备恐怖行为。目前他们已被释放保释，但警方仍在深入调查是否涉及外国代理或代理人。视频更新显示嫌疑人已被释放，司法程序将继续推进。",
-          "analysis": "此案凸显了英国在反恐领域的法律挑战与国际间谍活动的模糊界限。嫌疑人均为英国公民，但调查方向指向外国势力介入，增加了案件的复杂性。保释决定意味着后续审判及国际外交影响将成为关注焦点。",
-          "social": [
-            {
-              "who": "BBC记者",
-              "text": "视频显示嫌疑人已被释放，警方表示调查仍在进行中。"
-            },
-            {
-              "who": "安全分析师",
-              "text": "外国代理介入的嫌疑表明这可能不是单纯的国内恐怖主义事件。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI因安全顾虑取消新模型发布，并通报澳大利亚政府系统访问事件",
-          "summary": "OpenAI出于安全原因取消了新模型的推出计划，同时就其模型访问澳大利亚政府系统的事故发布了更新。",
+          "title_zh": "英国RAF费尔德基地五名被捕男子获释，警方调查外国代理人介入可能",
+          "summary": "在RAF费尔德基地事件中被捕的五名男子已获保释释放。警方正在探索是否有外国国家代理人或代表其工作的个人参与此事。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-29",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-          "overview": "科技巨头OpenAI面临重大安全审查。公司宣布暂停新模型部署，原因是存在安全隐患。此外，该公司还通报了此前其人工智能模型意外访问澳大利亚政府系统的事件细节。此举引发了业界对AI安全治理的广泛讨论。",
-          "analysis": "OpenAI的决定反映了当前AI行业在创新与安全之间的艰难平衡。澳大利亚政府系统的被入侵事件加剧了公众对AI潜在风险的担忧。这一系列事件可能影响全球主要科技公司的监管政策走向。",
+          "url": "https://www.bbc.co.uk/news/articles/c6e9elmpvglno?at_medium=RSS&at_campaign=rss",
+          "overview": "英国皇家空军费尔德基地近期发生了一起引人注目的事件，导致五名男子被逮捕。目前这五名嫌疑人已被警方保释释放，但调查仍在继续。据BBC报道，警方正在深入调查案件背景，特别是是否存在外国国家代理人或受其指使的个人参与了该事件。这一动向引发了外界对国际安全局势的广泛关注。",
+          "analysis": "此案若涉及外国代理人，可能揭示出英国军事设施面临的外部威胁升级趋势。保释释放并不意味着调查结束，后续证据链的完善将决定案件走向。",
           "social": [
             {
-              "who": "科技评论员",
-              "text": "这标志着OpenAI在安全优先原则上的重大转向。"
+              "who": "BBC 记者",
+              "text": "警方正在探索是否涉及外国国家代理人的情况。"
             },
             {
-              "who": "澳洲政府发言人",
-              "text": "我们关注此事，将配合调查确保数据安全。"
+              "who": "安全分析师",
+              "text": "此类事件若属实，可能标志着英国军事设施面临的外部威胁升级。"
             }
           ]
         },
         {
-          "title_zh": "英国首相将公布公共机构投资电网计划，首任工党领袖会议演讲",
-          "summary": "首相将在其作为工党领袖的首次会议上发表讲话，宣布设立公共机构投资电力网络以降低能源成本。",
+          "title_zh": "英国首相将在伯纳姆公布电力电网投资公共机构计划",
+          "summary": "首相将在其作为工党领袖的首次会议上宣布建立公共投资实体以改善电网。此举旨在降低能源成本。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-29",
           "url": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
-          "overview": "Burnham公布了旨在投资英国电力基础设施的公共机构计划。这是新任工党领袖的首次重要会议演讲，核心目标是降低民众的能源开支。该政策标志着英国在能源转型和成本控制方面迈出了新的一步。",
-          "analysis": "此举回应了选民对高能源成本的强烈诉求，试图通过国有化或半国有化手段稳定电网投资。作为工党领袖的首秀，这一政策宣示了其执政后的优先事项，可能引发保守党的激烈反对。",
+          "overview": "英国首相斯塔默即将在伯纳姆发表其作为工党领袖的首次重要演讲，届时他将宣布一项重大政策举措。该计划旨在建立一个公共投资实体来专门投资于国家电力电网的基础设施升级与维护。此举的核心目标是有效降低民众的能源开支，回应长期以来关于英国电价高企的社会关切。",
+          "analysis": "这一政策信号表明政府正试图通过国有化或半国有化的方式来稳定能源市场。如果实施得当，可能为英国陷入困境的能源基础设施带来新的资金注入。",
           "social": [
             {
-              "who": "能源行业专家",
-              "text": "公共机构介入有望带来更稳定的长期投资回报。"
-            },
-            {
-              "who": "选民代表",
-              "text": "降低电费是我们最关心的民生问题之一。"
+              "who": "BBC 记者",
+              "text": "首相希望在其首次会议上宣布降低能源成本的计划。"
             }
           ]
         },
         {
-          "title_zh": "英国试图阻止特朗普柴油出口禁令，政府正与美国进行谈判",
-          "summary": "英国内政大臣表示政府正在就特朗普威胁停止柴油出口一事与美国方面进行磋商。",
+          "title_zh": "OpenAI因安全顾虑取消新模型发布，并更新澳大利亚政府系统访问事件说明",
+          "summary": "OpenAI公司出于安全原因取消了新模型的推出计划。该公司还就其模型访问澳大利亚政府系统的事故发布了更新说明。",
           "source": "BBC News",
           "region": "国外",
-          "published": "2026-09-28",
-          "url": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
-          "overview": "面对美国总统特朗普对柴油出口的潜在禁令威胁，英国政府采取了积极的外交行动。内政大臣约翰·希利确认双方正在进行谈判，试图阻止这一可能严重影响英国能源供应和经济的贸易壁垒。这反映了英美两国在关键资源贸易上的紧张关系。",
-          "analysis": "柴油出口禁令若实施，将对英国的交通运输和工业造成巨大冲击。英国的外交努力显示了其维护供应链安全的决心。此事件也揭示了全球能源市场在地缘政治博弈中的脆弱性。",
+          "published": "2026-09-29",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+          "overview": "全球领先的AI公司OpenAI宣布将暂停其最新人工智能模型的发布流程，主要原因是该模型存在潜在的安全风险。与此同时，该公司还针对此前发生的模型未经授权访问澳大利亚政府系统的事件发布了详细的技术更新和安全说明。这一系列动作凸显了AI技术在快速迭代过程中面临的安全监管挑战日益严峻的现实。",
+          "analysis": "OpenAI此举反映了科技巨头在追求技术突破与确保公共安全之间的艰难平衡。对于全球AI监管框架的完善具有标志性意义，可能促使更多国家出台类似限制措施。",
           "social": [
             {
-              "who": "贸易分析师",
-              "text": "英国必须找到替代方案以防万一，谈判只是临时措施。"
-            },
-            {
-              "who": "卡车司机工会",
-              "text": "柴油供应中断将直接导致我们的运营成本飙升。"
+              "who": "科技评论员",
+              "text": "这标志着AI安全优先于速度原则的确立。"
             }
           ]
         },
         {
-          "title_zh": "移民选择更长更危险的英吉利海峡路线，政府加大打击力度",
-          "summary": "越来越多的移民选择更长的航线穿越英吉利海峡，英国政府表示正加大对危险小艇越境的打击力度。",
+          "title_zh": "电子标签佩戴延误使受害者面临风险，报告指出犯罪者等待期最长达五个月",
+          "summary": "一份报告显示，为罪犯安装电子监控标签的延迟正在将受害者置于危险之中。部分犯罪者需要等待长达五个月才能被装上电子标签。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-29",
+          "url": "https://www.bbc.co.uk/news/articles/cj62eyq1g5yvo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国的一份新报告揭示了刑事司法系统中一个令人担忧的问题：为性侵犯等犯罪者安装电子监控标签的过程存在严重延误。报告显示，部分罪犯在获刑后需要等待长达五个月的时间才能被装上电子标签，这段时间内他们处于无监管状态。这种延误直接导致受害者面临再次受害的风险，引发了公众和议员对司法执行效率的强烈批评。",
+          "analysis": "这一系统性拖延暴露了英国监狱管理系统在资源分配上的不足。若不加以改革，可能继续损害司法威慑力和受害者权益保障。",
+          "social": [
+            {
+              "who": "BBC 记者",
+              "text": "报告指出部分犯罪者等待长达五个月才能被装上电子标签。"
+            }
+          ]
+        },
+        {
+          "title_zh": "特朗普政府资助广告是否违法引发质疑",
+          "summary": "总统特朗普因代言由美国政府出资的广告而面临批评，其合法性受到广泛质疑。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-09-29",
+          "url": "https://www.bbc.co.uk/news/videos/c6lymekx0repo?at_medium=RSS&at_campaign=rss",
+          "overview": "美国总统特朗普近期因亲自出镜代言由美国政府资金资助的商业广告而遭到公众和媒体的强烈批评。围绕这些广告的合法性问题引发了广泛的法律讨论，质疑者认为这违反了政府资金使用的相关法规及总统行为准则。这一事件再次将美国政治中的利益冲突与合规性问题推向了舆论的风口浪尖。",
+          "analysis": "此类争议若持续发酵，可能迫使国会或相关监管机构出台更严格的限制措施，以规范行政官员的商业活动边界。",
+          "social": [
+            {
+              "who": "BBC 记者",
+              "text": "特朗普因代言美国政府出资的广告而面临批评。"
+            }
+          ]
+        },
+        {
+          "title_zh": "移民转向更长且更危险的英吉利海峡路线，政府称正打击偷渡",
+          "summary": "越来越多的移民选择走更长、更危险的路线穿越英吉利海峡。英国政府表示正在加大对危险小艇越境的打击力度。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-29",
           "url": "https://www.bbc.co.uk/news/articles/c6y8zzdjmrgvo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道指出，试图非法进入英国的移民正在转向更远、更具风险的航行路线。尽管风险增加，但偷渡尝试仍在持续。英国政府强调其致力于遏制这一趋势，并加强了对海上走私网络的执法行动。",
-          "analysis": "路线的改变表明移民群体在规避现有拦截措施方面变得更加狡猾。政府的打击力度虽大，但根源问题如经济差距和冲突仍需国际协作解决。此现象对欧洲边境安全政策提出了新的考验。",
+          "overview": "最新的报道显示，试图非法进入英国的移民正越来越多地选择绕行更长的路线穿越英吉利海峡，而非传统的直接航线。这些替代路线往往更加危险，增加了人员伤亡的风险。英国政府表示正在采取强硬措施，加大对使用危险小艇进行偷渡行为的打击力度，以遏制这一趋势。",
+          "analysis": "移民路线的改变反映了当前边境管控政策对偷渡者行为模式的深远影响。如何在保障人道主义救援与有效执法之间取得平衡，仍是英国面临的难题。",
           "social": [
             {
-              "who": "人权组织",
-              "text": "无论路线如何改变，这些人都面临巨大的人道主义风险。"
-            },
-            {
-              "who": "边境官员",
-              "text": "我们需要更智能的监控手段来应对不断变化的走私模式。"
+              "who": "BBC 记者",
+              "text": "政府表示正在加大对危险小艇越境的打击力度。"
             }
           ]
         },
         {
-          "title_zh": "刚果民主共和国政治家因Ebola防疫广播露面遭殴打致死",
-          "summary": "一名高级执政党成员在电台节目中宣传Ebola防疫措施后，于周日遭到袭击并被殴打致死。",
+          "title_zh": "刚果民主共和国政治家因在广播中宣传埃博拉防疫措施遭殴打致死",
+          "summary": "一名高级政治人物在电台节目中推广埃博拉预防措施后遭到袭击身亡，其政党证实了此事。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-09-28",
           "url": "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
-          "overview": "BBC和卫报报道了刚果民主共和国Butembo地区的一起暴力事件。UDPS党的联邦执行委员会代理主席Marie-Celestin Karondwa在电台呼吁防疫后遭袭身亡。这是该地区Ebola疫情爆发后的又一悲剧，凸显了公共卫生危机中的政治暴力风险。",
-          "analysis": "袭击一名宣传防疫的政治家严重阻碍了当地的疾病防控工作。这一事件反映了在资源匮乏地区，公共卫生倡议可能面临来自地方势力的威胁。国际社会需关注此类暴力行为对全球卫生安全的潜在影响。",
+          "overview": "刚果民主共和国布滕博市的一名执政党高级成员在周日遭到暴力袭击并死亡。该受害者是统一民主与社会进步党的联邦执行委员会代理主席，他在电台节目中积极宣传埃博拉疫情的预防措施后不久便遇袭。目前布滕博已成为新的疫情热点地区，这一事件凸显了公共卫生危机期间政治人物面临的人身安全风险急剧上升的严峻现实。",
+          "analysis": "在传染病爆发期间攻击防疫宣传者，不仅阻碍了疾病控制工作，更可能引发社会恐慌和政治动荡。国际社会对此表示强烈谴责，呼吁加强该地区的安全保障与医疗资源投入。",
           "social": [
             {
-              "who": "WHO官员",
-              "text": "我们必须确保医疗工作者和倡导者的人身安全得到保障。"
-            },
-            {
-              "who": "当地居民",
-              "text": "我们需要安全和稳定的环境来应对疫情。"
+              "who": "卫报记者",
+              "text": "该政治家是在推广防疫措施后遭到袭击的。"
             }
           ]
         },
         {
-          "title_zh": "南非两起大规模枪击事件致至少27人死亡，涉及非法淘金地盘争夺",
-          "summary": "约翰内斯堡附近发生疑似非法淘金地盘争夺的枪击案造成17人死亡，开普敦附近另一起烧烤场所枪击案造成10人死亡。",
+          "title_zh": "南非两起大规模枪击事件造成至少27人死亡，警方展开调查",
+          "summary": "约翰内斯堡附近发生疑似非法金矿地盘争夺战致17死，开普敦附近烧烤场所另发生10人遇害。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-09-27",
           "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
-          "overview": "南非警方确认两起大规模枪击事件共导致至少27人死亡。约翰内斯堡附近的案件与非法淘金地盘冲突有关，而开普敦的案件则发生在烧烤场所。这一惨剧再次凸显了南非作为全球谋杀率最高国家之一的严峻治安形势。",
-          "analysis": "这两起事件揭示了南非深层的犯罪问题和社会不平等。警方正在调查腐败和犯罪行为，但执法能力的不足使得此类暴力频发。国际社会对南非安全局势的关注将持续增加。",
+          "overview": "南非警方周日确认，该国两大城市附近分别发生了两起大规模枪击事件，共造成至少27人死亡。其中约翰内斯堡附近的17人死于一场疑似非法金矿地盘争夺战，另有10人在开普敦附近的烧烤场所遇害。这一惨剧发生在南非谋杀率位居全球前列的背景下，警方正在对涉及腐败和警务内部犯罪的问题展开深入调查。",
+          "analysis": "这两起事件再次将南非的暴力犯罪问题推向了国际关注焦点。金矿争夺战与公共场所枪击并存，反映出有组织犯罪与社区安全的深层结构性矛盾。",
           "social": [
             {
-              "who": "南非警察发言人",
-              "text": "我们正在全力追捕嫌疑人，确保正义得到伸张。"
-            },
+              "who": "卫报记者",
+              "text": "南非正应对全球最高的谋杀率之一。"
+            }
+          ]
+        },
+        {
+          "title_zh": "开普敦因猴子粪便污染房屋引发争议，市议会计划移除猴群遭动物保护人士反对",
+          "summary": "两群黑冠猕猴闯入居民家中和商店，市议会宣布将立即围捕并永久迁移至新保护区。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-09-27",
+          "url": "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
+          "overview": "开普敦市议会宣布将“立即”围捕两群与居民反复冲突的黑冠猕猴，计划将其绝育并永久迁移至新建的保护区。然而，这一方案遭到了动物权利活动人士的强烈批评。他们认为猴子应当自由生活，且不应采取如此极端的措施，而应探索更具破坏性的替代方案来解决问题。",
+          "analysis": "城市野生动物管理与人类居住空间的冲突日益成为全球性问题。开普敦的案例展示了在保护动物权益与维护居民生活质量之间寻找平衡点的复杂性。",
+          "social": [
             {
-              "who": "社区领袖",
-              "text": "我们需要加强社区合作来减少暴力事件的发生。"
+              "who": "卫报记者",
+              "text": "动物权利活动人士坚持共存是答案。"
             }
           ]
         }
@@ -2324,60 +2354,60 @@
     "voices": {
       "items": [
         {
-          "name": "李飞飞 (Fei-Fei Li)",
-          "role": "斯坦福大学计算机系教授 / World Labs 创始人",
+          "name": "Michael Casey",
+          "role": "华盛顿大学图书馆与信息科学教授、图书馆创新倡导者",
           "region": "美国",
           "domain": "ai/library",
-          "recent": "聚焦 AI 驱动的科学发现与图书馆智能化，其创办的 World Labs 近期被 AMD 以 82 亿美元收购。",
-          "url": "https://www.feifeili.com"
+          "recent": "关注人工智能在图书馆场景中的深度整合，以及馆员面向未来的专业能力提升与技能重塑路径。",
+          "url": ""
         },
         {
-          "name": "山姆·奥尔特曼 (Sam Altman)",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注 AI Agent 生态构建与前沿模型安全治理，OpenAI 正推进 Aeon 智能体发布并应对多州诉讼压力。",
-          "url": "https://samaltman.substack.com"
-        },
-        {
-          "name": "杰森·黄 (Jensen Huang)",
-          "role": "英伟达 CEO",
-          "region": "美国/台湾",
-          "domain": "ai",
-          "recent": "致力于扩展全球 AI 算力基础设施，近期关注中国芯片市场开放与英伟达生态在亚太地区的布局。",
-          "url": "https://www.nvidia.com/en-us/gpu/architects/jensen-huang"
-        },
-        {
-          "name": "戴密斯·哈萨比斯 (Demis Hassabis)",
-          "role": "Google DeepMind 联合创始人兼 CEO",
-          "region": "英国",
-          "domain": "ai/library",
-          "recent": "深耕 AI 在生命科学领域的应用，推动 AlphaFold 等工具助力实验室科学发现与知识管理。",
-          "url": "https://deepmind.google/about/people/demis-hassabis/"
-        },
-        {
-          "name": "杨立昆 (Yann LeCun)",
-          "role": "Meta AI 首席科学家 / NYU 教授",
-          "region": "法国/美国",
-          "domain": "ai",
-          "recent": "倡导开源基础模型路线，探讨大语言模型的认知架构与安全边界问题，推动 AI 技术透明化。",
-          "url": "https://yannlecun.com"
-        },
-        {
-          "name": "列克斯·弗里德曼 (Lex Fridman)",
-          "role": "知名播客主持人 / AI 行业观察者",
-          "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "通过深度对话追踪 AI 行业技术趋势与伦理争议，近期关注 OpenAI、Anthropic 等公司的 Agent 战略与安全议题。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "凯伦·布洛姆格伦 (Karen Blomgren)",
-          "role": "美国图书馆协会 (ALA) 主席",
-          "region": "美国",
+          "name": "Karen Blouet",
+          "role": "国际图书馆设计领域知名专家、未来空间规划顾问",
+          "region": "美国/国际",
           "domain": "library",
-          "recent": "推动公共图书馆数字化转型与全民阅读服务升级，关注智慧图书馆建设标准及馆社共荐优质书目的推广。",
-          "url": "https://www.alabooks.org"
+          "recent": "聚焦图书馆建筑与空间的未来改造策略，探讨如何以实用方式应对图书馆翻新与功能转型需求。",
+          "url": ""
+        },
+        {
+          "name": "Jane Poynter",
+          "role": "华盛顿大学数据素养与图书馆教育学者",
+          "region": "美国",
+          "domain": "ai/library",
+          "recent": "致力于将算法素养纳入图书馆信息素养框架，推动馆员和公众理解人工智能技术背后的逻辑与伦理。",
+          "url": ""
+        },
+        {
+          "name": "陈超美",
+          "role": "清华大学信息资源管理与图书馆学教授、中国信息素养教育领军人物",
+          "region": "中国",
+          "domain": "ai/library",
+          "recent": "关注人工智能时代的信息素养教育标准建设，推动算法素养与学术诚信在高校图书馆教学中的融合。",
+          "url": ""
+        },
+        {
+          "name": "刘少君",
+          "role": "清华大学图书馆馆长、高校智慧图书馆建设实践者",
+          "region": "中国",
+          "domain": "library",
+          "recent": "探索高校智慧图书馆建设与移动阅读推广新模式，推动数字技术与传统阅读服务的深度融合。",
+          "url": ""
+        },
+        {
+          "name": "王军",
+          "role": "中国国家图书馆馆长、国家层面图书馆数字化战略负责人",
+          "region": "中国",
+          "domain": "ai/library",
+          "recent": "主导全国智慧图书馆建设推广，关注数字人、机器人员工等新技术在公共图书馆服务中的应用前景。",
+          "url": ""
+        },
+        {
+          "name": "Brian Lam",
+          "role": "《图书馆杂志》主编、出版与图书馆行业媒体影响力人物",
+          "region": "美国/国际",
+          "domain": "library",
+          "recent": "聚焦图书馆行业的开放教育资源（OER）合作趋势，以及馆员与学者协同引领教育内容创新的实践。",
+          "url": ""
         }
       ]
     },
