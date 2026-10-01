@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T10:16:47+08:00",
+  "generated_at": "2026-10-01T11:22:17+08:00",
   "date": "2026-10-01",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-01 10:16",
-    "ai": "2026-10-01 10:16",
-    "voices": "2026-10-01 10:16",
-    "github": "2026-10-01 08:48",
-    "libraries": "2026-10-01 10:16",
+    "ai": "2026-10-01 11:22",
+    "voices": "2026-10-01 11:22",
+    "github": "2026-10-01 11:22",
+    "libraries": "2026-10-01 11:22",
     "sports": "2026-10-01 08:48",
     "academic": "2026-09-30 06:40"
   },
@@ -1774,246 +1774,147 @@
     "github": {
       "items": [
         {
-          "title_zh": "AIHOT - AI热点日报自动生成框架",
+          "title_zh": "AIHOT - 行业热点日报自动生成框架",
           "eng": "KKKKhazix/AIHOT",
-          "summary": "一个自动抓取热点、生成行业日报的网站框架，可自定义信源与筛选标准。",
+          "summary": "一个自动抓取信源、筛选热点并生成每日简报的网站框架，可自定义信息源和精选标准。",
           "source": "GitHub",
-          "stars": 4077,
+          "stars": 4130,
           "lang": "TypeScript",
           "published": "2026-09-28",
           "url": "https://github.com/KKKKhazix/AIHOT",
-          "overview": "AIHOT是一个开箱即用的热点聚合与日报生成框架，支持自定义信息源和精选规则。用户只需替换信源配置，即可快速搭建属于自己的行业热点追踪站。项目采用TypeScript构建，具备完整的自动化工作流，适合内容创作者、媒体运营者和行业分析师使用。",
-          "analysis": "在AI内容生产日益普及的背景下，该框架将热点采集与日报生成标准化，大幅降低了个人/团队建立信息监控系统的门槛。4077星的超高关注度反映了市场对AI辅助内容生产的强烈需求。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "自定义信源和筛选标准的设计很灵活，适合快速搭建行业热点站"
-            },
-            {
-              "who": "研究者",
-              "text": "自动化日报生成工作流对信息监控场景非常有价值"
-            }
-          ]
+          "overview": "AIHOT 是一个开源的 AI 热点日报生成框架，支持自定义信源接入和精选规则配置。它能自动抓取多个信息渠道的内容，通过 AI 筛选出行业相关热点，并生成结构化的每日简报。项目采用 TypeScript 构建，适合快速搭建个人或团队的行业情报站。",
+          "analysis": "4130 stars 说明社区认可度高。对于内容创作者、产品经理和运营人员来说，这是一个高效的行业情报收集工具，能大幅减少手动整理信息的时间成本。框架化设计使其可灵活适配不同垂直领域。"
         },
         {
-          "title_zh": "Dots - 不被封禁的AI Agent浏览器",
+          "title_zh": "dots - AI Agent 自带浏览器的开源方案",
           "eng": "feder-cr/dots",
-          "summary": "一个拥有自己浏览器的开源AI Agent，专门解决Agent被网站屏蔽的问题。",
+          "summary": "一个拥有独立浏览器能力的开源 AI Agent，不会被网站屏蔽，可用于自动化网页操作。",
           "source": "GitHub",
-          "stars": 1932,
+          "stars": 1937,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/feder-cr/dots",
-          "overview": "Dots是一个开源的AI Agent项目，核心能力是拥有自己的浏览器实例，能够有效绕过网站的反爬虫和封禁机制。该项目解决了当前AI Agent在实际网页操作中频繁被屏蔽的关键痛点，支持自动化浏览、数据采集等多种场景。",
-          "analysis": "随着AI Agent与真实网页交互的需求增长，反封禁能力成为刚需。Dots以1932星的高关注度证明了这一方向的市场需求，对开发者构建可靠的Agent工作流有重要参考价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "AI Agent的浏览器不被封禁是刚需，这个项目解决了核心痛点"
-            },
-            {
-              "who": "研究者",
-              "text": "开源方案让Agent在真实网页上的可用性大幅提升"
-            }
-          ]
+          "overview": "dots 是一个 Python 实现的开源 AI Agent 项目，核心亮点是其内置的浏览器能力——Agent 可以自主浏览网页而不被反爬机制拦截。这解决了当前大多数 AI Agent 在真实网页环境中操作受限的问题，支持自动化信息收集、数据抓取等场景。",
+          "analysis": "1937 stars 且发布时间极新（2026-09-29），增长势头强劲。浏览器能力是 AI Agent 落地的关键瓶颈之一，这个项目直接解决了这个问题，对开发者构建自主型 AI 应用有重要参考价值。"
         },
         {
-          "title_zh": "JevGrep - AI编码代理的代码搜索CLI工具",
+          "title_zh": "jevgrep - 面向编码 Agent 的代码搜索 CLI",
           "eng": "dzhng/jevgrep",
-          "summary": "通过自然语言提问来查找代码，专为AI编程代理设计的CLI工具。",
+          "summary": "通过自然语言描述代码功能来查找相关文件和上下文，专为编程 Agent 设计的命令行工具。",
           "source": "GitHub",
-          "stars": 1905,
+          "stars": 1909,
           "lang": "TypeScript",
           "published": "2026-09-26",
           "url": "https://github.com/dzhng/jevgrep",
-          "overview": "JevGrep是一个面向AI编程代理的命令行工具，利用Jev技术智能发现相关文件和源码上下文。用户只需描述代码功能意图，即可快速定位目标代码片段，极大提升了AI辅助编码的效率。项目采用TypeScript开发，与主流AI编码工具链无缝集成。",
-          "analysis": "随着Cursor、Copilot等AI编程工具的普及，如何让Agent更精准地理解代码库成为关键问题。JevGrep以1905星证明了这一方向的高需求，是开发者提升AI编码效率的实用利器。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "让AI代理通过自然语言查找代码，比传统grep高效得多"
-            },
-            {
-              "who": "研究者",
-              "text": "Jev技术为代码检索带来了语义理解的新范式"
-            }
-          ]
+          "overview": "jevgrep 是一个 TypeScript CLI 工具，利用 Jev（一种语义搜索技术）帮助 AI 编码 Agent 理解项目结构并定位相关代码。用户只需描述代码做什么，就能找到对应的文件和上下文信息。这显著降低了 Agent 在大型项目中导航和定位代码的门槛。",
+          "analysis": "1909 stars 且发布时间新，说明需求旺盛。随着 AI 编码助手（如 Cursor、Copilot）的普及，如何让 Agent 更精准地理解项目结构成为关键问题。jevgrep 提供了轻量级的解决方案，适合集成到各类开发工作流中。"
         },
         {
-          "title_zh": "Claude Code会话监控助手 Coucou",
+          "title_zh": "coucou - Claude Code 会话监控小助手",
           "eng": "Louis-CFM/coucou",
-          "summary": "一个轻量级桌面小工具，实时监控你的Claude Code会话状态。",
+          "summary": "一个 macOS/Windows 上的小工具，实时监控你的 Claude Code 会话状态并显示在屏幕顶部或 notch 区域。",
           "source": "GitHub",
-          "stars": 1213,
+          "stars": 1440,
           "lang": "Swift",
           "published": "2026-09-27",
           "url": "https://github.com/Louis-CFM/coucou",
-          "overview": "Coucou是一个运行在macOS或Windows顶部的轻量级桌面助手，专门用于监控Claude Code的会话状态。它能在开发者进行AI辅助编码时提供实时反馈和状态追踪，帮助用户更好地管理长会话中的上下文切换和多任务处理。",
-          "analysis": "随着AI编程工具深度嵌入开发工作流，对会话状态的可视化监控需求日益增长。Coucou以1213星证明了这一细分场景的旺盛需求，是开发者提升编码效率的实用小工具。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Claude Code长会话管理是个痛点，这个小工具很有用"
-            },
-            {
-              "who": "研究者",
-              "text": "桌面端实时监控为AI编程体验提供了新的交互维度"
-            }
-          ]
+          "overview": "coucou 是一个用 Swift 开发的轻量级桌面小工具，可以监控 Claude Code 的会话状态。在 macOS 上显示在 notch（灵动岛）区域，Windows 上显示在屏幕顶部。它能实时反映 AI 编码助手的运行状态、当前任务和进度信息。",
+          "analysis": "1440 stars 且使用 Swift 开发说明对 Apple 生态用户有吸引力。这类工具填补了 AI 编程助手与开发者日常工作流之间的信息差，让开发者能一眼掌握 AI 的当前工作状态，提升协作效率。"
         },
         {
-          "title_zh": "JEFF - 零样本分类模型微调库",
+          "title_zh": "jeff - Qwen3.5/Gemma 4 零样本分类微调模型",
           "eng": "firelex/jeff",
-          "summary": "基于Qwen3.5和Gemma 4的零样本分类模型微调方案。",
+          "summary": "为 Qwen3.5 和 Gemma 4 提供的零样本文本分类微调方案，开箱即用。",
           "source": "GitHub",
-          "stars": 1189,
+          "stars": 1198,
           "lang": "Python",
           "published": "2026-09-28",
           "url": "https://github.com/firelex/jeff",
-          "overview": "JEFF提供了基于Qwen3.5和Gemma 4的预训练模型微调方案，专注于零样本分类任务。项目为开发者提供开箱即用的分类能力，支持多种数据格式和评估指标，可快速应用于文本分类、情感分析等场景。采用Python生态开发，与主流ML工具链兼容。",
-          "analysis": "在开源大模型生态中，针对特定任务的微调方案是刚需。JEFF以1189星证明了零样本分类这一方向的实用价值，为开发者提供了比从头训练更高效的替代方案。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "基于Qwen3.5和Gemma 4的微调方案很实用，开箱即用"
-            },
-            {
-              "who": "研究者",
-              "text": "零样本分类是NLP的基础能力，这个库降低了使用门槛"
-            }
-          ]
+          "overview": "jeff 项目提供了基于 Qwen3.5 和 Gemma 4 的零样本文本分类微调模型。用户无需大量标注数据，即可快速构建自定义的分类任务。支持多种主流开源模型的适配，提供完整的训练和使用文档。",
+          "analysis": "1198 stars 说明社区对轻量级 AI 分类方案需求大。零样本分类是实际业务中高频场景（如内容审核、意图识别），这个项目降低了使用大模型做分类任务的门槛，适合需要快速部署 NLP 功能的开发者。"
         },
         {
-          "title_zh": "Claude Opus 5.5病毒视频合集",
-          "eng": "yihui-dev/awesome-opus5-5-videos",
-          "summary": "持续更新的Claude Opus 5.5生成的病毒级视频及对应提示词集合。",
+          "title_zh": "logo-design-skill - AI Agent 的 Logo 设计技能包",
+          "eng": "kaankiziltug/logo-design-skill",
+          "summary": "面向 Claude、Gemini CLI、Codex 等 AI Agent 的综合 Logo 设计技能：原则、流程、SVG 工艺和 1400+ 参考图库。",
           "source": "GitHub",
-          "stars": 1088,
+          "stars": 1140,
+          "lang": "HTML",
+          "published": "2026-09-26",
+          "url": "https://github.com/kaankiziltug/logo-design-skill",
+          "overview": "这是一个为 AI Agent 设计的 Logo 设计技能包，包含完整的设计原则、工作流程、SVG 制作技巧和超过 1400 个参考 Logo。支持 Claude、Gemini CLI、Codex 等多个 AI 平台调用。旨在让 AI Agent 能够独立完成专业级的品牌标识设计任务。",
+          "analysis": "1140 stars 且发布时间新，说明市场对 AI 辅助创意设计的关注度极高。Logo 设计是品牌建设中高频需求但门槛较高的领域，这个技能包将专业知识系统化地封装给 AI 使用，对设计师和创业者都有实用价值。"
+        },
+        {
+          "title_zh": "awesome-opus5-5-videos - Claude Opus 5.5 病毒视频合集",
+          "eng": "yihui-dev/awesome-opus5-5-videos",
+          "summary": "持续更新的 Claude Opus 5.5 制作的病毒视频合集，附带原始提示词和实时复刻演示。",
+          "source": "GitHub",
+          "stars": 1102,
           "lang": "",
           "published": "2026-09-27",
           "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-          "overview": "这是一个持续增长的资源库，收录了使用Claude Opus 5.5生成的病毒级视频及其背后的提示词。每个视频都提供原始版本和实时重做的对比展示，帮助创作者学习顶级AI视频生成技巧。项目定期更新，是了解Opus 5.5创作能力的最佳窗口。",
-          "analysis": "作为学习资源类项目，1088星的高关注度反映了市场对AI视频生成技术的强烈兴趣。该合集不仅提供成品参考，更关键的是公开了提示词，让创作者能够复现和迭代自己的作品。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "提示词公开是最大的价值，可以直接拿来学习和改进"
-            },
-            {
-              "who": "研究者",
-              "text": "病毒级视频的生成技巧对AI内容创作有重要参考价值"
-            }
-          ]
+          "overview": "这是一个持续更新的资源仓库，收集了由 Claude Opus 5.5 生成的病毒式传播视频及其背后的提示词。每个视频都提供原始版本和实时复刻对比，用户可以在 Skillry 上观看。定期更新，是学习 AI 视频生成技术的最佳实践素材库。",
+          "analysis": "1102 stars 说明社区对 AI 视频生成内容高度关注。作为学习资源，它提供了从提示词到成品的完整链路，帮助创作者理解 Opus 5.5 的视频生成能力边界和最佳实践，是 AI 创意领域的宝贵参考资料。"
         },
         {
-          "title_zh": "Company Brain - Slack团队记忆助手",
+          "title_zh": "onetake - Claude Agent 连续运动影片生成技能",
+          "eng": "feitangyuan/onetake",
+          "summary": "一个 Claude Agent Skill，能生成无剪辑断点的连续运动影片，每个节拍自然衔接前一个镜头，适用于产品发布和特性演示。",
+          "source": "GitHub",
+          "stars": 1059,
+          "lang": "Python",
+          "published": "2026-09-26",
+          "url": "https://github.com/feitangyuan/onetake",
+          "overview": "onetake 是一个 Python 实现的 Claude Agent Skill，专注于生成连续运动影片——所有镜头无缝衔接、单一连续机位。它使用预言家机制测量连续性质量，特别适合产品发布视频和功能演示场景。无需传统剪辑流程，Agent 直接输出完整影片。",
+          "analysis": "1059 stars 且发布时间新。在 AI 视频领域，"
+        },
+        {
+          "title_zh": "floorplan-3d - AI 驱动的户型图三维可视化",
+          "eng": "wy51ai/floorplan-3d",
+          "summary": "基于 HTML/JavaScript 的户型图三维可视化项目，将二维平面图转化为交互式 3D 空间展示。",
+          "source": "GitHub",
+          "stars": 980,
+          "lang": "HTML",
+          "published": "2026-09-29",
+          "url": "https://github.com/wy51ai/floorplan-3d",
+          "overview": "floorplan-3d 是一个用 HTML/JavaScript 构建的户型图三维可视化项目，能够将二维建筑平面图转化为可交互的 3D 空间展示。支持多种户型格式的导入和渲染，提供流畅的视角切换和空间探索体验。适合房地产、室内设计等需要三维展示的领域。",
+          "analysis": "980 stars 且发布时间极新（2026-09-29），增长迅速。Web 端三维可视化一直是技术难点，这个项目用纯前端实现降低了使用门槛。对于房产展示、室内设计和建筑教育场景都有实用价值，是 WebGL/Three.js 技术的优秀实践案例。"
+        },
+        {
+          "title_zh": "universal-modder - Claude Code 通用游戏修改工具",
+          "eng": "rehan-remade/universal-modder",
+          "summary": "让 Claude Code 能修改任何 PC 游戏的技能包：逆向工程、生成艺术/3D/音频、游戏内测试和展示视频。",
+          "source": "GitHub",
+          "stars": 894,
+          "lang": "Python",
+          "published": "2026-09-30",
+          "url": "https://github.com/rehan-remade/universal-modder",
+          "overview": "universal-modder 是一个 Python 项目，通过 Skills、工具和 fal MCP 让 Claude Code 能够修改几乎所有 PC 游戏。功能涵盖逆向工程分析、AI 生成的艺术/3D/音频内容、游戏内测试自动化和展示视频制作。支持多种游戏的通用适配策略。",
+          "analysis": "894 stars 且发布时间最新（2026-09-30）。游戏模组社区是 AI Agent 落地的活跃场景之一，这个项目展示了 AI 在复杂软件逆向和创意生成方面的能力边界。对于游戏开发者和独立创作者来说，这是一个强大的辅助工具，能大幅降低模组制作的技术门槛。"
+        },
+        {
+          "title_zh": "company-brain - Slack 团队记忆 AI 助手",
           "eng": "supermemoryai/company-brain",
-          "summary": "开源的团队记忆系统，Slack中的队友能记住团队所有对话并执行工作。",
+          "summary": "一个驻留在 Slack 中的 AI 队友，记住团队所有对话内容，并能主动执行工作任务。",
           "source": "GitHub",
           "stars": 873,
           "lang": "TypeScript",
           "published": "2026-09-25",
           "url": "https://github.com/supermemoryai/company-brain",
-          "overview": "Company Brain是一个开源的企业级记忆系统，部署在Slack中作为团队成员的AI助手。它能记住团队的所有对话历史，并能够主动执行工作任务。项目采用TypeScript开发，支持企业级数据安全和权限管理，适合需要知识沉淀和协作效率提升的团队使用。",
-          "analysis": "随着远程办公和异步协作成为常态，团队知识的持续积累和检索变得至关重要。Company Brain以873星证明了这一方向的高需求，为企业AI应用提供了实用的落地方案。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Slack中嵌入记忆系统的设计很巧妙，团队协作效率提升明显"
-            },
-            {
-              "who": "研究者",
-              "text": "企业级知识管理+AI执行是未来办公的核心方向"
-            }
-          ]
+          "overview": "company-brain 是一个开源的 Slack AI 助手项目，核心功能是记住团队的所有对话内容并能在需要时主动执行工作任务。它作为"
         },
         {
-          "title_zh": "Universal Modder - 游戏修改通用工具包",
-          "eng": "rehan-remade/universal-modder",
-          "summary": "让Claude Code能修改几乎所有PC游戏的技能、工具和MCP集成方案。",
-          "source": "GitHub",
-          "stars": 802,
-          "lang": "Python",
-          "published": "2026-09-30",
-          "url": "https://github.com/rehan-remade/universal-modder",
-          "overview": "Universal Modder是一个面向游戏修改的通用工具包，通过技能、工具和fal MCP让Claude Code能够识别并修改几乎所有PC游戏。支持逆向工程分析、AI生成艺术/3D/音频、游戏内测试和展示视频制作等功能，将AI能力深度融入游戏开发工作流。",
-          "analysis": "游戏修改是AI应用落地的热门场景之一。该项目以802星证明了AI辅助游戏开发的巨大潜力，通过MCP集成方案让Claude Code具备了前所未有的游戏理解与修改能力。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "让AI代理能修改任何PC游戏，这个思路非常前沿"
-            },
-            {
-              "who": "研究者",
-              "text": "逆向工程+AI生成的组合为游戏开发带来了新的可能性"
-            }
-          ]
-        },
-        {
-          "title_zh": "Lemo OpusCar - 43种影片风格提示词库",
+          "title_zh": "lemo-opuscar - Claude Opus 5.5 x 43 种影片风格合集",
           "eng": "lemomo-ai/lemo-opuscar",
-          "summary": "43种可复用的AI视频风格提示词，每个风格附带纯代码生成的样片。",
+          "summary": "43 种可复用影片风格，每种包含风格提示词和纯代码生成的样片，附带导演与技术指南。",
           "source": "GitHub",
-          "stars": 682,
+          "stars": 687,
           "lang": "JavaScript",
           "published": "2026-09-26",
           "url": "https://github.com/lemomo-ai/lemo-opuscar",
-          "overview": "Lemo OpusCar收录了43种可复用的AI视频风格提示词，每种风格都附带由Claude Opus 5.5纯代码生成的样片。用户可以选择喜欢的风格、带入自己的故事内容，让AI代理担任导演完成创作。项目同时提供导演指南和技术参考文档。",
-          "analysis": "作为学习资源类项目，682星证明了市场对AI视频创作技巧的强烈需求。提示词+样片的组合模式极大降低了学习成本，是创作者快速掌握Opus 5.5视频能力的最佳入门路径。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "43种风格提示词直接可用，每个都附带代码生成的样片参考"
-            },
-            {
-              "who": "研究者",
-              "text": "纯代码生成视频的技术路线为AI创作提供了新的可能性"
-            }
-          ]
-        },
-        {
-          "title_zh": "Motion Video Kit - AI商业视频制作工具包",
-          "eng": "echris6/motion-video-kit",
-          "summary": "Claude Code技能套件，提供AI辅助商业视频的完整制作流程。",
-          "source": "GitHub",
-          "stars": 568,
-          "lang": "Python",
-          "published": "2026-09-27",
-          "url": "https://github.com/echris6/motion-video-kit",
-          "overview": "Motion Video Kit是一个面向商业视频制作的Claude Code技能套件，包含独立批评循环、来自28部产品发布影片的运动原则、质量评估标准、声音设计指南和Three.js动画模式等。项目为AI辅助商业视频创作提供了从策划到执行的完整工具链。",
-          "analysis": "在AI视频制作领域，Motion Video Kit以568星证明了专业级商业视频AI化的需求。其系统化的方法论（批评循环+运动原则+质量评估）为创作者提供了可复制的最佳实践框架。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "从28部产品发布影片提炼的运动原则非常有参考价值"
-            },
-            {
-              "who": "研究者",
-              "text": "独立批评循环的设计让AI视频质量有了可量化的评估标准"
-            }
-          ]
-        },
-        {
-          "title_zh": "HypoArena - 科学假设发现工作台",
-          "eng": "OpSafari/hypoarena",
-          "summary": "基于证据图的科学假设发现系统，支持生成-辩论-演化循环。",
-          "source": "GitHub",
-          "stars": 545,
-          "lang": "Python",
-          "published": "2026-09-30",
-          "url": "https://github.com/OpSafari/hypoarena",
-          "overview": "HypoArena是一个科学假设发现的工作台，核心能力包括基于证据的假设图构建、合成文献生成（含植入因果链）、可插拔离线适配器上的生成-辩论-演化循环、Elo锦标赛恢复技能排序等。项目采用Python开发，支持贝叶斯证据累积和可复现性验证。",
-          "analysis": "在AI科学研究领域，HypoArena以545星证明了AI辅助科学发现的高需求。其系统化的假设验证框架（辩论+演化+Elo排序）为科研工作者提供了全新的研究方法论工具。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "生成-辩论-演化循环的设计让AI科学研究有了可操作的工作流"
-            },
-            {
-              "who": "研究者",
-              "text": "Elo锦标赛恢复技能排序的方法对学术评估有重要参考价值"
-            }
-          ]
+          "overview": "lemo-opuscar 是一个 JavaScript 项目，提供 43 种可复用的影片风格模板。每种风格包含完整的提示词和由 Claude Opus 5.5 纯代码生成的样片。用户可以选择喜欢的风格、带入自己的故事，让 AI Agent 担任导演完成创作。附带详细的技术指南帮助理解实现原理。",
+          "analysis": "687 stars 说明社区对 AI 视频创意工具需求旺盛。43 种风格的规模提供了丰富的选择空间，从提示词到成品的完整链路降低了学习成本。对于短视频创作者和 AI 内容探索者来说，这是一个高效的创作加速器。"
         }
       ]
     },
@@ -2110,59 +2011,59 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
-          "region": "美国",
+          "name": "Sundar Pichai",
+          "role": "Google CEO",
+          "region": "美国/全球",
           "domain": "ai",
-          "recent": "关注 AI 安全治理与模型能力边界，回应行业黑客事件及监管压力。",
+          "recent": "主导 Google AI 战略，推动 Gemini 系列模型研发及搜索产品智能化升级",
           "url": ""
         },
         {
           "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
-          "region": "英国/美国",
+          "role": "DeepMind CEO / Google 联合创始人",
+          "region": "英国",
           "domain": "ai",
-          "recent": "推动 Gemini 系列模型发布，强调可信网络安全防御场景下的受限访问策略。",
+          "recent": "聚焦通用人工智能（AGI）研究，推动 AlphaFold 及 Gemini 模型在科学领域的应用",
+          "url": ""
+        },
+        {
+          "name": "吴建中",
+          "role": "中国图书馆学会名誉理事长 / 院士",
+          "region": "中国",
+          "domain": "library",
+          "recent": "关注智慧图书馆建设标准与行业人才培养，推动图书馆数字化转型战略",
+          "url": ""
+        },
+        {
+          "name": "Sarah Miller",
+          "role": "美国图书馆协会（ALA）主席",
+          "region": "美国",
+          "domain": "library",
+          "recent": "倡导图书馆未来翻新愿景，强调社区连接与服务创新在公共空间中的融合",
           "url": ""
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人",
+          "role": "知名播客主持人 / YouTube 创作者",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "持续探讨人工智能对人类认知、社会结构及未来发展的深层影响。",
-          "url": ""
+          "domain": "podcast/ai",
+          "recent": "主持深度对话节目探讨人工智能安全、AGI 进展及科技对社会的影响",
+          "url": "https://www.youtube.com/@lexfridman"
         },
         {
-          "name": "李开复",
-          "role": "AI 科学家/创新工场创始人",
-          "region": "中国",
-          "domain": "ai",
-          "recent": "聚焦 AI 技术在教育及图书馆领域的赋能应用，推动智能阅读与知识服务升级。",
-          "url": ""
-        },
-        {
-          "name": "吴岩",
-          "role": "高校数字教育与智慧图书馆建设推动者",
+          "name": "王军",
+          "role": "上海图书馆馆长 / 全国公共图书馆联盟秘书长",
           "region": "中国",
           "domain": "library",
-          "recent": "关注高校智慧图书馆建设与移动阅读推广新模式，促进数字化资源普及。",
+          "recent": "探索智慧图书馆新空间建设，推动高校与公共图书馆的移动阅读推广新模式",
           "url": ""
         },
         {
-          "name": "Michael Burton",
-          "role": "美国国会图书馆馆长/CEO",
-          "region": "全球（总部美国）",
-          "domain": "library",
-          "recent": "致力于推动国际图书馆合作与全民阅读服务，关注中俄等跨国图书馆论坛议题。",
-          "url": ""
-        },
-        {
-          "name": "Andrew Ng",
-          "role": "AI 教育先驱/DeepLearning.AI 创始人",
-          "region": "新加坡/美国",
+          "name": "Timnit Gebru",
+          "role": "AI 伦理研究者 / DeepMind 前首席科学家",
+          "region": "全球",
           "domain": "ai",
-          "recent": "倡导 AI 技术普惠化，关注人工智能在公共图书馆及终身学习平台中的落地应用。",
+          "recent": "致力于人工智能公平性与安全性研究，倡导开放科学与负责任的 AI 治理",
           "url": ""
         }
       ]
