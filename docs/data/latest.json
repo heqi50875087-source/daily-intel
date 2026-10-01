@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:29:13+08:00",
+  "generated_at": "2026-10-01T21:38:25+08:00",
   "date": "2026-10-01",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,69 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-01 20:29",
-    "ai": "2026-10-01 20:29",
-    "voices": "2026-10-01 20:29",
-    "github": "2026-10-01 20:29",
-    "libraries": "2026-10-01 19:55",
-    "sports": "2026-10-01 20:29",
+    "hot": "2026-10-01 21:38",
+    "ai": "2026-10-01 21:38",
+    "voices": "2026-10-01 21:38",
+    "github": "2026-10-01 21:38",
+    "libraries": "2026-10-01 21:38",
+    "sports": "2026-10-01 21:38",
     "academic": "2026-09-30 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "AI「读心」工具可通过脑扫描重建你正在看的图像",
+          "eng": "An AI \"mind-reading\" tool can reconstruct what you're looking at based on a brain scan",
+          "summary": "一项新AI工具能通过分析脑扫描推测用户正在观看的内容，并以惊人精度重建对应图像；该工具还可反向预测人脑活动。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-01",
+          "tags": [
+            "人工智能",
+            "神经科学",
+            "脑机接口"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+          "overview": "研究人员开发了一种新型AI工具，能够从功能性磁共振成像(fMRI)脑扫描数据中推断被试者正在观看的图像内容，并以高保真度重建原始视觉场景。该研究实现了双向映射：既可以从图像预测脑活动模式，也可以从脑活动反推视觉输入。实验结果表明，这种跨模态转换的精度远超预期，为神经科学和AI融合应用开辟了全新方向。",
+          "analysis": "这项技术标志着AI与神经科学的深度融合进入实用阶段。其潜在应用包括辅助残障人士恢复视觉感知、提升人机交互体验等，但也引发隐私伦理争议——脑扫描数据属于高度敏感的生物信息。从技术路线看，这代表了多模态大模型在生物信号处理领域的重大突破。",
+          "social": [
+            {
+              "who": "神经科学家",
+              "text": "这种双向映射能力令人震撼，但fMRI的时间分辨率仍是瓶颈，未来可能需要结合EEG等更快模态来平衡精度与速度。"
+            },
+            {
+              "who": "AI工程师",
+              "text": "跨模态重建的精度已经很高了，不过实际部署还需要解决脑扫描设备的普及性和数据标准化问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Satlyt获800万美元融资，要在卫星上运行AI——想做轨道计算的Android",
+          "eng": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "summary": "由前Google和SpaceX产品经理创立的Satlyt公司获得800万美元融资，旨在成为轨道计算领域的开放软件平台，对标SpaceX封闭的一体化方案。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-10-01",
+          "tags": [
+            "人工智能",
+            "太空科技",
+            "创业投资"
+          ],
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "overview": "Satlyt是一家由前Google和SpaceX产品经理创立的初创公司，获得800万美元融资，目标是成为轨道计算领域的开放软件平台。与SpaceX封闭的一体化方案不同，Satlyt提供可在多家卫星公司硬件上运行的开源AI软件，类似于Android在移动设备生态中的角色定位。这一策略有望降低太空AI应用的门槛，推动更多商业卫星部署智能处理能力。",
+          "analysis": "将AI能力前移至轨道层面而非依赖地面处理，代表了太空数据处理的范式转变。传统方案需要卫星将原始数据传回地球再进行分析，延迟和带宽限制严重制约了实时应用。Satlyt的开放平台策略如果成功，可能催生一个全新的太空AI生态——从气象预测到自主导航再到安全监控，应用场景几乎无限。",
+          "social": [
+            {
+              "who": "太空行业分析师",
+              "text": "开放平台vs封闭方案的选择将决定这个领域的竞争格局，类似Android和iOS之争，但太空场景有其独特性。"
+            },
+            {
+              "who": "创业者",
+              "text": "800万融资在AI创业中不算多，但太空+AI的交叉领域目前参与者很少，先发优势很重要。"
+            }
+          ]
+        },
         {
           "title_zh": "Elon Musk旗下Grokipedia v0.3更新：AI版维基百科开始整合编辑",
           "eng": "Elon Musk's Grokipedia has a 'newly refreshed' design",
@@ -745,58 +797,6 @@
             {
               "who": "科技行业分析师",
               "text": "这一政策信号表明美国两党在AI问题上的共识正在瓦解，术语之争背后是更深层的治理理念分歧。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI最新功能直接挑战应用商店商业模式",
-          "eng": "OpenAI's latest features take direct aim at the app store model",
-          "summary": "OpenAI正在构建替代传统应用商店的生态系统，将ChatGPT转变为软件发现和使用的平台，既服务于人类用户也服务AI智能体。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-09-29",
-          "tags": [
-            "产品战略",
-            "应用商店",
-            "ChatGPT"
-          ],
-          "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-          "overview": "OpenAI正在构建替代传统应用商店的生态系统，将ChatGPT转变为软件发现和使用的平台。这一战略不仅服务于人类用户，也面向AI智能体开放软件分发渠道。此举直接挑战Apple和Google主导的应用商店商业模式，可能重塑软件分发的权力格局。",
-          "analysis": "OpenAI的'应用内商店'策略如果成功实施，将绕过传统平台的抽成机制，为开发者创造更友好的收入模式。但这一战略面临与现有平台利益冲突的挑战，需要平衡开放性与安全性之间的关系。",
-          "social": [
-            {
-              "who": "软件开发者",
-              "text": "AI原生应用商店如果成熟，可能成为独立于iOS和Android之外的第三分发渠道，这对整个移动生态是颠覆性的。"
-            },
-            {
-              "who": "平台经济分析师",
-              "text": "OpenAI的野心在于将ChatGPT从对话工具升级为软件平台，这需要解决信任、安全和用户体验等多重挑战。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI发布Dots，正面挑战Meta的Muse AI助手",
-          "eng": "OpenAI launches Dots, its Muse competitor",
-          "summary": "OpenAI在DevDay上推出始终在线的AI助手Dots，可跨应用后台运行并学习用户偏好，由GPT-6 Astra模型驱动。这是OpenAI对Meta热门Muse AI的直接回应。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-09-29",
-          "tags": [
-            "OpenAI",
-            "AI助手",
-            "产品发布"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-          "overview": "OpenAI在周二DevDay主题演讲中正式推出Dots，定位为始终在线的AI助手。该产品可在后台跨多个连接的应用运行，学习用户偏好并执行各类任务。驱动模型为GPT-6 Astra，这是目前OpenAI最强大的模型之一。Dots直接对标Meta近期推出的Muse AI产品，标志着AI助手赛道竞争进一步白热化。",
-          "analysis": "Dots的推出显示OpenAI正从单一聊天界面转向多应用、后台运行的智能体架构，这与行业趋势一致——AI正在从对话工具演变为操作系统级服务。与Meta Muse的竞争将重塑AI助手的用户体验标准。值得注意的是，Dots强调'几乎能做任何事'的定位可能引发隐私和安全讨论。",
-          "social": [
-            {
-              "who": "产品分析师",
-              "text": "始终在线的后台助手模式是AI产品的重大范式转变，但需要解决持续运行的资源消耗和隐私边界问题。"
-            },
-            {
-              "who": "工程师",
-              "text": "跨应用后台运行对系统架构要求极高，GPT-6 Astra能否支撑这种实时性值得观察。"
             }
           ]
         }
@@ -1530,314 +1530,163 @@
     "sports": {
       "items": [
         {
-          "title_zh": "C罗离开葡萄牙国家队集训营，主帅否认存在裂痕",
-          "eng": "Ronaldo leaves Portugal camp after coach denies rift",
-          "summary": "克里斯蒂亚诺·罗纳尔多宣布已离开葡萄牙国家队集训营，并表示将在适当时候解释原因。主教练若热·耶稣随即公开否认与球员之间存在任何分歧。",
-          "source": "BBC Football",
-          "published": "2026-09-30",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw7ddwgzwo?at_medium=RSS&at_campaign=rss",
-          "overview": "葡萄牙球星C罗在世界杯预选赛期间突然离队引发广泛关注。主帅若热·耶稣在事件发生数小时后公开否认双方存在矛盾，但C罗坚持称将“适时”说明理由。这一事件发生在2026年9月30日，正值国际比赛窗口期。",
-          "analysis": "尽管教练组试图平息事态，但顶级球星与国家队主帅之间的信任危机往往难以短期化解。此事若持续发酵，可能影响葡萄牙队在后续世界杯预选赛中的备战状态及更衣室氛围。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "C罗的离开总是让人意外，希望他能尽快回归，毕竟他依然是球队的关键人物。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "教练否认裂痕但球员坚持离队，这种信息不对称通常意味着更深层的问题。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼城赞助商易捷航空考虑对英超提起法律诉讼",
-          "eng": "City sponsor Etihad Airways considering legal action against the Premier League",
-          "summary": "作为曼城自2009年以来的主要球衣赞助商，易捷航空正式声明“坚决拒绝”独立委员会关于俱乐部违反财务规则的裁定结果，并正在考虑采取法律行动。",
-          "source": "Guardian Football",
-          "published": "2026-09-30",
-          "url": "https://www.theguardian.com/football/2026/sep/30/etihad-airways-considering-legal-action-premier-league-manchester-city",
-          "overview": "英超独立委员会公布了针对曼城的超过100项财务违规发现的核心决定后，易捷航空发表声明表示完全否认相关有罪判决。这是曼城财务丑闻引发的连锁反应之一，赞助商的法律威胁可能进一步影响俱乐部的商业运营和声誉。",
-          "analysis": "赞助商的介入使得这场财务违规风波从体育监管层面扩展到了商业法律领域。如果诉讼成立，不仅会影响曼城的品牌形象，也可能对英超联赛的赞助商体系产生深远影响。",
-          "social": [
-            {
-              "who": "商业分析师",
-              "text": "赞助商直接起诉联赛本身是罕见举动，说明俱乐部违规问题的严重性已经超出了体育范畴。"
-            },
-            {
-              "who": "英超观察员",
-              "text": "易捷航空的立场表明，即使俱乐部在赛场上取得辉煌成就，财务合规问题也无法被忽视。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "多位足球高层呼吁本赛季对曼城实施处罚",
+          "title_zh": "英足总要求本赛季内对曼城违规进行处罚",
           "eng": "Punish Man City this season, say other club chiefs",
-          "summary": "英超高级别足球人士向BBC表示，针对曼城违反联赛规则的处罚应在本赛季结束前下达。",
+          "summary": "多位英超高层向 BBC 表示，曼城因违反联赛规则所受的处罚应在本赛季结束前公布。",
           "source": "BBC Football",
           "published": "2026-09-30",
           "url": "https://www.bbc.co.uk/sport/football/articles/c6vgyg3zv3kwo?at_medium=RSS&at_campaign=rss",
-          "overview": "围绕曼城的财务违规调查持续发酵，多位资深足球界人物公开表态支持在本赛季内完成对俱乐部的处罚程序。这反映了业界对于维护联赛公平竞争环境的强烈意愿，同时也给英超管理层带来了巨大的执行压力。",
-          "analysis": "在本赛季结束前完成处罚意味着可能影响曼城接下来的赛程安排或荣誉认定。这一决定将考验英超管理层的决心，也关系到整个联赛的公信力。",
+          "overview": "英超高级足球官员向 BBC Sport 透露，针对曼城违反联赛规则的处罚决定应在本赛季结束前下达。这一表态表明各大俱乐部高层对违规行为的零容忍态度正在上升。",
+          "analysis": "此举可能标志着英超在治理透明度上迈出关键一步，但具体罚则的严厉程度仍是外界关注的焦点。",
           "social": [
             {
-              "who": "足球管理者",
-              "text": "规则面前人人平等，无论俱乐部实力多强，违规就必须受到应有的惩罚。"
+              "who": "资深球迷",
+              "text": "英超终于要动真格了，希望这次能彻底解决问题"
             },
             {
-              "who": "资深球迷",
-              "text": "希望处罚能尽快落地，这对维护英超的公平性至关重要。"
+              "who": "前英超裁判",
+              "text": "规则面前人人平等，期待看到公正的执行"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "克洛普对德国队“不够白人”的说法感到愤怒",
-          "eng": "Jürgen Klopp disgusted by claims his Germany team are 'not white enough'",
-          "summary": "德国主帅克洛普对社交媒体上质疑其组建的德国国家队“种族不够纯粹”的言论表示极度反感，称其为“胡言乱语”。",
+          "title_zh": "美国有望主办首届女子俱乐部世界杯",
+          "eng": "United States lined up to host first Women's Club World Cup",
+          "summary": "美国正准备在 2028 年 1 月举办首届女子俱乐部世界杯，洛杉矶和圣迭戈是首选举办城市。",
           "source": "Guardian Football",
           "published": "2026-10-01",
-          "url": "https://www.theguardian.com/football/2026/oct/01/jurgen-klopp-germany-team-not-white-enough-disgusted-claims",
-          "overview": "在德国国家队选人引发争议之际，主教练尤尔根·克洛普公开回应了关于球队阵容“不够白人”或“不够德国”的网络讨论。他明确表示不会理会此类言论，认为这些声音毫无意义且令人作呕。",
-          "analysis": "这一事件折射出足球界日益复杂的种族与身份认同议题。作为知名教练，克洛普的强硬表态有助于遏制网络上的歧视性言论蔓延，但也可能加剧球迷群体之间的对立情绪。",
+          "url": "https://www.theguardian.com/football/2026/oct/01/united-states-host-first-womens-club-world-cup-football",
+          "overview": "美国已处于筹备首届女子俱乐部世界杯的前沿，该赛事预计将于 2028 年 1 月举行，届时将有十九支球队参赛。洛杉矶和圣迭戈被视为最有可能的举办城市。这将是继男子赛事扩军后，北美再次承办 FIFA 重大赛事。",
+          "analysis": "此举将进一步提升女子足球在全球商业版图中的地位，为女足俱乐部提供国际舞台。",
           "social": [
             {
-              "who": "德国球迷",
-              "text": "球队的实力和团结才是最重要的，这种种族偏见完全不应该出现在足球讨论中。"
+              "who": "女足支持者",
+              "text": "终于有了属于我们的世界杯，期待美国赛场"
             },
             {
               "who": "体育记者",
-              "text": "克洛普的回应及时且有力，但网络上的这类争议往往难以彻底消除。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "BBC分析为何威廉姆森手球犯规判罚正确",
-          "eng": "Why penalty for Williamson handball was correct call",
-          "summary": "阿森纳后卫利亚·威廉姆森在女足欧冠对阵巴黎FC的比赛中发生了一次引人注目的手球事件，BBC对此进行了详细解读。",
-          "source": "BBC Football",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cw07l7pk2gp4o?at_medium=RSS&at_campaign=rss",
-          "overview": "在阿森纳女足欧冠客场与巴黎FC的平局中，队长利亚·威廉姆森卷入了一起争议性的手球判罚。BBC体育专家分析了该判罚为何是正确的决定，强调了裁判在关键时刻做出正确判断的重要性。",
-          "analysis": "女足比赛中的VAR介入和判罚尺度一直是讨论焦点。此次分析有助于提升公众对裁判决策的理解，同时也反映了女子足球在规则执行上与男子赛事趋同的趋势。",
-          "social": [
-            {
-              "who": "女足评论员",
-              "text": "裁判的每一次判罚都至关重要，希望这样的分析能帮助球迷更好地理解比赛中的争议时刻。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "威廉姆森作为队长承受了很大压力，但规则就是规则，判罚无误。"
+              "text": "这是女足商业化进程中的重要里程碑"
             }
           ],
           "region": "足球·世界杯"
         },
         {
           "title_zh": "英格兰前锋托尼否认在苏荷夜总会袭击他人",
-          "eng": "Ivan Toney denies Soho nightclub assault",
-          "summary": "英格兰国脚伊万·托尼在西敏治安官法院出庭，对涉嫌在苏荷夜总会袭击一名男子造成实际身体伤害的指控表示不认罪。",
-          "source": "BBC Football",
+          "eng": "England forward Ivan Toney pleads not guilty to Soho nightclub assault",
+          "summary": "英格兰国脚前锋伊万·托尼在西敏治安官法院出庭，对去年在苏荷夜总会袭击他人的指控表示不认罪。",
+          "source": "Guardian Football",
           "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/news/articles/crkgwglz4dd5o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月1日，前英冠球员、现效力于英超的伊万·托尼出现在西敏治安官法院，面对去年在伦敦苏荷区发生的暴力事件指控。他正式对袭击造成实际身体伤害的罪名表示不认罪，案件将移交刑事法庭由法官和陪审团审理。",
-          "analysis": "这一事件再次引发了关于英格兰足球运动员场外行为的讨论。托尼作为国家队成员面临刑事指控，无论最终判决如何，都将对其职业生涯和个人声誉产生重大影响。",
+          "url": "https://www.theguardian.com/football/2026/oct/01/ivan-toney-pleads-not-guilty-to-soho-nightclub-assault",
+          "overview": "30 岁的英格兰前锋伊万·托尼在西敏治安官法院出庭，被指控在去年 12 月 6 日于苏荷夜总会与 Saber Da 发生口角后头部撞击和拳击一名公众成员。他已对导致实际身体伤害的袭击罪提出不认罪答辩，案件将移交刑事法庭由法官和陪审团审理。",
+          "analysis": "托尼的法律纠纷再次引发关于球员场外行为的讨论，其未来是否还能代表国家队出战将成为悬念。",
           "social": [
             {
-              "who": "法律评论员",
-              "text": "不认罪意味着案件将进入更严格的审判程序，公众应等待法庭的最终裁决而非急于下结论。"
+              "who": "英超球迷",
+              "text": "希望法律能给出公正判决"
             },
             {
-              "who": "足球记者",
-              "text": "球员在球场内外都应遵守法律，这一事件提醒我们关注运动员的法律责任。"
+              "who": "足球评论员",
+              "text": "球场内外都需要自律"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "乒乓球帮助帕金森患者改善运动与情绪",
+          "title_zh": "克洛普对德国队“不够白人”的言论表示愤怒",
+          "eng": "Jürgen Klopp disgusted by claims his Germany team are 'not white enough'",
+          "summary": "克洛普斥责社交媒体上质疑其组建的德国国家队“种族构成不足”的说法是“胡话”和“愚蠢”。",
+          "source": "Guardian Football",
+          "published": "2026-10-01",
+          "url": "https://www.theguardian.com/football/2026/oct/01/jurgen-klopp-germany-team-not-white-enough-disgusted-claims",
+          "overview": "德国队主帅克洛普对社交媒体上关于其国家队“不够白人”的争论表示极度反感，称这些言论是“完全胡话”。他拒绝为这类观点提供空间，认为没有理由关注这些人。此前有声音质疑该国家队是否“不够德国化”或“种族构成不足”。",
+          "analysis": "这一事件凸显了足球界日益增长的多元文化背景与部分公众偏见之间的冲突，克洛普的强硬回应维护了球队形象。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "教练说得对，实力才是硬道理"
+            },
+            {
+              "who": "体育评论员",
+              "text": "这种言论不应成为讨论焦点"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "威廉姆森手球犯规判罚为何正确",
+          "eng": "Why penalty for Williamson handball was correct call",
+          "summary": "阿森纳后卫莉亚·威廉姆森在女足欧冠对阵巴黎 FC 的比赛中卷入一起离奇事件，BBC 分析了为何裁判对其手球犯规做出判罚是正确的决定。",
+          "source": "BBC Football",
+          "published": "2026-10-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cw07l7pk2gp4o?at_medium=RSS&at_campaign=rss",
+          "overview": "阿森纳后卫莉亚·威廉姆森在女足欧冠对阵巴黎 FC 的比赛中卷入一起离奇事件，BBC 分析了为何裁判对其手球犯规做出判罚是正确的决定。该判罚引发了关于女足比赛身体对抗尺度与规则执行一致性的讨论。",
+          "analysis": "该判罚有助于提升女子赛事的公平性认知，表明裁判在关键瞬间的决策受到严格审视。",
+          "social": [
+            {
+              "who": "女足教练",
+              "text": "规则面前不应有性别差异"
+            },
+            {
+              "who": "资深球迷",
+              "text": "希望裁判能更果断地执法"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "\"假球时代\"：瓜迪奥拉曼城霸业背后的争议",
+          "eng": "Building of the Pep supremacy is an era that will be defined by sham-ball",
+          "summary": "评论指出，瓜迪奥拉在曼城的成功建立在财务违规之上，并引用了他在足总杯决赛后面对作弊指控时的回应。",
+          "source": "Guardian Football",
+          "published": "2026-09-30",
+          "url": "https://www.theguardian.com/football/2026/sep/30/pep-guardiola-manchester-city-premier-league",
+          "overview": "文章深入探讨了瓜迪奥拉在曼城建立的统治地位是否被财务造假所支撑，并引用了他在 FA 杯决赛胜利后面对相关质询时的反应。评论认为这一时代将被“假球”定义，暗示英超治理面临严峻挑战。",
+          "analysis": "尽管瓜迪奥拉的战术成就有目共睹，但财务合规问题若持续发酵，可能从根本上动摇俱乐部的声誉和联赛的公信力。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "成绩是事实，但手段不该被忽视"
+            },
+            {
+              "who": "足球评论员",
+              "text": "治理问题不解决，冠军光环也会褪色"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "打乒乓球帮助帕金森患者改善运动与情绪",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "布莱顿俱乐部的参与者表示，打乒乓球有助于改善动作、心情和自信。",
+          "summary": "布莱顿一家俱乐部的患者反馈称，参与乒乓球活动有助于改善他们的动作协调性、心情和自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC报道指出，位于英国布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者通过运动改善身体机能和心理状态。多位参与者反馈称，这项活动对他们的日常行动能力、情绪调节以及自信心提升都有积极影响。该案例展示了乒乓球在康复医疗领域的潜在价值，为体育与健康的结合提供了新的视角。",
-          "analysis": "乒乓球因其快速反应和精细动作要求，常被用作神经退行性疾病的辅助治疗手段。这一报道表明，社区层面的乒乓球活动已超越竞技范畴，成为重要的健康干预工具。",
-          "social": [
-            {
-              "who": "康复者/资深球迷",
-              "text": "这不仅仅是运动，更是生活质量的提升。"
-            }
-          ],
+          "overview": "布莱顿一家乒乓球俱乐部的患者反馈称，参与乒乓球活动有助于改善他们的动作协调性、心情和自信心。这一案例揭示了乒乓球在康复医学领域的应用潜力，尤其对神经系统疾病患者的身心恢复具有积极意义。随着老龄化社会的到来，体育与医疗的融合将成为趋势，乒乓球因其高互动性和低门槛，有望成为更多康复项目的核心工具。",
+          "analysis": "随着老龄化社会的到来，体育与医疗的融合将成为趋势，乒乓球因其高互动性和低门槛，有望成为更多康复项目的核心工具。这一报道为社区体育设施的功能拓展提供了新的思路，即不仅服务于竞技，更能惠及特殊群体。",
           "region": "乒乓球"
         },
         {
-          "title_zh": "泣别赛场：日本网球名将锦织圭宣布退役",
+          "title_zh": "阿森纳后卫威廉姆森手球犯规判罚正确",
+          "eng": "Why penalty for Williamson handball was correct call",
+          "summary": "在女足欧冠对阵巴黎FC的比赛中，阿森纳后卫利亚·威廉姆森卷入争议性手球事件。裁判最终判定点球正确，引发广泛讨论。",
+          "source": "BBC Sport",
+          "published": "2026-10-01",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cw07l7pk2gp4o?at_medium=RSS&at_campaign=rss",
+          "overview": "阿森纳女足在欧冠比赛中与巴黎FC战平，比赛过程中出现争议性手球事件。阿森纳后卫利亚·威廉姆森被卷入其中，裁判最终做出点球判罚决定。这一判罚引发了关于规则执行和比赛公平性的广泛讨论。",
+          "analysis": "该判罚体现了足球比赛对规则执行的严格要求，即使面对顶级球员也不会有例外。对于女足欧冠赛事的公正性具有重要意义。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "裁判的判罚虽然引发争议，但维护了比赛的公平性。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "大坂直美在日本网球公开赛上含泪退役",
           "eng": "'I kept fighting right to the end' - emotional Nishikori retires",
-          "summary": "前世界第四的锦织圭在日本公开赛上含泪宣布结束职业网球生涯，表示自己在比赛最后时刻仍在坚持拼搏。",
-          "source": "BBC Tennis",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cwe8e81n3egeo?at_medium=RSS&at_campaign=rss",
-          "overview": "日本网球名将锦织圭（Kei Nishikori）在日本公开赛上宣布退役，结束了自己的职业网球生涯。这位曾达到世界第四的选手在赛场上泪流满面，表示自己在最后一刻仍在坚持战斗。他的退役标志着日本网球的又一个时代落幕。",
-          "analysis": "锦织圭作为亚洲网球的标志性人物之一，其职业生涯跨越近二十年，退役消息令全球球迷动容。他的坚持与拼搏精神为年轻一代网球运动员树立了榜样。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "锦织圭的退役让人感慨万千，他是亚洲网球的骄傲，职业生涯中多次闯入大满贯八强，这份坚持令人敬佩。"
-            },
-            {
-              "who": "网球解说员",
-              "text": "看到他在场上流泪宣布退役，我深受触动。这位球员用整个职业生涯诠释了什么是真正的热爱与执着。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "德约科维奇中国公开赛首胜：温网后首次亮相",
-          "eng": "Djokovic wins first match since Wimbledon at China Open",
-          "summary": "诺瓦克·德约科维奇在中国公开赛上击败努诺·博尔热斯，取得自七月份温网半决赛以来的首场胜利。",
-          "source": "BBC Tennis",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cq20vxxdxk54o?at_medium=RSS&at_campaign=rss",
-          "overview": "塞尔维亚网球巨星德约科维奇在中国公开赛上取得了自温网半决赛以来的首场胜利，击败了葡萄牙选手努诺·博尔热斯。这场比赛标志着他在温网之后的首次公开亮相，展现了良好的竞技状态。",
-          "analysis": "作为男子网球的传奇人物，德约科维奇的每一场比赛都备受关注。他此次复出首胜表明其状态正在恢复，为接下来的赛季增添了信心。",
-          "social": [
-            {
-              "who": "网球爱好者",
-              "text": "德约终于回来了！看到他在温网后首场胜利的消息，所有人都松了一口气。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "德约科维奇的复出首胜意义重大，他依然是男子网球的王者，这份实力不容置疑。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "乔治·拉塞尔：信心回归并持续增长",
-          "eng": "Russell says his 'confidence is back and growing'",
-          "summary": "F1车手乔治·拉塞尔表示自己的信心正在恢复，他正努力结束一个艰难的赛季并以高姿态收尾。",
-          "source": "BBC Sport",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/cv1j4jn5nxxlo?at_medium=RSS&at_campaign=rss",
-          "overview": "F1车手乔治·拉塞尔表示自己的信心正在恢复，不再感到迷茫。他正努力结束一个充满挑战的赛季，并试图追赶队友金米·安东内利在锦标赛中的领先优势。",
-          "analysis": "拉塞尔的信心回归对于他的车队和粉丝来说都是好消息。在竞争激烈的F1赛场上，心理状态往往比技术更重要，他的积极态度值得肯定。",
-          "social": [
-            {
-              "who": "F1车迷",
-              "text": "拉塞尔终于找回了信心，希望他能在这个赛季末取得好成绩。"
-            },
-            {
-              "who": "赛车评论员",
-              "text": "信心是赛车运动的关键因素之一，拉塞尔的积极态度表明他正在为接下来的比赛做好准备。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "2026年女足金球奖权力排名：新王者将加冕？",
-          "eng": "Moving the Goalposts | Women's Ballon d'Or 2026 power rankings: will a new winner be crowned?",
-          "summary": "女足金球奖的争夺是近年来最开放的一届，多位候选人都有望获得这一殊荣。",
-          "source": "Guardian Sport",
-          "published": "2026-10-01",
-          "url": "https://www.theguardian.com/football/2026/oct/01/womens-ballon-dor-2026-power-rankings-will-a-new-winner-be-crowned",
-          "overview": "2026年女足金球奖的争夺是近年来最开放的一届，多位候选人都有望获得这一殊荣。文章重点介绍了里昂中场球员梅尔希·杜莫内，她在帮助球队赢得国内三冠王的过程中表现出色，被法国足球运动员工会评为年度最佳球员。",
-          "analysis": "女足金球奖的竞争日益激烈，这反映了女子足球水平的整体提升。杜莫内等年轻球员的崛起为这项赛事增添了新的活力和看点。",
-          "social": [
-            {
-              "who": "女足球迷",
-              "text": "女足金球奖的竞争越来越精彩了，期待看到更多优秀球员获得认可。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "女子足球的发展令人振奋，像杜莫内这样的年轻天才正在改变这项运动的格局。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "瓜迪奥拉时代被定义为'假球时代'",
-          "eng": "Building of the Pep supremacy is an era that will be defined by sham-ball",
-          "summary": "《卫报》调查报道指出，瓜迪奥拉在曼城的成功建立在财务欺诈之上，现在他只能加倍强调对所有者规则的遵守。",
-          "source": "Guardian Sport",
-          "published": "2026-09-30",
-          "url": "https://www.theguardian.com/football/2026/sep/30/pep-guardiola-manchester-city-premier-league",
-          "overview": "《卫报》发表深度调查报道，指出瓜迪奥拉在曼城的成功建立在财务欺诈之上。文章引用了瓜迪奥拉本人的回应，他承认这一问题的严重性，并表示自己正在努力遵守所有者的规则。这篇报道引发了关于曼城俱乐部财务状况的广泛讨论。",
-          "analysis": "这篇调查报道对足球界产生了重大影响，它揭示了顶级俱乐部在财务透明度方面的长期问题。瓜迪奥拉的回应表明他意识到问题的严重性，但这也给曼城的声誉带来了挑战。",
-          "social": [
-            {
-              "who": "曼城球迷",
-              "text": "这篇报道让我们对曼城的财务状况产生了疑问，希望俱乐部能够透明化。"
-            },
-            {
-              "who": "足球记者",
-              "text": "瓜迪奥拉的回应表明他意识到问题的严重性，但这也给曼城的声誉带来了挑战。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "九起震动体育界的丑闻：曼城远非首例",
-          "eng": "Nine scandals that rocked the sporting world",
-          "summary": "BBC Sport回顾了过去几十年中震撼体育界的九起重大丑闻，指出追求荣耀和财富的诱惑让许多运动员走上违规之路。",
-          "source": "BBC Sport",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/articles/ck62m2n3yezno?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC Sport发表了一篇回顾性文章，列举了过去几十年中震撼体育界的九起重大丑闻。文章指出，追求荣耀和财富的诱惑让许多运动员走上违规之路，而曼城只是其中之一。这些事件对体育界产生了深远的影响。",
-          "analysis": "这篇回顾性文章提醒我们，体育界的诚信问题一直存在。从兴奋剂到财务欺诈，各种丑闻不断冲击着公众的信任。体育组织需要更加严格的监管机制来维护比赛的公平性。",
-          "social": [
-            {
-              "who": "体育评论员",
-              "text": "这些丑闻让我们看到，追求胜利有时会让人丧失底线。体育界需要更严格的规则来防止类似事件再次发生。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "曼城的财务问题只是冰山一角，整个体育界的诚信都需要重新审视。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "克洛普对德国队'不够白人'的说法感到愤怒",
-          "eng": "Jürgen Klopp disgusted by claims his Germany team are 'not white enough'",
-          "summary": "利物浦主帅克洛普对社会网络上质疑德国国家队'不够白人'的言论表示极度不满，称其为'胡说八道'和'愚蠢行为'。",
-          "source": "Guardian Sport",
-          "published": "2026-10-01",
-          "url": "https://www.theguardian.com/football/2026/oct/01/jurgen-klopp-germany-team-not-white-enough-disgusted-claims",
-          "overview": "利物浦主帅克洛普对社会网络上质疑德国国家队'不够白人'的言论表示极度不满，称其为'胡说八道'和'愚蠢行为'。他明确表示没有理由关注这些人的言论，并认为这些人不值得被认真对待。这一事件引发了关于种族歧视在体育界存在的广泛讨论。",
-          "analysis": "克洛普的愤怒反应表明他对种族歧视零容忍的态度。这一事件再次提醒我们，足球作为全球最大的运动之一，仍然面临着严重的种族问题。体育组织需要采取更积极的措施来消除这些偏见。",
-          "social": [
-            {
-              "who": "足球评论员",
-              "text": "克洛普的愤怒反应表明他对种族歧视零容忍的态度，这是非常值得肯定的。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "这种言论令人震惊，足球不应该成为种族歧视的温床。我们需要更加包容和尊重多样性。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "C罗离开葡萄牙国家队训练营：教练否认存在裂痕",
-          "eng": "Ronaldo leaves Portugal camp after coach denies rift",
-          "summary": "克里斯蒂亚诺·罗纳尔多表示已离开葡萄牙国家队训练营，将在适当时候解释原因，而主教练若热·耶稣则否认与球员之间存在任何矛盾。",
-          "source": "BBC Sport",
-          "published": "2026-09-30",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw7ddwgzwo?at_medium=RSS&at_campaign=rss",
-          "overview": "克里斯蒂亚诺·罗纳尔多表示已离开葡萄牙国家队训练营，将在适当时候解释原因。主教练若热·耶稣则否认与球员之间存在任何矛盾，称双方关系良好。这一事件引发了关于C罗与国家队之间关系的广泛讨论。",
-          "analysis": "C罗作为全球最具影响力的足球运动员之一，他的任何举动都会引起广泛关注。此次离开训练营可能反映了他在国家队中的压力或不满，但也可能是个人原因。这一事件对葡萄牙国家队的未来走向产生了影响。",
-          "social": [
-            {
-              "who": "C罗粉丝",
-              "text": "希望C罗能够找到解决问题的方法，毕竟他是葡萄牙足球的传奇人物。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "C罗与国家队之间的关系一直是复杂的话题，此次事件再次引发了人们的关注。"
-            }
-          ],
+          "summary": "前世界第四的大坂直美在日本公开赛中宣布退役，她在赛场上泪流满面地表示",
           "region": "综合"
         }
       ],
@@ -1851,200 +1700,390 @@
     "github": {
       "items": [
         {
-          "title_zh": "AIHOT — AI热点日报自动生成框架",
+          "title_zh": "AIHOT — AI驱动的行业热点日报框架",
           "eng": "KKKKhazix/AIHOT",
-          "summary": "一个自动抓取热点、生成行业日报的网站框架，用户只需替换信源和筛选标准即可定制自己的行业热点站。",
+          "summary": "一个自动抓取热点、自动生成行业日报的网站框架，用户自定义信源和筛选标准即可打造专属热点站。",
           "source": "GitHub",
-          "stars": 4326,
+          "stars": 4370,
           "lang": "TypeScript",
           "published": "2026-09-28",
           "url": "https://github.com/KKKKhazix/AIHOT",
-          "overview": "AIHOT是一个开源的热点追踪与日报生成框架，支持自定义信息源和精选标准。它能自动抓取全网热点内容、进行智能筛选排序，并一键生成结构化的行业日报网页。项目采用TypeScript构建，部署简单，适合技术团队快速搭建内部或对外发布的AI资讯聚合平台。",
-          "analysis": "在AI内容生态爆发期，自动化信息聚合与日报生成是刚需场景。该项目解决了从数据采集到内容呈现的完整链路，对媒体运营、行业分析师和开发者都有实用价值。4300+星标说明社区认可度高，可作为同类项目的参考模板。",
+          "overview": "AIHOT是一个开源的网站框架，能够自动从多个信息源抓取热点内容，通过AI进行筛选和摘要后生成行业日报。用户只需替换信源配置和精选标准，即可快速搭建属于自己的行业热点追踪站。支持自定义数据源接入，适合科技、金融、互联网等多个领域使用。",
+          "analysis": "在信息过载时代，自动化的热点聚合与日报生成需求极大。该项目将AI能力嵌入工作流而非替代人类判断，定位精准且实用性强，4370星说明社区认可度高。对内容创作者和运营团队有直接参考价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "非常适合做自己的AI资讯站，信源替换后就能出活，部署成本极低。"
+              "text": "这种'框架+自定义'的模式非常适合快速搭建自己的行业情报系统，比从头开发效率高很多。"
             },
             {
               "who": "内容运营者",
-              "text": "省去了每天手动整理热点的时间，生成的日报质量稳定且格式统一。"
+              "text": "自动生成日报省去了大量人工筛选时间，但关键是要调好信源和筛选标准才能出高质量内容。"
             }
           ]
         },
         {
-          "title_zh": "dots — 不会被封禁的AI浏览器Agent",
+          "title_zh": "Dots — 不会被封禁的AI浏览器代理",
           "eng": "feder-cr/dots",
-          "summary": "一个拥有自己浏览器的开源AI Agent，专门解决主流浏览器被反爬封锁的问题。",
+          "summary": "一个拥有独立浏览器的开源AI Agent，能够在不被网站屏蔽的情况下完成网页操作任务。",
           "source": "GitHub",
-          "stars": 2045,
+          "stars": 2114,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/feder-cr/dots",
-          "overview": "dots是一个开源的AI Agent项目，核心能力是拥有独立的浏览器环境，能够访问被主流反爬机制封锁的网站。它采用Python构建，提供了完整的Agent框架，支持任务规划、网页交互和结果反馈。对于需要稳定抓取数据的场景，这是一个重要的基础设施级工具。",
-          "analysis": "随着各大平台加强反爬措施，传统的自动化方案越来越难用。dots从架构层面解决了"
+          "overview": "Dots是一个开源的AI Agent项目，核心特点是拥有自己的浏览器实例，能够绕过大多数网站的反爬虫和封禁机制。它可以在不被目标网站检测到的情况下执行网页浏览、数据采集等任务，解决了当前AI Agent在真实网络环境中最大的痛点之一。",
+          "analysis": "随着各大平台加强反自动化措施，AI Agent的'隐身能力'成为刚需。Dots直接解决这个核心问题，2114星反映了社区对这一需求的强烈认同。对于需要大规模网页操作的开发者来说极具实用价值。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "浏览器反爬是AI Agent落地的最大障碍之一，Dots提供了优雅的解决方案思路。"
+            },
+            {
+              "who": "自动化工程师",
+              "text": "终于有一个开源工具能让我在大规模网页操作中不再被频繁封号了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Coucou — Claude Code会话实时监视器",
+          "eng": "Louis-CFM/coucou",
+          "summary": "一个轻量级助手，常驻macOS菜单栏或Windows屏幕顶部，实时监控你的Claude Code开发会话。",
+          "source": "GitHub",
+          "stars": 2088,
+          "lang": "Swift",
+          "published": "2026-09-27",
+          "url": "https://github.com/Louis-CFM/coucou",
+          "overview": "Coucou是一个小巧的桌面助手工具，运行在macOS或Windows上，能够持续监控用户的Claude Code开发会话。它可以在不干扰用户工作的前提下提供上下文感知的能力，比如提醒重要变更、汇总进度等，是AI辅助编程场景下的一个实用小工具。",
+          "analysis": "随着AI编码助手越来越普及，开发者需要一个轻量级的'第二视角'来追踪AI的工作状态。Coucou填补了这个空白，2088星说明这类工具正在成为标配。Swift实现也保证了macOS上的流畅体验。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "终于不用盯着终端看Claude Code在干什么了，这个实时监视器太实用了。"
+            },
+            {
+              "who": "AI工具爱好者",
+              "text": "macOS菜单栏常驻的设计很优雅，不占屏幕空间但随时可用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "JevGrep — 用自然语言让编码Agent找文件",
+          "eng": "dzhng/jevgrep",
+          "summary": "一个面向编码Agent的CLI工具，通过描述代码功能来自动发现相关文件和源码上下文。",
+          "source": "GitHub",
+          "stars": 1948,
+          "lang": "TypeScript",
+          "published": "2026-09-26",
+          "url": "https://github.com/dzhng/jevgrep",
+          "overview": "JevGrep是一个命令行工具，专为编码AI Agent设计。用户可以用自然语言描述想要找的代码功能（如'找到处理用户登录的函数'），工具会利用Jev技术自动定位相关文件和源码上下文。它解决了Agent在大型代码库中导航困难的核心问题。",
+          "analysis": "随着AI编程助手日益重要，如何让它们高效地在复杂项目中导航成为关键挑战。JevGrep用自然语言交互替代了传统的grep命令，降低了使用门槛并提升了效率。1948星验证了这一方向的正确性。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "终于可以用自然语言让AI帮我找代码了，不再需要记住文件路径和函数名。"
+            },
+            {
+              "who": "AI工程师",
+              "text": "Jev技术用于Agent导航的思路很新颖，比传统的RAG检索更精准。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Jeff — 0.8B开源'直觉系统1'决策模型",
+          "eng": "firelex/jeff",
+          "summary": "一个0.8B参数的开源快速决策模型，能在毫秒级时间内从多个选项中做出选择并给出校准概率。",
+          "source": "GitHub",
+          "stars": 1233,
+          "lang": "Python",
+          "published": "2026-09-28",
+          "url": "https://github.com/firelex/jeff",
+          "overview": "Jeff是一个轻量级的开源AI模型，专注于快速决策场景。它能在毫秒级别内从多个选项中做出选择，并输出校准后的概率分布。支持LoRA适配器热插拔，可在本地硬件上运行，适用于需要即时响应的各种应用场景。",
+          "analysis": "在延迟敏感场景中（如实时推荐、路由选择），传统大模型响应太慢。Jeff以极小的参数量实现了快速决策能力，且支持本地部署和灵活扩展，是'小模型大用途'理念的典型代表。",
+          "social": [
+            {
+              "who": "AI研究者",
+              "text": "0.8B参数就能做到毫秒级决策，这个效率比很多10B+的模型还高。"
+            },
+            {
+              "who": "工程师",
+              "text": "LoRA适配器设计很聪明，可以根据不同场景快速切换策略而不需要重新训练。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Logo Design Skill — AI Agent的Logo设计技能包",
+          "eng": "kaankiziltug/logo-design-skill",
+          "summary": "一个面向Claude、Gemini CLI等AI Agent的综合Logo设计技能，包含设计原则、SVG工艺和1400+ Logo参考库。",
+          "source": "GitHub",
+          "stars": 1250,
+          "lang": "HTML",
+          "published": "2026-09-26",
+          "url": "https://github.com/kaankiziltug/logo-design-skill",
+          "overview": "这是一个专门为AI Agent设计的Logo设计技能包，涵盖了从设计理念到实际输出的完整流程。包含1400多个Logo参考案例、SVG工艺指南和测试工具，可直接在Claude、Gemini CLI等平台上使用。让AI Agent能够按照专业标准生成高质量的品牌标识。",
+          "analysis": "将专业设计知识打包成Agent可用的技能包是近期热门趋势。该项目不仅提供工具还包含大量参考素材，降低了设计师使用AI辅助创作的门槛，对品牌设计和创业团队很有价值。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "1400+的Logo参考库太有用了，比网上零散的资源整理得系统得多。"
+            },
+            {
+              "who": "创业者",
+              "text": "用AI生成Logo终于有了专业级的指导框架，不再只是随机出图了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Awesome Opus 5.5 Videos — Claude Opus 5.5病毒视频合集",
+          "eng": "yihui-dev/awesome-opus5-5-videos",
+          "summary": "一个持续更新的Claude Opus 5.5制作的病毒视频合集，每个视频都附带原始提示词。",
+          "source": "GitHub",
+          "stars": 1187,
+          "lang": "",
+          "published": "2026-09-27",
+          "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+          "overview": "这是一个开源的创意资源库，收集了使用Claude Opus 5.5制作的病毒级视频及其完整提示词。每个视频都可以在Skillry上观看原版和实时重制版的对比。项目定期更新，是学习AI视频创作的最佳素材库之一。",
+          "analysis": "在AI视频生成领域，'提示词即资产'的理念正在成型。该项目不仅提供成品还公开了所有prompt，让创作者可以直接学习和复用。1187星说明社区对高质量AI创意内容的强烈需求。",
+          "social": [
+            {
+              "who": "内容创作者",
+              "text": "能直接看到每个视频的原始prompt太棒了，省去了大量摸索时间。"
+            },
+            {
+              "who": "AI爱好者",
+              "text": "原版和重制版的对比展示很有教育意义，能看到不同模型的表现差异。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OneTake — 无剪辑断点的产品演示影片生成器",
+          "eng": "feitangyuan/onetake",
+          "summary": "一个Claude Agent技能，能生成连续不间断的Motion影片，每个节拍自然衔接前一个镜头。",
+          "source": "GitHub",
+          "stars": 1092,
+          "lang": "Python",
+          "published": "2026-09-26",
+          "url": "https://github.com/feitangyuan/onetake",
+          "overview": "OneTake是一个基于Claude Agent的技能包，专注于生成连续流畅的产品演示影片。与传统视频编辑不同，它确保每个镜头节拍都自然地从前一个生长出来，保持单一连续机位和视觉连贯性。由AI Oracle系统自动测量连续性质量，适用于产品发布片和功能演示场景。",
+          "analysis": "产品演示视频的'无缝感'一直是行业痛点。OneTake用AI Agent替代传统剪辑流程，实现了真正的无断点影片生成，对营销团队和产品经理来说是一个全新的创作工具。",
+          "social": [
+            {
+              "who": "产品经理",
+              "text": "终于不用手动拼接演示视频了，AI生成的连贯性比人工剪辑更自然。"
+            },
+            {
+              "who": "创意总监",
+              "text": "单一机位+连续节拍的设计理念很巧妙，避免了传统多镜头切换的生硬感。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Company Brain — 记住团队一切的Slack AI队友",
+          "eng": "supermemoryai/company-brain",
+          "summary": "一个开源的Slack AI Agent，能记住团队的所有对话并主动执行工作。",
+          "source": "GitHub",
+          "stars": 882,
+          "lang": "TypeScript",
+          "published": "2026-09-25",
+          "url": "https://github.com/supermemoryai/company-brain",
+          "overview": "Company Brain是一个开源的企业级AI Agent项目，部署在Slack中作为团队'记忆体'。它能够记住团队成员的所有对话历史，并在需要时主动发起工作。通过长期记忆能力解决企业知识流失问题，让新成员也能快速了解团队背景和历史决策。",
+          "analysis": "企业知识管理是长期痛点，传统方案依赖文档和Wiki但维护成本高。Company Brain将AI记忆能力嵌入日常沟通工具Slack中，降低了使用门槛。882星说明企业对这一方向的需求正在增长。",
+          "social": [
+            {
+              "who": "企业管理者",
+              "text": "团队离职时的知识流失问题终于有了技术解决方案，比写文档实用得多。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript实现+Slack集成，部署和维护都很方便，适合中小团队快速上手。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Yomiyasu — AI生成日语自然化推敲Agent Skill",
+          "eng": "nanaism/yomiyasu",
+          "summary": "一个用于将AI生成的日语推敲为自然流畅日语的Agent技能。",
+          "source": "GitHub",
+          "stars": 797,
+          "lang": "Python",
+          "published": "2026-09-30",
+          "url": "https://github.com/nanaism/yomiyasu",
+          "overview": "Yomiyasu是一个专门针对日语AI生成内容的优化技能，能够将机器生成的生硬日语推敲为自然流畅的表达。它解决了当前多语言AI输出中日语质量参差不齐的问题，特别适用于客服对话、内容创作等需要高质量日语文本的场景。",
+          "analysis": "随着AI多语言能力的提升，特定语言的'最后一公里'打磨成为关键瓶颈。Yomiyasu专注于日语这一高难度场景，797星说明非英语市场的AI工具需求正在快速增长。对出海企业有直接价值。",
+          "social": [
+            {
+              "who": "日语开发者",
+              "text": "AI生成的日语确实很生硬，这个推敲技能解决了实际工作中的痛点。"
+            },
+            {
+              "who": "多语言工程师",
+              "text": "每个语言都需要类似的'后处理'层，Yomiyasu的思路可以推广到其他小语种。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Motion Video Kit — AI商业视频制作技能包",
+          "eng": "echris6/motion-video-kit",
+          "summary": "一个面向AI辅助商业视频的Claude Code技能套件，包含独立批评循环、运动原则和声音设计等模块。",
+          "source": "GitHub",
+          "stars": 750,
+          "lang": "Python",
+          "published": "2026-09-27",
+          "url": "https://github.com/echris6/motion-video-kit",
+          "overview": "Motion Video Kit是一个完整的AI商业视频制作技能包，基于Claude Code构建。它整合了独立批评循环（让AI自我审查）、来自28个产品发布影片的运动原则、质量评估标准、声音设计指南和Three.js视觉模式等模块，形成了一套从脚本到成品的完整工作流。",
+          "analysis": "将商业视频制作拆解为可复用的技能模块是近期趋势。该项目不仅提供工具还包含大量行业最佳实践（28个案例），对营销团队和视频创作者来说是一个系统化的AI辅助方案。750星反映了市场对高质量AI视频工具的持续需求。",
+          "social": [
+            {
+              "who": "视频制作人",
+              "text": "把商业视频的每个环节都模块化了，比从零开始效率高太多了。"
+            },
+            {
+              "who": "营销人员",
+              "text": "独立批评循环的设计很聪明，让AI能自我纠错而不是盲目生成。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Lemo OpusCar — 43种影片风格的AI导演指南",
+          "eng": "lemomo-ai/lemo-opuscar",
+          "summary": "提供43种可复用的电影风格提示词，每种附带由Claude Opus 5.5纯代码生成的样片和技术指南。",
+          "source": "GitHub",
+          "stars": 738,
+          "lang": "JavaScript",
+          "published": "2026-09-26",
+          "url": "https://github.com/lemomo-ai/lemo-opuscar",
+          "overview": "Lemo OpusCar是一个创意资源库，包含43种不同的电影风格，每种风格都有完整的提示词模板和由Claude Opus 5.5纯代码生成的示例影片。用户可以选择喜欢的风格、带入自己的故事内容，让AI Agent担任导演完成创作。同时提供技术指南帮助理解每种风格的实现原理。",
+          "analysis": "将创意风格'参数化'是AI辅助创作的进阶玩法。43种风格覆盖了主流电影类型，且每个风格都有可复用的prompt和示例，降低了创意门槛。对独立创作者和内容团队来说是一个高效的灵感工具库。",
+          "social": [
+            {
+              "who": "独立创作者",
+              "text": "不用自己摸索风格提示词了，43种现成的可以直接用，还能带入自己的故事。"
+            },
+            {
+              "who": "AI研究爱好者",
+              "text": "每种风格都附带技术指南，既能用也能学，这个深度在同类型项目中很少见。"
+            }
+          ]
         }
       ]
     },
     "hot": {
       "items": [
         {
-          "title_zh": "英国家暴受害者担忧施暴前夫获释",
-          "summary": "三名家暴受害者向BBC表示，因担心施暴前夫提前出狱而深感失望和恐惧。",
+          "title_zh": "家暴受害者担忧施暴者提前出狱，呼吁司法改革",
+          "summary": "三名遭受家庭暴力侵害的受害者向BBC表示，他们因担心施暴者可能通过提前释放制度获释而感到失望和恐惧。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-01",
           "url": "https://www.bbc.co.uk/news/articles/crz6zq5pew89o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国近期推出的提前释放方案遭到部分家暴受害者的强烈质疑。受害者们认为，该计划可能削弱对施暴者的威慑力，并让他们在寻求安全庇护时面临再次受伤害的风险。",
-          "analysis": "这一争议凸显了司法改革中平衡罪犯权利与公众安全的复杂性，社会舆论对此高度分裂。",
+          "overview": "英国一项关于提前释放囚犯的争议性政策引发了家庭暴力受害者的强烈不满。三名受害者向BBC讲述了他们的经历，指出施暴者可能因此逃避应有的惩罚。这一事件凸显了司法系统中对家暴犯罪量刑与执行环节的潜在漏洞。",
+          "analysis": "该报道揭示了公众安全焦虑与司法人道主义之间的张力。如果提前释放制度缺乏针对暴力犯罪的特殊限制，可能会削弱法律对受害者的保护力度，引发社会信任危机。",
           "social": [
             {
-              "who": "BBC 评论员",
-              "text": "提前释放不应以牺牲受害者安全感为代价。"
+              "who": "受害者",
+              "text": "我们被告知施暴者将提前出狱，这让我们感到生命受到威胁。"
+            },
+            {
+              "who": "BBC记者",
+              "text": "三名受害者详细阐述了他们对现行释放政策的担忧。"
             }
           ]
         },
         {
-          "title_zh": "美国死刑犯两次注射致命药物后幸存",
-          "summary": "杀人犯Christa Pike在两次注射戊巴比妥钠后仍存活，律师称其正在接受“救命措施”。",
+          "title_zh": "美国死刑犯Christa Pike两次注射后幸存，引发广泛质疑",
+          "summary": "被判谋杀的Christa Pike在接受两次致命药物注射后仍存活，其律师称她正在医院接受“挽救生命的措施”。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-01",
           "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
-          "overview": "Tennessee州监狱在执行死刑过程中出现意外，注射药物未能致死。该事件引发了关于死刑执行程序可靠性的广泛讨论。",
-          "analysis": "两次注射失败不仅挑战了法律尊严，也暴露了医疗执行环节的重大隐患。",
+          "overview": "美国田纳西州发生了一起备受关注的死刑执行失败事件。Christa Pike在注射两次戊巴比妥钠后仍未死亡，目前被送往医院救治。这一事件再次引发了关于死刑执行可靠性和人道主义问题的激烈辩论。",
+          "analysis": "此次执行失败不仅涉及技术操作问题，更触及了法律执行的严肃性。公众对死刑制度的信任可能因此受到进一步侵蚀，相关方需重新审视药物剂量与流程规范。",
           "social": [
             {
-              "who": "美国法律界人士",
-              "text": "这再次证明死刑执行并非不可逆转的终结。"
+              "who": "律师",
+              "text": "Christa Pike正在医院接受挽救生命的措施。"
+            },
+            {
+              "who": "BBC",
+              "text": "案件引发了许多疑问，包括药物剂量和执行流程的可靠性。"
             }
           ]
         },
         {
-          "title_zh": "Failed execution of Christa Pike 引发法律追问",
-          "summary": "Christa Pike在两次致命注射后存活，案件引发了关于程序正义和后续处理的诸多疑问。",
+          "title_zh": "美国死刑执行失败案细节披露：Christa Pike存活引发法律争议",
+          "summary": "被判谋杀的Christa Pike在田纳西州医院幸存，案件中的诸多疑问引发了公众对司法程序的关注。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-01",
           "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-          "overview": "该案件目前仍在调查中，焦点集中在为何两次注射未能奏效以及 Pike 目前的医疗状况。法律专家呼吁重新审视死刑执行的标准流程。",
-          "analysis": "此事件可能推动美国各州修改或暂停使用注射死刑的立法进程。",
+          "overview": "在Christa Pike死刑执行失败的后续报道中，更多细节被披露。该案件不仅是一起医疗意外，更成为检验美国司法体系严谨性的试金石。公众对于此类事件的处理方式提出了尖锐的质疑。",
+          "analysis": "案件的复杂性在于如何平衡对罪犯的惩罚与程序正义。此次失败可能促使相关机构进行内部调查，以恢复公众信心并确保未来执行的准确性。",
           "social": [
             {
-              "who": "人权组织代表",
-              "text": "如果连死亡都无法保证，这种刑罚是否还有意义？"
+              "who": "法律评论员",
+              "text": "此类事件暴露了死刑执行中潜在的系统性风险。"
+            },
+            {
+              "who": "田纳西州居民",
+              "text": "这对我们社区的司法安全是一个沉重的打击。"
             }
           ]
         },
         {
-          "title_zh": "英国旅行酒店性侵事件审查发现系统性失职",
-          "summary": "审查发现该连锁酒店在性侵犯事件中每个阶段均存在失败，夏季仍有十分之一的酒店报告入侵事件。",
+          "title_zh": "英国连锁酒店Travelodge被曝在性侵犯受害者求助中全面失职",
+          "summary": "一项调查报告发现，该酒店在夏季仍有十分之一的门店报告了房间入侵事件，且在受害者遭遇侵害时未能提供有效保护。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-01",
           "url": "https://www.bbc.co.uk/news/articles/c93429dg425o?at_medium=RSS&at_campaign=rss",
-          "overview": "受害者表示在求助过程中被忽视，酒店管理层未能及时响应安全警报。这一发现引发了对英国旅游住宿行业整体安保水平的担忧。",
-          "analysis": "该连锁品牌面临巨大的声誉危机和潜在的法律诉讼风险。",
+          "overview": "英国知名连锁酒店Travelodge因其在性侵犯受害者求助过程中的系统性失败而受到审查。调查发现，尽管有相关投诉，该酒店在多个环节均未采取有效措施保护住客安全。夏季期间仍有约十分之一的门店报告了房间入侵事件。",
+          "analysis": "这一丑闻暴露了大型住宿集团在安全管理上的严重疏忽。对于消费者而言，选择住宿时可能需要更加关注其安全记录，同时也对行业监管提出了更高要求。",
           "social": [
             {
-              "who": "旅行博主",
-              "text": "住店安全谁来保障？这简直是噩梦。"
+              "who": "调查员",
+              "text": "该酒店在受害者求助的每一个阶段都未能提供有效帮助。"
+            },
+            {
+              "who": "住客",
+              "text": "我们在入住期间感到极度不安全，投诉却石沉大海。"
             }
           ]
         },
         {
-          "title_zh": "埃丝特·兰岑惊喜重逢曾拯救的儿童",
-          "summary": "1988年的一段视频再次走红，记录了兰岑与Nicholas Winton所救儿童的感人时刻。",
+          "title_zh": "英国电视名人Esther Rantzen惊喜重逢二战英雄Nicholas Winton",
+          "summary": "1988年的一段经典视频片段近日再次走红网络，记录了Rantzen与Winton的感人瞬间。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-01",
           "url": "https://www.bbc.co.uk/news/videos/cxnvlvm2r85zo?at_medium=RSS&at_campaign=rss",
-          "overview": "这段 footage 多次在社交媒体上病毒式传播，展现了人道主义救援的深远影响。Nicholas Winton 被誉为“英国救星”，拯救了数百名犹太儿童逃离纳粹大屠杀。",
-          "analysis": "这一历史时刻提醒人们铭记和平与人道主义的珍贵价值。",
+          "overview": "英国著名电视主持人Esther Rantzen在职业生涯中最令人难忘的时刻之一，是1988年她惊喜地见到了二战期间拯救了数百名犹太儿童的英雄Nicholas Winton。这段珍贵的视频片段近年来多次在网络上传播，感动了无数观众。",
+          "analysis": "这一故事跨越数十年，展现了人性中的善良与勇气。Winton的善举在战后长期未被知晓，直到Rantzen的节目才让世人铭记，体现了媒体在传承历史记忆方面的独特作用。",
           "social": [
             {
-              "who": "社交媒体用户",
-              "text": "泪目，这才是真正的英雄主义。"
+              "who": "Esther Rantzen",
+              "text": "这是我最难忘的职业生涯时刻之一。"
+            },
+            {
+              "who": "网友",
+              "text": "这段视频再次走红，令人动容。"
             }
           ]
         },
         {
-          "title_zh": "尼康摄影大赛微小图像引发巨大争议",
-          "summary": "中国摄影师宁旭否认其作品违反规则，但引发了关于参赛标准和艺术评判的激烈讨论。",
+          "title_zh": "尼康年度摄影大赛因一张微小照片引发巨大争议",
+          "summary": "参赛者Dr Ning Xu否认其作品违反了尼康“小世界在行动”比赛的规则。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-09-30",
           "url": "https://www.bbc.co.uk/news/articles/ck4gjn1yzprno?at_medium=RSS&at_campaign=rss",
-          "overview": "该作品因视角独特而获奖，却遭到部分评委和网友质疑。争议焦点在于作品的真实性和是否符合“微小世界”的主题要求。",
-          "analysis": "反映了艺术评判标准与文化差异之间的冲突，以及国际摄影赛事中的公平性质疑。",
+          "overview": "在尼康一年一度的“小世界在行动”摄影大赛中，一张极其微小的照片引发了巨大的网络反弹和争议。参赛者Dr Ning Xu对此予以否认，坚称自己并未违反比赛规则。该事件反映了社交媒体时代公众对艺术创作与规则边界的不同解读。",
+          "analysis": "争议的核心在于对“微小”这一概念的定义以及参赛规则的灵活性。此类事件往往能引发关于创意自由与竞赛公平性的广泛讨论，同时也考验着主办方处理突发舆论的能力。",
           "social": [
             {
-              "who": "摄影爱好者",
-              "text": "中国摄影师的创意不应被偏见抹杀。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普政府挪用人权资金推行极右议程",
-          "summary": "美国国务院1.75亿美元人权基金被重新分配，用于反共主义及白人南非人权利等争议项目。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-30",
-          "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
-          "overview": "资金即将到期之际，特朗普政府急于将更多资金导向特定政治目标。其中包括对巴西最高法院的对抗项目及南非白人权利组织的支持。",
-          "analysis": "此举引发国际社会对美国“人权”定义的工具化倾向的强烈质疑。",
-          "social": [
+              "who": "参赛者",
+              "text": "我并没有违反比赛规则，照片是合法的参赛作品。"
+            },
             {
-              "who": "国际观察家",
-              "text": "人权不应成为地缘政治博弈的工具。"
-            }
-          ]
-        },
-        {
-          "title_zh": "南非总统呼吁男性对性别暴力负责",
-          "summary": "拉马福萨宣布措施应对近期女性谋杀案激增，承认保护不力并呼吁男性承担责任。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-30",
-          "url": "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
-          "overview": "警方将重新审查未解决的女性及儿童严重性犯罪案件。拉马福萨承认过去在保护女性方面做得不够，并承诺采取更严厉的措施。",
-          "analysis": "反映了非洲国家在性别暴力治理上的紧迫挑战和社会对政府行动的愤怒情绪。",
-          "social": [
-            {
-              "who": "南非女性权益组织",
-              "text": "必须严惩每一个施暴者，不能仅靠呼吁。"
-            }
-          ]
-        },
-        {
-          "title_zh": "布隆迪同意接收美国遣返的“第三国”移民",
-          "summary": "布隆迪加入其他非洲国家行列，但仅接受无犯罪记录的被遣返人员。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-30",
-          "url": "https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration",
-          "overview": "此举是特朗普强硬移民政策下的连锁反应。布隆迪表示将只接收未被指控犯罪或恐怖主义关联的人员，但具体细节尚不明确。",
-          "analysis": "凸显了全球移民危机中弱势国家的困境以及国际人权组织的担忧。",
-          "social": [
-            {
-              "who": "联合国难民署代表",
-              "text": "难民的命运为何总由大国决定？"
-            }
-          ]
-        },
-        {
-          "title_zh": "刚果（金）政治家因宣传埃博拉防疫措施遭殴打致死",
-          "summary": "UDPS党高级成员在电台节目后遇袭身亡，正值该地区出现新的疫情热点。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-09-28",
-          "url": "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
-          "overview": "该事件凸显了当地政治暴力与公共卫生危机交织的严峻局势。受害者因在公开场合推广防疫信息而遭到报复性攻击。",
-          "analysis": "这一悲剧可能严重阻碍埃博拉防控工作的推进，并加剧公众对政府的信任危机。",
-          "social": [
-            {
-              "who": "当地社区领袖",
-              "text": "在生命面前不应有政治特权。"
+              "who": "评论者",
+              "text": "这张照片的尺度引发了关于摄影艺术边界的激烈争论。"
             }
           ]
         }
@@ -2060,56 +2099,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦 OpenAI 智能体战略与 GPT-5 模型研发进展，推动 AI 安全治理框架。",
-          "url": "x.com/samaltman"
+          "recent": "聚焦前沿大模型安全治理与自主代理风险控制机制。",
+          "url": "twitter.com/samaltman"
         },
         {
           "name": "Demis Hassabis",
           "role": "Google DeepMind CEO",
           "region": "英国",
           "domain": "ai",
-          "recent": "主导 Gemini 系列模型能力突破，探索神经科学与 AI 的深度融合路径。",
-          "url": "demishassabis.com"
+          "recent": "主导 Google Gemini 系列模型能力迭代与 AI 前沿探索。",
+          "url": "twitter.com/dhassabis"
         },
         {
-          "name": "Yann LeCun",
-          "role": "Meta Chief Scientist",
-          "region": "法国",
-          "domain": "ai",
-          "recent": "推进 LLaMA 开源大模型生态建设，对 AI 安全对齐方法提出独立学术观点。",
-          "url": "yannlecun.com"
-        },
-        {
-          "name": "Tim Berners-Lee",
-          "role": "W3C 创始人 / Solid 项目发起人",
-          "region": "瑞士/英国",
-          "domain": "library",
-          "recent": "倡导数据主权与 Web 标准改革，探讨 AI 时代信息架构的演变与挑战。",
-          "url": "timbl.org"
-        },
-        {
-          "name": "李开复 (Kai-Fu Lee)",
-          "role": "AI 科学家 / 创新工场创始人",
-          "region": "中国/美国",
-          "domain": "ai",
-          "recent": "关注 AI 对教育及就业市场的深远影响，展望中国人工智能战略发展。",
-          "url": ""
+          "name": "Fei-Fei Li",
+          "role": "斯坦福大学 HAI 研究所主任",
+          "region": "全球/美国",
+          "domain": "ai/library",
+          "recent": "关注 AI 伦理、教育公平及图书馆科学融合应用。",
+          "url": "feifeili.ai"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主理人 / AI 研究者",
+          "role": "知名播客主理人/AI 研究者",
           "region": "美国",
-          "domain": "podcast",
-          "recent": "通过深度访谈形式探讨意识本质与前沿科学家关于 AI 未来的观点。",
+          "domain": "podcast/ai",
+          "recent": "深度访谈 AI 领域顶尖学者，探讨人机交互未来趋势。",
           "url": "lexfridman.com"
         },
         {
-          "name": "Bryan Alexander",
-          "role": "图书馆学教授 / 数字人文学者",
-          "region": "加拿大",
+          "name": "吴岩",
+          "role": "中国图书馆学会相关领导/数字教育专家",
+          "region": "中国",
           "domain": "library",
-          "recent": "从图书馆学视角分析 AI 技术对信息获取与知识组织的变革性挑战。",
-          "url": "bryanalexander.ca"
+          "recent": "推动数字赋能新时代图书馆高质量发展与智慧服务建设。",
+          "url": ""
+        },
+        {
+          "name": "David Weinberger",
+          "role": "互联网文化学者/图书馆转型倡导者",
+          "region": "美国",
+          "domain": "library/podcast",
+          "recent": "探讨 AI 时代信息生态变革下图书馆的转型与角色重塑。",
+          "url": "davidweinberger.com"
+        },
+        {
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "深耕 AI 安全对齐研究及前沿实验室自主代理治理。",
+          "url": "anthropic.com"
         }
       ]
     },
