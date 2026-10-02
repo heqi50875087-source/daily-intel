@@ -1,23 +1,101 @@
 {
-  "generated_at": "2026-10-03T06:37:11+08:00",
+  "generated_at": "2026-10-03T07:33:57+08:00",
   "date": "2026-10-03",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-03 06:37",
-    "ai": "2026-10-03 06:37",
+    "ai": "2026-10-03 07:33",
     "voices": "2026-10-03 06:37",
-    "github": "2026-10-03 06:37",
+    "github": "2026-10-03 07:33",
     "libraries": "2026-10-03 06:37",
-    "sports": "2026-10-03 06:37",
-    "academic": "2026-09-30 06:40"
+    "sports": "2026-10-03 07:33",
+    "academic": "2026-10-03 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "苹果将限制Mac全盘访问权限以应对AI智能体带来的安全风险",
+          "eng": "Apple will limit Mac disk access as AI agents 'substantially' increase risk",
+          "summary": "苹果宣布将对macOS的'全盘访问'权限实施更严格的控制，原因是日益强大的AI代理使得应用程序对用户文件、消息和浏览历史的广泛访问风险显著增加。只有真正需要此权限的应用才能通过额外验证获得授权。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-10-02",
+          "tags": [
+            "苹果",
+            "AI安全",
+            "隐私保护"
+          ],
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "overview": "苹果在周五发布更新，宣布将推出新的控制措施来限制macOS的'全盘访问'(Full Disk Access)权限。这一决策的直接原因是AI代理能力的提升使得传统的应用权限模型面临挑战——当AI能够自主执行任务时，它可能需要更广泛的系统访问权限来完成工作，但这同时也带来了数据泄露和滥用的风险。苹果表示，只有真正需要此权限的用户才能通过额外验证获得授权。",
+          "analysis": "这一政策变化反映了AI代理技术对传统安全模型的冲击。过去'最小权限原则'在人类操作场景下有效，但当AI自主执行任务时，它可能需要更广泛的访问权限来完成复杂工作流。苹果的选择是在便利性和安全性之间寻找新的平衡点，这可能会引发关于AI代理权限管理的广泛讨论。",
+          "social": [
+            {
+              "who": "安全研究员",
+              "text": "这是AI时代权限管理的一个关键转折点。传统的'全盘访问'在AI代理场景下确实存在滥用风险，但过度限制也可能阻碍合法的企业级AI应用部署。"
+            },
+            {
+              "who": "开发者",
+              "text": "这对开发企业级AI应用提出了新挑战：我们如何设计既能满足功能需求又符合安全规范的权限模型？可能需要引入专门的AI代理权限框架。"
+            }
+          ]
+        },
+        {
+          "title_zh": "白宫将AI重新定义为'超级智能'：仅2%消费者正在购买",
+          "eng": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+          "summary": "特朗普签署行政令正式将AI重新品牌化为'超级智能'(Super Intelligence)，并召集主要科技CEO签署AI安全承诺。然而，尽管政策层面动作频频，实际消费者采用率仍极低——仅约2%的消费者正在购买相关产品。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-10-02",
+          "tags": [
+            "白宫政策",
+            "AI监管",
+            "消费者采用"
+          ],
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "overview": "本周，白宫召集了几乎所有主要科技CEO——扎克伯格、贝索斯、马斯克和Anthropic的Dario Amodei等——签署了一份AI安全承诺，特朗普称之为'道德约束力'。同时，特朗普签署了行政令正式将AI重新品牌化为'超级智能'(Super Intelligence)。然而，Meta和OpenAI正在为他们的AI产品添加更友好的界面，与此同时，最大的资金投入仍在继续，但实际消费者采用率却极低——仅约2%的消费者正在购买相关产品。",
+          "analysis": "这一数据揭示了AI行业的一个核心矛盾：政策制定者和企业高管对AI的乐观预期与消费者的谨慎态度之间存在巨大鸿沟。'超级智能'的品牌重塑可能有助于提升公众认知，但如果产品体验不能跟上宣传承诺，这种重新定位可能会适得其反。2%的采用率也暗示着AI产品在易用性和实用性方面仍有很大改进空间。",
+          "social": [
+            {
+              "who": "消费者洞察专家",
+              "text": "2%的采用率说明大多数消费者对AI产品持观望态度。这可能是因为产品还不够成熟，或者用户不知道如何有效利用这些工具。"
+            },
+            {
+              "who": "科技记者",
+              "text": "白宫的政策动作和企业的营销努力都在试图推动AI普及，但真正的挑战在于如何让普通用户感受到AI带来的实际价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Hugging Face开源MCP智能体源验证模型：不仅关注事实正确性",
+          "eng": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "summary": "Hugging Face社区发布了针对多模态计算代理(MCP Agent)的源感知验证模型，该模型能够区分信息来源的真实性和内容事实的正确性。这是AI信任和安全领域的重要技术进展。",
+          "source": "Hugging Face",
+          "region": "全球",
+          "published": "2026-10-02",
+          "tags": [
+            "开源模型",
+            "MCP代理",
+            "AI验证"
+          ],
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "overview": "该研究提出了一种新的验证框架，专门用于多模态计算代理(MCP Agent)的信息源可信度评估。传统的事实核查方法主要关注陈述内容是否正确，而这一模型更进一步，能够判断信息来源本身的可靠性。这对于构建可信赖的AI系统至关重要，特别是在医疗、法律等对信息准确性要求极高的领域。",
+          "analysis": "这项技术进展标志着AI信任研究从'事实正确性'向'源可信度'的转变。随着AI代理越来越多地参与决策过程，确保它们使用的信息来源可靠变得尤为重要。开源这一模型有助于推动整个社区在AI安全领域的合作和标准化。",
+          "social": [
+            {
+              "who": "ML工程师",
+              "text": "这是MCP架构的一个重要补充。当多个代理协作时，源验证能力可以防止错误信息的传播和放大效应。"
+            },
+            {
+              "who": "AI安全研究员",
+              "text": "从'事实核查'到'源可信度评估'的范式转变很有意义。这为构建更可靠的AI系统提供了新的技术路径，特别是在需要多源信息整合的场景中。"
+            }
+          ]
+        },
         {
           "title_zh": "企业自主智能重塑：2026年全球AI投资预计达2.5万亿美元",
           "eng": "Redefining enterprise intelligence with autonomous AI",
@@ -723,85 +801,6 @@
             {
               "who": "投资人",
               "text": "OpenAI的安全治理问题可能影响其估值和用户信任度，投资者需重新评估风险"
-            }
-          ]
-        },
-        {
-          "title_zh": "边境执法可无证搜查手机：公民隐私权面临新挑战",
-          "eng": "Returning from vacation? The government can search your phone without a warrant.",
-          "summary": "美国边境执法机构可在无搜查令的情况下检查入境人员的手机，这一\"边境豁免\"政策引发移民权益倡导者的法律挑战。该案例凸显了数字时代公民隐私权面临的严峻考验。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-09-30",
-          "tags": [
-            "隐私权",
-            "边境执法",
-            "法律挑战",
-            "数字权利"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
-          "overview": "美国移民权益倡导者对边境执法机构提出诉讼，指控其在无搜查令的情况下要求检查入境人员的手机。这一\"边境豁免\"政策允许执法人员在边境地区不受第四修正案保护地搜查电子设备，引发关于数字时代公民隐私权边界的激烈辩论。",
-          "analysis": "这一法律案例触及了数字时代最敏感的神经——当手机成为个人生活的延伸时，无令搜查的合理性如何界定？法院需要在国家安全与个人隐私之间找到平衡点，但技术能力的快速进步使得这一平衡越来越难以维持。此案可能成为未来隐私权诉讼的先例。",
-          "social": [
-            {
-              "who": "法律学者",
-              "text": "\"边境豁免\"在数字时代需要重新审视。当手机存储的数据远超传统搜查范围时，无令搜查的合理性基础正在瓦解。"
-            },
-            {
-              "who": "公民权利活动家",
-              "text": "这一政策对普通公民的影响是深远的——任何人在边境都可能面临隐私侵犯的风险，无论其旅行目的为何。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google发布Gemini 4 Argon：号称最强模型",
-          "eng": "Google releases Gemini 4 Argon, called its most powerful model yet",
-          "summary": "Google发布了最新一代Gemini模型，将其定位为编程和网络安全工作的主力工具，声称这是其迄今最强大的AI模型。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-09-30",
-          "tags": [
-            "Google",
-            "Gemini",
-            "大模型发布"
-          ],
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "overview": "Google正式发布其最新一代AI模型Gemini 4 Argon，官方将其定位为编程和网络安全领域的主力工具。该模型被宣传为Google迄今最强大的AI系统，标志着其在多模态大模型竞赛中持续投入资源。作为OpenAI、Anthropic等竞争对手的又一回应，这一发布进一步加剧了AI军备竞赛态势。",
-          "analysis": "Gemini 4 Argon的发布凸显了Google在AI领域的战略重心——从通用对话转向垂直领域应用。将编程和网络安全作为主打方向，反映了企业级用户对AI工具的实际需求正在超越消费级场景。这一策略如果成功执行，可能对OpenAI的开发者生态构成直接挑战。",
-          "social": [
-            {
-              "who": "开发者社区成员",
-              "text": "Google在编程领域的投入值得关注，但模型实际性能仍需独立基准测试验证。"
-            },
-            {
-              "who": "投资人",
-              "text": "AI军备竞赛的持续升级意味着基础设施投资回报周期可能进一步拉长。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Neon影业通过Creative Commons协议推出SCP基金会电影，反击A24",
-          "eng": "Neon sticks it to A24 by announcing a Creative Commons SCP Foundation movie",
-          "summary": "A24在未联系SCP Wiki团队的情况下宣布制作SCP基金会电影，引发粉丝不满。Neon影业抓住这一PR机会，以Creative Commons协议推出自己的SCP基金会电影项目。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-09-30",
-          "tags": [
-            "影视行业",
-            "AI内容创作",
-            "知识产权"
-          ],
-          "url": "https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie",
-          "overview": "A24在未联系SCP Wiki团队的情况下宣布制作SCP基金会电影，引发粉丝不满。Neon影业抓住这一PR机会，以Creative Commons协议推出自己的SCP基金会电影项目。这一事件反映了AI时代内容创作和知识产权管理的复杂性。",
-          "analysis": "这一事件虽然主要涉及影视行业，但折射出AI时代内容创作的伦理和法律问题。Creative Commons协议的采用表明业界正在探索新的版权管理模式以适应快速变化的创作环境。",
-          "social": [
-            {
-              "who": "影视行业观察者",
-              "text": "Neon的策略非常聪明，利用A24的失误获得了PR优势，但长期来看需要更成熟的IP管理策略。"
-            },
-            {
-              "who": "内容创作者",
-              "text": "这一事件提醒我们AI时代的内容创作需要更加谨慎地处理知识产权和社区关系。"
             }
           ]
         }
@@ -1553,316 +1552,292 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼城确认就败诉判决提出上诉",
+          "title_zh": "曼城确认对财务违规有罪判决提出上诉",
           "eng": "Man City confirm appeal against guilty verdict",
-          "summary": "英超冠军曼城正式宣布将对独立委员会的有罪裁决提起上诉，俱乐部声明称该裁决在法律、原则和事实上存在明显错误。",
+          "summary": "曼城官方确认将对独立委员会关于财务违规的有罪判决提出上诉，声明称裁决存在法律、原则和事实上的明显材料错误。",
           "source": "BBC Football",
           "published": "2026-10-02",
           "url": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在经历了英超财务违规调查后，独立委员会做出了有罪裁决。俱乐部已正式确认将对此提出上诉，并指出判决中存在法律、原则和事实层面的明显错误，认为该裁决不安全。这一决定标志着曼城与监管机构之间长期博弈进入新阶段。",
-          "analysis": "此次上诉的核心在于挑战裁决的合法性，若成功可能推翻巨额罚款及禁赛令，对英超格局产生深远影响。但考虑到此前证据链的完整性，上诉结果仍充满不确定性。",
+          "overview": "曼城俱乐部正式确认将针对独立委员会在超过100项财务违规指控上的有罪判决提出上诉。俱乐部声明指出，该裁决包含\"法律、原则和事实上的明显材料错误，且不安全\"。这一决定标志着英超历史上最大规模财务调查案进入新的法律阶段。",
+          "analysis": "上诉的确认意味着曼城试图在法律层面翻盘，但此前伊蒂哈德航空的陈述已对其辩护立场构成挑战。若上诉失败，俱乐部可能面临转会禁令等严厉处罚，对英超格局产生深远影响。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "无论结果如何，这标志着曼城历史上的至暗时刻之一，俱乐部必须直面财务合规问题。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "法律层面的博弈往往比球场上的胜负更复杂，曼城的上诉需要拿出更有力的证据来支撑其辩护逻辑。"
+              "who": "资深球迷/法律观察者",
+              "text": "\"超过100项指控的有罪判决被推翻的可能性极低，但上诉本身为俱乐部争取了宝贵的时间窗口。\""
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "埃蒂哈德航空声明与曼城辩护立场相矛盾",
-          "eng": "Etihad’s statements on funding appear to contradict Manchester City’s defence",
-          "summary": "曼城主要赞助商埃蒂哈德航空此前向美国政府否认与阿布扎比政府存在关联，这与俱乐部在上诉中关于商业合作的辩护逻辑形成冲突。",
+          "title_zh": "伊蒂哈德声明与曼城辩护立场相矛盾",
+          "eng": "Etihad's statements on funding appear to contradict Manchester City's defence",
+          "summary": "曼城主要赞助商伊蒂哈德航空此前向美国政府的陈述似乎与其在上诉中的辩护立场相矛盾，FA确认其有权采取纪律行动。",
           "source": "Guardian Football",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/football/2026/oct/02/manchester-city-fa-guilty-verdict-premier-league-appeal",
-          "overview": "曼城上诉的关键要素之一是商业合作关系的声明，但埃蒂哈德航空此前向美国政府的表态似乎与此相悖。FA确认其有权采取纪律行动，这一矛盾可能削弱曼城的辩护力度，成为检方或独立委员会关注的重点。",
-          "analysis": "赞助商与俱乐部在关键事实上的不一致，可能会给上诉带来额外困难。这反映出曼城在处理财务合规问题时的复杂性，以及外部利益相关者之间的微妙关系。",
+          "overview": "曼城上诉的关键要素之一是声称其商业合作是合法的，但伊蒂哈德航空在2015年曾否认与阿布扎比政府存在关联。这一矛盾削弱了俱乐部关于资金来源合规的辩护逻辑，FA已确认拥有采取纪律行动的权力。",
+          "analysis": "赞助商的证词自相矛盾是一个致命的法律细节。如果伊蒂哈德的陈述被证实不可信，曼城在上诉中关于\"商业合作非违规渠道\"的核心论点将受到严重质疑。",
           "social": [
             {
-              "who": "法律专家",
-              "text": "证词矛盾是法律诉讼中的致命伤，如果埃蒂哈德的声明属实，曼城的辩护策略将面临严峻挑战。"
-            },
-            {
-              "who": "英超观察者",
-              "text": "商业赞助与体育竞技的边界在这里变得模糊，曼城需要解释清楚这种不一致背后的原因。"
+              "who": "体育记者/调查分析",
+              "text": "\"赞助商的证词与俱乐部辩护直接冲突，这可能会成为独立委员会推翻原判的关键证据。\""
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "举报人因安全担忧准备离开葡萄牙",
-          "eng": "Man City whistleblower Rui Pinto to leave Portugal over safety fears",
-          "summary": "揭露曼城财务违规的举报人鲁伊·平托在失去证人保护身份后，因收到死亡威胁而准备离开葡萄牙。",
-          "source": "BBC Football",
+          "title_zh": "举报人里奥·平托因安全威胁准备离开葡萄牙",
+          "eng": "Manchester City whistleblower Rui Pinto to leave Portugal over safety fears",
+          "summary": "揭露曼城财务违规的举报人里奥·平托透露，在得知葡萄牙证人保护计划终止后，他正面临生命危险并收到多次死亡威胁。",
+          "source": "Guardian Football",
           "published": "2026-10-02",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo?at_medium=RSS&at_campaign=rss",
-          "overview": "葡萄牙黑客鲁伊·平托此前发布的文件引发了英超对曼城的调查。尽管他拥有证人保护身份，但葡萄牙方面已终止该计划，平托本人透露收到多次死亡威胁，面临暗杀风险，律师将对此提出上诉。",
-          "analysis": "举报人的安全状况直接关系到案件的公正性和后续调查的可行性。这一事件凸显了足球反腐斗争中的人道主义困境，也增加了案件的政治敏感性。",
+          "url": "https://www.theguardian.com/football/2026/oct/02/manchester-city-whistleblower-rui-pinto-leave-portugal-over-safety-fears",
+          "overview": "Football Leaks创始人里奥·平托在得知葡萄牙证人保护计划终止后，透露自己正准备离开该国。他声称收到了\"多次死亡威胁\"并面临\"严重的暗杀企图风险\"，其律师将对此决定提出上诉，称情况\"危急\"。",
+          "analysis": "举报人的安全状况直接关系到这场财务调查案的公正性和透明度。平托的处境凸显了揭露大型企业违规行为所面临的巨大个人风险，也引发了公众对证人保护机制有效性的质疑。",
           "social": [
             {
-              "who": "人权活动人士",
-              "text": "举报人冒着生命危险揭露真相，失去保护身份后面临死亡威胁，这是对人权的严重侵犯。"
-            },
-            {
-              "who": "足球记者",
-              "text": "平托的处境令人担忧，他的安全不仅关乎个人，更关系到整个英超反腐调查的公信力。"
+              "who": "人权活动人士/球迷",
+              "text": "\"举报人冒着生命危险揭露真相，如果连基本的安全保障都无法提供，正义的天平将严重倾斜。\""
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "图赫尔承认曼城球员担心未来前景",
-          "eng": "Manchester City’s England players are worried about their futures, admits Tuchel",
-          "summary": "英格兰队主教练图赫尔透露，曼城球员因俱乐部被裁定有罪而感到担忧，这已成为国家队备战期间的热门话题。",
+          "title_zh": "图赫尔承认英格兰队球员担忧未来",
+          "eng": "Manchester City's England players are worried about their futures, admits Tuchel",
+          "summary": "曼城主帅图赫尔表示，俱乐部被裁定有罪一事已成为英格兰队备战期间的主要话题，球员们对此感到忧虑。",
           "source": "Guardian Football",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/football/2026/oct/02/manchester-citys-england-players-are-worried-about-their-futures-admits-tuchel",
-          "overview": "在英格兰队对阵克罗地亚的 Nations League 比赛前，图赫尔表示曼城球员的未来问题已成为球队内部讨论的重点。尽管图赫尔声称即使曼城降级也会继续挑选这些球员，但俱乐部被裁定有罪无疑给国家队阵容选择带来了额外压力。",
-          "analysis": "俱乐部的财务丑闻已经溢出到国际赛场，影响了国家队的备战氛围和球员心态。图赫尔需要在竞技需求和球员心理之间找到平衡，确保球队在大赛中保持专注。",
+          "overview": "曼城主帅图赫尔透露，俱乐部被裁定有罪一事已在英格兰队备战期间成为主要讨论话题。他承认球员对未来的不确定性感到担忧，并表示即使曼城降级也愿意继续挑选其球员。这一事件给球队在克罗地亚的右后卫人选选择带来了难题。",
+          "analysis": "球员心态直接影响竞技状态。图赫尔虽然表示会坚持使用曼城球员，但球队内部的焦虑情绪可能影响备战质量。如何在法律风波中维持更衣室稳定是教练组的重大挑战。",
           "social": [
             {
-              "who": "国家队教练",
-              "text": "球员的个人问题不应影响比赛表现，但俱乐部的丑闻确实会给球员带来额外的心理压力。"
-            },
-            {
-              "who": "英格兰球迷",
-              "text": "希望图赫尔能处理好这个问题，让球员们专注于比赛，而不是被俱乐部的问题分心。"
+              "who": "主教练/英格兰队教练组",
+              "text": "\"我们在晚餐时讨论过这个话题，球员们确实对此感到不安，但我们必须专注于比赛。\""
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "欧国联：意大利逼平法国，北爱尔兰爆冷击败乌克兰",
+          "title_zh": "曼城有罪判决对球员阵容意味着什么",
+          "eng": "What does Man City guilty verdict mean for their squad?",
+          "summary": "BBC Sport分析了曼城有罪判决将如何影响现有球员的未来以及俱乐部在转会市场上的运作。",
+          "source": "BBC Football",
+          "published": "2026-10-02",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c68jdjdz32n3o?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC Sport深入分析了曼城有罪判决对现有球员未来的影响，以及俱乐部在转会市场上的操作空间。这一裁决可能迫使俱乐部重新评估其阵容规划，并对未来几年的引援策略产生制约。",
+          "analysis": "如果上诉失败，17年的转会禁令将彻底改变英超格局。对于曼城而言，这不仅关乎荣誉，更关乎竞技层面的重建。球员的未来合同和转会价值也可能因此受到波动。",
+          "social": [
+            {
+              "who": "资深球迷/转会分析师",
+              "text": "\"无论上诉结果如何，这一判决已经改变了英超的权力平衡，曼城需要为最坏的情况做好准备。\""
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "欧国联：意大利与少一人法国战平，北爱尔兰大胜乌克兰",
           "eng": "Nations League: Italy earn draw against 10-man France, Northern Ireland stun Ukraine",
-          "summary": "欧国联A级联赛中，意大利在少一人情况下与法国战平，北爱尔兰则大胜乌克兰提升升级希望。",
+          "summary": "齐达内执教法国队的首场主场以1-1战平意大利（乌帕梅卡诺红牌），北爱尔兰3-0击败乌克兰提升升级希望。",
           "source": "Guardian Football",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/football/2026/oct/02/nations-league-roundup-france-italy-northern-ireland-ukraine-belgium",
-          "overview": "在欧国联A级联赛的比赛中，法国队在主场对阵意大利时以1-1战平，尽管少一人作战。比利时则以3-0大胜土耳其。北爱尔兰队在对阵乌克兰的比赛中以3-0获胜，提升了他们的升级前景。",
-          "analysis": "意大利门将多纳鲁马的表现是比赛的关键因素之一，帮助球队在不利局面下守住平局。北爱尔兰的胜利则为他们在欧国联中的晋级之路增添了信心。",
+          "overview": "欧国联A级联赛中，齐达内执教法国队的首场主场以1-1战平意大利。客队门将多纳鲁马表现出色完成多次扑救，而主队在第55分钟由米歇尔进球领先，但乌帕梅卡诺被红牌罚下后未能守住胜果。北爱尔兰3-0大胜乌克兰，提升了升级希望。比利时同样3-0击败土耳其。",
+          "analysis": "齐达内执教法国队的首秀以平局收场，多纳鲁马的扑救成为关键。北爱尔兰的胜利则展示了年轻一代的实力，为未来的大赛储备了信心。欧国联的竞争格局正在重新洗牌。",
           "social": [
             {
-              "who": "足球解说",
-              "text": "少一人作战还能逼平法国队，意大利的门将表现确实出色，值得称赞。"
-            },
-            {
-              "who": "球迷",
-              "text": "北爱尔兰的3-0大胜太振奋人心了，他们的升级希望大增。"
+              "who": "解说/资深球迷",
+              "text": "\"多纳鲁马的首秀堪称完美，但乌帕梅卡诺的红牌让法国队的防守体系受到了考验。\""
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "德国联赛冠军无法升班：足球体系的结构性矛盾",
-          "eng": "The Unpromotables: Germany's league champions who can't go up",
-          "summary": "德国足球面临一个令人困惑的局面，五个联赛冠军却只有四个升级名额，导致部分冠军球队无法升入更高级别联赛。",
-          "source": "BBC Football",
-          "published": "2026-10-02",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmj4jr2vgx0ko?at_medium=RSS&at_campaign=rss",
-          "overview": "德国足球正在处理一个数字上的矛盾，即五个联赛冠军却只有四个升级名额。这一结构性问题导致部分冠军球队无法升入更高级别联赛，引发了广泛的讨论和争议。",
-          "analysis": "这一现象反映了德国足球体系中的深层次问题，包括联赛结构和财务规则的限制。如何解决这一矛盾，将是德国足球未来发展的关键议题之一。",
-          "social": [
-            {
-              "who": "德甲球迷",
-              "text": "五个冠军只能升四个，这确实是个令人困惑的问题，需要足协给出合理的解释和解决方案。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "这种结构性矛盾可能会影响联赛的竞争性和观赏性，希望德国足协能尽快找到解决办法。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "打乒乓球帮助帕金森患者改善运动能力和情绪",
+          "title_zh": "打乒乓球帮助了我的帕金森病",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "布莱顿俱乐部的患者表示，参与乒乓球活动有助于改善动作、心情和自信心。",
+          "summary": "患者表示在布莱顿俱乐部打乒乓球有助于改善动作、心情和自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "来自布莱顿俱乐部的患者反馈，打乒乓球对改善运动能力、情绪状态和自信心有积极帮助。这一案例展示了乒乓球在康复领域的潜在价值。",
-          "analysis": "体育干预在神经退行性疾病辅助治疗中的作用日益受到关注，乒乓球的反应速度和协调性训练具有独特优势，值得医疗界进一步研究。",
+          "overview": "多位帕金森病患者分享经验，指出在布莱顿的一家乒乓球俱乐部进行训练对康复有积极影响。参与者在运动中改善了身体动作控制能力，同时提升了情绪状态和自信心。这一案例展示了乒乓球运动在非竞技领域作为辅助治疗手段的潜力。",
+          "analysis": "乒乓球的高频率反应要求与精细手部控制非常适合神经康复训练。这种社区化的运动模式为慢性病患者的社交融入提供了新路径。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "康复视角下的乒乓球应用非常有趣，竞技之外的人文关怀值得推广。"
+              "text": "没想到乒乓球还能当康复工具，对帕金森患者来说这俱乐部太友好了。"
             },
             {
-              "who": "教练",
-              "text": "对于老年患者来说，这种低冲击运动确实适合日常锻炼。"
+              "who": "教练视角",
+              "text": "乒乓球的节奏和反应训练确实适合神经运动功能恢复，值得推广到更多康复场景。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "曼城确认将对有罪裁定提出上诉",
-          "eng": "Man City confirm appeal against guilty verdict",
-          "summary": "曼城官方声明称，独立委员会的裁决存在法律、原则和事实上的明显错误，俱乐部已正式确认将对此提出上诉。",
-          "source": "BBC Sport",
-          "published": "2026-10-02",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cqn7470513n0o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在涉及超过100项财务违规指控的独立委员会调查中获有罪裁定后，俱乐部正式确认将提出上诉。声明指出裁决包含法律、原则和事实层面的明显错误，认为该裁决不安全。这一决定标志着英超历史上最大规模财务调查案进入关键的法律博弈阶段。",
-          "analysis": "曼城此次上诉的核心论点之一涉及商业合作关系的性质，但据《卫报》报道，其赞助商埃蒂哈德航空此前向美国政府的陈述似乎与俱乐部的辩护立场相矛盾，这给上诉增加了变数。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "这是英超历史上最重大的法律事件之一，无论结果如何，曼城和整个足球界都将被深刻改变。"
-            },
-            {
-              "who": "体育记者",
-              "text": "上诉的关键在于能否证明财务违规的认定存在程序或事实错误，而不仅仅是商业操作上的灰色地带。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "埃蒂哈德航空声明与曼城辩护相矛盾",
-          "eng": "Etihad's statements on funding appear to contradict Manchester City's defence",
-          "summary": "曼城的主要赞助商埃蒂哈德航空此前否认与阿布扎比政府存在联系，这与俱乐部在财务违规上诉中的辩护立场产生了直接冲突。",
-          "source": "Guardian Sport",
-          "published": "2026-10-02",
-          "url": "https://www.theguardian.com/football/2026/oct/02/manchester-city-fa-guilty-verdict-premier-league-appeal",
-          "overview": "曼城上诉的关键要素之一是基于其商业合作关系的性质，但《卫报》调查发现，埃蒂哈德航空在2015年向美国政府的陈述中否认了与阿布扎比政府的关系。FA确认其有权采取纪律行动，这一矛盾可能削弱曼城的辩护力度。",
-          "analysis": "赞助商的证词若被证实与俱乐部说法不一致，将严重打击上诉的可信度。这不仅是法律战，更是对足球商业伦理的一次公开拷问。",
-          "social": [
-            {
-              "who": "足球评论员",
-              "text": "如果赞助商在关键时刻的证词站不住脚，曼城在法律上会陷入非常被动的局面。"
-            },
-            {
-              "who": "英超观察家",
-              "text": "这揭示了顶级俱乐部在处理财务合规问题时的复杂性和潜在的利益冲突。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "图赫尔承认曼城英格兰球员担忧未来",
+          "title_zh": "图赫尔承认曼城球员担忧未来",
           "eng": "Manchester City's England players are worried about their futures, admits Tuchel",
-          "summary": "英格兰队主教练图赫尔透露，曼城的英格兰球员在国家队集训期间频繁讨论俱乐部被裁定有罪对其未来的影响。",
+          "summary": "图赫尔透露，在英格兰队对阵克罗地亚的 Nations League 赛前，曼城球员因俱乐部涉嫌违反英超财务规则而对其未来感到忧虑。",
           "source": "Guardian Sport",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/football/2026/oct/02/manchester-citys-england-players-are-worried-about-their-futures-admits-tuchel",
-          "overview": "在英格兰队对阵克罗地亚的 Nations League 比赛前，图赫尔承认曼城球员的未来是团队讨论的主要话题。尽管图赫尔表示即使曼城降级也会继续挑选这些球员，但俱乐部财务违规的阴影显然笼罩着国家队阵容。",
-          "analysis": "这反映了足球世界中俱乐部利益与国家荣誉之间的微妙张力。对于英格兰队而言，如何在保持竞争力的同时处理这一敏感问题将是图赫尔面临的挑战。",
-          "social": [
-            {
-              "who": "国家队教练",
-              "text": "球员的个人处境不应成为战术选择的障碍，但心理负担确实需要被正视和管理。"
-            },
-            {
-              "who": "足球分析师",
-              "text": "图赫尔的表态显示了他在平衡俱乐部忠诚和国家队利益方面的谨慎态度。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "曼城举报人即将失去证人保护身份",
-          "eng": "Man City whistleblower to lose witness protection",
-          "summary": "揭露曼城财务问题的葡萄牙黑客即将失去证人保护，尽管其生命安全仍面临威胁的担忧。",
-          "source": "BBC Sport",
-          "published": "2026-10-02",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo?at_medium=RSS&at_campaign=rss",
-          "overview": "这位葡萄牙计算机黑客因发布文件而引发了英超对曼城的调查，现在他即将失去证人保护身份。尽管外界对其安全表示担忧，但相关程序仍在推进中。这一事件凸显了体育反腐调查中举报人面临的风险。",
-          "analysis": "举报人的安全是此类调查能否持续的关键因素之一。如果保护措施无法维持，可能会影响后续的法律进程和证据的完整性。",
-          "social": [
-            {
-              "who": "法律专家",
-              "text": "证人保护制度的失效可能对整个案件的公正性产生深远影响，需要各方密切关注后续发展。"
-            },
-            {
-              "who": "体育记者",
-              "text": "这位黑客的勇气值得敬佩，但他所承担的风险也令人深思。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": " Nations League: 意大利1-1战平法国(少一人),北爱尔兰大胜乌克兰",
-          "eng": "Nations League: Italy earn draw against 10-man France, Northern Ireland stun Ukraine",
-          "summary": "齐达内执教法国队的首秀以1-1收场，北爱尔兰3-0击败乌克兰提升了晋级希望。",
-          "source": "Guardian Sport",
-          "published": "2026-10-02",
-          "url": "https://www.theguardian.com/football/2026/oct/02/nations-league-roundup-france-italy-northern-ireland-ukraine-belgium",
-          "overview": "在 Nations League A 阶段，法国队在齐达内执教的首场主场赛中以1-1战平意大利。客队门将多纳鲁马表现出色，而主队在上半场末段因乌帕梅卡诺被罚下少一人作战。北爱尔兰队则以3-0大胜乌克兰，为晋级增添了动力。",
-          "analysis": "齐达内的首秀虽未取胜，但展现了法国队的韧性。北爱尔兰的胜利则是一个惊喜，可能改变 Nations League 的格局。",
-          "social": [
-            {
-              "who": "足球迷",
-              "text": "齐达内终于迎来了他的首场主场执教比赛，尽管结果平淡，但过程令人期待。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "北爱尔兰的表现超出了预期，他们的晋级之路看起来更加清晰了。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "锦织圭在日本公开赛上含泪宣布退役",
-          "eng": "'I kept fighting right to the end' - emotional Nishikori retires",
-          "summary": "前世界第四的锦织圭在日本公开赛上宣布结束职业生涯，称自己“坚持战斗到了最后”。",
-          "source": "BBC Tennis",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cwe8e81n3egeo?at_medium=RSS&at_campaign=rss",
-          "overview": "锦织圭在东京的日本公开赛上含泪宣布退役，结束了他漫长的职业网球生涯。他在赛后表示“坚持战斗到了最后”，这一时刻令在场观众动容。作为前世界第四，他的退役标志着日本网球的又一个时代结束。",
-          "analysis": "锦织圭的职业生涯充满了起伏，从早期的天才少年到后来的伤病困扰，他的坚持令人敬佩。他的退役不仅是个人故事的终结，也是网球界失去了一位独特风格的选手。",
+          "overview": "曼城主帅图赫尔在采访中表示，俱乐部被指控违反英超财务规则一事已成为英格兰队内部的重要话题。尽管他声称如果曼城降级仍会挑选其球员，但承认球员们对此案感到不安。这发生在英格兰队即将对阵克罗地亚的关键比赛前夕。",
+          "analysis": "这一表态揭示了欧洲顶级俱乐部在面临巨额罚款和调查时，对国家队层面的连锁反应不容忽视。图赫尔的言论可能影响英格兰队在 Nations League 中的战术选择和士气。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "锦织圭的风格独一无二，他的退役让我们失去了一个充满个性的球员。"
+              "text": "如果曼城真的被判有罪，这对英格兰队的阵容深度将是巨大打击，尤其是右后卫位置。"
             },
             {
-              "who": "网球评论员",
-              "text": "他在场上的表现总是能给人留下深刻印象，无论结果如何，他的精神值得尊敬。"
+              "who": "教练视角",
+              "text": "图赫尔展现了务实态度，但球员的心理负担是客观存在的现实问题。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "WTA确认2027年起所有赛事实现男女奖金平等",
-          "eng": "More top-level events to award equal prize money in 'major milestone'",
-          "summary": "女子网球协会(WTA)宣布，从2027年起其旗下全部1000项赛事将实现男女奖金完全平等。",
-          "source": "BBC Tennis",
-          "published": "2026-10-01",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckq6360827rpo?at_medium=RSS&at_campaign=rss",
-          "overview": "WTA 确认这是一个“重大里程碑”，旗下所有1000项赛事将从2027年开始提供男女平等的奖金。这一决定标志着女子网球在争取与男子网球同等待遇方面取得了重要进展，尽管完全平等仍需时间实现。",
-          "analysis": "虽然这是巨大的进步，但 tennis界仍有一些顶级赛事尚未实现完全平等。WTA 的这一举措为整个行业树立了榜样，但也需要其他组织跟进。",
+          "title_zh": "曼城吹哨人将失去证人保护身份",
+          "eng": "Man City whistleblower to lose witness protection",
+          "summary": "葡萄牙黑客因发布揭露曼城财务违规的文件而触发英超调查，目前面临失去证人保护的风险。",
+          "source": "BBC Sport",
+          "published": "2026-10-02",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrp78ddvqo?at_medium=RSS&at_campaign=rss",
+          "overview": "这位葡萄牙计算机黑客此前发布的文件直接促成了英超对曼城的调查，但他现在面临失去证人保护身份的局面。尽管存在对其人身安全的担忧，相关程序仍在推进中。这一进展标志着曼城财务违规案进入了一个新的阶段。",
+          "analysis": "失去证人保护意味着吹哨人可能面临更大的法律或社会压力，这可能会影响后续案件的审理进程和证据的完整性。",
           "social": [
             {
-              "who": "女网运动员",
-              "text": "这让我们感到鼓舞，但我们希望这一承诺能够真正落实到每一个赛事中。"
+              "who": "体育记者",
+              "text": "在调查如此重大的案件时，保护线人的安全至关重要，这一决定令人担忧。"
             },
             {
-              "who": "体育记者",
-              "text": "WTA 的这一决定是性别平等在体育领域的重要一步，值得肯定。"
+              "who": "英超球迷",
+              "text": "曼城财务违规案牵涉甚广，每一步进展都备受关注。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "橄榄球脑损伤诉讼原告面临280万英镑法律费用",
+          "title_zh": "巴斯队复仇埃克塞特夺得 Premiership 榜首",
+          "eng": "Bath go top with Finn Russell to the fore in thrilling derby victory against Exeter",
+          "summary": "巴斯队在主场以 40-34 击败埃克塞特酋长队，在 Premiership 积分榜上升至首位。",
+          "source": "Guardian Sport",
+          "published": "2026-10-02",
+          "url": "https://www.theguardian.com/sport/2026/oct/02/bath-go-top-with-finn-russell-to-the-fore-in-thrilling-derby-victory-against-exeter",
+          "overview": "巴斯队在 Rec 球场上演了一场精彩的西英格兰德比，最终以 40-34 逆转埃克塞特酋长队。比赛过程跌宕起伏，半场时巴斯队以 26-10 领先，但下半场埃克塞特一度追至 33-31，直到替补半卫斯蒂芬·瓦尼吃到黄牌才决定胜负。",
+          "analysis": "这场胜利不仅让巴斯队登顶积分榜，也展示了他们在关键比赛中的韧性。菲恩·罗素的表现是球队获胜的关键因素之一。",
+          "social": [
+            {
+              "who": "橄榄球爱好者",
+              "text": "11 次达阵的比赛太精彩了，巴斯队的防守在关键时刻立住了。"
+            },
+            {
+              "who": "解说员",
+              "text": "瓦尼的黄牌改变了比赛的走向，这种戏剧性正是 Premiership 的魅力所在。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "橄榄球脑损伤索赔案面临 280 万英镑法律费用",
           "eng": "Rugby's brain injury claimants face £2.8m legal bill to continue case",
-          "summary": "橄榄球脑损伤诉讼的原告被要求承担高达280万英镑的法律费用，案件因前律师造成的延误而陷入危机。",
+          "summary": "正在进行的橄榄球脑损伤诉讼案中，原告方被要求承担高达 280 万英镑的法律费用。",
           "source": "Guardian Sport",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/sport/2026/oct/02/rugby-union-players-liable-for-28m-in-legal-fees-to-brain-injury-case-concussion",
-          "overview": "正在进行中的橄榄球脑损伤诉讼中，原告被裁定需承担280万英镑的法律费用。法官指出，这些费用部分是由于前律师造成的延误所致。如果案件要在当前形式下继续审理，这笔费用必须在10月底前结算。",
-          "analysis": "这一裁决对球员群体造成了巨大的经济压力，也可能影响案件的后续发展。它引发了关于体育法律程序中责任归属的广泛讨论。",
+          "overview": "橄榄球脑损伤索赔案的原告方因之前的律师延误而被判需承担被告方的 280 万英镑法律费用。这笔费用大部分需要在 10 月底前结算，否则案件可能无法继续以目前的形态进行。法官认定这些延误是由前律师造成的。",
+          "analysis": "高昂的法律费用可能对球员和俱乐部的诉讼策略产生重大影响，甚至可能导致案件的终结或被迫和解。这反映了体育法律纠纷中程序性问题的复杂性。",
           "social": [
             {
-              "who": "橄榄球运动员",
-              "text": "我们一直在为脑损伤问题抗争，但现在却面临如此高昂的法律费用，这令人沮丧。"
+              "who": "体育法律专家",
+              "text": "280 万英镑的费用对于个人索赔者来说是一笔巨款，这可能迫使案件走向不同的方向。"
             },
             {
-              "who": "法律评论员",
-              "text": "这一裁决凸显了体育诉讼中的复杂性，尤其是在责任分配和程序延误方面。"
+              "who": "橄榄球运动员",
+              "text": "脑损伤问题一直是橄榄球的痛点，法律上的波折令人遗憾。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "萨巴伦卡开启中国网球公开赛之旅",
+          "eng": "Sabalenka 'trying hard to be easier on myself'",
+          "summary": "阿丽娜·萨巴伦卡在击败雷纳塔·扎拉苏亚后，开启了中国网球公开赛的征程。",
+          "source": "BBC Sport",
+          "published": "2026-10-02",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c52e9dkmm7ylo?at_medium=RSS&at_campaign=rss",
+          "overview": "世界顶级网球选手萨巴伦卡在中国网球公开赛首轮比赛中击败了雷纳塔·扎拉苏亚。她表示自己正在努力让自己对自己更宽容一些，暗示她在寻求心态上的调整以应对比赛压力。",
+          "analysis": "作为赛会头号种子之一，萨巴伦卡的心态调整对于冲击冠军至关重要。她试图在保持攻击性的同时减少自我施压，这显示了她在职业生涯中的成熟。",
+          "social": [
+            {
+              "who": "网球粉丝",
+              "text": "萨巴伦卡的发球和底线能力依然恐怖，期待她在中网的表现。"
+            },
+            {
+              "who": "体育评论员",
+              "text": "心态的调整往往比技术更重要，希望她能顺利度过这一关。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "WTA 确认所有赛事将实现男女同工同酬",
+          "eng": "More top-level events to award equal prize money in 'major milestone'",
+          "summary": "女子网球协会宣布，从 2027 年起其旗下全部 1000 项赛事将实行奖金平等。",
+          "source": "BBC Tennis",
+          "published": "2026-10-01",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/ckq6360827rpo?at_medium=RSS&at_campaign=rss",
+          "overview": "女子网球协会（WTA）确认，从 2027 年起其旗下所有共计 1000 项赛事将实现男女奖金平等。这一举措被描述为“重大里程碑”，标志着女子网球在性别平等方面取得了重要进展。",
+          "analysis": "这一决定不仅提升了女子网球的商业价值，也回应了长期以来关于性别平等的呼吁。对于球员来说，这意味着更多的经济保障和职业尊严。",
+          "social": [
+            {
+              "who": "女性运动员",
+              "text": "这是体育界的一大进步，希望更多运动项目能跟进这一举措。"
+            },
+            {
+              "who": "网球教练",
+              "text": "奖金平等是必要的，但更重要的是在媒体曝光和赞助上的平等。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "锦织圭在日本公开赛上含泪退役",
+          "eng": "'I kept fighting right to the end' - emotional Nishikori retires",
+          "summary": "前世界第四的锦织圭在日本公开赛上宣布结束职业生涯，并流下了眼泪。",
+          "source": "BBC Tennis",
+          "published": "2026-10-01",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cwe8e81n3egeo?at_medium=RSS&at_campaign=rss",
+          "overview": "日本网球传奇选手锦织圭在日本公开赛上宣布退役，他在赛后表示“一直战斗到了最后”。这位前世界第四的选手在职业生涯末期展现了坚韧不拔的精神，令现场观众动容。",
+          "analysis": "锦织圭的退役标志着一个时代的结束，他的坚持和勇气激励了无数年轻球员。对于日本网球来说，他是一位不可或缺的历史人物。",
+          "social": [
+            {
+              "who": "日本网球迷",
+              "text": "锦织圭是日本的骄傲，他的职业生涯充满了传奇色彩。"
+            },
+            {
+              "who": "体育记者",
+              "text": "在职业生涯末期依然保持战斗精神，这是真正的职业态度。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "乔丹“最后一舞”球衣以 900 万英镑成交",
+          "eng": "Jordan 'Last Dance' jersey sells for £9m",
+          "summary": "一件迈克尔·乔丹“最后一舞”赛季的球衣以 1230 万美元的价格售出，创下了乔丹纪念品拍卖纪录。",
+          "source": "BBC Basketball",
+          "published": "2026-10-01",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/cx5yly6p2nyvo?at_medium=RSS&at_campaign=rss",
+          "overview": "一件来自迈克尔·乔丹“最后一舞”赛季的球衣以 1230 万美元（约 900 万英镑）的价格成交，创下了乔丹纪念品拍卖的历史纪录。这一价格反映了乔丹在篮球历史上的巨大影响力和球迷的热情。",
+          "analysis": "这件球衣的高价成交再次证明了乔丹作为篮球之神的地位。随着 NBA 传奇时代的结束，相关纪念品的价值也在不断攀升。",
+          "social": [
+            {
+              "who": "NBA 粉丝",
+              "text": "1230 万美元的天价！乔丹的影响力依然无可估量。"
+            },
+            {
+              "who": "收藏家",
+              "text": "这是乔丹纪念品拍卖的里程碑，未来可能会有更高的价格。"
             }
           ],
           "region": "综合"
@@ -1878,64 +1853,312 @@
     "github": {
       "items": [
         {
-          "title_zh": "AIHOT：AI热点日报自动生成框架",
+          "title_zh": "AIHOT - 行业热点日报自动生成框架",
           "eng": "KKKKhazix/AIHOT",
-          "summary": "一个自动抓取热点、生成行业日报的网站框架，自定义信源与筛选标准即可打造专属热点站。",
+          "summary": "一个自动抓取信源、智能筛选并生成每日行业热点简报的网站框架，用户自定义数据源和筛选规则即可打造专属的行业资讯站。",
           "source": "GitHub",
           "stars": 4956,
           "lang": "TypeScript",
           "published": "2026-09-28",
           "url": "https://github.com/KKKKhazix/AIHOT",
-          "overview": "AIHOT 是一个开源的 AI 热点聚合与日报生成框架，支持自定义信息源和精选标准。用户只需替换信源配置即可快速搭建行业热点网站，自动生成每日 AI 领域动态摘要。项目采用 TypeScript 构建，架构清晰，适合个人开发者或团队快速部署。",
-          "analysis": "4956 星的高关注度说明社区对 AI 内容聚合工具需求旺盛。该项目降低了 AI 资讯站点的搭建门槛，对于 AI 从业者、科技媒体和知识付费场景都有实用价值。框架化设计便于二次开发，生态扩展性强。"
+          "overview": "AIHOT是一个开源的热点聚合与日报生成框架，核心能力在于自动从多个信息源抓取内容、基于可配置的标准进行智能筛选和去重，最终输出结构化的每日行业简报。项目采用TypeScript构建，支持高度自定义的信源接入和精选规则，适合技术媒体、产品运营团队快速搭建自己的AI驱动资讯平台。",
+          "analysis": "在AI时代，信息过载是核心痛点。该项目将热点聚合从手动操作升级为自动化流水线，降低了内容团队的运营成本，同时为开发者提供了一个可复用的行业情报系统模板。4956星的高关注度反映了市场对这类工具的强烈需求。",
+          "social": [
+            {
+              "who": "独立开发者",
+              "text": "这个框架让我能在30分钟内搭建自己的AI日报站，比手动整理效率高十倍。"
+            },
+            {
+              "who": "内容运营者",
+              "text": "自定义信源和筛选标准后，输出的行业简报质量远超传统RSS聚合工具。"
+            }
+          ]
         },
         {
-          "title_zh": "Coucou：编码 Agent 监控助手",
+          "title_zh": "Coucou - 编程Agent智能监控助手",
           "eng": "Louis-CFM/coucou",
-          "summary": "一个轻量级 macOS/Windows/Linux 桌面应用，实时监控 Claude Code、Codex、Cursor 等 AI 编程助手的运行状态。",
+          "summary": "一个轻量级桌面应用，常驻macOS通知中心或Windows/Linux屏幕顶部，实时监控Claude Code、Codex、Cursor等AI编程助手的运行状态。",
           "source": "GitHub",
-          "stars": 2939,
+          "stars": 2952,
           "lang": "Swift",
           "published": "2026-09-27",
           "url": "https://github.com/Louis-CFM/coucou",
-          "overview": "Coucou 是一款跨平台桌面小工具，以 notch（macOS）或屏幕顶部栏的形式常驻运行。它能追踪多种主流 AI 编码 Agent 的工作状态，包括 Claude Code、Codex、Cursor、Gemini CLI 等，提供可视化的监控面板。项目用 Swift 开发，界面简洁优雅。",
-          "analysis": "随着 AI 编程助手成为开发者标配，如何有效管理多个 Agent 的并行工作变得重要。Coucou 填补了这一空白，帮助开发者了解各 Agent 的工作进度和状态。2939 星说明开发者社区对此类工具需求迫切。Swift 实现保证了 macOS 上的原生体验。"
+          "overview": "Coucou是一款跨平台的AI编程助手监控工具，能够追踪多个主流编码Agent（包括Claude Code、Codex、Cursor、Gemini CLI等）的实时活动状态。它支持macOS通知中心集成和Windows/Linux屏幕顶部显示，让开发者无需切换窗口即可掌握AI辅助编程的全局进度。",
+          "analysis": "随着多Agent并行开发成为趋势，开发者需要一种轻量级的全局监控方案。Coucou填补了这一空白，2952星表明社区对这类'AI工作流管理工具'的认可度很高，Swift实现也保证了macOS端的原生体验。",
+          "social": [
+            {
+              "who": "全栈开发者",
+              "text": "同时跑3个编码Agent时，终于不用来回切窗口了，一眼就能看全局进度。"
+            },
+            {
+              "who": "AI工具研究者",
+              "text": "对多Agent协作的实际使用场景提供了很好的可视化参考。"
+            }
+          ]
         },
         {
-          "title_zh": "OpenDots：跨平台 AI 协作伙伴",
-          "eng": "CopilotKit/OpenDots",
-          "summary": "始终在线的 AI 协作者，可在文本、通话和 Slack 之间无缝切换工作模式。",
+          "title_zh": "Dots - 开源浏览器自主AI Agent",
+          "eng": "feder-cr/dots",
+          "summary": "一个拥有独立浏览器的开源AI Agent，能够在不被封禁的情况下自主完成网页操作和信息收集任务。",
           "source": "GitHub",
-          "stars": 1392,
+          "stars": 2462,
+          "lang": "Python",
+          "published": "2026-09-29",
+          "url": "https://github.com/feder-cr/dots",
+          "overview": "Dots是一个开源的AI Agent项目，核心创新在于为Agent配备了独立的浏览器实例，使其能够自主浏览网页、执行操作并收集信息。与传统API调用不同，它通过模拟真实用户行为来避免被反爬机制封禁，适用于需要深度网络交互的场景。",
+          "analysis": "在AI Agent与互联网交互日益深入的背景下，绕过传统API限制的能力至关重要。Dots的开源浏览器方案为研究者提供了可审计、可定制的Agent基础设施，2462星反映了社区对这类'去中心化Agent平台'的兴趣。",
+          "social": [
+            {
+              "who": "AI研究员",
+              "text": "独立浏览器的设计思路很巧妙，比纯API方案更灵活也更安全。"
+            },
+            {
+              "who": "自动化运维工程师",
+              "text": "对于需要大量网页交互的监控场景，这个开源方案替代了昂贵的商业Agent服务。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Universal Modder - AI驱动的游戏模组制作工具",
+          "eng": "rehan-remade/universal-modder",
+          "summary": "让Claude Code成为万能游戏模组师，支持技能识别、逆向工程分析、AI生成美术/3D/音频资源及游戏内测试验证。",
+          "source": "GitHub",
+          "stars": 2084,
+          "lang": "Python",
+          "published": "2026-09-30",
+          "url": "https://github.com/rehan-remade/universal-modder",
+          "overview": "Universal Modder是一个革命性的游戏模组制作工具，核心亮点在于将Claude Code与MCP（Model Context Protocol）深度整合，使AI能够自动识别任意PC游戏的技能系统、执行逆向工程分析、生成美术/3D/音频资源并进行游戏内测试。支持从侦察到展示视频的全流程自动化。",
+          "analysis": "该项目代表了AI+游戏开发的前沿方向，将传统需要专业团队完成的模组制作工作流大幅简化。2084星的高关注度说明社区对'AI辅助创意内容生产'的热情，尤其适合独立游戏开发者和游戏爱好者。",
+          "social": [
+            {
+              "who": "独立游戏开发者",
+              "text": "以前做模组需要学一堆工具链，现在Claude直接帮我搞定逆向和美术资源生成。"
+            },
+            {
+              "who": "技术博主",
+              "text": "把MCP协议和游戏开发结合的思路非常前沿，值得深入研究。"
+            }
+          ]
+        },
+        {
+          "title_zh": "OpenDots - 跨平台AI协作者系统",
+          "eng": "CopilotKit/OpenDots",
+          "summary": "你的全天候AI同事，能在文本、电话会议和Slack之间无缝切换协作。",
+          "source": "GitHub",
+          "stars": 1425,
           "lang": "TypeScript",
           "published": "2026-09-29",
-          "url": "https://github.com/CopilotKit/OpenDots",
-          "overview": "OpenDots 由 CopilotKit 团队打造，是一个始终在线的 AI 协作系统。它能根据场景自动在文字聊天、语音通话和 Slack 消息之间切换工作模式，让 AI 像真正的同事一样参与团队协作。基于 TypeScript 构建，与现有开发工具链高度兼容。",
-          "analysis": "AI 从辅助工具向"
+          "url": "https://github.com/CopilotKit/OpenDotes",
+          "overview": "OpenDots是CopilotKit推出的AI协作平台，核心能力是让AI Agent在文本编辑器、电话会议和Slack等多元工作场景中无缝流转。它定位为'永远在线的AI同事'，能够理解不同平台的上下文并保持一致的工作状态，支持团队协作中的实时信息同步。",
+          "analysis": "随着远程办公和混合工作模式的普及，跨平台协作工具的需求持续增长。OpenDots将AI深度嵌入到日常工作流程中，1425星反映了开发者社区对'AI原生协作基础设施'的期待。作为CopilotKit生态的一部分，它有望成为企业级AI协作的标准方案。",
+          "social": [
+            {
+              "who": "远程团队管理者",
+              "text": "AI同事能在Slack和会议间自动同步信息，减少了大量重复沟通成本。"
+            },
+            {
+              "who": "开发者",
+              "text": "TypeScript实现保证了与现有开发工具链的无缝集成。"
+            }
+          ]
         },
         {
-          "title_zh": "REDox：高性能结构化数据引擎",
-          "eng": "CAPCOM-TD-OSS/REDox",
-          "summary": "来自卡普空的 .NET 高性能 token 化结构化数据引擎，是下一代游戏引擎 REX 的核心组件。",
+          "title_zh": "Awesome Opus 5.5 Videos - Claude Opus 5.5视频创作集",
+          "eng": "yihui-dev/awesome-opus5-5-videos",
+          "summary": "持续更新的Claude Opus 5.5病毒式传播视频合集，每个视频附有原始提示词，可在Skillry上观看原版与实时重制的对比。",
           "source": "GitHub",
-          "stars": 799,
+          "stars": 1418,
+          "lang": "",
+          "published": "2026-09-27",
+          "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+          "overview": "这是一个精心策划的AI视频创作案例集，收录了使用Claude Opus 5.5制作的病毒式传播视频及其完整提示词。项目特色在于每个视频都提供原版与实时重制的对比展示，让学习者能够直观理解顶级AI模型的创意能力和技术边界。",
+          "analysis": "作为学习资源类项目，它填补了'AI视频创作教学'的空白。1418星表明社区对高质量AI案例集的需求旺盛，尤其适合希望了解前沿AI模型能力的创作者和研究人员。定期更新机制保证了内容的时效性。",
+          "social": [
+            {
+              "who": "创意工作者",
+              "text": "提示词+视频对比的展示方式太棒了，比任何教程都直观。"
+            },
+            {
+              "who": "AI研究者",
+              "text": "Opus 5.5的视频生成能力确实令人印象深刻，这个合集是最好的入门材料。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Jeff - 开源'系统1'快速决策模型",
+          "eng": "firelex/jeff",
+          "summary": "一个0.8B参数的开源'System 1'（直觉式）决策模型，能在毫秒级时间内基于校准概率在多个选项间做出选择，支持可替换的LoRA适配器。",
+          "source": "GitHub",
+          "stars": 1319,
+          "lang": "Python",
+          "published": "2026-09-28",
+          "url": "https://github.com/firelex/jeff",
+          "overview": "Jeff是一个创新的轻量级AI决策模型，灵感来源于认知科学中的'System 1'（快速直觉）概念。它采用0.8B参数规模，能在毫秒级时间内对多个选项做出概率校准的决策判断。项目支持可替换的LoRA适配器，允许用户针对特定领域微调决策逻辑，且可在本地硬件上运行。",
+          "analysis": "在AI推理成本日益关注的背景下，Jeff代表了一种'小而快'的决策模型新范式。1319星反映了社区对高效、低成本AI决策工具的兴趣。其可替换适配器的设计思路为垂直领域部署提供了灵活性。",
+          "social": [
+            {
+              "who": "机器学习工程师",
+              "text": "0.8B参数就能做到毫秒级决策，性价比远超大型推理模型。"
+            },
+            {
+              "who": "AI应用开发者",
+              "text": "LoRA适配器设计很实用，可以快速适配不同业务场景的决策需求。"
+            }
+          ]
+        },
+        {
+          "title_zh": "FloorPlan 3D - 网页端3D户型图工具",
+          "eng": "wy51ai/floorplan-3d",
+          "summary": "一个基于Web的3D户型图可视化与编辑工具，支持在浏览器中直接查看和交互操作建筑平面图。",
+          "source": "GitHub",
+          "stars": 1307,
+          "lang": "HTML",
+          "published": "2026-09-29",
+          "url": "https://github.com/wy51ai/floorplan-3d",
+          "overview": "FloorPlan 3D是一个纯Web端的3D建筑平面图工具，用户无需安装任何软件即可在浏览器中查看和编辑户型图。项目采用HTML技术栈实现，支持3D视角切换、尺寸标注和空间布局调整等核心功能，适合建筑师、室内设计师和普通用户的日常使用需求。",
+          "analysis": "作为轻量级Web应用代表，FloorPlan 3D展示了纯前端技术在专业工具领域的潜力。1307星表明市场对'零安装即用'的在线设计工具有稳定需求，尤其适合需要快速预览方案的场景。HTML技术栈也保证了跨平台兼容性。",
+          "social": [
+            {
+              "who": "室内设计师",
+              "text": "不用装软件就能看3D户型图，客户沟通效率提升很多。"
+            },
+            {
+              "who": "前端开发者",
+              "text": "纯HTML实现3D交互的技术方案值得学习，性能也不错。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Yomiyasu - AI日语润色Agent技能",
+          "eng": "nanaism/yomiyasu",
+          "summary": "将AI生成的不自然日语自动推敲为地道自然的日语表达，是专为日语内容创作者设计的Agent Skill。",
+          "source": "GitHub",
+          "stars": 1175,
+          "lang": "Python",
+          "published": "2026-09-30",
+          "url": "https://github.com/nanaism/yomiyasu",
+          "overview": "Yomiyasu是一个专注于日语润色的AI Agent技能，核心功能是检测并修正AI生成内容中的不自然日语表达。它特别针对日语学习者、内容创作者和国际化团队设计，能够理解日语的语感细微差别，将机器翻译风格的生硬表达转化为地道的日式表达。",
+          "analysis": "在AI全球化内容生产日益普遍的背景下，语言润色需求持续增长。Yomiyasu填补了'AI生成→自然语言'这一关键环节，1175星反映了日语社区对高质量本地化工具的强烈需求。作为Agent Skill设计，它易于集成到现有工作流中。",
+          "social": [
+            {
+              "who": "日语内容创作者",
+              "text": "AI写的日语总是有点生硬，这个工具能让我一键润色成自然表达。"
+            },
+            {
+              "who": "国际化产品经理",
+              "text": "对非英语母语团队来说，这类语言润色工具是必备基础设施。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Motion Video Kit - AI商业视频制作技能包",
+          "eng": "echris6/motion-video-kit",
+          "summary": "Claude Code的商业视频制作技能套件，包含独立评审循环、28部经典电影的运动原则库、质量基准和声音设计模板。",
+          "source": "GitHub",
+          "stars": 960,
+          "lang": "Python",
+          "published": "2026-09-27",
+          "url": "https://github.com/echris6/motion-video-kit",
+          "overview": "Motion Video Kit是一个面向商业视频制作的AI辅助工具套件，核心亮点包括：独立的AI评审循环（自动检测视频质量问题）、基于28部经典电影提炼的运动原则库、质量基准测试框架以及声音设计模板。结合Three.js实现动态可视化效果，支持脚本自动生成和全流程自动化。",
+          "analysis": "该项目代表了'AI+创意产业'的前沿探索，将电影制作的专业知识系统化并融入AI工作流。960星表明市场对高质量AI视频创作工具的需求正在增长。其模块化设计（评审循环、运动原则、声音模板）为其他创作者提供了可复用的参考架构。",
+          "social": [
+            {
+              "who": "视频营销人员",
+              "text": "28部电影的运动原则库太实用了，直接提升了商业视频的质感。"
+            },
+            {
+              "who": "AI工具开发者",
+              "text": "独立评审循环的设计思路很巧妙，让AI能自我纠错而不是盲目输出。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ReelMimic - AI视频风格迁移工具",
+          "eng": "edenfunf/reelmimic",
+          "summary": "展示一个你喜欢的视频，AI团队就能生成同风格的短视频。由Claude Code或Codex规划、构建和审核整个流程。",
+          "source": "GitHub",
+          "stars": 955,
+          "lang": "JavaScript",
+          "published": "2026-09-28",
+          "url": "https://github.com/edenfunf/reelmimic",
+          "overview": "ReelMimic是一个AI驱动的视频风格迁移工具，用户只需提供一个喜欢的视频样本，系统就能分析其视觉风格和叙事节奏，生成同风格的短视频。核心创新在于由Claude Code或Codex组成的'AI团队'负责规划、构建和审核全流程，支持用户参与协作修改。",
+          "analysis": "在短视频内容创作需求爆发的背景下，ReelMimic提供了一种全新的创作范式——从'模仿风格'而非'从零创作'入手。955星反映了社区对降低视频创作门槛工具的期待。JavaScript技术栈保证了跨平台部署的灵活性。",
+          "social": [
+            {
+              "who": "短视频创作者",
+              "text": "给一个喜欢的视频就能生成同风格内容，比手动模仿效率高太多了。"
+            },
+            {
+              "who": "AI应用研究者",
+              "text": "'AI团队'协作模式的设计值得深入研究，让AI不只是工具而是真正的协作者。"
+            }
+          ]
+        },
+        {
+          "title_zh": "REDox - CAPCOM高性能结构化数据引擎",
+          "eng": "CAPCOM-TD-OSS/REDox",
+          "summary": "面向.NET的高性能基于Token的结构化数据引擎，是CAPCOM下一代游戏引擎REX的核心组件。",
+          "source": "GitHub",
+          "stars": 812,
           "lang": "C#",
           "published": "2026-09-30",
           "url": "https://github.com/CAPCOM-TD-OSS/REDox",
-          "overview": "REDox 是由卡普空（CAPCOM）开源的高性能结构化数据引擎，采用 token-based 架构设计。它是 REX——卡普空下一代游戏引擎的核心技术组件之一。项目使用 C# 开发，面向 .NET 生态，提供高效的数据处理与序列化能力。",
-          "analysis": "来自顶级游戏公司的核心引擎代码开源，对 .NET 开发者来说极具参考价值。REDox 的 token-based 设计思路可能启发更多高性能数据处理方案。卡普空在技术分享方面的投入也体现了行业趋势。"
+          "overview": "REDox是CAPCOM（卡普空）开源的高性能结构化数据引擎，采用Token-based架构设计，专为.NET平台优化。作为CAPCOM下一代游戏引擎REX的核心组件，它支持大规模游戏数据的快速读写和高效序列化，适用于需要高吞吐量的实时数据处理场景。",
+          "analysis": "来自CAPCOM的开源项目本身就具有极高的技术含金量。812星反映了开发者社区对高质量工业级工具的关注。Token-based架构在.NET生态中的实现为高性能数据处理的探索提供了新参考，尤其适合游戏开发和大数据处理领域。",
+          "social": [
+            {
+              "who": ".NET开发者",
+              "text": "CAPCOM级别的工程实践，性能优化思路值得学习。"
+            },
+            {
+              "who": "游戏引擎研究者",
+              "text": "Token-based数据引擎的设计对理解现代游戏架构很有帮助。"
+            }
+          ]
         },
         {
-          "title_zh": "easyread：英文论文中文阅读助手",
+          "title_zh": "MCP Extensions - ChatGPT原生插件开发框架",
+          "eng": "openai/mcp-extensions",
+          "summary": "构建感觉像ChatGPT原生功能的一等公民插件，通过Model Context Protocol扩展AI助手能力。",
+          "source": "GitHub",
+          "stars": 695,
+          "lang": "TypeScript",
+          "published": "2026-09-29",
+          "url": "https://github.com/openai/mcp-extensions",
+          "overview": "MCP Extensions是OpenAI官方推出的插件开发框架，旨在让开发者构建的扩展功能在ChatGPT中呈现为原生、一等公民级别的用户体验。项目基于Model Context Protocol（MCP）标准，支持工具调用、资源访问和提示词注入等多种交互模式，使第三方能力能够无缝融入ChatGPT的工作流。",
+          "analysis": "作为OpenAI官方生态的核心组件，MCP Extensions代表了AI助手扩展能力的标准化方向。695星反映了开发者社区对'AI原生插件开发'的热情。TypeScript实现保证了与现有Web开发技能的兼容性，降低了开发门槛。该项目有望成为AI应用生态的重要基础设施。",
+          "social": [
+            {
+              "who": "AI应用开发者",
+              "text": "终于有了官方支持的插件框架，不再需要自己搞兼容层了。"
+            },
+            {
+              "who": "MCP协议研究者",
+              "text": "OpenAI对MCP标准的拥抱说明这个协议将成为AI扩展的事实标准。"
+            }
+          ]
+        },
+        {
+          "title_zh": "EasyRead - 英文论文中文阅读助手",
           "eng": "Edwardxlai/easyread",
-          "summary": "本地 PDF 论文翻译、原文对照、边读边问 AI，让英文论文阅读变得轻松自然。",
+          "summary": "将英文学术论文翻译为舒适的中文：支持本地PDF翻译、原文对照阅读、边读边问AI和文献管理功能。",
           "source": "GitHub",
           "stars": 601,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/Edwardxlai/easyread",
-          "overview": "easyread 是一个面向学术研究的本地化工具，支持 PDF 论文的自动翻译、原文与译文对照阅读，以及边读边问 AI 的功能。所有处理均在本地完成，保护论文隐私。项目用 Python 开发，界面友好，适合中文用户群体。",
-          "analysis": "AI 辅助学术研究是刚需场景，easyread 精准解决了中文用户的痛点——英文论文阅读障碍。本地化处理避免了数据泄露风险，对高校师生和科研人员非常实用。601 星在细分领域表现突出，说明需求真实且未被充分满足。"
+          "overview": "EasyRead是一个专为学术研究者设计的论文阅读工具，核心功能包括：本地PDF论文的AI翻译（支持高质量中文输出）、原文与译文对照阅读、边读边向AI提问理解难点、以及文献管理功能。项目注重隐私保护，所有处理均在本地完成，无需上传敏感研究资料到云端。",
+          "analysis": "在学术国际化背景下，论文阅读的语言障碍是真实痛点。EasyRead的'本地化+AI辅助'方案兼顾了翻译质量和隐私安全，601星反映了中文学术界对这类工具的强烈需求。Python技术栈保证了与现有科研工具链的良好集成。",
+          "social": [
+            {
+              "who": "研究生",
+              "text": "终于不用纠结英文论文了，本地翻译+AI问答让阅读效率提升了好几倍。"
+            },
+            {
+              "who": "学术出版编辑",
+              "text": "本地化处理的设计很贴心，不用担心敏感数据泄露问题。"
+            }
+          ]
         }
       ]
     },
@@ -2257,6 +2480,154 @@
           "url": "https://doi.org/10.1016/j.lisr.2026.101423"
         },
         {
+          "title_zh": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+          "eng": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+          "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of res",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having 184 lead authors of 207 recent computer science papers label which candidates did or could have adv",
+          "url": "https://arxiv.org/abs/2610.02202v1"
+        },
+        {
+          "title_zh": "Optimizing Effective Training Time for Large-Scale Recommendation Systems",
+          "eng": "Optimizing Effective Training Time for Large-Scale Recommendation Systems",
+          "summary": "Lifecycle overhead silently consumes accelerator capacity across large-scale recommendation training fleets. Our largest recommendation workloads process tens of billions train- ing examples per day o",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "Lifecycle overhead silently consumes accelerator capacity across large-scale recommendation training fleets. Our largest recommendation workloads process tens of billions train- ing examples per day on thousands of GPUs. Before this work, only 50-60% of their end-to-end wall time advanced training on new data. We present a fleet-scale study of this lifecycle overhead and a set of optimizations spanning the full training stack. We use Effective Training Time (ETT%) as an operational framework to instrument lost time, localize it to independently owned infrastructure components, and expose work ",
+          "url": "https://arxiv.org/abs/2610.02057v1"
+        },
+        {
+          "title_zh": "A Matryoshka Hierarchical RAG for Efficient Multi-Hop Question Answering",
+          "eng": "A Matryoshka Hierarchical RAG for Efficient Multi-Hop Question Answering",
+          "summary": "Retrieval-Augmented Generation (RAG) systems for multi-hop Question Answering (QA) must balance retrieval quality with computational cost. This cost is incurred during indexing time, through the use o",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "Retrieval-Augmented Generation (RAG) systems for multi-hop Question Answering (QA) must balance retrieval quality with computational cost. This cost is incurred during indexing time, through the use of expensive Knowledge Graphs (KGs) or Large Language Models (LLMs) to generate summaries, or during querying, through iterative LLM-driven retrieval. To reduce it while maintaining retrieval quality, we present MatRAG, a hierarchical framework that combines RAG systems with Matryoshka Representation Learning (MRL). MatRAG addresses both kinds of cost by aligning the semantic hierarchy of a cluster",
+          "url": "https://arxiv.org/abs/2610.01767v1"
+        },
+        {
+          "title_zh": "AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation",
+          "eng": "AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation",
+          "summary": "LLM-based personal agents are emerging as persistent carriers of user semantics and intermediaries between users and recommendation platforms, maintaining richer user knowledge locally. As agents inte",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "LLM-based personal agents are emerging as persistent carriers of user semantics and intermediaries between users and recommendation platforms, maintaining richer user knowledge locally. As agents interact with one another, the conventional \\textit{User--Platform} relation evolves into a \\textit{User--Agent Web--Platform} information pathway, enabling distributed user-side information to complement item-side information. This new pathway, however, defies conventional recommendation: evidence is scattered across mutually opaque agents and reachable only through bounded queries, only a small port",
+          "url": "https://arxiv.org/abs/2610.01705v1"
+        },
+        {
+          "title_zh": "From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search",
+          "eng": "From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search",
+          "summary": "Patent search requires processing documents routinely exceeding tens of thousands of tokens. Most neural retrieval approaches operate on truncated inputs, limiting their effectiveness. Graph-based ret",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "Patent search requires processing documents routinely exceeding tens of thousands of tokens. Most neural retrieval approaches operate on truncated inputs, limiting their effectiveness. Graph-based retrieval addresses this by representing each patent as a structured invention graph, but constructing these graphs relies on brittle rule-based parsers. We present the neural parser, which adapts biaffine attention from dependency parsing to predict invention graphs directly from patent text. Our local biaffine attention restricts pairwise scoring to a sliding window, reducing complexity from $O(n^2",
+          "url": "https://arxiv.org/abs/2610.01553v1"
+        },
+        {
+          "title_zh": "Neither Black nor White: Balancing Semantic and Collaborative Signals with Graph-Informed Semantic IDs (GrIS)",
+          "eng": "Neither Black nor White: Balancing Semantic and Collaborative Signals with Graph-Informed Semantic IDs (GrIS)",
+          "summary": "Existing work on Semantic IDs (SIDs) for generative recommendation treats SID construction as a representation learning problem: encode items into a quantised latent space and read off codes. We argue",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "overview": "Existing work on Semantic IDs (SIDs) for generative recommendation treats SID construction as a representation learning problem: encode items into a quantised latent space and read off codes. We argue this view is incidental. SID construction is, at heart, a recursive clustering problem, and once stated this way the natural object to cluster is a graph whose nodes carry semantic content and whose edges carry collaborative signal; SID assignment becomes a hierarchical graph partition. This reframing yields a unified framework, Graph-Informed Semantic IDs (GrIS), that subsumes prior approaches r",
+          "url": "https://arxiv.org/abs/2610.01533v1"
+        },
+        {
+          "title_zh": "From citation intent to knowledge contribution: Classifying what cited papers actually contribute",
+          "eng": "From citation intent to knowledge contribution: Classifying what cited papers actually contribute",
+          "source": "JASIST（信息科学技术学会刊）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "url": "https://doi.org/10.1002/asi.70127"
+        },
+        {
+          "title_zh": "Play is never neutral: Teacher- and child-perpetrated anti-black violence in play-based curricula and a search for hope and joy",
+          "eng": "Play is never neutral: Teacher- and child-perpetrated anti-black violence in play-based curricula and a search for hope and joy",
+          "source": "Journal of Early Childhood Literacy（儿童早期读写）",
+          "region": "国际",
+          "published": "2026-10-01",
+          "url": "https://doi.org/10.1177/14687984261489398"
+        },
+        {
+          "title_zh": "Web Archive Collections in Online Reference Resources",
+          "eng": "Web Archive Collections in Online Reference Resources",
+          "summary": "Archived websites are born-digital primary sources of our current age that offer a plethora of information literacy opportunities for educators and students alike. Explore a sample of guides created b",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-09-30",
+          "overview": "Archived websites are born-digital primary sources of our current age that offer a plethora of information literacy opportunities for educators and students alike. Explore a sample of guides created by the Library’s subject experts that feature web archive collections alongside digitized historical documents, e-books, databases, and more.",
+          "url": "https://blogs.loc.gov/thesignal/2026/09/web-archive-collections-in-online-reference-resources/"
+        },
+        {
+          "title_zh": "Risk and uncertainty in digital preservation: A survey of CoreTrustSeal certified repositories",
+          "eng": "Risk and uncertainty in digital preservation: A survey of CoreTrustSeal certified repositories",
+          "source": "Journal of Librarianship and Information Science",
+          "region": "国际",
+          "published": "2026-09-30",
+          "url": "https://doi.org/10.1177/09610006261486056"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年图书馆与民族地区阅读推广学术研讨会的通知",
+          "summary": "各图书馆： 为贯彻落实《全民阅读促进条例》，总结民族文献阅读推广工作成效，探索新时代民族地区阅读推广高质量发展路径，中国图书馆学会阅读推广工作委员会定于2026年10月28日至30日在内蒙古赤峰市召开2026年图书馆与民族地区阅读推广学术研讨会，现将有关事项通知如下。 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：赤峰市图书馆 支持单位：北京碧虚文化有限公司 二、会议主题 民",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各图书馆： 为贯彻落实《全民阅读促进条例》，总结民族文献阅读推广工作成效，探索新时代民族地区阅读推广高质量发展路径，中国图书馆学会阅读推广工作委员会定于2026年10月28日至30日在内蒙古赤峰市召开2026年图书馆与民族地区阅读推广学术研讨会，现将有关事项通知如下。 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：赤峰市图书馆 支持单位：北京碧虚文化有限公司 二、会议主题 民族地区图书馆高质量发展与全民阅读促进体系构建 三、会议时间、地点及日程安排 （一）时间地点 会议时间：2026年10月28日至30日（周三至周五） 会议及报到地点：赤峰心连心静雅酒店（万达广场店）（内蒙古自治区赤峰市红山区西拉沐沦大街万达广场A地块6-0221号） （二）日程安排 日期 时间 内容 10月28日 下午 报到 10月29日 全天 开幕式、专题报告、专题访谈 10月30日 上午 离会 四、参会人员 特邀嘉宾和专家、图书馆相关研究领域代表、中国图书馆学会阅读推广工作委员会民族文献阅读推广方面的专家。 五、参会费用 （一）会议费用 会议不收取会议费，食宿交通统一安排。参会期间的差旅费、住宿费由参会人员自理。 （二）住宿费用 1.住宿地点：赤峰心连心静雅酒店（万达广场店） 2.酒店费用：双床房280元/间、140元/床，大床房280元/间。 六、会议报名与咨询 （一）报名方式 本次会",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2105216353727315968.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年大学生阅读推广研讨会的通知",
+          "summary": "各高校图书馆： 为深入贯彻党的二十大关于“深化全民阅读活动”部署，落实《全民阅读促进条例》相关要求，顺应数智时代阅读变革，履行图书馆阅读推广使命，激发大学生阅读热情、深化阅读实践。中国图书馆学会阅读推广工作委员会拟于2026年11月2日至11月5日在福州大学举办2026年大学生阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：福州大学图书馆",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各高校图书馆： 为深入贯彻党的二十大关于“深化全民阅读活动”部署，落实《全民阅读促进条例》相关要求，顺应数智时代阅读变革，履行图书馆阅读推广使命，激发大学生阅读热情、深化阅读实践。中国图书馆学会阅读推广工作委员会拟于2026年11月2日至11月5日在福州大学举办2026年大学生阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：福州大学图书馆 协办单位：中山大学全民阅读研究中心 支持单位：阅途文化集团（阅途美育在线） 二、会议主题 数智赋能阅读生态·馆际协同培育素养 本次研讨会围绕阅读推广模式创新与馆际协同实践，探讨大学生阅读素养培育与阅读生态建设路径，交流馆际联动经验与数字化服务成果，凝聚行业共识，助力书香建设高质量发展。 三、会议时间和日程 （一）会议时间 2026年11月2日至11月5日（周一至周四） （二）会议安排 日期 时间 议程安排 11月2日 下午 报到 11月3日 上午 开幕式及主旨报告 下午 专题分享 11月4日 上午 案例分享 下午 现场交流 11月5日 上午 离会 四、会议地点 福州大学（旗山校区）（福州市闽侯县上街镇乌龙江北大道2号‌） 五、参会人员 中国图书馆学会阅读推广工作委员会委员，大学生阅读推广相关领域的专家、学者，各图书馆及相关机构的代表等。 六、会务提示 （一）本次会议不收取会议费，食宿及会",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2105214901802524672.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办阅读文化研究工作交流会的通知",
+          "summary": "各图书馆： 为贯彻落实《全民阅读促进条例》，深化图书馆阅读文化理论研究与实践交流，推动“十五五”时期图书馆阅读服务提质增效和创新发展，中国图书馆学会阅读推广工作委员会拟举办2026年阅读文化研究工作交流会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：山东省图书馆学会 烟台市图书馆学会 烟台图书馆 二、会议主题 图书馆阅读文化的时代新解与多元表达 三、",
+          "source": "中图学会·通知（含征稿/活动）",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各图书馆： 为贯彻落实《全民阅读促进条例》，深化图书馆阅读文化理论研究与实践交流，推动“十五五”时期图书馆阅读服务提质增效和创新发展，中国图书馆学会阅读推广工作委员会拟举办2026年阅读文化研究工作交流会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：山东省图书馆学会 烟台市图书馆学会 烟台图书馆 二、会议主题 图书馆阅读文化的时代新解与多元表达 三、会议时间及地点 会议时间：2026年10月21日至23日（周三至周五） 会议地点：烟台图书馆（山东省烟台市莱山区环山路2号） 四、会议议程 日期 时间 内容 10月21日 下午 会议报到 10月22日 上午 开幕式 主旨报告、 创新实践交流 下午 案例分享 现场交流 10月23日 上午 离会 五、参会人员 中国图书馆学会阅读推广工作委员会委员，阅读文化研究方面的专家、学者，全国各级各类图书馆馆长、业务骨干等。 六、会务安排 （一）本次会议免收会议费，会议期间食宿及交通统一安排，参会人员住宿及往返交通费用自理。 （二）会议规模为100人，额满即止。请有意参加的代表填写“参会回执”（见附件1），并于2026年10月15日前发送至yttsgfdb@163.com邮箱。收到会务组邮件或电话回复确认的代表方可参会，请发送回执后及时关注邮件信息并保持电话畅通。已报名代表，如因故无法参会，请及时联系会务",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1129/2105210087592308736.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年图书馆与民族地区阅读推广学术研讨会的通知",
+          "summary": "各图书馆： 为贯彻落实《全民阅读促进条例》，总结民族文献阅读推广工作成效，探索新时代民族地区阅读推广高质量发展路径，中国图书馆学会阅读推广工作委员会定于2026年10月28日至30日在内蒙古赤峰市召开2026年图书馆与民族地区阅读推广学术研讨会，现将有关事项通知如下。 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：赤峰市图书馆 支持单位：北京碧虚文化有限公司 二、会议主题 民",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各图书馆： 为贯彻落实《全民阅读促进条例》，总结民族文献阅读推广工作成效，探索新时代民族地区阅读推广高质量发展路径，中国图书馆学会阅读推广工作委员会定于2026年10月28日至30日在内蒙古赤峰市召开2026年图书馆与民族地区阅读推广学术研讨会，现将有关事项通知如下。 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：赤峰市图书馆 支持单位：北京碧虚文化有限公司 二、会议主题 民族地区图书馆高质量发展与全民阅读促进体系构建 三、会议时间、地点及日程安排 （一）时间地点 会议时间：2026年10月28日至30日（周三至周五） 会议及报到地点：赤峰心连心静雅酒店（万达广场店）（内蒙古自治区赤峰市红山区西拉沐沦大街万达广场A地块6-0221号） （二）日程安排 日期 时间 内容 10月28日 下午 报到 10月29日 全天 开幕式、专题报告、专题访谈 10月30日 上午 离会 四、参会人员 特邀嘉宾和专家、图书馆相关研究领域代表、中国图书馆学会阅读推广工作委员会民族文献阅读推广方面的专家。 五、参会费用 （一）会议费用 会议不收取会议费，食宿交通统一安排。参会期间的差旅费、住宿费由参会人员自理。 （二）住宿费用 1.住宿地点：赤峰心连心静雅酒店（万达广场店） 2.酒店费用：双床房280元/间、140元/床，大床房280元/间。 六、会议报名与咨询 （一）报名方式 本次会",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2105216353727315968.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办2026年大学生阅读推广研讨会的通知",
+          "summary": "各高校图书馆： 为深入贯彻党的二十大关于“深化全民阅读活动”部署，落实《全民阅读促进条例》相关要求，顺应数智时代阅读变革，履行图书馆阅读推广使命，激发大学生阅读热情、深化阅读实践。中国图书馆学会阅读推广工作委员会拟于2026年11月2日至11月5日在福州大学举办2026年大学生阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：福州大学图书馆",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各高校图书馆： 为深入贯彻党的二十大关于“深化全民阅读活动”部署，落实《全民阅读促进条例》相关要求，顺应数智时代阅读变革，履行图书馆阅读推广使命，激发大学生阅读热情、深化阅读实践。中国图书馆学会阅读推广工作委员会拟于2026年11月2日至11月5日在福州大学举办2026年大学生阅读推广研讨会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：福州大学图书馆 协办单位：中山大学全民阅读研究中心 支持单位：阅途文化集团（阅途美育在线） 二、会议主题 数智赋能阅读生态·馆际协同培育素养 本次研讨会围绕阅读推广模式创新与馆际协同实践，探讨大学生阅读素养培育与阅读生态建设路径，交流馆际联动经验与数字化服务成果，凝聚行业共识，助力书香建设高质量发展。 三、会议时间和日程 （一）会议时间 2026年11月2日至11月5日（周一至周四） （二）会议安排 日期 时间 议程安排 11月2日 下午 报到 11月3日 上午 开幕式及主旨报告 下午 专题分享 11月4日 上午 案例分享 下午 现场交流 11月5日 上午 离会 四、会议地点 福州大学（旗山校区）（福州市闽侯县上街镇乌龙江北大道2号‌） 五、参会人员 中国图书馆学会阅读推广工作委员会委员，大学生阅读推广相关领域的专家、学者，各图书馆及相关机构的代表等。 六、会务提示 （一）本次会议不收取会议费，食宿及会",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2105214901802524672.html"
+        },
+        {
+          "title_zh": "中国图书馆学会阅读推广工作委员会关于举办阅读文化研究工作交流会的通知",
+          "summary": "各图书馆： 为贯彻落实《全民阅读促进条例》，深化图书馆阅读文化理论研究与实践交流，推动“十五五”时期图书馆阅读服务提质增效和创新发展，中国图书馆学会阅读推广工作委员会拟举办2026年阅读文化研究工作交流会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：山东省图书馆学会 烟台市图书馆学会 烟台图书馆 二、会议主题 图书馆阅读文化的时代新解与多元表达 三、",
+          "source": "中图学会·业界动态",
+          "region": "国内",
+          "published": "2026-09-30",
+          "overview": "各图书馆： 为贯彻落实《全民阅读促进条例》，深化图书馆阅读文化理论研究与实践交流，推动“十五五”时期图书馆阅读服务提质增效和创新发展，中国图书馆学会阅读推广工作委员会拟举办2026年阅读文化研究工作交流会。现将有关事项通知如下： 一、组织机构 主办单位：中国图书馆学会阅读推广工作委员会 承办单位：山东省图书馆学会 烟台市图书馆学会 烟台图书馆 二、会议主题 图书馆阅读文化的时代新解与多元表达 三、会议时间及地点 会议时间：2026年10月21日至23日（周三至周五） 会议地点：烟台图书馆（山东省烟台市莱山区环山路2号） 四、会议议程 日期 时间 内容 10月21日 下午 会议报到 10月22日 上午 开幕式 主旨报告、 创新实践交流 下午 案例分享 现场交流 10月23日 上午 离会 五、参会人员 中国图书馆学会阅读推广工作委员会委员，阅读文化研究方面的专家、学者，全国各级各类图书馆馆长、业务骨干等。 六、会务安排 （一）本次会议免收会议费，会议期间食宿及交通统一安排，参会人员住宿及往返交通费用自理。 （二）会议规模为100人，额满即止。请有意参加的代表填写“参会回执”（见附件1），并于2026年10月15日前发送至yttsgfdb@163.com邮箱。收到会务组邮件或电话回复确认的代表方可参会，请发送回执后及时关注邮件信息并保持电话畅通。已报名代表，如因故无法参会，请及时联系会务",
+          "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2105210087592308736.html"
+        },
+        {
           "title_zh": "Between curriculum and reality: Information literacy development in Ghanaian senior high schools",
           "eng": "Between curriculum and reality: Information literacy development in Ghanaian senior high schools",
           "source": "Journal of Librarianship and Information Science",
@@ -2335,6 +2706,16 @@
           "url": "https://hangingtogether.org/counting-the-costs-of-continuity-status-quo-costs-in-library-decision-making/"
         },
         {
+          "title_zh": "Founding Documents in Context: AI-Powered and Grounded Cultural Heritage",
+          "eng": "Founding Documents in Context: AI-Powered and Grounded Cultural Heritage",
+          "summary": "This post describes a recent collaboration between the Digital Strategy Directorate in the Library’s Office of the Chief Information Officer and the Arizona State University Cloud Innovation Center. T",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-09-28",
+          "overview": "This post describes a recent collaboration between the Digital Strategy Directorate in the Library’s Office of the Chief Information Officer and the Arizona State University Cloud Innovation Center. The partnership explored necessary steps to create an effective AI-powered tool using context engineering allows for the exploration of United States Revolutionary Era history with the Library’s collections as grounding data.",
+          "url": "https://blogs.loc.gov/thesignal/2026/09/ai-powered-and-grounded-cultural-heritage/"
+        },
+        {
           "title_zh": "Making space for the maker literacies of reluctant writers",
           "eng": "Making space for the maker literacies of reluctant writers",
           "source": "Journal of Early Childhood Literacy（儿童早期读写）",
@@ -2395,6 +2776,16 @@
           "published": "2026-09-25",
           "overview": "Recommender systems have traditionally been developed for platforms. However, this has given rise to many phenomena that may be advantageous for platform lock-in but are a nuisance to users, such as clickbait, filter bubbles, and the spread of fake news. Recently, user-side recommender systems have been proposed as a new paradigm for solving this problem. If users deploy their own recommender systems, they are no longer at the mercy of the platform's interests. However, building a user-side recommender system is not trivial; in particular, customizing one for oneself requires additional data. ",
           "url": "https://arxiv.org/abs/2609.31166v1"
+        },
+        {
+          "title_zh": "New Online at the Library of Congress: September 2026",
+          "eng": "New Online at the Library of Congress: September 2026",
+          "summary": "In our September 2026 edition of \"New Online at the Library of Congress,\" we share updates to the Library's digital collections, datasets, web archives, and more.",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-09-25",
+          "overview": "In our September 2026 edition of \"New Online at the Library of Congress,\" we share updates to the Library's digital collections, datasets, web archives, and more.",
+          "url": "https://blogs.loc.gov/thesignal/2026/09/new-loc-september-2026/"
         },
         {
           "title_zh": "《大学图书馆现代化指南针报告（2026）》正式发布",
@@ -2549,6 +2940,16 @@
           "published": "2026-09-22",
           "overview": "With the rapid pace of AI research and the hundreds of daily new publications, staying up-to-date with the latest developments has become increasingly difficult. For researchers, quickly identifying impactful work is essential, yet manually reviewing each new publication is impractical. Automated impact prediction methods help address this challenge, usually by combining various information sources available, such as a paper's content or citation history. In this work, we propose using GitHub engagement as an additional source and demonstrate that it provides both a timely and accurate signal.",
           "url": "https://arxiv.org/abs/2609.26361v1"
+        },
+        {
+          "title_zh": "By the People Webinar: Exploring the Life and Death of James A. Garfield",
+          "eng": "By the People Webinar: Exploring the Life and Death of James A. Garfield",
+          "summary": "We warmly invite you to join staff from the Library of Congress volunteer transcription program, By the People, for a special webinar on Thursday, September 24, from 3:00 PM to 4:00 PM EDT featuring M",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-09-22",
+          "overview": "We warmly invite you to join staff from the Library of Congress volunteer transcription program, By the People, for a special webinar on Thursday, September 24, from 3:00 PM to 4:00 PM EDT featuring Manuscript Division historian, Michelle Krowl, as she presents “Slumbering Thunder in His Soul: Exploring the Life and Death of James A. Garfield In His Papers.” Registration is required for the virtual event - click through to learn more.",
+          "url": "https://blogs.loc.gov/thesignal/2026/09/btp-webinar-garfield/"
         },
         {
           "title_zh": "Library marketing in the digital age: A systematic literature review of evolving approaches, paradigms, and practices",
