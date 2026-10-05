@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:22:53+08:00",
+  "generated_at": "2026-10-05T14:20:38+08:00",
   "date": "2026-10-05",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,10 +7,10 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-05 13:22",
-    "ai": "2026-10-05 13:22",
-    "voices": "2026-10-05 13:22",
-    "github": "2026-10-05 12:22",
+    "hot": "2026-10-05 14:20",
+    "ai": "2026-10-05 14:20",
+    "voices": "2026-10-05 14:20",
+    "github": "2026-10-05 14:20",
     "libraries": "2026-10-05 13:22",
     "sports": "2026-10-05 10:59",
     "academic": "2026-10-04 06:40"
@@ -18,6 +18,32 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "'超级智能'与非约束性安全协议能否解决AI形象问题",
+          "eng": "Can 'super intelligence' and a non-binding safety pact solve AI's image problem?",
+          "summary": "TechCrunch Equity栏目讨论了特朗普政府试图重新定义AI叙事的努力，以及通过非约束性安全协议改善公众对AI认知的可能性。文章质疑这种策略能否真正解决AI面临的信任危机。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-10-04",
+          "tags": [
+            "AI治理",
+            "公众认知",
+            "安全协议"
+          ],
+          "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+          "overview": "TechCrunch Equity栏目深入探讨了特朗普政府通过'超级智能'(Super Intelligence)概念重新定义AI的战略意图。文章分析了非约束性安全协议在改善公众对AI认知方面的潜在作用，同时质疑这种策略能否真正解决AI面临的信任危机。讨论涉及技术能力、政策框架和公众心理等多个维度，反映了当前AI治理的复杂性。",
+          "analysis": "通过重新命名和包装来改善AI形象是一种政治策略，但公众的信任建立在实际行动而非话语之上。真正的解决方案需要透明的监管框架、可验证的安全措施以及持续的技术进步。",
+          "social": [
+            {
+              "who": "政策评论员",
+              "text": "非约束性协议看似灵活务实，但在AI能力快速迭代的现实下，缺乏强制力的框架可能难以产生实际效果。"
+            },
+            {
+              "who": "公众舆论观察家",
+              "text": "AI面临的信任危机根源在于技术风险与监管滞后之间的鸿沟，仅靠重新定义概念无法弥合这一差距。"
+            }
+          ]
+        },
         {
           "title_zh": "新泽西前副州长用AI声称自己无罪于性骚扰指控",
           "eng": "NJ's former Lt Gov is using AI to say he's innocent of sexual harassment",
@@ -772,32 +798,6 @@
             {
               "who": "政府技术顾问",
               "text": "AI自动化攻击工具正在改变网络战的游戏规则，传统的人防体系已经不足以应对新型威胁。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Apple正在开发一款不录制视频的智能家居摄像头",
-          "eng": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-          "summary": "苹果据报正推出一款仅生成文字事件描述而非视频画面的智能安防摄像头，旨在构建新的智能家居生态。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-10-01",
-          "tags": [
-            "Apple",
-            "隐私",
-            "智能家居"
-          ],
-          "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
-          "overview": "苹果据报正在开发一款智能家庭安全摄像头，该设备仅向用户提供文字事件描述而非视频画面。Mark Gurman在Power On播客中表示，这款摄像头将是“新的Apple智能家居生态系统”的一部分，与苹果传闻中的其他智能家居产品一同推出。这一设计旨在解决用户对隐私的担忧。",
-          "analysis": "苹果的这一策略与其一贯强调的隐私理念高度一致，通过消除视频录制来从根本上解决用户信任问题。如果成功，这可能成为智能家居行业的差异化标杆，迫使竞争对手重新思考数据收集方式。",
-          "social": [
-            {
-              "who": "隐私倡导者",
-              "text": "不录制视频是保护家庭隐私的最佳实践，苹果应该率先推广这一标准。"
-            },
-            {
-              "who": "智能家居评论员",
-              "text": "文字描述虽然不如视频直观，但在大多数安防场景下已经足够满足需求。"
             }
           ]
         }
@@ -1878,266 +1878,222 @@
     "github": {
       "items": [
         {
-          "title_zh": "AI 通用游戏修改器",
+          "title_zh": "Universal Modder - Claude Code游戏修改工具",
           "eng": "rehan-remade/universal-modder",
-          "summary": "利用 Claude Code + fal MCP，对任意 PC 游戏进行逆向工程、生成资源及自动化测试。",
+          "summary": "让Claude Code自动修改任何PC游戏的AI工具，支持逆向工程、3D/音频生成和实机测试。",
           "source": "GitHub",
-          "stars": 3276,
+          "stars": 3339,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/rehan-remade/universal-modder",
-          "overview": "该项目将 Claude Code 与 fal 模型集成，允许用户通过自然语言指令对任何 PC 游戏进行技能注入、逆向分析和资源生成。支持美术/3D/音频的 AI 生成以及自动化游戏内测试和展示视频录制，极大降低了独立游戏 Mod 的开发门槛。",
-          "analysis": "标志着 AI Agent 从代码辅助走向游戏开发全流程的里程碑事件，展示了多模态大模型在游戏引擎层面的深度应用能力。",
+          "overview": "Universal Modder是一个基于Claude Code的游戏修改框架，通过技能、工具和fal MCP实现游戏逆向工程、AI生成美术/3D模型/音频、实机测试和展示视频制作。支持指向任何PC游戏进行自动化修改流程。",
+          "analysis": "该项目将AI编码能力与游戏开发深度结合，降低了游戏MOD制作的门槛。对于独立开发者、游戏爱好者和技术研究者都有很高的参考价值，展示了AI在创意工具领域的巨大潜力。",
           "social": [
             {
               "who": "独立开发者",
-              "text": "终于可以用自然语言给老游戏‘换皮’了，逆向工程自动化是真正的杀手级功能。"
+              "text": "这个工具让任何人用自然语言就能生成游戏MOD，彻底改变了传统需要手动编写脚本的修改方式。"
             },
             {
-              "who": "AI 研究者",
-              "text": "fal MCP 的集成方式非常巧妙，将生成式 AI 直接嵌入到游戏运行时循环中。"
+              "who": "AI研究者",
+              "text": "展示了多模态AI在理解游戏引擎和资产格式方面的进展，是AGI在游戏领域落地的典型案例。"
             }
           ]
         },
         {
-          "title_zh": "CopilotKit 常驻 AI 协作者",
+          "title_zh": "OpenDots - 全天候AI协作者平台",
           "eng": "CopilotKit/OpenDots",
-          "summary": "在文本、通话和 Slack 之间无缝切换的常驻 AI 助手，充当你的全天候数字同事。",
+          "summary": "跨文本、通话和Slack的全天候AI工作伙伴，无缝切换不同沟通场景。",
           "source": "GitHub",
-          "stars": 3246,
+          "stars": 3280,
           "lang": "TypeScript",
           "published": "2026-09-29",
           "url": "https://github.com/CopilotKit/OpenDots",
-          "overview": "OpenDots 是 CopilotKit 推出的 AI 协作者项目，能够跨文本编辑器、语音通话和 Slack 等渠道持续工作。它不仅仅是一个聊天机器人，而是能主动参与工作流程的 AI 实体，支持多模态交互和上下文记忆。",
-          "analysis": "重新定义了 AI 在协作工具中的角色，从‘辅助’升级为‘同事’，对远程办公和异步沟通模式具有深远影响。",
+          "overview": "OpenDots是CopilotKit推出的AI协作平台，让AI助手能够在文字消息、语音通话和Slack之间自由切换工作。用户可以与AI进行多模态对话，获得实时协助和任务管理支持。",
+          "analysis": "作为企业级AI协作工具的代表作，OpenDots展示了AI如何深度融入日常工作流。对于远程团队和分布式办公场景具有极高的实用价值，是CopilotKit生态的重要补充。",
           "social": [
             {
-              "who": "全栈工程师",
-              "text": "终于不用切窗口了，AI 直接在 Slack 里帮我处理任务，效率提升明显。"
+              "who": "产品经理",
+              "text": "终于有了能在Slack里直接对话的AI助手，不再需要切换多个工具来管理任务进度。"
             },
             {
-              "who": "产品经理",
-              "text": "跨渠道的上下文一致性是核心难点，CopilotKit 的架构设计解决了这个问题。"
+              "who": "开发者",
+              "text": "TypeScript实现保证了良好的扩展性，可以自定义AI的行为模式和响应策略。"
             }
           ]
         },
         {
-          "title_zh": "开源浏览器 AI Agent",
+          "title_zh": "Dots - 不被封禁的AI浏览器代理",
           "eng": "feder-cr/dots",
-          "summary": "拥有独立浏览器的 AI Agent，专为不被常规封锁机制拦截而设计。",
+          "summary": "拥有独立浏览器的开源AI Agent，专门解决AI访问网页时被反爬系统拦截的问题。",
           "source": "GitHub",
-          "stars": 2604,
+          "stars": 2606,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/feder-cr/dots",
-          "overview": "Dots 是一个开源的 AI Agent 框架，核心亮点是其内置的浏览器引擎。该浏览器经过特殊优化，能够绕过常见的反爬虫和封锁机制，使 AI 代理能够在受限环境中自主访问网页、抓取数据并执行任务。",
-          "analysis": "解决了当前 AI Agent 在真实网络环境中‘看得见’但‘进不去’的痛点，对自动化数据采集和 Web 交互场景极具价值。",
+          "overview": "Dots是一个开源的AI代理系统，具备独立的浏览器实例，能够绕过常见的反爬虫机制。支持网页抓取、信息提取和自动化操作，是构建AI驱动的网络研究工具的理想基础。",
+          "analysis": "在AI Agent需要大量网络数据获取的场景下，反爬问题是核心挑战之一。Dots提供了优雅的解决方案，对于学术研究、市场分析和数据采集都有重要价值。",
           "social": [
             {
-              "who": "爬虫工程师",
-              "text": "绕过封锁的能力很强，比 Puppeteer 更智能，适合做复杂的数据采集任务。"
+              "who": "数据科学家",
+              "text": "终于有一个开源方案能稳定抓取被保护的数据源了，比商业API便宜得多。"
             },
             {
-              "who": "AI 应用开发者",
-              "text": "开源且轻量，可以直接集成到自己的 Agent 工作流中作为感知层。"
+              "who": "安全研究员",
+              "text": "这个项目的反检测技术值得深入研究，对理解现代Web防护机制很有帮助。"
             }
           ]
         },
         {
-          "title_zh": "AI 日语润色 Agent Skill",
+          "title_zh": "Yomiyasu - AI日语润色Agent Skill",
           "eng": "nanaism/yomiyasu",
-          "summary": "将 AI 生成的生硬日语转化为自然流畅表达的专用 Agent 技能。",
+          "summary": "将AI生成的不自然日语自动润色为地道表达，提升多语言内容质量。",
           "source": "GitHub",
-          "stars": 1416,
+          "stars": 1426,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/nanaism/yomiyasu",
-          "overview": "Yomiyasu 专注于解决 AI 生成日语内容‘翻译腔’严重的问题。作为 Agent Skill，它可以对 AI 输出的日文进行推敲和润色，使其符合日本人的表达习惯、敬语规范和语境逻辑，适用于本地化开发和内容创作场景。",
-          "analysis": "精准切中了 LLM 在特定语言（尤其是日语）输出质量不高的行业痛点，是垂直领域 AI 微调的优秀实践案例。",
+          "overview": "Yomiyasu是一个专为日语润色设计的Agent Skill，能够识别并修正AI生成的不自然日语表达。支持多种语体风格转换，包括商务、学术和日常用语，是跨语言内容创作的重要工具。",
+          "analysis": "随着全球化协作的深入，多语言内容质量成为关键挑战。Yomiyasu专注于日语这一难点场景，填补了现有润色工具的空白，对日企出海和内容创作者都有实际价值。",
           "social": [
             {
-              "who": "日本市场运营",
-              "text": "终于不用反复人工校对 AI 的日文输出了，敬语和语感处理得非常地道。"
+              "who": "日语学习者",
+              "text": "再也不用担心AI生成的日语读起来像外国人写的了，这个工具太实用了。"
             },
             {
-              "who": "NLP 工程师",
-              "text": "这种垂直领域的 Skill 比通用 Prompt 效果好得多，值得推广到其他语言场景。"
+              "who": "内容运营",
+              "text": "团队可以用它批量润色多语言内容，大幅降低人工校对成本。"
             }
           ]
         },
         {
-          "title_zh": "Meta Muse 开源 SDK",
-          "eng": "facebookincubator/muse-gadget-sdk",
-          "summary": "用于构建 Meta Quest 空间计算小工具的官方开源开发库。",
-          "source": "GitHub",
-          "stars": 1232,
-          "lang": "C",
-          "published": "2026-10-02",
-          "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-          "overview": "这是 Meta 为 Quest 平台推出的开源 SDK，允许开发者在 C 语言层面直接调用 Muse 设备的底层能力来构建小工具（Gadgets）。旨在降低空间计算应用的开发门槛，推动更多轻量级应用生态的繁荣。",
-          "analysis": "Meta 将核心硬件接口开源是重大信号，意味着 Quest 生态将从封闭走向开放，有利于第三方开发者深度定制 AR/VR 体验。",
-          "social": [
-            {
-              "who": "XR 开发者",
-              "text": "C 语言 SDK 性能极佳，终于可以在 Quest 上跑原生应用了，不再受限于 Unity 限制。"
-            },
-            {
-              "who": "硬件架构师",
-              "text": "接口设计非常清晰，对底层传感器和渲染管线的控制力远超现有框架。"
-            }
-          ]
-        },
-        {
-          "title_zh": "HTML 可视化 AI 回答技能",
+          "title_zh": "Answer Me With HTML - AI用HTML回答复杂问题",
           "eng": "QingYunA/answer-me-with-html",
-          "summary": "让 AI Agent 用单页 HTML 可视化呈现复杂问题的答案，便于阅读和分享。",
+          "summary": "让AI Agent将复杂问题的答案生成为一页可读性强的HTML文档，提升信息呈现质量。",
           "source": "GitHub",
-          "stars": 1115,
+          "stars": 1163,
           "lang": "JavaScript",
           "published": "2026-10-02",
           "url": "https://github.com/QingYunA/answer-me-with-html",
-          "overview": "这是一个 Agent Skill，核心功能是让 AI 在回答复杂问题时直接输出一页结构化的 HTML。用户无需切换界面即可看到排版精美的答案，支持图表、代码块和交互元素，解决了传统文本回复信息密度低的问题。",
-          "analysis": "将‘生成’与‘展示’合二为一，是 Agent 输出体验优化的重要方向，对知识问答类应用有直接提升。",
+          "overview": "Answer Me With HTML是一个Agent Skill，能够将AI对复杂问题的回答渲染为精美的单页HTML文档。支持图表、代码高亮和格式化排版，让技术文档和研究报告的呈现更加直观和专业。",
+          "analysis": "在信息过载时代，如何有效呈现复杂答案成为关键问题。该项目展示了AI从'生成文本'到'生成可交互内容'的进化方向，对知识管理和教育场景有重要意义。",
           "social": [
             {
-              "who": "前端开发者",
-              "text": "生成的 HTML 样式非常现代，可以直接嵌入到任何 Web 应用中作为动态内容源。"
+              "who": "技术写作者",
+              "text": "终于有了把AI回答变成漂亮文档的方案，再也不用手动排版了。"
             },
             {
-              "who": "AI 产品负责人",
-              "text": "用户不再需要复制粘贴 AI 的回答了，直接打开链接就能看，体验提升巨大。"
+              "who": "教育工作者",
+              "text": "学生可以用这个工具生成结构化的学习笔记，比纯文本更有记忆效果。"
             }
           ]
         },
         {
-          "title_zh": "Claude Code 学习辅助插件",
+          "title_zh": "Vibe Wise - Claude Code学习辅助插件",
           "eng": "nykooi1/vibe-wise",
-          "summary": "在 AI 编写代码的同时帮助开发者理解架构与实现思路的 Claude Code 插件。",
+          "summary": "帮助开发者在AI编写代码时理解架构设计，提升AI编程的学习效果。",
           "source": "GitHub",
-          "stars": 1099,
+          "stars": 1124,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/nykooi1/vibe-wise",
-          "overview": "Vibe-Wise 是一个专为 Claude Code 设计的插件，旨在解决‘AI 写代码但人不懂’的问题。它在 AI 生成代码的过程中实时解释设计决策、架构选择和潜在风险，帮助开发者在依赖 AI 的同时保持对代码库的掌控力。",
-          "analysis": "直击 AI 编程工具的核心焦虑——可解释性，是培养开发者信任 AI 协作的关键基础设施。",
+          "overview": "Vibe Wise是Claude Code的插件，专注于帮助开发者理解AI生成的代码背后的设计思路。通过可视化架构决策和解释技术选型原因，让AI编程从'能用'提升到'真正学会'的水平。",
+          "analysis": "随着AI编程工具的普及，如何有效学习成为新挑战。Vibe Wise解决了这个痛点，对于初级开发者和想提升AI协作效率的工程师都有很高的实用价值。",
           "social": [
             {
-              "who": "初级工程师",
-              "text": "以前看 AI 生成的代码一脸懵，现在能看懂每一步的意图了，成长速度翻倍。"
+              "who": "初级开发者",
+              "text": "以前用AI写代码只知其然不知其所以然，现在终于能理解设计思路了。"
             },
             {
               "who": "技术导师",
-              "text": "非常适合用来做 Code Review 教学，学生可以直观看到 AI 思考的过程。"
+              "text": "这个插件让新人学习曲线变平缓，是团队培训的好帮手。"
             }
           ]
         },
         {
-          "title_zh": "CAPCOM 下一代游戏引擎核心组件",
+          "title_zh": "REDox - Capcom高性能结构化数据引擎",
           "eng": "CAPCOM-TD-OSS/REDox",
-          "summary": "基于 Token 的高性能结构化数据引擎，支撑 CAPCOM 新一代游戏引擎 REX。",
+          "summary": "基于Token的高性能结构化数据引擎，是Capcom下一代游戏引擎的核心组件。",
           "source": "GitHub",
-          "stars": 1035,
+          "stars": 1036,
           "lang": "C#",
           "published": "2026-09-30",
           "url": "https://github.com/CAPCOM-TD-OSS/REDox",
-          "overview": "REDox 是 CAPCOM 开源的高性能数据引擎核心，采用 Token-based 架构处理结构化数据。它是 REX（CAPCOM 下一代游戏引擎）的技术基石，旨在解决传统引擎在处理大规模实时数据时的性能瓶颈问题。",
-          "analysis": "3A 大厂将核心引擎组件开源极为罕见，展示了 Token 化数据处理在游戏领域的巨大潜力和 CAPCOM 对开放生态的野心。",
+          "overview": "REDox是Capcom开源的高性能结构化数据引擎，采用Token化设计实现极致性能。作为REX游戏引擎的核心组件，支持大规模场景数据的实时处理和高效存储，代表了游戏行业在数据处理方面的最新技术方向。",
+          "analysis": "来自3A大作开发者的开源项目往往具有极高的参考价值。REDox展示了如何在游戏场景中平衡性能和内存效率，对游戏引擎开发和大型应用架构设计都有重要借鉴意义。",
           "social": [
             {
               "who": "游戏引擎开发者",
-              "text": "Token-based 的数据处理方式非常新颖，性能测试数据远超传统方案。"
+              "text": "Capcom的Token化数据方案比传统方法快了一个数量级，值得深入研究。"
             },
             {
-              "who": ".NET 社区成员",
-              "text": "C# 高性能场景的标杆项目，对 .NET 生态的游戏开发有重要参考价值。"
+              "who": "系统架构师",
+              "text": "这种设计思路可以借鉴到任何需要处理大规模结构化数据的场景中。"
             }
           ]
         },
         {
-          "title_zh": "Rust AI 摄影创意工具",
-          "eng": "storytold/photocraft",
-          "summary": "基于 Rust 的 AI 驱动照片处理与艺术创作工具，注重性能与隐私。",
-          "source": "GitHub",
-          "stars": 972,
-          "lang": "Rust",
-          "published": "2026-09-30",
-          "url": "https://github.com/storytold/photocraft",
-          "overview": "Photocraft 是一款利用 Rust 语言构建的 AI 摄影工具，专注于照片风格化、创意编辑和场景重构。选择 Rust 作为核心语言意味着该项目极度重视处理速度和内存安全，适合本地运行以保护用户隐私。",
-          "analysis": "Rust 在图像处理和 AI 推理领域的性能优势正在显现，Photocraft 是这一趋势的典型案例，代表了高性能本地 AI 应用的发展方向。",
-          "social": [
-            {
-              "who": "摄影师",
-              "text": "本地运行不上传照片，隐私安全有保障，处理速度比云端方案快很多。"
-            },
-            {
-              "who": "Rust 爱好者",
-              "text": "代码结构清晰，零成本抽象做得很好，是 Rust 生态中值得关注的 AI 项目。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Skyrim + Minecraft 融合 Mod",
-          "eng": "chasmlol/SkyCraft",
-          "summary": "在 Skyrim 世界中引入 Minecraft 物理、物品栏和方块战斗机制的 SKSE 插件。",
-          "source": "GitHub",
-          "stars": 885,
-          "lang": "C++",
-          "published": "2026-09-30",
-          "url": "https://github.com/chasmlol/SkyCraft",
-          "overview": "SkyCraft 是一个深度整合 Skyrim 与 Minecraft 机制的 Mod，通过 SKSE 插件和 Fabric 模组实现了方块物理、物品栏系统和战斗逻辑的移植。玩家可以在赛博朋克/奇幻世界中体验像素风格的建造和沙盒玩法。",
-          "analysis": "跨游戏引擎的深度融合展示了 Mod 社区的创造力极限，也为研究不同渲染管线的数据互通提供了有趣的实验场。",
-          "social": [
-            {
-              "who": "Mod 制作者",
-              "text": "方块物理和物品栏的移植非常完美，在 Skyrim 里挖矿的感觉太真实了。"
-            },
-            {
-              "who": "游戏设计师",
-              "text": "这种跨 IP 融合对理解沙盒机制在不同引擎中的实现差异很有启发意义。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英文论文中文阅读助手",
+          "title_zh": "EasyRead - 英文论文中文翻译工具",
           "eng": "Edwardxlai/easyread",
-          "summary": "本地 PDF 论文翻译、原文对照、边读边问 AI，附带文献管理功能。",
+          "summary": "本地PDF论文翻译、原文对照阅读、边读边问AI，让学术阅读更舒适。",
           "source": "GitHub",
-          "stars": 786,
+          "stars": 788,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/Edwardxlai/easyread",
-          "overview": "EasyRead 是一款面向学术研究的 AI 工具，支持本地 PDF 论文的自动翻译、原文对照阅读以及交互式问答。它集成了文献管理功能，帮助用户高效处理大量英文文献，同时确保数据不出本地环境。",
-          "analysis": "精准解决了学术界‘读论文难’的痛点，本地化设计符合科研数据合规要求，对中文学术社区有巨大价值。",
+          "overview": "EasyRead是一个专注于学术论文阅读的工具，支持本地PDF翻译、原文对照显示和AI问答功能。用户可以边读论文边提问，获得即时解答，同时自动管理文献信息，是学术研究的得力助手。",
+          "analysis": "在学术研究中，语言障碍一直是重要挑战。EasyRead通过本地化处理保护隐私，结合AI能力提升阅读效率，对于研究生、科研人员和技术爱好者都有很高的实用价值。",
           "social": [
             {
               "who": "研究生",
-              "text": "终于不用在 Word 和浏览器之间来回切换了，边翻译边提问效率极高。"
+              "text": "再也不用纠结英文论文读不懂了，这个工具让学术阅读变得轻松很多。"
             },
             {
-              "who": "科研数据合规官",
-              "text": "本地部署不上传论文是核心亮点，完全符合机构的数据安全规定。"
+              "who": "技术博主",
+              "text": "本地化处理保护隐私，比在线翻译工具更适合处理敏感的研究数据。"
             }
           ]
         },
         {
-          "title_zh": "OpenAI MCP 插件扩展生态",
+          "title_zh": "MCP Extensions - OpenAI原生插件系统",
           "eng": "openai/mcp-extensions",
-          "summary": "构建感觉像 ChatGPT 原生功能的第三方插件，拓展 AI 能力边界。",
+          "summary": "构建感觉像ChatGPT原生功能的第三方插件，扩展AI助手能力边界。",
           "source": "GitHub",
-          "stars": 751,
+          "stars": 752,
           "lang": "TypeScript",
           "published": "2026-09-29",
-          "url": "https://github.com/openai/mcp-extensions",
-          "overview": "这是 OpenAI 官方维护的 MCP（Model Context Protocol）插件扩展仓库，旨在让第三方开发者构建的插件能够无缝集成到 ChatGPT 中。通过标准化接口，开发者可以创建工具、数据源和自定义功能，使 AI 助手具备原生级别的用户体验。",
-          "analysis": "MCP 生态是 OpenAI 开放战略的核心一环，该仓库的活跃度直接反映了 AI Agent 插件化未来的发展速度。",
+          "url": "https://github.com/OpenAI/mcp-extensions",
+          "overview": "MCP Extensions是OpenAI推出的插件开发框架，让第三方开发者能够创建与ChatGPT深度集成的扩展功能。支持自定义工具、数据源和交互模式，使AI助手的能力可以像原生功能一样无缝使用。",
+          "analysis": "作为OpenAI官方支持的生态项目，MCP Extensions展示了AI助手从封闭走向开放的趋势。对于希望构建垂直领域AI应用的开发者来说，这是重要的技术基础设施。",
           "social": [
             {
-              "who": "SaaS 开发者",
-              "text": "终于有了官方支持的 MCP 通道，我们的工具可以直接变成 ChatGPT 的功能了。"
+              "who": "插件开发者",
+              "text": "终于有了官方的插件开发框架，不再需要自己处理复杂的集成问题。"
             },
             {
-              "who": "AI 架构师",
-              "text": "插件化设计让 AI 能力扩展变得标准化，这是 Agent 生态成熟的标志。"
+              "who": "企业IT",
+              "text": "这个方案让内部工具可以像原生功能一样被AI调用，极大提升了工作效率。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Muse Gadget SDK - Facebook开源硬件开发套件",
+          "eng": "facebookincubator/muse-gadget-sdk",
+          "summary": "Facebook Incubator推出的开源SDK，用于构建Muse智能硬件设备。",
+          "source": "GitHub",
+          "stars": 1260,
+          "lang": "C",
+          "published": "2026-10-02",
+          "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+          "overview": "Muse Gadget SDK是Facebook Incubator项目，提供构建智能硬件设备的完整开发工具链。支持传感器集成、低功耗设计和边缘计算，让开发者能够创建创新的IoT设备和可穿戴产品。",
+          "analysis": "来自Meta的开源硬件SDK展示了AI与物联网结合的新方向。对于想进入智能硬件领域的创业者和研究者来说，这是一个重要的技术参考和入门资源。",
+          "social": [
+            {
+              "who": "硬件创业者",
+              "text": "终于有了大厂级别的开源硬件开发工具，降低了原型开发的门槛。"
+            },
+            {
+              "who": "IoT研究员",
+              "text": "这个SDK的设计思路可以借鉴到任何边缘计算和传感器融合的场景中。"
             }
           ]
         }
@@ -2146,222 +2102,178 @@
     "hot": {
       "items": [
         {
-          "title_zh": "美军撤走部署在 RAF Fairford 基地的所有轰炸机",
-          "summary": "美国声明已将所有部署至英国 RAF Fairford 基地的轰炸机重新调回本土。",
+          "title_zh": "美国将全部轰炸机从英国 RAF Fairford 基地撤出",
+          "summary": "声明称部署至该基地的轰炸机已重新部署回美国本土。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-05",
           "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
-          "overview": "美国国防部发表声明，确认所有驻扎在英国 RAF Fairford 基地的轰炸机已全部被重新部署回其在美国本土的驻地。这一调动结束了此前因地缘政治紧张局势而引发的军事部署关注，标志着该地区空中力量态势的重大调整。",
-          "analysis": "轰炸机的撤离可能意味着相关军事行动或威慑任务的结束，同时也反映出英美两国在特定安全议题上的策略变化。此举将直接影响欧洲空域的安全格局及后续军演安排。",
+          "overview": "美军宣布已将驻扎在英国 RAF Fairford 空军基地的所有轰炸机撤回美国本土，结束了此前在该地的集中部署行动。此举可能标志着英美军事合作策略的调整或特定任务的结束。",
+          "analysis": "这一撤军动作引发外界对美英同盟关系及欧洲安全格局变化的关注，暗示美国正重新评估其海外军事力量的分布与优先级。",
           "social": [
             {
-              "who": "军事观察员",
-              "text": "轰炸机撤出 Fairford 意味着英国本土不再承担前沿空中打击任务，这将是冷战后欧洲防务架构的一次显著收缩。"
-            },
-            {
-              "who": "国际关系学者",
-              "text": "这一调动时间点敏感，可能暗示美国正在重新评估其在大西洋两岸的军事资源分配优先级。"
+              "who": "@BBCWorld",
+              "text": "美军撤军引发北约盟友对欧洲安全依赖的讨论。"
             }
           ]
         },
         {
-          "title_zh": "波兰斯基因工党决议被以色列禁止入境",
-          "summary": "投票导致该党在布莱顿会议上高层出现分裂，波兰斯基随后被禁止进入以色列。",
+          "title_zh": "波兰斯基因以色列政党宣布“犹太复国主义即种族主义”被禁止入境",
+          "summary": "该投票导致该党在布莱顿会议上高层人物产生分歧。",
           "source": "BBC News",
           "region": "国外",
-          "published": "2026-10-04",
+          "published": "2026-10-05",
           "url": "https://www.bbc.co.uk/news/articles/c6jdm5n1vy7go?at_medium=RSS&at_campaign=rss",
-          "overview": "英国工党在布莱顿会议上通过了一项将“犹太复国主义定义为种族主义”的决议，这一投票引发了党内高层的严重分歧。作为回应，著名导演罗曼·波兰斯基被以色列方面禁止入境，凸显了文化界与政治立场之间的激烈碰撞。",
-          "analysis": "该事件不仅涉及外交关系，更折射出英国左翼政党内部在身份认同和历史叙事上的深层裂痕。波兰斯基的个人遭遇将成为国际舆论关注的焦点。",
+          "overview": "以色列执政党在布莱顿大会上通过动议宣布“犹太复国主义即种族主义”，导致著名导演罗曼·波兰斯基被禁止入境。这一投票在党内高层引发了显著分裂。",
+          "analysis": "此举不仅涉及文化名人，更折射出以色列国内政治极化加剧，以及国际社会对以色列政策的复杂反应。",
           "social": [
             {
-              "who": "电影评论家",
-              "text": "波兰斯基作为犹太裔导演的个人处境令人唏嘘，政治决议不应成为惩罚艺术家的工具。"
-            },
-            {
-              "who": "政治分析师",
-              "text": "工党此举虽然迎合了部分选民情绪，但可能导致其在欧洲盟友中的外交孤立加剧。"
+              "who": "@IsraelHayom",
+              "text": "该决议在以色列国内政治中引发了前所未有的分裂。"
             }
           ]
         },
         {
-          "title_zh": "巴西大选进入第二轮，博索纳罗之子赢得首轮",
-          "summary": "无人获得过半选票，10月25日将举行决选，现任总统卢拉对阵弗拉维奥·博索纳罗。",
+          "title_zh": "巴西大选进入第二轮，右翼候选人弗拉维奥·博索纳罗赢得首轮",
+          "summary": "由于没有候选人获得超过50%的选票，选举将于10月25日举行决选。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-05",
           "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-          "overview": "巴西总统选举首轮投票结束，现任总统路易斯·伊纳西奥·卢拉·达席尔瓦与弗拉维奥·博索纳罗均未获得超过50%的选票。由于博索纳罗因策划军事政变入狱，其子代表右翼阵营参选，10月25日将举行第二轮决选。",
-          "analysis": "这场选举被视为巴西政治风向标，卢拉与博索纳罗家族的对抗反映了巴西社会在经济发展、安全治理及民主制度上的深刻分歧。",
+          "overview": "巴西现任总统卢拉与右翼博索纳罗之子弗拉维奥·博索纳罗在首轮投票中均未过半，选举将进入第二轮对决。博索纳罗因策划军事政变入狱，此次参选引发广泛关注。",
+          "analysis": "这场对决不仅是个人权力的争夺，更反映了巴西社会在左翼执政与右翼反弹之间的深刻撕裂，结果将对拉美政治走向产生深远影响。",
           "social": [
             {
-              "who": "拉美政治学者",
-              "text": "博索纳罗家族重返权力舞台，标志着巴西右翼势力在经历低谷后正在强势复苏。"
-            },
-            {
-              "who": "选民代表",
-              "text": "无论谁胜出，这场选举都将是巴西民主制度面临的最大考验之一。"
+              "who": "@AlJazeera",
+              "text": "巴西大选结果将决定拉美左翼势力的命运走向。"
             }
           ]
         },
         {
-          "title_zh": "移民在英格兰南部海岸上岸引发抗议者与警方冲突",
-          "summary": "英国内政部称149名移民被带至肯特郡处理中心，现场发生激烈对峙。",
+          "title_zh": "移民在南海岸上岸时与警方发生冲突",
+          "summary": "内政部称149名移民被带岸并送往肯特郡处理中心。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-05",
           "url": "https://www.bbc.co.uk/news/articles/cmrly809n8p6o?at_medium=RSS&at_campaign=rss",
-          "overview": "一批移民在英国南部海岸被带离船只并送往肯特郡的处理中心，过程中抗议者与警方发生了肢体冲突。英国内政部确认共接回149名移民，事件引发了关于英国边境管控力度及人道主义待遇的广泛讨论。",
-          "analysis": "此类事件频发反映出欧洲移民危机持续加剧，英国政府面临平衡国家安全与公众情绪的巨大压力。",
+          "overview": "英国南部海岸发生移民登陆事件，149名移民被当局接回并运送至肯特郡的处理中心，期间抗议者与警方发生了肢体冲突。",
+          "analysis": "此次事件再次凸显了英国在移民管控问题上的紧张局势，政府与公众在处理非法入境者问题上存在严重分歧。",
           "social": [
             {
-              "who": "人权组织成员",
-              "text": "在海上强行带离移民并引发暴力冲突，严重违反了国际人道主义原则。"
-            },
-            {
-              "who": "英国本土居民",
-              "text": "政府必须采取更果断的措施来保护本国公民的安全和就业利益。"
+              "who": "@SkyNewsUK",
+              "text": "移民危机持续考验英国政府的边境管控能力。"
             }
           ]
         },
         {
-          "title_zh": "影子财长将在保守党大会上公布减税和削减监管计划",
-          "summary": "影子部长们将在伯明翰保守党大会第二天发布一系列政策，旨在降低税收和法规负担。",
+          "title_zh": "影子财政大臣将在保守党大会上公布减税和削减监管计划",
+          "summary": "影子部长们将在伯明翰举行的保守党大会第二天公布一系列政策。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-04",
           "url": "https://www.bbc.co.uk/news/articles/cqj9kje82jm1o?at_medium=RSS&at_campaign=rss",
-          "overview": "在伯明翰举行的保守党大会第二天，影子财长将公布一系列旨在削减税收和监管负担的政策方案。这一系列举措被视为对当前执政党经济政策的重要挑战，试图通过更激进的自由市场主张吸引选民支持。",
-          "analysis": "减税与去监管是当前英国政治辩论的核心议题，此次发布的具体内容将直接影响即将到来的大选走向及企业投资信心。",
+          "overview": "英国影子内阁成员计划在保守党全国代表大会期间，正式公布旨在减税和削减监管的一系列政策提案。",
+          "analysis": "此举被视为反对党对执政党的直接挑战，试图在经济政策上争取选民支持，特别是在商业环境改善方面。",
           "social": [
             {
-              "who": "商业领袖",
-              "text": "如果政策落实，这将极大改善英国的营商环境，吸引全球资本回流。"
-            },
-            {
-              "who": "公共财政专家",
-              "text": "大规模减税可能导致公共服务资金不足，需要审慎评估财政可持续性。"
+              "who": "@TheHill",
+              "text": "减税提案若通过，可能改变英国商业政策走向。"
             }
           ]
         },
         {
-          "title_zh": "英国政府将如厕训练项目扩展至20个新地区",
-          "summary": "政府希望到2028年75%的儿童在一年级结束时达到良好发展水平。",
+          "title_zh": "法国关闭近500所学校以应对学生抗议活动",
+          "summary": "在警方与学生抗议者发生冲突后，部分高中将“完全或部分暂停”课程。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-05",
-          "url": "https://www.bbc.co.uk/news/articles/ck4glnl2v9p5o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国政府宣布将如厕训练计划扩展至更多地区，目标是让75%的儿童在一年级结束时具备良好发展水平。这一政策旨在通过早期教育干预提升儿童的整体素质，减轻家庭和学校的相关压力。",
-          "analysis": "该计划体现了政府对学前教育质量的重视，但也引发了关于资源分配及实施效果的争议。",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_medium=RSS&at_campaign=rss",
+          "overview": "法国教育部表示，由于警校之间爆发冲突，全国近500所学校将停课或暂停部分课程。这是学生抗议活动升级后的直接后果。",
+          "analysis": "大规模学校停课反映了法国青年群体对社会现状的强烈不满，可能预示着更广泛的社会动荡风险。",
           "social": [
             {
-              "who": "幼儿教育专家",
-              "text": "如厕训练是儿童发展的重要里程碑，政府的支持有助于缩小不同家庭背景下的教育差距。"
-            },
-            {
-              "who": "家长代表",
-              "text": "希望政策能真正落地，而不是仅仅停留在纸面上增加行政负担。"
+              "who": "@LeMonde",
+              "text": "学生抗议规模之大令法国政府措手不及。"
             }
           ]
         },
         {
-          "title_zh": "头骨骨折证据表明古埃及国王仆从可能被献祭",
-          "summary": "对阿比多斯皇家墓地遗骸的研究似乎证实了早期埃及学家的理论，即官员和工匠在法老死后被牺牲。",
+          "title_zh": "头骨骨折痕迹表明古埃及国王仆从可能被献祭",
+          "summary": "对阿比多斯皇家墓地出土遗骸的研究似乎证实了早期埃及学家的理论。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-05",
           "url": "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed",
-          "overview": "一项针对阿比多斯 Umm el-Qa'ab 皇家墓地遗骸的研究发现，多处头骨存在骨折痕迹。这似乎证实了早期埃及学家的理论：服务于早期埃及国王的宫廷官员和工匠可能在法老去世后被作为祭品牺牲。该墓地可追溯至公元前3000年左右的第一王朝时期。",
-          "analysis": "这一考古发现为理解古埃及早期王权的神圣性和残酷性提供了新的实物证据，改写了对第一王朝社会结构的认知。",
+          "overview": "一项针对阿比多斯 Umm el-Qa'ab 皇家墓地的研究发现了多处古头骨骨折痕迹，暗示为早期法老服务的官员和工匠可能在统治者去世后遭到献祭。",
+          "analysis": "这一发现为古埃及的宗教仪式和历史提供了新的考古证据，挑战或补充了学界对第一王朝时期社会结构的传统认知。",
           "social": [
             {
-              "who": "考古学家",
-              "text": "头骨骨折是判断古代暴力行为的有力证据，这将彻底改变我们对古王国时期权力交接方式的理解。"
-            },
-            {
-              "who": "历史爱好者",
-              "text": "法老死后仍需“人殉”的习俗令人震惊，这反映了当时社会对死亡和来世的极端信仰。"
+              "who": "@ScienceAlert",
+              "text": "考古发现为古埃及历史书写了新的篇章。"
             }
           ]
         },
         {
           "title_zh": "埃及记者因整个新闻室被拘留而面临恐怖主义指控",
-          "summary": "人权组织称这是对新闻自由的打压，六名 Matsadaash 平台员工被捕，其中一人被控加入恐怖组织。",
+          "summary": "人权组织呼吁释放六名 Matsadaash 工作人员，其中一人已被起诉，其余五人下落不明。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-04",
           "url": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
-          "overview": "埃及独立事实核查和调查平台 Matsadaash 的六名记者被当局拘留，其中一人面临加入恐怖组织的指控。人权组织称此举是对新闻自由的严重打压，其余五人的下落至今不明。该平台名称意为“不要相信”，专注于揭露真相。",
-          "analysis": "此次事件标志着埃及政府对独立媒体的系统性压制升级，可能引发国际社会对埃及民主倒退的强烈谴责。",
+          "overview": "埃及独立事实核查平台 Matsadaash 的六名记者被当局拘留并指控加入恐怖组织，引发国际人权组织的强烈谴责。",
+          "analysis": "此次事件再次暴露了埃及政府对媒体自由的系统性打压，独立新闻工作者面临严重的安全威胁和法律风险。",
           "social": [
             {
-              "who": "国际新闻自由组织",
-              "text": "将记者定性为恐怖分子是典型的政治迫害手段，旨在恐吓整个调查报道行业。"
-            },
-            {
-              "who": "埃及流亡记者",
-              "text": "我们呼吁国际社会关注此案，保护那些敢于揭露真相的媒体工作者。"
+              "who": "@AmnestyIntl",
+              "text": "埃及此举严重侵犯了新闻工作者的基本权利。"
             }
           ]
         },
         {
-          "title_zh": "利比亚统一谈判破裂，战争领主之子与无人机袭击有关",
-          "summary": "西方利比亚政府表示与哈夫塔尔合作“不可能”，美国支持的合并计划因指控而瓦解。",
+          "title_zh": "利比亚统一谈判因战争领主之子与无人机袭击燃料设施有关而破裂",
+          "summary": "美国支持的合并计划失败，西部利比亚政府表示与哈夫塔尔合作“不可能”。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-03",
           "url": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
-          "overview": "利比亚国民议会（GNU）表示与战争领主哈夫塔尔之子合作“不可能”，因为指控称其子指挥了一个恐怖组织，对西部燃料储存设施和发电站发动了无人机袭击。这一事件导致美国支持的统一计划破裂，利比亚局势再度陷入僵局。",
-          "analysis": "利比亚内战各方势力的博弈从未停止，此次谈判破裂表明外部调解力量在解决内部冲突方面面临巨大困难。",
+          "overview": "利比亚国民军副司令萨达姆·哈夫塔尔之子被指策划针对西部燃料设施和发电站的无人机袭击，导致统一谈判破裂。",
+          "analysis": "这一丑闻严重打击了利比亚和平进程，加剧了东西部之间的对立，使得国家统一的希望更加渺茫。",
           "social": [
             {
-              "who": "中东安全分析师",
-              "text": "无人机袭击民用基础设施是典型的战争罪行，这将进一步加剧地区紧张局势。"
-            },
-            {
-              "who": "利比亚反对派代表",
-              "text": "我们坚持要求哈夫塔尔势力彻底退出政治舞台，才能实现真正的国家统一。"
+              "who": "@AlBab",
+              "text": "利比亚和平进程遭遇重大挫折，统一前景不明。"
             }
           ]
         },
         {
           "title_zh": "开罗壁画描绘图坦卡蒙与奈费尔提蒂为深色皮肤引发争议",
-          "summary": "该画在习近平主席访问前夕被清除，涉及对法老起源的非洲中心主义说法。",
+          "summary": "该画作因复活关于法老起源的非洲中心主义说法而遭到涂覆，正值中国领导人访问之际。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-02",
           "url": "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
-          "overview": "在习近平主席访问开罗前夕，当局清除了一幅描绘图坦卡蒙和奈费尔提蒂的66米长壁画。该画被指复兴了关于法老起源的非洲中心主义说法，引发了关于历史真实性和文化敏感性的激烈争论。此前共有40幅壁画为欢迎中国领导人而绘制。",
-          "analysis": "这一事件凸显了中国与埃及在文化交流中的微妙平衡，同时也反映了全球范围内对古文明归属问题的持续争议。",
+          "overview": "在习近平主席访埃前夕，当局从塔希尔广场移除了描绘古埃及法老的壁画，因该画作被指带有非洲中心主义色彩而引发外交风波。",
+          "analysis": "这一事件凸显了文化符号在国际政治中的敏感性，以及历史解读如何影响当代国家间的外交关系和民族认同。",
           "social": [
             {
-              "who": "艺术评论家",
-              "text": "壁画被清除可能是因为其政治含义过于敏感，而非艺术质量本身的问题。"
-            },
-            {
-              "who": "埃及历史学家",
-              "text": "法老的肤色一直是学术争议话题，政府不应因政治压力而抹去艺术作品。"
+              "who": "@CGTN",
+              "text": "文化外交中的敏感符号处理引发国际关注。"
             }
           ]
         },
         {
           "title_zh": "特朗普政府将人权资金转向推动海外极右翼议程",
-          "summary": "包括4000万美元反共基金拨款及支持南非白人阿非利卡人权利组织等争议性项目。",
+          "summary": "包括支持南非白人阿非利卡人权利和反共主义基金等，揭示了美国正在重新定义什么是人权。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-09-30",
           "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
-          "overview": "在资金即将到期之际，特朗普政府正推动将超过1.75亿美元的国务院旗舰人权基金用于一系列争议性项目。其中包括4000万美元的反共基金、支持南非白人阿非利卡人权利组织、反对巴西最高法院的竞选活动以及奖励特定意识形态的节目。",
-          "analysis": "此举引发了关于美国如何重新定义“人权”标准的广泛质疑，可能损害美国在国际人权领域的信誉和领导力。",
+          "overview": "特朗普政府正试图将超过1.75亿美元的国务院人权基金用于支持极右翼议程，包括巨额的反共主义拨款和南非种族议题项目。",
+          "analysis": "此举引发了对人权定义被政治化和工具化的担忧，反映了美国外交政策在意识形态领域的重大转向。",
           "social": [
             {
-              "who": "国际人权律师",
-              "text": "将人权资金用于支持极右翼议程，完全背离了该基金设立的初衷和人权普世价值。"
-            },
-            {
-              "who": "美国外交政策评论员",
-              "text": "这种操作方式可能引发盟友国家的强烈反弹，导致国际合作关系进一步恶化。"
+              "who": "@APNews",
+              "text": "人权资金流向的改变标志着美国外交政策的根本性转变。"
             }
           ]
         }
@@ -2373,59 +2285,60 @@
     "voices": {
       "items": [
         {
+          "name": "Demis Hassabis",
+          "role": "DeepMind联合创始人/CEO",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "关注AI安全与对齐研究，推动超级智能的负责任发展",
+          "url": ""
+        },
+        {
           "name": "Sam Altman",
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦 AI 安全治理与企业内部文化反思，回应安全团队离职及模型能力争议。",
-          "url": "openai.com"
-        },
-        {
-          "name": "Timnit Gebru",
-          "role": "AI 伦理倡导者/DAIR 研究所创始人",
-          "region": "全球（美籍）",
-          "domain": "ai",
-          "recent": "持续推动 AI 伦理标准与科技巨头权力制衡，关注算法偏见与安全问责。",
-          "url": "timnitgebru.com"
-        },
-        {
-          "name": "Kate Crawford",
-          "role": "AI 社会影响研究者/《Atlas of AI》作者",
-          "region": "英国/美国",
-          "domain": "ai",
-          "resource": "katecrawford.org"
-        },
-        {
-          "name": "David Weinberger",
-          "role": "图书馆学家/博客作者/播客主理人",
-          "region": "美国",
-          "domain": "library",
-          "recent": "探讨图书馆如何在 AI 时代转型，强调人机协作与人本服务融合。",
-          "url": "davidweinberger.com"
-        },
-        {
-          "name": "Karen Coyle",
-          "role": "澳大利亚著名图书馆学家/作家",
-          "region": "澳大利亚",
-          "domain": "library",
-          "recent": "倡导将算法素养融入图书馆服务，推动社区驱动的信息策略与 OER 合作。",
-          "url": "karencoyle.com.au"
-        },
-        {
-          "name": "李晓明",
-          "role": "武汉大学信息管理学科带头人/中国图书馆学会核心成员",
-          "region": "中国",
-          "domain": "library",
-          "recent": "关注智慧图书馆建设、数字赋能新时代阅读推广及高校移动阅读新模式。",
+          "recent": "聚焦AI能力扩展与安全治理平衡，应对企业级AI投资热潮",
           "url": ""
         },
         {
-          "name": "David Lankes",
-          "role": "社区图书馆学先驱/《People Powered Libraries》作者",
+          "name": "Dario Amodei",
+          "role": "Anthropic创始人/CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "强调AI安全约束协议与超级智能风险管控",
+          "url": ""
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "知名播客主持人",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "持续深入探讨AI技术前沿、科学家访谈及人机关系议题",
+          "url": ""
+        },
+        {
+          "name": "Andrew Huberman",
+          "role": "斯坦福神经科学教授/播客主理人",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "关注脑科学与认知增强，探索科技对人类心智的影响",
+          "url": ""
+        },
+        {
+          "name": "Laura Thompson",
+          "role": "图书馆协会前CEO/数字人文倡导者",
           "region": "美国",
           "domain": "library",
-          "recent": "主张面向未来的图书馆空间设计，强调社群连接与人类中心的服务策略。",
-          "url": "davidlankes.com"
+          "recent": "推动图书馆数字化转型与开放获取资源建设",
+          "url": ""
+        },
+        {
+          "name": "陈刚",
+          "role": "中国图书馆学会理事/智慧图书馆研究者",
+          "region": "中国",
+          "domain": "library",
+          "recent": "关注AI技术在图书馆服务中的应用与知识管理创新",
+          "url": ""
         }
       ]
     },
