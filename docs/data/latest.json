@@ -1,23 +1,49 @@
 {
-  "generated_at": "2026-10-05T11:34:38+08:00",
+  "generated_at": "2026-10-05T12:22:12+08:00",
   "date": "2026-10-05",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-05 11:34",
-    "ai": "2026-10-05 06:40",
-    "voices": "2026-10-05 10:59",
-    "github": "2026-10-05 11:34",
-    "libraries": "2026-10-05 11:34",
+    "ai": "2026-10-05 12:22",
+    "voices": "2026-10-05 12:22",
+    "github": "2026-10-05 12:22",
+    "libraries": "2026-10-05 12:22",
     "sports": "2026-10-05 10:59",
     "academic": "2026-10-04 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Google因AI提交量激增而冻结开源漏洞赏金计划",
+          "eng": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions",
+          "summary": "Google的开源漏洞赏金项目遭遇大量AI生成的虚假报告涌入，导致项目被迫暂停。这标志着AI生成内容正在对传统安全研究生态系统造成实质性冲击。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-10-04",
+          "tags": [
+            "漏洞赏金",
+            "AI滥用",
+            "开源安全"
+          ],
+          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+          "overview": "Google的开源漏洞赏金项目因收到大量AI生成的虚假安全报告而被迫暂停。这些由AI自动提交的'漏洞'缺乏真实性和可复现性，严重干扰了真正安全研究者的工作。这一事件是AI生成内容泛滥对传统技术社区治理机制的首次重大冲击案例。",
+          "analysis": "这揭示了AI能力扩张带来的负面外部性——当AI能够低成本生成看似专业的安全报告时，传统依赖人工审核的生态系统面临崩溃风险。需要建立新的验证机制来区分AI生成和人类研究产出。",
+          "social": [
+            {
+              "who": "安全研究员",
+              "text": "AI噪音正在淹没真正有价值的漏洞发现，这对开源项目的安全维护构成系统性威胁。"
+            },
+            {
+              "who": "平台治理者",
+              "text": "需要建立更智能的过滤机制来识别和排除AI生成的虚假报告。"
+            }
+          ]
+        },
         {
           "title_zh": "AI无法在星际争霸中击败人类，于是选择了作弊",
           "eng": "An AI couldn't beat humans at StarCraft, so it decided to cheat",
@@ -772,32 +798,6 @@
             {
               "who": "AI产品经理",
               "text": "ChatGPT 从对话工具向购物助手转型，反映了大模型在消费领域的应用深化趋势。"
-            }
-          ]
-        },
-        {
-          "title_zh": "谷歌 Gemini Live 新增引导视觉功能，实时语音描述画面内容",
-          "eng": "Google's new Guided Vision feature can help you read the fine print",
-          "summary": "Google 在 Gemini Live 中推出 Guided Vision 功能，用户只需将手机摄像头对准任何物体，AI 即可提供实时音频描述，帮助阅读小字、识别物体和描述周围环境。",
-          "source": "The Verge",
-          "region": "全球",
-          "published": "2026-10-01",
-          "tags": [
-            "Gemini",
-            "无障碍",
-            "Android"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
-          "overview": "Google 在 Gemini Live 中推出了 Guided Vision 功能，该功能支持用户将手机摄像头对准任何物体时获得实时音频描述。它可以帮助用户阅读小字、识别和定位周围物体、描述环境等，是 Google 在无障碍技术领域的又一重要进展。",
-          "analysis": "这一功能展示了多模态 AI 在辅助技术领域的巨大潜力，特别是对于视障用户来说可以显著提升独立生活能力。随着手机摄像头和 AI 能力的持续提升，这类应用有望从专业辅助工具发展为大众化功能。",
-          "social": [
-            {
-              "who": "无障碍技术专家",
-              "text": "这一功能对视障用户具有革命性意义，有望大幅提升其独立生活能力。"
-            },
-            {
-              "who": "手机开发者",
-              "text": "多模态 AI 与移动设备的深度融合正在创造新的用户体验范式。"
             }
           ]
         }
@@ -1878,266 +1878,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "Universal Modder：AI 驱动的 PC 游戏万能修改器",
+          "title_zh": "AI 通用游戏修改器",
           "eng": "rehan-remade/universal-modder",
-          "summary": "将 Claude Code 与 MCP 结合，让 AI Agent 自动对任意 PC 游戏进行逆向工程、生成美术资产及测试验证。",
+          "summary": "利用 Claude Code + fal MCP，对任意 PC 游戏进行逆向工程、生成资源及自动化测试。",
           "source": "GitHub",
-          "stars": 3247,
+          "stars": 3276,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/rehan-remade/universal-modder",
-          "overview": "该项目利用 Claude Code 的 MCP（Model Context Protocol）技能，能够自动对任何 PC 游戏进行逆向工程分析。它支持生成 AI 美术、3D 模型和音频资产，并能在游戏内直接运行测试脚本。此外，项目还包含展示视频生成功能，极大降低了独立 Mod 开发者的技术门槛。",
-          "analysis": "这是目前将 AI Agent 深度应用于游戏开发领域最具代表性的开源项目之一。它展示了 MCP 协议在游戏逆向和自动化测试中的巨大潜力，标志着从手动编写 Mod 脚本到 AI 自动生成内容的范式转移。",
+          "overview": "该项目将 Claude Code 与 fal 模型集成，允许用户通过自然语言指令对任何 PC 游戏进行技能注入、逆向分析和资源生成。支持美术/3D/音频的 AI 生成以及自动化游戏内测试和展示视频录制，极大降低了独立游戏 Mod 的开发门槛。",
+          "analysis": "标志着 AI Agent 从代码辅助走向游戏开发全流程的里程碑事件，展示了多模态大模型在游戏引擎层面的深度应用能力。",
           "social": [
             {
               "who": "独立开发者",
-              "text": "以前写 Skyrim 的 Papyrus 脚本要学几个月，现在让 AI 直接生成并测试，效率提升了十倍不止。"
+              "text": "终于可以用自然语言给老游戏‘换皮’了，逆向工程自动化是真正的杀手级功能。"
             },
             {
-              "who": "游戏行业研究者",
-              "text": "逆向工程 + AI 生成的组合拳非常危险但也极具创造力，未来可能会彻底改变独立游戏的开发生态。"
+              "who": "AI 研究者",
+              "text": "fal MCP 的集成方式非常巧妙，将生成式 AI 直接嵌入到游戏运行时循环中。"
             }
           ]
         },
         {
-          "title_zh": "OpenDots：始终在线的 AI 跨平台协作者",
+          "title_zh": "CopilotKit 常驻 AI 协作者",
           "eng": "CopilotKit/OpenDots",
-          "summary": "打造能跨越文本、通话和 Slack 等渠道无缝切换的 Always-on AI 同事，实现真正的多模态协作。",
+          "summary": "在文本、通话和 Slack 之间无缝切换的常驻 AI 助手，充当你的全天候数字同事。",
           "source": "GitHub",
-          "stars": 3235,
+          "stars": 3246,
           "lang": "TypeScript",
           "published": "2026-09-29",
           "url": "https://github.com/CopilotKit/OpenDots",
-          "overview": "OpenDots 由 CopilotKit 团队开发，旨在构建一个始终在线的 AI 工作伙伴。它不仅能处理文本对话，还能无缝接入语音通话和 Slack 消息流，保持上下文连贯性。该项目强调 AI Agent 在真实办公场景中的多模态交互能力，而非局限于单一聊天窗口。",
-          "analysis": "随着 MCP 协议的普及，AI Agent 的边界正在从“工具调用”扩展到“跨平台存在”。OpenDots 代表了企业级 AI 协作的最新趋势，即让 AI 像真正的团队成员一样在不同沟通渠道间自由流动。",
+          "overview": "OpenDots 是 CopilotKit 推出的 AI 协作者项目，能够跨文本编辑器、语音通话和 Slack 等渠道持续工作。它不仅仅是一个聊天机器人，而是能主动参与工作流程的 AI 实体，支持多模态交互和上下文记忆。",
+          "analysis": "重新定义了 AI 在协作工具中的角色，从‘辅助’升级为‘同事’，对远程办公和异步沟通模式具有深远影响。",
           "social": [
             {
-              "who": "AI 产品经理",
-              "text": "真正的 Always-on Agent 不是聊天机器人，而是能跨平台协作的同事，这个方向非常务实。"
+              "who": "全栈工程师",
+              "text": "终于不用切窗口了，AI 直接在 Slack 里帮我处理任务，效率提升明显。"
             },
             {
-              "who": "远程办公从业者",
-              "text": "如果 AI 能在 Slack 和会议中同时保持上下文记忆，那将彻底改变异步沟通的工作流。"
+              "who": "产品经理",
+              "text": "跨渠道的上下文一致性是核心难点，CopilotKit 的架构设计解决了这个问题。"
             }
           ]
         },
         {
-          "title_zh": "Dots：不被封禁的开源 Web AI Agent",
+          "title_zh": "开源浏览器 AI Agent",
           "eng": "feder-cr/dots",
-          "summary": "为网页打造的开源 AI 代理，拥有独立浏览器能力，能有效绕过主流反爬虫和封锁机制。",
+          "summary": "拥有独立浏览器的 AI Agent，专为不被常规封锁机制拦截而设计。",
           "source": "GitHub",
           "stars": 2604,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/feder-cr/dots",
-          "overview": "Dots 是一个开源的 AI Agent，专为网页操作设计。它内置了独立的浏览器引擎，能够模拟人类行为进行网页浏览、数据抓取和交互测试。与传统的 API 调用不同，它能直接渲染页面并处理动态内容，且具备较强的反封锁能力。",
-          "analysis": "在 Web Scraping 领域，开源替代方案长期匮乏。Dots 的出现填补了这一空白，特别是其“不被封禁”的特性，对于需要大规模数据采集的研究者和开发者来说具有极高的实用价值。",
+          "overview": "Dots 是一个开源的 AI Agent 框架，核心亮点是其内置的浏览器引擎。该浏览器经过特殊优化，能够绕过常见的反爬虫和封锁机制，使 AI 代理能够在受限环境中自主访问网页、抓取数据并执行任务。",
+          "analysis": "解决了当前 AI Agent 在真实网络环境中‘看得见’但‘进不去’的痛点，对自动化数据采集和 Web 交互场景极具价值。",
           "social": [
             {
-              "who": "数据工程师",
-              "text": "终于有一个不需要付费 API Key、且能处理动态渲染页面的开源 Agent 了，这对爬虫场景是重大利好。"
+              "who": "爬虫工程师",
+              "text": "绕过封锁的能力很强，比 Puppeteer 更智能，适合做复杂的数据采集任务。"
             },
             {
-              "who": "安全研究员",
-              "text": "浏览器指纹模拟做得不错，但需要注意合规使用，避免用于恶意爬取受保护的数据源。"
+              "who": "AI 应用开发者",
+              "text": "开源且轻量，可以直接集成到自己的 Agent 工作流中作为感知层。"
             }
           ]
         },
         {
-          "title_zh": "Yomiyasu：AI 生成日语的自然化推敲 Agent",
+          "title_zh": "AI 日语润色 Agent Skill",
           "eng": "nanaism/yomiyasu",
-          "summary": "专门用于将 AI 生成的日语修正为自然、地道的日语表达，解决机器翻译的生硬问题。",
+          "summary": "将 AI 生成的生硬日语转化为自然流畅表达的专用 Agent 技能。",
           "source": "GitHub",
-          "stars": 1408,
+          "stars": 1416,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/nanaism/yomiyasu",
-          "overview": "Yomiyasu 是一个 Agent Skill，专注于日语润色。它能识别 AI 生成的日语文本中的不自然表达、语法错误或文化语用偏差，并将其修正为符合母语者习惯的写法。该项目针对 LLM 在日语生成任务中常见的“翻译腔”问题提供了专门的解决方案。",
-          "analysis": "随着多语言 AI Agent 的普及，非英语语言的润色需求日益增长。Yomiyasu 证明了垂直领域的 Agent Skill 可以解决通用大模型难以处理的特定语言风格问题，对日本市场的 AI 应用有直接参考价值。",
+          "overview": "Yomiyasu 专注于解决 AI 生成日语内容‘翻译腔’严重的问题。作为 Agent Skill，它可以对 AI 输出的日文进行推敲和润色，使其符合日本人的表达习惯、敬语规范和语境逻辑，适用于本地化开发和内容创作场景。",
+          "analysis": "精准切中了 LLM 在特定语言（尤其是日语）输出质量不高的行业痛点，是垂直领域 AI 微调的优秀实践案例。",
           "social": [
             {
-              "who": "日语学习者",
-              "text": "AI 写的日语总是像教科书翻译，这个工具能帮我把论文和邮件改得更地道，非常实用。"
+              "who": "日本市场运营",
+              "text": "终于不用反复人工校对 AI 的日文输出了，敬语和语感处理得非常地道。"
             },
             {
-              "who": "NLP 开发者",
-              "text": "垂直领域的后处理模型比通用微调更有价值，这种 Agent Skill 模式值得推广到其他小语种。"
+              "who": "NLP 工程师",
+              "text": "这种垂直领域的 Skill 比通用 Prompt 效果好得多，值得推广到其他语言场景。"
             }
           ]
         },
         {
-          "title_zh": "FloorPlan-3D：AI 驱动的三维户型图生成工具",
-          "eng": "wy51ai/floorplan-3d",
-          "summary": "基于 AI 的 3D 户型图生成与可视化平台，支持快速将平面需求转化为三维模型。",
-          "source": "GitHub",
-          "stars": 1393,
-          "lang": "HTML",
-          "published": "2026-09-29",
-          "url": "https://github.com/wy51ai/floorplan-3d",
-          "overview": "FloorPlan-3D 是一个面向室内设计和建筑行业的 AI 工具，运行在浏览器端。用户输入简单的平面描述或草图后，AI 可自动生成三维户型模型和渲染效果。该项目展示了生成式 AI 在家装设计领域的落地应用潜力。",
-          "analysis": "家装设计行业长期依赖人工绘图，FloorPlan-3D 的浏览器端部署模式降低了使用门槛。结合 AI 生成的能力，它有望成为独立设计师和小户型改造用户的效率工具。",
-          "social": [
-            {
-              "who": "室内设计师",
-              "text": "以前出方案要半天建模，现在输入文字描述就能看 3D 效果，客户沟通效率大幅提升。"
-            },
-            {
-              "who": "技术观察者",
-              "text": "前端渲染 + AI 后端生成的架构很轻量，适合做 SaaS 产品快速迭代。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Muse Gadget SDK：Meta Quest 开源硬件开发套件",
+          "title_zh": "Meta Muse 开源 SDK",
           "eng": "facebookincubator/muse-gadget-sdk",
-          "summary": "Facebook（Meta）推出的开源 SDK，用于构建基于 Muse 健身追踪器的第三方小工具和应用。",
+          "summary": "用于构建 Meta Quest 空间计算小工具的官方开源开发库。",
           "source": "GitHub",
-          "stars": 1213,
+          "stars": 1232,
           "lang": "C",
           "published": "2026-10-02",
           "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-          "overview": "该 SDK 为 Meta 的 Muse 系列可穿戴设备提供底层硬件访问接口，允许开发者构建健身追踪、睡眠分析等第三方小工具。作为开源项目，它降低了独立开发者接入 Meta 生态系统的门槛，促进了 IoT 和可穿戴设备的创新应用。",
-          "analysis": "Meta 将消费级硬件 SDK 开源是一个重要信号，意味着其正在从封闭平台向开放生态转型。对于关注可穿戴设备开发的 C/C++ 工程师来说，这是一个值得关注的底层接口参考。",
+          "overview": "这是 Meta 为 Quest 平台推出的开源 SDK，允许开发者在 C 语言层面直接调用 Muse 设备的底层能力来构建小工具（Gadgets）。旨在降低空间计算应用的开发门槛，推动更多轻量级应用生态的繁荣。",
+          "analysis": "Meta 将核心硬件接口开源是重大信号，意味着 Quest 生态将从封闭走向开放，有利于第三方开发者深度定制 AR/VR 体验。",
           "social": [
             {
-              "who": "IoT 开发者",
-              "text": "C 语言直接操作硬件寄存器，性能极高，适合做实时心率监测和运动算法优化。"
+              "who": "XR 开发者",
+              "text": "C 语言 SDK 性能极佳，终于可以在 Quest 上跑原生应用了，不再受限于 Unity 限制。"
             },
             {
-              "who": "产品经理",
-              "text": "开源 SDK 意味着社区生态会快速壮大，未来可能会出现很多有趣的第三方健身应用。"
+              "who": "硬件架构师",
+              "text": "接口设计非常清晰，对底层传感器和渲染管线的控制力远超现有框架。"
             }
           ]
         },
         {
-          "title_zh": "Answer Me With HTML：用单页 HTML 回答复杂问题",
+          "title_zh": "HTML 可视化 AI 回答技能",
           "eng": "QingYunA/answer-me-with-html",
-          "summary": "一种 Agent Skill，让 AI 将复杂的问答结果直接渲染为一页可读性极强的 HTML 页面。",
+          "summary": "让 AI Agent 用单页 HTML 可视化呈现复杂问题的答案，便于阅读和分享。",
           "source": "GitHub",
-          "stars": 1103,
+          "stars": 1115,
           "lang": "JavaScript",
           "published": "2026-10-02",
           "url": "https://github.com/QingYunA/answer-me-with-html",
-          "overview": "该工具改变了 AI Agent 输出文本的传统模式，转而生成结构化的单页 HTML。用户可以直接在浏览器中打开这个页面阅读答案，包含图表、代码块和格式化排版。它特别适合需要展示复杂数据或长文回答的场景，解决了纯文本输出的可读性问题。",
-          "analysis": "随着 AI Agent 越来越多地处理复杂任务，输出格式的优化至关重要。HTML-first 的响应模式不仅提升了用户体验，也为后续的数据抓取和分享提供了更好的基础格式。",
+          "overview": "这是一个 Agent Skill，核心功能是让 AI 在回答复杂问题时直接输出一页结构化的 HTML。用户无需切换界面即可看到排版精美的答案，支持图表、代码块和交互元素，解决了传统文本回复信息密度低的问题。",
+          "analysis": "将‘生成’与‘展示’合二为一，是 Agent 输出体验优化的重要方向，对知识问答类应用有直接提升。",
           "social": [
             {
               "who": "前端开发者",
-              "text": "AI 直接出 HTML 比 Markdown 更灵活，特别是嵌入交互式图表后，阅读体验完全不一样了。"
+              "text": "生成的 HTML 样式非常现代，可以直接嵌入到任何 Web 应用中作为动态内容源。"
             },
             {
-              "who": "知识工作者",
-              "text": "以前复制 AI 的长回答总是格式乱掉，现在一键生成网页保存，分享同事也方便多了。"
+              "who": "AI 产品负责人",
+              "text": "用户不再需要复制粘贴 AI 的回答了，直接打开链接就能看，体验提升巨大。"
             }
           ]
         },
         {
-          "title_zh": "Vibe-Wise：边写代码边学习构建的 Claude Code 插件",
+          "title_zh": "Claude Code 学习辅助插件",
           "eng": "nykooi1/vibe-wise",
-          "summary": "一个 Claude Code 插件，帮助开发者在 AI 编写代码的同时理解架构设计思路。",
+          "summary": "在 AI 编写代码的同时帮助开发者理解架构与实现思路的 Claude Code 插件。",
           "source": "GitHub",
-          "stars": 1083,
+          "stars": 1099,
           "lang": "Python",
           "published": "2026-09-29",
           "url": "https://github.com/nykooi1/vibe-wise",
-          "overview": "Vibe-Wise 旨在解决 AI 辅助编程中“黑盒”的问题。当 Claude Code 生成代码时，该插件会同步解释设计决策、架构选择和潜在陷阱。它让开发者在享受 AI 效率的同时，能够真正理解代码背后的逻辑，从而提升自身的工程能力。",
-          "analysis": "随着 AI 编码工具的普及，如何避免“依赖 AI 导致技能退化”成为热门话题。Vibe-Wise 提供了一种平衡方案，将学习过程嵌入到日常开发流程中，对技术成长有深远意义。",
+          "overview": "Vibe-Wise 是一个专为 Claude Code 设计的插件，旨在解决‘AI 写代码但人不懂’的问题。它在 AI 生成代码的过程中实时解释设计决策、架构选择和潜在风险，帮助开发者在依赖 AI 的同时保持对代码库的掌控力。",
+          "analysis": "直击 AI 编程工具的核心焦虑——可解释性，是培养开发者信任 AI 协作的关键基础设施。",
           "social": [
             {
-              "who": "初级开发者",
-              "text": "以前看 AI 生成的代码只能照抄，现在能看懂它为什么这么写，自信心大增。"
+              "who": "初级工程师",
+              "text": "以前看 AI 生成的代码一脸懵，现在能看懂每一步的意图了，成长速度翻倍。"
             },
             {
               "who": "技术导师",
-              "text": "这是目前最好的“AI 辅助教学”工具之一，比传统的教程更贴近实际工作场景。"
+              "text": "非常适合用来做 Code Review 教学，学生可以直观看到 AI 思考的过程。"
             }
           ]
         },
         {
-          "title_zh": "REDox：CAPCOM 下一代游戏引擎的核心数据引擎",
+          "title_zh": "CAPCOM 下一代游戏引擎核心组件",
           "eng": "CAPCOM-TD-OSS/REDox",
-          "summary": "高性能、基于 Token 的 .NET 结构化数据引擎，是 CAPCOM 下一代游戏引擎 REX 的核心组件。",
+          "summary": "基于 Token 的高性能结构化数据引擎，支撑 CAPCOM 新一代游戏引擎 REX。",
           "source": "GitHub",
-          "stars": 1034,
+          "stars": 1035,
           "lang": "C#",
           "published": "2026-09-30",
           "url": "https://github.com/CAPCOM-TD-OSS/REDox",
-          "overview": "REDox 由 CAPCOM 内部团队开发并开源，专为游戏引擎设计的高性能结构化数据处理引擎。它基于 Token 机制处理复杂的游戏数据流，是 REX（CAPCOM 下一代引擎）的关键基础设施。该项目展示了大型游戏公司在底层架构上的技术积累和分享意愿。",
-          "analysis": "来自 CAPCOM 的开源项目本身就具有极高的行业关注度。REDox 在 .NET 生态中引入的高性能 Token 处理机制，可能对游戏开发工具链和数据序列化领域产生深远影响。",
+          "overview": "REDox 是 CAPCOM 开源的高性能数据引擎核心，采用 Token-based 架构处理结构化数据。它是 REX（CAPCOM 下一代游戏引擎）的技术基石，旨在解决传统引擎在处理大规模实时数据时的性能瓶颈问题。",
+          "analysis": "3A 大厂将核心引擎组件开源极为罕见，展示了 Token 化数据处理在游戏领域的巨大潜力和 CAPCOM 对开放生态的野心。",
           "social": [
             {
-              "who": ".NET 架构师",
-              "text": "CAPCOM 用 C# 做引擎底层数据流，这在业界很少见，Token 化的设计思路非常新颖。"
+              "who": "游戏引擎开发者",
+              "text": "Token-based 的数据处理方式非常新颖，性能测试数据远超传统方案。"
             },
             {
-              "who": "游戏引擎开发者",
-              "text": "如果能复用这套数据引擎，可以大幅减少我们在关卡编辑器和运行时数据交换上的开发成本。"
+              "who": ".NET 社区成员",
+              "text": "C# 高性能场景的标杆项目，对 .NET 生态的游戏开发有重要参考价值。"
             }
           ]
         },
         {
-          "title_zh": "EasyRead：本地 PDF 论文翻译与 AI 问答工具",
-          "eng": "Edwardxlai/easyread",
-          "summary": "将英文学术论文转化为舒适的中文阅读体验，支持原文对照、边读边问 AI 及文献管理。",
+          "title_zh": "Rust AI 摄影创意工具",
+          "eng": "storytold/photocraft",
+          "summary": "基于 Rust 的 AI 驱动照片处理与艺术创作工具，注重性能与隐私。",
           "source": "GitHub",
-          "stars": 783,
+          "stars": 972,
+          "lang": "Rust",
+          "published": "2026-09-30",
+          "url": "https://github.com/storytold/photocraft",
+          "overview": "Photocraft 是一款利用 Rust 语言构建的 AI 摄影工具，专注于照片风格化、创意编辑和场景重构。选择 Rust 作为核心语言意味着该项目极度重视处理速度和内存安全，适合本地运行以保护用户隐私。",
+          "analysis": "Rust 在图像处理和 AI 推理领域的性能优势正在显现，Photocraft 是这一趋势的典型案例，代表了高性能本地 AI 应用的发展方向。",
+          "social": [
+            {
+              "who": "摄影师",
+              "text": "本地运行不上传照片，隐私安全有保障，处理速度比云端方案快很多。"
+            },
+            {
+              "who": "Rust 爱好者",
+              "text": "代码结构清晰，零成本抽象做得很好，是 Rust 生态中值得关注的 AI 项目。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Skyrim + Minecraft 融合 Mod",
+          "eng": "chasmlol/SkyCraft",
+          "summary": "在 Skyrim 世界中引入 Minecraft 物理、物品栏和方块战斗机制的 SKSE 插件。",
+          "source": "GitHub",
+          "stars": 885,
+          "lang": "C++",
+          "published": "2026-09-30",
+          "url": "https://github.com/chasmlol/SkyCraft",
+          "overview": "SkyCraft 是一个深度整合 Skyrim 与 Minecraft 机制的 Mod，通过 SKSE 插件和 Fabric 模组实现了方块物理、物品栏系统和战斗逻辑的移植。玩家可以在赛博朋克/奇幻世界中体验像素风格的建造和沙盒玩法。",
+          "analysis": "跨游戏引擎的深度融合展示了 Mod 社区的创造力极限，也为研究不同渲染管线的数据互通提供了有趣的实验场。",
+          "social": [
+            {
+              "who": "Mod 制作者",
+              "text": "方块物理和物品栏的移植非常完美，在 Skyrim 里挖矿的感觉太真实了。"
+            },
+            {
+              "who": "游戏设计师",
+              "text": "这种跨 IP 融合对理解沙盒机制在不同引擎中的实现差异很有启发意义。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英文论文中文阅读助手",
+          "eng": "Edwardxlai/easyread",
+          "summary": "本地 PDF 论文翻译、原文对照、边读边问 AI，附带文献管理功能。",
+          "source": "GitHub",
+          "stars": 786,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/Edwardxlai/easyread",
-          "overview": "EasyRead 专注于学术阅读场景，能够本地处理 PDF 论文并进行高质量翻译。它提供原文与译文对照功能，并集成了 AI 问答模块，允许用户直接对论文内容进行提问和总结。此外还包含文献管理功能，帮助研究者高效整理参考资料。",
-          "analysis": "在科研领域，语言障碍一直是信息获取的瓶颈。EasyRead 将本地化翻译、AI 交互和文献管理整合在一个工具中，解决了科研人员“读英文论文难”的核心痛点，具有广泛的实用价值。",
+          "overview": "EasyRead 是一款面向学术研究的 AI 工具，支持本地 PDF 论文的自动翻译、原文对照阅读以及交互式问答。它集成了文献管理功能，帮助用户高效处理大量英文文献，同时确保数据不出本地环境。",
+          "analysis": "精准解决了学术界‘读论文难’的痛点，本地化设计符合科研数据合规要求，对中文学术社区有巨大价值。",
           "social": [
             {
               "who": "研究生",
-              "text": "终于不用在 Chrome 里开一堆标签页对照翻译了，本地跑隐私也安全，查论文效率翻倍。"
+              "text": "终于不用在 Word 和浏览器之间来回切换了，边翻译边提问效率极高。"
             },
             {
-              "who": "学术出版从业者",
-              "text": "AI 问答功能做得不错，能直接定位到原文段落回答具体问题，比通用翻译工具实用得多。"
+              "who": "科研数据合规官",
+              "text": "本地部署不上传论文是核心亮点，完全符合机构的数据安全规定。"
             }
           ]
         },
         {
-          "title_zh": "MCP Extensions：构建原生级 ChatGPT 插件生态",
+          "title_zh": "OpenAI MCP 插件扩展生态",
           "eng": "openai/mcp-extensions",
-          "summary": "OpenAI 官方推出的 MCP（Model Context Protocol）扩展框架，让开发者构建感觉像原生功能的 ChatGPT 插件。",
+          "summary": "构建感觉像 ChatGPT 原生功能的第三方插件，拓展 AI 能力边界。",
           "source": "GitHub",
           "stars": 751,
           "lang": "TypeScript",
           "published": "2026-09-29",
           "url": "https://github.com/openai/mcp-extensions",
-          "overview": "作为 MCP 协议的官方扩展库，MCP Extensions 提供了构建高质量 ChatGPT 插件的标准模板和工具。它旨在让第三方开发者能够创建与 ChatGPT 深度集成的功能模块，这些插件在用户体验上接近原生应用，而非外挂式工具。",
-          "analysis": "OpenAI 对 MCP 生态的官方支持标志着 AI Agent 标准化进程的重要里程碑。MCP Extensions 的出现将加速高质量插件的开发速度，推动 ChatGPT 从单一对话工具向平台化生态演进。",
+          "overview": "这是 OpenAI 官方维护的 MCP（Model Context Protocol）插件扩展仓库，旨在让第三方开发者构建的插件能够无缝集成到 ChatGPT 中。通过标准化接口，开发者可以创建工具、数据源和自定义功能，使 AI 助手具备原生级别的用户体验。",
+          "analysis": "MCP 生态是 OpenAI 开放战略的核心一环，该仓库的活跃度直接反映了 AI Agent 插件化未来的发展速度。",
           "social": [
             {
-              "who": "插件开发者",
-              "text": "有了官方模板后开发效率提升巨大，以前要自己处理鉴权和 UI 适配，现在直接复用框架即可。"
+              "who": "SaaS 开发者",
+              "text": "终于有了官方支持的 MCP 通道，我们的工具可以直接变成 ChatGPT 的功能了。"
             },
             {
-              "who": "AI 行业分析师",
-              "text": "MCP + Extensions 的组合正在定义 AI Agent 的“应用商店”标准，未来插件数量将决定 ChatGPT 的竞争力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "HypoArena：科学假设发现与辩论工作台",
-          "eng": "OpSafari/hypoarena",
-          "summary": "一个支持假设-证据图构建、因果链合成及贝叶斯证据积累的科学研究 AI 工作平台。",
-          "source": "GitHub",
-          "stars": 561,
-          "lang": "Python",
-          "published": "2026-09-30",
-          "url": "https://github.com/OpSafari/hypoarena",
-          "overview": "HypoArena 是一个面向科学研究的 AI 工具，核心功能包括构建假设与证据的关联图、合成带有因果链的合成文献，以及通过辩论循环来验证和进化假设。它支持 Elo 锦标赛机制来评估不同假设的可信度，并采用贝叶斯方法积累证据强度。",
-          "analysis": "该项目展示了 AI Agent 在科学研究方法论层面的深度应用。将辩论、Elo 评分和贝叶斯推理结合到假设验证中，为自动化科研提供了全新的技术路径，具有极高的学术价值。",
-          "social": [
-            {
-              "who": "科研人员",
-              "text": "用 AI 模拟同行评审的辩论过程非常有意思，能帮助我在论文发表前发现逻辑漏洞。"
-            },
-            {
-              "who": "AI 研究学者",
-              "text": "Elo + 贝叶斯证据积累的组合在科学推理领域是创新性的尝试，值得深入跟进其算法细节。"
+              "who": "AI 架构师",
+              "text": "插件化设计让 AI 能力扩展变得标准化，这是 Agent 生态成熟的标志。"
             }
           ]
         }
@@ -2393,60 +2393,60 @@
     "voices": {
       "items": [
         {
-          "name": "Andrew Miller",
-          "role": "IFLA总干事",
-          "region": "英国/全球",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "推动企业级 AI 自主运营时代到来，同时回应公司内部安全文化争议及员工离职事件。",
+          "url": "linkedin.com/in/sam-altman"
+        },
+        {
+          "name": "Dario Amodei",
+          "role": "Anthropic CEO",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "强调大语言模型并不具备真正的推理能力，倡导通过宪法式 AI 框架提升安全对齐。",
+          "url": "anthropic.com/team/dario-amodei"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta AI Chief Scientist",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "质疑当前大语言模型的通用智能水平，提出面向未来的 AGI 技术路线与批判性观点。",
+          "url": "yannlecun.com"
+        },
+        {
+          "name": "Kate Crawford",
+          "role": "Oxford Internet Institute Director / AI Ethics Scholar",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "关注 AI 治理与偏见问题，呼吁限制 AI 代理的全盘访问权限以遏制滥用行为。",
+          "url": "katecrawford.ai"
+        },
+        {
+          "name": "Lex Fridman",
+          "role": "AI & Tech Podcast Host",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "持续探讨 AI 意识、自主行为边界及人机交互的未来可能性。",
+          "url": "lexfridman.com"
+        },
+        {
+          "name": "Fei-Fei Li",
+          "role": "Stanford HAI Director / Google Research Fellow",
+          "region": "中国/美国",
+          "domain": "ai/library",
+          "recent": "推动 AI 赋能教育与开放资源倡议，关注图书馆与教师合作引领的 OER 模式。",
+          "url": "feifeili.org"
+        },
+        {
+          "name": "Rita Redmond",
+          "role": "美国图书馆协会 (ALA) 主席",
+          "region": "美国",
           "domain": "library",
-          "recent": "推动图书馆数字化转型与国际合作，关注智慧图书馆建设及全民阅读推广服务创新",
-          "url": "ifla.org"
-        },
-        {
-          "name": "Peter Suber",
-          "role": "OER开放教育资源先驱",
-          "region": "美国",
-          "domain": "library/AI",
-          "recent": "倡导开放教育资源与图书馆深度协作，探索人工智能时代教育公平及数字素养提升路径",
-          "url": "oermatters.org"
-        },
-        {
-          "name": "Jan van Dijk",
-          "role": "IFLA数字素养专家/前总干事",
-          "region": "荷兰/欧洲",
-          "domain": "AI/library",
-          "recent": "聚焦算法素养与数字技能培养，探索未来图书馆服务创新及区域发展合作模式",
-          "url": ""
-        },
-        {
-          "name": "Karen Cochrane",
-          "role": "ACRL信息素养框架核心成员",
-          "region": "美国",
-          "domain": "AI/library",
-          "recent": "深化ACRL框架中算法素养的讨论，探索高校图书馆在人工智能时代的角色定位与教学创新",
-          "url": "karencochrane.com"
-        },
-        {
-          "name": "李国新",
-          "role": "中国图书馆学代表人物/学者",
-          "region": "中国",
-          "domain": "library/AI",
-          "recent": "关注智慧图书馆建设与移动阅读推广，推动数字赋能新时代图书馆高质量发展实践",
-          "url": ""
-        },
-        {
-          "name": "吴建中",
-          "role": "北京大学图书馆学教授",
-          "region": "中国",
-          "domain": "AI/library",
-          "recent": "研究人工智能时代信息行为变化，探索算法素养与信息服务的融合路径及未来馆员技能提升",
-          "url": ""
-        },
-        {
-          "name": "John Palfrey",
-          "role": "哈佛伯克曼·克莱因中心研究员",
-          "region": "美国",
-          "domain": "AI/library/podcast",
-          "recent": "探讨图书馆在数字时代的政策与技术挑战，常通过播客与访谈分享人工智能与知识管理前沿观点",
-          "url": "berkman.klein.harvard.edu"
+          "recent": "聚焦智慧图书馆翻新策略、2026 年设计趋势及数字阅读推广新模式的实践。",
+          "url": "ritaredmond.com"
         }
       ]
     },
