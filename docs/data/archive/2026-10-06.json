@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T07:35:28+08:00",
+  "generated_at": "2026-10-06T08:45:42+08:00",
   "date": "2026-10-06",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "ok",
-  "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)；ollama Ollama 连不上(ReadTimeout);服务未启动?",
+  "generation_status": "degraded",
+  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-05 22:57",
-    "ai": "2026-10-06 07:35",
+    "ai": "2026-10-06 08:45",
     "voices": "2026-10-05 21:56",
     "github": "2026-10-06 07:35",
     "libraries": "2026-10-06 07:35",
@@ -18,6 +18,110 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "将AI智能体与企业知识系统深度连接",
+          "eng": "Connecting AI agents to enterprise knowledge",
+          "summary": "企业AI智能体面临的核心短板并非数据积累，而是缺乏对组织内部数据的深层理解。AI需要理解数据在特定业务场景中的含义，才能真正进行推理和决策。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-05",
+          "tags": [
+            "企业AI",
+            "知识管理",
+            "智能体"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+          "overview": "文章指出，尽管AI系统不断积累和分析海量数据，但企业级AI智能体普遍存在'知识匮乏'问题。真正的挑战在于让AI理解数据在特定组织语境下的含义，而非仅仅处理原始数据。这需要建立连接AI智能体与企业知识库的机制，使AI能够基于对业务逻辑的理解进行推理、决策和自主行动。",
+          "analysis": "这一趋势表明企业AI正从'数据处理'向'知识理解'跃迁，类似大语言模型时代的企业级落地路径。谁能率先解决智能体与组织知识的深度融合，谁就能在垂直行业建立竞争壁垒。",
+          "social": [
+            {
+              "who": "企业技术决策者",
+              "text": "数据丰富但知识匮乏是大多数企业的真实困境，AI需要被赋予'读懂业务'的能力才能真正创造价值。"
+            },
+            {
+              "who": "AI架构师",
+              "text": "智能体与知识库的对接将是2026-2027年企业AI落地的关键基础设施问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "预测分析进入智能体AI时代：从预测到自主决策",
+          "eng": "Bringing predictive analytics to the agentic AI era",
+          "summary": "2026年企业AI的核心问题已从'预测模型能否超越统计方法'转向'如何让预测系统基于自身结论自主行动而不偏离业务目标'。前沿正从预测走向自主决策。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-05",
+          "tags": [
+            "预测分析",
+            "自主决策",
+            "企业AI"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+          "overview": "文章指出，预测模型在准确性上已不再是争议焦点，真正的挑战在于如何让AI系统基于预测结论自主采取行动。这需要解决智能体决策与业务意图的一致性、可解释性和可控性问题。前沿已从'能否预测'转向'如何安全地自主行动'。",
+          "analysis": "这一转变标志着AI从辅助工具向自主代理的质变。企业需要建立新的治理框架来管理AI自主决策的风险，同时释放其效率优势。",
+          "social": [
+            {
+              "who": "投资人",
+              "text": "预测到自主决策的跨越将催生大量新创业机会，但同时也带来前所未有的监管挑战。"
+            },
+            {
+              "who": "行业分析师",
+              "text": "AI自主决策的能力边界和信任问题将是未来3-5年企业IT战略的核心议题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Gemini Call for Me功能扩展：AI可帮你给家人打电话",
+          "eng": "Gemini Call for Me might tell your mom you're running late",
+          "summary": "Google正在将'Call for Me' AI功能从商务场景扩展到个人生活，用户可通过AI向朋友和家人发送消息或拨打电话。APK拆解已发现相关界面原型。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-10-05",
+          "tags": [
+            "Google",
+            "Gemini",
+            "AI通话"
+          ],
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+          "overview": "根据Android Authority的APK拆解，Google正在扩展'Call for Me'功能，使其不仅限于商务场景。已发现名为'Gemini Calling'的介绍界面，示例包括'给妈妈打电话说我晚15分钟到'等生活化场景。这一扩展将AI语音助手的应用边界从工作推向日常生活。",
+          "analysis": "Google正试图让AI渗透到用户生活的每一个触点。当AI可以替你完成最基础的社交沟通时，隐私和身份认同问题将成为新的讨论焦点。",
+          "social": [
+            {
+              "who": "产品评论者",
+              "text": "从商务到家庭场景的扩展体现了Google对AI渗透率的极致追求，但'替人打电话'的功能边界需要谨慎把控。"
+            },
+            {
+              "who": "隐私倡导者",
+              "text": "当AI可以代表你与亲人沟通时，用户如何确认AI传达的信息准确且符合个人意愿？这是值得关注的风险点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "MCP协议的安全隐患：智能体间通信的信任漏洞",
+          "eng": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+          "summary": "MCP（Model Context Protocol）作为智能体间通信的新标准，存在信任差距问题。恶意提示可能通过该协议从一个智能体传播到另一个智能体，构成结构性安全风险。",
+          "source": "Ars Technica",
+          "region": "美国/全球",
+          "published": "2026-10-05",
+          "tags": [
+            "MCP协议",
+            "AI安全",
+            "智能体通信"
+          ],
+          "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+          "overview": "文章深入分析了MCP协议在智能体间通信中的结构性安全缺陷。由于不同AI智能体之间的信任机制不完善，恶意提示可以通过该协议从一个智能体传播到另一个智能体。Google等公司的智能体已暴露出这一风险，这成为该协议面临的最大挑战之一。",
+          "analysis": "随着多智能体系统成为主流架构，通信协议的安全性至关重要。MCP作为新兴标准，需要在推广前解决信任传递和恶意输入隔离问题，否则可能成为大规模攻击的入口点。",
+          "social": [
+            {
+              "who": "安全研究员",
+              "text": "多智能体系统的信任链是当前最薄弱的环节之一，MCP协议需要像TLS一样建立完善的认证机制。"
+            },
+            {
+              "who": "AI工程师",
+              "text": "在实际部署中，我们已经在看到智能体间提示注入的案例，这比传统的安全威胁更具隐蔽性。"
+            }
+          ]
+        },
         {
           "title_zh": "AI攻克数学难题：OpenAI等实验室突破千禧年大奖难题",
           "eng": "All the drama around AI's takeover of mathematics",
@@ -691,110 +795,6 @@
             {
               "who": "科技记者",
               "text": "白宫的政策动作和企业的营销努力都在试图推动AI普及，但真正的挑战在于如何让普通用户感受到AI带来的实际价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Hugging Face开源MCP智能体源验证模型：不仅关注事实正确性",
-          "eng": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-          "summary": "Hugging Face社区发布了针对多模态计算代理(MCP Agent)的源感知验证模型，该模型能够区分信息来源的真实性和内容事实的正确性。这是AI信任和安全领域的重要技术进展。",
-          "source": "Hugging Face",
-          "region": "全球",
-          "published": "2026-10-02",
-          "tags": [
-            "开源模型",
-            "MCP代理",
-            "AI验证"
-          ],
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-          "overview": "该研究提出了一种新的验证框架，专门用于多模态计算代理(MCP Agent)的信息源可信度评估。传统的事实核查方法主要关注陈述内容是否正确，而这一模型更进一步，能够判断信息来源本身的可靠性。这对于构建可信赖的AI系统至关重要，特别是在医疗、法律等对信息准确性要求极高的领域。",
-          "analysis": "这项技术进展标志着AI信任研究从'事实正确性'向'源可信度'的转变。随着AI代理越来越多地参与决策过程，确保它们使用的信息来源可靠变得尤为重要。开源这一模型有助于推动整个社区在AI安全领域的合作和标准化。",
-          "social": [
-            {
-              "who": "ML工程师",
-              "text": "这是MCP架构的一个重要补充。当多个代理协作时，源验证能力可以防止错误信息的传播和放大效应。"
-            },
-            {
-              "who": "AI安全研究员",
-              "text": "从'事实核查'到'源可信度评估'的范式转变很有意义。这为构建更可靠的AI系统提供了新的技术路径，特别是在需要多源信息整合的场景中。"
-            }
-          ]
-        },
-        {
-          "title_zh": "企业自主智能重塑：2026年全球AI投资预计达2.5万亿美元",
-          "eng": "Redefining enterprise intelligence with autonomous AI",
-          "summary": "MIT Technology Review报道，企业级AI已从未来愿景变为全面运营现实，2026年全球AI投资预计达到2.5万亿美元，较上年增长44%。",
-          "source": "MIT Tech Review",
-          "region": "全球",
-          "published": "2026-10-02",
-          "tags": [
-            "企业AI",
-            "投资趋势",
-            "自主智能"
-          ],
-          "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-          "overview": "模型能力的提升速度已超过大多数组织吸收的速度，同时性能成本持续下降。企业AI不再仅仅是未来愿景，而是处于全面运营阶段。全球范围内，AI投资预计将在2026年达到2.5万亿美元，较前一年增长44%。对于许多企业而言，这笔投资正在从根本上改变其运营模式和技术架构。",
-          "analysis": "资本涌入速度远超组织吸收能力，可能导致资源错配或泡沫风险。这一数据表明AI正从实验阶段进入规模化部署的关键拐点，但技术成熟度与商业落地之间仍存在鸿沟。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "2.5万亿美元的规模意味着AI基础设施将成为未来十年最大的资本支出领域之一，关注点应从模型本身转向算力供应链的稳定性。"
-            },
-            {
-              "who": "企业架构师",
-              "text": "组织吸收能力的瓶颈比技术瓶颈更真实，我们需要重新评估内部人才结构和流程再造的速度。"
-            }
-          ]
-        },
-        {
-          "title_zh": "美国逮捕涉嫌向中国走私3亿美元Nvidia芯片的科技CEO",
-          "eng": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
-          "summary": "Ars Technica报道，一名科技CEO因涉嫌将价值3亿美元的Nvidia芯片走私至中国而被捕，凸显AI硬件供应链面临严峻的地缘政治风险。",
-          "source": "Ars Technica",
-          "region": "美国/全球",
-          "published": "2026-10-02",
-          "tags": [
-            "芯片出口管制",
-            "地缘政治",
-            "AI硬件"
-          ],
-          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-          "overview": "美国执法部门逮捕了一名涉嫌大规模走私Nvidia芯片至中国的科技公司CEO。随着此类案件的持续增加，Nvidia的芯片走私问题并未得到根本解决。这一事件表明AI算力资源的争夺已从政策辩论层面深入到了刑事执法领域。",
-          "analysis": "芯片出口管制的执行力度正在显著加强，这直接影响了全球AI算力的分配格局。对于依赖高端GPU的企业而言，合规成本将成为不可忽视的经营变量。",
-          "social": [
-            {
-              "who": "半导体行业分析师",
-              "text": "执法行动常态化意味着灰色地带的利润空间正在被压缩，供应链的透明度要求将进一步提升。"
-            },
-            {
-              "who": "科技政策研究者",
-              "text": "这是AI军备竞赛中‘技术脱钩’策略的具体落地案例，其长期影响可能波及整个全球半导体生态系统。"
-            }
-          ]
-        },
-        {
-          "title_zh": "白宫将AI重新定义为“超级智能”，科技巨头签署安全承诺",
-          "eng": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-          "summary": "特朗普签署行政令将AI更名为“超级智能”，并召集扎克伯格、马斯克等CEO签署具有道德约束力的AI安全誓言，但消费者实际采用率极低。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-10-02",
-          "tags": [
-            "AI监管",
-            "政策动态",
-            "行业峰会"
-          ],
-          "url": "https://techcrunch.com/podcast/call-it-ai-call-super-intelligence-only-2-of-consumers-are-buying-it/",
-          "overview": "白宫召集了几乎所有主要科技CEO，包括扎克伯格、贝索斯和马斯克，签署了一份被称为“道德约束”的AI安全誓言。特朗普同时签署了行政令，正式将AI重新品牌化为“超级智能”。与此同时，Meta和OpenAI正在为其AI产品添加更友好的界面，尽管最大的资金流向仍在持续。",
-          "analysis": "政治力量试图通过重新定义术语来引导公众认知并施加合规压力，但仅2%的消费者采用率揭示了技术普及与政策愿景之间的巨大落差。安全承诺的实际约束力在缺乏强制力的情况下存疑。",
-          "social": [
-            {
-              "who": "科技伦理学者",
-              "text": "将AI重新定义为‘超级智能’更多是一种修辞策略，旨在唤起公众对潜在风险的警惕，而非实质性的技术分类变更。"
-            },
-            {
-              "who": "投资人",
-              "text": "监管框架的模糊性为行业提供了短期缓冲，但长期来看，明确的合规标准将决定哪些公司能存活下来。"
             }
           ]
         }
