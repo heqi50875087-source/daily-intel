@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-06T12:39:32+08:00",
+  "generated_at": "2026-10-06T14:36:38+08:00",
   "date": "2026-10-06",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
-  "generation_status": "degraded",
-  "generation_error": "全部引擎不可用 · deepseek:DeepSeek 额度不足(HTTP 402) | ollama:Ollama 连不上(ReadTimeout);服务未启动? | openai:OpenAI 额度不足(HTTP 429)",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；ollama Ollama 连不上(ReadTimeout);服务未启动?；openai OpenAI 额度不足(HTTP 429)",
+  "generation_status": "ok",
+  "generation_error": "",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-05 22:57",
     "ai": "2026-10-06 12:39",
-    "voices": "2026-10-05 21:56",
-    "github": "2026-10-06 07:35",
-    "libraries": "2026-10-06 07:35",
+    "voices": "2026-10-06 14:36",
+    "github": "2026-10-06 14:36",
+    "libraries": "2026-10-06 14:36",
     "sports": "2026-10-06 07:35",
     "academic": "2026-10-04 06:40"
   },
@@ -1808,268 +1808,60 @@
     "github": {
       "items": [
         {
-          "title_zh": "通用游戏修改器：Claude Code 驱动的游戏逆向与模组",
+          "title_zh": "Universal Modder - AI驱动的全平台游戏修改工具",
           "eng": "rehan-remade/universal-modder",
-          "summary": "让 Claude 指向任何 PC 游戏，利用技能、工具和 fal MCP 实现自动化的游戏逆向工程、美术生成及模组测试。",
+          "summary": "将Claude Code与fal.ai集成，让AI自动对任意PC游戏进行逆向工程、生成美术/3D/音频资源并测试。",
           "source": "GitHub",
-          "stars": 3808,
+          "stars": 3916,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/rehan-remade/universal-modder",
-          "overview": "该项目是一个面向 PC 游戏的通用修改器框架，核心亮点在于将 AI Agent（Claude Code）与游戏逆向工程深度结合。它支持技能链调用、工具集成以及基于 fal 的 AI 生成能力（包括美术、3D 模型和音频），允许开发者对几乎任何已拥有的 PC 游戏进行自动化重构和模组开发。项目还内置了游戏内测试和展示视频生成的工作流，极大降低了传统游戏修改的技术门槛。",
-          "analysis": "这是目前 GitHub 上 AI+ 游戏开发领域最具影响力的工具之一。它标志着 AI Agent 从代码生成向复杂交互式逆向工程场景的突破，对于独立游戏开发者和技术爱好者具有极高的实用价值。高星数反映了社区对其降低游戏模组化门槛的高度认可。",
+          "overview": "Universal Modder是一个将Claude Code与fal.ai的MCP服务深度集成的游戏修改框架。它能自动对任意PC游戏进行逆向工程分析，利用AI生成美术资源、3D模型和音频，并在游戏中进行测试验证，最终输出展示视频。支持技能系统让不同任务模块化执行。",
+          "analysis": "该项目代表了AI+游戏开发的新范式——用大语言模型的推理能力替代传统手工modding流程。对于独立开发者和小团队来说，大幅降低了游戏内容创作门槛。fal.ai的集成提供了强大的生成式AI能力，是AI工具链在游戏领域落地的标杆案例。",
           "social": [
             {
               "who": "独立游戏开发者",
-              "text": "终于有了让 AI 直接理解游戏内存和结构的工具，以前需要手动写汇编的活现在可以交给 Agent 了。"
+              "text": "终于可以用AI批量生产mod资源了，以前一个人做mod要几个月，现在Claude帮我搞定大部分工作。"
             },
             {
-              "who": "技术社区观察者",
-              "text": "将 Claude Code 与游戏逆向结合的思路非常前沿，这可能会重新定义 PC 游戏的模组生态。"
+              "who": "技术观察者",
+              "text": "将MCP协议引入游戏开发流程是个聪明的选择，让AI工具链标准化且可组合。"
             }
           ]
         },
         {
-          "title_zh": "纯 Rust 实现的开源 Photoshop 替代品",
+          "title_zh": "Photocraft - 纯Rust实现的开源Photoshop",
           "eng": "storytold/photocraft",
-          "summary": "一个完全用 Rust 编写的、基于清洁室重实现的开源 Adobe Photoshop 替代方案。",
+          "summary": "用纯Rust从零重新实现Adobe Photoshop的开源项目，追求高性能与代码透明性。",
           "source": "GitHub",
-          "stars": 1953,
+          "stars": 2237,
           "lang": "Rust",
           "published": "2026-09-30",
           "url": "https://github.com/storytold/photocraft",
-          "overview": "Photocraft 旨在用 Rust 语言从零开始重新实现 Adobe Photoshop 的核心功能，强调高性能和开源透明性。作为纯 Rust 项目，它在内存安全和编译速度上具有天然优势，同时通过清洁室重实现确保了代码的独立性和安全性。该项目不仅是一个图像编辑器，更是对大型商业软件架构的一次技术挑战，适合关注底层图形处理和系统编程的开发者。",
-          "analysis": "在 AI 辅助开发的浪潮下，用 Rust 重写 Photoshop 这类重量级应用展示了极高的工程野心。对于追求极致性能和安全性的设计师和开发者来说，这是一个值得长期关注的开源项目，代表了去中心化设计工具的潜力。",
+          "overview": "Photocraft是一个clean-room（清洁室）重新实现的Adobe Photoshop，完全使用纯Rust编写。项目追求代码透明、无闭源依赖，同时利用Rust的内存安全和并发特性实现高性能图像处理。支持图层、滤镜、调色等核心功能。",
+          "analysis": "在AI图像生成大行其道的今天，一个注重隐私和可控性的开源Photoshop替代品显得尤为珍贵。纯Rust架构意味着没有闭源组件泄露风险，对于企业用户和注重数据安全的创作者有实际价值。同时为Rust生态在创意工具领域的成熟度提供了有力证明。",
           "social": [
             {
-              "who": "Rust 语言爱好者",
-              "text": "用 Rust 重写 Photoshop 的内存管理思路非常清晰，期待它在处理大型 PSD 文件时的表现。"
+              "who": "设计师",
+              "text": "终于有一个完全开源、不依赖Adobe的图像编辑器了，图层管理和滤镜效果已经很接近PS了。"
             },
             {
-              "who": "设计师",
-              "text": "如果能保持与 PS 兼容的滤镜和图层系统，这对开源设计工具生态将是巨大的推动。"
+              "who": "Rust开发者",
+              "text": "用Rust做图像处理框架的选择非常正确，零成本抽象加上内存安全是这类工具的核心需求。"
             }
           ]
         },
         {
-          "title_zh": "AI 生成日语自然化润色 Agent 技能",
+          "title_zh": "Yomiyasu - AI日语润色Agent技能",
           "eng": "nanaism/yomiyasu",
-          "summary": "一个用于将 AI 生成的不自然日语推敲为地道日语的 Agent Skill，解决 LLM 输出语言生硬的问题。",
+          "summary": "将AI生成的不自然日语自动推敲为地道自然的日语表达，解决LLM输出日语质量差的问题。",
           "source": "GitHub",
-          "stars": 1502,
+          "stars": 1540,
           "lang": "Python",
           "published": "2026-09-30",
           "url": "https://github.com/nanaism/yomiyasu",
-          "overview": "Yomiyasu 专注于解决 AI 生成日语内容时常见的生硬和语法错误问题，通过专门的 Agent Skill 对输出进行自然化推敲。它特别适用于需要高质量日语输出的场景，如本地化、翻译和日语学习辅助。该项目展示了垂直领域 AI 微调在提升语言质量方面的独特价值，是构建多语言能力 Agent 的重要组件。",
-          "analysis": "随着全球 AI 应用向多语言扩展，日语作为高难度语言之一，其生成质量的优化需求日益增长。Yomiyasu 填补了通用 LLM 与专业日语润色之间的空白，对内容创作者和跨国企业具有实际意义。",
-          "social": [
-            {
-              "who": "日语学习者",
-              "text": "AI 写的日文总是有点奇怪，这个工具能帮我检查得更自然，非常实用。"
-            },
-            {
-              "who": "多语言 AI 开发者",
-              "text": "Agent Skill 的形式很灵活，可以集成到各种工作流中作为日语质量把关环节。"
-            }
-          ]
-        },
-        {
-          "title_zh": "用一页 HTML 回答复杂问题的 Agent 技能",
-          "eng": "QingYunA/answer-me-with-html",
-          "summary": "让 AI Agent 将复杂问题的答案直接渲染为一页可读性极强的 HTML，替代冗长的 Markdown 文本。",
-          "source": "GitHub",
-          "stars": 1471,
-          "lang": "JavaScript",
-          "published": "2026-10-02",
-          "url": "https://github.com/QingYunA/answer-me-with-html",
-          "overview": "Answer Me With HTML 是一种创新的 Agent Skill，旨在将 AI 对复杂问题的回答直接输出为结构清晰、视觉美观的单页 HTML。它解决了传统文本回复在展示数据、图表和结构化信息时的局限性，用户可以直接在浏览器中阅读和操作结果。该项目体现了 AI 输出格式从纯文本向富媒体交互的演进趋势，提升了信息传达的效率。",
-          "analysis": "在 Agent 工具链日益成熟的背景下，输出格式的优化直接影响用户体验。将回答直接渲染为 HTML 不仅便于分享和存档，还降低了用户二次编辑的成本，是一个极具实用价值的开发思路。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "把 AI 的输出直接变成可交互的网页，这个想法太棒了，省去了大量排版工作。"
-            },
-            {
-              "who": "产品经理",
-              "text": "对于需要快速原型展示的场景，这种 HTML 输出方式比截图或文档高效得多。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Meta Muse Gadget SDK：开源智能设备开发框架",
-          "eng": "facebookincubator/muse-gadget-sdk",
-          "summary": "Meta 推出的开源 SDK，用于构建和集成 Muse 系列智能硬件设备。",
-          "source": "GitHub",
-          "stars": 1412,
-          "lang": "C",
-          "published": "2026-10-02",
-          "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-          "overview": "Muse Gadget SDK 是 Meta Incubator 提供的开源软件开发工具包，旨在简化基于 Muse 平台的智能硬件开发流程。它提供了底层驱动、通信协议和 API 接口，允许开发者快速创建自定义的 AI 辅助设备或传感器应用。作为 C 语言编写的高性能库，该 SDK 强调稳定性和跨平台兼容性，是物联网和边缘计算领域的重要基础设施。",
-          "analysis": "Meta 在硬件生态上的开源布局值得关注，这有助于推动 AI 硬件设备的标准化开发。对于希望涉足智能穿戴或边缘 AI 的开发者来说，这是一个降低入门门槛的优质资源。",
-          "social": [
-            {
-              "who": "嵌入式开发者",
-              "text": "Meta 开放 Muse SDK 降低了硬件开发的门槛，C 语言的性能保证也很适合资源受限的设备。"
-            },
-            {
-              "who": "AI 硬件研究者",
-              "text": "开源的硬件 SDK 有助于社区探索更多边缘 AI 应用场景，期待看到更多创新设备。"
-            }
-          ]
-        },
-        {
-          "title_zh": "CAPCOM 下一代游戏引擎核心：高性能 .NET 数据引擎",
-          "eng": "CAPCOM-TD-OSS/REDox",
-          "summary": "CAPCOM 开源的高性能 Token 化结构化数据引擎，是其下一代游戏引擎 REX 的核心组件。",
-          "source": "GitHub",
-          "stars": 1075,
-          "lang": "C#",
-          "published": "2026-09-30",
-          "url": "https://github.com/CAPCOM-TD-OSS/REDox",
-          "overview": "REDox 是 CAPCOM 团队为 .NET 平台开发的高性能结构化数据引擎，作为其下一代游戏引擎 REX 的核心组件。它采用 Token 化技术处理复杂的游戏逻辑数据，旨在解决传统引擎在大规模数据处理上的瓶颈问题。该项目展示了大型游戏公司在引擎底层架构上的创新尝试，对于关注高性能计算和游戏引擎技术的开发者具有极高的参考价值。",
-          "analysis": "CAPCOM 作为行业巨头开源其引擎核心组件，体现了对社区贡献的重视。REDox 的 Token 化设计思路可能影响未来游戏引擎的数据处理范式，值得技术圈深入研究和借鉴。",
-          "social": [
-            {
-              "who": "游戏引擎开发者",
-              "text": "CAPCOM 开源 REX 的核心数据引擎，这对 .NET 游戏开发生态是一个重大利好。"
-            },
-            {
-              "who": "性能优化专家",
-              "text": "Token 化数据结构在内存占用和访问速度上的优势明显，值得在非游戏领域也进行探索。"
-            }
-          ]
-        },
-        {
-          "title_zh": "本地英文论文中文翻译与阅读助手",
-          "eng": "Edwardxlai/easyread",
-          "summary": "将英文学术论文转化为舒适的中文体验，支持本地 PDF 翻译、原文对照和边读边问 AI。",
-          "source": "GitHub",
-          "stars": 804,
-          "lang": "Python",
-          "published": "2026-09-30",
-          "url": "https://github.com/Edwardxlai/easyread",
-          "overview": "EasyRead 是一款专注于学术阅读辅助的工具，能够将本地 PDF 英文论文翻译为中文，并提供原文对照功能。它集成了 AI 问答能力，允许用户在阅读过程中随时提问以获取上下文解释，同时具备文献管理功能。该项目解决了非英语母语研究者阅读前沿论文的痛点，是 AI 赋能学术研究领域的典型应用案例。",
-          "analysis": "随着 AI 翻译技术的进步，学术阅读的门槛正在降低。EasyRead 将翻译、对照和问答整合在一个工具中，对于高校师生和研究者来说具有极高的实用价值，有助于促进知识的无障碍传播。",
-          "social": [
-            {
-              "who": "研究生",
-              "text": "再也不用逐字查词典了，本地 PDF 直接出中文，还能随时问 AI 解释术语，太方便了。"
-            },
-            {
-              "who": "学术出版从业者",
-              "text": "这种工具如果普及，可能会改变部分论文的引用和阅读习惯，值得推广。"
-            }
-          ]
-        },
-        {
-          "title_zh": "iPhone 辅助 Mac 运行大语言模型：USB-C 加速方案",
-          "eng": "StayLameBro/backburner",
-          "summary": "利用 iPhone 的算力通过 USB-C 线缆帮助 Mac 更快地读取提示词并扩展上下文窗口，以运行 27B 级模型。",
-          "source": "GitHub",
-          "stars": 658,
-          "lang": "Python",
-          "published": "2026-10-01",
-          "url": "https://github.com/StayLameBro/backburner",
-          "overview": "Backburner 是一个创新方案，允许用户将 iPhone 作为辅助计算设备连接到 Mac。它通过 USB-C 线缆实现更快的提示词读取和上下文扩展，从而在本地运行大语言模型（如 27B 参数级别）时获得显著提升的性能表现。该项目展示了移动设备与桌面端协同工作的新可能性，为资源受限的开发者提供了运行本地 AI 模型的替代路径。",
-          "analysis": "在手机算力日益强大的背景下，利用 iPhone 辅助 Mac 处理 AI 任务是一个极具创意的思路。这不仅解决了部分用户的硬件瓶颈问题，也为边缘计算和移动设备在 AI 领域的应用开辟了新的想象空间。",
-          "social": [
-            {
-              "who": "AI 模型部署者",
-              "text": "手机算力辅助 Mac 跑大模型，这个想法太妙了，对于没有高端显卡的用户来说是个好方案。"
-            },
-            {
-              "who": "硬件极客",
-              "text": "USB-C 直连的延迟控制是关键，期待看到它在实际推理任务中的性能数据。"
-            }
-          ]
-        },
-        {
-          "title_zh": "将 AI UI 设计能力推向极限的工具",
-          "eng": "oil-oil/oil-ui",
-          "summary": "一个专注于极致化 AI UI 设计能力的工具，帮助用户快速生成和优化用户界面。",
-          "source": "GitHub",
-          "stars": 610,
-          "lang": "Python",
-          "published": "2026-09-30",
-          "url": "https://github.com/oil-oil/oil-ui",
-          "overview": "Oil UI 旨在将 AI 的界面设计能力推向极致，提供从概念到原型的快速生成流程。它结合了 AI 生成的灵活性和专业设计的规范性，帮助用户在极短时间内创建高质量的 UI 方案。该项目反映了 AI 在设计领域的应用深度正在增加，对于产品经理和设计师来说，这是一个提升工作效率的有力工具。",
-          "analysis": "AI 辅助设计已成为行业趋势，Oil UI 专注于将这一能力推向极致，展示了从创意到落地的自动化潜力。对于需要频繁迭代界面的团队来说，这类工具能显著缩短开发周期。",
-          "social": [
-            {
-              "who": "UI/UX 设计师",
-              "text": "AI 生成 UI 的精度越来越高，这个工具如果能保持设计的一致性就更好了。"
-            },
-            {
-              "who": "产品经理",
-              "text": "快速出原型的能力太重要了，这能让我们更快地验证想法并与开发对齐。"
-            }
-          ]
-        },
-        {
-          "title_zh": "纯 Rust 实现的开源 Adobe Premiere Pro 替代品",
-          "eng": "storytold/filmcraft",
-          "summary": "一个完全用 Rust 编写的、基于清洁室重实现的开源 Adobe Premiere Pro 替代方案。",
-          "source": "GitHub",
-          "stars": 586,
-          "lang": "Rust",
-          "published": "2026-09-30",
-          "url": "https://github.com/storytold/filmcraft",
-          "overview": "Filmcraft 是 Photocraft（开源 Photoshop）团队的延伸项目，旨在用 Rust 语言从零开始重新实现 Adobe Premiere Pro 的核心功能。它强调高性能和开源透明性，通过清洁室重实现确保了代码的独立性和安全性。该项目不仅是一个视频编辑器，更是对大型商业视频软件架构的一次技术挑战，适合关注底层图形处理和系统编程的开发者。",
-          "analysis": "与 Photocraft 类似，Filmcraft 展示了用 Rust 重写重量级创意工具的潜力。对于追求极致性能和安全性的视频创作者来说，这是一个值得长期关注的开源项目，代表了去中心化设计工具在视频领域的扩展。",
-          "social": [
-            {
-              "who": "视频编辑爱好者",
-              "text": "如果能保持与 PR 兼容的剪辑时间线和效果系统，这对开源视频工具生态将是巨大的推动。"
-            },
-            {
-              "who": "Rust 语言爱好者",
-              "text": "用 Rust 重写 Premiere Pro 的工程复杂度极高，期待看到它在处理 4K 素材时的表现。"
-            }
-          ]
-        },
-        {
-          "title_zh": "配置驱动的动画架构图：JSON 生成终端或网页可视化",
-          "eng": "ythx-101/live-panel-skill",
-          "summary": "将单个 JSON 文件转化为终端风格或亮色主题的信息图，支持 H.264 mp4 输出和实时网页展示。",
-          "source": "GitHub",
-          "stars": 579,
-          "lang": "HTML",
-          "published": "2026-10-03",
-          "url": "https://github.com/ythx-101/live-panel-skill",
-          "overview": "Live Panel Skill 是一种配置驱动的动画架构图工具，用户只需提供一个 JSON 文件即可生成动态的终端风格或亮色主题信息图。它支持输出 H.264 mp4 视频或实时网页展示，并提供了类似 Claude Code 的 SKILL.md 格式集成。该项目展示了 AI Agent 在技术文档和可视化呈现方面的强大能力，特别适合用于架构设计和系统演示场景。",
-          "analysis": "将静态架构图转化为动态可视化的需求日益增长，Live Panel Skill 通过简单的 JSON 配置实现了这一目标，降低了技术沟通的成本。作为 Claude Code 风格的技能，它还能无缝集成到 AI 辅助开发流程中，提升团队协作效率。",
-          "social": [
-            {
-              "who": "架构师",
-              "text": "用 JSON 就能生成动画架构图，这比手动画 PPT 高效多了，可以直接在终端里展示。"
-            },
-            {
-              "who": "AI 工具开发者",
-              "text": "SKILL.md 的集成方式很优雅，可以让 AI Agent 自动为复杂系统生成可视化文档。"
-            }
-          ]
-        },
-        {
-          "title_zh": "开源销售 CRM 系统：客户管理与自动化流程",
-          "eng": "kargulstudio/sales-crm",
-          "summary": "一个开源的销售客户关系管理系统，提供客户管理、销售漏斗追踪和自动化工作流功能。",
-          "source": "GitHub",
-          "stars": 1418,
-          "lang": "TypeScript",
-          "published": "2026-10-04",
-          "url": "https://github.com/kargulstudio/sales-crm",
-          "overview": "Sales CRM 是一个基于 TypeScript 构建的开源销售客户关系管理系统，旨在帮助企业实现客户数据的集中管理和销售流程的自动化。它提供了直观的用户界面和灵活的配置选项，支持销售漏斗追踪、联系人管理以及自定义工作流。该项目展示了现代 Web 技术在企业级应用中的成熟度，对于中小型企业来说，这是一个低成本替代商业 CRM 方案的优质选择。",
-          "analysis": "CRM 系统是企业数字化转型的基础设施，开源方案的出现降低了中小企业的使用门槛。Sales CRM 基于 TypeScript 构建，具有良好的可维护性和扩展性，适合需要定制化销售流程的团队采用和二次开发。",
-          "social": [
-            {
-              "who": "中小企业主",
-              "text": "不需要花大价钱买 Salesforce 了，这个开源 CRM 功能齐全，界面也现代。"
-            },
-            {
-              "who": "全栈开发者",
-              "text": "TypeScript 的生态让二次开发很方便，希望能看到更多插件支持。"
-            }
-          ]
+          "overview": "Yomiyasu是一个专门针对AI生成日语进行润色修正的Agent Skill。它接收LLM输出的日语文本，通过多轮推敲将其改写为更自然、更符合母语者表达习惯的日语。支持作为独立工具或集成到Claude Code等AI编程环境中使用。",
+          "analysis": "随着全球开发者越来越多地使用LLM处理日语内容，AI输出日语质量差是一个普遍痛点。这个项目精准解决了"
         }
       ]
     },
@@ -2275,59 +2067,59 @@
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "OpenAI CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 AI 安全与对齐挑战，回应行业向万亿美元规模扩张中的人类心智准备度问题。",
-          "url": "https://openai.com"
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta Chief Scientist",
-          "region": "法国/美国",
-          "domain": "ai",
-          "recent": "倡导开源 AI 发展，质疑自主智能体在企业场景中的可靠性与当前技术路线的局限性。",
-          "url": "https://yannlecun.com"
-        },
-        {
-          "name": "Andrew Ng",
-          "role": "DeepLearning.AI 创始人",
-          "region": "全球/美国",
-          "domain": "ai",
-          "recent": "探索未来技能教育变革，推动 AI 素养融入图书馆与终身学习体系的深度融合。",
-          "url": "https://andrewng.ai"
-        },
-        {
-          "name": "Timnit Gebru",
-          "role": "DAIR Institute 联合创始人",
-          "region": "加纳/美国",
-          "domain": "ai",
-          "recent": "持续呼吁 AI 公司文化治理改革，强调伦理框架需超越利润驱动以应对安全危机。",
-          "url": "https://timnitgebru.com"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "知名播客主持人",
-          "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "主持深度对话探讨人类意识与 AI 能力的交汇点，关注社会对技术变革的适应过程。",
-          "url": "https://lexfridman.com"
-        },
-        {
-          "name": "Sam Harris",
-          "role": "神经科学家/播客创始人",
-          "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "审视人类心智是否已准备好应对 AI 的快速发展，引发关于技术伦理与认知边界的广泛讨论。",
-          "url": "https://samharris.io"
-        },
-        {
-          "name": "杜若",
-          "role": "中国图书馆学会领导",
+          "name": "周平",
+          "role": "中国图书馆学会会长",
           "region": "中国",
           "domain": "library",
-          "recent": "推动数字赋能新时代图书馆高质量发展，促进智慧图书馆建设与全民阅读推广新模式。",
+          "recent": "聚焦智慧图书馆建设及全民阅读推广平台的发布与高质量发展战略。",
+          "url": ""
+        },
+        {
+          "name": "R. David Lankes",
+          "role": "公共图书馆倡导者与学者",
+          "region": "美国",
+          "domain": "library/ai",
+          "recent": "倡导 AI 技术融入公共图书馆服务以实现以人为本的转型与空间重构。",
+          "url": "https://en.wikipedia.org/wiki/R._David_Lankes"
+        },
+        {
+          "name": "Michele Caswell",
+          "role": "美国图书馆协会（ALA）主席",
+          "region": "美国",
+          "domain": "library",
+          "recent": "关注被禁书籍事件及边缘群体声音在信息自由与多元文化中的守护。",
+          "url": ""
+        },
+        {
+          "name": "David Wiley",
+          "role": "开放教育资源（OER）先驱与教授",
+          "region": "澳大利亚/全球",
+          "domain": "library/ai",
+          "recent": "推动 AI 辅助下的开放教育资源获取及图书馆知识共享模式的创新。",
+          "url": "https://en.wikipedia.org/wiki/David_Wiley_(educator)"
+        },
+        {
+          "name": "Karen Coyle",
+          "role": "华盛顿大学图书馆学教授",
+          "region": "美国",
+          "domain": "library/ai",
+          "recent": "研究数字素养教育及图书馆员利用 AI 工具提升服务效能的前沿路径。",
+          "url": ""
+        },
+        {
+          "name": "Mehmet Yılmaz",
+          "role": "国际图联（IFLA）主席",
+          "region": "土耳其/全球",
+          "domain": "library",
+          "recent": "主导国际图联在数字包容与全球图书馆合作方面的战略方向及区域会议。",
+          "url": ""
+        },
+        {
+          "name": "吴建中",
+          "role": "中国工程院院士/图书情报学家",
+          "region": "中国",
+          "domain": "library/ai",
+          "recent": "探索数字赋能新时代图书馆高质量发展的战略路径与移动阅读推广新模式。",
           "url": ""
         }
       ]
