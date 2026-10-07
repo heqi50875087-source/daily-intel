@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-07T07:37:44+08:00",
+  "generated_at": "2026-10-07T08:06:23+08:00",
   "date": "2026-10-07",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-07 07:37",
     "ai": "2026-10-07 07:37",
     "voices": "2026-10-07 06:43",
-    "github": "2026-10-07 07:37",
+    "github": "2026-10-07 08:06",
     "libraries": "2026-10-07 06:43",
     "sports": "2026-10-07 07:37",
     "academic": "2026-10-04 06:40"
@@ -1819,218 +1819,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "HTML 智能回答 Agent",
+          "title_zh": "AI Agent HTML 回答技能",
           "eng": "QingYunA/answer-me-with-html",
-          "summary": "AI Agent 技能：用单页 HTML 回答复杂问题，确保输出可阅读、可交互。",
+          "summary": "让 AI Agent 用一页可阅读、可交互的 HTML 来回答复杂问题，替代枯燥的文字堆砌。",
           "source": "GitHub",
-          "stars": 1758,
+          "stars": 1768,
           "lang": "JavaScript",
           "published": "2026-10-02",
           "url": "https://github.com/QingYunA/answer-me-with-html",
-          "overview": "这是一个专为 AI Agent 设计的技能，能够针对复杂问题生成单页 HTML 文件作为回答。不同于纯文本输出，该工具生成的 HTML 页面包含样式和交互元素，用户可以直接在浏览器中阅读和操作结果。项目旨在解决 AI 长文回答难以快速浏览的痛点，提升信息获取效率。",
-          "analysis": "随着 AI Agent 日益普及，输出格式的可读性成为关键瓶颈。该项目以高星数证明了社区对‘可视化 AI 输出’的强烈需求，适合所有使用 LLM API 进行内容生成的开发者参考。",
+          "overview": "这是一个 Agent Skill，核心功能是将 AI 生成的复杂回答渲染为单页 HTML。用户可以直接在浏览器中阅读、交互和分享结果，解决了传统 LLM 输出纯文本难以直观展示数据或逻辑的问题。项目已积累近 1800 Stars，社区反响热烈。",
+          "analysis": "随着 Agent 能力增强，输出格式从纯文本向结构化页面演进是必然趋势。该项目降低了 AI 回答的分享门槛，对开发者构建 Agent 工作流有直接参考价值。",
           "social": [
             {
-              "who": "AI 开发者",
-              "text": "解决了 Agent 输出不可读的痛点，HTML 格式比 Markdown 更适合复杂数据的展示。"
+              "who": "AI 应用开发者",
+              "text": "Agent 输出的可读性太差了，这个 HTML 方案直接把结果变成了可交互页面，非常实用。"
+            },
+            {
+              "who": "前端工程师",
+              "text": "单页渲染的思路很巧妙，不需要后端服务就能展示复杂数据，适合轻量级场景。"
             }
           ]
         },
         {
-          "title_zh": "Facebook Muse Gadget SDK",
-          "eng": "facebookincubator/muse-gadget-sdk",
-          "summary": "开源 SDK：用于构建 Facebook Muse 智能硬件配件，连接 AI 与可穿戴设备。",
+          "title_zh": "开源销售 CRM 系统",
+          "eng": "kargulstudio/sales-crm",
+          "summary": "一款基于 TypeScript 构建的开源销售客户关系管理工具，适合中小企业快速部署。",
           "source": "GitHub",
-          "stars": 1536,
+          "stars": 1584,
+          "lang": "TypeScript",
+          "published": "2026-10-04",
+          "url": "https://github.com/kargulstudio/sales-crm",
+          "overview": "该项目提供了一套完整的销售 CRM 解决方案，涵盖客户管理、销售漏斗追踪和团队协作功能。采用 TypeScript 技术栈，便于二次开发和部署，Stars 数在短期内快速攀升至近 1600。",
+          "analysis": "开源 CRM 一直是开发者痛点，该项目以现代前端技术栈降低了使用门槛，适合需要轻量级替代 Salesforce 的团队参考或私有化部署。",
+          "social": [
+            {
+              "who": "SaaS 创业者",
+              "text": "TypeScript 全栈方案对团队开发效率提升很大，功能模块划分清晰。"
+            },
+            {
+              "who": "独立开发者",
+              "text": "作为内部工具使用很合适，比商业 CRM 灵活且成本低。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Meta Muse Gadget SDK",
+          "eng": "facebookincubator/muse-gadget-sdk",
+          "summary": "Facebook 孵化器开源的 Muse 智能硬件开发套件，支持构建 AR/VR 互动小工具。",
+          "source": "GitHub",
+          "stars": 1540,
           "lang": "C",
           "published": "2026-10-02",
           "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-          "overview": "这是 Facebook Incubator 发布的开源 SDK，旨在帮助开发者构建 Muse 系列智能硬件配件。项目提供底层驱动和接口，使第三方能够开发基于 Muse 平台的 AI 应用或传感器扩展。使用 C 语言编写，强调高性能和低延迟的嵌入式交互体验。",
-          "analysis": "Facebook 在 AI 可穿戴领域的布局值得关注，该 SDK 降低了硬件开发的门槛，可能催生新的 AI 辅助健康或专注力管理生态。",
+          "overview": "这是 Meta 旗下孵化器推出的开源 SDK，旨在让开发者利用 Muse 硬件平台构建交互式 Gadget。底层使用 C 语言编写以保证高性能和跨平台兼容性，为 AR/VR 生态提供了新的开发入口。",
+          "analysis": "Meta 在元宇宙硬件领域的持续投入值得关注，该 SDK 的开源意味着更多独立开发者有机会参与其生态建设，是硬件与软件结合的典型案例。",
           "social": [
+            {
+              "who": "AR/VR 研究者",
+              "text": "C 语言底层保证了性能上限，对于需要实时渲染的 Gadget 来说非常关键。"
+            },
             {
               "who": "硬件开发者",
-              "text": "C 语言实现保证了嵌入式场景下的性能上限，是连接 AI 大脑与身体传感器的桥梁。"
+              "text": "Meta 终于把 Muse SDK 开源了，这对独立硬件创客是个好消息。"
             }
           ]
         },
         {
-          "title_zh": "iPhone 辅助 Mac 运行大模型",
-          "eng": "StayLameBro/backburner",
-          "summary": "利用 iPhone 通过 USB-C 线缆加速 Mac 上 27B 模型的推理，扩展上下文窗口。",
-          "source": "GitHub",
-          "stars": 765,
-          "lang": "Python",
-          "published": "2026-10-01",
-          "url": "https://github.com/StayLameBro/backburner",
-          "overview": "该项目允许用户将 iPhone 作为计算协处理器，通过 USB-C 连接帮助 Mac 运行大型语言模型。它利用 iPhone 的 NPU 或 GPU 进行更快的提示词读取和上下文扩展，从而在本地设备上实现更大的模型推理能力。这是一个典型的‘边缘设备协同’创新案例。",
-          "analysis": "在本地大模型部署受限的背景下，这种跨设备算力共享方案极具实用价值，展示了 Apple 生态硬件潜力的新玩法。",
-          "social": [
-            {
-              "who": "AI 研究者",
-              "text": "巧妙利用了 iPhone 的闲置算力，让普通用户的 Mac 也能跑起大模型，成本极低。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Agent 级深度记忆引擎",
-          "eng": "elstongun/leviathan",
-          "summary": "将数据库记录转化为全文本索引的静态二进制工具，为 AI Agent 提供大规模数据记忆。",
-          "source": "GitHub",
-          "stars": 627,
-          "lang": "Rust",
-          "published": "2026-10-05",
-          "url": "https://github.com/elstongun/leviathan",
-          "overview": "Leviathan 是一个单静态二进制文件，支持 JSONL、CSV、SQLite 等多种数据格式输入。它能将结构化记录转化为排名的全文索引，使 AI Agent 能够高效检索和回忆海量历史数据。项目设计注重性能与便携性，适合需要长期记忆能力的智能体架构。",
-          "analysis": "Agent 的‘遗忘’问题是当前技术瓶颈之一，Leviathan 提供了一种轻量级的解决方案，对构建企业级知识库 Agent 有直接参考价值。",
-          "social": [
-            {
-              "who": "Rust 开发者",
-              "text": "单二进制文件的设计非常优雅，部署零依赖，适合嵌入式或容器化环境中的 Agent 记忆层。"
-            }
-          ]
-        },
-        {
-          "title_zh": "免费 Claude App 克隆技能包",
-          "eng": "Jakeschincariol/replica-skill",
-          "summary": "11 个免费 Claude 技能，可逆向工程、重建并测试任何应用，修复用户痛点。",
-          "source": "GitHub",
-          "stars": 681,
-          "lang": "Python",
-          "published": "2026-10-03",
-          "url": "https://github.com/Jakeschincariol/replica-skill",
-          "overview": "该项目提供了一套免费的 Claude 技能，旨在帮助用户通过 AI 逆向工程现有应用并重建其功能。流程包括分析目标应用、用代码重写核心逻辑、进行 Bug 测试以及修复用户体验问题。采用 MIT 协议开源，鼓励社区协作改进。",
-          "analysis": "这代表了‘AI 辅助软件开发’的新范式——从需求分析到代码生成再到质量保障的全链路自动化，对独立开发者极具吸引力。",
-          "social": [
-            {
-              "who": "独立开发者",
-              "text": "MIT 协议意味着可以商用，这套技能包相当于把逆向工程和重构流程打包成了 AI 提示词。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI 数学研究项目",
+          "title_zh": "OpenAI 数学形式化验证项目",
           "eng": "openai/math",
-          "summary": "OpenAI 的数学领域探索仓库，聚焦于形式化验证与数学推理能力的提升。",
+          "summary": "OpenAI 利用 Lean 编程语言进行数学定理的形式化证明与验证研究。",
           "source": "GitHub",
-          "stars": 643,
+          "stars": 1296,
           "lang": "Lean",
           "published": "2026-10-06",
           "url": "https://github.com/openai/math",
-          "overview": "这是 OpenAI 在数学领域的官方仓库，使用 Lean 编程语言进行形式化验证。项目旨在推动 AI 在复杂数学证明和推理任务上的能力边界，可能包含新的算法或数据集。Lean 语言的选择表明了对严格逻辑一致性的追求。",
-          "analysis": "OpenAI 涉足数学基础领域，暗示其大模型训练中对逻辑推理能力的重视程度正在提升，对学术界有重要信号意义。",
+          "overview": "该项目展示了 OpenAI 在数学领域的探索，使用 Lean 4 语言进行定理证明。它不仅是 AI 辅助数学研究的实验场，也是验证大模型推理能力可靠性的关键基础设施。Stars 数突破 1200，体现了学术界和工业界的关注。",
+          "analysis": "AI 能否真正理解数学逻辑是行业核心争议之一。该项目通过形式化验证提供了可审计的 AI 数学能力证据，对 AI 安全与可信度研究有深远意义。",
           "social": [
             {
               "who": "数学家",
-              "text": "Lean 是形式化验证的黄金标准，OpenAI 选择此语言说明他们对数学严谨性的承诺。"
+              "text": "Lean 生态在数学证明方面已经非常成熟，OpenAI 加入能加速工具链发展。"
+            },
+            {
+              "who": "AI 安全研究员",
+              "text": "形式化验证是解决 AI 幻觉问题的终极手段之一，这个项目方向很对。"
             }
           ]
         },
         {
-          "title_zh": "终端动画架构图技能",
+          "title_zh": "明日方舟「卫戍协议」浏览器复刻",
+          "eng": "sganggs/Stronghold-Protocol",
+          "summary": "非官方同人复刻的明日方舟「卫戍协议：盟约」，支持浏览器自走棋塔防及多人联机。",
+          "source": "GitHub",
+          "stars": 829,
+          "lang": "JavaScript",
+          "published": "2026-10-02",
+          "url": "https://github.com/sganggs/Stronghold-Protocol",
+          "overview": "这是一个基于浏览器的塔防策略游戏复刻项目，还原了明日方舟「卫戍协议」的核心玩法。支持单人自走棋和 1-4 人联机合作模式，采用 JavaScript 实现，无需安装即可运行。",
+          "analysis": "高质量的游戏复刻展示了前端开发者的技术实力和对原作的理解。虽然是非商业同人项目，但其网络架构和实时同步机制对游戏开发有参考价值。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "浏览器端实现多人联机同步是个挑战，这个项目在架构上做得不错。"
+            },
+            {
+              "who": "明日方舟玩家",
+              "text": "终于能在手机上随时随地玩卫戍协议了，不用开模拟器。"
+            }
+          ]
+        },
+        {
+          "title_zh": "React 等距线条组件库 Hairline",
+          "eng": "lucasmarkes/hairline",
+          "summary": "专为 React 和 DOM 环境设计的等距视角线条图形组件，用于构建信息图表。",
+          "source": "GitHub",
+          "stars": 792,
+          "lang": "TypeScript",
+          "published": "2026-10-01",
+          "url": "https://github.com/lucasmarkes/hairline",
+          "overview": "Hairline 提供了一套基于等距视角（Isometric）的线条图形组件，支持在 React 应用中直接渲染。它解决了前端开发中绘制复杂几何图形和图表的痛点，适合数据可视化和 UI 设计场景。",
+          "analysis": "等距视图在信息架构展示中越来越流行，该库将复杂的几何计算封装为简单组件，降低了开发者使用门槛，是前端可视化领域的实用工具。",
+          "social": [
+            {
+              "who": "UI 设计师",
+              "text": "等距线条风格现在很火，这个库直接解决了 React 里画图的难题。"
+            },
+            {
+              "who": "数据可视化工程师",
+              "text": "封装得不错，API 设计符合直觉，适合快速原型开发。"
+            }
+          ]
+        },
+        {
+          "title_zh": "iPhone 辅助 Mac 运行大模型 Backburner",
+          "eng": "StayLameBro/backburner",
+          "summary": "利用 iPhone 的算力通过 USB-C 线缆帮助 Mac 本地运行 27B 参数的大语言模型。",
+          "source": "GitHub",
+          "stars": 768,
+          "lang": "Python",
+          "published": "2026-10-01",
+          "url": "https://github.com/StayLameBro/backburner",
+          "overview": "Backburner 是一个创新工具，允许用户将 iPhone 作为加速卡连接至 Mac。通过 USB-C 线缆传输数据，iPhone 负责处理大模型的提示词读取和上下文扩展，从而让本地运行 27B 模型成为可能。",
+          "analysis": "随着手机芯片性能提升，利用移动设备辅助边缘计算是趋势。该项目巧妙利用了 iPhone 的 NPU 或 GPU 算力，为低配 Mac 用户提供了运行大模型的可行路径。",
+          "social": [
+            {
+              "who": "LLM 开发者",
+              "text": "手机做推理加速的思路很新颖，解决了本地硬件不够用的问题。"
+            },
+            {
+              "who": "Mac 用户",
+              "text": "终于不用买 M2 Ultra 也能跑大模型了，旧 Mac 用户福音。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Claude 应用克隆技能包 Replica Skill",
+          "eng": "Jakeschincariol/replica-skill",
+          "summary": "提供 11 个免费 Claude 技能，可逆向工程、重建、测试并修复任何应用程序。",
+          "source": "GitHub",
+          "stars": 688,
+          "lang": "Python",
+          "published": "2026-10-03",
+          "url": "https://github.com/sganggs/Stronghold-Protocol",
+          "overview": "该项目包含一组 Claude Code 技能（SKILL.md），旨在自动化应用克隆流程。用户输入目标应用，AI 可逆向分析其功能、重建 UI、测试 Bug 并修复用户体验问题。完全免费且采用 MIT 协议开源。",
+          "analysis": "AI 辅助软件逆向和重构是极具潜力的方向。该项目展示了 Agent 在理解复杂应用架构方面的能力，对软件测试和应用开发有重要参考价值。",
+          "social": [
+            {
+              "who": "QA 工程师",
+              "text": "用 AI 自动化测试和修复 Bug 的思路很前沿，能大幅降低回归测试成本。"
+            },
+            {
+              "who": "独立开发者",
+              "text": "MIT 协议太棒了，可以直接集成到自己的开发流程中。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Agent 深度记忆索引 Leviathan",
+          "eng": "elstongun/leviathan",
+          "summary": "专为 Agent 设计的单二进制文件全文搜索引擎，支持 JSONL、CSV、SQLite 等多种数据格式。",
+          "source": "GitHub",
+          "stars": 631,
+          "lang": "Rust",
+          "published": "2026-10-05",
+          "url": "https://github.com/elstongun/leviathan",
+          "overview": "Leviathan 是一个用 Rust 编写的单静态二进制文件工具，能将各类结构化数据（JSONL、CSV、SQLite 等）转换为排名的全文索引。它专为 AI Agent 的长期记忆需求设计，解决了大规模数据集检索效率低的问题。",
+          "analysis": "Agent 的记忆管理是 RAG 技术的核心瓶颈。Leviathan 的单二进制特性使其部署极其简单，Rust 语言保证了高性能，适合对延迟敏感的生产环境。",
+          "social": [
+            {
+              "who": "AI 基础设施工程师",
+              "text": "单二进制文件太方便了，不需要编译依赖就能在服务器上跑，运维成本极低。"
+            },
+            {
+              "who": "Rust 爱好者",
+              "text": "用 Rust 做全文索引性能肯定没问题，API 设计也很清晰。"
+            }
+          ]
+        },
+        {
+          "title_zh": "艺术动画 Skill：让画动起来",
+          "eng": "alchaincyf/huashu-art-motion",
+          "summary": "支持 35 种艺术风格和 9 种解说语法的 AI 技能，用代码驱动静态画作产生动态效果。",
+          "source": "GitHub",
+          "stars": 628,
+          "lang": "JavaScript",
+          "published": "2026-10-06",
+          "url": "https://github.com/alchaincyf/huashu-art-motion",
+          "overview": "这是一个结合 AI 与创意编程的技能项目，提供多种艺术风格滤镜和解说语法。用户输入静态画作或描述，系统可生成动态动画效果，支持代码驱动的艺术创作流程。",
+          "analysis": "将 AI 生成与动态可视化结合是内容创作的热点。该项目降低了艺术动画的制作门槛，适合数字艺术家和教育场景使用。",
+          "social": [
+            {
+              "who": "数字艺术家",
+              "text": "35 种风格选择很丰富，让静态画作动起来的效果令人惊艳。"
+            },
+            {
+              "who": "教育技术开发者",
+              "text": "适合用于教学演示，让抽象概念通过动态艺术直观呈现。"
+            }
+          ]
+        },
+        {
+          "title_zh": "配置驱动架构图动画 Skill Live Panel",
           "eng": "ythx-101/live-panel-skill",
-          "summary": "配置驱动的动画架构图：将 JSON 文件转化为终端风格或网页的动态可视化。",
+          "summary": "将 JSON 配置文件转化为终端风格或网页风格的动态架构图，支持 H.264 MP4 输出。",
           "source": "GitHub",
           "stars": 625,
           "lang": "HTML",
           "published": "2026-10-03",
           "url": "https://github.com/ythx-101/live-panel-skill",
-          "overview": "该技能允许开发者通过一个 JSON 配置文件生成终端风格的实时运行架构图或浅色主题的信息图。支持输出 H.264 MP4 视频或实时网页，并提供了 Claude Code 风格的 SKILL.md 文件以便 AI 直接调用。非常适合展示微服务架构或数据流。",
-          "analysis": "将静态架构图动态化是 DevOps 可视化的趋势，该工具降低了动画生成的门槛，适合技术博客和会议演示场景。",
+          "overview": "Live Panel Skill 允许开发者通过一个 JSON 文件定义架构图，自动生成终端样式或网页样式的动态动画。支持输出 H.264 MP4 视频或实时网页展示，并提供 Claude Code 风格的 SKILL.md 集成方式。",
+          "analysis": "架构文档的可视化一直是痛点。该项目将静态架构图变为动态演示工具，特别适合技术分享和系统设计评审场景，提升了沟通效率。",
           "social": [
             {
-              "who": "DevOps 工程师",
-              "text": "JSON 驱动设计非常灵活，终端输出风格让运维人员无需打开浏览器即可监控架构状态。"
-            }
-          ]
-        },
-        {
-          "title_zh": "React 等距线图表库",
-          "eng": "lucasmarkes/hairline",
-          "summary": "六边形等距线图表组件，支持 React 及任何 DOM 环境。",
-          "source": "GitHub",
-          "stars": 785,
-          "lang": "TypeScript",
-          "published": "2026-10-01",
-          "url": "https://github.com/lucasmarkes/hairline",
-          "overview": "Hairline 是一个基于等距投影的线形图表库，专为 React 和通用 DOM 环境设计。它通过六边形网格结构呈现数据，提供独特的视觉风格。项目注重代码质量和可访问性，适合需要非传统图表展示的前端开发者。",
-          "analysis": "在千篇一律的柱状图和折线图之外，等距线图表提供了新的数据可视化维度，有助于提升技术产品的 UI 差异化。",
-          "social": [
+              "who": "系统架构师",
+              "text": "用 JSON 配置生成动画架构图太方便了，开会演示时直接播放比 PPT 效果好得多。"
+            },
             {
-              "who": "前端设计师",
-              "text": "等距风格非常现代，适合 SaaS 仪表盘或创意数据展示场景，代码质量看起来很高。"
-            }
-          ]
-        },
-        {
-          "title_zh": "花树艺术动画 Skill",
-          "eng": "alchaincyf/huashu-art-motion",
-          "summary": "35 种艺术风格与 9 种解说语法，用代码让画作动起来。",
-          "source": "GitHub",
-          "stars": 612,
-          "lang": "JavaScript",
-          "published": "2026-10-06",
-          "url": "https://github.com/alchaincyf/huashu-art-motion",
-          "overview": "这是一个专注于艺术动画的 AI Skill，提供 35 种不同的艺术风格模板和 9 种解说语法。用户可以通过代码指令让静态画作产生动态效果，结合 AI 生成能力实现创意内容的自动化生产。适合数字艺术家和内容创作者使用。",
-          "analysis": "将传统艺术风格数字化并赋予动画属性，是 AIGC 在视觉创意领域的具体实践，降低了动态视频生成的门槛。",
-          "social": [
-            {
-              "who": "数字艺术家",
-              "text": "35 种风格覆盖广泛，让静态插画‘活’起来的需求非常真实，适合社交媒体内容创作。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Sales CRM 应用",
-          "eng": "kargulstudio/sales-crm",
-          "summary": "基于 TypeScript 构建的销售客户关系管理工具。",
-          "source": "GitHub",
-          "stars": 1580,
-          "lang": "TypeScript",
-          "published": "2026-10-04",
-          "url": "https://github.com/kargulstudio/sales-crm",
-          "overview": "这是一个使用 TypeScript 开发的销售 CRM 系统，旨在帮助团队管理客户互动和销售流程。高星数表明其在开源社区中获得了广泛认可，可能提供了现代化的用户界面和灵活的配置选项。对于中小企业或个人销售者来说，这是一个替代昂贵商业 SaaS 的开源选择。",
-          "analysis": "CRM 是开发者最熟悉的业务场景之一，开源 CRM 工具的成熟度直接影响独立开发者的获客效率，该项目的高关注度值得参考其架构设计。",
-          "social": [
-            {
-              "who": "产品经理",
-              "text": "1500+ Stars 说明市场需求真实存在，TypeScript 栈保证了后续维护的可持续性。"
-            }
-          ]
-        },
-        {
-          "title_zh": "EffectCraft 创意工具",
-          "eng": "storytold/effectcraft",
-          "summary": "基于 Rust 的创意构建工具，专注于叙事或视觉特效的开发与编排。",
-          "source": "GitHub",
-          "stars": 794,
-          "lang": "Rust",
-          "published": "2026-10-01",
-          "url": "https://github.com/storytold/effectcraft",
-          "overview": "EffectCraft 是一个使用 Rust 语言编写的项目，由 storytold 组织维护。从名称和语言选择来看，它可能专注于游戏特效、视觉叙事或创意编程工具的构建。Rust 的选择暗示了对性能和内存安全的高要求，适合需要高性能渲染或实时计算的场景。",
-          "analysis": "在 Rust 生态中，创意工具类项目相对较少，该项目若涉及实时效果处理，将为游戏开发和数据可视化领域提供新的技术参考。",
-          "social": [
-            {
-              "who": "Rust 爱好者",
-              "text": "Rust 做创意工具是趋势，性能和安全性的平衡让它在游戏引擎和特效管线中有潜力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "rauchg 的 TypeScript 新项目",
-          "eng": "rauchg/gdp-ts",
-          "summary": "Next.js 创始人 rauchg 开发的 TypeScript 项目，具体功能待社区进一步探索。",
-          "source": "GitHub",
-          "stars": 700,
-          "lang": "TypeScript",
-          "published": "2026-10-04",
-          "url": "https://github.com/rauchg/gdp-ts",
-          "overview": "这是由知名前端开发者 rauchg（Next.js 创始人）发起的 TypeScript 项目。虽然具体功能描述尚不明确，但鉴于作者在前端领域的地位，该项目可能涉及 Web 数据协议、开发工具链或新的框架组件。700 Stars 的快速增长表明社区对其高度期待。",
-          "analysis": "rauchg 的新动向往往预示着前端技术的重要变化，关注此项目有助于捕捉下一代 Web 开发工具的早期信号。",
-          "social": [
-            {
-              "who": "Web 开发者",
-              "text": "rauchg 出手的项目质量通常有保证，700 Stars 说明社区已经嗅到了新东西的味道。"
+              "who": "技术写作者",
+              "text": "支持导出 MP4 和网页两种格式，适配了不同场景的需求。"
             }
           ]
         }
