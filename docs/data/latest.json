@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-11T09:36:03+08:00",
+  "generated_at": "2026-10-11T10:26:49+08:00",
   "date": "2026-10-11",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-11 09:36",
     "ai": "2026-10-11 07:39",
     "voices": "2026-10-11 09:36",
-    "github": "2026-10-11 09:36",
-    "libraries": "2026-10-11 09:36",
+    "github": "2026-10-11 10:26",
+    "libraries": "2026-10-11 10:26",
     "sports": "2026-10-11 07:39",
     "academic": "2026-10-11 06:40"
   },
@@ -1927,268 +1927,110 @@
     "github": {
       "items": [
         {
-          "title_zh": "OpenAI 数学推理项目 (Lean)",
+          "title_zh": "OpenAI Math：数学推理与形式化验证",
           "eng": "openai/math",
-          "summary": "OpenAI 开源的基于 Lean 证明助手的数学推理研究，探索 AI 在形式化数学中的能力边界。",
+          "summary": "OpenAI 使用 Lean 编程语言构建的数学推理项目，旨在通过 AI 辅助完成复杂的数学证明。",
           "source": "GitHub",
-          "stars": 13680,
+          "stars": 13696,
           "lang": "Lean",
           "published": "2026-10-06",
           "url": "https://github.com/openai/math",
-          "overview": "该项目展示了 OpenAI 在形式化数学证明领域的最新探索，利用 Lean 语言构建 AI 推理能力。它允许研究人员验证复杂的数学定理，并推动大模型在逻辑严密性上的进步。这是目前 GitHub 上关注度最高的 AI 基础研究项目之一。",
-          "analysis": "作为 OpenAI 官方开源的数学推理项目，其高星数反映了社区对 AI+Math 方向的强烈兴趣。对于研究者和开发者而言，这是一个观察前沿模型如何理解形式化逻辑的最佳窗口，具有极高的学术参考价值。",
+          "overview": "该项目利用 Lean 定理证明器与 AI 模型结合，专注于数学问题的自动化推理和形式化验证。它展示了大语言模型在逻辑严密性要求极高的数学领域的应用潜力，是 AI+ 科学计算的重要探索方向。",
+          "analysis": "作为 OpenAI 官方项目，其高星数反映了社区对 AI 辅助数学研究的高度关注。Lean 语言的引入意味着代码级可验证的推理能力，对学术界和开发者均有深远影响。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "OpenAI 将数学推理开源是里程碑事件，Lean 生态的 AI 应用终于有了大规模参考实现。"
-            },
-            {
-              "who": "开发者",
-              "text": "虽然门槛高，但这对理解下一代编程助手如何验证代码逻辑非常有启发意义。"
+              "who": "研究者",
+              "text": "AI 进入数学证明领域是一个里程碑，形式化验证让错误无处遁形。"
             }
           ]
         },
         {
-          "title_zh": "华书艺术动画 (Huashu Art Motion)",
-          "eng": "alchaincyf/huashu-art-motion",
-          "summary": "基于 35 种艺术风格与 9 种解说语法的代码驱动艺术动画工具，让静态画作动起来。",
-          "source": "GitHub",
-          "stars": 3206,
-          "lang": "JavaScript",
-          "published": "2026-10-06",
-          "url": "https://github.com/alchaincyf/huashu-art-motion",
-          "overview": "这是一个专注于艺术动画生成的开源项目，支持多种风格转换和解说语法。用户可以通过编写代码精确控制动画效果，将静态图像转化为动态艺术作品。它降低了创意编程的门槛，适合数字艺术家和教育场景使用。",
-          "analysis": "在 AI 生成内容泛滥的背景下，这个工具强调了'代码驱动艺术'的独特路径，为创作者提供了可控性和可复现性。高星数表明它在创意开发者社区中获得了广泛认可。",
-          "social": [
-            {
-              "who": "数字艺术家",
-              "text": "终于有一个工具能把我的画作用代码精确地赋予动态生命了，风格选择非常丰富。"
-            },
-            {
-              "who": "前端开发者",
-              "text": "JS 生态的动画库很多，但专门针对艺术风格的语法设计确实很新颖。"
-            }
-          ]
-        },
-        {
-          "title_zh": "WordCraft (Rust 版 Word)",
+          "title_zh": "WordCraft：纯 Rust 实现的 Microsoft Word",
           "eng": "storytold/wordcraft",
-          "summary": "纯 Rust 实现的开源 Microsoft Word 清洁室重实现，提供本地化文档编辑体验。",
+          "summary": "由 ArtCraft 团队用纯 Rust 语言从零构建的开源 Word 替代品，主打安全与性能。",
           "source": "GitHub",
-          "stars": 3184,
+          "stars": 3223,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/storytold/wordcraft",
-          "overview": "WordCraft 是 ArtCraft 系列项目之一，旨在用纯 Rust 语言从零构建一个功能完整的文字处理应用。它不依赖任何闭源组件，确保文档格式兼容性和数据安全性。对于注重隐私和软件自由的办公用户来说，这是一个极具吸引力的替代方案。",
-          "analysis": "在 Microsoft Office 垄断办公软件市场的现状下，Rust 重写 Word 展示了高性能语言在复杂桌面应用中的潜力。该项目代表了开源办公套件复兴的重要趋势。",
+          "overview": "该项目是 ArtCraft Crafting Apps 系列的一部分，完全用 Rust 重写 Word 核心功能。作为“清洁室”实现，它不依赖任何商业闭源组件，解决了办公文档处理中的安全审查和供应链风险问题。",
+          "analysis": "在开源替代微软 Office 的浪潮中，Rust 语言保证了内存安全和编译时检查，这对企业级文档处理至关重要。高星数表明开发者社区对安全、可控办公工具的需求旺盛。",
           "social": [
             {
-              "who": "隐私倡导者",
-              "text": "数据留在本地，不依赖微软服务器，这才是真正的文档自由。"
-            },
-            {
-              "who": "Rust 开发者",
-              "text": "用 Rust 做 GUI 应用越来越成熟，这个项目的架构设计值得学习。"
+              "who": "开发者",
+              "text": "用 Rust 重写 Word 是开源办公领域的重大尝试，安全性远超传统方案。"
             }
           ]
         },
         {
-          "title_zh": "iPhone-use (Codex iPhone 操控)",
-          "eng": "zhongerxin/iPhone-use",
-          "summary": "通过 USB 连接让 Codex AI 直接操作真实 iPhone，支持引导安装和 App 自动化。",
+          "title_zh": "华书艺术动画：代码驱动的创意视觉",
+          "eng": "alchaincyf/huashu-art-motion",
+          "summary": "提供 35 种艺术风格与 9 种解说语法的开源工具，让静态画作通过代码赋予动态生命力。",
           "source": "GitHub",
-          "stars": 2558,
+          "stars": 3217,
+          "lang": "JavaScript",
+          "published": "2026-10-06",
+          "url": "https://github.com/alchaincyf/huashu-art-motion",
+          "overview": "这是一个面向创意工作者的工具，支持多种艺术风格的动画生成和解说语法。它降低了动态视觉内容的创作门槛，让非程序员也能通过代码或配置实现复杂的艺术动画效果。",
+          "analysis": "在 AI 生成视频爆发的背景下，这种基于规则和风格化的动画工具提供了可控性和可定制性，适合需要精确控制画面细节的设计师和教育者使用。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "35 种风格加上代码驱动，让静态插画动起来变得前所未有的简单。"
+            }
+          ]
+        },
+        {
+          "title_zh": "iPhone-use：AI 操控真实 iPhone 的 USB 桥接工具",
+          "eng": "zhongerxin/iPhone-use",
+          "summary": "通过 USB 连接让 AI Agent（如 Codex）直接操作真实的 iPhone，支持安装引导和自动化测试。",
+          "source": "GitHub",
+          "stars": 2575,
           "lang": "Python",
           "published": "2026-10-06",
-          "url": "https://github.com/zhongerxin/iPhone-use",
-          "overview": "该项目实现了 AI Agent（Codex）通过 USB 接口对物理 iPhone 进行控制的能力。功能涵盖应用安装引导、自动化操作以及实时屏幕截图回退，是 AI 与硬件交互的前沿探索。它为测试和开发流程带来了全新的自动化可能性。",
-          "analysis": "AI 操控真实设备是具身智能（Embodied AI）在消费电子领域的延伸。该项目解决了物理设备远程调试的痛点，对移动应用 QA 和自动化测试领域有实用价值。",
+          "url": "https://github.com/github.com/zhongerxin/iPhone-use",
+          "overview": "该项目解决了 AI Agent 与真实硬件交互的难题，允许开发者通过 USB 引导安装 App、执行自动化操作并实时回退屏幕截图。它是连接大模型能力与移动端物理世界的桥梁。",
+          "analysis": "随着 Cursor/Codex 等 AI IDE 的普及，让 AI 直接操控手机进行测试和运维成为刚需。该项目填补了云端推理与本地硬件交互之间的空白，对移动开发测试场景极具价值。",
           "social": [
             {
               "who": "移动端开发者",
-              "text": "终于可以用 AI 自动完成繁琐的安装和截图流程了，效率提升巨大。"
-            },
-            {
-              "who": "AI Agent 研究者",
-              "text": "物理设备交互是 Agent 落地的关键一步，这个 Python 实现非常清晰。"
+              "text": "终于可以让 Codex 直接摸到真机了，自动化测试效率提升巨大。"
             }
           ]
         },
         {
-          "title_zh": "NVIDIA macOS Metal 驱动 (开源)",
+          "title_zh": "NVIDIA macOS Driver：macOS 上运行 NVIDIA GPU",
           "eng": "nullmoth/nvidia-macos-driver",
-          "summary": "为 macOS Sequoia 上的 NVIDIA RTX 显卡提供开源 Metal 驱动，解决 Intel/OpenCore 兼容问题。",
+          "summary": "为 macOS Sequoia 提供 Metal 驱动的开源 NVIDIA GeForce RTX 显卡支持方案。",
           "source": "GitHub",
-          "stars": 2293,
+          "stars": 2303,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/nullmoth/nvidia-macos-driver",
-          "overview": "该项目为在 macOS 上使用 NVIDIA GeForce RTX 显卡的用户提供了免费的开源 Metal 驱动。它解决了官方闭源驱动缺失或兼容性问题，支持 Intel 和 OpenCore 引导环境。对于需要 GPU 加速的 Mac 用户（如游戏、AI 推理）来说，这是一个关键的解决方案。",
-          "analysis": "macOS 对 NVIDIA 硬件的支持一直是社区痛点。开源驱动的推出打破了垄断，让开发者可以审查驱动代码并修复问题。这对异构计算生态有深远影响。",
+          "overview": "该项目为 Intel 和 OpenCore 引导的 macOS 系统提供了 NVIDIA RTX 显卡的 Metal 驱动。它让用户可以在 Mac 上利用强大的 NVIDIA GPU 进行 AI 训练、游戏渲染等高性能计算任务，且完全免费开源。",
+          "analysis": "macOS 原生不支持 NVIDIA 显卡是一个长期痛点。该项目的出现意味着 Mac 用户不再需要购买昂贵的 Apple Silicon 来获得同等算力，对开发者社区和硬件爱好者意义重大。",
           "social": [
             {
-              "who": "Mac 游戏玩家",
-              "text": "终于能在 Mac 上流畅运行 RTX 显卡了，开源驱动比闭源的更让人放心。"
-            },
-            {
-              "who": "开发者",
-              "text": "Metal API 的开源实现让调试变得容易多了，感谢作者贡献。"
+              "who": "AI 工程师",
+              "text": "在 Mac 上跑 RTX 驱动终于有了开源方案，本地模型训练成本大幅降低。"
             }
           ]
         },
         {
-          "title_zh": "Aurelio Finance (AI 个人理财)",
+          "title_zh": "Aurelio Finance：带 AI 顾问的开源个人理财应用",
           "eng": "LosaLosSantos/aurelio-finance",
-          "summary": "开源个人财务管理应用，内置 AI 财务顾问，支持净值、投资、ETF 追踪。",
+          "summary": "一款运行在你自己电脑上的开源个人财务管理工具，内置 AI 财务顾问功能。",
           "source": "GitHub",
           "stars": 2094,
           "lang": "Python",
           "published": "2026-10-06",
           "url": "https://github.com/LosaLosSantos/aurelio-finance",
-          "overview": "Aurelio Finance 是一款运行在用户本地电脑上的开源个人理财应用。它不仅提供传统的资产追踪功能（净值、投资、ETF、现金和债务），还集成了 AI 财务顾问，帮助用户做出更明智的财务决策。数据完全存储在本地，保护用户隐私。",
-          "analysis": "在金融数据隐私日益重要的今天，本地运行的 AI 理财工具填补了市场空白。该项目展示了开源软件如何结合 AI 技术为用户提供个性化服务，同时确保数据安全。",
-          "social": [
-            {
-              "who": "个人投资者",
-              "text": "数据不上传云端，AI 建议又很实用，这正是我需要的理财工具。"
-            },
-            {
-              "who": "Python 开发者",
-              "text": "界面简洁，AI 集成方式优雅，适合二次开发扩展功能。"
-            }
-          ]
+          "overview": "用户可以追踪净资产、投资、ETF、现金和债务，并享受 AI 驱动的财务建议。数据完全存储在本地，不上传云端，兼顾了隐私保护和智能分析需求。",
+          "analysis": "在金融数据泄露频发的当下，"
         },
         {
-          "title_zh": "CADCraft (Rust 版 AutoCAD)",
-          "eng": "storytold/cadcraft",
-          "summary": "纯 Rust 实现的开源计算机辅助设计（CAD）应用，对标 AutoCAD。",
-          "source": "GitHub",
-          "stars": 1865,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/cadcraft",
-          "overview": "CADCraft 是 ArtCraft 系列的一部分，旨在用纯 Rust 语言构建一个功能完整的 CAD 绘图工具。它支持计算机辅助设计和制图，提供类似 AutoCAD 的核心功能。对于需要轻量级、高性能且注重开源的工程师和设计师来说，这是一个值得关注的替代方案。",
-          "analysis": "CAD 软件通常体积庞大且依赖闭源组件。CADCraft 用 Rust 重写展示了高性能语言在复杂工程应用中的潜力，为行业提供了新的技术路线参考。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "Rust 的性能和内存安全特性让 CAD 软件的开发体验更好了。"
-            },
-            {
-              "who": "开源社区成员",
-              "text": "ArtCraft 系列项目越来越完整，从 Word 到 CAD，生态建设令人印象深刻。"
-            }
-          ]
-        },
-        {
-          "title_zh": "GridCraft (Rust 版 Excel)",
-          "eng": "storytold/gridcraft",
-          "summary": "纯 Rust 实现的开源电子表格应用，对标 Microsoft Excel。",
-          "source": "GitHub",
-          "stars": 1851,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/gridcraft",
-          "overview": "GridCraft 是 ArtCraft 系列项目之一，用纯 Rust 语言构建了一个功能完整的电子表格应用。它支持类似 Excel 的数据处理、公式计算和可视化功能。该项目致力于提供开源、安全的替代方案，让用户无需依赖微软的闭源服务即可进行数据处理。",
-          "analysis": "电子表格是办公场景的核心工具。GridCraft 的出现表明 Rust 语言正在逐步渗透到传统桌面应用市场，为数据隐私敏感的用户提供了新选择。",
-          "social": [
-            {
-              "who": "数据分析师",
-              "text": "公式兼容性和性能都很不错，本地运行速度快很多。"
-            },
-            {
-              "who": "Rust 爱好者",
-              "text": "看到 Rust 在 GUI 应用上的表现越来越好了，期待更多生态项目。"
-            }
-          ]
-        },
-        {
-          "title_zh": "fsearch (macOS 全磁盘搜索)",
-          "eng": "noahdunnagan/fsearch",
-          "summary": "专为 macOS 设计的全磁盘文件搜索引擎，支持模糊匹配、拼写容错和索引内容 grep。",
-          "source": "GitHub",
-          "stars": 1619,
-          "lang": "Rust",
-          "published": "2026-10-08",
-          "url": "https://github.com/noahdunnagan/fsearch",
-          "overview": "fsearch 是一款高性能的 macOS 文件搜索工具，能够在包含 800 万文件的磁盘上实现约 1 毫秒的响应速度。它支持模糊名称匹配、拼写容错以及索引内容 grep，解决了 Spotlight 在某些场景下的不足。对于需要快速定位大量文件的专业用户来说，这是一个极佳的效率工具。",
-          "analysis": "在大数据量文件管理场景中，搜索性能至关重要。fsearch 用 Rust 实现了极致性能，展示了系统级工具开发的正确方向。它对 macOS 用户的日常工作效率有显著提升。",
-          "social": [
-            {
-              "who": "macOS 用户",
-              "text": "比 Spotlight 快太多了，模糊搜索和拼写容错功能非常实用。"
-            },
-            {
-              "who": "开发者",
-              "text": "Rust 实现的索引速度令人惊叹，1ms 响应在百万级文件上很难做到。"
-            }
-          ]
-        },
-        {
-          "title_zh": "omdrop-owl (非苹果 AirDrop)",
-          "eng": "t4t5/omdrop-owl",
-          "summary": "为非 Apple 设备实现类似 AirDrop 的文件传输功能，打破生态壁垒。",
-          "source": "GitHub",
-          "stars": 1433,
-          "lang": "Shell",
-          "published": "2026-10-08",
-          "url": "https://github.com/t4t5/omdrop-owl",
-          "overview": "omdrop-owl 是一个开源工具，旨在为非 Apple 设备提供类似 AirDrop 的近距离文件传输体验。它通过 Shell 脚本实现跨平台兼容，让用户能够在不同操作系统之间快速共享文件。这对于混合办公环境中的用户来说，解决了设备间文件传输的痛点。",
-          "analysis": "AirDrop 是苹果生态的封闭优势之一。omdrop-owl 的出现挑战了这一壁垒，为 Linux 和 Windows 用户提供了一种轻量级的替代方案。虽然功能简单，但实用价值高。",
-          "social": [
-            {
-              "who": "Linux 用户",
-              "text": "终于不用专门用数据线传文件了，这个工具太方便了。"
-            },
-            {
-              "who": "系统管理员",
-              "text": "Shell 实现简洁高效，适合在服务器或终端环境中快速部署。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeckCraft (Rust 版 PowerPoint)",
-          "eng": "storytold/deckcraft",
-          "summary": "纯 Rust 实现的开源演示文稿应用，对标 Microsoft PowerPoint。",
-          "source": "GitHub",
-          "stars": 1415,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/deckcraft",
-          "overview": "DeckCraft 是 ArtCraft 系列项目之一，用纯 Rust 语言构建了一个功能完整的演示文稿工具。它支持幻灯片创建、编辑和展示，提供类似 PowerPoint 的核心体验。对于注重隐私和软件自由的演讲者来说，这是一个值得尝试的开源替代方案。",
-          "analysis": "演示文稿工具是办公场景的重要组成部分。DeckCraft 的出现进一步完善了 ArtCraft 系列的产品线，展示了 Rust 语言在多媒体应用开发中的潜力。它为教育和企业培训提供了新的选择。",
-          "social": [
-            {
-              "who": "教育工作者",
-              "text": "开源且本地运行，不用担心数据泄露，非常适合学校使用。"
-            },
-            {
-              "who": "Rust 开发者",
-              "text": "ArtCraft 系列项目越来越完整了，从 Word 到 PPT，生态建设令人印象深刻。"
-            }
-          ]
-        },
-        {
-          "title_zh": "SoundCraft (Rust 版 Pro Tools)",
-          "eng": "storytold/soundcraft",
-          "summary": "纯 Rust 实现的开源音频工作站应用，对标 Avid Pro Tools。",
-          "source": "GitHub",
-          "stars": 1325,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/soundcraft",
-          "overview": "SoundCraft 是 ArtCraft 系列项目之一，用纯 Rust 语言构建了一个功能完整的音频工作站。它支持多轨录音、混音和编辑，提供类似 Pro Tools 的核心体验。对于独立音乐人和播客创作者来说，这是一个开源且高性能的替代方案。",
-          "analysis": "音频处理对实时性能要求极高。SoundCraft 用 Rust 实现展示了音频应用开发的新可能。它为追求低延迟和高稳定性的专业用户提供了新的选择，有助于推动开源音频生态的发展。",
-          "social": [
-            {
-              "who": "音乐制作人",
-              "text": "Rust 的实时性能确实不错，期待后续功能完善后能替代 Pro Tools。"
-            },
-            {
-              "who": "开源社区成员",
-              "text": "ArtCraft 系列项目越来越完整了，从 Word 到音频工作站，生态建设令人印象深刻。"
-            }
-          ]
+          "who": "开发者",
+          "text": "用 Rust 重写 Word 是开源办公领域的重大尝试，安全性远超传统方案。"
         }
       ]
     },
