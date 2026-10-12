@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:59:44+08:00",
+  "generated_at": "2026-10-12T10:17:37+08:00",
   "date": "2026-10-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -8,9 +8,9 @@
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-12 08:59",
-    "ai": "2026-10-12 08:59",
-    "voices": "2026-10-12 08:59",
-    "github": "2026-10-12 08:59",
+    "ai": "2026-10-12 10:17",
+    "voices": "2026-10-12 10:17",
+    "github": "2026-10-12 10:17",
     "libraries": "2026-10-12 08:59",
     "sports": "2026-10-12 08:59",
     "academic": "2026-10-11 06:40"
@@ -2098,218 +2098,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "OpenAI数学推理项目",
+          "title_zh": "OpenAI Math",
           "eng": "openai/math",
-          "summary": "OpenAI发布的Lean定理证明环境，用于训练和验证大语言模型的数学推理能力。",
+          "summary": "OpenAI 开源的数学推理验证器，利用 Lean 证明器确保 AI 生成的数学推导在形式化层面正确无误。",
           "source": "GitHub",
-          "stars": 14068,
+          "stars": 14101,
           "lang": "Lean",
           "published": "2026-10-06",
           "url": "https://github.com/openai/math",
-          "overview": "该项目基于Lean编程语言构建，旨在让大语言模型在严格的数学形式化环境中进行推理。它支持从自然语言到形式化证明的转换，是AI数学研究的重要基础设施。OpenAI通过此项目探索了LLM在复杂逻辑任务上的潜力，并提供了标准化的测试环境。",
-          "analysis": "作为OpenAI官方出品，该项目代表了当前AI在形式化数学领域的前沿水平。对于研究者而言，它是验证模型推理可靠性的标准测试床，对AI安全评估也有重要意义。",
+          "overview": "该项目旨在解决大语言模型在数学推理中常见的幻觉问题，通过 Lean 定理证明器对 AI 生成的证明过程进行自动化验证。它支持多种数学库和领域特定的形式化规范，是 AI 可信计算的重要基础设施。",
+          "analysis": "作为 OpenAI 官方开源项目，其高星数反映了社区对 AI 推理可靠性的高度关注。Lean 语言的使用表明该项目追求严格的数学严谨性，对于学术研究和软件验证领域具有标杆意义。",
           "social": [
             {
-              "who": "AI研究者",
-              "text": "Lean环境下的数学证明是检验LLM逻辑能力的黄金标准，这个项目非常有价值。"
+              "who": "研究者",
+              "text": "这是目前最接近将大模型输出转化为可形式化证明的尝试，对 AI 安全至关重要。"
+            },
+            {
+              "who": "开发者",
+              "text": "Lean 生态虽然小众但极其硬核，这个项目有望吸引更多形式化方法人才加入。"
             }
           ]
         },
         {
-          "title_zh": "WordCraft纯Rust版Word",
+          "title_zh": "WordCraft (Rust 版 Word)",
           "eng": "storytold/wordcraft",
-          "summary": "用纯Rust语言从零实现的开源Microsoft Word替代品，支持文档创建与编辑。",
+          "summary": "用纯 Rust 从零重写的 Microsoft Word 替代品，追求高性能与无闭源依赖的文档编辑体验。",
           "source": "GitHub",
-          "stars": 5852,
+          "stars": 6075,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/storytold/wordcraft",
-          "overview": "该项目由storytold团队开发，完全使用Rust编写，不依赖任何闭源组件。它支持文档创建、编辑和格式化，目标是提供一个干净室（clean-room）的办公套件方案。其架构设计注重高性能和低内存占用。",
-          "analysis": "在AI Agent时代，拥有完全可控的本地办公软件对于隐私保护至关重要。纯Rust架构保证了代码质量和运行效率，是开源办公领域的里程碑项目。",
+          "overview": "ArtCraft 系列项目之一，该项目在纯 Rust 环境下实现了 Word 的核心文档编辑功能。它不依赖任何微软闭源组件，旨在为用户提供轻量、安全且跨平台的文字处理方案。",
+          "analysis": "在 AI Agent 时代，本地化办公工具的需求正在上升。Rust 语言的高性能特性使其在处理复杂排版时具备潜力，该项目是开源替代商业软件趋势的强力信号。",
           "social": [
             {
-              "who": "开发者",
-              "text": "用Rust写Word比用C++重写Office更有说服力，这项目的技术选型很聪明。"
+              "who": "独立开发者",
+              "text": "用 Rust 重写 Office 套件是一个大胆且令人兴奋的方向，性能上限远超 C++ 方案。"
+            },
+            {
+              "who": "企业 IT",
+              "text": "摆脱微软闭源依赖是长期目标，但文档兼容性仍是落地前的最大挑战。"
             }
           ]
         },
         {
-          "title_zh": "iPhone-Use：Codex操控真机",
-          "eng": "zhongerxin/iPhone-use",
-          "summary": "让OpenAI Codex通过USB控制真实iPhone进行自动化操作和App安装。",
-          "source": "GitHub",
-          "stars": 3030,
-          "lang": "Python",
-          "published": "2026-10-06",
-          "url": "https://github.com/zhongerxin/iPhone-use",
-          "overview": "该项目实现了从电脑到iPhone的USB连接，支持引导安装应用、App内自动化流程以及实时屏幕截图回退。它展示了AI Agent直接操控物理移动设备的可行性，突破了模拟器的限制。",
-          "analysis": "这是目前最接近“手机机器人”概念的项目之一，对于测试AI在移动端的交互能力具有极高参考价值，也预示着未来Agent与硬件结合的趋势。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "终于可以让Codex直接在手机上干活了，这比模拟器实用得多，自动化测试场景大有可为。"
-            }
-          ]
-        },
-        {
-          "title_zh": "花书艺术动画Skill",
-          "eng": "alchaincyf/huashu-art-motion",
-          "summary": "包含35种艺术风格的代码驱动动画生成工具，用代码让静态图片动起来。",
-          "source": "GitHub",
-          "stars": 3380,
-          "lang": "JavaScript",
-          "published": "2026-10-06",
-          "url": "https://github.com/alchaincyf/huashu-art-motion",
-          "overview": "该项目提供了一套完整的技能包，用户可以用代码让静态图片动起来，涵盖多种解说语法和视觉风格。它降低了动态内容创作的技术门槛，适合短视频和内容营销场景。",
-          "analysis": "在短视频和内容营销领域，这种低成本、高质量的动画生成能力非常实用。对于设计师而言，用代码替代传统动画软件是一种全新的工作流探索。",
-          "social": [
-            {
-              "who": "内容创作者",
-              "text": "用代码做动画比学After Effects高效多了，35种风格直接套用很省心。"
-            }
-          ]
-        },
-        {
-          "title_zh": "GridCraft纯Rust版Excel",
-          "eng": "storytold/gridcraft",
-          "summary": "用纯Rust实现的开源电子表格应用，对标Microsoft Excel，支持公式计算。",
-          "source": "GitHub",
-          "stars": 2900,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/gridcraft",
-          "overview": "作为ArtCraft系列的一部分，GridCraft提供了完整的单元格编辑、公式计算和数据可视化功能。它完全开源且无闭源依赖，旨在为数据处理提供一个安全的本地环境。",
-          "analysis": "对于需要处理敏感数据的用户来说，本地运行的纯Rust电子表格是隐私安全的最佳选择。配合Word和PowerPoint，构成了一个完整的本地办公套件生态。",
-          "social": [
-            {
-              "who": "数据分析师",
-              "text": "在本地跑Excel，再也不用担心数据泄露了，这对金融从业者太重要了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "CADCraft纯Rust版AutoCAD",
-          "eng": "storytold/cadcraft",
-          "summary": "用纯Rust实现的开源计算机辅助设计工具，对标AutoCAD，支持2D绘图。",
-          "source": "GitHub",
-          "stars": 2639,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/cadcraft",
-          "overview": "该项目支持2D绘图、图层管理和基本建模功能，旨在为设计师提供一个免费的本地替代方案。其纯Rust架构确保了软件的高性能和低资源占用。",
-          "analysis": "CAD软件通常价格高昂且体积庞大，纯Rust实现有望大幅降低部署成本并提升运行效率。对于独立设计师和学生群体来说，这是一个极具吸引力的开源工具。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "AutoCAD的开源替代品终于来了，而且是用Rust写的，性能应该比老版本强很多。"
-            }
-          ]
-        },
-        {
-          "title_zh": "NVIDIA macOS Metal驱动",
-          "eng": "nullmoth/nvidia-macos-driver",
-          "summary": "为macOS上的NVIDIA GeForce RTX显卡提供Metal图形驱动支持，免费开源。",
-          "source": "GitHub",
-          "stars": 2529,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/nullmoth/nvidia-macos-driver",
-          "overview": "该项目解决了macOS上运行NVIDIA GeForce RTX卡时的兼容性问题，提供了免费的源代码和安装脚本。它让开发者可以在Mac上使用CUDA生态的一部分，支持游戏开发和GPU计算。",
-          "analysis": "对于在Mac上进行GPU加速计算或游戏开发的开发者来说，这是一个重要的基础设施项目。打破了Apple Silicon独占GPU算力的限制。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "终于不用买Apple Silicon专用显卡了，RTX也能在Mac上跑Metal，这对AI训练太友好了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Aurelio Finance：AI个人理财助手",
-          "eng": "LosaLosSantos/aurelio-finance",
-          "summary": "开源的个人财务管理应用，内置AI财务顾问功能，数据完全本地存储。",
-          "source": "GitHub",
-          "stars": 2225,
-          "lang": "Python",
-          "published": "2026-10-06",
-          "url": "https://github.com/LosaLosSantos/aurelio-finance",
-          "overview": "用户可以追踪净资产、投资、ETF和债务，所有数据存储在本地电脑上。AI功能提供个性化的财务建议和分析报告，帮助用户做出更明智的投资决策。",
-          "analysis": "在隐私日益重要的今天，本地运行的AI理财工具解决了云端数据泄露的痛点。对于注重资产安全的用户来说，这是一个理想的替代方案。",
-          "social": [
-            {
-              "who": "金融爱好者",
-              "text": "数据不上传云端，这才是真正的个人财务管理，AI建议也很实用。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Anatomy Agent：交互式等距插画生成",
+          "title_zh": "Anatomy Agent Skill",
           "eng": "wheresryan22/anatomy",
-          "summary": "AI Agent技能，可自动生成真实机械和复杂系统的详细等距插图。",
+          "summary": "面向 AI Agent 的技能包，可自动生成真实机械和复杂系统的交互式等距风格 SVG 插图。",
           "source": "GitHub",
-          "stars": 3237,
+          "stars": 3461,
           "lang": "JavaScript",
           "published": "2026-10-08",
           "url": "https://github.com/wheresryan22/anatomy",
-          "overview": "该项目能够自动生成带有WebGL着色器和3D效果的SVG矢量图。它特别适合教育和技术文档场景中的可视化需求，将AI与专业插画结合，大幅降低了技术图解的制作成本。",
-          "analysis": "将AI与专业插画结合，大幅降低了技术图解的制作成本和时间。对于需要频繁更新系统架构图的工程师来说，这是一个革命性的工具。",
+          "overview": "该项目允许 AI Agent 生成详细的交互式等距风格插图，支持 SVG 输出并可选 WebGL 着色器与 3D 效果。它解决了技术文档和工程可视化中高质量配图稀缺的问题。",
+          "analysis": "将 AI 绘图能力从通用图像扩展到专业工程领域（如机械原理图），这是一个重要的细分突破。SVG 格式保证了插图的矢量可编辑性，非常适合技术传播场景。",
           "social": [
             {
-              "who": "设计师",
-              "text": "以前画系统架构图要几天，现在让AI生成等距图只要几秒，效率提升太明显了。"
+              "who": "工程师",
+              "text": "终于有一个工具能让 AI 画出像样的等距爆炸图了，以前只能靠手绘。"
+            },
+            {
+              "who": "教育者",
+              "text": "对于 STEM 教学来说，自动生成原理图将大幅降低制作成本。"
             }
           ]
         },
         {
-          "title_zh": "DeckCraft纯Rust版PowerPoint",
-          "eng": "storytold/deckcraft",
-          "summary": "用纯Rust实现的开源演示文稿工具，对标Microsoft PowerPoint，支持幻灯片动画。",
+          "title_zh": "花书艺术动画 (Huashu Art Motion)",
+          "eng": "alchaincyf/huashu-art-motion",
+          "summary": "提供 35 种艺术风格和 9 种解说语法的动画生成 Skill，用代码让静态绘图变为动态艺术作品。",
           "source": "GitHub",
-          "stars": 2018,
+          "stars": 3397,
+          "lang": "JavaScript",
+          "published": "2026-10-06",
+          "url": "https://github.com/alchaincyf/huashu-art-motion",
+          "overview": "这是一个专注于艺术动画生成的开源 Skill，支持多种风格转换和解说语法。它让开发者可以通过代码控制动画节奏、镜头运动和视觉特效，实现高度定制化的动态内容创作。",
+          "analysis": "在 AI 生成视频日益普及的背景下，提供精细可控的动画技能包填补了通用模型与专业需求之间的空白。35 种风格覆盖了从写实到抽象的广泛场景，实用性极强。",
+          "social": [
+            {
+              "who": "创意开发者",
+              "text": "代码控制动画节奏比直接调 API 灵活得多，这个 Skill 的设计思路很巧妙。"
+            },
+            {
+              "who": "设计师",
+              "text": "如果能接入更多字体和材质库，它将成为独立动画制作人的利器。"
+            }
+          ]
+        },
+        {
+          "title_zh": "iPhone-Use (Codex 真机控制)",
+          "eng": "zhongerxin/iPhone-use",
+          "summary": "允许 Codex AI Agent 通过 USB 连接真实 iPhone，实现引导安装、App 自动化及屏幕回退等物理操作。",
+          "source": "GitHub",
+          "stars": 3082,
+          "lang": "Python",
+          "published": "2026-10-06",
+          "url": "https://github.com/zhongerxin/iPhone-use",
+          "overview": "该项目解决了 AI Agent 在移动端物理设备上的操作难题，支持引导安装应用、自动化 App 流程以及实时屏幕截图回退。它是将大模型能力延伸至移动硬件的关键桥梁。",
+          "analysis": "随着 AI Agent 从云端走向终端，手机作为最普及的计算设备之一，其自动化控制需求巨大。该项目展示了 Python 生态在移动端自动化领域的强大潜力。",
+          "social": [
+            {
+              "who": "AI 工程师",
+              "text": "让 Codex 直接操作真机是 Agent 落地的关键一步，这个工具降低了门槛。"
+            },
+            {
+              "who": "测试人员",
+              "text": "自动化安装和回退功能对 App Store 提测流程非常有价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "GridCraft (Rust 版 Excel)",
+          "eng": "storytold/gridcraft",
+          "summary": "纯 Rust 实现的开源电子表格应用，对标 Microsoft Excel，是 ArtCraft 系列办公工具之一。",
+          "source": "GitHub",
+          "stars": 2977,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/gridcraft",
+          "overview": "作为 ArtCraft 系列的第二弹，该项目在纯 Rust 环境下实现了电子表格的核心功能。它强调数据处理的性能和安全性，旨在为需要本地化部署的客户提供替代方案。",
+          "analysis": "Excel 是全球最广泛使用的办公工具之一，用 Rust 重写意味着更高的内存安全性和编译速度。如果社区能持续贡献公式引擎和宏支持，其商业价值将不可估量。",
+          "social": [
+            {
+              "who": "Rust 爱好者",
+              "text": "ArtCraft 系列正在构建一个完整的开源办公生态，Rust 选得真对味。"
+            },
+            {
+              "who": "数据分析师",
+              "text": "本地运行意味着数据不出本机，对于敏感财务数据处理来说这是刚需。"
+            }
+          ]
+        },
+        {
+          "title_zh": "CADCraft (Rust 版 AutoCAD)",
+          "eng": "storytold/cadcraft",
+          "summary": "纯 Rust 实现的开源 CAD 辅助设计工具，对标 AutoCAD，提供计算机辅助设计与绘图功能。",
+          "source": "GitHub",
+          "stars": 2712,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/cadcraft",
+          "overview": "该项目致力于在纯 Rust 环境下实现 CAD 绘图的核心功能，包括二维和三维建模。它面向工程设计和建筑领域，旨在提供比商业软件更轻量、更透明的替代选择。",
+          "analysis": "CAD 行业长期被 Autodesk 垄断，开源方案虽然起步较晚但增长迅速。Rust 的高性能特性在处理复杂几何运算时具有天然优势，值得持续关注其技术演进。",
+          "social": [
+            {
+              "who": "建筑师",
+              "text": "如果能导出 DWG 格式并与主流软件互通，它的实用性将大幅提升。"
+            },
+            {
+              "who": "开源倡导者",
+              "text": "看到 Rust 在专业工程软件领域的渗透，对技术生态的多元化是好事。"
+            }
+          ]
+        },
+        {
+          "title_zh": "NVIDIA macOS Driver (Metal)",
+          "eng": "nullmoth/nvidia-macos-driver",
+          "summary": "为 macOS Sequoia 提供 NVIDIA GeForce RTX 显卡的 Metal 驱动，解决 Intel/OpenCore 环境下的硬件兼容问题。",
+          "source": "GitHub",
+          "stars": 2554,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/nullmoth/nvidia-macos-driver",
+          "overview": "该项目为在 macOS 上运行 NVIDIA GeForce RTX 显卡提供了开源的 Metal 驱动支持，适用于 Intel CPU 和 OpenCore 引导环境。它让用户可以在 Mac 上使用高性能 GPU 进行游戏和专业计算。",
+          "analysis": "macOS 对第三方 GPU 的支持一直是痛点，该项目的出现为 Mac 用户打开了高性能计算的大门。Rust 编写确保了驱动的可靠性和可维护性，是开源硬件兼容领域的里程碑。",
+          "social": [
+            {
+              "who": "Mac 开发者",
+              "text": "终于可以在 Mac 上跑 RTX 了，这对本地 AI 推理和渲染太有吸引力。"
+            },
+            {
+              "who": "硬件玩家",
+              "text": "开源驱动意味着用户可以自行调试和优化，这是闭源厂商做不到的。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Aurelio Finance (AI 理财助手)",
+          "eng": "LosaLosSantos/aurelio-finance",
+          "summary": "开源个人理财应用，内置 AI 财务顾问，支持追踪净资产、投资、ETF 及债务等全方位资产。",
+          "source": "GitHub",
+          "stars": 2282,
+          "lang": "Python",
+          "published": "2026-10-06",
+          "url": "https://github.com/LosaLosSantos/aurelio-finance",
+          "overview": "该项目在本地运行，保护用户财务隐私，同时利用 AI 提供个性化的理财建议。它支持多种资产类型的追踪，包括股票、ETF、现金和债务，是面向个人用户的隐私优先金融工具。",
+          "analysis": "在数据泄露频发的当下，本地化运行的金融应用具有独特价值。结合 AI 顾问功能，它不仅是一个记账本，更是一个智能的财务规划助手，符合当前隐私计算的趋势。",
+          "social": [
+            {
+              "who": "隐私倡导者",
+              "text": "数据不出本机是核心卖点，这在金融领域太重要了。"
+            },
+            {
+              "who": "个人投资者",
+              "text": "如果能接入更多市场数据源并支持多币种，实用性会更强。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DeckCraft (Rust 版 PPT)",
+          "eng": "storytold/deckcraft",
+          "summary": "纯 Rust 实现的开源演示文稿工具，对标 Microsoft PowerPoint，是 ArtCraft 系列办公套件的一部分。",
+          "source": "GitHub",
+          "stars": 2048,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/storytold/deckcraft",
-          "overview": "该项目支持幻灯片创建、动画效果和导出功能，是ArtCraft系列中面向演示场景的组件。它完全开源且无闭源依赖，旨在为演讲者提供一个免费的本地替代方案。",
-          "analysis": "配合Word和Excel一起使用，构成了一个完整的本地办公套件生态。对于需要频繁制作演示文稿的产品经理来说，这是一个极具吸引力的开源工具。",
+          "overview": "作为 ArtCraft 系列的第三弹，该项目在纯 Rust 环境下实现了演示文稿的核心功能。它支持幻灯片编辑、动画效果和导出功能，旨在为演讲者和教育者提供高效的本地化演示方案。",
+          "analysis": "PPT 是商务和学术场景的刚需工具。Rust 实现意味着更低的内存占用和更快的启动速度。随着 ArtCraft 系列生态的完善，这套开源办公套件有望成为特定场景下的有力竞争者。",
           "social": [
             {
-              "who": "产品经理",
-              "text": "做PPT终于不用依赖微软全家桶了，Rust写的应该比PowerPoint还流畅。"
+              "who": "演讲者",
+              "text": "本地运行不用担心云端同步问题，演示时更安心。"
+            },
+            {
+              "who": "Rust 社区",
+              "text": "ArtCraft 系列正在证明 Rust 可以胜任复杂的 GUI 应用开发。"
             }
           ]
         },
         {
-          "title_zh": "fSearch：macOS全磁盘文件搜索",
+          "title_zh": "fsearch (macOS 全磁盘搜索)",
           "eng": "noahdunnagan/fsearch",
-          "summary": "专为macOS设计的高性能模糊文件名和索引内容搜索工具，支持拼写容错。",
+          "summary": "macOS 全磁盘文件搜索引擎，支持模糊匹配与拼写容错，在 800 万文件中实现约 1ms 的搜索速度。",
           "source": "GitHub",
-          "stars": 1859,
+          "stars": 1876,
           "lang": "Rust",
           "published": "2026-10-08",
           "url": "https://github.com/noahdunnagan/fsearch",
-          "overview": "该项目能在800万文件中实现约1毫秒的搜索速度，支持模糊匹配、拼写容错和内容grep功能。它是目前macOS上最快的文件搜索引擎之一，专为开发者设计。",
-          "analysis": "对于大型代码库或海量文件的管理者来说，这种亚秒级响应是生产力工具的核心竞争力。纯Rust实现保证了其在macOS上的稳定性和性能表现。",
+          "overview": "该项目专为 macOS 设计，提供全磁盘文件搜索功能，支持模糊名称匹配、拼写容错和索引内容 grep。其核心亮点是在大规模文件系统中实现毫秒级响应速度，远超传统 Finder 搜索。",
+          "analysis": "在 AI 辅助开发日益普及的背景下，快速定位代码和文档是刚需。Rust 的高性能特性使其成为替代 Spotlight 的理想选择，尤其适合开发者对精确度和速度的高要求场景。",
           "social": [
             {
-              "who": "开发者",
-              "text": "在800万文件里搜东西只要1毫秒，这速度太离谱了，比Spotlight还快。"
+              "who": "后端工程师",
+              "text": "1ms 搜索 800 万文件，这个性能指标在 macOS 上几乎无敌了。"
+            },
+            {
+              "who": "效率工具爱好者",
+              "text": "如果能支持正则表达式和自定义索引类型，它将成为生产力神器。"
             }
           ]
         },
         {
-          "title_zh": "SoundCraft纯Rust版Pro Tools",
+          "title_zh": "SoundCraft (Rust 版 Pro Tools)",
           "eng": "storytold/soundcraft",
-          "summary": "用纯Rust实现的开源专业音频编辑工具，对标Avid Pro Tools，支持多轨混音。",
+          "summary": "纯 Rust 实现的开源专业音频工作站，对标 Avid Pro Tools，旨在提供高性能的音频制作体验。",
           "source": "GitHub",
-          "stars": 1797,
+          "stars": 1835,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/storytold/soundcraft",
-          "overview": "该项目提供了多轨录音、混音和母带处理的基础功能，旨在为音乐制作人提供一个免费的本地替代方案。其纯Rust架构有望在保持专业品质的同时优化性能。",
-          "analysis": "音频软件通常对系统资源要求极高，纯Rust实现有望在保持专业品质的同时优化性能。对于独立音乐人和播客创作者来说，这是一个极具性价比的开源选择。",
+          "overview": "作为 ArtCraft 系列的最新成员，该项目在纯 Rust 环境下实现了专业音频编辑的核心功能。它面向音乐制作人和声音设计师，旨在提供低延迟、高稳定性的本地化音频处理方案。",
+          "analysis": "音频行业对实时性和稳定性要求极高，Rust 的所有权模型天然适合此类场景。如果该项目能解决多轨混音和插件生态的兼容问题，将开辟开源 DAW（数字音频工作站）的新赛道。",
           "social": [
             {
-              "who": "音乐人",
-              "text": "Pro Tools太贵了，用Rust写一个开源替代品是好事，希望后续能支持更多插件格式。"
+              "who": "音乐制作人",
+              "text": "期待它能支持 VST 插件，这是专业工作流的关键。"
+            },
+            {
+              "who": "技术观察者",
+              "text": "ArtCraft 系列正在构建一个完整的开源创意工具链，从文字到音频全覆盖。"
             }
           ]
         }
@@ -2465,59 +2513,59 @@
       "items": [
         {
           "name": "Satya Nadella",
-          "role": "微软首席执行官",
+          "role": "微软 CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "呼吁对AI模型发展实施紧急刹车，强调在追求技术突破的同时必须重视安全与监管风险。",
-          "url": "https://news.microsoft.com/satya-nadella/"
+          "recent": "呼吁对 AI 模型实施紧急制动，强调技术安全与责任边界。",
+          "url": "https://www.microsoft.com/en-us/"
         },
         {
           "name": "Sam Altman",
-          "role": "OpenAI首席执行官",
+          "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦生成式AI的拒绝能力与伦理边界，探讨如何平衡技术创新与安全治理以应对潜在威胁。",
-          "url": "https://openai.com/blog/sam-altman"
+          "recent": "硅谷推动将 AI 更名为超级智能，关注语音 AI 发展节奏与行业保密协议争议。",
+          "url": "https://openai.com/"
         },
         {
-          "name": "吴建中",
-          "role": "图书馆学家/智慧图书馆专家",
-          "region": "中国",
-          "domain": "library",
-          "recent": "主张智慧图书馆并非数字图书馆的简单翻版，强调通过数字赋能推动新时代图书馆的高质量发展。",
-          "url": ""
+          "name": "Kate Crawford",
+          "role": "AI 伦理研究员 (Annenberg)",
+          "region": "英国/澳大利亚",
+          "domain": "ai",
+          "recent": "质疑对 AI 拒绝能力的过度信任，关注数据中心反对者的说服策略与数据透明度。",
+          "url": "https://www.katecrawford.org/"
+        },
+        {
+          "name": "Yann LeCun",
+          "role": "Meta 首席科学家",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "批评当前 ChatGPT 式 AI 范式，主张世界模型方向并质疑语音 AI 的爆发时刻。",
+          "url": "https://ai.meta.com/researchers/yann-lecun/"
         },
         {
           "name": "李开复 (Kai-Fu Lee)",
-          "role": "人工智能专家/播客主理人",
+          "role": "AI 研究者与创业者",
           "region": "中国/美国",
-          "domain": "podcast",
-          "recent": "持续通过公开演讲与播客分析AI技术趋势，关注人工智能对产业变革与社会结构的深远影响。",
-          "url": "https://www.kailifee.com/"
+          "domain": "ai",
+          "recent": "持续探讨 AI 安全与未来影响，关注人机协作前景及 AI 拒绝能力的局限性。",
+          "url": "https://www.kailflee.com/"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名科技播客主持人",
+          "role": "知名播客主持人",
           "region": "美国",
           "domain": "podcast",
-          "recent": "主持深度访谈节目广泛探讨AI安全与伦理争议，关注前沿科技对人类社会的潜在挑战。",
+          "recent": "主持深度访谈科技领袖，聚焦 AI 安全对齐、超级智能伦理及行业透明度争议。",
           "url": "https://lexfridman.com/"
         },
         {
-          "name": "Sarah Miller",
-          "role": "《图书馆杂志》主编/图书馆界AI倡导者",
+          "name": "Michael Burton",
+          "role": "ACRL 主席 (图书馆与信息科学)",
           "region": "美国",
           "domain": "library",
-          "recent": "致力于推动图书馆领域在AI时代的转型策略，关注包容性图书馆教学与馆藏建设指南的制定。",
-          "url": "https://www.libraryjournal.com/"
-        },
-        {
-          "name": "Timnit Gebru",
-          "role": "AI伦理研究者/前Google AI负责人",
-          "region": "全球（美国/加纳）",
-          "domain": "ai",
-          "recent": "长期倡导AI公平性与安全性研究，关注生成式AI可能带来的偏见与社会风险问题。",
-          "url": "https://timnitgebru.com/"
+          "recent": "聚焦图书馆在 AI 时代的角色转型，强调数字素养教育与知识获取的公平性。",
+          "url": "https://www.acrl.org/"
         }
       ]
     },
