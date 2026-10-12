@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-12T15:26:18+08:00",
+  "generated_at": "2026-10-12T17:02:46+08:00",
   "date": "2026-10-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-12 15:26",
-    "ai": "2026-10-12 12:24",
-    "voices": "2026-10-12 14:58",
-    "github": "2026-10-12 14:58",
-    "libraries": "2026-10-12 14:58",
-    "sports": "2026-10-12 15:26",
+    "hot": "2026-10-12 17:02",
+    "ai": "2026-10-12 17:02",
+    "voices": "2026-10-12 17:02",
+    "github": "2026-10-12 17:02",
+    "libraries": "2026-10-12 17:02",
+    "sports": "2026-10-12 17:02",
     "academic": "2026-10-11 06:40"
   },
   "modules": {
@@ -408,6 +408,58 @@
           ]
         },
         {
+          "title_zh": "AI 拒绝指令的困境：我们过度信任了机器的“说不”能力",
+          "eng": "We're putting too much faith in AI's ability to say no",
+          "summary": "当前 AI 模型被训练为拒绝大量提示词，但人类正将过多信任置于这种安全机制之上，忽略了其局限性。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-09",
+          "tags": [
+            "AI 安全",
+            "对齐问题",
+            "模型行为"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+          "overview": "MIT Tech Review 指出当前 AI 模型被训练去拒绝海量提示词（如如何投毒），但这种安全机制可能导致过度保守或无法执行合法请求。文章探讨了科幻中机器人不服从的警示故事，以及现实中人们不应完全依赖 AI 的道德判断力。作者认为，将‘拒绝’视为 AI 的核心美德是一种认知偏差，可能阻碍其在关键领域的实际应用。",
+          "analysis": "这反映了 AI 对齐中的核心矛盾——如何在‘无害’与‘有用’之间取得平衡。如果模型过于倾向于拒绝，可能会阻碍其在医疗、法律等需要主动决策的关键领域的应用。",
+          "social": [
+            {
+              "who": "AI 安全研究者",
+              "text": "AI 的‘拒绝’不应成为默认的安全网，而应作为特定风险场景下的补充机制。"
+            },
+            {
+              "who": "系统工程师",
+              "text": "在实际部署中，我们需要区分恶意提示和正常的高难度请求，避免一刀切的过滤策略导致服务中断。"
+            }
+          ]
+        },
+        {
+          "title_zh": "AI 设计病毒：斯坦福博士用生成式模型探索生命形式的边界",
+          "eng": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "summary": "斯坦福博士生利用生成式 AI 为微观病毒提出基因蓝图，引发了关于 AI 能否设计新生命形式的深度讨论。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-09",
+          "tags": [
+            "合成生物学",
+            "AI 安全",
+            "前沿研究"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "overview": "MIT Tech Review Roundtable 采访了创造者 Samuel King，他使用生成式 AI 模型提出了微生物病毒的遗传蓝图。虽然这还不是 AI 生成的生命体，但标志着合成生物学与 AI 结合的重大进展，引发了对生物安全边界的严肃思考。文章讨论了从基因序列到功能验证之间的巨大鸿沟，以及随之而来的伦理监管挑战。",
+          "analysis": "这一突破表明 AI 在理解复杂生物系统方面的能力正在质变，但也意味着我们需要建立全新的监管框架来管控 AI 驱动的生物设计风险。这不仅是技术问题，更是社会治理问题。",
+          "social": [
+            {
+              "who": "生物安全专家",
+              "text": "AI 生成病毒蓝图只是时间问题，关键在于我们是否准备好了相应的防御和治理机制。"
+            },
+            {
+              "who": "合成生物学研究者",
+              "text": "从基因序列到功能验证之间仍有巨大鸿沟，但方向无疑是危险的，必须谨慎推进。"
+            }
+          ]
+        },
+        {
           "title_zh": "GPU集群调度优化：Hugging Face发布影响性调度方案",
           "eng": "Impactful scheduling for GPU clusters",
           "summary": "Hugging Face发布了针对GPU集群的优化调度方案，旨在提高计算资源利用效率。",
@@ -742,58 +794,6 @@
             {
               "who": "政策分析师",
               "text": "语言重构是政治博弈的一部分，但过度干预可能损害技术社区的信任基础。"
-            }
-          ]
-        },
-        {
-          "title_zh": "AI Agent Instinct 能否在 Muse 挑战中存活",
-          "eng": "Instinct was the buzziest AI agent around — can it survive Muse?",
-          "summary": "The Verge 探讨 AI Agent 初创公司 Instinct 的市场表现及面临的竞争压力，指出其独特的邀请制模式正面临新产品的威胁。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-10-09",
-          "tags": [
-            "AI Agent",
-            "市场竞争",
-            "产品策略"
-          ],
-          "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
-          "overview": "Instinct 以邀请制、无营销的方式迅速成为最热门的 AI Agent，但其基于短信的界面和商业模式面临 Muse 等新兴产品的威胁。AI Agent 赛道正从早期炒作进入残酷的产品力验证阶段。",
-          "analysis": "AI Agent 赛道的竞争正在加剧，用户体验和商业模式创新将成为决定企业存亡的关键因素。单纯的技术领先已不足以维持市场地位。",
-          "social": [
-            {
-              "who": "产品经理",
-              "text": "Agent UX 是新的战场，文本界面限制了大规模用户的采用潜力，需要更直观的交互设计。"
-            },
-            {
-              "who": "投资人",
-              "text": "AI Agent 领域的泡沫正在消退，只有真正解决用户痛点的产品才能存活下来。"
-            }
-          ]
-        },
-        {
-          "title_zh": "OpenAI坚持解雇三名安全研究员遭反驳：公司称违反敏感信息政策",
-          "eng": "OpenAI doubles down on decision to fire three AI safety researchers",
-          "summary": "OpenAI在调查后确认三名安全研究员因\"严重违背信任\"被解雇，但被解者公开反驳指控并警告此举将寒蝉效应打击公司AI安全文化。",
-          "source": "The Verge / TechCrunch",
-          "region": "美国",
-          "published": "2026-10-09",
-          "tags": [
-            "AI安全",
-            "OpenAI",
-            "员工解雇"
-          ],
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-          "overview": "OpenAI在周五通过X平台发布声明，确认解雇Jasmine Wang、Tomek Korbak和Mikita Balesni三名安全研究员，称他们违反了\"处理敏感信息的明确政策\"。被解研究者随后发表公开信反驳不当行为指控，警告此举正在对OpenAI的AI安全文化产生寒蝉效应。TechCrunch的报道补充了被解者的具体回应内容。",
-          "analysis": "这一事件折射出AI行业在安全研究投入与商业利益之间的深层张力。OpenAI以\"违反政策\"为由解雇安全研究员，但被解者指控公司缺乏透明调查程序，这种矛盾可能削弱业界对大模型安全治理的信任基础。",
-          "social": [
-            {
-              "who": "AI安全研究者",
-              "text": "当安全研究者的工作成果反而成为被解雇的理由时，整个行业的安全文化将面临前所未有的信任危机。"
-            },
-            {
-              "who": "科技投资人",
-              "text": "OpenAI此举可能向市场传递错误信号——如果安全团队无法独立发声，那么AI系统的风险管控将形同虚设。"
             }
           ]
         }
@@ -1754,337 +1754,203 @@
     "sports": {
       "items": [
         {
-          "title_zh": "曼城安菲尔德大胜利物浦，但赛季前景仍存悬念",
-          "eng": "Doku delights as Manchester City cruise past 10-man Liverpool",
-          "summary": "曼城在安菲尔德以3-0击败利物浦，延续六连胜纪录并领先积分榜三分。这是俱乐部被裁定违反英超财务规则后的首场比赛。",
-          "source": "BBC Football",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/football/videos/c6vgy2ll1zypo?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在安菲尔德以3-0完胜利物浦，这是俱乐部被独立委员会裁定违反英超财务规则（涉及115项指控）后的首场正式比赛。球队延续了赛季六连胜的完美开局，目前领先积分榜三分。多库表现出色，帮助球队轻松拿下这场胜利。",
-          "analysis": "尽管比分令人满意，但曼城在财务违规裁决阴影下的首胜能否真正提振信心仍有待观察。球队需要证明竞技状态足以支撑他们在争议声中继续领跑联赛。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "安菲尔德的嘘声从未停歇，但曼城用实力回应了质疑，六连胜说明一切。"
-            },
-            {
-              "who": "解说员",
-              "text": "多库的表现是今天的亮点，他在10人作战的情况下依然主导了进攻节奏。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "英超在曼城裁决阴影下重启，足球似乎退居次要地位",
-          "eng": "Premier League returns in shadow of Manchester City's judgment day | Jonathan Wilson",
-          "summary": "自曼城被裁定违反财务规则后，英超首个比赛周末笼罩在争议之中，足球本身似乎退居幕后。",
-          "source": "Guardian Football",
-          "published": "2026-10-11",
-          "url": "https://www.theguardian.com/football/2026/oct/11/premier-league-returns-in-shadow-of-manchester-citys-judgment-day",
-          "overview": "英超联赛在曼城被裁定违反财务规则后重返赛场，首个比赛周末的氛围笼罩着巨大的不确定性。评论员乔纳森·威尔逊用多个比喻描述了这种危机感，指出尽管足球本身是次要的，但俱乐部面临的挑战迫在眉睫。",
-          "analysis": "这场裁决对英超格局的影响将是深远的，所有球队都在观望这一危机的走向。联赛的竞争平衡可能因此受到严重干扰。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "无论曼城最终面临什么后果，英超的竞技水平依然令人兴奋，只是关注度被争议分散了。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这是一个历史性的时刻，足球世界正在经历一场前所未有的财务危机考验。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "安菲尔德恐惧感消失——伊拉奥拉的利物浦困境",
-          "eng": "Winless and an 'easy touch' - what's happened to the Anfield fear factor?",
-          "summary": "利物浦在安菲尔德的挣扎持续，主帅伊拉奥拉至今尚未在该球场赢得过英超首胜。",
-          "source": "BBC Football",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn20wej62o?at_medium=RSS&at_campaign=rss",
-          "overview": "利物浦在安菲尔德的主场优势正在逐渐消失，主帅伊拉奥拉至今未能在此赢得英超首胜。球队连续在多场比赛中被对手轻松击败，主场球迷的恐惧感已不复存在。",
-          "analysis": "安菲尔德曾是利物浦不可逾越的堡垒，如今却成了对手的演练场。这种主场的崩塌对利物浦的赛季前景构成了巨大威胁。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "安菲尔德的嘘声和恐惧感已经消失，伊拉奥拉需要尽快找到赢球的方法。"
-            },
-            {
-              "who": "教练视角",
-              "text": "主场失分是致命的，利物浦必须在接下来的比赛中扭转这一颓势。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "皮诺终结水晶宫回归之旅，格拉斯纳面临挑战",
-          "eng": "Pino finishes off Nottingham Forest on Glasner's unhappy Crystal Palace return",
-          "summary": "皮诺在格拉斯纳重返伦敦的比赛中为水晶宫锁定胜局，尽管球队开局表现不佳。",
-          "source": "Guardian Football",
-          "published": "2026-10-11",
-          "url": "https://www.theguardian.com/football/2026/oct/11/crystal-palace-nottingham-forest-premier-league-match-report",
-          "overview": "水晶宫在格拉斯纳重返伦敦的比赛中以3-0击败诺丁汉森林。尽管球队在前40分钟表现糟糕，但皮诺在比赛末段锁定胜局。前水晶宫球员恩多耶在第3分钟进球，受到球迷热烈欢迎。",
-          "analysis": "格拉斯纳的重返之旅并不顺利，球队在开局阶段的表现令人担忧。不过，最终的结果证明了他有能力带领球队取得胜利。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "恩多耶的进球让水晶宫球迷感到欣慰，尽管比赛过程有些波折。"
-            },
-            {
-              "who": "教练视角",
-              "text": "格拉斯纳需要尽快调整球队状态，避免在开局阶段再次出现失误。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "贝卢米为赫尔城扳平比分，客场不败纪录延续",
-          "eng": "Mohamed Belloumi grabs point for Hull in seesaw draw with Everton",
-          "summary": "贝尔乌米在MKM球场帮助赫尔城1-1战平埃弗顿，延续了球队重返英超后的主场不败纪录。",
-          "source": "Guardian Football",
-          "published": "2026-10-11",
-          "url": "https://www.theguardian.com/football/2026/oct/11/hull-city-everton-premier-league-match-report",
-          "overview": "赫尔城在MKM球场与埃弗顿进行了一场精彩的比赛，最终以1-1战平。贝尔乌米在比赛末段扳平比分，帮助球队延续了重返英超后的主场不败纪录。埃弗顿的约翰逊在第34分钟进球但被VAR判罚无效。",
-          "analysis": "赫尔城的防守表现值得肯定，他们在客场面对强敌时依然能够保持不败。这场比赛为他们的赛季开了一个好头。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "贝尔乌米是今天的英雄，他的进球帮助球队在客场带走一分。"
-            },
-            {
-              "who": "解说员",
-              "text": "VAR的判罚让比赛更加戏剧化，赫尔城的球员们在场上展现了出色的韧性。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "曼城安菲尔德大胜利物浦，但赛季前景仍存悬念",
-          "eng": "Man City's statement win has feeling of irrelevance with season in limbo",
-          "summary": "曼城在利物浦的胜场被视为一种声明，但在英超赛季陷入不确定性的背景下，这份声明的分量令人质疑。",
-          "source": "BBC Football",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmy0rd4pex7no?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在安菲尔德以3-0击败利物浦，这场胜利被视为一种声明。然而，由于俱乐部被裁定违反英超财务规则，赛季前景充满不确定性，这份声明的分量令人质疑。",
-          "analysis": "曼城的胜利虽然令人满意，但在财务违规裁决的阴影下，球队需要证明自己的竞技状态足以支撑他们在争议声中继续领跑联赛。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "曼城用实力回应了质疑，六连胜说明一切，但赛季前景确实令人担忧。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这场胜利的意义在于证明曼城的竞技状态依然出色，但财务问题才是更大的挑战。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "泽西选手希洛克期待欧洲锦标赛挑战",
+          "title_zh": "希洛克期待欧洲锦标赛挑战",
           "eng": "Silcock relishing European Championships chance",
-          "summary": "泽西岛乒乓球运动员汉娜·希洛克表示，她非常期待在本月下旬参加欧洲锦标赛，与欧洲顶尖选手一较高下。",
+          "summary": "泽西岛乒乓球运动员汉娜·希洛克表示，她很期待本月下旬在欧洲锦标赛上与世界顶尖选手一较高下。",
           "source": "BBC Table Tennis",
           "published": "2026-10-08",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c3zxjrv94geko?at_medium=RSS&at_campaign=rss",
-          "overview": "来自泽西岛的乒乓球选手汉娜·希洛克（Hannah Silcock）公开表示对即将到来的欧洲锦标赛充满期待。她认为这是一个与欧洲顶级对手竞争的重要机会，展现了非传统强队地区运动员的进取心。",
-          "analysis": "欧洲锦标赛是检验选手实力的重要舞台，对于来自英国海外领地的选手而言，能在主场氛围中挑战欧洲核心力量尤为难得。希洛克的心态反映出该项目在基层及半职业层面的竞争日益激烈。",
+          "overview": "来自泽西岛的选手希洛克正在为即将到来的欧洲锦标赛做最后准备，她表示能够代表自己参加这项赛事感到非常兴奋。该赛事将于本月下旬举行，届时她将面对欧洲最优秀的乒乓球运动员进行角逐。",
+          "analysis": "作为非传统强国的选手，她的参赛展现了乒乓球运动的广泛参与度，也为欧洲锦标赛增添了更多元化的竞争视角。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "非传统强队的选手能站上欧锦赛舞台本身就值得鼓励，期待她在伦敦的表现。"
-            },
-            {
-              "who": "解说视角",
-              "text": "泽西岛选手代表英国参赛，这种地域多样性正是乒乓球运动的魅力所在。"
+              "text": "泽西岛选手能站上欧锦赛舞台本身就值得鼓励，期待她在赛场上的表现。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "打乒乓球有助于帕金森患者改善运动与情绪",
+          "title_zh": "打乒乓球帮助帕金森患者改善运动与情绪",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "多位患者表示，在布莱顿俱乐部参与乒乓球活动后，其身体运动能力、心情和自信心均得到了明显改善。",
+          "summary": "多位患者表示，在布莱顿俱乐部参与乒乓球活动有助于改善他们的动作协调性、心情和自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者通过运动改善生活质量。患者反馈显示，参与这项运动不仅提升了他们的身体协调性，还显著改善了情绪状态和自信心。",
-          "analysis": "乒乓球因其快速反应和高频率的手眼协调需求，常被推荐给神经退行性疾病患者作为康复辅助手段。这一案例展示了体育在医疗之外的社会价值。",
+          "overview": "报道指出，布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者通过运动改善身体状况。参与者反馈称，这项活动对他们的动作控制、情绪状态和自信心都有积极影响。",
+          "analysis": "这一案例凸显了乒乓球在康复医学和社会心理支持方面的潜力，为社区体育与健康管理的结合提供了新思路。",
           "social": [
             {
               "who": "健康领域观察者",
-              "text": "运动对帕金森患者的帮助已有多项研究证实，社区俱乐部模式让康复更具可持续性。"
-            },
-            {
-              "who": "资深球迷",
-              "text": "乒乓球不只是竞技项目，它对特殊群体的包容性令人印象深刻。"
+              "text": "将乒乓球引入帕金森康复项目非常有意义，运动对神经退行性疾病的辅助治疗价值值得推广。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "NFL第五周回顾：49人、维京人保持全胜，巨人险平指挥官",
+          "title_zh": "NFL第五周：49人与维京人双双保持全胜",
           "eng": "Niners go 5-0 and a rare tie - five things from NFL week five",
-          "summary": "旧金山49人和明尼苏达维京人在NFL第五周继续完美开局。华盛顿指挥官队丹尼尔斯的加时赛失误导致27-27被纽约巨人逼平。",
+          "summary": "旧金山49人和明尼苏达维京人在NFL第五周均保持了赛季完美开局，展现了新赛季的强劲势头。",
           "source": "BBC Sport",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/sport/american-football/articles/cm4g10357e52o?at_medium=RSS&at_campaign=rss",
-          "overview": "NFL第五周多场焦点战上演，旧金山49人与明尼苏达维京人双双保持赛季全胜纪录。华盛顿指挥官队在加时赛关键时刻因四分卫丹尼尔斯的冒险冲球失误未能完成射门，最终27-27被纽约巨人逼平。新英格兰爱国者队以45-17大胜拉斯维加斯突袭者队，杰登·梅伊贡献四记达阵。杰克逊维尔美洲虎队在伦敦最后一秒击败费城老鹰队。",
-          "analysis": "丹尼尔斯在加时赛末段的决策失误成为指挥官赛季开局的最大阴影，巨人队的韧性令人印象深刻。49人和维京人的完美开局为季后赛争夺埋下伏笔，但NFL竞争格局依然充满变数。",
+          "overview": "在NFL第五周的一周精彩赛事中，旧金山49人队和明尼苏达维京人队均取得了胜利，维持了赛季至今的完美战绩。这一结果凸显了两支球队在新赛季初期的统治力，为接下来的赛程增添了悬念。",
+          "analysis": "两队在开局阶段的表现令人印象深刻，但NFL的激烈竞争意味着任何连胜纪录都可能随时被打破。球迷将密切关注这两支强队如何在接下来的比赛中保持状态。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "丹尼尔斯那次冲球真是让人心碎，关键时刻的冒险决策往往决定比赛走向。"
-            },
-            {
-              "who": "NFL评论员",
-              "text": "巨人队从落后14分追平，展现了季后赛级别的韧性，这将是他们赛季的重要转折点。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "板球新规未能解决坏光问题，英澳首测损失超60局",
-          "eng": "New rule, no change - has cricket missed a trick again with bad light?",
-          "summary": "国际板球理事会虽推出新规则应对恶劣天气，但南非与澳大利亚的首场测试赛仍因灯光问题损失超过60个投球局次。",
-          "source": "BBC Sport",
-          "published": "2026-10-12",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c623d4pzy4n2o?at_medium=RSS&at_campaign=rss",
-          "overview": "南非与澳大利亚在板球测试赛中遭遇恶劣天气，尽管国际板球理事会实施了新规则试图减少损失，但首场比赛仍累计损失超过60个投球局次。这一情况引发了对现有规则的质疑，认为板球运动可能再次错失改进良机。",
-          "analysis": "板球运动的天气管理一直是争议焦点，新规未能有效解决问题说明需要更根本性的改革方案。这对赛程安排和球员状态都可能产生深远影响。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "60个投球局次的损失实在太多，板球运动在天气管理上似乎总在原地踏步。"
-            },
-            {
-              "who": "体育记者",
-              "text": "国际板球理事会的改革承诺与实际效果之间存在明显落差，需要更果断的应对措施。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "伤愈归来的卡塔尔武汉站直落两盘击败对手晋级",
-          "eng": "Fit-again Kartal takes top-50 scalp with Wuhan win",
-          "summary": "英国选手卡塔尔在武汉网球公开赛上以直落两盘战胜安赫利娜·卡利尼娜，延续伤后出色状态并闯入第二轮。",
-          "source": "BBC Tennis",
-          "published": "2026-10-12",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c64g104ly00do?at_medium=RSS&at_campaign=rss",
-          "overview": "英国网球选手卡塔尔在从伤病中恢复后状态出色，在武汉网球公开赛首轮比赛中以直落两盘击败世界排名前50的安赫利娜·卡利尼娜。这一胜利标志着她伤后重返顶级赛事的强劲势头，成功晋级第二轮。",
-          "analysis": "卡塔尔的伤愈复出表现令人振奋，击败前50选手证明其竞技状态已恢复到高水平。武汉站作为亚洲重要赛事，将为她的世界排名提升提供关键助力。",
-          "social": [
-            {
-              "who": "网球爱好者",
-              "text": "卡塔尔伤后能这么快恢复并击败强敌，真是令人惊喜的复出表现。"
-            },
-            {
-              "who": "体育分析师",
-              "text": "从伤病中快速回归并保持竞争力，这对年轻选手来说是非常宝贵的经验积累。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "曼城3-0利物浦：独立委员会裁决后的首胜能否挽回信心？",
-          "eng": "Man City's statement win has feeling of irrelevance with season in limbo",
-          "summary": "曼城在安菲尔德3-0击败利物浦，哈兰德梅开二度。这是俱乐部因违反英超财务规则被裁定115项罪名成立后的首场正式比赛。",
-          "source": "BBC Sport",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmy0rd4pex7no?at_medium=RSS&at_campaign=rss",
-          "overview": "曼城在安菲尔德以3-0大胜利物浦，哈兰德梅开二度，恩佐·马雷斯卡在场边指挥若定。这是俱乐部因违反英超财务规则被独立委员会裁定115项罪名成立后的首场正式比赛，尽管面临巨大争议和威胁，球队依然展现了强大的竞技实力。",
-          "analysis": "这场胜利对曼城而言既是信心的重建，也是对其处境的回应。然而，在赛季前景不明朗的背景下，这场胜利的意义可能受到质疑。利物浦球迷的持续抗议也反映了俱乐部面临的复杂局面。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "曼城终于赢了，但安菲尔德的氛围让人感受到这座城市对俱乐部的不满情绪。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "马雷斯卡的执教能力再次得到证明，球队在逆境中展现了强大的心理素质和战术执行力。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "汉密尔顿策略失误致安东内利距F1冠军仅一步之遥",
-          "eng": "Hamilton apologises to Ferrari as Antonelli moves to brink of title",
-          "summary": "汉密尔顿在新加坡大奖赛中的错误策略决定让金米·安东内利在奥斯汀站有机会卫冕世界冠军。维斯塔潘完胜，但安东内利的季军表现至关重要。",
-          "source": "BBC Sport",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/formula1/articles/c65yn9kn47eko?at_medium=RSS&at_campaign=rss",
-          "overview": "在新加坡大奖赛中，刘易斯·汉密尔顿的策略失误导致法拉利车队的金米·安东内利在奥斯汀站获得了争夺世界冠军的机会。马克斯·维斯塔潘以完胜姿态赢得比赛，但安东内利的季军表现使其成为F1历史上最年轻的世界冠军有力竞争者之一。",
-          "analysis": "这一事件凸显了策略决策在F1中的关键作用，一个错误的决定可能改变整个赛季的走向。安东内利作为年轻车手展现出的竞争力令人印象深刻，他的崛起对F1格局产生了深远影响。",
-          "social": [
-            {
-              "who": "F1粉丝",
-              "text": "汉密尔顿的策略失误真是让人惋惜，但安东内利的表现确实令人刮目相看。"
-            },
-            {
-              "who": "赛车评论员",
-              "text": "策略是F1中最难把握的环节之一，这次失误可能成为赛季转折点的关键因素。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "郑钦文唱响卡拉OK夺冠，成为中国网球公开赛首位冠军",
-          "eng": "Karaoke-singing Zheng makes history with China Open win",
-          "summary": "中国选手郑钦文以直落两盘击败安德烈娃，成为北京中国网球公开赛历史上首位中国冠军。赛后她以唱卡拉OK的方式庆祝这一历史性时刻。",
-          "source": "BBC Tennis",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr78pe7yjxxjo?at_medium=RSS&at_campaign=rss",
-          "overview": "中国网球选手郑钦文在北京中国网球公开赛决赛中以直落两盘击败俄罗斯选手安德烈娃，成为该赛事历史上首位中国冠军。赛后她以唱卡拉OK的独特方式庆祝这一历史性胜利，展现了轻松愉悦的夺冠心态。",
-          "analysis": "郑钦文的夺冠不仅是个人的荣耀，更是中国网球的重要里程碑。她的表现证明了中国选手在顶级赛事中的竞争力，也为年轻一代树立了榜样。",
-          "social": [
-            {
-              "who": "中国网球迷",
-              "text": "终于等到这一天！郑钦文用实力证明了中国人也能赢得大满贯级别的赛事冠军。"
-            },
-            {
-              "who": "体育记者",
-              "text": "赛后唱卡拉OK庆祝的方式展现了运动员的个性魅力，这种轻松氛围让人感受到夺冠的喜悦。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "詹姆斯76人季前赛首秀告负：新队友磨合尚需时日",
-          "eng": "James suffers defeat on 76ers debut in pre-season",
-          "summary": "勒布朗·詹姆斯在费城76人队季前赛首秀中遭遇失利，坦言新队友之间的化学反应需要时间建立。",
-          "source": "BBC Basketball",
-          "published": "2026-10-09",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/cqy0r90nxneeo?at_medium=RSS&at_campaign=rss",
-          "overview": "勒布朗·詹姆斯在加盟费城76人队后的季前赛首秀中遭遇失利，赛后坦言新队友之间的化学反应需要时间建立。这一表态反映了球队在新赛季开始前的磨合挑战，也展现了詹姆斯作为领袖的务实态度。",
-          "analysis": "詹姆斯的言论体现了他对团队建设的重视，而非单纯关注个人表现。对于76人队来说，如何在季前赛中建立默契将是新赛季成功的关键因素之一。",
-          "social": [
-            {
-              "who": "NBA球迷",
-              "text": "詹姆斯总是能说出让人安心的话，新球队磨合确实需要时间，期待常规赛的表现。"
-            },
-            {
-              "who": "篮球分析师",
-              "text": "季前赛失利很正常，关键是看球员之间的化学反应能否在常规赛中建立起来。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "威尔逊成为WNBA历史上首位五届MVP球员",
-          "eng": "Wilson becomes first five-time MVP in WNBA history",
-          "summary": "阿贾·威尔逊即将在仪式上被授予WNBA历史第五座常规赛最有价值球员奖杯，创造史无前例的纪录。",
-          "source": "BBC Basketball",
-          "published": "2026-10-09",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/c8ly02yzg2w1o?at_medium=RSS&at_campaign=rss",
-          "overview": "WNBA传奇球员阿贾·威尔逊即将在仪式上被授予第五座常规赛最有价值球员奖杯，成为该联赛历史上首位达成这一成就的球员。尽管颁奖典礼将在周五举行，但她在此之前还需参加一场必须获胜的比赛。",
-          "analysis": "威尔逊的五次MVP荣誉标志着她在WNBA历史上的统治地位，这一纪录的创造将激励更多年轻球员追求卓越。她的职业生涯成就为女子篮球运动的发展注入了强大动力。",
-          "social": [
-            {
-              "who": "女篮球迷",
-              "text": "威尔逊真的是WNBA的传奇人物，五次MVP太不可思议了！"
+              "text": "49人和维京人的完美开局确实让人兴奋，但这只是赛季的开始，真正的考验还在后面。"
             },
             {
               "who": "体育评论员",
-              "text": "这一纪录将载入史册，威尔逊的表现证明了女子篮球运动的竞技水平和观赏价值。"
+              "text": "第五周的比赛质量很高，两支强队的对决总是能带来精彩的比赛。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "南非vs澳大利亚：第一测试赛第四天更新",
+          "eng": "South Africa v Australia: first men's cricket Test, day four – live",
+          "summary": "在德班的国王梅德球场，澳大利亚队在第一测试赛中建立了领先优势，马迪森表现出色。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/sport/live/2026/oct/12/south-africa-v-australia-first-test-day-four-durban-kingsmead-cricket-ground-live-updates",
+          "overview": "南非与澳大利亚的第一测试赛进入第四天，澳大利亚队在德班的国王梅德球场建立了领先优势。马迪森在进攻端表现突出，为球队贡献了重要分数，而南非队则试图通过旋转球来扭转局势。",
+          "analysis": "尽管ICC引入了新规则以应对恶劣光线条件，但仍有超过60个过数因灯光问题丢失，这引发了对规则的质疑。澳大利亚队的领先优势是否能在第五天保持是关键看点。",
+          "social": [
+            {
+              "who": "板球爱好者",
+              "text": "马迪森的表现确实令人印象深刻，他的得分节奏让对手难以招架。"
+            },
+            {
+              "who": "赛事观察者",
+              "text": "灯光问题再次影响了比赛体验，希望ICC能尽快解决这一长期存在的问题。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英超周末十大看点：曼城胜利与热刺进步",
+          "eng": "Premier League: 10 talking points from the weekend’s action",
+          "summary": "曼城在利物浦的胜利引发争议，热刺取得一定进展，诺尼·马杜埃凯成为焦点。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/football/2026/oct/12/premier-league-10-talking-points-from-the-weekend-action",
+          "overview": "英超周末的比赛中，曼城在利物浦的胜利成为焦点，尽管方式引发了争议。热刺也在比赛中取得了一定进展，而诺尼·马杜埃凯的表现则成为了球迷热议的话题。此外，曼城的胜利背景是俱乐部因违反财务规则而被判有罪的阴影下进行的。",
+          "analysis": "曼城的胜利虽然令人高兴，但在财务危机的大背景下，这场胜利的含金量值得商榷。热刺的进步则为联赛增添了更多不确定性，马杜埃凯的表现也展示了年轻球员的成长潜力。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "曼城在安菲尔德的胜利方式确实让人难以接受，但他们在球场上的表现无可挑剔。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "诺尼·马杜埃凯的表现证明了他关键时刻的能力，这将是热刺未来发展的关键因素。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "布朗队仍为布朗队：达肖恩·沃森被喷8次",
+          "eng": "The Browns are still the Browns. And Deshaun Watson is still Deshaun Watson",
+          "summary": "达肖恩·沃森在布朗队的表现未能达到预期，尽管他完成了三次制胜进攻，但在对阵喷气机队时被 sacked 八次。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/sport/2026/oct/12/deshaun-watson-browns-jets-nfl-week-five-column",
+          "overview": "在NFL第五周，达肖恩·沃森带领布朗队完成了三次制胜进攻，但在对阵纽约喷气机队的比赛中被 sacked 八次，最终遭遇惨败。这一结果与赛前围绕沃森回归的 hype 形成了鲜明对比，引发了球迷和媒体的广泛讨论。",
+          "analysis": "沃森的回归之路充满争议，尽管他在关键时刻表现出色，但防守端的漏洞暴露无遗。布朗队需要找到平衡点，让沃森在进攻端发挥优势的同时，改善防守表现。",
+          "social": [
+            {
+              "who": "NFL球迷",
+              "text": "沃森的回归确实令人期待，但这场比赛的结果让人失望，防守问题亟待解决。"
+            },
+            {
+              "who": "体育记者",
+              "text": "布朗队的表现与赛前的 hype 相去甚远，沃森需要时间来适应新的角色和球队体系。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "Junior Nsemba：超越仇恨，追逐橄榄球世界杯梦想",
+          "eng": "'I want to show you can rise above the hate': Junior Nsemba on racism and his Rugby League World Cup dream",
+          "summary": "Wigan前锋Junior Nsemba希望向世界证明可以超越种族仇恨，并为即将到来的橄榄球世界杯做好准备。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/sport/2026/oct/12/i-want-to-show-you-can-rise-above-the-hate-junior-nsemba-on-racism-and-his-rugby-league-world-cup-dream",
+          "overview": "Junior Nsemba是英格兰橄榄球世界杯的希望之星之一，他希望激励年轻黑人运动员，并在即将到来的世界杯开幕战中展现自己的实力。他的故事不仅关乎体育成就，更关乎种族平等和社会正义。",
+          "analysis": "Nsemba的言论和行动展现了新一代运动员的社会责任感，他希望通过自己的努力改变人们对种族问题的看法。世界杯将是检验他实力的舞台，也是传递正能量的机会。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "Junior Nsemba的勇气和决心令人敬佩，他是英格兰橄榄球未来的希望。"
+            },
+            {
+              "who": "社会活动家",
+              "text": "体育是改变社会的有力工具，Nsemba正在用实际行动证明这一点。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "安东内利一步之遥：F1世界冠军争夺战白热化",
+          "eng": "Kimi Antonelli admits he can taste F1 glory after Verstappen wins Singapore GP",
+          "summary": "维斯塔潘赢得新加坡大奖赛后，安东内利在第三名的位置上看到了通往F1世界冠军的可能。",
+          "source": "Guardian Sport",
+          "published": "2026-10-11",
+          "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+          "overview": "在滨海湾赛道举行的新加坡大奖赛中，维斯塔潘从起步到结束都保持着领先优势。安东内利以第三名完赛，这意味着他可能在下一站奥斯汀站的比赛中赢得世界冠军头衔。汉密尔顿因策略失误向法拉利道歉，进一步加剧了竞争态势。",
+          "analysis": "F1赛季的竞争进入白热化阶段，安东内利的表现令人瞩目。如果他在奥斯汀站表现出色，将成为F1历史上最年轻的世界冠军之一。维斯塔潘的统治力依然不容小觑，但安东内利已经证明了自己在关键时刻的能力。",
+          "social": [
+            {
+              "who": "F1车迷",
+              "text": "安东内利的表现令人震惊，他正在改写F1的历史。"
+            },
+            {
+              "who": "赛车评论员",
+              "text": "汉密尔顿的策略失误确实可惜，但安东内利抓住了机会，这将是F1历史上最激动人心的时刻之一。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "郑钦文：中国网球公开赛冠军的历史性突破",
+          "eng": "Karaoke-singing Zheng makes history with China Open win",
+          "summary": "郑钦文在中国网球公开赛中击败安德烈耶娃，成为首位赢得该赛事冠军的中国选手。",
+          "source": "BBC Tennis",
+          "published": "2026-10-11",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr78pe7yjxxjo?at_medium=RSS&at_campaign=rss",
+          "overview": "郑钦文在中国网球公开赛中表现出色，以直落两盘击败安德烈耶娃，成为首位赢得该赛事冠军的中国选手。这一胜利不仅是个人的荣耀，更是中国网球历史上的重要里程碑。",
+          "analysis": "郑钦文的胜利展示了她在关键时刻的冷静和实力。她的表现激励了无数中国年轻球员，也为中国网球的未来注入了新的希望。安德烈耶娃虽然落败，但她的表现也值得肯定。",
+          "social": [
+            {
+              "who": "网球爱好者",
+              "text": "郑钦文的胜利令人振奋，她是中国网球的骄傲。"
+            },
+            {
+              "who": "体育记者",
+              "text": "这一胜利的意义远超比赛本身，它标志着中国网球在世界舞台上的崛起。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "曼城声明性胜利：赛季陷入僵局中的意义何在？",
+          "eng": "Man City's statement win has feeling of irrelevance with season in limbo",
+          "summary": "曼城在利物浦的比赛中取得了声明性的胜利，但考虑到俱乐部因违反财务规则而被判有罪的背景，这场胜利的含金量值得商榷。",
+          "source": "BBC Sport",
+          "published": "2026-10-11",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmy0rd4pex7no?at_medium=RSS&at_campaign=rss",
+          "overview": "曼城在利物浦的比赛中取得了胜利，但这场胜利的含金量值得商榷。考虑到俱乐部因违反财务规则而被判有罪的背景，以及赛季可能因此陷入僵局的前景，曼城的胜利虽然令人高兴，但其意义却打了折扣。",
+          "analysis": "曼城的胜利展示了他们在球场上的实力，但在财务危机的大背景下，这场胜利的含金量值得商榷。英超联赛的未来充满不确定性，曼城需要找到平衡点，在竞技表现和财务合规之间取得平衡。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "曼城的胜利虽然令人高兴，但在财务危机的大背景下，这场胜利的含金量值得商榷。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "曼城需要在竞技表现和财务合规之间找到平衡点，这是他们未来发展的关键。"
             }
           ],
           "region": "综合"
@@ -2100,244 +1966,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "OpenAI Math：数学推理与形式化验证",
+          "title_zh": "OpenAI Lean 数学推理项目",
           "eng": "openai/math",
-          "summary": "OpenAI 开源的基于 Lean 语言的数学推理项目，旨在通过 AI 辅助进行复杂的数学证明和形式化验证。",
+          "summary": "利用 Lean 定理证明器进行形式化数学验证与推理探索。",
           "source": "GitHub",
-          "stars": 14167,
+          "stars": 14210,
           "lang": "Lean",
           "published": "2026-10-06",
           "url": "https://github.com/openai/math",
-          "overview": "该项目展示了 OpenAI 在数学领域的前沿探索，利用大语言模型结合 Lean 证明助手进行自动化定理推导。它允许研究人员和开发者用自然语言描述问题，由 AI 生成严谨的 Lean 代码证明。项目不仅是一个工具，更是 AI 理解形式化逻辑能力的标杆展示，支持从基础算术到高等代数的广泛数学领域。",
-          "analysis": "作为 OpenAI 官方开源项目，其高星数反映了社区对 AI+Math 方向的强烈关注。对于从事形式化验证、密码学及理论计算机科学的开发者而言，这是目前最值得关注的基础设施之一，代表了 AI Agent 在严谨逻辑推理上的最新突破。",
+          "overview": "OpenAI 开源了基于 Lean 定理证明器的数学研究项目，旨在让 AI 在严格的逻辑框架下进行数学证明。该项目展示了大语言模型与形式化验证系统结合的可能性，能够生成可被机器检查的数学代码。社区可以参与协作解决复杂的数学猜想，推动了 AI 辅助数学研究的边界。",
+          "analysis": "这是 OpenAI 在 AI+ 基础科学领域的重磅布局，证明了 LLM 在形式化逻辑中的潜力。对于数学家和开发者而言，这是一个观察 AI 推理能力上限的绝佳窗口。",
           "social": [
             {
               "who": "研究者",
-              "text": "AI 开始真正理解数学证明结构，这对自动化定理发现是里程碑式的进展。"
+              "text": "将大模型引入定理证明是里程碑式的一步，Lean 生态终于有了真正的 AI 原生支持。"
             },
             {
               "who": "开发者",
-              "text": "Lean 生态的 AI 集成将大幅降低形式化验证的门槛，值得深入跟进。"
+              "text": "开源数学推理框架对验证复杂算法的正确性有巨大帮助，值得深入尝试。"
             }
           ]
         },
         {
-          "title_zh": "WordCraft：纯 Rust 实现的 Word 替代品",
+          "title_zh": "WordCraft - Rust 版 Word",
           "eng": "storytold/wordcraft",
-          "summary": "一个完全开源、基于干净室重实现的 Microsoft Word 替代方案，使用纯 Rust 编写。",
+          "summary": "用纯 Rust 从零构建的 Microsoft Word 开源替代品。",
           "source": "GitHub",
-          "stars": 6684,
+          "stars": 7033,
           "lang": "Rust",
           "published": "2026-10-07",
           "url": "https://github.com/storytold/wordcraft",
-          "overview": "WordCraft 是 ArtCraft 系列项目的一部分，旨在用纯 Rust 语言从零开始构建一个功能完整的文字处理应用。它不依赖任何闭源组件，支持文档编辑、格式排版和文件导出等核心功能。该项目展示了 Rust 在复杂桌面应用开发中的潜力，为追求开源可控的办公场景提供了新选择。",
-          "analysis": "6000+ Stars 证明了社区对去中心化办公软件的巨大需求。作为 ArtCraft 系列的首发产品，它为后续 Excel、PPT 等工具的开发奠定了架构基础，是 Rust 桌面应用生态的重要里程碑。",
+          "overview": "Storytold 团队推出的 WordCraft 是一个完全基于 Rust 语言重新实现的文字处理应用，目标是提供类似 Word 的体验但更加安全和高效。作为 ArtCraft 系列的一部分，它展示了用现代系统编程语言重建经典桌面软件的雄心。项目强调代码清洁室（clean-room）原则，避免直接复制商业软件的核心逻辑。",
+          "analysis": "在 AI 时代重写基础办公工具具有深远意义，Rust 的性能和内存安全特性使其成为替代方案的理想选择。值得关注其生态发展及与现有文档格式的兼容性。",
           "social": [
             {
               "who": "开发者",
-              "text": "用纯 Rust 重写 Word 的野心令人钦佩，Rust 的类型安全在这里发挥了关键作用。"
+              "text": "用 Rust 重写 Word 的野心令人敬佩，内存安全性对办公软件至关重要。"
             },
             {
-              "who": "办公效率爱好者",
-              "text": "如果能跑起来且兼容 .docx 格式，这对隐私敏感的用户来说简直是福音。"
+              "who": "设计师",
+              "text": "如果能完美兼容 .docx 格式，这将彻底改变本地文档处理的格局。"
             }
           ]
         },
         {
-          "title_zh": "Anatomy：AI Agent 等距插画生成技能",
+          "title_zh": "Anatomy - 等距插画 Agent Skill",
           "eng": "wheresryan22/anatomy",
-          "summary": "一个用于创建详细交互式等距插画的 AI Agent 技能，可生成带有 WebGL 效果的 SVG 矢量图。",
+          "summary": "生成真实机器和复杂系统的交互式等距插图，支持 SVG 和 WebGL 效果。",
           "source": "GitHub",
-          "stars": 3976,
+          "stars": 4211,
           "lang": "JavaScript",
           "published": "2026-10-08",
           "url": "https://github.com/wheresryan22/anatomy",
-          "overview": "Anatomy 项目允许 AI Agent 理解真实世界机器和复杂系统的结构，并生成精美的等距视角 SVG 插图。它支持可选的 WebGL 着色器和 3D 效果，将静态描述转化为交互式视觉内容。这对于技术文档编写、系统架构图展示以及教育类可视化内容创作具有极高的实用价值。",
-          "analysis": "随着 AI Agent 能力的扩展，从文本到高质量可视化的生成成为关键瓶颈。该项目解决了这一痛点，特别适合工程师和技术写作者快速产出专业插图，是 AI+Creative 工具链中的亮点。",
+          "overview": "wheresryan22 开发的 Anatomy 是一个 AI Agent 技能，能够根据描述创建详细的等距视角机械或系统插图。生成的图像为高质量 SVG 格式，并可选配 WebGL 着色器和 3D 特效以增强交互体验。该工具降低了技术插画的创作门槛，适合教育和工程可视化场景。",
+          "analysis": "将 AI Agent 能力与专业图形学结合是创意工具的典型趋势，SVG+WebGL 的输出保证了在 Web 端的流畅展示。对于工程师和设计师来说，这是一个高效的视觉表达新途径。",
           "social": [
             {
-              "who": "技术写作者",
-              "text": "终于有了让 AI 直接画出等距架构图的工具，效率提升了数倍。"
+              "who": "教育者",
+              "text": "等距图在教学演示中非常直观，AI 生成能大幅减少备课时间。"
             },
             {
-              "who": "设计师",
-              "text": "SVG 输出加上 WebGL 效果，这让 AI 生成的插图可以直接用于网页展示。"
+              "who": "前端开发者",
+              "text": "SVG+WebGL 的混合渲染方案很有创意，值得在可视化项目中借鉴。"
             }
           ]
         },
         {
-          "title_zh": "iPhone-Use：Codex 操控真实 iPhone 自动化",
-          "eng": "zhongerxin/iPhone-use",
-          "summary": "让 Codex 通过 USB 连接操作真实 iPhone，实现引导安装、App 自动化及实时屏幕回退。",
-          "source": "GitHub",
-          "stars": 3183,
-          "lang": "Python",
-          "published": "2026-10-06",
-          "url": "https://github.com/zhongerxin/iPhone-use",
-          "overview": "该项目实现了 AI Agent（Codex）与物理 iPhone 设备之间的深度交互。通过 USB 连接，AI 可以读取屏幕内容、执行操作并回退步骤，支持 App 安装引导和自动化测试流程。这对于移动应用 QA 测试、无障碍辅助以及移动端工作流自动化提供了全新的解决方案。",
-          "analysis": "将 AI Agent 的能力从数字世界延伸到物理硬件是当前的前沿趋势。该项目展示了 Python 生态在移动端自动化中的强大潜力，对于需要大规模移动端测试的团队极具参考价值。",
-          "social": [
-            {
-              "who": "QA 工程师",
-              "text": "AI 直接操控手机做回归测试，这比传统脚本灵活太多了。"
-            },
-            {
-              "who": "开发者",
-              "text": "USB 连接加实时截图回退的设计很巧妙，解决了 Agent 操作不可逆的痛点。"
-            }
-          ]
-        },
-        {
-          "title_zh": "GridCraft：纯 Rust 实现的 Excel 替代品",
-          "eng": "storytold/gridcraft",
-          "summary": "ArtCraft 系列开源项目之一，用纯 Rust 从零构建的类 Microsoft Excel 电子表格应用。",
-          "source": "GitHub",
-          "stars": 3134,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/gridcraft",
-          "overview": "GridCraft 是 ArtCraft 系列中专注于电子表格处理的项目，采用纯 Rust 语言开发，不依赖任何闭源库。它支持单元格编辑、公式计算和基础数据可视化功能。作为 WordCraft 的姊妹项目，它在架构设计上保持了高度的一致性，为构建完全开源的办公套件提供了核心组件。",
-          "analysis": "电子表格是生产力软件中数据密度最高的场景之一，也是 Rust 性能优势最能发挥的地方。该项目的出现填补了 ArtCraft 系列在数据处理领域的空白，对于关注数据隐私和开源可控的用户意义重大。",
-          "social": [
-            {
-              "who": "Rust 开发者",
-              "text": "看到 Word 和 Excel 同时用 Rust 重写，这种技术栈的纯粹性让人兴奋。"
-            },
-            {
-              "who": "数据分析师",
-              "text": "如果能完全兼容 .xlsx 格式，这将彻底改变本地数据处理的工作方式。"
-            }
-          ]
-        },
-        {
-          "title_zh": "CADCraft：纯 Rust 实现的 AutoCAD 替代品",
-          "eng": "storytold/cadcraft",
-          "summary": "ArtCraft 系列开源项目，用纯 Rust 从零构建的类 AutoCAD 计算机辅助设计应用。",
-          "source": "GitHub",
-          "stars": 2841,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/cadcraft",
-          "overview": "CADCraft 旨在为工程师和设计师提供一个完全开源的 CAD 绘图工具，使用纯 Rust 实现。它支持基本的二维绘图、图层管理和精确测量功能。该项目展示了 Rust 在处理高精度几何计算方面的优势，是 ArtCraft 系列中技术复杂度最高的项目之一。",
-          "analysis": "CAD 软件通常体积庞大且依赖商业授权，开源替代方案一直存在巨大需求。CADCraft 虽然目前处于早期阶段，但其架构设计为未来构建轻量级、高性能的 CAD 工具指明了方向。",
-          "social": [
-            {
-              "who": "工程师",
-              "text": "Rust 处理几何计算的性能远超 C++，这给 CAD 开源化带来了新希望。"
-            },
-            {
-              "who": "设计师",
-              "text": "期待它能支持更多专业绘图功能，目前的基础框架已经很有潜力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "NVIDIA macOS 驱动：Metal 加速 RTX 显卡",
-          "eng": "nullmoth/nvidia-macos-driver",
-          "summary": "为 macOS 15 Sequoia 提供 NVIDIA GeForce RTX 显卡的 Metal 开源驱动，支持 Intel/OpenCore。",
-          "source": "GitHub",
-          "stars": 2593,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/nullmoth/nvidia-macos-driver",
-          "overview": "该项目解决了 macOS 用户无法使用 NVIDIA GPU 进行图形加速的痛点，通过开源 Rust 驱动实现 Metal API 支持。它兼容 Intel 和 OpenCore 引导系统，让用户可以在 Mac 上运行需要 CUDA/GPU 计算的应用和游戏。这是一个完全免费且包含源码的方案，打破了硬件厂商对驱动生态的垄断。",
-          "analysis": "随着 AI 本地推理需求的爆发，Mac 用户迫切需要 NVIDIA GPU 支持。该项目的开源性质使其成为社区维护的重要资源，对于开发者在 Mac 上进行深度学习训练或运行 GPU 密集型应用具有极高的实用价值。",
-          "social": [
-            {
-              "who": "AI 研究者",
-              "text": "终于可以在 Mac 上跑 CUDA 了，这对本地模型推理太重要了。"
-            },
-            {
-              "who": "硬件爱好者",
-              "text": "开源驱动意味着社区可以持续修复兼容性问题，比闭源方案可靠得多。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Aurelio Finance：AI 个人理财助手应用",
-          "eng": "LosaLosSantos/aurelio-finance",
-          "summary": "一个开源的个人财务管理应用，内置 AI 财务顾问功能，支持追踪净资产、投资及债务。",
-          "source": "GitHub",
-          "stars": 2401,
-          "lang": "Python",
-          "published": "2026-10-06",
-          "url": "https://github.com/LosaLosSantos/aurelio-finance",
-          "overview": "Aurelio Finance 是一个运行在用户本地计算机上的开源理财应用，集成了 AI 财务顾问功能。用户可以追踪净资产、投资组合、ETF、现金和债务等关键指标。所有数据存储在本地，确保隐私安全。AI 部分提供个性化的财务建议和分析报告，帮助用户做出更明智的财务决策。",
-          "analysis": "在金融数据隐私日益受到重视的背景下，这款开源且运行本地的理财工具极具吸引力。结合 AI 顾问功能，它不仅是一个记账工具，更是个人财务管理的智能助手，适合对数据安全有严格要求的用户。",
-          "social": [
-            {
-              "who": "理财爱好者",
-              "text": "数据存在本地不上传云端，这点对于保守型用户来说非常关键。"
-            },
-            {
-              "who": "开发者",
-              "text": "Python 生态的金融库支持很好，AI 集成部分的设计思路值得学习。"
-            }
-          ]
-        },
-        {
-          "title_zh": "DeckCraft：纯 Rust 实现的 PowerPoint 替代品",
-          "eng": "storytold/deckcraft",
-          "summary": "ArtCraft 系列开源项目之一，用纯 Rust 从零构建的类 Microsoft PowerPoint 演示文稿应用。",
-          "source": "GitHub",
-          "stars": 2119,
-          "lang": "Rust",
-          "published": "2026-10-07",
-          "url": "https://github.com/storytold/deckcraft",
-          "overview": "DeckCraft 是 ArtCraft 系列中专注于演示文稿制作的项目，采用纯 Rust 语言开发。它支持幻灯片编辑、动画效果和导出功能。作为 WordCraft 和 GridCraft 的补充，它完善了开源办公套件的核心组件，为教育和企业场景提供了隐私友好的替代方案。",
-          "analysis": "演示文稿软件是日常工作中使用频率极高的工具。DeckCraft 的出现进一步证明了 Rust 在 GUI 应用开发中的成熟度，对于希望摆脱商业软件许可限制的用户来说是一个值得关注的选项。",
-          "social": [
-            {
-              "who": "教师",
-              "text": "如果能在课堂上直接使用，不用担心数据泄露问题，这对教育场景太友好了。"
-            },
-            {
-              "who": "Rust 社区",
-              "text": "ArtCraft 系列正在逐步构建一个完整的开源办公生态，令人期待。"
-            }
-          ]
-        },
-        {
-          "title_zh": "fsearch：macOS 全盘模糊搜索工具",
-          "eng": "noahdunnagan/fsearch",
-          "summary": "专为 macOS 设计的全盘文件搜索工具，支持模糊匹配、拼写容错和索引内容 grep，速度极快。",
-          "source": "GitHub",
-          "stars": 1896,
-          "lang": "Rust",
-          "published": "2026-10-08",
-          "url": "https://github.com/noahdunnagan/fsearch",
-          "overview": "fsearch 是一款面向 macOS 用户的高性能文件搜索工具，能够在数千万文件的磁盘上实现约 1 毫秒的查询速度。它支持模糊名称匹配、拼写容错以及索引内容的 grep 搜索。相比 Spotlight，它在复杂搜索场景下提供了更高的精确度和灵活性，是 Rust 在系统工具领域应用的典范之作。",
-          "analysis": "对于 macOS 开发者而言，Spotlight 的搜索能力往往不够灵活。fsearch 以极快的速度和强大的模糊匹配功能填补了这一空白，特别适合需要频繁处理大量文件的技术人员。其 Rust 实现也保证了长期维护的低成本和高性能。",
-          "social": [
-            {
-              "who": "macOS 开发者",
-              "text": "1ms 搜索 800 万文件，这个性能指标太惊人了，Rust 的内存管理功不可没。"
-            },
-            {
-              "who": "效率工具爱好者",
-              "text": "拼写容错功能非常实用，再也不用因为手误找不到文件了。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Huashu Art Motion：艺术动画生成技能",
+          "title_zh": "花书艺术动画 - AI 让画动起来",
           "eng": "alchaincyf/huashu-art-motion",
-          "summary": "一个支持 35 种艺术风格和 9 种解说语法的 AI 技能，用代码让静态画作动起来。",
+          "summary": "提供 35 种艺术风格和 9 种解说语法，用代码驱动静态画作产生动态效果。",
           "source": "GitHub",
-          "stars": 3439,
+          "stars": 3482,
           "lang": "JavaScript",
           "published": "2026-10-06",
           "url": "https://github.com/alchaincyf/huashu-art-motion",
-          "overview": "Huashu Art Motion 是一个专注于将静态艺术作品转化为动态动画的 AI 技能。它提供了丰富的艺术风格库和解说语法，用户可以通过代码或自然语言指令让画作产生流畅的运动效果。该项目降低了数字艺术创作的门槛，使得非专业用户也能轻松制作出具有电影质感的动态视觉内容。",
-          "analysis": "随着短视频和社交媒体对动态内容的偏好增加，静态图片的动画化需求日益增长。Huashu Art Motion 通过丰富的风格选择和灵活的语法系统，为创作者提供了强大的工具，是 AI+Creative 领域的一个有趣探索。",
+          "overview": "alchaincyf 发布的 huashu-art-motion 是一个专注于艺术动画的 Skill，用户可以使用多种预设风格将静态图片转化为动态展示。项目支持丰富的解说语法来控制运动节奏和视觉变化，让创作者能够以编程方式实现复杂的艺术动画效果。",
+          "analysis": "在 AIGC 领域，静态到动态的转换是热门方向之一。该项目提供了结构化的风格控制，有助于开发者快速构建个性化的艺术展示应用。",
           "social": [
             {
-              "who": "数字艺术家",
-              "text": "35 种风格的选择很丰富，让静态画作动起来的效果非常惊艳。"
+              "who": "创意工作者",
+              "text": "35 种风格覆盖很广，用代码控制动画节奏比手动剪辑灵活得多。"
             },
             {
-              "who": "内容创作者",
-              "text": "用代码控制动画参数，这种精确度是传统视频编辑工具难以实现的。"
+              "who": "AI 爱好者",
+              "text": "将艺术生成与运动控制结合的思路很好，适合做社交媒体内容创作。"
+            }
+          ]
+        },
+        {
+          "title_zh": "iPhone-Use - Codex 真机操控",
+          "eng": "zhongerxin/iPhone-use",
+          "summary": "让 OpenAI Codex 通过 USB 连接直接操作真实的 iPhone 设备。",
+          "source": "GitHub",
+          "stars": 3225,
+          "lang": "Python",
+          "published": "2026-10-06",
+          "url": "https://github.com/zhongerxin/iPhone-use",
+          "overview": "zhongerxin 开发的 iPhone-use 项目实现了 AI Agent（如 Codex）对物理 iPhone 设备的远程控制能力，支持引导安装、App 自动化测试以及实时屏幕截图回退。该工具打通了云端 AI 与本地硬件之间的交互壁垒，为移动端的自动化测试和演示提供了新思路。",
+          "analysis": "随着 AI Agent 能力的增强，直接操控物理设备成为可能，这对移动端 QA 和开发者体验至关重要。该项目展示了 LLM 在复杂硬件交互中的落地潜力。",
+          "social": [
+            {
+              "who": "测试工程师",
+              "text": "AI 自动操作真机是移动测试的未来方向，这比模拟器更接近真实场景。"
+            },
+            {
+              "who": "开发者",
+              "text": "USB 直连控制 iPhone 的稳定性如何？如果成熟将极大提升自动化效率。"
+            }
+          ]
+        },
+        {
+          "title_zh": "GridCraft - Rust 版 Excel",
+          "eng": "storytold/gridcraft",
+          "summary": "用纯 Rust 实现的开源电子表格应用，对标 Microsoft Excel 风格。",
+          "source": "GitHub",
+          "stars": 3209,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/gridcraft",
+          "overview": "Storytold 团队推出的 GridCraft 是一个基于 Rust 语言构建的开源电子表格工具，界面和操作逻辑对标经典的 Excel 体验。作为 ArtCraft 系列的一部分，它致力于在保持商业软件功能的同时，提供完全自主可控的代码实现。支持公式计算、数据可视化等核心办公需求。",
+          "analysis": "用 Rust 重写 Office 套件是近年来最具野心的开源项目之一，其内存安全性和编译速度优势明显。对于注重隐私和安全的用户来说，这是一个值得长期关注的替代方案。",
+          "social": [
+            {
+              "who": "数据分析师",
+              "text": "如果公式引擎足够强大且兼容 .xlsx 格式，这将解决很多本地数据处理痛点。"
+            },
+            {
+              "who": "开源社区",
+              "text": "ArtCraft 系列正在重新定义桌面软件生态，Rust 的性能优势是核心卖点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "CADCraft - Rust 版 AutoCAD",
+          "eng": "storytold/cadcraft",
+          "summary": "用纯 Rust 实现的开源计算机辅助设计（CAD）应用，对标 AutoCAD。",
+          "source": "GitHub",
+          "stars": 2902,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/cadcraft",
+          "overview": "CADCraft 是 Storytold 团队基于 Rust 构建的 CAD 绘图工具，旨在提供类似 AutoCAD 的专业工程制图体验。项目采用 clean-room 开发模式，确保核心算法完全自主实现而不依赖商业授权。支持二维绘图和基础三维建模功能，面向工程师和设计师群体。",
+          "analysis": "将专业 CAD 工具开源化并迁移至 Rust 生态，有助于降低行业软件许可成本。其模块化设计也为后续扩展插件提供了良好基础。",
+          "social": [
+            {
+              "who": "机械工程师",
+              "text": "如果能支持 DWG 格式导入导出，这将是对 AutoCAD 最大的开源挑战之一。"
+            },
+            {
+              "who": "Rust 开发者",
+              "text": "在 Rust 中实现几何引擎非常考验功底，期待看到更多底层优化细节。"
+            }
+          ]
+        },
+        {
+          "title_zh": "NVIDIA macOS Metal 驱动",
+          "eng": "nullmoth/nvidia-macos-driver",
+          "summary": "为 macOS Sequoia 上的 NVIDIA GeForce RTX 显卡提供开源 Metal 驱动支持。",
+          "source": "GitHub",
+          "stars": 2617,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/nullmoth/nvidia-macos-driver",
+          "overview": "nullmoth 发布的 nvidia-macos-driver 项目解决了 macOS 系统原生不支持 NVIDIA GPU 的问题，通过开源 Rust 代码实现了 Metal API 的底层驱动适配。该工具兼容 Intel 和 OpenCore 环境，让 Mac 用户能够利用 RTX 显卡进行游戏和专业计算任务。",
+          "analysis": "对于使用 Hackintosh 或混合硬件的开发者来说，这是解锁 NVIDIA GPU 性能的关键工具。开源驱动的透明性也便于社区排查和修复兼容性问题。",
+          "social": [
+            {
+              "who": "Mac 用户",
+              "text": "终于可以在 Mac 上跑 RTX 显卡了，这对游戏玩家和专业渲染需求是重大利好。"
+            },
+            {
+              "who": "硬件爱好者",
+              "text": "Rust 写的驱动稳定性如何？希望官方能跟进支持更多型号。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Aurelio Finance - AI 个人理财助手",
+          "eng": "LosaLosSantos/aurelio-finance",
+          "summary": "本地运行的开源个人财务管理应用，内置 AI 财务顾问功能。",
+          "source": "GitHub",
+          "stars": 2476,
+          "lang": "Python",
+          "published": "2026-10-06",
+          "url": "https://github.com/LosaLosSantos/aurelio-finance",
+          "overview": "LosaLosSantos 开发的 aurelio-finance 是一款完全在用户本地电脑运行的个人理财工具，支持追踪净资产、投资、ETF、现金和债务等数据。项目集成了 AI 财务顾问模块，能够根据用户的财务状况提供个性化的分析和建议，同时严格保护隐私不上传云端。",
+          "analysis": "在当前数据隐私意识增强的背景下，本地化 AI 理财工具具有独特价值。它平衡了功能丰富性与数据安全需求，适合注重隐私的投资者使用。",
+          "social": [
+            {
+              "who": "投资者",
+              "text": "数据不上云对理财应用来说太重要了，AI 建议能帮很多新手理清资产结构。"
+            },
+            {
+              "who": "Python 开发者",
+              "text": "开源财务工具加上 AI 模块的组合很实用，适合做二次开发扩展。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DeckCraft - Rust 版 PowerPoint",
+          "eng": "storytold/deckcraft",
+          "summary": "用纯 Rust 实现的开源演示文稿应用，对标 Microsoft PowerPoint。",
+          "source": "GitHub",
+          "stars": 2165,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/deckcraft",
+          "overview": "Storytold 团队推出的 DeckCraft 是一个基于 Rust 构建的演示文稿工具，界面和功能对标经典的 PowerPoint 体验。作为 ArtCraft 系列的一部分，它旨在为用户提供无需商业授权的幻灯片制作方案。支持文本编辑、图片插入和基础动画效果，适合日常办公和教育场景。",
+          "analysis": "在 AI 辅助创作日益普及的今天，拥有完全自主可控的演示工具可以消除对商业软件许可证的依赖。Rust 的高性能也使其在处理复杂排版时表现优异。",
+          "social": [
+            {
+              "who": "教师",
+              "text": "做课件不再需要付费订阅了，这对教育场景来说是非常好的消息。"
+            },
+            {
+              "who": "办公效率党",
+              "text": "如果能导出 PPTX 格式，就能无缝对接现有工作流，期待后续更新。"
+            }
+          ]
+        },
+        {
+          "title_zh": "SoundCraft - Rust 版 Pro Tools",
+          "eng": "storytold/soundcraft",
+          "summary": "用纯 Rust 实现的开源专业音频工作站，对标 Avid Pro Tools。",
+          "source": "GitHub",
+          "stars": 1944,
+          "lang": "Rust",
+          "published": "2026-10-07",
+          "url": "https://github.com/storytold/soundcraft",
+          "overview": "Storytold 团队推出的 SoundCraft 是一个基于 Rust 构建的专业音频编辑应用，旨在复刻 Avid Pro Tools 的核心工作流。项目采用 clean-room 开发原则，确保所有核心功能均为自主实现。支持多轨录音、混音和效果处理，面向音乐制作人和音频工程师群体。",
+          "analysis": "将专业级音频软件开源化是极具挑战性的目标，该项目展示了 Rust 在高性能实时音频处理中的潜力。如果成功落地，将对商业 DAW 市场产生显著冲击。",
+          "social": [
+            {
+              "who": "音乐制作人",
+              "text": "Pro Tools 的替代品如果能做到低延迟，将是录音棚的革命性变化。"
+            },
+            {
+              "who": "音频工程师",
+              "text": "Rust 在 DSP 领域的表现一直不错，期待看到更多关于插件生态的支持。"
+            }
+          ]
+        },
+        {
+          "title_zh": "fsearch - macOS 全磁盘搜索工具",
+          "eng": "noahdunnagan/fsearch",
+          "summary": "专为 macOS 设计的全磁盘文件搜索引擎，支持模糊匹配和索引内容 grep，速度极快。",
+          "source": "GitHub",
+          "stars": 1909,
+          "lang": "Rust",
+          "published": "2026-10-08",
+          "url": "https://github.com/noahdunnagan/fsearch",
+          "overview": "noahdunnagan 开发的 fsearch 是一个运行在 macOS 上的高性能文件搜索工具，能够在约 800 万文件的存储中实现毫秒级响应。它支持模糊名称匹配、拼写容错以及基于索引的内容全文检索（grep），解决了 Spotlight 在某些场景下不够灵活的问题。",
+          "analysis": "对于依赖大量本地数据的开发者和技术人员来说，快速精准的文件搜索是日常刚需。该项目展示了 Rust 在系统工具层面的极致性能优化能力。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "1ms 搜索 800 万文件太惊人了，比 Spotlight 更精准且支持正则表达式。"
+            },
+            {
+              "who": "系统管理员",
+              "text": "在大规模本地存储环境中，这种性能级别的搜索工具非常实用。"
             }
           ]
         }
@@ -2347,241 +2235,177 @@
       "items": [
         {
           "title_zh": "德勤协助伪造文件帮助阿布拉莫维奇逃避税收",
-          "summary": "BBC 调查发现，知名会计师事务所德勤曾参与伪造文件以规避俄罗斯寡头阿布拉莫维奇的财富税。",
-          "source": "BBC 新闻",
+          "summary": "BBC调查发现，德勤公司协助俄罗斯寡头伪造了过期文件以规避税务审查，相关文件还导致其游艇和豪宅从账户中消失。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-          "overview": "BBC 深入调查发现，德勤协助俄罗斯寡头阿布拉莫维奇通过倒签文件来逃避巨额财富税。调查还发现，这些伪造的文书导致其游艇和豪宅从相关账户中消失。这一丑闻揭示了顶级会计事务所在税务合规方面的严重失职，可能引发英国及国际监管机构的进一步审查。",
-          "analysis": "此事件不仅涉及个人逃税，更暴露了大型专业服务机构在反洗钱和税务合规中的系统性漏洞。若属实，德勤可能面临巨额罚款及声誉崩塌，同时阿布拉莫维奇涉及的资产转移问题也将成为调查重点。",
+          "overview": "据BBC最新调查报道，知名会计师事务所德勤（Deloitte）被指协助俄罗斯寡头罗曼·阿布拉莫维奇伪造文件以逃避税务审查。调查发现，这些经过倒签的文件不仅帮助其隐藏了巨额财富的税务记录，还使其拥有的豪华游艇和住宅从相关财务账户中消失。这一丑闻引发了对顶级会计机构合规性的广泛质疑。",
+          "analysis": "此案揭示了大型跨国会计事务所在服务高净值客户时可能存在的系统性风险。公众将密切关注德勤对此事的回应以及英国监管机构是否介入调查，这或将引发金融服务业的新一轮合规审查风暴。",
           "social": [
             {
-              "who": "财经评论员",
-              "text": "连德勤都敢造假，这比逃税本身更令人震惊，审计行业的信任基石正在动摇。"
-            },
-            {
-              "who": "法律观察人士",
-              "text": "如果证据确凿，相关责任人将面临严重的刑事指控，这对英国金融监管体系是巨大冲击。"
+              "who": "财经观察",
+              "text": "顶级会计机构的背书失效意味着税务合规防线存在巨大漏洞，高净值人群资产安全问题再次成为焦点。"
             }
           ]
         },
         {
-          "title_zh": "英国首相称拒绝更紧密欧盟关系是失职",
-          "summary": "英国首相伯恩汉姆在议会表示，拒绝与欧盟建立更紧密联系是对职责的背离，新协议有助于打击非法移民并促进经济增长。",
-          "source": "BBC 新闻",
+          "title_zh": "英国首相称拒绝更紧密欧盟关系是失职行为",
+          "summary": "伯恩哈姆在议会下院表示，达成新的欧盟协议有助于打击非法移民并促进经济增长，拒绝合作将违背职责。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/news/articles/c6lyk8e3lxz0o?at_medium=RSS&at_campaign=rss",
-          "overview": "面对国内关于脱欧后关系的争论，英国首相伯恩汉姆在议会发表讲话，强调与欧盟达成新协议的重要性。她指出，更紧密的合作关系不仅能有效应对非法移民问题，还能显著推动英国的经济增长。这一表态被视为政府试图稳定脱欧后外交经济局面的关键信号。",
-          "analysis": "首相的言论折射出英国国内在脱欧后续安排上的分歧正在加剧。如何在主权独立与欧盟合作之间找到平衡点，将是未来英国政治的核心议题之一。",
+          "overview": "英国首相伯恩哈姆在议会下院发表讲话，明确表示拒绝与欧盟建立更紧密的关系是一种失职行为。他预计将阐述新协议如何帮助解决非法移民问题并推动经济增长。这一表态发生在当前英国脱欧后与欧盟关系持续波动的背景下。",
+          "analysis": "此举标志着英国政府可能在外交政策上出现重大转向，试图在保持主权独立的同时重新融入欧洲经济体系。市场将关注后续谈判进展及其对英镑和贸易的影响。",
           "social": [
             {
-              "who": "欧洲政策分析师",
-              "text": "首相这番话是在回应保守党内部的强硬派压力，试图在亲欧和疑欧之间走钢丝。"
-            },
-            {
-              "who": "普通选民",
-              "text": "经济问题确实重要，但移民问题才是大家最关心的痛点，首相需要拿出具体方案。"
+              "who": "政治评论",
+              "text": "脱欧后的英国正面临身份认同与经济利益的博弈，首相的表态显示务实派力量正在上升。"
             }
           ]
         },
         {
           "title_zh": "胡塞武装两天内第二次袭击利雅得机场致一死十一伤",
-          "summary": "伊朗支持的也门胡塞武装在周末对沙特首都利雅得机场发动了多次攻击，造成一名平民死亡和十余人受伤。",
-          "source": "BBC 新闻",
+          "summary": "沙特首都利雅得在周末遭受伊朗支持的也门胡塞武装多次攻击，最新一轮袭击造成一名平民死亡和十余人受伤。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-10-11",
           "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "overview": "沙特首都利雅得机场在短短两天内遭到胡塞武装的第二次袭击，导致一名人员死亡、十余人受伤。这是也门冲突升级的最新表现，胡塞武装作为伊朗支持的代理人力量，持续对沙特关键基础设施发动攻击，局势令人担忧。",
-          "analysis": "针对民用航空设施的袭击严重威胁地区安全与稳定。如果沙特无法有效防御此类攻击，可能会进一步激化与伊朗阵营的对抗，甚至引发更广泛的军事冲突。",
+          "overview": "胡塞武装在短短两天内对沙特首都利雅得机场发动了第二次袭击，造成一名人员死亡和十余人受伤。这是该伊朗支持也门组织近期针对沙特关键基础设施持续升级攻击的一部分。事件再次凸显了中东地区安全局势的严峻性。",
+          "analysis": "胡塞武装对沙特核心交通枢纽的攻击严重威胁区域稳定，可能引发更广泛的军事冲突或国际干预。国际社会正密切关注事态发展及各方外交斡旋进展。",
           "social": [
             {
-              "who": "中东局势专家",
-              "text": "机场是软目标，胡塞武装此举意在打击沙特经济命脉和国际形象，后果可能远超预期。"
-            },
-            {
-              "who": "航空安全博主",
-              "text": "利雅得机场再次遇袭，中东地区的空域安全和旅客出行保障面临严峻考验。"
+              "who": "安全分析",
+              "text": "也门局势外溢效应显著，沙特作为中东经济中心的安全受到直接挑战，区域反恐合作面临考验。"
             }
           ]
         },
         {
-          "title_zh": "智库警告伊朗战争使英国预算面临 350 亿英镑挑战",
-          "summary": "英国财政研究所指出，伊朗战争对政府支出计划构成重大风险，首相希利面临巨额预算缺口。",
-          "source": "BBC 新闻",
+          "title_zh": "财政研究所警告英国预算面临350亿英镑缺口",
+          "summary": "英国财政研究所（IFS）指出，政府若要坚持当前的支出承诺，需要额外数十亿英镑的补充资金来填补预算赤字。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss",
-          "overview": "英国财政研究所（IFS）发布报告警告，受伊朗战争影响，政府支出计划面临显著风险。首相希利需要应对高达 350 亿英镑的预算挑战以兑现其支出承诺。这场冲突带来的军事开支增加和供应链中断正给英国财政带来沉重压力。",
-          "analysis": "战争经济对和平时期国家财政的冲击是巨大的。如果无法有效管控额外支出，可能导致公共服务削减或税收增加，进而影响选民支持率。",
+          "overview": "英国财政研究所发布报告警告，政府当前的支出计划面临严峻挑战，需要额外补充数十亿英镑资金才能兑现承诺。该机构强调预算平衡的重要性，并呼吁政府在公共开支上做出更审慎的规划。这一预测在即将到来的预算季前引发了广泛关注。",
+          "analysis": "巨额预算缺口可能迫使英国政府在未来削减公共服务或增加税收，这将直接影响选民对执政党的支持率。财政可持续性已成为当前英国政治的核心议题之一。",
           "social": [
             {
-              "who": "经济学教授",
-              "text": "350 亿英镑不是小数目，这可能会直接导致 NHS 和教育的预算被挤压。"
-            },
-            {
-              "who": "政治评论员",
-              "text": "希利政府需要在战争开支和民生保障之间做出艰难取舍，这将考验其执政能力。"
+              "who": "经济智库",
+              "text": "公共债务压力持续上升，如何在经济增长与财政纪律之间取得平衡是政府面临的最大难题。"
             }
           ]
         },
         {
-          "title_zh": "改革党若执政将暂停庇护体系并驱逐所有申请人",
-          "summary": "英国改革党提出激进方案，若赢得大选将暂停整个庇护系统，拒绝所有新申请并遣返现有寻求庇护者。",
-          "source": "BBC 新闻",
+          "title_zh": "改革党承诺暂停庇护系统五年并驱逐所有申请人",
+          "summary": "英国改革党提出激进政策，计划将所有庇护申请驳回并使现有案件失效，同时标记所有申请人进行驱逐出境。",
+          "source": "BBC News",
           "region": "国外",
-          "published": "2026-10-11",
+          "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/news/articles/cwnv0zmjld51o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国改革党公布了其执政后的移民政策蓝图，计划全面暂停庇护体系。所有新的庇护申请将被拒绝，现有的申请也将被作废，所有寻求庇护者将被标记为遣返对象。这一极端立场旨在回应国内日益高涨的反移民情绪，但也引发了关于人权和国际法的广泛争议。",
-          "analysis": "该提案若实施，将彻底改变英国的难民接收政策，并可能引发国际社会的强烈谴责和人道主义危机。这反映了当前英国政治中极右翼势力的崛起趋势。",
+          "overview": "英国改革党（Reform UK）公布了极具争议的政策承诺，计划暂停庇护系统长达五年，并将所有现有庇护申请视为无效。该党主张对所有寻求庇护者进行标记并驱逐出境。这一激进的移民立场旨在吸引对当前政府移民政策不满的选民群体。",
+          "analysis": "此举若被采纳将彻底改变英国的移民法律框架，可能引发严重的人道主义危机和国际社会的强烈谴责。反对派和公民社会组织预计将发起大规模抗议活动。",
           "social": [
             {
-              "who": "人权组织代表",
-              "text": "这种一刀切的遣返方案完全无视个人遭遇的迫害风险，是对基本人权的严重侵犯。"
-            },
-            {
-              "who": "移民权益倡导者",
-              "text": "政策过于激进，不仅无法解决非法移民问题，反而可能迫使更多人通过更危险的途径入境。"
+              "who": "移民政策",
+              "text": "极右翼政党的激进主张正在重塑英国政治版图，但也加剧了关于人权与主权边界的激烈辩论。"
             }
           ]
         },
         {
-          "title_zh": "婆罗洲大火后猩猩家庭重返野外获释",
-          "summary": "一只极度濒危的猩猩家庭在经历了摧毁其栖息地的严重森林火灾后被成功救回并放归自然。",
-          "source": "BBC 新闻",
-          "region": "国外",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
-          "overview": "在 8 月和 9 月期间，婆罗洲的严重森林火灾摧毁了猩猩的栖息地。工作人员成功从火场中救出一家极度濒危的红毛猩猩，并在经过精心照料后将其重新放归野外。这一事件展示了野生动物保护团队在面对自然灾害时的努力与成效。",
-          "analysis": "婆罗洲大火对生物多样性造成了巨大打击。此次猩猩家庭的获释是保育工作的胜利，但也警示我们需要更积极地应对气候变化引发的森林火灾问题。",
-          "social": [
-            {
-              "who": "自然纪录片导演",
-              "text": "看到它们安全回到丛林的那一刻太感人了，希望婆罗洲的森林能早日恢复生机。"
-            },
-            {
-              "who": "环保志愿者",
-              "text": "火灾频发是气候危机的缩影，保护猩猩就是保护我们自己的未来。"
-            }
-          ]
-        },
-        {
-          "title_zh": "RFK 之子争议疫苗试验在几内亚比绍获批",
-          "summary": "一项将拒绝给数千名非洲新生儿接种乙肝疫苗的争议性研究试验获得批准，该试验与 RFK Jr 的疫苗理念密切相关。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-10-09",
-          "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-          "overview": "一项由丹麦研究人员主导的争议性疫苗试验在几内亚比绍获得批准，该试验将拒绝给部分新生儿接种乙肝疫苗。这一试验是罗伯特·F·肯尼迪 Jr.（美国卫生部长）长期反对疫苗接种理念的核心组成部分。此举引发了国际社会对公共卫生安全和伦理标准的广泛担忧。",
-          "analysis": "在非洲发展中国家进行此类高风险疫苗试验存在严重的伦理争议。如果试验结果导致婴儿感染风险增加，后果不堪设想。这再次凸显了全球疫苗分配和监管标准的不平等。",
-          "social": [
-            {
-              "who": "公共卫生专家",
-              "text": "在缺乏完善医疗体系的地区进行减接种试验是极其不负责任的行为，必须立即叫停。"
-            },
-            {
-              "who": "国际法学者",
-              "text": "这违反了《纽伦堡法典》的基本原则，知情同意权在这些新生儿身上完全无法得到保障。"
-            }
-          ]
-        },
-        {
-          "title_zh": "ICJ 法官纳维·皮莱获诺贝尔和平奖",
-          "summary": "南非前联合国人权事务高级专员纳维·皮莱因推动国际法获得诺贝尔和平奖，她曾主持认定以色列在加沙犯有种族灭绝罪的委员会。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-10-09",
-          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-          "overview": "挪威诺贝尔委员会将和平奖授予了现任国际法院法官、南非前联合国人权事务高级专员纳维·皮莱。她因在推动国际法方面的杰出工作而获奖，特别是她曾主持的联合国委员会认定以色列在加沙犯有种族灭绝罪。委员会认为她的法律措施有助于防止战争和暴力行为的发生。",
-          "analysis": "这一奖项肯定了国际司法机构在维护和平中的关键作用。皮莱的获奖也反映了国际社会对通过法律途径解决冲突的重视，同时也可能加剧与相关争议方的外交紧张。",
-          "social": [
-            {
-              "who": "国际法学生",
-              "text": "皮莱法官用一生证明了法律可以阻止战争，这是对她职业生涯最高的肯定。"
-            },
-            {
-              "who": "时事评论员",
-              "text": "诺贝尔委员会的选择再次表明，国际社会越来越倾向于通过司法手段而非武力来解决争端。"
-            }
-          ]
-        },
-        {
-          "title_zh": "飓风艾萨亚斯加强为 2026 年首个大西洋飓风",
-          "summary": "受强厄尔尼诺现象影响，风暴艾萨亚斯成为 2026 年大西洋第一个飓风，预计登陆美国北部墨西哥湾沿岸。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-10-09",
-          "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
-          "overview": "风暴艾萨亚斯已加强为 2026 年大西洋首个飓风，风速达每小时 80 英里，最低气压 975 毫巴。据美国国家海洋和大气管理局（NOAA）预测，它将在周五接近美国北部墨西哥湾沿岸时增强为二级飓风。受强厄尔尼诺现象影响，今年大西洋飓风季整体较为平静，但艾萨亚斯的出现打破了这一趋势。",
-          "analysis": "作为首个登陆的飓风，艾萨亚斯的强度值得警惕。虽然今年总体较平静，但个别风暴的突然加强可能对沿海地区造成严重破坏，需密切关注其路径变化。",
-          "social": [
-            {
-              "who": "气象爱好者",
-              "text": "厄尔尼诺年通常飓风少，但这家伙偏偏来了，看来今年还是不能大意。"
-            },
-            {
-              "who": "沿海居民",
-              "text": "墨西哥湾沿岸的居民们已经在准备撤离了，希望风暴能尽快减弱。"
-            }
-          ]
-        },
-        {
-          "title_zh": "埃及记者因同事被拘留计划周末抗议",
-          "summary": "埃及独立新闻平台 Matsadaash 的六名记者因涉嫌恐怖主义被捕并遭受酷刑指控，同事们计划举行抗议活动。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-10-09",
-          "url": "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
-          "overview": "埃及独立事实核查和调查平台 Matsadaash 的六名记者被当局以恐怖主义罪名逮捕，他们指控在拘留期间遭受酷刑和被迫认罪。该团队计划在本周末于开罗举行新一轮抗议活动，呼吁释放被捕同事并追究当局的法律责任。",
-          "analysis": "此次事件再次凸显了埃及媒体自由面临的严峻挑战。对记者的打压不仅威胁到新闻工作者的安全，也严重损害了埃及社会的知情权和监督机制。",
-          "social": [
-            {
-              "who": "记者工会代表",
-              "text": "在拘留期间遭受酷刑是令人发指的暴行，国际社会必须对埃及当局施压以保障新闻自由。"
-            },
-            {
-              "who": "人权活动人士",
-              "text": "Matsadaash 团队一直在揭露真相，他们不应成为打击对象，开罗的抗议将引起更多关注。"
-            }
-          ]
-        },
-        {
-          "title_zh": "科学家在塞舌尔发现 18 万只巨型陆龟",
-          "summary": "一项调查显示，塞舌尔阿尔达布拉环礁上的自由放养巨型陆龟种群数量远超人类人口，物种恢复成效显著。",
-          "source": "卫报国际",
-          "region": "国外",
-          "published": "2026-10-08",
-          "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
-          "overview": "科学家对世界最大的自由放养巨型陆龟种群进行了调查，发现塞舌尔阿尔达布拉环礁上的种群数量令人震惊。经过数十年的恢复计划，这一曾濒临灭绝的物种如今已蓬勃发展，其数量甚至超过了塞舌尔的人类人口总数。",
-          "analysis": "这一发现是长期保护工作的巨大成功，证明了科学干预和栖息地管理在拯救濒危物种方面的有效性。它为其他地区的生物多样性保护提供了宝贵的经验借鉴。",
-          "social": [
-            {
-              "who": "野生动物摄影师",
-              "text": "18 万只！这个数字太令人振奋了，看到它们自由漫步的画面真的让人感动。"
-            },
-            {
-              "who": "环保主义者",
-              "text": "阿尔达布拉的成功证明，只要坚持保护，濒危物种是可以逆转命运的，希望更多国家效仿。"
-            }
-          ]
-        },
-        {
-          "title_zh": "飓风艾萨亚斯北上致佛罗里达和阿拉巴马数千断电",
-          "summary": "飓风残骸北上带来中到大雨，导致佛罗里达州和阿拉巴马州近 39.6 万客户断电，并造成至少四人死亡。",
-          "source": "卫报国际",
+          "title_zh": "飓风艾萨亚斯形成并袭击美国南部导致大规模停电",
+          "summary": "2026年首个大西洋飓风艾萨亚斯加强为二级飓风，预计登陆美国北部墨西哥湾沿岸，并在佛罗里达和亚拉巴马州造成近40万用户断电。",
+          "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-11",
           "url": "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
-          "overview": "飓风艾萨亚斯的残余部分于周日北上，给中部阿巴拉契亚山脉和中大西洋地区带来中到大雨。佛罗里达半岛和阿拉巴马州南部近 39.6 万客户仍处于断电状态，风暴已导致至少四人死亡。预计强降水和阵风将持续威胁东南部地区，可能引发局部洪涝灾害。",
-          "analysis": "艾萨亚斯虽已减弱，但其残余系统仍具有破坏力。持续的降雨可能导致阿巴拉契亚山脉及中东部地区的洪水风险上升，相关部门需做好防灾准备以保障居民安全。",
+          "overview": "受强厄尔尼诺现象影响，2026年大西洋飓风季异常活跃。飓风艾萨亚斯已加强为二级飓风，正逼近美国北部墨西哥湾沿岸，预计将带来暴雨和洪水。目前佛罗里达州潘汉德尔地区和亚拉巴马州南部近39.6万客户仍处于断电状态，至少四人因风暴相关事故死亡。",
+          "analysis": "此次风暴凸显了气候变化对极端天气事件的加剧作用，沿海城市的基础设施韧性面临严峻考验。政府需紧急部署救援资源并加强防洪预警机制。",
           "social": [
             {
-              "who": "受灾地区居民",
-              "text": "已经三天没电了，蜡烛和发电机都用完了，希望救援物资能尽快送达。"
-            },
+              "who": "气象灾害",
+              "text": "厄尔尼诺现象导致的大西洋飓风季活跃度远超预期，美国南部居民的安全和生计受到直接威胁。"
+            }
+          ]
+        },
+        {
+          "title_zh": "RFK Jr争议性疫苗试验在几内亚比绍获批",
+          "summary": "丹麦研究人员将在几内亚比绍暂缓数千名新生儿的乙肝疫苗接种，该试验是反对疫苗的美国卫生部长罗伯特·F·肯尼迪·朱利安尼（RFK Jr）的核心愿景。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
+          "overview": "一项备受争议的疫苗试验获得批准，该试验将暂缓数千名非洲新生儿的乙肝疫苗接种。这项研究是反对疫苗的罗伯特·F·肯尼迪·朱利安尼（RFK Jr）作为美国卫生与公众服务部部长的核心愿景的一部分。尽管面临广泛质疑，该试验仍被允许继续进行。",
+          "analysis": "此举引发了全球公共卫生领域的强烈担忧，反疫苗运动可能对非洲儿童的健康构成潜在风险。国际社会呼吁暂停此类未经充分验证的试验以保护弱势群体。",
+          "social": [
             {
-              "who": "灾害应对专家",
-              "text": "断电规模如此之大，说明电网基础设施在此次风暴中受损严重，恢复工作需要时间。"
+              "who": "公共卫生",
+              "text": "科学共识与政治干预之间的冲突再次爆发，非洲新生儿的健康安全成为这场争议的核心焦点。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ICJ法官纳维·皮莱获诺贝尔和平奖",
+          "summary": "挪威诺贝尔委员会表彰南非前联合国人权事务高级专员、现任国际法院法官纳维·皮莱在推动国际法方面的杰出工作。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+          "overview": "诺贝尔和平奖授予南非前联合国人权事务高级专员纳维·皮莱，表彰她担任国际法院法官期间推动国际法的工作。委员会特别认可了她领导调查以色列在加沙犯下种族灭绝罪的联合国委员会的贡献。挪威诺贝尔委员会表示，皮莱“展示了法律措施如何有助于防止战争和暴力行为”。",
+          "analysis": "这一奖项肯定了国际司法机构在处理重大冲突中的关键角色，同时也反映了国际社会对通过法律途径解决争端的高度期待。",
+          "social": [
+            {
+              "who": "国际法",
+              "text": "皮莱的获奖标志着国际社会对法治精神的坚定支持，也为未来处理类似人道主义危机提供了重要先例。"
+            }
+          ]
+        },
+        {
+          "title_zh": "埃及记者因被拘留计划周末抗议指控遭受酷刑",
+          "summary": "埃及独立事实核查和调查平台Matsadaash的六名记者被以恐怖主义罪名起诉，他们指控在警方拘留期间遭受酷刑和被迫认罪。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
+          "overview": "埃及六名记者被当局以恐怖主义罪名逮捕，指控他们未经授权使用执照并生产虚假内容。Matsadaash平台的工作人员声称在拘留期间遭受了酷刑和被迫认罪。这些记者计划在本周末于开罗举行新抗议活动，呼吁释放被捕同事。",
+          "analysis": "埃及打压独立媒体的行为引发了国际社会对新闻自由和人权的严重担忧。此类行动可能进一步加剧国内政治紧张局势并损害埃及的国际形象。",
+          "social": [
+            {
+              "who": "新闻自由",
+              "text": "记者作为社会监督者的角色受到威胁，独立媒体的生存空间正在被系统性压缩。"
+            }
+          ]
+        },
+        {
+          "title_zh": "婆罗洲大火后红毛猩猩家庭重返野外",
+          "summary": "在八月和九月的大火摧毁其栖息地后，极度濒危的红毛猩猩家庭被成功救出并重新放归自然。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-11",
+          "url": "https://www.bbc.co.uk/news/videos/c6073z5rvrk3o?at_medium=RSS&at_campaign=rss",
+          "overview": "BBC报道了一则令人振奋的环保新闻，一只红毛猩猩家庭在婆罗洲经历八月和九月的大火后成功重返野外。这些极度濒危的猿类此前从大火中获救，栖息地遭到严重破坏。视频记录了它们被释放回自然环境的珍贵瞬间。",
+          "analysis": "这一事件展示了野生动物保护工作的成效，同时也提醒人们关注森林火灾对生物多样性造成的毁灭性影响。持续的保护努力对于防止物种灭绝至关重要。",
+          "social": [
+            {
+              "who": "生态保护",
+              "text": "濒危物种的恢复不仅依赖于救援行动，更需要长期的栖息地保护和社区参与。"
+            }
+          ]
+        },
+        {
+          "title_zh": "科学家在塞舌尔发现18万只巨型陆龟",
+          "summary": "一项调查显示，生活在塞舌尔阿尔达布拉环礁的巨型陆龟种群数量远超人类人口，得益于数十年的恢复计划。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-08",
+          "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
+          "overview": "科学家对世界最大的自由放养巨型陆龟种群进行了调查，发现生活在塞舌尔阿尔达布拉环礁的阿尔达布拉巨型陆龟数量超过18万只。这一数字远超塞舌尔的人类人口，表明该物种在数十年的恢复计划下正在蓬勃发展。",
+          "analysis": "这一发现是长期保护工作的胜利，证明了科学干预和栖息地管理可以有效逆转物种濒危趋势。它为其他濒危物种的保护工作提供了宝贵的经验和希望。",
+          "social": [
+            {
+              "who": "生物多样性",
+              "text": "从濒临灭绝到种群激增，人类对自然界的修复能力令人鼓舞，但也需警惕环境变化的潜在威胁。"
             }
           ]
         }
@@ -2593,60 +2417,60 @@
     "voices": {
       "items": [
         {
-          "name": "凯瑟琳·马赫 (Katherine Maher)",
-          "role": "联合国教科文组织传播与信息助理总干事",
-          "region": "国际/法国",
-          "domain": "ai/library",
-          "recent": "推动全球图书馆在人工智能治理框架下的数字包容战略与开放数据政策。",
-          "url": ""
+          "name": "Timnit Gebru",
+          "role": "AI 伦理与安全研究者",
+          "region": "美国",
+          "domain": "ai",
+          "recent": "聚焦 AI 模型拒绝指令背后的安全困境，倡导建立更完善的算法治理框架以防范技术滥用。",
+          "url": "https://timnitgebru.com"
         },
         {
-          "name": "莱克斯·弗里德曼 (Lex Fridman)",
-          "role": "知名播客主持人 / AI 研究者",
-          "region": "美国",
-          "domain": "ai/podcast",
-          "recent": "通过长对话形式探讨通用人工智能（AGI）的安全性、对齐问题及未来能力边界。",
+          "name": "Lex Fridman",
+          "role": "AI 播客主持人/研究者",
+          "region": "全球（美籍）",
+          "domain": "podcast",
+          "recent": "通过深度访谈持续追踪通用人工智能前沿进展，探讨 AI 能力边界及其对人类社会的深远影响。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "蒂姆·伯纳斯-李 (Tim Berners-Lee)",
-          "role": "万维网发明者 / 数据信任倡导者",
-          "region": "英国/国际",
-          "domain": "ai/library",
-          "recent": "主张建立数据信托机制，推动开放标准以保障信息获取权与数字权利。",
-          "url": "https://timbl.org"
-        },
-        {
-          "name": "大卫·兰克斯 (David Lankes)",
-          "role": "图书馆创新理论家 / 作家",
+          "name": "Karen Blomgren",
+          "role": "美国图书馆协会（ALA）CEO",
           "region": "美国",
           "domain": "library",
-          "recent": "倡导社区驱动的公共图书馆 2.0 转型，重新定义图书馆在社会中的角色与信息素养教育。",
-          "url": "https://davidlankes.com"
+          "recent": "领导推动包容性图书馆教学指南的制定，致力于在数字时代保护读者权益与知识自由。",
+          "url": "https://www.ala.org"
         },
         {
-          "name": "王军",
-          "role": "上海图书馆馆长 / 智慧图书馆建设专家",
-          "region": "中国/上海",
-          "domain": "ai/library",
-          "recent": "主导上海公共图书馆数字化赋能与智慧空间建设，推动城市级图书馆服务创新。",
-          "url": ""
-        },
-        {
-          "name": "达娜·博伊德 (Danah Boyd)",
-          "role": "互联网研究者 / 数字公民倡导者",
-          "region": "加拿大/美国",
-          "domain": "ai/podcast/library",
-          "recent": "关注算法对青少年学习方式的影响，呼吁在短视频时代重塑信息素养与数字公民教育。",
-          "url": "https://danahboyd.com"
-        },
-        {
-          "name": "李国新",
-          "role": "中国图书馆学会相关领导 / 高校图书馆学教授",
-          "region": "中国/北京",
+          "name": "吴建中",
+          "role": "中国工程院院士/信息检索专家",
+          "region": "中国",
           "domain": "library",
-          "recent": "聚焦新时代图书馆高质量发展，推动基层县馆服务提升与全民阅读平台建设。",
+          "recent": "推动人工智能赋能智慧图书馆建设，关注数字技术如何重塑知识服务的形态与效率。",
           "url": ""
+        },
+        {
+          "name": "Peter Suber",
+          "role": "开放获取运动学者/图书馆学家",
+          "region": "美国（全球影响）",
+          "domain": "library",
+          "recent": "长期倡导学术资源的无障碍共享，关注数字时代公共知识库的构建与开放获取政策的落地。",
+          "url": "https://peter-suber.org"
+        },
+        {
+          "name": "Demis Hassabis",
+          "role": "Google DeepMind 联合创始人/CEO",
+          "region": "英国",
+          "domain": "ai",
+          "recent": "探索生成式模型在科学发现中的边界，关注 AI 如何辅助人类理解生命形式与复杂系统。",
+          "url": "https://deepmind.google"
+        },
+        {
+          "name": "李飞飞 (Fei-Fei Li)",
+          "role": "斯坦福大学 AI 教授/前 FAIR CEO",
+          "region": "美国（中国背景）",
+          "domain": "ai",
+          "recent": "聚焦人工智能在教育与知识普惠中的应用，探索人机协作如何重塑信息检索与学习体验。",
+          "url": "https://feifeili.com"
         }
       ]
     },
