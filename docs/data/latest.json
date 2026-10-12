@@ -1,23 +1,92 @@
 {
-  "generated_at": "2026-10-12T21:34:27+08:00",
+  "generated_at": "2026-10-12T22:22:43+08:00",
   "date": "2026-10-12",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 网络不可达(SSLError)",
-  "empty_sources": [],
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "empty_sources": [
+    "github",
+    "hot"
+  ],
   "module_updated": {
     "hot": "2026-10-12 21:34",
-    "ai": "2026-10-12 21:34",
-    "voices": "2026-10-12 20:30",
+    "ai": "2026-10-12 22:22",
+    "voices": "2026-10-12 22:22",
     "github": "2026-10-12 21:34",
-    "libraries": "2026-10-12 21:34",
-    "sports": "2026-10-12 21:34",
+    "libraries": "2026-10-12 22:22",
+    "sports": "2026-10-12 22:22",
     "academic": "2026-10-11 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "微软发布新一代自研 AI 芯片，减少对英伟达 GPU 的依赖",
+          "eng": "Microsoft's new AI chip makes it less reliant on Nvidia's GPUs",
+          "summary": "微软宣布第三代自研 AI 推理芯片 Maia 300，旨在成为其产品和云服务的主要推理系统。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-10-12",
+          "tags": [
+            "AI 硬件",
+            "芯片",
+            "微软"
+          ],
+          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+          "overview": "Maia 300 不仅提升了云端 AI 工作负载的成本和效率，还能更好地处理最新的推理模型和代理（Agentic）任务。此举标志着微软在摆脱对英伟达 GPU 依赖方面迈出了关键一步，增强了其在 AI 基础设施领域的自主权。该芯片被定位为 Microsoft 产品和云服务的主要 AI 推理系统。",
+          "analysis": "这不仅是技术迭代，更是科技巨头垂直整合战略的缩影。通过自研芯片降低推理成本并优化特定负载（如 Agentic 任务），微软正在构建更封闭但高效的生态闭环，可能进一步挤压英伟达在云端的份额。",
+          "social": [
+            {
+              "who": "投资人",
+              "text": "当巨头开始自研芯片时，意味着他们不再满足于做平台，而是要控制算力这一核心瓶颈，这对供应链格局影响深远。"
+            }
+          ]
+        },
+        {
+          "title_zh": "前 Plaud 高管融资 2600 万美元打造后台监听 AI 应用",
+          "eng": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+          "summary": "Ambi 公司获得 2600 万美元融资，推出适用于 iPhone、Mac 和 Apple Watch 的 Ambient Capture 应用。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-10-12",
+          "tags": [
+            "AI 应用",
+            "隐私",
+            "融资"
+          ],
+          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+          "overview": "该应用利用 AI 在后台持续捕捉环境声音并进行处理，标志着“始终在线”式语音交互的新方向。此举引发了关于隐私与便利之间平衡的讨论，特别是在设备端进行持续音频采集的技术可行性上。Ambi 正在为 iPhone、Mac 和 Apple Watch 发布相关应用。",
+          "analysis": "这种“隐形麦克风”式的 AI 应用代表了个人助理从屏幕走向环境的趋势。然而，其商业模式高度依赖用户数据的持续收集，隐私合规将成为此类产品能否大规模推广的关键瓶颈。",
+          "social": [
+            {
+              "who": "隐私倡导者",
+              "text": "当设备在后台持续监听时，用户实际上放弃了部分隐私控制权，这种便利的代价需要被更透明地告知。"
+            }
+          ]
+        },
+        {
+          "title_zh": "苹果如何赢得智能家居市场？",
+          "eng": "How Apple can win the smart home",
+          "summary": "The Verge 分析苹果即将在纽约举办首场智能家居活动，预计将发布 Apple Home 新硬件。",
+          "source": "The Verge",
+          "region": "全球",
+          "published": "2026-10-12",
+          "tags": [
+            "智能家居",
+            "苹果生态",
+            "硬件"
+          ],
+          "url": "https://www.theverge.com/tech/1009324/how-apple-can-win-the-smart-home",
+          "overview": "苹果计划于 10 月 13 日在纽约举办“Welcome Home”体验活动，这是其首次专门针对智能家居的发布会。虽然具体细节未公开，但分析师普遍预期将推出新的 Apple Home 硬件设备，试图打破 Google、Amazon 等巨头在该领域的垄断地位。这被视为苹果生态战略的重要延伸。",
+          "analysis": "苹果进入智能家居市场面临的最大挑战是生态碎片化——现有设备缺乏统一标准。如果 Apple Home 能凭借隐私保护和用户体验优势整合主流协议（如 Matter），可能成为行业的新标杆，但也需要解决与现有竞品的兼容性问题。",
+          "social": [
+            {
+              "who": "科技记者",
+              "text": "苹果在智能家居领域的入场时机值得玩味，它试图用隐私牌对抗 Google 的数据驱动模式，但硬件生态的整合难度不容小觑。"
+            }
+          ]
+        },
         {
           "title_zh": "亚马逊机器人军备竞赛与人类工作的未来",
           "eng": "Inside Amazon's robotic arms race and what it means for the future of human work",
@@ -44,22 +113,6 @@
               "text": "劳动力市场需要提前规划再培训机制，以应对结构性失业风险。"
             }
           ]
-        },
-        {
-          "title_zh": "Ambi 融资2600万美元打造后台监听AI应用",
-          "eng": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-          "summary": "前Plaud高管创立的Ambi获得2600万美元融资，推出可在iPhone、Mac和Apple Watch上运行的环境音频捕获应用。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-10-12",
-          "tags": [
-            "AI语音",
-            "融资",
-            "苹果生态",
-            "环境感知"
-          ],
-          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-          "overview": "Ambi是一款持续运行的后台音频捕获应用，利用AI技术从环境声音中提取有价值信息。该应用已覆盖苹果三大平台设备，标志着"
         },
         {
           "title_zh": "通用汽车在密歇根建设电动汽车电池工厂",
@@ -112,21 +165,6 @@
               "text": "极端环境下的基础设施建设需要突破现有材料科学和自动化技术的极限"
             }
           ]
-        },
-        {
-          "title_zh": "马斯克纪录片引发争议——两部电影的感觉",
-          "eng": "Review: 4-hour Musk documentary feels like two different films",
-          "summary": "Alex Gibney执导的这部四小时纪录片引人入胜但篇幅过长，对Ars读者而言新意有限。",
-          "source": "Ars Technica",
-          "region": "美国",
-          "published": "2026-10-11",
-          "tags": [
-            "马斯克",
-            "纪录片",
-            "科技人物"
-          ],
-          "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
-          "overview": "Alex Gibney导演的这部关于埃隆·马斯克的纪录片时长四小时，内容涵盖其商业帝国和AI野心。影评指出影片前半部分引人入胜，但后半段节奏拖沓，整体给人"
         },
         {
           "title_zh": "TechCrunch Disrupt 2026倒计时48小时——旧金山科技盛会即将开幕",
@@ -726,33 +764,6 @@
             {
               "who": "隐私倡导者",
               "text": "基础设施透明度和AI代理数据收集是两个不同维度的问题。前者关乎物理设施的社会接受度，后者则涉及个人数字权利的边界。"
-            }
-          ]
-        },
-        {
-          "title_zh": "亚马逊放弃数据中心保密协议，试图重建社区信任",
-          "eng": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-          "summary": "亚马逊宣布在与地方政府谈判数据中心交易时将不再使用保密协议（NDA），继微软今年早些时候采取类似措施之后。此前，数据中心的秘密建设引发了从纽约到旧金山数百个社区的反AI基础设施运动。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-10-09",
-          "tags": [
-            "亚马逊",
-            "数据中心",
-            "社区信任",
-            "监管"
-          ],
-          "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-          "overview": "亚马逊宣布在与地方政府谈判数据中心交易时将不再使用保密协议（NDA），继微软今年早些时候采取类似措施之后。此前，数据中心的秘密建设引发了从纽约到旧金山数百个社区的反AI基础设施运动，导致数百项提案和已实施的暂停令。与此同时，一波初创公司押注消费者将向AI代理提供访问权限，包括信用卡信息。",
-          "analysis": "亚马逊放弃NDA是行业回应社区关切的积极信号，但仅靠透明度可能不足以完全解决信任问题。社区对数据中心的环境影响、能源消耗和数据隐私的担忧需要更全面的解决方案。同时，AI代理获取用户金融信息的趋势也引发了新的监管讨论。",
-          "social": [
-            {
-              "who": "科技政策评论员",
-              "text": "透明度是建立信任的第一步，但还需要更多实质性的社区参与和利益共享机制。"
-            },
-            {
-              "who": "环保活动人士",
-              "text": "除了保密问题外，数据中心的能源消耗和环境足迹也是社区担忧的核心。"
             }
           ]
         }
@@ -1713,289 +1724,137 @@
     "sports": {
       "items": [
         {
-          "title_zh": "英超周末十大看点：曼城安菲尔德胜利引争议，热刺有所进步",
-          "eng": "Premier League: 10 talking points from the weekend's action",
-          "summary": "曼城在安菲尔德的胜利既是洗冤也是招黑，热刺取得某种程度的进步，马杜埃凯迎来高光时刻。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/premier-league-10-talking-points-from-the-weekend-action",
-          "analysis": "曼城在客场击败利物浦验证了其竞技状态，但胜利方式同时招致了争议。热刺的进步为联赛争冠格局增添了变数，马杜埃凯的表现则成为赛季亮点之一。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "曼城在安菲尔德的胜利虽然令人振奋，但球场外的法律纠纷似乎仍未平息，这种双重压力值得关注。"
-            },
-            {
-              "who": "联赛观察员",
-              "text": "热刺的进步信号是积极的，马杜埃凯的状态回暖可能成为球队下半程的关键变量。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "范迪克警告曼城球员：安菲尔德的敌对氛围只是开始",
-          "eng": "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
-          "summary": "利物浦队长范迪克表示安菲尔德的嘘声和“作弊”口号预示着未来，曼城球员将不得不适应这种恶劣的主场环境。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/virgil-van-dijk-warns-manchester-city-players-to-get-used-to-hostile-atmospheres",
-          "analysis": "范迪克不仅是在庆祝胜利，更是在利用心理战术给曼城施加压力。他暗示利物浦的敌对氛围将蔓延至其他赛场，这对曼城的客场表现构成潜在威胁。",
-          "social": [
-            {
-              "who": "教练视角",
-              "text": "面对如此强烈的客场干扰，球队需要在赛前做好充分的心理准备和战术应对方案。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "范迪克提到曼城规则违规问题，但他选择等待上诉结果再公开表态，这显示了利物浦方面的策略克制。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "热点人物：前阿森纳门将罗哈斯呼吁足球界重视可持续发展",
-          "eng": "The Hotspot | Alexéi Rojas: 'I'm passionate about sustainability – I told Arsenal: we need to fix this'",
-          "summary": "21岁的前阿森纳门将罗哈斯表示对环保充满热情，他希望借此推动足球行业改变旧有习惯以保护地球。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/sport/2026/oct/12/alexei-rojas-sustainability-arsenal-environment-hotspot",
-          "analysis": "年轻球员开始利用自身影响力倡导环保议题，这在足球界尚属新鲜。罗哈斯从阿森纳时期就开始推动这一理念，显示了新一代球员的社会责任感。",
-          "social": [
-            {
-              "who": "环保主义者/球迷",
-              "text": "足球行业在可持续发展方面确实需要改变旧习惯，年轻门将的呼吁值得整个联盟认真对待。"
-            },
-            {
-              "who": "阿森纳老球迷",
-              "text": "罗哈斯在阿森纳时期就展现出了独特的个性，如今他将这份热情延续到了职业生涯的新阶段。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "德甲：科隆击败门兴格拉德巴赫，新帅布雷斯林面临严峻考验",
-          "eng": "Blessin in disguise? Gladbach must scale mountain after derby defeat by Köln",
-          "summary": "科隆在德甲首轮交锋中凭借萨伊德·埃尔马拉的进球击败同城对手门兴格拉德巴赫，为新帅布雷斯林的执教开局蒙上阴影。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/bundesliga-borussia-monchengladbach-koln-alexander-blessin-said-el-mala",
-          "analysis": "尽管有三周休整，格拉德巴赫在布雷斯林执教首秀中仍未能拿下同城对手。球队伤病问题严重，新帅需要尽快找到解决方案以稳固队形。",
-          "social": [
-            {
-              "who": "德甲专家",
-              "text": "布雷斯林的开局并不顺利，面对科隆的反击和关键进球，格拉德巴赫的防线显得捉襟见肘。"
-            },
-            {
-              "who": "球队支持者",
-              "text": "三周休整本应是恢复的好时机，但伤病潮似乎让球队无法完全恢复到最佳状态。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "马尔迪尼之子丹尼尔在卡利亚里找到立足之地，摆脱家族阴影",
-          "eng": "Daniel Maldini finds his feet at Cagliari after years in family's Serie A shadow",
-          "summary": "丹尼尔·马尔迪尼在卡利亚里逐渐站稳脚跟，教练皮萨卡内正在帮助他释放潜力，结束了他在米兰长期挣扎的岁月。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/daniel-maldini-cagliari-fabio-pisacane-serie-a",
-          "analysis": "马尔迪尼家族在足球界的传奇地位为丹尼尔带来了巨大压力，但卡利亚里提供了一个相对宽松的环境让他证明自己。皮萨卡内的执教被视为关键助力。",
-          "social": [
-            {
-              "who": "意甲观察员",
-              "text": "丹尼尔终于摆脱了米兰时期的阴影，在卡利亚里找到了适合自己的节奏和战术体系。"
-            },
-            {
-              "who": "马尔迪尼家族粉丝",
-              "text": "从父亲保罗到祖父切萨雷，这个家族的足球故事仍在继续，只是现在换了一个舞台。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "调查：近半数女足球员考虑提前退役，经济压力与心理健康成主因",
-          "eng": "Almost half of female footballers are considering retiring early, survey shows",
-          "summary": "国际职业球员联合会（Fifpro）全球调查显示，近一半的女足球员正考虑提前离开赛场，财务困境和心理压力是主要原因。",
-          "source": "Guardian Football",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/womens-football-almost-half-considering-retiring-early-survey-fifpro",
-          "analysis": "尽管女子足球发展迅速，但球员的实际待遇和心理健康支持仍严重滞后。这一数据揭示了行业增长与基础设施投入之间的巨大鸿沟。",
-          "social": [
-            {
-              "who": "行业分析师",
-              "text": "Fifpro的报告是最全面的调查之一，它清晰地指出了女子足球在商业化进程中忽视的结构性问题。"
-            },
-            {
-              "who": "女足从业者",
-              "text": "经济压力和心理负担是许多球员不得不提前退役的直接原因，这需要俱乐部和联盟层面的系统性改革。"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "女足产业爆发但球员待遇堪忧",
+          "title_zh": "FIFPRO警告：女足十亿美元热潮下球员权益仍遭忽视",
           "eng": "Women's billion-dollar boom leaves players behind, says Fifpro",
-          "summary": "女子足球即将成为十亿美元产业，但Fifpro调查显示许多职业球员仍面临低薪和不稳定合同。",
+          "summary": "FIFPRO调查显示，女子足球虽即将成为十亿美元产业，但职业球员仍面临低薪、合同不安全和心理压力上升等严峻问题。",
           "source": "BBC Sport",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qn1g0xrxo?at_medium=RSS&at_campaign=rss",
-          "overview": "女子足球正朝着十亿美元产业迈进，但Fifpro的一项调查揭示了一个严峻的矛盾：尽管行业前景广阔，许多职业球员仍领取着低薪，且合同缺乏保障。此外，球员面临的心理压力也在上升，这与行业的整体增长形成了鲜明对比。",
-          "analysis": "这一趋势表明，商业价值的提升并未完全转化为对一线运动员的直接回报。行业需要关注如何平衡商业化扩张与球员权益保护之间的关系。",
+          "overview": "女子足球行业正朝着十亿美元规模发展，但FIFPRO的调查报告指出，许多职业球员的收入依然微薄，合同缺乏保障，且心理应激水平正在上升。这一数据揭示了行业增长与从业者实际待遇之间的巨大鸿沟。",
+          "analysis": "产业资本化速度远超球员权益保护机制的建设，若不加以干预，可能导致人才流失和运动形象受损。FIFPRO的发声为政策制定者敲响了警钟。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "女足发展速度惊人，但球员的待遇问题不容忽视，希望未来能有更多改善。"
-            },
-            {
-              "who": "体育记者",
-              "text": "十亿美元产业与低薪并存，这反映了行业转型期的阵痛。"
+              "text": "女足商业化不能以牺牲运动员基本待遇为代价，这不仅是经济问题，更是公平竞技的基础。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "南非vs澳大利亚：德班首测第四日战况",
-          "eng": "South Africa v Australia: first men's cricket Test, day four – live",
-          "summary": "澳方在德班Kingsmead球场取得领先，Maddinson表现亮眼。",
-          "source": "Guardian Sport",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/12/south-africa-v-australia-first-test-day-four-durban-kingsmead-cricket-ground-live-updates",
-          "overview": "南非与澳大利亚在德班Kingsmead球场的板球测试赛进入第四天，澳方凭借Maddinson的出色发挥取得领先。南非方面则试图通过改变策略来应对挑战，比赛场面精彩纷呈。",
-          "analysis": "这场比赛是两国板球实力的直接较量，Maddinson的表现将成为关键转折点。南非队能否在剩余比赛中扭转局势将是看点所在。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "Maddinson的状态太出色了，南非队需要尽快调整策略应对。"
-            },
-            {
-              "who": "解说员",
-              "text": "今天的比赛节奏很快，双方都展现出了极高的竞技水平。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英超周末看点：曼城安菲尔德胜利引争议",
-          "eng": "Premier League: 10 talking points from the weekend's action",
-          "summary": "曼城在利物浦安菲尔德的胜利引发讨论，范迪克警告球员将面对更多敌对氛围。",
-          "source": "Guardian Sport",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/football/2026/oct/12/premier-league-10-talking-points-from-the-weekend-action",
-          "overview": "曼城在利物浦安菲尔德的胜利被解读为一种胜利与争议并存的结果。范迪克警告曼城球员，安菲尔德的敌对氛围只是开始，他们需要在未来比赛中适应这种环境。",
-          "analysis": "这场胜利不仅关乎比分，更反映了英超竞争的激烈程度和球迷文化的独特性。曼城能否在客场保持稳定的表现将是关键。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "安菲尔德的氛围确实令人印象深刻，但曼城的表现证明了他们的实力。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "英超的竞争越来越激烈，这种敌对氛围是比赛的一部分。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英格兰板球创纪录签39份核心合同",
-          "eng": "England split cricket coaching setups and hand out record 39 central contracts",
-          "summary": "英格兰板球团队公布新教练阵容并签下39份核心合同，希望培养本土人才。",
-          "source": "Guardian Sport",
-          "published": "2026-10-12",
-          "url": "https://www.theguardian.com/sport/2026/oct/12/england-cricket-record-39-central-contracts-robinson-duckett-smith",
-          "overview": "英格兰板球团队在Rob Key的领导下，公布了新的教练阵容并签下了创纪录的39份核心合同。这一举措旨在培养本土人才，为未来的顶级角色储备力量。",
-          "analysis": "这一系列动作显示了英格兰板球对长期发展的重视。通过引进新教练和扩大核心团队，他们希望在国际赛场上取得更好的成绩。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "39份核心合同是一个很大的数字，希望能带来实质性的提升。"
-            },
-            {
-              "who": "体育记者",
-              "text": "英格兰板球正在经历一次重要的转型期，这些举措是关键的一步。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "郑钦文赢得中国网球公开赛冠军",
-          "eng": "Karaoke-singing Zheng makes history with China Open win",
-          "summary": "郑钦文击败安德烈娃，成为首位获此殊荣的中国选手。",
-          "source": "BBC Tennis",
-          "published": "2026-10-11",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cr78pe7yjxxjo?at_medium=RSS&at_campaign=rss",
-          "overview": "郑钦文在赢得中国网球公开赛冠军后，成为首位获此殊荣的中国选手。她在比赛中表现出色，击败了强大的对手安德烈娃，展现了极高的竞技水平。",
-          "analysis": "这一胜利不仅是个人的荣耀，也是中国网球发展的里程碑。郑钦文的成功激励了更多年轻球员投身这项运动。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "郑钦文太棒了！这是中国网球的骄傲时刻。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "她的表现令人印象深刻，为中国网球树立了新的标杆。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "DP世界巡回赛宣布拒绝LIV球员参赛",
+          "title_zh": "DP世界巡回赛宣布2027赛季拒绝LIV高尔夫选手参赛",
           "eng": "DP World Tour to refuse LIV players in 2027 season",
-          "summary": "从2027赛季起，DP世界巡回赛将不允许LIV高尔夫球员参加其赛事。",
+          "summary": "DP世界巡回赛正式确认将在2027赛季禁止LIV Golf球员参加其赛事，进一步加剧两大高尔夫巡回赛的分裂。",
           "source": "BBC Sport",
           "published": "2026-10-12",
           "url": "https://www.bbc.co.uk/sport/golf/articles/cmz7xvpgdz4yo?at_medium=RSS&at_campaign=rss",
-          "overview": "DP世界巡回赛正式宣布，从2027赛季开始将不允许LIV高尔夫球员参加其赛事。这一决定标志着两大高尔夫组织之间的竞争进入了一个新的阶段。",
-          "analysis": "这一举措将进一步加剧高尔夫行业的分裂，但也可能促使更多球员和赞助商做出选择。未来几年将是行业格局重塑的关键时期。",
+          "overview": "DP世界巡回赛做出了排除LIV Golf球员的重大决定，明确将在2027赛季不允许其选手参赛。这一举措标志着两大高尔夫组织之间的对抗进入了一个新的、更加明确的阶段。",
+          "analysis": "此举将迫使顶级球员在两个体系之间做出非此即彼的选择，可能影响赛事的竞技水平和商业吸引力。行业整合或进一步推迟。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "这个决定很有魄力，希望能为高尔夫运动带来积极的变化。"
-            },
-            {
-              "who": "体育记者",
-              "text": "两大组织的对立仍在继续，这一决定只是冰山一角。"
+              "who": "高尔夫评论员",
+              "text": "分裂只会让两个巡回赛都失去一部分顶尖人才和关注度，长期来看对高尔夫运动整体不利。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "詹姆斯76人队首秀遭遇失利",
-          "eng": "James suffers defeat on 76ers debut in pre-season",
-          "summary": "勒布朗·詹姆斯在费城76人队季前赛首秀中未能帮助球队获胜。",
-          "source": "BBC Basketball",
-          "published": "2026-10-09",
-          "url": "https://www.bbc.co.uk/sport/basketball/articles/cqy0r90nxneeo?at_medium=RSS&at_campaign=rss",
-          "overview": "勒布朗·詹姆斯在费城76人队的季前赛首秀中未能帮助球队获胜。他表示，新队友之间的磨合需要时间，这对球队的未来发展提出了挑战。",
-          "analysis": "作为NBA的传奇人物，詹姆斯的首秀结果引发了广泛关注。虽然失利，但他的经验和领导力将是球队未来的重要资产。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "首秀失利很正常，关键是看他们能否在常规赛中找回状态。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "詹姆斯的加盟为76人队带来了巨大的期待，但磨合期是不可避免的。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "滑板手布朗赢得奥运资格赛银牌",
-          "eng": "Skateboarder Brown wins silver in Olympic qualifier",
-          "summary": "英国最年轻的奥运奖牌得主布朗在巴拉圭世界滑板运动会中获银牌，助力洛杉矶2028奥运资格。",
-          "source": "BBC Olympics",
+          "title_zh": "范迪克警告曼城球员需适应安菲尔德之外的敌对氛围",
+          "eng": "Virgil van Dijk warns Manchester City players to get used to hostile atmospheres",
+          "summary": "利物浦队长范迪克表示曼城在安菲尔德遭遇的嘘声只是开始，并暗示将在上诉结束后公开批评城队的违规行为。",
+          "source": "Guardian Sport",
           "published": "2026-10-12",
-          "url": "https://www.bbc.co.uk/sport/olympics/articles/c63r5n01wwl2o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国最年轻的奥运奖牌得主布朗在巴拉圭世界滑板运动会中赢得银牌，这为她争取洛杉矶2028奥运会资格增添了重要砝码。她的表现再次证明了她在滑板领域的卓越实力。",
-          "analysis": "布朗的成功不仅是个人的荣耀，也为英国滑板运动的发展注入了新的动力。作为最年轻的奥运奖牌得主，她的未来充满无限可能。",
+          "url": "https://www.theguardian.com/football/2026/oct/12/virgil-van-dijk-warns-manchester-city-players-to-get-used-to-hostile-atmospheres",
+          "overview": "在安菲尔德的比赛中，利物浦球迷对曼城球员进行了持续的嘘声和挑衅。范迪克赛后表示这并非唯一会发生的地方，并提到城队存在违规行为，但希望等待上诉结果后再公开表态。",
+          "analysis": "这场对抗折射出英超顶级对决中情绪管理的挑战。俱乐部层面的规则争议与球场上的球迷文化交织，增加了比赛之外的舆论复杂性。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "布朗太厉害了！她是英国的骄傲，希望她在奥运会上再创佳绩。"
-            },
+              "text": "安菲尔德的客场体验从来就不是轻松的，但针对球员个人的嘘声已经越过了底线。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英格兰板球协会公布创纪录39份核心合同及分裂式教练架构",
+          "eng": "England split cricket coaching setups and hand out record 39 central contracts",
+          "summary": "英格兰队总监Key在任命新教练组后签发了创纪录的39份核心合同，并透露了对未来两年的人才培养规划。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/sport/2026/oct/12/england-cricket-record-39-central-contracts-robinson-duckett-smith",
+          "overview": "英格兰队总监Key在任命Stephen Fleming和Brendon McCullum分别负责不同教练组后，签发了创纪录的39份核心合同。Robinson、Duckett和Smith获得一年期合约，Eric Simons被聘为测试赛快投教练，Key表示已能规划未来两年的发展路径。",
+          "analysis": "在Stokes退役和Crawley落选的背景下，这一大规模人事调整旨在重建英格兰板球的本土人才梯队。分裂式教练组能否有效运作将是关键考验。",
+          "social": [
             {
               "who": "体育记者",
-              "text": "她的表现令人印象深刻，为英国滑板运动树立了新的标杆。"
+              "text": "Key的雄心很大，但39份合同是否意味着对现有体系的过度干预，仍需时间验证。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "南非对阵澳大利亚首Tests第四日：澳方宣布得分后南非面临保级考验",
+          "eng": "South Africa face fight to save Test after Australia declare - scorecard",
+          "summary": "在德班举行的首场Tests中，澳大利亚队率先宣布得分，南非队需在第四天全力应对以保住测试赛资格。",
+          "source": "BBC Sport",
+          "published": "2026-10-12",
+          "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236997?at_medium=RSS&at_campaign=rss",
+          "overview": "南非与澳大利亚在德班Kingsmead球场的Tests进入第四天，澳大利亚队率先宣布得分。Maddinson表现突出，南非队转向旋球应对，比赛呈现激烈对抗态势。",
+          "analysis": "对于南非队而言，这场系列赛不仅是竞技挑战，更是关乎测试赛资格的生死之战。澳大利亚的强势开局给对手施加了巨大压力。",
+          "social": [
+            {
+              "who": "板球迷",
+              "text": "Maddinson的状态太恐怖了，这种级别的个人表现往往能决定系列赛的走向。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "恩塞马谈种族歧视与英式橄榄球世界杯梦想：愿超越仇恨",
+          "eng": "'I want to show you can rise above the hate': Junior Nsemba on racism and his Rugby League World Cup dream",
+          "summary": "威根前锋恩塞马作为英格兰队世界杯希望之星，表达了激励年轻黑人的愿望，并将在周六揭幕战中出战。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/sport/2026/oct/12/i-want-to-show-you-can-rise-above-the-hate-junior-nsemba-on-racism-and-his-rugby-league-world-cup-dream",
+          "overview": "22岁的威根前锋Junior Nsemba被视为英格兰队参加英式橄榄球世界杯的希望之一。他公开表示希望激励年轻黑人，并在周六的揭幕战中为球队出战，展现了超越仇恨的决心。",
+          "analysis": "Nsemba的故事反映了体育界种族问题的复杂性。他的个人经历和态度有望成为比赛之外的社会议题焦点，提升赛事的关注度。",
+          "social": [
+            {
+              "who": "解说员",
+              "text": "年轻球员在聚光灯下谈论种族问题时往往更加勇敢，Nsemba的态度值得尊重。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "Key暗示卡尔斯有望重返英格兰队，英板协公布合同名单",
+          "eng": "Key suggests Carse can return as England reveal contract list",
+          "summary": "尽管卡尔斯因8月德比郡夜店事件仍在接受调查，英格兰队总监Key认为其仍有可能代表国家队出战。",
+          "source": "BBC Sport",
+          "published": "2026-10-12",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cwz0v3zy7mpxo?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰队总监Key在公布合同名单时暗示Brydon Carse可能重返国家队，尽管针对其8月在德比郡夜店外事件的调查仍在进行中。这一表态为球员的未来前景带来了不确定性中的希望。",
+          "analysis": "Key的表态显示了管理层对年轻球员的重视，但也引发了关于纪律与机会之间平衡的讨论。调查结果将是最终决定的关键因素。",
+          "social": [
+            {
+              "who": "资深球迷",
+              "text": "调查还没结束就放话可能回归，这给球员和公众都带来了不小的压力。"
+            }
+          ],
+          "region": "综合"
+        },
+        {
+          "title_zh": "英超周末十大看点：曼城主场胜利、热刺进步及马杜埃凯高光时刻",
+          "eng": "Premier League: 10 talking points from the weekend's action",
+          "summary": "曼城在安菲尔德的获胜方式引发争议，热刺取得一定进展，马杜埃凯表现出色成为本周焦点话题之一。",
+          "source": "Guardian Sport",
+          "published": "2026-10-12",
+          "url": "https://www.theguardian.com/football/2026/oct/12/premier-league-10-talking-points-from-the-weekend-action",
+          "overview": "英超周末比赛结束后，曼城在安菲尔德的胜利成为最大话题，其方式既被视为胜利也被视为争议。热刺在赛季中取得了一定进步，马杜埃凯的表现也备受关注。文章总结了本周的十个主要看点。",
+          "analysis": "曼城在客场逆境中的表现引发了关于竞技精神与球迷文化的广泛讨论。周末的多样结果展示了英超联赛的竞争激烈程度和不可预测性。",
+          "social": [
+            {
+              "who": "足球评论员",
+              "text": "安菲尔德的夜晚总是充满戏剧性，曼城的表现再次证明了顶级对决的魅力。"
             }
           ],
           "region": "综合"
@@ -2478,60 +2337,60 @@
     "voices": {
       "items": [
         {
-          "name": "Sam Altman",
-          "role": "OpenAI 首席执行官",
+          "name": "Satya Nadella",
+          "role": "微软首席执行官",
+          "region": "美国/印度",
+          "domain": "ai",
+          "recent": "推动微软新一代自研 AI 芯片研发，旨在减少对英伟达 GPU 的依赖并重塑企业级算力生态。",
+          "url": "https://www.microsoft.com/en-us/leader/satya-nadella"
+        },
+        {
+          "name": "Jensen Huang",
+          "role": "英伟达创始人兼 CEO",
+          "region": "美国/台湾",
+          "domain": "ai",
+          "recent": "其 GPU 生态主导权引发行业对算力依赖及数据中心反对者的博弈讨论，AI 芯片自主化趋势加速。",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/leadership/jensen-huang/"
+        },
+        {
+          "name": "Kate Crawford",
+          "role": "AI 伦理学者、牛津大学教授",
+          "region": "英国/澳大利亚",
+          "domain": "ai",
+          "recent": "关注 AI“说不”能力被过度信赖的风险，以及 AI 行业能否通过取消保密协议说服数据中心反对者。",
+          "url": "https://katecrawford.net"
+        },
+        {
+          "name": "Tim Cook",
+          "role": "苹果首席执行官",
           "region": "美国",
           "domain": "ai",
-          "recent": "关注 AI 安全与监管，呼应业界对模型发展需设‘紧急制动’的呼吁",
-          "url": "openai.com"
+          "recent": "探讨苹果如何赢得智能家居市场，同时平衡语音 AI 能力与用户隐私保护之间的张力。",
+          "url": "https://www.apple.com/newsroom/personal-tim-cook/"
         },
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic 联合创始人兼 CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "倡导负责任 AI 发展，回应关于过度信赖 AI‘说不’能力的讨论",
-          "url": "anthropic.com"
-        },
-        {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind 创始人",
-          "region": "英国",
-          "domain": "ai",
-          "recent": "推动前沿 AI 模型研发，与开源社区共同探索大模型能力边界",
-          "url": "deepmind.google"
-        },
-        {
-          "name": "Lex Fridman",
-          "role": "知名播客主持人",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "通过深度对话探讨 AI 技术进展及其对社会和图书馆信息生态的影响",
-          "url": "lexfridman.com"
-        },
-        {
-          "name": "吴建中",
-          "role": "中国图书馆学会理事长",
+          "name": "李国新",
+          "role": "原中国国家图书馆馆长、中国图书馆学会前理事长",
           "region": "中国",
           "domain": "library",
-          "recent": "推动数字赋能新时代图书馆高质量发展，关注智慧图书馆建设",
+          "recent": "主导中国图书馆学会多项论坛，推动全民阅读服务、馆社共荐书目及志愿服务行动落地。",
           "url": ""
         },
         {
-          "name": "Michael Burton",
-          "role": "英国图书馆协会主席",
-          "region": "英国",
-          "domain": "library",
-          "recent": "致力于迈向包容性图书馆教学，整合包容性实践指南",
-          "url": "ukla.org.uk"
-        },
-        {
-          "name": "David Lewis",
-          "role": "美国国会图书馆馆长",
+          "name": "Rita Redberg",
+          "role": "美国图书馆协会 (ALA) 2025-2026 年度主席",
           "region": "美国",
           "domain": "library",
-          "recent": "探索 AI 技术在国家图书馆服务中的应用与相关政策制定",
-          "url": "loc.gov"
+          "recent": "关注 2026 年禁书周挑战书籍数量创新高现象，并推动面向未来的图书馆翻新策略及媒体素养教学。",
+          "url": "https://www.ala.org/about-ala/leadership/president"
+        },
+        {
+          "name": "Danah Boyd",
+          "role": "数字公民与媒体素养研究者、微软研究院高级研究员",
+          "region": "美国/加拿大",
+          "domain": "ai",
+          "recent": "提出超越意志力方向的新媒体素养教学理念，反思短视频时代信息素养教育如何适应学生学习方式。",
+          "url": "https://danahboyd.com"
         }
       ]
     },
