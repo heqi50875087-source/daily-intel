@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:29:00+08:00",
+  "generated_at": "2026-10-14T09:18:31+08:00",
   "date": "2026-10-14",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,11 +7,11 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-14 08:29",
+    "hot": "2026-10-14 09:18",
     "ai": "2026-10-14 08:29",
-    "voices": "2026-10-14 08:29",
-    "github": "2026-10-14 08:29",
-    "libraries": "2026-10-14 06:31",
+    "voices": "2026-10-14 09:18",
+    "github": "2026-10-14 09:18",
+    "libraries": "2026-10-14 09:18",
     "sports": "2026-10-14 08:29",
     "academic": "2026-10-14 06:40"
   },
@@ -1990,222 +1990,222 @@
     "github": {
       "items": [
         {
-          "title_zh": "Anatomy — 交互式等距机械/系统图解生成器",
+          "title_zh": "Anatomy — AI驱动的交互式等距机械图解生成器",
           "eng": "wheresryan22/anatomy",
           "summary": "一个Agent技能，可自动生成真实世界机器和复杂系统的详细交互式等距插图，输出SVG并支持WebGL着色器和3D效果。",
           "source": "GitHub",
-          "stars": 8160,
+          "stars": 8227,
           "lang": "JavaScript",
           "published": "2026-10-08",
           "url": "https://github.com/wheresryan22/anatomy",
-          "overview": "Anatomy 是一个面向技术文档和教育的工具，能将复杂的机械结构、电子系统或工程原理转化为精美的交互式等距视图。它支持生成SVG矢量图，并可选地叠加WebGL着色器和3D效果，使静态图解变为可交互的可视化内容。项目以Agent技能的形式发布，便于集成到各类工作流中。",
-          "analysis": "在技术写作和在线教育领域，高质量配图一直是痛点。Anatomy 将AI生成与专业图形渲染结合，降低了制作复杂系统图解的门槛。8160 stars说明社区对其认可度高，适合教育、文档和演示场景。",
+          "overview": "Anatomy是一个基于Agent的创意工具，能够理解真实机械和复杂系统结构并生成精美的等距视角SVG插图。支持可选的WebGL着色器和3D效果增强，可直接在浏览器中交互浏览。项目采用JavaScript构建，生态兼容性好，适合教育、技术文档和产品可视化场景。",
+          "analysis": "8200+ stars说明社区对其认可度极高。AI自动生成专业级机械图解解决了传统手绘或建模门槛高的问题，在教育和技术传播领域有广泛应用前景。SVG输出格式便于嵌入各类平台，实用价值突出。",
           "social": [
             {
-              "who": "技术写作者",
-              "text": "终于有了把复杂机械结构变成交互式等距图的工具，比手绘或找外包高效太多。"
+              "who": "开发者",
+              "text": "等距图的生成质量远超预期，SVG可交互浏览的体验让技术文档的呈现方式有了全新可能。"
             },
             {
-              "who": "前端开发者",
-              "text": "SVG+WebGL的组合很实用，可以直接嵌入文档系统，交互体验远超静态图片。"
+              "who": "教育研究者",
+              "text": "非常适合工程教学场景，学生可以直接看到机器内部结构的交互式图解，比静态图片直观得多。"
             }
           ]
         },
         {
-          "title_zh": "DigUp — 基于EmbeddingGemma的本地文件语义搜索",
-          "eng": "ARahim3/DigUp",
-          "summary": "利用Google DeepMind EmbeddingGemma 2模型，在Mac上实现照片、PDF、录音、视频和代码的文件内容级语义搜索。",
+          "title_zh": "omdrop-owl — 非Apple设备的Airdrop替代方案",
+          "eng": "t4t5/omdrop-owl",
+          "summary": "为Android等非Apple设备提供类似AirDrop的文件快速共享功能，无需额外App即可实现设备间文件传输。",
           "source": "GitHub",
-          "stars": 2345,
+          "stars": 2588,
+          "lang": "Shell",
+          "published": "2026-10-08",
+          "url": "https://github.com/t4t5/omdrop-owl",
+          "overview": "omdrop-owl是一个轻量级Shell工具，让Android、Linux等非Apple设备能够像iPhone之间使用AirDrop一样快速共享文件。通过局域网广播实现发现与传输，无需安装额外应用或依赖特定平台服务。设计简洁，即开即用。",
+          "analysis": "2500+ stars反映出跨平台文件共享的刚需被广泛认可。Shell脚本方案保持了极致的轻量级特性，适合技术用户和开发者日常使用。在混合设备办公场景中实用性极强。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "终于不用每次传文件都绕道iCloud或网盘了，局域网直传的速度和体验都很棒。"
+            },
+            {
+              "who": "普通用户",
+              "text": "以前iPhone和Android之间传文件特别麻烦，这个工具让流程简单了很多。"
+            }
+          ]
+        },
+        {
+          "title_zh": "DigUp — 基于AI语义的Mac本地文件搜索引擎",
+          "eng": "ARahim3/DigUp",
+          "summary": "利用Google DeepMind EmbeddingGemma 2模型在本地对照片、PDF、录音、视频和代码进行语义搜索，完全离线运行。",
+          "source": "GitHub",
+          "stars": 2409,
           "lang": "Swift",
           "published": "2026-10-08",
           "url": "https://github.com/ARahim3/DigUp",
-          "overview": "DigUp 是一个运行在Mac本地的文件搜索工具，不同于传统关键词匹配，它使用EmbeddingGemma 2进行语义理解。支持对照片、PDF文档、录音、视频和源代码进行内容级检索，所有处理均在设备端完成，无需上传数据到云端。",
-          "analysis": "隐私优先的本地AI搜索是明确趋势。DigUp 选择Swift原生开发确保性能，结合DeepMind最新embedding模型，在保护用户数据的同时提供强大的语义理解能力，适合注重隐私的专业用户。",
+          "overview": "DigUp是一个macOS本地文件搜索引擎，核心创新在于使用Google DeepMind的EmbeddingGemma 2模型进行语义理解搜索。支持照片、PDF、录音、视频和代码等多种文件类型，所有数据完全在设备端处理，保护隐私。搜索速度极快，体验流畅。",
+          "analysis": "将前沿AI嵌入模型应用于本地文件搜索是一个重要突破。相比传统关键词匹配，语义搜索能更准确地找到用户真正需要的内容。Swift原生开发保证了macOS平台的最佳性能和隐私安全。",
           "social": [
             {
-              "who": "隐私倡导者",
-              "text": "本地运行+Gemma embedding，文件内容分析完全不出设备，这才是真正的隐私搜索。"
+              "who": "开发者",
+              "text": "EmbeddingGemma 2在本地推理的表现令人惊喜，语义搜索的准确度远超传统全文检索方案。"
             },
             {
+              "who": "研究者",
+              "text": "完全端侧AI处理的设计思路值得推广，既保护隐私又避免了云端依赖带来的延迟问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Craft App Launcher — macOS应用启动器",
+          "eng": "storytold/craft-launcher",
+          "summary": "一款macOS应用启动器，提供快速搜索和启动已安装应用程序的流畅体验。",
+          "source": "GitHub",
+          "stars": 2306,
+          "lang": "Rust",
+          "published": "2026-10-09",
+          "url": "https://github.com/storytold/craft-launcher",
+          "overview": "Craft App Launcher是一款macOS应用启动器，支持快速搜索和一键启动已安装的应用程序。采用Rust语言构建，保证了高性能和低内存占用。界面设计注重美观与效率的平衡，适合追求极致体验的macOS用户。",
+          "analysis": "2300+ stars表明macOS用户对高效应用管理工具有强烈需求。Rust语言的选择体现了对性能和稳定性的重视。在Spotlight之外提供了更专注、更快速的应用启动方案。",
+          "social": [
+            {
               "who": "开发者",
-              "text": "EmbeddingGemma 2的精度令人印象深刻，Swift原生实现保证了搜索响应速度。"
+              "text": "Rust构建的启动器响应速度确实很快，比很多Objective-C写的同类产品流畅不少。"
+            },
+            {
+              "who": "macOS用户",
+              "text": "每天打开电脑第一件事就是用它找应用，比系统自带的Spotlight好用太多了。"
             }
           ]
         },
         {
           "title_zh": "fsearch — macOS全磁盘模糊文件搜索引擎",
           "eng": "noahdunnagan/fsearch",
-          "summary": "面向macOS的全磁盘文件搜索工具，支持模糊匹配、拼写容错和内容级grep索引，在800万文件中实现约1ms响应。",
+          "summary": "为macOS提供全磁盘文件搜索能力，支持模糊名称匹配、拼写容错和内容级grep索引，在800万文件中实现约1毫秒响应。",
           "source": "GitHub",
           "stars": 2030,
           "lang": "Rust",
           "published": "2026-10-08",
           "url": "https://github.com/noahdunnagan/fsearch",
-          "overview": "fsearch 是一个用Rust编写的macOS文件搜索工具，核心亮点是支持模糊名称匹配、拼写容错以及索引内容grep。在800万文件规模下实现约1ms的查询响应时间，性能表现极为出色。它解决了Spotlight在某些场景下的不足。",
-          "analysis": "Rust语言保证了极致的性能和内存安全。fsearch 在搜索精度和速度之间取得了优秀平衡，特别适合大型代码库或文档目录的快速定位。对macOS开发者和数据工程师有直接实用价值。",
+          "overview": "fsearch是面向macOS的全磁盘文件搜索引擎，核心特性包括模糊名称匹配、拼写容错和内容级grep索引。基于Rust构建，在800万文件规模下实现约1毫秒的搜索响应速度。支持自定义索引和增量更新，适合开发者和技术用户的高效文件检索需求。",
+          "analysis": "2000+ stars验证了macOS用户对高效文件搜索工具的强烈需求。Rust语言保证了极致的性能表现，1ms级响应在大规模文件场景下尤为突出。对拼写容错的支持解决了日常使用中常见的输入错误问题。",
           "social": [
             {
-              "who": "macOS开发者",
-              "text": "1ms搜索800万文件，这个性能数字太惊人了。Rust写的果然不一样。"
+              "who": "开发者",
+              "text": "800万文件1毫秒的搜索速度简直是降维打击，Rust的性能优势在这里体现得淋漓尽致。"
             },
             {
-              "who": "数据工程师",
-              "text": "模糊匹配+拼写容错+内容grep三合一，比Spotlight实用得多，已加入日常工具链。"
+              "who": "普通用户",
+              "text": "以前找文件要翻半天文件夹，现在输入关键词直接出结果，效率提升太大了。"
             }
           ]
         },
         {
           "title_zh": "ESP32 iPhone Agent — 用$7硬件让AI操控真实iPhone",
           "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "通过AirPlay视觉和USB HID控制，让AI模型直接操作真实iPhone，无需Mac、开发者账号或越狱。",
+          "summary": "通过AirPlay视觉和USB HID输入，让OpenAI兼容的视觉模型控制真实iPhone，无需Mac、开发者账号或越狱。",
           "source": "GitHub",
-          "stars": 1504,
+          "stars": 1525,
           "lang": "Python",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目利用ESP32开发板（成本仅$7）配合AirPlay视觉和USB HID协议，使AI模型能够直接操控真实iPhone。支持任意OpenAI兼容的视觉模型，无需Mac电脑、开发者账号或设备越狱。实现了低成本硬件与移动端AI交互的桥梁。",
-          "analysis": "这是AI Agent物理世界交互的低成本方案之一。$7的ESP32就能实现手机控制，极大降低了研究门槛。对具身智能、自动化测试和创意编程领域有启发意义，展示了边缘计算+移动设备的巨大潜力。",
+          "overview": "ESP32 iPhone Agent项目利用一块仅7美元的ESP32开发板，通过AirPlay视觉采集iPhone屏幕画面、USB HID模拟触控操作，配合任意OpenAI兼容的视觉模型实现AI对真实iPhone的控制。无需Mac电脑、开发者账号或越狱即可运行，硬件成本极低。",
+          "analysis": "1500+ stars反映了社区对低成本AI硬件控制方案的高度兴趣。$7的成本门槛让个人实验和原型开发变得极其容易。AirPlay视觉+USB HID的方案巧妙避开了复杂的设备接口限制，工程实现优雅。",
           "social": [
             {
-              "who": "AI研究者",
-              "text": "$7硬件让AI操控iPhone，这个成本效益比太惊人了。具身智能研究的新思路。"
+              "who": "开发者",
+              "text": "$7就能让AI控制iPhone，这个硬件方案的成本效率比树莓派方案高了一个数量级。"
             },
             {
-              "who": "创客/开发者",
-              "text": "不需要Mac和越狱就能实现手机自动化，这对教育场景特别友好。"
+              "who": "研究者",
+              "text": "AirPlay视觉采集+HID输入的组合非常巧妙，绕过了很多传统自动化方案的接口限制。"
             }
           ]
         },
         {
-          "title_zh": "USD BRep — NVIDIA Omniverse NURBS实体建模库",
+          "title_zh": "usd-brep — NVIDIA USD NURBS实体建模库",
           "eng": "NVIDIA-Omniverse/usd-brep",
-          "summary": "独立的C++和Python库，用于基于NURBS的边界表示（BRep）实体建模，集成于NVIDIA Omniverse生态。",
+          "summary": "独立的C++和Python库，用于基于NURBS的边界表示（BRep）实体建模，深度集成NVIDIA Omniverse平台。",
           "source": "GitHub",
-          "stars": 1126,
+          "stars": 1147,
           "lang": "C++",
           "published": "2026-10-08",
           "url": "https://github.com/NVIDIA-Omniverse/usd-brep",
-          "overview": "USD BRep是NVIDIA Omniverse推出的独立实体建模库，支持C++和Python两种语言。它基于NURBS进行边界表示（BRep）建模，可将CAD几何体转换为USD格式，实现精确的3D实体建模与渲染管线集成。",
-          "analysis": "作为NVIDIA官方Omniverse生态的一部分，该库连接了传统CAD工作流与现代实时渲染技术。对游戏开发、工业设计和影视特效团队有直接价值，降低了将专业CAD模型导入Omniverse的技术门槛。",
+          "overview": "usd-brep是NVIDIA Omniverse生态中的专业实体建模库，提供基于NURBS的边界表示（BRep）建模能力。同时支持C++和Python两种语言接口，可直接集成到Omniverse工作流中。适用于CAD、工程设计和工业仿真等需要精确几何建模的专业领域。",
+          "analysis": "来自NVIDIA官方生态的项目，在专业3D建模领域具有权威地位。C++/Python双接口设计兼顾了性能需求和快速原型开发。BRep建模是工业级CAD的核心技术，该库降低了专业建模的接入门槛。",
           "social": [
             {
-              "who": "3D工程师",
-              "text": "NURBS BRep+USD格式的组合，让传统CAD工作流能无缝接入实时渲染管线了。"
+              "who": "开发者",
+              "text": "NVIDIA官方维护的USD BRep库，在Omniverse工作流中的集成体验非常顺畅。"
             },
             {
-              "who": "游戏开发者",
-              "text": "Omniverse生态的又一块拼图，C++和Python双语言支持很实用。"
+              "who": "研究者",
+              "text": "C++和Python双接口的设计很实用，性能敏感场景用C++，快速原型开发用Python。"
             }
           ]
         },
         {
-          "title_zh": "Doory — 开源Canva替代方案",
-          "eng": "shaongitbd/doory",
-          "summary": "一个开源的在线设计工具，定位为Canva的替代品，支持图形设计和内容创作。",
+          "title_zh": "d2r-mobile — 暗黑破坏神II手游兼容层（开源）",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神II：狱火重生》iOS/macOS兼容层，支持术士君临扩展，可在iPhone/iPad/Mac上原生运行Switch版本。",
           "source": "GitHub",
-          "stars": 1050,
+          "stars": 1139,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "d2r-mobile是一个开源项目，为iOS和macOS提供《暗黑破坏神II：狱火重生》的兼容运行层。支持术士君临扩展内容，可在iPhone、iPad和Mac上原生运行Switch版本的游戏文件，提供完整触控操作支持和60帧流畅体验。用户需自行准备游戏文件。",
+          "analysis": "1100+ stars反映了移动玩家对经典游戏跨平台运行的强烈需求。开源兼容层方案在技术社区获得了广泛认可。需注意该项目涉及游戏文件的本地运行，用户应确保仅使用合法获得的游戏数据。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "C语言实现的兼容性层性能不错，60帧的触控体验比模拟器方案好很多。"
+            },
+            {
+              "who": "玩家",
+              "text": "终于能在手机上玩暗黑2了，术士君临的内容也支持，情怀拉满。"
+            }
+          ]
+        },
+        {
+          "title_zh": "doory — 开源Canva替代方案",
+          "eng": "shaongitbd/doory",
+          "summary": "一个开源的在线设计工具，提供类似Canva的设计功能，支持团队协作和模板编辑。",
+          "source": "GitHub",
+          "stars": 1051,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/shaongitbd/doory",
-          "overview": "Doory是一个基于Web的开源设计工具，旨在提供Canva级别的在线图形创作体验。使用TypeScript构建前端，支持模板编辑、图层管理和可视化设计界面。作为开源替代方案，它强调数据自主和隐私保护。",
-          "analysis": "在设计工具领域，开源可自托管的方案越来越受关注。Doory 直接对标Canva，降低了团队对SaaS工具的依赖。TypeScript生态保证了开发效率和可维护性，适合需要数据主权的设计工作流。",
+          "overview": "doory是一个开源在线设计工具，定位为Canva的替代方案。基于TypeScript构建，提供模板编辑、团队协作和云端存储等核心功能。面向需要轻量级设计工具的团队和个人用户，强调隐私保护和数据自主权。",
+          "analysis": "1000+ stars表明社区对开源设计工具的需求持续增长。TypeScript生态保证了良好的开发体验和组件复用性。作为Canva的替代方案，在隐私敏感场景（如企业、政府）具有独特优势。",
           "social": [
             {
-              "who": "设计师",
-              "text": "开源+自托管的Canva替代品，终于不用担心设计数据被第三方控制了。"
+              "who": "开发者",
+              "text": "TypeScript构建的设计工具生态兼容性很好，组件和插件的开发体验都很流畅。"
             },
             {
-              "who": "独立开发者",
-              "text": "TypeScript栈很熟悉，社区贡献门槛低，值得持续关注。"
+              "who": "普通用户",
+              "text": "不想把设计数据存在Canva上，这个开源方案让我可以完全掌控自己的文件。"
             }
           ]
         },
         {
           "title_zh": "Talorys — 个人AI Agent（Cloudflare部署）",
           "eng": "rociiu/talorys",
-          "summary": "在自有Cloudflare账户中部署的个人AI Agent，支持对话、记忆、任务管理、笔记和定时提醒，一行命令即可创建。",
+          "summary": "在自有Cloudflare账户中部署的个人AI Agent，支持聊天、记忆、任务管理、笔记和定时提醒，一行命令即可创建。",
           "source": "GitHub",
-          "stars": 958,
+          "stars": 960,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/rociiu/talorys",
-          "overview": "Talorys是一个轻量级个人AI Agent框架，部署在Cloudflare上。核心功能包括对话交互、持久记忆、任务管理、笔记系统和定时提醒。支持通过`npx create-talorys@latest`一行命令快速创建，免费版友好，单用户设计，无遥测数据收集。",
-          "analysis": "个人AI Agent正在成为刚需工具。Talorys 的Cloudflare部署方案兼顾了性能和成本，无遥测设计尊重隐私。一行命令的极简体验降低了使用门槛，适合构建个人知识管理和自动化助手。",
+          "overview": "Talorys是一个个人AI Agent项目，可在用户自己的Cloudflare账户中一键部署。支持聊天对话、记忆管理、任务执行、笔记记录和定时提醒等功能。采用TypeScript构建，提供免费层支持，单用户设计，无遥测数据收集，注重隐私保护。",
+          "analysis": "960+ stars反映了个人AI Agent赛道的快速增长。Cloudflare部署方案降低了基础设施门槛，免费层对个体用户非常友好。无遥测、单用户的设计体现了对用户隐私的尊重，在AI工具日益普及的背景下尤为珍贵。",
           "social": [
             {
-              "who": "独立开发者",
-              "text": "`npx create-talorys@latest`一行搞定，Cloudflare免费额度够用，这是最轻量的个人AI Agent方案了。"
+              "who": "开发者",
+              "text": "一行命令就能部署个人AI Agent，Cloudflare Workers的性能和成本都控制得很好。"
             },
             {
-              "who": "效率爱好者",
-              "text": "对话+记忆+任务+笔记四合一，无遥测设计让我放心使用。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Craft Launcher — 轻量级应用启动器",
-          "eng": "storytold/craft-launcher",
-          "summary": "一个基于Rust的轻量级应用启动器，提供快速、美观的应用程序管理和快捷访问体验。",
-          "source": "GitHub",
-          "stars": 2290,
-          "lang": "Rust",
-          "published": "2026-10-09",
-          "url": "https://github.com/storytold/craft-launcher",
-          "overview": "Craft Launcher是一个用Rust编写的轻量级应用启动器，专注于快速、美观地管理和启动应用程序。它提供分类管理、搜索功能和自定义快捷方式，界面简洁现代。作为桌面工具的补充，它解决了macOS原生Launchpad体验不足的问题。",
-          "analysis": "2290 stars说明社区对高质量桌面工具的需求旺盛。Rust保证了性能和安全性，轻量级设计符合当前趋势。在应用管理和快速启动场景下，这类工具能显著提升日常工作效率。",
-          "social": [
-            {
-              "who": "macOS用户",
-              "text": "Launchpad太丑了，Craft Launcher的界面和速度都更胜一筹。"
-            },
-            {
-              "who": "Rust开发者",
-              "text": "桌面工具用Rust写的越来越多，性能和内存占用确实比Objective-C方案好很多。"
-            }
-          ]
-        },
-        {
-          "title_zh": "D2R Mobile — 暗黑破坏神II手游兼容层",
-          "eng": "jhaizhou-ops/d2r-mobile",
-          "summary": "开源的《暗黑破坏神 II：狱火重生》iOS/macOS兼容层，可在iPhone、iPad和Mac上原生运行Switch版游戏。",
-          "source": "GitHub",
-          "stars": 1118,
-          "lang": "C",
-          "published": "2026-10-12",
-          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-          "overview": "D2R Mobile是一个开源项目，为iOS和macOS提供《暗黑破坏神 II：狱火重生》的兼容层。它允许用户在自己的设备上原生运行Switch版本的游戏，支持完整触摸控制、60fps帧率和新的终局模式。用户需自带游戏文件，无需官方授权。",
-          "analysis": "开源游戏兼容层在技术上有挑战性也有社区价值。该项目展示了逆向工程和兼容性开发的能力，对游戏开发者和技术爱好者有参考价值。不过需注意其法律灰色地带。",
-          "social": [
-            {
-              "who": "游戏玩家",
-              "text": "终于能在iPhone上玩暗黑2了，60fps+触摸控制体验不错。"
-            },
-            {
-              "who": "技术观察者",
-              "text": "开源兼容层的技术实现值得研究，但需注意版权和法律风险。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Craft App Launcher — 应用启动器（Rust）",
-          "eng": "storytold/craft-launcher",
-          "summary": "一个基于Rust的轻量级应用启动器，提供快速、美观的应用程序管理和快捷访问体验。",
-          "source": "GitHub",
-          "stars": 2290,
-          "lang": "Rust",
-          "published": "2026-10-09",
-          "url": "https://github.com/storytold/craft-launcher",
-          "overview": "Craft Launcher是一个用Rust编写的轻量级应用启动器，专注于快速、美观地管理和启动应用程序。它提供分类管理、搜索功能和自定义快捷方式，界面简洁现代。作为桌面工具的补充，它解决了macOS原生Launchpad体验不足的问题。",
-          "analysis": "2290 stars说明社区对高质量桌面工具的需求旺盛。Rust保证了性能和安全性，轻量级设计符合当前趋势。在应用管理和快速启动场景下，这类工具能显著提升日常工作效率。",
-          "social": [
-            {
-              "who": "macOS用户",
-              "text": "Launchpad太丑了，Craft Launcher的界面和速度都更胜一筹。"
-            },
-            {
-              "who": "Rust开发者",
-              "text": "桌面工具用Rust写的越来越多，性能和内存占用确实比Objective-C方案好很多。"
+              "who": "研究者",
+              "text": "无遥测、数据完全在用户自有账户中的设计思路，在当前AI工具生态中很难得。"
             }
           ]
         }
@@ -2214,194 +2214,194 @@
     "hot": {
       "items": [
         {
-          "title_zh": "英国约克郡野生动物园老虎袭击致人死亡，家属举行悼念仪式",
-          "summary": "威廉·查普曼在进入围栏后遭到老虎攻击身亡。其家人向这位“温暖而受欢迎”的男子致以最后的敬意。",
+          "title_zh": "梵蒂冈证实教皇利奥确诊肺癌，手术成功移除右肺下叶",
+          "summary": "梵蒂冈方面确认教皇利奥接受了成功的肺部手术，切除了其右肺的一个下叶。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "overview": "据梵蒂冈官方消息，教皇利奥被诊断出患有肺癌，但随后成功接受了手术。手术涉及移除其右肺下叶，目前状况稳定。这一消息在全球范围内引发了广泛关注与祈祷。",
+          "analysis": "教皇的健康状况一直是全球焦点，此次确诊癌症虽令人震惊，但手术的成功为局势带来了积极信号。这反映了高龄领袖在公共卫生面前的脆弱性，同时也考验着梵蒂冈的危机管理能力。",
+          "social": [
+            {
+              "who": "BBC News",
+              "text": "教皇利奥确诊肺癌但手术成功，梵蒂冈发布官方声明确认细节。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国约克郡野生动物园男子遭老虎袭击身亡，家属举行追悼仪式",
+          "summary": "威廉·查普曼在公园内进入虎笼时被老虎攻击致死，其家人向这位“温暖且富有感染力”的男子致以敬意。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.bbc.co.uk/news/articles/ck054nvzr676o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，BBC报道了英国约克郡野生动物园发生的一起悲剧事件。一名男子在误入老虎围栏后被袭击致死。家属公开悼念这位被描述为“温暖且善于交流”的受害者威廉·查普曼。该事件引发了公众对动物园安全措施的关注。",
-          "analysis": "此次事故再次凸显了野生动物园区管理中的安全隐患问题。家属的悼念活动反映了社会对公共安全的重视以及对逝者的同情。",
+          "overview": "威廉·查普曼在约克郡野生动物公园参观时，因进入老虎围栏而被攻击致死。家属随后举行了追悼活动，称他是一位温暖且富有感染力的人。此事件再次引发了公众对动物园安全措施的关注。",
+          "analysis": "尽管现代动物园通常有严格的安全协议，但此类悲剧仍时有发生，凸显了人与动物近距离接触时的潜在风险。该事件可能推动相关机构重新审视围栏设计和游客管理流程。",
           "social": [
             {
-              "who": "BBC",
-              "text": "报道了受害者家属的悼念活动及事故经过"
+              "who": "BBC News",
+              "text": "家属向遇难的“温暖且富有感染力”的男子致以敬意，纪念活动正在举行。"
             }
           ]
         },
         {
-          "title_zh": "教皇利奥确诊肺癌并完成手术，梵蒂冈证实消息",
-          "summary": "梵蒂冈宣布教皇利奥接受了右下肺叶切除手术并成功恢复。这是继此前诊断后的重要医疗进展。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-13",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，梵蒂冈官方确认教皇利奥被确诊患有肺癌，并已进行了成功的部分肺切除手术。手术移除了其右肺下叶，目前状况稳定。这一消息在全球范围内引起了广泛关注。",
-          "analysis": "教皇的健康状况一直是全球焦点，此次成功手术为公众带来了积极信号。梵蒂冈及时公布信息有助于消除外界猜测和谣言。",
-          "social": [
-            {
-              "who": "BBC",
-              "text": "报道了梵蒂冈关于教皇健康状况的最新声明"
-            }
-          ]
-        },
-        {
-          "title_zh": "沙特男子因在OpenAI办公室安装窃听设备被起诉",
-          "summary": "检方称该装置被包裹在卫生纸中，插入会议室电视的USB端口。此行为涉嫌高科技间谍活动。",
+          "title_zh": "沙特男子因在OpenAI办公室安装“精密”录音设备被起诉",
+          "summary": "检方称该装置包裹在卫生纸中，被发现插在会议室电视的USB端口内。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，BBC报道一名沙特男子因在OpenAI办公室安装“精密”录音设备而被起诉。检方指出，该装置被伪装后插入了一间高管会议室电视背后的USB接口。这一事件引发了关于跨国科技安全威胁的讨论。",
-          "analysis": "此案展示了针对科技巨头的新型物理入侵手段，凸显了网络安全与物理安全的结合挑战。国际执法合作在应对此类跨境犯罪中显得尤为重要。",
+          "overview": "一名沙特男子因涉嫌在OpenAI办公室安装精密录音设备而被起诉。检方指出，该装置被包裹在卫生纸中，被发现插在高管会议室电视的USB端口内，手段隐蔽且技术复杂。",
+          "analysis": "此案凸显了科技公司面临的物理安全威胁日益升级，即便是高科技企业也无法完全免疫间谍活动。此类事件可能促使OpenAI及其他科技巨头加强办公场所的物理安防措施。",
           "social": [
             {
-              "who": "BBC",
-              "text": "披露了OpenAI办公室遭窃听设备入侵的细节"
+              "who": "BBC News",
+              "text": "检方称装置被包裹在卫生纸中，插在电视USB端口内，手段隐蔽。"
             }
           ]
         },
         {
-          "title_zh": "MI5局长警告英国面临来自俄罗斯、伊朗及AI的威胁",
-          "summary": "麦卡勒姆爵士表示反恐和国家级威胁行动规模已大致相等。新型人工智能技术成为安全领域的新挑战。",
+          "title_zh": "MI5局长警告来自俄罗斯、伊朗及人工智能的多重威胁",
+          "summary": "麦卡勒姆爵士表示反恐和应对国家威胁的行动规模现已大致相等。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，英国情报与安全局（MI5）局长肯·麦卡勒姆爵士发出警告，指出英国正面临来自俄罗斯、伊朗以及人工智能的多重威胁。他透露反恐行动与国家级威胁行动的规模已大致相当。这标志着非传统安全威胁在英国国家安全战略中的地位显著上升。",
-          "analysis": "随着地缘政治紧张局势加剧和AI技术的快速发展，英国的安全架构正在经历重大调整。这一警告预示着未来英国在情报收集和技术防御方面将投入更多资源。",
+          "overview": "英国MI5局长麦卡勒姆爵士发出警告，指出来自俄罗斯、伊朗及人工智能的威胁正在升级。他表示反恐和应对国家威胁的行动规模现已大致相等，形势严峻。",
+          "analysis": "随着地缘政治紧张局势加剧以及AI技术的快速发展，传统安全与非传统安全的界限日益模糊。英国情报机构面临前所未有的挑战，需要平衡多种威胁来源的资源分配。",
           "social": [
             {
-              "who": "BBC",
-              "text": "转述了MI5局长关于国家安全威胁的最新评估"
+              "who": "BBC News",
+              "text": "MI5局长称反恐和应对国家威胁的行动规模现已大致相等。"
             }
           ]
         },
         {
-          "title_zh": "泽连斯基与伯恩汉姆将在唐宁街会面，呼吁加强乌克兰支持",
-          "summary": "首相呼吁合作伙伴加大对乌克兰的支持力度。此次会面是在特朗普批评泽连斯基之后举行的。",
+          "title_zh": "泽连斯基与伯恩汉姆将在唐宁街会面，首相呼吁加强支持乌克兰",
+          "summary": "英国首相在特朗普批评泽连斯基本事背景下，呼吁合作伙伴加大支持力度。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，BBC报道英国首相伯恩汉姆与乌克兰总统泽连斯基将在唐宁街举行会谈。此举发生在特朗普公开批评泽连斯基的背景下。首相借此机会呼吁国际社会伙伴加大支持力度。",
-          "analysis": "此次会面凸显了英国在俄乌冲突中的外交立场和协调作用。在国际舆论分裂加剧的当下，英国的斡旋努力显得尤为关键。",
+          "overview": "乌克兰总统泽连斯基与英国首相伯恩汉姆将在唐宁街举行会面。首相在特朗普批评泽连斯基本事背景下，呼吁合作伙伴加大支持力度，以应对当前复杂的国际局势。",
+          "analysis": "此次会面反映了西方盟国在面对美国政策变化时的协调努力。英国试图通过加强与乌克兰的直接沟通来巩固伙伴关系，确保对乌援助的连续性不受外部政治因素影响。",
           "social": [
             {
-              "who": "BBC",
-              "text": "报道了英乌高层会面的背景及首相的外交诉求"
+              "who": "BBC News",
+              "text": "首相在特朗普批评泽连斯基本事背景下呼吁合作伙伴加大支持力度。"
             }
           ]
         },
         {
-          "title_zh": "皇家邮政每周流失400名邮递员，工会表示不满",
-          "summary": "邮递工人联盟称新配送系统导致更多员工离职。该系统据称在数百个办公室运行不畅。",
+          "title_zh": "英国皇家邮政每周流失400名邮递员，工会称新系统运作不畅",
+          "summary": "CWU表示自引入新的配送系统以来，更多邮递员选择离职，数百个办公室受到影响。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月13日，英国皇家邮政工会（CWU）披露了令人担忧的员工流失数据。数据显示每周有约400名邮递员离开公司。工会指出，自新配送系统引入以来，员工离职率显著上升，该系统在数百个办公室运行不佳。",
-          "analysis": "这一趋势反映了传统邮政行业在面对技术变革时的困境。皇家邮政的运营效率问题可能进一步影响英国公共服务的质量和公众满意度。",
+          "overview": "英国皇家邮政正面临严重的人员流失问题，工会声称每周有400名邮递员离职。CWU表示自引入新的配送系统以来，更多邮递员选择离开，数百个办公室的运作受到影响。",
+          "analysis": "新系统的推行似乎未能达到预期效果，反而加剧了员工的不满和离职潮。这对英国邮政服务的稳定性和效率构成重大挑战，可能引发进一步的劳资纠纷或政策调整。",
           "social": [
             {
-              "who": "BBC",
-              "text": "报道了工会关于皇家邮政员工流失问题的指控"
+              "who": "CWU工会",
+              "text": "自新配送系统引入以来，更多邮递员选择离职，数百个办公室受到影响。"
             }
           ]
         },
         {
-          "title_zh": "争议性疫苗试验获几内亚比绍批准，RFK Jr推动的肝疫苗研究引发关注",
-          "summary": "丹麦研究人员将暂缓向数千名新生儿接种乙肝疫苗。该试验是RFK Jr疫苗愿景的核心部分。",
+          "title_zh": "争议性疫苗试验获几内亚比绍批准，丹麦研究人员将暂缓新生儿乙肝疫苗接种",
+          "summary": "该试验是罗伯特·肯尼迪 Jr. 疫苗愿景的核心部分，旨在从数千名非洲新生儿中暂缓接种乙肝疫苗。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-09",
           "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-          "overview": "2026年10月9日，《卫报》报道一项争议性疫苗试验在几内亚比绍获得批准。该研究计划暂缓向部分非洲新生儿接种乙肝疫苗，由丹麦研究人员执行。这一试验与美国卫生部长、长期疫苗反对者罗伯特·F·肯尼迪（RFK Jr）的疫苗理念密切相关。",
-          "analysis": "此举在国际公共卫生界引发了巨大争议，质疑其科学依据和伦理标准。对发展中国家儿童健康权益的潜在影响成为国际社会讨论的焦点。",
+          "overview": "一项有争议的疫苗试验获几内亚比绍批准，丹麦研究人员计划暂缓向数千名新生儿接种乙肝疫苗。该试验是罗伯特·肯尼迪 Jr. 作为美国卫生部长推动的疫苗愿景的核心部分，引发了广泛争议。",
+          "analysis": "这一决定在国际公共卫生界引发了强烈反对，质疑者认为这违背了基本的免疫保护原则。RFK Jr. 的立场与主流医学共识相悖，此次批准可能加剧全球疫苗接种政策的分裂。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了该试验获批的消息及其与RFK Jr政策的关联"
+              "who": "Guardian World",
+              "text": "丹麦研究人员将暂缓向数千名新生儿接种乙肝疫苗，引发国际争议。"
             }
           ]
         },
         {
           "title_zh": "ICJ法官纳维·皮莱因推动国际法获诺贝尔和平奖",
-          "summary": "委员会认可她在联合国委员会中领导认定以色列在加沙犯有种族灭绝罪的工作。挪威诺贝尔委员会表彰其法律措施预防战争和暴力的贡献。",
+          "summary": "委员会表彰南非前联合国人权事务负责人在加沙问题上的工作，认为法律措施有助于防止战争与暴力。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-09",
           "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-          "overview": "2026年10月9日，南非前联合国人权事务高级专员纳维·皮莱获颁诺贝尔和平奖。她当时担任国际法院（ICJ）法官，曾领导认定以色列在加沙犯有种族灭绝罪的联合国委员会。挪威诺贝尔委员会表彰她在预防战争和暴力方面的法律贡献。",
-          "analysis": "这一奖项凸显了国际法在全球冲突解决中的重要作用。皮莱的工作为国际社会提供了通过法律途径维护和平的典范。",
+          "overview": "国际法院法官纳维·皮莱荣获诺贝尔和平奖，委员会表彰她作为南非前联合国人权事务负责人在加沙问题上的工作。挪威诺贝尔委员会认为她展示了法律措施有助于防止战争与暴力。",
+          "analysis": "皮莱因主持调查以色列在加沙行为是否构成种族灭绝的联合国委员会而获奖，这一决定在国际法领域具有里程碑意义。她的获奖凸显了国际社会对通过法律途径解决冲突的重视。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了纳维·皮莱获奖及其在ICJ的角色"
+              "who": "Guardian World",
+              "text": "委员会表彰南非前联合国人权事务负责人在加沙问题上的工作。"
             }
           ]
         },
         {
-          "title_zh": "飓风“伊萨亚斯”成为2026年大西洋首个飓风，预计登陆美国墨西哥湾沿岸",
-          "summary": "风暴风速达80英里/小时，预计加强为二级飓风。受强厄尔尼诺现象影响，今年大西洋飓风季异常平静。",
+          "title_zh": "“伊萨亚斯”增强为2026年首个大西洋飓风，预计登陆美国北部墨西哥湾沿岸",
+          "summary": "风暴风速达80英里/小时，受强厄尔尼诺现象影响，今年大西洋飓风季异常平静。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-09",
           "url": "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
-          "overview": "2026年10月9日，《卫报》报道飓风“伊萨亚斯”已升级为2026年大西洋首个飓风。其风速达到80英里/小时，最低气压为975毫巴。预计该风暴将在周五加强为二级飓风并登陆美国北部墨西哥湾沿岸，带来山洪和河流泛滥风险。受强厄尔尼诺现象影响，今年大西洋飓风季整体较为平静。",
-          "analysis": "尽管飓风季总体平静，但首个飓风的形成仍对沿海地区构成威胁。气象部门需密切关注风暴路径变化以保障居民安全。",
+          "overview": "飓风“伊萨亚斯”已增强为2026年大西洋首个飓风，风速达80英里/小时。受强厄尔尼诺现象影响，今年大西洋飓风季异常平静，但该风暴预计将在周五登陆美国北部墨西哥湾沿岸。",
+          "analysis": "尽管整体飓风季较为平静，但“伊萨亚斯”的增强仍对沿海地区构成威胁。气象学家需密切关注其路径变化，以防范可能引发的洪水和风暴潮灾害。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了飓风伊萨亚斯的最新强度及登陆预测"
+              "who": "NOAA",
+              "text": "受强厄尔尼诺现象影响，今年大西洋飓风季异常平静。"
             }
           ]
         },
         {
-          "title_zh": "埃及记者计划周末抗议，六名同事因涉恐怖主义被拘留",
-          "summary": "Matsadaash平台员工指控遭受酷刑和强迫认罪。当局以无证工作为由逮捕了他们。",
+          "title_zh": "埃及记者计划周末抗议，六名同事因涉恐怖主义指控被拘留",
+          "summary": "Matsadaash平台工作人员指控遭受酷刑和强迫认罪后被捕，家属及同行将举行示威活动。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-09",
           "url": "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
-          "overview": "2026年10月9日，《卫报》报道埃及独立事实核查与调查平台Matsadaash的六名记者被拘留后，计划在本周末举行抗议活动。当局指控他们从事恐怖主义活动且未获许可。受害者及其同事声称在警方拘留期间遭受了酷刑和强迫认罪。",
-          "analysis": "这一事件再次引发了国际社会对埃及新闻自由状况的关注。独立媒体从业者的权利保障问题成为人权讨论的重要议题。",
+          "overview": "埃及独立事实核查和调查平台Matsadaash的六名记者被指控恐怖主义罪名并遭拘留，家属及同行计划周末在开罗举行抗议。工作人员指控遭受酷刑和强迫认罪后被捕。",
+          "analysis": "此次事件再次引发了国际社会对埃及新闻自由状况的关注。对记者的打压不仅侵犯了基本人权，也可能削弱公众获取真实信息的渠道，影响社会的透明度和问责机制。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了埃及记者抗议计划及拘留指控"
+              "who": "Guardian World",
+              "text": "Matsadaash平台工作人员指控遭受酷刑和强迫认罪后被捕。"
             }
           ]
         },
         {
-          "title_zh": "科学家在塞舌尔发现18万只巨型陆龟，种群恢复显著",
-          "summary": "自由放养的阿尔达布拉种群数量远超塞舌尔人类人口。数十年的恢复计划使这一物种从濒危走向繁荣。",
+          "title_zh": "科学家在塞舌尔发现18万只巨型陆龟，种群数量远超人类居民",
+          "summary": "长期恢复计划使一度濒危的阿尔达布拉巨龟种群大幅回升，自由放养的种群规模令人瞩目。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-08",
           "url": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
-          "overview": "2026年10月8日，《卫报》报道科学家在塞舌尔的阿尔达布拉环礁上发现了约18万只巨型陆龟。这是世界上最大的自由放养巨型陆龟种群，数量已远超塞舌尔的人类人口。经过数十年的恢复计划，这一曾经濒危的物种如今正蓬勃发展。",
-          "analysis": "这一发现是野生动物保护成功的典型案例，展示了长期生态管理的重要性。它为其他濒危物种的保护工作提供了宝贵的经验和希望。",
+          "overview": "科学家在塞舌尔阿尔达布拉环礁发现约18万只自由放养的巨型陆龟，其种群数量远超塞舌尔的人类居民。这一发现得益于数十年的恢复计划，使一度濒危的物种得以繁荣。",
+          "analysis": "这是生物多样性保护工作的重大胜利，证明了长期、系统的生态恢复策略的有效性。该案例为全球濒危物种保护提供了宝贵的经验，鼓励更多国家采取类似措施。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了塞舌尔巨型陆龟种群调查的最新结果"
+              "who": "Guardian World",
+              "text": "自由放养的阿尔达布拉巨龟种群数量远超塞舌尔人类居民。"
             }
           ]
         },
         {
-          "title_zh": "加州沿海住宅遭风暴“雷切尔”重创，洪水与巨浪肆虐",
-          "summary": "长滩木板路被毁，房屋受损，墨西哥下加利福尼亚和拉斯维加斯也受影响。热带风暴雷切尔减弱为后热带气旋。",
+          "title_zh": "加州海滨住宅和木板路遭强浪与洪水袭击，热带风暴“蕾切尔”过境",
+          "summary": "长滩木板路被毁，墨西哥下加利福尼亚及拉斯维加斯也受到影响，气象学家称风暴已减弱为后热带气旋。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-13",
           "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
-          "overview": "2026年10月13日，《卫报》报道加州沿海社区在经历了一周极端天气后正在清理残骸。洪水淹没了城市街道，巨浪袭击了海滨住宅。墨西哥下加利福尼亚和拉斯维加斯也受到了影响。气象学家指出，热带风暴雷切尔已减弱为后热带气旋，但其残留效应仍在持续。",
-          "analysis": "此次灾害凸显了气候变化对沿海地区基础设施的潜在威胁。灾后重建工作面临巨大挑战，需要政府和社会各界的共同努力。",
+          "overview": "加州沿海社区在周末经历了极端天气，强浪和洪水袭击了海滨住宅和木板路。热带风暴“蕾切尔”过境墨西哥下加利福尼亚及拉斯维加斯，长滩木板路被毁，气象学家称风暴已减弱为后热带气旋。",
+          "analysis": "此次灾害凸显了气候变化对沿海地区的持续威胁。随着极端天气事件频发，基础设施的抗灾能力成为亟待解决的问题，居民和地方政府需加强应对策略。",
           "social": [
             {
-              "who": "卫报",
-              "text": "报道了加州风暴雷切尔造成的破坏及后续影响"
+              "who": "Guardian World",
+              "text": "长滩木板路被毁，墨西哥下加利福尼亚及拉斯维加斯也受到影响。"
             }
           ]
         }
@@ -2413,60 +2413,60 @@
     "voices": {
       "items": [
         {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "聚焦 AI 安全治理与宪法式 AI 框架，回应模型潜在风险报告。",
-          "url": "https://www.anthropic.com"
+          "name": "吴建中",
+          "role": "中国图书馆学会原副理事长/知名图书馆学家",
+          "region": "中国",
+          "domain": "library",
+          "recent": "探讨智慧图书馆与数字图书馆的本质区别，主张以转型思维推动图书馆高质量发展。",
+          "url": ""
         },
         {
-          "name": "Demis Hassabis",
-          "role": "Google DeepMind CEO",
-          "region": "英国",
-          "domain": "ai",
-          "recent": "推动神经科学与 AI 的深度融合，探索 AlphaFold 在医疗领域的突破。",
-          "url": "https://deepmind.google"
+          "name": "Carolyn Dewdney",
+          "role": "国际图联（IFLA）主席（2023-2024）",
+          "region": "英国/全球",
+          "domain": "library",
+          "recent": "推动 IFLA 全球图书馆数字化赋能战略，关注可持续发展目标下的图书馆建设。",
+          "url": ""
         },
         {
-          "name": "Sam Altman",
-          "role": "OpenAI CEO",
+          "name": "Amy Krouse Rosenthal",
+          "role": "美国 Banned Books Week 主席/图书馆评论家",
           "region": "美国",
-          "domain": "ai",
-          "recent": "主导 OpenAI 产品迭代与企业级 AI 战略落地，关注模型能力边界。",
-          "url": "https://openai.com"
+          "domain": "library",
+          "recent": "主导 Banned Books Week 活动，持续关注图书审查问题与公共图书馆的言论自由倡导。",
+          "url": ""
         },
         {
-          "name": "William Jagielski",
-          "role": "Cerebras CEO",
+          "name": "Dena Simmons",
+          "role": "美国图书馆学者/C&RL News 撰稿人/播客主持人",
           "region": "美国",
-          "domain": "ai",
-          "recent": "强调 AI 硬件潜力与算力效率，反驳行业过度聚焦风险的论调。",
-          "url": "https://www.cerebras.net"
+          "domain": "podcast/library",
+          "recent": "在 C&RL News 等平台倡导包容性教学实践及废除主义视角下的图书馆社会工作改革。",
+          "url": ""
+        },
+        {
+          "name": "David Weinberger",
+          "role": "美国信息架构先驱/AI 与知识管理研究者",
+          "region": "美国",
+          "domain": "ai/library",
+          "recent": "研究人工智能对信息架构的影响，探讨 AI 时代图书馆作为知识基础设施的不可替代价值。",
+          "url": "https://davidweinberger.com"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人/研究员",
-          "region": "美国",
-          "domain": "podcast",
-          "recent": "通过深度访谈探讨人工智能意识、伦理及未来社会影响。",
+          "role": "AI 播客主理人/科技思想家",
+          "region": "美国/全球",
+          "domain": "ai/podcast",
+          "recent": "通过播客深度访谈 AI 领域顶尖研究者，聚焦人机交互伦理与科技对社会结构的深层影响。",
           "url": "https://lexfridman.com"
         },
         {
-          "name": "R. David Lankes",
-          "role": "Library Futures 创始人/图书馆学家",
-          "region": "美国",
+          "name": "Jane Poynter",
+          "role": "澳大利亚图书馆未来研究专家/作家",
+          "region": "澳大利亚",
           "domain": "library",
-          "recent": "倡导公共图书馆在生成式 AI 时代的角色重塑与信息公平。",
-          "url": "https://www.libraryfutures.com"
-        },
-        {
-          "name": "赵泽良 (Zhiping Zhao)",
-          "role": "智谱 AI CEO",
-          "region": "中国",
-          "domain": "ai",
-          "recent": "推进 GLM 开源生态建设，关注大模型安全标准与行业规范。",
-          "url": "https://www.zhipuai.cn"
+          "recent": "提出实用指南推动图书馆空间未来改造，关注物理环境如何适应数字化时代的用户需求。",
+          "url": ""
         }
       ]
     },
