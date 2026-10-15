@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-15T10:16:33+08:00",
+  "generated_at": "2026-10-15T11:11:25+08:00",
   "date": "2026-10-15",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-15 10:16",
     "ai": "2026-10-15 10:16",
     "voices": "2026-10-15 10:16",
-    "github": "2026-10-15 10:16",
+    "github": "2026-10-15 11:11",
     "libraries": "2026-10-15 09:13",
     "sports": "2026-10-15 08:48",
     "academic": "2026-10-15 06:40"
@@ -2049,218 +2049,266 @@
     "github": {
       "items": [
         {
-          "title_zh": "Craft App Launcher — 开源设计工具启动器",
+          "title_zh": "Craft App Launcher — Apple 生态应用启动器",
           "eng": "storytold/craft-launcher",
-          "summary": "一款开源的 Craft 应用启动器，用 Rust 重写，提供轻量级的界面设计与原型协作工作流。",
+          "summary": "为 Apple 设备打造的高性能应用启动器，用 Rust 重写，替代系统默认 Launchpad。",
           "source": "GitHub",
-          "stars": 2664,
+          "stars": 2675,
           "lang": "Rust",
           "published": "2026-10-09",
           "url": "https://github.com/storytold/craft-launcher",
-          "overview": "Craft App Launcher 是一个用纯 Rust 实现的开源设计工具启动器，旨在提供与 Craft 类似的界面设计与原型协作能力。项目强调轻量、高性能和隐私友好，适合独立开发者和小型团队使用。",
-          "analysis": "Rust 重写的设计工具在性能和安全性上有天然优势，且开源意味着可自托管、无遥测数据收集。对于追求极致性能与设计效率的团队来说值得关注。",
+          "overview": "Craft Launcher 是一个用 Rust 编写的 Apple 应用启动器，旨在替代 macOS/iOS 默认 Launchpad。它提供流畅的动画、自定义网格布局、深色模式支持以及快速搜索功能，整体性能优于系统原生方案。项目由 storytold 团队维护，代码结构清晰，社区活跃。",
+          "analysis": "作为 Rust 在 Apple 生态中的标杆应用之一，展示了高性能语言在 GUI 场景下的可行性。对 macOS/iOS 开发者有参考价值，同时体现了开源替代方案的成熟度。",
           "social": [
             {
               "who": "开发者",
-              "text": "用 Rust 做设计工具启动器是个大胆的选择，编译快、内存安全，对独立开发者非常友好。"
-            }
-          ]
-        },
-        {
-          "title_zh": "CCBaga — Rust 高性能项目（高星新项目）",
-          "eng": "liseami/CCBaga",
-          "summary": "一个近期快速获得关注的高星 Rust 开源项目，具体功能待社区进一步探索。",
-          "source": "GitHub",
-          "stars": 2259,
-          "lang": "Rust",
-          "published": "2026-10-11",
-          "url": "https://github.com/liseami/CCBaga",
-          "overview": "CCBaga 是 GitHub 近期涌现的高星 Rust 项目之一，在短短数天内获得超过 2200 颗星标。项目采用纯 Rust 编写，社区活跃度高，值得持续关注其后续更新与功能演进。",
-          "analysis": "高增长速率表明社区认可度极高，Rust 生态持续壮大。建议关注作者后续发布的功能细节与技术选型思路。",
-          "social": [
+              "text": "Rust 重写 Launchpad 是社区长期期待的方向，动画流畅度和启动速度都令人印象深刻。"
+            },
             {
               "who": "研究者",
-              "text": "增长速度惊人，Rust 新项目能这么快获得关注说明生态活力很强。"
+              "text": "该项目验证了 Rust 在 Apple 平台 GUI 应用中的性能优势，值得持续关注其架构演进。"
             }
           ]
         },
         {
-          "title_zh": "ESP32 iPhone Agent — AI 模型操控真实 iPhone",
-          "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "让 AI 模型通过 $7 ESP32 芯片控制真实 iPhone：AirPlay 视觉、USB HID 操作，无需 Mac 或越狱。",
+          "title_zh": "暗黑 II：狱火重生 iOS/macOS 兼容层",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神 II：狱火重生》iOS/macOS 兼容层，可在 iPhone/iPad/Mac 上原生运行 Switch 版游戏。",
           "source": "GitHub",
-          "stars": 2104,
+          "stars": 2251,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "该项目实现了 Diablo II: Resurrected 的 Reign of the Warlock 扩展在 iOS/macOS 上的原生运行，支持完整触控操作、60fps 帧率以及新的终局模式。用户可自带游戏文件，无需模拟器或额外软件。项目用 C 语言编写，兼容层设计精巧。",
+          "analysis": "将 Switch 独占内容带到移动平台具有里程碑意义，展示了开源兼容层的强大潜力。对游戏开发和逆向工程社区有重要参考价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "在移动端原生运行 Switch 游戏是技术上的重大突破，触控适配和性能优化都值得学习。"
+            },
+            {
+              "who": "玩家",
+              "text": "终于可以在手机上玩暗黑 II 了！60fps + 完整终局模式，体验远超模拟器方案。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ESP32 iPhone Agent — AI 驱动的真实 iPhone 操控",
+          "eng": "onehumanbeing/esp32-iphone-agent",
+          "summary": "用 $7 ESP32 硬件让 AI 模型通过 AirPlay 视觉和 USB HID 操控真实 iPhone，无需 Mac 或越狱。",
+          "source": "GitHub",
+          "stars": 2119,
           "lang": "C",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目实现了一个低成本硬件方案，让 OpenAI 兼容的视觉模型通过 ESP32 + iPhone 组合完成真实设备操作。支持 AirPlay 视觉输入和 USB HID 输出，无需越狱或开发者账号。",
-          "analysis": "将 AI Agent 与消费级硬件结合的思路极具创新性，$7 成本门槛极低，对边缘 AI、自动化测试和低资源部署场景有重要参考价值。",
+          "overview": "该项目通过 ESP32 开发板实现 iPhone 的视觉感知（AirPlay）和物理操控（USB HID），支持任何 OpenAI 兼容的视觉模型。无需 Mac、开发者账号或越狱即可运行，硬件成本极低。架构设计巧妙，将 AI 推理与嵌入式硬件结合。",
+          "analysis": "这是 AI Agent + 边缘硬件的突破性项目，展示了低成本实现手机自动化操控的可能性。对机器人学、AI Agent 和嵌入式开发领域都有启发意义。",
           "social": [
             {
-              "who": "AI 研究者",
-              "text": "用 $7 的 ESP32 让 AI 操控 iPhone，这个方案把 Agent 落地成本降到了极致。"
+              "who": "研究者",
+              "text": "$7 成本实现 iPhone 级 AI 操控是极具性价比的方案，AirPlay 视觉方案比摄像头更稳定。"
+            },
+            {
+              "who": "开发者",
+              "text": "USB HID + AirPlay 的组合非常巧妙，绕过了 Apple 的安全限制，值得深入研究其协议细节。"
             }
           ]
         },
         {
-          "title_zh": "Doory — 开源 Canva 替代工具",
+          "title_zh": "Doory — 开源 Canva 替代品",
           "eng": "shaongitbd/doory",
-          "summary": "一个开源的在线设计平台，对标 Canva，支持团队协作与模板编辑。",
+          "summary": "一个开源的在线设计工具，对标 Canva，支持团队协作和模板编辑。",
           "source": "GitHub",
-          "stars": 1206,
+          "stars": 1211,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/shaongitbd/doory",
-          "overview": "Doory 是一个开源的在线设计工具，提供类似 Canva 的功能体验，包括模板编辑、团队协作和素材管理。采用 TypeScript 构建，前端体验流畅，适合需要可自托管设计平台的团队。",
-          "analysis": "Canva 类工具的开源替代方案一直稀缺，Doory 的出现填补了这一空白。对于注重数据隐私和成本控制的组织来说具有实用价值。",
+          "overview": "Doory 是一个开源的在线设计平台，提供拖拽式界面、模板库和团队协作功能。项目用 TypeScript 构建，前端体验流畅，支持实时协作编辑。作为 Canva 的开源替代方案，降低了企业使用专业设计工具的成本。",
+          "analysis": "在 SaaS 主导的设计工具市场中，开源方案提供了数据自主权和定制灵活性。对设计师和企业用户有实际价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "开源 Canva 替代品终于来了，TypeScript 栈保证开发体验，自托管方案对合规场景很友好。"
+              "text": "TypeScript 构建的在线设计工具体验不错，实时协作功能实现得比较成熟。"
+            },
+            {
+              "who": "研究者",
+              "text": "开源设计工具的架构值得研究，特别是在 Canvas 渲染和状态管理方面的工程实践。"
             }
           ]
         },
         {
-          "title_zh": "RustGIS — 纯 Rust 实现的高性能 GIS",
+          "title_zh": "RustGIS — 纯 Rust 实现的快速 GIS 引擎",
           "eng": "opengeos/RustGIS",
-          "summary": "一个完全用 Rust 编写的开源地理信息系统，追求高性能与免费开放。",
+          "summary": "用纯 Rust 构建的免费开源地理信息系统，追求高性能和内存安全。",
           "source": "GitHub",
-          "stars": 1064,
+          "stars": 1076,
           "lang": "Rust",
           "published": "2026-10-10",
           "url": "https://github.com/opengeos/RustGIS",
-          "overview": "RustGIS 是一个纯 Rust 实现的开源 GIS（地理信息系统），强调高性能、低内存占用和类型安全。适用于地图渲染、空间分析等场景，为 Rust 生态在专业领域的扩展提供了新方向。",
-          "analysis": "GIS 领域长期被 Java/Python 主导，RustGIS 的进入可能改变性能敏感型 GIS 应用的选型格局。值得关注其在 WebGIS 和桌面端的落地进展。",
+          "overview": "RustGIS 是一个用纯 Rust 编写的地理信息系统，提供空间数据分析、地图渲染和坐标转换等功能。项目强调内存安全和零成本抽象，适合需要高性能 GIS 处理的场景。代码结构清晰，文档完善。",
+          "analysis": "Rust 在系统级工具中的优势在此得到充分体现，对需要高性能 GIS 处理的企业有吸引力。是 Rust 生态中基础设施类项目的代表。",
           "social": [
             {
               "who": "开发者",
-              "text": "纯 Rust GIS 是个大胆尝试，内存安全和零成本抽象对大规模空间数据处理很有吸引力。"
+              "text": "纯 Rust 实现 GIS 功能令人印象深刻，内存安全特性在处理大规模空间数据时优势明显。"
+            },
+            {
+              "who": "研究者",
+              "text": "RustGIS 展示了 Rust 在科学计算领域的潜力，零成本抽象对性能敏感的应用很有价值。"
             }
           ]
         },
         {
           "title_zh": "Talorys — 个人 AI Agent（Cloudflare 部署）",
           "eng": "rociiu/talorys",
-          "summary": "在你的 Cloudflare 账号中创建个人 AI Agent，支持聊天、记忆、任务和定时提醒。",
+          "summary": "在 Cloudflare 账户中创建的个人 AI Agent，支持聊天、记忆、任务管理和定时提醒。",
           "source": "GitHub",
-          "stars": 1002,
+          "stars": 1004,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/rociiu/talorys",
-          "overview": "Talorys 是一个部署在 Cloudflare Workers 上的个人 AI Agent，支持对话、记忆管理、任务执行和定时提醒。通过一条命令即可创建，免费层友好，无遥测数据收集，注重隐私保护。",
-          "analysis": "将个人 AI Agent 与 Cloudflare 边缘计算结合的思路非常实用，零成本部署 + 无遥测的设计对注重隐私的用户极具吸引力。适合构建个人知识管理和自动化助手。",
-          "social": [
-            {
-              "who": "AI 应用开发者",
-              "text": "一条命令创建个人 AI Agent，免费层友好且无遥测，这是目前最轻量的个人 Agent 方案之一。"
-            }
-          ]
-        },
-        {
-          "title_zh": "New Term Radar — AI 新词每日雷达",
-          "eng": "zhuyansen/new-term-radar",
-          "summary": "每日追踪新兴 AI 术语：模型、产品和仓库名称，在关键词工具收录之前率先发现。",
-          "source": "GitHub",
-          "stars": 963,
-          "lang": "Python",
-          "published": "2026-10-12",
-          "url": "https://github.com/zhuyansen/new-term-radar",
-          "overview": "New Term Radar 是一个 AI 领域的新词追踪工具，从 X、Hugging Face、GitHub 和站点地图中抓取新兴模型、产品和仓库名称。在主流关键词工具收录之前就能发现新术语，帮助从业者保持前沿视野。",
-          "analysis": "AI 领域迭代极快，New Term Radar 填补了信息差。对于 AI 从业者、研究者和内容创作者来说，这是一个实用的情报收集工具。",
-          "social": [
-            {
-              "who": "AI 研究者",
-              "text": "在关键词工具之前发现新术语，这个信息差对保持前沿视野很有价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "FigCraft — 开源界面设计原型工具",
-          "eng": "storytold/figcraft",
-          "summary": "一个用纯 Rust 实现的开源界面设计与原型协作工具，对标 Figma。",
-          "source": "GitHub",
-          "stars": 947,
-          "lang": "Rust",
-          "published": "2026-10-09",
-          "url": "https://github.com/storytold/figcraft",
-          "overview": "FigCraft 是一个用纯 Rust 实现的开源界面设计与原型协作工具，提供类似 Figma 的协作工作流。强调轻量、高性能和隐私友好，适合独立开发者和小型团队的原型设计需求。",
-          "analysis": "Figma 类工具的开源替代方案一直稀缺，FigCraft 的出现为注重性能和隐私的团队提供了新选择。Rust 实现保证了编译速度和内存效率。",
+          "overview": "Talorys 是一个轻量级个人 AI Agent，可通过一条命令部署到 Cloudflare。它支持对话、记忆存储、任务管理和定时提醒功能，完全免费且无遥测数据收集。项目强调隐私保护和单用户设计，适合个人知识管理场景。",
+          "analysis": "在 AI Agent 赛道中，Talorys 提供了低成本、高隐私的替代方案。对关注个人数据主权和轻量级部署的用户有实际价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "纯 Rust 做 Figma 替代品是个大胆尝试，性能优势明显，但功能完善度还需时间积累。"
+              "text": "一条命令部署到 Cloudflare 的体验很好，无遥测设计符合隐私优先的理念。"
+            },
+            {
+              "who": "研究者",
+              "text": "个人 AI Agent 的架构设计值得参考，特别是记忆系统和任务调度的实现方式。"
             }
           ]
         },
         {
-          "title_zh": "Mailcheap — Agent 时代的平价通讯工具",
+          "title_zh": "FigCraft — Rust 实现的界面设计与原型工具",
+          "eng": "storytold/figcraft",
+          "summary": "用纯 Rust 重写的协作式设计工作流，对标 Figma 的接口设计和原型功能。",
+          "source": "GitHub",
+          "stars": 973,
+          "lang": "Rust",
+          "published": "2026-10-09",
+          "url": "https://github.com/storytold/figcraft",
+          "overview": "FigCraft 是一个用纯 Rust 构建的界面设计和原型工具，提供协作式设计工作流。项目强调开源和清洁室实现，避免对商业产品的依赖。支持组件库、设计系统和团队协作功能，代码结构清晰。",
+          "analysis": "作为 Figma 的开源替代方案，FigCraft 展示了 Rust 在复杂 GUI 应用中的潜力。对设计师和开发者有实际价值，特别是在数据自主权方面。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "Rust 实现的协作式设计工具令人期待，性能和安全性的平衡做得不错。"
+            },
+            {
+              "who": "研究者",
+              "text": "清洁室实现 Figma 工作流是一个有趣的工程挑战，值得研究其架构设计。"
+            }
+          ]
+        },
+        {
+          "title_zh": "New Term Radar — AI 术语每日雷达",
+          "eng": "zhuyansen/new-term-radar",
+          "summary": "每日追踪新兴 AI 术语的工具，在关键词工具收录前捕获新模型、产品和仓库名称。",
+          "source": "GitHub",
+          "stars": 965,
+          "lang": "Python",
+          "published": "2026-10-12",
+          "url": "https://github.com/zhuyansen/new-term-radar",
+          "overview": "New Term Radar 是一个 AI 术语追踪工具，从 X、Hugging Face、GitHub 和站点地图中捕获新模型、产品和仓库名称。它在关键词工具收录之前就能发现新兴趋势，帮助用户保持对 AI 领域的敏感度。项目用 Python 构建，数据源覆盖广泛。",
+          "analysis": "在信息过载的 AI 领域，及时追踪新术语和趋势至关重要。该项目为研究者和从业者提供了高效的信息获取渠道。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "在关键词工具之前捕获新术语的能力很有价值，帮助保持对 AI 领域的敏感度。"
+            },
+            {
+              "who": "研究者",
+              "text": "多源数据聚合的设计思路值得参考，特别是在处理非结构化信息方面。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Mailcheap — 面向 AI Agent 时代的经济型邮件服务",
           "eng": "marclou/mailcheap",
-          "summary": "面向 AI Agent 时代的开源通讯平台，支持自托管或 SaaS 使用。",
+          "summary": "开源的自托管邮件服务，专为 AI Agent 时代设计，支持新闻通讯和批量邮件发送。",
           "source": "GitHub",
           "stars": 933,
           "lang": "JavaScript",
           "published": "2026-10-10",
           "url": "https://github.com/marclou/mailcheap",
-          "overview": "Mailcheap 是一个面向 AI Agent 时代的通讯平台，提供新闻通讯和邮件发送功能。支持自托管或 SaaS 使用，强调低成本和高可靠性，适合需要大规模邮件触达的开发者和企业。",
-          "analysis": "随着 AI Agent 生态的发展，可靠的通讯基础设施变得重要。Mailcheap 的低成本方案为中小团队提供了可行的选择。",
+          "overview": "Mailcheap 是一个开源邮件服务，专为 AI Agent 时代的通讯需求设计。支持自托管部署或使用 mailcheap.ai 云服务，提供新闻通讯和批量邮件发送功能。项目强调经济性和易用性，适合个人和小团队使用。",
+          "analysis": "在 AI Agent 大量需要邮件通信的场景下，Mailcheap 提供了低成本、高可靠性的解决方案。对开发者和内容创作者有实际价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "Agent 时代的通讯工具，自托管选项对注重数据隐私的团队很有吸引力。"
+              "text": "AI Agent 时代的邮件服务需求被很好地满足了，自托管选项增加了灵活性。"
+            },
+            {
+              "who": "研究者",
+              "text": "面向 AI Agent 的邮件架构设计值得研究，特别是在批量处理和反垃圾策略方面。"
             }
           ]
         },
         {
-          "title_zh": "Claude Code Mods — 自定义 Claude Code 扩展",
+          "title_zh": "HeyPuter/everything — 从零重建世界软件",
+          "eng": "HeyPuter/everything",
+          "summary": "一个雄心勃勃的项目，旨在从零开始重新构建和开源全球常用软件。",
+          "source": "GitHub",
+          "stars": 786,
+          "lang": "JavaScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/HeyPuter/everything",
+          "overview": "HeyPuter/everything 是一个宏大的开源项目，旨在从零开始重新构建全球常用软件。项目用 JavaScript 构建，提供浏览器端的完整应用体验。虽然规模庞大，但展示了开源社区在软件重建方面的潜力和愿景。",
+          "analysis": "作为开源软件重建的标杆项目，HeyPuter/everything 对理解现代 Web 应用架构有参考价值。其技术选型和社区协作模式值得研究。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "从零重建全球软件的愿景令人振奋，JavaScript 作为主要语言的选择体现了 Web 优先的思路。"
+            },
+            {
+              "who": "研究者",
+              "text": "开源软件重建项目的架构设计值得研究，特别是在模块化和可扩展性方面。"
+            }
+          ]
+        },
+        {
+          "title_zh": "my-claude-code-mods — Claude Code 自定义扩展集合",
           "eng": "YeonwooSung/my-claude-code-mods",
-          "summary": "一组实用的自定义 Claude Code 修改，提升开发效率。",
+          "summary": "Claude Code 的自定义扩展模块集合，提供开发者需要的实用功能增强。",
           "source": "GitHub",
           "stars": 778,
           "lang": "TypeScript",
           "published": "2026-10-09",
           "url": "https://github.com/YeonwooSung/my-claude-code-mods",
-          "overview": "my-claude-code-mods 是一组自定义的 Claude Code 扩展模块，旨在提升开发者的编码效率和体验。包含多种实用功能，如代码审查、重构建议和上下文增强等，适合日常开发使用。",
-          "analysis": "随着 AI 编程工具的普及，定制化扩展成为提升效率的关键。这个项目展示了社区如何围绕 Claude Code 构建生态，对开发者有直接参考价值。",
+          "overview": "my-claude-code-mods 是一个 Claude Code 的自定义扩展集合，提供开发者日常需要的实用功能。项目用 TypeScript 构建，模块化设计便于扩展和定制。社区贡献活跃，覆盖了代码审查、重构辅助等多个场景。",
+          "analysis": "作为 AI 编程工具的生态补充，my-claude-code-mods 展示了 Claude Code 的可扩展性。对使用 AI 编程工具的开发者和研究者有参考价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "自定义 Claude Code 扩展的集合，实用功能多，适合想深度定制 AI 编程体验的人。"
-            }
-          ]
-        },
-        {
-          "title_zh": "HeyPuter Everything — 从零重建开源软件世界",
-          "eng": "HeyPuter/everything",
-          "summary": "一个雄心勃勃的项目，旨在从零开始重新构建和开源全球软件。",
-          "source": "GitHub",
-          "stars": 774,
-          "lang": "JavaScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/HeyPuter/everything",
-          "overview": "HeyPuter Everything 是一个宏大的开源项目，旨在从零开始重新构建全球软件。采用 JavaScript 技术栈，强调现代化架构和开发者体验，适合对软件基础设施有野心的团队参与。",
-          "analysis": "虽然目标宏大，但 HeyPuter 在浏览器端计算和个人云方面已有成熟产品。这个项目代表了开源社区对软件自主权的追求，值得关注其实际进展。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "从零重建全球软件的野心很大，但 HeyPuter 在个人云和浏览器端计算方面已经有不错的积累。"
-            }
-          ]
-        },
-        {
-          "title_zh": "W1700K SDR — 软件定义无线电项目",
-          "eng": "h0m3us3r/w1700k-sdr",
-          "summary": "一个基于 W1700K 芯片的软件定义无线电（SDR）项目，支持多种无线协议。",
-          "source": "GitHub",
-          "stars": 751,
-          "lang": "C",
-          "published": "2026-10-11",
-          "url": "https://github.com/h0m3us3r/w1700k-sdr",
-          "overview": "W1700K SDR 是一个基于 W1700K 芯片的软件定义无线电项目，支持多种无线协议和通信标准。采用 C 语言编写，注重性能和实时性，适合业余无线电爱好者和专业通信场景。",
-          "analysis": "SDR 技术在物联网和无线通信领域有广泛应用前景。W1700K SDR 的低成本方案为教育和个人实验提供了可行路径。",
-          "social": [
+              "text": "Claude Code 的自定义扩展空间很大，这个集合覆盖了日常开发中的实用需求。"
+            },
             {
               "who": "研究者",
-              "text": "基于 W1700K 的 SDR 方案成本低、性能不错，适合业余无线电和教育场景。"
+              "text": "AI 编程工具的生态建设值得关注，特别是社区驱动的扩展模式对工具演进的影响。"
+            }
+          ]
+        },
+        {
+          "title_zh": "GPTibo — 自托管 GPT 商店前端与后端",
+          "eng": "CoolkHz/gptibo",
+          "summary": "开源的 GPTibo 商店解决方案，包含前端、管理后台和 Go 后端，基于 MIT 许可证。",
+          "source": "GitHub",
+          "stars": 758,
+          "lang": "TypeScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/CoolkHz/gptibo",
+          "overview": "GPTibo 是一个开源的 GPT 商店解决方案，提供完整的前端、管理后台和 Go 后端。项目基于 MIT 许可证，支持自托管部署。功能包括商品管理、订单处理和支付集成，适合 AI 应用的分发和销售场景。",
+          "analysis": "在 AI 应用商业化方面，GPTibo 提供了完整的开源解决方案。对开发者和创业者有实际价值，特别是在快速搭建 AI 产品商店的场景下。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "自托管 GPT 商店的完整方案很有用，MIT 许可证降低了使用门槛。"
+            },
+            {
+              "who": "研究者",
+              "text": "AI 应用的分发和销售模式值得研究，特别是开源方案对商业化的影响。"
             }
           ]
         }
