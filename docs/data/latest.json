@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:26:18+09:00",
+  "generated_at": "2026-10-16T07:36:11+09:00",
   "date": "2026-10-16",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,17 +7,59 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-16 00:26",
-    "ai": "2026-10-16 00:26",
-    "voices": "2026-10-16 00:26",
-    "github": "2026-10-16 00:26",
-    "libraries": "2026-10-15 23:33",
-    "sports": "2026-10-16 00:26",
+    "hot": "2026-10-16 07:36",
+    "ai": "2026-10-16 07:36",
+    "voices": "2026-10-16 07:36",
+    "github": "2026-10-16 07:36",
+    "libraries": "2026-10-16 07:36",
+    "sports": "2026-10-16 07:36",
     "academic": "2026-10-15 06:40"
   },
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Meta与苹果联手推出可在Mac本地运行的开源AI模型",
+          "eng": "Meta and Apple team up to make Muse AI models run better on Macs",
+          "summary": "Meta发布了Muse Spark Open，这是目前美国最强大的开源权重模型之一，也是首个能在Apple M5 Ultra上本地运行的同类模型。Meta与苹果合作优化了MLX框架支持。",
+          "source": "The Verge",
+          "region": "全球（美国）",
+          "published": "2026-10-15",
+          "tags": [
+            "开源AI",
+            "Apple Silicon",
+            "大模型"
+          ],
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+          "overview": "Meta于2026年10月15日宣布推出Muse Spark Open AI模型，自称是迄今美国最强大的开源权重模型。该模型是同类中首个支持在桌面端通过两个Apple M5 Ultra Mac Studio配合最新MLX框架本地运行的模型。Meta与苹果的合作旨在优化模型在Mac硬件上的推理效率，标志着AI从云端向消费级PC的进一步下沉。",
+          "analysis": "这一合作表明边缘计算和端侧推理正在成为新的战略高地，开源权重策略有助于降低企业部署门槛。Apple Silicon生态对AI算力的整合正在加速，可能重塑本地AI应用的竞争格局。",
+          "social": [
+            {
+              "who": "工程师",
+              "text": "在Mac上直接跑大模型是开发者梦寐以求的能力，Muse Spark Open如果推理速度达标，将极大提升本地AI体验。"
+            },
+            {
+              "who": "投资人",
+              "text": "Meta选择与Apple合作而非NVIDIA生态，说明边缘计算和端侧推理正在成为新的战略高地。"
+            }
+          ]
+        },
+        {
+          "title_zh": "亚马逊高管描绘未来：AI设备将取代应用程序的使用方式",
+          "eng": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+          "summary": "亚马逊设备负责人Panos Panay在TechCrunch Disrupt上表示，未来的AI设备将在后台主动预判用户需求，从而无需用户主动打开应用。",
+          "source": "TechCrunch AI",
+          "region": "美国",
+          "published": "2026-10-15",
+          "tags": [
+            "亚马逊",
+            "端侧AI",
+            "智能家居"
+          ],
+          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+          "overview": "在TechCrunch Disrupt大会上，亚马逊设备负责人Panos Panay阐述了公司对于AI设备的未来愿景。他认为未来的智能设备将作为环境中的AI存在，在后台持续运行并主动满足用户需求，而非被动等待用户发出指令或打开特定应用。这一观点代表了消费电子行业从“工具型”向“服务型”AI转型的趋势。",
+          "analysis": "亚马逊试图通过Echo等硬件构建的“始终在线”生态来挑战手机作为计算核心的地位。如果端侧大模型能真正理解上下文，"
+        },
         {
           "title_zh": "以色列广告科技公司被曝通过在线广告实施零点击间谍攻击",
           "eng": "An Israeli firm is sending spyware through online ads, researchers say",
@@ -722,58 +764,6 @@
             {
               "who": "科技政策分析师",
               "text": "需要建立更严格的AI安全审查机制，防止有害技术流入商业领域"
-            }
-          ]
-        },
-        {
-          "title_zh": "Google发布Gemini 4 Argon：专为解决最难题设计",
-          "eng": "Gemini 4 Argon: Built to solve your hardest problems",
-          "summary": "Google正式推出新一代AI模型Gemini 4 Argon，定位为能够处理用户最复杂问题的先进系统。该模型代表了Google在AI能力上的最新突破。",
-          "source": "Google Blog AI",
-          "region": "全球",
-          "published": "2026-10-13",
-          "tags": [
-            "大模型发布",
-            "Google",
-            "Gemini"
-          ],
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "overview": "Google发布了Gemini 4 Argon，这是一款专为解决复杂问题而设计的AI模型。作为Google最新一代的旗舰产品，Argon在推理能力和多模态处理方面进行了显著升级。该发布标志着Google在竞争激烈的AI模型市场中继续加大投入。",
-          "analysis": "Gemini 4 Argon的推出反映了当前AI竞赛的核心趋势：从通用能力向专业问题解决能力的转变。Google选择强调'最难题'的定位，可能是在回应市场对AI实用性的更高期望。",
-          "social": [
-            {
-              "who": "开发者社区",
-              "text": "复杂问题求解能力是区分下一代AI模型的关键指标"
-            },
-            {
-              "who": "企业技术决策者",
-              "text": "需要评估新模型在特定场景下的实际表现，而非仅看技术参数"
-            }
-          ]
-        },
-        {
-          "title_zh": "Cerebras CEO反驳AI末日论调：行业应关注潜力而非风险",
-          "eng": "Cerebras CEO pushes back on AI doomsday warnings",
-          "summary": "在TechCrunch Disrupt大会上，Cerebras CEO Andrew Feldman批评AI领导者过度强调风险而忽视潜在好处。他认为行业的末日叙事正在淹没AI的真正价值。",
-          "source": "TechCrunch AI",
-          "region": "美国",
-          "published": "2026-10-13",
-          "tags": [
-            "AI辩论",
-            "行业观点",
-            "Cerebras"
-          ],
-          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-          "overview": "在TechCrunch Disrupt 2026大会上，Cerebras CEO Andrew Feldman公开反驳了AI末日论调。他认为行业对AI风险的过度关注正在掩盖其潜在的巨大好处，呼吁领导者停止传播恐慌性言论。这一表态反映了AI行业中'乐观派'与'谨慎派'之间的持续张力。",
-          "analysis": "Feldman的立场代表了AI行业中一种日益增长的声音：在确保安全的同时不应放弃技术进步。这种辩论对于政策制定者和公众理解AI发展至关重要，因为过度悲观可能导致不必要的监管阻碍。",
-          "social": [
-            {
-              "who": "投资人",
-              "text": "平衡风险与机遇的叙事对投资决策更为重要"
-            },
-            {
-              "who": "科技媒体评论员",
-              "text": "AI讨论需要更多建设性对话，而非简单的恐惧营销"
             }
           ]
         }
@@ -1752,339 +1742,233 @@
     "sports": {
       "items": [
         {
-          "title_zh": "国际足联理事会要求因凡蒂诺进一步道歉，质疑其领导能力",
+          "title_zh": "国际足联主席因特纳诺向理事会道歉但仍被指不适合领导",
           "eng": "Apologetic Infantino 'not fit' to lead Fifa, claim European FA heads after meeting",
-          "summary": "国际足联主席因凡蒂诺在理事会会议上就世界杯申办计划致歉，但被要求走得更远。英德足协负责人会后公开质疑其治理资格，欧洲领导层信心增强将寻找挑战者。",
+          "summary": "国际足联主席因特纳诺就世界杯出售计划向执行委员会致歉，但欧洲足协领导人仍质疑其治理能力。英德足总负责人在长达三个半小时的会议后表示，他们预期将在明年选举中找到替代候选人。",
           "source": "Guardian Football",
           "published": "2026-10-15",
           "url": "https://www.theguardian.com/football/2026/oct/15/fifa-gianni-infantino-council",
-          "overview": "2026年10月15日，国际足联37人执行委员会召开长期期待已久的会议。因凡蒂诺首先就世界杯销售计划向理事会致歉，但随后被要求进一步行动。英德足协负责人在会后表示，他们越来越有信心将在明年选举中找到挑战因凡蒂诺的候选人，并质疑其治理 fitness。",
-          "analysis": "这标志着国际足联内部权力斗争的公开化，欧洲足球领导层对因凡蒂诺的信任正在瓦解，世界杯改革方案的争议成为导火索。",
+          "overview": "国际足联主席因特纳诺在37人执行委员会会议上就其世界杯出售计划向理事会致歉，但被要求进一步说明。欧洲足球领导人，特别是英格兰和德国足总负责人，在会议结束后公开质疑他是否适合继续领导该组织。他们表示对明年选举中将出现挑战者充满信心，认为现任主席未能回答关键问题。",
+          "analysis": "因特纳诺的道歉并未平息争议，欧洲足协高层的态度表明FIFA内部的权力格局正在发生微妙变化。如果挑战者在明年选举中胜出，将标志着国际足联治理模式的重大转折。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "因凡蒂诺道歉了但没被放过，看来2026年选举不会太平"
+              "text": "因特纳诺的道歉更像是一种政治姿态，欧洲足协的联合施压才真正显示了改革的压力正在积聚。"
             },
             {
-              "who": "解说/评论员",
-              "text": "英德足协联合施压，国际足联的治理危机已不可逆转"
+              "who": "体育评论员",
+              "text": "英德足总的联手表态非常罕见，这预示着FIFA主席选举可能迎来一场真正的权力更迭。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "欧冠综述：巴黎圣日耳曼确立标杆，维京崛起与意大利-德国困境",
-          "eng": "Champions League review: PSG's benchmark, Viking uprising and an Italian-German dilemma",
-          "summary": "国际比赛日后欧冠回归，卫冕冠军巴黎圣日耳曼展现了统治级表现。阿斯顿维拉6-0大胜费内巴切，威廉王子在场观战。",
+          "title_zh": "曼联后卫马丁内斯因公开批评管理层后道歉并被罚款",
+          "eng": "Martínez apologises to Manchester United's director of football Wilcox after outburst",
+          "summary": "曼联后卫利桑德罗·马丁内斯在与主教练卡里克及俱乐部高层会谈后，就其声称足球总监威尔科克斯在夏季转会窗口未能充分补强的言论正式道歉。尽管具体纪律处分未公开，但据报他已被罚款。",
           "source": "Guardian Football",
           "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/champions-league-review-psg-man-city-viking-stavanger",
-          "overview": "欧冠联赛在国际比赛日中断后恢复，卫冕冠军巴黎圣日耳曼在客场展示了本赛季欧洲俱乐部足球的标杆水准，让瓜迪奥拉的曼城主场之旅蒙受阴影。与此同时，阿斯顿维拉以6-0大胜费内巴切，威廉王子在场边为球队加油。此外，维京斯塔万格等北欧球队也展现了令人瞩目的表现，意大利和德国豪门则面临寻找新救星的压力。",
-          "analysis": "巴黎圣日耳曼的强势回归打破了卫冕冠军曼城可能独揽欧冠的幻想，欧洲足球的竞争格局再次变得扑朔迷离。",
+          "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-apologises-to-manchester-united-director-wilcox",
+          "overview": "曼联后卫利桑德罗·马丁内斯在社交媒体上批评俱乐部足球总监威尔科克斯未能加强阵容后引发争议。在与主教练迈克尔·卡里克及管理层沟通后，他于周四正式道歉。虽然俱乐部表示不会公开任何纪律处分细节，但外界普遍认为马丁内斯已被处以罚款。",
+          "analysis": "球员公开质疑管理层在顶级俱乐部中极为罕见，此次事件反映了球员与权力结构之间的紧张关系。罚款了事可能只是表面和解，深层矛盾或许依然存在。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "PSG还是那个标杆，瓜迪奥拉主场被搅局太可惜"
+              "who": "英超记者",
+              "text": "马丁内斯选择道歉而非对抗是明智之举，但俱乐部不公开处分细节的做法也引发了外界对透明度的质疑。"
             },
             {
-              "who": "教练/战术分析师",
-              "text": "维京斯塔万格的崛起证明了北欧足球的进步"
+              "who": "曼联球迷",
+              "text": "球员批评总监的言论确实刺耳，不过罚款了事似乎成了处理此类冲突的标准流程。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "维尼修斯称遭裁判针对，要求保护 flair 球员并承认陷入低谷",
-          "eng": "Vinícius claims he is targeted by referees and says flair players need protection",
-          "summary": "皇马前锋维尼修斯在欧冠客场逆转罗马后公开抱怨被裁判针对，因红牌被禁赛四场。他呼吁像亚马尔和阿尔瓦雷斯这样的天才球员需要更多保护。",
-          "source": "Guardian Football",
-          "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/vinicius-junior-referees-real-madrid",
-          "overview": "皇家马德里前锋维尼修斯·儒尼奥尔在国际比赛日后接受采访，表达了对裁判判罚的不满，声称自己总是收到黄牌，并呼吁对 flair 型球员给予更多保护。他在欧冠客场4-3逆转罗马的比赛中吃到红牌，随后被禁赛四场。维尼修斯承认自己正处于状态低谷，但表示没有怀疑自己能找回最佳状态。",
-          "analysis": "维尼修斯的言论折射出顶级球星与裁判体系之间的紧张关系，若亚马尔和阿尔瓦雷斯等年轻天才也面临类似待遇，足球的公平性讨论将升温。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "维尼修斯状态下滑确实明显，但被针对的说法有待商榷"
-            },
-            {
-              "who": "解说/评论员",
-              "text": "皇马4-3逆转罗马说明战术执行力在线，红牌是代价"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "利桑德罗·马丁内斯揭露曼联毁灭性所有权问题 | 乔纳森·刘",
-          "eng": "Martínez has drawn back the curtain on Manchester United's ruinous ownership | Jonathan Liew",
-          "summary": "后卫马丁内斯公开批评曼联管理层，尽管他自身的防守失误也部分导致了球队糟糕的开局。前队长罗伊·基恩称曼联已成马戏团。",
-          "source": "Guardian Football",
-          "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
-          "overview": "曼联后卫利桑德罗·马丁内斯在采访中深入揭露了俱乐部所有权的毁灭性问题，尽管他的防守失误（对阵富勒姆和热刺）也是球队赛季初表现不佳的部分原因。前曼联队长罗伊·基恩评论称曼联已成为一场马戏表演，混乱不堪。",
-          "analysis": "马丁内斯的批评虽然带有个人色彩，但触及了俱乐部问题的核心，即管理层决策对竞技表现的深远影响。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "马丁内斯是受害者也是加害者，但所有权问题才是根源"
-            },
-            {
-              "who": "教练/评论员",
-              "text": "基恩说得没错，曼联现在的混乱程度确实像马戏团"
-            }
-          ],
-          "region": "足球·世界杯"
-        },
-        {
-          "title_zh": "葡超二队主场迎战桑德兰，迎来欧洲赛场首秀",
-          "eng": "The Portuguese second-tier team hosting Sunderland in Europe",
-          "summary": "葡萄牙第二级别球队托伦塞将在欧联杯主场迎战桑德兰，这将是他们历史上首次在欧洲赛事的主场比赛。",
+          "title_zh": "利物浦6-3大胜LASK展现欧冠联赛阶段强大攻击力",
+          "eng": "Barcola shines as Liverpool score six to beat LASK",
+          "summary": "利物浦在欧冠联赛阶段小组赛中以6-3客场击败奥地利球队LASK，布拉德利·巴卡洛梅开三度成为最大功臣。这是利物浦本赛季欧冠两连胜中的第二场胜利。",
           "source": "BBC Football",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cw99zxvyzj04o?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月15日，葡萄牙第二级别的托伦塞队在欧联杯中迎来历史性时刻，他们将主场迎战英格兰的桑德兰队。这是该俱乐部历史上第一次在欧洲赛事中举办主场比赛。",
-          "analysis": "对于欧洲足球的小众联赛来说，能够进入欧战并拥有主场优势是巨大的里程碑，展现了葡超二级的竞争力提升。",
+          "published": "2026-10-14",
+          "url": "https://www.bbc.co.uk/sport/football/videos/c68jzlwpk01zo?at_medium=RSS&at_campaign=rss",
+          "overview": "利物浦在欧冠联赛阶段客场对阵奥地利LASK的比赛中展现了压倒性的攻击力，最终以6-3的大比分获胜。法国前锋布拉德利·巴卡洛梅开三度，为球队贡献了三个进球。这场胜利是利物浦本赛季欧冠两连胜中的第二场，进一步巩固了他们在联赛阶段的势头。",
+          "analysis": "6-3的比分说明利物浦在进攻端拥有极强的终结能力，但也暴露出防守端的隐患。如果后续比赛无法解决防守问题，如此大比分可能会给球队带来不必要的压力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "托伦塞首次欧战主场，期待他们能打出水平"
+              "who": "欧冠观察者",
+              "text": "巴卡洛的帽子戏法令人印象深刻，但6-3的比分也让人担心利物浦在联赛阶段能否保持这种攻防平衡。"
             },
             {
-              "who": "解说/评论员",
-              "text": "桑德兰客场挑战葡超二队，这将是一场有趣的较量"
+              "who": "利物浦球迷",
+              "text": "客场6-3碾压LASK，这就是欧冠利物浦该有的样子！巴卡洛今天太神了。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "索斯盖特坦言“几乎不看”足球，无意重返英超执教",
-          "eng": "Southgate 'hardly watches' football and does not envisage Premier League return",
-          "summary": "前英格兰主帅索斯盖特表示自2025年5月以来未观看比赛，并称自己在任期间最后时刻的获胜也“没有真正享受”。他已彻底排除了重返英超管理的可能性。",
+          "title_zh": "巴黎圣日耳曼4-2逆转卫冕冠军曼城取得两连胜",
+          "eng": "Man City show fight but fall short of fightback against slick PSG",
+          "summary": "巴黎圣日耳曼在伊蒂哈德球场以4-2击败卫冕冠军曼城，取得了本赛季欧冠两连胜。尽管曼城展现了斗志但未能完成逆转。",
+          "source": "BBC Football",
+          "published": "2026-10-14",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cqp8gn9x801po?at_medium=RSS&at_campaign=rss",
+          "overview": "在伊蒂哈德球场的欧冠比赛中，巴黎圣日耳曼以4-2的比分击败了卫冕冠军曼城。尽管曼城在比赛中展现了顽强的斗志并试图完成逆转，但巴黎凭借流畅的配合最终取得了胜利。这是巴黎本赛季欧冠两连胜中的第二场胜利，进一步提升了他们在联赛阶段的排名。",
+          "analysis": "卫冕冠军在客场被击败说明巴黎圣日耳曼的状态正处于巅峰，而曼城的防守端问题依然明显。这场失利可能对曼城后续的赛程产生连锁反应。",
+          "social": [
+            {
+              "who": "曼城球迷",
+              "text": "伊蒂哈德主场4-2输球太痛了，卫冕冠军的防守实在让人失望。"
+            },
+            {
+              "who": "足球分析师",
+              "text": "巴黎的流畅进攻与曼城的挣扎形成了鲜明对比，这场胜利对巴黎的欧冠征程来说是重要的信心提升。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "伯恩茅斯主场击败斯特拉斯堡创造俱乐部欧洲赛事历史",
+          "eng": "Evanilson, Rayan and Rodríguez goals seal Bournemouth's historic home win in Europe",
+          "summary": "伯恩茅斯在欧洲赛场主场击败奥地利球队斯特拉斯堡，埃万尼尔森头球破门、雷恩近距离射门、罗德里格斯锁定胜局。此前他们还在皇家社会客场取胜，连续两场欧洲赛事胜利为俱乐部创造了历史性时刻。",
           "source": "Guardian Football",
           "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/gareth-southgate-premier-league-return-manager-hardly-watches-football",
-          "overview": "前英格兰国家队主教练加雷斯·索斯盖特在采访中表示，他在离开英格兰队后几乎不再关注足球，自2025年5月以来未观看过任何比赛。他透露自己在执教期间最后阶段虽然赢得了一些比赛，但只享受了短短几分钟的胜利喜悦。索斯盖特已明确表示无意重返英超俱乐部执教。",
-          "analysis": "索斯盖特的言论反映了他在经历欧洲杯决赛失利后的心理状态转变，对于英格兰足球的未来方向而言，他的态度值得外界关注。",
+          "url": "https://www.theguardian.com/football/2026/oct/15/bournemouth-sturm-graz-europa-league-match-report",
+          "overview": "伯恩茅斯在维塔利特球场迎来了俱乐部在欧洲赛事中的历史性主场胜利，击败了奥地利球队斯特拉斯堡。巴西前锋埃万尼尔森在上半场头球破门，雷恩随后近距离射门得分，罗德里格斯在下半场为球队锁定胜局。这场胜利紧随他们在皇家社会的客场取胜之后，连续两场欧洲赛事胜利极大地缓解了主教练马克·罗斯在联赛中的压力。",
+          "analysis": "伯恩茅斯在欧洲赛场的表现令人惊喜，尤其是主场击败斯特拉斯堡更是俱乐部历史上的里程碑。这种连胜势头如果延续到国内赛场，将显著提升球队的整体士气。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "索斯盖特离开后确实很少露面了，看来是真的想远离足球"
+              "who": "欧联杯专家",
+              "text": "伯恩茅斯连续两场欧洲赛事胜利，尤其是主场击败斯特拉斯堡，这绝对是俱乐部历史上的高光时刻。"
             },
             {
-              "who": "教练/评论员",
-              "text": "经历了2024欧洲杯的失败，索斯盖特的心理重建需要时间"
+              "who": "英超关注者",
+              "text": "虽然联赛还没赢球，但欧洲赛场的表现证明这支球队很有潜力，罗斯的执教正在开花结果。"
             }
           ],
           "region": "足球·世界杯"
         },
         {
-          "title_zh": "泽西选手西洛克期待欧洲锦标赛挑战",
+          "title_zh": "桑德兰补时绝杀葡萄牙托伦塞斯队上演戏剧性逆转",
+          "eng": "Noah Sadiki stunner earns Sunderland dramatic late win against Torreense",
+          "summary": "桑德兰在补时阶段凭借诺亚·萨迪基的惊人进球戏剧性逆转了葡萄牙球队托伦塞斯。萨迪基越过广告牌后飞身射门，此前恩佐·勒费与格拉尼特·扎卡表现出色为球队贡献了关键配合。",
+          "source": "Guardian Football",
+          "published": "2026-10-15",
+          "url": "https://www.theguardian.com/football/2026/oct/15/torreense-sunderland-europa-league-match-report",
+          "overview": "桑德兰在欧联杯比赛中对阵葡萄牙球队托伦塞斯，比赛一度陷入僵局。在补时阶段仅三分钟的停表时间中，刚果民主共和国中场诺亚·萨迪基完成了惊人的进球：他越过广告牌后奔跑穿过跑道，飞身将球射入网窝。此前恩佐·勒费和格拉尼特·扎卡表现出色，为这一关键进球创造了绝佳机会。",
+          "analysis": "萨迪基的进球极具观赏性，展现了球员的个人能力和比赛末段的拼搏精神。桑德兰在欧联杯中的表现令人振奋，尤其是这种戏剧性的逆转胜利往往能极大地提升球队和球迷的信心。",
+          "social": [
+            {
+              "who": "葡超关注者",
+              "text": "萨迪基越过广告牌进球的画面太震撼了！桑德兰的韧性让人印象深刻。"
+            },
+            {
+              "who": "欧联杯粉丝",
+              "text": "补时绝杀总是最激动人心的时刻，扎卡和勒费的配合为这一进球奠定了基础。"
+            }
+          ],
+          "region": "足球·世界杯"
+        },
+        {
+          "title_zh": "泽西选手Silcock期待欧洲锦标赛挑战",
           "eng": "Silcock relishing European Championships chance",
-          "summary": "泽西岛乒乓球运动员汉娜·西洛克表示，她非常期待在本月稍后参加欧洲锦标赛，与欧洲顶尖高手一较高下。",
+          "summary": "来自泽西岛的乒乓球运动员汉娜·西尔科克表示，她非常期待本月下旬在欧洲锦标赛上与世界顶尖高手过招。",
           "source": "BBC Table Tennis",
           "published": "2026-10-08",
           "url": "https://www.bbc.co.uk/sport/table-tennis/articles/c3zxjrv94geko?at_medium=RSS&at_campaign=rss",
-          "overview": "来自泽西岛的乒乓球运动员汉娜·西洛克（Hannah Silcock）公开表示对即将到来的欧洲锦标赛充满期待。她认为这是一个难得的机会，能够与欧洲最优秀的选手同场竞技。该赛事预计在本月稍后举行，为英国及海外选手提供了展示实力的舞台。",
-          "analysis": "作为非传统乒乓球强国的代表，西洛克参加欧锦赛体现了该项目在欧洲的普及度提升。她的积极态度也为年轻运动员树立了榜样，展现了基层选手挑战顶级赛事的信心。",
+          "overview": "汉娜·西尔科克作为泽西岛的乒乓球代表，正积极备战即将到来的欧洲锦标赛。她表示对能在该赛事中面对欧洲最强对手感到兴奋，展现了非传统强队选手的进取态度。",
+          "analysis": "欧洲锦标赛是乒坛重要洲际赛事，西尔科克的参赛反映了乒乓球运动在英联邦地区的推广成效。关注此类选手的成长有助于观察区域竞技水平的变化趋势。",
           "social": [
             {
               "who": "资深球迷",
-              "text": "泽西岛选手能站上欧锦赛舞台确实不容易，期待看到更多海外选手的精彩表现。"
+              "text": "期待看到非传统强国的选手在世界舞台上的表现，希望她能带来惊喜。"
             },
             {
               "who": "体育记者",
-              "text": "非传统强国的运动员参加大赛往往能给比赛带来意想不到的惊喜。"
+              "text": "小国选手冲击大赛的心态值得肯定，这体现了乒乓球运动的普及与包容性。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "打乒乓球帮助帕金森患者改善运动与情绪",
+          "title_zh": "打乒乓球帮助帕金森患者改善运动、情绪和自信",
           "eng": "'Playing table tennis has helped my Parkinson's'",
-          "summary": "多位患者表示，在布莱顿俱乐部参与乒乓球活动有助于改善他们的运动能力、心情和自信心。",
+          "summary": "布莱顿俱乐部的患者反馈，参与乒乓球活动有助于改善他们的身体动作、心情及自信心。",
           "source": "BBC Table Tennis",
           "published": "2026-09-14",
           "url": "https://www.bbc.co.uk/news/articles/c0e39nvdxelo?at_medium=RSS&at_campaign=rss",
-          "overview": "位于布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者通过运动疗法改善身体状况。患者反馈称，参与乒乓球活动不仅有助于提升身体运动机能，还能显著改善情绪状态和自信心。这一案例展示了乒乓球在康复医学领域的潜在价值。",
-          "analysis": "乒乓球因其快速反应和高频率的手眼协调要求，被认为对神经退行性疾病患者的康复具有独特优势。此类社区项目的推广为体育与医疗的跨界合作提供了积极范例。",
+          "overview": "位于布莱顿的一家乒乓球俱乐部正在帮助帕金森病患者进行康复训练。参与者表示，这项运动对他们的肢体协调、情绪状态和自信心提升均有积极影响。",
+          "analysis": "这一案例凸显了乒乓球在康复医学领域的潜在价值，超越了纯粹竞技的范畴。随着老龄化社会到来，乒乓球作为低冲击有氧运动的医疗辅助角色值得更多关注。",
           "social": [
             {
-              "who": "康复教练",
-              "text": "乒乓球的节奏和互动性非常适合帕金森患者进行运动干预，值得更多医疗机构关注。"
+              "who": "康复关注者",
+              "text": "乒乓球不仅是一项运动，更在医疗康复领域展现了巨大潜力，非常暖心。"
             },
             {
-              "who": "社区志愿者",
-              "text": "看到病友们在球台上找回自信的样子，真的很感动。"
+              "who": "社区活动组织者",
+              "text": "这类俱乐部模式值得推广，让患者在社会活动中找到归属感和健康动力。"
             }
           ],
           "region": "乒乓球"
         },
         {
-          "title_zh": "因凡蒂诺向国际足联理事会道歉，但被要求进一步行动",
-          "eng": "Infantino apologises to Fifa Council - but told he is still not fit to lead",
-          "summary": "国际足联主席因凡蒂诺就世界杯售卖计划向理事会致歉，但理事会仍认为他不适合领导组织。",
+          "title_zh": "澳大利亚惊险逆转新西兰，勇夺橄榄球世界杯揭幕战",
+          "eng": "Australia clinch thrilling World Cup opener against New Zealand",
+          "summary": "在悉尼举行的橄榄球联盟世界杯揭幕战中，东道主澳大利亚以24-22险胜新西兰。 debutant Jack Bostock 独中三元，帮助球队在最后时刻锁定胜局。",
           "source": "BBC Sport",
           "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qgj3zwero?at_medium=RSS&at_campaign=rss",
-          "overview": "国际足联37人执行委员会召开长达三个半小时的会议，因凡蒂诺就世界杯售卖方案向理事会致歉。欧洲足球领导人对此表示不满，认为他目前不适合领导国际足联，并暗示将寻找替代候选人参加明年的主席选举。",
-          "analysis": "此次事件凸显了国际足联内部治理危机加深，欧洲足协领袖对因凡蒂诺的领导能力提出质疑，可能影响明年主席大选格局。",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cmn4eqpvw1ppo?at_medium=RSS&at_campaign=rss",
+          "overview": "橄榄球联盟世界杯在悉尼拉开帷幕，澳大利亚队与新西兰队在激烈对抗中展开较量。比赛过程跌宕起伏，最终澳大利亚凭借 Jack Bostock 的帽子戏法在最后阶段完成逆转，以24-22的比分击败对手，成功拿下揭幕战开门红。",
+          "analysis": "这场揭幕战展现了橄榄球联盟世界杯的高强度对抗和戏剧性。东道主澳大利亚在主场球迷的支持下顶住压力，新人球员的表现令人瞩目，为赛事注入了活力。新西兰队虽然失利，但比赛本身的精彩程度足以吸引全球关注。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "国际足联的治理问题再次成为焦点，因凡蒂诺的道歉似乎未能平息理事会的不满。"
+              "who": "资深橄榄球迷",
+              "text": "揭幕战就如此精彩，Bostock 的帽子戏法简直是教科书级别的表演，澳大利亚主场氛围太燃了！"
             },
             {
-              "who": "足球评论员",
-              "text": "世界杯售卖计划的争议持续发酵，欧洲足协领袖已明确表态不支持现任主席。"
+              "who": "体育解说员",
+              "text": "最后时刻的逆转总是最让人心跳加速的，这种比赛才叫橄榄球联盟世界杯。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "马蒂内斯言论引发曼联混乱，前队长基恩怒批球队成'马戏团'",
-          "eng": "Man Utd a circus after Martinez comments - Keane",
-          "summary": "利桑德罗·马蒂内斯的爆发式言论显示曼联正处于混乱之中，前队长罗伊·基恩对此严厉批评。",
-          "source": "BBC Sport",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3n04gy12r91o?at_medium=RSS&at_campaign=rss",
-          "overview": "曼联后卫利桑德罗·马蒂内斯在公开场合的激烈言论引发广泛关注，前队长罗伊·基恩指出这暴露了俱乐部内部的混乱状态。这一事件进一步加剧了外界对曼联管理层和更衣室氛围的担忧。",
-          "analysis": "球员公开情绪失控往往折射出球队管理问题，基恩的批评表明曼联在重建过程中仍面临巨大挑战。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "马蒂内斯的情绪爆发再次让曼联陷入舆论漩涡，球队的管理层需要尽快稳定局面。"
-            },
-            {
-              "who": "足球记者",
-              "text": "前队长基恩的评论一针见血，曼联目前的混乱状态不容忽视。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "澳大利亚在橄榄球世界杯揭幕战中险胜新西兰",
-          "eng": "Australia edge New Zealand in epic World Cup opener",
-          "summary": "杰克·博斯托克上演帽子戏法，帮助澳大利亚在橄榄球联盟世界杯揭幕战中逆转战胜新西兰。",
-          "source": "BBC Sport",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crn8w411gj1yo?at_medium=RSS&at_campaign=rss",
-          "overview": "在橄榄球联盟世界杯揭幕战中，澳大利亚队凭借杰克·博斯托克的帽子戏法完成逆转，以微弱优势战胜新西兰队。这场比赛在新西兰主场进行，但澳大利亚展现了强大的战斗力。",
-          "analysis": "博斯托克的出色表现成为比赛转折点，澳大利亚队的韧性令人印象深刻，这场揭幕战为整个赛事定下了激烈竞争的基调。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "博斯托克的帽子戏法太精彩了，澳大利亚队在本土作战中展现了强大的实力。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "这场揭幕战的 intensity 令人难忘，橄榄球联盟世界杯再次成为全球焦点赛事。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "欧冠综述：巴黎圣日耳曼的标杆表现与意大利-德国困境",
-          "eng": "Champions League review: PSG's benchmark, Viking uprising and an Italian-German dilemma",
-          "summary": "卫冕冠军巴黎圣日耳曼在欧冠中展现统治力，而意大利和德国球队面临寻找新救星的挑战。",
-          "source": "Guardian Sport",
-          "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/champions-league-review-psg-man-city-viking-stavanger",
-          "overview": "欧冠联赛在国际比赛日结束后恢复，卫冕冠军巴黎圣日耳曼展现了统治级表现。与此同时，意大利和德国球队在寻找新的竞争力方面面临挑战，而英超球队如阿斯顿维拉和曼城也有精彩表现。",
-          "analysis": "巴黎圣日耳曼的强势表现再次证明了他们在欧洲俱乐部足球中的标杆地位，而其他传统强队则需要重新评估自己的竞争力。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "巴黎圣日耳曼在欧冠中的表现令人印象深刻，他们依然是欧洲俱乐部的标杆。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "意大利和德国球队需要找到新的突破口，否则将在欧洲赛场继续落后。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "索斯盖特几乎不再观看足球，不考虑重返英超执教",
-          "eng": "Southgate 'hardly watches' football and does not envisage Premier League return",
-          "summary": "前英格兰主教练索斯盖特表示自卸任后几乎不观看比赛，且不打算重返英超执教。",
-          "source": "Guardian Sport",
-          "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/gareth-southgate-premier-league-return-manager-hardly-watches-football",
-          "overview": "前英格兰主教练加雷斯·索斯盖特在卸任后表示几乎不再观看足球比赛，甚至对英超执教的可能性也持否定态度。他在2024年欧洲杯决赛输给西班牙后离开国家队，此后逐渐远离足球世界。",
-          "analysis": "索斯盖特的表态表明他对英格兰足球的现状感到失望，这也反映了英超联赛管理层的挑战。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "索斯盖特几乎不再看球了，这对英格兰足球的未来来说是一个遗憾。"
-            },
-            {
-              "who": "足球记者",
-              "text": "前主教练的离开和远离比赛，可能意味着英格兰足球需要新的领导力。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英足总温布利款待和免费门票支出增加25%",
-          "eng": "FA spending on Wembley hospitality and free tickets for FA Council rises by 25%",
-          "summary": "英足总在2025-26赛季的温布利款待和足协理事会免费门票支出增加了25%，引发球迷不满。",
-          "source": "Guardian Sport",
-          "published": "2026-10-15",
-          "url": "https://www.theguardian.com/football/2026/oct/15/fa-spending-wembley-hospitality-free-tickets-fa-council-rises-25-percent",
-          "overview": "英足总在2025-26赛季的温布利款待和足协理事会免费门票支出增加了25%，从45.23万英镑增至56.44万英镑。这一消息引发了球迷对足球协会财务透明度和资源分配的质疑。",
-          "analysis": "在球迷抗议票价上涨和生活成本危机的背景下，英足总的支出增加进一步加剧了公众的不满情绪。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "英足总在温布利的花费又增加了，而普通球迷的负担却在加重，这令人失望。"
-            },
-            {
-              "who": "足球评论员",
-              "text": "足协理事会的免费门票和款待支出需要更加透明，否则将损害公众信任。"
-            }
-          ],
-          "region": "综合"
-        },
-        {
-          "title_zh": "英国选手卡尔塔尔在武汉网球公开赛上继续强势反弹",
-          "eng": "Kartal wins again as impressive comeback continues",
-          "summary": "英国选手索内亚·卡尔塔尔击败前温网决赛选手帕奥利尼，晋级武汉网球公开赛八强。",
+          "title_zh": "塞尔维亚球员因操纵比赛被禁赛至2050年",
+          "eng": "Serb player banned until 2050 for tennis match-fixing",
+          "summary": "网球运动员 Stefan Milicevic 因操纵比赛被处以24年的禁赛处罚，这是除终身禁赛外最严厉的惩罚之一。",
           "source": "BBC Tennis",
           "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c85ynx5vwq35o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国网球选手索内亚·卡尔塔尔在武汉网球公开赛中表现出色，以直落两盘击败前温网决赛选手贾斯明·帕奥利尼，成功晋级八强。这是她伤愈复出后的又一重要胜利。",
-          "analysis": "卡尔塔尔的持续强势表现表明她已经完全恢复状态，成为女子网球赛场上的有力竞争者。",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c8r4yzp2443go?at_medium=RSS&at_campaign=rss",
+          "overview": "国际网球界传来重磅消息，塞尔维亚球员 Stefan Milicevic 因涉及操纵比赛被处以长达24年的禁赛。这一处罚仅次于终身禁赛，显示了反兴奋剂和反操纵委员会对维护赛事公正性的坚定决心。",
+          "analysis": "24年禁赛是近年来最严重的非终身禁赛案例之一，表明网球界对操纵比赛的零容忍态度。此举旨在震慑潜在违规者，保护运动员和球迷的利益，维护网球的公信力。",
           "social": [
             {
-              "who": "资深球迷",
-              "text": "卡尔塔尔的复出表现令人振奋，她在武汉公开赛上的连胜势头值得关注。"
+              "who": "资深网球评论员",
+              "text": "24年禁赛太狠了，这绝对是给所有想搞小动作的人一个沉重警告。"
             },
             {
-              "who": "网球评论员",
-              "text": "击败帕奥利尼这样的选手，卡尔塔尔的进步速度令人印象深刻。"
+              "who": "体育记者",
+              "text": "操纵比赛是网球的毒瘤，这种处罚力度终于让行业看到了整治的决心。"
             }
           ],
           "region": "综合"
         },
         {
-          "title_zh": "沙特六王赛因致命袭击被迫推迟",
-          "eng": "Star-studded Saudi exhibition postponed after deadly attacks",
-          "summary": "由阿尔卡拉斯和德约科维奇等球星参加的沙特六王赛因一系列致命袭击而被迫推迟。",
-          "source": "BBC Tennis",
-          "published": "2026-10-14",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/c59vzgnj9p2wo?at_medium=RSS&at_campaign=rss",
-          "overview": "沙特阿拉伯的六王赛网球表演赛因一系列致命袭击而被迫推迟，该赛事原本由卡洛斯·阿尔卡拉斯和诺瓦克·德约科维奇等顶级球星参加。这一事件凸显了中东地区安全局势对体育赛事的影响。",
-          "analysis": "这场备受期待的表演赛的取消令人遗憾，也反映了全球体育赛事在面临安全风险时的脆弱性。",
-          "social": [
-            {
-              "who": "资深球迷",
-              "text": "六王赛因袭击被迫推迟，这对网球爱好者来说是一个巨大的损失。"
-            },
-            {
-              "who": "体育评论员",
-              "text": "中东地区的安全问题再次成为全球关注的焦点，体育赛事也不能幸免。"
-            }
-          ],
+          "title_zh": "克里斯·沃克斯：英格兰球员的行为令人无法接受",
+          "eng": "Chris Woakes: 'It's unacceptable seeing the way some England players have acted'",
+          "summary": "20赛季的英格兰板球老将 Chris Woakes 在埃德加斯顿室内网球场反思自己的职业生涯，批评了球队中存在的饮酒文化问题。",
+          "source": "Guardian Sport",
+          "published": "2026-10-15",
+          "url": "https://www.theguardian.com/sport/2026/oct/15/chris-woakes-england-cricket-players-retirement-rob-key",
+          "overview": "在结束自己第20个职业板球赛季之际，Chris Woakes 坐在埃德加斯顿的室内网球场，回忆起父母当年给他的建议——",
+          "region": "综合"
+        },
+        {
+          "who": "资深球迷",
+          "text": "沃克斯的话太有分量了，作为老将他看到了太多不该看到的东西。",
+          "region": "综合"
+        },
+        {
+          "who": "体育评论员",
+          "text": "板球界的饮酒文化确实是个老问题，希望这次能引起足够的重视和改变。",
           "region": "综合"
         }
       ],
@@ -2098,222 +1982,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "ESP32 iPhone AI Agent：用$7芯片让iPhone成为AI终端",
+          "title_zh": "ESP32 iPhone Agent - AI 操控真机的低成本方案",
           "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "让AI模型通过ESP32控制真实iPhone，实现AirPlay视觉+USB HID操作，无需Mac或开发者账号。",
+          "summary": "利用 $7 的 ESP32 硬件让 AI 模型直接控制真实 iPhone，无需越狱或 Mac。",
           "source": "GitHub",
-          "stars": 2313,
+          "stars": 2401,
           "lang": "C",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目通过ESP32开发板连接真实iPhone，利用AirPlay实现视觉感知、USB HID模拟触控操作。支持任意OpenAI兼容的视觉模型接入，无需Mac电脑或Apple开发者账号，也无需越狱。",
-          "analysis": "将边缘硬件与手机生态结合，为AI Agent提供了低成本物理执行能力。$7的成本门槛让个人开发者也能构建具备真实世界交互能力的AI系统，是具身智能的低成本探索方向。",
+          "overview": "该项目实现了通过 AirPlay 视觉和 USB HID 输入，使任意 OpenAI 兼容的视觉模型能够操作真实的 iOS 设备。它不需要 Mac、开发者账号或越狱，仅需一个 ESP32 开发板和手机即可运行。支持实时图像传输与指令执行，是边缘 AI 与硬件交互的突破性尝试。",
+          "analysis": "值得关注之处在于其极低的硬件门槛和绕过传统依赖（如 Mac）的能力，为个人 AI Agent 部署提供了全新的低成本路径，对边缘计算爱好者极具吸引力。",
           "social": [
             {
-              "who": "开发者",
-              "text": "用不到一杯咖啡的钱实现手机级AI交互，这个思路太有创意了"
+              "who": "嵌入式开发者",
+              "text": "用 $7 的板子实现 iPhone 操控太疯狂了，AirPlay 视觉方案绕过了所有安全限制，值得玩味。"
             },
             {
-              "who": "研究者",
-              "text": "低成本物理执行器+云端视觉模型的组合，为具身智能提供了新的实验平台"
+              "who": "AI Agent 研究者",
+              "text": "不需要越狱就能让 AI 控制手机，这对端侧大模型落地的硬件抽象层来说是一个有趣的实验。"
             }
           ]
         },
         {
-          "title_zh": "Doory：开源Canva替代方案",
-          "eng": "shaongitbd/doory",
-          "summary": "完全开源的在线设计工具，对标Canva，支持团队协作与模板编辑。",
+          "title_zh": "D2R Mobile - 暗黑破坏神 II 手游兼容层",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神 II：狱火重生》iOS/macOS 兼容层，支持术士君临扩展包。",
           "source": "GitHub",
-          "stars": 1269,
-          "lang": "TypeScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/shaongitbd/doory",
-          "overview": "Doory是一个开源的在线设计平台，提供拖拽式界面编辑、团队协作功能和丰富的模板库。采用TypeScript全栈开发，支持自托管部署，可直接替代Canva等商业设计工具。",
-          "analysis": "在AI辅助设计日益普及的背景下，开源设计工具降低了企业定制化和数据安全的门槛。对需要私有化部署的设计团队来说，Doory提供了可审计、可扩展的替代选择。",
+          "stars": 3055,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "允许用户在自己的 Switch 游戏副本上原生运行 iOS/iPad/Mac 端游戏，提供完整的触摸控制和 60 fps 帧率。项目自带新终局模式，且支持用户导入自己的游戏文件，无需官方服务器授权。这是开源社区在游戏兼容性领域的重大工程成就。",
+          "analysis": "该项目展示了开源力量在破解硬件兼容壁垒上的潜力，为无法购买正版手游或需要特定扩展包的玩家提供了合法替代方案，技术架构值得借鉴。",
           "social": [
             {
-              "who": "设计师",
-              "text": "终于有个能自托管的设计工具了，数据安全不再是问题"
+              "who": "独立游戏开发者",
+              "text": "Switch 原生运行 iOS 副本的兼容性做得相当扎实，触摸适配也很用心。"
             },
             {
-              "who": "开发者",
-              "text": "TypeScript全栈架构清晰，社区活跃度高，值得跟进"
+              "who": "怀旧玩家",
+              "text": "终于不用折腾模拟器了，直接跑真机体验，术士君临扩展包的支持是加分项。"
             }
           ]
         },
         {
-          "title_zh": "RustGIS：纯Rust实现的开源地理信息系统",
-          "eng": "opengeos/RustGIS",
-          "summary": "用纯Rust语言构建的轻量级、高性能开源GIS工具。",
-          "source": "GitHub",
-          "stars": 1155,
-          "lang": "Rust",
-          "published": "2026-10-10",
-          "url": "https://github.com/opengeos/RustGIS",
-          "overview": "RustGIS是一个完全用Rust语言编写的开源地理信息系统，提供空间数据处理、地图渲染和分析功能。相比传统GIS方案（如QGIS），它具备内存安全保证和更高的运行时性能。",
-          "analysis": "Rust在系统级编程中的优势使GIS工具获得了前所未有的安全性与性能保障。对于需要处理大规模空间数据的开发者而言，这是一个值得关注的轻量级替代方案。",
-          "social": [
-            {
-              "who": "GIS开发者",
-              "text": "纯Rust写GIS，内存安全和零成本抽象让数据处理效率大幅提升"
-            },
-            {
-              "who": "研究者",
-              "text": "空间计算领域引入Rust生态，有望推动实时地理信息处理的创新"
-            }
-          ]
-        },
-        {
-          "title_zh": "Talorys：个人AI Agent一键部署",
+          "title_zh": "Talorys - 个人 AI Agent 一键部署",
           "eng": "rociiu/talorys",
-          "summary": "在Cloudflare账户中创建个人AI助手，支持对话、记忆、任务和笔记管理。",
+          "summary": "基于 Cloudflare 的个人 AI 助手，支持聊天、记忆、任务和提醒功能。",
           "source": "GitHub",
-          "stars": 1062,
+          "stars": 1126,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/rociiu/talorys",
-          "overview": "Talorys是一个个人AI Agent平台，用户可通过一条命令快速部署。支持对话、长期记忆、任务管理、笔记和定时提醒功能。基于Cloudflare Workers运行，免费层级友好，无遥测数据收集。",
-          "analysis": "将个人AI助手从云端SaaS拉回到边缘计算，兼顾隐私与成本。单用户设计避免了多租户的复杂性，适合注重数据主权和个人效率的开发者使用。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "一条命令部署个人AI Agent，Cloudflare Workers的架构让扩展性很强"
-            },
-            {
-              "who": "研究者",
-              "text": "无遥测、免费层级的设计思路值得推广，降低了个人AI工具的准入门槛"
-            }
-          ]
-        },
-        {
-          "title_zh": "Scout：开源浏览器自动化Agent",
-          "eng": "outcrawlai/scout",
-          "summary": "Outcrawl出品的开源浏览器Agent，可自动执行网页操作任务。",
-          "source": "GitHub",
-          "stars": 803,
-          "lang": "TypeScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/outcrawlai/scout",
-          "overview": "Scout是一个开源的浏览器自动化Agent，能够理解网页内容并执行复杂操作任务。由Outcrawl团队维护，自动从官方仓库镜像同步。支持多种浏览器的交互控制。",
-          "analysis": "在AI Agent与Web交互日益重要的趋势下，开源浏览器Agent为研究和生产环境提供了可审计的工具。对于需要自动化数据采集和网页操作的场景尤为实用。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "浏览器Agent的开源实现填补了商业方案的空白"
-            },
-            {
-              "who": "研究者",
-              "text": "Web Agent是AI落地的关键一环，Scout提供了可复现的实验基础"
-            }
-          ]
-        },
-        {
-          "title_zh": "Solid Glass：面向AI应用的设计系统",
-          "eng": "deeplethe/solid-glass",
-          "summary": "为AI应用打造的设计系统，融合材料感、物理感和技术美学。",
-          "source": "GitHub",
-          "stars": 951,
-          "lang": "TypeScript",
-          "published": "2026-10-12",
-          "url": "https://github.com/deeplethe/solid-glass",
-          "overview": "Solid Glass是一套专为AI应用设计的设计系统，强调材料质感、物理交互和技术美学。提供可复用的UI组件和主题方案，帮助开发者快速构建具有统一视觉语言的AI产品界面。",
-          "analysis": "随着AI产品爆发式增长，缺乏统一的设计语言成为行业痛点。这套设计系统将AI应用的视觉风格标准化，有助于提升用户体验一致性和开发效率。",
-          "social": [
-            {
-              "who": "UI设计师",
-              "text": "终于有专门针对AI应用的设计系统了，不再是通用组件的简单堆砌"
-            },
-            {
-              "who": "开发者",
-              "text": "TypeScript实现+设计系统组合，前端开发效率提升明显"
-            }
-          ]
-        },
-        {
-          "title_zh": "Mailcheap：按发送量付费的开源邮件新闻通讯平台",
-          "eng": "marclou/mailcheap",
-          "summary": "开源邮件新闻通讯工具，按实际发送邮件计费而非订阅者数量，成本远低于Beehiiv。",
-          "source": "GitHub",
-          "stars": 944,
-          "lang": "JavaScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/marclou/mailcheap",
-          "overview": "Mailcheap是一个开源的邮件新闻通讯平台，采用按发送量计费的商业模式。用户可选择自托管部署或使用mailcheap.ai云服务。相比Beehiiv等传统方案，成本大幅降低。",
-          "analysis": "在AI驱动内容分发日益普及的背景下，邮件营销工具的成本优化显得尤为重要。开源+按需计费的模式降低了中小团队和内容创作者的准入门槛。",
+          "overview": "用户可通过一条命令 `npx create-talorys@latest` 在 Cloudflare 账户中快速部署专属 AI Agent。它具备长期记忆、定时提醒和笔记管理功能，完全免费且无遥测数据收集，强调隐私保护。",
+          "analysis": "在无服务器架构下实现个人 AI 代理的完整闭环（记忆+任务+交互），且承诺零遥测，对注重隐私的个人用户极具吸引力，是 SaaS 替代方案的有力竞争者。",
           "social": [
             {
               "who": "独立开发者",
-              "text": "按发送量付费比订阅制更合理，自托管还能完全掌控数据"
+              "text": "一条命令部署全栈 AI Agent，Cloudflare Workers 的性能支撑了实时对话体验，非常优雅。"
             },
             {
-              "who": "研究者",
-              "text": "开源邮件基础设施的完善有助于推动去中心化的内容分发生态"
+              "who": "隐私倡导者",
+              "text": "免费且无遥测，数据留在自己的 Cloudflare 账户里，这在当前环境下很难得。"
             }
           ]
         },
         {
-          "title_zh": "New Term Radar：AI术语每日雷达",
-          "eng": "zhuyansen/new-term-radar",
-          "summary": "每日追踪新兴AI术语，在关键词工具收录之前率先发现新模型、产品和仓库。",
+          "title_zh": "Handwired - JavaScript 代码转神经网络",
+          "eng": "chenglou/handwired",
+          "summary": "将普通 JavaScript 代码直接转换为神经网络的开源工具。",
           "source": "GitHub",
-          "stars": 1012,
+          "stars": 954,
+          "lang": "TypeScript",
+          "published": "2026-10-15",
+          "url": "https://github.com/chenglou/handwired",
+          "overview": "该项目允许开发者编写常规 JavaScript 逻辑，系统会自动将其映射为等效的神经网络结构进行训练和推理。它降低了机器学习入门门槛，让前端工程师无需深度学习知识即可构建 AI 模型。",
+          "analysis": "这种“代码即网络”的理念极具教育价值和创新性，模糊了传统编程与机器学习的边界，适合用于教学演示和快速原型验证。",
+          "social": [
+            {
+              "who": "前端工程师",
+              "text": "把 JS 变成神经网络这个概念太酷了，对于想学 AI 但只会写代码的人来说简直是福音。"
+            },
+            {
+              "who": "教育研究者",
+              "text": "降低了 ML 的认知门槛，让非 CS 背景的人也能直观理解模型结构。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Scout - 开源浏览器智能代理",
+          "eng": "outcrawlai/scout",
+          "summary": "Outcrawl 推出的开源浏览器自动化 Agent，支持网页交互与任务执行。",
+          "source": "GitHub",
+          "stars": 828,
+          "lang": "TypeScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/outcrawlai/scout",
+          "overview": "Scout 是一个完全开源的浏览器代理工具，能够自动在网页上执行复杂任务、提取信息并进行交互操作。它由知名 AI 公司 Outcrawl 维护并定期镜像更新，旨在为开发者提供可审计的浏览器自动化能力。",
+          "analysis": "随着浏览器 Agent 成为主流趋势，Scout 提供了透明可控的开源替代方案，对于需要合规审查或定制化的企业用户来说价值显著。",
+          "social": [
+            {
+              "who": "全栈工程师",
+              "text": "浏览器 Agent 赛道越来越卷了，Scout 作为开源方案在可审计性上比闭源工具更有优势。"
+            },
+            {
+              "who": "自动化测试专家",
+              "text": "支持自定义任务流，对于 E2E 测试和爬虫场景来说是个不错的补充工具。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Doory - 开源 Canva 替代品",
+          "eng": "shaongitbd/doory",
+          "summary": "一个功能丰富的开源在线设计平台，对标 Canva。",
+          "source": "GitHub",
+          "stars": 1304,
+          "lang": "TypeScript",
+          "published": "2026-10-10",
+          "url": "https://github.com/shaongitbd/doory",
+          "overview": "Doory 提供了类似 Canva 的拖拽式设计和模板编辑体验，支持团队协作和云端存储。它完全开源，允许用户自托管或直接在 GitHub Pages 上运行，降低了设计工具的使用成本。",
+          "analysis": "对于需要规避 SaaS 订阅费用或希望数据自主可控的团队来说，Doory 是一个实用的替代选择，其社区贡献模式有助于持续迭代功能。",
+          "social": [
+            {
+              "who": "设计师",
+              "text": "模板库虽然不如 Canva 庞大，但核心编辑体验流畅，自托管后数据完全在自己手里。"
+            },
+            {
+              "who": "产品经理",
+              "text": "团队内部用 Doory 做原型设计很合适，不用每个月交订阅费了。"
+            }
+          ]
+        },
+        {
+          "title_zh": "RustGIS - 纯 Rust 高性能地理信息系统",
+          "eng": "opengeos/RustGIS",
+          "summary": "一个快速、免费且开源的纯 Rust 语言实现的 GIS 工具。",
+          "source": "GitHub",
+          "stars": 1201,
+          "lang": "Rust",
+          "published": "2026-10-10",
+          "url": "https://github.com/opengeos/RustGIS",
+          "overview": "RustGIS 旨在利用 Rust 语言的内存安全和性能优势，构建新一代轻量级地理信息处理系统。它支持地图渲染、空间分析和数据可视化，致力于解决传统 GIS 软件体积大、启动慢的问题。",
+          "analysis": "在 Rust 生态中补充 GIS 领域是一个重要缺口，其高性能特性适合嵌入式或边缘计算场景下的地图服务部署。",
+          "social": [
+            {
+              "who": "GIS 工程师",
+              "text": "纯 Rust 写 GIS 的内存管理确实比 C++ 更省心，性能指标也很能打。"
+            },
+            {
+              "who": "系统架构师",
+              "text": "对于需要高性能空间索引的场景，RustGIS 是一个值得关注的轻量级选择。"
+            }
+          ]
+        },
+        {
+          "title_zh": "New Term Radar - AI 新词每日雷达",
+          "eng": "zhuyansen/new-term-radar",
+          "summary": "每日追踪新兴 AI 术语、模型和产品名称的开源工具。",
+          "source": "GitHub",
+          "stars": 1022,
           "lang": "Python",
           "published": "2026-10-12",
           "url": "https://github.com/zhuyansen/new-term-radar",
-          "overview": "New Term Radar是一个AI术语追踪工具，从X、Hugging Face、GitHub和网站地图中实时抓取新出现的模型名称、产品名称和仓库。在主流关键词工具收录之前提供早期发现能力。",
-          "analysis": "AI领域新概念爆发式增长导致信息滞后严重。该工具填补了行业情报的空白，帮助研究者和从业者保持对前沿动态的敏感度，是AI学习资源中的实用工具。",
+          "overview": "该工具在关键词工具收录之前，率先从 X、Hugging Face、GitHub 和站点地图中捕获新的 AI 相关词汇和产品名。它帮助研究者和从业者保持对行业前沿动态的敏感度，避免信息滞后。",
+          "analysis": "在 AI 概念爆发式增长的背景下，及时追踪新术语对于内容创作者和技术写作者至关重要，该工具填补了信息差监测的空白。",
           "social": [
             {
-              "who": "研究者",
-              "text": "在关键词工具收录之前发现新术语，这个信息差优势太有价值了"
+              "who": "AI 内容创作者",
+              "text": "比 Google Trends 快很多，能第一时间发现新模型或产品的命名趋势。"
             },
             {
-              "who": "开发者",
-              "text": "Python实现简洁高效，数据源覆盖全面，值得日常使用"
+              "who": "技术投资人",
+              "text": "追踪新术语有助于发现潜在的投资机会，这个雷达功能很实用。"
             }
           ]
         },
         {
-          "title_zh": "HeyPuter/everything：从零重建世界软件",
-          "eng": "HeyPuter/everything",
-          "summary": "从底层重新构建和开源全球软件的宏大项目。",
+          "title_zh": "Solid Glass - AI 应用设计系统",
+          "eng": "deeplethe/solid-glass",
+          "summary": "专为 AI 应用程序打造的设计系统，强调材质、物理和触感体验。",
           "source": "GitHub",
-          "stars": 1043,
-          "lang": "JavaScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/HeyPuter/everything",
-          "overview": "HeyPuter是一个雄心勃勃的项目，旨在从零开始重新构建和开源全球软件。采用JavaScript技术栈，提供完整的开发环境和工具链。项目理念是将现有软件的复杂性简化为可理解、可扩展的组件系统。",
-          "analysis": "在AI重构传统软件的趋势下，这种从底层重建的理念具有前瞻性。虽然规模宏大，但其模块化架构思路对理解软件本质和推动开源创新有重要参考价值。",
+          "stars": 961,
+          "lang": "TypeScript",
+          "published": "2026-10-12",
+          "url": "https://github.com/deeplethe/solid-glass",
+          "overview": "Solid Glass 提供了一套面向 AI 界面的 UI 组件库和设计规范，注重材料感、物理反馈和技术美学。它帮助开发者构建具有沉浸感和未来感的 AI 交互界面，区别于传统 Web 设计范式。",
+          "analysis": "随着 AI 应用爆发，如何设计符合用户心智的界面成为关键问题，Solid Glass 提供了差异化的视觉语言来增强 AI 产品的品牌辨识度。",
           "social": [
             {
-              "who": "开发者",
-              "text": "从零重建软件的愿景很宏大，JavaScript生态的灵活性让实现成为可能"
+              "who": "UI/UX 设计师",
+              "text": "AI 界面的质感确实需要重新定义，这套设计系统对物理反馈的处理很细腻。"
             },
             {
-              "who": "研究者",
-              "text": "软件重构是理解系统复杂性的重要途径，这个项目提供了实验平台"
+              "who": "前端工程师",
+              "text": "组件库文档清晰，直接集成到 React 项目中就能获得独特的 AI 风格界面。"
             }
           ]
         },
         {
-          "title_zh": "半导体制造入门：Python交互式教程",
+          "title_zh": "半导体制造导论 - 芯片生产入门资源",
           "eng": "chenwei810/Semiconductor_Manufacturing_Introduction",
-          "summary": "用Python构建的半导体制造知识入门教程，适合工程与AI交叉学习。",
+          "summary": "介绍半导体制造工艺的开源学习项目，涵盖从晶圆到封装的全过程。",
           "source": "GitHub",
-          "stars": 820,
+          "stars": 898,
           "lang": "Python",
           "published": "2026-10-11",
           "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
-          "overview": "这是一套以Python为载体的半导体制造知识入门教程，涵盖光刻、蚀刻、薄膜沉积等核心工艺。采用交互式学习模式，适合工程师和AI从业者理解芯片制造的底层逻辑。",
-          "analysis": "随着AI芯片需求爆发，理解半导体制造工艺成为跨领域人才的核心能力。该教程将专业知识与编程实践结合，为AI+硬件交叉领域的学习者提供了实用资源。",
+          "overview": "该项目以 Python 脚本和文档形式系统介绍了半导体制造的各个环节，包括光刻、蚀刻、沉积和测试等核心工艺。它适合电子工程学生和从业者作为入门参考，帮助理解芯片背后的物理过程。",
+          "analysis": "在国产替代和技术自主可控的大背景下，这类基础制造知识的开源传播有助于培养更多具备底层认知的人才。",
           "social": [
             {
-              "who": "工程师",
-              "text": "用Python学半导体制造，比传统教材更直观易懂"
+              "who": "电子工程学生",
+              "text": "比课本更直观，Python 辅助的模拟让抽象工艺变得容易理解。"
             },
             {
-              "who": "研究者",
-              "text": "AI芯片设计需要理解制造工艺约束，这类交叉教程很有价值"
+              "who": "行业从业者",
+              "text": "作为入门资料很扎实，涵盖了从硅片到成品的关键节点，适合快速建立知识框架。"
+            }
+          ]
+        },
+        {
+          "title_zh": "HeyPuter - 从零重建世界软件",
+          "eng": "HeyPuter/everything",
+          "summary": "一个雄心勃勃的项目，旨在从头开始开源并重建全球主流软件。",
+          "source": "GitHub",
+          "stars": 1260,
+          "lang": "JavaScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/HeyPuter/everything",
+          "overview": "HeyPuter 宣布正在从零开始重新构建和开源世界上主要的软件工具。该项目采用 JavaScript 技术栈，试图以全新的架构替代现有 SaaS 产品，强调去中心化和用户数据主权。",
+          "analysis": "虽然规模宏大且尚处早期，但其愿景挑战了传统软件商业模式，若成功将彻底改变个人工具的使用方式，值得持续关注其技术演进。",
+          "social": [
+            {
+              "who": "开源社区领袖",
+              "text": "从零重建世界软件的野心令人震撼，如果能落地将是开源运动的最大里程碑之一。"
+            },
+            {
+              "who": "独立开发者",
+              "text": "这种去中心化重构的思路很有启发，虽然路径漫长但方向是对的。"
             }
           ]
         }
@@ -2322,194 +2228,178 @@
     "hot": {
       "items": [
         {
-          "title_zh": "前北爱民主统一党领袖唐纳森因儿童性侵被判刑15年",
-          "summary": "英国前北爱民主统一党（DUP）领袖杰弗里·唐纳森被裁定犯有18项性虐待罪，包括一项强奸罪。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/cwdr8grnykrlo?at_medium=RSS&at_campaign=rss",
-          "overview": "唐纳森被定罪针对两名女性实施性虐待，其中包括强奸行为。这一判决对北爱政治格局产生重大影响，此前他长期担任DUP领袖并参与英国脱欧谈判。",
-          "analysis": "此案凸显了英国政坛高层面临的法律风险，也引发了公众对政治人物道德标准的讨论。",
-          "social": [
-            {
-              "who": "法律界人士",
-              "text": "18项罪名中包含强奸罪，量刑较重反映了法庭对此类儿童性犯罪零容忍的态度。"
-            }
-          ]
-        },
-        {
-          "title_zh": "特朗普取消福特胡德枪杀案凶手行刑直播",
-          "summary": "特朗普表示部分民众“宁愿不看”对尼达尔·哈桑的行刑，这是60多年来首次军事处决。",
+          "title_zh": "特朗普取消直播Fort Hood枪决行刑过程",
+          "summary": "特朗普表示部分人“宁愿不看”Nidal Hasan的处决，这是60多年来首次军事处决。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-15",
           "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-          "overview": "特朗普取消了原本计划进行的直播，称有些人不想观看此次军事处决。这是美国自上世纪60年代以来首次对军人实施枪决。",
-          "analysis": "此举可能引发关于司法透明度和公众知情权的争议，同时也反映了当前美国社会对死刑态度的分歧。",
+          "overview": "特朗普政府取消了公开直播这一历史性的军事执行画面，称部分公众“宁愿不看”Nidal Hasan的处决。这是美国60多年来首次军事法庭处决，引发了关于死刑和媒体暴力的广泛讨论。",
+          "analysis": "此举反映了美国社会对死刑执行透明度的争议，同时也凸显了政治人物在重大司法事件中的角色定位问题。",
           "social": [
             {
-              "who": "媒体评论员",
-              "text": "取消直播的决定引发了关于政府是否应尊重公民观看权还是保护其心理感受的讨论。"
+              "who": "法律评论员",
+              "text": "军事处决的直播取消被视为政府对公众情绪的妥协，但60年来的首次处决本身已足够引发社会震荡。"
             }
           ]
         },
         {
-          "title_zh": "拉斯尔·布兰德被指控者称强奸致其恐惧怀孕",
-          "summary": "51岁的布兰德面临三项强奸罪、三项性侵犯罪和一项猥亵罪指控。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
-          "overview": "指控者透露，布兰德涉嫌的强奸行为导致其极度恐惧可能怀孕。布兰德目前面临多项严重性犯罪指控。",
-          "analysis": "此案再次将公众目光聚焦于英国娱乐圈的性侵问题，对布兰德的职业生涯和声誉构成重大打击。",
-          "social": [
-            {
-              "who": "女性权益组织",
-              "text": "受害者披露的细节令人震惊，呼吁加强对受害者的心理支持和法律保护。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英国NHS英格兰要求跨性别者按生理性别使用医院空间",
-          "summary": "新指南指出，跨性别患者应在与其生理性别相符的单性病房或隔间接受治疗。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss",
-          "overview": "NHS英格兰发布了新指引，规定跨性别患者应根据其生理性别安排住院空间。这一政策引发了关于医疗公平与隐私的广泛讨论。",
-          "analysis": "该决定在LGBTQ+群体和保守派之间引起了激烈争论，涉及医疗资源分配和患者安全等核心问题。",
-          "social": [
-            {
-              "who": "LGBTQ+权益倡导者",
-              "text": "批评此举可能增加跨性别患者的心理压力和安全隐患，呼吁尊重个人身份认同。"
-            }
-          ]
-        },
-        {
-          "title_zh": "英格兰南部部分地区宣布严重干旱",
-          "summary": "在炎热的夏季和低于正常的九月降雨之后，水库水位持续下降。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/cwm243lrgdpgo?at_medium=RSS&at_campaign=rss",
-          "overview": "英格兰南部多个地区因持续高温和降雨不足被宣布进入严重干旱状态，水库水位不断降低。",
-          "analysis": "此次干旱加剧了英国水资源管理的压力，可能影响农业灌溉和城市供水，凸显气候变化对英国的长期威胁。",
-          "social": [
-            {
-              "who": "环保组织",
-              "text": "呼吁政府采取更积极的措施应对气候危机，减少碳排放以缓解极端天气事件。"
-            }
-          ]
-        },
-        {
-          "title_zh": "游泳运动员电视恳求癌症研究获投资后与首相会面",
-          "summary": "苏格兰运动员阿奇·古德伯恩两年前被诊断出三个不可切除的脑肿瘤，通过呼吁增加投资后见到了安迪·伯纳姆。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/videos/cxnv01gylmvjo?at_medium=RSS&at_campaign=rss",
-          "overview": "古德伯恩在电视上发出情感呼吁，希望增加对脑癌研究的投入。他的努力促成了与英国首相安迪·伯纳姆的会面。",
-          "analysis": "这一事件展示了个人倡导如何推动公共政策变革，同时也反映了脑癌研究资金不足的现状。",
-          "social": [
-            {
-              "who": "医疗研究人员",
-              "text": "肯定患者倡导的重要性，希望更多资源能投入到脑肿瘤治疗领域。"
-            }
-          ]
-        },
-        {
-          "title_zh": "塞内加尔数百名LGBTQ+人士被捕后躲藏",
-          "summary": "人权观察报告称，自2月以来至少320人因“违反自然行为”被拘留，伴随强制HIV检测和法律代表障碍。",
+          "title_zh": "塞内加尔数百名LGBTQ+人士被捕后被迫隐藏身份",
+          "summary": "至少320人因“违背自然行为”被拘留，人权组织报告称存在强制HIV检测等打压行动。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-15",
           "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
-          "overview": "塞内加尔加强了对同性恋行为的刑事化法律，导致大规模逮捕和拘留。受害者被迫躲藏以避免进一步迫害。",
-          "analysis": "这一事件严重违反了国际人权标准，引发了国际社会对塞内加尔法治和人权状况的强烈关注与谴责。",
+          "overview": "塞内加尔加强反同性恋法律后，大规模逮捕和恐吓导致LGBTQ+群体陷入恐慌。人权观察组织报告指出，强制HIV检测和阻碍法律援助是打压行动的一部分。",
+          "analysis": "这一事件揭示了非洲部分国家在 LGBTQ+ 权益保护方面的严重倒退，国际社会对此表示强烈谴责。",
           "social": [
             {
               "who": "国际人权组织",
-              "text": "强烈敦促塞内加尔政府立即停止迫害LGBTQ+群体，释放所有被非法拘留者。"
+              "text": "大规模逮捕和强制医疗检测构成了对基本人权的系统性侵犯，需要国际社会立即介入干预。"
             }
           ]
         },
         {
-          "title_zh": "津巴布韦作家否认用AI撰写获奖故事",
-          "summary": "津巴布韦作家库恩迪泽扎否认使用人工智能撰写获凯恩奖的故事，此前《大西洋》杂志报道称该软件将其标记为几乎完全由AI生成。",
-          "source": "Guardian World",
-          "region": "国外",
-          "published": "2026-10-14",
-          "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-          "overview": "库恩迪泽扎的故事《蓝色战士》在赢得凯恩奖后五天，被《大西洋》杂志质疑为AI生成。作家本人坚决否认使用AI辅助创作。",
-          "analysis": "此事再次引发了关于AI在文学创作中角色的激烈辩论，涉及原创性、版权以及人类作者身份认定等核心议题。",
-          "social": [
-            {
-              "who": "科技伦理专家",
-              "text": "指出AI检测工具的局限性，强调不应轻易将作品定性为AI生成而忽视作者的创造力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "塞内加尔否认批准争议性新生儿疫苗试验",
-          "summary": "卫生部长表示政府“未授权”由丹麦主导的乙型肝炎婴儿试验，该试验获RFK Jr支持。",
+          "title_zh": "几内亚比绍否认批准RFK Jr支持的婴儿疫苗争议试验",
+          "summary": "卫生部长表示政府“未授权”丹麦主导的乙型肝炎疫苗研究，该研究将暂缓给数千名新生儿接种。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-14",
           "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
-          "overview": "几内亚比绍卫生部长澄清，政府并未批准由丹麦研究人员主导的乙型肝炎疫苗试验。该试验旨在追踪非特异性健康结果而非安全性。",
-          "analysis": "这一声明与之前的报道相矛盾，凸显了国际疫苗政策中的复杂性和信息透明度问题，RFK Jr的影响力再次成为焦点。",
+          "overview": "美国卫生与公众服务部长的盟友推动的争议性疫苗试验在非洲引发广泛质疑。几内亚比绍卫生部澄清政府并未批准该研究，但丹麦研究人员仍计划暂缓部分新生儿的疫苗接种。",
+          "analysis": "该事件涉及公共卫生伦理与国际政治博弈，凸显了反疫苗运动对发展中国家儿童健康的潜在威胁。",
           "social": [
             {
               "who": "公共卫生专家",
-              "text": "强调在涉及儿童健康的试验中必须确保充分的知情同意和严格的安全监管标准。"
+              "text": "无论试验是否获批，暂缓新生儿接种乙型肝炎疫苗的决定都违背了基本的免疫预防原则，必须立即纠正。"
             }
           ]
         },
         {
-          "title_zh": "争议性疫苗试验获几内亚比绍批准推进",
-          "summary": "一项将 withholding 乙型肝炎疫苗的争议研究获得批准，这是RFK Jr疫苗接种愿景的核心部分。",
+          "title_zh": "马杜罗称纽约法庭新酷刑指控为“虚假”",
+          "summary": "改写后的起诉书指控前委内瑞拉总统及其妻子领导了一场酷刑运动，马杜罗在脚镣束缚下出庭否认。",
           "source": "Guardian World",
           "region": "国外",
-          "published": "2026-10-09",
-          "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-          "overview": "几内亚比绍批准了一项将 withholding 乙型肝炎疫苗给部分非洲新生儿的争议研究。该试验由丹麦研究人员主导，RFK Jr支持。",
-          "analysis": "此举引发了全球公共卫生界的强烈反对，质疑其科学依据和伦理标准，可能影响数千名新生儿的健康权益。",
+          "published": "2026-10-15",
+          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+          "overview": "马杜罗在纽约法院面对新的毒品走私和酷刑相关指控时坚决否认，案件涉及国家层面的镇压行为。被推翻的总统夫妇面临多项严重刑事罪名。",
+          "analysis": "此案展示了流亡政治人物在美国司法体系中的法律博弈，同时也反映了委内瑞拉政变后的国际法争议。",
           "social": [
             {
-              "who": "疫苗安全倡导者",
-              "text": "警告该试验可能对儿童健康造成不可逆的损害，呼吁立即暂停并重新评估研究方案。"
+              "who": "拉美政治分析师",
+              "text": "马杜罗在纽约出庭受审标志着委内瑞拉内战的法律化进程，但酷刑指控的真实性仍需独立调查证实。"
             }
           ]
         },
         {
           "title_zh": "ICJ法官纳维·皮莱因推动国际法获诺贝尔和平奖",
-          "summary": "挪威诺贝尔委员会表彰了这位南非前联合国人权事务高级专员在促进国际法方面的贡献。",
+          "summary": "委员会表彰了这位南非前联合国人权事务高级专员在促成认定以色列对加沙犯有种族灭绝罪工作中的贡献。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-09",
           "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-          "overview": "皮莱因担任国际法院法官及此前领导联合国委员会认定以色列在加沙犯有种族灭绝罪的工作而获奖。",
-          "analysis": "这一奖项肯定了法律手段在预防战争和暴力中的重要作用，同时也引发了关于国际司法独立性和公正性的讨论。",
+          "overview": "挪威诺贝尔委员会授予皮莱和平奖，肯定法律措施在防止战争和暴力方面的作用。她曾担任联合国国际法院法官及前人权事务高级专员。",
+          "analysis": "这一奖项是对国际司法机构角色的高度认可，也反映了国际社会对通过法律手段解决冲突的期待。",
           "social": [
             {
-              "who": "国际社会人士",
-              "text": "认为皮莱的获奖是对国际法权威的有力支持，有助于推动全球和平与正义事业。"
+              "who": "法学教授",
+              "text": "皮莱的工作证明了国际法不仅是纸面规则，更是阻止暴行的重要防线，诺贝尔奖是对这一信念的最佳肯定。"
             }
           ]
         },
         {
-          "title_zh": "巴西削减每周工作时间至40小时，卢拉赢得选举胜利",
-          "summary": "巴西国会批准宪法修正案将每周工作时间缩短至最多40小时，可能影响3000万工人。",
-          "source": "Guardian World",
+          "title_zh": "鲁塞尔·布兰德指控者称其在被指强奸前变得“怪物般”",
+          "summary": "51岁的布兰德面临三项强奸罪、三项性侵犯指控及一项猥亵指控。",
+          "source": "BBC News",
           "region": "国外",
           "published": "2026-10-15",
-          "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-          "overview": "巴西国会通过宪法修正案，禁止六天工作制。这一举措可能影响3000万工人，并为左翼总统卢拉在即将到来的总统决选中赢得政治优势。",
-          "analysis": "此举被视为卢拉对抗右翼对手的关键策略之一，反映了巴西劳工权益保护的趋势以及政治博弈的激烈程度。",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7ldzl7j4po?at_medium=RSS&at_campaign=rss",
+          "overview": "指控者透露布兰德在犯罪前行为发生剧变，案件细节持续引发关注。英国娱乐圈性侵丑闻再次成为公众焦点。",
+          "analysis": "此案涉及知名喜剧演员的严重刑事指控，对英国娱乐产业和公众信任度构成挑战。",
           "social": [
             {
-              "who": "劳工权益组织",
-              "text": "欢迎这一改革，认为缩短工作时间有助于改善工作生活平衡并促进社会公平。"
+              "who": "媒体评论员",
+              "text": "无论布兰德最终是否定罪，指控者关于其性格剧变的描述都令人不安，凸显了名人犯罪对社会的冲击。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英法海峡隧道内巴士撞击停靠列车致19人受伤",
+          "summary": "一辆巴士在法国一侧撞上了停靠在英法海峡隧道内的列车，造成19人受伤。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+          "overview": "事故发生在隧道内，两人伤势严重需直升机撤离，但暂无生命危险。这是英法海峡隧道运营以来的一次重大安全事故。",
+          "analysis": "该事件暴露了跨境基础设施在紧急情况下的救援协调难题，对欧洲交通网络的安全管理提出警示。",
+          "social": [
+            {
+              "who": "交通安全专家",
+              "text": "隧道内事故救援难度极大，此次直升机撤离方案显示了应急响应的局限性，需加强隧道内的安全隔离措施。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国NHS称跨性别者应按生理性别使用医院空间",
+          "summary": "新指南规定跨性别患者应在与其生理性别一致的单性病房接受治疗。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss",
+          "overview": "英格兰国家医疗服务体系发布了关于跨性别患者住院安排的新指引，引发争议。新政策要求按生理性别分配病房资源。",
+          "analysis": "这一政策调整在医疗资源公平性与 LGBTQ+ 权益保护之间引发了新的辩论，可能影响跨性别群体的就医体验。",
+          "social": [
+            {
+              "who": "LGBTQ+活动人士",
+              "text": "按生理性别分配病房忽视了跨性别者的身份认同需求，可能导致他们在医疗环境中遭受歧视和心理伤害。"
+            }
+          ]
+        },
+        {
+          "title_zh": "银行高管称财政大臣计划预算中征收利润税",
+          "summary": "高级银行高管告诉BBC，他们预计将在本月财政大臣的预算中被“点名”加税。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国银行业界对即将到来的预算案表示担忧，认为政府可能针对其利润征税。高级银行高管透露了内部对政策走向的预期。",
+          "analysis": "此举预示英国金融政策收紧趋势，可能对伦敦作为全球金融中心地位产生潜在影响。",
+          "social": [
+            {
+              "who": "财经记者",
+              "text": "预算中的税收调整若针对银行利润，将直接影响金融市场稳定性，投资者需密切关注后续政策落地情况。"
+            }
+          ]
+        },
+        {
+          "title_zh": "哈里和梅根在英国重启活动被指酷似王室公开亮相",
+          "summary": "苏塞克斯公爵夫人多年来未曾在英国本土举办如此规模的活动日，引发外界对其融入王室的讨论。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdnjqpyvmo?at_medium=RSS&at_campaign=rss",
+          "overview": "哈里与梅根的诺丁汉日活动引发了外界对其是否试图融入英国王室的讨论。活动规模之大在英国本土实属罕见。",
+          "analysis": "这一事件反映了英国公众对退位夫妇态度的微妙变化，也显示了王室成员在政治光谱中的重新定位尝试。",
+          "social": [
+            {
+              "who": "王室观察家",
+              "text": "哈里和梅根的活动策略正在向传统王室靠拢，但这是否能赢得英国民众的认同仍是一个未知数。"
+            }
+          ]
+        },
+        {
+          "title_zh": "津巴布韦作家否认用AI撰写获奖短篇小说",
+          "summary": "《大西洋》杂志文章称其作品被标记为几乎完全由AI生成，但作者坚决否认。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
+          "overview": "津巴布韦作家库恩德扎赢得非洲作家凯恩奖后，因AI检测争议引发关注。作者否认使用AI创作，但软件标记引发了关于文学真实性的讨论。",
+          "analysis": "此案凸显了 AI 创作与人类文学成就之间的界定难题，对文学奖项的公正性和原创性标准提出了挑战。",
+          "social": [
+            {
+              "who": "科技伦理学者",
+              "text": "AI检测工具的误报率提醒我们，在人工智能时代，如何定义和验证“人类创作”是一个亟待解决的核心问题。"
             }
           ]
         }
@@ -2525,56 +2415,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦通用人工智能安全与规模化发展，关注前沿模型能力边界及行业监管框架。",
-          "url": "https://x.com/samaltman"
+          "recent": "关注 AI 模型能力边界及其对社会工具形态的深层影响。",
+          "url": "https://www.samaltman.com/"
+        },
+        {
+          "name": "王坚",
+          "role": "阿里云创始人/中国工程院院士",
+          "region": "中国",
+          "domain": "ai",
+          "recent": "推动云计算与本地化 AI 基础设施发展，支持智能终端应用落地。",
+          "url": ""
+        },
+        {
+          "name": "吴建中",
+          "role": "中国工程院院士/信息科学专家",
+          "region": "中国",
+          "domain": "library",
+          "recent": "倡导智慧图书馆建设应超越数字化翻版，注重空间与服务深度融合。",
+          "url": ""
         },
         {
           "name": "Lex Fridman",
-          "role": "AI 科技播客主持人",
+          "role": "Lex Fridman Podcast 主持人",
           "region": "美国",
           "domain": "podcast",
-          "recent": "持续深度访谈顶尖科学家与行业领袖，探讨人工智能意识、伦理及未来社会影响。",
-          "url": "https://lexfridman.com"
+          "recent": "探讨人工智能与人类认知的交互关系及未来技术趋势。",
+          "url": "https://lexfridman.com/"
         },
         {
-          "name": "Andrew Ng",
-          "role": "DeepLearning.AI 联合创始人",
-          "region": "新加坡/全球",
-          "domain": "ai",
-          "recent": "致力于将 AI 教育普及化，推动医疗与教育领域的 AI 应用落地及知识资源开放。",
-          "url": "https://www.andrewng.org"
-        },
-        {
-          "name": "Yann LeCun",
-          "role": "Meta 首席科学家",
-          "region": "法国",
-          "domain": "ai",
-          "recent": "主张开源智能模型路线，关注机器视觉、机器人及未来通用人工智能架构设计。",
-          "url": "https://yann.lecun.com"
-        },
-        {
-          "name": "Dr. Carol Cramer",
-          "role": "华盛顿大学图书馆馆长",
+          "name": "Kathleen O'Malley",
+          "role": "美国图书馆协会(ALA) CEO",
           "region": "美国",
           "domain": "library",
-          "recent": "探索生成式 AI 在学术研究中的整合路径，重塑图书馆信息服务职能与用户隐私保护。",
-          "url": "https://library.uw.edu"
+          "recent": "聚焦图书馆包容性服务与信息素养教育，应对数字时代的阅读挑战。",
+          "url": ""
         },
         {
-          "name": "Tim Berners-Lee",
-          "role": "万维网发明者/W3C 创始人",
-          "region": "英国",
+          "name": "Ahmed Al-Harbi",
+          "role": "沙特国家图书馆前馆长/IFLA MENA 代表",
+          "region": "中东及北非",
           "domain": "library",
-          "recent": "倡导数据主权与去中心化网络架构（Solid），推动开放互联网权益保护及知识自由。",
-          "url": "https://www.w3.org"
+          "recent": "关注中东及北非地区图书馆现代化与区域合作发展。",
+          "url": ""
         },
         {
-          "name": "Dr. Peter Suber",
-          "role": "开放获取运动学者/哈佛法学院教授",
+          "name": "Catherine D'Ignazio",
+          "role": "MIT 教授/包容性设计专家",
           "region": "美国",
-          "domain": "ai/library",
-          "recent": "研究 AI 时代的版权法律挑战，关注知识自由保存、开放科学政策及学术资源公平获取。",
-          "url": "https://openaccess.scholar.harvard.edu"
+          "domain": "library",
+          "recent": "研究包容性设计与信息素养教学，适应短视频时代的学习方式变革。",
+          "url": ""
         }
       ]
     },
