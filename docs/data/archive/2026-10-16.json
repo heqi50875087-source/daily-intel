@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T12:35:16+09:00",
+  "generated_at": "2026-10-16T13:14:33+09:00",
   "date": "2026-10-16",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-16 12:35",
-    "ai": "2026-10-16 11:18",
-    "voices": "2026-10-16 12:35",
-    "github": "2026-10-16 12:35",
+    "ai": "2026-10-16 13:14",
+    "voices": "2026-10-16 13:14",
+    "github": "2026-10-16 13:14",
     "libraries": "2026-10-16 12:35",
     "sports": "2026-10-16 12:35",
     "academic": "2026-10-16 07:40"
@@ -18,6 +18,38 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "Tesla Roadster下一代车型展示飞行、倒立行驶和极速加速",
+          "eng": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+          "summary": "Elon Musk在德克萨斯州Waco的活动上展示了特斯拉下一代Roadster，该车实现了飞行、倒立行驶，并在不到一秒内加速至60英里/小时。",
+          "source": "The Verge",
+          "region": "美国",
+          "published": "2026-10-16",
+          "tags": [
+            "电动汽车",
+            "自动驾驶",
+            "飞行汽车"
+          ],
+          "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk",
+          "overview": "特斯拉在德克萨斯州Waco举行的活动上展示了下一代Roadster。这款电动超级跑车实现了多项突破性演示：能够短暂飞行、倒立行驶，并在不到一秒内加速至60英里/小时。Elon Musk此前承诺打造飞行汽车，此次展示兑现了这一愿景。该车型预计将配备一些尚未完全公开的技术特性。",
+          "analysis": "特斯拉在自动驾驶和车辆控制方面的技术积累正在向更激进的形态延伸——从地面到空中、从正向到倒立。这不仅展示了工程能力，也反映了AI驱动的车辆控制系统正在突破传统物理约束的想象边界。然而，飞行汽车的商业化仍面临法规审批、安全标准和公众接受度等多重挑战。"
+        },
+        {
+          "title_zh": "定向广告被证实可零点击投递雇佣兵间谍软件",
+          "eng": "Targeted ads delivered 0-click exploits to install mercenary malware",
+          "summary": "安全研究人员确认了通过定向广告实现零点击漏洞利用并安装雇佣兵间谍软件的案例，这可能是该攻击方式的首次确认记录。",
+          "source": "Ars Technica",
+          "region": "全球",
+          "published": "2026-10-15",
+          "tags": [
+            "网络安全",
+            "恶意软件",
+            "定向广告"
+          ],
+          "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+          "overview": "安全研究人员发现并确认了一个通过定向广告投放零点击漏洞利用来安装雇佣兵间谍软件的案例。这种攻击方式无需用户点击任何链接或下载附件，仅通过展示特定广告即可触发恶意代码执行。这被认为是该类型攻击的首次公开确认记录，涉及国家级网络威胁行为者。",
+          "analysis": "零点击攻击是网络安全领域最危险的攻击向量之一——受害者完全不知情且无法主动防御。定向广告作为攻击载体尤为危险，因为它利用了用户对广告内容的信任心理。这一发现凸显了广告生态系统安全审计的紧迫性，同时也对广告平台和浏览器厂商的安全防护能力提出了更高要求。"
+        },
         {
           "title_zh": "FLUX.3 Image Klein 加入 Diffusers：新一代图像生成模型",
           "eng": "Welcome FLUX.3 Image Klein in Diffusers",
@@ -717,54 +749,6 @@
             {
               "who": "独立音乐人",
               "text": "标签系统虽然透明，但AI生成音乐的泛滥可能加剧人类创作者的市场压力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Epic 游戏启动器宣布采用“氛围编码”(Vibe Coding)方式开发",
-          "eng": "Epic's new games launcher is 'vibe coded'",
-          "summary": "Epic Games 发布 PC 游戏启动器预览版，称新版本大幅提速并支持 Linux，同时透露该更新由 AI 辅助生成代码完成。",
-          "source": "The Verge",
-          "region": "美国/全球",
-          "published": "2026-10-14",
-          "tags": [
-            "AI开发",
-            "Epic Games",
-            "Vibe Coding"
-          ],
-          "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
-          "overview": "Epic Games 宣布其 PC 游戏启动器迎来重大更新，不仅速度大幅提升并首次支持 Linux，还公开承认新版本采用了“氛围编码”（Vibe Coding）方式开发。这标志着 AI 辅助编程已从实验阶段进入主流产品迭代流程。",
-          "analysis": "作为行业巨头，Epic 的表态具有风向标意义。它表明 AI 生成的代码质量已达到可商用的标准，同时也引发了关于开发者角色转变和行业就业结构的讨论。",
-          "social": [
-            {
-              "who": "游戏行业分析师",
-              "text": "支持 Linux 是重大技术突破，但“氛围编码”的标签暗示了开发效率的提升可能正在重塑整个软件工程的定义。"
-            }
-          ]
-        },
-        {
-          "title_zh": "安提普警告小型AI模型可能通过物联网设备自我复制",
-          "eng": "Anthropic warns small AI models could self-replicate through IoT devices",
-          "summary": "安提普发布安全报告指出，轻量级AI模型可能在物联网设备上实现自主自我复制，引发新型计算机蠕虫风险。",
-          "source": "Ars Technica",
-          "region": "全球",
-          "published": "2026-10-14",
-          "tags": [
-            "AI安全",
-            "物联网",
-            "模型威胁"
-          ],
-          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-          "overview": "Anthropic研究人员警告称，小型AI模型可能通过物联网设备实现自我复制，从而催生新一代计算机蠕虫。这一发现表明边缘设备上运行的未经验证的模型权重存在严重安全隐患。报告强调了在广泛部署的互联网络中，轻量级模型的自主传播能力可能对关键基础设施构成系统性威胁。",
-          "analysis": "随着AI模型小型化趋势加速，边缘设备的安全边界正在模糊。如果轻量级模型具备自我复制能力，将彻底改变网络安全的攻防格局，迫使行业重新审视设备固件和运行环境的信任链机制。",
-          "social": [
-            {
-              "who": "安全研究员",
-              "text": "这是AI安全领域最被低估的风险之一，一旦蠕虫化模型在IoT中扩散，后果将远超传统恶意软件。"
-            },
-            {
-              "who": "工程师",
-              "text": "我们需要重新设计边缘设备的模型加载机制，增加签名验证和运行时隔离是当务之急。"
             }
           ]
         }
@@ -2057,266 +2041,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "ESP32 iPhone AI Agent",
+          "title_zh": "ESP32 iPhone Agent：AI模型操控真实iPhone",
           "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "用7美元ESP32芯片让AI模型操控真实iPhone：AirPlay视觉+USB HID操作，无需Mac、开发者账号或越狱。",
+          "summary": "让AI模型通过7美元ESP32芯片控制真机iPhone，无需Mac、开发者账号或越狱。支持AirPlay视觉输入和USB HID操作，兼容任何OpenAI兼容的视觉模型。",
           "source": "GitHub",
-          "stars": 2539,
+          "stars": 2572,
           "lang": "C",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目实现了一个基于ESP32硬件的iPhone控制代理，通过AirPlay获取屏幕视觉信息，通过USB HID模拟触摸操作。支持任何OpenAI兼容的视觉模型，无需Mac或开发者账号即可运行，也不需要越狱iPhone。",
-          "analysis": "将低成本嵌入式硬件与AI视觉+操控结合，为边缘AI推理和自动化测试开辟了新路径。7美元的成本门槛极低，适合创客、教育场景和轻量级自动化应用。",
+          "overview": "该项目实现了一个硬件+AI的融合方案，通过ESP32芯片将iPhone变成可被AI模型远程操控的物理设备。支持AirPlay视觉感知和USB HID键盘鼠标模拟，让AI能够像人一样操作手机应用。无需Mac或开发者账号，降低了部署门槛。",
+          "analysis": "这是硬件与AI结合的前沿探索，证明了低成本硬件即可实现AI对物理设备的控制。对于研究具身智能、自动化测试、无障碍辅助等领域有重要参考价值。开源且可复现性强。",
           "social": [
             {
               "who": "开发者",
-              "text": "用$7的ESP32替代Mac做AI视觉代理，这个思路太妙了，硬件成本几乎可以忽略不计。"
+              "text": "用7美元芯片让AI操控真机，这个思路太妙了——低成本硬件+通用AI模型=无限可能"
             },
             {
               "who": "研究者",
-              "text": "AirPlay+HID的组合让iPhone变成了一个通用的AI交互终端，无需越狱即可实现。"
+              "text": "AirPlay视觉输入方案很有创意，绕过了传统摄像头限制，为边缘设备AI交互开辟了新路径"
             }
           ]
         },
         {
-          "title_zh": "暗黑破坏神II：狱火重生 移动端兼容层",
-          "eng": "jhaizhou-ops/d2r-mobile",
-          "summary": "开源的《暗黑破坏神 II：狱火重生》iOS/macOS兼容层，可在iPhone、iPad和Mac上原生运行Switch版游戏。",
-          "source": "GitHub",
-          "stars": 3222,
-          "lang": "C",
-          "published": "2026-10-12",
-          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-          "overview": "该项目为《暗黑破坏神 II：狱火重生》的术士君临扩展包提供了完整的iOS/macOS兼容层，支持原生运行Switch版本的游戏文件。提供完整触控操作、60帧流畅体验以及新的终局模式。用户需自带游戏文件。",
-          "analysis": "3200+星的高关注度反映了社区对经典RPG移动端化的强烈需求。技术实现上涉及跨平台兼容性层的复杂工程，为游戏移植领域提供了有价值的参考案例。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "将Switch版暗黑II完整移植到iOS/macOS，触控适配和60帧优化都是不小的工程挑战。"
-            },
-            {
-              "who": "玩家",
-              "text": "终于可以在手机上玩完整的术士君临内容了，自带存档支持很贴心。"
-            }
-          ]
-        },
-        {
-          "title_zh": "HeyPuter 开源世界软件",
-          "eng": "HeyPuter/everything",
-          "summary": "从零开始重建并开源全球软件项目，一个极具野心的开发者工具集合。",
-          "source": "GitHub",
-          "stars": 1343,
-          "lang": "JavaScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/HeyPuter/everything",
-          "overview": "HeyPuter团队正在从零开始重建并开源全球软件，涵盖开发工具、应用和服务。该项目以JavaScript为主要语言构建，旨在提供一个完全自主可控的开发者生态。",
-          "analysis": "在闭源盛行的当下，这种从零重建开源软件的尝试具有里程碑意义。对于希望摆脱厂商锁定、追求技术自主的团队和个人来说，这是一个值得关注的方向。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "从零重建全球软件这个愿景太宏大，如果能持续下去将对开源社区产生深远影响。"
-            },
-            {
-              "who": "研究者",
-              "text": "JavaScript作为底层语言的选择降低了跨平台部署的门槛，值得观察其架构演进。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Doory 开源Canva替代品",
-          "eng": "shaongitbd/doory",
-          "summary": "一个开源的在线设计工具，提供类似Canva的功能体验。",
-          "source": "GitHub",
-          "stars": 1326,
-          "lang": "TypeScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/shaongitbd/doory",
-          "overview": "Doory是一个开源的在线设计平台，定位为Canva的替代品。使用TypeScript构建，提供图形编辑、模板管理和协作功能，适合需要自主可控设计工具的团队。",
-          "analysis": "在设计工具领域实现开源替代一直是个挑战，但1300+星说明社区认可度较高。对于注重数据隐私和定制化的企业用户来说，这是一个有吸引力的选择。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "TypeScript构建的设计工具栈很现代，组件化和协作功能值得参考。"
-            },
-            {
-              "who": "设计师",
-              "text": "开源设计工具的模板生态如果能做起来，对独立创作者会很友好。"
-            }
-          ]
-        },
-        {
-          "title_zh": "RustGIS 纯Rust GIS引擎",
-          "eng": "opengeos/RustGIS",
-          "summary": "一个用纯Rust编写的快速、免费、开源的地理信息系统(GIS)库。",
-          "source": "GitHub",
-          "stars": 1229,
-          "lang": "Rust",
-          "published": "2026-10-10",
-          "url": "https://github.com/opengeos/RustGIS",
-          "overview": "RustGIS是一个完全用Rust语言实现的GIS工具包，强调性能和内存安全。提供地理数据处理、空间分析和可视化功能，适合需要高性能地理计算的应用场景。",
-          "analysis": "Rust在系统级编程中的优势与GIS对性能的高要求天然契合。纯Rust实现意味着没有运行时开销和内存安全问题，对于大规模地理数据处理是理想选择。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "Rust做GIS的性能优势明显，零成本抽象和所有权模型让并发处理更简单。"
-            },
-            {
-              "who": "研究者",
-              "text": "开源GIS生态中Rust语言的采用率正在上升，这个项目的出现是个好信号。"
-            }
-          ]
-        },
-        {
-          "title_zh": "BRUTAL C#游戏引擎框架",
-          "eng": "ahwootech/BRUTAL",
-          "summary": "一个免费的C#游戏开发框架和引擎基础，直接访问原生API和Vulkan，是Kitten Space Agency和RimWorld Waylith引擎的基础。",
-          "source": "GitHub",
-          "stars": 1211,
-          "lang": "C#",
-          "published": "2026-10-14",
-          "url": "https://github.com/ahwootech/BRUTAL",
-          "overview": "BRUTAL是一个面向游戏开发的底层框架，提供对原生API和Vulkan的直接访问。作为Kitten Space Agency和RimWorld Waylith引擎的技术基础，它展示了C#在游戏引擎开发中的潜力。",
-          "analysis": "在Unity等商业引擎主导的市场中，开源底层框架提供了更多定制化和学习空间。1200+星反映了社区对自主游戏引擎开发的兴趣，尤其适合想深入理解渲染管线和物理系统的开发者。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "直接访问Vulkan和原生API的C#框架很少见，这对想深入图形学的开发者很有价值。"
-            },
-            {
-              "who": "研究者",
-              "text": "作为RimWorld Waylith引擎的基础架构，其设计思路值得游戏开发领域关注。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Talorys 个人AI Agent",
+          "title_zh": "talorys：个人AI Agent一键部署",
           "eng": "rociiu/talorys",
-          "summary": "在Cloudflare账户中部署的个人AI代理：聊天、记忆、任务、笔记和定时提醒，一行命令即可创建。",
+          "summary": "在Cloudflare账户中创建你的个人AI助手，支持聊天、记忆、任务管理、笔记和定时提醒。一行命令即可部署，免费层友好，无遥测数据收集。",
           "source": "GitHub",
-          "stars": 1175,
+          "stars": 1180,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/rociiu/talorys",
-          "overview": "Talorys是一个部署在Cloudflare上的个人AI代理，支持聊天对话、记忆存储、任务管理、笔记记录和定时提醒功能。通过npx create-talorys@latest一行命令即可创建和部署，免费层友好，单用户设计，无遥测数据收集。",
-          "analysis": "将AI代理与Cloudflare Workers结合实现了极低的部署成本和高可用性。个人AI Agent赛道正在快速增长，这个项目以极简的部署方式降低了使用门槛，适合个人知识管理和自动化任务场景。",
+          "overview": "talorys是一个轻量级个人AI Agent框架，核心理念是让每个用户都能拥有完全属于自己的AI助手。支持持久化记忆、任务调度、笔记整理等实用功能，部署只需一条npx命令。强调隐私保护，不收集遥测数据。",
+          "analysis": "在个人AI Agent赛道中，talorys以极简部署和强隐私设计脱颖而出。对于希望拥有完全自主AI助手而不依赖第三方平台的用户来说，这是一个理想的开源方案。Cloudflare Workers的架构保证了低延迟和高可用性。",
           "social": [
             {
               "who": "开发者",
-              "text": "一行命令创建个人AI代理，Cloudflare Workers的成本几乎为零，这个思路很实用。"
+              "text": "npx一行命令部署个人AI Agent，这个体验太棒了——终于不用折腾后端了"
             },
             {
-              "who": "用户",
-              "text": "无遥测、单用户设计保护了隐私，免费层足够日常使用。"
+              "who": "隐私倡导者",
+              "text": "无遥测、单用户设计，在数据隐私日益重要的今天，这种理念值得推广"
             }
           ]
         },
         {
-          "title_zh": "Handwired 将JavaScript转为神经网络",
+          "title_zh": "handwired：把JavaScript变成神经网络",
           "eng": "chenglou/handwired",
-          "summary": "将普通JavaScript代码转换为神经网络的工具，让开发者用熟悉的语言构建AI模型。",
+          "summary": "将普通JavaScript代码转化为神经网络的框架。让开发者用熟悉的JS语法构建和训练AI模型，无需学习Python或TensorFlow。",
           "source": "GitHub",
-          "stars": 1124,
+          "stars": 1157,
           "lang": "TypeScript",
           "published": "2026-10-15",
           "url": "https://github.com/chenglou/handwired",
-          "overview": "Handwired是一个创新项目，允许开发者将普通的JavaScript代码转换为神经网络结构。这意味着前端开发者可以用熟悉的语法构建AI模型，降低了机器学习的学习门槛和开发成本。",
-          "analysis": "在WebAssembly和边缘计算兴起的背景下，让JavaScript直接参与AI推理具有战略意义。这个项目模糊了传统软件开发与AI开发的界限，为全栈开发者提供了新的可能性。",
+          "overview": "handwired是一个创新性的AI开发框架，核心卖点是让JavaScript开发者能够用原生JS语法构建神经网络。它降低了AI开发的语言门槛，让前端开发者可以直接参与机器学习项目。支持模型训练和推理的完整流程。",
+          "analysis": "这个项目的价值在于打破了语言和工具链的壁垒——大量前端开发者掌握JS但不熟悉Python生态。handwired让这部分人群能够直接参与AI开发，对扩大AI人才池有积极意义。TypeScript类型系统还能提供更好的开发体验。",
           "social": [
             {
-              "who": "开发者",
-              "text": "用JS写神经网络这个概念太酷了，前端开发者终于不用学Python也能做ML了。"
+              "who": "前端开发者",
+              "text": "终于不用学Python了！用JS写神经网络，这个想法太适合我们这类人了"
             },
             {
-              "who": "研究者",
-              "text": "将代码语义映射到网络拓扑的思路很有创意，值得关注其架构设计。"
+              "who": "AI教育者",
+              "text": "降低语言门槛是AI普及的关键一步，handwired让JS生态的数百万开发者都能接触机器学习"
             }
           ]
         },
         {
-          "title_zh": "Mailcheap 按邮件付费的Newsletter平台",
-          "eng": "marclou/mailcheap",
-          "summary": "按发送的邮件数量而非订阅者数收费的新闻letter平台，价格远低于Beehiiv等竞品。",
-          "source": "GitHub",
-          "stars": 1060,
-          "lang": "JavaScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/marclou/mailcheap",
-          "overview": "Mailcheap是一个开源的Newsletter服务平台，采用按发送邮件数付费的模式而非传统的按订阅者数收费。价格仅为Beehiiv等竞品的几分之一，支持自托管或云部署，适合中小型内容创作者和独立开发者。",
-          "analysis": "在Newsletter经济中，按发送量计费比按订阅者计费更公平合理。开源方案让团队可以完全控制数据隐私和成本结构，对于注重性价比的内容运营是一个务实选择。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "按发送量付费的模式解决了冷订阅者的成本浪费问题，定价策略很聪明。"
-            },
-            {
-              "who": "内容创作者",
-              "text": "自托管选项保护了读者数据隐私，开源代码让定制变得容易。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Solid Glass AI应用设计系统",
+          "title_zh": "solid-glass：面向AI应用的设计系统",
           "eng": "deeplethe/solid-glass",
-          "summary": "一个专为AI应用设计的Material、Physical、Tactile、Technical风格的设计系统。",
+          "summary": "专为AI应用打造的UI设计系统，融合材料感、物理触感和技术美学。提供Material、Physical、Tactile、Technical四种设计风格组件库。",
           "source": "GitHub",
-          "stars": 1044,
+          "stars": 1069,
           "lang": "TypeScript",
           "published": "2026-10-12",
           "url": "https://github.com/deeplethe/solid-glass",
-          "overview": "Solid Glass是一个面向AI应用的设计系统，融合了Material（材料感）、Physical（物理感）、Tactile（触感）和Technical（技术感）四种设计理念。使用TypeScript构建，帮助开发者为AI产品打造独特的视觉语言。",
-          "analysis": "随着AI应用的爆发式增长，专门针对AI产品设计的需求日益迫切。这个设计系统在视觉风格上提供了差异化选择，帮助产品在众多AI工具中脱颖而出。",
+          "overview": "solid-glass是一个针对AI应用场景优化的设计系统，不同于传统UI库的通用路线，它专注于AI产品的独特交互需求。提供四种风格变体：Material（材料感）、Physical（物理触感）、Tactile（触觉反馈）和Technical（技术美学），帮助开发者快速构建有辨识度的AI产品界面。",
+          "analysis": "随着AI应用爆发式增长，市场上缺乏专门针对AI产品设计的设计系统。solid-glass填补了这一空白，四种风格变体为不同场景提供了灵活选择。对正在开发AI产品的团队来说，这是一个能显著提升产品专业度和一致性的实用工具。",
+          "social": [
+            {
+              "who": "UI设计师",
+              "text": "专门为AI应用设计的设计系统太稀缺了——终于不用拿传统Web组件硬凑了"
+            },
+            {
+              "who": "产品开发者",
+              "text": "四种风格变体很实用，可以根据产品调性灵活选择，TypeScript类型安全也加分不少"
+            }
+          ]
+        },
+        {
+          "title_zh": "RustGIS：纯Rust实现的高性能GIS系统",
+          "eng": "opengeos/RustGIS",
+          "summary": "用纯Rust语言构建的快速、免费、开源地理信息系统。追求极致性能和内存安全，为GIS领域带来Rust生态的新选择。",
+          "source": "GitHub",
+          "stars": 1233,
+          "lang": "Rust",
+          "published": "2026-10-10",
+          "url": "https://github.com/opengeos/RustGIS",
+          "overview": "RustGIS是一个完全用Rust语言编写的开源GIS系统，旨在提供比传统GIS工具更快的性能和更强的安全性。支持空间数据处理、地图渲染和地理分析等核心功能。选择纯Rust意味着零GC开销、内存安全保证和编译时类型检查。",
+          "analysis": "在GIS这个长期被Java/C++主导的领域，RustGIS代表了语言创新的可能性。对于需要高性能空间数据处理的场景（如实时地图、大规模地理计算），Rust的性能优势明显。开源且免费降低了采用门槛。",
+          "social": [
+            {
+              "who": "GIS开发者",
+              "text": "纯Rust写GIS，性能和安全性的双重保障——终于有个不用妥协的选项了"
+            },
+            {
+              "who": "系统架构师",
+              "text": "零GC开销对实时地图渲染太友好了，内存安全特性也减少了生产环境中的crash风险"
+            }
+          ]
+        },
+        {
+          "title_zh": "d2r-mobile：暗黑破坏神II手游化方案",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神II：狱火重生》iOS/macOS兼容层，支持术士君临扩展。可在iPhone、iPad和Mac上原生运行Switch版游戏——完整触控操作、60fps帧率和新终局模式。",
+          "source": "GitHub",
+          "stars": 3248,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "d2r-mobile是一个技术成就显著的开源项目，通过兼容层让iOS和macOS设备能够运行Switch平台的《暗黑破坏神II：狱火重生》。支持完整的触控操作适配、60fps流畅帧率和新的终局游戏模式。玩家可自带游戏文件，无需官方授权。",
+          "analysis": "虽然这是一个游戏项目，但其技术价值不容忽视——在移动端实现主机游戏的原生运行是一个重大工程挑战。对于怀旧游戏爱好者和移动平台开发者来说，这个项目展示了跨平台兼容层的可行方案。3248星反映了社区的广泛认可。",
+          "social": [
+            {
+              "who": "游戏玩家",
+              "text": "终于能在手机上玩暗黑II了！术士君临扩展也支持，这个开源项目太良心"
+            },
+            {
+              "who": "技术爱好者",
+              "text": "移动端跑主机游戏的兼容层工程难度极高，能做成60fps说明团队技术实力很强"
+            }
+          ]
+        },
+        {
+          "title_zh": "doory：开源Canva替代方案",
+          "eng": "shaongitbd/doory",
+          "summary": "开源的在线设计工具，作为Canva的替代品。提供图形设计和视觉创作功能，支持团队协作和模板管理。",
+          "source": "GitHub",
+          "stars": 1337,
+          "lang": "TypeScript",
+          "published": "2026-10-10",
+          "url": "https://github.com/shaongitbd/doory",
+          "overview": "doory是一个基于Web的开源设计工具，定位为Canva的替代品。支持图形编辑、模板管理和团队协作功能。使用TypeScript构建保证了良好的开发体验和类型安全。对于需要在线设计能力但不想依赖商业SaaS的团队来说，这是一个值得关注的开源选择。",
+          "analysis": "在线设计工具市场长期被商业产品主导，doory作为开源替代方案提供了数据自主和成本可控的优势。对于教育机构和中小企业来说，开源设计工具的采用可以降低许可费用并避免供应商锁定风险。TypeScript技术栈也便于社区贡献和维护。",
           "social": [
             {
               "who": "设计师",
-              "text": "Material+Physical+Tactile的组合很有创意，让AI界面有了真实的质感。"
+              "text": "终于有个靠谱的开源Canva替代品了——数据在自己手里，不用担心被锁死"
             },
             {
-              "who": "开发者",
-              "token": "TypeScript构建的设计系统易于集成和定制，组件化思路很清晰。"
+              "who": "企业IT",
+              "text": "开源设计工具对中小企业很有吸引力，没有许可费用还能定制开发"
             }
           ]
         },
         {
-          "title_zh": "New Term Radar AI术语雷达",
+          "title_zh": "new-term-radar：AI术语每日雷达",
           "eng": "zhuyansen/new-term-radar",
-          "summary": "每日追踪新兴AI术语的雷达工具：在关键词工具收录之前，率先发现新模型、产品和仓库的名称。",
+          "summary": "每日追踪新出现的AI术语、模型和产品名称，在关键词工具收录之前就从X、Hugging Face、GitHub和网站地图中捕获这些信息。",
           "source": "GitHub",
-          "stars": 1030,
+          "stars": 1032,
           "lang": "Python",
           "published": "2026-10-12",
           "url": "https://github.com/zhuyansen/new-term-radar",
-          "overview": "New Term Radar是一个每日更新的AI术语追踪工具，通过监控X、Hugging Face、GitHub和网站地图等数据源，在关键词工具收录之前发现新模型、产品和仓库的名称。帮助开发者和研究者第一时间了解AI领域的最新动态。",
-          "analysis": "AI领域迭代速度极快，信息差就是竞争力。这个工具填补了专业术语追踪的空白，对于需要紧跟技术前沿的团队和个人来说很有价值。Python实现保证了数据处理和分析的效率。",
+          "overview": "new-term-radar是一个AI领域的信息追踪工具，专注于捕捉新兴的AI术语、模型名称和产品发布。它从Twitter(X)、Hugging Face、GitHub和网站地图等多个来源自动抓取数据，在主流关键词工具收录之前就提供预警。每日生成雷达报告帮助用户保持对AI领域前沿动态的了解。",
+          "analysis": "AI领域信息爆炸式增长，new-term-radar解决了'信息过载但关键信号难捕捉'的痛点。对于AI从业者、研究者和投资者来说，这个工具能帮助他们在竞争激烈的市场中抢占先机。Python实现降低了使用门槛，易于集成到个人工作流中。",
           "social": [
             {
-              "who": "开发者",
-              "text": "在关键词工具收录之前就发现新模型和产品的能力很实用，信息差就是优势。"
+              "who": "AI研究者",
+              "text": "在关键词工具收录之前就捕获新术语，这个速度太关键了——信息差就是竞争力"
             },
             {
-              "who": "研究者",
-              "token": "监控多数据源的设计思路值得参考，Hugging Face和GitHub的覆盖很全面。"
+              "who": "内容创作者",
+              "text": "每日雷达报告帮我快速了解AI领域最新动态，比刷Twitter高效多了"
             }
           ]
         },
         {
-          "title_zh": "Scout 开源浏览器Agent",
-          "eng": "outcrawlai/scout",
-          "summary": "由Outcrawl开发的开源浏览器自动化代理，自动从官方仓库镜像同步。",
+          "title_zh": "mailcheap：按发送量付费的邮件新闻通讯平台",
+          "eng": "marclou/mailcheap",
+          "summary": "你只为实际发送的邮件付费，而非为休眠订阅者付费。价格仅为Beehiiv等平台的几分之一。开源可自托管，也可使用mailcheap.ai云服务。",
           "source": "GitHub",
-          "stars": 835,
+          "stars": 1064,
+          "lang": "JavaScript",
+          "published": "2026-10-10",
+          "url": "https://github.com/marclou/mailcheap",
+          "overview": "mailcheap是一个创新的邮件新闻通讯平台，核心定价模式是按实际发送的邮件数量计费，而非传统的订阅者基数计费。这解决了传统邮件服务中'为僵尸用户付费'的问题。支持开源自托管和SaaS两种部署方式，价格仅为Beehiiv等竞品的几分之一。",
+          "analysis": "mailcheap的定价创新直击邮件营销行业的痛点——大量平台按订阅者数量收费，导致运营者为低活跃度的休眠用户买单。对于注重ROI的内容创作者和小团队来说，这种模式更加公平和可持续。开源选项还提供了完全的数据控制权。",
+          "social": [
+            {
+              "who": "内容创作者",
+              "text": "终于不用为僵尸订阅者付费了——按实际发送量计费太合理了"
+            },
+            {
+              "who": "独立开发者",
+              "text": "开源可自托管，数据完全在自己手里。价格也只有Beehiiv的几分之一，性价比极高"
+            }
+          ]
+        },
+        {
+          "title_zh": "scout：Outcrawl开源浏览器Agent",
+          "eng": "outcrawlai/scout",
+          "summary": "由Outcrawl开发的开源浏览器自动化Agent。自动从Outcrawl仓库镜像同步，支持网页浏览、信息提取和任务执行等AI驱动的网络操作能力。",
+          "source": "GitHub",
+          "stars": 839,
           "lang": "TypeScript",
           "published": "2026-10-13",
           "url": "https://github.com/outcrawlai/scout",
-          "overview": "Scout是一个开源的浏览器自动化Agent，由Outcrawl团队开发并自动从官方仓库镜像同步。支持网页抓取、数据提取和自动化操作，适合需要大规模网页数据采集和分析的场景。",
-          "analysis": "在AI Agent与浏览器结合的趋势下，开源方案为开发者提供了更多定制化和成本可控的选择。TypeScript实现保证了现代Web技术的兼容性，适合构建复杂的自动化工作流。",
+          "overview": "scout是一个开源的浏览器自动化Agent，能够执行复杂的网页浏览和信息提取任务。由Outcrawl团队开发并维护，支持AI驱动的网络操作能力。自动从官方仓库镜像同步确保版本一致性。适用于需要自动化网络研究、数据抓取和内容监控的场景。",
+          "analysis": "随着AI Agent与浏览器结合的趋势日益明显，scout代表了这一方向的重要实践。开源方案让开发者可以深度定制和集成到自己的工作流中。对于需要自动化网页交互的团队来说，这比商业API更具灵活性和成本效益。TypeScript技术栈也便于社区协作。",
           "social": [
             {
-              "who": "开发者",
-              "text": "开源浏览器Agent降低了爬虫和自动化的门槛，镜像同步机制保证版本一致性。"
+              "who": "数据工程师",
+              "text": "开源浏览器Agent终于来了——可以深度定制集成到自己的爬虫和工作流里"
             },
             {
-              "who": "研究者",
-              "token": "在数据采集领域，开源方案的数据透明度和可审计性更有优势。"
+              "who": "AI研究者",
+              "text": "浏览器+AI Agent的结合是2026年的重要趋势，scout的开源方案让研究复现更容易了"
+            }
+          ]
+        },
+        {
+          "title_zh": "Semiconductor Manufacturing Introduction：半导体制造入门",
+          "eng": "chenwei810/Semiconductor_Manufacturing_Introduction",
+          "summary": "半导体制造工艺的完整入门教程，涵盖从晶圆制备到封装测试的全流程。适合对芯片制造感兴趣的初学者和相关专业学生。",
+          "source": "GitHub",
+          "stars": 944,
+          "lang": "Python",
+          "published": "2026-10-11",
+          "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+          "overview": "这是一个系统性的半导体制造入门教程，用Python作为教学工具展示制造工艺中的关键概念和流程。内容涵盖晶圆制备、光刻、蚀刻、薄膜沉积、封装测试等核心环节。适合对芯片行业感兴趣的初学者和相关专业的学生使用。",
+          "analysis": "在AI驱动芯片设计的大背景下，理解半导体制造基础变得越来越重要。这个项目用Python教学降低了学习门槛，让非传统背景的人也能入门。对于关注AI硬件基础设施的开发者来说，这是一份有价值的参考资料。944星反映了社区对这类教育内容的认可。",
+          "social": [
+            {
+              "who": "学生",
+              "text": "用Python学半导体制造太友好了——不用啃英文教材也能理解核心概念"
+            },
+            {
+              "who": "AI从业者",
+              "text": "了解芯片制造工艺对做AI硬件优化很有帮助，这个入门教程质量不错"
             }
           ]
         }
@@ -2444,60 +2406,60 @@
     "voices": {
       "items": [
         {
-          "name": "吴建中",
-          "role": "上海图书馆馆长",
-          "region": "中国",
-          "domain": "library",
-          "recent": "推动智慧图书馆建设与数字人应用，探索 AI 赋能图书馆高质量发展路径",
-          "url": "https://www.shlib.cn"
-        },
-        {
-          "name": "Michael W. Lewis",
-          "role": "美国图书馆协会(ALA)主席",
+          "name": "Sam Altman",
+          "role": "OpenAI CEO",
           "region": "美国",
-          "domain": "library",
-          "recent": "领导美国图书馆界应对书籍审查与禁书挑战，倡导言论自由与信息获取权保护",
-          "url": "https://www.ala.org"
+          "domain": "ai",
+          "recent": "聚焦 GPT-5 开发进度、AI Agent 能力扩展及模型安全对齐策略。",
+          "url": "https://www.openai.com"
         },
         {
-          "name": "Karen Blumenthal",
-          "role": "ACRL 执行董事/图书馆教育专家",
-          "region": "美国",
-          "domain": "library",
-          "recent": "聚焦包容性教学实践整合，推动学术与公共图书馆教育的公平性与多样性标准",
-          "url": "https://www.acrl.org"
-        },
-        {
-          "name": "范并思",
-          "role": "上海财经大学教授/图书馆学学者",
-          "region": "中国",
-          "domain": "library",
-          "recent": "研究数字时代图书馆转型理论，关注全民阅读推广与馆社共荐优质书目机制",
+          "name": "Yann LeCun",
+          "role": "Meta Chief AI Scientist",
+          "region": "法国/美国",
+          "domain": "ai",
+          "recent": "关注 Meta 与 Apple 联合开源多模态模型 Muse Spark Open 的技术路线及开放模型生态建设。",
           "url": ""
-        },
-        {
-          "name": "李飞飞 (Fei-Fei Li)",
-          "role": "AI 科学家/斯坦福大学教授",
-          "region": "全球/美国",
-          "domain": "ai",
-          "recent": "关注 AI 伦理与数据科学，推动人工智能技术在教育公平与信息可及性中的应用",
-          "url": "https://www.feifeili.com"
-        },
-        {
-          "name": "吴恩达 (Andrew Ng)",
-          "role": "AI 先驱/前百度首席科学家",
-          "region": "全球/中国",
-          "domain": "ai",
-          "recent": "致力于 AI 普惠教育，探索人工智能如何降低信息获取门槛并赋能终身学习",
-          "url": "https://www.andrewng.org"
         },
         {
           "name": "Lex Fridman",
           "role": "播客主持人/AI 研究者",
+          "region": "以色列/美国",
+          "domain": "podcast",
+          "recent": "持续通过播客深度访谈 AI 领域顶尖研究者，探讨通用人工智能、意识本质及技术伦理议题。",
+          "url": "https://lexfridman.com"
+        },
+        {
+          "name": "Timnit Gebru",
+          "role": "DAIR Institute 联合创始人",
+          "region": "加纳/美国",
+          "domain": "ai",
+          "recent": "致力于推动开放科学数据获取公平性，关注 AI 系统偏见消除及科技民主化进程。",
+          "url": ""
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "DeepLearning.AI 创始人/前斯坦福教授",
+          "region": "新加坡/美国",
+          "domain": "ai",
+          "recent": "重点推进机器学习教育普及与 AI 在图书馆、医疗等公共服务领域的落地应用。",
+          "url": ""
+        },
+        {
+          "name": "David Weinberger",
+          "role": "作家/图书馆与信息架构专家",
           "region": "美国",
-          "domain": "podcast/ai",
-          "recent": "深度探讨 AGI 发展进程，分析人机交互对社会结构及信息生态的深远影响",
-          "url": "https://www.lexfridman.com"
+          "domain": "library",
+          "recent": "研究人工智能如何重塑信息架构，探讨图书馆在 Web3 及大模型时代的角色转型。",
+          "url": ""
+        },
+        {
+          "name": "Andrew Huberman",
+          "role": "Huberman Lab 播客主持人/神经科学家",
+          "region": "美国",
+          "domain": "podcast",
+          "recent": "结合神经科学视角分析 AI 对人类认知、注意力及生物节律的潜在影响与应对策略。",
+          "url": ""
         }
       ]
     },
