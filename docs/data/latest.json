@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T13:14:33+09:00",
+  "generated_at": "2026-10-16T14:09:28+09:00",
   "date": "2026-10-16",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-16 12:35",
+    "hot": "2026-10-16 14:09",
     "ai": "2026-10-16 13:14",
     "voices": "2026-10-16 13:14",
-    "github": "2026-10-16 13:14",
+    "github": "2026-10-16 14:09",
     "libraries": "2026-10-16 12:35",
     "sports": "2026-10-16 12:35",
     "academic": "2026-10-16 07:40"
@@ -2041,244 +2041,244 @@
     "github": {
       "items": [
         {
-          "title_zh": "ESP32 iPhone Agent：AI模型操控真实iPhone",
+          "title_zh": "ESP32 iPhone AI Agent——用7美元硬件让AI操控真iPhone",
           "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "让AI模型通过7美元ESP32芯片控制真机iPhone，无需Mac、开发者账号或越狱。支持AirPlay视觉输入和USB HID操作，兼容任何OpenAI兼容的视觉模型。",
+          "summary": "通过AirPlay视觉和USB HID输入，让任意OpenAI兼容的视觉模型直接操控真实iPhone，无需Mac、开发者账号或越狱。",
           "source": "GitHub",
-          "stars": 2572,
+          "stars": 2592,
           "lang": "C",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目实现了一个硬件+AI的融合方案，通过ESP32芯片将iPhone变成可被AI模型远程操控的物理设备。支持AirPlay视觉感知和USB HID键盘鼠标模拟，让AI能够像人一样操作手机应用。无需Mac或开发者账号，降低了部署门槛。",
-          "analysis": "这是硬件与AI结合的前沿探索，证明了低成本硬件即可实现AI对物理设备的控制。对于研究具身智能、自动化测试、无障碍辅助等领域有重要参考价值。开源且可复现性强。",
+          "overview": "该项目利用ESP32开发板（成本约7美元）作为桥梁，通过AirPlay获取iPhone屏幕视觉信息，再通过USB HID模拟触控操作。支持任何OpenAI兼容的视觉模型接入，无需Mac或开发者账号，也无需越狱。",
+          "analysis": "这是AI硬件与消费级设备结合的典范项目，展示了低成本方案实现AI Agent操控移动设备的可行性，对边缘计算和AI自动化领域有重要参考价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "用7美元芯片让AI操控真机，这个思路太妙了——低成本硬件+通用AI模型=无限可能"
+              "text": "用7美元硬件让大模型直接操作iPhone，这个思路太妙了，开源社区需要更多这样的低成本创新方案。"
             },
             {
               "who": "研究者",
-              "text": "AirPlay视觉输入方案很有创意，绕过了传统摄像头限制，为边缘设备AI交互开辟了新路径"
+              "text": "AirPlay视觉+HID操控的架构设计优雅，为AI Agent在移动端的应用提供了新的技术路径。"
             }
           ]
         },
         {
-          "title_zh": "talorys：个人AI Agent一键部署",
-          "eng": "rociiu/talorys",
-          "summary": "在Cloudflare账户中创建你的个人AI助手，支持聊天、记忆、任务管理、笔记和定时提醒。一行命令即可部署，免费层友好，无遥测数据收集。",
+          "title_zh": "HeyPuter/everything——从零重建世界软件",
+          "eng": "HeyPuter/everything",
+          "summary": "HeyPuter团队宣布从底层重新构建并开源全球软件，涵盖浏览器、编辑器等核心应用。",
           "source": "GitHub",
-          "stars": 1180,
-          "lang": "TypeScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/rociiu/talorys",
-          "overview": "talorys是一个轻量级个人AI Agent框架，核心理念是让每个用户都能拥有完全属于自己的AI助手。支持持久化记忆、任务调度、笔记整理等实用功能，部署只需一条npx命令。强调隐私保护，不收集遥测数据。",
-          "analysis": "在个人AI Agent赛道中，talorys以极简部署和强隐私设计脱颖而出。对于希望拥有完全自主AI助手而不依赖第三方平台的用户来说，这是一个理想的开源方案。Cloudflare Workers的架构保证了低延迟和高可用性。",
+          "stars": 1379,
+          "lang": "JavaScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/HeyPuter/everything",
+          "overview": "HeyPuter团队正在从零开始重建世界上的软件，以浏览器为核心平台提供编辑器、IDE等工具。该项目体现了对Web原生应用生态的重新思考，所有代码完全开源可自托管。",
+          "analysis": "在AI时代背景下，从底层重写软件栈具有深远意义，为开发者提供了全新的开发环境和工具链选择，值得关注其技术演进方向。",
           "social": [
             {
               "who": "开发者",
-              "text": "npx一行命令部署个人AI Agent，这个体验太棒了——终于不用折腾后端了"
+              "text": "从零重建世界软件的野心令人震撼，如果能跑起来将是Web开发的重大变革。"
             },
             {
-              "who": "隐私倡导者",
-              "text": "无遥测、单用户设计，在数据隐私日益重要的今天，这种理念值得推广"
+              "who": "研究者",
+              "text": "这种自底向上的开源方式值得研究，对理解软件架构演进有重要参考价值。"
             }
           ]
         },
         {
-          "title_zh": "handwired：把JavaScript变成神经网络",
-          "eng": "chenglou/handwired",
-          "summary": "将普通JavaScript代码转化为神经网络的框架。让开发者用熟悉的JS语法构建和训练AI模型，无需学习Python或TensorFlow。",
-          "source": "GitHub",
-          "stars": 1157,
-          "lang": "TypeScript",
-          "published": "2026-10-15",
-          "url": "https://github.com/chenglou/handwired",
-          "overview": "handwired是一个创新性的AI开发框架，核心卖点是让JavaScript开发者能够用原生JS语法构建神经网络。它降低了AI开发的语言门槛，让前端开发者可以直接参与机器学习项目。支持模型训练和推理的完整流程。",
-          "analysis": "这个项目的价值在于打破了语言和工具链的壁垒——大量前端开发者掌握JS但不熟悉Python生态。handwired让这部分人群能够直接参与AI开发，对扩大AI人才池有积极意义。TypeScript类型系统还能提供更好的开发体验。",
-          "social": [
-            {
-              "who": "前端开发者",
-              "text": "终于不用学Python了！用JS写神经网络，这个想法太适合我们这类人了"
-            },
-            {
-              "who": "AI教育者",
-              "text": "降低语言门槛是AI普及的关键一步，handwired让JS生态的数百万开发者都能接触机器学习"
-            }
-          ]
-        },
-        {
-          "title_zh": "solid-glass：面向AI应用的设计系统",
-          "eng": "deeplethe/solid-glass",
-          "summary": "专为AI应用打造的UI设计系统，融合材料感、物理触感和技术美学。提供Material、Physical、Tactile、Technical四种设计风格组件库。",
-          "source": "GitHub",
-          "stars": 1069,
-          "lang": "TypeScript",
-          "published": "2026-10-12",
-          "url": "https://github.com/deeplethe/solid-glass",
-          "overview": "solid-glass是一个针对AI应用场景优化的设计系统，不同于传统UI库的通用路线，它专注于AI产品的独特交互需求。提供四种风格变体：Material（材料感）、Physical（物理触感）、Tactile（触觉反馈）和Technical（技术美学），帮助开发者快速构建有辨识度的AI产品界面。",
-          "analysis": "随着AI应用爆发式增长，市场上缺乏专门针对AI产品设计的设计系统。solid-glass填补了这一空白，四种风格变体为不同场景提供了灵活选择。对正在开发AI产品的团队来说，这是一个能显著提升产品专业度和一致性的实用工具。",
-          "social": [
-            {
-              "who": "UI设计师",
-              "text": "专门为AI应用设计的设计系统太稀缺了——终于不用拿传统Web组件硬凑了"
-            },
-            {
-              "who": "产品开发者",
-              "text": "四种风格变体很实用，可以根据产品调性灵活选择，TypeScript类型安全也加分不少"
-            }
-          ]
-        },
-        {
-          "title_zh": "RustGIS：纯Rust实现的高性能GIS系统",
-          "eng": "opengeos/RustGIS",
-          "summary": "用纯Rust语言构建的快速、免费、开源地理信息系统。追求极致性能和内存安全，为GIS领域带来Rust生态的新选择。",
-          "source": "GitHub",
-          "stars": 1233,
-          "lang": "Rust",
-          "published": "2026-10-10",
-          "url": "https://github.com/opengeos/RustGIS",
-          "overview": "RustGIS是一个完全用Rust语言编写的开源GIS系统，旨在提供比传统GIS工具更快的性能和更强的安全性。支持空间数据处理、地图渲染和地理分析等核心功能。选择纯Rust意味着零GC开销、内存安全保证和编译时类型检查。",
-          "analysis": "在GIS这个长期被Java/C++主导的领域，RustGIS代表了语言创新的可能性。对于需要高性能空间数据处理的场景（如实时地图、大规模地理计算），Rust的性能优势明显。开源且免费降低了采用门槛。",
-          "social": [
-            {
-              "who": "GIS开发者",
-              "text": "纯Rust写GIS，性能和安全性的双重保障——终于有个不用妥协的选项了"
-            },
-            {
-              "who": "系统架构师",
-              "text": "零GC开销对实时地图渲染太友好了，内存安全特性也减少了生产环境中的crash风险"
-            }
-          ]
-        },
-        {
-          "title_zh": "d2r-mobile：暗黑破坏神II手游化方案",
-          "eng": "jhaizhou-ops/d2r-mobile",
-          "summary": "开源的《暗黑破坏神II：狱火重生》iOS/macOS兼容层，支持术士君临扩展。可在iPhone、iPad和Mac上原生运行Switch版游戏——完整触控操作、60fps帧率和新终局模式。",
-          "source": "GitHub",
-          "stars": 3248,
-          "lang": "C",
-          "published": "2026-10-12",
-          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-          "overview": "d2r-mobile是一个技术成就显著的开源项目，通过兼容层让iOS和macOS设备能够运行Switch平台的《暗黑破坏神II：狱火重生》。支持完整的触控操作适配、60fps流畅帧率和新的终局游戏模式。玩家可自带游戏文件，无需官方授权。",
-          "analysis": "虽然这是一个游戏项目，但其技术价值不容忽视——在移动端实现主机游戏的原生运行是一个重大工程挑战。对于怀旧游戏爱好者和移动平台开发者来说，这个项目展示了跨平台兼容层的可行方案。3248星反映了社区的广泛认可。",
-          "social": [
-            {
-              "who": "游戏玩家",
-              "text": "终于能在手机上玩暗黑II了！术士君临扩展也支持，这个开源项目太良心"
-            },
-            {
-              "who": "技术爱好者",
-              "text": "移动端跑主机游戏的兼容层工程难度极高，能做成60fps说明团队技术实力很强"
-            }
-          ]
-        },
-        {
-          "title_zh": "doory：开源Canva替代方案",
+          "title_zh": "Doory——开源Canva替代方案",
           "eng": "shaongitbd/doory",
-          "summary": "开源的在线设计工具，作为Canva的替代品。提供图形设计和视觉创作功能，支持团队协作和模板管理。",
+          "summary": "一个功能完整的开源在线设计工具，提供类似Canva的可视化编辑体验。",
           "source": "GitHub",
-          "stars": 1337,
+          "stars": 1343,
           "lang": "TypeScript",
           "published": "2026-10-10",
           "url": "https://github.com/shaongitbd/doory",
-          "overview": "doory是一个基于Web的开源设计工具，定位为Canva的替代品。支持图形编辑、模板管理和团队协作功能。使用TypeScript构建保证了良好的开发体验和类型安全。对于需要在线设计能力但不想依赖商业SaaS的团队来说，这是一个值得关注的开源选择。",
-          "analysis": "在线设计工具市场长期被商业产品主导，doory作为开源替代方案提供了数据自主和成本可控的优势。对于教育机构和中小企业来说，开源设计工具的采用可以降低许可费用并避免供应商锁定风险。TypeScript技术栈也便于社区贡献和维护。",
+          "overview": "Doory是一个开源的在线设计平台，提供拖拽式可视化编辑界面，支持多种模板和组件。项目采用TypeScript构建，注重用户体验和易用性，可作为Canva等商业工具的免费替代方案。",
+          "analysis": "在AI辅助设计趋势下，开源设计工具的发展有助于降低创作门槛，该项目对独立开发者和中小企业有实用价值。",
           "social": [
             {
-              "who": "设计师",
-              "text": "终于有个靠谱的开源Canva替代品了——数据在自己手里，不用担心被锁死"
+              "who": "开发者",
+              "text": "开源Canva替代品，TypeScript技术栈清晰，适合二次开发和自托管部署。"
             },
             {
-              "who": "企业IT",
-              "text": "开源设计工具对中小企业很有吸引力，没有许可费用还能定制开发"
+              "who": "研究者",
+              "text": "可视化设计工具向开源方向发展是必然趋势，这类项目对理解现代UI/UX工程有参考价值。"
             }
           ]
         },
         {
-          "title_zh": "new-term-radar：AI术语每日雷达",
-          "eng": "zhuyansen/new-term-radar",
-          "summary": "每日追踪新出现的AI术语、模型和产品名称，在关键词工具收录之前就从X、Hugging Face、GitHub和网站地图中捕获这些信息。",
+          "title_zh": "handwired——把JavaScript代码变成神经网络",
+          "eng": "chenglou/handwired",
+          "summary": "将普通JavaScript代码自动转换为神经网络架构，实现无需训练数据的机器学习。",
           "source": "GitHub",
-          "stars": 1032,
+          "stars": 1185,
+          "lang": "TypeScript",
+          "published": "2026-10-15",
+          "url": "https://github.com/chenglou/handwired",
+          "overview": "handwired是一个创新项目，能够将JavaScript代码自动映射为神经网络结构。用户只需编写常规JS逻辑，系统会自动生成对应的神经网络架构和训练配置，大幅降低机器学习入门门槛。",
+          "analysis": "该项目代表了AI民主化的新方向——让非专业开发者也能通过编程直觉来构建AI模型，对教育和技术普及有重要意义。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "把JS变成神经网络的思路太巧妙了，真正做到了'用代码思维做AI'。"
+            },
+            {
+              "who": "研究者",
+              "text": "这种自动架构搜索的思路值得深入研究，对降低ML开发门槛有实际价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "talorys——你的个人AI Agent（Cloudflare部署）",
+          "eng": "rociiu/talorys",
+          "summary": "在自有Cloudflare账户中创建个人AI Agent，支持聊天、记忆、任务管理，一行命令即可部署。",
+          "source": "GitHub",
+          "stars": 1184,
+          "lang": "TypeScript",
+          "published": "2026-10-10",
+          "url": "https://github.com/rociiu/talorys",
+          "overview": "talorys是一个轻量级个人AI Agent框架，运行在Cloudflare上，支持对话、记忆持久化、任务管理和定时提醒。通过npx一行命令即可创建和部署，免费版友好，无遥测追踪，注重隐私保护。",
+          "analysis": "随着AI Agent从企业走向个人用户，这类轻量级、自托管的解决方案填补了市场空白，对理解个人AI助理的技术实现有参考价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "一行命令部署个人AI Agent，Cloudflare Workers+D1的组合很优雅，隐私友好。"
+            },
+            {
+              "who": "研究者",
+              "text": "个人级AI Agent的架构设计值得研究，无遥测、自托管的理念符合当前隐私趋势。"
+            }
+          ]
+        },
+        {
+          "title_zh": "solid-glass——面向AI应用的设计系统",
+          "eng": "deeplethe/solid-glass",
+          "summary": "为AI应用程序提供Material、物理、触觉、技术感的设计风格系统。",
+          "source": "GitHub",
+          "stars": 1094,
+          "lang": "TypeScript",
+          "published": "2026-10-12",
+          "url": "https://github.com/deeplethe/solid-glass",
+          "overview": "solid-glass是一个专门针对AI应用设计的设计系统，融合了Material Design、物理质感、触觉反馈和技术美学。提供完整的UI组件库和主题方案，帮助开发者快速构建具有现代感的AI界面。",
+          "analysis": "随着AI应用爆发式增长，专业的设计系统成为刚需，该项目填补了AI UI设计的空白，对提升AI产品用户体验有直接价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "专门面向AI应用的设计系统很稀缺，solid-glass的质感和技术感定位准确。"
+            },
+            {
+              "who": "研究者",
+              "text": "AI应用的视觉语言正在形成新范式，这类设计系统的出现标志着行业成熟度提升。"
+            }
+          ]
+        },
+        {
+          "title_zh": "new-term-radar——每日AI术语雷达",
+          "eng": "zhuyansen/new-term-radar",
+          "summary": "每日追踪新兴AI术语、模型和产品名称，在关键词工具收录之前抢先发现。",
+          "source": "GitHub",
+          "stars": 1033,
           "lang": "Python",
           "published": "2026-10-12",
           "url": "https://github.com/zhuyansen/new-term-radar",
-          "overview": "new-term-radar是一个AI领域的信息追踪工具，专注于捕捉新兴的AI术语、模型名称和产品发布。它从Twitter(X)、Hugging Face、GitHub和网站地图等多个来源自动抓取数据，在主流关键词工具收录之前就提供预警。每日生成雷达报告帮助用户保持对AI领域前沿动态的了解。",
-          "analysis": "AI领域信息爆炸式增长，new-term-radar解决了'信息过载但关键信号难捕捉'的痛点。对于AI从业者、研究者和投资者来说，这个工具能帮助他们在竞争激烈的市场中抢占先机。Python实现降低了使用门槛，易于集成到个人工作流中。",
+          "overview": "new-term-radar是一个AI术语追踪工具，从X、Hugging Face、GitHub和网站地图中实时抓取新出现的模型名称、产品名和仓库名。在主流关键词工具收录之前就能发现新兴概念，帮助从业者保持前沿视野。",
+          "analysis": "AI领域新概念涌现速度极快，这类信息雷达工具对研究者、投资人和从业者都有实用价值，是理解AI行业动态的重要基础设施。",
           "social": [
             {
-              "who": "AI研究者",
-              "text": "在关键词工具收录之前就捕获新术语，这个速度太关键了——信息差就是竞争力"
+              "who": "开发者",
+              "text": "在关键词工具之前发现新术语，这个思路很聪明，对保持技术敏感度很有帮助。"
             },
             {
-              "who": "内容创作者",
-              "text": "每日雷达报告帮我快速了解AI领域最新动态，比刷Twitter高效多了"
+              "who": "研究者",
+              "text": "AI领域信息过载严重，这类自动化工具有助于高效追踪前沿动态。"
             }
           ]
         },
         {
-          "title_zh": "mailcheap：按发送量付费的邮件新闻通讯平台",
-          "eng": "marclou/mailcheap",
-          "summary": "你只为实际发送的邮件付费，而非为休眠订阅者付费。价格仅为Beehiiv等平台的几分之一。开源可自托管，也可使用mailcheap.ai云服务。",
-          "source": "GitHub",
-          "stars": 1064,
-          "lang": "JavaScript",
-          "published": "2026-10-10",
-          "url": "https://github.com/marclou/mailcheap",
-          "overview": "mailcheap是一个创新的邮件新闻通讯平台，核心定价模式是按实际发送的邮件数量计费，而非传统的订阅者基数计费。这解决了传统邮件服务中'为僵尸用户付费'的问题。支持开源自托管和SaaS两种部署方式，价格仅为Beehiiv等竞品的几分之一。",
-          "analysis": "mailcheap的定价创新直击邮件营销行业的痛点——大量平台按订阅者数量收费，导致运营者为低活跃度的休眠用户买单。对于注重ROI的内容创作者和小团队来说，这种模式更加公平和可持续。开源选项还提供了完全的数据控制权。",
-          "social": [
-            {
-              "who": "内容创作者",
-              "text": "终于不用为僵尸订阅者付费了——按实际发送量计费太合理了"
-            },
-            {
-              "who": "独立开发者",
-              "text": "开源可自托管，数据完全在自己手里。价格也只有Beehiiv的几分之一，性价比极高"
-            }
-          ]
-        },
-        {
-          "title_zh": "scout：Outcrawl开源浏览器Agent",
-          "eng": "outcrawlai/scout",
-          "summary": "由Outcrawl开发的开源浏览器自动化Agent。自动从Outcrawl仓库镜像同步，支持网页浏览、信息提取和任务执行等AI驱动的网络操作能力。",
-          "source": "GitHub",
-          "stars": 839,
-          "lang": "TypeScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/outcrawlai/scout",
-          "overview": "scout是一个开源的浏览器自动化Agent，能够执行复杂的网页浏览和信息提取任务。由Outcrawl团队开发并维护，支持AI驱动的网络操作能力。自动从官方仓库镜像同步确保版本一致性。适用于需要自动化网络研究、数据抓取和内容监控的场景。",
-          "analysis": "随着AI Agent与浏览器结合的趋势日益明显，scout代表了这一方向的重要实践。开源方案让开发者可以深度定制和集成到自己的工作流中。对于需要自动化网页交互的团队来说，这比商业API更具灵活性和成本效益。TypeScript技术栈也便于社区协作。",
-          "social": [
-            {
-              "who": "数据工程师",
-              "text": "开源浏览器Agent终于来了——可以深度定制集成到自己的爬虫和工作流里"
-            },
-            {
-              "who": "AI研究者",
-              "text": "浏览器+AI Agent的结合是2026年的重要趋势，scout的开源方案让研究复现更容易了"
-            }
-          ]
-        },
-        {
-          "title_zh": "Semiconductor Manufacturing Introduction：半导体制造入门",
+          "title_zh": "半导体制造入门——开源学习资源",
           "eng": "chenwei810/Semiconductor_Manufacturing_Introduction",
-          "summary": "半导体制造工艺的完整入门教程，涵盖从晶圆制备到封装测试的全流程。适合对芯片制造感兴趣的初学者和相关专业学生。",
+          "summary": "半导体制造工艺的完整入门教程，涵盖从晶圆到封装的全流程知识。",
           "source": "GitHub",
-          "stars": 944,
+          "stars": 947,
           "lang": "Python",
           "published": "2026-10-11",
           "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
-          "overview": "这是一个系统性的半导体制造入门教程，用Python作为教学工具展示制造工艺中的关键概念和流程。内容涵盖晶圆制备、光刻、蚀刻、薄膜沉积、封装测试等核心环节。适合对芯片行业感兴趣的初学者和相关专业的学生使用。",
-          "analysis": "在AI驱动芯片设计的大背景下，理解半导体制造基础变得越来越重要。这个项目用Python教学降低了学习门槛，让非传统背景的人也能入门。对于关注AI硬件基础设施的开发者来说，这是一份有价值的参考资料。944星反映了社区对这类教育内容的认可。",
+          "overview": "该项目提供半导体制造的完整入门教程，内容涵盖晶圆制备、光刻、蚀刻、薄膜沉积、封装测试等全流程。采用Python辅助演示和可视化，适合学生和从业者系统学习半导体基础知识。",
+          "analysis": "随着AI芯片需求激增，半导体制造知识变得愈发重要，这类开源教育资源有助于降低行业准入门槛，培养更多专业人才。",
           "social": [
             {
-              "who": "学生",
-              "text": "用Python学半导体制造太友好了——不用啃英文教材也能理解核心概念"
+              "who": "开发者",
+              "text": "半导体制造知识门槛高，开源教程对在校学生和转行人士很有帮助。"
             },
             {
-              "who": "AI从业者",
-              "text": "了解芯片制造工艺对做AI硬件优化很有帮助，这个入门教程质量不错"
+              "who": "研究者",
+              "text": "AI时代芯片需求爆发，这类基础教育资源对理解硬件底层有重要价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "RustGIS——纯Rust实现的高性能GIS系统",
+          "eng": "opengeos/RustGIS",
+          "summary": "用纯Rust语言构建的快速、免费、开源地理信息系统。",
+          "source": "GitHub",
+          "stars": 1236,
+          "lang": "Rust",
+          "published": "2026-10-10",
+          "url": "https://github.com/opengeos/RustGIS",
+          "overview": "RustGIS是一个完全用Rust语言编写的地理信息系统，提供空间数据处理、地图渲染和地理分析功能。相比传统GIS工具，Rust版本在性能和内存安全方面有显著优势，适合需要高性能的空间计算场景。",
+          "analysis": "Rust在系统级编程中的崛起为GIS领域带来新机遇，该项目展示了Rust语言在处理复杂空间数据时的潜力，对技术选型有参考价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "纯Rust实现的GIS系统，性能和安全性都优于传统方案，值得在性能敏感场景尝试。"
+            },
+            {
+              "who": "研究者",
+              "text": "Rust在空间计算领域的应用前景广阔，这类项目对理解语言特性与领域适配有参考价值。"
+            }
+          ]
+        },
+        {
+          "title_zh": "mailcheap——按发送量付费的邮件新闻通讯平台",
+          "eng": "marclou/mailcheap",
+          "summary": "只需为实际发送邮件的用户付费，而非休眠订阅者，成本仅为Beehiiv等平台的几分之一。",
+          "source": "GitHub",
+          "stars": 1066,
+          "lang": "JavaScript",
+          "published": "2026-10-10",
+          "url": "https://github.com/marclou/mailcheap",
+          "overview": "mailcheap是一个开源邮件新闻通讯平台，采用按发送量付费的模式，用户只需为实际触达的收件人付费。支持自托管部署或使用mailcheap.ai云服务，大幅降低中小创作者和独立开发者的运营成本。",
+          "analysis": "在AI时代内容创作门槛降低的背景下，这类低成本邮件营销工具对独立开发者、小型团队和个人创作者有重要实用价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "按发送量付费的模式很合理，对没有大量订阅者的个人项目非常友好。"
+            },
+            {
+              "who": "研究者",
+              "text": "开源邮件平台的发展有助于理解现代通信基础设施的演进方向。"
+            }
+          ]
+        },
+        {
+          "title_zh": "d2r-mobile——暗黑破坏神II狱火重生iOS兼容层",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神II：狱火重生》术士君临扩展包iOS/macOS兼容层，在iPhone/iPad/Mac上原生运行Switch版本。",
+          "source": "GitHub",
+          "stars": 3275,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "d2r-mobile是一个开源兼容层项目，允许用户在iPhone、iPad和Mac上原生运行《暗黑破坏神II：狱火重生》的Switch版本，支持完整触控操作、60帧体验和新的终局模式。用户需自带游戏文件，无需官方授权。",
+          "analysis": "该项目展示了开源社区在跨平台兼容性方面的技术实力，虽然属于游戏领域，但其兼容层架构对理解底层系统交互有参考价值。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "3275星的高关注度说明市场需求巨大，兼容层的技术实现值得研究。"
+            },
+            {
+              "who": "研究者",
+              "text": "跨平台游戏兼容层的架构设计对理解系统级软件交互有参考价值。"
             }
           ]
         }
@@ -2287,114 +2287,202 @@
     "hot": {
       "items": [
         {
-          "title_zh": "美国俄勒冈小学发生枪击案，三名儿童及一名教师遇难",
-          "summary": "嫌疑人被社区成员射杀身亡。",
+          "title_zh": "美国俄勒冈小学枪击案致3名儿童及教师死亡",
+          "summary": "一名嫌疑人在俄勒冈州一所小学开枪，造成3名儿童和1名教师遇难。嫌疑人随后被赶来的社区成员射杀。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-16",
           "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-          "overview": "2026年10月16日，美国俄勒冈州一所小学发生严重枪击事件，导致三名儿童和一名教师死亡。警方透露，嫌疑人为一名16岁少年，已被当地社区居民开枪击中身亡。该事件震惊全美，引发了关于校园安全、青少年心理健康及枪支管控的广泛讨论。",
-          "analysis": "此案凸显了美国校园暴力问题的严峻性，社区成员介入制止犯罪的行为也引发了法律与道德层面的争议。",
+          "overview": "美国俄勒冈州一所小学发生严重枪击事件，导致3名儿童和一名教师不幸遇难。警方表示，嫌疑人在行凶后被一名社区成员追赶至校内并当场射杀。该事件再次引发了公众对美国校园枪支安全问题的深切担忧。这是近期美国最严重的校园暴力案件之一。",
+          "analysis": "此案凸显了美国校园枪击事件的持续严峻态势，社区成员的介入虽然阻止了嫌疑人进一步行动，但无法挽回遇难者的生命。社会对加强校园安保和控枪立法的呼声预计将再次高涨。",
           "social": [
             {
-              "who": "媒体评论",
-              "text": "此次事件再次将美国校园枪击问题推上风口浪尖，呼吁加强学校安保措施的声音日益高涨。"
+              "who": "公共安全专家",
+              "text": "学校周边需要更严格的背景审查机制，同时社区应急响应能力也需提升。"
+            },
+            {
+              "who": "家长群体",
+              "text": "对子女在校安全感到极度不安，呼吁政府采取实质性控枪措施。"
             }
           ]
         },
         {
-          "title_zh": "大巴撞停法国侧英法海底隧道列车，19人受伤",
-          "summary": "两人被空运医院，暂无生命危险。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-          "overview": "一辆大巴车在英法海底隧道内撞击了停在法国一侧的列车，造成至少19人受伤。官方表示有两人被紧急空运至医院救治，但目前没有迹象表明有人生命受到威胁。事故原因正在调查中，隧道运营方已启动应急预案。",
-          "analysis": "此次事故暴露了隧道内车辆与铁路交通混行可能带来的安全隐患，相关安全规程或需重新评估。",
-          "social": [
-            {
-              "who": "交通部门",
-              "text": "英法海底隧道管理方表示将彻查事故原因，并加强列车停靠期间的地面车辆管控措施。"
-            }
-          ]
-        },
-        {
-          "title_zh": "同一天检测技术帮助医生发现重症儿童隐藏感染",
-          "summary": "宏基因组学为重症患者提供新检测方法。",
+          "title_zh": "同一天检测技术帮助医生发现危重儿童隐藏感染",
+          "summary": "宏基因组学为重症监护患者提供了一种新的感染检测方法，可在同一天内完成测试。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-16",
           "url": "https://www.bbc.co.uk/news/articles/cw5yn83m8gypo?at_medium=RSS&at_campaign=rss",
-          "overview": "研究人员开发了一种新的同一天检测技术，利用宏基因组学方法快速识别重症监护室中儿童的潜在感染源。这项技术在传统培养法无法及时确诊的情况下，能够显著缩短诊断时间，从而帮助医生更早地制定治疗方案。",
-          "analysis": "这一突破对于改善儿科重症患者的预后具有重要意义，有望成为未来ICU感染的常规筛查手段。",
+          "overview": "研究人员开发了一种名为宏基因组学的新技术，能够在同一天内帮助医生检测重症监护室中儿童的隐藏感染。这项技术通过全面分析患者样本中的遗传物质来识别病原体。这对于改善儿科重症患者的预后具有重大意义。",
+          "analysis": "传统检测方法耗时长且针对性强，新方法的出现有望大幅缩短诊断时间，减少因延误治疗导致的并发症和死亡率。这代表了精准医学在儿童护理领域的重大进步。",
           "social": [
             {
-              "who": "医学界",
-              "text": "专家普遍认为，宏基因组学技术有望大幅缩短重症感染确诊时间，提升救治成功率。"
+              "who": "儿科医生",
+              "text": "这项技术能显著减少误诊率，为危重患儿争取宝贵的抢救时间。"
+            },
+            {
+              "who": "医疗政策制定者",
+              "text": "建议加快将该技术推广至更多重症监护病房，以优化资源配置。"
             }
           ]
         },
         {
-          "title_zh": "英国政府宣布禁止含窒息或乱伦内容的色情片，将于11月初生效",
-          "summary": "此举源于2025年保守党贵族对色情监管的审查。",
+          "title_zh": "英国银行家称财政大臣计划对利润征收新税",
+          "summary": "高级银行高管告诉BBC，他们预计将在本月即将公布的财政预算中被列为“菜单上的目标”。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+          "overview": "英国银行业高管透露，他们预计财政大臣即将公布的预算中将包含针对银行利润的税收措施。这一消息在金融界引发了广泛关注和讨论。这反映了政府与大型金融机构之间在财政政策上的紧张关系。",
+          "analysis": "此举可能影响英国的金融稳定性和国际竞争力，同时也体现了政府在增加财政收入方面的决心。市场反应将取决于具体税率的设定及其对经济的影响评估。",
+          "social": [
+            {
+              "who": "金融行业分析师",
+              "text": "短期来看可能导致银行股价波动，但长期税收政策需平衡财政需求与行业健康。"
+            },
+            {
+              "who": "普通纳税人",
+              "text": "关注税收是否能有效转化为公共服务改善，而非仅仅增加政府收入。"
+            }
+          ]
+        },
+        {
+          "title_zh": "英国政府宣布禁止展示窒息或乱伦内容的色情片",
+          "summary": "政府表示将从11月初起禁止此类内容，此前曾对色情监管进行审查。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-15",
           "url": "https://www.bbc.co.uk/news/articles/cmpqgepejr2ro?at_medium=RSS&at_campaign=rss",
-          "overview": "英国政府宣布将从11月初起禁止含有窒息、乱伦等内容的色情影片。这一决定基于2025年由保守党贵族Gabby Bertin主持的对色情行业进行的全面审查结果，旨在保护公众特别是未成年人免受有害内容侵害。",
-          "analysis": "此举标志着英国在色情监管领域迈出了更严格的一步，但关于执行细节和言论自由的边界问题仍存争议。",
+          "overview": "英国政府宣布将从今年11月初开始禁止展示窒息或乱伦内容的色情影片。这一决定是基于保守党贵族Gabby Bertin在2025年对色情监管进行的审查结果。此举旨在进一步保护公众免受特定类型有害内容的影响。",
+          "analysis": "该政策引发了关于言论自由与内容监管边界的激烈辩论。支持者认为这有助于防止潜在的心理伤害，反对者则担忧过度审查可能侵犯成人内容的合法表达空间。",
           "social": [
             {
-              "who": "法律专家",
-              "text": "英国此举旨在保护未成年人免受有害内容侵害，但执行细节仍需完善以避免过度审查。"
+              "who": "数字权利倡导者",
+              "text": "担心此类禁令可能成为更广泛互联网内容审查的前兆，需警惕滑坡效应。"
+            },
+            {
+              "who": "公共卫生官员",
+              "text": "认为限制特定暴力或性虐待内容的传播对公众心理健康具有积极意义。"
             }
           ]
         },
         {
-          "title_zh": "真人秀《名人叛徒》圆桌会议火花四溅及“恐怖”死亡行军",
-          "summary": "明星们在圆桌会议上互相攻击，并需击败死亡行军者完成使命。",
+          "title_zh": "巴士撞停靠在英法海峡隧道法国侧的列车致19人受伤",
+          "summary": "一辆巴士撞上了停在英法海峡隧道法国一侧的列车，导致19人受伤。两人被空运至医院，但暂无生命危险。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g17j1ej95o?at_medium=RSS&at_campaign=rss",
-          "overview": "英国真人秀节目《名人叛徒》最新一期播出，嘉宾在圆桌会议环节激烈争吵、互揭隐私，场面一度失控。此外，节目中还设置了“死亡行军”任务，参赛者需在极端条件下完成任务以争取生存机会，引发观众热议。",
-          "analysis": "该节目的戏剧性冲突和紧张氛围持续吸引观众关注，成为近期英国电视收视率的亮点之一。",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+          "overview": "在英法海峡隧道附近发生了一起严重的交通事故，一辆巴士撞上了停在法国一侧的列车。事故造成19人受伤，其中两人被紧急空运至医院接受治疗。官方表示目前暂无生命危险，但事故原因仍在调查中。",
+          "analysis": "这一事件暴露了隧道基础设施安全管理的潜在漏洞，尤其是在车辆停靠和交通疏导方面。加强隧道周边的监控系统和应急响应机制显得尤为重要。",
           "social": [
             {
-              "who": "观众",
-              "text": "真人秀节目中的背叛与死亡行军环节持续引发观众热议和吐槽，收视率表现亮眼。"
+              "who": "通勤者",
+              "text": "对海峡隧道的安全性表示担忧，希望相关部门尽快公布调查结果。"
+            },
+            {
+              "who": "交通工程师",
+              "text": "建议增加隧道内的自动检测系统，以便在事故发生时能更快响应。"
             }
           ]
         },
         {
-          "title_zh": "特朗普取消Fort Hood袭击者枪决直播，称部分人“不愿观看”",
-          "summary": "这是超过60年来首次军事处决。",
-          "source": "BBC News",
-          "region": "国外",
-          "published": "2026-10-15",
-          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-          "overview": "美国总统特朗普取消了Fort Hood袭击者Nidal Hasan的枪决直播，表示有些人“宁愿不看”。这是美国超过60年来的首次军事处决，引发了关于死刑执行透明度和公众心理承受力的广泛讨论。",
-          "analysis": "特朗普的决定反映了部分民众对暴力画面可能造成的社会恐慌的担忧，同时也凸显了政治人物在公共事件中的形象管理策略。",
-          "social": [
-            {
-              "who": "公众舆论",
-              "text": "取消直播的决定在一定程度上缓解了公众对暴力画面的焦虑，但也引发了关于司法透明度的质疑。"
-            }
-          ]
-        },
-        {
-          "title_zh": "塞内加尔数百名LGBTQ+人士被捕，被迫进入隐藏状态",
-          "summary": "至少320人被拘留，涉及强制HIV检测和法律障碍。",
+          "title_zh": "塞内加尔LGBTQ+群体遭大规模逮捕，数百人被拘留",
+          "summary": "至少320人因“违背自然的行为”被拘留，人权组织报告称存在强制HIV检测等侵犯人权行为。",
           "source": "Guardian World",
           "region": "国外",
           "published": "2026-10-15",
           "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
-          "overview": "根据人权观察组织报告，自今年2月以来，塞内加尔至少有320名LGBTQ+人士因涉嫌“违背自然行为”被拘留。当局不仅加强了逮捕力度，还实施了强制HIV检测并设置了法律代表障碍，迫使大量人群转入地下生活。",
-          "analysis": "这一趋势表明塞内加尔对性少数群体的打压正在升级，国际社会对此表示深切关注并要求政府停止侵犯人权的行为。",
+          "overview": "塞内加尔自今年2月以来，至少320名LGBTQ+人士因涉嫌“违背自然的行为”被拘留。人权观察组织报告指出，当局还实施了强制HIV检测和限制法律援助等侵犯人权行为。这一事件标志着该国对性少数群体打压的升级。",
+          "analysis": "塞内加尔此举严重违反了国际人权标准，引发了国际社会对该国法治和人权状况的强烈谴责。LGBTQ+群体的生存空间正在被进一步压缩，需要国际社会的持续关注和干预。",
           "social": [
             {
-              "who": "国际组织",
-              "text": "大规模逮捕、强制HIV检测和法律援助障碍构成了对LGBTQ+群体日益加剧的打击。"
+              "who": "国际人权组织",
+              "text": "呼吁塞内加尔政府立即停止歧视性执法，保障所有公民的基本权利和自由。"
+            },
+            {
+              "who": "当地活动人士",
+              "text": "在恐惧中寻求庇护，希望国际社会能提供法律支持和保护渠道。"
+            }
+          ]
+        },
+        {
+          "title_zh": "津巴布韦作家否认用AI撰写获Caine奖获奖故事",
+          "summary": "《大西洋》杂志一篇文章声称该获奖短篇小说为AI生成，作者随后予以坚决否认。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
+          "overview": "津巴布韦作家Simbarashe Kundizeza否认使用人工智能撰写其获奖短篇小说《蓝色战士》。此前，《大西洋》杂志发表文章称该软件将其标记为几乎完全由AI生成，而该作品刚刚赢得Caine非洲作家奖。这一争议引发了关于AI在文学创作中角色的广泛讨论。",
+          "analysis": "此案是AI与人类创造力之间界限争论的最新案例。它凸显了AI检测技术的局限性以及学术界对AI辅助创作的复杂态度。未来可能需要更明确的规则来界定AI生成内容的版权和归属问题。",
+          "social": [
+            {
+              "who": "文学评论家",
+              "text": "认为应尊重作者的声明，同时关注AI技术如何真正影响创作过程和原创性定义。"
+            },
+            {
+              "who": "科技行业从业者",
+              "text": "指出当前AI检测工具存在误报风险，不应轻易否定人类创作者的努力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "几内亚比绍否认批准RFK Jr争议性新生儿疫苗试验",
+          "summary": "卫生部长表示政府“未授权”丹麦主导的乙肝疫苗试验，该试验由美国政府和私人合作伙伴资助。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+          "overview": "几内亚比绍卫生部长否认批准了一项有争议的乙肝疫苗试验，该试验将在新生儿中 withholding 疫苗接种。此前，美国卫生与公众服务部副部长RFK Jr曾大力推动该项目。这一事件引发了关于疫苗安全性和政治干预科学研究的激烈争论。",
+          "analysis": "该争议揭示了公共卫生政策制定中的复杂利益博弈。政府否认授权旨在保护本国公民免受潜在风险，但同时也反映了国际政治力量对发展中国家人道主义项目的渗透问题。",
+          "social": [
+            {
+              "who": "公共卫生专家",
+              "text": "强调任何疫苗试验都必须经过严格的伦理审查和本地监管批准，确保受试者安全。"
+            },
+            {
+              "who": "国际观察员",
+              "text": "关注政治人物对科学研究的干预可能带来的负面影响，呼吁保持科研独立性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "ICJ法官纳维·皮莱因推动国际法获诺贝尔和平奖",
+          "summary": "挪威诺贝尔委员会表彰了这位南非前联合国人权事务高级专员在国际法院的工作，她曾主导认定以色列在加沙犯有种族灭绝罪。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+          "overview": "南非前联合国人权事务高级专员纳维·皮莱因在国际法院（ICJ）的工作获得诺贝尔和平奖。她曾主持的联合国委员会认定以色列在加沙犯有种族灭绝罪，这一裁决具有深远影响。委员会认为她展示了法律措施如何帮助防止战争和暴力行为。",
+          "analysis": "这一奖项肯定了国际法在维护全球和平中的关键作用。皮莱的工作不仅推动了国际司法进程，也为受害者提供了正义的声音。她的获奖将进一步激励国际社会关注人道主义危机和法律问责机制的建设。",
+          "social": [
+            {
+              "who": "法律界人士",
+              "text": "认为这是对国际法权威性的重大肯定，有助于提升公众对法律解决冲突的信心。"
+            },
+            {
+              "who": "和平运动支持者",
+              "text": "期待这一荣誉能转化为实际行动，推动更多国家遵守国际法和人道主义准则。"
+            }
+          ]
+        },
+        {
+          "title_zh": "马杜罗在纽约法院否认新酷刑指控为虚假",
+          "summary": "被推翻的委内瑞拉总统马杜罗及其妻子面临新的贩毒指控，被指领导了一场国家支持的酷刑运动。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+          "overview": "被推翻的委内瑞拉总统尼古拉斯·马杜罗在纽约法院出庭，否认了针对他的新酷刑指控。检方重新起草的起诉书指控他和妻子西莉亚·弗洛雷斯领导了一场国家支持的镇压运动，对数十人实施了酷刑。马杜罗被脚镣束缚出庭，坚称这些指控是“虚假的”。",
+          "analysis": "此案涉及国际司法管辖权、政治避难和人权的复杂交叉领域。委内瑞拉政府长期以来的酷刑指控若得到证实，将严重损害其国际形象并引发更多制裁措施。同时，这也反映了美国对拉美政治对手的法律追诉趋势。",
+          "social": [
+            {
+              "who": "人权组织",
+              "text": "呼吁法院公正审理此案，确保酷刑受害者获得应有的正义和赔偿。"
+            },
+            {
+              "who": "国际法学者",
+              "text": "关注此类跨国法律行动对主权国家政治稳定的影响，以及国际司法体系的局限性。"
             }
           ]
         }
