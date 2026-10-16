@@ -13,7 +13,7 @@
     "github": "2026-10-17 00:35",
     "libraries": "2026-10-16 22:36",
     "sports": "2026-10-17 00:35",
-    "academic": "2026-10-16 07:40"
+    "academic": "2026-10-17 07:40"
   },
   "modules": {
     "ai": {
@@ -2313,6 +2313,86 @@
           "published": "2026-10-15",
           "overview": "9月23日，由中国图书馆学会中央和国家机关图书馆分会、国家图书馆智库建设领导小组办公室共同主办的“人工智能时代的学术研究初探”专题讲座在国家图书馆举办。北京外国语大学长青学者、教授，《国际汉学》杂志副主编任大援担任主讲嘉宾。 讲座中，任大援教授系统梳理了人工智能发展脉络与主流AI模型技术概况，并立足人文治学传统，创新性地将AI的数据、算法、算力三大核心要素与传统史学“史家四长（德、学、识、才）”进行比较对照。同时，他结合文史领域学术研究现实场景，辩证剖析了人工智能工具在实践当中存在的优势与局限，通过现场演示AI工具应用案例，着重强调人文研究的“识”无法依靠模型自动生成，需要研究者通过交互式层层设问的方式，从AI输出信息中提取有价值的研究观点。 本次讲座对大模型的能力边界与应用尺度进行了深入探讨，为智能技术与人文学术研究的融合路径提供了重要思路。 （中央和国家机关图书馆分会 供稿）",
           "url": "https://www.lsc.org.cn/cns/html_pass/contents/1149/2110572897117941760.html"
+        },
+        {
+          "title_zh": "Multiplex coupling: Connecting the intellectual base and the topics of a research field",
+          "eng": "Multiplex coupling: Connecting the intellectual base and the topics of a research field",
+          "summary": "Two documents can be close because they cite the same works or because they write about the same things, and the two kinds of proximity often disagree. Science mapping reads them in separate maps or m",
+          "source": "arXiv cs.DL（数字图书馆）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "Two documents can be close because they cite the same works or because they write about the same things, and the two kinds of proximity often disagree. Science mapping reads them in separate maps or merges them, as hybrid clustering does; either way the disagreement is lost. We introduce multiplex coupling, a framework that couples the same documents by their references and by their terms, keeps the two layers separate and analyses their relation. Similarities are standardised against a null model, and the agreement between the layers is measured on random pairs of documents. Consensus cluster",
+          "url": "https://arxiv.org/abs/2610.21858v1"
+        },
+        {
+          "title_zh": "CARA: Causally Guided Retrieval Agent for Question Answering",
+          "eng": "CARA: Causally Guided Retrieval Agent for Question Answering",
+          "summary": "Retrieval-augmented generation over text-rich knowledge graphs requires identifying evidence that contributes to answering a question, rather than merely matching its textual content. Existing agentic",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "Retrieval-augmented generation over text-rich knowledge graphs requires identifying evidence that contributes to answering a question, rather than merely matching its textual content. Existing agentic retrievers adaptively balance global search and multi-hop exploration but primarily rely on textual similarity to guide retrieval. We propose CARA, a training-free, CAusally guided Retrieval Agent that explicitly evaluates the causal relevance of retrieved evidence through two complementary criteria: consequentiality, measuring whether adding evidence improves answerability, and essentiality, ass",
+          "url": "https://arxiv.org/abs/2610.22017v1"
+        },
+        {
+          "title_zh": "GACC-Bench: Benchmarking Goal-Adaptive Context Compression Ability across Large Language Models",
+          "eng": "GACC-Bench: Benchmarking Goal-Adaptive Context Compression Ability across Large Language Models",
+          "summary": "Context compression in long-running applications of large language models (LLMs) must preserve goal-relevant information, often before specific downstream questions are known. We introduce GACC-Bench,",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "Context compression in long-running applications of large language models (LLMs) must preserve goal-relevant information, often before specific downstream questions are known. We introduce GACC-Bench, a benchmark for Goal-Adaptive Context Compression that evaluates how reliably LLMs adapt information retention to specified high-level goals. For each source context, we derive one or more high-level goals by grouping source-grounded questions according to shared downstream objectives. The benchmark contains 500 goals and 2,571 questions over 281 document and agent-trace contexts from seven colle",
+          "url": "https://arxiv.org/abs/2610.21893v1"
+        },
+        {
+          "title_zh": "Aligning LLMs with Sparse Retrieval via Adaptive Sparse Supervision",
+          "eng": "Aligning LLMs with Sparse Retrieval via Adaptive Sparse Supervision",
+          "summary": "While large language models (LLMs) offer strong semantic representations, their application to first-stage retrieval incurs substantial latency and storage costs. Neural sparse retrievers such as SPLA",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "While large language models (LLMs) offer strong semantic representations, their application to first-stage retrieval incurs substantial latency and storage costs. Neural sparse retrievers such as SPLADE provide efficient retrieval but rely on relatively compact encoders with limited representational capacity. To bridge this gap, we propose an LLM-based sparse retrieval framework with input-adaptive sparse alignment. Specifically, we introduce a dynamic $α$-truncation strategy that selects input-specific supervision supports based on the cumulative activation mass of SPLADE representations. Thi",
+          "url": "https://arxiv.org/abs/2610.21877v1"
+        },
+        {
+          "title_zh": "Retrieved but Not Read: Understanding Why Search-Augmented LLMs Fail to Use Available Evidence",
+          "eng": "Retrieved but Not Read: Understanding Why Search-Augmented LLMs Fail to Use Available Evidence",
+          "summary": "Web search allows LLMs to access up-to-date information, but it remains unclear why they sometimes produce outdated answers even when relevant evidence is available. To study this problem, we construc",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "Web search allows LLMs to access up-to-date information, but it remains unclear why they sometimes produce outdated answers even when relevant evidence is available. To study this problem, we construct temporal facts whose values changed after the models' training cutoffs. We evaluate one proprietary model under deployed web search and six open-weight model configurations under controlled retrieval. We find that models often answer from search snippets without opening the source pages, which is associated with higher rates of outdated answers and unfaithful citations. Our controlled experiment",
+          "url": "https://arxiv.org/abs/2610.21731v1"
+        },
+        {
+          "title_zh": "VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility",
+          "eng": "VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility",
+          "summary": "Large language models (LLMs) are increasingly used for election information, yet little is known about how external web content shapes the political information they present. Generative engine optimiz",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "Large language models (LLMs) are increasingly used for election information, yet little is known about how external web content shapes the political information they present. Generative engine optimization (GEO) rewrites web content to improve its visibility in generated responses. To investigate its potential risks in voting scenarios (VoteGEO), we introduce VoteGEO-Bench, a benchmark covering the 2024 U.S. presidential election and the 2026 Japanese House of Representatives election, combining election-related queries, historical webpages, and voter personas. We first analyze sources cited b",
+          "url": "https://arxiv.org/abs/2610.21330v1"
+        },
+        {
+          "title_zh": "Making every stage of medical device document assessment with large language models deterministic",
+          "eng": "Making every stage of medical device document assessment with large language models deterministic",
+          "summary": "To show that a medical device complies with regulation, experts judge whether documents and records meet each requirement and record the judgment for others to verify. For each assessment item that ex",
+          "source": "arXiv cs.IR（信息检索/推荐）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "To show that a medical device complies with regulation, experts judge whether documents and records meet each requirement and record the judgment for others to verify. For each assessment item that experts define, large language models could prepare a preliminary assessment: a label such as Satisfied or Not satisfied, a reason and quoted evidence. We sent fourteen commercial deployments of such models (seven models from three providers, through six routes) the same request repeatedly, with the deterministic sampling settings each accepted; every deployment returned differing assessments for at",
+          "url": "https://arxiv.org/abs/2610.21300v1"
+        },
+        {
+          "title_zh": "Anywhere Adventures in Southeast Wyoming",
+          "eng": "Anywhere Adventures in Southeast Wyoming",
+          "summary": "The following is a guest post by the 2025-2026 Innovator in Residence, Vivian Li. As part of her work with the Library, Vivian hosted a series of community outreach events. Read on to learn about her ",
+          "source": "LoC The Signal（美国国会图书馆·数字典藏）",
+          "region": "国际",
+          "published": "2026-10-15",
+          "overview": "The following is a guest post by the 2025-2026 Innovator in Residence, Vivian Li. As part of her work with the Library, Vivian hosted a series of community outreach events. Read on to learn about her time in Southeast Wyoming, one of the locations in Anywhere Adventures, Vivian’s mobile-first website which brings local history to",
+          "url": "https://blogs.loc.gov/thesignal/2026/10/anywhere-adventures-in-southeast-wyoming/"
         },
         {
           "title_zh": "Reading the Neighborhood: Text-Attentive Graph Reranking for Automated Subject Indexing",
@@ -8384,5 +8464,6 @@
         "国内"
       ]
     }
-  }
+  },
+  "merged_at": "2026-10-17T07:40:18+08:00"
 }
