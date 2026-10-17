@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:23:35+09:00",
+  "generated_at": "2026-10-17T13:15:27+09:00",
   "date": "2026-10-17",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
@@ -7,10 +7,10 @@
   "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
   "empty_sources": [],
   "module_updated": {
-    "hot": "2026-10-17 12:23",
-    "ai": "2026-10-17 11:36",
-    "voices": "2026-10-16 23:32",
-    "github": "2026-10-17 12:23",
+    "hot": "2026-10-17 13:15",
+    "ai": "2026-10-17 13:15",
+    "voices": "2026-10-17 13:15",
+    "github": "2026-10-17 13:15",
     "libraries": "2026-10-17 11:36",
     "sports": "2026-10-17 12:23",
     "academic": "2026-10-17 07:40"
@@ -18,6 +18,84 @@
   "modules": {
     "ai": {
       "items": [
+        {
+          "title_zh": "特斯拉驾驶员称在使用FSD时睡着并撞上公路巡逻车",
+          "eng": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
+          "summary": "一名特斯拉驾驶员在高速公路上撞向巡逻车辆，事后声称自己当时处于睡眠状态并使用自动驾驶辅助模式。加州高速公路巡警警告称\"尽管名称如此，完全自动驾驶并非完全自主\"。",
+          "source": "The Verge",
+          "region": "美国/全球",
+          "published": "2026-10-16",
+          "tags": [
+            "自动驾驶",
+            "特斯拉",
+            "交通安全"
+          ],
+          "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
+          "overview": "一名特斯拉驾驶员在高速公路上撞向巡逻车辆，事后声称自己当时处于睡眠状态并使用自动驾驶辅助模式。加州高速公路巡警发布了相关视频并警告称\"尽管名称如此，完全自动驾驶并非完全自主\"，强调技术不能免除驾驶员安全操作车辆的责任。",
+          "analysis": "这一事件再次凸显了L2级自动驾驶技术的局限性——它需要驾驶员持续监控环境，但人类在疲劳状态下难以有效监督AI系统。FSD的命名策略可能给公众造成错误的安全感预期，需要在营销和实际能力之间保持诚实。",
+          "social": [
+            {
+              "who": "汽车安全专家",
+              "text": "L2级辅助驾驶需要驾驶员全程监控，疲劳驾驶使用自动驾驶是极其危险的行为。"
+            },
+            {
+              "who": "科技评论员",
+              "text": "\"完全自动驾驶\"的命名容易误导消费者，实际上仍需人类监督，这是行业需要正视的问题。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Elorian发布首个AI模型：专注于图像推理而非仅描述图像",
+          "eng": "Elorian's first AI model wants to reason with images, not just about them",
+          "summary": "Elorian的首个AI模型Glimpse旨在进行图像推理而不仅仅是关于图像的对话。评估显示，Glimpse在科学图表推理和短视频描述任务上表现优于GPT-6 Astra，在其他视觉推理任务上也具有竞争力。",
+          "source": "TechCrunch AI",
+          "region": "美国/全球",
+          "published": "2026-10-16",
+          "tags": [
+            "AI模型",
+            "多模态",
+            "图像理解"
+          ],
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "overview": "Elorian的首个AI模型Glimpse旨在进行图像推理而不仅仅是关于图像的对话。评估显示，Glimpse在科学图表推理和短视频描述任务上表现优于GPT-6 Astra，在其他视觉推理任务上也具有竞争力。这标志着多模态AI从\"理解图像内容\"向\"利用图像进行逻辑推理\"的重要转变。",
+          "analysis": "图像推理能力的突破将推动AI在科学研究、医疗诊断和教育等领域的应用——当模型能够真正\"看懂\"图表并进行逻辑分析时，其价值远超简单的图像描述。Elorian的Glimpse可能成为这一领域的竞争者之一，但需要更多实际应用场景来验证其长期表现。",
+          "social": [
+            {
+              "who": "AI研究员",
+              "text": "从\"描述图像\"到\"推理图像\"是质的飞跃，这将开启多模态AI的新应用空间。"
+            },
+            {
+              "who": "数据科学家",
+              "text": "科学图表推理能力对数据分析领域意义重大，期待更多实际案例验证其效果。"
+            }
+          ]
+        },
+        {
+          "title_zh": "斯坦福博士生用生成式AI设计病毒遗传蓝图引发安全讨论",
+          "eng": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "summary": "2025年，斯坦福大学博士生Samuel King使用生成式AI模型提出了微观病毒的遗传蓝图。这虽然不是AI生成生命的实例，但可能成为下一步。MIT Technology Review对此进行了圆桌讨论。",
+          "source": "MIT Tech Review",
+          "region": "美国/全球",
+          "published": "2026-10-16",
+          "tags": [
+            "AI安全",
+            "合成生物学",
+            "生物安全"
+          ],
+          "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "overview": "2025年，斯坦福大学博士生Samuel King使用生成式AI模型提出了微观病毒的遗传蓝图。这虽然不是AI生成生命的实例，但可能成为下一步。MIT Technology Review对此进行了圆桌讨论，探讨了AI在合成生物学领域的潜力与风险。",
+          "analysis": "这一事件凸显了AI在生物安全领域的双重性：既能加速科学研究和药物开发，也可能被用于制造有害病原体。关键在于建立有效的监管框架和技术壁垒，确保AI生成的生物设计仅用于合法目的。随着模型能力的提升，相关风险将持续增加。",
+          "social": [
+            {
+              "who": "生物安全专家",
+              "text": "AI合成生物学需要严格的伦理审查和访问控制，防止技术被滥用制造有害病原体。"
+            },
+            {
+              "who": "科研政策制定者",
+              "text": "需要在促进科学创新与防范生物安全风险之间找到平衡点，建立分级监管体系。"
+            }
+          ]
+        },
         {
           "title_zh": "OpenAI模型被黑客利用入侵加密钱包及多个网站",
           "eng": "OpenAI models hacked a crypto wallet and breached more websites",
@@ -690,81 +768,6 @@
             {
               "who": "媒体从业者",
               "text": "半岛电视台被感染令人震惊，说明即使是大型国际媒体也无法完全免疫此类攻击。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Amazon旗下Bee推出两款个人AI设备：可穿戴设备和录音器",
-          "eng": "Amazon's Bee launches two new personal AI devices, starting at $75",
-          "summary": "亚马逊收购的AI公司Bee推出了首款新产品，包括一款更新的可穿戴设备和一款信用卡大小的手机录音器。这些设备能够总结对话、创建待办事项列表，并与Alexa和亚马逊购物功能集成，起售价仅74.99美元。",
-          "source": "TechCrunch AI",
-          "region": "美国/全球",
-          "published": "2026-10-15",
-          "tags": [
-            "AI硬件",
-            "亚马逊",
-            "可穿戴设备",
-            "消费级AI"
-          ],
-          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-          "overview": "TechCrunch报道，亚马逊旗下的AI公司Bee在收购后推出了两款新产品：一款更新的可穿戴设备和一款信用卡大小的手机录音器。这些设备的核心功能包括对话总结、待办事项创建以及与Alexa和亚马逊购物生态的集成。起售价仅为74.99美元，定位为个人助理级别的消费级AI产品。这一发布标志着亚马逊在AI硬件领域的布局正在加速，试图将AI能力从云端延伸到用户的物理世界。",
-          "analysis": "Bee的产品策略明显瞄准了'轻量级AI助手'市场——不需要复杂设置、价格亲民、功能实用。这与Google的Pixel Watch、Apple的Apple Watch形成差异化竞争。信用卡大小的录音器尤其值得关注，它暗示了'随时记录、智能总结'的使用场景，可能成为会议记录、学习笔记等高频需求的解决方案。",
-          "social": [
-            {
-              "who": "消费电子评论员",
-              "text": "75美元的AI设备在价格上确实具有竞争力，但需要关注其实际续航能力和离线功能。如果只能依赖云端API运行，那么隐私和延迟将成为用户的主要顾虑。"
-            },
-            {
-              "who": "亚马逊生态分析师",
-              "text": "Bee的产品与Alexa生态的深度集成是最大卖点，但也可能限制其在其他平台上的扩展性。对于已经深度使用亚马逊购物、音乐等服务的人来说，这些设备确实能提供无缝体验。"
-            }
-          ]
-        },
-        {
-          "title_zh": "可爱机器人玩具Eiliko的秘密数据存储在可被黑客攻击的中国服务器上",
-          "eng": "Your secrets aren't safe with this cute robot toy — they're on Chinese servers ready to be hacked",
-          "summary": "2026年10月15日，科技媒体The Verge曝光了一款名为Eiliko的可爱机器人玩具存在严重隐私安全问题。该设备通过Wi-Fi连接时会将用户对话数据传输至中国服务器，面临被黑客攻击的风险。",
-          "source": "The Verge",
-          "region": "全球",
-          "published": "2026-10-15",
-          "tags": [
-            "AI隐私",
-            "机器人玩具",
-            "数据安全"
-          ],
-          "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
-          "overview": "2026年10月15日，科技媒体The Verge曝光了一款名为Eiliko的可爱机器人玩具存在严重隐私安全问题。这款由Energize Lab开发的AI伴侣设备能够通过Wi-Fi连接，将用户与其对话的所有内容传输至中国服务器进行存储和处理。这意味着用户的私人对话、儿童信息以及其他敏感数据都可能面临被黑客攻击和泄露的风险。该事件引发了关于消费级AI设备数据安全的广泛讨论。",
-          "analysis": "Eiliko事件凸显了消费级AI设备在数据隐私保护方面的严重不足，特别是在涉及跨境数据传输的情况下。这一案例可能促使各国加强对智能玩具等消费电子产品的数据安全监管，同时也提醒消费者在购买此类产品时需要更加谨慎地评估其隐私政策。从行业角度看，这一事件可能对整个AI硬件市场产生警示作用。",
-          "social": [
-            {
-              "who": "隐私安全专家",
-              "text": "Eiliko事件凸显了消费级AI设备在数据隐私保护方面的严重不足，特别是在涉及跨境数据传输的情况下。"
-            },
-            {
-              "who": "家长权益倡导者",
-              "text": "这一案例提醒消费者在购买智能玩具时需要更加谨慎地评估其隐私政策，特别是涉及儿童使用的产品。"
-            }
-          ]
-        },
-        {
-          "title_zh": "冷冻一年的猪肾脏成功复活：器官移植突破",
-          "eng": "Pig kidneys that were 'frozen' for a year have been brought back to life",
-          "summary": "科学家首次成功将冷却至-150°C并冷冻存储数月的猪肾脏复温并恢复功能，有望在人体器官上复制这一成果。",
-          "source": "MIT Tech Review",
-          "region": "全球",
-          "published": "2026-10-15",
-          "tags": [
-            "生物医学",
-            "器官移植",
-            "冷冻技术"
-          ],
-          "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
-          "overview": "科学家首次成功将冷冻至-150°C并存储数月的猪肾脏复温，使其恢复功能。这些肾脏大小与人类相似，研究团队希望能在人体器官上复制这一突破性成果。",
-          "analysis": "这一突破可能彻底改变器官移植的等待时间问题。目前全球数百万人等待器官移植，冷冻保存技术若成功应用于人体器官，将极大缓解器官短缺危机。",
-          "social": [
-            {
-              "who": "医学研究者",
-              "text": "冷冻器官技术的突破是器官移植领域的重要里程碑，但距离临床应用仍有挑战需要克服。"
             }
           ]
         }
@@ -2081,82 +2084,246 @@
     "github": {
       "items": [
         {
-          "title_zh": "$7 ESP32 让 AI 模型操控真 iPhone",
+          "title_zh": "ESP32 iPhone AI Agent：用 $7 芯片控制真机",
           "eng": "onehumanbeing/esp32-iphone-agent",
-          "summary": "利用 7 美元 ESP32 硬件，使任何 OpenAI 兼容的视觉模型能直接控制真实 iPhone。无需 Mac、开发者账号或越狱。",
+          "summary": "利用 ESP32 开发板配合 AirPlay 和 USB HID，让任意 OpenAI 兼容视觉模型操控真实 iPhone。无需 Mac、开发者账号或越狱。",
           "source": "GitHub",
-          "stars": 2878,
+          "stars": 2882,
           "lang": "C",
           "published": "2026-10-11",
           "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-          "overview": "该项目通过 AirPlay 实现视觉感知（“眼睛”），利用 USB HID 协议模拟触控操作（“双手”）。它打破了 AI Agent 通常依赖模拟器或虚拟屏幕的限制，让大模型直接在物理设备上执行任务。支持任意 OpenAI 兼容的视觉模型接入，无需复杂的开发环境配置。",
-          "analysis": "值得关注之处在于其极低的硬件成本与强大的功能结合，证明了边缘设备在 AI Agent 领域的巨大潜力。对于研究 AI 与物理世界交互、以及低成本自动化测试的团队来说，这是一个极具参考价值的开源方案。",
+          "overview": "该项目实现了一个基于 ESP32 硬件的 iPhone 控制代理，通过 AirPlay 获取屏幕视觉信息，利用 USB HID 协议模拟触控操作。它支持任何 OpenAI 兼容的视觉模型（如 GPT-4o、Claude）作为大脑，无需越狱或开发者账号即可运行。项目旨在降低 AI Agent 在移动设备上的部署门槛，让低成本硬件也能驱动智能交互。",
+          "analysis": "极具价值的 AI+IoT 交叉项目，展示了边缘计算与移动端 AI 结合的新范式。对于研究低资源设备上的 LLM 推理和视觉-动作闭环的开发者来说，这是一个极佳的实验平台。",
           "social": [
             {
-              "who": "开发者",
-              "text": "用 $7 硬件跑通 iPhone 上的 AI Agent，这个思路太妙了，彻底绕过了模拟器限制。"
+              "who": "硬件开发者",
+              "text": "用 $7 的芯片跑通 iPhone AI Agent 链路，这证明了低成本边缘智能的可行性，值得深入跟进。"
             },
             {
-              "who": "研究者",
-              "text": "物理设备交互是具身智能的雏形，低成本方案让实验门槛大幅降低。"
+              "who": "AI 研究者",
+              "text": "AirPlay 视觉 + HID 控制的架构设计巧妙，为移动端多模态 Agent 提供了全新的硬件抽象层思路。"
             }
           ]
         },
         {
-          "title_zh": "从零重建世界软件——HeyPuter",
+          "title_zh": "HeyPuter/everything：从零开源重建世界软件",
           "eng": "HeyPuter/everything",
-          "summary": "团队正在从头开始重新构建和开源全球软件生态，旨在打造全新的开发者工具与应用平台。",
+          "summary": "团队正在从 scratch 重新构建和开源全球软件，涵盖操作系统、浏览器及各类应用。",
           "source": "GitHub",
-          "stars": 1762,
+          "stars": 1771,
           "lang": "JavaScript",
           "published": "2026-10-13",
           "url": "https://github.com/HeyPuter/everything",
-          "overview": "HeyPuter 是一个雄心勃勃的项目，致力于将现有的互联网软件基础设施完全重写并开源化。它不仅仅是一个工具，而是一个试图从根本上改变软件开发范式的尝试。项目涵盖广泛的开发工具和应用程序，目标是提供一个更开放、更可控的替代方案。",
-          "analysis": "在闭源软件盛行的当下，这种“从零重建”的理念具有极高的社区号召力和技术探索价值。它为开发者提供了一个思考现有软件架构局限性的窗口，并可能催生出一批全新的开源生态工具。",
+          "overview": "HeyPuter 团队宣布正在从零开始重新构建并开源世界上的软件，包括操作系统和浏览器等核心组件。该项目采用 JavaScript 技术栈，旨在打造一个完全自主可控的互联网生态基础。其愿景是消除对现有闭源商业软件的依赖，为开发者提供全新的底层工具链。",
+          "analysis": "虽然规模宏大且充满野心，但作为开源社区的重大事件值得关注。它代表了 Web 技术在系统级软件中复兴的趋势，对于前端和全栈开发者具有极高的参考价值。",
           "social": [
             {
-              "who": "开发者",
-              "text": "如果真能跑通，这将是互联网历史上最大的开源重构项目之一。"
+              "who": "Web 开发者",
+              "text": "用 JS 重写操作系统和浏览器？虽然听起来疯狂，但 HeyPuter 的执行力令人印象深刻。"
             },
             {
-              "who": "行业观察者",
-              "text": "这种野心令人兴奋，但也需要警惕社区治理和长期维护的挑战。"
+              "who": "开源社区观察者",
+              "text": "如果成功，这将彻底改变软件分发和许可模式，是开源运动的一次激进实验。"
             }
           ]
         },
         {
-          "title_zh": "BRUTAL：面向游戏引擎开发的 C# 底层框架",
+          "title_zh": "BRUTAL：免费开源游戏引擎框架",
           "eng": "ahwootech/BRUTAL",
-          "summary": "一个免费的、开源的 C# 游戏开发框架及引擎基础库，提供对原生 API 和 Vulkan 的直接访问权限。",
+          "summary": "一个免费的 C# 游戏开发框架或自定义引擎基础，直接访问原生 API 和 Vulkan。",
           "source": "GitHub",
-          "stars": 1586,
+          "stars": 1596,
           "lang": "C#",
           "published": "2026-10-14",
           "url": "https://github.com/ahwootech/BRUTAL",
-          "overview": "BRUTAL 是 Kitten Space Agency 和《环世界》(RimWorld) Waylith 引擎的基础设施层。它允许开发者直接调用底层系统 API，同时围绕这些库提供了低级别工具集。框架支持使用 C# 编写高性能游戏逻辑，兼顾了开发效率与运行性能。",
-          "analysis": "对于希望深入理解游戏引擎底层原理、或需要构建高性能自定义引擎的开发者来说，BRUTAL 提供了宝贵的参考实现。它展示了如何用现代语言（C#）结合原生 API 来实现传统上由 C++ 主导的高性能图形渲染管线。",
+          "overview": "BRUTAL 是一个基于 C# 的免费开源游戏开发框架，提供对原生 API 和 Vulkan 的直接访问权限。它围绕底层库构建，旨在成为 Kitten Space Agency 和 RimWorld Waylith 引擎的基础设施。该项目降低了使用现代图形 API 进行高性能游戏开发的门槛。",
+          "analysis": "对于 C# 生态的独立游戏开发者和引擎架构师而言，这是一个重要的基础设施项目。直接暴露 Vulkan 的能力意味着可以在不依赖 Unity/Unreal 的情况下实现高帧率渲染。",
           "social": [
             {
-              "who": "游戏开发者",
-              "text": "用 C# 写引擎底层，这大大降低了独立开发者的入行门槛。"
+              "who": "C# 开发者",
+              "text": "在 C# 中获得原生 Vulkan 支持，这对追求极致性能的游戏开发者来说是一个福音。"
             },
             {
-              "who": "技术博主",
-              "text": "RimWorld 的 Waylith 引擎架构被开源化，对引擎设计学习非常有价值。"
+              "who": "引擎架构师",
+              "text": "模块化设计允许自定义引擎构建，是学习现代游戏引擎底层原理的优秀教材。"
             }
           ]
         },
         {
-          "title_zh": "Handwired：将 JavaScript 代码转化为神经网络",
+          "title_zh": "handwired：将 JavaScript 代码转化为神经网络",
           "eng": "chenglou/handwired",
-          "summary": "该项目允许开发者直接将常规 JavaScript 代码转换为神经网络结构，实现 Web 端 AI 模型的原生构建。",
+          "summary": "一种创新方法，直接将常规 JavaScript 代码转换为神经网络的权重和结构。",
           "source": "GitHub",
-          "stars": 1576,
+          "stars": 1583,
           "lang": "TypeScript",
           "published": "2026-10-15",
           "url": "https://github.com/chenglou/handwired",
-          "overview": "Handwired 的核心创新在于打破了传统机器学习框架与 Web 开发之间的壁垒。用户无需学习 Python 或 TensorFlow，即可利用熟悉的 JS/TS 语法定义和训练神经网络。这使得前端开发者能够直接在浏览器中部署轻量级 AI 推理任务。",
-          "analysis": "这一工具极大地降低了 Web 端 AI 应用的门槛，对于希望在前端实现实时推理（如图像识别、文本生成）的开发者极具吸引力。它代表了"
+          "overview": "handwired 允许开发者将普通的 JavaScript 代码逻辑直接编译为神经网络架构。这意味着传统编程范式与深度学习模型之间的界限变得模糊，开发者可以用熟悉的语法定义 AI 模型。项目展示了函数式编程在神经符号系统（Neuro-symbolic）中的潜力。",
+          "analysis": "这是 AI 与软件工程融合的前沿探索。对于希望在不依赖 PyTorch/TensorFlow 的情况下快速构建和部署模型的 Web 开发者来说，这是一个极具吸引力的工具。",
+          "social": [
+            {
+              "who": "ML 工程师",
+              "text": "用 JS 写神经网络权重？这打破了框架锁定的限制，让模型定义更加灵活。"
+            },
+            {
+              "who": "全栈开发者",
+              "text": "无需切换语言即可构建 AI 模型，这对前端团队快速集成智能功能非常实用。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Solid Glass：AI 应用设计系统",
+          "eng": "deeplethe/solid-glass",
+          "summary": "专为 AI 应用程序打造的设计系统，强调材料感、物理感和触感交互。",
+          "source": "GitHub",
+          "stars": 1465,
+          "lang": "TypeScript",
+          "published": "2026-10-12",
+          "url": "https://github.com/deeplethe/solid-glass",
+          "overview": "Solid Glass 是一个面向 AI 应用的设计系统，旨在解决当前 AI UI 缺乏物理质感和交互深度的问题。它提供了材料、物理和触感层面的设计组件，帮助开发者构建更具沉浸感的 AI 界面。该系统基于 TypeScript 实现，易于集成到现代前端框架中。",
+          "analysis": "随着 AI Agent 界面的普及，设计系统需要适应新的交互模式。Solid Glass 填补了传统 UI 库在 AI 场景下的空白，对于产品设计师和前端开发者具有实用价值。",
+          "social": [
+            {
+              "who": "UI/UX 设计师",
+              "text": "AI 界面太冷冰冰了，这个设计系统终于开始关注物理质感和触感反馈。"
+            },
+            {
+              "who": "前端开发者",
+              "text": "TypeScript 实现的设计系统组件库，开箱即用，非常适合构建 AI SaaS 产品。"
+            }
+          ]
+        },
+        {
+          "title_zh": "git-ai：为 AI Agent 设计的 Git",
+          "eng": "feder-cr/git-ai",
+          "summary": "专为 AI 智能体工作流重新设计的版本控制系统，优化了 Agent 的代码管理体验。",
+          "source": "GitHub",
+          "stars": 1067,
+          "lang": "Go",
+          "published": "2026-10-15",
+          "url": "https://github.com/feder-cr/git-ai",
+          "overview": "git-ai 是一个面向 AI Agent 的版本控制系统，旨在解决传统 Git 在自动化工作流中的痛点。它优化了分支管理、冲突检测和提交历史的可读性，使 AI 代理能够更高效地协作开发。项目使用 Go 编写，保证了高性能和跨平台兼容性。",
+          "analysis": "随着 AI Coding Agent（如 Cursor、Copilot）的普及，传统的 Git 工作流面临挑战。git-ai 试图从底层重构这一流程，对于自动化运维和 CI/CD 场景有潜在价值。",
+          "social": [
+            {
+              "who": "DevOps 工程师",
+              "text": "当 AI Agent 开始自主提交代码时，传统 Git 的冲突处理确实需要重新思考。"
+            },
+            {
+              "who": "AI 工具开发者",
+              "text": "为 Agent 设计的 VCS 是一个未被充分探索的方向，这个项目值得持续关注其 API 设计。"
+            }
+          ]
+        },
+        {
+          "title_zh": "New Term Radar：AI 新术语每日雷达",
+          "eng": "zhuyansen/new-term-radar",
+          "summary": "每日追踪 AI 领域新模型、产品和仓库的命名，在关键词工具收录之前抢先发现。",
+          "source": "GitHub",
+          "stars": 1067,
+          "lang": "Python",
+          "published": "2026-10-12",
+          "url": "https://github.com/zhuyansen/new-term-radar",
+          "overview": "New Term Radar 是一个每日更新的 AI 术语追踪工具，能够扫描 X、Hugging Face、GitHub 和站点地图等来源。它专注于捕捉新模型、产品和仓库的命名，比传统关键词工具更早地列出新兴概念。这对于保持对 AI 前沿动态的敏感度非常有用。",
+          "analysis": "AI 领域新概念迭代极快，手动追踪效率低下。该工具自动化了这一过程，是研究人员和从业者获取情报的高效辅助手段。",
+          "social": [
+            {
+              "who": "AI 研究员",
+              "text": "每天收到一份 AI 新名词清单，比刷 Twitter 高效多了，信息密度很高。"
+            },
+            {
+              "who": "行业分析师",
+              "text": "在关键词工具收录之前发现新趋势，这个时间差对于抢占先机至关重要。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Open Claude UI：高保真还原 Claude 桌面端",
+          "eng": "Caho1/open-claude-ui",
+          "summary": "基于 REA（反向工程分析）深度拆解并高保真还原 Claude 官方桌面端 UI，附带逆向分析手册。",
+          "source": "GitHub",
+          "stars": 1042,
+          "lang": "TypeScript",
+          "published": "2026-10-14",
+          "url": "https://github.com/Caho1/open-claude-ui",
+          "overview": "该项目通过 REA 技术深度拆解了 Claude 官方桌面端的 UI 架构，还原了 30 个独立 React 组件和 8 项硬核交互物理算法。代码量超过 3000 行，并附带详细的逆向分析手册供学习参考。这对于理解现代 AI 应用前端架构具有极高的参考价值。",
+          "analysis": "虽然涉及逆向工程，但其核心目的是开源还原和学习。对于想要构建类似 AI Chat UI 的开发者来说，这是一份详尽的技术文档和代码参考库。",
+          "social": [
+            {
+              "who": "前端工程师",
+              "text": "30 个组件 + 8 项物理算法的拆解非常细致，是学习复杂 AI UI 交互的最佳案例。"
+            },
+            {
+              "who": "逆向工程爱好者",
+              "text": "附带的手册质量很高，不仅还原了外观，还深入分析了底层交互逻辑。"
+            }
+          ]
+        },
+        {
+          "title_zh": "半导体制造入门：Python 交互式教程",
+          "eng": "chenwei810/Semiconductor_Manufacturing_Introduction",
+          "summary": "使用 Python 编写的半导体制造流程介绍项目，适合初学者理解芯片生产全过程。",
+          "source": "GitHub",
+          "stars": 1006,
+          "lang": "Python",
+          "published": "2026-10-11",
+          "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+          "overview": "这是一个面向初学者的半导体制造流程介绍项目，采用 Python 脚本和交互式演示来解释芯片生产的关键步骤。内容涵盖了从晶圆制备到封装测试的完整产业链知识。该项目旨在降低半导体行业的入门门槛，帮助非专业背景的人理解技术原理。",
+          "analysis": "在 AI 驱动芯片设计的背景下，了解底层制造工艺变得愈发重要。这个项目作为学习资源，适合对硬件和 AI 交叉领域感兴趣的开发者。",
+          "social": [
+            {
+              "who": "硬件工程师",
+              "text": "用 Python 讲解半导体制造流程，形式新颖且易于上手，非常适合科普教育。"
+            },
+            {
+              "who": "AI 从业者",
+              "text": "理解芯片制造的物理限制有助于更好地评估 AI 模型的部署可行性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Scout：开源浏览器智能体",
+          "eng": "outcrawlai/scout",
+          "summary": "由 Outcrawl 开发的开源浏览器 Agent，能够自主浏览网页并执行任务。",
+          "source": "GitHub",
+          "stars": 900,
+          "lang": "TypeScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/outcrawlai/scout",
+          "overview": "Scout 是一个开源的浏览器智能体项目，由 Outcrawl 团队开发。它能够自主理解网页内容、执行点击和表单填写等操作，并支持通过 API 进行任务调度。该项目旨在为自动化测试和数据采集提供轻量级的 Agent 解决方案。",
+          "analysis": "随着 RPA（机器人流程自动化）向 AI Agent 演进，Scout 提供了基于浏览器的灵活方案。对于需要自动化网页交互的开发者来说，这是一个值得评估的工具。",
+          "social": [
+            {
+              "who": "测试工程师",
+              "text": "开源浏览器 Agent 比传统 RPA 更智能，能处理动态加载的页面内容。"
+            },
+            {
+              "who": "数据科学家",
+              "text": "用于自动化数据采集场景非常合适，尤其是需要理解页面语义的情况。"
+            }
+          ]
+        },
+        {
+          "title_zh": "暗黑破坏神 II：狱火重生 iOS 兼容层",
+          "eng": "jhaizhou-ops/d2r-mobile",
+          "summary": "开源的《暗黑破坏神 II：狱火重生》术士君临 iOS/macOS 兼容层，可在 iPhone/iPad/Mac 上原生运行 Switch 版本。",
+          "source": "GitHub",
+          "stars": 3558,
+          "lang": "C",
+          "published": "2026-10-12",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+          "overview": "该项目实现了一个开源的兼容性层，允许用户在 iPhone、iPad 和 Mac 上原生运行《暗黑破坏神 II：狱火重生》的 Switch 版本。它支持完整的触控控制、60 fps 帧率以及新的终局模式。用户需自带游戏文件，项目展示了在移动端移植主机游戏的复杂工程能力。",
+          "analysis": "尽管属于游戏领域，但该项目在跨平台兼容层和性能优化方面的技术成就值得认可。对于关注移动硬件极限和逆向工程的开发者来说，这是一个高星级的参考案例。",
+          "social": [
+            {
+              "who": "游戏开发者",
+              "text": "在 iOS 上跑 Switch 版 D2R 且达到 60fps，兼容性层的优化工作非常扎实。"
+            },
+            {
+              "who": "技术爱好者",
+              "text": "Bring Your Own Game Files 的模式既尊重版权又实现了跨平台体验，工程难度极高。"
+            }
+          ]
         }
       ]
     },
@@ -2164,65 +2331,193 @@
       "items": [
         {
           "title_zh": "俄勒冈教师与持枪父亲搏斗后击毙校园袭击者",
-          "summary": "16岁嫌疑人在此前曾就读于该校，警方称其针对特殊教育教室发动攻击。",
+          "summary": "一名16岁嫌疑人在学校内攻击特殊教育教室，该校教师在与嫌疑人搏斗后被其武装的父亲开枪击毙。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-17",
           "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-          "overview": "俄勒冈州发生校园袭击事件，一名教师在与嫌疑人搏斗后，嫌疑人的父亲持枪将其射杀。警方透露，该16岁嫌疑人此前曾就读于涉事小学，并专门针对特殊教育教室发动攻击。",
-          "analysis": "案件涉及未成年人犯罪及家庭暴力因素，引发公众对校园安全及枪支管控的新一轮讨论。",
+          "overview": "美国俄勒冈州发生严重校园暴力事件，一名16岁嫌疑人此前曾就读于该小学并针对特殊教育教室发动攻击。警方透露，该校教师在与嫌疑人搏斗后不幸被其父亲开枪射杀，而嫌疑人的父亲随后持枪将嫌疑人击毙多次。",
+          "analysis": "此事件凸显了美国校园安全及枪支暴力问题的严峻性，家庭内部矛盾与未成年人犯罪交织引发社会广泛关注。",
           "social": [
             {
               "who": "教育界人士",
-              "text": "呼吁加强学校安保措施，特别是针对特殊教育需求的教室保护。"
+              "text": "特殊教育教室成为袭击目标令人震惊，学校安保措施亟需加强。"
             }
           ]
         },
         {
-          "title_zh": "白宫发言人扎卡里亚在中期选举前关键时期功亏一篑",
-          "summary": "BBC分析指出，白宫面临日益增长的阻力，新任发言人仅任职五天便离任。",
+          "title_zh": "特朗普豁免多项俄罗斯制裁以维护美国利益",
+          "summary": "特朗普表示新法中部分旨在惩罚莫斯科对乌克兰战争的条款损害了美国国家利益，因此予以豁免。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-17",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "overview": "随着新制裁法律生效，特朗普政府宣布豁免多项针对俄罗斯的制裁措施。总统表示这些条款与美国国家利益相悖，此举在外交政策领域引发新一轮讨论。",
+          "analysis": "这一决定反映了美国国内政治博弈对对外政策的直接影响，可能削弱国际社会对乌克兰的支持力度。",
+          "social": [
+            {
+              "who": "国际关系学者",
+              "text": "豁免制裁可能向俄罗斯释放错误信号，影响全球安全格局。"
+            }
+          ]
+        },
+        {
+          "title_zh": "白宫幕僚长扎卡里亚在关键时刻遭遇困境",
+          "summary": "BBC分析指出，白宫新任新闻秘书扎卡里亚在距离中期选举数周之际面临日益增长的阻力。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-16",
           "url": "https://www.bbc.co.uk/news/articles/c6e3xnjlz12do?at_medium=RSS&at_campaign=rss",
-          "overview": "在关键中期选举到来之际，白宫新任新闻秘书扎卡里亚的任期极为短暂。BBC分析认为，她上任后迅速遭遇困境，未能有效应对来自各方的压力。",
-          "analysis": "这一人事变动被视为特朗普政府内部沟通策略失败的信号，可能影响即将到来的选情。",
+          "overview": "在即将到来的关键中期选举前，白宫面临越来越多的逆境。BBC政治编辑安东尼·祖彻指出，扎卡里亚的处境反映了特朗普政府内部沟通与策略上的混乱。",
+          "analysis": "新闻秘书的频繁更替和公众信任度的下降，可能影响政府在选举年中的舆论引导能力。",
           "social": [
             {
               "who": "政治评论员",
-              "text": "认为白宫新闻办公室的动荡反映了行政团队在应对媒体危机时的准备不足。"
+              "text": "白宫信息战能力的衰退将成为中期选举中反对党的攻击焦点。"
             }
           ]
         },
         {
-          "title_zh": "五天一个简报：凯蒂·扎卡里亚短暂任期回顾",
-          "summary": "白宫称新任发言人正在“过渡”出该职位，其上任不到一周即结束工作。",
+          "title_zh": "扎卡里亚仅任职五天即宣布离职",
+          "summary": "白宫称新任新闻秘书扎卡里亚在就任数天后“过渡退出”该职位，其短暂任期引发外界关注。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-16",
           "url": "https://www.bbc.co.uk/news/videos/c6j47ewnn0vyo?at_medium=RSS&at_campaign=rss",
-          "overview": "凯蒂·扎卡里亚在担任白宫新闻秘书仅五天便宣布离任。白宫方面表示她正在“过渡”到新角色，这一快速变动引发了外界对其胜任能力的质疑。",
-          "analysis": "如此短暂的任期在白宫历史上较为罕见，凸显了当前政治环境下白宫新闻管理的巨大压力。",
+          "overview": "白宫新闻秘书扎卡里亚在短短五天内便结束了其职务，白宫官方声明称其正在“过渡退出”。这一快速变动发生在政治敏感时期。",
+          "analysis": "如此短暂的任期表明该职位面临巨大压力或内部矛盾，可能影响政府对外信息发布的一致性。",
           "social": [
             {
-              "who": "媒体从业者",
-              "text": "关注新任发言人交接期间的信息真空期对公众知情权的影响。"
+              "who": "媒体分析师",
+              "text": "白宫人事动荡频繁，公众对政府稳定性的信心正在动摇。"
             }
           ]
         },
         {
-          "title_zh": "伯恩汉姆与斯温尼争夺苏格兰权力归属引发政治辩论",
-          "summary": "英国政治辩论在苏格兰民族党年度大会后带有鲜明的苏格兰色彩。",
+          "title_zh": "苏格兰权力博弈加剧：伯恩汉姆与斯温尼之争",
+          "summary": "英国政治辩论在苏格兰民族党年度大会后呈现出鲜明的苏格兰色彩，权力归属成为焦点。",
           "source": "BBC News",
           "region": "国外",
           "published": "2026-10-16",
           "url": "https://www.bbc.co.uk/news/articles/cmlyl889jqzjo?at_medium=RSS&at_campaign=rss",
-          "overview": "苏格兰民族党年度大会后，伯恩汉姆与斯温尼之间关于权力归属的争论成为英国政治焦点。BBC政治编辑克里斯·梅森指出，这场辩论带有强烈的苏格兰本土色彩。",
-          "analysis": "这一内部分歧可能影响苏格兰在联合王国中的政策走向及未来独立运动的势头。",
+          "overview": "BBC政治编辑克里斯·梅森指出，苏格兰民族党（SNP）年度大会后，英国政治辩论带有浓厚的苏格兰特色。伯恩汉姆与斯温尼之间的权力争夺成为核心议题。",
+          "analysis": "苏格兰独立运动与英国中央政府的博弈持续升温，地方自治权问题再次成为全国性政治讨论的热点。",
           "social": [
             {
-              "who": "苏格兰选民",
-              "text": "对权力分配方案表示关注，期待更明确的自治承诺。"
+              "who": "英国政界观察家",
+              "text": "苏格兰权力结构的重组将深刻影响联合王国的未来走向。"
+            }
+          ]
+        },
+        {
+          "title_zh": "《名人背叛者》节目中米兰达情绪失控引发关注",
+          "summary": "米兰达·哈特在节目中落泪并谈论健康问题，节目在无聊氛围中迎来了情感高潮。",
+          "source": "BBC News",
+          "region": "国外",
+          "published": "2026-10-17",
+          "url": "https://www.bbc.co.uk/news/articles/cq70pre80gwko?at_medium=RSS&at_campaign=rss",
+          "overview": "在英国真人秀《名人背叛者》中，米兰达·哈特情绪激动并公开谈论自身健康问题，其泪水和舞蹈动作成为节目亮点。尽管节目整体氛围沉闷，但这一时刻吸引了大量观众目光。",
+          "analysis": "娱乐节目中嘉宾的真实情感流露往往能引发公众共鸣，但也反映了部分明星面临的健康压力。",
+          "social": [
+            {
+              "who": "综艺评论人",
+              "text": "米兰达的真情流露打破了节目的常规套路，令人印象深刻。"
+            }
+          ]
+        },
+        {
+          "title_zh": "塞内加尔数百名LGBTQ+人士遭逮捕，人权状况恶化",
+          "summary": "至少320人因“违背自然行为”被拘留，酷刑、强制HIV检测及法律障碍构成对LGBTQ+群体的系统性打压。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-15",
+          "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+          "overview": "塞内加尔自2月以来至少拘留了320名LGBTQ+人士，指控其犯有“违背自然行为”。人权观察组织报告指出，酷刑、强制HIV检测以及法律代表权的障碍构成了对该群体的升级打压。",
+          "analysis": "这一事件引发了国际社会对塞内加尔法治与人权状况的严重关切，可能影响该国的国际形象及外交关系。",
+          "social": [
+            {
+              "who": "人权活动家",
+              "text": "系统性歧视必须得到制止，国际社会应加大对塞内加尔的压力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "津巴布韦作家否认使用AI撰写获奖短篇小说",
+          "summary": "《大西洋》杂志文章称其作品几乎完全由AI生成，但津巴布韦作家库恩迪扎否认了这一指控。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
+          "overview": "津巴布韦作家西蒙巴沙·库恩迪扎的短篇小说《蓝色战士》在获得非洲作家凯因奖后，被《大西洋》杂志指认为AI生成。作家本人坚决否认使用人工智能辅助创作。",
+          "analysis": "AI与人类创作的界限日益模糊，此类争议凸显了文学奖项评审标准及版权认定的新挑战。",
+          "social": [
+            {
+              "who": "科技伦理专家",
+              "text": "AI检测技术的误判提醒我们需建立更完善的创作认证机制。"
+            }
+          ]
+        },
+        {
+          "title_zh": "几内亚比绍否认批准争议性新生儿疫苗试验",
+          "summary": "卫生部长表示政府未授权丹麦主导的乙型肝炎研究，该研究由RFK Jr支持并涉及新生儿健康追踪。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-14",
+          "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
+          "overview": "几内亚比绍卫生部长澄清，政府并未批准由丹麦主导的乙型肝炎疫苗试验。该研究不调查疫苗安全性，而是追踪非特异性健康结果，此前曾引发广泛争议。",
+          "analysis": "政府对RFK Jr支持的疫苗研究的否认，反映了非洲国家在面对西方公共卫生政策时的谨慎态度及主权维护意识。",
+          "social": [
+            {
+              "who": "公共卫生专家",
+              "text": "未经充分安全评估的试验不应在新生儿身上进行，这是基本伦理底线。"
+            }
+          ]
+        },
+        {
+          "title_zh": "RFK Jr支持的争议疫苗试验获几内亚比绍批准推进",
+          "summary": "丹麦研究人员将 withholding 数千名新生儿的乙肝疫苗接种，该研究由美国卫生部长RFK Jr长期反对疫苗的愿景推动。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
+          "overview": "一项将 withholding 乙肝疫苗给部分非洲新生儿的争议性研究试验本周获得批准。该试验是RFK Jr——美国卫生与公众服务部副部长及长期反疫苗人士——疫苗愿景的核心部分。",
+          "analysis": "这一决定引发了关于公共卫生伦理、知情同意以及政治干预科学研究的激烈辩论，国际社会对此高度警惕。",
+          "social": [
+            {
+              "who": "国际卫生组织代表",
+              "text": "任何涉及儿童的健康研究都必须遵循严格的伦理标准，不得以政治目的为代价。"
+            }
+          ]
+        },
+        {
+          "title_zh": "国际法院法官纳维·皮莱获诺贝尔和平奖",
+          "summary": "委员会表彰其在推动国际法方面的贡献，此前她主持的联合国委员会认定以色列在加沙犯有种族灭绝罪。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-09",
+          "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+          "overview": "诺贝尔和平奖授予南非前联合国人权事务高级专员纳维·皮莱，表彰她作为国际法院法官及推动国际法的工作。挪威诺贝尔委员会指出，她证明了法律措施有助于防止战争和暴力行为。",
+          "analysis": "这一奖项肯定了国际社会通过法律途径解决冲突的努力，同时也引发了关于加沙局势法律责任的进一步讨论。",
+          "social": [
+            {
+              "who": "国际法学者",
+              "text": "皮莱的工作为受害者提供了正义的声音，诺贝尔奖是对她职业生涯的高度认可。"
+            }
+          ]
+        },
+        {
+          "title_zh": "墨西哥法官判处三名男子谋杀澳大利亚和美国冲浪者各获刑158年",
+          "summary": "三人于2024年在巴哈加州被杀，被告因故意杀人及加重抢劫罪被判重刑，刑期长达158年9个月。",
+          "source": "Guardian World",
+          "region": "国外",
+          "published": "2026-10-17",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
+          "overview": "墨西哥法官对三名被告判处每人158年9个月的监禁，罪名包括故意杀人和加重抢劫。受害者为两名澳大利亚兄弟及其美国朋友，他们在2024年的冲浪旅行中遇害。",
+          "analysis": "这一判决体现了墨西哥司法系统对外国游客安全案件的重视，但也引发了关于跨国犯罪打击力度的讨论。",
+          "social": [
+            {
+              "who": "旅游安全专家",
+              "text": "此案再次提醒前往墨西哥旅游的游客需提高安全意识，选择正规渠道出行。"
             }
           ]
         }
@@ -2238,56 +2533,56 @@
           "role": "OpenAI CEO",
           "region": "美国",
           "domain": "ai",
-          "recent": "聚焦通用人工智能（AGI）的推进路径与安全治理框架",
-          "url": "https://openai.com"
-        },
-        {
-          "name": "Dario Amodei",
-          "role": "Anthropic CEO",
-          "region": "美国",
-          "domain": "ai",
-          "recent": "关注 AI 对齐技术与高风险模型的防御性安全研究",
-          "url": "https://anthropic.com"
+          "recent": "聚焦 AI 安全对齐与全球监管政策，回应模型被滥用及加密资产安全风险。",
+          "url": "https://www.samaltman.com/"
         },
         {
           "name": "Yann LeCun",
-          "role": "Meta 首席科学家",
-          "region": "法国/欧洲",
+          "role": "Meta Chief Scientist",
+          "region": "法国",
           "domain": "ai",
-          "recent": "倡导开源模型在消费级设备上的落地，推动世界模型架构发展",
-          "url": "https://lecun.ai"
-        },
-        {
-          "name": "李开复",
-          "role": "创新工场创始人",
-          "region": "中国/美国",
-          "domain": "ai",
-          "recent": "探讨中美 AI 竞争格局及多语言模型对全球知识普惠的意义",
-          "url": "https://kaifulee.com"
+          "recent": "坚持开源模型架构路线，就 AGI 安全性及开放权重争议发表公开立场。",
+          "url": "https://yannlecun.com/"
         },
         {
           "name": "Lex Fridman",
-          "role": "知名播客主持人",
-          "region": "美国/以色列",
-          "domain": "podcast",
-          "recent": "深度对话前沿科学家，聚焦 AI 意识、伦理与人类未来关系",
-          "url": "https://lexfridman.com"
+          "role": "AI 播客主持人",
+          "region": "美国",
+          "domain": "podcast/ai",
+          "recent": "通过长访谈探讨 AI 意识与能力边界，关注生成式模型对社会的深层影响。",
+          "url": "https://lexfridman.com/"
         },
         {
-          "name": "Rafael Reif",
-          "role": "前 Google Books VP / 数字图书馆学者",
+          "name": "Timnit Gebru",
+          "role": "AI 安全研究者 / Library of Thought 发起人",
+          "region": "全球（美国）",
+          "domain": "ai/library",
+          "recent": "倡导 AI 开发中的多样性视角，推动建立包容性知识基础设施。",
+          "url": "https://www.timnitsgebru.org/"
+        },
+        {
+          "name": "Fei-Fei Li",
+          "role": "斯坦福教授 / Library of Things 概念提出者",
           "region": "美国",
-          "domain": "library",
-          "recent": "研究数字图书馆版权边界与人工智能时代的知识获取公平性",
-          "url": ""
+          "domain": "ai/library",
+          "recent": "推广负责任 AI 实践，主张以“万物图书馆”框架治理数据与模型。",
+          "url": "https://profiles.stanford.edu/fei-fei-li"
         },
         {
           "name": "Satya Nadella",
           "role": "微软 CEO",
-          "region": "印度/美国",
+          "region": "印度（美国）",
           "domain": "ai",
-          "recent": "推动企业级 AI 助手融入各类终端设备，重塑工作方式与知识管理",
-          "url": "https://microsoft.com"
+          "recent": "推动企业级 AI 通过 Copilot 落地，强调负责任 AI 原则与隐私保护。",
+          "url": "https://www.microsoft.com/en-us/about/satya-nadella"
+        },
+        {
+          "name": "Andrew Ng",
+          "role": "AI 研究者 / 教育者",
+          "region": "美国/新加坡",
+          "domain": "ai/library",
+          "recent": "致力于 AI 教育与数据基础设施普及，关注生成式 AI 在知识管理中的应用。",
+          "url": "https://www.andrewng.org/"
         }
       ]
     },
