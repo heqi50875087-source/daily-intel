@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T07:30:34+08:00",
+  "generated_at": "2026-10-19T08:09:23+08:00",
   "date": "2026-10-19",
   "engine": "ollama:hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q6_K",
   "generation_status": "ok",
   "generation_error": "",
-  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)",
+  "engine_fallback": "deepseek DeepSeek 额度不足(HTTP 402)；openai OpenAI 额度不足(HTTP 429)",
   "empty_sources": [],
   "module_updated": {
     "hot": "2026-10-19 06:34",
     "ai": "2026-10-19 07:30",
     "voices": "2026-10-19 07:30",
-    "github": "2026-10-19 07:30",
+    "github": "2026-10-19 08:09",
     "libraries": "2026-10-19 07:30",
     "sports": "2026-10-19 07:30",
     "academic": "2026-10-18 07:40"
@@ -2103,244 +2103,222 @@
     "github": {
       "items": [
         {
-          "title_zh": "HeyPuter/everything — 从零重建世界软件",
-          "eng": "HeyPuter/everything",
-          "summary": "从零开始重新构建和开源全球软件项目，涵盖浏览器、编辑器、IDE等完整开发工具链。",
-          "source": "GitHub",
-          "stars": 2209,
-          "lang": "JavaScript",
-          "published": "2026-10-13",
-          "url": "https://github.com/HeyPuter/everything",
-          "overview": "该项目旨在从零开始重新构建和开源全球软件生态，包括浏览器、代码编辑器、IDE等核心开发工具。采用JavaScript技术栈，提供完整的可运行环境。项目强调从底层实现而非简单复刻，具有极高的工程参考价值。",
-          "analysis": "作为AI时代下的全栈重建计划，该项目展示了从零构建完整软件生态的野心与执行力，对开发者理解系统架构和前端工程有重要启发意义。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "从零重建整个软件世界是一个极具野心的开源项目，值得持续关注其技术演进方向。"
-            },
-            {
-              "who": "研究者",
-              "text": "该项目对理解现代前端架构和全栈开发模式提供了独特的实践视角。"
-            }
-          ]
-        },
-        {
-          "title_zh": "feder-cr/git-ai — AI Agent专用Git工具",
+          "title_zh": "Git-AI：为 AI Agent 设计的 Git",
           "eng": "feder-cr/git-ai",
-          "summary": "专为AI智能体设计的Git系统，让AI能够更高效地进行版本控制和代码管理。",
+          "summary": "专为 AI Agent 打造的 Git 工具，让 AI 能直接操作版本控制。",
           "source": "GitHub",
-          "stars": 2134,
+          "stars": 2294,
           "lang": "Go",
           "published": "2026-10-15",
           "url": "https://github.com/feder-cr/git-ai",
-          "overview": "该项目重新设计了Git系统以适配AI智能体的工作模式，解决了传统Git在AI协作场景下的痛点。采用Go语言编写，提供简洁高效的API接口。项目面向未来AI与代码管理深度融合的趋势，具有前瞻性设计思路。",
-          "analysis": "随着AI Agent越来越多地参与软件开发，传统的Git工作流面临挑战。该项目从底层重新设计Git系统来适配AI需求，代表了开发工具进化的重要方向。",
+          "overview": "这是一个面向 AI Agent 的 Git 工具，旨在让 AI 能够直接理解和操作版本控制系统。项目使用 Go 语言编写，解决了传统 Git CLI 对 AI Agent 不够友好的问题。作为高星新项目，它代表了 AI 与开发工具深度融合的趋势。",
+          "analysis": "AI Agent 正在成为软件开发的核心驱动力，但现有的 Git 工作流对 AI 并不友好。这个项目填补了 AI Agent 与版本控制之间的鸿沟，具有广泛的开发者实用价值。Go 语言保证了性能和跨平台兼容性。",
           "social": [
             {
               "who": "开发者",
-              "text": "为AI智能体量身定制的Git方案，解决了多Agent协作中的版本管理难题。"
+              "text": "AI Agent 操作 Git 一直是痛点，这个工具让 Cursor、Copilot 等 AI 助手能更自然地管理代码版本。"
             },
             {
               "who": "研究者",
-              "text": "该项目展示了AI时代开发工具需要重新思考设计哲学的重要性。"
+              "text": "代表了 AI-native 开发工具的新范式——不是让人适应工具，而是让工具适配 AI。"
             }
           ]
         },
         {
-          "title_zh": "ahwootech/BRUTAL — 高性能C#游戏引擎框架",
-          "eng": "ahwootech/BRUTAL",
-          "summary": "免费开源的C#游戏开发框架，直接访问原生API和Vulkan，是Kitten Space Agency和RimWorld Waylith引擎的基础。",
+          "title_zh": "HeyPuter/everything：从零重建世界软件",
+          "eng": "HeyPuter/everything",
+          "summary": "从 scratch 重新构建并开源全球软件，一个极具野心的开源项目。",
           "source": "GitHub",
-          "stars": 1894,
+          "stars": 2212,
+          "lang": "JavaScript",
+          "published": "2026-10-13",
+          "url": "https://github.com/HeyPuter/everything",
+          "overview": "HeyPuter 团队宣布从零开始重建并开源全球软件，这是一个前所未有的开源愿景。项目使用 JavaScript 构建，旨在创建一个完全自主可控的软件生态。这种从底层重新设计的思路可能带来全新的用户体验和架构创新。",
+          "analysis": "在闭源软件主导的时代，这个项目代表了开源社区的极端理想主义。即使最终无法完全实现所有目标，其探索过程本身就能推动开源运动发展。JavaScript 技术栈保证了快速迭代和社区参与的可能性。",
+          "social": [
+            {
+              "who": "开发者",
+              "text": "从零重建软件的野心令人震撼，如果能成功将彻底改变软件分发和许可模式。"
+            },
+            {
+              "who": "研究者",
+              "text": "这是一个值得长期关注的实验性项目，其方法论可能对开源运动产生深远影响。"
+            }
+          ]
+        },
+        {
+          "title_zh": "BRUTAL：高性能 C# 游戏引擎框架",
+          "eng": "ahwootech/BRUTAL",
+          "summary": "免费开源的 C# 游戏开发框架，直接访问原生 API 和 Vulkan。",
+          "source": "GitHub",
+          "stars": 1898,
           "lang": "C#",
           "published": "2026-10-14",
           "url": "https://github.com/ahwootech/BRUTAL",
-          "overview": "BRUTAL是一个免费开源的C#游戏开发框架，提供对原生API和Vulkan的直接访问能力。该项目是Kitten Space Agency和RimWorld Waylith引擎的技术基础，支持构建高性能游戏和游戏引擎。采用现代C#技术栈，注重底层性能优化。",
-          "analysis": "作为知名游戏的底层引擎框架开源项目，BRUTAL为独立开发者提供了构建高性能游戏的全新选择，降低了使用Vulkan等现代图形API的门槛。",
+          "overview": "BRUTAL 是一个面向游戏开发的 C# 框架，提供对原生 API 和 Vulkan 的直接访问。它是 Kitten Space Agency 和 RimWorld Waylith 引擎的基础设施。项目强调低级别库的集成，为开发者提供了极高的性能控制能力。",
+          "analysis": "在 Unity 等商业引擎主导的市场中，BRUTAL 提供了一个高性能、开源的替代方案。C# 语言降低了学习门槛，而 Vulkan 支持确保了跨平台性能。对于独立游戏开发者和引擎研究者来说极具价值。",
           "social": [
             {
               "who": "开发者",
-              "text": "基于RimWorld等知名项目的技术积累，这个C#游戏框架对独立开发者非常有吸引力。"
+              "text": "RimWorld Waylith 引擎的基础框架意味着已经经过了实战检验，不是纸上谈兵。"
             },
             {
-              "who": "研究者",
-              "text": "直接访问Vulkan和原生API的设计思路，为游戏引擎研究提供了宝贵的参考案例。"
+              "who": "游戏开发者",
+              "text": "C# + Vulkan 的组合既保证了开发效率又提供了顶级性能，是独立游戏的理想选择。"
             }
           ]
         },
         {
-          "title_zh": "Gathin23/tv-vibehack — 电视广告去除工具",
-          "eng": "Gathin23/tv-vibehack",
-          "summary": "通过ADB去重任何Android TV的预装应用，提供简洁的tvOS风格启动器界面。",
-          "source": "GitHub",
-          "stars": 1832,
-          "lang": "Java",
-          "published": "2026-10-17",
-          "url": "https://github.com/Gathin23/tv-vibehack",
-          "overview": "该项目通过ADB命令去除Android TV上的预装广告应用，并替换为简洁的tvOS风格启动器。采用Java技术栈开发，构建过程仅需数小时。项目解决了智能电视用户体验的核心痛点——广告过多和界面臃肿。",
-          "analysis": "随着智能电视普及率提升，用户越来越关注观看体验。该项目以轻量级方案解决了一个普遍存在的实际问题，具有广泛的实用价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "用Claude Code在几小时内构建的实用工具，展示了AI辅助开发的高效性。"
-            },
-            {
-              "who": "研究者",
-              "text": "该项目反映了用户对智能电视体验的强烈需求，以及开源社区解决此类问题的快速响应能力。"
-            }
-          ]
-        },
-        {
-          "title_zh": "chenglou/handwired — JavaScript转神经网络工具",
+          "title_zh": "Handwired：用 JavaScript 构建神经网络",
           "eng": "chenglou/handwired",
-          "summary": "将普通JavaScript代码转换为神经网络的开源项目，让开发者无需深度学习框架即可构建AI模型。",
+          "summary": "将普通 JavaScript 代码转化为神经网络的创新工具，无需依赖框架。",
           "source": "GitHub",
-          "stars": 1727,
+          "stars": 1730,
           "lang": "TypeScript",
           "published": "2026-10-15",
           "url": "https://github.com/chenglou/handwired",
-          "overview": "handwired项目允许开发者将常规JavaScript代码转换为神经网络架构，降低了AI模型构建的门槛。采用TypeScript编写，提供直观的API接口和可视化工具。该项目特别适合前端开发者和教育场景，让非专业背景的人也能理解和操作神经网络。",
-          "analysis": "在AI普及化趋势下，handwired为前端开发者提供了独特的神经网络学习路径，将Web技术栈与机器学习概念巧妙结合，具有极高的教育和实用价值。",
+          "overview": "Handwired 允许开发者用普通的 JavaScript 代码构建神经网络，打破了传统 ML 框架的复杂性壁垒。项目使用 TypeScript 编写，提供了类型安全和更好的开发体验。这种思路让 AI/ML 变得更加民主化，降低了入门门槛。",
+          "analysis": "将神经网络与常规编程范式融合是一个重要的技术趋势。Handwired 证明了不需要专门的 ML 框架也能构建有效的神经网络模型。对于教育者和初学者来说，这比 TensorFlow 等工具更加友好。TypeScript 支持增强了代码质量和可维护性。",
           "social": [
             {
               "who": "开发者",
-              "text": "用JavaScript构建神经网络的想法非常巧妙，降低了AI入门的门槛。"
+              "text": "用 JS 写神经网络太自然了——这正是 AI 应该融入日常开发的方式。"
             },
             {
-              "who": "研究者",
-              "text": "该项目展示了Web技术栈在机器学习教育中的巨大潜力，是AI普及化的优秀实践案例。"
+              "who": "教育者",
+              "text": "降低了 ML 入门门槛，学生可以用熟悉的编程方式理解深度学习概念。"
             }
           ]
         },
         {
-          "title_zh": "Supermedo/uncharted_pc — 无主之地Windows原生运行",
-          "eng": "Supermedo/uncharted_pc",
-          "summary": "让Uncharted: Nathan Drake Collection在Windows上原生运行的开源项目，无需模拟器或虚拟机。",
-          "source": "GitHub",
-          "stars": 1437,
-          "lang": "C++",
-          "published": "2026-10-15",
-          "url": "https://github.com/Supermedo/uncharted_pc",
-          "overview": "该项目实现了Uncharted系列游戏在Windows平台上的原生运行，无需依赖模拟器或虚拟机。采用C++技术栈开发，提供了高性能的游戏体验。项目展示了现代逆向工程和兼容性技术的最新进展，对游戏社区和开发者都有重要参考价值。",
-          "analysis": "随着跨平台游戏需求增长，此类项目反映了用户对游戏可访问性的强烈诉求，同时也推动了兼容层技术的发展。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "让经典游戏在Windows上原生运行是一个了不起的工程成就，值得技术社区学习。"
-            },
-            {
-              "who": "研究者",
-              "text": "该项目展示了逆向工程和兼容性技术的最新进展，对跨平台开发有重要参考价值。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Caho1/open-claude-ui — Claude桌面端UI高保真还原",
+          "title_zh": "Open Claude UI：高保真还原 Claude 桌面端",
           "eng": "Caho1/open-claude-ui",
-          "summary": "基于REA深度拆解并高保真还原Claude官方桌面端UI，包含30个React组件和8项交互物理算法。",
+          "summary": "深度拆解并高保真还原 Claude 官方桌面端 UI，含 30+ React 组件与交互算法。",
           "source": "GitHub",
           "stars": 1206,
           "lang": "TypeScript",
           "published": "2026-10-14",
-          "url": "https://github.com/Caho1/open-claude-ui",
-          "overview": "该项目深度拆解并高保真还原了Claude官方桌面端的用户界面，包含30个独立React组件和8项硬核交互物理算法。附带3000+行逆向分析手册，为开发者提供了完整的实现参考。采用TypeScript技术栈，注重细节还原和用户体验优化。",
-          "analysis": "作为AI产品UI设计的深度拆解项目，open-claude-ui为前端开发者和设计师提供了宝贵的学习资源，展示了现代AI产品的交互设计精髓。",
+          "url": "https://github.com/REA/Caho1/open-claude-ui",
+          "overview": "该项目基于 REA 深度拆解，高保真还原了 Claude 官方桌面端的 UI 设计。包含 30 个独立 React 组件和 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。使用 TypeScript 构建，为开发者提供了学习 AI 产品设计的绝佳资源。",
+          "analysis": "AI 产品的用户体验正在成为竞争焦点。这个项目不仅是一个 UI 复刻，更是一份详细的设计拆解文档。对于想要理解顶级 AI 产品设计理念的开发者来说，3000+ 行的逆向分析手册具有极高的参考价值。TypeScript 技术栈保证了代码质量和可维护性。",
           "social": [
             {
-              "who": "开发者",
-              "text": "30个React组件和8项物理算法的完整还原，对理解AI产品UI设计有极高参考价值。"
+              "who": "设计师",
+              "text": "30 个 React 组件的拆解太有价值了——这是学习 AI 产品设计的最佳案例研究。"
             },
             {
-              "who": "研究者",
-              "text": "该项目展示了现代AI产品的交互设计细节，是学习产品设计的好案例。"
+              "who": "开发者",
+              "text": "逆向分析手册比代码本身更有价值，它揭示了 Claude UI 的设计决策和实现细节。"
             }
           ]
         },
         {
-          "title_zh": "outcrawlai/scout — 开源浏览器智能体",
+          "title_zh": "Scout：开源浏览器 Agent",
           "eng": "outcrawlai/scout",
-          "summary": "Outcrawl开发的开源浏览器Agent项目，自动从官方仓库镜像同步。",
+          "summary": "Outcrawl 出品的开源浏览器自动化 Agent，支持自动网页操作与数据采集。",
           "source": "GitHub",
           "stars": 945,
           "lang": "TypeScript",
           "published": "2026-10-13",
           "url": "https://github.com/outcrawlai/scout",
-          "overview": "Scout是Outcrawl开发的开源浏览器智能体项目，能够自动化完成网页浏览和信息收集任务。采用TypeScript技术栈开发，提供简洁的API接口和灵活的配置选项。该项目面向AI Agent在Web场景中的应用需求，具有广泛的实用价值。",
-          "analysis": "随着AI Agent越来越多地参与网络信息处理，Scout为开发者提供了可靠的浏览器自动化方案，是构建多Agent系统的理想组件。",
+          "overview": "Scout 是由 Outcrawl 开发的开源浏览器 Agent，能够自动执行网页操作和数据采集任务。项目使用 TypeScript 构建，与 Outcrawl 官方仓库保持同步更新。作为 AI 自动化领域的工具，它代表了浏览器 Agent 技术的最新进展。",
+          "analysis": "浏览器 Agent 是 AI 应用的重要方向之一，Scout 提供了开源替代方案。TypeScript 技术栈保证了良好的开发体验和维护性。对于需要自动化网页操作的研究者和开发者来说，这是一个值得关注的工具。自动同步更新机制确保了与官方版本的一致性。",
           "social": [
             {
-              "who": "开发者",
-              "text": "开源的浏览器Agent项目，为构建多Agent系统提供了可靠的组件选择。"
+              "who": "研究者",
+              "text": "开源浏览器 Agent 填补了商业方案之外的空白，适合需要定制化的研究场景。"
             },
             {
-              "who": "研究者",
-              "text": "该项目展示了AI在Web自动化领域的最新进展，具有广泛的实用价值。"
+              "who": "开发者",
+              "text": "TypeScript 保证了代码质量，自动同步机制让维护变得简单。"
             }
           ]
         },
         {
-          "title_zh": "CoolkHz/gptibo — 自托管GPTibo商店系统",
+          "title_zh": "GPTibo：自托管 GPT 商店",
           "eng": "CoolkHz/gptibo",
-          "summary": "自托管的GPTibo前端商店、管理后台和Go后端，提供完整的MIT授权开源方案。",
+          "summary": "自托管的 GPT 商店前端、管理后台和 Go 后端，基于 MIT 开源协议。",
           "source": "GitHub",
           "stars": 827,
           "lang": "TypeScript",
           "published": "2026-10-13",
           "url": "https://github.com/CoolkHz/gptibo",
-          "overview": "该项目提供完整的自托管GPTibo商店解决方案，包括前端界面、管理后台和Go语言后端服务。采用MIT开源协议，确保代码透明和安全。项目面向需要私有化部署AI应用商店的用户，提供了完整的技术栈和部署方案。",
-          "analysis": "在数据隐私日益重要的背景下，自托管的AI应用商店系统满足了企业对数据安全的需求，具有明确的商业价值和应用前景。",
+          "overview": "GPTibo 是一个完整的自托管 GPT 商店解决方案，包含前端界面、管理后台和 Go 后端。项目基于 MIT 开源协议发布，提供了经过净化的源代码。这种全栈方案让开发者可以完全控制自己的 AI 产品分发渠道，无需依赖第三方平台。",
+          "analysis": "随着 AI 应用商业化加速，自托管 GPT 商店的需求日益增长。GPTibo 提供了一站式解决方案，降低了开发成本。MIT 协议保证了最大的使用灵活性。Go 后端提供了高性能和跨平台能力，TypeScript 前端则确保了良好的用户体验。",
           "social": [
             {
               "who": "开发者",
-              "text": "完整的自托管GPTibo方案，为需要私有化部署的用户提供了可靠选择。"
+              "text": "完整的自托管方案太实用了——不再需要依赖 ChatGPT Store 等平台。"
             },
             {
-              "who": "研究者",
-              "text": "该项目展示了AI应用商店的完整技术架构，对理解商业化部署有参考价值。"
+              "who": "创业者",
+              "text": "MIT 协议 + Go 后端 = 低门槛、高性能的 AI 产品分发方案，非常适合独立开发者。"
             }
           ]
         },
         {
-          "title_zh": "LiCinCan/blender-ai-mcp-addon — Blender AI MCP插件",
-          "eng": "LiCinCan/blender-ai-mcp-addon",
-          "summary": "Blender的AI助手和MCP服务器，支持视觉聊天、场景工具和多Agent工作流，兼容OpenAI/Claude/Gemini/Ollama等。",
-          "source": "GitHub",
-          "stars": 784,
-          "lang": "Python",
-          "published": "2026-10-15",
-          "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
-          "overview": "该项目为Blender提供了AI助手和MCP服务器集成，支持视觉聊天、场景工具和多Agent工作流。兼容OpenAI、ChatGPT、Claude、Gemini、Ollama等多种AI服务。采用Python技术栈开发，提供完整的Blender插件和bpy脚本支持。项目面向3D创作领域的AI应用需求，具有广泛的实用价值。",
-          "analysis": "作为3D创作与AI融合的代表性项目，blender-ai-mcp-addon展示了MCP协议在专业创意工具中的应用潜力，对理解AI+3D工作流有重要参考价值。",
-          "social": [
-            {
-              "who": "开发者",
-              "text": "将AI集成到Blender的完整方案，为3D创作者提供了强大的辅助工具。"
-            },
-            {
-              "who": "研究者",
-              "text": "该项目展示了MCP协议在专业创意工具中的应用潜力，是AI+3D融合的优秀案例。"
-            }
-          ]
-        },
-        {
-          "title_zh": "Leonxlnx/earshot — 编码Agent的音频感知系统",
+          "title_zh": "Earshot：让 AI Agent 能听声音",
           "eng": "Leonxlnx/earshot",
-          "summary": "让AI能够'听'、审查和生成声音的开源项目，纯CPU运行，无需GPU。",
+          "summary": "为编码 Agent 添加音频感知能力，CPU-only 实现，完全开源。",
           "source": "GitHub",
-          "stars": 778,
+          "stars": 798,
           "lang": "Python",
           "published": "2026-10-15",
           "url": "https://github.com/Leonxlnx/earshot",
-          "overview": "Earshot项目为编码AI Agent提供了音频感知能力，使其能够听取、审查和生成声音。采用纯CPU运行方案，无需GPU支持，降低了部署门槛。提供完整的API接口和示例代码，面向需要音频处理能力的开发场景。项目展示了多模态AI在编程辅助领域的创新应用。",
-          "analysis": "随着AI Agent向多模态方向发展，Earshot为编码Agent提供了独特的音频处理能力，填补了现有工具在这一领域的空白。",
+          "overview": "Earshot 为 AI 编码 Agent 添加了音频感知能力，让 AI 能够听取、审查和生成声音。项目采用纯 CPU 实现，无需 GPU 支持，完全开源。这种设计使得它可以在资源受限的环境中运行，扩展了 AI Agent 的感官维度。",
+          "analysis": "多模态 AI Agent 是重要趋势，Earshot 专注于音频这一被忽视的维度。CPU-only 设计降低了部署门槛，使其能在服务器、边缘设备等环境中使用。对于需要音频处理的开发者和研究者来说，这是一个有价值的工具。开源特性促进了社区协作和创新。",
           "social": [
             {
               "who": "开发者",
-              "text": "让AI能够处理声音的开源项目，纯CPU运行降低了部署门槛。"
+              "text": "让 AI 能'听'声音是一个有趣的扩展——CPU-only 设计让部署变得简单。"
             },
             {
               "who": "研究者",
-              "text": "该项目展示了多模态AI在编程辅助领域的创新应用，具有独特的技术价值。"
+              "text": "多模态 Agent 的音频组件填补了空白，纯 CPU 实现保证了广泛的适用性。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Blender AI MCP Addon：3D 创作 AI 助手",
+          "eng": "LiCinCan/blender-ai-mcp-addon",
+          "summary": "为 Blender 提供 AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多 Agent 工作流。",
+          "source": "GitHub",
+          "stars": 785,
+          "lang": "Python",
+          "published": "2026-10-15",
+          "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+          "overview": "Blender AI MCP Addon 为 Blender 3D 创作工具提供了 AI 助手功能，支持视觉聊天、场景工具和多 Agent 工作流。兼容 OpenAI、ChatGPT、Claude、Gemini、Ollama、OpenCode 等多种模型。作为 Blender 插件和 Copilot，它通过 bpy Python 脚本和 MCP 集成实现了深度整合。",
+          "analysis": "3D 创作与 AI 的结合是重要趋势，Blender AI MCP Addon 提供了实用的解决方案。支持多种模型意味着用户可以选择最适合自己的方案。MCP 集成确保了与现代 AI 工具链的兼容性。对于 3D 艺术家和开发者来说，这是一个提升工作效率的好工具。Python 生态保证了良好的可维护性。",
+          "social": [
+            {
+              "who": "3D 艺术家",
+              "text": "在 Blender 里直接调用 AI 太方便了——视觉聊天让概念设计变得更快。"
+            },
+            {
+              "who": "开发者",
+              "text": "MCP + bpy Python 脚本的集成方式很优雅，既保持了 Blender 原生工作流又引入了 AI 能力。"
+            }
+          ]
+        },
+        {
+          "title_zh": "Hy-Memory：腾讯混元记忆系统",
+          "eng": "Tencent-Hunyuan/Hy-Memory",
+          "summary": "腾讯混元大模型的长时记忆系统，支持 AI 的持续学习和上下文保持。",
+          "source": "GitHub",
+          "stars": 777,
+          "lang": "Python",
+          "published": "2026-10-15",
+          "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+          "overview": "Hy-Memory 是腾讯混元大模型的长时记忆系统，旨在让 AI 具备持续学习和上下文保持的能力。项目使用 Python 编写，由腾讯官方团队维护。作为大厂出品的基础设施级项目，它代表了 AI 记忆机制的最新研究进展。",
+          "analysis": "AI 的长期记忆能力是解决上下文窗口限制的关键技术方向。Hy-Memory 来自腾讯混元团队，具有坚实的技术基础和研究背景。Python 生态保证了广泛的适用性和社区支持。对于研究 AI 记忆机制和构建持久化 AI Agent 的团队来说，这是一个重要的参考实现。",
+          "social": [
+            {
+              "who": "研究者",
+              "text": "大厂出品的记忆系统比小团队方案更可靠——腾讯混元的技术积累值得信任。"
+            },
+            {
+              "who": "开发者",
+              "text": "Python 实现 + 官方维护 = 长期可用的基础设施，适合生产环境部署。"
             }
           ]
         }
